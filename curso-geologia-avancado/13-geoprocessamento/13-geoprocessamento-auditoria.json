@@ -1,0 +1,584 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "13-geoprocessamento/",
+    "module_id": "13",
+    "course_id": "geologia-avancado"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-09-08",
+  "verdict": "approved_with_reservations",
+  "summary": {
+    "red": 2,
+    "orange": 9,
+    "yellow": 2,
+    "blue": 0,
+    "white": 1,
+    "verified_ok": 32
+  },
+  "findings": [
+    {
+      "claim_id": "GEOPROC-M13-A01-DATUM-002",
+      "severity": "red",
+      "kind": "erro_factual",
+      "location": {
+        "file": "13-geoprocessamento/13-geoprocessamento-aula-01-fundamentos-cartograficos.md",
+        "section": "Datum: o que fixa o modelo a Terra real / Exemplo trabalhado / manifesto",
+        "quote": "o SAD69 - South American Datum 1969, com origem no vertice Chua, em Minas Gerais, e elipsoide Internacional de 1924"
+      },
+      "claim": "O SAD69 tem como elipsoide de referencia o Internacional de Hayford (1924).",
+      "problem": "Falso. O SAD69 usa o elipsoide UGGI-67/GRS67 (a=6.378.160 m, 1/f=298,25). O elipsoide Internacional de Hayford 1924 (a=6.378.388 m, 1/f=297) e o do datum Corrego Alegre, anterior ao SAD69 no Brasil.",
+      "replacement": "SAD69 com elipsoide UGGI-67/GRS67 (semieixo maior 6.378.160 m); Corrego Alegre nomeado como o datum assentado no elipsoide Internacional de Hayford, 1924",
+      "source": {
+        "name": "IOGP EPSG Geodetic Parameter Dataset (EPSG:6291 / EPSG:4618) e IBGE, Sistemas de Referencia do SGB",
+        "url": "https://epsg.io/6291-datum",
+        "tier": "normative",
+        "version": "EPSG dataset consultado em 2026-09-08",
+        "consulted_at": "2026-09-08"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-geoprocessamento/13-geoprocessamento-aula-01-fundamentos-cartograficos.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-08"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A01-ONDULACAO-007",
+      "severity": "red",
+      "kind": "erro_factual",
+      "location": {
+        "file": "13-geoprocessamento/13-geoprocessamento-aula-01-fundamentos-cartograficos.md",
+        "section": "Elipsoide e geoide: dois modelos para uma Terra irregular",
+        "quote": "a ondulacao geoidal (N), que no Brasil varia tipicamente entre -5 m e -10 m dependendo da regiao - pequena"
+      },
+      "claim": "No Brasil a ondulacao geoidal varia tipicamente entre -5 m e -10 m e e uma correcao pequena.",
+      "problem": "Errado na amplitude e no sinal. O modelo oficial MAPGEO2015 (IBGE/EPUSP) traca isolinhas de N de 5 em 5 m ao longo de uma faixa da ordem de -30 m a +30 m, com valores positivos e negativos conforme a regiao. Chamar de pequena uma correcao de dezenas de metros inverte o sentido pratico do conceito.",
+      "replacement": "faixa da ordem de -30 m a +30 m (MAPGEO2015), com sinal duplo explicitado e a relacao h = H + N introduzida",
+      "source": {
+        "name": "IBGE/EPUSP (2015), MAPGEO2015 - Modelo de Ondulacao Geoidal do Brasil (cartograma oficial)",
+        "url": "https://www.ibge.gov.br/geociencias/informacoes-sobre-posicionamento-geodesico/servicos-para-posicionamento-geodesico/10855-modelo-de-ondulacao-geoidal.html",
+        "tier": "normative",
+        "version": "MAPGEO2015, grade 5 min, modelo EIGEN-6C4",
+        "consulted_at": "2026-09-08"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-geoprocessamento/13-geoprocessamento-aula-01-fundamentos-cartograficos.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-08"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A01-SIRGASWGS-008",
+      "severity": "orange",
+      "kind": "desatualizacao",
+      "location": {
+        "file": "13-geoprocessamento/13-geoprocessamento-aula-01-fundamentos-cartograficos.md",
+        "section": "Datum: o que fixa o modelo a Terra real",
+        "quote": "SIRGAS2000 e WGS84 sao, na pratica, quase coincidentes (diferenca da ordem de poucos centimetros na maior parte da America do Sul)"
+      },
+      "claim": "A diferenca entre SIRGAS2000 e WGS84 e da ordem de poucos centimetros.",
+      "problem": "Verdadeiro em 2000, nao hoje. SIRGAS2000 e estatico (epoca 2000,4); WGS84 acompanha o ITRF, dinamico. Com a placa Sul-Americana a pouco mais de 1 cm/ano para NW, a divergencia acumulada ja esta na casa dos decimetros (abaixo de 0,5 m).",
+      "replacement": "coincidencia de definicao preservada; divergencia de realizacao explicada (estatico vs. dinamico, ~1 cm/ano, decimetros hoje) e exigencia de declarar a epoca",
+      "source": {
+        "name": "IBGE, Projeto Mudanca do Referencial Geodesico (PMRG); definicao da realizacao SIRGAS2000 epoca 2000,4",
+        "url": "https://www.ibge.gov.br/geociencias/informacoes-sobre-posicionamento-geodesico/sirgas/16691-projeto-mudanca-do-referencial-geodesico-pmrg.html",
+        "tier": "normative",
+        "version": "documentacao IBGE/SIRGAS vigente em 2026-09",
+        "consulted_at": "2026-09-08"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-geoprocessamento/13-geoprocessamento-aula-01-fundamentos-cartograficos.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-08"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A01-OFICIALIZACAO-009",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "location": {
+        "file": "13-geoprocessamento/13-geoprocessamento-aula-01-fundamentos-cartograficos.md",
+        "section": "Datum: o que fixa o modelo a Terra real / Recap relampago",
+        "quote": "oficializado no Brasil desde 2015 como o unico datum valido para cartografia"
+      },
+      "claim": "O SIRGAS2000 foi oficializado no Brasil em 2015.",
+      "problem": "Confunde duas datas. Adocao oficial em 25/02/2005 (Res. IBGE/PR n. 1/2005), com periodo de transicao de dez anos; 25/02/2015 (Res. IBGE/PR n. 1/2015) e o termino dessa transicao, quando passou a ser o unico sistema valido no SGB e no SCN.",
+      "replacement": "as duas datas separadas e nomeadas com suas resolucoes, no corpo e no recap",
+      "source": {
+        "name": "IBGE, Resolucao PR n. 1/2005 e Resolucao PR n. 1/2015; Nota Tecnica sobre o termino do periodo de transicao",
+        "url": "https://geoftp.ibge.gov.br/metodos_e_outros_documentos_de_referencia/normas/rpr_01_2015_sirgas2000.pdf",
+        "tier": "normative",
+        "version": "Res. PR 1/2005 (25/02/2005) e Res. PR 1/2015 (25/02/2015)",
+        "consulted_at": "2026-09-08"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-geoprocessamento/13-geoprocessamento-aula-01-fundamentos-cartograficos.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-08"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A03-PPP-007",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "location": {
+        "file": "13-geoprocessamento/13-geoprocessamento-aula-03-georreferenciamento-gps-gnss-e-aquisicao-digital-de-dados-em-campo.md",
+        "section": "GPS e GNSS: como a posicao em campo e medida",
+        "quote": "Pos-processamento (PPP/pos-processado): os dados brutos do receptor movel sao gravados e depois corrigidos em escritorio, combinando-os com dados de estacoes de referencia (como a rede RBMC do IBGE no Brasil)"
+      },
+      "claim": "PPP e o nome do pos-processamento com dados de estacoes de referencia como a RBMC.",
+      "problem": "Rotulo colado no metodo errado. O descrito e posicionamento relativo pos-processado (estatico ou cinematico/PPK). PPP (Precise Point Positioning) processa o receptor isoladamente, sem estacao de referencia, usando orbitas e correcoes de relogio precisas - e o que faz o IBGE-PPP -, ao custo de maior tempo de convergencia.",
+      "replacement": "marcador reescrito separando posicionamento relativo pos-processado/PPK (com RBMC) de PPP (sem base, com orbitas e relogios precisos), com advertencia de que PPP nao e sinonimo de pos-processamento",
+      "source": {
+        "name": "IBGE, Manual do Usuario do servico IBGE-PPP e documentacao da RBMC; Hofmann-Wellenhof, Lichtenegger & Wasle (2008), GNSS, cap. 6-7",
+        "url": "https://www.ibge.gov.br/geociencias/informacoes-sobre-posicionamento-geodesico/servicos-para-posicionamento-geodesico/16334-servico-online-para-pos-processamento-de-dados-gnss-ibge-ppp.html",
+        "tier": "normative",
+        "version": "documentacao IBGE-PPP vigente em 2026-09",
+        "consulted_at": "2026-09-08"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-geoprocessamento/13-geoprocessamento-aula-03-georreferenciamento-gps-gnss-e-aquisicao-digital-de-dados-em-campo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-08"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A03-TRILATERACAO-004",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "location": {
+        "file": "13-geoprocessamento/13-geoprocessamento-aula-03-georreferenciamento-gps-gnss-e-aquisicao-digital-de-dados-em-campo.md",
+        "section": "GPS e GNSS: como a posicao em campo e medida",
+        "quote": "combinando as distancias a quatro ou mais satelites simultaneamente visiveis, calcula sua propria posicao tridimensional (x, y, z) por trilateracao"
+      },
+      "claim": "Quatro satelites sao necessarios para calcular a posicao tridimensional.",
+      "problem": "Correto, mas incompleto a ponto de induzir modelo mental errado: geometricamente tres distancias bastariam para fixar um ponto no espaco. O quarto satelite e necessario porque o erro do relogio do receptor entra como quarta incognita, resolvida junto com x, y e z - dai o termo pseudodistancia, que a aula usava sem introduzir.",
+      "replacement": "duas frases explicando a quarta incognita e introduzindo o termo pseudodistancia; lista de fatores de erro preservada",
+      "source": {
+        "name": "Hofmann-Wellenhof, Lichtenegger & Wasle (2008), GNSS - Global Navigation Satellite Systems, cap. 5",
+        "url": "",
+        "tier": "peer_reviewed",
+        "version": "Springer, 2008, 1a ed.",
+        "consulted_at": "2026-09-08"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-geoprocessamento/13-geoprocessamento-aula-03-georreferenciamento-gps-gnss-e-aquisicao-digital-de-dados-em-campo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-08"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A04-ALGEBRA-006",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "location": {
+        "file": "13-geoprocessamento/13-geoprocessamento-aula-04-geoprocessamento-vetorial-operacoes-espaciais.md",
+        "section": "Relacoes topologicas e consultas espaciais / Recap / Fontes",
+        "quote": "formam o vocabulario de algebra de mapas vetorial"
+      },
+      "claim": "O vocabulario de relacoes topologicas entre geometrias vetoriais e a algebra de mapas vetorial.",
+      "problem": "Algebra de mapas, no sentido de Tomlin (1990), e o formalismo de operacoes celula a celula sobre rasters. O vocabulario de relacoes topologicas vetoriais e formalizado pelo modelo DE-9IM (Clementini/Egenhofer), adotado pela especificacao OGC Simple Feature Access (ISO 19125). Era tambem contradicao transversal: o Modulo 07 (a04) ja usa o termo corretamente no sentido raster.",
+      "replacement": "vocabulario renomeado para relacoes topologicas, com DE-9IM/OGC como formalizacao e ressalva explicita separando-o da algebra de mapas raster de Tomlin (remetida a Aula 06); lista de relacoes alinhada ao padrao; Fontes atualizadas",
+      "source": {
+        "name": "OGC Simple Feature Access (ISO 19125); Egenhofer & Herring (1991); Clementini & Di Felice (1995); Tomlin (1990)",
+        "url": "https://link.springer.com/referenceworkentry/10.1007/978-0-387-35973-1_298",
+        "tier": "normative",
+        "version": "ISO 19125 / OGC SFA",
+        "consulted_at": "2026-09-08"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-geoprocessamento/13-geoprocessamento-aula-04-geoprocessamento-vetorial-operacoes-espaciais.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-08"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A04-FONTELONGLEY-007",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "location": {
+        "file": "13-geoprocessamento/13-geoprocessamento-aula-04-geoprocessamento-vetorial-operacoes-espaciais.md",
+        "section": "Fontes + claims OVERLAY-001, BUFFER-002, DISSOLVE-003, TOPOLOGIA-004, CALCULO-AREA-005",
+        "quote": "Longley, P. A. et al. (2015), Geographic Information Science and Systems, 4a ed., Wiley, cap. 14 (analise espacial vetorial, overlay, buffer)"
+      },
+      "claim": "Overlay, buffer e consultas espaciais estao no cap. 14 de Longley et al. (2015).",
+      "problem": "Na 4a edicao, o cap. 14 e Spatial Analysis and Inference (padroes de pontos, autocorrelacao, inferencia). Overlay, buffer, medidas e consultas espaciais estao no cap. 13, Spatial Data Analysis. O engano provavelmente vem da 3a edicao, em que Spatial Data Analysis era o cap. 14.",
+      "replacement": "ponteiro corrigido para cap. 13 (Spatial Data Analysis) nas Fontes e nos cinco claims do manifesto",
+      "source": {
+        "name": "Wiley, site companheiro oficial da 4a edicao (sumario dos 19 capitulos)",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&itemId=1118676955&bcsId=9274",
+        "tier": "reference_database",
+        "version": "4a ed., Wiley, 2015",
+        "consulted_at": "2026-09-08"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-geoprocessamento/13-geoprocessamento-aula-04-geoprocessamento-vetorial-operacoes-espaciais.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-08"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A05-FONTEBURROUGH-006",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "location": {
+        "file": "13-geoprocessamento/13-geoprocessamento-aula-05-interpolacao-espacial-e-mapas-de-isovalores.md",
+        "section": "Fontes + claims IDW-002, KRIGAGEM-003, SPLINE-004",
+        "quote": "Burrough, P. A. & McDonnell, R. A. (1998), Principles of Geographical Information Systems, Oxford University Press, cap. 8 (metodos de interpolacao espacial)"
+      },
+      "claim": "Os metodos de interpolacao espacial estao no cap. 8 de Burrough & McDonnell (1998).",
+      "problem": "O cap. 8 da edicao de 1998 e Spatial Analysis using Continuous Fields (analise de superficies, declividade). Interpolacao esta no cap. 5, Creating Continuous Surfaces from Point Data, e no cap. 6, Optimal Interpolation using Geostatistics. A Aula 06 do mesmo modulo cita o cap. 8 corretamente, para declividade.",
+      "replacement": "ponteiro corrigido para cap. 5 e cap. 6, com os titulos explicitados, nas Fontes e nos tres claims; a citacao do cap. 8 na a06 foi conferida e mantida",
+      "source": {
+        "name": "Sumario oficial de Burrough & McDonnell (1998), Principles of Geographical Information Systems, OUP",
+        "url": "https://global.oup.com/academic/product/principles-of-geographical-information-systems-9780198742845",
+        "tier": "reference_database",
+        "version": "2a ed., OUP, 1998",
+        "consulted_at": "2026-09-08"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-geoprocessamento/13-geoprocessamento-aula-05-interpolacao-espacial-e-mapas-de-isovalores.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-08"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A06-SRTM-002",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "location": {
+        "file": "13-geoprocessamento/13-geoprocessamento-aula-06-modelos-digitais-de-elevacao-declividade-hipsometria-hidrologia.md",
+        "section": "O que e um modelo digital de elevacao",
+        "quote": "com resolucao original de 30 m (para a maior parte do globo, incluindo o Brasil, desde o refinamento de cobertura completada em anos posteriores a missao original de 2000)"
+      },
+      "claim": "A resolucao de 30 m do SRTM para fora dos EUA resultou de um refinamento de cobertura posterior a missao de 2000.",
+      "problem": "Nao houve refinamento nem novo levantamento. A missao (fev/2000) ja adquiriu a 1 segundo de arco (~30 m) entre 60N e 56S; fora dos EUA so a versao de 3 arc-second (~90 m) foi publicada por mais de uma decada. A liberacao global de 1 arc-second comecou em setembro de 2014 (America do Sul em novembro de 2014) e se completou em 2015. A diferenca e de politica de distribuicao.",
+      "replacement": "paragrafo reescrito com data da missao, dado adquirido, restricao de distribuicao, datas da liberacao global e advertencia pratica de checar a versao do produto",
+      "source": {
+        "name": "USGS EROS Archive - SRTM 1 Arc-Second Global; NASA Earthdata, comunicado da liberacao global 1 arc-second da versao 3.0",
+        "url": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-shuttle-radar-topography-mission-srtm-1",
+        "tier": "normative",
+        "version": "SRTM v3.0; liberacao a partir de 2014-09-24",
+        "consulted_at": "2026-09-08"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-geoprocessamento/13-geoprocessamento-aula-06-modelos-digitais-de-elevacao-declividade-hipsometria-hidrologia.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-08"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A07-NORMAS-005",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "location": {
+        "file": "13-geoprocessamento/13-geoprocessamento-aula-07-layout-cartografico-normatizado-e-projeto-integrado.md",
+        "section": "Fontes + claim ELEMENTOS-001",
+        "quote": "Especificacao Tecnica para Estruturacao de Dados Geoespaciais Vetoriais - ET-ADGV (DSG/IBGE)"
+      },
+      "claim": "A ET-ADGV e a Especificacao Tecnica para Estruturacao de Dados Geoespaciais Vetoriais, publicada por DSG/IBGE.",
+      "problem": "Tres erros: (1) ET-ADGV e Aquisicao, nao Estruturacao - estruturacao e a ET-EDGV; (2) quem publica e a DSG (Diretoria de Servico Geografico do Exercito), com homologacao da CONCAR, nao o IBGE; (3) nenhuma das duas trata de simbologia ou layout, tema desta aula - a especificacao pertinente e a ET-RDG (Representacao de Dados Geoespaciais).",
+      "replacement": "Fontes reescritas nomeando ET-EDGV, ET-ADGV e ET-RDG com seus escopos e o publicador correto (DSG/Exercito, homologacao CONCAR), com destaque para a ET-RDG; Decreto 89.817/1984 acrescentado",
+      "source": {
+        "name": "DSG/Exercito Brasileiro, Geoportal - paginas oficiais da ET-ADGV, ET-EDGV e ET-RDG; INDE/CONCAR, ET-EDGV v3.0",
+        "url": "https://geoportal.eb.mil.br/portal/index.php/et-edgv/et-adgv",
+        "tier": "normative",
+        "version": "ET-ADGV 3.0 (2018); ET-EDGV 3.0 (2017)",
+        "consulted_at": "2026-09-08"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-geoprocessamento/13-geoprocessamento-aula-07-layout-cartografico-normatizado-e-projeto-integrado.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-08"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A03-ERROGRAFICO-006",
+      "severity": "yellow",
+      "kind": "desatualizacao",
+      "location": {
+        "file": "13-geoprocessamento/13-geoprocessamento-aula-03-georreferenciamento-gps-gnss-e-aquisicao-digital-de-dados-em-campo.md",
+        "section": "Exemplo trabalhado",
+        "quote": "algo da ordem de 0,5 a 1,0 mm medidos na escala do proprio mapa (um valor tipicamente adotado como limite de erro grafico toleravel ao olho humano)"
+      },
+      "claim": "A faixa de 0,5 a 1,0 mm e uma convencao pratica informal de erro grafico, que nao substitui o PEC formal.",
+      "problem": "A faixa citada E o PEC. O Decreto 89.817/1984, art. 9, fixa o PEC planimetrico em 0,5 mm (Classe A), 0,8 mm (B) e 1,0 mm (C) na escala da carta, com erros-padrao de 0,3, 0,5 e 0,6 mm. Havia ainda imprecisao estatistica: RMSE se compara ao erro-padrao da classe, nao ao valor do PEC.",
+      "replacement": "paragrafo ancorado no Decreto 89.817/1984 com as tres classes e seus erros-padrao; exemplo refeito na metrica correta (45 m = 0,45 mm; acima do EP da Classe A, dentro do da Classe B), conclusao original preservada",
+      "source": {
+        "name": "Brasil, Decreto n. 89.817, de 20/06/1984, art. 8 e 9 (texto oficial, Camara dos Deputados)",
+        "url": "https://www2.camara.leg.br/legin/fed/decret/1980-1987/decreto-89817-20-junho-1984-439814-publicacaooriginal-1-pe.html",
+        "tier": "normative",
+        "version": "Decreto 89.817/1984",
+        "consulted_at": "2026-09-08"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-geoprocessamento/13-geoprocessamento-aula-03-georreferenciamento-gps-gnss-e-aquisicao-digital-de-dados-em-campo.md",
+        "13-geoprocessamento/13-geoprocessamento-aula-07-layout-cartografico-normatizado-e-projeto-integrado.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-08"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A07-NBR13133-006",
+      "severity": "yellow",
+      "kind": "desatualizacao",
+      "location": {
+        "file": "13-geoprocessamento/13-geoprocessamento-aula-07-layout-cartografico-normatizado-e-projeto-integrado.md",
+        "section": "Fontes",
+        "quote": "ABNT NBR 13133:1994 (Execucao de levantamento topografico)"
+      },
+      "claim": "A ABNT NBR 13133:1994 e a norma vigente de execucao de levantamento topografico.",
+      "problem": "Edicao superada. A ABNT NBR 13133:2021 (Execucao de levantamento topografico - Procedimento) cancelou e substituiu a edicao anterior, incorporando altitude normal, posicionamento GNSS, varredura a laser e criterios objetivos de aceitacao.",
+      "replacement": "citacao atualizada para NBR 13133:2021, com mencao as edicoes substituidas",
+      "source": {
+        "name": "ABNT NBR 13133:2021, Execucao de levantamento topografico - Procedimento",
+        "url": "",
+        "tier": "normative",
+        "version": "ABNT NBR 13133:2021",
+        "consulted_at": "2026-09-08"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-geoprocessamento/13-geoprocessamento-aula-07-layout-cartografico-normatizado-e-projeto-integrado.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-08"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A02-GEOCOD-005",
+      "severity": "white",
+      "kind": "controversia",
+      "location": {
+        "file": "13-geoprocessamento/13-geoprocessamento-aula-02-ambiente-sig-estruturas-vetorial-e-matricial.md",
+        "section": "Exemplo trabalhado / Recap / manifesto",
+        "quote": "O procedimento padrao de um SIG e a operacao de geocodificacao por coordenadas"
+      },
+      "claim": "A conversao de uma tabela XY em camada de pontos chama-se geocodificacao por coordenadas.",
+      "problem": "Divergencia real entre fontes do mesmo nivel. O glossario da ESRI define geocoding de forma ampla, incluindo pares de coordenadas; a maior parte da bibliografia de SIG e o uso de mercado reservam geocodificacao para a conversao de enderecos em coordenadas, problema tecnicamente distinto (matching, taxa de acerto). Nao e erro do autor.",
+      "replacement": "operacao nomeada pelo que faz (importacao de tabela XY) e paragrafo curto registrando as duas acepcoes, sem escolher lado; recap, claim, hub do modulo e a07 alinhados",
+      "source": {
+        "name": "ESRI ArcGIS Pro Documentation (XY Table to Point; glossario: geocoding); QGIS Documentation (Add Delimited Text Layer); Longley et al. (2015), cap. 4 e 8",
+        "url": "",
+        "tier": "reference_database",
+        "version": "documentacao vigente em 2026-09",
+        "consulted_at": "2026-09-08"
+      },
+      "confidence": "em_disputa",
+      "affected_files": [
+        "13-geoprocessamento/13-geoprocessamento-aula-02-ambiente-sig-estruturas-vetorial-e-matricial.md",
+        "13-geoprocessamento/13-geoprocessamento-aula-07-layout-cartografico-normatizado-e-projeto-integrado.md",
+        "13-geoprocessamento/13-geoprocessamento-modulo.md"
+      ],
+      "outcome": "corrigido_com_ressalva",
+      "applied_at": "2026-09-08"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "GEOPROC-M13-A01-ELIPGEOIDE-001",
+      "claim": "Elipsoide como superficie de calculo de coordenadas horizontais e geoide como superficie equipotencial de referencia da altitude ortometrica.",
+      "source": "Snyder 1987, cap. 1; IBGE/SGB",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A01-DESLOC-003",
+      "claim": "Deslocamento SAD69-SIRGAS2000 da ordem de 60 a 70 m na maior parte do territorio brasileiro, variando regionalmente.",
+      "source": "IBGE, parametros de transformacao SAD69-SIRGAS2000 (ProGrid)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A01-UTM-004",
+      "claim": "60 fusos UTM de 6 graus; territorio brasileiro entre os fusos 18 e 25.",
+      "source": "Snyder 1987; extensao longitudinal do Brasil (73 59 W a 34 47 W)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A01-PROJECAO-005",
+      "claim": "Nenhuma projecao preserva simultaneamente forma, area e distancia; classificacao em conformes, equivalentes e equidistantes.",
+      "source": "Snyder 1987, cap. 1-3; Theorema Egregium (Gauss, 1827)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A01-ESCALA-006",
+      "claim": "Definicao de escala cartografica e a distincao entre escalas grandes e pequenas.",
+      "source": "Convencao cartografica padrao; Snyder 1987",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A02-SIG-001",
+      "claim": "Definicao de SIG como integracao de dados espaciais e de atributo.",
+      "source": "Longley et al. 2015, cap. 1",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A02-VETOR-002",
+      "claim": "Modelo vetorial: geometrias discretas com tabela de atributos, adequado a feicoes de limite definido.",
+      "source": "Burrough & McDonnell 1998, cap. 2-3; Longley et al. 2015, cap. 3",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A02-RASTER-003",
+      "claim": "Modelo matricial: grade regular de celulas, parametros (resolucao, extensao, linhas/colunas, tipo de dado), adequado a variacao continua.",
+      "source": "Burrough & McDonnell 1998, cap. 2; Longley et al. 2015, cap. 3",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A02-CONVERSAO-004",
+      "claim": "Rasterizacao e vetorizacao como conversoes entre os dois modelos.",
+      "source": "Longley et al. 2015, cap. 3 e 8",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A02-GEODATABASE-006",
+      "claim": "Geodatabase como banco de dados espacial estruturado com regras de integridade, dominios e relacionamentos.",
+      "source": "ESRI ArcGIS Pro Documentation; Longley et al. 2015, cap. 7",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A03-GEORREF-001",
+      "claim": "Georreferenciamento por GCPs, transformacao afim/polinomial, minimo de tres pontos nao colineares para a afim.",
+      "source": "Longley et al. 2015, cap. 4",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A03-RMSE-002",
+      "claim": "Definicao de RMSE do georreferenciamento e dependencia da aceitabilidade em relacao a escala do dado-fonte.",
+      "source": "Longley et al. 2015, cap. 4",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A03-GPSGNSS-003",
+      "claim": "GPS como constelacao dos EUA; GNSS como termo generico (GPS, GLONASS, Galileo, BeiDou); receptores multiconstelacao.",
+      "source": "Hofmann-Wellenhof et al. 2008, cap. 1",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A03-MODOS-005-PRECISOES",
+      "claim": "Ordens de grandeza de precisao: autonomo (metros), DGPS (submetrico a poucos metros), RTK (centimetros).",
+      "source": "Hofmann-Wellenhof et al. 2008, cap. 4 e 6",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A04-OVERLAY-001",
+      "claim": "Intersecao, uniao e diferenca/erase como operacoes de sobreposicao vetorial, analogas as da teoria de conjuntos.",
+      "source": "Longley et al. 2015, cap. 13",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A04-BUFFER-002",
+      "claim": "Buffer como poligono de todas as posicoes a uma distancia dada; individual ou dissolvido.",
+      "source": "Longley et al. 2015, cap. 13; ESRI ArcGIS Pro",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A04-DISSOLVE-003",
+      "claim": "Dissolve funde poligonos adjacentes de mesmo valor de atributo; evita dupla contagem no calculo de area agregada.",
+      "source": "Longley et al. 2015, cap. 13; ESRI ArcGIS Pro",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A04-CALCULO-AREA-005",
+      "claim": "Calculo de area exige coordenadas projetadas, nao geograficas.",
+      "source": "Snyder 1987, cap. 1; Longley et al. 2015, cap. 4 e 13",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A05-TOBLER-001",
+      "claim": "Primeira lei da geografia atribuida a Waldo Tobler (1970), Economic Geography 46(sup1), 234-240.",
+      "source": "Tobler 1970",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A05-IDW-002",
+      "claim": "IDW deterministico, peso decrescente por potencia da distancia, sem estimativa de incerteza, nunca extrapola alem do intervalo observado; artefato de olho de boi.",
+      "source": "Burrough & McDonnell 1998, cap. 5; Isaaks & Srivastava 1989",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A05-KRIGAGEM-003",
+      "claim": "Krigagem geoestatistica via variograma, pesos que minimizam o erro esperado (BLUE), com variancia de krigagem como medida de incerteza.",
+      "source": "Isaaks & Srivastava 1989, cap. 12; Burrough & McDonnell 1998, cap. 6",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A05-SPLINE-004",
+      "claim": "Spline ajusta superficie suave que passa pelos pontos amostrais minimizando curvatura; pode extrapolar alem do intervalo observado (overshoot).",
+      "source": "Burrough & McDonnell 1998, cap. 5",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A05-ISOLINHAS-005",
+      "claim": "Leitura de mapas de isovalores: espacamento das isolinhas como gradiente, isolinhas fechadas como maximo/minimo local.",
+      "source": "Convencao cartografica padrao; Burrough & McDonnell 1998",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A06-MDTMDS-001",
+      "claim": "MDT como terreno nu, MDS como topo dos objetos; MDS menos MDT estima altura de vegetacao e estruturas.",
+      "source": "Jensen 2016; terminologia padrao de fotogrametria",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A06-DECLIVIDADE-003",
+      "claim": "Declividade por janela movel 3x3, expressa em graus (0-90) ou porcentagem (100% = 45 graus); qualidade dependente da resolucao.",
+      "source": "Burrough & McDonnell 1998, cap. 8; conversao trigonometrica (tan 45 = 1)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A06-HIPSOMETRIA-004",
+      "claim": "Curva hipsometrica de Strahler (1952): convexa = jovem, sigmoide = madura, concava = senil.",
+      "source": "Strahler 1952, GSA Bulletin 63(11), 1117-1142",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A06-D8-005",
+      "claim": "D8 atribui direcao unica entre oito vizinhos pela maior declividade descendente; acumulacao de fluxo como contagem de celulas a montante.",
+      "source": "O Callaghan & Mark 1984, CVGIP 28(3), 323-344",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A06-LINEAMENTO-006",
+      "claim": "Lineamentos de MDE como hipotese de controle estrutural, com vies de direcao de iluminacao do hillshade e alternativas litologica e antropica; verificacao de campo obrigatoria.",
+      "source": "Jensen 2016, cap. 8; pratica consolidada de interpretacao estrutural remota",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A07-ELEMENTOS-001",
+      "claim": "Elementos obrigatorios de layout cartografico tecnico (titulo, corpo, legenda, escala, norte, sistema de referencia, grade, fonte/autoria, notas).",
+      "source": "Slocum et al. 2022, cap. 5",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A07-ESCALAGRAFICA-002",
+      "claim": "Escala grafica permanece correta sob redimensionamento; escala numerica isolada, nao.",
+      "source": "Slocum et al. 2022, cap. 8",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A07-PALETAS-003",
+      "claim": "Paletas sequenciais, divergentes e qualitativas conforme o tipo de dado.",
+      "source": "Brewer 2016, Designing Better Maps, 2a ed., Esri Press, cap. 4-6; ColorBrewer",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOPROC-M13-A07-CLASSIFICACAO-004",
+      "claim": "Intervalos iguais, quantis e quebras naturais (Jenks, minimiza variancia intraclasse); a escolha altera a leitura sem alterar os dados.",
+      "source": "Slocum et al. 2022, cap. 5",
+      "confidence": "confirmado"
+    }
+  ]
+}

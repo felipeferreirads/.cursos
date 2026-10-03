@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "01-fundamentos-e-metodo",
+    "module_id": "01",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-16",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 0,
+    "yellow": 0,
+    "blue": 3,
+    "white": 1,
+    "verified_ok": 0
+  },
+  "findings": [
+    {
+      "claim_id": "GEO-M01-A04-ACASTA",
+      "severity": "blue",
+      "kind": "controversia",
+      "claim": "Disputa entre o gnaisse de Acasta e a faixa de Nuvvuagittuq quanto à rocha mais antiga preservada.",
+      "location": {
+        "file": "01-fundamentos-e-metodo-aula-04-como-a-terra-se-formou.md"
+      },
+      "problem": "Disputa entre o gnaisse de Acasta e a faixa de Nuvvuagittuq quanto à rocha mais antiga preservada.",
+      "replacement": "Nenhuma. Verificado nesta rodada que nem M01-a04, nem M00-a03, nem M03-a05 arbitram a disputa.",
+      "affected_files": [
+        "01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-04-como-a-terra-se-formou.md",
+        "00-partida-do-zero/00-partida-do-zero-aula-03-ordens-de-grandeza.md",
+        "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-05-datacao-na-pratica.md"
+      ],
+      "applied_at": "2026-08-16",
+      "confidence": "em_disputa",
+      "outcome": "aceito_como_esta"
+    },
+    {
+      "claim_id": "GEO-M01-A04-LUA",
+      "severity": "blue",
+      "kind": "controversia",
+      "claim": "Modelo de impacto gigante é dominante, mas parâmetros do impactor e assinatura isotópica seguem em debate.",
+      "location": {
+        "file": "01-fundamentos-e-metodo-aula-04-como-a-terra-se-formou.md"
+      },
+      "problem": "Modelo de impacto gigante é dominante, mas parâmetros do impactor e assinatura isotópica seguem em debate.",
+      "replacement": "Nenhuma. O texto já apresenta como modelo dominante com parâmetros em debate (LC-08).",
+      "affected_files": [
+        "01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-04-como-a-terra-se-formou.md"
+      ],
+      "applied_at": "2026-08-16",
+      "confidence": "em_disputa",
+      "outcome": "aceito_como_esta"
+    },
+    {
+      "claim_id": "GEO-M01-A05-ESPESSURAS",
+      "severity": "blue",
+      "kind": "evidencia_insuficiente",
+      "claim": "Faixas de referência de espessura crustal e do limite manto-núcleo tratadas como valores fechados no texto antigo.",
+      "location": {
+        "file": "01-fundamentos-e-metodo-aula-05-camadas-quimica-e-mecanica.md"
+      },
+      "problem": "Faixas de referência de espessura crustal e do limite manto-núcleo tratadas como valores fechados no texto antigo.",
+      "replacement": "Neutralizado no nível iniciante pela regra LC-05; o texto reescrito usa faixas. Precisão plena deferida ao M19. Escopo do achado reduzido pela harmonização XC-F01.",
+      "affected_files": [
+        "01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-05-camadas-quimica-e-mecanica.md"
+      ],
+      "applied_at": "2026-08-16",
+      "confidence": "confirmado",
+      "outcome": "aceito_como_esta"
+    },
+    {
+      "claim_id": "GEO-M01-A04-VELOCIDADE-PLACA-006",
+      "severity": "white",
+      "kind": "evidencia_insuficiente",
+      "claim": "Três alegações que vivem no arquivo da aula 06 carregam prefixo de claim_id da aula 04. Conteúdo correto; apenas a âncora não corresponde ao arquivo.",
+      "location": {
+        "file": "01-fundamentos-e-metodo-aula-06-esferas-ciclo-e-tempo-profundo.md"
+      },
+      "problem": "Três alegações que vivem no arquivo da aula 06 carregam prefixo de claim_id da aula 04. Conteúdo correto; apenas a âncora não corresponde ao arquivo.",
+      "replacement": "Nenhuma. claim_id não deve ser reciclado nem renumerado. Registrado para rastreabilidade futura.",
+      "affected_files": [
+        "01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-06-esferas-ciclo-e-tempo-profundo.md"
+      ],
+      "applied_at": "2026-08-16",
+      "confidence": "confirmado",
+      "outcome": "aceito_como_esta"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "GEO-M01-A02-HUTTON-008",
+      "claim": "James Hutton, escoces, formulou no fim do seculo XVIII a ideia de que os processos observaveis no presente sao a chave para interpretar o registro do passado.",
+      "source": "Encyclopedia Britannica, verbete 'James Hutton'; USGS, 'History of Geology'",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M01-A02-LYELL-1830-009",
+      "claim": "Charles Lyell popularizou o atualismo em 'Principles of Geology' (1830), obra que influenciou Darwin.",
+      "source": "Encyclopedia Britannica, verbete 'Charles Lyell'; USGS, 'History of Geology'",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M01-A02-LYELL-GRADUALISMO-010",
+      "claim": "A formulacao de Lyell embutia o gradualismo (constancia de taxas), e e essa heranca que carrega o termo 'uniformitarismo' de um sentido mais forte que o do atualismo.",
+      "source": "historia da geologia; Encyclopedia Britannica, verbete 'Charles Lyell'; distincao classica entre uniformitarismo metodologico e substantivo (Gould, 1965)",
+      "confidence": "confirmado"
+    }
+  ]
+}

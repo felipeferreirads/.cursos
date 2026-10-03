@@ -1,0 +1,319 @@
+{
+  "course": "curso-lapidacao",
+  "module_id": "14",
+  "module_slug": "julgar-o-talhe",
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-09-07",
+  "applied_at": "2026-09-07",
+  "verdict": "approved_with_corrections",
+  "claims_declared_before": 20,
+  "claims_after": 20,
+  "focus_note": "Modulo de encerramento do curso. A auditoria foi orientada por dois riscos declarados pelo orquestrador: (1) consistencia cross-modulo, porque este modulo reativa definicoes fechadas dos modulos 02, 03, 04, 05, 06, 07, 08, 09, 10, 12 e 13; (2) erro de procedencia de fonte, padrao recorrente deste curso ja registrado nos modulos 09 a 13. Os dois riscos renderam achados vermelhos.",
+  "counts": {
+    "red": 4,
+    "orange": 10,
+    "yellow": 0,
+    "blue": 1,
+    "white": 0,
+    "total": 15,
+    "corrected": 14,
+    "corrected_with_caveat": 1,
+    "open_blocking": 0,
+    "open_non_blocking": 0
+  },
+  "findings": [
+    {
+      "claim_id": "JUL-UNDERCUT-CONT-001",
+      "severity": "red",
+      "nature": "inconsistencia_interna+erro_de_procedencia",
+      "title": "O curso tem quatro sentidos de undercut, nao tres; e o modulo 09 reconciliou um conjunto diferente",
+      "where": ["aula 02 / O defeito de nome ambiguo: undercut", "aula 02 / Erros comuns", "aula 02 / Recap relampago", "aula 02 / rodape DEF-UNDERCUT-SENT-001"],
+      "problem": "A aula listava TRES sentidos (serra do modulo 03; abrasao diferencial do modulo 07; socavacao de cinta do modulo 06) e omitia o QUARTO, estabelecido no verbete de vocabulario do modulo 09 aula 05: undercut como faceta que para antes do ponto de encontro, oposta ao overcut. Alem disso, a fonte do claim afirmava que o modulo 09 aula 05 ja havia reconciliado esses tres sentidos como distintos; o que o modulo 09 reconciliou foi serra + abrasao diferencial + profundidade de faceta, SEM a socavacao de cinta do cabochao.",
+      "correction": "Lista reescrita com QUATRO sentidos numerados e wikilink para o modulo 09 aula 05. Acrescentada a explicacao de por que o sentido (4) nao entra neste catalogo sob o nome de undercut: na pedra pronta ele se manifesta como meetline, nao como depressao de superficie. Erros comuns e Recap alinhados. Fonte do claim recebeu ressalva de procedencia registrando que a reconciliacao dos quatro e feita neste modulo pela primeira vez.",
+      "sources": [
+        "curso-lapidacao, 09-geometria-e-diagramas-aula-05, tabela de vocabulario, verbete overcut/undercut",
+        "curso-lapidacao, 06-cabochao-aula-04, verbete socavacao (undercut)",
+        "curso-lapidacao, 03-maquinas-da-bancada-aula-01, verbete sub-corte (undercut)",
+        "curso-lapidacao, 07-esfera-e-torneadas-aula-03"
+      ],
+      "source_checked_at": "2026-09-07",
+      "confidence": "confirmado",
+      "affected_files": ["14-julgar-o-talhe/14-julgar-o-talhe-aula-02-o-catalogo-de-defeitos-o-que-se-ve-na-pedra-pronta.md"],
+      "outcome": "corrigido"
+    },
+    {
+      "claim_id": "JUL-EXT-DICOT-001",
+      "severity": "red",
+      "nature": "inconsistencia_interna+omissao_que_gera_erro",
+      "title": "Dicotomia falsa execucao x material para a extincao: o curso ensinou cinco causas, duas delas de projeto",
+      "where": ["aula 03 / Mapeando o catalogo as etapas", "aula 03 / O quadro do diagnostico", "aula 03 / Exemplo trabalhado, Passo 1", "aula 03 / Erros comuns", "aula 03 / Recap relampago", "aula 03 / rodape DIA-JAN-ETAPA-001"],
+      "problem": "A aula ensinava a regra 'se a zona escura persistiria com o angulo ideal, a causa e do material'. O modulo 05 aula 06 fixa CINCO causas independentes de extincao: (1) pavilhao fundo + head shadow, (2) indice de refracao baixo, (3) saturacao de cor alta, (4) estilo de talhe degrau, (5) contorno alongado (bowtie). So (1) e de execucao; (2) e (3) sao de material; (4) e (5) sao decisoes de PROJETO e persistem com o angulo corrigido. A regra escrita classificava erradamente duas das cinco causas. O proprio exemplo trabalhado era um caso da causa omitida: esmeralda em TALHE DEGRAU diagnosticada como extincao puramente de material.",
+      "correction": "Paragrafo reescrito enumerando as cinco causas com a atribuicao correta (1 execucao, 2 material, 2 projeto); o teste do angulo foi reposicionado como o passo que isola SO a causa de execucao; a tabela de diagnostico ganhou a origem 'projeto (estilo, contorno)'; o Passo 1 do exemplo passou a fechar com duas causas somadas (saturacao = material; talhe degrau = projeto), nenhuma de execucao; Erros comuns e Recap reescritos; claim DIA-JAN-ETAPA-001 reformulado com a frase explicita de que persistir NAO implica, por si so, causa de material.",
+      "sources": ["curso-lapidacao, 05-leitura-do-bruto-aula-06-janelamento-e-extincao, secao 'Extincao - cinco causas independentes' e tabela de causas"],
+      "source_checked_at": "2026-09-07",
+      "confidence": "confirmado",
+      "affected_files": ["14-julgar-o-talhe/14-julgar-o-talhe-aula-03-diagnostico-reverso-do-defeito-visivel-a-etapa-da-bancada-que-o-produziu.md"],
+      "outcome": "corrigido"
+    },
+    {
+      "claim_id": "JUL-USFG-VERB-001",
+      "severity": "red",
+      "nature": "erro_de_procedencia",
+      "title": "O dicionario da USFG nao tem os verbetes windowing, extinction nem extra facet",
+      "where": ["aula 02 / Fontes consultadas", "aula 02 / rodape DEF-JAN-EXT-001"],
+      "problem": "A aula atribuia ao USFG Faceting Dictionary verbetes de windowing e extinction. O dicionario foi consultado verbete a verbete em 2026-09-07: EXISTEM meet, meetpoint, girdle, scratch e polish; NAO EXISTEM windowing, window, extinction nem extra facet. E o mesmo padrao do achado laranja 11 da auditoria do modulo 09, que constatou a ausencia de overcut e undercut no mesmo dicionario.",
+      "correction": "Linha de fontes refeita citando o dicionario pelos verbetes que ele TEM, com as definicoes literais (scratch: 'a linear gouging on the facet's surface'; polish: 'the smoothness of the surface of a facet...'), mais ressalva nomeando os tres ausentes. Janela e extincao reatribuidas a Sinkankas e a Vargas & Vargas, as fontes externas que o proprio modulo 05 aula 06 usa. Claim DEF-JAN-EXT-001 recebeu a mesma ressalva.",
+      "sources": ["United States Faceters Guild, USFG Faceting Dictionary, https://usfacetersguild.org/usfg-faceting-dictionary/ (verbetes windowing, extinction e extra facet AUSENTES; meet, meetpoint, girdle, scratch e polish PRESENTES)"],
+      "source_checked_at": "2026-09-07",
+      "confidence": "confirmado",
+      "affected_files": ["14-julgar-o-talhe/14-julgar-o-talhe-aula-02-o-catalogo-de-defeitos-o-que-se-ve-na-pedra-pronta.md"],
+      "outcome": "corrigido",
+      "spillover_note": "A mesma atribuicao errada existe no rodape de 05-leitura-do-bruto-aula-06 (fonte de JAN-EXT-DEF-001), modulo fechado e fora do escopo desta auditoria. Registrado como pendencia nao bloqueante."
+    },
+    {
+      "claim_id": "JUL-REPOL-CINTA-001",
+      "severity": "red",
+      "nature": "erro_factual+inconsistencia_interna",
+      "title": "Cinta ondulada descrita como cedendo a repolimento leve",
+      "where": ["aula 04 / O que o recorte consegue", "aula 04 / Recap relampago", "aula 04 / rodape REC-EXEC-ALVO-001"],
+      "problem": "A aula 02 deste mesmo modulo define cinta ondulada como a linha da cinta que sobe e desce por facetas de cinta desiguais, e a aula 03 a atribui as manobras pintar e escavar do modulo 10 aula 05, que alteram inclinacao e altura das facetas de cinta. E geometria de faceta, nao estado de superficie. O vocabulario da propria aula 04 define repolimento como 'renovar so a superficie, sem alterar proporcao ou angulo'. Um repolimento nao pode endireitar a linha da cinta.",
+      "correction": "Paragrafo separado em dois itens: arranhao isolado como o UNICO item do catalogo que cede a repolimento; cinta ondulada explicitamente marcada como nao-cedente, com a razao geometrica e a consequencia (recortar as facetas de cinta em toda a volta). Recap alinhado. Claim REC-EXEC-ALVO-001 reescrito item a item, com registro do que a versao anterior afirmava.",
+      "sources": [
+        "curso-lapidacao, 14-julgar-o-talhe-aula-02 (definicao de cinta ondulada) e 14-julgar-o-talhe-aula-04 (verbete repolimento)",
+        "curso-lapidacao, 10-familias-de-talhe-aula-05 (pintar e escavar alteram a inclinacao das facetas de cinta)"
+      ],
+      "source_checked_at": "2026-09-07",
+      "confidence": "confirmado",
+      "affected_files": ["14-julgar-o-talhe/14-julgar-o-talhe-aula-04-recorte-quando-vale-o-que-se-perde-e-o-que-o-talhe-nao-conserta.md"],
+      "outcome": "corrigido"
+    },
+    {
+      "claim_id": "JUL-IGS-FANTAS-001",
+      "severity": "orange",
+      "nature": "erro_de_procedencia",
+      "title": "O guia Diamond Cut Quality do IGS nao trata de simetria de contorno de fantasia",
+      "where": ["aula 01 / Fontes consultadas", "aula 01 / rodape JUL-SIM-DOIS-001"],
+      "problem": "A metade da atribuicao sobre proporcao em porcentagem procede; a metade sobre simetria de reflexao em contornos de fantasia nao. O guia declara apenas que 'grading fancy diamond cuts (as opposed to round brilliants) involves much looser and more subjective parameters', sem orientacao de simetria de contorno. Quem cobre isso e outro artigo do mesmo publicador.",
+      "correction": "Linha dividida em duas: o guia de corte fica com a proporcao em porcentagem (mesa 52-62% da largura; altura de coroa 12,5-17% da profundidade total) mais ressalva de que nao cobre fantasia; simetria de contorno de fantasia e razao comprimento:largura passaram para How to Grade Fancy Cut Diamonds. Fonte do claim atualizada com mencao ao modulo 10 aula 01.",
+      "sources": [
+        "International Gem Society, Diamond Cut Quality: Ultimate Guide, https://www.gemsociety.org/article/diamond-cuts/",
+        "International Gem Society, How to Grade Fancy Cut Diamonds, https://www.gemsociety.org/article/guide-grading-fancy-shaped-diamonds/"
+      ],
+      "source_checked_at": "2026-09-07",
+      "confidence": "confirmado",
+      "affected_files": ["14-julgar-o-talhe/14-julgar-o-talhe-aula-01-os-criterios-de-qualidade-do-talhe-simetria-proporcao-encontros-e-acabamento.md"],
+      "outcome": "corrigido"
+    },
+    {
+      "claim_id": "JUL-GIA-CATEG-001",
+      "severity": "orange",
+      "nature": "erro_de_procedencia+certeza_indevida",
+      "title": "Proporcao nao e categoria graduada do cut grading da GIA; e a GIA nao trata de recorte",
+      "where": ["aula 01 / Fontes consultadas", "aula 01 / rodape JUL-CRIT-QUAT-001", "aula 04 / Fontes consultadas"],
+      "problem": "O sistema da GIA avalia SETE componentes: brilho, fogo, cintilacao, razao de peso, durabilidade, polimento e simetria. As proporcoes sao a base medida a partir da qual razao de peso, durabilidade e os tres componentes de aparencia sao calculados, e nao uma categoria graduada a parte. Alem disso, a aula 04 atribuia a GIA criterios 'usados para justificar (ou nao) um recorte' e 'a distincao entre defeito de execucao e limitacao do material' - nada disso e categoria da GIA; a segunda e sintese didatica deste curso.",
+      "correction": "Linha da aula 01 refeita nomeando os sete componentes e o papel das proporcoes. Linha da aula 04 substituida pelas fontes que de fato sustentam o texto (IGS sobre recorte; FTC pelo que nao alcanca), com registro explicito de que a distincao execucao x material e sintese do curso (aula 03 deste modulo). Fonte de JUL-CRIT-QUAT-001 atualizada.",
+      "sources": [
+        "GIA, A Foundation for Grading the Overall Cut Quality of Round Brilliant Cut Diamonds, Gems & Gemology, outono 2004",
+        "GIA 4Cs, Cut, https://www.gia.edu/gia-about/4cs-cut"
+      ],
+      "source_checked_at": "2026-09-07",
+      "confidence": "confirmado",
+      "affected_files": [
+        "14-julgar-o-talhe/14-julgar-o-talhe-aula-01-os-criterios-de-qualidade-do-talhe-simetria-proporcao-encontros-e-acabamento.md",
+        "14-julgar-o-talhe/14-julgar-o-talhe-aula-04-recorte-quando-vale-o-que-se-perde-e-o-que-o-talhe-nao-conserta.md"
+      ],
+      "outcome": "corrigido"
+    },
+    {
+      "claim_id": "JUL-CUPULA-RAZAO-001",
+      "severity": "orange",
+      "nature": "inconsistencia_interna",
+      "title": "Razao de cupula redefinida como altura sobre largura da base",
+      "where": ["aula 01 / Proporcao - razao, nao valor absoluto", "aula 01 / Recap relampago"],
+      "problem": "O modulo 06 aula 03 fixa razao de cupula como a altura da cupula dividida pela MENOR dimensao do contorno, e usa esse denominador para dar as faixas de referencia (~1/3, faixa 1/4 a 1/2). 'Largura da base' e ambiguo e, numa oval 25x18, convida a usar 25 em vez de 18, mudando a razao em cerca de 40% e invalidando a comparacao com a faixa.",
+      "correction": "Corpo e Recap passaram a 'altura da cupula sobre a MENOR dimensao do contorno'.",
+      "sources": ["curso-lapidacao, 06-cabochao-aula-03-geometria-da-cupula-altura-curvatura-luz-engaste, verbete de vocabulario e secao 'Altura: a razao de cupula'"],
+      "source_checked_at": "2026-09-07",
+      "confidence": "confirmado",
+      "affected_files": ["14-julgar-o-talhe/14-julgar-o-talhe-aula-01-os-criterios-de-qualidade-do-talhe-simetria-proporcao-encontros-e-acabamento.md"],
+      "outcome": "corrigido"
+    },
+    {
+      "claim_id": "JUL-NFOLD-BRILH-001",
+      "severity": "orange",
+      "nature": "erro_factual+inconsistencia_interna",
+      "title": "Brilhante redondo descrito como buscando o n mais alto que o jogo de indice permite",
+      "where": ["aula 01 / Simetria - dois tipos, e nem toda familia usa os dois"],
+      "problem": "O modulo 10 aula 01 fixa que o arranjo brilhante repete tipicamente oito copias iguais, giradas de 45 graus, e que as 56 facetas fora da mesa se organizam em oito setores. Uma roda de 96 dentes permitiria n=96; o brilhante nao o busca. A frase confundia ainda a suavidade do CONTORNO com a simetria de rotacao do ARRANJO.",
+      "correction": "Reescrito como 'O brilhante redondo do modulo 10 tem n = 8 - oito setores repetidos a cada 45 graus -, e nao o n mais alto que o jogo de indice permitiria', com wikilink para a aula de origem.",
+      "sources": ["curso-lapidacao, 10-familias-de-talhe-aula-01, secao 'Por que irradiar' e tabela de contagem de facetas"],
+      "source_checked_at": "2026-09-07",
+      "confidence": "confirmado",
+      "affected_files": ["14-julgar-o-talhe/14-julgar-o-talhe-aula-01-os-criterios-de-qualidade-do-talhe-simetria-proporcao-encontros-e-acabamento.md"],
+      "outcome": "corrigido"
+    },
+    {
+      "claim_id": "JUL-JANELA-DIAM-001",
+      "severity": "orange",
+      "nature": "erro_factual",
+      "title": "Custo do recorte de janela atribuido a profundidade em vez de largura",
+      "where": ["aula 04 / O que o recorte consegue", "aula 04 / rodape REC-EXEC-ALVO-001"],
+      "problem": "A pedra ja esta pronta e nao ha material abaixo da culaca para aprofundar o pavilhao. Aumentar o angulo numa pedra existente se faz ESTREITANDO a peca, removendo material do perimetro da cinta para dentro. O que se perde e largura (e o tamanho aparente de frente), nao profundidade - distincao que importa porque o curso ensina desde o modulo 05 que perder tamanho aparente custa mais que a massa.",
+      "correction": "Reescrito para 'o angulo sobe estreitando a pedra: o custo e de LARGURA e, com ela, de peso - nem sempre, mas com frequencia', incorporando a ressalva da fonte de que a reducao de largura nem sempre e necessaria.",
+      "sources": ["Denver Gem Cutting, Closing Windows on Faceted Gemstones, https://www.gemcutting.com/faceting.services/closing.windows.gemstones/index.php - 'it may be necessary to make your gemstone narrower, reducing the width of the gemstone, in order to close the window. However, many times we can close a window without reducing the width at all.'"],
+      "source_checked_at": "2026-09-07",
+      "confidence": "confirmado",
+      "affected_files": ["14-julgar-o-talhe/14-julgar-o-talhe-aula-04-recorte-quando-vale-o-que-se-perde-e-o-que-o-talhe-nao-conserta.md"],
+      "outcome": "corrigido"
+    },
+    {
+      "claim_id": "JUL-SOCAV-CALIBRE-001",
+      "severity": "orange",
+      "nature": "inconsistencia_interna",
+      "title": "Correcao da socavacao de cinta descrita como fazendo a pedra sair de calibre",
+      "where": ["aula 04 / O que o recorte consegue", "aula 04 / rodape REC-EXEC-ALVO-001"],
+      "problem": "Por definicao do modulo 06 aula 04, na socavacao o contorno visto de cima e MENOR que a base. Corrigi-la e desbastar o excesso da BASE ate alinha-la com o topo; o contorno visto de cima, que e o que define o calibre (25x18, 18x13...) naquele modulo, nao muda. O que se perde e a massa da base alargada. Atribuir perda de calibre confundia esta correcao com a do PONTO CHATO de contorno, que a mesma aula usa dois paragrafos antes como o exemplo canonico de propagacao - justamente porque ali o contorno de cima encolhe.",
+      "correction": "Reescrito para 'o custo e a massa da base alargada, e nao o calibre - o contorno visto de cima, que e o que define o calibre no modulo 06 aula 04, nao encolhe nessa correcao', com wikilink.",
+      "sources": ["curso-lapidacao, 06-cabochao-aula-04, verbete socavacao, secao de defeitos de cinta e exemplo trabalhado do ponto chato"],
+      "source_checked_at": "2026-09-07",
+      "confidence": "confirmado",
+      "affected_files": ["14-julgar-o-talhe/14-julgar-o-talhe-aula-04-recorte-quando-vale-o-que-se-perde-e-o-que-o-talhe-nao-conserta.md"],
+      "outcome": "corrigido"
+    },
+    {
+      "claim_id": "JUL-DIVULG-ESCOPO-001",
+      "severity": "orange",
+      "nature": "confusao_de_escopo+certeza_indevida",
+      "title": "Recorte tratado como coberto pela regra de divulgacao do modulo 13",
+      "where": ["aula 04 / A divulgacao, quando o recorte acontece", "aula 04 / Erros comuns", "aula 04 / Recap relampago", "aula 04 / rodape REC-DIVULG-PRINC-001"],
+      "problem": "O modulo 13 aula 05 define a regra de divulgacao com precisao normativa: os tres gatilhos da FTC (16 CFR 23.24 - nao permanente, exigencia especial de cuidado, efeito significativo sobre o valor), todos aplicaveis a TRATAMENTO. Recorte nao e tratamento e nenhum dos tres o alcanca. O corpo ja ressalvava, mas o Recap e Erros comuns afirmavam a obrigacao como se fosse a mesma norma, desfazendo a fronteira que o modulo 13 gastou uma aula inteira construindo (e que chega a advertir contra confundir os gatilhos da norma com os pontos didaticos do curso).",
+      "correction": "Corpo passou a separar PRINCIPIO de NORMA e a nomear o fundamento efetivo: peso, medidas e qualquer laudo declarado antes do recorte deixam de descrever a pedra entregue. Erros comuns reformulado como 'Tratar o recorte como um dos tratamentos do modulo 13'. Recap alinhado. Claim REC-DIVULG-PRINC-001 reescrito; a FTC entrou nas fontes pelo que NAO alcanca.",
+      "sources": [
+        "curso-lapidacao, 13-tratamentos-da-oficina-aula-05, tabela 'os tres gatilhos x os tres pontos'",
+        "Federal Trade Commission, Guides for the Jewelry, Precious Metals, and Pewter Industries, 16 CFR 23.24"
+      ],
+      "source_checked_at": "2026-09-07",
+      "confidence": "confirmado",
+      "affected_files": ["14-julgar-o-talhe/14-julgar-o-talhe-aula-04-recorte-quando-vale-o-que-se-perde-e-o-que-o-talhe-nao-conserta.md"],
+      "outcome": "corrigido"
+    },
+    {
+      "claim_id": "JUL-CINTA-CRIT-001",
+      "severity": "orange",
+      "nature": "inconsistencia_interna",
+      "title": "Cinta ondulada classificada de dois jeitos na mesma aula",
+      "where": ["aula 02 / O quadro do catalogo", "aula 02 / Exemplo trabalhado", "aula 02 / rodape DEF-QUILHA-CINTA-001"],
+      "problem": "A secao que introduz o defeito chama-se 'Defeitos de simetria e proporcao', mas a linha da tabela dizia 'proporcao / acabamento', e o exemplo repetia. Contradicao dentro da mesma aula, a tres paragrafos de distancia. A classificacao externa resolve a favor do cabecalho: a GIA lista wavy girdle entre as caracteristicas de SIMETRIA, ao lado de off-center culet e variacao de espessura de cinta; polish cobre risco, lasca e entalhe de superficie, nao a linha da cinta.",
+      "correction": "Linha da tabela passou a 'simetria / proporcao'; exemplo alinhado; claim DEF-QUILHA-CINTA-001 ganhou a frase de que a GIA classifica os dois defeitos como caracteristica de simetria.",
+      "sources": ["GIA, caracteristicas de simetria em avaliacao de corte: extra facet, wavy girdle, off-center culet, variacao de espessura de cinta"],
+      "source_checked_at": "2026-09-07",
+      "confidence": "confirmado",
+      "affected_files": ["14-julgar-o-talhe/14-julgar-o-talhe-aula-02-o-catalogo-de-defeitos-o-que-se-ve-na-pedra-pronta.md"],
+      "outcome": "corrigido"
+    },
+    {
+      "claim_id": "JUL-M05A06-REF-001",
+      "severity": "orange",
+      "nature": "erro_de_procedencia",
+      "title": "Referencia a aula 05 do modulo 05 onde o conteudo esta na aula 06",
+      "where": ["aula 02 / Defeitos de proporcao optica: janela e extincao"],
+      "problem": "A aula que define janela e extincao e a 06 do modulo 05; a 05 e 'Rendimento'. O paragrafo inteiro, inclusive o wikilink imediatamente anterior, aponta para a 06 - o numero solto era o unico elemento errado, e e o tipo de erro que o aluno leva para a busca no vault.",
+      "correction": "Trocado para 'aula 06 do modulo 05'.",
+      "sources": ["curso-lapidacao, 05-leitura-do-bruto-aula-05-rendimento e 05-leitura-do-bruto-aula-06-janelamento-e-extincao"],
+      "source_checked_at": "2026-09-07",
+      "confidence": "confirmado",
+      "affected_files": ["14-julgar-o-talhe/14-julgar-o-talhe-aula-02-o-catalogo-de-defeitos-o-que-se-ve-na-pedra-pronta.md"],
+      "outcome": "corrigido"
+    },
+    {
+      "claim_id": "JUL-IGS-CINTA-001",
+      "severity": "orange",
+      "nature": "erro_de_procedencia",
+      "title": "Causas trocadas na atribuicao ao IGS para culaca deslocada e ondulacao de cinta",
+      "where": ["aula 02 / Fontes consultadas"],
+      "problem": "A linha atribuia ao guia 'ondulacao de cinta por facetas de cinta desiguais'. O guia diz outra coisa: 'uneven pavilion facets create an off-center culet' (culaca vem de facetas de PAVILHAO desiguais) e, sobre a cinta, 'the girdle should wrap around the diamond evenly, instead of rippling up and down', atribuindo a ondulacao a manobra DELIBERADA de economia de peso: 'gem cutters might deliberately cut the girdle this way in order to save weight, a method called painting'. O achado e de procedencia, mas o conteudo real da fonte REFORCA o curso - e confirmacao externa de que a ondulacao de cinta vem de pintar, exatamente o que o modulo 10 aula 05 ensina.",
+      "correction": "Linha de fontes refeita com as citacoes literais e a atribuicao correta de cada causa, apontando o wikilink do modulo 10 aula 05 como o ponto do curso que a fonte confirma. DEF-QUILHA-CINTA-001 recebeu a mesma fonte.",
+      "sources": ["International Gem Society, Diamond Cut Quality: Ultimate Guide, https://www.gemsociety.org/article/diamond-cuts/"],
+      "source_checked_at": "2026-09-07",
+      "confidence": "confirmado",
+      "affected_files": ["14-julgar-o-talhe/14-julgar-o-talhe-aula-02-o-catalogo-de-defeitos-o-que-se-ve-na-pedra-pronta.md"],
+      "outcome": "corrigido"
+    },
+    {
+      "claim_id": "JUL-SINK-RECORTE-001",
+      "severity": "blue",
+      "nature": "evidencia_insuficiente",
+      "title": "Sinkankas creditado por um capitulo de recorte e repolimento que nao se confirmou",
+      "where": ["aula 04 / Fontes consultadas"],
+      "problem": "O indice corrente de Gem Cutting: A Lapidary's Manual descreve capitulos de cabochao, facetado, esfera e conta, tambor, escultura, gravacao, embutido e mosaico. Nao foi possivel confirmar secao dedicada ao retrabalho de pedra ja lapidada. Sinkankas e a espinha bibliografica do curso e a atribuicao pode estar certa, mas nao foi verificada, e o modulo tem historico de super-atribuicao.",
+      "correction": "Nao se inventou correcao nem se removeu Sinkankas: a linha foi rebaixada ao que ele comprovadamente sustenta neste curso (a sequencia de trabalho e os defeitos de cinta reativados do modulo 06), e a substancia do recorte passou para fontes verificadas e on-point que nao estavam sendo usadas - a serie do IGS sobre recorte e repolimento. A aula ganhou apoio externo direto onde antes tinha so atribuicao nao conferida.",
+      "sources": [
+        "International Gem Society, How it Works: Recutting Gems to Maximize Value, https://www.gemsociety.org/article/recutting-gems-maximize-value/",
+        "International Gem Society, Recutting Diamonds and Colored Gemstones, https://www.gemsociety.org/article/recutting-diamonds-and-colored-stones/"
+      ],
+      "source_checked_at": "2026-09-07",
+      "confidence": "nao_verificado (atribuicao original) / confirmado (fonte substituta)",
+      "affected_files": ["14-julgar-o-talhe/14-julgar-o-talhe-aula-04-recorte-quando-vale-o-que-se-perde-e-o-que-o-talhe-nao-conserta.md"],
+      "outcome": "corrigido_com_ressalva"
+    }
+  ],
+  "verified_and_correct": [
+    "meetline como termo do curso, atribuido pelas aulas 01 e 02 ao modulo 12 aula 04 - correto; o modulo 12 nomeia e define meetline como o defeito e o distingue de meetpoint",
+    "meetpoint atribuido ao dicionario da USFG (aula 01) - verbetes meet e meetpoint existem, com as definicoes citadas",
+    "extra facet como caracteristica de SIMETRIA da GIA (aula 02) - correto",
+    "scratch como caracteristica de POLIMENTO (aula 02) - presente na GIA e no dicionario da USFG",
+    "sub-corte da serra fina atribuido ao modulo 03 aula 01 - correto, inclusive o mecanismo (lamina fina flexiona sob carga lateral)",
+    "socavacao de cinta atribuida ao modulo 06 aula 04 - correto, incluindo o sentido da inclinacao",
+    "undercut de material heterogeneo atribuido ao modulo 07 aula 03 - correto",
+    "pintar e escavar atribuidos ao modulo 10 aula 05 - correto",
+    "quilha/culaca deslocada como manobra de peso e nao acidente - correto contra o modulo 10 aula 05",
+    "'so um talhe mais raso atenua a extincao por saturacao, ao custo de brilho' (aula 04) - reproducao fiel do modulo 05 aula 06",
+    "razao entre eixos de ovo/esfera e faixas por forma (aula 01) - o modulo 07 aula 04 tem as faixas (ovo 1,3-1,5:1; obelisco ornamental 3:1-5:1)",
+    "raciocinio de calibre e propagacao do ponto chato (aula 04) - correto contra o modulo 06 aula 04",
+    "Wykoff creditado pelo diagnostico de faceta fora de posicao (aula 03) - mesma atribuicao ja auditada e mantida no modulo 09 aula 05",
+    "contaminacao de grao x sequencia pulada como assinaturas distintas (aula 03) - mecanismo correto contra os modulos 04 aula 03 e 02 aula 03"
+  ],
+  "hard_rules_check": {
+    "claim_id_4_segmentos": "20/20 conformes ao regex ^[A-Z]{2,4}-[A-Z0-9]+-[A-Z0-9]+-[0-9]{3}$; nenhum com 5 segmentos",
+    "nivel_teorico_sem_competencia_de_bancada": "conforme; nenhuma formulacao de destreza manual nas 4 aulas, e os quatro blocos 'O que nao concluir' excluem instrumento de bancada, execucao de reparo e tecnica de recorte",
+    "prerequisito_gemologia_por_nome": "conforme; citado so por nome no hub do modulo, nenhum wikilink para fora do curso",
+    "wikilinks": "todos os alvos existem em disco",
+    "lc02_teto": "as 4 aulas dentro do teto de ~1600 apos as correcoes"
+  },
+  "lc02_density": {
+    "rule": "_contexto.md LC-02, regua de 2026-09-02: de '## Conteudo' ate o fim de '## Recap relampago', len(texto.split())",
+    "before": {"a01": 1557, "a02": 1500, "a03": 1549, "a04": 1459},
+    "after": {"a01": 1581, "a02": 1577, "a03": 1600, "a04": 1599},
+    "note": "Onde a correcao acrescentou substancia (as cinco causas de extincao na a03; os quatro custos de recorte na a04), cortou-se redundancia no mesmo arquivo para caber no teto. Nenhuma aula foi dividida e nenhuma teve conteudo comprimido."
+  },
+  "propagation": {
+    "questionario": "nao existe - gate respeitado, nao foi gerado antes desta auditoria",
+    "flashcards": "skipped desde o modulo 06 por decisao do usuario",
+    "hub_do_modulo": "nao repete nenhum dado corrigido",
+    "curso_md": "nao repete nenhum dado corrigido",
+    "outros_modulos": "nenhuma edicao - auditoria restrita ao modulo 14 por instrucao"
+  },
+  "open_findings": [],
+  "pendencias_nao_bloqueantes": [
+    {
+      "id": "JUL-USFG-VERB-001-spillover",
+      "escopo": "modulo 05 (fechado), fora desta auditoria",
+      "descricao": "O rodape de 05-leitura-do-bruto-aula-06-janelamento-e-extincao.md, na fonte de JAN-EXT-DEF-001, atribui ao dicionario de facetamento da USFG os verbetes windowing e extinction - o mesmo erro do achado vermelho 3. Nao foi tocado. Nao bloqueia o gate do modulo 14.",
+      "correcao_sugerida": "Reatribuir a Sinkankas e a Vargas & Vargas, que a mesma linha ja cita, e acrescentar a ressalva de ausencia dos verbetes. Tratar numa passada cross-course ou numa reabertura pontual do modulo 05."
+    }
+  ],
+  "traps_for_quiz_generator": [
+    "Undercut tem QUATRO sentidos neste curso (serra do m03; abrasao diferencial do m07; socavacao de cinta do m06; faceta curta do m09). Como item do catalogo do m14, cobre so os sentidos do m07 e do m06. 'Tres sentidos' e distrator; a faceta curta aparece na pedra pronta como MEETLINE, nao como undercut.",
+    "Extincao tem CINCO causas: uma de execucao (pavilhao fundo + head shadow), duas de material (indice baixo, saturacao alta), duas de PROJETO (estilo degrau, contorno alongado). 'Persiste com o angulo corrigido, logo e material' e afirmacao FALSA - bom item de V/F. O teste do angulo isola so a causa de execucao.",
+    "Cinta ondulada NAO cede a repolimento (e altura de faceta, nao superficie); so o arranhao isolado cede. Distrator forte.",
+    "Fechar uma janela por recorte custa LARGURA, nao profundidade - a pedra pronta nao tem material abaixo da culaca. E nem sempre custa: a fonte registra que muitas vezes se fecha sem reduzir a largura.",
+    "Corrigir socavacao de cinta de cabochao custa MASSA da base, e NAO calibre - o contorno visto de cima nao encolhe. Quem faz sair de calibre e o ponto chato de contorno (m06 a04). Nao confundir os dois.",
+    "Recorte NAO e tratamento e nenhum dos tres gatilhos da FTC (16 CFR 23.24) o alcanca. O dever de informar apoia-se em outro fundamento: peso, medidas e laudo anteriores deixam de descrever a pedra. 'O recorte aciona o gatilho (c) da FTC' e distrator.",
+    "O brilhante redondo tem n = 8 (oito setores a 45 graus), e nao o n mais alto do jogo de indice. 'Busca o n maximo da roda de 96' e distrator.",
+    "Razao de cupula = altura sobre a MENOR dimensao do contorno (m06 a03). 'Altura sobre a maior dimensao' e distrator numerico.",
+    "Cinta ondulada e caracteristica de SIMETRIA (GIA), nao de polimento.",
+    "Acabamento de polimento e o unico dos quatro criterios universal a toda familia de talhe; encontro de facetas so existe no facetado.",
+    "Undercut de material heterogeneo (esfera) NAO tem etapa culpada - e o unico caso do quadro em que o diagnostico correto e 'nao ha etapa'."
+  ]
+}

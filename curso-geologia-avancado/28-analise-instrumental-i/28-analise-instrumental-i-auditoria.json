@@ -1,0 +1,386 @@
+{
+  "course_id": "geologia-avancado",
+  "module_id": "28",
+  "module_slug": "analise-instrumental-i",
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "verdict": "aprovado_apos_correcoes",
+  "audited_at": "2026-09-23",
+  "applied_at": "2026-09-23",
+  "manifest_written_at": "2026-09-23",
+  "passes": 1,
+  "passes_note": "Passagem unica (2026-09-23). Backup do estado antes da auditoria: course-state.yaml.bak-20260923-pre-m28-audit.",
+  "counts": {
+    "red": 1,
+    "orange": 11,
+    "yellow": 1,
+    "blue": 0,
+    "white": 0,
+    "red_open": 0,
+    "orange_open": 0,
+    "yellow_open": 0,
+    "blue_open": 0,
+    "white_open": 0,
+    "total": 13
+  },
+  "counts_note": "Contagens do LEVANTAMENTO; *_open = pendente. Todos os 13 corrigidos.",
+  "claims": {
+    "declared_at_writing": 29,
+    "raised_by_audit": 4,
+    "tracked": 33,
+    "per_lesson_now": "a01 6, a02 6, a03 6, a04 8, a05 7",
+    "unaudited": 0,
+    "note": "Contagem por script apos as edicoes (ver course-state)."
+  },
+  "bibliography_items_checked": 19,
+  "bibliography_items_wrong": 1,
+  "bibliography_all_correct": false,
+  "bibliography_note": "Crossref: Walsh 1955, Greenfield et al. 1964, Wendt & Fassel 1965, Houk et al. 1980, Currie 1995, Long & Winefordner 1983, Moseley 1913 e 1914, Currie 1968, Merkle et al. 2004. Livros (Open Library/editora): Pitard 1993, Potts 1987, Jeffery & Hutchison 1981, Jarvis et al. 1992, Jenkins 1999, Thompson & Walsh 1983/1989, Rollinson 1993. Errado: Thompson & Walsh (ano 2003 inexistente; amarelo 9). Todas as paginacoes marcadas como incertas estavam certas.",
+  "declared_uncertainties": {
+    "note": "Resolvidas: paginacao de Walsh (7, 108-117), de Moseley (26, 1024-1034; 27, 703-713) e de Long & Winefordner (712A); fator do forno de grafite virou o achado 5. Nenhuma marca de incerteza permanece nas Fontes."
+  },
+  "open_findings": [],
+  "findings": [
+    {
+      "n": 1,
+      "claim_id": "ANINST-M28-A01-MASSA-CUBO-DIAMETRO-002",
+      "severity": "orange",
+      "nature": "imprecisao",
+      "title": "Regra massa ~ d^3 atribuida a Visman",
+      "file": "28-analise-instrumental-i/28-analise-instrumental-i-aula-01-quimica-de-amostra-total-amostragem.md",
+      "section": "Heterogeneidade de constituicao e massa minima de amostra",
+      "quoted": "conhecida por varios nomes (regra de Visman, 'regra de amostragem' ou [...] 'curva de seguranca de amostragem')",
+      "problem": "A regra do cubo decorre do termo d^3 da formula de Gy; Visman (1969) e outra formulacao (A/w + B/n).",
+      "correction": "'Regra de Visman' retirada; regra atribuida ao termo d^3 de Gy e a 'linha de seguranca' dos nomogramas.",
+      "source": "Visman (1969), Materials Research & Standards 9(11) (resumos TRID/911Metallurgist); literatura de Gy",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "28-analise-instrumental-i/28-analise-instrumental-i-aula-01-quimica-de-amostra-total-amostragem.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": false
+    },
+    {
+      "n": 2,
+      "claim_id": "ANINST-M28-A01-VIES-VS-FSE-006",
+      "severity": "orange",
+      "nature": "imprecisao",
+      "title": "'Erros de amostragem tendem a vies, nao dispersao'",
+      "file": "28-analise-instrumental-i/28-analise-instrumental-i-aula-01-quimica-de-amostra-total-amostragem.md",
+      "section": "Paragrafo de Rollinson; Recap item 4",
+      "quoted": "erros de amostragem [...] tendem a introduzir vies sistematico / Erros de amostragem tendem a introduzir vies sistematico, nao dispersao aleatoria",
+      "problem": "O FSE de Gy e aleatorio (media ~0, dispersao entre replicas); vies vem de amostragem incorreta. Nenhum dos dois aparece na replica instrumental.",
+      "correction": "Corpo e recap reescritos com a distincao; Minnitt et al. 2007 nas Fontes.",
+      "source": "Minnitt, Rice & Spangenberg (2007), J. SAIMM 107(8), 505-511 (texto lido)",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "28-analise-instrumental-i/28-analise-instrumental-i-aula-01-quimica-de-amostra-total-amostragem.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": true
+    },
+    {
+      "n": 3,
+      "claim_id": "ANINST-M28-A02-FUSAO-FUNDENTE-LI-002",
+      "severity": "orange",
+      "nature": "omissao_que_gera_erro",
+      "title": "Fusao com borato de litio 'dissolve completamente' a cromita",
+      "file": "28-analise-instrumental-i/28-analise-instrumental-i-aula-02-preparacao-de-amostras-metodos-classicos.md",
+      "section": "Fusao com fundente; Recap item 2",
+      "quoted": "dissolve completamente ate os minerais mais refratarios - zircao, cromita",
+      "problem": "Cromita tem dissolucao lenta e incongruente em borato de litio; materiais ricos em cromita exigem condicoes especiais.",
+      "correction": "Zircao mantido como exemplo; ressalva da cromita no corpo e no recap; Merkle et al. 2004 nas Fontes.",
+      "source": "Merkle, Loubser & Graser (2004), X-Ray Spectrometry 33, 222-224, doi:10.1002/xrs.759 (Crossref); Loubser, dissertacao Univ. Pretoria",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "28-analise-instrumental-i/28-analise-instrumental-i-aula-02-preparacao-de-amostras-metodos-classicos.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": false
+    },
+    {
+      "n": 4,
+      "claim_id": "ANINST-M28-A02-MRC-EXEMPLOS-005",
+      "severity": "orange",
+      "nature": "imprecisao",
+      "title": "BCR-2 'basalto colunar'; materiais do USGS 'certificados'",
+      "file": "28-analise-instrumental-i/28-analise-instrumental-i-aula-02-preparacao-de-amostras-metodos-classicos.md",
+      "section": "Controle de qualidade - item MRC",
+      "quoted": "certificada por um orgao como o USGS (... BCR-2, um basalto colunar)",
+      "problem": "BCR = Basalt, Columbia River (Bridal Veil Flow Quarry, OR, 1996). O USGS declara nao ter caracterizacao metrologicamente rastreavel do BHVO-2.",
+      "correction": "'basalto do rio Columbia'; 'distribuida' em vez de 'certificada' e frase sobre o estatuto dos valores; folhas USGS nas Fontes.",
+      "source": "USGS BHVO-2 Reference Material Information Sheet, rev. jun 2022 (texto lido); USGS BCR-2 Information Sheet 2022",
+      "source_level": "normativa",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "28-analise-instrumental-i/28-analise-instrumental-i-aula-02-preparacao-de-amostras-metodos-classicos.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": false
+    },
+    {
+      "n": 5,
+      "claim_id": "ANINST-M28-A03-FORNO-GRAFITE-SENSIBILIDADE-003",
+      "severity": "orange",
+      "nature": "certeza_indevida",
+      "title": "Forno de grafite: 'fontes convergem' em 100-1000x",
+      "file": "28-analise-instrumental-i/28-analise-instrumental-i-aula-03-espectrometria-atomica-absorcao-emissao.md",
+      "section": "Atomizador - forno de grafite; Recap; Fontes",
+      "quoted": "fontes tecnicas convergem numa melhoria tipica da ordem de 100 a 1000 vezes",
+      "problem": "Fontes divergem (Harvey ate 1000x, Zn ~420x; Sperling 20-200x; outras 10-1000x). Robusto: 1-3 ordens de grandeza, como ja dizia o recap.",
+      "correction": "Corpo e recap: 'uma a tres ordens de grandeza, conforme o elemento (~20x a ~1000x)'; nota de Fontes reescrita.",
+      "source": "Harvey, Analytical Chemistry 2.1 s10.4; Sperling, Encyclopedia of Analytical Chemistry, doi:10.1002/9780470027318.a0805",
+      "source_level": "base_de_referencia",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "28-analise-instrumental-i/28-analise-instrumental-i-aula-03-espectrometria-atomica-absorcao-emissao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": false
+    },
+    {
+      "n": 6,
+      "claim_id": "ANINST-M28-A03-ADOCAO-AAS-HISTORICO-006",
+      "severity": "orange",
+      "nature": "imprecisao",
+      "title": "AAS 'primeira tecnica espectrometrica', 'final da decada de 1960'",
+      "file": "28-analise-instrumental-i/28-analise-instrumental-i-aula-03-espectrometria-atomica-absorcao-emissao.md",
+      "section": "Onde AAS se encaixa no panorama",
+      "quoted": "a primeira tecnica espectrometrica de rotina amplamente adotada [...] a partir do final da decada de 1960",
+      "problem": "Primeiro instrumento comercial em 1963, vendas exponenciais 1963-67; espectrografia de emissao em arco ja era rotina semiquantitativa.",
+      "correction": "'uma das primeiras tecnicas instrumentais quantitativas [...] a partir de meados da decada de 1960' com a ressalva da espectrografia.",
+      "source": "CSIROpedia 'Atomic absorption spectroscopy'; Grimes & Marranzino (1968), USGS Circular 591",
+      "source_level": "base_de_referencia",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "28-analise-instrumental-i/28-analise-instrumental-i-aula-03-espectrometria-atomica-absorcao-emissao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": true
+    },
+    {
+      "n": 7,
+      "claim_id": "ANINST-M28-A03-INTERFERENCIA-IONIZACAO-CA-004",
+      "severity": "red",
+      "nature": "erro_factual",
+      "title": "Exemplo do Ca: ionizacao em chama ar-acetileno como causa do valor baixo",
+      "file": "28-analise-instrumental-i/28-analise-instrumental-i-aula-03-espectrometria-atomica-absorcao-emissao.md",
+      "section": "Exemplo trabalhado (Situacao, Diagnostico)",
+      "quoted": "O Ca e um elemento alcalino-terroso relativamente facil de ionizar na temperatura de uma chama ar-acetileno",
+      "problem": "Em ar-acetileno a interferencia dominante sobre Ca em matriz silicatica e quimica (Al, Si, P); ionizacao e efeito de 5-10%. So K/Cs nao corrigiria. Ionizacao e a interferencia principal na chama oxido nitroso-acetileno.",
+      "correction": "Chama do exemplo trocada para oxido nitroso-acetileno com a justificativa; diagnostico ajustado; 422,7 nm, supressor e conclusao mantidos.",
+      "source": "Agilent, Flame AAS Analytical Methods, 13a ed., entrada Ca (texto lido); Harvey, Analytical Chemistry 2.1 s10.4",
+      "source_level": "base_de_referencia",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "28-analise-instrumental-i/28-analise-instrumental-i-aula-03-espectrometria-atomica-absorcao-emissao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": false,
+      "also_covers": "ANINST-M28-A03-EXEMPLO-CA-BASALTO-005"
+    },
+    {
+      "n": 8,
+      "claim_id": "ANINST-M28-A04-PADRAO-INTERNO-006",
+      "severity": "orange",
+      "nature": "imprecisao",
+      "title": "Padrao interno 'ausente na amostra natural'",
+      "file": "28-analise-instrumental-i/28-analise-instrumental-i-aula-04-icp-oes-icp-ms.md",
+      "section": "Interferencias em ICP-MS - efeitos de matriz",
+      "quoted": "tipicamente um elemento ausente na amostra natural, como In, Rh ou Bi",
+      "problem": "In e Bi estao presentes em rochas (BHVO-2: In 0,117; Bi 0,0148 mg/kg); criterio e concentracao desprezivel diante da adicao.",
+      "correction": "'ausente ou em concentracao natural desprezivel diante da quantidade adicionada', com os valores do BHVO-2.",
+      "source": "USGS BHVO-2 Reference Material Information Sheet, rev. jun 2022, Tabela 2 (texto lido)",
+      "source_level": "normativa",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "28-analise-instrumental-i/28-analise-instrumental-i-aula-04-icp-oes-icp-ms.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": false
+    },
+    {
+      "n": 9,
+      "claim_id": "ANINST-M28-A04-THOMPSON-WALSH-BIBLIO-008",
+      "severity": "yellow",
+      "nature": "erro_metadado_bibliografico",
+      "title": "Thompson & Walsh '(1989/2003), Blackie/Springer'",
+      "file": "28-analise-instrumental-i/28-analise-instrumental-i-aula-04-icp-oes-icp-ms.md",
+      "section": "Fontes",
+      "quoted": "Thompson, M. & Walsh, J. N. (1989/2003), Handbook of ICP Spectrometry, Blackie/Springer - referencia padrao de ICP-OES e ICP-MS",
+      "problem": "1a ed. 1983, 2a ed. 1989 (Blackie; reimpressao Springer); nenhuma edicao 2003; livro centrado em ICP-AES, capitulo de ICP-MS de G. E. M. Hall.",
+      "correction": "Entrada reescrita.",
+      "source": "Open Library; Springer doi:10.1007/978-1-4613-0697-9; resenha Mineralogical Magazine 1983",
+      "source_level": "base_de_indexacao",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "28-analise-instrumental-i/28-analise-instrumental-i-aula-04-icp-oes-icp-ms.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": true
+    },
+    {
+      "n": 10,
+      "claim_id": "ANINST-M28-A05-FAIXA-ESPECTRAL-VALENCIA-007",
+      "severity": "orange",
+      "nature": "imprecisao",
+      "title": "Transicoes de valencia em 'visivel e ultravioleta proxima'",
+      "file": "28-analise-instrumental-i/28-analise-instrumental-i-aula-05-fluorescencia-de-raios-x.md",
+      "section": "Uma fisica diferente",
+      "quoted": "(luz visivel e ultravioleta proxima)",
+      "problem": "Linhas de AAS/ICP-OES vao de ~190 nm (As 193,7; Se 196,0) a ~850 nm (Cs 852,1), muito alem do UV proximo.",
+      "correction": "'(ultravioleta e visivel, de ~190 a ~850 nm)'.",
+      "source": "Agilent, Flame AAS Analytical Methods, 13a ed. (texto lido)",
+      "source_level": "base_de_referencia",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "28-analise-instrumental-i/28-analise-instrumental-i-aula-05-fluorescencia-de-raios-x.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": true
+    },
+    {
+      "n": 11,
+      "claim_id": "ANINST-M28-A05-EFEITOS-MATRIZ-003",
+      "severity": "orange",
+      "nature": "imprecisao",
+      "title": "Absorcao em XRF atribuida a 'Z mais alto'",
+      "file": "28-analise-instrumental-i/28-analise-instrumental-i-aula-05-fluorescencia-de-raios-x.md",
+      "section": "Efeitos de matriz em XRF - item Absorcao",
+      "quoted": "elementos de numero atomico mais alto na matriz podem absorver parte da radiacao de fluorescencia",
+      "problem": "Absorcao forte quando a borda do elemento da matriz fica logo abaixo da linha do analito - para linhas K, em geral Z menor (Cr absorve Fe Ka; Ni reforca Fe).",
+      "correction": "Item reescrito com o criterio da borda e o exemplo Cr/Fe/Ni; reforco ganhou o exemplo Ni -> Fe.",
+      "source": "Physlab/LUMS, Quantitative XRF (texto lido), a partir de Jenkins (1999)",
+      "source_level": "geral",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "28-analise-instrumental-i/28-analise-instrumental-i-aula-05-fluorescencia-de-raios-x.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": false
+    },
+    {
+      "n": 12,
+      "claim_id": "ANINST-M28-A05-LOD-LOQ-FORMULAS-005",
+      "severity": "orange",
+      "nature": "imprecisao",
+      "title": "LOD/LOQ: 'tres grandezas' IUPAC e cronologia Long & Winefordner -> Currie",
+      "file": "28-analise-instrumental-i/28-analise-instrumental-i-aula-06-estatistica-de-contagens-limites-de-deteccao.md",
+      "section": "Limite de deteccao e limite de quantificacao",
+      "quoted": "que definem tres grandezas [...] branco, LOD, LOQ / A formulacao original de Long & Winefordner (1983) [...] e mais tarde formalizada nas recomendacoes Currie (1995)",
+      "problem": "Currie 1995 distingue L_C, L_D (~3,29 sigma0) e L_Q (10 sigma_Q); 3 sigma e convencao IUPAC 1976/78; fator 10 e trio vem de Currie 1968.",
+      "correction": "Introducao e itens LOD/LOQ reescritos com as atribuicoes; branco como base do calculo; Currie 1968 nas Fontes.",
+      "source": "Crossref: Currie 1968 doi:10.1021/ac60259a007; Currie 1995; Long & Winefordner 1983; Currie (1999) Anal. Chim. Acta 391, 127-134",
+      "source_level": "normativa",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "28-analise-instrumental-i/28-analise-instrumental-i-aula-06-estatistica-de-contagens-limites-de-deteccao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": false
+    },
+    {
+      "n": 13,
+      "claim_id": "ANINST-M28-A05-EXEMPLO-NB-BASALTO-006",
+      "severity": "orange",
+      "nature": "omissao_que_gera_erro",
+      "title": "Exemplo do Nb: 'elemento-traco leve' e saida unica por ICP-MS",
+      "file": "28-analise-instrumental-i/28-analise-instrumental-i-aula-06-estatistica-de-contagens-limites-de-deteccao.md",
+      "section": "Exemplo trabalhado - Consequencia",
+      "quoted": "ICP-MS [...] superior ao de XRF para elementos-traco leves incompativeis como Nb",
+      "problem": "Nb (Z=41) nao e 'leve'; o LOD alto vem da perola fundida - a rotina de tracos por XRF usa pastilha prensada (LOD 1-5 ppm).",
+      "correction": "'leves' retirado; duas saidas (pastilha prensada ou ICP-MS).",
+      "source": "Actlabs 'Pressed Pellet XRF'; literatura perola x pastilha; Potts (1987)",
+      "source_level": "base_de_referencia",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "28-analise-instrumental-i/28-analise-instrumental-i-aula-06-estatistica-de-contagens-limites-de-deteccao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": false
+    }
+  ],
+  "verified_and_correct": [
+    {
+      "area": "Bibliografia",
+      "note": "Ver bibliography_note."
+    },
+    {
+      "area": "Aula 01",
+      "note": "FSE e termo d^3 de Gy; efeito pepita; contaminacao por aco (Fe, Cr, Co, Ni, Mn) e WC (W); segregacao ao colherar."
+    },
+    {
+      "area": "Aula 02",
+      "note": "~85% < 75 um; Li2B4O7/LiBO2 ~50:50, 5:1-10:1, ~1000-1100 C; SiF4; LOI 900-1000 C e oxidacao de Fe2+; BHVO-2 = pahoehoe 1919 do Kilauea."
+    },
+    {
+      "area": "Aula 03",
+      "note": "Walsh/CSIRO, patente 1954, artigo 1955; chamas ar-acetileno x N2O-acetileno; Ca 422,7 nm; forno 2000-3000 C; correcao de fundo D2/Zeeman; La/Sr liberadores."
+    },
+    {
+      "area": "Aula 04",
+      "note": "Tocha, 27/40 MHz, 6000-10000 K; historia Greenfield/Wendt & Fassel/Houk et al.; 40Ar16O+ sobre 56Fe+; correcao 87Rb via 85Rb; TAS com analise quimica compativel com terminology-policy."
+    },
+    {
+      "area": "Aula 05",
+      "note": "Lei de Moseley; WDXRF x EDXRF; Poisson (10000 -> 40000 contagens, 100 -> 400 s); propagacao em quadratura; convencoes 3 sigma / 10 sigma; Lachance-Traill e de Jongh."
+    }
+  ],
+  "propagation": "NENHUMA externa: sem questionario, baralho ou glossario (auditoria antes deles). Nenhum card no Anki a corrigir. Nenhum outro modulo cita BCR-2, Visman, Currie, Long & Winefordner ou chama ar-acetileno. Hub atualizado so no registro de etapas.",
+  "dominant_pattern": "O unico vermelho estava num exemplo 'hipotetico' (mesmo padrao do modulo 27): licao certa, condicao experimental errada. Seis laranjas sao de atribuicao ou generalizacao dita com seguranca ('regra de Visman', 'certificada pelo USGS', 'fontes convergem', 'a primeira tecnica', 'elemento ausente', 'tres grandezas IUPAC'). As paginacoes que a redacao temia estavam todas certas.",
+  "assessment_restrictions": [
+    "Exemplo do Ca usa chama oxido nitroso-acetileno; em ar-acetileno a interferencia dominante sobre Ca e quimica (La/Sr).",
+    "Absorcao em XRF pela borda (Cr absorve Fe Ka; Ni reforca Fe); nao cobrar 'Z mais alto absorve'.",
+    "Currie 1995: L_C, L_D, L_Q; 3 sigma = IUPAC 1976/78; 10 sigma = Currie 1968; nao cobrar Long & Winefordner como origem nem branco como grandeza IUPAC.",
+    "FSE aleatorio; vies = amostragem incorreta; replica instrumental nao revela nenhum.",
+    "Forno de grafite: so 'uma a tres ordens de grandeza'.",
+    "BCR-2 = basalto do rio Columbia; nao cobrar 'certificado pelo USGS'.",
+    "Nao cobrar paginacao nem 'regra de Visman'."
+  ],
+  "out_of_scope_observation": "Aula 05 com seis blocos e ~27 min declarados (candidata a divisao); Aula 04 promete 'metodos qualitativos e quantitativos' sem tratar calibracao; hub diz sem pre-requisitos mas Aula 05 remete a Modulos 26/27 - encaminhado a revisao didatica.",
+  "gate_note": "GATE LIBERADO: 0 vermelhos e 0 laranjas em aberto.",
+  "files": [
+    "28-analise-instrumental-i/28-analise-instrumental-i-auditoria.md",
+    "28-analise-instrumental-i/28-analise-instrumental-i-auditoria.json"
+  ],
+  "files_touched": [
+    "28-analise-instrumental-i/28-analise-instrumental-i-aula-01-quimica-de-amostra-total-amostragem.md",
+    "28-analise-instrumental-i/28-analise-instrumental-i-aula-02-preparacao-de-amostras-metodos-classicos.md",
+    "28-analise-instrumental-i/28-analise-instrumental-i-aula-03-espectrometria-atomica-absorcao-emissao.md",
+    "28-analise-instrumental-i/28-analise-instrumental-i-aula-04-icp-oes-icp-ms.md",
+    "28-analise-instrumental-i/28-analise-instrumental-i-aula-05-fluorescencia-de-raios-x.md",
+    "28-analise-instrumental-i/28-analise-instrumental-i-aula-06-estatistica-de-contagens-limites-de-deteccao.md",
+    "28-analise-instrumental-i/28-analise-instrumental-i-modulo.md",
+    "course-state.yaml"
+  ],
+  "renumbering_note": "Caminhos atualizados em 2026-09-23 pela revisao didatica: a antiga Aula 05 (arquivo 28-analise-instrumental-i-aula-05-fluorescencia-de-raios-x-estatistica-erros.md) foi dividida em Aula 05 (XRF; arquivo renomeado, achados 10 e 11) e Aula 06 (estatistica, LOD/LOQ; arquivo novo, achados 12 e 13). Os claim_id nao mudaram: os prefixos A05 vivem nos dois arquivos. O relatorio .md manteve a numeracao antiga com aviso no topo."
+}

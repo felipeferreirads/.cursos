@@ -1,0 +1,889 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "37-petrografia-de-minerio/",
+    "module_id": "37",
+    "course_id": "geologia-avancado"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-09-30",
+  "verdict": "approved",
+  "summary": {
+    "red": 5,
+    "orange": 13,
+    "yellow": 0,
+    "blue": 4,
+    "white": 0,
+    "verified_ok": 52
+  },
+  "findings": [
+    {
+      "claim_id": "PET-M37-A01-SULFETACAO-003",
+      "severity": "red",
+      "kind": "erro_factual",
+      "location": {
+        "file": "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-01-condicoes-fisico-quimicas-fs2-fo2-assembleias-reconhecimento.md",
+        "section": "O tampao pirita-pirrotita e o estado de sulfetacao (tabela e paragrafo seguinte)",
+        "quote": "Os rotulos alta e baixa sulfetacao dos depositos epitermais usam exatamente essa escala, aplicada ao fluido (Einaudi et al., 2003)."
+      },
+      "claim": "Os rotulos alta e baixa sulfetacao dos depositos epitermais usam exatamente essa escala, aplicada ao fluido (Einaudi et al., 2003).",
+      "problem": "Contradiz a fonte citada: Einaudi et al. advertem que estado de sulfetacao nao e estritamente paralelo aos termos HS/LS; omitia IS (Modulo 34); calcopirita sozinha nao indica estado baixo; escala formal de cinco niveis (limite intermediario/alto = cp + S2 -> bn + py; py+dg+cv = muito alto).",
+      "replacement": "Tabela com calcopirita com pirrotita, tetraedrita-tennantita, alto a muito alto; paragrafo: nomes HS/IS/LS derivados da escala mas nao estritamente paralelos; estado varia dentro do deposito",
+      "source": {
+        "name": "Einaudi, Hedenquist & Inan 2003, SEG Spec. Publ. 10:285-313, texto integral (pyrite.utah.edu), p. 5-6 e secao de epitermais",
+        "tier": "peer_reviewed",
+        "version": "consultado 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-01-condicoes-fisico-quimicas-fs2-fo2-assembleias-reconhecimento.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "PET-M37-A01-BIBLIO-010",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "location": {
+        "file": "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-01-condicoes-fisico-quimicas-fs2-fo2-assembleias-reconhecimento.md",
+        "section": "Fontes (a01, a05, a07)",
+        "quote": "Sulfidation state of hydrothermal fluids: the porphyry-epithermal transition and beyond"
+      },
+      "claim": "Sulfidation state of hydrothermal fluids: the porphyry-epithermal transition and beyond",
+      "problem": "Titulo errado; o correto e 'Sulfidation state of fluids in active and extinct hydrothermal systems: transitions from porphyry to epithermal environments', in Simmons & Graham (eds.). Claim criado pela auditoria.",
+      "replacement": "Titulo e volume corrigidos nas tres listas de Fontes",
+      "source": {
+        "name": "Einaudi, Hedenquist & Inan 2003, SEG Spec. Publ. 10:285-313, texto integral (pyrite.utah.edu); registros Semantic Scholar e SCIRP",
+        "tier": "peer_reviewed",
+        "version": "consultado 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-01-condicoes-fisico-quimicas-fs2-fo2-assembleias-reconhecimento.md",
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-05-sulfetos-cobre-chumbo-zinco.md",
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-07-sintese-paragenetica-colecoes-minerio.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "PET-M37-A01-GEOTERMOMETROS-006",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "location": {
+        "file": "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-01-condicoes-fisico-quimicas-fs2-fo2-assembleias-reconhecimento.md",
+        "section": "Geotermometros e geobarometros de assembleia (linha da esfalerita); Exemplo passo 4; recap",
+        "quote": "teor de FeS da esfalerita, funcao de T e de P / seu teor de FeS poderia informar T ou P"
+      },
+      "claim": "teor de FeS da esfalerita, funcao de T e de P / seu teor de FeS poderia informar T ou P",
+      "problem": "FeS da esfalerita com py+po hexagonal e praticamente independente de T entre ~300 e ~550 C e depende da pressao: geobarometro, nao geotermometro; usar esfalerita inclusa em pirita, evitar contato com po e cp.",
+      "replacement": "Linha reescrita (depende sobretudo da pressao); passo 4 'informar a pressao (nao a temperatura)'; recap ajustado",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 8.4 (p. 192-193) e 10.10.1 (p. 307-308); Scott & Barnes 1971 Econ Geol 66:653-669",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-01-condicoes-fisico-quimicas-fs2-fo2-assembleias-reconhecimento.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "PET-M37-A01-REEQUILIBRIO-007",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "location": {
+        "file": "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-01-condicoes-fisico-quimicas-fs2-fo2-assembleias-reconhecimento.md",
+        "section": "Equilibrio e reequilibrio, 1a frase; recap",
+        "quote": "Sulfetos e oxidos de Fe-Ti reequilibram-se com rapidez durante o resfriamento"
+      },
+      "claim": "Sulfetos e oxidos de Fe-Ti reequilibram-se com rapidez durante o resfriamento",
+      "problem": "Craig & Vaughan 7.5 separam fases refratarias (magnetita, cromita, pirita, esfalerita, alguns arsenetos) das que reequilibram (muitos sulfetos, sulfossais, metais nativos); a frase apaga a diferenca que sustenta os instrumentos da mesma aula.",
+      "replacement": "Muitos sulfetos (pirrotita, Cu-Fe, sulfossais) e pares Fe-Ti reequilibram; pirita, arsenopirita, cromita e em boa parte a esfalerita sao refratarias",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.5 (p. 138) e 10.10.1 (p. 306)",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-01-condicoes-fisico-quimicas-fs2-fo2-assembleias-reconhecimento.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "PET-M37-A02-HIDROTERMAL-002",
+      "severity": "red",
+      "kind": "erro_factual",
+      "location": {
+        "file": "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-02-texturas-primarias-substituicao-zonamento-supergenico.md",
+        "section": "Texturas primarias, paragrafo Hidrotermal",
+        "quote": "A regra tem excecao: veios de crescimento por abertura repetida (crack-seal) e de crescimento sintaxial mostram outra geometria."
+      },
+      "claim": "A regra tem excecao: veios de crescimento por abertura repetida (crack-seal) e de crescimento sintaxial mostram outra geometria.",
+      "problem": "INVERSAO: o veio sintaxial cresce das paredes para o centro e segue a regra; a excecao e o antitaxial (mais novo junto as paredes); crack-seal pode abrir em varios pontos.",
+      "replacement": "Sintaxial segue a regra; antitaxial e crack-seal sao as excecoes (Bons et al. 2012); Bons et al. nas Fontes",
+      "source": {
+        "name": "Bons, Elburg & Gomez-Rivas 2012, J Struct Geol 43:33-62; Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.3 Fig. 7.6",
+        "tier": "peer_reviewed",
+        "version": "consultado 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-02-texturas-primarias-substituicao-zonamento-supergenico.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "PET-M37-A02-SUPERGENICO-008",
+      "severity": "red",
+      "kind": "erro_factual",
+      "location": {
+        "file": "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-02-texturas-primarias-substituicao-zonamento-supergenico.md",
+        "section": "Zonamento supergenico (tabela); Exemplo passo 1",
+        "quote": "Oxidada (chapeu-de-ferro) | goethita e hematita, carbonatos e sulfatos de metais (malaquita, cerussita, anglesita) acima de Lixiviada | metais removidos; residuo pobre"
+      },
+      "claim": "Oxidada (chapeu-de-ferro) | goethita e hematita, carbonatos e sulfatos de metais (malaquita, cerussita, anglesita) acima de Lixiviada | metais removidos; residuo pobre",
+      "problem": "INVERSAO NO PERFIL: o chapeu-de-ferro e a capa lixiviada no topo (oxidos e hidroxidos de Fe, metais removidos); a zona de minerio oxidado (malaquita, azurita, crisocola, cuprita; cerussita, anglesita) fica abaixo, sobre o enriquecimento. Sentido das frentes e mecanismo corretos.",
+      "replacement": "Lixiviada (chapeu-de-ferro) em cima, Oxidada (minerio oxidado) abaixo; exemplo (a) = capa lixiviada; John et al. 2010 nas Fontes",
+      "source": {
+        "name": "John et al. 2010, USGS SIR 2010-5070-B, Supergene Ore Characteristics (texto integral)",
+        "tier": "normative",
+        "version": "consultado 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-02-texturas-primarias-substituicao-zonamento-supergenico.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "PET-M37-A02-EXSOLUCAO-011",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "location": {
+        "file": "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-02-texturas-primarias-substituicao-zonamento-supergenico.md",
+        "section": "Fim de Texturas primarias",
+        "quote": "Uma quarta textura, a exsolucao, e primaria no sentido de formar-se no resfriamento"
+      },
+      "claim": "Uma quarta textura, a exsolucao, e primaria no sentido de formar-se no resfriamento",
+      "problem": "Craig & Vaughan 7.5 classificam exsolucao como textura secundaria de resfriamento; Modulo 36 (Aula 04) a trata como familia propria. Claim criado pela auditoria.",
+      "replacement": "Exsolucao fora da tabela, familia a parte (secundaria de resfriamento), remetida ao Modulo 36",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.5; Modulo 36 Aula 04 (auditado 2026-09-29)",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-02-texturas-primarias-substituicao-zonamento-supergenico.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "PET-M37-A02-EXEMPLOS-006",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "location": {
+        "file": "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-02-texturas-primarias-substituicao-zonamento-supergenico.md",
+        "section": "Substituicao: como e onde, item Martita",
+        "quote": "e oxidacao em baixa temperatura (Ramdohr, 1980)"
+      },
+      "claim": "e oxidacao em baixa temperatura (Ramdohr, 1980)",
+      "problem": "Martitizacao e comum no intemperismo mas tambem hidrotermal e metamorfica (itabiritos do QF, Aula 04); a frase contradizia a Aula 04. Sentido magnetita -> hematita ao longo de {111} correto.",
+      "replacement": "oxidacao posterior a magnetita, comum no intemperismo, mas tambem hidrotermal ou metamorfica, como nos itabiritos",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.4.2 e 7.8 Fig. 7.34; Rosiere et al. 2008 Rev Econ Geol 15:223-254",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-02-texturas-primarias-substituicao-zonamento-supergenico.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "PET-M37-A03-RECRISTALIZACAO-003",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "location": {
+        "file": "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-03-texturas-metamorficas-deformacao-recristalizacao.md",
+        "section": "Recristalizacao; Exemplo (situacao e passo 1); recap",
+        "quote": "grãos poligonais, com contatos retos e juncoes triplices de angulo proximo de 120 graus / agregado de pirrotita, calcopirita e esfalerita com contatos retos e juncoes de ~120 graus"
+      },
+      "claim": "grãos poligonais, com contatos retos e juncoes triplices de angulo proximo de 120 graus / agregado de pirrotita, calcopirita e esfalerita com contatos retos e juncoes de ~120 graus",
+      "problem": "~120 graus vale para agregados monominerálicos; em poliminerálicos o angulo depende do par (gn-sl 103/134; cp-sl 106-108; po-sl 107-108) e so a moda de muitas medidas estima o angulo verdadeiro.",
+      "replacement": "~120 graus em agregados de uma so fase; entre fases diferentes o angulo depende do par; exemplo com juncoes triplices regulares",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.2 e 7.7.1 (p. 153-154)",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-03-texturas-metamorficas-deformacao-recristalizacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "PET-M37-A03-IDIOMORFISMO-004",
+      "severity": "blue",
+      "kind": "evidencia_insuficiente",
+      "location": {
+        "file": "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-03-texturas-metamorficas-deformacao-recristalizacao.md",
+        "section": "A armadilha do idiomorfismo cristaloblastico",
+        "quote": "(a chamada serie cristaloblastica; Stanton, 1972)"
+      },
+      "claim": "(a chamada serie cristaloblastica; Stanton, 1972)",
+      "problem": "Conteudo confere com Craig & Vaughan (porfiroblastos euedricos de pirita, arsenopirita, magnetita e hematita; cp, po, sl anedricos); serie e ordem atribuidas a Stanton 1972 nao conferidas em fonte acessivel; hematita faltava.",
+      "replacement": "Citacao trocada por Craig & Vaughan 1994; hematita acrescentada; Stanton mantido nas Fontes para os angulos interfaciais",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.7.2 (p. 154-155) e 10.10.1 (p. 305)",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "nao_verificado",
+      "affected_files": [
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-03-texturas-metamorficas-deformacao-recristalizacao.md"
+      ],
+      "outcome": "corrigido_com_ressalva",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "PET-M37-A04-FERRICROMITA-007",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "location": {
+        "file": "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-04-oxidos-fe-ti-o-cr-fe-o-sn-w-o.md",
+        "section": "Sistema Cr-Fe-O, 3o paragrafo",
+        "quote": "o Cr, o Al e o Mg saem das bordas dos graos e o Fe3+ entra"
+      },
+      "claim": "o Cr, o Al e o Mg saem das bordas dos graos e o Fe3+ entra",
+      "problem": "Alteracao troca Mg por Fe2+ e remove Al, com entrada de Fe3+; Cr relativamente retido (Cr/(Cr+Al) sobe); Barnes 2000: proporcoes Cr3+, Al3+, Fe3+ pouco modificadas ate anfibolito inferior, substituicao extensa por magnetita no anfibolito; ferritchromit nao e especie IMA.",
+      "replacement": "Mg (por Fe2+) e Al saem, Fe3+ entra, Cr relativamente retido; ferritchromit como termo de uso corrente; magnetita cromifera nos graus mais altos",
+      "source": {
+        "name": "Barnes 2000 J Petrol 41:387-409 (resumo); Evans & Frost 1975 GCA 39:959-972; Mindat Ferritchromit/Ferrian Chromite",
+        "tier": "peer_reviewed",
+        "version": "consultado 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-04-oxidos-fe-ti-o-cr-fe-o-sn-w-o.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "PET-M37-A04-WOLFRAMITA-009",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "location": {
+        "file": "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-04-oxidos-fe-ti-o-cr-fe-o-sn-w-o.md",
+        "section": "Sistema Sn-W-O; tabela Resumo dos oxidos",
+        "quote": "Resumo dos oxidos desta aula: (tabela com wolframita e scheelita)"
+      },
+      "claim": "Resumo dos oxidos desta aula: (tabela com wolframita e scheelita)",
+      "problem": "Scheelita e tungstato (Nickel-Strunz 7.GA.05); wolframita e tungstato em Dana e oxido em Nickel-Strunz (4.DB.30, W em octaedros); so a cassiterita e oxido sem ambiguidade. Titulo e oa03 curriculares nao alterados.",
+      "replacement": "Nota de classificacao e tabela renomeada 'Resumo das fases desta aula'",
+      "source": {
+        "name": "Mindat (scheelita 7.GA.05; forum tungstate vs oxide); ferberita Strunz 4.DB.30",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-04-oxidos-fe-ti-o-cr-fe-o-sn-w-o.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "PET-M37-A04-CASSITERITA-008",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "location": {
+        "file": "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-04-oxidos-fe-ti-o-cr-fe-o-sn-w-o.md",
+        "section": "Sistema Sn-W-O, item Cassiterita e ocorrencias",
+        "quote": "anisotropia fraca, com frequencia mascarada pelas reflexoes internas / cassiterita em granitos e aluvioes de Rondonia e em Pitinga (AM)"
+      },
+      "claim": "anisotropia fraca, com frequencia mascarada pelas reflexoes internas / cassiterita em granitos e aluvioes de Rondonia e em Pitinga (AM)",
+      "problem": "Apendice 1: anisotropia nitida (distinct), cinza, mascarada em oleo pelas reflexoes internas. Ocorrencias conferem (Provincia Estanifera de Rondonia, producao sobretudo aluvionar; Pitinga, albita-granito Madeira), sem fonte.",
+      "replacement": "anisotropia nitida mascarada pelas reflexoes internas; ocorrencias precisadas com Bettencourt et al. 2016",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, Apendice 1; Bettencourt et al. 2016 J South Am Earth Sci 68:22-49",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-04-oxidos-fe-ti-o-cr-fe-o-sn-w-o.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "PET-M37-A04-HEMATITA-MARTITA-004",
+      "severity": "blue",
+      "kind": "evidencia_insuficiente",
+      "location": {
+        "file": "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-04-oxidos-fe-ti-o-cr-fe-o-sn-w-o.md",
+        "section": "Item Martita",
+        "quote": "como os itabiritos do Quadrilatero Ferrifero, especularita e martita sao texturas esperadas (Craig & Vaughan, 1994)"
+      },
+      "claim": "como os itabiritos do Quadrilatero Ferrifero, especularita e martita sao texturas esperadas (Craig & Vaughan, 1994)",
+      "problem": "Craig & Vaughan nao tratam do QF; conteudo confere em Rosiere et al. 2008 (martita, hematita granoblastica, especularita; martita e a geracao mais antiga de hematita).",
+      "replacement": "Citacao trocada por Rosiere et al. 2008, com hematita granoblastica e ordem das geracoes",
+      "source": {
+        "name": "Rosiere, Spier, Rios & Suckau 2008, Rev Econ Geol 15:223-254",
+        "tier": "peer_reviewed",
+        "version": "consultado 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-04-oxidos-fe-ti-o-cr-fe-o-sn-w-o.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "PET-M37-A04-MAGNETITA-ILMENITA-003",
+      "severity": "blue",
+      "kind": "evidencia_insuficiente",
+      "location": {
+        "file": "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-04-oxidos-fe-ti-o-cr-fe-o-sn-w-o.md",
+        "section": "Item Ilmenita",
+        "quote": "leucoxenio, agregado microcristalino de fases de TiO2 (rutilo, anatasio) de refletancia mais alta que a da ilmenita fresca"
+      },
+      "claim": "leucoxenio, agregado microcristalino de fases de TiO2 (rutilo, anatasio) de refletancia mais alta que a da ilmenita fresca",
+      "problem": "Comparacao de refletancia nao encontrada em fonte acessivel.",
+      "replacement": "Comparacao removida",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.8 (leucoxenio sem valor de R)",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "nao_verificado",
+      "affected_files": [
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-04-oxidos-fe-ti-o-cr-fe-o-sn-w-o.md"
+      ],
+      "outcome": "corrigido_com_ressalva",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "PET-M37-A04-SCHEELITA-010",
+      "severity": "blue",
+      "kind": "evidencia_insuficiente",
+      "location": {
+        "file": "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-04-oxidos-fe-ti-o-cr-fe-o-sn-w-o.md",
+        "section": "Ocorrencias brasileiras (Sn-W-O)",
+        "quote": "scheelita em skarns do Serido (RN)"
+      },
+      "claim": "scheelita em skarns do Serido (RN)",
+      "problem": "Confere (Faixa Serido, Brejui principal deposito e maior reserva brasileira de W), sem fonte; propriedades opticas conferem com o Apendice 1.",
+      "replacement": "Brejui e Souza Neto et al. 2008 acrescentados",
+      "source": {
+        "name": "Souza Neto et al. 2008, Miner Deposita 43:185-205; Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, Apendice 1",
+        "tier": "peer_reviewed",
+        "version": "consultado 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-04-oxidos-fe-ti-o-cr-fe-o-sn-w-o.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "PET-M37-A05-ESCADA-CU-001",
+      "severity": "red",
+      "kind": "inconsistencia_interna",
+      "location": {
+        "file": "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-05-sulfetos-cobre-chumbo-zinco.md",
+        "section": "Sulfetos de cobre (tabela); recap",
+        "quote": "escada por teor crescente de Cu: calcopirita, bornita, calcocita, digenita, covelita / recap: ... calcocita e digenita cinza-azuladas, covelita azul"
+      },
+      "claim": "escada por teor crescente de Cu: calcopirita, bornita, calcocita, digenita, covelita / recap: ... calcocita e digenita cinza-azuladas, covelita azul",
+      "problem": "INVERSAO: % Cu em massa cp ~35, bn ~63, cv ~66, dg ~78, cc ~80; covelita no topo e falso e contradiz a Aula 02 (py/cp -> cv -> cc/dg).",
+      "replacement": "Tabela reordenada cp, bn, cv, dg, cc com teores aproximados; recap reordenado",
+      "source": {
+        "name": "Estequiometria das formulas; Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, Apendice 1",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-05-sulfetos-cobre-chumbo-zinco.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "PET-M37-A05-IOCG-CARAJAS-005",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "location": {
+        "file": "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-05-sulfetos-cobre-chumbo-zinco.md",
+        "section": "Fim de Sulfetos de cobre",
+        "quote": "Nos depositos IOCG de Carajas (Salobo, Sossego), calcopirita e bornita associam-se a magnetita abundante."
+      },
+      "claim": "Nos depositos IOCG de Carajas (Salobo, Sossego), calcopirita e bornita associam-se a magnetita abundante.",
+      "problem": "Salobo: bornita e calcocita (com digenita), calcopirita subordinada, em rochas ricas em magnetita; Sossego: calcopirita dominante, magnetita abundante em partes (Sequeirinho-Pista-Baiano).",
+      "replacement": "Frase separando Salobo e Sossego, com Melo et al. 2017 e Monteiro et al. 2008",
+      "source": {
+        "name": "Melo et al. 2017 Miner Deposita 52:709-732; Monteiro et al. 2008 Miner Deposita 43:129-159",
+        "tier": "peer_reviewed",
+        "version": "consultado 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-05-sulfetos-cobre-chumbo-zinco.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "PET-M37-A06-PENTLANDITA-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "location": {
+        "file": "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-06-sulfetos-niquel-arsenio-minerais-preciosos.md",
+        "section": "Sulfetos de niquel, 1o paragrafo",
+        "quote": "com fraturas poligonais caracteristicas, que marcam sua particao octaedrica"
+      },
+      "claim": "com fraturas poligonais caracteristicas, que marcam sua particao octaedrica",
+      "problem": "Craig & Vaughan atribuem o fraturamento a contracao termica 2-10 vezes maior que a da pirrotita e da pirita; a particao existe mas nao e a causa dada pela fonte.",
+      "replacement": "fraturas atribuidas a contracao no resfriamento, guiadas em parte pela particao octaedrica",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.5.5 (p. 145), 9.3.1 (p. 215), Apendice 1",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-06-sulfetos-niquel-arsenio-minerais-preciosos.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "PET-M37-A06-VIOLARITA-003",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "location": {
+        "file": "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-06-sulfetos-niquel-arsenio-minerais-preciosos.md",
+        "section": "Paragrafo da violarita; Exemplo (situacao, passo 1); recap",
+        "quote": "Violarita (FeNi2S4) e rosa-violacea e isotropica ... Onde ha violarita, o perfil oxidado deve estar proximo."
+      },
+      "claim": "Violarita (FeNi2S4) e rosa-violacea e isotropica ... Onde ha violarita, o perfil oxidado deve estar proximo.",
+      "problem": "Craig & Vaughan: cinza-amarronzada com tinta violeta, mais escura que a pentlandita, isotropica, secundaria porosa; em geral supergenica mas forma-se abaixo da zona oxidada e ha violarita hipogenica; 'perfil oxidado proximo' excede a evidencia.",
+      "replacement": "Cor corrigida; 'na maioria dos casos' supergenica; presenca sugere alteracao supergenica sem dizer a distancia do perfil oxidado",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 9.3.3 (p. 219-220), Fig. 9.8, Apendice 1",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-06-sulfetos-niquel-arsenio-minerais-preciosos.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "PET-M37-A06-QF-AU-006",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "location": {
+        "file": "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-06-sulfetos-niquel-arsenio-minerais-preciosos.md",
+        "section": "Arsenio: arsenopirita e arsenetos, 2o paragrafo",
+        "quote": "ocorrem no Quadrilatero Ferrifero e no greenstone belt Rio das Velhas"
+      },
+      "claim": "ocorrem no Quadrilatero Ferrifero e no greenstone belt Rio das Velhas",
+      "problem": "O greenstone belt Rio das Velhas esta dentro do QF; mineralogia confere (pirita, arsenopirita, pirrotita em Morro Velho, Cuiaba, Lamego, Sao Bento).",
+      "replacement": "greenstone belt Rio das Velhas, no Quadrilatero Ferrifero, como em Morro Velho e Cuiaba (Lobato et al. 2001)",
+      "source": {
+        "name": "Lobato, Ribeiro-Rodrigues & Vieira 2001, Miner Deposita 36:249-277",
+        "tier": "peer_reviewed",
+        "version": "consultado 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-06-sulfetos-niquel-arsenio-minerais-preciosos.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "PET-M37-A06-OURO-INVISIVEL-009",
+      "severity": "red",
+      "kind": "erro_factual",
+      "location": {
+        "file": "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-06-sulfetos-niquel-arsenio-minerais-preciosos.md",
+        "section": "Ouro visivel e ouro invisivel; recap",
+        "quote": "ouro invisivel (refratario), que nao aparece na secao e e detectado por tecnicas como SIMS, LA-ICP-MS e MEV"
+      },
+      "claim": "ouro invisivel (refratario), que nao aparece na secao e e detectado por tecnicas como SIMS, LA-ICP-MS e MEV",
+      "problem": "Cook & Chryssoulis definem ouro invisivel como o ouro na estrutura e em inclusoes < ~1000 A, nao detectaveis por microscopia optica nem eletronica de varredura; MEV nao o detecta; nanoparticulas vistas por MET. 'So ve graos maiores que poucos um' destoava da restricao 15 do Modulo 36.",
+      "replacement": "Definicao corrigida (nem optico nem MEV; SIMS e LA-ICP-MS medem; MET ve nanoparticulas); limite pratico de identificacao optica de alguns um",
+      "source": {
+        "name": "Cook & Chryssoulis 1990, Can Mineral 28:1-16 (resumo e definicao); Modulo 36 restricao 15",
+        "tier": "peer_reviewed",
+        "version": "consultado 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "37-petrografia-de-minerio/37-petrografia-de-minerio-aula-06-sulfetos-niquel-arsenio-minerais-preciosos.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "PET-M37-A01-FUGACIDADE-001",
+      "claim": "T, fO2 e fS2; assembleia restringe e nao mede",
+      "source": "Einaudi, Hedenquist & Inan 2003, SEG Spec. Publ. 10:285-313, texto integral (pyrite.utah.edu); Barton & Skinner 1979",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A01-PIRITA-PIRROTITA-002",
+      "claim": "Tampao py-po: fS2 alta -> pirita; aquecer -> pirrotita (sem inversao)",
+      "source": "Einaudi, Hedenquist & Inan 2003, SEG Spec. Publ. 10:285-313, texto integral (pyrite.utah.edu), eq. 2, Fig. 1",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A01-MH-004",
+      "claim": "Tampao MH; QFM < NNO < MH; martita tardia",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.5.4, 7.4.2; Buddington & Lindsley 1964",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A01-LEITURA-ASSEMBLEIA-005",
+      "claim": "Leitura qualitativa po+mt / py+mt / py+hm",
+      "source": "Barton & Skinner 1979; Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, cap. 8",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A01-RECONHECIMENTO-008",
+      "claim": "Pares criticos do Modulo 36",
+      "source": "Modulo 36 (auditado); Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, Apendice 1",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A01-EXEMPLO-009",
+      "claim": "Exemplo hipotetico (passo 4 corrigido pelo achado 3)",
+      "source": "logica conferida",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A02-MAGMATICA-001",
+      "claim": "Cumulus, intersticial, gotas de sulfeto imiscivel",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.2 e 9.3.2; Naldrett 2004; Barnes & Lightfoot 2005",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A02-SEDIMENTAR-003",
+      "claim": "Framboides, nodulos, pseudomorfos organicos; concordancia nao prova",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.4 e 7.9",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A02-MECANISMO-004",
+      "claim": "Dissolucao-reprecipitacao acoplada; de fora para dentro",
+      "source": "Putnis 2009 RiMG 70:87-124; Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.4, 7.4.1",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A02-GEOMETRIAS-005",
+      "claim": "Geometrias de substituicao",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.4.1, 7.4.3, Fig. 7.15",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A02-REGRAS-007",
+      "claim": "Regras de idade relativa e inversao pela substituicao",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.4.1",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A02-ENRIQUECIMENTO-009",
+      "claim": "Cu:S crescente; covelita e calcocita tambem hipogenicas",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.4.3 Fig. 7.14; Einaudi, Hedenquist & Inan 2003, SEG Spec. Publ. 10:285-313, texto integral (pyrite.utah.edu)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A02-EXEMPLO-010",
+      "claim": "Exemplo hipotetico (passo 1 corrigido pelo achado 6)",
+      "source": "logica conferida",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A03-RESISTENCIA-001",
+      "claim": "Ordem de ductilidade; quarta propriedade (sem inversao)",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.6, 7.6.4, 10.10.1-2",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A03-DEFORMACAO-002",
+      "claim": "Cataclase; geminacoes em cp, po, ilm; fileiras encurvadas na galena",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.6.1-7.6.4, 10.10.1; Modulo 36",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A03-SOMBRAS-005",
+      "claim": "Sombra de pressao exige grao rigido preexistente",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 10.10.1",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A03-REMOBILIZACAO-006",
+      "claim": "Remobilizacao mecanica ou por fluido",
+      "source": "Marshall & Gilligan 1987 Ore Geol Rev 2:87-131; Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.4.1",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A03-GRAU-007",
+      "claim": "Pirita -> pirrotita com o grau; retrogressao (sem inversao)",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 10.10.1-2, 7.5.3",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A03-FOLIACAO-008",
+      "claim": "Relacao com a foliacao",
+      "source": "Marshall & Gilligan 1987; Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 10.10.2",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A03-EXEMPLO-009",
+      "claim": "Exemplo hipotetico (corrigido pelo achado 9)",
+      "source": "logica conferida",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A04-FETIO-SERIES-001",
+      "claim": "Duas series Fe-Ti; oxi-exsolucao",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.5.4, Fig. 7.17d; Buddington & Lindsley 1964",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A04-TITANOMAGNETITA-002",
+      "claim": "Titanomagnetita vanadifera",
+      "source": "Modulo 33, Aula 08 (auditado)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A04-CROMITA-005",
+      "claim": "Cromita isotropica, menos refletora; reflexoes internas marrom-avermelhadas",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, Apendice 1",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A04-CROMITITO-006",
+      "claim": "Estratiforme e podiforme; Ipueira-Medrado",
+      "source": "Modulo 33, Aula 08 (auditado)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A04-PAR-CASSITERITA-ESFALERITA-011",
+      "claim": "Cassiterita x esfalerita",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, Apendice 1",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A04-EXEMPLO-012",
+      "claim": "Exemplo hipotetico da ultramafica",
+      "source": "logica conferida; Barnes 2000",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A05-CALCOPIRITA-002",
+      "claim": "Calcopirita; geminacoes",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.6.1, Apendice 1",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A05-BORNITA-TARNISH-003",
+      "claim": "Bornita escurece; lamelas de calcopirita",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, Apendice 1, Fig. 7.17a",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A05-FS2-004",
+      "claim": "bn, dg, cv mais sulfetados que cp+po",
+      "source": "Einaudi, Hedenquist & Inan 2003, SEG Spec. Publ. 10:285-313, texto integral (pyrite.utah.edu)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A05-SULFOSSAIS-006",
+      "claim": "Sulfossais de Cu por analise",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, Apendice 1",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A05-GALENA-007",
+      "claim": "Galena",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, Fig. 7.11c, 10.10.1; Modulo 36",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A05-ESFALERITA-008",
+      "claim": "Esfalerita, Fe e coloforme",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.3",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A05-DOENCA-009",
+      "claim": "Doenca da calcopirita controversa (nenhum lado)",
+      "source": "Barton & Bethke 1987; Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.5.2; Modulo 36",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A05-FES-BAROMETRO-010",
+      "claim": "FeS da esfalerita como geobarometro",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 8.4, 10.10.1",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A05-ZONAMENTO-011",
+      "claim": "Tendencia Cu, Zn, Pb como hipotese",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 9.10",
+      "confidence": "provavel"
+    },
+    {
+      "claim_id": "PET-M37-A05-EXEMPLO-012",
+      "claim": "Exemplo hipotetico do veio",
+      "source": "logica conferida",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A06-EXSOLUCAO-MSS-002",
+      "claim": "Pentlandita da mss, calcopirita da iss; chamas mais novas (sem inversao)",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 9.3.2; Naldrett 2004; Barnes & Lightfoot 2005",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A06-NI-BRASIL-004",
+      "claim": "Ni sulfetado e lateritico no Brasil",
+      "source": "Modulo 33, Aula 08 (auditado)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A06-ARSENOPIRITA-005",
+      "claim": "Arsenopirita; geotermometro",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, Apendice 1, sec. 8.4 Fig. 8.19; Kretschmar & Scott 1976 Can Mineral 14:364-386",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A06-ARSENETOS-007",
+      "claim": "Loellingita, niquelina, cobaltita, skutterudita",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, Apendice 1",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A06-OURO-008",
+      "claim": "Ouro nativo e posicao textural",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, Apendice 1; Modulo 36",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A06-ELECTRUM-PRATA-010",
+      "claim": "Electrum e rubis de prata",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.8, Apendice 1",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A06-PGM-011",
+      "claim": "PGM pequenos; especie por MEV-EDS",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 9.3.1",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A06-EXEMPLO-012",
+      "claim": "Exemplo hipotetico (violarita corrigida pelo achado 20)",
+      "source": "logica conferida",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A07-COLECAO-001",
+      "claim": "Paragenese composta",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, cap. 8",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A07-GERACOES-002",
+      "claim": "Ordens opostas = geracoes ou remobilizacao",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.3 Fig. 7.3b; Marshall & Gilligan 1987",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A07-HIERARQUIA-003",
+      "claim": "Forca da evidencia (heuristica declarada)",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.4, 7.7.2",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A07-DIAGRAMA-004",
+      "claim": "Convencao do diagrama paragenetico",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, cap. 8",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A07-CONDICOES-ESTAGIO-005",
+      "claim": "Tampao so no mesmo estagio",
+      "source": "Einaudi, Hedenquist & Inan 2003, SEG Spec. Publ. 10:285-313, texto integral (pyrite.utah.edu); Barton & Skinner 1979",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A07-TIPO-DEPOSITO-006",
+      "claim": "Paragenese restringe e nao classifica",
+      "source": "Modulos 34 e 35 (auditados)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A07-EXEMPLO-007",
+      "claim": "Exemplo hipotetico das tres secoes",
+      "source": "logica conferida",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PET-M37-A07-RECAP-MODULO-008",
+      "claim": "Pendencias em aberto (nenhum lado)",
+      "source": "Barton & Bethke 1987; Modulo 36",
+      "confidence": "confirmado"
+    }
+  ]
+}

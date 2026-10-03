@@ -1,0 +1,90 @@
+---
+type: dashboard
+curso: Geologia Avançada — Especializações além da graduação
+---
+
+# Dashboard — Geologia Avançada — Especializações além da graduação
+
+## Estudo
+
+- [[00-progresso-do-aluno.md|Marcar aulas assistidas (0 aulas disponíveis)]]
+- [[_curso|Ver currículo completo e módulos]]
+- [[_contexto|Ver regras e contexto do curso]]
+
+> [!info] Como usar Marque as caixas na página **Progresso do aluno** depois de assistir a uma aula ou concluir uma avaliação. A página mantém o seu avanço pessoal separado do estado de produção do curso.
+
+## Trilhas de estudo
+
+| Trecho | Ordem | Status |
+| --- | --- | --- |
+| IX. Especializações aplicadas | 01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 → 09 → 10 → 11 → 12 | pendente |
+| X. Métodos quantitativos e geoinformação | 13 → 14 → 15 → 16 → 17 → 18 → 19 → 20 → 21 → 22 → 23 → 24 → 25 | pendente |
+| XI. Geoquímica isotópica e petrogênese avançada | 26 → 27 → 28 → 29 → 30 → 31 → 32 → 33 → 34 → 35 → 36 → 37 | pendente |
+| XII. Síntese estrutural e integração | 38 → 39 → 40 | pendente |
+
+## Produção por IA
+
+| Conteúdo | Situação |
+| --- | --- |
+| Aulas publicadas localmente | 0 |
+| Aulas planejadas | 222 |
+| Módulos do currículo | 40 |
+| Áreas temáticas | 4 |
+| Questionários gerados | 0 / 40 |
+| Baralhos de flashcards gerados | 0 / 40 |
+| Auditorias científicas concluídas | 0 / 40 |
+| Fonte de verdade | `course-state.yaml` |
+
+## Módulos
+
+**IX. Especializações aplicadas**
+
+- [[01-hidrogeologia-recursos-hidricos/01-hidrogeologia-recursos-hidricos-modulo|01 — Hidrogeologia e recursos hídricos]] · 0/7 aulas
+- [[02-hidrogeoquimica/02-hidrogeoquimica-modulo|02 — Hidrogeoquímica]] · 0/5 aulas
+- [[03-contaminacao-aguas-subterraneas/03-contaminacao-aguas-subterraneas-modulo|03 — Contaminação dos recursos hídricos subterrâneos]] · 0/5 aulas
+- [[04-exploracao-gestao-aguas-subterraneas/04-exploracao-gestao-aguas-subterraneas-modulo|04 — Exploração, explotação e gestão dos recursos hídricos subterrâneos]] · 0/4 aulas
+- [[05-mecanica-de-rochas/05-mecanica-de-rochas-modulo|05 — Mecânica de rochas]] · 0/7 aulas
+- [[06-elementos-de-geomecanica/06-elementos-de-geomecanica-modulo|06 — Elementos de geomecânica]] · 0/6 aulas
+- [[07-mapeamento-geotecnico/07-mapeamento-geotecnico-modulo|07 — Metodologia de mapeamento geotécnico]] · 0/4 aulas
+- [[08-geotecnia-ambiental/08-geotecnia-ambiental-modulo|08 — Geotecnia ambiental]] · 0/6 aulas
+- [[09-geometalurgia/09-geometalurgia-modulo|09 — Geometalurgia]] · 0/6 aulas
+- [[10-tectonica-de-bacias-sedimentares/10-tectonica-de-bacias-sedimentares-modulo|10 — Tectônica de bacias sedimentares]] · 0/5 aulas
+- [[11-sismoestratigrafia/11-sismoestratigrafia-modulo|11 — Sismoestratigrafia]] · 0/6 aulas
+- [[12-engenharia-de-petroleo/12-engenharia-de-petroleo-modulo|12 — Engenharia de petróleo]] · 0/5 aulas
+
+**X. Métodos quantitativos e geoinformação**
+
+- [[13-geoprocessamento/13-geoprocessamento-modulo|13 — Geoprocessamento]] · 0/7 aulas
+- [[14-sensoriamento-remoto/14-sensoriamento-remoto-modulo|14 — Sensoriamento remoto]] · 0/7 aulas
+- [[15-petrofisica/15-petrofisica-modulo|15 — Introdução à petrofísica]] · 0/4 aulas
+- [[16-aerogeofisica/16-aerogeofisica-modulo|16 — Introdução à aerogeofísica]] · 0/5 aulas
+- [[17-geofisica-marinha-bacias-sedimentares/17-geofisica-marinha-bacias-sedimentares-modulo|17 — Geofísica marinha e de bacias sedimentares]] · 0/5 aulas
+- [[18-geofisica-america-do-sul/18-geofisica-america-do-sul-modulo|18 — Geofísica da América do Sul]] · 0/4 aulas
+- [[19-geofisica-exploracao-mineral/19-geofisica-exploracao-mineral-modulo|19 — Geofísica aplicada na exploração mineral]] · 0/6 aulas
+- [[20-geoestatistica/20-geoestatistica-modulo|20 — Introdução à geoestatística]] · 0/4 aulas
+- [[21-modelagem-geoestatistica-depositos-minerais/21-modelagem-geoestatistica-depositos-minerais-modulo|21 — Modelagem geoestatística de depósitos minerais]] · 0/5 aulas
+- [[22-modelagem-geologica-3d/22-modelagem-geologica-3d-modulo|22 — Modelagem geológica 3D]] · 0/5 aulas
+- [[23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-modulo|23 — Introdução à modelagem numérica geodinâmica]] · 0/7 aulas
+- [[24-machine-learning-geociencias/24-machine-learning-geociencias-modulo|24 — Fundamentos e aplicações de machine learning em geociências]] · 0/6 aulas
+- [[25-aquisicao-digital-ia-geociencias/25-aquisicao-digital-ia-geociencias-modulo|25 — Aquisição de dados digitais e inteligência artificial em geociências]] · 0/5 aulas
+
+**XI. Geoquímica isotópica e petrogênese avançada**
+
+- [[26-geologia-isotopica-aplicada/26-geologia-isotopica-aplicada-modulo|26 — Geologia isotópica aplicada]] · 0/6 aulas
+- [[27-petrocronologia/27-petrocronologia-modulo|27 — Introdução à petrocronologia]] · 0/6 aulas
+- [[28-analise-instrumental-i/28-analise-instrumental-i-modulo|28 — Análise instrumental I]] · 0/5 aulas
+- [[29-granitos-no-ciclo-de-wilson/29-granitos-no-ciclo-de-wilson-modulo|29 — Granitos no ciclo de Wilson]] · 0/6 aulas
+- [[30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-modulo|30 — Petrologia de kimberlitos e carbonatitos e mineralizações associadas]] · 0/6 aulas
+- [[31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo|31 — Rochas ígneas alcalinas: petrologia e mineralizações]] · 0/6 aulas
+- [[32-pegmatitos/32-pegmatitos-modulo|32 — Pegmatitos: da gênese à exploração]] · 0/5 aulas
+- [[33-intrusoes-acamadadas/33-intrusoes-acamadadas-modulo|33 — Petrologia de intrusões acamadadas e processos ígneos de mineralização]] · 0/6 aulas
+- [[34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-modulo|34 — Sistemas hidrotermais e metalogênese]] · 0/7 aulas
+- [[35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-modulo|35 — Vulcanismo e mineralizações associadas]] · 0/6 aulas
+- [[36-microscopia-de-minerios/36-microscopia-de-minerios-modulo|36 — Microscopia de minérios]] · 0/4 aulas
+- [[37-petrografia-de-minerio/37-petrografia-de-minerio-modulo|37 — Petrografia de minério]] · 0/6 aulas
+
+**XII. Síntese estrutural e integração**
+
+- [[38-geologia-estrutural-quantitativa/38-geologia-estrutural-quantitativa-modulo|38 — Geologia estrutural quantitativa]] · 0/5 aulas
+- [[39-analise-textural-de-rochas/39-analise-textural-de-rochas-modulo|39 — Análise textural de rochas: técnicas e aplicações]] · 0/8 aulas
+- [[40-estudos-integrados-projetos-em-geologia-aplicada/40-estudos-integrados-projetos-em-geologia-aplicada-modulo|40 — Estudos integrados: projetos em geologia aplicada]] · 0/4 aulas

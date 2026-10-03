@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "05-mineralogia-identificacao-optica",
+    "module_id": "05",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-17T01:30:00-03:00",
+  "verdict": "approved",
+  "summary": {"red": 0, "orange": 0, "yellow": 0, "blue": 0, "white": 0, "verified_ok": 30},
+  "findings": [
+    {
+      "claim_id": "MIN-PYX-EXTINCAO-001",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "location": {"file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-06-optica-mineral-parte-2-cores-de-interferencia-e-extincao.md", "section": "Extinção", "quote": "Piroxênios tipicamente exibem extinção claramente oblíqua"},
+      "claim": "Piroxênios tipicamente exibem extinção oblíqua.",
+      "problem": "A generalização não inclui a extinção paralela típica dos ortopiroxênios.",
+      "replacement": "Clinopiroxênios como augita tipicamente exibem extinção oblíqua; ortopiroxênios costumam apresentar extinção paralela.",
+      "source": {"name": "Raith, Raase & Reinhardt — Guide to Thin Section Microscopy; UND Orthopyroxene", "url": "https://cdn.serc.carleton.edu/files/NAGTWorkshops/mineralogy/thin_section_microscopy.pdf", "tier": "peer_reviewed", "version": "recurso consultado em 2026-08-17", "consulted_at": "2026-08-17"},
+      "confidence": "confirmado",
+      "affected_files": ["05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-06-optica-mineral-parte-2-cores-de-interferencia-e-extincao.md", "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-07-identificacao-ao-microscopio-petrografico.md", "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-questionario-final.md"],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-17T01:30:00-03:00"
+    },
+    {
+      "claim_id": "MIN-PYX-ANGLE-002",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "location": {"file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-07-identificacao-ao-microscopio-petrografico.md", "section": "Protocolo aplicado", "quote": "anfibólio [...] em ângulo tipicamente menor"},
+      "claim": "Anfibólios têm ângulo de extinção tipicamente menor que piroxênios.",
+      "problem": "A comparação fixa ignora composição e orientação do corte e não é um discriminante robusto.",
+      "replacement": "Os ângulos variam; use a clivagem como triagem introdutória e combine critérios.",
+      "source": {"name": "Raith, Raase & Reinhardt — Guide to Thin Section Microscopy", "url": "https://cdn.serc.carleton.edu/files/NAGTWorkshops/mineralogy/thin_section_microscopy.pdf", "tier": "peer_reviewed", "version": "seção 4.2.4", "consulted_at": "2026-08-17"},
+      "confidence": "confirmado",
+      "affected_files": ["05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-07-identificacao-ao-microscopio-petrografico.md", "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-questionario-final.md"],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-17T01:30:00-03:00"
+    }
+  ],
+  "verified_claims": []
+}

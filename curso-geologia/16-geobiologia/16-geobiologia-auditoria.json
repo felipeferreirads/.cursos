@@ -1,0 +1,586 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "16-geobiologia",
+    "module_id": "16",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-18",
+  "applied_at": "2026-08-18",
+  "verdict": "approved_with_reservations",
+  "summary": {
+    "red": 4,
+    "orange": 9,
+    "yellow": 2,
+    "blue": 0,
+    "white": 2,
+    "verified_ok": 16
+  },
+  "open_findings": [
+    "GEOBIO-LUCA-THERMO-001",
+    "GEOBIO-LHB-001"
+  ],
+  "findings": [
+    {
+      "claim_id": "GEOBIO-LUCA-PRIOR-001",
+      "severity": "red",
+      "problem": "Nao existiu estimativa molecular consolidada de 3,5-3,8 Ga para o LUCA. Moody et al. 2024 descrevem seu resultado como comparavel a estudos previos, dentro de faixa composta de ~3,94 a 4,52 Ga; Betts et al. 2018 ja situavam o LUCA antes de 3,9 Ga. O avanco foi estreitar o intervalo, nao envelhecer o no.",
+      "confidence": "confirmado",
+      "affected_files": [
+        "16-geobiologia-aula-05-origem-vida-astrobiologia.md",
+        "16-geobiologia-questionario.md",
+        "16-geobiologia-flashcards-basic.csv",
+        "16-geobiologia-flashcards-cloze.csv"
+      ],
+      "affected_ids": [
+        "Q11",
+        "fb020",
+        "fc015"
+      ],
+      "outcome": "corrigido",
+      "kind": "erro_factual",
+      "claim": "Isso é significativamente mais antigo do que estimativas anteriores (que situavam o LUCA em ~3,5-3,8 Ga)",
+      "replacement": "Substituido por: o proprio estudo descreve seu resultado como comparavel a estimativas anteriores, dentro de faixa composta de ~3,94 a 4,52 Ga; o avanco foi estreitar o intervalo.",
+      "location": {
+        "file": "16-geobiologia-aula-05-origem-vida-astrobiologia.md",
+        "quote": "Isso é significativamente mais antigo do que estimativas anteriores (que situavam o LUCA em ~3,5-3,8 Ga)"
+      },
+      "source": {
+        "name": "Moody, Alvarez-Carretero et al. 2024, Nature Ecology & Evolution, doi:10.1038/s41559-024-02461-1",
+        "version": "consultado em 2026-08-18",
+        "tier": "peer_reviewed"
+      }
+    },
+    {
+      "claim_id": "GEOBIO-BIOMIN-AGE-001",
+      "severity": "red",
+      "problem": "Cloudina e do Ediacarano terminal, ~550-539 Ma (Kliphoek inferior ~551-550 Ma; Fm. Tamengo ~541,8 Ma). O valor 571 Ma vem de Morais et al. 2024 sobre microfosseis da Fm. Bocaina, cujos autores registram ausencia de caracteres diagnosticos e descrevem os especimes apenas como reminiscentes de cloudinideos.",
+      "confidence": "confirmado",
+      "affected_files": [
+        "16-geobiologia-aula-04-biomineralizacao-sedimentos-biogenicos.md",
+        "16-geobiologia-flashcards-basic.csv",
+        "16-geobiologia-flashcards-cloze.csv"
+      ],
+      "affected_ids": [
+        "fb019",
+        "fc014"
+      ],
+      "outcome": "corrigido",
+      "kind": "erro_factual",
+      "claim": "evidência de metazoários biomineralizados diversos já em cerca de 571 a 550 milhões de anos atrás (fósseis como Cloudina...)",
+      "replacement": "Intervalo corrigido para ~550-539 Ma com Cloudina; reivindicacao de ~571 Ma realocada e marcada como em avaliacao, com a ressalva dos autores reproduzida.",
+      "location": {
+        "file": "16-geobiologia-aula-04-biomineralizacao-sedimentos-biogenicos.md",
+        "quote": "evidência de metazoários biomineralizados diversos já em cerca de 571 a 550 milhões de anos atrás (fósseis como Cloudina...)"
+      },
+      "source": {
+        "name": "Wood et al. 2019, Geology 47:380-384, doi:10.1130/G45949.1; Morais et al. 2024, Scientific Reports 14:14916; ICS v2026/06 (base do Cambriano 538,8 Ma)",
+        "version": "ICS v2026/06; consultado em 2026-08-18",
+        "tier": "peer_reviewed"
+      }
+    },
+    {
+      "claim_id": "GEOBIO-N2FIX-EVID-001",
+      "severity": "red",
+      "problem": "Acidos nucleicos nao sobrevivem 3,2 Ga. A evidencia sao assinaturas isotopicas de nitrogenio (delta-15N) em rochas sedimentares, como a propria Aula 03 afirma corretamente. O gabarito e falso e contradiz a aula que diz cobrir.",
+      "confidence": "confirmado",
+      "affected_files": [
+        "16-geobiologia-questionario.md"
+      ],
+      "affected_ids": [
+        "Q7"
+      ],
+      "outcome": "corrigido",
+      "kind": "erro_factual",
+      "claim": "ácidos nucleicos antigos (≥3,2 Ga) sugerem que a fixação biológica já era conhecida então",
+      "replacement": "Substituido por assinaturas isotopicas de nitrogenio (delta-15N) em rochas sedimentares de ~3,2 Ga, com ressalva de limite minimo preservado.",
+      "location": {
+        "file": "16-geobiologia-questionario.md",
+        "quote": "ácidos nucleicos antigos (≥3,2 Ga) sugerem que a fixação biológica já era conhecida então"
+      },
+      "source": {
+        "name": "Stüeken, Buick, Guy & Koehler 2015, Nature, doi:10.1038/nature14180",
+        "version": "consultado em 2026-08-18",
+        "tier": "peer_reviewed"
+      }
+    },
+    {
+      "claim_id": "GEOBIO-GOE-DELAY-001",
+      "severity": "red",
+      "problem": "Contradiz a Aula 01, que diz centenas de milhoes de anos, e infla a escala em uma ordem de grandeza, tornando incoerente a cronologia que a propria questao pede.",
+      "confidence": "confirmado",
+      "affected_files": [
+        "16-geobiologia-questionario.md"
+      ],
+      "affected_ids": [
+        "Q1"
+      ],
+      "outcome": "corrigido",
+      "kind": "inconsistencia_interna",
+      "claim": "Por bilhões de anos, todo O₂ produzido foi consumido por \"pias químicas\"",
+      "replacement": "Por bilhoes de anos -> Por centenas de milhoes de anos.",
+      "location": {
+        "file": "16-geobiologia-questionario.md",
+        "quote": "Por bilhões de anos, todo O₂ produzido foi consumido por \"pias químicas\""
+      },
+      "source": {
+        "name": "Aula 01 do modulo; Lyons, Reinhard & Planavsky 2014, Nature, doi:10.1038/nature13068",
+        "version": "consultado em 2026-08-18",
+        "tier": "peer_reviewed"
+      }
+    },
+    {
+      "claim_id": "GEOBIO-O2-PREGOE-001",
+      "severity": "orange",
+      "problem": "Erro de cerca de quatro ordens de grandeza. O O2 pre-GOE esta reconstruido em menos de 10^-5 PAL, frações de parte por milhao.",
+      "confidence": "confirmado",
+      "affected_files": [
+        "16-geobiologia-aula-01-coevolucao-vida-terra.md"
+      ],
+      "outcome": "corrigido",
+      "kind": "erro_factual",
+      "claim": "os poucos por cento de O₂ que existiriam seriam consumidos quase instantaneamente",
+      "replacement": "Substituido por: menos de 10^-5 do nivel atmosferico atual de O2, ou seja, fracoes de parte por milhao.",
+      "location": {
+        "file": "16-geobiologia-aula-01-coevolucao-vida-terra.md",
+        "quote": "os poucos por cento de O₂ que existiriam seriam consumidos quase instantaneamente"
+      },
+      "source": {
+        "name": "Lyons, Reinhard & Planavsky 2014, Nature, doi:10.1038/nature13068",
+        "version": "consultado em 2026-08-18",
+        "tier": "peer_reviewed"
+      }
+    },
+    {
+      "claim_id": "GEOBIO-STROM-PEAK-001",
+      "severity": "orange",
+      "problem": "O intervalo nao corresponde a unidade formal. O Mesoproterozoico e 1600-1000 Ma na ICS, e a literatura situa o pico de abundancia e diversidade de estromatolitos em 1,6-1,0 Ga.",
+      "confidence": "confirmado",
+      "affected_files": [
+        "16-geobiologia-aula-02-estromatolitos-registro-microbiano.md",
+        "16-geobiologia-aula-04-biomineralizacao-sedimentos-biogenicos.md",
+        "16-geobiologia-questionario.md"
+      ],
+      "affected_ids": [
+        "Q9"
+      ],
+      "outcome": "corrigido",
+      "kind": "erro_factual",
+      "claim": "no Proterozoico Médio (aproximadamente entre 1,9 e 1,3 bilhão de anos atrás)",
+      "replacement": "Trocado por Mesoproterozoico (1,6-1,0 Ga, ICS v2026/06), com alinhamento das mencoes em cadeia.",
+      "location": {
+        "file": "16-geobiologia-aula-02-estromatolitos-registro-microbiano.md",
+        "quote": "no Proterozoico Médio (aproximadamente entre 1,9 e 1,3 bilhão de anos atrás)"
+      },
+      "source": {
+        "name": "ICS, International Chronostratigraphic Chart v2026/06; literatura de sintese sobre ascensao e declinio de estromatolitos",
+        "version": "ICS v2026/06, consultada em 2026-08-18",
+        "tier": "normative"
+      }
+    },
+    {
+      "claim_id": "GEOBIO-NITROGENASE-001",
+      "severity": "orange",
+      "problem": "A enumeracao le-se como exaustiva e omite a terceira variante. Sao conhecidas tres nitrogenases: Mo-Fe (dominante), V-Fe e Fe apenas. A omissao apaga o argumento de que nitrogenases alternativas teriam operado quando o Mo oceanico era escasso, relevante para a propria fonte citada.",
+      "confidence": "confirmado",
+      "affected_files": [
+        "16-geobiologia-aula-03-ciclos-biogeoquimicos.md",
+        "16-geobiologia-questionario.md",
+        "16-geobiologia-flashcards-basic.csv",
+        "16-geobiologia-flashcards-cloze.csv"
+      ],
+      "affected_ids": [
+        "Q7",
+        "fb013",
+        "fc009"
+      ],
+      "outcome": "corrigido",
+      "kind": "omissao_que_gera_erro",
+      "claim": "nitrogenase: enzima, dependente de molibdênio ou de ferro-vanádio em algumas linhagens",
+      "replacement": "As tres variantes passaram a ser nomeadas na aula, no gabarito e nos dois CSVs; fc009 reestruturado com lacunas c1-c7.",
+      "location": {
+        "file": "16-geobiologia-aula-03-ciclos-biogeoquimicos.md",
+        "quote": "nitrogenase: enzima, dependente de molibdênio ou de ferro-vanádio em algumas linhagens"
+      },
+      "source": {
+        "name": "Metallomics 10(4):523 (2018), Exploring the alternatives of biological nitrogen fixation",
+        "version": "consultado em 2026-08-18",
+        "tier": "peer_reviewed"
+      }
+    },
+    {
+      "claim_id": "GEOBIO-RNAWORLD-001",
+      "severity": "orange",
+      "problem": "Erro de categoria: o mundo de RNA responde qual sistema molecular precedeu a divisao DNA/proteinas; a hipotese hidrotermal responde em que ambiente. Nao competem. A Aula 05 apresenta o enquadramento correto, e o gabarito a contradiz; a rubrica punia o aluno por confusao que o proprio gabarito cometia.",
+      "confidence": "confirmado",
+      "affected_files": [
+        "16-geobiologia-questionario.md"
+      ],
+      "affected_ids": [
+        "Q12"
+      ],
+      "outcome": "corrigido",
+      "kind": "confusao_de_escopo",
+      "claim": "hipóteses alternativas, como o \"mundo de RNA\" e sopa primordial, existem, mas têm menos sustentação factual atual",
+      "replacement": "Nota reescrita explicando que o mundo de RNA nao e alternativa concorrente e identificando a alternativa ambiental correta; rubrica de 0 ponto ajustada.",
+      "location": {
+        "file": "16-geobiologia-questionario.md",
+        "quote": "hipóteses alternativas, como o \"mundo de RNA\" e sopa primordial, existem, mas têm menos sustentação factual atual"
+      },
+      "source": {
+        "name": "Aula 05 do modulo; Moody et al. 2024, Nature Ecology & Evolution",
+        "version": "consultado em 2026-08-18",
+        "tier": "peer_reviewed"
+      }
+    },
+    {
+      "claim_id": "GEOBIO-BIOMIN-INDUZ-001",
+      "severity": "orange",
+      "problem": "Carbonato precipitado porque o metabolismo microbiano elevou o pH local e, por definicao, biologicamente induzido — o exemplo canonico do conceito que a questao pede para distinguir. A Aula 04 e precisa e diz apenas que e indistinguivel em principio de carbonato abiotico, o que e afirmacao sobre diagnose, nao sobre origem.",
+      "confidence": "confirmado",
+      "affected_files": [
+        "16-geobiologia-questionario.md"
+      ],
+      "affected_ids": [
+        "Q8"
+      ],
+      "outcome": "corrigido",
+      "kind": "erro_factual",
+      "claim": "favore precipitação de CaCO₃ abiogênico",
+      "replacement": "Reescrito como carbonato biologicamente induzido, ainda que indistinguivel, em principio, de carbonato precipitado abioticamente sob a mesma quimica.",
+      "location": {
+        "file": "16-geobiologia-questionario.md",
+        "quote": "favore precipitação de CaCO₃ abiogênico"
+      },
+      "source": {
+        "name": "Aula 04 do modulo; Bosak, Knoll & Petroff 2013, doi:10.1146/annurev-earth-042711-105327",
+        "version": "consultado em 2026-08-18",
+        "tier": "peer_reviewed"
+      }
+    },
+    {
+      "claim_id": "GEOBIO-FEEDBACK-001",
+      "severity": "orange",
+      "problem": "O elo glaciacao-reduz-vulcanismo nao e mecanismo estabelecido e e justamente o elo que fecharia o laco; sem ele a cadeia nao e retroalimentacao. A retroalimentacao positiva canonica das glaciacoes Bola de Neve e a de gelo-albedo. O exemplo tambem nao consta da Aula 01 que o card diz resumir.",
+      "confidence": "confirmado",
+      "affected_files": [
+        "16-geobiologia-flashcards-basic.csv"
+      ],
+      "affected_ids": [
+        "fb004"
+      ],
+      "outcome": "corrigido",
+      "kind": "erro_factual",
+      "claim": "Ex: oxidação da metano atmosférico após GOE esfria o planeta → glaciação reduz vulcanismo → menos CO₂ emitido.",
+      "replacement": "Exemplo substituido pela retroalimentacao gelo-albedo, com o vinculo as glaciacoes Bola de Neve preservado.",
+      "location": {
+        "file": "16-geobiologia-flashcards-basic.csv",
+        "quote": "Ex: oxidação da metano atmosférico após GOE esfria o planeta → glaciação reduz vulcanismo → menos CO₂ emitido."
+      },
+      "source": {
+        "name": "Kopp et al. 2005, PNAS, doi:10.1073/pnas.0504878102",
+        "version": "consultado em 2026-08-18",
+        "tier": "peer_reviewed"
+      }
+    },
+    {
+      "claim_id": "GEOBIO-SOURCE-CIT-001",
+      "severity": "orange",
+      "problem": "PMC11213954 e Morais, Freitas, Fairchild et al. 2024, Scientific Reports 14:14916. Wood et al. 2019 e Geology 47:380-384, com outro titulo. A fusao das duas referencias e provavelmente a origem do achado GEOBIO-BIOMIN-AGE-001.",
+      "confidence": "confirmado",
+      "affected_files": [
+        "16-geobiologia-aula-04-biomineralizacao-sedimentos-biogenicos.md",
+        "16-geobiologia-questionario.md"
+      ],
+      "outcome": "corrigido",
+      "kind": "erro_factual",
+      "claim": "Wood et al. (2019), Dawn of animal skeletons ... PMC11213954",
+      "replacement": "Referencias separadas e listadas corretamente, com a ressalva de diagnose de Morais et al. anotada.",
+      "location": {
+        "file": "16-geobiologia-aula-04-biomineralizacao-sedimentos-biogenicos.md",
+        "quote": "Wood et al. (2019), Dawn of animal skeletons ... PMC11213954"
+      },
+      "source": {
+        "name": "Verificacao direta de PMC11213954; Wood et al. 2019, doi:10.1130/G45949.1",
+        "version": "consultado em 2026-08-18",
+        "tier": "peer_reviewed"
+      }
+    },
+    {
+      "claim_id": "GEOBIO-CHALK-TERM-001",
+      "severity": "orange",
+      "problem": "Traducao literal de chalk. Em portugues a rocha e a creta (ou greda); giz e o bastao de escrever. O termo errado nao recupera nada em busca bibliografica e desconecta o aluno da etimologia do Cretaceo. Havia tambem erro de concordancia.",
+      "confidence": "confirmado",
+      "affected_files": [
+        "16-geobiologia-aula-04-biomineralizacao-sedimentos-biogenicos.md"
+      ],
+      "outcome": "corrigido",
+      "kind": "erro_factual",
+      "claim": "desde recifes de coral até a giz composta por bilhões de placas microscópicas de cocolitoforídeos",
+      "replacement": "Substituido por a creta (o chalk dos textos em ingles, calcario fino composto por bilhoes de placas microscopicas de cocolitoforideos, como nas falesias de Dover).",
+      "location": {
+        "file": "16-geobiologia-aula-04-biomineralizacao-sedimentos-biogenicos.md",
+        "quote": "desde recifes de coral até a giz composta por bilhões de placas microscópicas de cocolitoforídeos"
+      },
+      "source": {
+        "name": "Nomenclatura de rochas sedimentares carbonaticas, uso consolidado em portugues tecnico",
+        "version": "2026-08-18",
+        "tier": "reference_database"
+      }
+    },
+    {
+      "claim_id": "GEOBIO-CYANO-BIOMARK-001",
+      "severity": "yellow",
+      "problem": "Os esteranos e hopanos de ~2,7 Ga do Cratón de Pilbara foram reavaliados em estudo multilaboratorial com testemunhos perfurados sob protocolo livre de hidrocarbonetos: concentracoes no limite de deteccao ou abaixo, comparaveis a brancos e controles negativos. O sinal original era contaminacao.",
+      "confidence": "confirmado",
+      "affected_files": [
+        "16-geobiologia-aula-01-coevolucao-vida-terra.md"
+      ],
+      "outcome": "corrigido_com_ressalva",
+      "kind": "desatualizacao",
+      "claim": "cianobactérias, cujo registro morfológico e de biomarcadores recua a pelo menos ~2,7–3,5 bilhões de anos",
+      "replacement": "Alegacao principal passou a apoiar-se no registro morfologico (~3,4-3,5 Ga); historico preservado entre parenteses sinalizando a reavaliacao, para o aluno reconhecer o numero antigo em textos pre-2015. Referencia a French et al. 2015 adicionada.",
+      "location": {
+        "file": "16-geobiologia-aula-01-coevolucao-vida-terra.md",
+        "quote": "cianobactérias, cujo registro morfológico e de biomarcadores recua a pelo menos ~2,7–3,5 bilhões de anos"
+      },
+      "source": {
+        "name": "French et al. 2015, Reappraisal of hydrocarbon biomarkers in Archean rocks, PNAS, doi:10.1073/pnas.1419563112",
+        "version": "consultado em 2026-08-18",
+        "tier": "peer_reviewed"
+      }
+    },
+    {
+      "claim_id": "GEOBIO-MIAOLING-001",
+      "severity": "yellow",
+      "problem": "A ICS substituiu a tripartição informal do Cambriano por series nomeadas; o intervalo que contem 505 Ma e a Serie Miaolingiano (509-497 Ma). O curso ja ensina a carta ICS em M03 e M14, e a incoerencia aparece.",
+      "confidence": "confirmado",
+      "affected_files": [
+        "16-geobiologia-aula-04-biomineralizacao-sedimentos-biogenicos.md"
+      ],
+      "outcome": "corrigido_com_ressalva",
+      "kind": "desatualizacao",
+      "claim": "outra do Cambriano Médio (cerca de 505 milhões de anos)",
+      "replacement": "Substituido por Cambriano medio (Serie Miaolingiano na carta ICS v2026/06; cerca de 505 milhoes de anos), mantendo o termo informal em minuscula ao lado do formal.",
+      "location": {
+        "file": "16-geobiologia-aula-04-biomineralizacao-sedimentos-biogenicos.md",
+        "quote": "outra do Cambriano Médio (cerca de 505 milhões de anos)"
+      },
+      "source": {
+        "name": "ICS, International Chronostratigraphic Chart v2026/06",
+        "version": "ICS v2026/06, consultada em 2026-08-18",
+        "tier": "normative"
+      }
+    },
+    {
+      "claim_id": "GEOBIO-LUCA-THERMO-001",
+      "severity": "white",
+      "problem": "Divergencia real entre fontes do mesmo nivel. (a) Moody et al. 2024 registram que a evolucao da girase reversa e complexa e alertam contra sobreinterpretar o marcador; (b) o mesmo genoma inferido contem genes de protecao contra ultravioleta e os autores admitem fonte hidrotermal rasa ou fonte termal continental, enfraquecendo o cenario submarino profundo; (c) Catchpole & Forterre 2019 concluem, pela filogenia da propria girase reversa, um LUCA nao hipertermofilico. O qualificador de baixa temperatura aplicado as fontes hidrotermais tambem conflita com o argumento termofilico invocado logo adiante.",
+      "confidence": "em_disputa",
+      "affected_files": [
+        "16-geobiologia-aula-05-origem-vida-astrobiologia.md",
+        "16-geobiologia-questionario.md",
+        "16-geobiologia-flashcards-basic.csv",
+        "16-geobiologia-flashcards-cloze.csv"
+      ],
+      "affected_ids": [
+        "Q12",
+        "fb021",
+        "fb022",
+        "fc016"
+      ],
+      "outcome": "aceito_como_esta",
+      "kind": "certeza_indevida",
+      "claim": "a enzima girase reversa ... é interpretado como evidência de que o LUCA vivia em ambientes de alta temperatura, reforçando ... a hipótese hidrotermal",
+      "replacement": "Texto reescrito para expor a divergencia e as tres posicoes, mantendo a via hidrotermal como a mais sustentada para o ambiente e marcando profundidade e temperatura como questoes abertas. Gabarito Q12 passou a exigir a ressalva para pontuacao maxima; fb022 reformulado para indicio+ressalva; fb021 e fc016 perderam o qualificador de baixa temperatura.",
+      "location": {
+        "file": "16-geobiologia-aula-05-origem-vida-astrobiologia.md",
+        "quote": "a enzima girase reversa ... é interpretado como evidência de que o LUCA vivia em ambientes de alta temperatura, reforçando ... a hipótese hidrotermal"
+      },
+      "source": {
+        "name": "Moody et al. 2024, Nature Ecology & Evolution (PMC11383801); Catchpole & Forterre 2019, Mol. Biol. Evol. (PMC6878951); Martin, Baross, Kelley & Russell 2008, Nat. Rev. Microbiol.",
+        "version": "consultado em 2026-08-18",
+        "tier": "peer_reviewed"
+      }
+    },
+    {
+      "claim_id": "GEOBIO-LHB-001",
+      "severity": "white",
+      "problem": "A existencia do LHB como pico discreto em ~3,9 Ga e contestada. A evidencia vem de idades Ar-Ar de amostras Apollo com espectros perturbados, e modelagem mostra que um decaimento monotonico do fluxo de impactos combinado a reajuste parcial de argonio produz um pico ilusorio. Os proprios autores da estimativa do LUCA notam que, se o LHB foi menos intenso ou for artefato, o argumento por habitat profundo enfraquece.",
+      "confidence": "em_disputa",
+      "affected_files": [
+        "16-geobiologia-aula-05-origem-vida-astrobiologia.md"
+      ],
+      "outcome": "aceito_como_esta",
+      "kind": "certeza_indevida",
+      "claim": "a fase de bombardeamento pesado tardio (Late Heavy Bombardment), um intervalo de impactos ... até cerca de 3,8-4,0 Ga",
+      "replacement": "Termo mantido (o aluno vai encontra-lo em toda parte) com registro explicito de que a existencia do pico e contestada, o mecanismo do possivel artefato e a conexao com o argumento do LUCA. Referencia a Boehnke & Harrison 2016 adicionada.",
+      "location": {
+        "file": "16-geobiologia-aula-05-origem-vida-astrobiologia.md",
+        "quote": "a fase de bombardeamento pesado tardio (Late Heavy Bombardment), um intervalo de impactos ... até cerca de 3,8-4,0 Ga"
+      },
+      "source": {
+        "name": "Boehnke & Harrison 2016, Illusory Late Heavy Bombardments, PNAS 113(39):10802-10806, doi:10.1073/pnas.1611535113; Zellner 2017; Moody et al. 2024",
+        "version": "consultado em 2026-08-18",
+        "tier": "peer_reviewed"
+      }
+    },
+    {
+      "claim_id": "GEOBIO-NCICLO-MINERAL-001",
+      "severity": "orange",
+      "problem": "Falso como escrito. O nitrogenio de rochas sedimentares antigas e preservado em boa parte como amonio (NH4+) na estrutura de silicatos, sobretudo nas intercamadas de argilominerais 2:1 (illita, montmorillonita). E esse nitrogenio ligado a mineral que fornece o registro de delta15N de ~3,2 Ga de Stueken et al. 2015, base do claim GEOBIO-CICLOS-001.",
+      "confidence": "confirmado",
+      "affected_files": [
+        "16-geobiologia-aula-03b-ciclos-nitrogenio-oxigenio-acoplamento.md"
+      ],
+      "affected_ids": [
+        "geologia-m16-a03b"
+      ],
+      "outcome": "corrigido",
+      "introduced_in": "divisao das aulas de 2026-08-18; nao constava do material auditado originalmente",
+      "kind": "erro_factual",
+      "claim": "O nitrogenio quase nao deixa mineral - seu registro e isotopico.",
+      "replacement": "O nitrogenio circula sobretudo entre formas gasosas e dissolvidas, e o que se le dele no tempo profundo e assinatura isotopica.",
+      "location": {
+        "file": "16-geobiologia-aula-03b-ciclos-nitrogenio-oxigenio-acoplamento.md",
+        "quote": "O nitrogenio quase nao deixa mineral - seu registro e isotopico."
+      },
+      "source": {
+        "name": "Holloway & Dahlgren 2002, Global Biogeochemical Cycles, Nitrogen in rock: occurrences and biogeochemical implications; Stueken et al. 2015, Nature",
+        "version": "consultada em 2026-08-18",
+        "tier": "peer_reviewed"
+      }
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "GEOBIO-GOE-001",
+      "claim": "O GOE e registrado em ~2,4-2,3 Ga, atrasado em relacao a fotossintese oxigenica pelo consumo de O2 em pias quimicas (oxidacao do Fe2+ oceanico, BIFs).",
+      "source": "Lyons, Reinhard & Planavsky 2014, Nature",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOBIO-GOE-MIFS-001",
+      "claim": "A perda do fracionamento independente de massa do enxofre (MIF-S) marca a transicao para atmosfera oxigenada e indica o estado redox atmosferico.",
+      "source": "Lyons, Reinhard & Planavsky 2014, Nature",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOBIO-BIF-001",
+      "claim": "BIFs desaparecem quase completamente do registro apos ~1,8 Ga, com reaparecimento raro em episodios de Bola de Neve neoproterozoica.",
+      "source": "Lyons, Reinhard & Planavsky 2014; literatura de sedimentares quimicas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOBIO-GOE-002",
+      "claim": "A oxidacao do metano atmosferico e hipotese discutida como gatilho da glaciacao Bola de Neve do Paleoproterozoico (~2,45-2,22 Ga, glaciacoes huronianas).",
+      "source": "Kopp et al. 2005, PNAS; Kasting & Catling 2003",
+      "confidence": "provavel"
+    },
+    {
+      "claim_id": "GEOBIO-STROM-001",
+      "claim": "Os estromatolitos mais antigos com evidencia morfologica amplamente aceita vem da Formacao Strelley Pool, Cratón de Pilbara, ~3,43 Ga.",
+      "source": "Allwood, Walter, Burch & Kamber 2007, Precambrian Research 158:198-227",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOBIO-STROM-002",
+      "claim": "Isua (>=3,7 Ga) e Labrador (~3,95 Ga) sao reivindicacoes mais antigas com biogenicidade disputada por deformacao metamorfica.",
+      "source": "Nutman et al. 2016; Allwood et al. 2018; Tashiro et al. 2017",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOBIO-STROM-BIOGEN-001",
+      "claim": "Os criterios de biogenicidade combinam morfologia 3D complexa, coerencia ambiental, quimica/isotopos e exclusao de analogos abiogenicos.",
+      "source": "Bosak, Knoll & Petroff 2013, Annu. Rev. Earth Planet. Sci.",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOBIO-STROM-DECLINE-001",
+      "claim": "O declinio dos estromatolitos apos o Cambriano e atribuido majoritariamente a pastagem e bioturbacao animal; Shark Bay persiste por hipersalinidade.",
+      "source": "Literatura de sintese em geobiologia do Pre-cambriano",
+      "confidence": "provavel"
+    },
+    {
+      "claim_id": "GEOBIO-CICLOS-001",
+      "claim": "Evidencia isotopica de ~3,2 Ga e consistente com fixacao biologica de nitrogenio por nitrogenase de molibdenio, como limite minimo preservado.",
+      "source": "Stüeken, Buick, Guy & Koehler 2015, Nature",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOBIO-CICLOS-002",
+      "claim": "O MIF-S so e preservado sob atmosfera com oxigenio extremamente baixo, funcionando como indicador do estado redox atmosferico ao longo do tempo geologico.",
+      "source": "Lyons, Reinhard & Planavsky 2014, Nature",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOBIO-CICLOS-003",
+      "claim": "N2 corresponde a ~78% do ar seco; a ligacao N-N tripla e uma das mais fortes da quimica.",
+      "source": "Composicao atmosferica padrao; quimica inorganica de referencia",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOBIO-CICLOS-CORG-001",
+      "claim": "O soterramento de carbono organico que escapa da respiracao e, em termos liquidos, a fonte do O2 atmosferico livre.",
+      "source": "Falkowski & Godfrey 2008, Phil. Trans. R. Soc. B",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOBIO-BIOMIN-002",
+      "claim": "Bacterias magnetotaticas sintetizam magnetita intracelular em cadeias; seu uso como biomarcador em meteoritos marcianos e disputado.",
+      "source": "Sintese de biomineralizacao; Steele et al. 2022 sobre ALH84001",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOBIO-BIOMIN-SED-001",
+      "claim": "As tres familias de sedimento biogenico sao carbonatica (calcita/aragonita), silicosa (opala) e fosfatica (apatita), com os grupos produtores listados corretamente.",
+      "source": "Literatura de sedimentologia e biomineralizacao",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOBIO-ASTRO-003",
+      "claim": "A Europa Clipper foi lancada em 14 de outubro de 2024, chega ao sistema de Jupiter em abril de 2030 e avalia habitabilidade, nao detecta vida diretamente.",
+      "source": "NASA Science, pagina oficial da missao, consultada em 2026-08-18",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEOBIO-ASTRO-004",
+      "claim": "Estruturas do ALH84001 interpretadas em 1996 como nanofosseis sao hoje majoritariamente atribuidas a processos nao biologicos.",
+      "source": "McKay et al. 1996 e reavaliacoes; Steele et al. 2022",
+      "confidence": "confirmado"
+    }
+  ],
+  "notes": [
+    "course-state.yaml esta defasado para o modulo 16: lessons.completed=0, items=[], assessment e flashcards marcados como pending, embora os arquivos existam. Apenas o bloco audit foi atualizado por esta auditoria; a reconciliacao completa cabe ao validador-estrutural-do-curso.",
+    "Defeito estrutural pre-existente nos CSVs: fb006, fb025, fb026, fc004 e fc012 contem ponto e virgula dentro do texto, num CSV delimitado por ponto e virgula, produzindo 6 a 8 campos em vez de 5. Quebra a importacao no Anki de forma silenciosa. Nenhum dos cinco foi alterado por esta auditoria. Cabe ao validador-estrutural-do-curso.",
+    "fb025 pede dois corpos e a resposta lista tres (Marte, Europa, Encelado). Atrito de formulacao, nao erro factual — cabe ao revisor-didatico.",
+    "Baralho ja importado no Anki: reimportar os CSVs nao sobrescreve necessariamente os cards existentes. Versos com mudanca factual: fb004, fb013, fb019, fb020, fb021, fb022, fc009, fc014, fc015, fc016."
+  ],
+  "verification_passes": [
+    {
+      "date": "2026-08-18",
+      "mode": "audit",
+      "scope": "aulas 03a, 03b, 05a, 05b, questionario e flashcards apos a divisao motivada pela revisao didatica",
+      "question": "o texto novo introduziu alegacao factual nao coberta pela auditoria aprovada?",
+      "result": "dentro do escopo auditado, com um achado no texto novo (GEOBIO-NCICLO-MINERAL-001), corrigido",
+      "claim_reassignment": {
+        "GEOBIO-CICLOS-002": "a03a",
+        "GEOBIO-CICLOS-001": "a03b",
+        "GEOBIO-CICLOS-003": "a03b",
+        "GEOBIO-NITROGENASE-001": "a03b",
+        "GEOBIO-ASTRO-001": "a05a",
+        "GEOBIO-ASTRO-002": "a05a",
+        "GEOBIO-LHB-001": "a05a",
+        "GEOBIO-ASTRO-003": "a05b",
+        "GEOBIO-ASTRO-004": "a05b"
+      },
+      "open_findings_unchanged": [
+        "GEOBIO-LUCA-THERMO-001",
+        "GEOBIO-LHB-001"
+      ]
+    }
+  ]
+}

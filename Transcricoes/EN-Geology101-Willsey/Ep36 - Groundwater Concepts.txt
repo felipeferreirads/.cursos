@@ -1,0 +1,701 @@
+# Ep36 - Groundwater Concepts.txt
+Video ID: Uo0ols9fEls
+Lang: en
+URL: https://www.youtube.com/watch?v=Uo0ols9fEls
+
+---
+
+Hey there, folks, and welcome to another
+video in the Geology 101 physical
+geology video series. I'm geology
+professor Shawn Willsey. Thanks for
+joining me today. Today, we are going to
+look at groundwater. This is episode 36
+in the Geology 101 series, and this
+video series is largely modeled after my
+college class. It's the same topics, the
+same curriculum. It's basically the
+exact same thing. Uh we are missing, of
+course, like lab components, field
+trips, but you can supplement some of
+those experiences by watching some of my
+other videos here in the catalog. So,
+let's go ahead and get right to it with
+this episode number 36 and look at
+groundwater. Groundwater's kind of an
+interesting topic because it's something
+that I think we all recognize as
+important, um something that's critical
+for civilization, but it's an often, I
+think, misunderstood
+uh concept because it's something we
+can't see for the most part until it
+makes its way to the surface, like we
+see there with the spring. Uh we don't
+really see how groundwater moves through
+the subsurface. So, it's a bit of an
+enigma. It's a bit of a mystery, and I
+think there's some misconceptions about,
+you know, how exactly groundwater moves
+through the earth and exactly sort of
+the conduits and the pathways that it
+takes. So, we're going to explore that
+in some detail someday. So, starting out
+with groundwater, um it does represent
+about 30% of all of Earth's fresh water.
+So, we have this very watery planet.
+Most of that water, of course, is in the
+oceans, um but it is a large chunk, only
+second to glacial ice in terms of the
+amount of fresh water on planet Earth,
+and it's probably one of the most
+important uh reservoirs of fresh water
+when it comes to human consumption. Now,
+another misconception about groundwater
+is sometimes people think you have to,
+you know, to find it. If you're going to
+drill for a well, you have to go to a
+certain place, and it might be here, it
+might be there, but it's not necessarily
+everywhere. but essentially it really
+kind of is everywhere. Groundwater, you
+could pick any place on the map, drill
+down, and you'll get some amount of
+groundwater. It's just a matter of how
+much water is present in that location,
+and what the quality of that water is,
+along with how deep that water is. So,
+those are the three variables there.
+But, it's it's pretty omnipresent
+underneath most of the earth's surface.
+It's just again a matter of depth and
+quality and how much water is available
+to be used. So, let's look at some basic
+concepts of groundwater. Uh the first
+one here is the water table. Basically,
+as water seeps into the ground and
+percolates down through soil or sediment
+or rocks, eventually it reaches a point
+where it's saturated, meaning that all
+the available pore spaces, all the space
+that the water could be, uh is there.
+And so, it's filled in all that all that
+uh space at that level. And so, the top
+of that surface is what we call the
+water table. A good example of that here
+with this photo here in the top right,
+uh we see there is a a hole that
+someone's dug at the beach. And if
+you've ever done this before at the
+beach, you know that you can only dig
+down so far before the water just kind
+of seeps back in through the ground. And
+so, that water line there that we're
+seeing in that hole that's been dug is
+essentially the water table. That's the
+groundwater seeping in uh at that
+elevation to fill that hole. Similar
+diagram here on the bottom shows a
+stream and kind of a mountainous
+topography here, and you can see that
+the water table lies uh beneath the
+ground at some depth. Now, the water
+table is going to vary. Some places it
+might be basically at the surface, uh
+like in a wetland or very kind of a
+marshy environment. Other places it can
+be um very deep. It can be, you know,
+hundreds of feet, hundreds of meters, uh
+thousands of feet. It can be down there
+quite a ways. And the water table can
+change, depending on seasonal
+fluctuations in
+rainfall and what we call recharge as as
+more water is added to the groundwater
+system, that can bring the water table
+up. Other times it might drop a little
+bit, depending on what's going on at the
+surface. But we can figure out where the
+water table is if we know where the
+springs are. Or in the absence of
+springs, we can usually fill out figure
+out where the water table is by drilling
+wells, which is one of the primary ways
+that humans access and acquire
+groundwater.
+So, um we used to think that groundwater
+and surface water weren't not really um
+connected, or at least we treated them
+that way from a management point of
+view, but they are very much connected.
+So, groundwater and surface water have a
+very uh intimate relationship, and we
+often times see either what we call
+gaining streams or losing streams. So,
+here in this diagram, we have a stream
+flowing in this direction, and because
+the water table sits higher than the
+elevation of the stream, that means that
+the groundwater is flowing through the
+subsurface, and it is going into the
+stream. It's actually adding water to
+the stream, and so then that therefore
+it is a gaining stream. The The stream
+is gaining water uh through groundwater.
+Groundwater is providing input into the
+stream. And then of course it would
+stand to reason that we would have the
+opposite end of the spectrum, which is
+what we call losing stream. So, here we
+have the water table at a much lower
+level than the stream. So, the stream is
+actually losing water. Water is flowing
+down under the influence of gravity, and
+it's leaving the stream bed and going
+into the groundwater system. And
+depending on, you know, some of the the
+variables and such, you might even have
+one specific stream might be gaining
+along some stretches of that stream, and
+and other stretches it might be losing
+uh water to the groundwater system. So,
+gaining streams and losing streams is an
+important concept when we look at
+groundwater and surface water
+interactions. This is a funnel animation
+that kind of shows how it might work.
+So, here we have a lot of rainfall here,
+so the water table is high. You can see
+the two wells there, but as the rainfall
+diminishes, we might lower the water
+table enough that we dry up a well, but
+we also get a losing stream. So, we go
+back to the beginning, notice again the
+water table is higher than the stream,
+and so it this would be a gaining
+stream, but as the water table drops, it
+can drop to the point where it's
+actually lower than the elevation of the
+stream, and that stream then also then
+becomes a losing stream. So, this can be
+a seasonal um
+change as well. So, depending on just
+how much rainfall you're getting and
+some other variables there. So, that
+tells you a little bit of how this
+groundwater surface water interaction
+goes. Well, let's do a quiz. Everyone
+loves the quizzes.
+Um so, what I have here for you is a map
+of a stream system, so you can see the
+stream and its tributary shown here in
+white. Let's just say the stream's
+flowing this way to the southwest. And
+then what we have on the stream is
+various points shown with the blue dots,
+and at these blue dots we are reporting
+how much discharge the stream carries.
+So, what is the volume of water per unit
+time, cubic feet per second in this
+case, but it could also be cubic meters
+per second, doesn't matter. So, how much
+stream the water is carrying? Again, if
+you haven't watched the previous
+two episodes on streams, that might be a
+good chance to go back and look at that
+for you tackle the quiz. But again, you
+can see at various points on the stream
+what the stream's discharge
+level is, or how much water is flowing
+downstream. And then our question is,
+given these discharge points, what is
+the total groundwater contribution to
+this gaining stream between points Y and
+X? You can see these two points here.
+So, what we're trying to figure out is
+how much water, what is the amount of
+water that is being added to the stream
+system via groundwater. So, if you need
+to, go ahead and pause the video while
+you work this out.
+All right, let's go ahead and do the big
+reveal here. So,
+as we look at the system, what we're
+really interested in is the stretch
+between X and Y. Notice that there's no
+tributaries joining the stream. So, in
+order to figure out how much groundwater
+is being contributed, we need to know
+what the discharge is at X. Well, that's
+given to us, 1,200 cubic feet per
+second. We also need to know the
+discharge of Y, which is not given to
+us, but we can make a pretty good
+inference here by looking at Y's
+position just at downstream of this
+confluence between these two
+tributaries, looking at how much water
+this branch of the stream is carrying,
+about 300 cubic feet per second. This
+branch of the stream over here is
+carrying about 700 cubic feet per
+second. So, it stands to reason as those
+two streams merge here just below above
+point Y, they would be carrying a
+combined flow of about 1,000 cubic feet
+per second. These two numbers up here,
+these discharge points, don't really
+matter cuz they're further up in the
+stream system, and all's we're really
+concerned with is how much groundwater
+or how much water is being carried
+between X and Y. So, if we have 1,000
+cubic feet per second at Y, 1,200 cubic
+feet per second at X, that tells us that
+there's an extra 200 cubic feet per
+second that's being added to this stream
+through groundwater. There's no other
+contribution that can be added to this
+stream
+except through groundwater. There's no
+tributaries coming into it, no ways to
+add water, so the reasonable conclusion
+there would be groundwater is adding to
+the stream system. So, the correct
+answer there was A. Hope you did well on
+that one.
+Um okay, so let's look at a couple other
+porosities related to uh groundwater
+movement and behavior. First one is
+porosity, basically how much of any
+given material, could be sand, could be
+rock, anything, um how much of that
+volume is actually open space. So, you
+know, if you pour a bowl of Cocoa Puffs
+cereal um right to the brim, right? Like
+you like you can't add any more Cocoa
+Puffs to your bowl, well, you can add
+milk, right? Or water. You can add a a
+liquid there because that's going in
+between the pore spaces there. And with
+rocks and sediment, it's the same thing.
+So, we have a couple of things that will
+influence the amount of porosity in a
+geologic material. One is just if we're
+looking at sediment, the size and the
+shape of the sediment. Now, clay, which
+is the finest size particles when we
+look at sediment, actually has about 50%
+porosity. It has actually quite a bit of
+its volume is actually open space, pore
+space. When we look at sand or gravel,
+it's around 35 to 40%. So, it's, you
+know, when we're looking at sediment,
+there's there's appreciable amounts of
+that material that are just open space.
+So, they both have fairly high
+porosities.
+Um
+And another way to look at that would be
+to look at the shape of the sediment,
+not shown here in this diagram. Notice
+if you have rounded sediment, you have a
+certain amount of pore space. If you
+have more angular sediment, uh you also
+have pore space, but it might be a
+little bit different. It depends on um
+you know, how well these are kind of
+connected as to how porous they are. So,
+it varies quite a bit, but these do
+influence the amount of porosity in the
+sediment. Another important parameter is
+how compacted and cemented the material
+is. If that sediment is actually
+somewhat cemented, if there's cement
+minerals and material in between the
+grains, then that's going to reduce the
+amount of porosity. So, as we as we
+increase the cementation between these
+grains, we're decreasing the porosity.
+Same thing with compaction. If the
+grains are squished closer together,
+that's going to reduce the porosity. So,
+these both play factors in determining
+the porosity of the material. And the
+last thing here is sorting. That's a
+term we used back in the sedimentary
+rock episode. Sorting refers to the um
+distribution of grain sizes. So, notice
+here we have large and small particles.
+And if you have large and small
+particles, what we call poorly sediment
+poorly sorted sediment, um that's going
+to reduce the porosity because those
+small grains can fit into these large
+pore spaces between these large grains
+and take up some of that space. And so,
+we would see the porosity be much more
+reduced versus something like this one
+here where all the grains are basically
+close to the same size. And you can see
+the pore spaces there are quite large.
+And so, the porosity would therefore be
+quite a bit higher. So, that's the
+concept of porosity. Just how much space
+um is available for water to go into a
+given geologic material.
+Um rocks are a little different than
+than sediment. Uh and we see a lot of
+diversity when we look at rocks. This is
+just a simple diagram showing you a few
+of the basic rock types and main and how
+much porosity we might see in any one of
+these given rock types. Notice something
+like granite only has maybe 1% porosity.
+Granite has crystals all squished
+together. There is no pore space. But
+the one thing we often see in granite
+and essentially all rocks are fractures.
+So, depending on how
+um
+you know, how how intricate those
+fractures are, how
+um dense the the spacing is of those
+fractures. If there's lots of
+interconnected fractures, that's going
+to increase the porosity. Uh if there's
+less fracturing in the granite, that's
+going to reduce the porosity. And so, we
+would ideally need these materials to
+have fairly high porosity in order to
+hold and store and ultimately transmit
+groundwater. So, granite typically is
+not a great uh reservoir for groundwater
+unless it has, you know, adequate
+fracturing to it. Other rock types you
+can see here, conglomerate, you know,
+20% uh if it's a cemented well-cemented
+sandstone, you might be down to like 5%,
+but again, these vary quite a bit, so
+really it's more of a range. Limestone
+and then basalt, the fractures and the
+vesicles or the gas bubbles in the
+basalt uh can often lead to it having
+fairly high porosity. So, porosity is
+one important parameter we look at. The
+other one is something called
+permeability. This is how well does the
+geologic material
+transmit water? How well can the water
+move through that unit? Um and so, if
+the pores are big enough and they're
+connected, that will allow the water to
+move through more efficiently. And we
+see there's a relationship between with
+sediment, with the size of the sediment
+and the amount of permeability. So, as
+the sediment is larger, kind of a
+gravel-sized particles, the pore spaces
+are larger, they're interconnected very
+well, and so we have very high
+permeability. The water can move through
+that material pretty easy. If we go to
+the other end of the spectrum, the
+finest-sized sediments like clay,
+um they have porosity, there's plenty of
+space there, but the spaces aren't very
+well connected, the water really just
+can't get through those pore spaces cuz
+they're so small, and so this has fairly
+low permeability. Sometimes we even say
+that it's impermeable, uh which means
+for all intents and purposes, the water
+just can't get through.
+Um and I've got a simple
+a a video I did here that'll help
+illustrate this a bit. So, I did a video
+uh down at Thousand Springs, and I'll
+make sure I put a link to this in the
+video description, where I take a beaker
+of gravel, a beaker of sand, and to show
+the difference between the gravel and
+the sand in terms of permeability,
+um I actually pour water into them. And
+you can see the speed at which the water
+moves through these two substances. So,
+here we go. Here's the water moving
+through the gravel, and you can see it
+gets through almost instantly. Like with
+in a second or two, it's just very
+permeable. The water can move down
+through the gravel cuz those pore spaces
+are quite large and very well
+interconnected. So, there's the gravel
+there, and then next I'm going to do the
+same thing with the sand, and you can
+see it's slower. It takes a lot longer
+for the water to work its way down
+through this beaker of sand. Um again,
+due to gravity, under the influence of
+gravity, it works its way down, but it
+takes a lot longer. It's It's much
+longer than it was with the gravel. So,
+it has less permeability than the
+gravel. And so, that's kind of the idea
+there. Um okay. So, going back to our
+presentation.
+Okay, porosity permeability, two very
+critical concepts. We Now that we've
+kind of talked a little bit about
+porosity and permeability and some of
+these other aspects of ground water,
+let's introduce some terms that are very
+often used, and you probably already
+know these a little bit anyway, but
+let's just make sure we're on the same
+page. So, an aquifer is any geologic
+unit that can will trans store and
+transmit ground water. So, it needs to
+be both porous and permeable to some
+degree. It doesn't need to be,
+you know, the most pro porous or have
+the highest permeability, but it needs
+to have space that the water can go, and
+it needs to be able to transmit that
+water. Might be slow or slower like the
+sand was.
+Uh sand is still a very fine aquifer.
+Doesn't need to be as quick as the
+gravel, but it needs to be both of those
+things. So, that is an aquifer.
+Uh an aquitard is or sometimes we call
+it an aquiclude is any geologic unit
+that doesn't allow groundwater to go
+through it very easily. Might be that
+clay we talked about or granite without
+the fractures. Anything that impedes
+groundwater movement is what we would
+call an aquitard. A spring is anywhere
+where the water table intersects the
+ground. So, where water table intersects
+the ground and the water the groundwater
+then comes to the surface and becomes
+surface water. That's what we call a
+spring. And then two more terms for you,
+uh recharge and discharge.
+This would be Recharge would be anytime
+we have water entering the aquifer. So,
+basically snowmelt up in the mountains,
+could be a rainfall event, but usually
+it's at a higher elevation. And then
+that water then seeps into the ground,
+flows downhill through the ground, and
+then at some point it exits the aquifer
+maybe at a spring.
+And that was what we would call
+discharge. If we have a well drilled
+into the groundwater system, that would
+is a what we would call an artificial
+discharge point. It's not natural. We've
+created it, but water is leaving the
+aquifer, exiting the system, and that's
+discharge. So, we think about these two
+terms, recharge, discharge, almost like
+your your checking account. Recharge is
+water put into the account, you're
+adding water. Discharge is water leaving
+or exiting the system.
+Um
+Okay, so let's turn now to another
+simple animation while we're on the
+concept of wells to some degree. And
+this is an old
+Pearson Education
+animation. Best one I could find. It's a
+little grainy here, but it's going to
+convey this concept just fine. So, what
+we have here is we have a cross-section
+showing the water table here. We can see
+there's two wells. There's a well that
+is a bit more shallow and then a much
+deeper well. And in this fun depiction
+here, we have a small water user. So,
+this might be, you know, just a single
+family residence with their well that's
+been there for some years that goes down
+and it taps the ground water. Then we
+have maybe a larger water user. Maybe
+again it's a bigger farm or someone that
+just needs a greater amount of water for
+whatever reason and they have a much
+deeper well. Well, whenever a well is
+drilled, as long as the water table is
+below the surface, which it often is,
+that necessitates that we need to pump
+the water to the surface. We have to
+actually put in an electrical pump which
+will actually pump the water overcoming
+gravity and get that water to the
+surface for we can use it. So, I'm going
+to show this a little bit further. So,
+as the wells get pumped to the surface,
+what we'll see here is there is an
+effect on the water system of drawing
+the water down. It's actually called
+drawdown. And what it creates is a
+three-dimensional pit around that pumped
+well that we call a cone of depression.
+Notice the cone of depression around the
+small well, which isn't pumping as much
+water, is much smaller. And with the
+larger well, that cone of depression is
+greater. Now, the cone of depression and
+how much drawdown occurs, those will
+depend somewhat on how much water you're
+pumping, these aquifer characteristics
+we've talked about like porosity and
+permeability, lots of other factors. But
+let's let this go a little further. In
+this the animation here, we're going to
+see that the
+large water user with the deep well is
+going to be pumping an excessive amount
+of water to the point where the water
+table gets lowered so much and creates
+such a large cone of depression that it
+actually leaves the smaller, shallower
+well high and dry. And this is something
+that actually happens quite often
+in many different communities. This is
+why we have water rights disputes and
+water rights litigation. And so now we
+have this smaller water user whose well
+has gone dry due to the pumping from the
+larger water user. And this is where it
+would become possibly a big legal tussle
+and you'd have to look at the who has
+the senior water rights if you're in the
+US. Don't know how that works in other
+countries. But water rights disputes and
+litigation is a big branch of the legal
+system, at least here in the US.
+Anyway, so you can see the idea here is
+that we're just learning about cones of
+depression and how that can affect the
+water table.
+Okay, so
+going back to
+finish out this episode.
+Um
+Okay, so we've talked about recharge and
+discharge. Let's finish out this episode
+by looking at a few different types of
+aquifers. So most aquifers are in what
+we would call an unconfined aquifer.
+Like if you put a well over here, you
+drill down
+and tap this water that's down here. So
+the ground water shown in blue, the
+unsaturated portion of the the
+subsurface is shown in brown. So if we
+drilled around here, then well down into
+this area over here, we might have a
+unconfined aquifer, okay? Other places
+we sometimes have what's called a
+perched aquifer. Maybe there's a layer
+of clay or some impermeable unit
+and the water collects and accumulates
+above that impermeable layer or
+aquitard. And so you can get a smaller,
+a sort of secondary groundwater system.
+In this case, it's what we call a
+perched aquifer. And you might have a
+well drilled down into it. You might be
+able to supply you know, several farms,
+a small town,
+probably depends how big and and and how
+big that perched water perched aquifer
+is, how extensive it is,
+but you might get a smaller amount of
+water there. But in either case, we need
+a well to pump that water to the
+surface. Well, there is a situation
+where you can have the water
+groundwater come to you without needing
+a pump. And that's what's called a
+confined aquifer. So, a confined aquifer
+is can happen for a lot of reasons. I'm
+going to stick to one fairly simple
+geologic model that shows how you might
+get a confined aquifer. Typically, you
+need to have though some impermeable
+layer, some aquitard both above and
+below the aquifer. So, in this case
+here, we have a series of in this
+cross-section, series of sedimentary
+rock layers, limestone, sandstone,
+shale,
+but here in this one in particular, we
+have a bed of sandstone that is confined
+by these layers of shale on either side
+of it. And in this case, the sandstone
+bed is curved or tilted so that it
+outcrops at the surface. So, when it
+rains or if the snow melts, water can
+enter the aquifer here. So, this would
+be our recharge area. Now, the water is
+traveling through the sandstone downward
+under the influence of gravity, but it
+can't go up cuz it runs into that
+impermeable layer, and it can't go down
+deeper because of that same impermeable
+layer. And so, it's a confined unit.
+It's a confined bed of sandstone and a
+confined groundwater system. So, if you
+come now and drill wells down into this
+confined aquifer, the water will rise to
+some what we call pressure surface.
+Basically, think of it as the water
+table. It depends on how much water is
+in the system and the pressure and
+stuff, but basically, the water wants to
+rise to this level. So, notice with well
+A and C, the water has risen almost to
+the surface, but not quite. So, you
+would still need a pump to get the water
+that last little bit up to the surface.
+But, if the top of your well, like B and
+D, sit lower than that water table or
+pressure surface, then you would get
+what's called a flowing artesian well.
+The water would actually, because it's
+under pressure,
+rise up through the well and flow out to
+the surface. And that would be, you
+know, an ideal situation cuz then you
+don't need a pump. Pumps tend to, you
+know, break down and have, you know,
+motor problems or they need to be
+replaced periodically. And so, they can
+be a bit of a pain that way. But, this
+would is what an example of a confined
+aquifer and a flowing artesian well. All
+the wells are essentially artesian.
+They're tapping this confined aquifer,
+but only B and D are the flowing
+artesian wells. So, hopefully that makes
+sense. So, in our next episode, we'll go
+a little bit further with groundwater
+and we'll look at things like
+groundwater erosion, we'll look at
+caves, sinkholes, we'll look at some of
+the effects of over pumping groundwater,
+and maybe we'll even look at some
+hydrothermal features, things you see
+like hot springs, geysers, things like
+that that related to groundwater. But,
+thanks for your support of the channel.
+Hope you're enjoying these geology 101
+videos
+free of charge, and we'll see you next
+time. Take care.

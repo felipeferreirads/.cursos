@@ -1,0 +1,577 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "04-perolas/",
+    "module_id": "04",
+    "course_id": "gemologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-25T00:00:00-03:00",
+  "split_from": {
+    "module": "03-gemas-coradas-perolas",
+    "split_at": "2026-08-26",
+    "note": "Auditoria originalmente executada em 2026-08-25 sobre o modulo unico '03-gemas-coradas-perolas' (21 aulas). Em 2026-08-26 aquele modulo foi dividido em '03-gemas-coradas' (aulas 01-16) e '04-perolas' (ex-aulas 17-21, renumeradas 01-05), e este relatorio foi particionado pelo arquivo de origem de cada item. Nenhum achado, controversia, alegacao verificada ou nota deferida foi criado, alterado ou descartado na divisao.",
+    "reconstruction_note": "As 51 alegacoes auditaveis deste modulo foram relidas dos blocos alegacoes_auditaveis no rodape das cinco aulas - a mesma fonte usada pela auditoria de 2026-08-25 - e as tres controversias e a nota deferida foram recompostas a partir do relatorio em markdown da auditoria original. Conteudo identico ao registrado em 2026-08-25; nenhuma verificacao nova foi feita nesta divisao."
+  },
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 1,
+    "yellow": 0,
+    "blue": 0,
+    "white": 3,
+    "verified_ok": 50,
+    "claims_total": 51,
+    "round2": {
+      "red": 0,
+      "orange": 0,
+      "yellow": 0,
+      "blue": 0,
+      "white": 0,
+      "verified_ok": 4,
+      "claims_total": 4,
+      "section": "Casco de tartaruga (aula 05)"
+    }
+  },
+  "claim_id_format_note": "Este curso usa claim_id de tres segmentos (herdado do curso de origem), divergindo do padrao de quatro segmentos do audit.schema.json do plugin. Divergencia conhecida e registrada em _contexto.md. Os ids deferidos criados nesta auditoria seguem o formato de quatro segmentos.",
+  "findings": [
+    {
+      "claim_id": "AMB-ORIG-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "A idade do ambar baltico foi apresentada como cerca de 34 a 38 milhoes de anos, faixa estreita demais e sem declarar a controvercia sobre redeposicao.",
+      "location": {
+        "file": "04-perolas/04-perolas-aula-04-gemas-organicas-1-ambar-copal-e-azeviche.md",
+        "section": "Ambar: resina que virou fossil",
+        "quote": "Baltico (succinita) | ~34-38 milhoes de anos"
+      },
+      "problem": "As estimativas na literatura cobrem cerca de 34 a 48 Ma, e a dispersao reflete uma disputa real sobre se o material e autoctone nas camadas do Eoceno superior (~34-38 Ma) ou foi retrabalhado e redepositado, tendo origem no Eoceno medio (~44 Ma). Apresentar a faixa estreita como fato fechado violava tambem a regra LC-08 do curso.",
+      "correction": "Tabela alterada para ~34-48 milhoes de anos (Eoceno), com a idade exata declarada como debatida; paragrafo explicativo acrescentado; alegacao nova AMB-ORIG-002 criada para a controversia; linha acrescentada em 'O que nao concluir'; recap atualizado.",
+      "source": "Revisao critica da idade do ambar baltico da peninsula de Samland (Earth and Environmental Science Transactions of the Royal Society of Edinburgh); literatura de bioestratigrafia e datacao K-Ar de glauconita",
+      "source_level": "revisada_por_pares",
+      "confidence": "confirmado",
+      "propagated_to": [],
+      "outcome": "corrigido"
+    }
+  ],
+  "controversies": [
+    {
+      "claim_id": "AMB-COP-001",
+      "severity": "white",
+      "kind": "controversia_declarada",
+      "topic": "Fronteira entre copal e ambar: continuum de maturacao sem idade-limite consensual",
+      "file": "04-perolas/04-perolas-aula-04-gemas-organicas-1-ambar-copal-e-azeviche.md",
+      "source": "Grimaldi, Amber: Window to the Past; literatura sobre maturacao de resinas fosseis",
+      "outcome": "verificada_correta"
+    },
+    {
+      "claim_id": "AMB-ORIG-002",
+      "severity": "white",
+      "kind": "controversia_declarada",
+      "topic": "Idade do ambar baltico: autoctone no Eoceno superior x redepositado do Eoceno medio",
+      "file": "04-perolas/04-perolas-aula-04-gemas-organicas-1-ambar-copal-e-azeviche.md",
+      "source": "Revisao critica da idade do ambar baltico da peninsula de Samland (Earth and Environmental Science Transactions of the Royal Society of Edinburgh); literatura sobre datacao do ambar baltico",
+      "outcome": "verificada_correta"
+    },
+    {
+      "claim_id": "PER-TRAT-004",
+      "severity": "white",
+      "kind": "controversia_declarada",
+      "topic": "O maeshori deve ser divulgado como tratamento de perola?",
+      "file": "04-perolas/04-perolas-aula-03-perolas-parte-3-fatores-de-valor-ensaios-e-tratamentos.md",
+      "source": "GIA, Gems & Gemology — maeshori; CIBJO Pearl Blue Book",
+      "outcome": "verificada_correta"
+    }
+  ],
+  "deferred_findings": [
+    {
+      "id": "GEM-PER-NACRE-PCT-001",
+      "file": "04-perolas/04-perolas-aula-01-perolas-parte-1-biologia-nacar-natural-e-cultivada.md",
+      "question": "Os percentuais 82-86 / 10-14 / 2 sao os de referencia gemologica para o nacar de perola; parte da literatura de ciencia dos materiais cita cerca de 95 por cento de aragonita para o nacar em geral.",
+      "why_deferred": "A divergencia decorre do material medido (perola x madreperola de concha) e do metodo. A aula usa a fonte adequada ao dominio; a alteracao exigiria discussao metodologica desproporcional ao nivel da aula.",
+      "blocking": false
+    }
+  ],
+  "open_findings": [],
+  "cross_module_checks": [
+    {
+      "value": "nacar: ~82-86 % aragonita / ~10-14 % conquiolina / ~2 % agua",
+      "files_checked": [
+        "04-perolas-aula-01-perolas-parte-1-biologia-nacar-natural-e-cultivada",
+        "04-perolas-aula-05-gemas-organicas-2-coral-e-marfim"
+      ],
+      "result": "consistente"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "PER-NAC-001",
+      "claim": "O nacar e um composito de aragonita (cerca de 82 a 86 por cento), conquiolina (cerca de 10 a 14 por cento) e agua (cerca de 2 por cento), com plaquetas de aragonita de cerca de 0,3 a 0,5 micrometro de espessura empilhadas em arranjo descrito como 'muro de tijolos'.",
+      "risk": "numero",
+      "source": "Strack, Pearls; GIA, Pearl Description; literatura sobre estrutura do nacar",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-01-perolas-parte-1-biologia-nacar-natural-e-cultivada.md"
+    },
+    {
+      "claim_id": "PER-NAC-002",
+      "claim": "O lustro da perola resulta da reflexao nas camadas lisas e sobrepostas de nacar, enquanto o oriente resulta de difracao e interferencia da luz nas bordas das plaquetas de aragonita, e nao de pigmento; o arranjo composito confere ao nacar tenacidade muito superior a da aragonita macica.",
+      "risk": "mecanismo",
+      "source": "GIA, Pearl Description; literatura sobre estrutura e propriedades opticas do nacar",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-01-perolas-parte-1-biologia-nacar-natural-e-cultivada.md"
+    },
+    {
+      "claim_id": "PER-FOR-001",
+      "claim": "A formacao de perola natural e desencadeada tipicamente por um organismo intruso, com frequencia um parasita, ou por lesao do tecido, e nao por um grao de areia; o essencial e o deslocamento de celulas epiteliais do manto para o tecido conjuntivo, onde formam o saco perlifero que deposita nacar concentrico.",
+      "risk": "mecanismo",
+      "source": "Strack, Pearls; GIA, Pearl Description",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-01-perolas-parte-1-biologia-nacar-natural-e-cultivada.md"
+    },
+    {
+      "claim_id": "PER-POR-001",
+      "claim": "Existem perolas porcelanaceas, sem nacar em camadas sobrepostas e portanto sem oriente, entre elas a perola de conch (Aliger gigas, do Caribe), rosada e com estrutura em chama na superficie, e a perola de Melo melo, alaranjada; a terminologia internacional as reconhece como perolas.",
+      "risk": "nomenclatura",
+      "source": "CIBJO Pearl Blue Book; GIA, Gems & Gemology",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-01-perolas-parte-1-biologia-nacar-natural-e-cultivada.md"
+    },
+    {
+      "claim_id": "PER-CUL-001",
+      "claim": "Na perola cultivada, o molusco, o tecido e o processo biologico sao os mesmos da natural, mudando apenas o carater deliberado da intrusao; o enxerto de tecido do manto de um molusco doador e o elemento que forma o saco perlifero, ao passo que o nucleo pode estar presente ou ausente, o que define as perolas cultivadas com nucleo (nacar fino sobre centro grande) e sem nucleo (macicas de nacar).",
+      "risk": "mecanismo",
+      "source": "Strack, Pearls; GIA, Pearl Description; CIBJO Pearl Blue Book",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-01-perolas-parte-1-biologia-nacar-natural-e-cultivada.md"
+    },
+    {
+      "claim_id": "PER-HIST-001",
+      "claim": "Kokichi Mikimoto obteve as primeiras patentes de perolas cultivadas no fim do seculo XIX, inicialmente hemisfericas; Tokichi Nishikawa e Tatsuhei Mise desenvolveram de forma independente a tecnica de enxerto que permitiu a perola esferica completa, patenteada em 1907 e conhecida como metodo Mise-Nishikawa; Mikimoto obteve patente para perolas esfericas cultivadas em 1916, e a producao comercial em escala se firmou nos anos 1920.",
+      "risk": "numero",
+      "source": "Strack, Pearls; GIA, Gems & Gemology — historia da perola cultivada",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-01-perolas-parte-1-biologia-nacar-natural-e-cultivada.md"
+    },
+    {
+      "claim_id": "PER-NOM-001",
+      "claim": "Na terminologia internacional, 'perola' sem qualificativo designa perola natural, e toda perola cultivada deve ser assim nomeada, com o qualificativo junto ao nome e com igual destaque; 'cultivada' e reservado a perola e nao se aplica a gema mineral, e nao existe 'perola sintetica', apenas imitacao de perola.",
+      "risk": "nomenclatura",
+      "source": "CIBJO Pearl Blue Book; U.S. FTC Jewelry Guides",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-01-perolas-parte-1-biologia-nacar-natural-e-cultivada.md"
+    },
+    {
+      "claim_id": "PER-IDE-001",
+      "claim": "Perola natural e perola cultivada tem a mesma composicao, densidade, indice de refracao e dureza, e nao ha teste de bancada que as separe com seguranca; a separacao se faz pela estrutura interna, por radiografia e, hoje, por microtomografia computadorizada de raios X, procedimento de laboratorio.",
+      "risk": "interpretacao",
+      "source": "GIA, Gems & Gemology — X-ray computed microtomography of pearls; CIBJO Pearl Blue Book",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-01-perolas-parte-1-biologia-nacar-natural-e-cultivada.md"
+    },
+    {
+      "claim_id": "PER-TIP-001",
+      "claim": "A perola akoya e produzida por Pinctada fucata em agua salgada, sobretudo no Japao, na China e no Vietna, por nucleacao com conta, com tamanho tipico de 2 a 10 mm, cultivo de cerca de 8 a 24 meses e nacar fino, da ordem de decimos de milimetro.",
+      "risk": "numero",
+      "source": "GIA, Cultured Pearl Types; Strack, Pearls",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-02-perolas-parte-2-tipos-e-nucleacao.md"
+    },
+    {
+      "claim_id": "PER-TIP-002",
+      "claim": "A perola South Sea e produzida por Pinctada maxima em agua salgada, sobretudo na Australia, na Indonesia e nas Filipinas, por nucleacao com conta, com tamanho tipico de 8 a 20 mm, cultivo de cerca de 2 a 4 anos e nacar espesso da ordem de milimetros, em cores que vao do branco e prateado ao dourado.",
+      "risk": "numero",
+      "source": "GIA, Cultured Pearl Types; Strack, Pearls",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-02-perolas-parte-2-tipos-e-nucleacao.md"
+    },
+    {
+      "claim_id": "PER-TIP-003",
+      "claim": "A perola do Taiti e produzida por Pinctada margaritifera na Polinesia Francesa e no Pacifico Sul, por nucleacao com conta, com tamanho tipico de 8 a 18 mm; sua cor cinza a preta, com reflexos verde-metalico ('pavao') ou beringela, e natural e decorre do bordo escuro do manto do molusco.",
+      "risk": "mecanismo",
+      "source": "GIA, Cultured Pearl Types; Strack, Pearls; Gems & Gemology",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-02-perolas-parte-2-tipos-e-nucleacao.md"
+    },
+    {
+      "claim_id": "PER-TIP-004",
+      "claim": "A perola de agua doce e produzida sobretudo por Hyriopsis cumingii e hibridos na China, em regra por nucleacao apenas por tecido, o que a torna macica de nacar; o mexilhao aceita muitos enxertos por valva, o que explica a alta produtividade. Existe hoje tambem material de agua doce nucleado com conta, capaz de tamanhos grandes e formas muito redondas.",
+      "risk": "interpretacao",
+      "source": "GIA, Gems & Gemology — bead-nucleated freshwater cultured pearls; Strack, Pearls",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-02-perolas-parte-2-tipos-e-nucleacao.md"
+    },
+    {
+      "claim_id": "PER-NUC-001",
+      "claim": "O nucleo das perolas cultivadas com conta e tradicionalmente torneado a partir da concha de mexilhoes de agua doce norte-americanos da bacia do Mississippi, escolhidos pela espessura, densidade e comportamento de dilatacao compativeis com o nacar depositado sobre eles.",
+      "risk": "mecanismo",
+      "source": "Strack, Pearls; GIA, Pearl Description",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-02-perolas-parte-2-tipos-e-nucleacao.md"
+    },
+    {
+      "claim_id": "PER-NAC-003",
+      "claim": "A espessura do nacar governa lustro, oriente e durabilidade da perola cultivada com nucleo: nacar fino reduz o lustro, apaga o oriente, aumenta o risco de descascamento e produz o 'piscar' — faixas claras e escuras alternadas ao girar a perola, causadas pela estrutura bandada do nucleo transparecendo.",
+      "risk": "mecanismo",
+      "source": "GIA, Pearl Quality Factors; Gem-A",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-02-perolas-parte-2-tipos-e-nucleacao.md"
+    },
+    {
+      "claim_id": "PER-KES-001",
+      "claim": "Keshi sao perolas sem nucleo formadas como subproduto do cultivo, quando o molusco rejeita o nucleo ou o enxerto se divide; sao macicas de nacar mas nao sao perolas naturais, e a terminologia internacional exige que sejam declaradas cultivadas.",
+      "risk": "nomenclatura",
+      "source": "CIBJO Pearl Blue Book; GIA",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-02-perolas-parte-2-tipos-e-nucleacao.md"
+    },
+    {
+      "claim_id": "PER-MAB-001",
+      "claim": "A mabe e uma meia-perola cultivada contra a concha, posteriormente serrada, esvaziada do nucleo, preenchida e colada a uma base de madreperola; e portanto uma peca montada e deve ser descrita como meia-perola cultivada montada, e nao como perola inteira.",
+      "risk": "nomenclatura",
+      "source": "CIBJO Pearl Blue Book; GIA, Pearl Description",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-02-perolas-parte-2-tipos-e-nucleacao.md"
+    },
+    {
+      "claim_id": "PER-FOR-002",
+      "claim": "As formas de perola se agrupam em esferica, simetrica (gota, botao, oval) e barroca, com a categoria adicional das circuladas (aneladas), frequentes nas perolas do Taiti; a forma e fator de valor e nao indicador de origem.",
+      "risk": "nomenclatura",
+      "source": "GIA, Pearl Quality Factors; CIBJO Pearl Blue Book",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-02-perolas-parte-2-tipos-e-nucleacao.md"
+    },
+    {
+      "claim_id": "PER-TRAT-002",
+      "claim": "Perolas escuras de baixo custo vendidas como 'perolas negras' sao frequentemente akoya tingida ou irradiada; o tingimento se reconhece pela concentracao de corante no interior do furo, e a confirmacao da origem da cor e espectroscopica.",
+      "risk": "interpretacao",
+      "source": "GIA, Pearl Treatments; Gems & Gemology",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-02-perolas-parte-2-tipos-e-nucleacao.md"
+    },
+    {
+      "claim_id": "MPE-EST-001",
+      "claim": "A madreperola e a camada nacarada do interior da concha, composta pelo mesmo nacar da perola — plaquetas de aragonita e conquiolina —, porem depositada em laminas planas sobre a concha em vez de camadas concentricas em torno de um nucleo; tem densidade relativa de cerca de 2,60 a 2,85 e dureza Mohs de 2,5 a 4.",
+      "risk": "mecanismo",
+      "source": "GIA, Mother-of-Pearl; Strack, Pearls; CIBJO Pearl Blue Book",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-02-perolas-parte-2-tipos-e-nucleacao.md",
+      "moved_from": "04-perolas/04-perolas-aula-05-gemas-organicas-2-coral-e-marfim.md",
+      "moved_at": "2026-08-28",
+      "move_note": "A secao Madreperola foi movida da aula 05 para a aula 02 em 2026-08-27 (revisao didatica, achado laranja 1). A alegacao nao foi reauditada: apenas reapontada para o arquivo que agora a contem."
+    },
+    {
+      "claim_id": "MPE-USO-001",
+      "claim": "As fontes de madreperola incluem Pinctada maxima, Pinctada margaritifera, mexilhoes de agua doce e o abalone (Haliotis), de iridescencia intensa; a madreperola de mexilhao fornece os nucleos das perolas cultivadas. Contas de po de concha aglomerado e revestido nao sao perolas e devem ser descritas como imitacao.",
+      "risk": "nomenclatura",
+      "source": "CIBJO Pearl Blue Book; GIA; Strack, Pearls",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-02-perolas-parte-2-tipos-e-nucleacao.md",
+      "moved_from": "04-perolas/04-perolas-aula-05-gemas-organicas-2-coral-e-marfim.md",
+      "moved_at": "2026-08-28",
+      "move_note": "A secao Madreperola foi movida da aula 05 para a aula 02 em 2026-08-27 (revisao didatica, achado laranja 1). A alegacao nao foi reauditada: apenas reapontada para o arquivo que agora a contem."
+    },
+    {
+      "claim_id": "PER-VAL-001",
+      "claim": "O GIA avalia perolas por sete fatores de valor: tamanho, forma, cor, lustro, qualidade de superficie, qualidade de nacar e casamento.",
+      "risk": "nomenclatura",
+      "source": "GIA, Pearl Quality Factors",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-03-perolas-parte-3-fatores-de-valor-ensaios-e-tratamentos.md"
+    },
+    {
+      "claim_id": "PER-VAL-002",
+      "claim": "O tamanho da perola e expresso em milimetros de diametro, e nao em quilates, no uso comercial corrente.",
+      "risk": "nomenclatura",
+      "source": "GIA, Pearl Quality Factors; CIBJO Pearl Blue Book",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-03-perolas-parte-3-fatores-de-valor-ensaios-e-tratamentos.md"
+    },
+    {
+      "claim_id": "PER-VAL-003",
+      "claim": "A cor de uma perola se descreve em tres componentes: cor de corpo, matiz sobreposto e oriente.",
+      "risk": "nomenclatura",
+      "source": "GIA, Pearl Quality Factors",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-03-perolas-parte-3-fatores-de-valor-ensaios-e-tratamentos.md"
+    },
+    {
+      "claim_id": "PER-VAL-004",
+      "claim": "O lustro e o fator de maior peso na avaliacao de perolas, e a escala do GIA vai de excelente — em que reflexos aparecem nitidos e definidos na superficie — a fraco, com reflexos leitosos e difusos; a qualidade de nacar responde pela durabilidade e registra se o nucleo transparece ou se a perola tem aspecto giz.",
+      "risk": "interpretacao",
+      "source": "GIA, Pearl Quality Factors",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-03-perolas-parte-3-fatores-de-valor-ensaios-e-tratamentos.md"
+    },
+    {
+      "claim_id": "PER-ENS-001",
+      "claim": "O nacar genuino observado a 10x ou 30x mostra relevo de plaquetas sobrepostas semelhante a dunas ou telhas, enquanto imitacoes revestidas mostram granulacao uniforme, poros ou aspecto de casca de laranja e frequentemente descascam nas bordas do furo.",
+      "risk": "mecanismo",
+      "source": "Gem-A, Gemmology Foundation; GIA, Pearl Description",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-03-perolas-parte-3-fatores-de-valor-ensaios-e-tratamentos.md"
+    },
+    {
+      "claim_id": "PER-ENS-002",
+      "claim": "Perolas cultivadas de agua doce tendem a fluorescer com maior intensidade sob ultravioleta de onda longa que as marinhas, e boa parte das perolas tingidas de escuro fica inerte ou responde de modo atipico; a fluorescencia e indicio de triagem e nao conclusao.",
+      "risk": "interpretacao",
+      "source": "GIA, Gems & Gemology; Strack, Pearls",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-03-perolas-parte-3-fatores-de-valor-ensaios-e-tratamentos.md"
+    },
+    {
+      "claim_id": "PER-ENS-003",
+      "claim": "A radiografia e a microtomografia respondem a pergunta natural x cultivada e com conta x por tecido, enquanto a espectroscopia UV-Vis e Raman responde a pergunta cor natural x cor tratada; nenhuma das duas responde a pergunta da outra.",
+      "risk": "interpretacao",
+      "source": "GIA, Gems & Gemology; CIBJO Pearl Blue Book",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-03-perolas-parte-3-fatores-de-valor-ensaios-e-tratamentos.md"
+    },
+    {
+      "claim_id": "PER-TRAT-003",
+      "claim": "O branqueamento e praticamente universal na perola akoya e e tratado pelo mercado como processamento de rotina, o que nao revoga a obrigacao de divulgacao prevista na terminologia internacional.",
+      "risk": "interpretacao",
+      "source": "CIBJO Pearl Blue Book; GIA, Pearl Treatments",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-03-perolas-parte-3-fatores-de-valor-ensaios-e-tratamentos.md"
+    },
+    {
+      "claim_id": "PER-TRAT-004",
+      "claim": "O maeshori e um pre-tratamento aplicado a perolas para melhorar lustro e brilho, e ha divergencia no setor sobre se deve ser divulgado como tratamento ou considerado etapa normal de beneficiamento.",
+      "risk": "controverso",
+      "source": "GIA, Gems & Gemology — maeshori; CIBJO Pearl Blue Book",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-03-perolas-parte-3-fatores-de-valor-ensaios-e-tratamentos.md"
+    },
+    {
+      "claim_id": "PER-TRAT-005",
+      "claim": "O tingimento escuro de perolas emprega classicamente nitrato de prata, que deixa residuo escuro detectavel no furo e material denso visivel em radiografia; a irradiacao escurece o nucleo nas perolas marinhas nucleadas com conta e o proprio nacar nas de agua doce.",
+      "risk": "mecanismo",
+      "source": "GIA, Pearl Treatments; Strack, Pearls",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-03-perolas-parte-3-fatores-de-valor-ensaios-e-tratamentos.md"
+    },
+    {
+      "claim_id": "PER-CUI-001",
+      "claim": "A perola tem dureza Mohs de cerca de 2,5 a 4 e fracao organica sensivel: deve ser a ultima peca a vestir e a primeira a tirar, limpa com pano macio levemente umido, nunca submetida a ultrassom ou vapor, guardada em tecido macio e nao em plastico hermetico, e ter o fio refeito periodicamente com no entre as perolas.",
+      "risk": "interpretacao",
+      "source": "GIA, Pearl Care and Cleaning; CIBJO Pearl Blue Book",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-03-perolas-parte-3-fatores-de-valor-ensaios-e-tratamentos.md"
+    },
+    {
+      "claim_id": "AMB-EST-001",
+      "claim": "O ambar e resina de arvore fossilizada, amorfa, com indice de refracao de cerca de 1,54, densidade relativa de cerca de 1,05 a 1,10, dureza Mohs de 2 a 2,5, toque morno, fluorescencia branco-azulada sob onda longa e forte eletrizacao por friccao.",
+      "risk": "numero",
+      "source": "GIA, Amber Description; Gem-A, Gemmology Foundation; Webster, Gems",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-04-gemas-organicas-1-ambar-copal-e-azeviche.md"
+    },
+    {
+      "claim_id": "AMB-EST-002",
+      "claim": "A palavra grega para ambar, elektron, e a origem dos termos 'eletron' e 'eletricidade', em razao da carga estatica que a resina friccionada adquire.",
+      "risk": "nomenclatura",
+      "source": "Grimaldi, Amber: Window to the Past; GIA",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-04-gemas-organicas-1-ambar-copal-e-azeviche.md"
+    },
+    {
+      "claim_id": "AMB-ORIG-001",
+      "claim": "As principais fontes de ambar e suas idades aproximadas: Baltico (succinita), cerca de 34 a 48 milhoes de anos, do Eoceno, com a idade exata em debate; Republica Dominicana, cerca de 15 a 20 milhoes de anos (Iturralde-Vinent & MacPhee, Science, 1996); Chiapas, no Mexico, cerca de 22 a 26 milhoes de anos; e Mianmar (burmita), cerca de 99 milhoes de anos, do Cretaceo.",
+      "risk": "numero",
+      "source": "Iturralde-Vinent & MacPhee (1996), Science 273; Standke e revisoes criticas da idade do ambar baltico; Shi et al. (2012) para a burmita",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-04-gemas-organicas-1-ambar-copal-e-azeviche.md"
+    },
+    {
+      "claim_id": "AMB-ORIG-002",
+      "claim": "A idade do ambar baltico e objeto de controversia na literatura: discute-se se o material e autoctone em camadas do Eoceno superior (cerca de 34 a 38 Ma) ou se foi retrabalhado e redepositado, tendo origem no Eoceno medio (proximo de 44 Ma).",
+      "risk": "controverso",
+      "source": "Revisao critica da idade do ambar baltico da peninsula de Samland (Earth and Environmental Science Transactions of the Royal Society of Edinburgh); literatura sobre datacao do ambar baltico",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-04-gemas-organicas-1-ambar-copal-e-azeviche.md"
+    },
+    {
+      "claim_id": "AMB-ETIC-001",
+      "claim": "O ambar do estado de Kachin, em Mianmar, provem de area de conflito armado, e desde 2020 ha posicionamentos formais de periodicos e entidades cientificas sobre a cadeia de suprimento e o financiamento do conflito, com restricoes a publicacao de material de origem nao documentada.",
+      "risk": "interpretacao",
+      "source": "Posicionamentos editoriais e de sociedades cientificas a partir de 2020 sobre o ambar birmanes",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-04-gemas-organicas-1-ambar-copal-e-azeviche.md"
+    },
+    {
+      "claim_id": "AMB-COP-001",
+      "claim": "O copal e resina de maturacao incompleta, com idades de milhares a poucos milhoes de anos; nao ha idade-limite consensual separando copal de ambar, pois a distincao e de grau de maturacao ao longo de um continuum.",
+      "risk": "controverso",
+      "source": "Grimaldi, Amber: Window to the Past; literatura sobre maturacao de resinas fosseis",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-04-gemas-organicas-1-ambar-copal-e-azeviche.md"
+    },
+    {
+      "claim_id": "AMB-COP-002",
+      "claim": "Uma gota de solvente (eter, acetona ou alcool) aplicada em ponto discreto deixa o copal pegajoso e fosco rapidamente, enquanto o ambar resiste por mais tempo; o copal tambem amolece a temperatura mais baixa no ensaio de ponto quente e craza mais cedo. Ambos os ensaios sao destrutivos.",
+      "risk": "mecanismo",
+      "source": "Gem-A, Gemmology Foundation; GIA, Amber Description",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-04-gemas-organicas-1-ambar-copal-e-azeviche.md"
+    },
+    {
+      "claim_id": "AMB-DEN-001",
+      "claim": "Em agua salgada saturada (densidade proxima de 1,13), ambar e copal flutuam e a maioria dos plasticos afunda; alguns plasticos leves, como o poliestireno, tambem flutuam, de modo que a flutuacao e indicio e nao prova.",
+      "risk": "numero",
+      "source": "Gem-A, Gemmology Foundation; Webster, Gems",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-04-gemas-organicas-1-ambar-copal-e-azeviche.md"
+    },
+    {
+      "claim_id": "AMB-TRAT-001",
+      "claim": "Os tratamentos do ambar incluem clarificacao em oleo quente — que produz as 'lantejoulas de sol', discos de fratura hoje tambem gerados de proposito como ornamento —, aquecimento para escurecer, prensagem de fragmentos sob calor e pressao (ambar prensado ou reconstituido, reconhecivel por estrutura de fluxo, bolhas alongadas e fluorescencia irregular), tingimento e revestimento.",
+      "risk": "mecanismo",
+      "source": "GIA, Amber Treatments; Gems & Gemology; Webster, Gems",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-04-gemas-organicas-1-ambar-copal-e-azeviche.md"
+    },
+    {
+      "claim_id": "AMB-INC-001",
+      "claim": "Indicios de inclusao forjada em ambar ou copal: posicao centralizada e perfeita demais, ausencia de detritos associados (poeira, bolhas, fragmentos vegetais), plano de juncao visivel onde duas metades foram fundidas, especie moderna reconhecivel e hospedeiro que reage como copal ou plastico.",
+      "risk": "mecanismo",
+      "source": "GIA, Gems & Gemology — inclusoes forjadas em ambar; Grimaldi",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-04-gemas-organicas-1-ambar-copal-e-azeviche.md"
+    },
+    {
+      "claim_id": "AZE-EST-001",
+      "claim": "O azeviche e madeira fossil compactada, uma variedade de linhito, com densidade relativa de cerca de 1,30 a 1,35, dureza Mohs de cerca de 2,5 a 4, toque morno e traco marrom em placa de porcelana nao vidrada; o vidro preto e frio, mais denso e nao deixa traco, e a vulcanite exala cheiro de enxofre no ensaio de ponto quente e altera a cor para tons esverdeados ou acastanhados com o tempo.",
+      "risk": "numero",
+      "source": "Muller, Jet; Gem-A, Gemmology Foundation; Webster, Gems",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-04-gemas-organicas-1-ambar-copal-e-azeviche.md"
+    },
+    {
+      "claim_id": "AZE-HIST-001",
+      "claim": "A fonte classica do azeviche e Whitby, em Yorkshire, na Inglaterra, onde o material provem de folhelhos jurassicos; o material teve auge na joalheria de luto vitoriana apos a morte do principe Albert, em 1861, periodo em que proliferaram as imitacoes em vidro preto ('azeviche frances'), vulcanite e bakelite.",
+      "risk": "numero",
+      "source": "Muller, Jet; literatura museologica sobre joalheria de luto vitoriana",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-04-gemas-organicas-1-ambar-copal-e-azeviche.md"
+    },
+    {
+      "claim_id": "COR-EST-001",
+      "claim": "O coral precioso de joalheria e o esqueleto calcario (carbonato de calcio na forma de calcita) de colonias de polipos marinhos, com indice de refracao de cerca de 1,49 a 1,66 (leitura de ponto proxima de 1,65), densidade relativa de 2,60 a 2,70, dureza Mohs de 3 a 4, e efervesce em contato com acido diluido; ao aumento exibe estrias longitudinais paralelas ao eixo de crescimento e aneis concentricos no corte transversal.",
+      "risk": "numero",
+      "source": "GIA, Coral Description; CIBJO Coral Blue Book; Webster, Gems",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-05-gemas-organicas-2-coral-e-marfim.md"
+    },
+    {
+      "claim_id": "COR-EST-002",
+      "claim": "O coral negro (antipatarios) tem esqueleto proteico de conquiolina e nao calcario, com densidade relativa de cerca de 1,34, nao efervesce com acido e exala cheiro de chifre queimado no ensaio de ponto quente.",
+      "risk": "numero",
+      "source": "GIA, Coral Description; Gem-A, Gemmology Foundation",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-05-gemas-organicas-2-coral-e-marfim.md"
+    },
+    {
+      "claim_id": "COR-BAM-001",
+      "claim": "O coral bambu tem esqueleto segmentado com nos proteicos escuros entre segmentos calcarios e alta porosidade, e e rotineiramente tingido de vermelho e vendido como coral precioso.",
+      "risk": "interpretacao",
+      "source": "GIA, Gems & Gemology — dyed bamboo coral; CIBJO Coral Blue Book",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-05-gemas-organicas-2-coral-e-marfim.md"
+    },
+    {
+      "claim_id": "COR-CITES-001",
+      "claim": "Os corais negros (Antipatharia), os corais petreos (Scleractinia), o coral azul, o coral-orgao, os corais-de-fogo e os coralinos de renda constam do Apendice II da CITES; ja os corais preciosos vermelhos e rosa do genero Corallium e afins nao foram incluidos nos apendices, tendo as propostas de listagem sido rejeitadas nas conferencias das partes de 2007 (CoP14) e de 2010 (CoP15). A ausencia de listagem CITES nao implica ausencia de regulacao: a pesca e administrada por organismos regionais e por legislacao nacional.",
+      "risk": "interpretacao",
+      "source": "CITES — Apendices e atas das CoP14 (2007) e CoP15 (2010)",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-05-gemas-organicas-2-coral-e-marfim.md"
+    },
+    {
+      "claim_id": "MAR-EST-001",
+      "claim": "Marfim e dentina, com indice de refracao de cerca de 1,53 a 1,54, densidade relativa de cerca de 1,70 a 2,00 e dureza Mohs de 2 a 3.",
+      "risk": "numero",
+      "source": "Espinoza & Mann, Identification Guide for Ivory and Ivory Substitutes; Gem-A",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-05-gemas-organicas-2-coral-e-marfim.md"
+    },
+    {
+      "claim_id": "MAR-SCH-001",
+      "claim": "As linhas de Schreger, padrao de losangos entrecruzados visivel no corte transversal, sao caracteristicas do marfim de proboscideos (elefante e mamute); os angulos externos dos losangos sao tipicamente maiores que cerca de 115 graus no elefante e menores que cerca de 90 graus no mamute, criterio forense estabelecido que e estatistico e admite sobreposicao em casos individuais.",
+      "risk": "numero",
+      "source": "Espinoza & Mann, Identification Guide for Ivory and Ivory Substitutes",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-05-gemas-organicas-2-coral-e-marfim.md"
+    },
+    {
+      "claim_id": "MAR-SUB-001",
+      "claim": "O osso se distingue do marfim pela presenca de canais de Havers, visiveis a lupa como pontos e tracos escuros; o marfim vegetal (semente da palmeira tagua) exibe estrutura celular ao aumento e densidade menor, de cerca de 1,4; marfins de hipopotamo, morsa, cachalote, narval e javali nao apresentam linhas de Schreger.",
+      "risk": "mecanismo",
+      "source": "Espinoza & Mann; GIA, Ivory; Webster, Gems",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-05-gemas-organicas-2-coral-e-marfim.md"
+    },
+    {
+      "claim_id": "MAR-CITES-001",
+      "claim": "O elefante-africano (Loxodonta africana) e o elefante-asiatico (Elephas maximus) constam da CITES, com o asiatico e a maior parte das populacoes africanas no Apendice I, e o comercio internacional comercial de marfim de elefante esta proibido desde o fim dos anos 1980; ha ainda proibicoes domesticas, entre elas as dos Estados Unidos, a da China (2017) e a do Reino Unido (Ivory Act, aprovado em 2018 e em vigor a partir de 2022), com excecoes estreitas para pecas antigas e uso museologico. O marfim de mamute, de especie extinta, nao e objeto da CITES, mas vem sendo crescentemente regulado por leis nacionais.",
+      "risk": "interpretacao",
+      "source": "CITES — Apendices; Reino Unido, Ivory Act 2018; medidas domesticas da China (2017) e dos EUA",
+      "confidence": "confirmado",
+      "file": "04-perolas/04-perolas-aula-05-gemas-organicas-2-coral-e-marfim.md"
+    },
+    {
+      "claim_id": "TRT-EST-001",
+      "claim": "Casco de tartaruga: placas corneas de Eretmochelys imbricata, beta-queratina; IR ~1,55, DR ~1,29, dureza Mohs ~2,5, cheiro de cabelo queimado no ponto quente.",
+      "risk": "numero/interpretacao",
+      "source": "Webster, Gems; O’Donoghue, Gems (6a ed.); GIA, Gems & Gemology; CITES (cites.org)",
+      "confidence": "confirmado",
+      "file": "gemologia-m04-a05",
+      "round": 2
+    },
+    {
+      "claim_id": "TRT-USO-001",
+      "claim": "Termoplastico: solda em si mesmo sob calor/pressao (casco prensado / bekko); juncao aparece a lupa como linha reta.",
+      "risk": "numero/interpretacao",
+      "source": "Webster, Gems; O’Donoghue, Gems (6a ed.); GIA, Gems & Gemology; CITES (cites.org)",
+      "confidence": "confirmado",
+      "file": "gemologia-m04-a05",
+      "round": 2
+    },
+    {
+      "claim_id": "TRT-IMI-001",
+      "claim": "Genuino: granulos de pigmento arredondados. Imitacoes (celuloide/caseina/baquelite): faixas/redemoinhos sem granulos, padrao de molde repetido. Densidade confirma mas nao separa. Cheiros distintos no ponto quente.",
+      "risk": "numero/interpretacao",
+      "source": "Webster, Gems; O’Donoghue, Gems (6a ed.); GIA, Gems & Gemology; CITES (cites.org)",
+      "confidence": "confirmado",
+      "file": "gemologia-m04-a05",
+      "round": 2
+    },
+    {
+      "claim_id": "TRT-CITES-001",
+      "claim": "Eretmochelys imbricata no Apendice I da CITES desde 04/02/1977; comercio internacional comercial proibido; Japao manteve reserva e encerrou importacao de bekko no inicio dos anos 1990.",
+      "risk": "numero/interpretacao",
+      "source": "Webster, Gems; O’Donoghue, Gems (6a ed.); GIA, Gems & Gemology; CITES (cites.org)",
+      "confidence": "confirmado",
+      "file": "gemologia-m04-a05",
+      "round": 2
+    }
+  ],
+  "claims_migrated": [
+    {
+      "at": "2026-08-28",
+      "claim_ids": [
+        "MPE-EST-001",
+        "MPE-USO-001"
+      ],
+      "from_file": "04-perolas/04-perolas-aula-05-gemas-organicas-2-coral-e-marfim.md",
+      "to_file": "04-perolas/04-perolas-aula-02-perolas-parte-2-tipos-e-nucleacao.md",
+      "reason": "Propagacao da mudanca de 2026-08-27: a secao Madreperola saiu da aula 05 (que ficou com coral e marfim) e passou ao fim da aula 02. Nenhuma alegacao foi criada, alterada ou descartada; o total continua 51."
+    }
+  ],
+  "audited_at_rounds": [
+    "2026-08-25T00:00:00-03:00",
+    "2026-08-28T00:00:00-03:00 (rodada 2, secao casco de tartaruga)"
+  ],
+  "round2_note": "Secao \"Casco de tartaruga\" (4 alegacoes TRT-*) auditada em 2026-08-28. 0 achado. CITES Apendice I para hawksbill confirmada em 04/02/1977. A ressalva de que a densidade NAO separa casco genuino das imitacoes plasticas foi verificada como correta."
+}

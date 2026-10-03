@@ -1,0 +1,9 @@
+id;frente;verso;tags;objetivo;aula;dificuldade;fonte
+geologia-m09-fb001;"O que é equilíbrio químico dinâmico?";"Estado em que reações podem ocorrer sem mudança líquida observável.";"geologia::geoquimica::equilibrio";"geologia-m09-oa01";"geologia-m09-a01";"medio";"USGS"
+geologia-m09-fb002;"Qual grupo de Goldschmidt tem afinidade por silicatos?";"Litófilos.";"geologia::geoquimica::goldschmidt";"geologia-m09-oa02";"geologia-m09-a02";"facil";"USGS OF 94-264"
+geologia-m09-fb003;"Se D mineral/fundido é maior que 1, qual fase concentra relativamente mais o elemento?";"O mineral, para essa convenção e condições.";"geologia::geoquimica::particao";"geologia-m09-oa03";"geologia-m09-a03";"medio";"USGS"
+geologia-m09-fb004;"Qual condição petrográfica fortalece uma estimativa geotermobarométrica?";"Minerais que coexistiram e registram equilíbrio apropriado.";"geologia::geoquimica::pt";"geologia-m09-oa04";"geologia-m09-a04";"medio";"USGS"
+geologia-m09-fb005;"Por que uma razão isotópica não prova sozinha uma fonte?";"Porque mistura, idade e alteração podem produzir explicações alternativas.";"geologia::geoquimica::isotopos";"geologia-m09-oa05";"geologia-m09-a05";"medio";"USGS"
+geologia-m09-fb006;"Qual pressuposto é essencial para interpretar uma isócrona?";"Que as amostras sejam adequadamente cogenéticas e o sistema tenha comportamento compatível com o modelo.";"geologia::geoquimica::geocronologia";"geologia-m09-oa06";"geologia-m09-a06";"dificil";"USGS OF 87-170"
+geologia-m09-fb007;"O que é fracionamento isotópico?";"Separação preferencial de isótopos por um processo físico, químico ou biológico.";"geologia::geoquimica::isotopos-estaveis";"geologia-m09-oa07";"geologia-m09-a07";"medio";"USGS SEAL2"
+geologia-m09-fb008;"Por que comparar amostras a montante e jusante?";"Para estabelecer linha de base e testar se uma alteração é local.";"geologia::geoquimica::ambiental";"geologia-m09-oa08";"geologia-m09-a08";"medio";"USGS SEAL2"

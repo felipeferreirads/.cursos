@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "02-sistema-terra-tectonica",
+    "module_id": "02",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-16",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 1,
+    "yellow": 0,
+    "blue": 4,
+    "white": 0,
+    "verified_ok": 0
+  },
+  "findings": [
+    {
+      "claim_id": "GEO-M02-A04-ESPESSURA-CROSTA",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Sob os continentes: algumas dezenas de quilômetros — da ordem de 30 a 40 km.",
+      "location": {
+        "file": "02-sistema-terra-tectonica-aula-04-modelo-em-camadas.md",
+        "section": "profundidades da Moho"
+      },
+      "problem": "Contradizia a aula 02 do próprio módulo e o M01-a05, que davam 30 a 50 km. USGS sustenta 30-50 km para regiões continentais estáveis.",
+      "replacement": "Sob os continentes: algumas dezenas de quilômetros — da ordem de 30 a 50 km.",
+      "affected_files": [
+        "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-04-modelo-em-camadas.md",
+        "00-partida-do-zero/00-partida-do-zero-aula-04-terra-por-dentro.md"
+      ],
+      "applied_at": "2026-08-16",
+      "source": {
+        "name": "USGS",
+        "version": "consultada em 2026-08-16"
+      },
+      "confidence": "confirmado",
+      "outcome": "corrigido"
+    },
+    {
+      "claim_id": "M02-F04",
+      "severity": "blue",
+      "kind": "controversia",
+      "claim": "Geometria da convecção do manto: camada única x estratificada em 660 km.",
+      "location": {
+        "file": "02-sistema-terra-tectonica-auditoria.json"
+      },
+      "problem": "Geometria da convecção do manto: camada única x estratificada em 660 km.",
+      "replacement": "Nenhuma. A aula 09 declara o debate (LC-08).",
+      "affected_files": [
+        "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-09-limites-convergentes-e-o-motor.md"
+      ],
+      "applied_at": "2026-08-16",
+      "confidence": "em_disputa",
+      "outcome": "aceito_como_esta"
+    },
+    {
+      "claim_id": "M02-F05",
+      "severity": "blue",
+      "kind": "controversia",
+      "claim": "Origem das plumas mantélicas e fixidez dos pontos quentes.",
+      "location": {
+        "file": "02-sistema-terra-tectonica-auditoria.json"
+      },
+      "problem": "Origem das plumas mantélicas e fixidez dos pontos quentes.",
+      "replacement": "Nenhuma. As aulas 08 e 09 declaram o debate (LC-08).",
+      "affected_files": [
+        "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-08-limites-divergentes-e-transformantes.md",
+        "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-09-limites-convergentes-e-o-motor.md"
+      ],
+      "applied_at": "2026-08-16",
+      "confidence": "em_disputa",
+      "outcome": "aceito_como_esta"
+    },
+    {
+      "claim_id": "M02-F06",
+      "severity": "blue",
+      "kind": "controversia",
+      "claim": "Balanço quantitativo entre slab pull, ridge push e basal drag.",
+      "location": {
+        "file": "02-sistema-terra-tectonica-auditoria.json"
+      },
+      "problem": "Balanço quantitativo entre slab pull, ridge push e basal drag.",
+      "replacement": "Nenhuma. A aula 09 dá o slab pull como 'geralmente considerado' o maior, sem fechar o balanço.",
+      "affected_files": [
+        "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-09-limites-convergentes-e-o-motor.md"
+      ],
+      "applied_at": "2026-08-16",
+      "confidence": "em_disputa",
+      "outcome": "aceito_como_esta"
+    },
+    {
+      "claim_id": "M02-F07",
+      "severity": "blue",
+      "kind": "controversia",
+      "claim": "Natureza das LLSVPs e identidade dos elementos leves do núcleo externo.",
+      "location": {
+        "file": "02-sistema-terra-tectonica-auditoria.json"
+      },
+      "problem": "Natureza das LLSVPs e identidade dos elementos leves do núcleo externo.",
+      "replacement": "Nenhuma. As aulas 03, 04 e 09 declaram o debate; conferido que M00-a04 também não fecha a questão.",
+      "affected_files": [
+        "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-03-a-sombra-do-nucleo.md",
+        "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-04-modelo-em-camadas.md",
+        "00-partida-do-zero/00-partida-do-zero-aula-04-terra-por-dentro.md"
+      ],
+      "applied_at": "2026-08-16",
+      "confidence": "em_disputa",
+      "outcome": "aceito_como_esta"
+    },
+    {
+      "claim_id": "M02-F01",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Taxa de espalhamento da Elevação do Pacífico Leste inconsistente entre duas aulas (auditoria de 2026-08-15).",
+      "location": {
+        "file": "02-sistema-terra-tectonica-auditoria.json"
+      },
+      "problem": "Taxa de espalhamento da Elevação do Pacífico Leste inconsistente entre duas aulas (auditoria de 2026-08-15).",
+      "replacement": "Classe de erro eliminada pela regra LC-05: o texto reescrito usa ordem de grandeza ('centímetros por ano') em vez de valor pontual.",
+      "affected_files": [
+        "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-07-provas-do-fundo-do-mar.md"
+      ],
+      "applied_at": "2026-08-16",
+      "confidence": "confirmado",
+      "outcome": "corrigido"
+    }
+  ],
+  "verified_claims": []
+}

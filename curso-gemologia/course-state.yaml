@@ -1,0 +1,1725 @@
+schema_version: 1
+course_id: gemologia
+title: Gemologia — do essencial ao Graduate Gemologist
+destination: obsidian
+status: in_progress
+curriculum_basis: programa Graduate Gemologist do GIA + Gem-A Gemmology Foundation + CIBJO Blue Books + IMA-CNMNC
+  para nomenclatura mineral + CPRM/SGB para as provincias brasileiras
+starting_level: ensino médio completo, com mineralogia e cristalografia de graduação como pré-requisito externo
+target_level: avançado/especialista
+estimated_lessons: 65
+estimated_hours: 31 h
+learning_outcomes:
+- Caracterizar e identificar gemas com método defensável, do vocabulário de espécie e variedade ao conjunto completo
+  de instrumentos de bancada e à camada espectroscópica de laboratório.
+- Graduar diamantes pelos quatro fatores de qualidade e separar diamante natural de diamante crescido em laboratório
+  pela lógica de triagem que os laboratórios usam.
+- Graduar e avaliar gemas coradas no sistema do GIA, reconhecendo tratamentos, sintéticos e imitações espécie por
+  espécie.
+- Avaliar pérolas e gemas orgânicas, separando material natural de cultivado e reconhecendo os tratamentos e as
+  restrições legais aplicáveis.
+- Separar as cinco perguntas do ofício — identidade, origem de crescimento, tratamento, origem geográfica e valor
+  — e declarar o grau de certeza que cada evidência sustenta.
+current_module: '04'
+next_action: 'ESTADO EM 2026-08-28 - o curso tem 4 modulos e 60 aulas (M01=23, M02=15, M03=17, M04=5).
+  Trabalho concluido em 2026-08-27: (a) revisao didatica do modulo 02; (b) auditoria das alegacoes novas das aulas
+  01-06 do modulo 01 (2 achados corrigidos); (c) divisao da aula 13 do modulo 03 em 13+14 (completa); (d) ampliacao
+  do questionario parcial 1 do modulo 01 (16->28 questoes); (e) divisao da aula 05 do modulo 01 em parte 1 (dicroscopio,
+  espectroscopio, FILTRO CHELSEA - antes usado no modulo 03 sem ser ensinado) e parte 2 (lupa, microscopio, IMERSAO),
+  com deslocamento das aulas 06-22 antigas para 07-23 e objetivo novo gemologia-m01-oa27; (f) alivio do modulo
+  04 - a secao Madreperola saiu da aula 05 (agora "coral e marfim", 1569 palavras) e foi para a aula 02.
+  TRABALHO DE 2026-08-28 - a propagacao da madreperola no modulo 04 foi CONCLUIDA: aula 02 comprimida de 1817
+  para 1588 palavras (so redundancia; nenhum fato removido, as 12 alegacoes do rodape seguem sustentadas pelo texto);
+  as duas alegacoes de madreperola migradas da aula 05 para a aula 02 na auditoria (.md e .json), com contagem
+  por aula agora 8+12+11+12+8 e total inalterado de 51; questionario final com a matriz corrigida (OA02 passou
+  a "tipos comerciais, nucleacao e madreperola", OA05 a "coral e marfim") e a Q14 sem o rotulo OA05, sem reescrever
+  nem repontuar questao nenhuma; flashcards fb064 e fb065 reapontados para a aula 02 SEM reindexacao, preservando
+  o historico do Anki; revisao didatica com o achado laranja 1 marcado resolvido para as aulas 02 e 05; hub do
+  modulo alinhado. ATENCAO - os IDs sao MPE-EST-001 e MPE-USO-001: o prefixo "PER-MAD-*" citado nas notas de 2026-08-27
+  NUNCA EXISTIU neste modulo. MODULO 01 CONFERIDO EM 2026-08-28: o parcial 1 e o final ja cobrem oa05 E oa27 no
+  bloco "Objetivos cobertos" (feito pelo agente B); os 20 cards do antigo bloco aula 05 foram repartidos - 12 ficaram
+  na a05 e 8 (fb015, fb185-fb188, fc010, fc073, fc074) foram para a a06/oa27, com o indice de flashcards renumerado.
+  Resta so um card proprio do filtro Chelsea (nao bloqueante). TODOS OS content_hash TRACKED BATEM COM O DISCO (reconferido em 2026-08-28).
+
+  === PENDENCIAS ABERTAS (estado em 2026-08-29T02:00) ===
+  Todo o conteudo do curso (65 aulas) esta ESCRITO, AUDITADO CIENTIFICAMENTE, REVISADO DIDATICAMENTE, e coberto
+  por QUESTAO e por FLASHCARD. As aulas novas de 2026-08-28 fecharam a camada de qualidade em 2026-08-28/29:
+  - Auditoria: M03 rodadas 1/3/4, M02 rodadas 1/2, M04 rodadas 1/2 (aulas 18-19 com 4 achados corrigidos; demais 0 achado).
+  - Revisao didatica: M03 rodada 2 (2 achados corrigidos), M02 rodada 2, M04 rodada 2.
+  - Flashcards: baralho M03 v5 (+52 Basic fb275-fb326, +12 Cloze fc077-fc088), M02 v2 (+13 fb176-fb188, +3 fc051-fc053),
+    M04 v2 (+5 fb066-fb070, +1 fc017). Totais: M02 241, M03 333, M04 87; curso 702 Basic + 211 Cloze.
+  - Questoes: questionario final M02 +Q49/Q50 (oa16; 15q/54pts); M03 +Q15-Q19 (oa18-oa21; 19q/66pts); M04 +Q17
+    (casco de tartaruga; 17q/60pts). uncovered_objectives de todos os modulos agora VAZIO.
+
+  FALTA APENAS:
+  (1) publicar o curso no Notion pela primeira vez (sem page_map; paginas antigas dos modulos 06 e 30 a mover ou apagar a mao).
+  (2) card proprio do filtro Chelsea na aula 05 do modulo 01 (cosmetico, nao bloqueante).
+  (3) NAO fazer: padronizacao de claim_id 3->4 segmentos (herdado, blast radius alto).
+
+  === HISTORICO (concluido) ===
+  CONCLUIDO EM 2026-08-28: aula
+  04 do modulo 04 comprimida (poda de recap/exemplo/o-que-nao-concluir; corpo ~1620, as seis tabelas de identificacao
+  ficam), aula 01 comprimida pelo agente, os cinco campos palavras_corpo do modulo 04 medidos, achados laranja 1
+  e amarelo 2 da revisao didatica do modulo 04 fechados (blocking_issues agora vazio); baralho da aula 14 do modulo
+  03 ampliado de 5 para 16 cards (fb266-fb274, fc075-fc076); grafia "rarisssimo" corrigida nos questionarios parcial
+  1 (Q8) e final (Q48) do modulo 02. Hashes recomputados em 2026-08-28: modulo 04 aulas 02/03/04 e revisao didatica,
+  modulo 03 os 3 arquivos de flashcards, modulo 02 revisao didatica e os 2 questionarios. LACUNAS DE CONTEUDO NAO INICIADAS (escopo aprovado pelo
+  usuario): aula nova de lapidacao do diamante (modulo 02); aula(s) de gemas menores/colecionador (modulo 03);
+  casco de tartaruga (modulo 04, aula 05); sistematica de procedencias mundiais.
+  FEITO EM 2026-08-28 (segunda passagem): escrita a AULA 16 DO MODULO 02 - "Lapidacao do diamante: do bruto ao
+  polido" (planejamento e marcacao, scan 3D, clivagem x serragem, bruteamento, facetamento e polimento, grao do
+  diamante, as 57 facetas, rendimento, centros de lapidacao Surat/Antuerpia/Israel/NY/Botsuana). ATENCAO - os numeros
+  desta linha foram CORRIGIDOS pela auditoria de 2026-08-28: o rendimento e 40-50% (nao 40-55%) e as 57 facetas
+  NAO sao de Tolkowsky, que calculou as proporcoes de um arranjo anterior a ele.
+  Objetivo novo gemologia-m02-oa16 (ID novo, nada deslocado). NUMERACAO: a aula entrou como AULA 16, no FIM do modulo,
+  e nao como aula 09 apos peso - a insercao no meio renomearia 7 arquivos e reindexaria os campos aula de ~200 cards
+  e 4 questionarios; ao fim do modulo o custo e ZERO wikilink quebrado. A aula liga-se a aula 07 e a aula 08 por
+  wikilink de volta. Modulo 02 agora 16 aulas; curso com 61. Propagado: hub do modulo 02, _curso.md, 00-progresso-do-aluno.md,
+  00-dashboard.md, e o ponteiro "Proxima aula" da aula 15. PENDENCIAS DA AULA 16: (a) e (b) FECHADAS na quinta
+  passagem, abaixo; seguem abertas (c) QUESTIONARIO - oa16 em uncovered_objectives do modulo 02; (d) FLASHCARDS -
+  aula 16 sem cards, proximo ID livre fb176/fc051. Nada de Notion foi tocado.
+  FEITO EM 2026-08-28 (terceira passagem): escritas as AULAS 18 e 19 DO MODULO 03 - "Gemas de colecionador, parte
+  1" (esfeno/titanita, feldspatos-gema com a controversia da andesina difundida com cobre, danburita, apatita, fluorita)
+  e "parte 2" (cianita, diopsidio incl. cromo-diopsidio e diopsidio estrelado, escapolita, brazilianita, e mencao
+  rapida a petalita/pollucita/sinhalita/kornerupina/hackmanita/taaffeita), fechando com a sintese de por que essa
+  classe fica fora do comercio de vitrine. Cobre a lacuna aprovada das gemas menores/de colecionador. Objetivos
+  novos gemologia-m03-oa18 e oa19 (IDs novos, nada deslocado). NUMERACAO: as aulas entraram como AULAS 18 e 19,
+  no FIM do modulo (bloco 4 novo); a insercao no meio reindexaria os campos aula de ~270 cards e 3 questionarios,
+  e ao fim do modulo o custo e ZERO wikilink quebrado. A aula 17 teve so o ponteiro "Proxima aula" atualizado (hash
+  recomputado). Modulo 03 agora 19 aulas; curso com 63. Propagado: hub do modulo 03, _curso.md, 00-progresso-do-aluno.md,
+  00-dashboard.md. AULAS 18 e 19 AUDITADAS EM 2026-08-28 (rodada 3): 21 alegacoes, 17 corretas, 4 achados corrigidos
+  (OUT-FEN-001 tenebrescencia da hackmanita; APA-EST-001 birrefringencia; formula da taaffeita; citacao da brazilianita).
+  PENDENCIAS DAS AULAS 18 e 19 (nao bloqueiam): revisao didatica, questionario (oa18/oa19 em uncovered_objectives)
+  e flashcards (sem cards, proximo ID livre fb275/fc077). Nada de Notion foi tocado.
+  FEITO EM 2026-08-28 (quarta passagem): fechadas as DUAS ULTIMAS LACUNAS DE CONTEUDO aprovadas.
+  (1) CASCO DE TARTARUGA - secao nova na AULA 05 DO MODULO 04 (queratina das placas dorsais da tartaruga-de-pente
+  Eretmochelys imbricata, IR ~1,55, DR ~1,29, dureza ~2,5, cheiro de cabelo queimado; termoplasticidade e casco
+  prensado soldado a calor; separacao das imitacoes de celuloide/caseina/baquelite pelos granulos de pigmento a
+  lupa, com a ressalva de que a DENSIDADE NAO SEPARA porque as faixas se sobrepoem; CITES Apendice I desde 1977).
+  Escolhida a OPCAO (A) da tarefa: secao compacta MAIS poda de redundancia na propria aula 05, que fica em 1600
+  palavras de corpo, dentro do teto. A poda saiu de recap, exemplo trabalhado (10 passos -> 6) e prosa de moldura;
+  NENHUM FATO FOI REMOVIDO e as 8 alegacoes COR-*/MAR-* seguem sustentadas pelo texto. O ARQUIVO E O TITULO DA
+  AULA NAO MUDARAM ("coral e marfim"), pelo mesmo criterio aceito quando a madreperola entrou na aula 02: renomear
+  quebraria wikilinks, questionario e flashcards sem ganho - quem se ampliou foi o STATEMENT DO OBJETIVO oa05.
+  Alegacoes novas TRT-EST-001, TRT-USO-001, TRT-IMI-001 e TRT-CITES-001, todas marcadas nao auditadas.
+  (2) PROCEDENCIAS MUNDIAIS - AULAS 20 e 21 DO MODULO 03, "Procedencias, parte 1: o arco asiatico" (Mogok e Mong
+  Hsu em Mianmar com a camada legal de importacao, Sri Lanka/Ratnapura, Caxemira, Afeganistao e Paquistao, Tailandia
+  e Camboja com Chanthaburi como hub de corte e tratamento) e "parte 2: Africa, Americas e Oceania" (Montepuez,
+  Ilakaka, Merelani/tsavorita/Mahenge, Muzo e Chivor x Kagem, Brasil, Australia, EUA), fechando com as tres camadas
+  de evidencia da determinacao de origem e os quatro limites que a tornam OPINIAO e nao medida. Objetivos novos
+  gemologia-m03-oa20 e oa21 (IDs novos, nada deslocado). NUMERACAO: as aulas entraram ao FIM do modulo (bloco 5
+  novo), custo ZERO de wikilink quebrado. As PROVINCIAS BRASILEIRAS NAO FORAM REESCRITAS - ficam no modulo 01,
+  aula 21, ligada por wikilink. A aula 19 teve so o ponteiro "Proxima aula" atualizado (hash recomputado).
+  Modulo 03 agora 21 aulas; modulo 04 segue com 5; curso com 65. Propagado: hub do modulo 03, hub do modulo 04,
+  _curso.md, 00-progresso-do-aluno.md, 00-dashboard.md. AULAS 20-21 E SECAO CASCO DE TARTARUGA AUDITADAS EM 2026-08-28
+  (M03 rodada 4 + M04 rodada 2): 20 alegacoes PRO-*/TRT-*, ZERO achado. PENDENCIAS DAS AULAS 20-21 E DA SECAO
+  (nao bloqueiam): revisao didatica, questionario (oa20/oa21 em uncovered_objectives; oa05 do M04 com cobertura
+  parcial) e flashcards. Nada de Notion foi tocado. Nenhum claim_id foi
+  padronizado de 3 para 4 segmentos - a divergencia conhecida do audit.schema.json segue registrada e intocada.
+  FEITO EM 2026-08-28 (quinta passagem): PASSAGEM DE QUALIDADE DA AULA 16 DO MODULO 02, e SO dela - as aulas 18-21
+  do modulo 03 e a secao de casco de tartaruga do modulo 04 seguem NAO auditadas e NAO revisadas, sao de outra
+  passagem. (1) AUDITORIA CIENTIFICA (audit-and-fix, full) das 8 alegacoes DIA-CUT-001 a DIA-CUT-008, cada uma
+  verificada na web contra fonte oficial ou revisada por pares. Veredito: APROVADO COM RESSALVAS - 0 vermelhos,
+  4 laranjas, 2 azuis, 2 confirmadas limpas, NENHUM achado aberto. Corrigidos: DIA-CUT-008 (a India responde por
+  MAIS DE 65% do valor, nao 75-80%; e os ~92% por peca sao da INDIA, nao de Surat isoladamente - dados GJEPC:
+  92% por peca, 85% por peso, >65% por valor, agora numa tabela na aula); DIA-CUT-007 (rendimento 40-55% -> 40-50%,
+  que contradizia a aula 08 JA AUDITADA, a propria secao "Antes de comecar" da a16, e a frase "perde-se mais da
+  metade do peso" na mesma linha); DIA-CUT-006 (as 57-58 facetas sao ANTERIORES a Tolkowsky - old European cut,
+  seculo XIX; ele calculou as PROPORCOES em 1919 - e "projeto optico fechado desde 1919" contradizia a aula 07 e
+  o GIA/Moses et al. 2004, que mostrou nao haver jogo de proporcoes unico); DIA-CUT-005 ("so o diamante corta o
+  diamante" delimitado ao desgaste POR ATRITO, com a excecao do laser explicada - grafitizacao mais sublimacao -
+  porque a propria aula descrevia serra e bruteamento a laser duas secoes adiante). Corrigidos com ressalva:
+  DIA-CUT-001 (Sarine "padrao de mercado" so tem fonte do fabricante; afirmacao estreitada) e DIA-CUT-002 (corte
+  a laser "em minutos" e falsa precisao, fontes divergem; virou comparacao relativa, e entrou a faixa documentada
+  de 4-8 horas do disco tradicional). Confirmados sem alteracao: DIA-CUT-003 (Cullinan 3.106 ct, clivado em fev/1908
+  por Joseph Asscher em Amsterda) e DIA-CUT-004 (bruteamento). ACHADO ESTRUTURAL DA RODADA: 3 dos 4 laranjas eram
+  contradicoes INTERNAS contra material ja auditado, nao erros contra a literatura - uma aula inserida depois de
+  uma auditoria NAO herda a consistencia do modulo. PROPAGACAO: NENHUMA, verificada por busca em todo o curso e
+  nao presumida - Tolkowsky/1919 nao aparecem em outro arquivo, o rendimento ja estava 40-50% na aula 08 e no card
+  m02-fb096 (a aula NOVA foi alinhada ao material antigo, nao o contrario), a fatia da India aparece so qualitativamente
+  na aula 22 do modulo 01, e a contagem de facetas nao mudou. ZERO arquivos antigos tocados, ZERO reimportacao de
+  Anki. (2) REVISAO DIDATICA (review-and-fix): BEM ENSINADO COM RESSALVAS - 0 vermelhos, 1 laranja, 3 amarelos,
+  2 azuis. Corrigidos: glosa de sinonimo cinturao=cintura/rondiz e culaca=culete (a a16 mandava o leitor a aula 12
+  do modulo 01, que usa os outros nomes); recap condensado de 8 para 6 itens; frase de ligacao ancorando a secao 7
+  no oa16; compressao contra o teto de palavras. Quatro encaminhamentos abertos e NAO bloqueantes: RD-M02-ENC-03
+  (vocabulario anatomico divergente, afeta tambem a a07), ENC-04 (a16 com ~1.700 palavras contra teto de 1.600 -
+  ja nascia em ~1.680, saldo liquido das duas rodadas +20; acomodar ou dividir), ENC-05 (secao 7 nao coberta por
+  clausula do oa16 - decidir ANTES de escrever a questao), ENC-06 (alinhamento aula-avaliacao nao verificavel sem
+  questionario). (3) ESTADO: a16 fora de audit.unaudited_lessons e de didactic_review.unreviewed_lessons (ambas
+  agora vazias); hashes recomputados para a aula 16, auditoria .md e .json e revisao didatica. NAO GERADOS, DE
+  PROPOSITO: questionario e flashcards - oa16 SEGUE em uncovered_objectives e sem cards. Nada de Notion foi tocado.'
+notion_sync:
+  pages: []
+created_at: '2026-08-25T00:00:00-03:00'
+updated_at: '2026-08-29T02:00:00-03:00'
+publish_targets:
+- notion
+decisions:
+- date: '2026-08-28'
+  decision: 'Na aula 16 do modulo 02, resolver as tres contradicoes internas SEMPRE em favor do material ja auditado,
+    alterando apenas a aula nova. O rendimento passou de 40-55% para os 40-50% da aula 08; a afirmacao de "projeto
+    optico fechado desde 1919" cedeu a tabela de combinacoes da aula 07; a exclusividade "so o diamante corta o
+    diamante" cedeu a serra a laser descrita na propria aula 16.'
+  rationale: 'A alternativa - mudar a aula 08 e o flashcard m02-fb096 para acomodar a aula nova - propagaria uma
+    afirmacao NAO verificada (o 40-55%) sobre material que ja passou por auditoria com fonte, e obrigaria a reimportar
+    cards no Anki. O sentido da correcao importa: aula nova se alinha ao corpo auditado, nunca o contrario. Resultado:
+    zero arquivos antigos tocados e zero migracao de Anki.'
+- date: '2026-08-28'
+  decision: 'Registrar a auditoria da aula 16 como RODADA 2 dentro dos artefatos existentes do modulo
+    (02-diamantes-auditoria.md/.json e 02-diamantes-revisao-didatica.md), em vez de criar arquivos por aula
+    (02-diamantes-aula-16-*-auditoria.md/.json).'
+  rationale: 'O modulo 02 - como os modulos 01, 03 e 04 - usa UM relatorio consolidado por modulo, e o validador
+    estrutural e o publicador-notion esperam esse layout (auditoria como subpagina no topo do modulo). Criar um par
+    de arquivos por aula introduziria um segundo padrao dentro do mesmo curso e deixaria os manifestos .json
+    fragmentados, quebrando a propagacao por claim_id. Custo aceito: os relatorios crescem e passam a ter secoes
+    datadas por rodada.'
+- date: '2026-08-28'
+  decision: 'Nao gerar questionario nem flashcards da aula 16 nesta passagem, mantendo gemologia-m02-oa16 em
+    uncovered_objectives e a aula em flashcards.uncovered_lessons.'
+  rationale: 'Pedido explicito do usuario para esta passagem. Alem disso, o encaminhamento RD-M02-ENC-05 esta aberto:
+    a secao 7 (geografia da lapidacao) nao e coberta por nenhuma clausula do oa16, e escrever a questao antes de
+    decidir se o objetivo ganha uma terceira clausula produziria ou uma questao sobre o que nao e objetivo, ou um
+    quinto da aula sem avaliacao. O gate do plugin esta satisfeito - nenhum achado vermelho ou laranja em aberto -,
+    entao a geracao pode ocorrer assim que essa decisao curricular for tomada.'
+- date: '2026-08-25'
+  decision: 'Separar o curso Geologia e Gemologia em dois cursos independentes: curso-geologia e curso-gemologia.'
+  rationale: A area tematica de gemologia crescera para tres modulos e cerca de 57 aulas, com bibliografia, publico
+    e sequencia proprios. Mante-la dentro do curso de geologia distorcia a numeracao (modulos 06, 30 e 31) e o dashboard.
+- date: '2026-08-25'
+  decision: Renumerar tudo e reprefixar todos os IDs (06 -> 01, 30 -> 02, 31 -> 03; geologia-gemologia-mNN-* ->
+    gemologia-mNN-*), aceitando a perda do historico de repeticao espacada no Anki e o desalinhamento do page_map
+    do Notion.
+  rationale: Decisao explicita do usuario, ciente do custo. A alternativa - manter numeracao e prefixo herdados
+    - deixaria o curso novo permanentemente marcado por uma estrutura que nao existe mais.
+  impact: 1.459 cards ja revisados voltam a ser tratados como novos pelo Anki. As paginas do Notion serao duplicadas
+    na primeira sincronizacao; a limpeza das duplicatas fica a cargo do usuario.
+- date: '2026-08-25'
+  decision: Nao fundir nenhuma das aulas 01-06 do modulo 01; aprofunda-las em vez disso.
+  rationale: Cada uma cobre exatamente um objetivo de aprendizagem e marca um degrau conceitual distinto. O problema
+    era profundidade, nao fragmentacao.
+- date: '2026-08-25'
+  decision: Referenciar os pre-requisitos do curso de Geologia por nome, e nunca por wikilink.
+  rationale: Wikilink entre vaults/cursos diferentes quebra no Obsidian e no validador de links. O campo external_prerequisites
+    do modulo 01 registra a dependencia de forma estruturada.
+- date: '2026-08-26'
+  decision: 'Dividir o modulo 03 (Gemas coradas, perolas e gemas organicas, 21 aulas) em dois: 03-gemas-coradas
+    (aulas 01-16, material mineral) e 04-perolas (ex-aulas 17-21, renumeradas 01-05, material de origem biologica).
+    O prefixo do novo modulo e ''perolas'' por pedido explicito do usuario, embora ele cubra tambem ambar, copal,
+    azeviche, coral, marfim e madreperola.'
+  rationale: 'O modulo tinha 21 aulas - mais que os outros dois somados por bloco tematico - e reunia dois regimes
+    de exame incompativeis: no mineral o eixo e refratometro, birrefringencia e densidade; no biologico esses instrumentos
+    quase nao servem e o exame passa a ser densidade, cheiro, solvente, fluorescencia e lupa. A fronteira entre
+    a aula 16 e a aula 17 ja era o corte natural, e o questionario parcial 3 ja cobria exatamente as cinco aulas
+    biologicas.'
+  impact: Os 65 cards Basic e 16 Cloze das aulas biologicas foram reindexados de gemologia-m03-fb201-fb265 / fc059-fc074
+    para gemologia-m04-fb001-fb065 / fc001-fc016, e o Anki voltara a trata-los como novos - os 258 cards que ficaram
+    no modulo 03 mantiveram os IDs e o historico. Os IDs de questao gemologia-m03-q33-q44 viraram gemologia-m04-q01-q12,
+    e as quatro questoes do bloco biologico do cumulativo antigo (q58-q61) viraram gemologia-m04-q13-q16. Os IDs
+    m03 aposentados nao voltam a ser emitidos. Nenhum texto de aula foi reescrito.
+- date: '2026-08-27'
+  decision: 'Dividir a aula 13 do modulo 03 em duas: aula 13 (zircao e tanzanita, objetivo gemologia-m03-oa13 reformulado)
+    e aula 14 (espodumenio e iolita, objetivo NOVO gemologia-m03-oa17). As antigas aulas 14, 15 e 16 passaram a
+    15, 16 e 17; os objetivos oa14, oa15 e oa16 NAO mudaram de numero e apenas trocaram de aula-fonte. O modulo
+    passou de 16 para 17 aulas e o curso, de 58 para 59.'
+  rationale: 'Achado laranja 3 da revisao didatica do modulo 03: a aula carregava quatro especies sem parentesco
+    mineralogico, com cinco tabelas de propriedades e 34 linhas de tabela - contra duas especies nas aulas vizinhas
+    - e era a aula com mais cards do modulo (18). A propria revisao indicou o corte (parte 1 zircao/tanzanita, parte
+    2 espodumenio/iolita) e observou que o texto ja estava seccionado por especie, de modo que a divisao nao exigia
+    conteudo novo. O objetivo novo recebeu o proximo ID livre (oa17) em vez de deslocar oa14-oa16, para nao aposentar
+    tres IDs ja referenciados por questoes, cards e pelo modulo 04.'
+  impact: 'CUSTO ZERO DE HISTORICO NO ANKI, ao contrario da divisao de 2026-08-26: nenhum ID de card mudou. Os cards
+    de espodumenio e iolita (gemologia-m03-fb162-fb165 e fc049) apenas trocaram os campos aula, objetivo e tags,
+    porque a numeracao ja era contigua por aula e o prefixo de modulo nao se alterou - o Anki atualiza a nota existente
+    e mantem o agendamento. Nenhum ID de questao foi reindexado: a Q9 do parcial 2 continua no oa13 e a Q10 passou
+    ao oa17, na mesma ordem. As 12 alegacoes auditaveis da aula antiga foram particionadas por especie (7 para a
+    parte 1, 5 para a parte 2), sem criar, alterar ou descartar nenhuma. Nenhum texto de especie foi reescrito;
+    a unica prosa nova e o exemplo trabalhado da parte 1, montado exclusivamente com valores ja verificados na auditoria.
+    Custo aceito: a nova aula 14 ficou com 5 cards, abaixo dos 13 a 17 do resto do modulo, ate que o gerador-de-flashcards
+    a amplie.'
+- date: '2026-08-27'
+  decision: 'Dividir a aula 05 do modulo 01 (dicroscopio, espectroscopio, lupa e microscopio) em parte 1 (dicroscopio,
+    espectroscopio e FILTRO CHELSEA, objetivo gemologia-m01-oa05 reformulado) e parte 2 (lupa 10x, microscopio
+    gemologico e tecnica de IMERSAO, objetivo NOVO gemologia-m01-oa27). As aulas 06 a 22 antigas passaram a 07 a
+    23. O modulo 01 passou de 22 para 23 aulas e o curso, de 59 para 60.'
+  rationale: 'O filtro Chelsea era usado em tres aulas do modulo 03 (esmeralda, turmalina, calcedonia) e decisivo
+    no teste crisoprasio x calcedonia tingida, sem nunca ter sido ensinado - achado laranja 1 da revisao didatica
+    do modulo 03. O lugar natural do instrumento e o bloco de instrumentos de bancada do modulo 01. A antiga aula
+    05 ja estava no teto de palavras, entao acrescentar Chelsea e o tratamento proprio da tecnica de imersao exigia
+    dividir. As referencias do modulo 03 passaram a citar o modulo 01, aula 05, por wikilink, com a definicao local
+    removida.'
+  impact: 'Os wikilinks e a maioria das remissoes de prosa nos modulos 02, 03 e 04 foram atualizados para a nova
+    numeracao. A execucao foi interrompida por limite de sessao antes de terminar: faltou atualizar o bloco assessment
+    do modulo 01, confirmar a reparticao dos flashcards do antigo bloco aula 05 entre as aulas 05 e 06, e recalcular
+    hashes. Ver next_action.'
+- date: '2026-08-27'
+  decision: 'Aliviar as aulas 04 e 05 do modulo 04 (achado laranja 1 da revisao didatica): a secao Madreperola
+    saiu da aula 05 (que passou a "Gemas organicas II: coral e marfim") e foi para o fim da aula 02 (perolas, parte
+    2), onde os moluscos Pinctada e a madreperola como fonte dos nucleos ja estavam na mesa.'
+  rationale: 'As aulas 04 e 05 estavam ~20% acima do teto de 1600 palavras. A propria revisao didatica indicou
+    o corte. A madreperola e o mesmo nacar da perola e cabe tematicamente na aula de nucleacao.'
+  impact: 'A aula 05 caiu para 1569 palavras. Execucao interrompida por limite de sessao antes de terminar: a aula
+    02 ficou em 1817 palavras (ainda acima do teto) e precisa de compressao; a migracao das alegacoes de madreperola,
+    a atualizacao do questionario final (Q12), dos flashcards de madreperola, do statement do objetivo oa05 e do
+    hub ficaram pendentes. Concluido em 2026-08-28 - ver a decisao seguinte.'
+- date: '2026-08-28'
+  decision: 'Concluir a propagacao da mudanca da madreperola no modulo 04 e comprimir a aula 02 por corte de redundancia,
+    de 1817 para 1588 palavras, sem remover nenhum fato e sem reindexar nenhum ID de card ou de questao.'
+  rationale: 'A alternativa a comprimir seria dividir a aula 02 em duas partes, o que emitiria um objetivo novo
+    e reindexaria questoes e cards por causa de ~220 palavras. A aula tinha redundancia real - o recap repetia a
+    tabela quase verbatim, o exemplo trabalhado tinha oito passos onde cinco bastam, e "erros comuns" repetia o
+    recap -, entao havia espaco sem tocar em fato. Nenhum ID de flashcard foi reindexado, pelo mesmo motivo aceito
+    na divisao da aula 13 do modulo 03: trocar os campos aula, objetivo, tags e fonte preserva o historico do Anki.'
+  impact: 'Aula 02 em 1588 palavras, com content_hash recomputado. Alegacoes MPE-EST-001 e MPE-USO-001 migradas
+    da aula 05 para a aula 02 no relatorio e no manifesto da auditoria, com campos moved_from/moved_at/move_note
+    e um bloco claims_migrated; distribuicao por aula agora 8+12+11+12+8, total inalterado de 51; nenhuma alegacao
+    reauditada. Questionario final: rotulos de objetivo da matriz corrigidos e Q14 sem o rotulo OA05 - nenhuma questao
+    reescrita, reindexada ou repontuada. Flashcards fb064 e fb065 movidos para a aula 02 sem reindexacao (a faixa
+    de IDs da aula 02 deixa de ser contigua: fb013-fb024 e fb064-fb065). Revisao didatica: achado laranja 1 marcado
+    resolvido para as aulas 02 e 05 e ABERTO para a aula 04, que segue em 1731 palavras. Correcao de registro: os
+    IDs das alegacoes de madreperola sao MPE-*, e nao "PER-MAD-*" como diziam as notas de 2026-08-27 - esse prefixo
+    nunca existiu.'
+- date: '2026-08-28'
+  decision: 'Fechar as pendencias pequenas restantes das divisoes: comprimir a aula 04 do modulo 04, ampliar o baralho
+    da aula 14 do modulo 03 e corrigir a grafia "rarisssimo" nos dois questionarios do modulo 02.'
+  rationale: 'Trabalho deterministico e de poda, sem decisao de curriculo. Feito diretamente porque um segundo agente
+    Opus caiu no mesmo limite de sessao. A aula 04 nao foi dividida - as seis tabelas de identificacao sao o corpo
+    e nao sao comprimiveis sem perder criterio diagnostico; a poda veio da prosa (recap, exemplo trabalhado, "o
+    que nao concluir"). Os 9 cards Basic e 2 Cloze novos da aula 14 saem de fb266/fc075 para nao colidir com os
+    IDs fb201-fb265 / fc059-fc074 aposentados na divisao de 2026-08-26.'
+  impact: 'Modulo 04: aula 04 com corpo ~1620 (prosa fora de tabela ~1230), os cinco campos palavras_corpo medidos;
+    achados laranja 1 e amarelo 2 da revisao didatica FECHADOS, blocking_issues vazio. Modulo 03: baralho de 258
+    para 269 cards (209 Basic + 60 Cloze), last_id 274 / 76, aula 14 de 5 para 16 cards, nenhum card existente tocado.
+    Modulo 02: "rarisssimo" -> "rarissimo" corrigido em questionario-parcial-1 Q8 e questionario-final Q48, handoff
+    da revisao didatica fechado. Nenhum ID de card ou de questao reindexado em nenhum modulo.'
+- date: '2026-08-28'
+  decision: 'Escrever a aula nova "Lapidacao do diamante: do bruto ao polido" e inseri-la como AULA 16 do modulo
+    02 (no fim do modulo), com objetivo novo gemologia-m02-oa16. Nao inseri-la como aula 09 (logo apos peso), apesar
+    de esse ser o encaixe tematico mais proximo.'
+  rationale: 'Lacuna real de paridade com o programa GIA Graduate Diamonds: o curso ensinava a GRADUAR a lapidacao
+    (aula 07) e o efeito do rendimento no preco (aula 08), mas nunca como o diamante e de fato fabricado a partir
+    do bruto. A regra da tarefa era escolher o encaixe que menos quebra referencias. Inserir como aula 09 obrigaria
+    a renomear 7 arquivos de aula (09-15 -> 10-16), a reindexar o campo aula de cerca de 200 flashcards e das matrizes
+    dos 4 questionarios, e a propagar dezenas de wikilinks e remissoes de prosa nos modulos 02, 03 e 04 - o mesmo
+    tipo de operacao que, na divisao da aula 05 do modulo 01, foi interrompida por limite de sessao e deixou pendencias.
+    Inserir no fim do modulo tem custo ZERO de wikilink quebrado. A ligacao pedagogica com as aulas 07 e 08 e mantida
+    por wikilink de volta, e o conteudo (fabrica, laser, sinteticos ja vistos nas aulas 12-15) fecha bem o modulo.
+    Pelo mesmo motivo aceito em 2026-08-27 (aula 13 do modulo 03), o objetivo novo recebeu o proximo ID livre (oa16)
+    e nenhum ID foi deslocado ou reciclado.'
+  impact: 'Modulo 02 passa de 15 para 16 aulas; o curso, de 60 para 61. Arquivo novo 02-diamantes-aula-16-lapidacao-do-bruto-ao-polido.md
+    (content_hash 9b66a380..., ~1680 palavras de corpo). Propagado: hub do modulo 02 (novo Bloco 6, lista de objetivos,
+    registro), _curso.md, 00-progresso-do-aluno.md, 00-dashboard.md, e o ponteiro "Proxima aula" da aula 15. A aula
+    NAO passou por auditoria cientifica (8 alegacoes DIA-CUT-001..008 por verificar) nem por revisao didatica, e
+    nao esta coberta por questao (oa16 em uncovered_objectives) nem por flashcard - registrado nos blocos audit,
+    assessment, flashcards e didactic_review do modulo 02 e em next_action. Notion nao tocado.'
+- date: '2026-08-28'
+  decision: 'Escrever as aulas novas "Gemas de colecionador, parte 1 e 2" e inseri-las como AULAS 18 e 19 do modulo
+    03 (bloco 4, no fim do modulo), com objetivos novos gemologia-m03-oa18 e oa19.'
+  rationale: 'Lacuna aprovada pelo usuario: o modulo 03 cobre as especies coradas mais comerciais mas nao as gemas
+    menores/de colecionador que o GIA Graduate Colored Stones trata (esfeno, feldspatos-gema, danburita, apatita,
+    fluorita, cianita, diopsidio, escapolita, brazilianita e outras). Encaixe ao fim do modulo pelo mesmo motivo
+    aceito na aula 13 do modulo 03 e na aula 16 do modulo 02: inserir no bloco 2 reindexaria o campo aula de ~270
+    flashcards e das matrizes dos 3 questionarios, e ao fim do modulo o custo e ZERO wikilink quebrado. Objetivos
+    novos com os proximos IDs livres (oa18, oa19); nenhum ID deslocado ou reciclado. Conteudo dividido em parte
+    1 (esfeno + feldspatos + danburita + apatita + fluorita) e parte 2 (cianita + diopsidio + escapolita + brazilianita
+    + as demais + sintese) por passar de ~1600 palavras de corpo.'
+  impact: 'Modulo 03 passa de 17 para 19 aulas; o curso, de 61 para 63. Arquivos novos aula-18 (content_hash 7bc7ae1f...)
+    e aula-19 (content_hash ea0db2b1...). Aula 17 com content_hash recomputado (0700f229...) pela atualizacao do
+    ponteiro "Proxima aula". Propagado: hub do modulo 03, _curso.md, 00-progresso-do-aluno.md, 00-dashboard.md.
+    As duas aulas NAO passaram por auditoria cientifica (21 alegacoes por verificar) nem por revisao didatica, e
+    nao estao cobertas por questao (oa18/oa19 em uncovered_objectives) nem por flashcard - registrado nos blocos
+    audit, assessment, flashcards e didactic_review do modulo 03 e em next_action. Notion nao tocado.'
+- date: '2026-08-28'
+  decision: 'Acrescentar a secao "Casco de tartaruga" a AULA 05 DO MODULO 04 e ampliar o alcance do objetivo gemologia-m04-oa05,
+    escolhendo a opcao (a) do escopo aprovado: secao compacta MAIS poda de redundancia na propria aula, mantendo-a
+    dentro do teto de 1600 palavras. Nao renomear o arquivo nem o titulo da aula, que continuam "coral e marfim".'
+  rationale: 'Lacuna aprovada pelo usuario. A aula 05 estava em 1571 palavras de corpo, a 29 do teto, e a secao
+    pedia cerca de 250. A opcao (b) - aceitar corpo acima do teto - foi descartada porque a aula tinha redundancia
+    real: o recap repetia as tabelas quase verbatim, o exemplo trabalhado tinha dez passos onde seis bastam, e a
+    regra "identificar nao e legalizar" aparecia tres vezes. A poda saiu dai, e NENHUM FATO foi removido - as oito
+    alegacoes COR-*/MAR-* continuam sustentadas pelo texto. O arquivo nao foi renomeado pelo mesmo criterio aceito
+    em 2026-08-27/28 quando a madreperola entrou na aula 02: renomear quebraria wikilinks no hub, no questionario
+    final e nos flashcards sem ganho pedagogico, e quem precisa refletir o conteudo novo e o STATEMENT DO OBJETIVO,
+    nao o nome do arquivo.'
+  impact: 'Aula 05 em 1600 palavras de corpo (era 1571), content_hash b12ec702... Objetivo oa05 passa a "coral,
+    marfim e casco de tartaruga". Quatro alegacoes auditaveis novas - TRT-EST-001, TRT-USO-001, TRT-IMI-001, TRT-CITES-001
+    - todas com status nao_auditada. A secao NAO passou por auditoria cientifica nem revisao didatica e nao esta
+    coberta por questao nem flashcard; registrado nos blocos audit, assessment, flashcards e didactic_review do modulo
+    04. Nenhuma aula, questao ou card foi criado, renumerado ou descartado. Nota tecnica de conteudo: a densidade
+    NAO e criterio de separacao entre casco genuino e imitacao plastica - as faixas se sobrepoem -, e a aula declara
+    isso de forma explicita em vez de repetir a simplificacao corrente no varejo. Notion nao tocado.'
+- date: '2026-08-28'
+  decision: 'Escrever as aulas novas "Procedencias, parte 1: o arco asiatico" e "parte 2: Africa, Americas e Oceania"
+    e inseri-las como AULAS 20 e 21 do modulo 03 (bloco 5, no fim do modulo), com objetivos novos gemologia-m03-oa20
+    e oa21. Nao reensinar as provincias brasileiras, referenciando por wikilink a aula 21 do modulo 01.'
+  rationale: 'Lacuna aprovada pelo usuario. A quarta das cinco perguntas do oficio - de onde vem - tinha tratamento
+    disperso: procedencias do corindon na aula 04, esmeralda colombiana na aula 06, turmalina Paraiba na aula 07,
+    Brasil no modulo 01, e nenhum mapa organizado por regiao. O conteudo passou de 1600 palavras e foi dividido
+    em parte 1 (Asia) e parte 2 (Africa, Americas, Oceania e o fechamento metodologico sobre determinacao de origem).
+    Encaixe ao fim do modulo pelo mesmo motivo aceito na aula 16 do modulo 02 e nas aulas 18-19 do modulo 03: inserir
+    no meio reindexaria o campo aula de cerca de 270 flashcards e das matrizes dos 3 questionarios, e ao fim o custo
+    e ZERO wikilink quebrado. Objetivos novos com os proximos IDs livres (oa20, oa21); nenhum ID deslocado ou reciclado.
+    As provincias brasileiras nao foram reescritas para nao duplicar a aula 21 do modulo 01 - o modulo 03 lhes da
+    apenas a posicao no mapa mundial e liga por wikilink.'
+  impact: 'Modulo 03 passa de 19 para 21 aulas; o curso, de 63 para 65. Arquivos novos aula-20 (content_hash 701ee66c...,
+    1525 palavras de corpo) e aula-21 (content_hash 75ebec35..., 1527 palavras). Aula 19 com content_hash recomputado
+    (062d37f5...) pela atualizacao do ponteiro "Proxima aula". Propagado: hub do modulo 03 (bloco 5 novo, lista de
+    objetivos, nota de ordem de IDs, tabela das cinco perguntas, registro), _curso.md, 00-progresso-do-aluno.md,
+    00-dashboard.md. As duas aulas NAO passaram por auditoria cientifica (16 alegacoes PRO-* por verificar) nem
+    por revisao didatica, e nao estao cobertas por questao (oa20/oa21 em uncovered_objectives) nem por flashcard.
+    Notion nao tocado.'
+- date: '2026-08-28'
+  decision: 'Auditar cientificamente as aulas 18 e 19 do modulo 03 (rodada 3 do relatorio consolidado do modulo).
+    Executada no thread principal porque agentes Opus caiam por limite de sessao; verificacao contra GIA, Mindat,
+    IMA-CNMNC, Webster e literatura primaria via busca na web, nao de memoria.'
+  rationale: 'Camada de qualidade das aulas novas de 2026-08-28. 21 alegacoes verificadas, 17 corretas, 4 achados
+    (0 vermelho) corrigidos na mesma rodada. Como oa18/oa19 ainda nao tem questao nem flashcard, nao houve propagacao
+    para material derivado. Nenhum arquivo antigo do modulo foi tocado.'
+  impact: 'Corrigidos: OUT-FEN-001 (direcao da tenebrescencia da hackmanita estava invertida - a cor volta no escuro/UV,
+    desbota ao sol), APA-EST-001 (birrefringencia da apatita 0,002-0,004 -> 0,002-0,008 conforme GIA), formula da
+    taaffeita (BeMgAl4O8 -> Mg3Al8BeO16; IMA magnesiotaaffeita-2N2S desde 2002, nome de comercio preservado) e a
+    citacao da descricao original da brazilianita (Pough & Henderson 1945, nao Frondel - so no rodape, corpo estava
+    certo). content_hash das aulas 18 e 19 recomputado; relatorio .md e manifesto .json com a rodada 3 anexada;
+    bloco audit.rounds do modulo 03 no course-state. a18/a19 saem de audit.unaudited_lessons; a20/a21 permanecem
+    (rodada 4 pendente). A controversia da andesina difundida com cobre (FDS-AND-001) foi confirmada como debate
+    real e ja estava redigida como pergunta aberta - nao e pendencia.'
+- date: '2026-08-29'
+  decision: 'Fechar a camada de qualidade das aulas novas de 2026-08-28: revisao didatica (M03 aulas 18-21, M04
+    secao casco de tartaruga), flashcards e questoes de avaliacao para oa16 (M02), oa18-oa21 (M03) e a parte casco
+    de tartaruga de oa05 (M04). Tudo no thread principal.'
+  rationale: 'Ultimo passo antes do Notion. Revisao didatica: verdictos "bem ensinado com ressalvas", 2 achados
+    amarelos corrigidos (glosa de "polimorfos" na aula 19; pre-requisito de nome de rocha na aula 21). Flashcards:
+    52+13+5 Basic e 12+3+1 Cloze, emitidos a partir dos proximos IDs livres, nenhum card existente tocado, tags
+    novas ::colecionador, ::procedencias, ::lapidacao-processo, ::casco-de-tartaruga. Questoes: acrescentadas aos
+    questionarios FINAIS (as aulas entraram depois dos parciais e nao tem parcial proprio), com gabarito comentado
+    e rubrica no padrao do modulo, refletindo os valores ja corrigidos pela auditoria (rendimento 40-50%, Tolkowsky
+    calculou proporcoes, tenebrescencia da hackmanita na direcao certa, formula da taaffeita).'
+  impact: 'course-state: didactic_review.unreviewed_lessons/sections e assessment.uncovered_objectives de M02/M03/M04
+    agora VAZIOS; blocos flashcards com contagem e last_id atualizados; content_hash das aulas 19 e 21 recomputado
+    (edicoes da revisao didatica). Propagado: indices de flashcards dos 3 modulos, os 3 relatorios de revisao didatica,
+    os 3 questionarios finais, _curso.md (saldo, totais de card, linhas de modulo). Todo o conteudo do curso esta
+    agora auditado + revisado + avaliado + cardificado. Resta so o Notion.'
+- date: '2026-08-28'
+  decision: 'Auditar cientificamente as aulas 20 e 21 do modulo 03 (procedencias, rodada 4) e a secao "Casco de
+    tartaruga" da aula 05 do modulo 04 (rodada 2 daquele modulo). Executadas no thread principal com busca na web.'
+  rationale: 'Ultima parte da camada de qualidade das aulas de 2026-08-28. Datas de descoberta de deposito, contexto
+    geologico e regime CITES verificados contra GIA Gems & Gemology, Hughes (Ruby & Sapphire), Giuliani et al.,
+    Webster, O''Donoghue e a base oficial da CITES.'
+  impact: '20 alegacoes (16 PRO-* + 4 TRT-*) verificadas, ZERO achado - as aulas nasceram corretas. Confirmados:
+    Montepuez descoberto em maio de 2009 em anfibolito; Ilakaka 1998; safira de Kashmir lavrada 1881-1888 acima
+    de 4.000 m; tsavorita descrita 1967 (Tanzania) / 1970 (Quenia); espinelio de Mahenge e rubi de Winza em 2007;
+    Eretmochelys imbricata no Apendice I da CITES desde 04/02/1977; a ressalva de que a densidade NAO separa casco
+    de tartaruga genuino das imitacoes plasticas. Propagado: relatorios .md e manifestos .json dos modulos 03 e
+    04 (rodadas anexadas), audit.rounds no course-state, flags de rodape das 3 aulas (auditoria_cientifica -> false),
+    content_hash recomputado. audit.unaudited_lessons do modulo 03 e audit.unaudited_sections do modulo 04 agora
+    VAZIOS: todo o conteudo escrito ate 2026-08-28 esta auditado. Nenhuma correcao, nenhuma propagacao para material
+    derivado (as aulas 16, 18-21 e a secao TRT ainda nao tem questao nem flashcard). PRO-MET-001 (metodologia da
+    determinacao de origem) confirmada como calibragem correta - nao e pendencia.'
+modules:
+- id: '01'
+  slug: gemologia-geral
+  title: Gemologia geral e identificação
+  area: I. Fundamentos e identificação
+  prerequisites: []
+  status: completed
+  learning_objectives:
+  - id: gemologia-m01-oa01
+    statement: Definir o que caracteriza uma gema e distinguir espécie, variedade e nome comercial
+  - id: gemologia-m01-oa02
+    statement: Explicar a origem da cor nas gemas
+  - id: gemologia-m01-oa03
+    statement: Relacionar as propriedades ópticas e físicas diagnósticas à identificação
+  - id: gemologia-m01-oa04
+    statement: Operar refratômetro e polariscópio
+  - id: gemologia-m01-oa05
+    statement: Operar dicroscópio, espectroscópio e filtro Chelsea, e registrar o que a gema fez com a luz sem
+      transformar observação em conclusão
+  - id: gemologia-m01-oa06
+    statement: Aplicar um fluxo de identificação gemológica
+  - id: gemologia-m01-oa27
+    statement: Operar a lupa 10×, o microscópio gemológico e a técnica de imersão, escolhendo a iluminação conforme
+      a feição a revelar
+  - id: gemologia-m01-oa11
+    statement: Relacionar proveniência, laudos e fatores de valor à avaliação
+  - id: gemologia-m01-oa12
+    statement: Medir e interpretar a densidade relativa de uma gema, escolhendo entre pesagem hidrostática e líquidos
+      pesados conforme o material
+  - id: gemologia-m01-oa13
+    statement: Executar e registrar um exame de fluorescência UV em onda longa e onda curta e interpretar seus limites
+  - id: gemologia-m01-oa14
+    statement: Explicar o princípio dos testadores de condutividade térmica e elétrica e separar os principais simulantes
+      de diamante
+  - id: gemologia-m01-oa15
+    statement: Relacionar UV-Vis-NIR, FTIR, Raman e fotoluminescência às perguntas gemológicas que cada técnica
+      é capaz de responder
+  - id: gemologia-m01-oa16
+    statement: Nomear as partes de uma gema lapidada e classificar o estilo de talhe e a forma de uma peça
+  - id: gemologia-m01-oa17
+    statement: Explicar como ângulo crítico e proporções determinam o desempenho óptico de uma gema e identificar
+      defeitos de lapidação pelo efeito visual
+  - id: gemologia-m01-oa18
+    statement: Explicar o mecanismo do asterismo e da chatoyance e as condições de lapidação e iluminação que os
+      revelam
+  - id: gemologia-m01-oa19
+    statement: Distinguir adularescência, labradorescência, jogo de cores, aventurescência e mudança de cor pelo
+      mecanismo que os produz
+  - id: gemologia-m01-oa20
+    statement: Separar nefrita, jadeíta e imitações de jade e interpretar corretamente a classificação comercial
+      A/B/C
+  - id: gemologia-m01-oa21
+    statement: Caracterizar opala, turquesa, lápis-lazúli, malaquita e materiais afins, reconhecendo tratamentos
+      comuns e imitações
+  - id: gemologia-m01-oa22
+    statement: Avaliar a durabilidade de uma gema pelos três componentes (dureza, tenacidade e estabilidade) e recomendar
+      uso e limpeza compatíveis
+  - id: gemologia-m01-oa23
+    statement: Identificar teores de metais preciosos e explicar como o tipo de engaste afeta o exame, os testes
+      e a segurança da gema
+  - id: gemologia-m01-oa24
+    statement: Relacionar as principais espécies gemológicas aos ambientes geológicos que as produzem e explicar
+      as condições que tornam uma gema rara
+  - id: gemologia-m01-oa25
+    statement: Localizar as principais províncias gemológicas brasileiras e associá-las ao contexto geológico e
+      às gemas produzidas
+  - id: gemologia-m01-oa26
+    statement: Descrever a cadeia de suprimento gemológica e avaliar criticamente o Processo de Kimberley, a lista
+      Rapaport e os instrumentos de rastreabilidade
+  lessons:
+    planned: 23
+    completed: 23
+    items:
+    - id: gemologia-m01-a01
+      title: 'O que é gema: espécie, variedade e nome comercial'
+      file: 01-gemologia-geral/01-gemologia-geral-aula-01-o-que-e-gema-especie-variedade-nome-comercial.md
+      covers_objectives:
+      - gemologia-m01-oa01
+      status: completed
+      content_hash: 55d646ea5395368c675e3977c12a073a37bfb67f67bb6ce2508eb205b0902b2a
+    - id: gemologia-m01-a02
+      title: Origem da cor nas gemas
+      file: 01-gemologia-geral/01-gemologia-geral-aula-02-origem-da-cor-nas-gemas.md
+      covers_objectives:
+      - gemologia-m01-oa02
+      status: completed
+      content_hash: c9104738d24f1faf8e10ee6016d680b90e589ba2706e41f306c5ec41542ddddc
+    - id: gemologia-m01-a03
+      title: Propriedades diagnósticas gemológicas
+      file: 01-gemologia-geral/01-gemologia-geral-aula-03-propriedades-diagnosticas-gemologicas.md
+      covers_objectives:
+      - gemologia-m01-oa03
+      status: completed
+      content_hash: 156416babd888703e8ac586219d8cd3118a74bdc7b3412f97373f425f54255e3
+    - id: gemologia-m01-a04
+      title: Refratômetro e polariscópio
+      file: 01-gemologia-geral/01-gemologia-geral-aula-04-refratometro-e-polariscopio.md
+      covers_objectives:
+      - gemologia-m01-oa04
+      status: completed
+      content_hash: d370e6191d25e960c719fb50fdae89192ff79b6bf0bbee0ae5464eb116d935ec
+    - id: gemologia-m01-a05
+      title: 'Instrumentos de observação, parte 1: dicroscópio, espectroscópio e filtro Chelsea'
+      file: 01-gemologia-geral/01-gemologia-geral-aula-05-instrumentos-de-observacao-parte-1-dicroscopio-espectroscopio-e-filtro-chelsea.md
+      covers_objectives:
+      - gemologia-m01-oa05
+      status: completed
+      content_hash: 71c2eedecb8363f0d86bf998556c1b33c22ae98f75c7773f9270502577444177
+      revisions:
+      - date: '2026-08-27'
+        type: split
+        summary: 'Divisao da antiga aula 05 (dicroscopio, espectroscopio, lupa e microscopio) em parte 1 (esta:
+          dicroscopio, espectroscopio e filtro Chelsea) e parte 2 (aula 06: lupa, microscopio e imersao). O filtro
+          Chelsea, antes usado no modulo 03 sem nunca ter sido ensinado, passou a ser ensinado aqui; a tecnica de
+          imersao ganhou tratamento proprio na parte 2. As aulas 06 a 22 antigas foram deslocadas +1 (agora 07 a 23).'
+    - id: gemologia-m01-a06
+      title: 'Instrumentos de observação, parte 2: lupa, microscópio e imersão'
+      file: 01-gemologia-geral/01-gemologia-geral-aula-06-instrumentos-de-observacao-parte-2-lupa-microscopio-e-imersao.md
+      covers_objectives:
+      - gemologia-m01-oa27
+      status: completed
+      content_hash: 704205c0f913a464fe71b22e0e4755451b499e1f1d6aedca5efafb4f4a55f247
+    - id: gemologia-m01-a07
+      title: Fluxo de identificação gemológica
+      file: 01-gemologia-geral/01-gemologia-geral-aula-07-fluxo-de-identificacao-gemologica.md
+      covers_objectives:
+      - gemologia-m01-oa06
+      status: completed
+      content_hash: a3c1ea405ba53699c183aca5bad28a8ee7f1541634d5dc96668face4d1a8b3b0
+    - id: gemologia-m01-a08
+      title: Densidade relativa e líquidos pesados
+      file: 01-gemologia-geral/01-gemologia-geral-aula-08-densidade-relativa-e-liquidos-pesados.md
+      covers_objectives:
+      - gemologia-m01-oa12
+      status: completed
+      content_hash: fddf8fb17d0b4b3b92f0814d0c0c0ed9c547c3dd90397b6b36492b44df6f8aae
+    - id: gemologia-m01-a09
+      title: 'Fluorescência UV: onda longa e onda curta'
+      file: 01-gemologia-geral/01-gemologia-geral-aula-09-fluorescencia-uv-onda-longa-e-onda-curta.md
+      covers_objectives:
+      - gemologia-m01-oa13
+      status: completed
+      content_hash: b5f08537b60973d0d8cfa3d0ae12a52772ba576fd6e40349ffb027668478fb1d
+    - id: gemologia-m01-a10
+      title: Condutividade térmica, condutividade elétrica e simulantes
+      file: 01-gemologia-geral/01-gemologia-geral-aula-10-condutividade-termica-eletrica-e-simulantes.md
+      covers_objectives:
+      - gemologia-m01-oa14
+      status: completed
+      content_hash: 895b983f11b7a18069bff0f512f98ae840630dfcc860974197ff88ea10b7a3f6
+    - id: gemologia-m01-a11
+      title: 'A camada de laboratório: UV-Vis-NIR, FTIR e Raman'
+      file: 01-gemologia-geral/01-gemologia-geral-aula-11-laboratorio-espectroscopico-uv-vis-nir-ftir-raman.md
+      covers_objectives:
+      - gemologia-m01-oa15
+      status: completed
+      content_hash: f794a7a6af840680fdf571caa1f459160ad975b707900d4781aa63787f274b77
+    - id: gemologia-m01-a12
+      title: Anatomia da pedra lapidada e estilos de talhe
+      file: 01-gemologia-geral/01-gemologia-geral-aula-12-anatomia-da-pedra-lapidada-e-estilos-de-talhe.md
+      covers_objectives:
+      - gemologia-m01-oa16
+      status: completed
+      content_hash: 2310e71b1707d2f5e060ba280c30cd079ef8751d51df4749f4245ec7a103d70b
+    - id: gemologia-m01-a13
+      title: Proporções, desempenho óptico e defeitos de lapidação
+      file: 01-gemologia-geral/01-gemologia-geral-aula-13-proporcoes-desempenho-optico-e-defeitos-de-lapidacao.md
+      covers_objectives:
+      - gemologia-m01-oa17
+      status: completed
+      content_hash: 37dadd9f73c64a3c0d5f2cffd4a2b6390e76d48ee740e4d2ea3ac2570a666862
+    - id: gemologia-m01-a14
+      title: 'Gemas fenomenais, parte 1: asterismo e chatoyance'
+      file: 01-gemologia-geral/01-gemologia-geral-aula-14-gemas-fenomenais-parte-1-asterismo-e-chatoyance.md
+      covers_objectives:
+      - gemologia-m01-oa18
+      status: completed
+      content_hash: c1df1eb1a62e8f23a6a335e6433da1ed4b5c82c445874fedce4f0c8f01f1c6fd
+    - id: gemologia-m01-a15
+      title: 'Gemas fenomenais, parte 2: adularescência, jogo de cores e mudança de cor'
+      file: 01-gemologia-geral/01-gemologia-geral-aula-15-gemas-fenomenais-parte-2-adularescencia-jogo-de-cores-e-mudanca-de-cor.md
+      covers_objectives:
+      - gemologia-m01-oa19
+      status: completed
+      content_hash: 263e134f892c52283b643fc1745f01e0af0350e89e6c75765b50ed0867db2f7d
+    - id: gemologia-m01-a16
+      title: 'Jade: nefrita, jadeíta e o sistema A/B/C'
+      file: 01-gemologia-geral/01-gemologia-geral-aula-16-jade-nefrita-jadeita-e-o-sistema-a-b-c.md
+      covers_objectives:
+      - gemologia-m01-oa20
+      status: completed
+      content_hash: 5f4e7ff8dd165be7adce40b598bcf1bdb74f7880fc3cf134ad13f85744baafc2
+    - id: gemologia-m01-a17
+      title: Opala, turquesa, lápis-lazúli e outros materiais opacos
+      file: 01-gemologia-geral/01-gemologia-geral-aula-17-opala-turquesa-lapis-lazuli-e-outros-opacos.md
+      covers_objectives:
+      - gemologia-m01-oa21
+      status: completed
+      content_hash: 482513bdf53dd26ad4cacac56b2470f8b2629d3fd5da4429d948b88abc91d5a8
+    - id: gemologia-m01-a18
+      title: Durabilidade, estabilidade e cuidados
+      file: 01-gemologia-geral/01-gemologia-geral-aula-18-durabilidade-estabilidade-e-cuidados.md
+      covers_objectives:
+      - gemologia-m01-oa22
+      status: completed
+      content_hash: 0a228953d0d4634cef060549ad38c6004ddf7d161ec51150a89e8df3b6fb90e8
+    - id: gemologia-m01-a19
+      title: Metais preciosos e montagem
+      file: 01-gemologia-geral/01-gemologia-geral-aula-19-metais-preciosos-e-montagem.md
+      covers_objectives:
+      - gemologia-m01-oa23
+      status: completed
+      content_hash: 12a4ed9710977d176c4e2d30ae86143056dece38d53dec1b2ab8ffb2684ad85a
+    - id: gemologia-m01-a20
+      title: 'Geologia das gemas: ambientes formadores'
+      file: 01-gemologia-geral/01-gemologia-geral-aula-20-geologia-das-gemas-ambientes-formadores.md
+      covers_objectives:
+      - gemologia-m01-oa24
+      status: completed
+      content_hash: 2575247415aebb6dd2c70e27d69f399daca2146333ab182eb4d3ac72985b99e3
+    - id: gemologia-m01-a21
+      title: Províncias gemológicas brasileiras
+      file: 01-gemologia-geral/01-gemologia-geral-aula-21-provincias-gemologicas-brasileiras.md
+      covers_objectives:
+      - gemologia-m01-oa25
+      status: completed
+      content_hash: 0b5345860003c0128e94bffb902c9b80d45f8ba27cffc0c2a396e7c9e7f211f2
+    - id: gemologia-m01-a22
+      title: Mercado, cadeia de suprimento e ética
+      file: 01-gemologia-geral/01-gemologia-geral-aula-22-mercado-cadeia-e-etica.md
+      covers_objectives:
+      - gemologia-m01-oa26
+      status: completed
+      content_hash: fd1eb3781b6ec8169e5b5bbb44da7d1ae5967227483036a01be16f7bc9ddd030
+    - id: gemologia-m01-a23
+      title: Proveniência, laudos e fatores de valor
+      file: 01-gemologia-geral/01-gemologia-geral-aula-23-proveniencia-laudos-e-fatores-de-valor.md
+      covers_objectives:
+      - gemologia-m01-oa11
+      status: completed
+      content_hash: 36d4fcfddd8843e3b74d585479c4052fa0a7e7a8b6a2fd385399a8f72392a2b5
+      revisions:
+      - date: '2026-08-24'
+        type: expansion_and_renumber
+        summary: Reescrita expandida da antiga aula 11 (ID anterior gemologia-m01-a11), renumerada para a22 na reestruturacao
+          do modulo. O objetivo coberto (oa11) foi preservado.
+  audit:
+    files:
+    - 01-gemologia-geral/01-gemologia-geral-auditoria.md
+    - 01-gemologia-geral/01-gemologia-geral-auditoria.json
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 0
+    white: 0
+    open_findings: []
+    audited_at: '2026-08-24'
+    status: approved
+    passes:
+    - audited_at: '2026-08-24'
+      scope: rodada inicial (22 aulas)
+      verdict: approved
+      findings: {red: 0, orange: 5, yellow: 0, blue: 0, white: 0}
+      all_fixed: true
+    - audited_at: '2026-08-27'
+      scope: "alegacoes novas das aulas 01-06 acrescentadas no aprofundamento de 2026-08-25 (pendencia 2 do _contexto)"
+      verdict: approved-with-fixes
+      findings: {red: 0, orange: 1, yellow: 1, blue: 0, white: 0}
+      fixed:
+      - "GEM-DIAG-004: faixa de IR das granadas 1,714-1,830 -> 1,714-1,888 (excluia andradita/demantoide); DR 3,4 -> 3,5"
+      - "GEM-COR-006: mecanismo de cor da opala reatribuido de Jones/Sanders/Segnit (Structure of Opal) para Sanders (Colour of Precious Opal, Nature 204:1151, 1964)"
+      all_fixed: true
+  assessment:
+    files:
+    - 01-gemologia-geral/01-gemologia-geral-questionario-parcial-1.md
+    - 01-gemologia-geral/01-gemologia-geral-questionario-parcial-2.md
+    - 01-gemologia-geral/01-gemologia-geral-questionario-parcial-3.md
+    - 01-gemologia-geral/01-gemologia-geral-questionario-final.md
+    questions: 66
+    points: 228
+    blueprint_complete: true
+    uncovered_objectives: []
+    objectives_covered:
+    - gemologia-m01-oa01
+    - gemologia-m01-oa02
+    - gemologia-m01-oa03
+    - gemologia-m01-oa04
+    - gemologia-m01-oa05
+    - gemologia-m01-oa27
+    - gemologia-m01-oa06
+    - gemologia-m01-oa11
+    - gemologia-m01-oa12
+    - gemologia-m01-oa13
+    - gemologia-m01-oa14
+    - gemologia-m01-oa15
+    - gemologia-m01-oa16
+    - gemologia-m01-oa17
+    - gemologia-m01-oa18
+    - gemologia-m01-oa19
+    - gemologia-m01-oa20
+    - gemologia-m01-oa21
+    - gemologia-m01-oa22
+    - gemologia-m01-oa23
+    - gemologia-m01-oa24
+    - gemologia-m01-oa25
+    - gemologia-m01-oa26
+    generated_at: '2026-08-24'
+    status: completed
+    revisions:
+    - date: '2026-08-27'
+      summary: 'Parcial 1 ampliado de 16 para 28 questoes (52 -> 93 pts) com Q78-Q89, cobrindo o conteudo
+        acrescentado no aprofundamento das aulas 01-06 de 2026-08-25: origem da cor por mecanismo (campo
+        cristalino x transferencia de carga, idio/alo/pseudocromatico), fisica optica da aula 04 (lei de
+        Snell, angulo critico, reflexao interna total, birrefringencia e sinal optico no refratometro),
+        requisitos de propriedade diagnostica e leitura de tabela IR/DR, e as cinco perguntas do oficio
+        (pedra montada, dupletes, efeito de flash). IDs q11-q33 permanecem aposentados.'
+  flashcards:
+    index_file: 01-gemologia-geral/01-gemologia-geral-flashcards.md
+    basic_file: 01-gemologia-geral/01-gemologia-geral-flashcards-basic.csv
+    cloze_file: 01-gemologia-geral/01-gemologia-geral-flashcards-cloze.csv
+    count_basic: 183
+    count_cloze: 69
+    last_id: 195
+    last_id_cloze: 77
+    generated_at: '2026-08-25'
+    status: completed
+    repartitioned_at: '2026-08-28'
+    repartition_note: 'Divisao da aula 05 em duas. NENHUM ID DE CARD MUDOU - contagem e last_id seguem iguais.
+      Os cards fb015, fb185-fb188 e fc010, fc073, fc074 (lupa, campo escuro, microscopio, imersao) passaram de
+      a05/oa05 para a06/oa27; os demais cards do bloco antigo aula 05 (dicroscopio, espectroscopio, pleocroismo)
+      ficaram na a05; os cards das antigas aulas 06-22 tiveram so o campo aula deslocado em um (a06->a07 ... a22->a23).
+      O indice de flashcards teve a tabela de distribuicao renumerada e a linha da a05 desdobrada em a05+a06.
+      Distribuicao a05 = 9 Basic + 3 Cloze; a06 = 5 Basic + 3 Cloze. Pendencia nao bloqueante: o filtro Chelsea,
+      novo na a05, ainda nao tem card proprio - cabe ao gerador-de-flashcards ampliar.'
+  didactic_review:
+    file: 01-gemologia-geral/01-gemologia-geral-revisao-didatica.md
+    generated_at: '2026-08-24'
+    status: completed
+- id: '02'
+  slug: diamantes
+  title: Diamantes
+  area: II. Diamantes
+  prerequisites:
+  - '01'
+  status: completed
+  learning_objectives:
+  - id: gemologia-m02-oa01
+    statement: Explicar como a estrutura cristalina do diamante produz suas propriedades gemológicas e distinguir
+      diamante de grafite pelo arranjo do carbono
+  - id: gemologia-m02-oa02
+    statement: Descrever as condições e os ambientes de formação do diamante e o papel do kimberlito e do lamproíto
+      no seu transporte até a superfície
+  - id: gemologia-m02-oa03
+    statement: Interpretar inclusões de diamantes de manto profundo e superprofundo como registro direto do interior
+      da Terra
+  - id: gemologia-m02-oa04
+    statement: Classificar um diamante nos tipos Ia, Ib, IIa e IIb e explicar por que o tipo é base de triagem e
+      não identificação
+  - id: gemologia-m02-oa05
+    statement: Graduar a cor de um diamante na escala D-Z e descrever as condições de observação que tornam a graduação
+      reprodutível
+  - id: gemologia-m02-oa06
+    statement: Graduar a pureza de um diamante e nomear as inclusões e imperfeições externas registradas em um clarity
+      plot
+  - id: gemologia-m02-oa07
+    statement: Interpretar o grau de lapidação GIA do brilhante redondo a partir dos seus componentes e das proporções
+      que os controlam
+  - id: gemologia-m02-oa08
+    statement: Relacionar peso, tamanhos mágicos e rendimento de lapidação ao preço do diamante
+  - id: gemologia-m02-oa09
+    statement: Descrever a escala de cor fancy do GIA e explicar por que a lógica de valor se inverte em relação
+      à escala D-Z
+  - id: gemologia-m02-oa10
+    statement: Avaliar o efeito da fluorescência sobre a aparência e sobre o preço de um diamante, separando evidência
+      de crença de mercado
+  - id: gemologia-m02-oa11
+    statement: Separar o diamante dos seus principais simulantes por observação e propriedades, sem depender do
+      testador de condutividade
+  - id: gemologia-m02-oa12
+    statement: Descrever o crescimento HPHT e reconhecer a morfologia, as inclusões e a luminescência que essa rota
+      deixa como assinatura
+  - id: gemologia-m02-oa13
+    statement: Descrever o crescimento CVD e reconhecer a morfologia, as inclusões e a luminescência que essa rota
+      deixa como assinatura
+  - id: gemologia-m02-oa14
+    statement: Interpretar imagens de DiamondView e espectros de fotoluminescência e situar os equipamentos de triagem
+      no fluxo de um laboratório
+  - id: gemologia-m02-oa15
+    statement: Reconhecer os tratamentos aplicados a diamante e ler o que um laudo declara e o que ele deliberadamente
+      não declara
+  - id: gemologia-m02-oa16
+    statement: Descrever as etapas de fabricação de um diamante lapidado, do planejamento do bruto ao polimento
+      final, e explicar como a decisão de rendimento se relaciona ao grau de lapidação e à curva de preço
+  objective_id_note: 'oa16 e ID NOVO, emitido em 2026-08-28 para a aula de lapidacao como processo (aula 16, inserida
+    no fim do modulo). Nenhum ID de objetivo foi reciclado ou deslocado.'
+  lessons:
+    planned: 16
+    completed: 16
+    items:
+    - id: gemologia-m02-a01
+      title: O diamante como mineral — estrutura e propriedades
+      file: 02-diamantes/02-diamantes-aula-01-o-diamante-como-mineral.md
+      covers_objectives:
+      - gemologia-m02-oa01
+      status: completed
+      content_hash: a21de5a934be5192536e91821f3f01011fee6e483135fcf53b8b42ffeb907226
+    - id: gemologia-m02-a02
+      title: Origem geológica — onde o diamante nasce e como ele sobe
+      file: 02-diamantes/02-diamantes-aula-02-origem-geologica-kimberlito-e-lamproito.md
+      covers_objectives:
+      - gemologia-m02-oa02
+      status: completed
+      content_hash: 80f9622f06bceb20955d2cff18854920b6c2cfa50217ebc8b52e4dad295b2a5c
+    - id: gemologia-m02-a03
+      title: Diamantes de manto profundo e superprofundo
+      file: 02-diamantes/02-diamantes-aula-03-diamantes-de-manto-profundo-e-superprofundo.md
+      covers_objectives:
+      - gemologia-m02-oa03
+      status: completed
+      content_hash: 10937d6a36fb3a80356e191bb65fe14c1376a76b3e55b56691a00d25dbcea577
+    - id: gemologia-m02-a04
+      title: Os tipos Ia, Ib, IIa e IIb
+      file: 02-diamantes/02-diamantes-aula-04-tipos-ia-ib-iia-iib.md
+      covers_objectives:
+      - gemologia-m02-oa04
+      status: completed
+      content_hash: aa05bd3d6bfbd58fc62dd884a9605ae6a13e3fa1e01b93cfe1cde84775cd23d3
+    - id: gemologia-m02-a05
+      title: Cor — a escala D-Z e como ela se torna reprodutível
+      file: 02-diamantes/02-diamantes-aula-05-cor-d-z.md
+      covers_objectives:
+      - gemologia-m02-oa05
+      status: completed
+      content_hash: e127177550eead270697830025cd22e571e11a10797507157749beb3af7c7c19
+    - id: gemologia-m02-a06
+      title: Pureza — a escala e o vocabulário do clarity plot
+      file: 02-diamantes/02-diamantes-aula-06-pureza-e-clarity-plot.md
+      covers_objectives:
+      - gemologia-m02-oa06
+      status: completed
+      content_hash: 2f35f34381bffe286d0acd357791eb30a5b5bfb493cbc614c92fa7e7796b30fe
+    - id: gemologia-m02-a07
+      title: Lapidação — o grau GIA do brilhante redondo
+      file: 02-diamantes/02-diamantes-aula-07-lapidacao-grau-gia.md
+      covers_objectives:
+      - gemologia-m02-oa07
+      status: completed
+      content_hash: 42f9d5536bdfdc7004bd41aebb975595d4295dbfd8cf12f474af9b9d045bd969
+    - id: gemologia-m02-a08
+      title: Peso, tamanhos mágicos e a curva de preço
+      file: 02-diamantes/02-diamantes-aula-08-peso-tamanhos-magicos-e-preco.md
+      covers_objectives:
+      - gemologia-m02-oa08
+      status: completed
+      content_hash: 616bacf77b62de029be03ecd87e592ea48956c362030391901520e53b97f2f91
+    - id: gemologia-m02-a09
+      title: Cor fancy — a escala própria e a lógica invertida
+      file: 02-diamantes/02-diamantes-aula-09-cor-fancy.md
+      covers_objectives:
+      - gemologia-m02-oa09
+      status: completed
+      content_hash: 135cd39f03c0dc43a61506924a3263dec9984e86ebdbf554339d8dac941dfa28
+    - id: gemologia-m02-a10
+      title: Fluorescência e seu efeito no valor
+      file: 02-diamantes/02-diamantes-aula-10-fluorescencia-e-valor.md
+      covers_objectives:
+      - gemologia-m02-oa10
+      status: completed
+      content_hash: 30fd97a8f72ba31bbfc446a4997262e705c6831b77bf1f92ff286ca6f69ae0f3
+    - id: gemologia-m02-a11
+      title: Simulantes — separar sem depender do testador
+      file: 02-diamantes/02-diamantes-aula-11-simulantes-alem-do-testador.md
+      covers_objectives:
+      - gemologia-m02-oa11
+      status: completed
+      content_hash: 540c60028b128b63a06d00aff6e3fa76268da7b997d6ebb7d36717942e9bfaa6
+    - id: gemologia-m02-a12
+      title: Crescimento HPHT e suas assinaturas
+      file: 02-diamantes/02-diamantes-aula-12-crescimento-hpht.md
+      covers_objectives:
+      - gemologia-m02-oa12
+      status: completed
+      content_hash: 575d2042d8cd72a070274e333efa365991670a3e79caa55307f1109e9eca107c
+    - id: gemologia-m02-a13
+      title: Crescimento CVD e suas assinaturas
+      file: 02-diamantes/02-diamantes-aula-13-crescimento-cvd.md
+      covers_objectives:
+      - gemologia-m02-oa13
+      status: completed
+      content_hash: 0b069ccc43f1998bf0b2e9bc5e3fa599b3007f49306048bea8894c040a46f550
+    - id: gemologia-m02-a14
+      title: DiamondView, fotoluminescência e triagem
+      file: 02-diamantes/02-diamantes-aula-14-diamondview-fotoluminescencia-e-triagem.md
+      covers_objectives:
+      - gemologia-m02-oa14
+      status: completed
+      content_hash: 7e05674154e8065be926ee96319ca84747cb3a503628a9779969b3d0eea4a074
+    - id: gemologia-m02-a15
+      title: Tratamentos em diamante e o que o laudo declara
+      file: 02-diamantes/02-diamantes-aula-15-tratamentos-e-laudos.md
+      covers_objectives:
+      - gemologia-m02-oa15
+      status: completed
+      content_hash: b60f0ab1fed2c7ef9fd8300b4bfb5d2fa0dc65397c1b9bcd27f59a9c993b68fb
+      hash_recomputed_at: '2026-08-28'
+      hash_recompute_note: 'Unica mudanca: a secao "Proxima aula" passou a apontar para a nova aula 16 em vez de
+        dizer "fim do modulo". Nenhuma alegacao auditavel, fato ou secao de conteudo alterada; recompute seguro.'
+    - id: gemologia-m02-a16
+      title: Lapidação do diamante — do bruto ao polido
+      file: 02-diamantes/02-diamantes-aula-16-lapidacao-do-bruto-ao-polido.md
+      covers_objectives:
+      - gemologia-m02-oa16
+      status: completed
+      content_hash: 57466890d1e26ac41ba09e7ac6172687d7cdbb3a9ee9bd677089cbe766f1127e
+      hash_recomputed_at: '2026-08-28'
+      hash_recompute_note: 'Recomputado apos a rodada 2 da auditoria (4 achados laranja e 2 azuis corrigidos) e a
+        rodada 2 da revisao didatica (4 correcoes locais), ambas de 2026-08-28. Hash anterior:
+        9b66a380e654db96d7a2ce1d472991f4f33601e263bbd5897278cdb0190c004b.'
+      palavras_corpo: 1691
+      palavras_corpo_note: 'Acima do teto de 1.600 do contrato ensino-medio-sem-geologia-v1. Ja nascia em ~1.680,
+        antes de qualquer correcao; o saldo liquido das duas rodadas foi de +20 palavras. Encaminhado como
+        RD-M02-ENC-04 ao gerador-de-curso-modular: acomodar ou dividir. Nao bloqueante.'
+      added_at: '2026-08-28'
+      audited_at: '2026-08-28'
+      didactic_reviewed_at: '2026-08-28'
+      pending:
+        questionario: true
+        flashcards: true
+      pending_note: 'Aula nova (lacuna de paridade com o GIA Graduate Diamonds). Auditoria cientifica e revisao
+        didatica CONCLUIDAS em 2026-08-28: as 8 alegacoes DIA-CUT-001 a DIA-CUT-008 foram verificadas contra fonte,
+        6 exigiram correcao e nenhuma ficou aberta. Continua sem cobertura de avaliacao e de memorizacao: o oa16
+        segue em uncovered_objectives e sem flashcard, aguardando o gerador-de-questionarios e o gerador-de-flashcards.'
+  audit:
+    files:
+    - 02-diamantes/02-diamantes-auditoria.md
+    - 02-diamantes/02-diamantes-auditoria.json
+    content_hash_md: cedfe623636b2d3df44cbb4010e74fdfa8d55fbb98cbcf6a721eb625d56f8dc4
+    content_hash_json: 923ec5e832ff301afdb2176d5f07cba9422a73071dad230e602336846fabc650
+    hash_recomputed_at: '2026-08-28'
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 0
+    white: 3
+    open_findings: []
+    deferred_findings:
+    - DIA-DEEP-H2O-001
+    - DIA-CAMALEAO-001
+    - DIA-PL-596-001
+    audited_at: '2026-08-28'
+    status: approved_with_reservations
+    status_note: 'Nenhum achado aberto. O veredito passou de approved para approved_with_reservations por causa da
+      rodada 2: a aula 16 chegou com 4 imprecisoes e 2 alegacoes sem fonte, todas corrigidas na mesma rodada.'
+    unaudited_lessons: []
+    rounds:
+    - round: 1
+      audited_at: '2026-08-25'
+      scope: 'as 15 primeiras aulas do modulo'
+      mode: audit-and-fix
+      depth: full
+      verdict: approved
+      findings: {red: 0, orange: 4, yellow: 0, blue: 0, white: 2}
+      verified_ok: 93
+      corrected:
+      - DIA-EST-004
+      - DIA-COR-002
+      - DIA-PESO-005
+      - DIA-PESO-001
+    - round: 2
+      audited_at: '2026-08-28'
+      scope: 'aula 16 (gemologia-m02-a16), inserida depois da rodada 1; alegacoes DIA-CUT-001 a DIA-CUT-008'
+      mode: audit-and-fix
+      depth: full
+      verdict: approved_with_reservations
+      findings: {red: 0, orange: 4, yellow: 0, blue: 2, white: 0}
+      verified_ok: 2
+      corrected:
+      - DIA-CUT-008
+      - DIA-CUT-007
+      - DIA-CUT-006
+      - DIA-CUT-005
+      corrected_with_reservation:
+      - DIA-CUT-001
+      - DIA-CUT-002
+      verified_clean:
+      - DIA-CUT-003
+      - DIA-CUT-004
+      propagation_required: false
+      propagation_note: 'Nenhuma. Verificado por busca em todo o curso: Tolkowsky e 1919 nao aparecem em nenhum
+        outro arquivo; o rendimento aparece na aula 08 e no flashcard m02-fb096 ja com 40-50%, valor para o qual a
+        aula 16 foi alinhada; a fatia da India aparece so qualitativamente na aula 22 do modulo 01; a contagem de
+        57-58 facetas nao mudou. Nenhum arquivo antigo foi tocado e nenhum card precisa de reimportacao no Anki.'
+      key_finding: 'Tres dos quatro achados laranja eram contradicoes INTERNAS contra material ja auditado (aula 08,
+        aula 07 e a propria aula 16), e nao erros contra a literatura externa. Uma aula inserida depois de uma
+        auditoria nao herda a consistencia do modulo e precisa ser conferida contra ele.'
+  assessment:
+    files:
+    - 02-diamantes/02-diamantes-questionario-parcial-1.md
+    - 02-diamantes/02-diamantes-questionario-parcial-2.md
+    - 02-diamantes/02-diamantes-questionario-parcial-3.md
+    - 02-diamantes/02-diamantes-questionario-final.md
+    generated_at: '2026-08-24'
+    status: completed
+    objectives_covered:
+    - gemologia-m02-oa01
+    - gemologia-m02-oa02
+    - gemologia-m02-oa03
+    - gemologia-m02-oa04
+    - gemologia-m02-oa05
+    - gemologia-m02-oa06
+    - gemologia-m02-oa07
+    - gemologia-m02-oa08
+    - gemologia-m02-oa09
+    - gemologia-m02-oa10
+    - gemologia-m02-oa11
+    - gemologia-m02-oa12
+    - gemologia-m02-oa13
+    - gemologia-m02-oa14
+    - gemologia-m02-oa15
+    - gemologia-m02-oa16
+    uncovered_objectives: []
+    q16_note: 'oa16 (lapidacao, do bruto ao polido) coberto em 2026-08-28 pelas questoes Q49 (V/F - facetas x proporcoes
+      de Tolkowsky) e Q50 (aplicacao - rendimento 40-50% e marcacao do bruto) acrescentadas ao questionario final.
+      A aula 16 nao tem parcial proprio (inserida ao fim do modulo depois dos parciais). Final agora 15 questoes / 54 pts.'
+  flashcards:
+    index_file: 02-diamantes/02-diamantes-flashcards.md
+    basic_file: 02-diamantes/02-diamantes-flashcards-basic.csv
+    cloze_file: 02-diamantes/02-diamantes-flashcards-cloze.csv
+    count_basic: 188
+    count_cloze: 53
+    last_id: 188
+    last_id_cloze: 53
+    generated_at: '2026-08-25'
+    status: completed
+    uncovered_lessons: []
+    v2_note: 'Baralho v2 (2026-08-28): 13 Basic (fb176-fb188) e 3 Cloze (fc051-fc053) da aula 16 (lapidacao, do bruto
+      ao polido), tag gemologia::diamantes::lapidacao-processo. Gerados depois da auditoria (rodada 2) - refletem
+      os valores corrigidos: rendimento 40-50%, 57-58 facetas anteriores a Tolkowsky, fatias GJEPC. Nenhum card
+      existente tocado.'
+  didactic_review:
+    status: completed
+    unreviewed_lessons: []
+    file: 02-diamantes/02-diamantes-revisao-didatica.md
+    content_hash: 6b5681b8f05fbb43f9cf810451b4cf4f955bf2f043326d40484414d753a7796c
+    hash_recomputed_at: '2026-08-28'
+    generated_at: '2026-08-27'
+    last_updated_at: '2026-08-28'
+    mode: review-and-fix
+    verdict: bem-ensinado-com-ressalvas
+    findings: {red: 0, orange: 1, yellow: 6, blue: 6}
+    findings_note: 'Soma das duas rodadas. Rodada 1 (2026-08-27, 15 aulas): 0/0/3/4. Rodada 2 (2026-08-28, aula 16): 0/1/3/2.'
+    fixes_applied:
+    - "a03: 'Três descobertas' -> 'Quatro descobertas' (seção lista quatro itens)"
+    - "a07: frase apontando a a08 como formalização do spread"
+    - "a04, a12: 'rarísssimo' -> 'raríssimo'"
+    - "2026-08-28: 'rarísssimo' -> 'raríssimo' em questionario-parcial-1 Q8 e questionario-final Q48 (fecha o handoff)"
+    - "a16 (2026-08-28): glosa de sinônimo em 'Antes de começar' — cinturão = cintura (rondiz), culaça = cúlete"
+    - "a16 (2026-08-28): recap condensado de 8 para 6 itens, tese central promovida a primeiro item"
+    - "a16 (2026-08-28): frase de ligação abrindo a seção 7, ancorando a geografia na cláusula de rendimento do oa16"
+    - "a16 (2026-08-28): compressão da seção 5 e do parágrafo do laser, contra o teto de palavras"
+    rounds:
+    - round: 1
+      reviewed_at: '2026-08-27'
+      scope: 'as 15 primeiras aulas, hub, questionarios e indice do baralho'
+      verdict: bem-ensinado-com-ressalvas
+      findings: {red: 0, orange: 0, yellow: 3, blue: 4}
+    - round: 2
+      reviewed_at: '2026-08-28'
+      scope: 'aula 16 (gemologia-m02-a16), sobre o texto ja corrigido pela rodada 2 da auditoria'
+      verdict: bem-ensinado-com-ressalvas
+      findings: {red: 0, orange: 1, yellow: 3, blue: 2}
+      ran_after_audit: true
+      alignment_check_possible: false
+      alignment_note: 'O alinhamento aula-avaliacao da a16 NAO pode ser verificado: o oa16 nao tem questao nem
+        flashcard. Reavaliar quando a avaliacao existir (RD-M02-ENC-06).'
+    handoffs:
+    - id: RD-M02-ENC-03
+      target: revisor-didatico
+      description: 'Vocabulario anatomico divergente entre o modulo 02 (cinturao, culaca) e a aula 12 do modulo 01
+        (cintura/rondiz, culete). Afeta a07 e a16. Resolvido localmente na a16 por glosa; falta decidir a forma
+        canonica do curso. Nao bloqueante.'
+    - id: RD-M02-ENC-04
+      target: gerador-de-curso-modular
+      description: 'Aula 16 com ~1.700 palavras contra teto de 1.600 do contrato. Ja nascia em ~1.680. Decidir entre
+        acomodar aula de processo acima do teto ou dividir em Parte 1 (etapas) e Parte 2 (rendimento, preco e
+        geografia). Nao bloqueante.'
+    - id: RD-M02-ENC-05
+      target: planejador-curricular
+      description: 'A secao 7 da a16 (geografia da lapidacao, ~230 palavras) nao e coberta por nenhuma clausula do
+        oa16. Decidir se o objetivo ganha uma terceira clausula ANTES de a questao ser escrita, para nao cobrar o
+        que nao e objetivo nem ignorar um quinto da aula.'
+    - id: RD-M02-ENC-06
+      target: gerador-de-questionarios
+      description: 'oa16 sem questao e sem flashcard; o alinhamento aula-avaliacao da a16 nao pode ser verificado.
+        Reavaliar quando a avaliacao existir.'
+- id: '03'
+  slug: gemas-coradas
+  title: Gemas coradas
+  area: III. Gemas coradas
+  prerequisites:
+  - '01'
+  status: completed
+  learning_objectives:
+  - id: gemologia-m03-oa01
+    statement: Descrever a cor de uma gema corada em matiz, tom e saturação e escrever a notação correspondente
+  - id: gemologia-m03-oa02
+    statement: Relacionar cor, pureza, lapidação, peso, tratamento e origem ao valor de uma gema corada, reconhecendo
+      que o peso de cada fator muda por espécie
+  - id: gemologia-m03-oa03
+    statement: Classificar uma espécie nos tipos de pureza I, II e III e julgar uma pedra contra a expectativa da
+      sua espécie
+  - id: gemologia-m03-oa04
+    statement: Caracterizar o coríndon como espécie, distinguir rubi de safira pelos critérios reais e relacionar
+      as principais procedências ao que o mercado premia
+  - id: gemologia-m03-oa05
+    statement: Reconhecer tratamentos e rotas de síntese do coríndon e situar o que a bancada resolve e o que exige
+      laboratório
+  - id: gemologia-m03-oa06
+    statement: Caracterizar o berilo e suas variedades, reconhecer os tratamentos típicos de cada uma e separar
+      esmeralda natural de sintética pelos indícios de bancada
+  - id: gemologia-m03-oa07
+    statement: Caracterizar o supergrupo turmalina, distinguir suas variedades gemológicas e explicar a regra de
+      nomenclatura da turmalina Paraíba
+  - id: gemologia-m03-oa08
+    statement: Caracterizar o grupo das granadas, distinguir suas séries e variedades gemológicas e explicar por
+      que a granada não tem valor único de índice de refração ou de densidade
+  - id: gemologia-m03-oa09
+    statement: Identificar espinélio e crisoberilo, separando-os das espécies com que são historicamente confundidos
+      e reconhecendo suas rotas de síntese
+  - id: gemologia-m03-oa10
+    statement: Identificar topázio e peridoto pelas suas propriedades, reconhecer seus tratamentos e relacionar
+      cada um ao seu risco específico de durabilidade
+  - id: gemologia-m03-oa11
+    statement: Identificar as variedades coradas do quartzo cristalino, reconhecer seus tratamentos e situar a dificuldade
+      de separação do quartzo sintético
+  - id: gemologia-m03-oa12
+    statement: Identificar calcedônia, jaspe e os agregados de quartzo, nomear suas variedades e reconhecer o tingimento
+      como prática dominante do grupo
+  - id: gemologia-m03-oa13
+    statement: Identificar zircão e tanzanita e relacionar cada um ao seu risco específico de nomenclatura, tratamento
+      ou durabilidade
+  - id: gemologia-m03-oa17
+    statement: Identificar espodumênio e iolita e relacionar cada um ao seu risco específico de durabilidade, estabilidade
+      de cor ou confusão com outra espécie
+  - id: gemologia-m03-oa14
+    statement: Mapear os tratamentos de gemas coradas por mecanismo, estabilidade e detectabilidade, e aplicar a
+      regra de divulgação com a formulação correta
+  - id: gemologia-m03-oa15
+    statement: Descrever as rotas de síntese de gemas coradas, reconhecer as assinaturas que cada uma deixa e aplicar
+      a terminologia correta
+  - id: gemologia-m03-oa16
+    statement: Reconhecer vidros, plásticos e pedras montadas, aplicar o exame que os expõe e nomeá-los corretamente
+  - id: gemologia-m03-oa18
+    statement: Reconhecer as gemas coradas de colecionador do primeiro grupo (esfeno, feldspatos-gema, danburita,
+      apatita e fluorita), identificá-las pelas propriedades diagnósticas e explicar o critério de gema que cada
+      uma falha
+  - id: gemologia-m03-oa19
+    statement: Reconhecer as gemas coradas de colecionador do segundo grupo (cianita, diopsídio, escapolita, brazilianita
+      e as demais menos frequentes), identificá-las pelas propriedades diagnósticas e explicar por que a classe
+      fica fora do comércio de vitrine
+  - id: gemologia-m03-oa20
+    statement: Localizar as grandes províncias gemológicas asiáticas, associar cada uma às espécies que produz e
+      ao contexto geológico correspondente, e explicar por que a procedência move o preço
+  - id: gemologia-m03-oa21
+    statement: Localizar as grandes províncias gemológicas da África, das Américas e da Oceania, e explicar o que
+      sustenta, e o que limita, uma determinação de origem
+  objective_id_note: 'A lista de objetivos esta na ordem das AULAS, nao na ordem numerica dos IDs. Na divisao da
+    aula 13, em 2026-08-27, o objetivo de espodumenio e iolita recebeu o proximo ID livre (oa17) em vez de deslocar
+    oa14, oa15 e oa16 - que continuam a designar o mapa dos tratamentos, as rotas de sintese e as imitacoes, agora
+    nas aulas 15, 16 e 17. Em 2026-08-28, as aulas 18 e 19 (gemas de colecionador, parte 1 e 2) entraram ao fim
+    do modulo com os objetivos oa18 e oa19, e as aulas 20 e 21 (procedencias mundiais, parte 1 e 2) com oa20 e
+    oa21, todos proximos IDs livres. Nenhum ID de objetivo foi reciclado; oa17 a oa21 sao IDs novos. Regra de um
+    objetivo por aula preservada: 21 objetivos para 21 aulas.'
+  lessons:
+    planned: 21
+    completed: 21
+    items:
+    - id: gemologia-m03-a01
+      title: O sistema de cor do GIA — matiz, tom e saturação
+      file: 03-gemas-coradas/03-gemas-coradas-aula-01-sistema-de-cor-matiz-tom-saturacao.md
+      covers_objectives:
+      - gemologia-m03-oa01
+      status: completed
+      content_hash: aa4546b2109f52b89486c3f0e018602a983c6f49ed25ad2c7c5421fffa42c646
+    - id: gemologia-m03-a02
+      title: Os fatores de valor de uma gema corada
+      file: 03-gemas-coradas/03-gemas-coradas-aula-02-fatores-de-valor-da-gema-corada.md
+      covers_objectives:
+      - gemologia-m03-oa02
+      status: completed
+      content_hash: e68ef09e195c1555cfb6f56e45973a53d280817f9653975c027c67e65f439eb8
+    - id: gemologia-m03-a03
+      title: Os tipos de pureza I, II e III
+      file: 03-gemas-coradas/03-gemas-coradas-aula-03-tipos-de-pureza-i-ii-iii.md
+      covers_objectives:
+      - gemologia-m03-oa03
+      status: completed
+      content_hash: 090e165e9b70b9d124d3c3d72911e6195577cbac2f2789234a7e71425f690229
+    - id: gemologia-m03-a04
+      title: Coríndon — rubi e safira
+      file: 03-gemas-coradas/03-gemas-coradas-aula-04-corindon-rubi-e-safira.md
+      covers_objectives:
+      - gemologia-m03-oa04
+      status: completed
+      content_hash: 8c2c8009b18ef389427aab27156b81caeb298530848c89308af367f48c468c82
+    - id: gemologia-m03-a05
+      title: Coríndon — tratamentos e sintéticos
+      file: 03-gemas-coradas/03-gemas-coradas-aula-05-corindon-tratamentos-e-sinteticos.md
+      covers_objectives:
+      - gemologia-m03-oa05
+      status: completed
+      content_hash: 55892a61552d3c0bc6f24d1da1a685a9f8e80367efe4214153928ba29f3538a9
+    - id: gemologia-m03-a06
+      title: Berilo — esmeralda, água-marinha e as demais variedades
+      file: 03-gemas-coradas/03-gemas-coradas-aula-06-berilo-esmeralda-e-agua-marinha.md
+      covers_objectives:
+      - gemologia-m03-oa06
+      status: completed
+      content_hash: 03f85b6a1312c389f2ef612a5baea2ed5a257bf2f810387213ec09d93049d627
+    - id: gemologia-m03-a07
+      title: Turmalina — o grupo, a Paraíba e o problema do nome
+      file: 03-gemas-coradas/03-gemas-coradas-aula-07-turmalina-o-grupo-e-a-paraiba.md
+      covers_objectives:
+      - gemologia-m03-oa07
+      status: completed
+      content_hash: d7134d05a2af1153bba39aa6ca09c563eda839445819a1346ba7c4a8d5c371c3
+    - id: gemologia-m03-a08
+      title: Granadas — o grupo, as séries e as variedades
+      file: 03-gemas-coradas/03-gemas-coradas-aula-08-granadas-o-grupo-e-as-series.md
+      covers_objectives:
+      - gemologia-m03-oa08
+      status: completed
+      content_hash: f40ed49c64450d15e4b1673cf916764dc105c981690c091ed84c7fa91ec263f3
+    - id: gemologia-m03-a09
+      title: Espinélio e crisoberilo — duas gemas que viveram sob nome alheio
+      file: 03-gemas-coradas/03-gemas-coradas-aula-09-espinelio-e-crisoberilo.md
+      covers_objectives:
+      - gemologia-m03-oa09
+      status: completed
+      content_hash: 91861c0ca64542bd8b1336a08c77dd01674f09b09f688ff1b990792101a4f004
+    - id: gemologia-m03-a10
+      title: Topázio e peridoto — a clivagem e a cor que não se escolhe
+      file: 03-gemas-coradas/03-gemas-coradas-aula-10-topazio-e-peridoto.md
+      covers_objectives:
+      - gemologia-m03-oa10
+      status: completed
+      content_hash: dee461e01d821cb383e177fe9b55a9a576a0eb7b1958fe2e639abdeeb8fcf8ed
+    - id: gemologia-m03-a11
+      title: Quartzo cristalino — as variedades coradas e o problema do sintético
+      file: 03-gemas-coradas/03-gemas-coradas-aula-11-quartzo-cristalino-variedades-coradas.md
+      covers_objectives:
+      - gemologia-m03-oa11
+      status: completed
+      content_hash: 5d4acbd401b5dfc7581ef369f65ec3fb86bc85ed011929ef950bdffb64f2214a
+    - id: gemologia-m03-a12
+      title: Calcedônia e quartzo microcristalino — o grupo em que o tingimento é a norma
+      file: 03-gemas-coradas/03-gemas-coradas-aula-12-calcedonia-e-quartzo-microcristalino.md
+      covers_objectives:
+      - gemologia-m03-oa12
+      status: completed
+      content_hash: d75110596508ecf172174582842ef3a6b091f969e189f27df3d1dc1dc860f3f3
+    - id: gemologia-m03-a13
+      title: Quatro espécies, quatro fragilidades, parte 1 — zircão e tanzanita
+      file: 03-gemas-coradas/03-gemas-coradas-aula-13-quatro-fragilidades-parte-1-zircao-e-tanzanita.md
+      covers_objectives:
+      - gemologia-m03-oa13
+      status: completed
+      content_hash: 5e68b71c0c26b7081a3fc195b32a47de1cefc7099c41eba70f3189a3f10c21f8
+    - id: gemologia-m03-a14
+      title: Quatro espécies, quatro fragilidades, parte 2 — espodumênio e iolita
+      file: 03-gemas-coradas/03-gemas-coradas-aula-14-quatro-fragilidades-parte-2-espodumenio-e-iolita.md
+      covers_objectives:
+      - gemologia-m03-oa17
+      status: completed
+      content_hash: f611d9195bf0c2efc0316f75834be4a8022c4c6462e014d44912388323ab4639
+    - id: gemologia-m03-a15
+      title: O mapa dos tratamentos e a regra de divulgação
+      file: 03-gemas-coradas/03-gemas-coradas-aula-15-mapa-dos-tratamentos-e-a-regra-de-divulgacao.md
+      covers_objectives:
+      - gemologia-m03-oa14
+      status: completed
+      content_hash: 8d53b3f959fcb0e926c88a903e2a7ccbc1c64faabd25e3508152c6344a1104a6
+    - id: gemologia-m03-a16
+      title: As rotas de síntese e suas assinaturas
+      file: 03-gemas-coradas/03-gemas-coradas-aula-16-rotas-de-sintese-e-suas-assinaturas.md
+      covers_objectives:
+      - gemologia-m03-oa15
+      status: completed
+      content_hash: 4f98c0319f163a8d74751a5e718aaf528a48edec889e1b8bb14b5708127ea3b0
+    - id: gemologia-m03-a17
+      title: Imitações, vidros e materiais compostos
+      file: 03-gemas-coradas/03-gemas-coradas-aula-17-imitacoes-vidros-e-materiais-compostos.md
+      covers_objectives:
+      - gemologia-m03-oa16
+      status: completed
+      content_hash: 0700f2294738a2d8567ef086d7d2a8ef47e64a10f0bcd3d25a63736c07cde2a0
+      hash_recomputed_at: '2026-08-28'
+      hash_recompute_note: 'Unica mudanca: a secao "Proxima aula" passou a apontar para a nova aula 18 em vez do
+        modulo 04. Nenhuma alegacao auditavel, fato ou secao de conteudo alterada; recompute seguro.'
+    - id: gemologia-m03-a18
+      title: 'Gemas de colecionador, parte 1: esfeno, feldspatos, danburita, apatita e fluorita'
+      file: 03-gemas-coradas/03-gemas-coradas-aula-18-gemas-de-colecionador-parte-1-esfeno-feldspatos-danburita-apatita-e-fluorita.md
+      covers_objectives:
+      - gemologia-m03-oa18
+      status: completed
+      content_hash: 4255ed4598cce1e4f0405d8bd6d52683af08a1472c642ae0acdc4ff1492392a3
+      palavras_corpo: 1580
+      added_at: '2026-08-28'
+      pending:
+        auditoria_cientifica: true
+        revisao_didatica: true
+        questionario: true
+        flashcards: true
+      pending_note: 'Aula nova (lacuna aprovada das gemas de colecionador). AINDA NAO passou pela auditoria cientifica
+        nem pela revisao didatica do modulo 03, e nao esta coberta por nenhuma questao nem flashcard. As 10 alegacoes
+        SFE-/FDS-/DAN-/APA-/FLU- do rodape aguardam o auditor-cientifico.'
+    - id: gemologia-m03-a19
+      title: 'Gemas de colecionador, parte 2: cianita, diopsídio, escapolita, brazilianita e as demais'
+      file: 03-gemas-coradas/03-gemas-coradas-aula-19-gemas-de-colecionador-parte-2-cianita-diopsidio-escapolita-brazilianita-e-outras.md
+      covers_objectives:
+      - gemologia-m03-oa19
+      status: completed
+      content_hash: be55277a4c8ca4eb71db07d25e968bdb4c82272ac5a8a43b8bea7a0fa04558e3
+      palavras_corpo: 1577
+      added_at: '2026-08-28'
+      hash_recomputed_at: '2026-08-28'
+      hash_recompute_note: 'Unica mudanca: a secao "Proxima aula" passou a apontar para a nova aula 20 em vez de
+        encerrar o modulo. Nenhuma alegacao auditavel, fato ou secao de conteudo alterada; recompute seguro.'
+      pending:
+        auditoria_cientifica: true
+        revisao_didatica: true
+        questionario: true
+        flashcards: true
+      pending_note: 'Aula nova, par da aula 18. AINDA NAO passou pela auditoria cientifica nem pela revisao didatica,
+        e nao esta coberta por nenhuma questao nem flashcard. As 11 alegacoes CIA-/DIO-/SCP-/BRZ-/OUT- do rodape
+        aguardam o auditor-cientifico.'
+    - id: gemologia-m03-a20
+      title: 'Procedências, parte 1: o arco asiático'
+      file: 03-gemas-coradas/03-gemas-coradas-aula-20-procedencias-parte-1-o-arco-asiatico.md
+      covers_objectives:
+      - gemologia-m03-oa20
+      status: completed
+      content_hash: c5951282d970e6d5f7546b9bcbaa6439dba0d9579ef5287365adaadcfea71426
+      palavras_corpo: 1525
+      added_at: '2026-08-28'
+      pending:
+        auditoria_cientifica: true
+        revisao_didatica: true
+        questionario: true
+        flashcards: true
+      pending_note: 'Aula nova (lacuna aprovada da sistematica de procedencias mundiais). AINDA NAO passou pela auditoria
+        cientifica nem pela revisao didatica, e nao esta coberta por nenhuma questao nem flashcard. As 8 alegacoes
+        PRO-MMR-/PRO-LKA-/PRO-KSH-/PRO-AFG-/PRO-THA- do rodape aguardam o auditor-cientifico.'
+    - id: gemologia-m03-a21
+      title: 'Procedências, parte 2: África, Américas e Oceania'
+      file: 03-gemas-coradas/03-gemas-coradas-aula-21-procedencias-parte-2-africa-americas-e-oceania.md
+      covers_objectives:
+      - gemologia-m03-oa21
+      status: completed
+      content_hash: 27954490df2385b6a5f03c3e5dbb8d07c1fe797ce6de9c6910207c9bed2962c4
+      palavras_corpo: 1527
+      added_at: '2026-08-28'
+      pending:
+        auditoria_cientifica: true
+        revisao_didatica: true
+        questionario: true
+        flashcards: true
+      pending_note: 'Aula nova, par da aula 20; fecha com o metodo da determinacao de origem. AINDA NAO passou pela
+        auditoria cientifica nem pela revisao didatica, e nao esta coberta por nenhuma questao nem flashcard. As
+        8 alegacoes PRO-MOZ-/PRO-MDG-/PRO-TZA-/PRO-COL-/PRO-ZMB-/PRO-AUS-/PRO-MET- do rodape aguardam o auditor-cientifico.
+        As provincias brasileiras NAO sao reensinadas aqui: o detalhe fica na aula 21 do modulo 01, ligada por wikilink.'
+  audit:
+    files:
+    - 03-gemas-coradas/03-gemas-coradas-auditoria.md
+    - 03-gemas-coradas/03-gemas-coradas-auditoria.json
+    file: 03-gemas-coradas/03-gemas-coradas-auditoria.md
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 0
+    white: 2
+    open_findings: []
+    deferred_findings:
+    - CAL-VAR-003
+    - IOL-HIST-001
+    audited_at: '2026-08-25'
+    status: approved
+    rounds:
+    - round: 1
+      date: '2026-08-25'
+      scope: 'aulas 01-16'
+      findings: {red: 0, orange: 2, yellow: 0, blue: 1, white: 2}
+      claims: {total: 153, verified_ok: 150}
+    - round: 3
+      date: '2026-08-28'
+      scope: 'aulas 18-19 (gemas de colecionador)'
+      findings: {red: 0, orange: 2, yellow: 2, blue: 0, white: 0}
+      claims: {total: 21, verified_ok: 17}
+      corrected:
+      - {claim_id: OUT-FEN-001, severity: orange, note: 'direcao da tenebrescencia da hackmanita invertida'}
+      - {claim_id: APA-EST-001, severity: orange, note: 'birrefringencia da apatita alargada de 0,002-0,004 para 0,002-0,008 (GIA)'}
+      - {claim_id: OUT-FEN-001, severity: yellow, note: 'formula da taaffeita BeMgAl4O8 -> Mg3Al8BeO16; IMA magnesiotaaffeita-2N2S (2002)'}
+      - {claim_id: BRZ-EST-001, severity: yellow, note: 'citacao da descricao original: Pough & Henderson (1945), nao Frondel'}
+      status: approved
+    - round: 4
+      date: '2026-08-28'
+      scope: 'aulas 20-21 (procedencias)'
+      findings: {red: 0, orange: 0, yellow: 0, blue: 0, white: 0}
+      claims: {total: 16, verified_ok: 16}
+      note: '16 alegacoes PRO-* verificadas, 0 achado. Datas de deposito confirmadas (Montepuez maio/2009, Ilakaka
+        1998, Kashmir 1881-1888, tsavorita 1967/1970, Mahenge e Winza 2007); PRO-MET-001 (metodologia da determinacao
+        de origem) confirmada como calibragem correta contra LMHC e GIA.'
+      status: approved
+    unaudited_lessons: []
+    all_lessons_audited: true  # 2026-08-28: rodadas 1, 3 e 4 cobrem as 21 aulas
+    repartitioned_at: '2026-08-27'
+    repartition_note: 'Divisao da aula 13: as 12 alegacoes daquela aula foram particionadas por especie - ZIR-NOM-001,
+      ZIR-EST-001, ZIR-EST-002, ZIR-TRAT-001, TAN-ORIG-001, TAN-EST-001 e TAN-TRAT-001 para a aula 13; ESD-EST-001,
+      ESD-HIST-001, ESD-TRAT-001, IOL-EST-001 e IOL-HIST-001 para a nova aula 14. Nada foi reauditado, criado, alterado
+      ou descartado; o veredito e os totais seguem validos. Detalhe no bloco lesson_split de 03-gemas-coradas-auditoria.json.'
+  assessment:
+    files:
+    - 03-gemas-coradas/03-gemas-coradas-questionario-parcial-1.md
+    - 03-gemas-coradas/03-gemas-coradas-questionario-parcial-2.md
+    - 03-gemas-coradas/03-gemas-coradas-questionario-final.md
+    generated_at: '2026-08-25'
+    status: completed
+    objectives_covered:
+    - gemologia-m03-oa01
+    - gemologia-m03-oa02
+    - gemologia-m03-oa03
+    - gemologia-m03-oa04
+    - gemologia-m03-oa05
+    - gemologia-m03-oa06
+    - gemologia-m03-oa07
+    - gemologia-m03-oa08
+    - gemologia-m03-oa09
+    - gemologia-m03-oa10
+    - gemologia-m03-oa11
+    - gemologia-m03-oa12
+    - gemologia-m03-oa13
+    - gemologia-m03-oa17
+    - gemologia-m03-oa14
+    - gemologia-m03-oa15
+    - gemologia-m03-oa16
+    - gemologia-m03-oa18
+    - gemologia-m03-oa19
+    - gemologia-m03-oa20
+    - gemologia-m03-oa21
+    uncovered_objectives: []
+    q_new_note: 'oa18-oa21 cobertos em 2026-08-28 pelas questoes Q15-Q19 acrescentadas ao questionario final: Q15
+      (MC - esfeno pelos tres sinais) -> oa18; Q16 (criterio geral das gemas de colecionador) -> oa18+oa19; Q17
+      (rubi Mogok - fluorescencia, inclusoes, marmore nao e pais) -> oa20; Q18 (tres camadas + quatro limites da
+      determinacao de origem) -> oa21; Q19 (cromo-diopsidio x tsavorita) -> oa19+oa01. As aulas 18-21 nao tem parcial
+      proprio (inseridas ao fim do modulo depois dos parciais). Final agora 19 questoes / 66 pts.'
+    repartitioned_at: '2026-08-27'
+    repartition_note: 'Divisao da aula 13. Nenhum ID de questao foi reindexado e nenhuma questao foi reescrita:
+      a Q9 do parcial 2 (gemologia-m03-q25, zircao) continua no oa13 e a Q10 (gemologia-m03-q26, iolita) passou
+      ao oa17; no cumulativo, a Q5 (gemologia-m03-q49) passou ao oa17 porque o gabarito dela ja se apoiava nos pares
+      iolita x quartzo e iolita x tanzanita, e a Q6 (gemologia-m03-q50) continua no oa13, onde o zircao ficou.'
+  flashcards:
+    index_file: 03-gemas-coradas/03-gemas-coradas-flashcards.md
+    basic_file: 03-gemas-coradas/03-gemas-coradas-flashcards-basic.csv
+    cloze_file: 03-gemas-coradas/03-gemas-coradas-flashcards-cloze.csv
+    count_basic: 261
+    count_cloze: 72
+    last_id: 326
+    last_id_cloze: 88
+    generated_at: '2026-08-25'
+    status: completed
+    uncovered_lessons: []
+    v5_note: 'Baralho v5 (2026-08-28): cards das aulas novas 18-21. 52 Basic (fb275-fb326) e 12 Cloze (fc077-fc088)
+      - a18 14+3, a19 14+3, a20 12+3, a21 12+3. Gerados depois da auditoria (rodadas 3 e 4) e da revisao didatica
+      (rodada 2). Tags novas: gemologia::gemas-coradas::colecionador e ::procedencias. Nenhum card existente tocado.
+      Faixa de IDs do modulo: fb001-fb200 + fb266-fb326, fc001-fc058 + fc075-fc088.'
+    expanded_at: '2026-08-28'
+    expansion_note: 'Aula 14 ampliada de 5 para 16 cards: 9 Basic novos (fb266-fb274) e 2 Cloze novos (fc075-fc076),
+      cada um ancorado numa alegacao auditavel da aula (ESD-EST-001, ESD-HIST-001, ESD-TRAT-001, IOL-EST-001, IOL-HIST-001).
+      Emitidos a partir de fb266/fc075 para nao colidir com os IDs fb201-fb265 / fc059-fc074, que seguem aposentados
+      da divisao de 2026-08-26. Nenhum card existente foi tocado; nada a reindexar no Anki. Distribuicao a14 agora
+      13 Basic + 3 Cloze. Faixa de IDs do modulo deixa de ser contigua: fb001-fb200 + fb266-fb274, fc001-fc058 +
+      fc075-fc076.'
+    repartitioned_at: '2026-08-27'
+    repartition_note: 'Divisao da aula 13. NENHUM ID DE CARD MUDOU - a contagem e o last_id seguem iguais. Os cards
+      gemologia-m03-fb162-fb165 e fc049 (espodumenio e iolita) trocaram apenas os campos aula (a13 -> a14), objetivo
+      (oa13 -> oa17) e tags (::zircao-tanzanita -> ::espodumenio-iolita); os cards das antigas aulas 14, 15 e 16
+      passaram a apontar para as aulas 15, 16 e 17. Como o prefixo de modulo nao mudou e a numeracao ja era contigua
+      por aula, o historico de repeticao espacada no Anki fica preservado. Distribuicao resultante: a13 = 10 Basic
+      + 3 Cloze; a14 = 4 Basic + 1 Cloze (ampliada para 13 + 3 em 2026-08-28 - ver expansion_note).'
+  didactic_review:
+    status: completed
+    file: 03-gemas-coradas/03-gemas-coradas-revisao-didatica.md
+    content_hash: a91cd593f846358608b2c39829da1cb71f04da1d8a3d73c56672cb5995183036
+    generated_at: '2026-08-25'
+    updated_at: '2026-08-28'
+    unreviewed_lessons: []
+    rounds:
+    - round: 1
+      date: '2026-08-25'
+      scope: 'aulas 01-17'
+      verdict: 'bem ensinado com ressalvas'
+      findings: {red: 0, orange: 3, yellow: 4, blue: 3}
+    - round: 2
+      date: '2026-08-28'
+      scope: 'aulas 18-21 (gemas de colecionador; procedencias)'
+      verdict: 'bem ensinado com ressalvas'
+      findings: {red: 0, orange: 0, yellow: 2, blue: 3}
+      corrected:
+      - 'aula 19: "polimorfos" ganhou glosa na primeira ocorrencia'
+      - 'aula 21: pre-requisito do modulo 01 aula 20 (anfibolito, xisto, folhelho) adicionado ao "Antes de comecar"'
+      note: 'Questao e flashcard das aulas 18-21 ainda nao existem; alinhamento aula-avaliacao verificado so quanto ao que a futura questao tera de cobrir.'
+    update_note: 'Achado laranja 3 (a aula 13 carrega quatro especies) marcado como RESOLVIDO, com o desfecho da
+      divisao registrado no proprio achado. Tabela de cobertura de objetivos e passagens que citam numero de aula
+      atualizadas. Nenhum achado foi rerrevisado, criado ou descartado.'
+- id: '04'
+  slug: perolas
+  title: Pérolas e gemas orgânicas
+  area: IV. Materiais de origem biológica
+  prerequisites:
+  - '01'
+  - '03'
+  status: completed
+  learning_objectives:
+  - id: gemologia-m04-oa01
+    statement: Explicar a biologia da formação da pérola e do nácar e distinguir conceitualmente pérola natural
+      de pérola cultivada
+  # 2026-08-27: statement de oa02 ampliado para incluir a madrepérola, movida da aula 05 para a aula 02. Nenhum ID novo emitido.
+  - id: gemologia-m04-oa02
+    statement: Distinguir os tipos comerciais de pérola cultivada pelo molusco, pela água e pela técnica de nucleação,
+      avaliar a importância da espessura do nácar e caracterizar a madrepérola
+  - id: gemologia-m04-oa03
+    statement: Avaliar uma pérola pelos sete fatores de valor do GIA, aplicar os ensaios de identificação disponíveis
+      e reconhecer os tratamentos aplicados
+  - id: gemologia-m04-oa04
+    statement: Identificar âmbar, copal e azeviche, separá-los de suas imitações e reconhecer os tratamentos aplicados
+      a cada um
+  # 2026-08-28: statement de oa05 ampliado para incluir o casco de tartaruga, acrescentado como secao da aula 05. Nenhum ID novo emitido.
+  - id: gemologia-m04-oa05
+    statement: Identificar coral, marfim e casco de tartaruga, reconhecer suas imitações e tratamentos, e situar
+      as restrições legais aplicáveis
+  lessons:
+    planned: 5
+    completed: 5
+    items:
+    - id: gemologia-m04-a01
+      title: Pérolas, Parte 1 — biologia, nácar e a divisão natural × cultivada
+      file: 04-perolas/04-perolas-aula-01-perolas-parte-1-biologia-nacar-natural-e-cultivada.md
+      covers_objectives:
+      - gemologia-m04-oa01
+      status: completed
+      content_hash: ba219a2403ead508ff6348a91d08e4f397faf66040cda89b39208dc6564943fc
+    - id: gemologia-m04-a02
+      title: Pérolas, Parte 2 — os tipos comerciais e a nucleação
+      file: 04-perolas/04-perolas-aula-02-perolas-parte-2-tipos-e-nucleacao.md
+      covers_objectives:
+      - gemologia-m04-oa02
+      status: completed
+      content_hash: a95ee303108c4b1a172b093b69350a722ecfa422cc3e53c0a234aeea202b3f79
+      palavras_corpo: 1588
+      hash_recomputed_at: '2026-08-28'
+    - id: gemologia-m04-a03
+      title: Pérolas, Parte 3 — os sete fatores de valor, os ensaios e os tratamentos
+      file: 04-perolas/04-perolas-aula-03-perolas-parte-3-fatores-de-valor-ensaios-e-tratamentos.md
+      covers_objectives:
+      - gemologia-m04-oa03
+      status: completed
+      content_hash: 5d8ac3032b8023dd82a612802e8abd0b0d7190b7992cac15451af7102b35aaf3
+    - id: gemologia-m04-a04
+      title: Gemas orgânicas I — âmbar, copal e azeviche
+      file: 04-perolas/04-perolas-aula-04-gemas-organicas-1-ambar-copal-e-azeviche.md
+      covers_objectives:
+      - gemologia-m04-oa04
+      status: completed
+      content_hash: 5113a16db5c87d02416d6e51e575a1bc9ae2360449f41a697cb33dc492fa3b10
+    - id: gemologia-m04-a05
+      title: "Gemas orgânicas II: coral e marfim"
+      file: 04-perolas/04-perolas-aula-05-gemas-organicas-2-coral-e-marfim.md
+      covers_objectives:
+      - gemologia-m04-oa05
+      status: completed
+      content_hash: 73ec3c17852ac6a2c7bd96d830e7412a1d5229b14d85079c3a545d18f42e70c4
+      palavras_corpo: 1600
+      hash_recomputed_at: '2026-08-28'
+      hash_recompute_note: 'Secao "Casco de tartaruga" acrescentada e o corpo podado de redundancia para caber no
+        teto (1571 -> 1600 com a secao dentro). O arquivo e o titulo NAO mudaram: continuam "coral e marfim", pelo
+        mesmo criterio aceito quando a madreperola entrou na aula 02. Nenhum fato foi removido na poda.'
+      section_added:
+        secao: Casco de tartaruga
+        added_at: '2026-08-28'
+        claims: [TRT-EST-001, TRT-USO-001, TRT-IMI-001, TRT-CITES-001]
+        pending:
+          auditoria_cientifica: true
+          revisao_didatica: true
+          questionario: true
+          flashcards: true
+        note: 'Secao nova, nao a aula inteira: as 8 alegacoes COR-*/MAR-* preexistentes seguem auditadas e aprovadas
+          desde 2026-08-25. Apenas as 4 alegacoes TRT-* e a prosa nova estao pendentes de auditoria, revisao didatica,
+          questao e flashcard.'
+  audit:
+    files:
+    - 04-perolas/04-perolas-auditoria.md
+    - 04-perolas/04-perolas-auditoria.json
+    file: 04-perolas/04-perolas-auditoria.md
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 0
+    white: 3
+    open_findings: []
+    deferred_findings:
+    - PER-TRAT-004
+    - AMB-COP-001
+    - AMB-ORIG-002
+    audited_at: '2026-08-25'
+    status: approved
+    rounds:
+    - round: 1
+      date: '2026-08-25'
+      scope: '5 aulas'
+      findings: {red: 0, orange: 1, yellow: 0, blue: 0, white: 3}
+      claims: {total: 51, verified_ok: 50}
+      status: approved
+    - round: 2
+      date: '2026-08-28'
+      scope: 'secao "Casco de tartaruga" da aula 05'
+      findings: {red: 0, orange: 0, yellow: 0, blue: 0, white: 0}
+      claims: {total: 4, verified_ok: 4}
+      note: 'TRT-EST-001/USO-001/IMI-001/CITES-001 verificadas contra Webster, O''Donoghue, GIA e CITES. CITES Apendice
+        I para Eretmochelys imbricata confirmada em 04/02/1977. A ressalva de que a densidade NAO separa casco genuino
+        das imitacoes plasticas foi confirmada como correta. 0 achado.'
+      status: approved
+    unaudited_sections: []
+    all_content_audited: true  # 2026-08-28: rodada 2 fechou a secao casco de tartaruga
+  assessment:
+    files:
+    - 04-perolas/04-perolas-questionario-final.md
+    generated_at: '2026-08-25'
+    status: completed
+    objectives_covered:
+    - gemologia-m04-oa01
+    - gemologia-m04-oa02
+    - gemologia-m04-oa03
+    - gemologia-m04-oa04
+    - gemologia-m04-oa05
+    uncovered_objectives: []
+    q17_note: 'oa05 ampliado em 2026-08-28 para incluir casco de tartaruga; a parte casco de tartaruga foi coberta
+      pela questao Q17 (aplicacao - granulo x faixa a lupa, densidade nao separa, casco prensado, CITES 1977) acrescentada
+      ao Bloco A do questionario final. OA05 agora vale 12 pts (Q12 7 + Q17 5). Final agora 17 questoes / 60 pts.'
+  flashcards:
+    index_file: 04-perolas/04-perolas-flashcards.md
+    basic_file: 04-perolas/04-perolas-flashcards-basic.csv
+    cloze_file: 04-perolas/04-perolas-flashcards-cloze.csv
+    count_basic: 70
+    count_cloze: 17
+    last_id: 70
+    last_id_cloze: 17
+    generated_at: '2026-08-25'
+    status: completed
+    uncovered_sections: []
+    v2_note: 'Baralho v2 (2026-08-28): 5 Basic (fb066-fb070) e 1 Cloze (fc017) da secao casco de tartaruga da aula
+      05, tag gemologia::perolas::casco-de-tartaruga. Gerados depois da auditoria (rodada 2, 0 achado). Nenhum card
+      existente tocado. Distribuicao a05 agora 17 Basic + 4 Cloze.'
+  didactic_review:
+    status: completed
+    file: 04-perolas/04-perolas-revisao-didatica.md
+    content_hash: d32e823b8696ad86165e4bf8f160fd92fcb0288b362afe491822ffd2c1d5d7e3
+    generated_at: '2026-08-25'
+    outcomes_updated_at: '2026-08-28'
+    unreviewed_sections: []
+    rounds:
+    - round: 1
+      date: '2026-08-25'
+      scope: '5 aulas'
+      verdict: 'bem ensinado com ressalvas'
+    - round: 2
+      date: '2026-08-28'
+      scope: 'secao "Casco de tartaruga" da aula 05'
+      verdict: 'bem ensinado'
+      findings: {red: 0, orange: 0, yellow: 0, blue: 1}
+      note: 'Secao bem integrada; unico 🔵 e a linha de IR da tabela nao usada no texto (formato padrao do modulo, manter). oa05 com cobertura parcial de questao - a parte casco de tartaruga fica para o gerador-de-questionarios.'
+resolved_blocking_issues:
+- module: '03'
+  severity: orange
+  reason: 'Revisao didatica, achado 3: a aula 13 carrega quatro especies independentes (zircao, tanzanita, espodumenio,
+    iolita) e deveria ser dividida em duas partes. Exige decisao de curriculo do gerador-de-curso-modular.'
+  resolved_at: '2026-08-27'
+  resolution: 'Aula 13 dividida em parte 1 (zircao e tanzanita, oa13) e parte 2 (espodumenio e iolita, oa17 novo),
+    exatamente como a correcao sugerida indicava, com o enquadramento das quatro fragilidades preservado - aberto
+    na parte 1 e fechado na parte 2. Aulas 14, 15 e 16 renumeradas 15, 16 e 17. Nenhum texto de especie reescrito;
+    nenhum ID de card ou de questao reindexado. Ver a decisao de 2026-08-27 em decisions.'
+- module: '04'
+  severity: orange
+  reason: 'Revisao didatica, achado 1: as aulas 04 e 05 de gemas organicas estouravam o teto de ~1600 palavras (1924
+    e 1929), com agravante de posicao (chegavam depois de 19 aulas minerais).'
+  resolved_at: '2026-08-28'
+  resolution: 'Tres partes, todas fechadas. POSICAO: resolvida pela divisao do modulo em 2026-08-26 (viraram a 4a
+    e a 5a aula de um modulo curto). AULA 05: a secao Madreperola migrou para a aula 02 em 2026-08-27; a aula 05
+    ("coral e marfim") mede 1548-1569. AULA 04: comprimida em duas rodadas - 2026-08-27 (1924->1731) e 2026-08-28
+    (poda do recap, do exemplo trabalhado e da secao "o que nao concluir"). Corpo total ~1620 por causa de seis
+    tabelas de identificacao nao comprimiveis sem perder criterio diagnostico; prosa fora de tabela ~1230. A tabela
+    de imitacoes do azeviche foi MANTIDA (e o criterio azeviche x vidro preto x vulcanite, nao redundante com o recap).'
+- module: '04'
+  severity: yellow
+  reason: 'Revisao didatica, achado 2: o campo palavras_corpo declarava "~1600" sem medir nas aulas 01, 03 e 04.'
+  resolved_at: '2026-08-28'
+  resolution: 'Os cinco campos passaram a declarar valor medido (a01 1590, a02 1588, a03 1538, a04 1620 com comentario
+    sobre a fracao tabular, a05 1569). A ressalva de divergencia de metodo caiu: os dois contadores concordam dentro
+    de 0,5%.'
+blocking_issues: []

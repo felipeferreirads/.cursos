@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "20-metodos-campo-mapeamento/",
+    "module_id": "20",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-29T00:00:00-03:00",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 2,
+    "yellow": 1,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 27
+  },
+  "findings": [
+    {
+      "claim_id": "GEO-M20-F01",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "A regra dos V, resumida, afirma que o V do contato aponta sempre na direcao do mergulho aparente da camada, e que os casos inclinados sempre produzem V apontando rio acima.",
+      "location": {
+        "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-03-mapa-geologico-regra-dos-v.md",
+        "section": "A regra dos V: como o relevo distorce a forma de um contato",
+        "quote": "quando a camada mergulha rio acima, o V aponta rio acima com destaque; quando mergulha rio abaixo mais devagar que o vale, o V ainda aponta rio acima, so que de forma mais sutil"
+      },
+      "problem": "Faltava o quarto caso da regra: mergulho a favor do sentido do vale e mais ingreme que a inclinacao do proprio vale, em que o V inverte de sentido e aponta rio abaixo. O resumo original generalizava incorretamente para todos os casos inclinados.",
+      "replacement": "Secao reescrita com os quatro casos (horizontal; contra o vale; a favor do vale mais suave; a favor do vale mais ingreme, V inverte para rio abaixo), e resumo mnemonico substituido por explicacao que condiciona o sentido do V a comparacao entre mergulho da camada e inclinacao do vale.",
+      "source": {
+        "name": "SERC Carleton, Visible Geology teaching materials, Rule of V's; Geological Digressions, The Rule of Vs in geological mapping",
+        "url": "https://serc.carleton.edu/visiblegeology/teaching_materials/310972.html",
+        "tier": "reference_database",
+        "version": "consultado 2026-08-18",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-03-mapa-geologico-regra-dos-v.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-18T00:00:00-03:00"
+    },
+    {
+      "claim_id": "TOP-M20A07-NBR13133-002",
+      "severity": "yellow",
+      "kind": "desatualizacao",
+      "claim": "A NBR 13133 classifica poligonais planimetricas em classes conforme o rigor exigido, associando a cada classe uma precisao relativa minima, por exemplo 1:12.000.",
+      "location": {
+        "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-07-teoria-dos-erros-topografia-nbr13133.md",
+        "section": "O que a NBR 13133 exige; e a linha de Fontes",
+        "quote": "A norma classifica poligonais planimetricas em classes conforme o rigor exigido, associando a cada classe uma precisao relativa minima"
+      },
+      "problem": "O valor 1:12.000 esta correto e o conceito de precisao relativa esta bem explicado; o que esta desatualizado e a moldura normativa. A edicao de 1994 organizava as poligonais planimetricas em classes (IP, IIP, IIIP, IVP), cada uma com sua propria precisao relativa. A edicao vigente, ABNT NBR 13133:2021, simplificou as classes e tolerancias das poligonais planimetricas (inclusive com GNSS) e adota 1:12.000 como precisao relativa minima de referencia geral, com tolerancia diferente admitida em casos especiais por acordo entre contratante e contratado. Alem disso a aula cita 'edicao vigente' sem nomea-la, e numa alegacao normativa a edicao e parte do fato. Esta auditoria resolve a duvida que a propria aula registrara no bloco alegacoes_auditaveis: a edicao e a de 2021 e o valor esta confirmado nela.",
+      "replacement": "A ABNT NBR 13133:2021 e a edicao vigente da norma brasileira que rege a execucao de levantamentos topograficos. Ela define os criterios de aceitacao de um levantamento e, para as poligonais planimetricas, simplificou o esquema de classes das edicoes anteriores: adota como valor de referencia uma precisao relativa minima de 1:12.000 (o erro linear de fechamento nao deve superar 1 parte em 12.000 do perimetro percorrido), admitindo tolerancia diferente, em casos especiais, mediante acordo entre contratante e contratado. A precisao relativa soma-se uma tolerancia angular que cresce com a raiz do numero de estacoes da poligonal.",
+      "source": {
+        "name": "ABNT NBR 13133:2021, Execucao de levantamento topografico; e Atualizacao da NBR 13133 e seus impactos, COBRAC/UFSC",
+        "url": "https://arquivos.ufrrj.br/arquivos/20230102302b983573184b44fe6044133/ABNT_NBR_13133_2021-1-1.pdf",
+        "tier": "normative",
+        "version": "ABNT NBR 13133:2021",
+        "consulted_at": "2026-08-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-07-teoria-dos-erros-topografia-nbr13133.md",
+        "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-questionario-final.md",
+        "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-flashcards-basic.csv",
+        "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-flashcards.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-29T00:00:00-03:00"
+    },
+    {
+      "claim_id": "TOP-M20A10-UTMFUSO-003",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "A formula pratica para obter o numero do fuso UTM em longitude oeste e: fuso = 31 - (parte inteira de longitude/6, com ajuste de sinal).",
+      "location": {
+        "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-10-sirgas2000-utm-gnss-geodesico.md",
+        "section": "Exemplo trabalhado",
+        "quote": "a formula pratica para longitude oeste e: numero do fuso = 31 - (parte inteira de longitude/6, com ajuste de sinal)"
+      },
+      "problem": "A formula, aplicada como escrita, devolve o fuso errado, inclusive no proprio exemplo em que aparece. Para Salvador a 38 graus 30' W: parte inteira de 38,5/6 = 6; 31 - 6 = 25, mas o fuso correto e 24, como a frase seguinte da propria aula conclui. O erro e sistematico: com piso, a formula erra em uma unidade sempre que |longitude|/6 nao for inteiro exato (Sao Paulo, 46,6 W: 31 - 7 = 24, quando o correto e 23). O que funciona e o teto: 31 - teto(|lambda|/6). A expressao 'com ajuste de sinal' indica que o autor sabia que a formula estava incompleta, mas ela e publicada como utilizavel.",
+      "replacement": "a formula geral, valida nos dois hemisferios, e: numero do fuso = piso((longitude + 180)/6) + 1, com a longitude negativa a oeste - para 38 graus 30' W: piso((-38,5 + 180)/6) + 1 = piso(23,58) + 1 = 24. Na pratica de campo, e mais simples lembrar que o fuso 24S cobre de 42 W a 36 W, faixa que contem 38 graus 30' W.",
+      "source": {
+        "name": "EPSG:32724 WGS 84 / UTM zone 24S (limites 42W-36W, meridiano central 39W, fator de escala 0,9996); Universal Transverse Mercator coordinate system",
+        "url": "https://epsg.io/32724",
+        "tier": "reference_database",
+        "version": "registro EPSG consultado em 2026-08-29",
+        "consulted_at": "2026-08-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-10-sirgas2000-utm-gnss-geodesico.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-29T00:00:00-03:00"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "GEO-M20-A01-CADERNETA-001",
+      "claim": "A caderneta de campo e o documento primario do trabalho geologico.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-01-observacao-registro-amostragem.md",
+      "source": "pratica padrao (Compton; USGS field methods)",
+      "confidence": "provavel"
+    },
+    {
+      "claim_id": "GEO-M20-A01-AMOSTRA-ORIENTADA-002",
+      "claim": "A amostra orientada e marcada antes de ser destacada da rocha.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-01-observacao-registro-amostragem.md",
+      "source": "pratica padrao de geologia estrutural/paleomagnetismo",
+      "confidence": "provavel"
+    },
+    {
+      "claim_id": "GEO-M20-A02-DIRECAO-MERGULHO-001",
+      "claim": "Direcao e a intersecao horizontal do plano inclinado com o plano horizontal; mergulho e o angulo perpendicular a direcao, de 0 a 90 graus.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-02-bussola-de-geologo-atitudes.md",
+      "source": "definicao padrao (Marshak & Fossen; Compton)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M20-A02-BUSSOLA-002",
+      "claim": "A bussola de geologo combina bussola magnetica e clinometro.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-02-bussola-de-geologo-atitudes.md",
+      "source": "pratica padrao de campo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M20-A02-DECLINACAO-003",
+      "claim": "A declinacao magnetica varia com local e tempo, exigindo correcao periodica.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-02-bussola-de-geologo-atitudes.md",
+      "source": "NOAA/modelos de campo magnetico; pratica padrao",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M20-A03-CONTATO-TRACO-001",
+      "claim": "Contato observado (linha cheia), inferido (tracejada) e coberto (pontilhada).",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-03-mapa-geologico-regra-dos-v.md",
+      "source": "convencao FGDC/USGS de simbolizacao cartografica geologica",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M20-A04-EXAGERO-VERTICAL-001",
+      "claim": "A escala vertical exagerada e comum em secoes e distorce angulos aparentes.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-04-secao-geologica.md",
+      "source": "pratica padrao (Compton; Groshong, 3-D Structural Geology)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M20-A04-SECAO-BALANCEADA-002",
+      "claim": "A secao balanceada testa a plausibilidade geometrica ao desdobrar a estrutura.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-04-secao-geologica.md",
+      "source": "geologia estrutural classica (Dahlstrom; Groshong)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M20-A05-ESPESSURA-REAL-001",
+      "claim": "Espessura aparente e maior ou igual a espessura real; a igualdade so ocorre quando a camada e horizontal ou a medida e perpendicular.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-05-coluna-estratigrafica.md",
+      "source": "geometria estrutural padrao (decorre do cosseno do angulo de mergulho)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M20-A05-BASTAO-JACOB-002",
+      "claim": "O bastao de Jacob e um instrumento graduado com clinometro usado para medir espessura real em campo.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-05-coluna-estratigrafica.md",
+      "source": "Kummel 1943 (AAPG Bulletin); literatura de geologia de campo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M20-A05-SECAO-TIPO-003",
+      "claim": "A secao-tipo e a referencia formal para descrever e correlacionar uma unidade estratigrafica.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-05-coluna-estratigrafica.md",
+      "source": "North American Stratigraphic Code; International Stratigraphic Guide (ICS)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M20-A06-ASSINATURA-ESPECTRAL-001",
+      "claim": "Materiais tem assinaturas espectrais distintas, o que permite mapear alteracao hidrotermal por sensoriamento remoto.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-06-sensoriamento-remoto-gps-sig.md",
+      "source": "USGS; pratica padrao de exploracao mineral",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M20-A06-GPS-PRECISAO-002",
+      "claim": "GPS de uso geral tem precisao da ordem de metros; DGPS/RTK/geodesico, da ordem de centimetros.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-06-sensoriamento-remoto-gps-sig.md",
+      "source": "multiplas fontes tecnicas convergentes (TerraFlow, Mapscaping, RTK GPS Survey)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TOP-M20A07-ERROS3TIPOS-004",
+      "claim": "Os erros de medicao topografica classificam-se em grosseiro (detectavel e eliminavel), sistematico (causa conhecida, sentido unico, corrigivel) e acidental (residual, tratado estatisticamente).",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-07-teoria-dos-erros-topografia-nbr13133.md",
+      "source": "teoria classica de erros em topografia",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TOP-M20A07-PRECACUR-005",
+      "claim": "Precisao (concordancia entre medidas repetidas) nao e o mesmo que acuracia (proximidade do valor verdadeiro); e possivel ter uma sem a outra.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-07-teoria-dos-erros-topografia-nbr13133.md",
+      "source": "metrologia padrao (VIM/ISO)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TOP-M20A07-TOLANGULAR-006",
+      "claim": "A tolerancia angular da NBR 13133 cresce com o numero de vertices da poligonal, expressa como Ta = 3 x p x raiz(n) + 10 segundos.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-07-teoria-dos-erros-topografia-nbr13133.md",
+      "source": "ABNT NBR 13133:2021; COBRAC/UFSC, Atualizacao da NBR 13133",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TOP-M20A07-ESTACAOTOTAL-007",
+      "claim": "A estacao total combina teodolito eletronico (angulos horizontal e vertical) e distanciometro eletronico (distancias) no mesmo corpo.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-07-teoria-dos-erros-topografia-nbr13133.md",
+      "source": "literatura tecnica de topografia",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TOP-M20A08-AZIMUTERUMO-008",
+      "claim": "Conversao rumo para azimute por quadrante: NE azimute = rumo; SE azimute = 180 - rumo; SW azimute = 180 + rumo; NW azimute = 360 - rumo.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-08-planimetria-azimutes-poligonais.md",
+      "source": "trigonometria padrao de topografia plana",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TOP-M20A08-PROJECOES-009",
+      "claim": "A projecao norte-sul de um lado e a distancia vezes o cosseno do azimute; a projecao leste-oeste, a distancia vezes o seno do azimute.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-08-planimetria-azimutes-poligonais.md",
+      "source": "topografia plana padrao",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TOP-M20A08-BOWDITCH-010",
+      "claim": "A regra de Bowditch (compass rule) distribui o erro de fechamento entre os lados da poligonal proporcionalmente ao comprimento de cada um.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-08-planimetria-azimutes-poligonais.md",
+      "source": "Compass (Bowditch) rule, pratica topografica padrao; https://calculator.academy/compass-rule-adjustment-calculator/",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TOP-M20A08-EXEMPLONUM-011",
+      "claim": "No exemplo, as projecoes dos lados de azimute 60, 170 e 290 graus somam erro de fechamento de aproximadamente 43,9 m em perimetro de 400 m, ou precisao relativa de cerca de 1:9.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-08-planimetria-azimutes-poligonais.md",
+      "source": "recalculo dos senos e cossenos dos azimutes fornecidos",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TOP-M20A09-NIVELPRECISAO-012",
+      "claim": "A precisao dos metodos de nivelamento e decrescente na ordem geometrico (ordem milimetrica), trigonometrico (centimetrica) e barometrico (metrica).",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-09-nivelamento-curvas-de-nivel-areas-volumes.md",
+      "source": "literatura tecnica de topografia (CPE Tecnologia; dissertacao USP sobre nivelamento geometrico e trigonometrico)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TOP-M20A09-GAUSSAREA-013",
+      "claim": "A formula de Gauss (shoelace) aplicada a A(0,0), B(120,0), C(60,80) da 4.800 m2, coerente com metade da base vezes a altura.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-09-nivelamento-curvas-de-nivel-areas-volumes.md",
+      "source": "recalculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TOP-M20A09-AREASMEDIAS-014",
+      "claim": "Volume pelo metodo das areas medias: media de 15 e 25 m2 vezes 20 m de distancia = 400 m3.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-09-nivelamento-curvas-de-nivel-areas-volumes.md",
+      "source": "recalculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TOP-M20A10-SIRGAS2000-015",
+      "claim": "SIRGAS2000 e o datum oficial do Brasil desde fevereiro de 2005 (Resolucao PR 01/2005 do IBGE), baseado no elipsoide GRS80, com epoca de referencia 2000,4.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-10-sirgas2000-utm-gnss-geodesico.md",
+      "source": "IBGE, RPR 01/25fev2005 (https://geoftp.ibge.gov.br/metodos_e_outros_documentos_de_referencia/normas/rpr_01_25fev2005.pdf); IBGE, Projeto Mudanca do Referencial Geodesico",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TOP-M20A10-UTMPARAMS-016",
+      "claim": "A projecao UTM divide a Terra em 60 fusos de 6 graus de longitude, com fator de escala 0,9996 no meridiano central; o fuso 24S cobre de 42W a 36W, meridiano central 39W.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-10-sirgas2000-utm-gnss-geodesico.md",
+      "source": "EPSG:32724 (https://epsg.io/32724); Universal Transverse Mercator coordinate system",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TOP-M20A10-GNSSPRECISAO-017",
+      "claim": "Posicionamento absoluto GNSS tem precisao da ordem de metros; relativo/diferencial, de centimetros a decimetros; RTK, centimetrica em tempo real.",
+      "file": "20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-aula-10-sirgas2000-utm-gnss-geodesico.md",
+      "source": "consenso de literatura tecnica de geodesia/GNSS",
+      "confidence": "confirmado"
+    }
+  ]
+}

@@ -1,0 +1,1008 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "02-diamantes/",
+    "module_id": "02",
+    "course_id": "gemologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-28T00:00:00-03:00",
+  "verdict": "approved_with_reservations",
+  "summary": {
+    "red": 0,
+    "orange": 8,
+    "yellow": 0,
+    "blue": 2,
+    "white": 3,
+    "verified_ok": 95
+  },
+  "findings": [
+    {
+      "claim_id": "DIA-EST-004",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "O diamante oxida ao ar por volta de 690-875 C e grafitiza sem oxigenio acima de cerca de 1500 C.",
+      "location": {
+        "file": "02-diamantes/02-diamantes-aula-01-o-diamante-como-mineral.md",
+        "section": "Estabilidade: por que a grafite nao come o seu anel",
+        "quote": "Ao ar livre, o diamante comeca a queimar (oxidar para CO2) por volta de 690 a 875 C. Sem oxigenio, ele grafitiza acima de aproximadamente 1.500 C."
+      },
+      "problem": "O limite inferior de oxidacao ao ar e mais baixo do que o texto indicava (estabilidade abaixo de cerca de 600 C, oxidacao significativa a partir de cerca de 670 C, conversao a grafite ao ar em torno de 730 C), o que subestimava o risco em bancada de joalheria. O valor de grafitizacao sem oxigenio era dado como limiar unico, quando a literatura da uma faixa a partir de cerca de 1300 C em vacuo. A formulacao tambem violava LC-05 ao dar 875 C.",
+      "replacement": "Ao ar livre, o diamante comeca a oxidar (queimar, formando CO2) a partir de cerca de 600 a 700 C - o oxigenio acelera muito a destruicao. Sem oxigenio, ele grafitiza apenas acima de cerca de 1.300 a 1.500 C.",
+      "source": {
+        "name": "Glass Physics and Chemistry (2024), High Temperature Graphitization of Diamond during Heat Treatment in Air and in a Vacuum; Functional Diamond (2025), Graphitization of diamond; GIA, Gem care and cleaning",
+        "url": "https://link.springer.com/article/10.1134/S1087659624600315",
+        "tier": "peer_reviewed",
+        "version": "consultado em 2026-08-25",
+        "consulted_at": "2026-08-25"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "02-diamantes/02-diamantes-aula-01-o-diamante-como-mineral.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-25"
+    },
+    {
+      "claim_id": "DIA-COR-002",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Faixas da escala D-Z: D-F incolor; G-J quase incolor; K-M levemente colorido; N-R muito levemente colorido; S-Z levemente colorido.",
+      "location": {
+        "file": "02-diamantes/02-diamantes-aula-05-cor-d-z.md",
+        "section": "As cinco faixas; Recap relampago",
+        "quote": "Levemente colorido | K L M ... Muito levemente colorido | N O P Q R ... Levemente colorido (forte) | S a Z"
+      },
+      "problem": "Os nomes oficiais no laudo do GIA sao Faint, Very Light e Light, nessa ordem, formando uma sequencia de cor CRESCENTE: Light (S-Z) tem mais cor que Very Light (N-R), que tem mais que Faint (K-M). A traducao adotada invertia a leitura em portugues: muito levemente colorido (N-R) soa como MENOS cor que levemente colorido (K-M), quando na escala real tem MAIS. A tabela contradizia a progressao alfabetica ensinada na mesma aula e contradizia a aula 09, que ja descrevia corretamente a ordem Faint > Very Light > Light na escala fancy. Achado com maior potencial de dano do modulo: a escala de cor e o conteudo mais cobrado em avaliacao.",
+      "replacement": "Tabela com o nome oficial do laudo mais glosa que nao inverte o sentido (Colorless / Near Colorless / Faint - traco de cor / Very Light - cor fraca / Light - cor leve), mais callout de alerta explicando que a sequencia em ingles e contraintuitiva, ancorando a memoria na ordem alfabetica das letras e apontando a continuidade com os tres primeiros graus da escala fancy da aula 09. Recap ajustado na mesma direcao.",
+      "source": {
+        "name": "GIA, Diamond Color Chart: The Official GIA Color Scale; GIA, Color Grading D-to-Z Diamonds at the GIA Laboratory; GIA, Fancy Color Diamond Quality Factors",
+        "url": "https://4cs.gia.edu/en-us/blog/diamond-color-chart-official-gia-color-scale/",
+        "tier": "normative",
+        "version": "consultado em 2026-08-25",
+        "consulted_at": "2026-08-25"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "02-diamantes/02-diamantes-aula-05-cor-d-z.md"
+      ],
+      "cross_lesson_check": [
+        "02-diamantes/02-diamantes-aula-09-cor-fancy.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-25"
+    },
+    {
+      "claim_id": "DIA-PESO-005",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Diametro aproximado de brilhante redondo bem proporcionado de 0,50 ct: ~5,2 mm.",
+      "location": {
+        "file": "02-diamantes/02-diamantes-aula-08-peso-tamanhos-magicos-e-preco.md",
+        "section": "Peso nao e tamanho aparente",
+        "quote": "| 0,50 ct | ~5,2 mm |"
+      },
+      "problem": "As tabelas de referencia situam o meio-quilate em torno de 5,1 mm. O desvio e pequeno, mas a tabela e base do raciocinio de spread do exemplo trabalhado. Os demais valores (0,25 ~4,1; 0,75 ~5,8; 1,00 ~6,4; 1,50 ~7,4; 2,00 ~8,1 mm) foram verificados e estao corretos.",
+      "replacement": "| 0,50 ct | ~5,1 mm |",
+      "source": {
+        "name": "Tabelas de referencia peso/diametro para brilhante redondo padrao; GIA, Estimating a Cut Grade (booklet)",
+        "url": "https://cms.gia.edu/fallback/dam/jcr:eb4f573d-f7a2-4750-a352-94fee1c12275/Estimating-a-cut-grade-booklet.pdf",
+        "tier": "reference_base",
+        "version": "consultado em 2026-08-25",
+        "consulted_at": "2026-08-25"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "02-diamantes/02-diamantes-aula-08-peso-tamanhos-magicos-e-preco.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-25"
+    },
+    {
+      "claim_id": "DIA-PESO-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "A padronizacao internacional do quilate metrico ocorreu no inicio do seculo XX.",
+      "location": {
+        "file": "02-diamantes/02-diamantes-aula-08-peso-tamanhos-magicos-e-preco.md",
+        "section": "A unidade",
+        "quote": "essa definicao e resultado de um acordo internacional firmado no comeco do seculo XX"
+      },
+      "problem": "A afirmacao e verdadeira mas grosseira demais para um fato normativo datavel: o quilate metrico de exatamente 200 mg foi formalizado em 1907, na Conferencia Geral de Pesos e Medidas. LC-05 pede ordem de grandeza para medidas fisicas continuas, nao para datas de decisoes normativas, que tem valor unico.",
+      "replacement": "O quilate metrico vale exatamente 0,2 grama (200 mg), e essa definicao foi firmada por acordo internacional em 1907, na Conferencia Geral de Pesos e Medidas.",
+      "source": {
+        "name": "4a Conferencia Geral de Pesos e Medidas (1907) / CIPM; GIA, 4Cs Carat Weight; CIBJO Diamond Blue Book",
+        "url": "https://www.gia.edu/gia-about/4cs-carat-weight",
+        "tier": "normative",
+        "version": "consultado em 2026-08-25",
+        "consulted_at": "2026-08-25"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "02-diamantes/02-diamantes-aula-08-peso-tamanhos-magicos-e-preco.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-25"
+    },
+    {
+      "claim_id": "DIA-CUT-008",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Cerca de 90% dos diamantes do mundo, contados por peca, sao lapidados em Surat, e a India responde por 75% a 80% do valor do polido exportado.",
+      "location": {
+        "file": "02-diamantes/02-diamantes-aula-16-lapidacao-do-bruto-ao-polido.md",
+        "section": "7. Onde o mundo lapida",
+        "quote": "Cerca de 90% dos diamantes do mundo, contados por peca, sao lapidados ali, e a India responde por 75% a 80% do valor do polido exportado."
+      },
+      "problem": "Dois desvios. (i) A fatia por VALOR esta fora da faixa publicada: a GJEPC, associacao exportadora indiana e fonte primaria do dado, declara mais de 65% em valor, 85% em peso (quilates) e 92% em numero de pecas. O intervalo 75-80% nao corresponde a nenhuma dessas tres contagens e superestima a fatia do dinheiro. (ii) O sujeito estava errado: os cerca de 90% por peca sao da INDIA, nao da cidade de Surat isoladamente - Surat e o polo de lapidacao do pais, mas a estatistica e nacional. O erro importa didaticamente porque a distancia entre 92% (pecas) e 65% (valor) e exatamente o que a secao quer ensinar: a India lapida quase todas as pedras do mundo e fica com bem menos que isso do dinheiro, porque as pedras sao pequenas. Com 75-80%, essa licao desaparece.",
+      "replacement": "Tabela com as tres contagens da GJEPC (por peca ~92%, por peso ~85%, por valor mais de 65%) atribuidas a India, com Surat identificado como o polo, e um paragrafo explicando que a distancia entre as contagens e o tamanho medio das pedras.",
+      "source": {
+        "name": "GJEPC (Gem & Jewellery Export Promotion Council of India), India Centre: 'India today manufactures over 65 per cent of the world's polished diamonds in terms of value, 85 per cent in terms of volume and 92 per cent in terms of number of pieces'; corroborado por IBEF e Invest India (~90% do processamento mundial)",
+        "url": "https://gjepc.org/india-center.php",
+        "tier": "normative",
+        "version": "consultado em 2026-08-28",
+        "consulted_at": "2026-08-28"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "02-diamantes/02-diamantes-aula-16-lapidacao-do-bruto-ao-polido.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-28"
+    },
+    {
+      "claim_id": "DIA-CUT-007",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "O rendimento favoravel de um octaedro serrado e lapidado fica na faixa de 40% a 55%.",
+      "location": {
+        "file": "02-diamantes/02-diamantes-aula-16-lapidacao-do-bruto-ao-polido.md",
+        "section": "6. O custo do processo: rendimento",
+        "quote": "Do bruto a pedra pronta, perde-se mais da metade do peso - o rendimento favoravel de um octaedro serrado e lapidado fica na faixa de 40% a 55%"
+      },
+      "problem": "Tres contradicoes de uma vez. (i) Contra a aula 08 do MESMO modulo, ja auditada em 2026-08-25, que fixa 40% a 50% - valor tambem gravado no flashcard fb096. (ii) Contra a propria aula 16: a secao 'Antes de comecar' declara 40% a 50% ao citar a aula 08, e o corpo dizia 55%. (iii) Contra a logica da mesma frase: 'perde-se mais da metade do peso' e incompativel com um rendimento de 55%, que e perder menos da metade. Nao ha fonte que sustente o 55% contra o conjunto ja auditado, e a correcao segura e alinhar a aula nova ao valor consolidado, e nao o contrario.",
+      "replacement": "perde-se em geral mais da metade do peso - o rendimento favoravel de um octaedro serrado e lapidado fica na faixa de 40% a 50%, o mesmo numero da Aula 08",
+      "source": {
+        "name": "GIA, Gems & Gemology - estudos de rendimento de lapidacao; Cape Town Diamond Museum (perda de 50 a 60%); consistencia interna com a aula 08 do modulo 02, auditada em 2026-08-25",
+        "url": "https://www.capetowndiamondmuseum.org/about-diamonds/diamond-cutting-and-polishing/",
+        "tier": "peer_reviewed",
+        "version": "consultado em 2026-08-28",
+        "consulted_at": "2026-08-28"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "02-diamantes/02-diamantes-aula-16-lapidacao-do-bruto-ao-polido.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-28"
+    },
+    {
+      "claim_id": "DIA-CUT-006",
+      "severity": "orange",
+      "kind": "certeza_indevida",
+      "claim": "A combinacao de angulos das 57 facetas foi estabelecida por Marcel Tolkowsky em 1919; as 57 facetas do brilhante sao um projeto optico fechado desde 1919.",
+      "location": {
+        "file": "02-diamantes/02-diamantes-aula-16-lapidacao-do-bruto-ao-polido.md",
+        "section": "5. Por que 57 facetas / Erros comuns",
+        "quote": "a combinacao de angulos foi estabelecida por Marcel Tolkowsky em 1919 ... As 57 facetas do brilhante sao um projeto optico fechado desde 1919"
+      },
+      "problem": "Dois excessos. (i) O ARRANJO de 57-58 facetas e anterior a Tolkowsky: ja existia no old European cut, antecessor direto do brilhante moderno, cortado ao longo do seculo XIX. Tolkowsky nao estabeleceu a combinacao de facetas; ele calculou, por tracado de raios num modelo bidimensional, as PROPORCOES e os angulos de um arranjo que ja existia. Atribuir-lhe o arranjo ensina uma historia falsa da lapidacao. (ii) 'Projeto optico fechado desde 1919' e certeza indevida e contradiz a aula 07 do proprio modulo: a pesquisa do GIA que originou o grau de lapidacao (Moses et al., G&G Fall 2004) mostrou que nao existe um unico jogo de proporcoes ideal, e que muitas combinacoes recebem Excellent - razao pela qual o sistema oficial e uma tabela de combinacoes, como a aula 07 ja ensinava (DIA-LAP-004). A contagem 57/58 esta correta e foi mantida; confere com a aula 12 do modulo 01 e com GEM-CUT-002.",
+      "replacement": "Separacao explicita entre a contagem de facetas (anterior a 1919, do old European cut) e o que Tolkowsky calculou em Diamond Design (as proporcoes e os angulos), mais um paragrafo registrando que nao existe um unico jogo de proporcoes ideal, com remissao a tabela de combinacoes da Aula 07.",
+      "source": {
+        "name": "Moses, T. M. et al., A Foundation for Grading the Overall Cut Quality of Round Brilliant Cut Diamonds, Gems & Gemology, Fall 2004; Tolkowsky, Diamond Design (1919); Cape Town Diamond Museum, History of Marcel Tolkowsky",
+        "url": "https://www.gia.edu/gems-gemology/fall-2004-grading-cut-quality-brilliant-diamond-moses",
+        "tier": "peer_reviewed",
+        "version": "consultado em 2026-08-28",
+        "consulted_at": "2026-08-28"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "02-diamantes/02-diamantes-aula-16-lapidacao-do-bruto-ao-polido.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-28"
+    },
+    {
+      "claim_id": "DIA-CUT-005",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "claim": "So o proprio diamante consegue corta-lo; cada operacao da fabricacao e diamante gastando diamante.",
+      "location": {
+        "file": "02-diamantes/02-diamantes-aula-16-lapidacao-do-bruto-ao-polido.md",
+        "section": "Conteudo (abertura) / Erros comuns",
+        "quote": "o diamante e a substancia mais dura que existe, e so o proprio diamante consegue corta-lo. Cada operacao abaixo e diamante gastando diamante."
+      },
+      "problem": "A afirmacao categorica e refutada pela propria aula duas secoes adiante, que descreve a serra a laser e o bruteamento a laser. O laser nao depende de dureza: a remocao de material se da por grafitizacao (transicao sp3 para sp2) seguida de sublimacao do grafite, mecanismo estabelecido na literatura revisada por pares. A afirmacao verdadeira e mais estreita: apenas o diamante desgasta o diamante POR ATRITO. Como escrita, a frase e uma confusao de escopo que o aluno carrega e que colide com o resto da aula - e a aula ate menciona a pelicula de grafite deixada pelo corte a laser sem explicar de onde ela vem.",
+      "replacement": "Delimitacao ao desgaste por atrito ('nada alem do proprio diamante consegue desgata-lo por atrito'), seguida de um paragrafo curto explicando a excecao do laser: converte o carbono em grafite, que e mole e queima, removendo material por transformacao e nao por abrasao.",
+      "source": {
+        "name": "Literatura revisada por pares sobre ablacao de diamante por laser pulsado: mecanismo de remocao em dois passos, grafitizacao seguida de sublimacao (2024-2025); Cape Town Diamond Museum (scaife a 3.000 rpm; e o po de diamante que corta, nao a lamina)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11677279/",
+        "tier": "peer_reviewed",
+        "version": "consultado em 2026-08-28",
+        "consulted_at": "2026-08-28"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "02-diamantes/02-diamantes-aula-16-lapidacao-do-bruto-ao-polido.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-28"
+    },
+    {
+      "claim_id": "DIA-CUT-001",
+      "severity": "blue",
+      "kind": "evidencia_insuficiente",
+      "claim": "Equipamentos como os da Sarine tornaram-se padrao de mercado no planejamento do bruto.",
+      "location": {
+        "file": "02-diamantes/02-diamantes-aula-16-lapidacao-do-bruto-ao-polido.md",
+        "section": "1. Planejamento e marcacao",
+        "quote": "equipamentos como os da Sarine tornaram-se padrao"
+      },
+      "problem": "O mecanismo descrito (escaneamento 3D, mapeamento de inclusoes, modelagem das pedras possiveis com peso, pureza e valor) esta confirmado. O que nao foi possivel confirmar em fonte independente do fabricante e a afirmacao de fatia de mercado: 'padrao' aparece na documentacao da propria Sarine, que descreve o Advisor como 'the world standard for rough planning'. Nao ha dado publico de participacao de mercado, e ha concorrentes. Nao e acusacao de erro; e afirmacao especifica sem fonte independente.",
+      "replacement": "Nomeacao do que e verificavel - os sistemas da Sarine (Galaxy para mapeamento de inclusoes, Advisor para planejamento) sao a referencia mais citada da industria - com registro explicito de que ha concorrentes e de que a fatia de cada fabricante nao e dado publico.",
+      "source": {
+        "name": "Sarine Technologies, documentacao das linhas Galaxy e Advisor (fonte do fabricante, declarada como tal); GIA, How Are Diamonds Cut and Polished?",
+        "url": "https://sarine.com/products/sarine-advisor/",
+        "tier": "general",
+        "version": "consultado em 2026-08-28",
+        "consulted_at": "2026-08-28"
+      },
+      "confidence": "provavel",
+      "affected_files": [
+        "02-diamantes/02-diamantes-aula-16-lapidacao-do-bruto-ao-polido.md"
+      ],
+      "outcome": "corrigido_com_ressalva",
+      "applied_at": "2026-08-28"
+    },
+    {
+      "claim_id": "DIA-CUT-002",
+      "severity": "blue",
+      "kind": "evidencia_insuficiente",
+      "claim": "A serra a laser faz o mesmo corte em minutos.",
+      "location": {
+        "file": "02-diamantes/02-diamantes-aula-16-lapidacao-do-bruto-ao-polido.md",
+        "section": "2. Dividir o bruto: clivagem ou serragem",
+        "quote": "Hoje a serra a laser faz o mesmo corte em minutos"
+      },
+      "problem": "O restante da alegacao esta confirmado - disco finissimo de bronze fosforoso carregado de po de diamante e oleo, e 4 a 8 horas para atravessar um bruto de 1 ct. O que nao se sustenta e a precisao 'em minutos': as fontes divergem sobre o tempo absoluto do corte a laser, e ha descricoes tecnicas que falam em horas conforme o equipamento e a secao. O que e consensual e a comparacao relativa e a menor perda de material. Manter um numero que as fontes nao sustentam e falsa precisao.",
+      "replacement": "Substituicao da precisao nao sustentada por comparacao relativa ('em uma fracao desse tempo e desperdiça menos material'), e explicitacao da faixa bem documentada do disco tradicional (4 a 8 horas para 1 ct).",
+      "source": {
+        "name": "Caspi, A., Modern Diamond Cutting and Polishing, Gems & Gemology 33(2), Summer 1997; descricoes tecnicas do corte a laser em diamante (fontes divergentes quanto ao tempo absoluto)",
+        "url": "https://www.gia.edu/gems-gemology/summer-1997-diamond-cutting-polishing-caspi",
+        "tier": "peer_reviewed",
+        "version": "consultado em 2026-08-28",
+        "consulted_at": "2026-08-28"
+      },
+      "confidence": "em_disputa",
+      "affected_files": [
+        "02-diamantes/02-diamantes-aula-16-lapidacao-do-bruto-ao-polido.md"
+      ],
+      "outcome": "corrigido_com_ressalva",
+      "applied_at": "2026-08-28"
+    }
+  ],
+  "controversies": [
+    {
+      "id": "DIA-DEEP-H2O-001",
+      "severity": "white",
+      "file": "02-diamantes/02-diamantes-aula-03-diamantes-de-manto-profundo-e-superprofundo.md",
+      "question": "Quanta agua a zona de transicao do manto realmente contem, e o quanto as poucas inclusoes de ringwoodita hidratada representam o manto como um todo.",
+      "treatment": "LC-08 - uma frase no corpo, cadeia de ressalvas em O que nao concluir.",
+      "outcome": "aceito_como_esta"
+    },
+    {
+      "id": "DIA-PL-596-001",
+      "severity": "white",
+      "file": "02-diamantes/02-diamantes-aula-14-diamondview-fotoluminescencia-e-triagem.md",
+      "question": "A atribuicao estrutural do dupleto de 596/597 nm, usado na pratica como indicador de CVD nao tratado, nao esta plenamente estabelecida.",
+      "treatment": "LC-08 - registrada na tabela do corpo como nao plenamente atribuido e detalhada em O que nao concluir; o uso pratico consensual da feicao nao foi enfraquecido.",
+      "outcome": "aceito_como_esta"
+    },
+    {
+      "id": "DIA-CAMALEAO-001",
+      "severity": "white",
+      "file": "02-diamantes/02-diamantes-aula-09-cor-fancy.md",
+      "question": "O mecanismo completo da mudanca reversivel de cor nos diamantes camaleao nao esta plenamente esclarecido.",
+      "treatment": "LC-08 - declarada no corpo e em O que nao concluir. Registrada aqui para rastreabilidade.",
+      "outcome": "aceito_como_esta"
+    }
+  ],
+  "internal_consistency": {
+    "checked": true,
+    "contradictions_found": 3,
+    "values_cross_checked": [
+      "DR 3,52",
+      "IR 2,417",
+      "dispersao 0,044",
+      "angulo critico 24,4 graus",
+      "DR CZ ~5,8 e GGG ~7,05",
+      "1,00 ct ~6,4 mm",
+      "tipo Ia ~98% / IIa 1-2% / IIb ~0,1%",
+      "N3 415 nm",
+      "SiV- ~737 nm",
+      "596/597 nm",
+      "GR1 741 nm",
+      "DiamondView <230 nm",
+      "PL 77 K",
+      "HPHT 5-6 GPa e 1300-1600 C",
+      "rendimento do bruto 40-50% (aulas 08 e 16)",
+      "brilhante redondo 57-58 facetas (aula 16, aula 12 do modulo 01, flashcard m01-fb066)",
+      "grau de lapidacao como tabela de combinacoes (aulas 07 e 16)"
+    ],
+    "cross_module_reference": "modulo 01 (aulas 08, 09, 10, 11, 19, 22) - valores conferidos e coerentes; nenhuma duplicacao de conteudo detectada | Rodada 2 (2026-08-28, aula 16): tres contradicoes internas encontradas e resolvidas em favor do material ja auditado (rendimento vs. aula 08 e vs. a propria secao Antes de comecar; projeto optico fechado vs. tabela de combinacoes da aula 07; so diamante corta diamante vs. serra a laser da propria aula 16). Nenhuma edicao foi necessaria fora da aula 16."
+  },
+  "derived_material_propagation": {
+    "required": false,
+    "reason": "Rodada 1 (2026-08-25): questionarios e flashcards do modulo 02 foram gerados depois da auditoria, contra o texto ja corrigido. Rodada 2 (2026-08-28, aula 16): nenhuma propagacao necessaria. Busca em todo o curso confirmou que nenhum outro arquivo repete os fatos corrigidos - Tolkowsky e 1919 nao aparecem em nenhum outro arquivo; as 57-58 facetas aparecem na aula 12 do modulo 01, no flashcard m01-fb066 e no questionario parcial 2 do modulo 01, e a contagem nao mudou; o rendimento aparece na aula 08 e no flashcard m02-fb096 com 40-50%, que e justamente o valor para o qual a aula 16 foi alinhada; a fatia da India aparece qualitativamente na aula 22 do modulo 01, sem numero. O oa16 nao tem questao nem flashcard, por decisao registrada no estado."
+  },
+  "anki_migration_required": false,
+  "verified_claims": [
+    {
+      "claim_id": "DIA-EST-001",
+      "claim": "No diamante cada atomo de carbono liga-se covalentemente a quatro vizinhos em arranjo tetraedrico, no sistema cubico; na grafite liga-se a tres vizinhos em folhas hexagonais fracamente ligadas entre si.",
+      "source": "Klein & Dutrow, Manual of Mineral Science; Mindat",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-01-o-diamante-como-mineral.md"
+    },
+    {
+      "claim_id": "DIA-EST-002",
+      "claim": "Diamante: dureza 10 Mohs, densidade relativa 3,52, indice de refracao 2,417, dispersao 0,044, isotropico, angulo critico cerca de 24,4 graus.",
+      "source": "GIA Gem Encyclopedia; Mindat",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-01-o-diamante-como-mineral.md"
+    },
+    {
+      "claim_id": "DIA-EST-003",
+      "claim": "O diamante tem clivagem octaedrica perfeita em quatro direcoes e tenacidade apenas boa, apesar da dureza 10.",
+      "source": "Mindat; GIA — Gemstone durability",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-01-o-diamante-como-mineral.md"
+    },
+    {
+      "claim_id": "DIA-EST-005",
+      "claim": "Grafite: dureza 1-2 Mohs, densidade relativa 2,1-2,3, sistema hexagonal, condutora eletrica.",
+      "source": "Mindat; Klein & Dutrow",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-01-o-diamante-como-mineral.md"
+    },
+    {
+      "claim_id": "DIA-ORIG-001",
+      "claim": "O diamante litosferico cristaliza a cerca de 150-200 km de profundidade, sob pressoes da ordem de 4,5-6 GPa e temperaturas de cerca de 900-1300 C.",
+      "source": "Shirey & Shigley, Gems & Gemology 49(4) 2013; Stachel & Harris 2008",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-02-origem-geologica-kimberlito-e-lamproito.md"
+    },
+    {
+      "claim_id": "DIA-ORIG-002",
+      "claim": "Depositos de diamante economicamente relevantes concentram-se em kimberlitos que atravessam crosta cratonica arqueana estavel (regra de Clifford), sendo Argyle, em lamproito de margem cratonica, a principal excecao.",
+      "source": "Clifford, EPSL 1, 1966; GIA, Kimberlites (2019)",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-02-origem-geologica-kimberlito-e-lamproito.md"
+    },
+    {
+      "claim_id": "DIA-ORIG-003",
+      "claim": "As duas paragenese principais de diamante litosferico sao a peridotitica (olivina, piropo cromifero, ortopiroxenio, cromita) e a eclogitica (granada almandina-piropo, onfacita, coesita, rutilo).",
+      "source": "Stachel & Harris 2008; GIA, Diamonds from the Deep",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-02-origem-geologica-kimberlito-e-lamproito.md"
+    },
+    {
+      "claim_id": "DIA-ORIG-004",
+      "claim": "Diamantes datados por inclusoes dao idades tipicamente entre cerca de 3,5 e 1 Ga, muito mais antigas que os kimberlitos que os transportam, que sao em geral de centenas de milhoes de anos ou menos.",
+      "source": "Shirey & Shigley 2013; GIA",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-02-origem-geologica-kimberlito-e-lamproito.md"
+    },
+    {
+      "claim_id": "DIA-ORIG-005",
+      "claim": "A ascensao do magma kimberlitico e impulsionada pela exsolucao de CO2 e H2O e ocorre em horas a poucos dias, o que impede a grafitizacao do diamante em transito.",
+      "source": "GIA, Kimberlites: Earths Diamond Delivery System (2019)",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-02-origem-geologica-kimberlito-e-lamproito.md"
+    },
+    {
+      "claim_id": "DIA-ORIG-006",
+      "claim": "Parte do carbono dos diamantes ecologiticos e carbono reciclado da superficie por subduccao, evidenciado pela composicao isotopica de carbono desviada do valor tipico do manto.",
+      "source": "Shirey & Shigley 2013; Stachel & Harris 2008",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-02-origem-geologica-kimberlito-e-lamproito.md"
+    },
+    {
+      "claim_id": "DIA-ORIG-007",
+      "claim": "A mina Argyle, na Australia Ocidental, e hospedada em lamproito, foi a principal fonte mundial de diamantes rosa e encerrou a producao em 2020.",
+      "source": "Rio Tinto; GIA Gem Encyclopedia",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-02-origem-geologica-kimberlito-e-lamproito.md"
+    },
+    {
+      "claim_id": "DIA-DEEP-001",
+      "claim": "Diamantes sublitosfericos (superprofundos) sao uma fracao pequena do total, com profundidades estimadas de cerca de 300 km a mais de 700 km.",
+      "source": "Smith et al., Super-Deep Diamonds, AGU Geophysical Monograph 2021; GIA, Diamonds from the Deep",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-03-diamantes-de-manto-profundo-e-superprofundo.md"
+    },
+    {
+      "claim_id": "DIA-DEEP-002",
+      "claim": "Pearson et al. (Nature 507, 2014) identificaram uma inclusao de ringwoodita de cerca de 30 micrometros nao retrogradada num diamante de Juina, Brasil, com agua incorporada em torno de 1% em massa, indicando zona de transicao hidratada.",
+      "source": "Pearson et al., Nature 507, 221-224 (2014)",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-03-diamantes-de-manto-profundo-e-superprofundo.md"
+    },
+    {
+      "claim_id": "DIA-DEEP-003",
+      "claim": "A ringwoodita e a forma de alta pressao da olivina, estavel entre cerca de 525 e 660 km de profundidade.",
+      "source": "Pearson et al. 2014; literatura de mineralogia de alta pressao",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-03-diamantes-de-manto-profundo-e-superprofundo.md"
+    },
+    {
+      "claim_id": "DIA-DEEP-004",
+      "claim": "CLIPPIR significa Cullinan-like, Large, Inclusion-Poor, Pure (tipo IIa), Irregular, Resorbed; Smith et al. (Science, 2016) mostraram que sao sublitosfericos, estimados entre cerca de 360 e 750 km, com inclusoes de liga metalica Fe-Ni-C-S envolta em filme de metano e hidrogenio.",
+      "source": "Smith et al., Science 354, 1403-1405 (2016)",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-03-diamantes-de-manto-profundo-e-superprofundo.md"
+    },
+    {
+      "claim_id": "DIA-DEEP-005",
+      "claim": "Smith et al. (Nature 560, 2018) concluiram que diamantes azuis tipo IIb se formam a cerca de 660 km ou mais, no manto inferior, com boro levado ao manto profundo pela subduccao de crosta oceanica hidratada.",
+      "source": "Smith et al., Nature 560, 84-87 (2018)",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-03-diamantes-de-manto-profundo-e-superprofundo.md"
+    },
+    {
+      "claim_id": "DIA-DEEP-006",
+      "claim": "A davemaoita (CaSiO3-perovskita) foi descrita por Tschauner et al. (Science, 2021) numa inclusao nao retrogradada em diamante de Orapa, Botsuana, e aprovada como mineral pela IMA.",
+      "source": "Tschauner et al., Science 374, 891-894 (2021); IMA-CNMNC",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-03-diamantes-de-manto-profundo-e-superprofundo.md"
+    },
+    {
+      "claim_id": "DIA-DEEP-007",
+      "claim": "A profundidade de formacao nao e fator de valor nem categoria declarada em laudo gemologico comercial do GIA ou da CIBJO.",
+      "source": "GIA Diamond Grading Report; CIBJO Diamond Blue Book",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-03-diamantes-de-manto-profundo-e-superprofundo.md"
+    },
+    {
+      "claim_id": "DIA-TIPO-001",
+      "claim": "Tipo I contem nitrogenio detectavel por FTIR e tipo II nao; tipo II significa abaixo do limite de deteccao, nao pureza quimica absoluta.",
+      "source": "Breeding & Shigley, Gems & Gemology 45(2) 2009; GIA",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-04-tipos-ia-ib-iia-iib.md"
+    },
+    {
+      "claim_id": "DIA-TIPO-002",
+      "claim": "Num levantamento do GIA sobre diamantes D-Z, 99,06% eram tipo Ia/IaAB, 0,83% tipo IIa, 0,09% tipo IaB e 0,02% tipo IIb; considerando tambem as cores fancy, cerca de 98% dos diamantes de gema naturais sao tipo Ia.",
+      "source": "GIA, Gems & Gemology, Fall 2020 — Natural-Color D-to-Z Diamonds",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-04-tipos-ia-ib-iia-iib.md"
+    },
+    {
+      "claim_id": "DIA-TIPO-003",
+      "claim": "Centros de nitrogenio: C (isolado, ~1130 e ~1344 cm-1), A (par, ~1282 cm-1), B (quatro N em torno de vacancia, ~1175 cm-1), plaquetas (~1365 cm-1) e N3 (tres N em torno de vacancia, absorcao a 415 nm).",
+      "source": "Breeding & Shigley 2009; GIA",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-04-tipos-ia-ib-iia-iib.md"
+    },
+    {
+      "claim_id": "DIA-TIPO-004",
+      "claim": "A agregacao do nitrogenio de centros C para A e depois B exige temperatura alta e tempo geologico; por isso o tipo Ib e menos de cerca de 0,1% dos diamantes naturais mas e o estado tipico do HPHT recem-crescido, que cresce em dias.",
+      "source": "Breeding & Shigley 2009; GIA, Observations on HPHT-Grown Synthetic Diamonds (Fall 2017)",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-04-tipos-ia-ib-iia-iib.md"
+    },
+    {
+      "claim_id": "DIA-TIPO-005",
+      "claim": "Tipo IIa representa cerca de 1 a 2% dos diamantes naturais, tende a ser incolor, e quando colorido (marrom, rosa, roxo) a cor vem de deformacao plastica e nao de impureza; e o tipo mais frequente entre os diamantes CVD.",
+      "source": "GIA, Digging into Diamond Types; GIA, Summer 2024 update on laboratory-grown diamonds",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-04-tipos-ia-ib-iia-iib.md"
+    },
+    {
+      "claim_id": "DIA-TIPO-006",
+      "claim": "Tipo IIb contem boro substitucional, e azul, e semicondutor do tipo p, representa cerca de 0,1% ou menos dos diamantes naturais e frequentemente exibe fosforescencia apos exposicao a onda curta — o Hope Diamond fosforesce em vermelho.",
+      "source": "GIA; Smithsonian, estudos de fosforescencia do Hope Diamond",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-04-tipos-ia-ib-iia-iib.md"
+    },
+    {
+      "claim_id": "DIA-COR-001",
+      "claim": "A escala D-Z do GIA foi criada por Richard Liddicoat e adotada em 1953; comecou na letra D deliberadamente para nao se confundir com os sistemas comerciais anteriores que usavam A, AA e AAA.",
+      "source": "GIA, 4Cs Color D-to-Z; GIA institutional history",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-05-cor-d-z.md"
+    },
+    {
+      "claim_id": "DIA-COR-006",
+      "claim": "A escolha da letra D como topo da escala foi deliberada: uma letra sem associacao com qualidade superior, para romper com os sistemas comerciais anteriores que usavam A, AA, AAA, numeros e termos como blue white.",
+      "source": "GIA, The History of the 4Cs of Diamond Quality; GIA, Celebrating Richard T. Liddicoat",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-05-cor-d-z.md"
+    },
+    {
+      "claim_id": "DIA-COR-003",
+      "claim": "A graduacao de cor D-Z e feita com a pedra solta e limpa, mesa para baixo, sobre bandeja branca nao fluorescente, por comparacao com pedras-mestras de grau conhecido, sob iluminacao padronizada equivalente a luz do dia.",
+      "source": "GIA, Diamond Grading Reports — color grade; CIBJO Diamond Blue Book",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-05-cor-d-z.md"
+    },
+    {
+      "claim_id": "DIA-COR-004",
+      "claim": "A tonalidade amarela palida da serie cape, graduada na escala D-Z, e produzida pelo centro N3 (tres nitrogenios em torno de uma vacancia), que absorve a 415 nm.",
+      "source": "GIA, Gems & Gemology, Fall 2020; Breeding & Shigley 2009",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-05-cor-d-z.md"
+    },
+    {
+      "claim_id": "DIA-COR-005",
+      "claim": "Diamantes marrons e cinzas dentro da faixa D-Z recebem a letra acompanhada de um descritor de matiz no laudo.",
+      "source": "GIA Diamond Grading Report; CIBJO Diamond Blue Book",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-05-cor-d-z.md"
+    },
+    {
+      "claim_id": "DIA-PUR-001",
+      "claim": "A escala de pureza do GIA tem onze graus avaliados a 10x: FL, IF, VVS1, VVS2, VS1, VS2, SI1, SI2, I1, I2, I3. O grau SI3 nao faz parte do sistema GIA.",
+      "source": "GIA, 4Cs Clarity; GIA Diamond Grading Lab Manual",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-06-pureza-e-clarity-plot.md"
+    },
+    {
+      "claim_id": "DIA-PUR-002",
+      "claim": "FL exige ausencia de inclusoes e de imperfeicoes externas a 10x; IF admite imperfeicoes externas leves mas nenhuma inclusao a 10x.",
+      "source": "GIA, 4Cs Clarity",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-06-pureza-e-clarity-plot.md"
+    },
+    {
+      "claim_id": "DIA-PUR-003",
+      "claim": "O grau de pureza resulta da avaliacao conjunta de cinco fatores: tamanho, numero, posicao, natureza e relevo das caracteristicas.",
+      "source": "GIA, 4Cs Clarity",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-06-pureza-e-clarity-plot.md"
+    },
+    {
+      "claim_id": "DIA-PUR-004",
+      "claim": "No clarity plot do GIA, o vermelho indica caracteristicas internas, o verde indica caracteristicas externas, vermelho e verde juntos indicam caracteristicas internas que atingem a superficie (nos, cavidades, naturais indentados, canais de corrosao, furos de laser) e o preto indica facetas extras.",
+      "source": "GIA, Decoding Diamond Clarity Diagrams; chave de simbolos do Diamond Grading Report",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-06-pureza-e-clarity-plot.md"
+    },
+    {
+      "claim_id": "DIA-PUR-005",
+      "claim": "A pluma (feather) e a inclusao mais comum em diamante; o no (knot) e um cristal incluso que atinge a superficie da pedra lapidada.",
+      "source": "GIA, 4Cs Clarity; CIBJO Diamond Blue Book",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-06-pureza-e-clarity-plot.md"
+    },
+    {
+      "claim_id": "DIA-PUR-006",
+      "claim": "Eye-clean e um termo de comercio e nao um grau de pureza do GIA; a regua da escala e a lupa de 10x.",
+      "source": "GIA, 4Cs Clarity",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-06-pureza-e-clarity-plot.md"
+    },
+    {
+      "claim_id": "DIA-LAP-001",
+      "claim": "O sistema de grau de lapidacao do GIA foi lancado em 2006, apoiado em pesquisa de modelagem optica publicada em Gems & Gemology no outono de 2004, e aplica-se ao brilhante redondo padrao na faixa de cor D-Z.",
+      "source": "GIA, 4Cs Cut; Moses et al., Gems & Gemology Fall 2004",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-07-lapidacao-grau-gia.md"
+    },
+    {
+      "claim_id": "DIA-LAP-002",
+      "claim": "O grau de lapidacao do GIA avalia sete componentes: brilho, fogo e cintilacao (aparencia de frente) e razao de peso, durabilidade, polimento e simetria (projeto e execucao). A escala tem cinco graus: Excellent, Very Good, Good, Fair e Poor.",
+      "source": "GIA, 4Cs Cut; GIA cut grading booklet",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-07-lapidacao-grau-gia.md"
+    },
+    {
+      "claim_id": "DIA-LAP-003",
+      "claim": "O grau final de lapidacao corresponde ao pior dos sete componentes avaliados, e nao a uma media.",
+      "source": "GIA, cut grading booklet — Estimating a cut grade",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-07-lapidacao-grau-gia.md"
+    },
+    {
+      "claim_id": "DIA-LAP-004",
+      "claim": "Faixas de referencia associadas ao grau Excelente no brilhante redondo: mesa cerca de 52-62%, angulo de coroa cerca de 31,5-36,5 graus, angulo de pavilhao cerca de 40,6-41,8 graus, profundidade total cerca de 57,5-63%, cinturao fino a levemente espesso, culaca ausente a muito pequena. O sistema oficial usa tabela de combinacoes, nao faixas independentes.",
+      "source": "GIA, Estimating a cut grade booklet",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-07-lapidacao-grau-gia.md"
+    },
+    {
+      "claim_id": "DIA-LAP-005",
+      "claim": "O GIA nao atribui grau de lapidacao a formas fantasia nos seus laudos padrao; declara apenas polimento e simetria.",
+      "source": "GIA, 4Cs Cut; GIA Diamond Grading Report",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-07-lapidacao-grau-gia.md"
+    },
+    {
+      "claim_id": "DIA-LAP-006",
+      "claim": "Hearts & Arrows e um padrao de simetria optica promovido pelo comercio e observado em visualizador proprio, nao um grau do sistema GIA.",
+      "source": "GIA, Gems & Gemology — hearts and arrows patterns",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-07-lapidacao-grau-gia.md"
+    },
+    {
+      "claim_id": "DIA-LAP-007",
+      "claim": "Um brilhante redondo bem proporcionado de 1,00 ct tem diametro medio da ordem de 6,4 a 6,5 mm.",
+      "source": "GIA, cut grading booklet; tabelas de referencia de diametro por peso",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-07-lapidacao-grau-gia.md"
+    },
+    {
+      "claim_id": "DIA-PESO-002",
+      "claim": "Os pesos de diamante sao declarados ate o centesimo de quilate e arredondados para baixo: 0,998 ct e declarado 0,99 ct.",
+      "source": "GIA Diamond Grading Report; CIBJO Diamond Blue Book",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-08-peso-tamanhos-magicos-e-preco.md"
+    },
+    {
+      "claim_id": "DIA-PESO-003",
+      "claim": "A regra de Tavernier (regra indiana) estabelece que o preco de uma pedra seria proporcional ao quadrado do peso multiplicado pelo preco de uma pedra de 1 ct; e uma ilustracao historica da nao linearidade, nao uma ferramenta de precificacao atual.",
+      "source": "Literatura historica do comercio de diamante; GIA",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-08-peso-tamanhos-magicos-e-preco.md"
+    },
+    {
+      "claim_id": "DIA-PESO-004",
+      "claim": "Os tamanhos magicos usuais sao 0,30, 0,50, 0,70, 0,90, 1,00, 1,50, 2,00, 3,00 e 5,00 ct, e os saltos de preco por quilate nesses pesos decorrem de demanda, nao de mudanca fisica na pedra.",
+      "source": "Rapaport Diamond Price List; GIA, 4Cs Carat Weight",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-08-peso-tamanhos-magicos-e-preco.md"
+    },
+    {
+      "claim_id": "DIA-PESO-006",
+      "claim": "O rendimento tipico do bruto para o brilhante redondo lapidado fica em torno de 40 a 50% em casos favoraveis, e frequentemente abaixo disso.",
+      "source": "GIA, Gems & Gemology — estudos de rendimento de lapidacao",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-08-peso-tamanhos-magicos-e-preco.md"
+    },
+    {
+      "claim_id": "DIA-PESO-007",
+      "claim": "Quilate de peso (ct) e quilate de ouro (K) sao unidades sem relacao: o primeiro mede massa da gema, o segundo mede a pureza da liga metalica.",
+      "source": "GIA; Inmetro; CIBJO Precious Metals Blue Book",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-08-peso-tamanhos-magicos-e-preco.md"
+    },
+    {
+      "claim_id": "DIA-FANCY-001",
+      "claim": "Nos laudos de cor do GIA os diamantes coloridos sao classificados em ordem crescente de forca de cor como Faint, Very Light, Light, Fancy Light, Fancy, Fancy Intense e Fancy Vivid, mais os termos Fancy Dark e Fancy Deep.",
+      "source": "GIA, Fancy Color Diamond Quality Factors; GIA, When is a colored diamond a fancy color diamond?",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-09-cor-fancy.md"
+    },
+    {
+      "claim_id": "DIA-FANCY-002",
+      "claim": "A escala fancy combina tom e saturacao e nao e uma ordem de preco: Fancy Intense e Fancy Vivid costumam ser os mais valorizados, e um Fancy Dark pode valer menos que um Fancy Intense mais claro.",
+      "source": "GIA, Fancy Color Diamond Buyers Guide",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-09-cor-fancy.md"
+    },
+    {
+      "claim_id": "DIA-FANCY-003",
+      "claim": "A cor fancy e avaliada com a pedra vista de face, ao contrario da escala D-Z, que e avaliada com a mesa para baixo.",
+      "source": "GIA, Colored Diamonds: Diamond Grading & Reports",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-09-cor-fancy.md"
+    },
+    {
+      "claim_id": "DIA-FANCY-004",
+      "claim": "Causas de cor: amarelo e laranja por nitrogenio (centros C dao amarelos intensos, N3 da o amarelo palido); azul por boro (tipo IIb); cinza-azulado por hidrogenio; verde por irradiacao natural; rosa, vermelho, roxo e marrom por deformacao plastica; preto por inclusoes de grafite ou sulfetos.",
+      "source": "GIA, Fancy Color Diamond Quality Factors; King et al., Gems & Gemology 34(4) 1998",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-09-cor-fancy.md"
+    },
+    {
+      "claim_id": "DIA-FANCY-005",
+      "claim": "A irradiacao natural que produz diamante verde frequentemente penetra pouco e gera uma casca verde superficial, e a irradiacao artificial produz o mesmo defeito na rede, tornando a separacao natural/tratado uma das mais dificeis da gemologia e por vezes indeterminada.",
+      "source": "GIA, Gems & Gemology — natural-color green diamonds",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-09-cor-fancy.md"
+    },
+    {
+      "claim_id": "DIA-FANCY-006",
+      "claim": "O vermelho e a cor fancy mais rara e o marrom e a mais abundante; a demanda por marrom foi criada por campanhas de marketing com os nomes champagne, cognac e chocolate diamond.",
+      "source": "GIA, Fancy Color Diamond Buyers Guide; literatura de mercado",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-09-cor-fancy.md"
+    },
+    {
+      "claim_id": "DIA-FANCY-007",
+      "claim": "O GIA nao emite grau de lapidacao para diamantes de cor fancy, porque a lapidacao neles busca maximizar a cor e nao o brilho.",
+      "source": "GIA, Colored Diamonds: Diamond Grading & Reports; GIA 4Cs Cut",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-09-cor-fancy.md"
+    },
+    {
+      "claim_id": "DIA-FLUOR-001",
+      "claim": "O GIA registra a fluorescencia do diamante em cinco niveis sob onda longa (None, Faint, Medium, Strong, Very Strong) e a trata como caracteristica de identificacao, nao como fator de qualidade.",
+      "source": "GIA, Understanding Diamond Fluorescence; GIA Diamond Grading Report",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-10-fluorescencia-e-valor.md"
+    },
+    {
+      "claim_id": "DIA-FLUOR-002",
+      "claim": "O estudo do GIA publicado em Gems & Gemology no inverno de 1997 concluiu que, para o observador medio olhando de face, diamantes com fluorescencia azul forte foram julgados em media com aparencia de cor igual ou melhor que os equivalentes sem fluorescencia, e que o aspecto turvo ou oleoso ocorre em um numero muito pequeno de pedras.",
+      "source": "Moses et al., Gems & Gemology 33(4), Winter 1997",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-10-fluorescencia-e-valor.md"
+    },
+    {
+      "claim_id": "DIA-FLUOR-003",
+      "claim": "As listas de referencia de preco aplicam descontos maiores para fluorescencia forte nas cores altas (D-F) do que nas cores medias e baixas, onde o desconto e pequeno, nulo ou pode haver agio.",
+      "source": "Rapaport Diamond Price List; GIA, Dispelling Myths",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-10-fluorescencia-e-valor.md"
+    },
+    {
+      "claim_id": "DIA-FLUOR-004",
+      "claim": "A graduacao de cor D-Z e feita sob iluminacao com componente ultravioleta controlado, de modo que a fluorescencia nao contamina o grau declarado.",
+      "source": "GIA, Diamond Grading Reports — color grade",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-10-fluorescencia-e-valor.md"
+    },
+    {
+      "claim_id": "DIA-FLUOR-005",
+      "claim": "O exame com lampada UV comum de bancada nao distingue diamante natural de diamante crescido em laboratorio; essa separacao depende de imagem de luminescencia sob onda curta profunda (DiamondView) e de fotoluminescencia.",
+      "source": "GIA, Laboratory-Grown Diamonds: An Update on Identification (Summer 2024)",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-10-fluorescencia-e-valor.md"
+    },
+    {
+      "claim_id": "DIA-SIM-001",
+      "claim": "No teste do ponto, feito com a pedra solta e mesa para baixo sobre uma marca, um brilhante redondo de diamante bem proporcionado nao deixa ver a marca; materiais de indice mais baixo deixam. Moissanita e zirconia cubica frequentemente tambem nao deixam ver, de modo que o teste elimina indices baixos mas nao confirma diamante.",
+      "source": "Liddicoat, Handbook of Gem Identification; Gem-A, Gemmology Foundation",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-11-simulantes-alem-do-testador.md"
+    },
+    {
+      "claim_id": "DIA-SIM-002",
+      "claim": "A zirconia cubica tem densidade relativa em torno de 5,8 e o GGG em torno de 7,05, contra 3,52 do diamante; uma pedra de mesmo diametro em CZ pesa cerca de 1,7 vez o peso do diamante equivalente e em GGG cerca do dobro.",
+      "source": "Mindat; GIA Gem Encyclopedia",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-11-simulantes-alem-do-testador.md"
+    },
+    {
+      "claim_id": "DIA-SIM-003",
+      "claim": "Cinturao bruto de aspecto fosco e granular, naturais e barba de cinturao sao feicoes tipicas de diamante lapidado e nao ocorrem em material fundido ou moldado; bolhas gasosas arredondadas sao tipicas de vidro e praticamente ausentes em diamante.",
+      "source": "GIA, Gem Identification; Gem-A, Gemmology Foundation",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-11-simulantes-alem-do-testador.md"
+    },
+    {
+      "claim_id": "DIA-SIM-004",
+      "claim": "Zirconia cubica, YAG, GGG e vidro, com dureza entre cerca de 5 e 8,5, acumulam abrasao visivel nas arestas de faceta com o uso, enquanto o diamante mantem as arestas vivas.",
+      "source": "GIA, Gemstone durability; Mindat",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-11-simulantes-alem-do-testador.md"
+    },
+    {
+      "claim_id": "DIA-SIM-005",
+      "claim": "Nenhum teste de separacao de simulantes distingue diamante natural de diamante crescido em laboratorio, porque os dois sao o mesmo mineral e compartilham todas as propriedades fisicas e opticas.",
+      "source": "GIA, Laboratory-Grown Diamonds: An Update on Identification (Summer 2024)",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-11-simulantes-alem-do-testador.md"
+    },
+    {
+      "claim_id": "DIA-HPHT-001",
+      "claim": "O crescimento HPHT ocorre a pressoes de cerca de 5-6 GPa e temperaturas de cerca de 1300-1600 C, usando um fluxo metalico fundido (ligas de Fe, Ni, Co) e um gradiente de temperatura que dissolve carbono na fonte quente e o deposita sobre uma semente mais fria.",
+      "source": "GIA, HPHT and CVD Diamond Growth Processes; Eaton-Magana et al., Gems & Gemology Fall 2017",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-12-crescimento-hpht.md"
+    },
+    {
+      "claim_id": "DIA-HPHT-002",
+      "claim": "Diamantes HPHT crescem com morfologia cuboctaedrica (faces de cubo e de octaedro simultaneas), enquanto diamantes naturais crescem essencialmente por faces octaedricas.",
+      "source": "Eaton-Magana et al., Gems & Gemology Fall 2017; GIA",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-12-crescimento-hpht.md"
+    },
+    {
+      "claim_id": "DIA-HPHT-003",
+      "claim": "Setores de crescimento com incorporacao diferente de impurezas produzem, em imagem de fluorescencia DiamondView, o padrao em cruz caracteristico dos sinteticos HPHT, contra zonas de crescimento concentricas e irregulares nos diamantes naturais.",
+      "source": "GIA, Summer 2024 update on laboratory-grown diamonds; GIA DiamondView",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-12-crescimento-hpht.md"
+    },
+    {
+      "claim_id": "DIA-HPHT-004",
+      "claim": "As inclusoes mais caracteristicas do HPHT sao fragmentos solidificados de fluxo metalico, opacos, com brilho metalico a luz refletida, em formas variadas, e podem tornar a pedra atraivel por ima forte.",
+      "source": "Eaton-Magana et al., Gems & Gemology Fall 2017; GIA",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-12-crescimento-hpht.md"
+    },
+    {
+      "claim_id": "DIA-HPHT-005",
+      "claim": "O HPHT recem-crescido e tipicamente tipo Ib (amarelo a laranja); incolor tipo IIa e obtido com captadores de nitrogenio (aluminio, titanio, zirconio) e azul tipo IIb com dopagem de boro.",
+      "source": "GIA, HPHT and CVD Diamond Growth Processes; Gems & Gemology Fall 2017",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-12-crescimento-hpht.md"
+    },
+    {
+      "claim_id": "DIA-HPHT-006",
+      "claim": "Entre polarizadores cruzados o diamante natural mostra tipicamente padrao de tensao forte e desordenado (tatami) por deformacao plastica, enquanto o HPHT mostra tensao fraca ou ausente.",
+      "source": "Eaton-Magana et al., Gems & Gemology Fall 2017",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-12-crescimento-hpht.md"
+    },
+    {
+      "claim_id": "DIA-HPHT-007",
+      "claim": "Diamantes HPHT frequentemente fluorescem mais forte sob onda curta que sob onda longa, com reacao desigual por setor e fosforescencia persistente, ao contrario do padrao usual dos diamantes naturais.",
+      "source": "Eaton-Magana et al., Gems & Gemology Fall 2017; GIA",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-12-crescimento-hpht.md"
+    },
+    {
+      "claim_id": "DIA-CVD-001",
+      "claim": "O crescimento CVD de diamante de gema ocorre em vacuo parcial, a pressoes da ordem de dezenas de torr, com substrato a cerca de 700-1200 C, a partir de plasma de hidrogenio com pequena porcentagem de metano, em ciclos de semanas.",
+      "source": "GIA, HPHT and CVD Diamond Growth Processes; Eaton-Magana et al., Gems & Gemology Fall 2016",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-13-crescimento-cvd.md"
+    },
+    {
+      "claim_id": "DIA-CVD-002",
+      "claim": "O crescimento CVD ocorre fora do campo de estabilidade do diamante e e viabilizado porque o hidrogenio atomico do plasma corroi a grafite muito mais depressa que o diamante.",
+      "source": "GIA, HPHT and CVD Diamond Growth Processes",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-13-crescimento-cvd.md"
+    },
+    {
+      "claim_id": "DIA-CVD-003",
+      "claim": "O CVD cresce em camadas perpendiculares a placa-substrato, com morfologia tabular; paradas e recomecos do reator produzem estrias paralelas que aparecem no DiamondView como faixas paralelas, frequentemente com emissao vermelho-alaranjada do centro NV0.",
+      "source": "GIA, Summer 2024 update; Eaton-Magana et al., Gems & Gemology Fall 2016",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-13-crescimento-cvd.md"
+    },
+    {
+      "claim_id": "DIA-CVD-004",
+      "claim": "A maioria dos diamantes CVD e tipo IIa, e suas inclusoes sao escuras e nao metalicas (grafiticas), sem brilho metalico a luz refletida e sem atracao magnetica.",
+      "source": "Eaton-Magana et al., Gems & Gemology Fall 2016; GIA Summer 2024 update",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-13-crescimento-cvd.md"
+    },
+    {
+      "claim_id": "DIA-CVD-005",
+      "claim": "Em fotoluminescencia a temperatura de nitrogenio liquido, o dupleto em 736,6/736,9 nm (cerca de 737 nm), atribuido ao centro SiV-, e raro em diamante natural e e um dos indicadores mais uteis de CVD; o dupleto em 596/597 nm so foi relatado em material CVD e e destruido por recozimento HPHT pos-crescimento.",
+      "source": "GIA, Gems & Gemology — Two Large CVD-Grown Synthetic Diamonds (Winter 2015); Eaton-Magana et al., Fall 2016; GIA Summer 2024 update",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-13-crescimento-cvd.md"
+    },
+    {
+      "claim_id": "DIA-CVD-006",
+      "claim": "No polariscopio o CVD mostra tensao organizada em bandas ou colunas paralelas a direcao de crescimento, distinta do padrao tatami desordenado dos naturais e da ausencia de tensao dos HPHT.",
+      "source": "Eaton-Magana et al., Gems & Gemology Fall 2016",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-13-crescimento-cvd.md"
+    },
+    {
+      "claim_id": "DIA-CVD-007",
+      "claim": "O CVD recem-crescido tende a ser marrom ou acinzentado e frequentemente recebe recozimento HPHT pos-crescimento, que melhora a cor e apaga assinaturas diagnosticas; ja foram documentados CVD com pouquissimas feicoes diagnosticas.",
+      "source": "GIA, Prominent Growth Planes in HPHT-Processed CVD (Spring 2021); GIA, CVD-Grown Diamond with Few Diagnostic Features (Fall 2023)",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-13-crescimento-cvd.md"
+    },
+    {
+      "claim_id": "DIA-TRIAG-001",
+      "claim": "O DiamondView usa ultravioleta de comprimento de onda abaixo de cerca de 230 nm, que e absorvido numa camada muito fina abaixo da superficie, permitindo formar imagem da estrutura de crescimento em vez da soma da fluorescencia de toda a pedra; tambem registra fosforescencia.",
+      "source": "Welbourn et al., Gems & Gemology 32(3) 1996; GIA",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-14-diamondview-fotoluminescencia-e-triagem.md"
+    },
+    {
+      "claim_id": "DIA-TRIAG-002",
+      "claim": "Padroes no DiamondView: zonas concentricas irregulares (frequentemente azuis, de N3) indicam natural; padrao em cruz ou por quadrantes indica HPHT; faixas paralelas, frequentemente vermelho-alaranjadas de NV0, indicam CVD.",
+      "source": "GIA, Summer 2024 update on laboratory-grown diamonds",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-14-diamondview-fotoluminescencia-e-triagem.md"
+    },
+    {
+      "claim_id": "DIA-TRIAG-003",
+      "claim": "A fotoluminescencia e feita com a pedra resfriada a temperatura de nitrogenio liquido (cerca de 77 K) porque o resfriamento estreita as linhas de emissao; os centros H3 (cerca de 503,2 nm) e 3H (cerca de 503,5 nm) so podem ser separados assim.",
+      "source": "Eaton-Magana & Breeding, Gems & Gemology 52(1) 2016",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-14-diamondview-fotoluminescencia-e-triagem.md"
+    },
+    {
+      "claim_id": "DIA-TRIAG-004",
+      "claim": "Feicoes de fotoluminescencia relevantes: 575 nm (NV0), 596/597 nm (so relatado em CVD), 637 nm (NV-), cerca de 737 nm (SiV-, indicio de CVD) e 741 nm (GR1, assinatura de irradiacao).",
+      "source": "Eaton-Magana & Breeding 2016; GIA Gems & Gemology, CVD reviews",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-14-diamondview-fotoluminescencia-e-triagem.md"
+    },
+    {
+      "claim_id": "DIA-TRIAG-005",
+      "claim": "O GIA DiamondCheck separa diamantes em Passa (tipo I) e Refere (tipo II e crescidos em laboratorio) a partir do espectro infravermelho; o DiamondSure da De Beers faz triagem equivalente pela presenca ou ausencia da linha de absorcao de 415 nm do centro N3.",
+      "source": "GIA, Analysis of Gemstones at GIA Laboratories (Winter 2024); Welbourn et al. 1996",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-14-diamondview-fotoluminescencia-e-triagem.md"
+    },
+    {
+      "claim_id": "DIA-TRIAG-006",
+      "claim": "O GIA iD100 usa tecnologia espectroscopica para separar diamante natural de crescido em laboratorio (HPHT e CVD) e de simulantes, opera com pedras soltas e montadas e alcanca pedras da ordem de 0,005 ct.",
+      "source": "GIA, GIA iD100 Gem Testing Device",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-14-diamondview-fotoluminescencia-e-triagem.md"
+    },
+    {
+      "claim_id": "DIA-TRIAG-007",
+      "claim": "Os instrumentos de triagem sao calibrados para evitar falsos negativos ao custo de muitos falsos positivos; o resultado Refere nao identifica a pedra como sintetica, e os cerca de 1 a 2% de diamantes naturais tipo IIa sao sistematicamente referidos.",
+      "source": "GIA, Analysis of Gemstones at GIA Laboratories (Winter 2024); GIA Summer 2024 update",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-14-diamondview-fotoluminescencia-e-triagem.md"
+    },
+    {
+      "claim_id": "DIA-TRIAG-008",
+      "claim": "Ja foi documentado diamante natural com padrao de fluorescencia semelhante ao de CVD, e diamantes CVD com pouquissimas feicoes diagnosticas, de modo que nenhum instrumento isolado encerra a questao de origem de crescimento.",
+      "source": "GIA, Natural Diamond with CVD-Like Fluorescence Pattern (Summer 2023); GIA, CVD-Grown Diamond with Few Diagnostic Features (Fall 2023)",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-14-diamondview-fotoluminescencia-e-triagem.md"
+    },
+    {
+      "claim_id": "DIA-TRAT-001",
+      "claim": "O recozimento HPHT como tratamento transforma diamante tipo IIa marrom (cuja cor vem de deformacao plastica) em incolor ou quase incolor, e diamante tipo Ia marrom tipicamente em amarelo-esverdeado; e comercializado desde o fim dos anos 1990.",
+      "source": "GIA, Diamond Treatments; Gems & Gemology — HPHT processing",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-15-tratamentos-e-laudos.md"
+    },
+    {
+      "claim_id": "DIA-TRAT-002",
+      "claim": "A irradiacao cria vacancias na rede do diamante, cuja assinatura em fotoluminescencia e o centro GR1 em 741 nm; recozimento subsequente faz as vacancias migrarem e associarem-se a nitrogenio, produzindo amarelo, laranja, marrom ou rosa.",
+      "source": "Shigley & Breeding, Gems & Gemology 49(2) 2013; GIA, Diamond Treatments",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-15-tratamentos-e-laudos.md"
+    },
+    {
+      "claim_id": "DIA-TRAT-003",
+      "claim": "O preenchimento de fratura usa vidro de indice de refracao alto, a base de chumbo ou bismuto, e e detectado pelo efeito de flash: um lampejo de cor que muda de laranja/rosa/amarelo para azul/verde conforme o angulo de observacao. O tratamento e de baixa estabilidade e pode ser danificado pelo calor de reparos de joalheria.",
+      "source": "GIA, Diamond Treatments; Gems & Gemology — filled diamonds",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-15-tratamentos-e-laudos.md"
+    },
+    {
+      "claim_id": "DIA-TRAT-004",
+      "claim": "O GIA nao emite laudo de graduacao completo para diamante com fratura preenchida; emite relatorio de identificacao que declara o tratamento.",
+      "source": "GIA, Diamond Treatments; politica de relatorios do GIA",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-15-tratamentos-e-laudos.md"
+    },
+    {
+      "claim_id": "DIA-TRAT-005",
+      "claim": "A perfuracao a laser abre um canal microscopico ate uma inclusao escura, que e entao dissolvida ou branqueada; o canal e permanente, visivel ao microscopio, registrado no clarity plot com simbolos vermelho e verde, e exige divulgacao.",
+      "source": "GIA, Diamond Treatments; GIA, Decoding Diamond Clarity Diagrams",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-15-tratamentos-e-laudos.md"
+    },
+    {
+      "claim_id": "DIA-TRAT-006",
+      "claim": "Os descritores aceitos para diamante crescido em laboratorio sao laboratory-grown e laboratory-created, adjacentes a palavra diamante e com igual destaque; termos como cultivado, real, genuino e natural sao proibidos, e a palavra diamante sozinha designa material natural.",
+      "source": "CIBJO Diamond Blue Book; FTC Guides for the Jewelry, Precious Metals, and Pewter Industries",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-15-tratamentos-e-laudos.md"
+    },
+    {
+      "claim_id": "DIA-TRAT-007",
+      "claim": "Os laudos padrao de diamante nao declaram pais de origem nem valor de mercado.",
+      "source": "GIA Diamond Grading Report; CIBJO Diamond Blue Book",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-15-tratamentos-e-laudos.md"
+    },
+    {
+      "claim_id": "DIA-CUT-003",
+      "claim": "O bruto Cullinan, de 3.106 ct, foi clivado em fevereiro de 1908 por Joseph Asscher, na oficina Asscher em Amsterda; a serragem foi descartada por risco.",
+      "source": "Royal Collection Trust, The Crown Jewels; Royal Asscher; literatura historica do diamante",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-16-lapidacao-do-bruto-ao-polido.md"
+    },
+    {
+      "claim_id": "DIA-CUT-004",
+      "claim": "O bruteamento monta duas pedras em eixos que giram em sentidos opostos, uma desbastando a outra, e forma o cinturao, de aspecto granular e fosco.",
+      "source": "Cape Town Diamond Museum; Caspi, G&G Summer 1997; GIA (cinturao bruto vs. facetado no laudo)",
+      "confidence": "confirmado",
+      "file": "02-diamantes/02-diamantes-aula-16-lapidacao-do-bruto-ao-polido.md"
+    }
+  ]
+}

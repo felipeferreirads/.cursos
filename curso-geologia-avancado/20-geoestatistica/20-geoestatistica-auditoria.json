@@ -1,0 +1,543 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "module",
+    "path": "20-geoestatistica",
+    "module_id": "20",
+    "course_id": "curso-geologia-avancado"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-09-18",
+  "fixed_at": "2026-09-18",
+  "verdict": "aprovado",
+  "verdict_note": "Auditoria e correcao na mesma data, em duas passagens (levantamento audit-only sobre as quatro aulas em conjunto; aplicacao cirurgica em seguida). Os 17 achados corrigiveis (1 vermelho, 8 laranjas, 8 amarelos) foram aplicados nas quatro aulas, com propagacao interna para recaps, exemplos trabalhados da a01, a03 e a04, cabecalho da a03, listas de Fontes e blocos de alegacoes auditaveis. 0 vermelhos e 0 laranjas em aberto: GATE LIBERADO para questionario e flashcards. Nenhum material derivado existia, de modo que nao houve propagacao para questionario ou baralho e nao ha card no Anki a corrigir a mao.",
+  "summary": {
+    "red": 1,
+    "orange": 8,
+    "yellow": 8,
+    "blue": 21,
+    "white": 0,
+    "verified_ok": 21,
+    "claims_declared_by_author": 19,
+    "claims_raised_by_audit": 6,
+    "claims_tracked_total": 25,
+    "worked_examples_recomputed": 4,
+    "worked_examples_arithmetic_failures": 2,
+    "worked_examples_arithmetic_failures_open": 0,
+    "worked_examples_logic_failures": 1,
+    "worked_examples_logic_failures_open": 0,
+    "open_findings": 0,
+    "red_open": 0,
+    "orange_open": 0,
+    "yellow_open": 0,
+    "white_open": 0,
+    "red_fixed": 1,
+    "orange_fixed": 8,
+    "yellow_fixed": 8,
+    "white_treated": 0,
+    "findings_resolved": 17,
+    "summary_note": "As contagens red/orange/yellow/blue/white sao as do LEVANTAMENTO e nao mudam - um achado nao se apaga ao ser corrigido, muda de situacao. Os campos *_open dizem o que continua pendente: ZERO em todas as severidades. Nenhum achado branco neste modulo: nao ha, no material, controversia real da literatura apresentada como resolvida. Nenhum achado foi inventado para preencher a categoria. PRIMEIRO MODULO DO CURSO EM QUE OS QUATRO EXEMPLOS TRABALHADOS PEDEM ARITMETICA: os quatro foram refeitos numero por numero; dois fecham (a02, a04 na parte numerica), o da a01 tinha erro de percentual e razao de pesos errada, o da a03 fechava numericamente mas argumentava pelo caminho errado."
+  },
+  "dominant_pattern": "A CONFUSAO CONCEITUAL DE ALTO NIVEL, NAO O ERRO NUMERICO - o modulo quebra o padrao dos tres anteriores. M17, M18 e M19 tiveram como defeito dominante a ATRIBUICAO DE FONTE; aqui ela continua presente (os 8 amarelos sao todos disso, QUARTA REINCIDENCIA), mas nao e mais o achado mais caro. Os tres achados de maior impacto sao simplificacoes que a literatura aplicada de geoestatistica repete ha decadas e que sao FALSAS: (1) 'a hipotese intrinseca tolera deriva' (vermelho 1) - a folga esta na dispensa de variancia a priori finita, e deriva viola E[Z(x+h)-Z(x)]=0; (2) 'o comportamento na origem distingue esferico de exponencial' (laranja 7) - os dois sao lineares na origem, o comportamento na origem separa o gaussiano dos outros dois; (3) 'a media aritmetica nao ponderada superestima sistematicamente' (laranja 2) - o sentido do vies segue o sinal da correlacao comprimento-teor. Os tres tem a mesma assinatura: a afirmacao errada e a VERSAO MNEMONICA de uma afirmacao certa, e circula justamente por ser mais facil de lembrar. Consequencia para o gerador de questionarios: os tres sao distratores de altissima qualidade - ver generator_warnings.",
+  "cross_module_check": "Verificacao explicita contra o M13 (geoprocessamento), pre-requisito declarado, e contra o M15 (petrofisica) e o M19, que tocam tratamento estatistico de dado geofisico. NENHUMA CONTRADICAO ENCONTRADA. O M20 nao repete nenhum valor numerico ja fixado em modulo fechado. PONTO DE ATENCAO PARA ADIANTE, registrado e nao tratado como achado: o M21 (modelagem geoestatistica de depositos minerais) e o M42 (exploracao mineral e avaliacao de recursos) ainda nao tem aulas escritas, e tres decisoes terminologicas deste modulo precisam ser herdadas sem divergencia - (a) valor extremo de alto teor NAO e teor de corte; (b) a hipotese intrinseca NAO acomoda deriva, que e assunto de quase-estacionariedade / krigagem universal; (c) a relacao de Krige e identidade exata dentro de um dominio D.",
+  "process_defect_note": "O defeito de ATRIBUICAO DE FONTE ja custou 4 achados no M17, 6 no M18, 7 no M19 e agora 8 no M20. CONTINUA PIORANDO. A recomendacao explicita registrada nas auditorias do M18 e do M19 - acrescentar ao gerador de aula uma verificacao obrigatoria de que cada entrada da lista de Fontes (a) existe com aquele autor, ano, periodico e paginacao e (b) trata efetivamente do fato que a aula lhe credita - segue NAO IMPLEMENTADA, quarta reincidencia consecutiva. Neste modulo o defeito tem forma especifica e ainda mais facil de automatizar: o LIVRO citado esta sempre certo e o CAPITULO sempre errado, em quatro obras de tabela de conteudos publicamente verificavel (Isaaks & Srivastava 1989, Journel & Huijbregts 1978, Goovaerts 1997, Sinclair & Blackwell 2002). Uma tabela de correspondencia capitulo-assunto dessas quatro obras, embutida no gerador, eliminaria os 8 amarelos de uma vez.",
+  "findings": [
+    {
+      "claim_id": "GEOEST-M20-A02-HIPOTESEINTRINSECA-002",
+      "severity": "red",
+      "nature": "erro_factual",
+      "lesson": "a02",
+      "location": "Secao 'Estacionariedade: por que repetir no espaco substitui repetir no tempo'; Recap relampago; bloco alegacoes_auditaveis",
+      "written": "a hipotese intrinseca continua valida mesmo em fenomenos com uma DERIVA (drift) regional lenta ... situacao em que a covariancia de segunda ordem deixa de estar bem definida (a variancia teorica cresce sem limite) mas o variograma dos incrementos locais ainda pode existir e ser modelado.",
+      "problem": "A hipotese intrinseca tem DUAS condicoes, e a primeira, E[Z(x+h)-Z(x)]=0, E uma condicao de media constante: uma deriva a VIOLA, nao e acomodada por ela. A folga entre hipotese intrinseca e estacionariedade de segunda ordem esta na DISPENSA DE VARIANCIA A PRIORI FINITA - fenomenos de variabilidade nao limitada (variograma sem patamar; modelos linear e de potencia; comportamento browniano) satisfazem a intrinseca e nao satisfazem a de segunda ordem, porque C(0)=sigma2 nao existe. O parentese sobre variancia crescendo sem limite e a razao CERTA, mas o texto a atribui a deriva, que e problema de outra natureza. Deriva se trata por quase-estacionariedade em vizinhanca movel (o que a krigagem ordinaria faz, e a razao pratica de ela dominar a industria) ou, formalmente, por krigagem universal / IRF-k. E erro de DIRECAO, nao de grau, sobre o conceito que organiza a aula inteira e que a a04 usa como justificativa para preferir a KO.",
+      "correction": "Tres paragrafos reescritos na a02 separando (a) onde esta a folga entre as hipoteses (variancia nao limitada) de (b) o que fazer com deriva (quase-estacionariedade / krigagem universal / IRF-k, declaradas fora do escopo). Recap e alegacao realinhados, com nota de revisao datada na alegacao.",
+      "source": "Journel & Huijbregts (1978), Mining Geostatistics, cap. II; Chiles & Delfiner (2012), Geostatistics: Modeling Spatial Uncertainty, 2a ed., Wiley, caps. 1-2; Matheron (1963), Economic Geology 58(8), 1246-1266; M. Putti, 'Kriging with the intrinsic hypothesis' (Univ. Padova), consultado em 2026-09-18",
+      "source_level": "tratado de referencia / revisada por pares",
+      "confidence": "confirmado",
+      "affected_files": [
+        "20-geoestatistica-aula-02-variaveis-regionalizadas-hipotese-intrinseca.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-18"
+    },
+    {
+      "claim_id": "GEOEST-M20-A01-VIESMEDIASIMPLES-006",
+      "severity": "orange",
+      "nature": "confusao_de_escopo",
+      "lesson": "a01",
+      "location": "Exemplo trabalhado, item (c)",
+      "written": "A media simples superestima sistematicamente o teor medio sempre que amostras curtas e amostras longas nao tem teores parecidos (o que e a regra, nao a excecao, em depositos reais)",
+      "problem": "O vies da media nao ponderada acompanha o SINAL da correlacao entre comprimento da amostra e teor: superestima quando as amostras curtas sao as mais ricas, SUBESTIMA quando sao as mais pobres. Palmer (2024) documenta exatamente isso furo a furo. Como escrito, a aula ensina uma regra de direcao fixa que o aluno aplicaria errado metade das vezes, e perde a observacao util: o vies para cima predomina porque o geologo tende a isolar em intervalos curtos as zonas estreitas de alto teor - habito de amostragem, nao lei estatistica.",
+      "correction": "Trecho reescrito nomeando a condicao do vies (correlacao comprimento-teor), dando as duas direcoes e explicando a razao pratica do predominio do vies para cima. Alegacao nova registrada no bloco de metadados da a01.",
+      "source": "Palmer, L. W. (2024), 'Compositing and regularization of drillhole data for geostatistical resource estimation', J. South. Afr. Inst. Min. Metall. 124(6), 331; Sinclair & Blackwell (2002), cap. 5",
+      "source_level": "revisada por pares",
+      "confidence": "confirmado",
+      "affected_files": [
+        "20-geoestatistica-aula-01-preparacao-dados-estatistica-descritiva.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-18",
+      "raised_by": "auditoria"
+    },
+    {
+      "claim_id": "GEOEST-M20-A01-ARITMETICAEXEMPLO-007",
+      "severity": "orange",
+      "nature": "erro_factual",
+      "lesson": "a01",
+      "location": "Exemplo trabalhado, item (b)",
+      "written": "A media simples (1,58 g/t) e 28% maior do que a composicao ponderada (1,24 g/t). ... recebe, na media simples, o mesmo peso que os intervalos de 2,0 m - um peso quatro vezes maior do que o comprimento de rocha que ele de fato representa.",
+      "problem": "Dois erros numericos numa frase. (1) 1,5833/1,24375 = 1,273 -> 27%, nao 28%; mesmo com os valores arredondados impressos, 1,58/1,24 = 1,274 -> 27%. Nenhum arredondamento produz 28. (2) O fator 4 e a razao entre 2,0 m e 0,5 m, e nao a razao entre o peso recebido e o peso devido: a amostra 3 recebe 1/6 = 16,7% do peso e representa 0,5/8,0 = 6,25% da rocha, ou seja 2,7 vezes mais peso do que lhe cabe. A frase, como construida, afirma a segunda coisa e da o numero da primeira.",
+      "correction": "'28%' -> 'cerca de 27%'; razao de pesos reescrita com as duas fracoes explicitas (16,7% recebido contra 6,25% devido) e fator corrigido para 2,7. Alegacao nova registrada com a aritmetica completa.",
+      "source": "Aritmetica verificavel a partir da propria tabela do exemplo; recalculada na auditoria de 2026-09-18",
+      "source_level": "calculo direto",
+      "confidence": "confirmado",
+      "affected_files": [
+        "20-geoestatistica-aula-01-preparacao-dados-estatistica-descritiva.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-18",
+      "raised_by": "auditoria"
+    },
+    {
+      "claim_id": "GEOEST-M20-A01-CAPPING-004",
+      "severity": "orange",
+      "nature": "confusao_de_escopo",
+      "lesson": "a01",
+      "location": "Secao 'Histograma, boxplot e o problema dos valores extremos'",
+      "written": "A pratica de recursos minerais chama esse segundo caso de VALOR DE CORTE ALTO (high-grade outlier)",
+      "problem": "'Valor de corte' ja e o nome consagrado do cut-off grade, o limiar ECONOMICO que separa minerio de esteril e governa a curva teor-tonelagem. Usar o mesmo termo para um valor extremo de alto teor, num modulo de geoestatistica de recursos minerais onde o teor de corte aparece de verdade adiante (M21, M42), instala colisao terminologica num aluno que ainda nao conhece nenhum dos dois termos. Agrava que o mesmo paragrafo fala em 'valores acima de um limiar'.",
+      "correction": "'valor de corte alto' -> 'valor extremo de alto teor (high-grade outlier)', com aposto distinguindo explicitamente de teor de corte (cut-off grade). Nota terminologica acrescentada a alegacao -004.",
+      "source": "Sinclair & Blackwell (2002), Applied Mineral Inventory Estimation, cap. 7 (Outliers)",
+      "source_level": "tratado de referencia",
+      "confidence": "confirmado",
+      "affected_files": [
+        "20-geoestatistica-aula-01-preparacao-dados-estatistica-descritiva.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-18"
+    },
+    {
+      "claim_id": "GEOEST-M20-A01-CORRELACAOESPACIAL-005",
+      "severity": "orange",
+      "nature": "certeza_indevida",
+      "lesson": "a01",
+      "location": "Bloco alegacoes_auditaveis; Recap relampago",
+      "written": "as duas analises sao estatisticamente independentes entre si",
+      "problem": "Independencia estatistica e termo tecnico com significado preciso, e nao e o que se quer dizer. O que a aula estabelece corretamente e que correlacao entre variaveis no mesmo ponto e continuidade espacial da mesma variavel entre pontos sao perguntas LOGICAMENTE independentes - uma nao implica nem restringe a outra. 'Estatisticamente independentes' afirma algo mais forte e falso: num deposito real as duas estruturas costumam estar relacionadas, e explorar essa relacao e o que a cokrigagem faz via variograma cruzado. Deixar a afirmacao forte bloqueia conceitualmente o M21 (modelagem multivariada).",
+      "correction": "Alegacao reescrita para 'logicamente independentes', com ressalva explicita de que isso nao equivale a independencia estatistica e ponteiro para cokrigagem, declarada fora do escopo. Recap da a01 recebeu a mesma precisao em uma frase.",
+      "source": "Isaaks & Srivastava (1989), caps. 3 e 7; Goovaerts (1997), cap. 6 (estimativa local com informacao secundaria)",
+      "source_level": "tratado de referencia",
+      "confidence": "confirmado",
+      "affected_files": [
+        "20-geoestatistica-aula-01-preparacao-dados-estatistica-descritiva.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-18"
+    },
+    {
+      "claim_id": "GEOEST-M20-A02-RELACAOKRIGE-003",
+      "severity": "orange",
+      "nature": "omissao_que_gera_erro",
+      "lesson": "a02",
+      "location": "Secao 'O suporte: por que o mesmo deposito tem variancias diferentes'",
+      "written": "estabelece que a variancia de blocos e APROXIMADAMENTE IGUAL a variancia de pontos menos a variancia 'dentro do bloco'",
+      "problem": "E uma IDENTIDADE EXATA, nao aproximacao: aditividade das variancias de dispersao, D2(.|D) = D2(.|v) + D2(v|D), com D2(.|v) = gamma-barra(v,v). Chama-la de aproximacao enfraquece o que o aluno precisa levar - que o efeito de suporte e consequencia necessaria, nao ajuste empirico dispensavel. Agrava que a frase seguinte apresenta a equacao com sinal de igualdade: o texto se contradiz em duas linhas. Segundo problema, de omissao: a relacao so vale DENTRO DE UM MESMO DOMINIO DE REFERENCIA D, e omitir isso abre a porta para subtrair variancias medidas em dominios geologicos diferentes.",
+      "correction": "'aproximadamente igual' -> identidade exata, com o dominio D nomeado e a origem empirica (Krige, Witwatersrand) registrada. Alegacao -003 reescrita na notacao de variancia de dispersao.",
+      "source": "Journel & Huijbregts (1978), cap. II; Isaaks & Srivastava (1989), cap. 19 (Change of Support); Geostatistics Lessons, 'Change of Support and the Volume Variance Relation'",
+      "source_level": "tratado de referencia",
+      "confidence": "confirmado",
+      "affected_files": [
+        "20-geoestatistica-aula-02-variaveis-regionalizadas-hipotese-intrinseca.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-18"
+    },
+    {
+      "claim_id": "GEOEST-M20-A03-MODELOSTEORICOS-003",
+      "severity": "orange",
+      "nature": "erro_factual",
+      "lesson": "a03",
+      "location": "Secao 'Modelos teoricos'; Exemplo trabalhado (pergunta e resolucao); Recap; cabecalho 'Ao final voce vai conseguir'",
+      "written": "um crescimento aproximadamente linear a partir de h=0 favorece o esferico; um crescimento mais abrupto, QUASE VERTICAL, favorece o exponencial; uma curvatura suave e horizontal na origem favorece o gaussiano.",
+      "problem": "O modelo exponencial e LINEAR na origem, nao 'quase vertical': gamma(h)=C(1-exp(-3h/a)) ~ 3Ch/a para h pequeno - inclinacao finita, exatamente o dobro da do esferico (1,5C/a) para o mesmo alcance. Os dois tem o MESMO TIPO de comportamento na origem. O comportamento na origem separa o GAUSSIANO (unico parabolico, tangente horizontal) dos outros dois, e so isso. Apresenta-lo como criterio de escolha entre esferico e exponencial ensina um procedimento que nao funciona. O criterio real e a forma da aproximacao ao patamar (finita com quebra nitida no esferico; assintotica e gradual no exponencial) mais a inclinacao inicial relativa. AGRAVANTE: o exemplo trabalhado chegava a resposta certa pelo caminho errado - a pergunta pedia decidir 'com base no crescimento entre os dois primeiros lags' e a resolucao argumentava por linearidade na origem, que nao discrimina. Os dados de fato discriminam, mas por outra via: um exponencial de alcance pratico 120 m preveria gamma(20)~0,27 contra os 0,18 observados, e continuaria subindo alem de 120 m em vez de travar.",
+      "correction": "Secao de modelos reescrita consignando a linearidade na origem de esferico E exponencial, a inclinacao inicial relativa e a aproximacao ao patamar como criterio discriminante; gaussiano ganhou o alcance pratico a 95% que faltava. Pergunta e resolucao do exemplo refeitas com o argumento correto, incluindo a previsao numerica do exponencial concorrente e a conferencia ponto a ponto do ajuste esferico. Recap e cabecalho realinhados. Alegacao -003 reescrita com nota datada; alegacao nova GEOEST-M20-A03-AJUSTEEXEMPLO-006 registrada.",
+      "source": "Isaaks & Srivastava (1989), cap. 16; Journel & Huijbregts (1978), cap. III; documentacao tecnica de variografia (Seequent Leapfrog/Geothermal, Maptek Vulcan, SAS PROC VARIOGRAM), que consigna explicitamente a linearidade na origem de ambos e o alcance pratico a 95% para exponencial e gaussiano",
+      "source_level": "tratado de referencia + documentacao normativa de software",
+      "confidence": "confirmado",
+      "affected_files": [
+        "20-geoestatistica-aula-03-variografia-variogramas.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-18"
+    },
+    {
+      "claim_id": "GEOEST-M20-A04-RAIOBUSCA-006",
+      "severity": "orange",
+      "nature": "erro_factual",
+      "lesson": "a04",
+      "location": "Secao 'Vizinhanca de busca'; Recap relampago",
+      "written": "tipicamente definida por um raio (ancorado no alcance do variograma, frequentemente um valor ENTRE METADE E O ALCANCE TOTAL)",
+      "problem": "A pratica consolidada vai na direcao oposta: o raio e tipicamente IGUAL AO ALCANCE OU MAIOR, e com frequencia estendido a 1,5-2 vezes o alcance quando a malha e esparsa e o minimo de amostras nao seria atingido; buscas em multiplas passadas com raio crescente sao rotina em malha irregular. A razao especifica da krigagem ordinaria e que amostras ALEM do alcance ainda contribuem - nao para a estrutura, mas para a estimativa implicita da media local, que e o que a KO faz de diferente da KS. Recomendar meio alcance produziria vizinhancas sub-informadas, estimativas erraticas e blocos nao estimados. Achado de consequencia operacional direta: e um parametro que o aluno vai digitar num software.",
+      "correction": "Paragrafo reescrito com a pratica correta (raio >= alcance, 1,5-2x em malha esparsa), a razao especifica da KO e a mencao a busca em multiplas passadas. Recap realinhado. Alegacao nova registrada com nota sobre o que a versao anterior dizia.",
+      "source": "Deutsch, J. L. & Deutsch, C. V., 'Quantitative Kriging Neighborhood Analysis (QKNA)' e 'Introduction to Choosing a Kriging Plan', Geostatistics Lessons (geostatisticslessons.com, consultados em 2026-09-18); Isaaks & Srivastava (1989), cap. 14 (Search Strategy)",
+      "source_level": "referencia tecnica aplicada + tratado",
+      "confidence": "confirmado",
+      "affected_files": [
+        "20-geoestatistica-aula-04-krigagem-simples-ordinaria.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-18",
+      "raised_by": "auditoria"
+    },
+    {
+      "claim_id": "GEOEST-M20-A04-ESTABILIDADESISTEMA-008",
+      "severity": "orange",
+      "nature": "erro_factual",
+      "lesson": "a04",
+      "location": "Secao 'Vizinhanca de busca'",
+      "written": "Um numero minimo de amostras evita estimativas baseadas em pouquissima informacao (e o sistema de krigagem se torna numericamente instavel, ou mesmo INDETERMINADO, com poucas amostras)",
+      "problem": "O sistema de krigagem ordinaria nao fica indeterminado por escassez de amostras: com uma unica amostra, a restricao soma(lambda)=1 ja determina lambda1=1 e o sistema e resolvido. A justificativa para exigir um minimo e de QUALIDADE DE ESTIMATIVA (erratica, sem controle local, sem suavizacao), nao de solubilidade. A instabilidade numerica genuina vem de amostras muito proximas ou coincidentes na vizinhanca, que tornam a matriz quase singular (e, no gaussiano, do comportamento parabolico na origem com pepita nulo). Como escrito, o texto atribui ao NUMERO de amostras um efeito que pertence a CONFIGURACAO delas.",
+      "correction": "Trecho reescrito separando as duas coisas - o minimo de amostras existe por qualidade de estimativa; a instabilidade numerica vem de amostras quase coincidentes. Alegacao nova registrada.",
+      "source": "Isaaks & Srivastava (1989), caps. 12 e 14; Geostatistics Lessons, 'Introduction to Choosing a Kriging Plan'",
+      "source_level": "tratado de referencia",
+      "confidence": "confirmado",
+      "affected_files": [
+        "20-geoestatistica-aula-04-krigagem-simples-ordinaria.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-18",
+      "raised_by": "auditoria"
+    },
+    {
+      "claim_id": "GEOEST-M20-A04-ARREDONDAMENTOPESOS-007",
+      "severity": "yellow",
+      "nature": "erro_factual",
+      "lesson": "a04",
+      "location": "Exemplo trabalhado",
+      "written": "lambda1 ~ 0,813 e lambda2 ~ 0,187",
+      "problem": "Os valores exatos sao 0,8125 e 0,1875. Arredondados para tres casas dariam 0,813 e 0,188 - 0,187 nao e o arredondamento de 0,1875. A aula escolheu 0,187 para a soma fechar em 1,000, o que e compreensivel mas cria um numero que nao e nem exato nem corretamente arredondado, justo numa aula em que a soma unitaria dos pesos e o conceito em jogo. O aluno que refizesse a conta encontraria 0,1875 e nao saberia se errou.",
+      "correction": "Exemplo passou a usar os valores exatos 0,8125 e 0,1875, com nota explicando o arredondamento; estimativa e variancia de krigagem recalculadas com eles (1,625+0,263=1,89%; sigma2_KO=0,833). Alegacao nova registrada com a verificacao numerica completa.",
+      "source": "Calculo direto verificado contra a formula do modelo esferico e o sistema de krigagem ordinaria (Isaaks & Srivastava 1989, cap. 12; Journel & Huijbregts 1978, cap. V)",
+      "source_level": "calculo direto",
+      "confidence": "confirmado",
+      "affected_files": [
+        "20-geoestatistica-aula-04-krigagem-simples-ordinaria.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-18",
+      "raised_by": "auditoria"
+    },
+    {
+      "claim_id": "GEOEST-M20-FONTES-ISAAKS-A01-010",
+      "severity": "yellow",
+      "nature": "erro_factual",
+      "lesson": "a01",
+      "location": "Lista de Fontes e bloco alegacoes_auditaveis",
+      "written": "Isaaks & Srivastava (1989) citados como 'capitulos 2 e 4 (estatistica descritiva aplicada a dados geologicos, tratamento de outliers)'; alegacao -005 citando 'capitulos 2 (estatistica classica bivariada) e 5 (variograma como ferramenta de continuidade espacial)'",
+      "problem": "O cap. 4 e 'Spatial Description' e nao trata de outliers; o cap. 2 e 'Univariate Description' e nao e bivariado; o cap. 5 e 'The Exhaustive Data Set' e nao e o do variograma. Correspondencias corretas: cap. 2 = univariada (incluindo valores extremos), cap. 3 = bivariada (correlacao e regressao), cap. 7 = continuidade espacial amostral / variograma.",
+      "correction": "Fontes da a01: 'capitulos 2 e 4' -> cap. 2 (descricao univariada) e cap. 3 (descricao bivariada). Alegacao -005: caps. 2 e 5 -> caps. 3 e 7.",
+      "source": "Sumarios bibliograficos conferidos: Isaaks & Srivastava (1989, Oxford University Press, 561 p.); Journel & Huijbregts (1978, Academic Press); Goovaerts (1997, Oxford University Press, 483 p.); Sinclair & Blackwell (2002, Cambridge University Press, 381 p.). Consultados em 2026-09-18.",
+      "source_level": "bibliografica",
+      "confidence": "confirmado",
+      "affected_files": [
+        "20-geoestatistica-aula-01-preparacao-dados-estatistica-descritiva.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-18"
+    },
+    {
+      "claim_id": "GEOEST-M20-FONTES-SINCLAIR-A01-011",
+      "severity": "yellow",
+      "nature": "erro_factual",
+      "lesson": "a01",
+      "location": "Lista de Fontes e bloco alegacoes_auditaveis",
+      "written": "Sinclair & Blackwell (2002) citados como 'capitulo 3 (compositing e estatistica descritiva no fluxo de trabalho de estimativa de recursos minerais)'; alegacoes -001, -002 e -004 repetindo o cap. 3",
+      "problem": "O cap. 3 de Sinclair & Blackwell e 'Continuity'. Compositing esta no cap. 5 ('Data and Data Quality'); conceitos estatisticos e avaliacao exploratoria nos caps. 4 e 6; outliers e seu tratamento no cap. 7.",
+      "correction": "Fontes da a01 reescritas para caps. 4, 5 e 7 com o assunto de cada um; alegacao -001 -> cap. 5 (mais Palmer 2024); alegacao -002 -> caps. 4 e 6; alegacao -004 -> cap. 7.",
+      "source": "Sumarios bibliograficos conferidos: Isaaks & Srivastava (1989, Oxford University Press, 561 p.); Journel & Huijbregts (1978, Academic Press); Goovaerts (1997, Oxford University Press, 483 p.); Sinclair & Blackwell (2002, Cambridge University Press, 381 p.). Consultados em 2026-09-18.",
+      "source_level": "bibliografica",
+      "confidence": "confirmado",
+      "affected_files": [
+        "20-geoestatistica-aula-01-preparacao-dados-estatistica-descritiva.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-18"
+    },
+    {
+      "claim_id": "GEOEST-M20-FONTES-ISAAKS-A02-012",
+      "severity": "yellow",
+      "nature": "erro_factual",
+      "lesson": "a02",
+      "location": "Lista de Fontes e bloco alegacoes_auditaveis",
+      "written": "Isaaks & Srivastava (1989) citados como 'capitulos 4 e 9 (funcao aleatoria, estacionariedade, hipotese intrinseca, efeito de suporte)'; alegacoes -002 e -003 citando o cap. 4",
+      "problem": "O cap. 9 ('Random Function Models') esta correto para funcao aleatoria e estacionariedade, mas o cap. 4 e 'Spatial Description' e nao trata de efeito de suporte - o capitulo de efeito de suporte e o 19, 'Change of Support'.",
+      "correction": "Fontes da a02: 'caps. 4 e 9' -> cap. 9 (modelos de funcao aleatoria) e cap. 19 (mudanca de suporte). Alegacao -002 -> cap. 9; alegacao -003 -> cap. 19.",
+      "source": "Sumarios bibliograficos conferidos: Isaaks & Srivastava (1989, Oxford University Press, 561 p.); Journel & Huijbregts (1978, Academic Press); Goovaerts (1997, Oxford University Press, 483 p.); Sinclair & Blackwell (2002, Cambridge University Press, 381 p.). Consultados em 2026-09-18.",
+      "source_level": "bibliografica",
+      "confidence": "confirmado",
+      "affected_files": [
+        "20-geoestatistica-aula-02-variaveis-regionalizadas-hipotese-intrinseca.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-18"
+    },
+    {
+      "claim_id": "GEOEST-M20-FONTES-JOURNEL-A02-013",
+      "severity": "yellow",
+      "nature": "erro_factual",
+      "lesson": "a02",
+      "location": "Lista de Fontes e bloco alegacoes_auditaveis",
+      "written": "Journel & Huijbregts (1978) citados como 'capitulo III (formalizacao da hipotese intrinseca e da relacao de Krige entre variancia de suporte pontual e de bloco)'; alegacoes -002 e -003 repetindo o cap. III",
+      "problem": "O cap. III de Mining Geostatistics e 'Structural analysis' (variograma experimental, modelos, anisotropia). A hipotese intrinseca e as variancias de dispersao com a relacao de Krige estao no cap. II, 'The theory of regionalized variables'.",
+      "correction": "Fontes da a02 e alegacoes -002 e -003: cap. III -> cap. II, com o assunto nomeado.",
+      "source": "Sumarios bibliograficos conferidos: Isaaks & Srivastava (1989, Oxford University Press, 561 p.); Journel & Huijbregts (1978, Academic Press); Goovaerts (1997, Oxford University Press, 483 p.); Sinclair & Blackwell (2002, Cambridge University Press, 381 p.). Consultados em 2026-09-18.",
+      "source_level": "bibliografica",
+      "confidence": "confirmado",
+      "affected_files": [
+        "20-geoestatistica-aula-02-variaveis-regionalizadas-hipotese-intrinseca.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-18"
+    },
+    {
+      "claim_id": "GEOEST-M20-FONTES-ISAAKS-A03-014",
+      "severity": "yellow",
+      "nature": "erro_factual",
+      "lesson": "a03",
+      "location": "Lista de Fontes e bloco alegacoes_auditaveis",
+      "written": "Isaaks & Srivastava (1989) citados como 'capitulos 5, 6 e 7 (calculo do variograma experimental, elementos estruturais, modelos teoricos e anisotropia)'; alegacoes -001, -002 e -005 citando o cap. 5 e alegacoes -003 e -004 citando o cap. 7 para modelos e anisotropia",
+      "problem": "Os caps. 5 e 6 descrevem os conjuntos de dados usados no livro ('The Exhaustive Data Set', 'The Sample Data Set'), nao o calculo do variograma. O cap. 7 e o do variograma experimental e dos direcionais; modelos teoricos permissiveis, comportamento na origem, estruturas aninhadas e anisotropia estao no cap. 16, 'Modelling the Sample Variogram'.",
+      "correction": "Fontes da a03: 'caps. 5, 6 e 7' -> cap. 7 e cap. 16, com o assunto de cada um. Alegacoes -001, -002 e -005 -> cap. 7 (e 16 onde couber); alegacao -003 -> cap. 16; alegacao -004 -> caps. 7 e 16.",
+      "source": "Sumarios bibliograficos conferidos: Isaaks & Srivastava (1989, Oxford University Press, 561 p.); Journel & Huijbregts (1978, Academic Press); Goovaerts (1997, Oxford University Press, 483 p.); Sinclair & Blackwell (2002, Cambridge University Press, 381 p.). Consultados em 2026-09-18.",
+      "source_level": "bibliografica",
+      "confidence": "confirmado",
+      "affected_files": [
+        "20-geoestatistica-aula-03-variografia-variogramas.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-18"
+    },
+    {
+      "claim_id": "GEOEST-M20-FONTES-ISAAKS-A04-015",
+      "severity": "yellow",
+      "nature": "erro_factual",
+      "lesson": "a04",
+      "location": "Lista de Fontes e bloco alegacoes_auditaveis",
+      "written": "Isaaks & Srivastava (1989) citados como 'capitulos 12 e 13 (formulacao completa dos sistemas de krigagem simples e ordinaria, krigagem de bloco, validacao cruzada)'; alegacao -002 citando 'capitulos 12 (krigagem simples) e 13 (krigagem ordinaria)'",
+      "problem": "O cap. 12 e 'Ordinary Kriging' e o cap. 13 e 'Block Kriging' - a alegacao -002 inverte o conteudo dos dois. Alem disso a aula usa estrategia de busca (cap. 14) e validacao cruzada (cap. 15) sem citar nenhum dos dois.",
+      "correction": "Fontes da a04 reescritas para caps. 12 (krigagem ordinaria; KS como caso de media conhecida), 13 (krigagem de bloco), 14 (estrategia de busca) e 15 (validacao cruzada). Alegacao -002 corrigida.",
+      "source": "Sumarios bibliograficos conferidos: Isaaks & Srivastava (1989, Oxford University Press, 561 p.); Journel & Huijbregts (1978, Academic Press); Goovaerts (1997, Oxford University Press, 483 p.); Sinclair & Blackwell (2002, Cambridge University Press, 381 p.). Consultados em 2026-09-18.",
+      "source_level": "bibliografica",
+      "confidence": "confirmado",
+      "affected_files": [
+        "20-geoestatistica-aula-04-krigagem-simples-ordinaria.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-18"
+    },
+    {
+      "claim_id": "GEOEST-M20-FONTES-GOOVAERTS-A04-016",
+      "severity": "yellow",
+      "nature": "erro_factual",
+      "lesson": "a04",
+      "location": "Lista de Fontes e bloco alegacoes_auditaveis",
+      "written": "Goovaerts (1997) citado como 'capitulos 5 e 6 (krigagem simples versus ordinaria, vizinhanca de busca, validacao cruzada)'; alegacao -005 citando o cap. 6 para validacao cruzada",
+      "problem": "O cap. 5 ('Local Estimation: Accounting for a Single Attribute') cobre krigagem simples, ordinaria, com modelo de tendencia, vizinhanca de busca e validacao cruzada. O cap. 6 e 'Local Estimation: Accounting for Secondary Information' - cokrigagem - e nao trata de validacao cruzada.",
+      "correction": "Fontes da a04: 'caps. 5 e 6' -> cap. 4 (inferencia e modelagem) e cap. 5 (estimativa local com um unico atributo). Alegacao -005: cap. 6 -> cap. 5.",
+      "source": "Sumarios bibliograficos conferidos: Isaaks & Srivastava (1989, Oxford University Press, 561 p.); Journel & Huijbregts (1978, Academic Press); Goovaerts (1997, Oxford University Press, 483 p.); Sinclair & Blackwell (2002, Cambridge University Press, 381 p.). Consultados em 2026-09-18.",
+      "source_level": "bibliografica",
+      "confidence": "confirmado",
+      "affected_files": [
+        "20-geoestatistica-aula-04-krigagem-simples-ordinaria.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-18"
+    }
+  ],
+  "verified_ok": [
+    {
+      "id": "B1",
+      "lesson": "a01",
+      "claim": "Formula da composicao ponderada por comprimento; compositar em comprimento maior reduz a variancia (primeira manifestacao do efeito de suporte)",
+      "verdict": "correto",
+      "source": "Sinclair & Blackwell (2002) cap. 5; Palmer (2024)"
+    },
+    {
+      "id": "B2",
+      "lesson": "a01",
+      "claim": "CV acima de ~1 a 2 como sinal de alerta de distribuicao fortemente assimetrica",
+      "verdict": "correto como heuristica",
+      "source": "Confirmado; literatura de veios de ouro com forte pepita documenta CV > 20, o que REFORCA a natureza orientativa do limiar - nota acrescentada a alegacao -002"
+    },
+    {
+      "id": "B3",
+      "lesson": "a01",
+      "claim": "Tendencia lognormal dos teores de metais preciosos",
+      "verdict": "correto",
+      "source": "Journel & Huijbregts (1978) cap. II"
+    },
+    {
+      "id": "B4",
+      "lesson": "a01",
+      "claim": "Capeamento (nao exclusao) como tratamento padrao de extremo genuino; percentil 99 ou inflexao da curva de metal acumulado",
+      "verdict": "correto",
+      "source": "Sinclair & Blackwell (2002) cap. 7"
+    },
+    {
+      "id": "B5",
+      "lesson": "a01",
+      "claim": "Limiar de 1,5 x amplitude interquartil no boxplot; formulas de variancia amostral (n-1) e do r de Pearson",
+      "verdict": "correto",
+      "source": "Convencao de Tukey; formulas conferidas"
+    },
+    {
+      "id": "B6",
+      "lesson": "a02",
+      "claim": "Matheron formaliza a variavel regionalizada nos anos 1960 a partir do trabalho empirico de D. G. Krige na mineracao de ouro sul-africana",
+      "verdict": "correto",
+      "source": "Matheron (1963), Economic Geology 58(8), 1246-1266 - CITACAO CONFERIDA em volume, numero e paginacao"
+    },
+    {
+      "id": "B7",
+      "lesson": "a02",
+      "claim": "Estacionariedade de segunda ordem: E[Z(x)]=m constante e covariancia dependente so de h, com C(0)=sigma2",
+      "verdict": "correto",
+      "source": "Journel & Huijbregts (1978) cap. II"
+    },
+    {
+      "id": "B8",
+      "lesson": "a02",
+      "claim": "Segunda ordem implica intrinseca, e a reciproca e falsa",
+      "verdict": "correto",
+      "source": "A RELACAO DE FORCA esta certa; o que estava errado era a RAZAO (achado vermelho 1)"
+    },
+    {
+      "id": "B9",
+      "lesson": "a02",
+      "claim": "Anisotropia geometrica (mesmo patamar, alcance variavel, transformacao eliptica) versus zonal (patamar variavel)",
+      "verdict": "correto",
+      "source": "Isaaks & Srivastava (1989) caps. 7 e 16"
+    },
+    {
+      "id": "B10",
+      "lesson": "a02",
+      "claim": "EXEMPLO TRABALHADO, aritmetica: 4,0-1,5=2,5 (62,5% de 4,0); 1,2-0,3=0,9 (75% de 1,2); reducao relativa maior na Area 1",
+      "verdict": "correto",
+      "source": "Recalculado - fecha"
+    },
+    {
+      "id": "B11",
+      "lesson": "a02",
+      "claim": "Ignorar o efeito de suporte superestima a proporcao de blocos de teor extremo (alto E baixo)",
+      "verdict": "correto",
+      "source": "Isaaks & Srivastava (1989) cap. 19"
+    },
+    {
+      "id": "B12",
+      "lesson": "a03",
+      "claim": "Formula do variograma experimental; lags, tolerancia de distancia e angular; efeito de tolerancias estreitas/largas",
+      "verdict": "correto",
+      "source": "Isaaks & Srivastava (1989) cap. 7; Clark (1979) cap. 2"
+    },
+    {
+      "id": "B13",
+      "lesson": "a03",
+      "claim": "Efeito pepita como soma nao separavel de variabilidade real de curtissima escala e erro de amostragem/analise; origem do nome",
+      "verdict": "correto",
+      "source": "Journel & Huijbregts (1978) cap. III"
+    },
+    {
+      "id": "B14",
+      "lesson": "a03",
+      "claim": "Patamar igual a variancia a priori sob estacionariedade de segunda ordem; alcance como distancia alem da qual nao ha informacao espacial mutua",
+      "verdict": "correto",
+      "source": "Isaaks & Srivastava (1989) caps. 7 e 16"
+    },
+    {
+      "id": "B15",
+      "lesson": "a03",
+      "claim": "Alcance pratico do exponencial a 95% do patamar",
+      "verdict": "correto",
+      "source": "Confirmado - e estendido ao gaussiano, que a aula omitia"
+    },
+    {
+      "id": "B16",
+      "lesson": "a03",
+      "claim": "Direcionais a cada 22,5 ou 30 graus cobrindo 180, por equivalencia entre h e -h",
+      "verdict": "correto",
+      "source": "Isaaks & Srivastava (1989) cap. 7"
+    },
+    {
+      "id": "B17",
+      "lesson": "a03",
+      "claim": "EXEMPLO TRABALHADO, ajuste: pepita ~0,04-0,06 por extrapolacao dos dois primeiros lags; patamar 0,60 batendo com a variancia a priori; alcance ~120 m",
+      "verdict": "correto",
+      "source": "Refeito. O modelo esferico C0=0,05, C1=0,55, a=120 preve 0,19/0,32/0,43/0,52/0,58 contra os observados 0,18/0,32/0,44/0,52/0,58 - ajuste excelente, exemplo bem construido"
+    },
+    {
+      "id": "B18",
+      "lesson": "a04",
+      "claim": "Propriedade BLUE: nao-vies + variancia minima do erro na classe dos estimadores lineares nao-viesados, com a ressalva de que nao garante acerto em cada caso individual",
+      "verdict": "correto",
+      "source": "Journel & Huijbregts (1978) cap. V"
+    },
+    {
+      "id": "B19",
+      "lesson": "a04",
+      "claim": "Sistema de KS em covariancia sem restricao de soma; C(h)=C(0)-gamma(h); pesos somando menos de 1 puxam a estimativa para m",
+      "verdict": "correto",
+      "source": "Isaaks & Srivastava (1989) cap. 12"
+    },
+    {
+      "id": "B20",
+      "lesson": "a04",
+      "claim": "Sistema de KO em variograma com multiplicador de Lagrange; sigma2_KO = soma(lambda_i gamma(x_i,x0)) + mu; variancia de krigagem independente dos valores observados e mapeavel antes dos teores",
+      "verdict": "correto",
+      "source": "Isaaks & Srivastava (1989) cap. 12; Journel & Huijbregts (1978) cap. V"
+    },
+    {
+      "id": "B21",
+      "lesson": "a04",
+      "claim": "EXEMPLO TRABALHADO, aritmetica completa: gamma(30)=0,4365; gamma(40)=0,568; gamma(60)=0,792 pelo esferico C=1,0, a=100, pepita nula; lambda1-lambda2=0,355/0,568=0,625; mu=0,3305; z*=1,8875%; sigma2_KO=0,833",
+      "verdict": "correto",
+      "source": "Recalculado do zero - fecha em todos os passos, salvo o arredondamento tratado no achado amarelo ARREDONDAMENTOPESOS-007"
+    }
+  ],
+  "assessment_gate": {
+    "status": "liberado",
+    "released": true,
+    "released_at": "2026-09-18",
+    "reason": "0 achados vermelhos e 0 laranjas em aberto. A inversao conceitual da hipotese intrinseca, unico risco de gabarito invertido do modulo, esta corrigida no corpo, no recap e na alegacao. Os quatro exemplos trabalhados foram refeitos e conferidos, e sao base segura para questao de aplicacao. Nenhum achado branco, nenhuma controversia aberta.",
+    "restrictions_for_future_assessment": [
+      "(a) O limiar de CV (~1 a 2) NAO e constante: cobrar o SIGNIFICADO de um CV alto (assimetria forte, media fragil, necessidade de capeamento ou metodo nao linear), nunca o numero como valor a memorizar. Depositos de ouro com forte efeito pepita tem CV bem acima de 2.",
+      "(b) A razao pepita/patamar NAO tem limiares universais: cobrar a direcao da leitura (razao menor = mais estrutura espacial = interpolacao mais confiavel), nao faixas numericas.",
+      "(c) Comprimento de composicao e raio de busca sao DECISOES DE PROJETO, nao formulas: cobrar o criterio (altura de bancada / comprimento amostral modal; raio >= alcance), nao um valor.",
+      "(d) NAO cobrar krigagem universal, IRF-k, cokrigagem nem metodos nao lineares como conteudo - os quatro aparecem apenas como ponteiros declarados fora do escopo."
+    ]
+  },
+  "generator_warnings": "Dez pontos mudaram nesta auditoria; gerar item a partir da versao anterior das aulas produz gabarito errado. Os de maior valor: (1) O PAR DE DISCRIMINACAO MAIS VALIOSO DO MODULO e 'variancia nao limitada' x 'deriva' - a hipotese intrinseca e mais fraca que a estacionariedade de segunda ordem porque DISPENSA VARIANCIA A PRIORI FINITA, nao porque tolera deriva. 'Tolera deriva' e o DISTRATOR PERFEITO, porque e exatamente o que circula na literatura aplicada. Prefira questao de DISCRIMINACAO a definicao isolada. NAO gerar card nem gabarito que diga que a hipotese intrinseca acomoda deriva - foi esse o erro vermelho corrigido. (2) SEGUNDO PAR DE ALTO VALOR: comportamento na origem. Esferico e exponencial sao AMBOS LINEARES na origem; so o gaussiano e parabolico. O que separa esferico de exponencial e a APROXIMACAO AO PATAMAR (finita com quebra nitida x assintotica). O distrator natural e 'o exponencial sobe quase vertical na origem' - era o que a aula dizia. (3) TERCEIRO: direcao do vies da media nao ponderada - nao e sistematico para cima, segue o sinal da correlacao comprimento-teor; o vies para cima predomina por pratica de amostragem, nao por lei estatistica. (4) NAO gerar item que trate a relacao de Krige como aproximacao - e identidade exata, dentro de um mesmo dominio D. (5) NAO gerar item que recomende raio de busca MENOR que o alcance - a pratica e >= alcance, frequentemente 1,5-2x. (6) NAO gerar item que diga que o sistema de krigagem fica indeterminado com poucas amostras - e soluvel ate com uma. (7) TERMINOLOGIA: usar VALOR EXTREMO DE ALTO TEOR para high-grade outlier; 'valor de corte' esta reservado ao cut-off grade e um item que os confunda e o erro que este modulo acabou de corrigir. (8) 'LOGICAMENTE independentes', nao 'estatisticamente independentes', para a relacao entre correlacao no ponto e continuidade espacial. (9) OS QUATRO EXEMPLOS TRABALHADOS SAO ARITMETICOS E TODOS CONFERIDOS - base segura para questao de aplicacao. Valores canonicos: composicao 1,24 g/t contra media simples 1,58 g/t (a01); sigma2_bloco 2,5 e 0,9 (a02); esferico C0=0,05, C1=0,55, a=120 m (a03); lambda1=0,8125, lambda2=0,1875, z*=1,89%, sigma2_KO=0,833 (a04). (10) A VARIANCIA DE KRIGAGEM NAO DEPENDE DOS VALORES OBSERVADOS - um dos pontos mais contraintuitivos e mais bem estabelecidos do modulo, excelente para verdadeiro/falso.",
+  "partials_recommendation": {
+    "status": "decidido",
+    "decision_owner": "geo-arquiteto (auditoria do M20)",
+    "decision": "questionario unico, sem parciais",
+    "note": "O modulo tem 4 AULAS, abaixo do limiar de ~5-6 do plugin a partir do qual se dividem parciais. Alem do numero, dois fatores reforcam: (a) o modulo tem UM UNICO FIO CONDUTOR LINEAR - cada aula e insumo direto da seguinte (dados -> modelo de funcao aleatoria -> variograma -> krigagem) -, de modo que nao existe corte conceitual natural que nao parta a cadeia ao meio; (b) a correspondencia aula-objetivo e 1:1 (a01->oa01, a02->oa02, a03->oa03, a04->oa04), sem agrupamento que sugira fronteira de parcial. Um questionario unico cumulativo cobre os quatro objetivos e, mais importante, permite as questoes de INTEGRACAO ENTRE AULAS, que sao as de maior valor aqui porque o modulo inteiro e uma cadeia de dependencias. Comparacao com os vizinhos: M19 (7 aulas) usou 3 parciais + final; M17 (6 aulas) usou questionario unico. O M20, com 4, fica claramente do lado do unico."
+  },
+  "derived_material_to_propagate": {
+    "questionario": "nao existe",
+    "flashcards": "nao existe",
+    "glossario": "nao existe",
+    "anki_warning": "Nada a reimportar e nenhum card em revisao a corrigir a mao: o modulo nao tinha material derivado quando as correcoes foram aplicadas. Esta era a melhor hora possivel para corrigir - a inversao conceitual da hipotese intrinseca nao chegou a virar gabarito nem card.",
+    "note": "NENHUM modulo ja fechado precisa de alteracao por conta desta auditoria. A verificacao transversal contra M13, M15 e M19 nao encontrou contradicao."
+  },
+  "out_of_scope_observations": [
+    "DIDATICA (revisor-didatico): a a02 SOFREU SOBRECARGA CRIADA PELA PROPRIA CORRECAO VERMELHA. A correcao da hipotese intrinseca acrescentou dois paragrafos densos a secao mais abstrata do modulo e introduziu quatro termos novos (quase-estacionariedade, vizinhanca movel, krigagem universal, IRF-k) numa aula que ja carregava funcao aleatoria, realizacao, estacionariedade de segunda ordem, hipotese intrinseca, suporte, relacao de Krige e anisotropia. O CONTEUDO ESTA CERTO; A FORMA PEDE INTERVENCAO. E a secao a olhar primeiro.",
+    "DIDATICA: a a02 e a aula mais pesada do modulo MESMO ANTES da correcao - e a unica inteiramente conceitual, sem apoio numerico ate o exemplo final, e introduz mais conceitos novos que qualquer outra. Candidata natural a divisao em Parte 1 / Parte 2 pela convencao dos modulos 17 e 19.",
+    "DIDATICA / ERRO DE DIGITACAO: na a03, em 'Alcance (range, a) - a distancia na qual o variograma atinge (ou se aproxima assintoticamente d)o patamar', o parentese esta fechado no lugar errado; deveria ser '(ou se aproxima assintoticamente do) patamar'.",
+    "DIDATICA: o exemplo trabalhado da a03 ficou mais longo com a correcao do laranja 7, que acrescentou a comparacao com o exponencial e a conferencia ponto a ponto do ajuste. Vale checar se o ganho de rigor nao custou fluidez.",
+    "DIDATICA: a secao 'Vizinhanca de busca' da a04 cresceu com as correcoes dos laranjas 8 e 9 e virou o paragrafo mais denso da aula, acumulando raio, multiplas passadas, minimo/maximo de amostras, instabilidade numerica e setorizacao. Pede quebra.",
+    "DIDATICA / TERMO USADO ANTES DE DEFINIDO: a a01 menciona 'estacionariedade' (na discussao de histograma bimodal) e 'efeito de suporte' antes de a a02 os definir; a a02 usa gamma-barra(v,v) 'calculada a partir do modelo de variograma da Aula 03', que ainda nao existe. Sao forward references declaradas, nao erros - mas o revisor deve julgar se o aluno consegue seguir."
+  ],
+  "passes": 2,
+  "passes_note": "PASSAGEM 1 (2026-09-18, levantamento): as quatro aulas lidas em conjunto, sem alterar arquivo. As 19 alegacoes auditaveis declaradas pelo autor foram verificadas uma a uma contra fonte primaria ou tratado de referencia, com busca na web para a hierarquia das hipoteses de estacionariedade, o comportamento na origem e a aproximacao ao patamar dos modelos de variograma, a aditividade das variancias de dispersao (relacao de Krige), a pratica de dimensionamento de vizinhanca de busca (QKNA), a direcao do vies da media nao ponderada em compositing, os limiares de CV em depositos de ouro, e para TODA entrada de bibliografia, obra por obra e capitulo por capitulo. A auditoria levantou mais 6 alegacoes fora da lista do autor, chegando a 25 rastreadas. OS QUATRO EXEMPLOS TRABALHADOS FORAM REFEITOS NUMERO POR NUMERO, o que inclui reajustar o modelo esferico da a03 contra os oito pontos experimentais da tabela e resolver o sistema de krigagem ordinaria da a04 do zero. PASSAGEM 2 (2026-09-18, aplicacao): os 17 achados corrigiveis aplicados cirurgicamente nas quatro aulas, com propagacao interna obrigatoria para recaps, exemplos trabalhados, cabecalho de objetivos da a03, listas de Fontes e blocos de alegacoes. Terminacao de linha CRLF preservada nas quatro aulas (verificada apos as edicoes)."
+}

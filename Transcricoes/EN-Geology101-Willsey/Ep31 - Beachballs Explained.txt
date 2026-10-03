@@ -1,0 +1,758 @@
+# Ep31 - Beachballs Explained.txt
+Video ID: 4wWBie0JF-w
+Lang: en
+URL: https://www.youtube.com/watch?v=4wWBie0JF-w
+
+---
+
+hey there crew and welcome to another
+episode in the geology 101 physical
+geology video series I am geology
+Professor Shan wilsy thanks for joining
+me this video series is based after the
+college course I teach here uh it's the
+same curriculum for the most part and
+it's a great way to learn geology or to
+relearn it so check out the whole
+playlist there's lots of different
+episodes and there's more even to come
+now in all transparency today's episode
+is not actually a topic I cover in
+geology 101 so if you are a student in
+one of my college geology 101 courses
+you might want to skip this one unless
+you're interested but you won't be
+tested on it don't worry about it this
+is extraneous information however if
+you're a viewer on my YouTube channel
+and you're interested in some of the
+earthquakes we talk about we use
+earthquakes to look at some of the
+volcanic uh areas that we study then
+this is an episode for you so I'm
+tucking it into the geology 101 series
+for lack of a better home for it uh but
+to be transparent and clear this is not
+a topic I typically cover in geology 101
+what we're going to get into today and I
+mean you asked for it you got it we're
+going to look at these things called the
+beach balls the focal mechanism
+Solutions uh love them or hate them
+they're incredibly helpful uh my goal
+with this video is to walk you through
+very carefully and slowly exactly how to
+read these things how they're derived
+and hopefully you'll be a little bit
+better off for it and hopefully gosh
+maybe you'll even come to love them the
+way I do um to be fair this is probably
+something covered in a three or 400
+level structural geology class at the
+outset and so let's just get right to it
+and see where this goes um so what we're
+going to be doing here is looking at
+these beach balls and how important they
+are how they're derived like I said
+these are incredibly important for
+understanding earthquake Dynamics a lot
+of times I look for these when I'm
+looking at an earthquake to see what
+kind of fault produced the earthquake
+was it a normal fault or a reverse fault
+with up and down motion was it a strik
+slip fault with horizontal motion that
+might come to Bear if the earthquake is
+underneath the ocean and it possibly is
+big enough to generate a tsunami that's
+going to be an important criteria that I
+look at um the big problem we have with
+this and this comes up in in not just
+geology but other uh Realms as well I
+suppose is we are trying to take
+three-dimensional data and put it into a
+framework that's two-dimensional which
+has its challenges so as much as you can
+see if we can wrap our head around
+three-dimensional thinking and I even
+have a little simple um prop here that I
+put together don't laugh hopefully it's
+helpful that might be helpful in seeing
+things in 3D and imaging them a little
+bit and then we're going to use the
+beach balls which are of course a
+two-dimensional object but those
+two-dimensional beach balls actually
+portray or convey excuse me
+three-dimensional information and that's
+why they're so incredibly useful there's
+really two steps here in this video
+we're going to go through the whole
+whole kit Kaboodle here we're going to
+first learn what these round circles
+mean and what the lines crisscrossing
+these circles or these beach balls are
+these are what we call lower hemisphere
+stereographic projections or sometimes
+these are called stereonets uh and then
+we'll get into interpreting the beach
+balls so what I'm going to do first here
+is walk you through the lower hemisphere
+stereographic projection just super
+Basics here um I'll start with a diagram
+but then I'll cut over to the desktop
+camera here and show you my silly little
+model and see if that's a little bit
+helpful for you so imagine a sphere a
+threedimensional
+sphere and a plane cutting across that
+sphere so that is going to be our fault
+plane our plane of Interest although you
+know any planer data can be projected
+onto these things um and then what we're
+going to do with this is we're going to
+take the top off so we're going to take
+that top half of the sphere off throw it
+away we don't need to know anything
+about it and we're going to treat that
+lower half that lower hemisphere as the
+surface of the Earth so in the next
+diagram we have here here's the surface
+of the Earth you can see the compass
+Direction shown there NorthEast
+Southwest there's that plane that we
+showed over here in blue notice that
+plane has a dip and a dip Direction in
+this case it's dipping to the east
+Southeast and notice is that that plane
+intersects our sphere what that
+intersection actually creates is a a a
+great circle or it's technically it's
+half a circle but that's the idea here
+it's actually it's transcribing or
+delineating an an arc if you will um
+across this half circle here so there's
+our our second diagram and again if
+these are working for you great if not
+let's see if my little prop will work
+here in a second uh then we're not going
+to do a lot with this but then if we
+just look at that plane right that east
+Southeast directed plane or fault plane
+which is where the earthquake might be
+originating um then what we can do is
+now if you think about going to the top
+view right so imagine this circle that
+you see here this hemispheric view
+NorthEast Southwest now we're just going
+to go from sort of a a sideways
+cross-sectional View to a top down view
+or a map view and that same same Arc
+that follows the intersection between
+the fault plane and this hemisphere is
+now shown on this stereonet or this
+stereographic projection as this Arc or
+technically it's a great circle but
+you're looking down on it right so what
+we have here is the Fault which we said
+you know we could see it here it's
+striking to the you know Southwest
+Northeast across here and you can also
+see it here um but you can also see it
+here where the edge of that Arc
+intersects the circle on either end that
+gives us the strike direction if you're
+not sure what strike and dip is maybe go
+back a few videos ago I covered that in
+a few videos in this 101 series and then
+notice the direction that the great
+circle I guess with lack for lack of a
+better term is sort of bulging or
+pointing towards is towards the east
+Southeast in this direction and that
+gives us the dip so the strike and dip
+of the fault plane are actually shown
+very nicely on this stereographic
+projection so this is one important part
+to interpreting the beach balls is being
+able to tell which way the fault is
+oriented the strike of the fault again
+is given by where it intersects the edge
+of the circle so it's striking in this
+case from the southwest to the Northeast
+and then the dip of the fault will be
+delineated by the direction that the ark
+or the great circle is oriented it's
+dipping towards in this case the
+southeast let's switch over to my silly
+little document camera and see if this
+is helpful so I'm going to move over
+here and hopefully you can see here I've
+got basically a a bowl so like a
+styrofoam Bowl I bought at the craft
+store I am not a good craft kind of
+person but this is the best I could do
+so hopefully this helps so here is our
+hemisphere right this is the surface of
+the Earth imagine if this was I had a
+lid on it this would actually be the
+surface of the Earth I've got the
+compass directions delineated there so
+this is is our Hemisphere okay half of a
+sphere and now what we're going to do is
+look at what this looks like with a
+fault which is a planer body
+superimposed on it so for example if I
+had a fault that was striking north
+south and dipping you can see that okay
+to the West so notice here that the
+strike goes north south and my fault
+plane goes down to the West okay and
+then what I could do well actually let
+me show you a few things here before I I
+mark this up okay so there's a north
+south fault that's dipping to the West
+if I had a north south fault dipping to
+the east uh it would look something like
+this so sort of the opposite you can see
+the the cardboard is tilted down in that
+direction what if my north south fault
+was not inclined or Tilted but was
+actually vertical so there's a vertical
+north south fall let me see if I can get
+that perfectly kind of end on for you
+there there you go like that notice now
+we have a straight line across here so
+it would show up as a straight line so
+and we could obviously Orient this any
+which way we could have an East West
+fault striking to or excuse me dipping
+to the South we could have a East West
+fault dipping to the north all sorts of
+combinations possible well let me show
+you real quick before we go back to the
+slides what this would look like uh how
+we would actually get that Arc or that
+great circle inscribed on it so I'm
+going to put my fault in here let's go
+ahead and do a
+NorthEast Southwest in faal okay
+hopefully you can see that right there
+trying to hold that in place let me flip
+it over so you don't have the barcode to
+deal with there you go so there's our
+NorthEast
+Southwest striking fault dipping to the
+Northwest and now if I can do this and I
+haven't tried this yet where the plane
+the fault plane the cardboard intersects
+my Styrofoam ball the hemisphere I'm
+actually going to trace that out on the
+inside of the styrofoam
+boit okay there we go now we're going to
+remove the the fault there and now you
+see that Arc so it's there's the strike
+from this side here Northeast
+Southwest striking and because the curve
+or the arc is pointed in this direction
+to the
+Northwest that is the dip of The Fault
+in that direction so hopefully that
+helps a little bit just a little bit
+more
+um you know tangible uh actual little
+model there okay there's my little prop
+don't laugh too much that was that's I
+spent a lot of time putting this
+together so
+hopefully hopefully this is all helpful
+okay let's go back to the slides then
+and walk you through a little bit here
+so with all that being said and that
+explanation there let's jump now to some
+quiz questions and see if you can
+identify or describe the type of fault
+shown in each of the stereo Nets so
+here's your first
+one there's the the lower hemisphere
+projection there's North shown there
+North is on top of the circle and here's
+your fault plane okay so the fault plane
+intersects that hemisphere as shown here
+with this Arc or this great circle so
+which one of these four answers is the
+correct striking dip direction for the
+fault shown so if you need to you can
+pause the video take a minute to think
+about
+it okay let's go ahead and answer this
+one together so notice that the fault
+plane intersects the edge of the um
+lower hemisphere here this bigger Circle
+at the northwest side and the southeast
+side so the strike direction is
+northwest southeast that would give us
+either D or B for the right answer and
+the dip direction is the direction that
+this is projected out towards which is
+towards the Southwest so that would make
+this one d d is the correct answer for
+the strike and dip of this fault let's
+do another one these are fun are you
+having fun hopefully um so here's
+another one this one ended up a little
+wonky cuz I drew it myself um but
+hopefully you can see the idea here here
+so here is another one go ahead and
+pause the video before you answer this
+see what you think
+here okay let's work on this one
+together then so now we have if we look
+at where the the great circle of the Ark
+intersects the hemispheric projection
+it's East West so the strike is east
+west and the dip in this case is to the
+South and um in this case it because
+it's so close to the edge of the circle
+what that implies is it's a fairly
+shallow dip it's not a steeply dipping
+fault but fair L shallow so the best
+answer there was B East West with a
+South dip okay one more here before we
+go on to some other things here is
+another fault plane on a stereonet and
+see if you can figure out what the
+orientation of this fault is go ahead
+and pause the video if you need to spend
+some time with
+this Al righty so let's check out this
+one this one's a little bit different we
+don't see an arc here uh we see a
+straight line cutting across the
+stereonet uh we can still use the basic
+idea that where it intersects the
+perimeter of the hemisphere the lower
+projection hemisphere that gives us the
+strike so we have a NorthEast Southwest
+strike uh but in this case it's a
+straight line and I showed you this on
+my fun little model there that will
+arise or that could be the situation if
+you have a fault that is oriented
+vertically so it doesn't have a dip in
+any direction it is a 90° fault plane
+that is vertical so this would be
+NorthEast Southwest with a vertical dip
+which would be answer D hopefully he did
+pretty well there okay moving on and
+again the good thing about this video is
+you can digest it in chunks watch it
+several times uh pause do what you need
+to so now that we understand how to read
+those stereographic projections uh which
+is what the beach balls are now let's
+look and figure out exactly how those
+beach balls are uh generated what
+actually determines the black and white
+sort of sections on the beach ball
+so all of this comes from something
+called first motion studies U we all
+know cuz I did uh videos on this and you
+probably know this already that there's
+several sets of seismic waves generated
+in earthquake there's the p waves which
+arrive first but are fairly small then
+the larger but slower S waves and then
+finally the um very destructive
+typically if it's a large enough
+earthquake the larger magnitude surface
+waves which come in last Well turns out
+by looking carefully at the p waves so
+the very first movement of the ground at
+that specific seis seismograph station
+we can look at the p waves motion and we
+typically see one of two things either
+the little uh deflection is upwards
+which indicates compression the rocks
+are being squished initially as the
+p-wave first arrives remember p waves
+are like an accordion they're a pull
+push type of wave um and then the other
+type we see is where the p wve is
+reflected downwards on the seismogram
+which indicates extension the rocks are
+being stretched so by looking at over a
+region where the rocks are being
+squished and where the rocks are being
+stretched turns out these are the two
+fundamental forces we're interested in
+compression and tension or extension so
+squishing or stretching of the Rocks so
+by looking at those over an area we can
+determine the beach ball or the focal
+mechanism solution so let's imagine that
+this little diagram I put together here
+is a map and each Little Dot on here is
+a different seismograph station and they
+have looked at the first motion of the p
+waves that came into their area at that
+station and have plotted up either that
+first motion p-wave as either
+compressional or extensional
+compressional being these black dots
+extensional being these white dots well
+when we plot that up notice that that
+gives us um some interesting
+distribution there's a a clear pattern
+here and we could divide it up into
+quadrants so we could put lines on the
+map depending on how dense our seismic
+data is and the more data you have the
+better constrained these lines are so
+now we have divided up this region into
+regions of extension for a given
+earthquake compression for a given
+earthquake compression here and
+extension so now the next step is to
+plot this up on a beach ball on a lower
+hemisphere stereographic projection so
+basically that exact same map can be
+plotted up on um a lower hemisphere
+stereographic projection again we're
+looking straight down that's what the
+whole projection is it's it's top down
+view okay so we're matching up those
+dark areas and those light areas so we
+know the compression was oriented was in
+these two quadrants and the extension
+was in these two quadrants so at this
+point we've actually determined uh one
+of we know where the fault plane could
+be the fault plane that produced the
+earthquake is either this nearly East
+West line that goes across the screen or
+it's this North South Line turns out
+that it's one of those two solutions
+okay one of those two is the Fault plane
+the other one is what we sometimes call
+the auxiliary plane and so when you
+think about the beach ball if the rocks
+are being squished the motion from the
+earthquake is pushing um into those
+regions of compression it's extending
+out of those extensional regions and
+pushing into those compressional regions
+and so this might be if this is the fall
+plane here the the East West is fault if
+that is the Fault plane then our motion
+would look something like this notice if
+we stand on one side of the fault and
+look across it the movement is to the
+right that's going to be what we're
+going to look at as a right lateral
+strike slip fault and again I I've
+reviewed faults in a previous episode of
+the in the 101 Series so this would be
+the type of fault that produced the
+earthquake if we are are very confident
+that this is the Fault plane this East
+nearly East West uh line going across
+the map alternately if we think it's the
+other line so the nearly north south
+line that comes across the map then we
+would have this type of motion the
+arrows always Point towards the dark
+area so uh one fun phrase that people
+often use here is think about Darth
+Vader saying come to the dark side the
+the movement is towards the zone of
+compression notice that if we stand on
+one side of the fault and look across
+the fault the movement is to our left so
+we fundamentally have two very different
+faults but either one of them could have
+been the fault that produced the
+earthquake so you might be left thinking
+well what do we do now which one is it
+is it this north south left lateral
+strik that fault or is it this nearly
+east west west right lateral strikes of
+ball and to figure it out what we then
+do is just use some simple um intuition
+and look at some more data so you might
+we might be able to look at map geology
+let's say there's an area where the
+faults all run in a certain direction
+that would be highly suggestive that the
+earthquake was on one of those faults
+and then we would pick whichever plane
+of these two best matches that known
+data another way to go about it is to
+look at the aftershocks that come in a
+lot of time because a fault is a planer
+surface it's going to be a line on a map
+and as those aftershocks come in those
+after shocks will be taking place along
+that fault plane or in map view along
+that line so if you see a preferred
+direction of aftershocks in this case
+maybe we see a lot of aftershocks lining
+up on a north south Trend that would
+favor this fault being the correct fault
+versus the one over here to the right um
+so that's the way that's one way we look
+at uh these sorts of things so that
+we've been looking at top down View and
+looking at strike slip faults so strike
+slip faults can look like this just to
+kind of review right lateral strik slip
+faults they can look like this if they
+are left lateral strik slip faults
+remember the arrows point to the dark
+regions that's the area of compressive
+stress as opposed to the white which is
+extensional stress so this works nicely
+for strik slip faults they're nearly
+vertical faults most of the time and we
+or and we Orient ourselves and look at
+strik slip faults from map view looking
+down on the surface so you might ask
+well what about if the motion of the
+fault is not a strik s fault what if
+it's what we call a dip slip fault so
+the motion is up and down so now what
+I'm going to do is take you to a
+crosssection so now we're looking at a
+slice through the Earth here's our
+little person here we can see the green
+gray and yellow layers have been offset
+across this fault in this case I've I've
+drawn a normal fault where the hanging
+wall has dropped down relative to the
+foot wall and in cross-section view we
+can look at it much the same so there's
+our s our same um focal mechanism
+solution but it's not Orient ored in mat
+view it's oriented in sideways view so
+from this view you're like wait a minute
+it looks like a strik slip fault well
+when we look at it from above so imagine
+now this is where your 3D thinking comes
+in right you're looking at it sideways
+and remember this is a sphere it's more
+than just a circle it's actually a
+three-dimensional sphere now imagine you
+tipping up 90° and looking at it from
+above the map view looking down on it
+would show us that we've got a little
+bit of the black Zone here on the left
+side then a big region of white and then
+a little bit more black on this side and
+notice that with this view here we don't
+see four quadrants we only see three
+this other white zone down here cuz
+we're only looking at or excuse me
+actually we're looking at this black
+Zone here this white zone and this black
+Zone because we're looking at the lower
+hemisphere right the lower part uh of
+this circle so we don't see this part up
+here it's essentially like cutting this
+in half and just looking at the bottom
+half so a little bit of black the white
+for extension and a little bit of black
+over here for compression so with dip
+slip faults we have this different kind
+of pattern it's not the big x pattern
+with four quadrants like we see with
+strike slip faults but rather it looks
+kind of like an eyeball typically
+although the the size of the uh the
+middle of the eyeball will vary a little
+bit so this is the Fault plane solution
+or the beach ball we would expect to see
+from a normal faults so normal faults
+will have the extension or the white
+area in the center that's how you'll
+delineate a normal fault reverse faults
+will be the opposite they'll have the
+compressive region in the center so just
+this is how we differentiate normal
+versus reverse faults and of course the
+type of fault tells us a little bit
+about what kind of stress um produce the
+earthquake was it rocks being stretched
+and pulled until they failed brittly or
+is it rocks being compressed or squished
+together until they failed so again this
+is the side view but the top down view
+which is what the stereograms always
+show um is this sort of view so there's
+our normal fault and then we have these
+reverse faults the dip slip faults well
+um we have strike slip faults we have
+dip slip faults but you can combine the
+two a little bit there's actually
+another group of faults called oblique
+slip faults so what if the fault moved
+up and down but also a little bit side
+to side that would be an oblique slip
+fault and so we can have two different
+types of oblique slip faults but the
+fundamental principles are the same so
+remember if you see white in the center
+that's normal faults right if you see
+black in the center that's reverse
+faults remember that if you see all four
+quadrants and you see them kind of
+cutting across and making an X that's
+strik slip motion and so in this case
+we've just got a little bit of both it's
+not purely strike slip it's not a
+perfect normal fault it's a little bit
+of both and so it's a what we would call
+a normal oblique fault and then in the
+converse we'd have a reverse oblique
+fault we would still pick one of these
+faults right maybe the fault is a
+NorthEast Southwest trending fault
+striking fault that dips to the
+southeast maybe it's this northwest
+southeast fault that dips to the
+Northeast right so we'd have to look at
+our geology our aftershocks to figure
+out which one of these two planes is the
+true fault plane same thing with this
+one over here okay good stuff how you
+doing team hopefully you're digesting
+this in doses or maybe you're just
+drinking out of the fire hose um okay
+well let's do let's do some quiz
+questions end this episode uh this has
+been fun so I've got a couple of fault
+plane Solutions or beach balls for you
+and just take a look at them and see if
+you've learned this let's do some
+assessment here see what you think so go
+ahead and look at this one here look at
+the options pause the video if you need
+to and then we'll
+discuss all right we're back so here we
+have a fault plane solution first thing
+I notice is I can only see three
+quadrants not four that tells me it's
+dip slip motion up and down second thing
+I'm going to look for is what color do I
+see in the middle here I see black or
+compression compressive stress in the
+middle and that tells me I have a
+reverse fault this is totally a reverse
+fault kind of looks like a cat's eye it
+is a NorthEast Southwest striking fault
+that either dips to the southeast or it
+dips to the Northwest we'd have to look
+at our geologic data and see if we could
+deduce which one of those best matches
+um this fault plane solution here all
+right let's go to the next question here
+is our next one what type of fault is
+this go ahead and pause the video if you
+need
+to all right let's look at this one
+together so let's go to the middle of
+the fault notice I can see four
+quadrants okay but they're not centered
+the the x of the four quadrants where
+they intersect is not in the center um
+so it is not a pure strike slip fault
+instead it's got to be some type of
+oblique slip fault and now I look in the
+center of my stereo net and I see that I
+have the white zone the white zone is of
+course related to extensional stress
+this is some type of normal fault this
+is a normal fault with a little bit of
+strik slip motion along it so this would
+be a normal oblique fault the answer
+there is C right let's do one more okay
+um here we have uh oh is this the same
+as the one we just did no this one's
+different yeah let's look at this one so
+here we have another go ahead and pause
+the video if you need to take some time
+to look at this
+one okay let's look at this one now so
+we've got again four quadrants visible
+but not intersecting at the center of
+the diagram so it is not purely strike
+slip but it has a component of strike
+slip Motion in the center of the stereo
+net we have the dark compressive stress
+showing up so this would make this a
+some type of reverse fault and because
+it has strik slip motion it's not pure
+reverse fault it would be a reverse
+oblique leak fault so there we have
+answer e as our best answer there and
+then finally here's our last one we're
+going to kind of put it all together a
+little bit here so we have a beach ball
+or a focal mechanism solution here and
+then we got a little bit more
+information it says a pervasive set of
+mapped northwest southeast faults
+dominates an area where magnitude 5.9
+earthquake just occurred focal mechanism
+solution for this Quake is shown here
+based on the information given what type
+of fault gen generated the Quake goad
+and pause the video if you need
+to all right so hopefully you've learned
+your your beach balls well enough to
+immediately recognize that this is a
+strike slip fault excellent the four
+quadrants intersect right there in the
+center perfect but we don't know if it
+is a northwest southeast striking fault
+or a NorthEast Southwest northwest
+southeast striking fault or NorthEast
+Southwest striking fault could be either
+one either one of the fault planes could
+be one of these lines shown here but we
+have some more information this area has
+been mapped and there's a pervasive set
+of faults that goes northwest southeast
+which suggests that this is the most
+likely fault plane for this earthquake
+so this is probably the preferred fault
+plane until we have data to the contrary
+and because this is the Fault plane here
+we look to see which direction um the
+movement member is towards the dark side
+towards the black so if this is your
+fault plane here then we would point the
+arrow in that direction and as we look
+across the fault the arrow points to our
+right so this would be a right lateral
+strik slip Vault that is oriented
+Northwest to Southeast beautiful sexy
+stuff really good how did you do um
+100% something in the middle hopefully
+you didn't bomb it uh the good news is
+if you made any mistakes that's how we
+learn in life right go back look at it
+again but hopefully I tried to put this
+together in a very uh comprehensive way
+step by step and ultimately you can you
+know use this knowledge to interpret
+earthquake mechanics which sometimes
+relates to how Magma's moving
+underground if you're into volcanoes but
+it's a very valuable tool so wrap your
+head around it hope you enjoyed the
+video uh if you like this please make
+sure to like it subscribe there are
+links under the video description if you
+want to donate to the cause and help
+support my work and we'll see you next
+time take care bye

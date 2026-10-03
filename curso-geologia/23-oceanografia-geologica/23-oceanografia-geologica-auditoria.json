@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "23-oceanografia-geologica/",
+    "module_id": "23",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-18T00:00:00-03:00",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 0,
+    "yellow": 0,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 16
+  },
+  "findings": [],
+  "verified_claims": [
+    {"claim_id": "GEO-M23-A01-MARGEM-SEQUENCIA-001", "file": "23-oceanografia-geologica/23-oceanografia-geologica-aula-01-fisiografia-das-bacias-oceanicas.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M23-A01-MARGEM-ATIVA-PASSIVA-002", "file": "23-oceanografia-geologica/23-oceanografia-geologica-aula-01-fisiografia-das-bacias-oceanicas.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M23-A01-MARIANAS-003", "file": "23-oceanografia-geologica/23-oceanografia-geologica-aula-01-fisiografia-das-bacias-oceanicas.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M23-A02-DORSAL-EXTENSAO-001", "file": "23-oceanografia-geologica/23-oceanografia-geologica-aula-02-crosta-oceanica-e-dorsais.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M23-A02-SEQUENCIA-OFIOLITICA-002", "file": "23-oceanografia-geologica/23-oceanografia-geologica-aula-02-crosta-oceanica-e-dorsais.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M23-A02-ANOMALIA-MAGNETICA-003", "file": "23-oceanografia-geologica/23-oceanografia-geologica-aula-02-crosta-oceanica-e-dorsais.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M23-A03-CLASSIFICACAO-ORIGEM-001", "file": "23-oceanografia-geologica/23-oceanografia-geologica-aula-03-sedimentos-marinhos-e-distribuicao.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M23-A03-OOZE-002", "file": "23-oceanografia-geologica/23-oceanografia-geologica-aula-03-sedimentos-marinhos-e-distribuicao.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M23-A03-NODULOS-003", "file": "23-oceanografia-geologica/23-oceanografia-geologica-aula-03-sedimentos-marinhos-e-distribuicao.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M23-A04-TERMOHALINA-001", "file": "23-oceanografia-geologica/23-oceanografia-geologica-aula-04-circulacao-oceanica-ccd-e-paleoclima.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M23-A04-CCD-VARIAVEL-002", "file": "23-oceanografia-geologica/23-oceanografia-geologica-aula-04-circulacao-oceanica-ccd-e-paleoclima.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M23-A04-D18O-PROXY-003", "file": "23-oceanografia-geologica/23-oceanografia-geologica-aula-04-circulacao-oceanica-ccd-e-paleoclima.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M23-A05-CLARION-CLIPPERTON-001", "file": "23-oceanografia-geologica/23-oceanografia-geologica-aula-05-recursos-e-riscos-geologicos-marinhos.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M23-A05-SULFETO-MACICO-002", "file": "23-oceanografia-geologica/23-oceanografia-geologica-aula-05-recursos-e-riscos-geologicos-marinhos.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M23-A05-HIDRATO-METANO-003", "file": "23-oceanografia-geologica/23-oceanografia-geologica-aula-05-recursos-e-riscos-geologicos-marinhos.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M23-A05-TSUNAMI-004", "file": "23-oceanografia-geologica/23-oceanografia-geologica-aula-05-recursos-e-riscos-geologicos-marinhos.md", "confidence": "confirmado"}
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "10-vulcanologia",
+    "module_id": "10",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-19",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 0,
+    "yellow": 0,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 12
+  },
+  "findings": [],
+  "verified_claims": [
+    {
+      "claim_id": "VUL-FORM-001",
+      "claim": "Vulcões-escudo são construídos sobretudo por erupções efusivas de lava de baixa sílica.",
+      "source": "USGS Volcano Hazards Program Glossary, consultado em 2026-08-17",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "VUL-FORM-002",
+      "claim": "Caldeiras podem formar-se por colapso associado à retirada de magma.",
+      "source": "USGS Volcano Hazards Program Glossary, consultado em 2026-08-17",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "VUL-VISC-001",
+      "claim": "Aumento de sílica tende a aumentar a viscosidade do magma.",
+      "source": "USGS Volcano Watch, consultado em 2026-08-17",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "VUL-VISC-002",
+      "claim": "A redução de pressão na subida permite formação e expansão de bolhas.",
+      "source": "USGS Volcano Watch, consultado em 2026-08-17",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "VUL-VEI-001",
+      "claim": "O VEI varia de 0 a 8 e usa volume explosivo, altura de nuvem e descritores.",
+      "source": "Smithsonian GVP Volcanoes of the World v. 5.3.6, 2026-05-26",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "VUL-PROD-001",
+      "claim": "Fluxos piroclásticos são misturas quentes de fragmentos vulcânicos e gases.",
+      "source": "USGS MSH Pyroclastic flow, consultado em 2026-08-17",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "VUL-PROD-002",
+      "claim": "Lahar é uma corrente de água e detritos vulcânicos.",
+      "source": "USGS, SIR 2017-5022, consultado em 2026-08-17",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "VUL-MON-001",
+      "claim": "Vigilância combina sismos, deformação, gases e outras observações.",
+      "source": "USGS Volcano Monitoring, 2023",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "VUL-MON-002",
+      "claim": "Mapas de perigo identificam áreas potencialmente afetadas por processos definidos.",
+      "source": "USGS Volcano Hazards Program, consultado em 2026-08-17",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "VUL-CLIM-001",
+      "claim": "SO₂ estratosférico forma aerossóis de sulfato que refletem radiação solar.",
+      "source": "USGS Volcanoes Can Affect Climate, consultado em 2026-08-17",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "VUL-CLIM-002",
+      "claim": "Cinza estratosférica é removida em geral em dias a semanas e tem pouco efeito climático duradouro.",
+      "source": "USGS Volcanoes Can Affect Climate, consultado em 2026-08-17",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "VUL-TECT-001",
+      "claim": "Subducção e dorsais favorecem geração de magma por mecanismos distintos.",
+      "source": "USGS Introduction to Subduction Zones, consultado em 2026-08-17",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "VUL-VISC-003",
+      "claim": "Erupcao freatica e a explosao gerada por vaporizacao de agua externa em contato com magma ou rocha quente, podendo ejetar rocha preexistente sem emissao de magma novo; quando magma novo participa, chama-se freatomagmatica.",
+      "source": "USGS VHP Glossary (phreatic/phreatomagmatic eruption)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "VUL-VISC-004",
+      "claim": "A erupcao de 1980 do Monte Santa Helena foi precedida por semanas de explosoes freaticas antes da fase magmatica principal de 18 de maio.",
+      "source": "USGS Volcano Hazards Program - Mount St. Helens 1980",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "VUL-MON-003",
+      "claim": "O CO2 vulcanico e incolor, inodoro e mais denso que o ar, acumulando-se em depressoes e areas baixas e deslocando o ar respiravel; o acumulo pode ocorrer durante a quiescencia, sem erupcao em curso.",
+      "source": "USGS VHP - Volcanic Gases and Their Effects",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "VUL-MON-004",
+      "claim": "H2S, SO2, HF e HCl figuram entre os gases vulcanicos perigosos, capazes de irritar ou lesar olhos e vias respiratorias.",
+      "source": "USGS VHP - Volcanic Gases and Their Effects",
+      "confidence": "confirmado"
+    }
+  ]
+}

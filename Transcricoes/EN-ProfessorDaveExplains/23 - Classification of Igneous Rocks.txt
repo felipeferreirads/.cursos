@@ -1,0 +1,95 @@
+# 23 - Classification of Igneous Rocks.txt
+Video ID: TtvSyROolsk
+Lang: en
+URL: https://www.youtube.com/watch?v=TtvSyROolsk
+
+---
+
+In the previous tutorial we learned about how&nbsp;
+rocks melt, differentiate, and crystallize.&nbsp;&nbsp;
+Now we will discuss the different types of&nbsp;
+igneous rocks and how they are classified.&nbsp;&nbsp;
+Say you are given an igneous rock and asked what&nbsp;
+it is. Where would you begin? Your first step&nbsp;&nbsp;
+might be determining whether it was extrusive&nbsp;
+or intrusive. Intrusive is a word describing&nbsp;&nbsp;
+an igneous rock that cooled slowly at depth,&nbsp;
+and extrusive is a word describing a rock that&nbsp;&nbsp;
+cooled quickly at the surface, usually during a&nbsp;
+volcanic eruption. Intrusive rocks are also called&nbsp;&nbsp;
+plutonic, and extrusive rocks may be described as&nbsp;
+volcanic. It is usually pretty easy to distinguish&nbsp;&nbsp;
+a plutonic rock from a volcanic rock simply by&nbsp;
+analyzing the size of the mineral grains. Plutonic&nbsp;&nbsp;
+rocks, which cool slowly, have ample time to&nbsp;
+grow large crystals, while volcanic rocks, which&nbsp;&nbsp;
+crystallize rapidly, are composed of tiny grains&nbsp;
+that usually can’t be seen by the naked eye.&nbsp;
+Let’s first discuss volcanic rocks,&nbsp;
+since they are simply named after the&nbsp;&nbsp;
+magma from which they are derived. Both are&nbsp;
+classified based on their silica content,&nbsp;&nbsp;
+and are as follows: with rhyolite, silica&nbsp;
+content is greater than 69%, dacite, 62-69%,&nbsp;&nbsp;
+andesite, 52-62%, basalt, 45-52%, and picrite,&nbsp;
+which contains less than 45% silica. The term&nbsp;&nbsp;
+ultramafic is commonly used to describe picritic&nbsp;
+rocks, mafic for basaltic rocks, intermediate for&nbsp;&nbsp;
+andesitic rocks, and felsic for dacitic and&nbsp;
+rhyolitic rocks. Rhyolite and basalt are very&nbsp;&nbsp;
+different rocks, and it is typical for them not to&nbsp;
+have any common minerals. For example, rhyolite is&nbsp;&nbsp;
+rich in alkali feldspar, quartz, and sodium-rich&nbsp;
+plagioclase with minor amounts of amphibole,&nbsp;&nbsp;
+while basalt is mainly composed of pyroxene,&nbsp;
+olivine, and calcium-rich plagioclase with minor&nbsp;&nbsp;
+amounts of iron and titanium oxides. Andesites&nbsp;
+and dacites can have both felsic and mafic&nbsp;&nbsp;
+minerals but are typically mostly plagioclase with&nbsp;
+lesser amounts of pyroxene, amphibole, and quartz.&nbsp;
+Plutonic igneous rocks have an entirely different&nbsp;
+naming convention than volcanic rocks, which are&nbsp;&nbsp;
+classified based on their composition; instead&nbsp;
+being named based on their three most abundant&nbsp;&nbsp;
+minerals. This is because the minerals in plutonic&nbsp;
+rocks can be easily identified in hand sample,&nbsp;&nbsp;
+whereas volcanic minerals are typically&nbsp;
+too small. For felsic plutonic rocks,&nbsp;&nbsp;
+names are based on the relative amounts of&nbsp;
+quartz, plagioclase, and alkali feldspar,&nbsp;&nbsp;
+which are placed at the corners of a triangular,&nbsp;
+or ternary diagram, called a QAP diagram.&nbsp;&nbsp;
+Plagioclase-rich rocks are called diorite,&nbsp;
+quartz-rich rocks are called granitoid,&nbsp;&nbsp;
+and alkali feldspar-rich rocks are called syenite.&nbsp;
+Rocks of intermediate composition are called&nbsp;&nbsp;
+granite if they are quartz-rich and monzonite if&nbsp;
+they are feldspar-rich. On the other hand, mafic&nbsp;&nbsp;
+plutonic rocks are named based on their relative&nbsp;
+abundances of olivine, pyroxene, and plagioclase,&nbsp;&nbsp;
+and again are plotted on ternary diagrams. Gabbro,&nbsp;
+which is the plutonic version of basalt, contains&nbsp;&nbsp;
+roughly equal parts plagioclase and clinopyroxene.&nbsp;
+Likewise, ultramafic rocks can be classified&nbsp;&nbsp;
+using the minerals olivine, clinopyroxene, and&nbsp;
+orthopyroxene. These rocks, like harzburgite and&nbsp;&nbsp;
+lherzolite, are representative of the upper&nbsp;
+mantle and are rarely found at the surface.&nbsp;
+So, what types of igneous rocks are found at&nbsp;
+the surface? That depends on where you look.&nbsp;&nbsp;
+For instance, the lava that erupts from midocean&nbsp;
+ridges is exclusively basaltic, with gabbro&nbsp;&nbsp;
+forming deeper beneath the surface, which is&nbsp;
+basically just basalt with big crystals. Hotspots&nbsp;&nbsp;
+are also capable of producing massive amounts of&nbsp;
+basaltic lava, especially when they are beneath&nbsp;&nbsp;
+oceanic crust. Subduction zones tend to produce&nbsp;
+andesitic magma, but can be much more variable,&nbsp;&nbsp;
+also being influenced by crustal thickness.&nbsp;
+Island arcs, which are subduction zones where the&nbsp;&nbsp;
+overriding plate is oceanic crust, tend to produce&nbsp;
+basaltic and andesitic magma, while continental&nbsp;&nbsp;
+arcs, like the volcanoes of the Pacific Northwest,&nbsp;
+tend to erupt rhyolite and dacite. With igneous&nbsp;&nbsp;
+rocks now covered, let’s move forward and check&nbsp;
+out some other types of rocks and minerals.

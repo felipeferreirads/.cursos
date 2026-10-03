@@ -1,0 +1,30 @@
+O que distingue um furo reto de um furo desviado na desaggregação espacial?;A trajetória 3D de um furo é registrada pela survey (azimute e mergulho em profundidades) e calculada por mínima curvatura entre estações, não pelo collar sozinho.
+Qual é a diferença entre tangencial simples e tangencial balanceado?;"Tangencial simples mantém a direção da última estação (saltos bruscos, maiores erros); tangencial balanceado pondera as duas estações e alcança exatidão comparável à mínima curvatura."
+Por que a validação de banco de dados é um 'gate' antes da geoestatística?;Erros de integridade (sobreposição de intervalos, vazios não documentados, amostras além da profundidade final) propagam silenciosamente para o variograma, pesos de krigagem e recurso.
+O que a QA/QC de laboratório verifica?;Duplicatas (precisão analítica), padrões certificados (exatidão/viés), e brancos (contaminação entre amostras).
+Como se define o tamanho do bloco em um modelo?;"Inicialmente, um quarto a metade do espaçamento médio entre furos (ponto de partida); depois confirmado por QKNA (análise quantitativa de vizinhança de krigagem) por eficiência e inclinação de regressão."
+O que distingue uma variável indicadora de uma variável contínua?;Indicadora: 0/1 se acima ou abaixo de um limiar. Contínua: valor real. Indicadora é não paramétrica — não assume distribuição.
+Como se define uma variável indicadora em geoestatística?;"I(x; zc) = 1 se o teor em x ≥ limiar zc; 0 caso contrário. Ela compacta toda a informação de distribuição num único limiar."
+Qual é o ganho da mediana indicadora em relação ao full IK?;Os pesos não dependem do limiar — um único sistema de krigagem por bloco. Já full IK (todos os limiares) gera múltiplos sistemas distintos.
+Que restrição o exemplo canonical da Aula 03 impõe sobre o patamar?;O patamar de um variograma indicador é F(1-F), máximo 0,25 na mediana (F=0,5) — nunca chamar patamar 0,5 de 'máximo' genérico.
+Como se calcula o variograma indicador?;"γ_I(h) = (1/(2N(h))) × Σ [I(x_i;zc) - I(x_i+h;zc)]² — é METADE da proporção de pares discordantes, não a proporção inteira."
+Por que γ_I(h) é metade da proporção de pares discordantes?;"A fórmula contém 1/(2N(h)); a proporção de pares discordantes é 2*γ_I(h). Checar: na mediana, patamar=F(1-F)=0,25, não 0,5."
+Qual é a diferença entre um variograma autorizado e um não autorizado?;Autorizado: a matriz de covariância do sistema de krigagem é positiva semi-definida. Não autorizado: gera variância de krigagem negativa (sintoma específico).
+O que causa probabilidade fora de [0,1] na indicadora?;Pesos negativos (efeito de tela de vizinhança) ou vizinhança de busca inadequada — NÃO é sintoma de variograma não autorizado.
+Como se decide entre mediana indicadora (median IK) e full IK?;"Compara os variogramas: se full IK mostra alcances convergindo (decis 1,5,9 aproximam-se), mediana é defensável e mais econômica (um sistema); senão, usa full IK."
+Qual é a estrutura do sistema de krigagem indicadora?;"Σ λ_i γ_I(x_i - x_0) + μ = γ_I(x_j - x_0) para j=1..n; λ_i e μ são pesos e Lagrange. A covariância autoriza ou não — se não, σ²_IK < 0."
+Qual é a diferença entre OIK (simples) e SIK (ordinária)?;"OIK: assume estacionariedade da média globalmente; SIK: assume localmente. Trade-off: OIK mais robusto (menos pesos negativos), SIK mais preciso se vizinhança boa."
+Por que probabilidades estimadas violam relação de ordem?;Diferentes limiares podem gerar probabilidades P_1 < P_2 < ... < P_k incompatíveis com a ccdf teórica — pesos negativos causam isso.
+Como se trata uma violação de relação de ordem?;Revisão da vizinhança de busca (aumentar raio, reduzir número de vizinhos), ou aceitar a variância de indicadora negativa se modelo for autorizado.
+Qual é a fórmula da krigagem log-normal ordinária?;Z*_OLN = exp[Y*_OK + σ²_OK/2 - μ], onde Y*_OK é a estimativa log de teor, σ²_OK a variância de OK no log, e μ a média do log.
+Qual é a fonte da fórmula de krigagem log-normal ordinária?;Journel (1980), Mathematical Geology 12(4), 285-303. É a fórmula padrão, não heurística nem aproximada — controversia real sobre adequação local, não sobre fórmula.
+Qual é a diferença entre SK (simples) e OK (ordinária) no exponencial?;SK: exp[Y*_SK + σ²_SK/2] SEM μ. OK: exp[Y*_OK + σ²_OK/2 - μ]. Trocar as duas é erro de maior risco.
+Por que retransformação log-normal gera viés?;"E[exp(Y)] ≠ exp[E(Y)] — exponencial é função não linear. Roth (1998) questiona adequação à estimativa local; Yamamoto (2007) mostra viés residual por modelo de variograma."
+O que é triangulação de Delaunay em modelagem de depósito?;Triangulação de um conjunto de pontos 3D que maximiza os ângulos mínimos de toda a triangulação (não de cada triângulo isolado) e é única em posição geral.
+Quando a triangulação de Delaunay perde unicidade?;Quando há pontos cocirculares (4+ pontos na mesma esfera). Numa malha de sondagem quadrada há quatro pontos cocirculares e múltiplas soluções.
+O que é uma área de influência de Voronoi?;Região do espaço mais perto de um nó Voronoi que de qualquer outro — dual à triangulação Delaunay na modelagem de wireframe.
+Como se integra o modelo estimado (teores) ao modelo geométrico (wireframe)?;"Operações lógicas: blocos dentro de wireframe recebem teor estimado; blocos fora recebem valor nulo. A integração é o passo final da cadeia."
+Qual é o diferencial do módulo 21 em relação ao módulo 20?;M20: estima teor bruto por OK de uma variável contínua. M21: transforma (indicadora, log-normal), trata múltiplos limiares e constrói modelo 3D integrado.
+Como se relaciona a escolha do tamanho de bloco com a malha de sondagem?;Regra prática: 1/4 a 1/2 do espaçamento entre furos (ponto de partida). Critério real: eficiência de krigagem e inclinação de regressão via QKNA.
+O que diferencia 'valor extremo de alto teor' de 'teor de corte'?;'Valor extremo de alto teor': outlier econômico, capeado no modelo. 'Teor de corte': limiar abaixo do qual o minério não é econômico — conceitos distintos.
+Qual é a relação de Krige em variografia?;Relação exata entre a média de valores numa região e a média dos variogramas dos pares dentro dela — base teórica de kriging ordinária.

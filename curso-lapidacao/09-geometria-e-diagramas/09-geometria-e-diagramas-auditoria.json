@@ -1,0 +1,398 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "09-geometria-e-diagramas/",
+    "module_id": "09",
+    "course_id": "lapidacao"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-09-06T00:00:00-03:00",
+  "corrected_at": "2026-09-06T00:00:00-03:00",
+  "verdict": "approved",
+  "verdict_pre_correction": "reproved",
+  "summary": {
+    "red": 4,
+    "orange": 7,
+    "yellow": 0,
+    "blue": 1,
+    "white": 1,
+    "verified_ok": 21,
+    "open_findings": 0
+  },
+  "findings": [
+    {
+      "claim_id": "TGR-LIMITE-ESPALHA-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "new_claim": false,
+      "location": {
+        "file": "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-06-tangent-ratio-reescalar-um-design.md",
+        "section": "Erros comuns (3o marcador) / Recap relampago (5o marcador) / rodape de alegacoes",
+        "quote": "Aplicar o metodo a um espalhamento muito grande de angulos. Quanto maior a diferenca entre o angulo mais raso e o mais ingreme do design, mais a conversao se afasta de uma vista de topo preservada"
+      },
+      "problem": "INVERSAO DA FONTE. A USFG afirma que o que se degrada com o aumento do espalhamento angular e o ATALHO de somar um numero fixo de graus, e que ele diverge da conversao pelo tangent ratio: 'as the spread between the lowest and highest pavilion or crown angles increases as is typical with more complex designs, the practice of adding a constant difference to the angles breaks down and the results diverge from a tangent ratio conversion. This can cause noticeable deviations in the planview and may also have ramifications for meet points.' A conversao pelo tangent ratio preserva a vista em planta POR CONSTRUCAO — o dicionario da USFG a define como 'used for translating one set of angles to another while holding the plan view constant', e o artigo explica o mecanismo: 'the height of a facet divided by its base is the tangent of that facet's angle. When you change all the angles by the tangent-ratio formula, you are changing only the height of each facet in relation to its base; the base of each facet remains the same.' Escalar todas as tangentes por uma constante e uma dilatacao vertical uniforme, que por definicao nao toca a projecao horizontal. A aula ainda se contradizia: o 1o marcador de Erros comuns dizia corretamente que somar graus fixos e uma aproximacao aceitavel so para variacoes pequenas.",
+      "replacement": "Nomear o atalho como o culpado e o tangent ratio como o padrao contra o qual ele e medido; acrescentar em 'O que o metodo garante' a preservacao da vista em planta por construcao, com a citacao do dicionario.",
+      "sources": [
+        {"name": "United States Faceters Guild, Gemstone Design Conversion Using the Tangent Ratio Method", "url": "https://usfacetersguild.org/gemstone-design-conversion-using-the-tangent-ratio-method/", "consulted": "2026-09-06", "level": "normativa"},
+        {"name": "United States Faceters Guild, USFG Faceting Dictionary (verbete Tangent Ratio)", "url": "https://usfacetersguild.org/usfg-faceting-dictionary/", "consulted": "2026-09-06", "level": "normativa"}
+      ],
+      "confidence": "confirmado",
+      "affected_files": ["09-geometria-e-diagramas/09-geometria-e-diagramas-aula-06-tangent-ratio-reescalar-um-design.md"],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-06T00:00:00-03:00"
+    },
+    {
+      "claim_id": "DGN-SINT-FILEIRA-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "new_claim": false,
+      "location": {
+        "file": "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-05-quando-o-meetpoint-nao-fecha-cheater-e-diagnostico.md",
+        "section": "Sintoma 3 / tabela Organizando o diagnostico / Erros comuns / Recap relampago / exemplo trabalhado Passo 2",
+        "quote": "uma fileira inteira que apresenta o mesmo desvio - todas mais curtas, todas mais longas, ou todo o brilho da fileira visivelmente diferente da vizinha ... O culpado e o batente de angulo ... Indice e altura nao explicariam um padrao que afeta a fileira inteira do mesmo jeito - eles sao ajustes por faceta ou por pequeno grupo, nao por fileira completa."
+      },
+      "problem": "A premissa e falsa: a altura do mastro NAO e ajuste por faceta, e ajuste POR FILEIRA, como o batente. O procedimento documentado e 'when you finish cutting all around the rough at the same mast height, lower the mast height a little and repeat this procedure' — trava-se o angulo, fixa-se a altura, corta-se a fileira inteira girando so o indice, e so depois a altura desce. Logo, um erro de altura sai uniforme na fileira inteira, e produz exatamente o sintoma 'todas mais curtas / todas mais longas' que a aula atribuiu ao angulo. INCONSISTENCIA INTERNA: o Sintoma 2, dois paragrafos acima, ensina que faceta curta ou longa com o angulo certo e sintoma de ALTURA. O erro foi introduzido nesta aula e nao herdado: o modulo 03 aula 05 descreve o Diagnostico 3 apenas como 'fileira inteira com brilho diferente da vizinha ... a fileira toda com a INCLINACAO errada', sem mencionar curta ou longa.",
+      "replacement": "Reescrever o Sintoma 3 abrindo com o fato mecanico (duas coordenadas sao reguladas por fileira) e desdobrando em duas leituras: fileira uniformemente curta ou longa com inclinacao certa -> altura do mastro; fileira com a inclinacao errada -> angulo. Acrescentar linha na tabela de diagnostico e marcador em Erros comuns.",
+      "sources": [
+        {"name": "The Gemology Project, verbete Faceting", "url": "https://www.gemologyproject.com/wiki/index.php?title=Faceting", "consulted": "2026-09-06", "level": "base de referencia"},
+        {"name": "Geosciences LibreTexts 17.2 Faceting", "url": "https://geo.libretexts.org/Bookshelves/Geology/Gemology/17:_Lapidary_Arts/17.02:_Faceting", "consulted": "2026-09-06", "level": "base de referencia"},
+        {"name": "curso de lapidacao, modulo 03 aula 05 (auditado e aprovado)", "url": null, "consulted": "2026-09-06", "level": "consistencia interna"}
+      ],
+      "confidence": "confirmado",
+      "affected_files": ["09-geometria-e-diagramas/09-geometria-e-diagramas-aula-05-quando-o-meetpoint-nao-fecha-cheater-e-diagnostico.md"],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-06T00:00:00-03:00"
+    },
+    {
+      "claim_id": "COO-INDEPEND-EIXO-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "new_claim": false,
+      "location": {
+        "file": "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-02-angulo-indice-e-altura-as-tres-coordenadas-da-faceta.md",
+        "section": "Altura - a profundidade e o alcance / As tres juntas (2o marcador) / exemplo trabalhado INTEGRAL / Recap relampago",
+        "quote": "Faceta A - angulo 43 graus, indice 8, altura 6,0 mm. Faceta B - angulo 43 graus, indice 8, altura 5,2 mm ... e o padrao de um main (mais raso) seguido por um break mais fundo exatamente na mesma direcao"
+      },
+      "problem": "Essas duas facetas nao podem coexistir. Angulo e indice fixam a orientacao do plano; dois planos com a mesma orientacao sao paralelos, e num solido convexo o corte mais fundo CONSOME o mais raso — sobra uma faceta so. A fonte e explicita: angulo e indice, juntos, 'uniquely locate each facet on the stone's surface', e cortar mais fundo no mesmo angulo e indice 'will indeed make the facet larger without changing its position or creating distinct parallel facets'. Alem disso o exemplo escolhido e falso duas vezes: uma main e uma break vizinhas distinguem-se por ANGULO, nao por altura — a propria aula 03 deste modulo apresenta main a 42 graus e break a 46 graus e comenta a diferenca de quatro graus. As aulas 02 e 03 ensinavam coisas incompativeis sobre o mesmo par de fileiras.",
+      "replacement": "Substituir a frase da secao Altura por advertencia sobre planos paralelos; reordenar e reescrever o marcador de As tres juntas para dizer que fileiras vizinhas se distinguem por angulo, nunca por altura; REFAZER o exemplo trabalhado inteiro com A(43,idx8) x B(43,idx32) e C(39,idx8), reservando um passo para o que a altura NAO faz.",
+      "sources": [
+        {"name": "Sky Jems, Faceting Diagram", "url": "https://skyjems.ca/pages/encyclopedia-faceting-diagram", "consulted": "2026-09-06", "level": "base de referencia"},
+        {"name": "Robert W. Strickland, GemCad for Windows User's Guide", "url": "https://www.gemcad.com/downloads/gemcadman.pdf", "consulted": "2026-09-06", "level": "base de referencia"},
+        {"name": "curso de lapidacao, modulo 09 aula 03 (tabela main 42 / break 46)", "url": null, "consulted": "2026-09-06", "level": "consistencia interna"}
+      ],
+      "confidence": "confirmado",
+      "affected_files": ["09-geometria-e-diagramas/09-geometria-e-diagramas-aula-02-angulo-indice-e-altura-as-tres-coordenadas-da-faceta.md"],
+      "also_rewritten_claims": ["COO-INDICE-DEF-001", "COO-ALTURA-DEF-001"],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-06T00:00:00-03:00"
+    },
+    {
+      "claim_id": "DIA-SEQ-ORDEM-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "new_claim": false,
+      "location": {
+        "file": "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-03-anatomia-de-um-diagrama-de-lapidacao.md",
+        "section": "A sequencia: em que ordem a tabela e percorrida / vocabulario (main) / exemplo trabalhado Passo 4 / Erros comuns / Recap; propagado para a aula 04",
+        "quote": "Dentro de cada secao, a fileira main - a maior, a que estabelece o contorno geral - costuma vir antes das fileiras auxiliares (break, star)"
+      },
+      "problem": "Tres problemas encadeados. (a) ATRIBUICAO FALSA: a USFG Sequencing Facets enuncia um principio sobre PONTOS e nao sobre fileiras — 'the sequencing of facets is determined by the order in which points on the stone must be made, and the two most common starting places were either a culet point or a set of girdle points' — e o que ela manda deixar por ultimo sao as facetas ajustaveis de angulo mais raso, para enterrar erro acumulado, que no pavilhao sao justamente as mains. (b) CONTRADITA POR DUAS FONTES: The Gemology Project da, para a coroa, break 47 -> main 42 -> star 27 -> mesa; o Geosciences LibreTexts da, para o pavilhao, break facets antes das mains. (c) 'A main estabelece o contorno geral' e falso em qualquer ordem: quem estabelece a linha da cinta sao as facetas de cinta/break; as mains do pavilhao estabelecem o ponto de culaca. Vaza para a aula 04, onde a regra e elevada a necessidade logica do meetpoint ('e exatamente a ordem que o meetpoint exige').",
+      "replacement": "Manter a convencao de grande escala (pavilhao->cinta->coroa->mesa) e substituir a regra interna pelo principio da USFG, pelas duas partidas correntes, pela declaracao de controversia DIA-SEQ-INICIO-001 e pela doutrina das facetas ajustaveis por ultimo. Propagar para a aula 04.",
+      "sources": [
+        {"name": "United States Faceters Guild, Sequencing Facets", "url": "https://usfacetersguild.org/sequencing-facets/", "consulted": "2026-09-06", "level": "normativa"},
+        {"name": "The Gemology Project, verbete Faceting", "url": "https://www.gemologyproject.com/wiki/index.php?title=Faceting", "consulted": "2026-09-06", "level": "base de referencia"},
+        {"name": "Geosciences LibreTexts 17.2 Faceting", "url": "https://geo.libretexts.org/Bookshelves/Geology/Gemology/17:_Lapidary_Arts/17.02:_Faceting", "consulted": "2026-09-06", "level": "base de referencia"}
+      ],
+      "confidence": "confirmado",
+      "affected_files": [
+        "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-03-anatomia-de-um-diagrama-de-lapidacao.md",
+        "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-04-meetpoint-faceting-a-logica-do-ponto-de-encontro.md"
+      ],
+      "also_rewritten_claims": ["PTO-SEQ-DEPENDE-001"],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-06T00:00:00-03:00"
+    },
+    {
+      "claim_id": "PTO-ERRO-LOCAL-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "new_claim": false,
+      "location": {
+        "file": "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-04-meetpoint-faceting-a-logica-do-ponto-de-encontro.md",
+        "section": "titulo de secao / Por que isso evita medir profundidade / Erros comuns (3o marcador) / Recap / exemplo trabalhado Passo 2",
+        "quote": "o erro nao se acumula progressivamente do jeito que se acumularia numa cadeia de medicoes independentes - cada corte 'reseta' a referencia para o proximo, em vez de herdar o erro de todos os anteriores"
+      },
+      "problem": "O artigo da USFG que a aula cita trata a acumulacao de erro como um fato a administrar: 'whenever you chain around the stone, look for a point at or near the end of the chain where you can make an adjustment which will bury any accumulated errors' e 'if you can let your accumulation of small errors end up on a step facet, you can often save yourself the necessity of cheating'. A comunidade e explicita quanto a causa: nenhuma maquina e perfeitamente repetivel, e 'the errors build up in one place, build down in another'. Agravante: a afirmacao falsa estava em 'Erros comuns', isto e, a verdade era marcada como o erro a evitar. O que sobrevive e melhor: a vantagem do meetpoint e visibilidade (o desvio aparece no encontro em que se manifesta) e controle sobre onde o acumulo vai parar.",
+      "replacement": "Reescrever a segunda metade da secao afirmando que o erro se acumula e reposicionando a vantagem como visibilidade + controle; inverter o marcador de Erros comuns; requalificar o Passo 2 do exemplo; corrigir o titulo da secao.",
+      "sources": [
+        {"name": "United States Faceters Guild, Sequencing Facets", "url": "https://usfacetersguild.org/sequencing-facets/", "consulted": "2026-09-06", "level": "normativa"},
+        {"name": "GemologyOnline.com, Meetpoint Madness", "url": "https://www.gemologyonline.com/Forum/phpBB2/viewtopic.php?f=8&t=11817", "consulted": "2026-09-06", "level": "forum especializado"}
+      ],
+      "confidence": "confirmado",
+      "affected_files": ["09-geometria-e-diagramas/09-geometria-e-diagramas-aula-04-meetpoint-faceting-a-logica-do-ponto-de-encontro.md"],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-06T00:00:00-03:00"
+    },
+    {
+      "claim_id": "COO-TRES-EIXO-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "new_claim": false,
+      "location": {
+        "file": "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-02-angulo-indice-e-altura-as-tres-coordenadas-da-faceta.md",
+        "section": "Por que uma faceta precisa de tres numeros / As tres juntas / Recap / Fontes consultadas; e aula 03, A tabela",
+        "quote": "o GemCad ... especifica cada faceta por indice, angulo e altura ... (mast angle, index, elevation/height); e essa independencia de tres eixos que permite a um diagrama de lapidacao especificar qualquer faceta com so tres numeros"
+      },
+      "problem": "(a) NOMENCLATURA: o parametro do GemCad e a center-to-facet distance — 'the distance from the plane of the facet to the origin (0,0,0) at the center of the stone, measured perpendicular to the plane of the facet' —, nao uma altura, e nao e medida ao longo do mastro. 'Mast angle' e 'index' sao termos reais das tabelas; 'elevation/height' nao e o nome do terceiro parametro. (b) PRE-REFUTACAO DA AULA 04: se o diagrama entregasse a profundidade como numero tabelado, o meetpoint faceting nao teria razao de existir — e a aula 04 ensina exatamente que nao se corta ate uma profundidade medida. As tabelas publicadas dao angulo e indice; a terceira coordenada e fixada na pedra pelo encontro. A aula 02 instalava uma expectativa que a aula 04 precisava desfazer sem reconhecer que a desfazia.",
+      "replacement": "Nomear a center-to-facet distance e explicar que a altura do mastro e como a maquina realiza a coordenada; Recap passa a dizer que o diagrama tabela normalmente dois dos tres, remetendo a aula 04; na aula 03, 'tres colunas centrais' vira 'duas colunas centrais' com a ressalva.",
+      "sources": [
+        {"name": "Robert W. Strickland, GemCad for Windows User's Guide", "url": "https://www.gemcad.com/downloads/gemcadman.pdf", "consulted": "2026-09-06", "level": "base de referencia"},
+        {"name": "Sky Jems, Faceting Diagram", "url": "https://skyjems.ca/pages/encyclopedia-faceting-diagram", "consulted": "2026-09-06", "level": "base de referencia"}
+      ],
+      "confidence": "confirmado",
+      "affected_files": [
+        "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-02-angulo-indice-e-altura-as-tres-coordenadas-da-faceta.md",
+        "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-03-anatomia-de-um-diagrama-de-lapidacao.md"
+      ],
+      "also_rewritten_claims": ["DIA-TRES-PECAS-001"],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-06T00:00:00-03:00"
+    },
+    {
+      "claim_id": "IDX-JOGO-CORRENTE-001",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "new_claim": false,
+      "location": {
+        "file": "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-01-o-sistema-de-indice-32-64-77-80-96-dentes.md",
+        "section": "Os jogos correntes e o que cada um libera / Por que cinco rodas, e nao uma so / Erros comuns (4o marcador)",
+        "quote": "Os cinco mais citados sao 32, 64, 77, 80 e 96 dentes ... O 96 e o mais versatil da lista - cobre onze simetrias diferentes, de longe a maior cobertura, e e por isso que a literatura o cita como o jogo padrao"
+      },
+      "problem": "(a) O catalogo corrente da Ultra Tec tem OITO jogos: 32, 64, 72, 77, 80, 84, 96, 120. Os ausentes nao sao obscuros — a International Faceting Academy recomenda comecar por 96 e 120 e declara seu kit como '96, 120, 72, and 84', sem o 77; e entre os cinco da aula, o 80 e descrito como 'rarely encountered' e o 77 serve designs 'pretty rare'. (b) 'De longe a maior cobertura' e falso: o 96 cobre 11 simetrias, o 72 e o 84 tambem cobrem 11, e o 120 cobre mais (14 pela contagem da mesma fonte). (c) A razao real da primazia do 96 e a NOTACAO, nao a cobertura: 'the overwhelming majority of published facet diagrams are written to 96-index notation'. O oa01 fixa os cinco jogos e nao pode ser alterado por auditoria: a correcao e de enquadramento.",
+      "replacement": "Declarar o catalogo de oito e explicitar que a aula trabalha com cinco deles, escolhidos por exporem os fatores primos que decidem a simetria; 96 como 'o mais versatil DOS CINCO', empate com 72 e 84 declarado, 120 acima, e a notacao como razao de fundo.",
+      "sources": [
+        {"name": "ULTRA TEC Faceting, catalogo de Index Gears", "url": "https://www.ultratec-facet.com/product/index-gears/", "consulted": "2026-09-06", "level": "fabricante"},
+        {"name": "International Faceting Academy, Which Index Gear?", "url": "https://facetingacademy.com/learn-faceting/learn-faceting-cutting/which-index-gear/", "consulted": "2026-09-06", "level": "escola especializada"},
+        {"name": "Sky Jems, 96 Index: The Standard Indexing Gear in Faceting", "url": "https://skyjems.ca/pages/encyclopedia-96-index", "consulted": "2026-09-06", "level": "base de referencia"}
+      ],
+      "confidence": "confirmado",
+      "affected_files": ["09-geometria-e-diagramas/09-geometria-e-diagramas-aula-01-o-sistema-de-indice-32-64-77-80-96-dentes.md"],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-06T00:00:00-03:00"
+    },
+    {
+      "claim_id": "IDX-DIVISOR-TAB-001",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "new_claim": false,
+      "location": {
+        "file": "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-01-o-sistema-de-indice-32-64-77-80-96-dentes.md",
+        "section": "Por que cinco rodas, e nao uma so / exemplo trabalhado (licao final) / rodape de alegacoes",
+        "quote": "quem quiser cortar um talhe de simetria 7-fold precisa do 77 ... ele preenche o unico buraco que o 96 deixa ... corroborado por International Faceting Academy, Which Index Gear? ('The 77 is 7 and 11 only')"
+      },
+      "problem": "(a) O jogo de 84 (= 2^2 x 3 x 7) tambem carrega o fator 7, e a propria International Faceting Academy escreve 'only the 84 will let you do 7-fold or 14-fold symmetry' — o 84 da inclusive 14-fold, que o 77 nao alcanca; um usuario relata ter recarregado um design de 77 no GemCad e ele 'mapped perfectly at 84'. (b) ATRIBUICAO FALSA: a pagina Which Index Gear? NAO menciona o jogo de 77 em lugar nenhum; a formulacao 'the 77 is 7 and 11 only' circula na comunidade (GemologyOnline), nao naquele artigo. Mesmo defeito do RAY-FONTE-USFG-001 do modulo 08. (c) INCONSISTENCIA INTERNA: 'o unico buraco que o 96 deixa' contradiz a propria aula, que dois paragrafos acima ensina que o 80 e a unica fonte de 5 e 10-fold porque o 96 nao tem o fator 5. NOTA: a TABELA DE DIVISORES em si esta aritmeticamente correta, conferida por calculo — so o escopo e a atribuicao falharam.",
+      "replacement": "Escopar a afirmacao a 'entre os cinco desta aula' e nomear o 84 como a alternativa fora da lista; trocar 'o unico buraco' por 'um dos dois buracos', nomeando o fator 5 / jogo 80 como o outro; corrigir a atribuicao com nota explicita.",
+      "sources": [
+        {"name": "International Faceting Academy, Which Index Gear?", "url": "https://facetingacademy.com/learn-faceting/learn-faceting-cutting/which-index-gear/", "consulted": "2026-09-06", "level": "escola especializada"},
+        {"name": "GemologyOnline.com, Index Gears", "url": "https://www.gemologyonline.com/Forum/phpBB2/viewtopic.php?f=8&t=5436", "consulted": "2026-09-06", "level": "forum especializado"}
+      ],
+      "confidence": "confirmado",
+      "affected_files": ["09-geometria-e-diagramas/09-geometria-e-diagramas-aula-01-o-sistema-de-indice-32-64-77-80-96-dentes.md"],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-06T00:00:00-03:00"
+    },
+    {
+      "claim_id": "TGR-METODO-DEF-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "new_claim": false,
+      "location": {
+        "file": "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-06-tangent-ratio-reescalar-um-design.md",
+        "section": "A formula / Recap relampago / rodape de alegacoes",
+        "quote": "aplica-se essa mesma razao a cada outro angulo do design ... e reaplicada a todas as demais facetas do design"
+      },
+      "problem": "A fonte e explicita quanto ao escopo, que e a SECAO e nao o design: 'if you do want to lower or raise the crown angles, that normally gets done as a separate and independent conversion from the pavilion angles'; e 'in the circumstance where you wanted to convert both a crown and pavilion using the same tangent ratio there is no mathematical reason you can't calculate them together. However, in practice this circumstance is usually not the case.' A propria regra de preservacao e enunciada por secao: 'all of the angles on a pavilion or crown must be scaled proportionately in order to preserve its original planview'. Um aluno que aplicasse a razao do pavilhao a coroa perderia a razao pratica pela qual o metodo e usado (rebaixar a coroa por falta de material sem mexer no pavilhao ja cortado).",
+      "replacement": "Trocar 'do design' por 'da mesma secao' e acrescentar paragrafo de ressalva declarando a conversao separada de pavilhao e coroa, registrando que nada na matematica o impede — so a pratica.",
+      "sources": [
+        {"name": "United States Faceters Guild, Gemstone Design Conversion Using the Tangent Ratio Method", "url": "https://usfacetersguild.org/gemstone-design-conversion-using-the-tangent-ratio-method/", "consulted": "2026-09-06", "level": "normativa"}
+      ],
+      "confidence": "confirmado",
+      "affected_files": ["09-geometria-e-diagramas/09-geometria-e-diagramas-aula-06-tangent-ratio-reescalar-um-design.md"],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-06T00:00:00-03:00"
+    },
+    {
+      "claim_id": "DIA-FILEIRA-NOME-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "new_claim": false,
+      "location": {
+        "file": "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-03-anatomia-de-um-diagrama-de-lapidacao.md",
+        "section": "vocabulario (fileira, main) / A vista lateral / Erros comuns / Recap; e aula 02, vocabulario (tier)",
+        "quote": "tier (fileira) - um grupo de facetas que compartilham o mesmo angulo ... main - a fileira de facetas maiores e mais numerosas"
+      },
+      "problem": "O dicionario da USFG define as duas de outro jeito. TIER: 'a group of facets at the same elevation around the stone. It may be made up of one or more sets of facets' — a definicao e por ELEVACAO, nao por angulo; na pratica uma fileira compartilha o angulo E a altura do mastro, e essa segunda metade e exatamente o fato mecanico de que o achado DGN-SINT-FILEIRA-001 precisou. MAIN FACETS: 'a set of large facets which extend from Girdle to Table on the Crown, or from Girdle to Culet on the Pavilion' — sao as GRANDES e as que atravessam a secao, e sao tipicamente as MENOS numerosas: num brilhante redondo, oito mains de pavilhao contra dezesseis facetas de cinta.",
+      "replacement": "Refazer os verbetes das aulas 02 e 03 segundo o dicionario; definir a main pela travessia da secao e registrar a contagem 8 x 16 do brilhante redondo.",
+      "sources": [
+        {"name": "United States Faceters Guild, USFG Faceting Dictionary (verbetes Tier e Main Facets)", "url": "https://usfacetersguild.org/usfg-faceting-dictionary/", "consulted": "2026-09-06", "level": "normativa"}
+      ],
+      "confidence": "confirmado",
+      "affected_files": [
+        "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-03-anatomia-de-um-diagrama-de-lapidacao.md",
+        "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-02-angulo-indice-e-altura-as-tres-coordenadas-da-faceta.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-06T00:00:00-03:00"
+    },
+    {
+      "claim_id": "DGN-OVERCUT-VOCAB-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "new_claim": true,
+      "location": {
+        "file": "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-05-quando-o-meetpoint-nao-fecha-cheater-e-diagnostico.md",
+        "section": "vocabulario / Erros comuns (3o marcador) / Fontes consultadas",
+        "quote": "United States Faceters Guild, dicionario de facetamento - vocabulario de overcut e undercut como desvios de profundidade em relacao ao meetpoint planejado; Undercut (curto) e overcut (passou do ponto) pedem ajustes de altura em direcoes opostas"
+      },
+      "problem": "(a) ATRIBUICAO FALSA: o dicionario da USFG NAO tem os verbetes overcut nem undercut — verificado diretamente. Os termos sao reais e correntes, mas nao vem dessa fonte. (b) ASSIMETRIA OMITIDA: 'if you overcut, you need to recut all the facets you've cut before it. In contrast, if you undercut, you can go back and finish it up.' Um undercut e falta de corte e o corte que falta ainda pode ser feito; um overcut e irreversivel, e recuperar o encontro obriga a refazer as facetas vizinhas numa profundidade nova. 'Ajustes de altura em direcoes opostas' sugere uma reversibilidade que nao existe num deles. (c) COLISAO DE TERMINOLOGIA INTERNA: e o TERCEIRO sentido de 'undercut' no curso — modulo 03 aula 01 (sub-corte por flexao da lamina fina) e modulo 07 aula 03 (depressao por resistencia diferencial a abrasao) — introduzido sem declarar a colisao, contra o espirito do LC-01 e contra o cuidado exemplar que a propria aula 01 deste modulo tem com o duplo sentido de 'indice'.",
+      "replacement": "Advertencia no verbete nomeando os outros dois sentidos e seus modulos; marcador de Erros comuns substituido por 'Tratar undercut e overcut como simetricos', com a assimetria explicada; linha de fontes refeita citando o dicionario pelos verbetes que TEM e a GemologyOnline pelo uso e pela assimetria.",
+      "sources": [
+        {"name": "United States Faceters Guild, USFG Faceting Dictionary (verbetes overcut e undercut AUSENTES, verificado)", "url": "https://usfacetersguild.org/usfg-faceting-dictionary/", "consulted": "2026-09-06", "level": "normativa"},
+        {"name": "GemologyOnline.com, Meetpoint Madness", "url": "https://www.gemologyonline.com/Forum/phpBB2/viewtopic.php?f=8&t=11817", "consulted": "2026-09-06", "level": "forum especializado"}
+      ],
+      "confidence": "confirmado",
+      "affected_files": ["09-geometria-e-diagramas/09-geometria-e-diagramas-aula-05-quando-o-meetpoint-nao-fecha-cheater-e-diagnostico.md"],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-06T00:00:00-03:00"
+    },
+    {
+      "claim_id": "IDX-MAQUINA-PADRAO-001",
+      "severity": "blue",
+      "kind": "evidencia_insuficiente",
+      "new_claim": true,
+      "location": {
+        "file": "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-01-o-sistema-de-indice-32-64-77-80-96-dentes.md",
+        "section": "Por que cinco rodas, e nao uma so",
+        "quote": "e por isso que a literatura o cita como o jogo padrao da maioria das maquinas novas"
+      },
+      "problem": "Afirmacao especifica, verificavel e nao confirmada por nenhuma fonte consultada. As fontes sustentam que o 96 e o jogo padrao DO OFICIO — por notacao de diagrama, nao por politica de fabrica —, e os fabricantes (Ultra Tec, Facetron, Graves) vendem jogos de indice como acessorios avulsos, o que torna 'acompanha a maquina' uma alegacao sobre configuracao comercial que nenhuma fonte faz. Nao e acusacao de falsidade: e sinalizacao de que a rota de verificacao nao existe.",
+      "replacement": "Substituir pela alegacao que E documentada e mais forte: 'the overwhelming majority of published facet diagrams are written to 96-index notation'. Nao inventar substituicao nem remover em silencio.",
+      "sources": [],
+      "confidence": "nao verificado",
+      "affected_files": ["09-geometria-e-diagramas/09-geometria-e-diagramas-aula-01-o-sistema-de-indice-32-64-77-80-96-dentes.md"],
+      "outcome": "reescrito_com_alegacao_verificavel",
+      "decision_note": "Precedente do 🔵 ANG-EX-QUARTZO-001 do modulo 08: requalificar em vez de inventar. A alegacao nao verificavel deu lugar a razao documentada da primazia do 96, incorporada em IDX-JOGO-CORRENTE-001. A aula ganha em vez de perder conteudo.",
+      "applied_at": "2026-09-06T00:00:00-03:00"
+    },
+    {
+      "claim_id": "DIA-SEQ-INICIO-001",
+      "severity": "white",
+      "kind": "controversia",
+      "new_claim": true,
+      "location": {
+        "file": "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-03-anatomia-de-um-diagrama-de-lapidacao.md",
+        "section": "A sequencia: em que ordem a tabela e percorrida",
+        "quote": "(divergencia identificada durante a correcao do achado DIA-SEQ-ORDEM-001)"
+      },
+      "problem": "Divergencia real entre fontes do mesmo nivel sobre qual fileira e cortada primeiro dentro de uma secao. A tradicao do meetpoint faceting (Long & Steele; GemologyOnline) descreve as mains do pavilhao cortadas primeiro ate um ponto central, com as facetas de cinta vindo depois encontra-las. The Gemology Project da, para a coroa, break 47 -> main 42 -> star 27 -> mesa. O Geosciences LibreTexts da, para o pavilhao, break facets antes das mains. A USFG nao arbitra: 'the two most common starting places were either a culet point or a set of girdle points'. Nao e caso de fonte errada: e escolha de projeto que depende de qual ponto de referencia o design precisa fixar primeiro.",
+      "replacement": "Apresentar as duas sequencias lado a lado e declarar em uma frase, sem arbitrar: 'Qual delas e a padrao e questao em aberto: fontes do mesmo nivel descrevem as duas, e a escolha pertence ao design.' Alinhar a aula 04.",
+      "sources": [
+        {"name": "GemologyOnline.com, Preform vs Meetpoint faceting", "url": "https://www.gemologyonline.com/Forum/phpBB2/viewtopic.php?f=8&t=12194", "consulted": "2026-09-06", "level": "forum especializado"},
+        {"name": "The Gemology Project, verbete Faceting", "url": "https://www.gemologyproject.com/wiki/index.php?title=Faceting", "consulted": "2026-09-06", "level": "base de referencia"},
+        {"name": "Geosciences LibreTexts 17.2 Faceting", "url": "https://geo.libretexts.org/Bookshelves/Geology/Gemology/17:_Lapidary_Arts/17.02:_Faceting", "consulted": "2026-09-06", "level": "base de referencia"},
+        {"name": "United States Faceters Guild, Sequencing Facets", "url": "https://usfacetersguild.org/sequencing-facets/", "consulted": "2026-09-06", "level": "normativa"}
+      ],
+      "confidence": "em disputa",
+      "affected_files": [
+        "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-03-anatomia-de-um-diagrama-de-lapidacao.md",
+        "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-04-meetpoint-faceting-a-logica-do-ponto-de-encontro.md"
+      ],
+      "outcome": "declarado_como_controversia",
+      "decision_note": "Unica declaracao LC-08 do modulo. Criterio dos modulos 06-08: genuinidade, nao contagem. Nenhuma segunda candidata passou — a divergencia sobre 'qual e o jogo de indice padrao' e diferenca de catalogo entre fabricantes, nao disputa sobre um fato, e foi resolvida por escopo em vez de encenada como controversia.",
+      "applied_at": "2026-09-06T00:00:00-03:00"
+    }
+  ],
+  "verified_ok": [
+    "IDX-DUPLO-SENT-001",
+    "IDX-REGRA-DIVISOR-001",
+    "IDX-NAO-ANGULO-001",
+    "COO-ANGULO-DEF-001",
+    "COO-ALTURA-DEF-001",
+    "DIA-TRES-PECAS-001",
+    "DIA-VISTA-TOPO-001",
+    "DIA-EX-INTERCALADO-001",
+    "PTO-DEF-TECNICA-001",
+    "PTO-FRASE-PONTO-001",
+    "PTO-PARTIDA-REQ-001",
+    "PTO-SEQ-DEPENDE-001",
+    "PTO-LIMITE-GARANTIA-001",
+    "DGN-ARVORE-BASE-001",
+    "DGN-SINT-GIRO-001",
+    "DGN-SINT-ALTURA-001",
+    "DGN-TABELA-RESUMO-001",
+    "TGR-TAN-NAOLIN-001",
+    "TGR-FORMULA-DEF-001",
+    "TGR-EX-NUMERICO-001",
+    "TGR-LIMITE-EXTREMOS-001"
+  ],
+  "verified_ok_note": "21 claim_id passaram sem achado proprio. COO-INDICE-DEF-001 NAO esta nesta lista: foi reescrito como parte do achado COO-INDEPEND-EIXO-001 e nao conta como aprovado sem alteracao. Quatro foram tocados por propagacao sem mudanca de conteudo: COO-ALTURA-DEF-001, DIA-TRES-PECAS-001, PTO-SEQ-DEPENDE-001, DGN-TABELA-RESUMO-001. DESTAQUES: os DOIS pontos autodeclarados como suspeitos pelo redator PASSARAM na verificacao — TGR-FORMULA-DEF-001 bate literalmente com a formula da USFG, e TGR-EX-NUMERICO-001 foi recalculado de forma independente reproduzindo 45,3348 / 46,9371 / 70,0307 exatamente como publicado; a tabela de divisores de IDX-DIVISOR-TAB-001 esta aritmeticamente correta (so escopo e atribuicao falharam). PTO-FRASE-PONTO-001 e literal a USFG ('three facets make a point and two facets make a line'); PTO-DEF-TECNICA-001 e quase literal ao uso corrente ('you aren't cutting to a particular depth, you're cutting to hit the meetpoint'); TGR-LIMITE-EXTREMOS-001 e literal ('original facet angles specified at 0 or 90 degrees remain at 0 or 90 and do not need to be converted'); COO-ANGULO-DEF-001 confere com o dicionario da USFG ('used alone, angle refers to the angle which a facet makes with the Girdle Plane').",
+  "structural_checks": {
+    "claim_id_format": "34 claim_id cruzados por regex contra ^[A-Z]{2,4}-[A-Z0-9]+-[A-Z0-9]+-[0-9]{3}$ — TODOS com exatamente 4 segmentos. O bug recorrente de 5 segmentos nao se repetiu.",
+    "nivel_teorico": "Nenhuma correcao introduziu competencia de bancada. As reescritas mantiveram os verbos de conhecimento observavel (explicar, distinguir, localizar, dimensionar, diagnosticar) e os blocos 'O que nao concluir' que barram a operacao da maquina permanecem intactos nas seis aulas.",
+    "prerequisito_gemologia": "Verificado: o curso-gemologia continua citado apenas por nome (aula 06, bloco de pre-requisito), nunca por wikilink. Nenhuma correcao criou wikilink cross-curso.",
+    "residuo_de_refutacao": "Varredura por regex sobre as seis aulas com as formulacoes refutadas. UM residuo encontrado e corrigido: o titulo da secao da aula 04 ('...e por que evita erro cumulativo') prometia a tese que o corpo, ja corrigido, passara a refutar. Verificados e limpos: o verbete 'erro cumulativo' do vocabulario da a04 (definicao neutra, correta sob a nova tese), os blocos 'Antes de comecar' das aulas 04 e 05, os quatro blocos 'Proxima aula' e os seis 'O que nao concluir'."
+  },
+  "derived_material": {
+    "questionario": "inexistente — so entra depois da revisao didatica, pelo pipeline dos modulos 06+",
+    "flashcards": "skipped — dispensados neste curso desde 2026-09-04",
+    "contaminacao": "nenhuma. Nenhum material derivado existia para ser contaminado, que e exatamente o que o gate existe para garantir."
+  },
+  "palavras_corpo_pre_auditoria": {"a01": 1505, "a02": 1327, "a03": 1478, "a04": 1359, "a05": 1268, "a06": 1292},
+  "palavras_corpo_pos_auditoria": {"a01": 1588, "a02": 1523, "a03": 1594, "a04": 1484, "a05": 1599, "a06": 1589},
+  "palavras_corpo_note": "Regua LC-02 do curso: de '## Conteudo' ate o fim de '## Recap relampago', inclusive, por len(texto.split()). As seis aulas entraram e sairam sob o teto de ~1600. a01, a03 e a06 estouraram antes do ajuste (1618, 1789, 1628) e foram trazidas de volta por corte de redundancia da propria aula — nenhuma correcao foi encurtada para caber. Os rodapes YAML das seis aulas foram atualizados com os novos valores.",
+  "corrected": [
+    "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-01-o-sistema-de-indice-32-64-77-80-96-dentes.md",
+    "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-02-angulo-indice-e-altura-as-tres-coordenadas-da-faceta.md",
+    "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-03-anatomia-de-um-diagrama-de-lapidacao.md",
+    "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-04-meetpoint-faceting-a-logica-do-ponto-de-encontro.md",
+    "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-05-quando-o-meetpoint-nao-fecha-cheater-e-diagnostico.md",
+    "09-geometria-e-diagramas/09-geometria-e-diagramas-aula-06-tangent-ratio-reescalar-um-design.md"
+  ],
+  "new_claim_ids": ["DGN-OVERCUT-VOCAB-001", "IDX-MAQUINA-PADRAO-001", "DIA-SEQ-INICIO-001"],
+  "removed_claim_ids": [],
+  "renamed_claim_ids": [],
+  "open_findings": [],
+  "gate": {
+    "status": "liberado",
+    "note": "Nenhum achado vermelho ou laranja em aberto. Proxima etapa pelo pipeline dos modulos 06+: REVISAO DIDATICA. O questionario nao deve ser gerado antes dela. Flashcards dispensados."
+  },
+  "propagacao_pendente_orquestrador": [
+    {
+      "alvo": "course-state.yaml",
+      "o_que": "Os seis palavras_corpo e os seis content_hash do modulo 09 estao desatualizados; o bloco audit do modulo precisa passar de {status: pending} para aprovado, com as contagens deste manifesto e open_findings vazio.",
+      "razao_de_nao_ter_sido_feito": "Fora do escopo desta chamada por instrucao explicita do orquestrador."
+    },
+    {
+      "alvo": "09-geometria-e-diagramas/09-geometria-e-diagramas-modulo.md (hub)",
+      "o_que": "A linha 24 descreve o diagrama de lapidacao como 'especificacao de talhe (indice, angulo, altura)' — formulacao corrigida pelo achado COO-TRES-EIXO-001 na aula 02. Ajuste de uma linha.",
+      "razao_de_nao_ter_sido_feito": "Fora do escopo desta chamada por instrucao explicita do orquestrador."
+    },
+    {
+      "alvo": "modulo 08 (fechado): 08-optica-do-facetado-aula-06 (claim RAY-MODEL-MEDE-001) e 08-optica-do-facetado-questionario.md (resposta (a))",
+      "o_que": "Descrevem o GemCad como especificando 'angulo, indice e ALTURA de cada faceta'. Mesma imprecisao do achado COO-TRES-EIXO-001: o parametro do software e a center-to-facet distance.",
+      "severidade": "orange",
+      "raio": "pequeno — 'altura' e glosa aceitavel em linguagem comum, e o modulo 09 agora carrega a versao precisa",
+      "razao_de_nao_ter_sido_feito": "Nao reabrir um modulo aprovado a revelia do orquestrador. Registrado como candidato a proxima auditoria cross-course."
+    }
+  ],
+  "forwarded_to_didactic_review": [
+    "A aula 03 cresceu de 1478 para 1594 palavras e absorveu a declaracao LC-08 do modulo dentro da secao de sequencia, que agora e a mais densa da aula. Vale checar se a carga cognitiva da secao ficou proporcional a posicao dela no modulo.",
+    "A aula 05 esta em 1599 palavras, a um fio do teto, com o Sintoma 3 desdobrado em duas leituras e a tabela de diagnostico com cinco linhas. Vale checar se a arvore de decisao continua legivel de uma passada.",
+    "O exemplo trabalhado da aula 02 foi inteiramente refeito e agora compara TRES facetas em vez de duas. Vale checar se o Passo 3 (o que a altura NAO faz) nao ficou abstrato demais para a posicao dele no modulo.",
+    "A aula 04 passou a ensinar que o erro se acumula, o oposto do que ensinava. Vale checar se a licao ainda fecha como resposta ao oa04 ('por que a tecnica obtem precisao sem medir profundidade'), agora que a resposta e visibilidade e controle, e nao imunidade ao acumulo."
+  ],
+  "summary_note": "Modulo 09 auditado em audit-and-fix, depth full, sobre as seis aulas em conjunto, com verificacao web obrigatoria em 2026-09-06. Veredito pre-correcao REPROVADO: 13 achados sobre 34 alegacoes (4 vermelhos, 7 laranjas, 0 amarelos, 1 azul, 1 branco). Todos fechados; veredito final APROVADO, gate liberado. DANO ESPALHADO, nao concentrado: um vermelho em cada uma das aulas 02, 03, 05 e 06. ASSINATURA DE ERRO DO MODULO: cinco dos treze achados — e dois dos quatro vermelhos — nao sao erros de fato, sao erros de PROCEDENCIA: a afirmacao foi para o texto acompanhada do nome de uma fonte real e apropriada que, aberta, dizia outra coisa ou nao dizia nada. Nos dois casos mais graves (TGR-LIMITE-ESPALHA-001 e DIA-SEQ-ORDEM-001) a fonte nao era omissa, era CONTRARIA. Terceiro modulo consecutivo com essa assinatura (TAB-ALVO-FAIXA-001 e RAY-FONTE-USFG-001 no 08). Os dois pontos que o redator autodeclarou como suspeitos — a formula do tangent ratio e os divisores dos jogos de indice — PASSARAM na verificacao numerica; o erro estava ao lado deles, na interpretacao do limite do metodo e na atribuicao das fontes.",
+  "recomendacao_modulo_10": "Verificar a ATRIBUICAO de fonte antes de verificar o conteudo. A checagem barata que teria pego quatro dos cinco achados de procedencia: para cada linha de 'Fontes consultadas' que carrega uma citacao entre aspas ou uma alegacao especifica, abrir a URL e localizar a frase. O modulo 10 (familias de talhe) trabalhara com linhagem historica do brilhante redondo, com Tolkowsky e com o duplo sentido de 'talhe misto' — territorio onde a atribuicao errada e mais facil de cometer e mais dificil de detectar depois."
+}

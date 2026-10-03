@@ -1,0 +1,20 @@
+﻿# Estado local do Obsidian
+.obsidian/workspace*.json
+.obsidian/cache
+.trash
+
+# Syncthing
+.stfolder/
+.stignore
+
+# Backups e snapshots antigos
+/_backup-*
+/_snapshot-*
+
+# Dependencias e temporarios
+/.ffs-deps
+*.tmp
+~*
+Thumbs.db
+.DS_Store
+/.course-tools

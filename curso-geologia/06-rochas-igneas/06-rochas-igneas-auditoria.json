@@ -1,0 +1,194 @@
+{
+ "schema_version": 1,
+ "target": {
+  "kind": "modulo",
+  "path": "06-rochas-igneas/",
+  "module_id": "06",
+  "course_id": "geologia"
+ },
+ "mode": "audit-and-fix",
+ "depth": "full",
+ "audited_at": "2026-08-17T13:48:00-03:00",
+ "verdict": "approved",
+ "summary": {
+  "red": 0,
+  "orange": 2,
+  "yellow": 0,
+  "blue": 1,
+  "white": 0,
+  "verified_ok": 13
+ },
+ "findings": [
+  {
+   "claim_id": "PET-QAPF-SCOPE-001",
+   "severity": "orange",
+   "kind": "confusao_de_escopo",
+   "claim": "QAPF foi apresentado para rochas ígneas cristalinas em geral e TAS como rota universal quando a moda não é determinável.",
+   "location": {
+    "file": "06-rochas-igneas/06-rochas-igneas-aula-06-classificacao-qapf.md",
+    "section": "Antes do nome, escolha a régua certa; O roteiro QAPF",
+    "quote": "O QAPF é a régua formal recomendada pela IUGS para rochas ígneas cristalinas"
+   },
+   "problem": "O esquema principal tem escopo formal e exclusões; rochas ultramáficas, gabroicas e especiais exigem regras próprias, e TAS também não é universal.",
+   "replacement": "Restringir QAPF às rochas adequadas à classificação modal e TAS a muitas rochas vulcânicas comuns sem moda determinável.",
+   "source": {
+    "name": "Le Maitre et al., Igneous Rocks: A Classification and Glossary of Terms",
+    "url": "https://www.cambridge.org/core/books/abs/igneous-rocks-a-classification-and-glossary-of-terms/classification-and-nomenclature/CDE0C29406FE932BA336508541A32286",
+    "tier": "normative",
+    "version": "IUGS, 2nd ed., 2002",
+    "consulted_at": "2026-08-17"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "06-rochas-igneas/06-rochas-igneas-aula-06-classificacao-qapf.md",
+    "06-rochas-igneas/06-rochas-igneas-aula-07-classificacao-tas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-08-17T13:50:00-03:00"
+  },
+  {
+   "claim_id": "PET-TAS-NORM-002",
+   "severity": "orange",
+   "kind": "omissao_que_gera_erro",
+   "claim": "O roteiro TAS manda plotar os óxidos sem explicitar a normalização da análise para 100% em base anidra.",
+   "location": {
+    "file": "06-rochas-igneas/06-rochas-igneas-aula-07-classificacao-tas.md",
+    "section": "Roteiro TAS",
+    "quote": "Leia SiO₂. Some Na₂O e K₂O. Plote o par."
+   },
+   "problem": "Sem normalização, água, CO2 ou total analítico diferente de 100% podem deslocar o ponto.",
+   "replacement": "Conferir alteração e recalcular os óxidos para 100% sem H2O e CO2 antes da plotagem.",
+   "source": {
+    "name": "BGS Rock Classification Scheme, Volume 1: Igneous",
+    "url": "https://www.bgs.ac.uk/download/bgs-rock-classification-scheme-igneous/",
+    "tier": "normative",
+    "version": "RR-99-06, reissued 2020; based on IUGS 2002",
+    "consulted_at": "2026-08-17"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "06-rochas-igneas/06-rochas-igneas-aula-07-classificacao-tas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-08-17T13:50:00-03:00"
+  },
+  {
+   "claim_id": "PET-SLAB-DEPTH-003",
+   "severity": "blue",
+   "kind": "evidencia_insuficiente",
+   "claim": "A placa pode permanecer sólida além de 100 km de profundidade.",
+   "location": {
+    "file": "06-rochas-igneas/06-rochas-igneas-aula-08-magmatismo-e-ambientes-tectonicos.md",
+    "section": "alegacoes_auditaveis",
+    "quote": "enquanto a placa pode permanecer sólida além de 100 km de profundidade"
+   },
+   "problem": "A fonte citada sustenta o mecanismo qualitativo, mas não esse limite numérico específico.",
+   "replacement": "Fluidos liberados da placa em subducção contribuem para a fusão do manto sobrejacente, sem pressupor que a placa inteira derreta.",
+   "source": {
+    "name": "USGS, Are the tectonic plates floating on magma?",
+    "url": "https://www.usgs.gov/faqs/are-tectonic-plates-floating-magma",
+    "tier": "reference_database",
+    "version": "updated 2026",
+    "consulted_at": "2026-08-17"
+   },
+   "confidence": "nao_verificado",
+   "affected_files": [
+    "06-rochas-igneas/06-rochas-igneas-aula-08-magmatismo-e-ambientes-tectonicos.md"
+   ],
+   "outcome": "corrigido_com_ressalva",
+   "applied_at": "2026-08-17T13:50:00-03:00"
+  }
+ ],
+ "verified_claims": [
+  {
+   "claim_id": "PET-MELT-MECH-004",
+   "claim": "Descompressão e água podem iniciar fusão em porções do manto.",
+   "source": "USGS, 2026",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PET-MELT-PART-005",
+   "claim": "Fusão parcial separa líquido e resíduo.",
+   "source": "USGS/GIA",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PET-FRAC-CRYST-006",
+   "claim": "Separar cristais modifica o líquido remanescente.",
+   "source": "USGS",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PET-BOWEN-SERIES-007",
+   "claim": "Bowen descreve tendências gerais, não sequência obrigatória.",
+   "source": "Petrologia de referência",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PET-TEXTURE-COOL-008",
+   "claim": "Taxa de resfriamento influencia granulação e vidro.",
+   "source": "USGS",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PET-TEXTURE-VES-009",
+   "claim": "Vesículas registram bolhas preservadas.",
+   "source": "USGS",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PET-CROSSCUT-AGE-010",
+   "claim": "O corpo que corta é relativamente mais jovem.",
+   "source": "USGS",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PET-DYKE-SILL-011",
+   "claim": "Dique é discordante e soleira é concordante.",
+   "source": "BGS",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PET-QAPF-EXAMPLE-012",
+   "claim": "Q24 A36 P40 cai em monzogranito.",
+   "source": "IUGS 2002",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PET-TAS-AXES-013",
+   "claim": "TAS usa SiO2 e Na2O+K2O.",
+   "source": "IUGS 2002",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PET-TAS-EXAMPLE-014",
+   "claim": "SiO2 50 e álcalis 3 cai no campo basalto.",
+   "source": "IUGS 2002",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PET-RIDGE-MELT-015",
+   "claim": "Dorsais favorecem fusão por descompressão.",
+   "source": "USGS",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PET-SUBDUCTION-FLUID-016",
+   "claim": "Água de subducção favorece fusão na cunha mantélica.",
+   "source": "USGS",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PET-M06-A05-LACOLITO-002",
+   "claim": "O lacolito e um corpo intrusivo concordante em forma de lente ou domo que arqueia as camadas sobrejacentes; distingue-se da soleira, tabular, por deformar o teto e nao pela concordancia.",
+   "source": "G. K. Gilbert, Report on the Geology of the Henry Mountains, 1877, doi:10.3133/70039916",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PET-M06-A05-PAINE-003",
+   "claim": "O complexo intrusivo de Torres del Paine (Chile) e um lacolito alojado entre camadas sedimentares cretaceas, construido por tres pulsos graniticos principais em torno de 12,5 Ma.",
+   "source": "Michel et al. 2008, Geology 36(6), doi:10.1130/G24546A.1",
+   "confidence": "confirmado"
+  }
+ ]
+}

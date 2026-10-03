@@ -1,0 +1,149 @@
+SKIP (exists): Ep01 - Intro to Earth.txt
+SKIP (exists): Ep02 - Intro to Plate Tectonics.txt
+SKIP (exists): Ep03 - Divergent Plate Boundaries.txt
+SKIP (exists): Ep04 - Convergent Plate Boundaries.txt
+SKIP (exists): Ep05 - Transform Plate Boundaries.txt
+SKIP (exists): Ep06 - Hot Spots.txt
+SKIP (exists): Ep07 - Minerals Part One.txt
+SKIP (exists): Ep08 - Minerals Part Two.txt
+SKIP (exists): Ep09 - Igneous Rocks Part One.txt
+SKIP (exists): Ep10 - Igneous Rocks Part Two.txt
+SKIP (exists): Ep11 - Intro to Volcanoes.txt
+SKIP (exists): Ep12 - Volcano Types.txt
+SKIP (exists): Ep13 - Volcanic Hazards.txt
+SKIP (exists): Ep14 - Weathering.txt
+SKIP (exists): Ep15 - Sedimentary Rocks.txt
+SKIP (exists): Ep16 - Metamorphic Rocks.txt
+SKIP (exists): Ep17 - Relative Dating Principles.txt
+SKIP (exists): Ep18 - Unconformities.txt
+SKIP (exists): Ep19 - Geo-Logic Puzzles.txt
+SKIP (exists): Ep20 - Absolute Dating.txt
+SKIP (exists): Ep21 - Fossils.txt
+SKIP (exists): Ep22 - The Geologic Time Scale.txt
+SKIP (exists): Ep23 - Intro to Rock Deformation.txt
+SKIP (exists): Ep24 - Explaining Strike and Dip.txt
+SKIP (exists): Ep25 - Measuring Strike and Dip.txt
+SKIP (exists): Ep26 - Folds in Rocks.txt
+SKIP (exists): Ep27 - Know Your Faults.txt
+SKIP (exists): Ep28 - Earthquake Basics.txt
+SKIP (exists): Ep29 - Earthquake Location and Size.txt
+SKIP (exists): Ep30 - Earthquake Hazards.txt
+SKIP (exists): Ep31 - Beachballs Explained.txt
+SKIP (exists): Ep32 - Mass Wasting Basics.txt
+SKIP (exists): Ep33 - Types of Mass Wasting Processes.txt
+SKIP (exists): Ep34 - Stream Basics.txt
+SKIP (exists): Ep35 - Stream Landforms.txt
+SKIP (exists): Ep36 - Groundwater Concepts.txt
+SKIP (exists): Ep37 - Groundwater Issues and Caves.txt
+SKIP (exists): Ep38 - How Deserts Form.txt
+SKIP (exists): Ep39 - Desert Landforms.txt
+SKIP (exists): 01 - Introduction to Geology.txt
+SKIP (exists): 02 - History of the Earth Part 1.txt
+SKIP (exists): 03 - History of the Earth Part 2.txt
+SKIP (exists): 04 - History of the Earth Part 3.txt
+SKIP (exists): 05 - History of the Earth Part 4.txt
+SKIP (exists): 06 - Geologic Structures Part 1.txt
+SKIP (exists): 07 - Geologic Structures Part 2.txt
+SKIP (exists): 08 - Overview of Earths Layers.txt
+SKIP (exists): 09 - Earthquakes and Seismology.txt
+SKIP (exists): 10 - Development of Plate Tectonics.txt
+SKIP (exists): 11 - Wilson Cycle and Plate Boundaries.txt
+SKIP (exists): 12 - Layers of the Ocean.txt
+SKIP (exists): 13 - Composition of Oceanic Crust Part 1.txt
+SKIP (exists): 14 - Composition of Oceanic Crust Part 2.txt
+SKIP (exists): 15 - Composition of Rocks Mineral Crystallinity.txt
+SKIP (exists): 16 - Macroscopic Characteristics Part 1.txt
+SKIP (exists): 17 - Macroscopic Characteristics Part 2.txt
+SKIP (exists): 18 - 8 Classes of Minerals Part 1.txt
+SKIP (exists): 19 - 8 Classes of Minerals Part 2.txt
+SKIP (exists): 20 - Types of Silicates Part 1.txt
+SKIP (exists): 21 - Types of Silicates Part 2.txt
+SKIP (exists): 22 - Origin of Igneous Rocks.txt
+SKIP (exists): 23 - Classification of Igneous Rocks.txt
+SKIP (exists): 24 - Characteristics of Sedimentary Rocks.txt
+SKIP (exists): 25 - Mineralogy of Sedimentary Rocks.txt
+SKIP (exists): 26 - Classification Sedimentary Rocks Part 1.txt
+SKIP (exists): 27 - Classification Sedimentary Rocks Part 2.txt
+SKIP (exists): 28 - Classification Sedimentary Rocks Part 3.txt
+SKIP (exists): 29 - Origin of Metamorphic Rocks.txt
+SKIP (exists): 30 - Types of Metamorphism.txt
+SKIP (exists): 31 - The Rock Cycle.txt
+SKIP (exists): 32 - Physical Weathering Processes.txt
+SKIP (exists): 33 - Chemical Weathering Processes.txt
+SKIP (exists): 34 - Weathering Environments Part 1 Fluvial.txt
+SKIP (exists): 35 - Weathering Environments Part 2 Aeolian.txt
+SKIP (exists): 36 - Weathering Environments Part 3 Glacial.txt
+SKIP (exists): 37 - Methods of Dating Earth Part 1 Relative.txt
+SKIP (exists): 38 - Methods of Dating Earth Part 2 Absolute.txt
+SKIP (exists): 39 - Volcanoes Formation Types Activity.txt
+SKIP (exists): 01 - The Science of Geology.txt
+SKIP (exists): 02 - Continental Drift.txt
+OK (pt): 03 - Plate Tectonics.txt (50161 chars)
+SKIP (exists): 04 - Atoms and Chemical Bonds.txt
+FAIL EZMBoXQbA6k: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+FAIL PVF9jeH2-8U: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+FAIL AoXU2sSrK9Q: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+SKIP (exists): 08 - Volcanoes.txt
+FAIL NMmNOUQL0Xc: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+FAIL 0VzbhTP0ujI: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+FAIL 6XbXM5y1110: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+FAIL MeAz8An80ro: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+FAIL f5ExuqB6SJI: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+SKIP (exists): 14 - The Ocean Floor.txt
+SKIP (exists): 15 - Faults Folds and Joints.txt
+SKIP (exists): 16 - Mountains.txt
+SKIP (exists): 17 - Landslides and Mass Wasting.txt
+OK (pt): 18 - Rivers and Springs.txt (41641 chars)
+FAIL 1eu55XyKBSM: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+FAIL 6VkbOSKQP1A: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+SKIP (exists): 21 - Deserts.txt
+FAIL _dOpehNbCRk: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+SKIP (exists): 23 - Farewell.txt
+SKIP (exists): 00 - Crash Course Geology Preview.txt
+SKIP (exists): 01 - Intro to Geology.txt
+SKIP (exists): 02 - How did Earth form.txt
+SKIP (exists): 03 - Earths Crust and Mantle Explained.txt
+SKIP (exists): 04 - Whats at the center of the earth.txt
+SKIP (exists): 05 - How Do Minerals Form.txt
+SKIP (exists): 06 - The Rock Episode.txt
+SKIP (exists): 07 - How Do Gems Form.txt
+SKIP (exists): 08 - Where Do Diamonds Come From.txt
+SKIP (exists): 09 - How Water Shapes the Land.txt
+SKIP (exists): 10 - What is Plate Tectonics.txt
+SKIP (exists): 11 - How Do Mountains Form.txt
+SKIP (exists): 12 - The Deepest Point in the World.txt
+SKIP (exists): 13 - Volcanoes Explained.txt
+SKIP (exists): 14 - Earthquakes Explained.txt

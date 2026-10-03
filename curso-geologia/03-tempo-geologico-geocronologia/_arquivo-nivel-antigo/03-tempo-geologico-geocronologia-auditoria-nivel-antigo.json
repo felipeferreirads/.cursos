@@ -1,0 +1,87 @@
+{
+  "module_id": "03",
+  "module_slug": "tempo-geologico-geocronologia",
+  "audited_at": "2026-08-16",
+  "mode": "audit-and-fix",
+  "scope": [
+    "03-tempo-geologico-geocronologia-aula-01-datacao-relativa-e-discordancias.md",
+    "03-tempo-geologico-geocronologia-aula-02-decaimento-radioativo-e-datacao-radiometrica.md",
+    "03-tempo-geologico-geocronologia-aula-03-carta-cronoestratigrafica-e-gssp.md",
+    "03-tempo-geologico-geocronologia-aula-04-unidades-cronoestratigraficas-e-geocronologicas.md",
+    "03-tempo-geologico-geocronologia-aula-05-magnitude-do-tempo-profundo.md"
+  ],
+  "verdict": "approved",
+  "counts": {"red": 0, "orange": 1, "yellow": 0, "blue": 1, "white": 0},
+  "findings": [
+    {
+      "finding_id": "M03-F01",
+      "claim_id": "GEO-M03-A02-FECHAMENTO-005",
+      "severity": "orange",
+      "nature": "confusao_de_escopo",
+      "file": "03-tempo-geologico-geocronologia-aula-02-decaimento-radioativo-e-datacao-radiometrica.md",
+      "section": "Temperatura de fechamento: o que a idade realmente data",
+      "claim_original": "Temperatura de fechamento do sistema K-Ar em mica, na faixa de 300-350 °C.",
+      "problem": "Faixa única para 'mica' genericamente; biotita (~300-330 °C) e muscovita (~350-425 °C) têm temperaturas de fechamento sensivelmente diferentes, e a faixa original ficava abaixo do valor real da muscovita.",
+      "correction_applied": "Diferenciadas biotita (~300-330 °C), muscovita (~350-425 °C) e hornblenda (~500 °C) no texto e no bloco de alegações auditáveis.",
+      "source": "Conceito de temperatura de fechamento (Dodson, 1973); valores de referência consolidados em termocronologia.",
+      "source_level": "revisada por pares / base de referência",
+      "confidence": "provável",
+      "affected_files": [
+        "03-tempo-geologico-geocronologia-aula-02-decaimento-radioativo-e-datacao-radiometrica.md",
+        "course-state.yaml"
+      ],
+      "outcome": "fixed",
+      "applied_at": "2026-08-16"
+    },
+    {
+      "finding_id": "M03-F02",
+      "claim_id": "GEO-M03-A02-FECHAMENTO-005",
+      "severity": "blue",
+      "nature": "evidencia_insuficiente",
+      "file": "03-tempo-geologico-geocronologia-aula-02-decaimento-radioativo-e-datacao-radiometrica.md",
+      "section": "Temperatura de fechamento: o que a idade realmente data",
+      "claim_original": "Temperatura de fechamento do sistema U-Pb em zircão acima de 800-900 °C.",
+      "problem": "A literatura não converge num único valor; zircão tem difusão de Pb extremamente lenta e é tratado por vários autores como sem temperatura de fechamento útil abaixo da anatexia, com valores citados entre ~900 °C e o solidus, dependendo de grão e taxa de resfriamento.",
+      "correction_applied": null,
+      "source": "termocronologia de zircão, literatura variada, sem valor único consolidado",
+      "source_level": "geral",
+      "confidence": "em disputa",
+      "affected_files": [
+        "03-tempo-geologico-geocronologia-aula-02-decaimento-radioativo-e-datacao-radiometrica.md"
+      ],
+      "outcome": "not_fixed_pending",
+      "note": "Já tratado com incerteza explícita e confianca: media no texto original; não bloqueia o módulo. Registrado como pendência aberta por natureza (deferred)."
+    }
+  ],
+  "verified_claims": [
+    {"claim_id": "GEO-M03-A01-STENO-001", "result": "confirmed", "confidence": "alta"},
+    {"claim_id": "GEO-M03-A01-SMITH-002", "result": "confirmed", "confidence": "alta"},
+    {"claim_id": "GEO-M03-A01-DISCORDANCIAS-003", "result": "confirmed", "confidence": "alta"},
+    {"claim_id": "GEO-M03-A01-SICCAR-004", "result": "confirmed", "confidence": "alta"},
+    {"claim_id": "GEO-M03-A02-MEIAVIDAS-001", "result": "confirmed", "confidence": "alta"},
+    {"claim_id": "GEO-M03-A02-EQUACAO-002", "result": "confirmed", "confidence": "alta"},
+    {"claim_id": "GEO-M03-A02-ZIRCAO-003", "result": "confirmed", "confidence": "alta"},
+    {"claim_id": "GEO-M03-A02-C14-004", "result": "confirmed", "confidence": "alta"},
+    {"claim_id": "GEO-M03-A02-CONCORDIA-006", "result": "confirmed", "confidence": "alta"},
+    {"claim_id": "GEO-M03-A03-HIERARQUIA-001", "result": "confirmed", "confidence": "alta"},
+    {"claim_id": "GEO-M03-A03-FANEROZOICO-INICIO-002", "result": "confirmed", "confidence": "alta"},
+    {"claim_id": "GEO-M03-A03-GSSP-FORTUNE-HEAD-003", "result": "confirmed", "confidence": "alta"},
+    {"claim_id": "GEO-M03-A03-GSSP-ELKEF-004", "result": "confirmed", "confidence": "alta"},
+    {"claim_id": "GEO-M03-A03-ARQUEANO-PROTEROZOICO-GSSA-005", "result": "confirmed", "confidence": "alta"},
+    {"claim_id": "GEO-M03-A03-ANTROPOCENO-006", "result": "confirmed_as_stated_uncertain", "confidence": "media", "note": "aula já apresenta como não ratificado; status permanece correto"},
+    {"claim_id": "GEO-M03-A04-PARES-001", "result": "confirmed", "confidence": "alta"},
+    {"claim_id": "GEO-M03-A04-GEOCRONOMETRICA-002", "result": "confirmed", "confidence": "media"},
+    {"claim_id": "GEO-M03-A04-LITOESTRATIGRAFIA-003", "result": "confirmed", "confidence": "alta"},
+    {"claim_id": "GEO-M03-A05-HUTTON-FRASE-001", "result": "confirmed", "confidence": "alta"},
+    {"claim_id": "GEO-M03-A05-IDADE-TERRA-002", "result": "confirmed", "confidence": "alta"},
+    {"claim_id": "GEO-M03-A05-IDADE-UNIVERSO-003", "result": "confirmed", "confidence": "alta"},
+    {"claim_id": "GEO-M03-A05-CALENDARIO-COSMICO-004", "result": "confirmed", "confidence": "alta"},
+    {"claim_id": "GEO-M03-A05-PRECAMBRIANO-PERCENTUAL-005", "result": "confirmed_by_calculation", "confidence": "alta"},
+    {"claim_id": "GEO-M03-A05-EXEMPLO-CALCULO-006", "result": "confirmed_by_calculation", "confidence": "alta"}
+  ],
+  "cross_lesson_consistency": {
+    "checked": true,
+    "issues_found": 0,
+    "notes": "Nenhuma contradição encontrada entre as 5 aulas do módulo, nem com os módulos 01 e 02. Valor de 538,8 Ma usado de forma consistente entre A03, A04 e A05."
+  }
+}

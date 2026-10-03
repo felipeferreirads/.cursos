@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "17-geologia-estrutural/",
+    "module_id": "17",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-18T15:20:00-03:00",
+  "reverified_at": "2026-08-18T18:05:00-03:00",
+  "verdict": "approved_with_reservations",
+  "summary": {
+    "red": 1,
+    "orange": 6,
+    "yellow": 0,
+    "blue": 0,
+    "white": 1,
+    "verified_ok": 21
+  },
+  "findings": [
+    {
+      "claim_id": "EST-M17-PLUNGE-VDIR-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "claim": "Dobras com caimento produzem, em mapa, um padrão em V ou ferradura cuja ponta aponta na direção do caimento.",
+      "location": {
+        "file": "17-geologia-estrutural/17-geologia-estrutural-aula-03-dobras-anatomia-e-classificacao.md",
+        "section": "Classificação pelo caimento do eixo; Recap relâmpago",
+        "quote": "um padrão característico em forma de \"V\" ou ferradura apontando na direção do caimento"
+      },
+      "problem": "A regra vale só para anticlinais e antiformes. Sinclinais e sinformes com caimento se abrem na direção do caimento, e a ponta do V aponta no sentido oposto. Enunciada de forma geral, a afirmação é falsa em metade dos casos.",
+      "replacement": "Separar os dois sentidos: anticlinal/antiforme com caimento fecha o nariz na direção do caimento; sinclinal/sinforme com caimento aponta no sentido oposto porque se abre na direção do caimento.",
+      "source": {
+        "name": "Basics — Geologic Structures, Wenatchee Valley College; Outcrop Patterns, University of Oregon",
+        "url": "https://commons.wvc.edu/rdawes/Basics/structures.html",
+        "tier": "reference_database",
+        "version": "consultado 2026-08-18; convergente com Fossen 2016, cap. 11",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "17-geologia-estrutural/17-geologia-estrutural-aula-03-dobras-anatomia-e-classificacao.md",
+        "17-geologia-estrutural/17-geologia-estrutural-aula-06-mapas-e-secoes-estruturais.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-18T15:35:00-03:00"
+    },
+    {
+      "claim_id": "EST-M17-VRULE-EXCEPT-002",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "A regra do V tem uma única exceção: mergulho igual, em grau e sentido, à declividade do vale.",
+      "location": {
+        "file": "17-geologia-estrutural/17-geologia-estrutural-aula-06-mapas-e-secoes-estruturais.md",
+        "section": "Vocabulário; Como dobras aparecem em mapa: a regra do V; Exemplo trabalhado; Erros comuns; Recap",
+        "quote": "a exceção ocorre quando o mergulho da camada é exatamente igual, e no mesmo sentido, à declividade do vale"
+      },
+      "problem": "São três exceções. Faltam a camada vertical (não forma V) e, sobretudo, a camada que mergulha vale abaixo com ângulo menor que a declividade do vale, em que o V aponta no sentido contrário ao mergulho — o caso em que aplicar a regra como ensinada dá a resposta invertida. Falta também o critério de cota que separa os casos.",
+      "replacement": "Enumerar as três exceções e acrescentar a checagem de cota da ponta do V em relação às bordas do traço.",
+      "source": {
+        "name": "The Rule of Vs in geological mapping, Geological Digressions; 9.3 Estimating Dip Direction from a Geological Map, A Practical Guide to Introductory Geology",
+        "url": "https://www.geological-digressions.com/the-rule-of-vs-in-geological-mapping/",
+        "tier": "reference_database",
+        "version": "consultado 2026-08-18; convergente com Rowland, Duebendorfer & Schiefelbein 2007, cap. 2",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "17-geologia-estrutural/17-geologia-estrutural-aula-06-mapas-e-secoes-estruturais.md",
+        "17-geologia-estrutural/17-geologia-estrutural-questionario-final.md",
+        "17-geologia-estrutural/17-geologia-estrutural-flashcards-basic.csv",
+        "17-geologia-estrutural/17-geologia-estrutural-flashcards-cloze.csv"
+      ],
+      "derived_items": ["A4", "D3", "geologia-m17-fb046", "geologia-m17-fc030"],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-18T15:35:00-03:00"
+    },
+    {
+      "claim_id": "EST-M17-FOLDAXIS-DEF-003",
+      "severity": "orange",
+      "kind": "imprecisao_de_nomenclatura",
+      "claim": "O eixo da dobra é a linha de interseção entre o plano axial e uma superfície dobrada específica.",
+      "location": {
+        "file": "17-geologia-estrutural/17-geologia-estrutural-aula-03-dobras-anatomia-e-classificacao.md",
+        "section": "Vocabulário; Anatomia de uma dobra; Erros comuns; Recap",
+        "quote": "a linha formada pela interseção entre o plano axial e a superfície dobrada específica que você está observando"
+      },
+      "problem": "Essa interseção é a charneira daquela superfície, já definida na mesma aula — dois nomes para a mesma coisa. O eixo da dobra é a linha reta que, deslocada paralelamente a si mesma, gera a forma da dobra, e só existe em dobras cilíndricas; a definição dada apaga essa restrição.",
+      "replacement": "Definir o eixo como a linha geradora paralela à charneira, válida em dobras cilíndricas, com nota de que dobras de charneira curva não têm eixo único.",
+      "source": {
+        "name": "Waldron & Snyder, Geological Structures: a Practical Introduction — Folds; ETH Zürich, Folds: basic geometrical definitions",
+        "url": "https://geo.libretexts.org/Bookshelves/Geology/Geological_Structures_-_A_Practical_Introduction_(Waldron_and_Snyder)/01:_Topics/1.05:_Folds",
+        "tier": "reference_database",
+        "version": "consultado 2026-08-18; convergente com Fossen 2016, cap. 11",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "17-geologia-estrutural/17-geologia-estrutural-aula-03-dobras-anatomia-e-classificacao.md",
+        "17-geologia-estrutural/17-geologia-estrutural-questionario-final.md",
+        "17-geologia-estrutural/17-geologia-estrutural-flashcards-basic.csv",
+        "17-geologia-estrutural/17-geologia-estrutural-flashcards-cloze.csv"
+      ],
+      "derived_items": ["V2", "geologia-m17-fb020", "geologia-m17-fc011"],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-18T15:35:00-03:00"
+    },
+    {
+      "claim_id": "EST-M17-DELTA-CLAST-004",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Porfiroclastos delta têm caudas que se curvam do jeito oposto às dos porfiroclastos sigma.",
+      "location": {
+        "file": "17-geologia-estrutural/17-geologia-estrutural-aula-05-zonas-de-cisalhamento.md",
+        "section": "Como saber para que lado a zona de cisalhamento se moveu",
+        "quote": "\"delta\" (δ, com caudas que se curvam do jeito oposto e cruzam o plano central do grão)"
+      },
+      "problem": "Sugere que sigma e delta indicariam sentidos de cisalhamento opostos. Os dois indicam o mesmo sentido; a distinção é geométrica — no tipo sigma as linhas medianas das caudas não cruzam a linha de referência traçada pelo centro do grão, e no tipo delta as caudas envolvem o grão e cruzam essa linha. Quem lê o sentido é o stair-stepping.",
+      "replacement": "Descrever sigma e delta pela relação das caudas com a linha de referência e declarar que ambos indicam o mesmo sentido de cisalhamento.",
+      "source": {
+        "name": "Passchier, C. W. & Simpson, C. (1986), Porphyroclast systems as kinematic indicators, Journal of Structural Geology",
+        "url": "https://www.tekphys.geo.uni-mainz.de/publications_PDF/12-PasschierSimpson86.pdf",
+        "tier": "peer_reviewed",
+        "version": "1986; retomado em Passchier & Trouw 2005, Microtectonics, cap. 7",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "17-geologia-estrutural/17-geologia-estrutural-aula-05-zonas-de-cisalhamento.md",
+        "17-geologia-estrutural/17-geologia-estrutural-flashcards-basic.csv",
+        "17-geologia-estrutural/17-geologia-estrutural-flashcards-cloze.csv"
+      ],
+      "derived_items": ["geologia-m17-fb040", "geologia-m17-fc025"],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-18T15:35:00-03:00"
+    },
+    {
+      "claim_id": "EST-M17-SHEARZONE-ORIGIN-005",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Zonas de cisalhamento são o resultado de falhas profundas cuja deformação se espalha por uma faixa de rocha.",
+      "location": {
+        "file": "17-geologia-estrutural/17-geologia-estrutural-aula-05-zonas-de-cisalhamento.md",
+        "section": "A mesma ideia de deslocamento, respondida de outro jeito",
+        "quote": "Zonas de cisalhamento são, na prática, o resultado de falhas profundas cuja deformação, em vez de se concentrar numa única superfície, se espalha por uma faixa de rocha inteira."
+      },
+      "problem": "Inverte a relação causal e contradiz o bullet de erros comuns da própria aula, que adverte contra tratar zona de cisalhamento como 'uma falha muito larga'. Falha rúptil e zona de cisalhamento dúctil são extremos de um contínuo, e a mesma estrutura muda de caráter com a profundidade.",
+      "replacement": "Reescrever no enquadramento de contínuo: perto da superfície a deformação se concentra numa superfície de ruptura; em profundidade a mesma estrutura se alarga e distribui a deformação.",
+      "source": {
+        "name": "Fossen & Cavalcante (2017), Shear zones — A review, Earth-Science Reviews; Waldron & Snyder, Geological Structures — Shear Zones",
+        "url": "https://pressbooks.openeducationalberta.ca/introductorystructuralgeology/chapter/m-shear-zones/",
+        "tier": "peer_reviewed",
+        "version": "consultado 2026-08-18",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "17-geologia-estrutural/17-geologia-estrutural-aula-05-zonas-de-cisalhamento.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-18T15:35:00-03:00"
+    },
+    {
+      "claim_id": "EST-M17-THRUST-DISP-006",
+      "severity": "orange",
+      "kind": "imprecisao_de_magnitude",
+      "claim": "Cavalgamentos empurram rochas antigas sobre rochas mais jovens ao longo de distâncias que podem chegar a dezenas de quilômetros.",
+      "location": {
+        "file": "17-geologia-estrutural/17-geologia-estrutural-aula-04-falhas-anatomia-e-classificacao.md",
+        "section": "Falha reversa e de cavalgamento: quando o teto sobe; Recap",
+        "quote": "ao longo de distâncias que podem chegar a dezenas de quilômetros"
+      },
+      "problem": "Subestima em uma ordem de grandeza os próprios exemplos citados. O Main Central Thrust tem deslocamento mínimo estimado em ~116 km em seção balanceada no Nepal central, e o encurtamento total do cinturão himalaiano é de centenas de quilômetros.",
+      "replacement": "Dar a faixa real, de poucos quilômetros a mais de uma centena nos maiores cavalgamentos, ancorada no Main Central Thrust.",
+      "source": {
+        "name": "Seções balanceadas do Himalaia central (Main Central Thrust, deslocamento mínimo 116 km, seção do rio Budhi-Gandaki); Wiesmayr & Grasemann (2002), Tectonics",
+        "url": "https://en.wikipedia.org/wiki/Main_Central_Thrust",
+        "tier": "peer_reviewed",
+        "version": "consultado 2026-08-18",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "17-geologia-estrutural/17-geologia-estrutural-aula-04-falhas-anatomia-e-classificacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-18T15:35:00-03:00"
+    },
+    {
+      "claim_id": "EST-M17-THRUST-ANGLE-007",
+      "severity": "white",
+      "kind": "controversia",
+      "claim": "Falha de cavalgamento é a falha reversa com mergulho tipicamente menor que 30°.",
+      "location": {
+        "file": "17-geologia-estrutural/17-geologia-estrutural-aula-04-falhas-anatomia-e-classificacao.md",
+        "section": "Vocabulário; Falha reversa e de cavalgamento; Erros comuns; Recap",
+        "quote": "Uma falha reversa de baixo ângulo (tipicamente menos de ~30°)"
+      },
+      "problem": "O limite numérico diverge entre fontes do mesmo nível: boa parte da literatura estrutural usa <30°, enquanto o Glossary of Geology (AGI), o uso do USGS e a Britannica definem cavalgamento como reversa com mergulho de 45° ou menos. O material adota um lado sem sinalizar o outro.",
+      "replacement": "Manter 30° como convenção do módulo, declarando explicitamente a existência do limite de 45° em referências de peso e que o consensual é o caráter de baixo ângulo, não o número de corte.",
+      "source": {
+        "name": "Glossary of Geology (AGI), verbete thrust fault (45° ou menos); Encyclopaedia Britannica, Thrust fault — contrapostos a Fossen 2016 cap. 9 e Davis, Reynolds & Kluth 2012 cap. 8 (<30°)",
+        "url": "https://www.britannica.com/science/thrust-fault",
+        "tier": "reference_database",
+        "version": "consultado 2026-08-18",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "em_disputa",
+      "affected_files": [
+        "17-geologia-estrutural/17-geologia-estrutural-aula-04-falhas-anatomia-e-classificacao.md",
+        "17-geologia-estrutural/17-geologia-estrutural-questionario-final.md",
+        "17-geologia-estrutural/17-geologia-estrutural-flashcards-basic.csv",
+        "17-geologia-estrutural/17-geologia-estrutural-flashcards-cloze.csv"
+      ],
+      "derived_items": ["9", "geologia-m17-fb031", "geologia-m17-fc019"],
+      "outcome": "corrigido_com_ressalva",
+      "applied_at": "2026-08-18T15:35:00-03:00"
+    },
+    {
+      "claim_id": "EST-M17-QUIZ-COVERAGE-029",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "O questionário final tem 19 questões e 44 pontos, com a matriz de cobertura apoiada nas questões 11, 12, 13, 14 e 15.",
+      "location": {
+        "file": "17-geologia-estrutural/17-geologia-estrutural-questionario-final.md",
+        "section": "Cabeçalho; Matriz de cobertura",
+        "quote": "**Questões:** 19 · **Pontuação total:** 44 pontos"
+      },
+      "problem": "A Parte I termina na questão 10 e o gabarito comentado só cobre de 1 a 10; as questões 11 a 15 citadas pela matriz não existem no arquivo. O conteúdo real são 21 questões somando 39 pontos, o que torna a nota de corte 31/44 um cálculo sobre denominador inexistente e a linha de níveis cognitivos (8+8+3=19) uma descrição de outro questionário. A matriz ainda atribuía D2(b) ao oa05, embora o subitem trate de zona de cisalhamento (oa04 parte 2).",
+      "replacement": "Reconciliar cabeçalho, nota de corte e matriz com o conteúdo presente (21 questões, 39 pontos, corte 27/39), reatribuir D2(b) ao oa04 parte 2 e registrar a lacuna de cobertura em vez de inventar as cinco questões ausentes.",
+      "source": {
+        "name": "Verificação interna do próprio material: contagem dos itens e dos pesos declarados, conferida contra o gabarito comentado",
+        "url": null,
+        "tier": "internal",
+        "version": "conteúdo do arquivo em 2026-08-18",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "17-geologia-estrutural/17-geologia-estrutural-questionario-final.md",
+        "17-geologia-estrutural/17-geologia-estrutural-modulo.md"
+      ],
+      "derived_items": ["matriz de cobertura", "nota de corte", "registro do módulo"],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-18T18:10:00-03:00",
+      "follow_up": {
+        "owner": "gerador-de-questionarios",
+        "issue": "oa04 parte 2 e oa05 ficaram sem qualquer questão de múltipla escolha; a auditoria não cria item de avaliação novo.",
+        "blocks_gate": false
+      }
+    }
+  ],
+  "verified_claims": [
+    {"claim_id": "EST-M17-STRESS-DEF-008", "claim": "Stress é força por área (Pa/MPa); strain é adimensional.", "source": "Fossen 2016 cap. 2; van der Pluijm & Marshak 2004 cap. 3", "confidence": "confirmado"},
+    {"claim_id": "EST-M17-TENSOR-009", "claim": "O tensor de stress tem três tensões principais perpendiculares, σ1 ≥ σ2 ≥ σ3.", "source": "Fossen 2016 cap. 2", "confidence": "confirmado"},
+    {"claim_id": "EST-M17-STRESS-TYPES-010", "claim": "Compressivo encurta, distensivo alonga, cisalhante desliza paralelo ao plano de contato.", "source": "Davis, Reynolds & Kluth 2012 cap. 2", "confidence": "confirmado"},
+    {"claim_id": "EST-M17-ELASTIC-PERM-011", "claim": "Deformação elástica é reversível; a permanente fica registrada nas rochas.", "source": "Fossen 2016 cap. 2", "confidence": "confirmado"},
+    {"claim_id": "EST-M17-STRAIN-EXAMPLE-012", "claim": "500 m para 400 m equivale a 20% de encurtamento, strain 0,2.", "source": "definição de strain longitudinal", "confidence": "confirmado"},
+    {"claim_id": "EST-M17-BD-FACTORS-013", "claim": "T, pressão confinante, taxa de deformação e composição/fluidos controlam o regime rúptil/dúctil.", "source": "Fossen 2016 cap. 7", "confidence": "confirmado"},
+    {"claim_id": "EST-M17-BDT-DEPTH-014", "claim": "A transição rúptil-dúctil crustal fica em torno de 10-15 km e ~300 °C, controlada pelo quartzo, variando com o geotermo.", "source": "Axen 2024, G-cubed (250-350 °C, 10-20 km); Hirth & Tullis 1994, JGR", "confidence": "confirmado"},
+    {"claim_id": "EST-M17-QTZ-FSP-015", "claim": "O quartzo flui dutilmente em temperatura bem menor que o feldspato.", "source": "Hirth & Tullis 1994; Axen 2024", "confidence": "confirmado"},
+    {"claim_id": "EST-M17-JOINT-FAULT-016", "claim": "Junta é fratura sem deslocamento perceptível; falha, com deslocamento.", "source": "Fossen 2016 cap. 9", "confidence": "confirmado"},
+    {"claim_id": "EST-M17-HW-FW-017", "claim": "Bloco de teto acima do plano inclinado, bloco de muro abaixo; termos vindos da mineração.", "source": "Fossen 2016 cap. 9", "confidence": "confirmado"},
+    {"claim_id": "EST-M17-NORMAL-DIP-018", "claim": "Falha normal desce o teto, é distensiva e mergulha tipicamente entre 45° e 70°.", "source": "distribuição observada 40-70°, moda 51-57°; mecânica clássica 60-65°", "confidence": "confirmado"},
+    {"claim_id": "EST-M17-STRIKESLIP-019", "claim": "Transcorrente tem deslocamento horizontal paralelo à direção; dextral/sinistral pelo bloco oposto visto de cima.", "source": "Fossen 2016 cap. 9", "confidence": "confirmado"},
+    {"claim_id": "EST-M17-ANDERSON-020", "claim": "Anderson 1905, Trans. Edinburgh Geol. Soc. v.8 p.387: ~60° normais, ~30° cavalgamentos, subvertical transcorrentes.", "source": "GSL Special Publications 367 (2012), legacy of E. M. Anderson", "confidence": "confirmado"},
+    {"claim_id": "EST-M17-ANTI-SYN-021", "claim": "Anticlinal tem as camadas mais antigas no núcleo; sinclinal, as mais jovens. Critério é idade.", "source": "van der Pluijm & Marshak 2004 cap. 11", "confidence": "confirmado"},
+    {"claim_id": "EST-M17-ANTIFORM-022", "claim": "Antiforme/sinforme descrevem só a forma, quando a idade relativa é desconhecida.", "source": "van der Pluijm & Marshak 2004 cap. 11", "confidence": "confirmado"},
+    {"claim_id": "EST-M17-OVERTURN-RECUMB-023", "claim": "Tombada tem um flanco invertido; recumbente tem plano axial aproximadamente horizontal.", "source": "Davis, Reynolds & Kluth 2012 cap. 6", "confidence": "confirmado"},
+    {"claim_id": "EST-M17-MYLONITE-024", "claim": "Milonito se forma por recristalização dinâmica; brecha e cataclasito, por fragmentação rúptil.", "source": "Passchier & Trouw 2005 cap. 6", "confidence": "confirmado"},
+    {"claim_id": "EST-M17-SC-FABRIC-025", "claim": "Fábrica S-C: S de schistosité, C de cisaillement, ângulo entre elas indica o sentido.", "source": "Berthé, Choukroune & Jégouzo 1979; Passchier & Trouw 2005 cap. 7", "confidence": "confirmado"},
+    {"claim_id": "EST-M17-STRIKE-DIP-026", "claim": "Direção e mergulho conforme definidos; N30°E aponta 30° a leste do norte.", "source": "Rowland, Duebendorfer & Schiefelbein 2007 cap. 2", "confidence": "confirmado"},
+    {"claim_id": "EST-M17-APPARENT-DIP-027", "claim": "O mergulho aparente é sempre menor ou igual ao mergulho real.", "source": "Fossen 2016 cap. 3", "confidence": "confirmado"},
+    {"claim_id": "EST-M17-MAP-SYMBOLS-028", "claim": "Falha normal com hachuras no lado que desceu; cavalgamento com dentes de serra no bloco de teto.", "source": "FGDC Digital Cartographic Standard for Geologic Map Symbolization, seção 2", "confidence": "confirmado"}
+  ],
+  "notes": [
+    "Reverificação de 2026-08-18: os sete achados originais foram reconferidos no texto dos arquivos e estavam todos aplicados — a reexecução foi idempotente, sem nova edição sobre eles. Quatro correções foram reconferidas contra fonte (sentido do V em dobra com caimento; geometria sigma/delta com mesmo sentido de cisalhamento; deslocamento mínimo de ~116 km do Main Central Thrust; divergência 30 x 45 graus na definição de cavalgamento) e todas se sustentam. O critério de cota da ponta do V, introduzido pela correção EST-M17-VRULE-EXCEPT-002, foi validado contra a formulação de referência da regra.",
+    "O baralho não tem card sobre o sentido do V em dobras com caimento (achado EST-M17-PLUNGE-VDIR-001). Criar cobertura nova é tarefa do gerador-de-flashcards, não da auditoria.",
+    "course-state.yaml não foi atualizado por esta execução, por decisão de coordenação: o bloco audit do módulo 17 será consolidado junto com os módulos 18 e 20.",
+    "Nenhum arquivo fora de 17-geologia-estrutural/ foi lido para edição ou alterado."
+  ]
+}

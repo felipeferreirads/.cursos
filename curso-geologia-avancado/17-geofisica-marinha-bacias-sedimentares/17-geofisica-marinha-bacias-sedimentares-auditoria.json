@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "17-geofisica-marinha-bacias-sedimentares/",
+    "module_id": "17",
+    "course_id": "geologia-avancado"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-09-10",
+  "verdict": "approved",
+  "summary": {
+    "red": 1,
+    "orange": 4,
+    "yellow": 8,
+    "blue": 9,
+    "white": 1,
+    "verified_ok": 9,
+    "claims_declared_by_author": 18,
+    "claims_raised_by_audit": 6,
+    "claims_tracked_total": 24,
+    "worked_examples_recomputed": 3,
+    "worked_examples_arithmetic_failures": 0,
+    "open_findings": 0
+  },
+  "dominant_pattern": "ATRIBUICAO DE FONTE - o dado certo debaixo do nome errado. Quatro dos treze achados corrigiveis tem esta forma: o numero esta correto, a conclusao esta correta, e o artigo creditado nao e o que produziu aquele numero. (1) As duas idades U-Pb do Evaporito Retiro (119,2 +/- 1,6 e 119,18 +/- 0,79 Ma) creditadas a Tedeschi et al. (2017), que e artigo de quimioestratigrafia de d13C e nao reporta U-Pb; as idades sao de Alkmim et al. (2024), Marine and Petroleum Geology - este e o unico achado vermelho. (2) As medias cratonicas 41/48 mW/m2 creditadas a Pollack, Hurter & Johnson (1993); sao de Nyblade & Pollack (1993). (3) Entrada de bibliografia colada fundindo uma referencia espuria (Kaminski, M. A. et al.) com a real (Sloan & Koh 2008). (4) Milani & Zalan (1999), sobre bacias paleozoicas DE INTERIOR, creditado como panorama das bacias MARGINAIS brasileiras. Por que isso e caro NESTE modulo: as aulas 01, 02 e 05 se apoiam em literatura brasileira especifica, quase toda fora de bases indexadas em ingles, e e justamente onde o leitor autodidata mais depende da referencia para ir verificar. Uma atribuicao errada nao faz o aluno aprender um fato errado - faz com que, ao tentar conferir, ele nao encontre nada e conclua que o material inventou o dado. PADRAO SECUNDARIO: ESCOPO DE UMA IDADE OU DE UM BLOCO - dois laranjas aplicam a um recorte estreito um numero que vale para um recorte largo ('Neocomiano' do sistema de riftes inteiro aplicado ao segmento Santos-Campos-ES; quatro concessoes de Sergipe-Alagoas colapsadas numa so). ONDE O MODULO ESTA LIMPO: toda a fisica de propagacao, aquisicao e multiplas da a03; a geometria do rollover e do arrasto reverso na a01 (ponto de risco declarado, verificado contra literatura primaria e CORRETO, e consistente com o texto ja corrigido do Modulo 10); o par ar-livre/Bouguer da a04 e sua tabela; as anomalias magneticas lineares e Vine & Matthews; os quatro elementos do sistema petrolifero e o requisito de sincronismo da a05; a arquitetura pre-sal/pos-sal da margem.",
+  "cross_module_check": "Verificacao transversal explicita contra o Modulo 10 (Tectonica de bacias sedimentares), que e o antecedente conceitual real das aulas 01 e 02, e contra os Modulos 15 (petrofisica) e 16 (aerogeofisica), que sao os pre-requisitos formais. NENHUMA CONTRADICAO ENCONTRADA. (1) ROLLOVER / ARRASTO REVERSO: o texto da a01 do M17 e o texto corrigido da a04 do M10 foram comparados frase a frase - ambos dizem que as camadas do bloco do teto rodam DE VOLTA EM DIRECAO ao plano de falha, com o mergulho AUMENTANDO perto dele, por COLAPSO do bloco do teto e nao por atrito, e ambos trazem a ressalva de Grasemann et al. (2005) de que rollover NAO e diagnostico de falha listrica. Consistentes, e ambos corretos contra a literatura primaria. (2) VOCABULARIO MURO/TETO: identico entre M10 e M17. (3) EFEITO DE EOTVOS: o sentido ensinado na a04 do M17 (leste reduz a gravidade medida, correcao positiva, sinal independente do hemisferio) e o mesmo verificado e aprovado na auditoria do M16, a03. Consistentes. (4) IMPEDANCIA ACUSTICA: usada sem redefinicao na a03 do M17; e ensinada no M15 a02 e no M11 a01-a02, ambos anteriores na progressao - nao ha salto. (5) TECTONICA SALIFERA: a a02 e a a05 do M17 remetem ao M10 a04 em vez de reensinar, sem divergencia de conteudo. (6) MECANISMOS DE SUBSIDENCIA: a a01 do M17 agrupa os quatro mecanismos de forma ligeiramente diferente do M10 (destaca a fase termica como mecanismo proprio e reune carga sedimentar com compactacao); a propria aula declara a diferenca numa nota de compatibilidade explicita, dizendo que a fisica e a mesma e so a fronteira do agrupamento muda. Divergencia declarada e justificada, nao contradicao.",
+  "findings": [
+    {
+      "claim_id": "AUD-M17-A02-TEDESCHI-001",
+      "severity": "red",
+      "nature": "erro_factual",
+      "lesson": "geologia-avancado-m17-a02",
+      "location": "quadro 'Controvaersia em aberto - a idade do sal aptiano'; lista de Fontes; alegacao GEOFISMAR-M17-A02-SAL-002",
+      "written": "as datacoes radiometricas diretas mais citadas sao as de Tedeschi et al. (2017), que dataram por U-Pb laminas de calcita em anidrita nodular do Evaporito Retiro (Bacia de Campos) e obtiveram 119,2 +/- 1,6 Ma e 119,18 +/- 0,79 Ma",
+      "problem": "As duas idades existem e estao corretas, mas nao sao de Tedeschi et al. (2017). Aquele artigo (Geology 45(6), 543-546) e um trabalho de quimioestratigrafia de d13C que correlaciona o fim da deposicao evaporitica ao OAE 1a; nao reporta datacao U-Pb nenhuma. As duas determinacoes em laminas de calcita de anidrita nodular da porcao inferior do Evaporito Retiro sao de Alkmim, F. F. et al. (2024), 'U-Pb ages of pre- to post-salt carbonates, Santos and Campos basins, SE Brazil', Marine and Petroleum Geology, estudo de 30 determinacoes U-Pb LA-ICP-MS.",
+      "correction": "Fontes separadas e cada dado devolvido a quem o produziu: Tedeschi et al. (2017) fica com a correlacao d13C/OAE 1a, Alkmim et al. (2024) com as idades U-Pb. Alkmim et al. (2024) acrescentado as Fontes; a entrada de Tedeschi ganhou a ressalva explicita de que o artigo nao traz U-Pb.",
+      "source": "ScienceDirect S026481722400504X (Alkmim et al., Marine and Petroleum Geology, nov/2024); GeoScienceWorld, Geology 45(6), 543-546 (resumo de Tedeschi et al. 2017)",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-10",
+      "confidence": "confirmado",
+      "affected_files": [
+        "17-geofisica-marinha-bacias-sedimentares/17-geofisica-marinha-bacias-sedimentares-aula-02-margem-atlantica-brasileira-pre-rifte-rifte-sag-divergente.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-10"
+    },
+    {
+      "claim_id": "AUD-M17-A02-RIFTEIDADE-002",
+      "severity": "orange",
+      "nature": "confusao_de_escopo",
+      "lesson": "geologia-avancado-m17-a02",
+      "location": "Estagio 2 - Rifte; exemplo trabalhado; recap; alegacao GEOFISMAR-M17-A02-ESTAGIOS-001",
+      "written": "para o segmento central da margem brasileira (Santos-Campos-Espirito Santo), a fase rifte se desenvolve principalmente durante o Neocomiano ao Barremiano (grosso modo entre ~143 e 121 Ma)",
+      "problem": "'Neocomiano ao Barremiano' e a formulacao de Chang et al. (1992) para o East Brazil Rift System COMO UM TODO. Convertida em numero puxa o inicio para ~143 Ma, o que vale para os segmentos interiores e nordestinos (Reconcavo-Tucano-Jatoba, Sergipe-Alagoas) mas nao para o segmento central, que a frase declara descrever. Ali a fase rifte abre com os basaltos da Formacao Cambori no Hauteriviano, ~134 Ma (contemporaneos do magmatismo Parana-Etendeka), e o preenchimento sedimentar sin-rifte (Formacoes Picarras e Itapema) e Barremiano a Aptiano basal. Erro de ~9 Ma justamente no segmento escolhido como foco, e contradizendo a propria aula, que tres secoes adiante ensina que o rifteamento e diacrono.",
+      "correction": "Paragrafo reescrito distinguindo as duas escalas, com as unidades nomeadas; ~134-121 Ma para Santos-Campos-ES e ~143 Ma para os segmentos ao norte. Acrescentada a observacao de que 'Neocomiano' e termo informal, sem status na carta da ICS. Propagado para o exemplo trabalhado, para o recap (que ganhou um bullet proprio sobre idades) e para a alegacao.",
+      "source": "Literatura estratigrafica da Bacia de Santos (Fm. Cambori hauteriviana ~134-130 Ma; Picarras barremiana; Itapema Barremiano superior-Aptiano basal); Chang et al. (1992), Tectonophysics 213",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-10",
+      "confidence": "confirmado",
+      "affected_files": [
+        "17-geofisica-marinha-bacias-sedimentares/17-geofisica-marinha-bacias-sedimentares-aula-02-margem-atlantica-brasileira-pre-rifte-rifte-sag-divergente.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-10"
+    },
+    {
+      "claim_id": "AUD-M17-A02-SALCONTROVERSIA-003",
+      "severity": "orange",
+      "nature": "certeza_indevida",
+      "lesson": "geologia-avancado-m17-a02",
+      "location": "quadro da idade do sal; recap; alegacao GEOFISMAR-M17-A02-SAL-002",
+      "written": "Somando as duas coisas, a deposicao do sal cai no Aptiano inferior a medio, grosso modo entre ~122 e ~116 Ma. O que permanece genuinamente em disputa e a DURACAO da deposicao e a correlacao entre bacias.",
+      "problem": "A afirmacao sobre o estado da literatura e falsa. O que esta em disputa e, antes de tudo, a POSICAO DO SAL DENTRO DO APTIANO. Um campo o coloca no Aptiano inferior (d13C correlacionado ao OAE 1a, Tedeschi et al. 2017; U-Pb ~119 Ma, Alkmim et al. 2024; bioestratigrafia de foraminiferos da secao sobreposta); outro perto do limite Aptiano-Albiano ou acima (paleomagnetismo e Ar-Ar, com 110,64 +/- 0,3 Ma em silvinita de Sergipe, defendido por Szatmari et al. 2021, que descrevem o problema como desacordo marcado entre metodos). Ha inclusive um capitulo de monografia da AGU de 2025 intitulado 'The South Atlantic LATE Aptian Evaporites'. Apresentar o Aptiano inferior como resolvido e escolher um lado numa disputa aberta. Laranja e nao branco porque o texto ja vinha rotulado como controversia e o conteudo do quadro NEGAVA a controversia principal.",
+      "correction": "Quadro reescrito expondo os dois campos com suas evidencias, sem escolher um. Acrescentada a observacao de que a moldura 'radiometrico x bioestratigrafico' ja nao separa os campos de forma limpa, porque o U-Pb de Alkmim et al. e ele proprio radiometrico e cai no campo oposto - a divergencia hoje e tanto entre metodos radiometricos diferentes (U-Pb em calcita x Ar-Ar em silvinita) quanto entre radiometria e bioestratigrafia. Mantidos os pontos de consenso (deposicao rapida, 400-600 ka; correlacao entre bacias em aberto). Recap ampliado com o mesmo aviso.",
+      "source": "Szatmari, P. et al. (2021), 'Petrography, geochemistry and origin of South Atlantic evaporites: the Brazilian side', Marine and Petroleum Geology 127; Tedeschi et al. (2017), Geology 45(6); Alkmim et al. (2024), Marine and Petroleum Geology; 'The South Atlantic Late Aptian Evaporites' (2025), AGU Geophysical Monograph Series, cap. 3",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-10",
+      "confidence": "confirmado quanto a existencia dos dois campos; a disputa em si permanece aberta",
+      "affected_files": [
+        "17-geofisica-marinha-bacias-sedimentares/17-geofisica-marinha-bacias-sedimentares-aula-02-margem-atlantica-brasileira-pre-rifte-rifte-sag-divergente.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-10"
+    },
+    {
+      "claim_id": "AUD-M17-A04-EOTVOSORDEM-004",
+      "severity": "orange",
+      "nature": "inconsistencia_interna",
+      "lesson": "geologia-avancado-m17-a04",
+      "location": "Gravimetria marinha; recap",
+      "written": "a correcao de Eotvos e uma ordem de grandeza maior no ar do que no mar. Num navio, ela vale cerca de 5,4 mGal por no, ou seja, algumas dezenas de mGal a 5-10 nos. Numa aeronave a algumas centenas de nos, o mesmo efeito pode ultrapassar 1 Gal (mais de 1.000 mGal).",
+      "problem": "Os proprios numeros dados dizem outra coisa: dezenas de mGal contra mais de 1.000 mGal e um fator da ordem de 30 vezes, isto e, uma a duas ordens de grandeza. O leitor que fizer a conta encontra a contradicao dentro do mesmo paragrafo. O bloco de alegacoes da aula ja trazia a formulacao certa ('falso por uma a duas ordens de grandeza'); o corpo nao tinha sido acertado. Laranja e nao amarelo porque 'quantas ordens de grandeza' e exatamente o que vira flashcard e questao de multipla escolha, e o material derivado herdaria a versao errada do corpo.",
+      "correction": "Corpo e recap passaram a dizer 'uma a duas ordens de grandeza', com o fator ~30 explicitado. Formula padrao E = 7,5038 * V(nos) * cos(lat) * sin(az) + 0,004154 * V^2 acrescentada ao corpo, de modo que o numero deixa de ser memorizado e passa a ser derivavel. O SENTIDO do efeito foi reverificado e esta correto: leste soma-se a rotacao e reduz a gravidade medida (correcao positiva a somar de volta); o sinal nao depende do hemisferio, so a magnitude escala com cos(lat).",
+      "source": "Telford, Geldart & Sheriff (1990), Applied Geophysics 2a ed., cap. 2; constante conferida contra a implementacao de referencia do GMT (mgd77list) e contra a entrada 'Eotvos effect' do SEG Wiki; Harlan (1968), JGR 73(14), 4675-4679",
+      "source_level": "base de referencia / revisada por pares",
+      "source_version": "consultado em 2026-09-10",
+      "confidence": "confirmado",
+      "affected_files": [
+        "17-geofisica-marinha-bacias-sedimentares/17-geofisica-marinha-bacias-sedimentares-aula-04-gravimetria-magnetometria-fluxo-de-calor.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-10"
+    },
+    {
+      "claim_id": "AUD-M17-A01-SEALBLOCOS-005",
+      "severity": "orange",
+      "nature": "erro_factual",
+      "lesson": "geologia-avancado-m17-a01",
+      "location": "Panorama das principais bacias marginais brasileiras; alegacao GEOFISMAR-M17-A01-BACIAS-BR-003",
+      "written": "Barra, Farfan, Moita Bonita, Muriu, Poco Verde e Cumbe, varias delas no bloco BM-SEAL-11",
+      "problem": "O polo de aguas profundas de Sergipe abrange quatro concessoes: BM-SEAL-4 e BM-SEAL-11 (em parceria) e BM-SEAL-4A e BM-SEAL-10 (100% Petrobras). Poco Verde esta em BM-SEAL-4; o escoamento de gas de Farfan, Barra e Muriu se da pelos blocos BM-SEAL-10 e BM-SEAL-11. E o mesmo tipo de erro que a auditoria anterior desta aula ja corrigira uma vez (a redacao original citava 'Pau-Brasil/BM-SEAL-11', sendo Pau-Brasil um bloco do pre-sal da Bacia de SANTOS): a mencao a BM-SEAL-11 sobreviveu a primeira correcao sem ser reverificada.",
+      "correction": "Substituido por 'distribuidas pelas concessoes BM-SEAL-4, BM-SEAL-4A, BM-SEAL-10 e BM-SEAL-11, e nao por um bloco so'. Alegacao atualizada com o detalhamento por bloco.",
+      "source": "Comunicados Petrobras sobre o polo de Sergipe aguas profundas e sobre o gasoduto de escoamento; formularios 6-K da Petrobras de 2014 (Poco Verde/BM-SEAL-4)",
+      "source_level": "fonte institucional primaria",
+      "source_version": "consultado em 2026-09-10",
+      "confidence": "confirmado",
+      "affected_files": [
+        "17-geofisica-marinha-bacias-sedimentares/17-geofisica-marinha-bacias-sedimentares-aula-01-bacias-sedimentares-tipos-classificacao-mecanismos-subsidencia.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-10"
+    },
+    {
+      "claim_id": "AUD-M17-A02-ICSVERSAO-006",
+      "severity": "yellow",
+      "nature": "desatualizacao",
+      "lesson": "geologia-avancado-m17-a02",
+      "location": "cinco pontos da aula 02 (Estagio 2, Estagio 3, quadro da controversia, exemplo trabalhado, recap, Fontes, alegacoes)",
+      "written": "carta ICS 2023/09",
+      "problem": "A carta vigente e a v2026/06. Os limites do Cretaceo usados na aula (143,1 / 132,6 / 121,4 / 113,2 Ma) NAO mudaram entre as duas versoes - a atualizacao de 2026/06 alterou apenas duas unidades do Triassico e uma do Permiano -, de modo que nenhum numero da aula estava errado; o que estava desatualizado era a versao citada, que e o que permite a alguem refazer a verificacao.",
+      "correction": "Atualizado para v2026/06 em todos os pontos, com a observacao explicita de que os limites do Cretaceo aqui usados nao mudaram desde a v2023/09, para que ninguem refaca as contas achando que mudaram.",
+      "source": "stratigraphy.org, changelog e arquivo de versoes da International Chronostratigraphic Chart; valores do Aptiano/Albiano conferidos contra a v2024/12",
+      "source_level": "normativa",
+      "source_version": "v2026/06, consultado em 2026-09-10",
+      "confidence": "confirmado",
+      "affected_files": [
+        "17-geofisica-marinha-bacias-sedimentares/17-geofisica-marinha-bacias-sedimentares-aula-02-margem-atlantica-brasileira-pre-rifte-rifte-sag-divergente.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-10"
+    },
+    {
+      "claim_id": "AUD-M17-A02-TEDESCHIPAG-007",
+      "severity": "yellow",
+      "nature": "inconsistencia_interna",
+      "lesson": "geologia-avancado-m17-a02",
+      "location": "lista de Fontes",
+      "written": "Geology, 45(6), 543-549",
+      "problem": "A paginacao correta e 543-546. O proprio bloco de alegacoes da mesma aula ja trazia 543-546, de modo que a aula se contradizia.",
+      "correction": "Corrigido para 543-546 na lista de Fontes.",
+      "source": "GeoScienceWorld, Geology 45(6), 543-546",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-10",
+      "confidence": "confirmado",
+      "affected_files": [
+        "17-geofisica-marinha-bacias-sedimentares/17-geofisica-marinha-bacias-sedimentares-aula-02-margem-atlantica-brasileira-pre-rifte-rifte-sag-divergente.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-10"
+    },
+    {
+      "claim_id": "AUD-M17-A04-CRATONFONTE-008",
+      "severity": "yellow",
+      "nature": "erro_factual",
+      "lesson": "geologia-avancado-m17-a04",
+      "location": "lista de Fontes; alegacao GEOFISMAR-M17-A04-FLUXOCALOR-004",
+      "written": "Pollack, Hurter & Johnson (1993) ... valores cratonicos arqueano ~41 e proterozoico ~48 mW/m2",
+      "problem": "As medias globais continental 65 e oceanica 101 mW/m2 sao de fato de Pollack, Hurter & Johnson (1993), Reviews of Geophysics 31(3). As medias cratonicas arqueana ~41 e proterozoica ~48 mW/m2 sao de Nyblade & Pollack (1993), JGR 98(B7), 12207-12218.",
+      "correction": "Nyblade & Pollack (1993) acrescentado as Fontes com atribuicao explicita dos valores cratonicos; Pollack et al. (1993) mantido apenas para as medias globais. Recap e alegacao atualizados com a atribuicao correta de cada par de numeros.",
+      "source": "Nyblade, A. A. & Pollack, H. N. (1993), JGR 98(B7), 12207-12218; Pollack, Hurter & Johnson (1993), Reviews of Geophysics 31(3), 267-280",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-10",
+      "confidence": "confirmado",
+      "affected_files": [
+        "17-geofisica-marinha-bacias-sedimentares/17-geofisica-marinha-bacias-sedimentares-aula-04-gravimetria-magnetometria-fluxo-de-calor.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-10"
+    },
+    {
+      "claim_id": "AUD-M17-A04-EOTVOSVALOR-009",
+      "severity": "yellow",
+      "nature": "erro_factual",
+      "lesson": "geologia-avancado-m17-a04",
+      "location": "Gravimetria marinha; recap; alegacao GEOFISMAR-M17-A04-EOTVOS-006",
+      "written": "cerca de 5,4 mGal por no a 45 graus de latitude",
+      "problem": "Pela formula padrao, 7,5038 * cos(45) = 5,31 mGal por no. O valor de 5,4 esta ~2% alto e e apresentado com precisao de duas casas, sugerindo exatidao que nao tem.",
+      "correction": "Corrigido para ~5,3 mGal por no, e a formula completa acrescentada ao corpo para que o numero seja derivavel em vez de memorizado.",
+      "source": "GMT mgd77list (implementacao de referencia: 7.5038*V*cos(lat)*sin(az) + 0.004154*V^2); SEG Wiki, 'Eotvos effect'; Telford, Geldart & Sheriff (1990), cap. 2",
+      "source_level": "base de referencia",
+      "source_version": "consultado em 2026-09-10",
+      "confidence": "confirmado",
+      "affected_files": [
+        "17-geofisica-marinha-bacias-sedimentares/17-geofisica-marinha-bacias-sedimentares-aula-04-gravimetria-magnetometria-fluxo-de-calor.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-10"
+    },
+    {
+      "claim_id": "AUD-M17-A04-ARLIVREOPOSTO-010",
+      "severity": "yellow",
+      "nature": "omissao_que_gera_erro",
+      "lesson": "geologia-avancado-m17-a04",
+      "location": "A correcao de Bouguer marinha; alegacao GEOFISMAR-M17-A04-BOUGUER-001",
+      "written": "a anomalia ar-livre em mar aberto NAO equivale a Bouguer; ela e praticamente o oposto dela em magnitude",
+      "problem": "Formulacao que ensina modelo mental errado: zero nao e 'o oposto' de +300 mGal, e o par nao e simetrico. A tabela imediatamente acima ja mostra o que realmente acontece (ar-livre ~0, Bouguer fortemente positiva), e a frase de reforco a contradiz em vez de destila-la.",
+      "correction": "Trocado por 'sobre a mesma planicie abissal, as duas diferem por centenas de mGal - uma fica perto de zero, a outra chega a +300 mGal'.",
+      "source": "Telford, Geldart & Sheriff (1990), cap. 2; levantamentos gravimetricos de bacias oceanicas (Bouguer tipicamente em torno de +300 mGal)",
+      "source_level": "base de referencia",
+      "source_version": "consultado em 2026-09-10",
+      "confidence": "confirmado",
+      "affected_files": [
+        "17-geofisica-marinha-bacias-sedimentares/17-geofisica-marinha-bacias-sedimentares-aula-04-gravimetria-magnetometria-fluxo-de-calor.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-10"
+    },
+    {
+      "claim_id": "AUD-M17-A05-KAMINSKI-011",
+      "severity": "yellow",
+      "nature": "evidencia_insuficiente",
+      "lesson": "geologia-avancado-m17-a05",
+      "location": "lista de Fontes; alegacao GEOFISMAR-M17-A05-OUTROS-RECURSOS-004",
+      "written": "Kaminski, M. A. et al. e Sloan, E. D. & Koh, C. A. (2008), Clathrate Hydrates of Natural Gases, 3a ed., CRC Press",
+      "problem": "Entrada de bibliografia colada, fundindo numa so linha uma referencia espuria e a real. Kaminski, M. A. trabalha com foraminiferos, nao com hidratos de gas, e nao ha obra sua co-assinando o livro de Sloan & Koh. Sloan & Koh (2008), Clathrate Hydrates of Natural Gases, 3a ed., CRC Press, e real e pertinente.",
+      "correction": "Nome espurio removido; a referencia real mantida intacta em ambos os pontos.",
+      "source": "CRC Press, Clathrate Hydrates of Natural Gases, 3rd ed. (Sloan & Koh, 2008)",
+      "source_level": "base de referencia",
+      "source_version": "consultado em 2026-09-10",
+      "confidence": "confirmado",
+      "affected_files": [
+        "17-geofisica-marinha-bacias-sedimentares/17-geofisica-marinha-bacias-sedimentares-aula-05-recursos-minerais-energeticos-margem-atlantica-sistemas-petroliferos-trapas-estudos-de-caso.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-10"
+    },
+    {
+      "claim_id": "AUD-M17-A01-MILANIZALAN-012",
+      "severity": "yellow",
+      "nature": "confusao_de_escopo",
+      "lesson": "geologia-avancado-m17-a01",
+      "location": "lista de Fontes",
+      "written": "Milani, E. J. & Zalan, P. V. (1999), 'An outline of the geology and petroleum systems of the Paleozoic interior basins of South America', Episodes 22(3) (panorama de bacias sedimentares brasileiras e seus contextos tectonicos)",
+      "problem": "O artigo trata das bacias paleozoicas DE INTERIOR da America do Sul. Cita-lo como panorama das bacias marginais brasileiras, numa aula cuja secao de panorama e inteiramente sobre Santos, Campos, Espirito Santo e Sergipe-Alagoas, manda o leitor a uma fonte que nao contem o que a aula diz que ela contem.",
+      "correction": "Entrada reescrita: passa a servir de contraponto a categoria intracratonica da classificacao por contexto de placas, com remissao explicita a Mohriak et al. (2008) e aos boletins da ANP para as bacias marginais.",
+      "source": "Milani & Zalan (1999), Episodes 22(3) - titulo e escopo do proprio artigo",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-10",
+      "confidence": "confirmado",
+      "affected_files": [
+        "17-geofisica-marinha-bacias-sedimentares/17-geofisica-marinha-bacias-sedimentares-aula-01-bacias-sedimentares-tipos-classificacao-mecanismos-subsidencia.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-10"
+    },
+    {
+      "claim_id": "AUD-M17-A04-GDH1VALOR-013",
+      "severity": "yellow",
+      "nature": "erro_factual",
+      "lesson": "geologia-avancado-m17-a04",
+      "location": "Fluxo de calor; recap; alegacao GEOFISMAR-M17-A04-FLUXOCALOR-004",
+      "written": "valores em crosta oceanica de idade proxima a 60 Ma situam-se em torno de 60-65 mW/m2; patamar assintotico da ordem de 45-50 mW/m2",
+      "problem": "Aplicando a propria equacao do GDH1 que a aula cita como modelo de referencia - q = 48 + 96*exp(-0,0278*t) para t > 55 Ma - crosta de 60 Ma da 48 + 96*e^(-1,668) = 66,1 mW/m2, acima da faixa declarada. E o patamar assintotico do segundo ramo e exatamente 48 mW/m2, nao uma faixa de 45-50.",
+      "correction": "Corrigido para ~66 mW/m2, com a conta explicitada, e o patamar precisado em 48 mW/m2. As duas equacoes do GDH1 acrescentadas ao corpo em bloco destacado, de modo que qualquer valor da aula possa ser reconferido pelo leitor. Acrescentada tabela de reguas de ordem de grandeza.",
+      "source": "Stein, C. A. & Stein, S. (1992), Nature 359, 123-129: q(t) = 510*t^(-1/2) para t <= 55 Ma e q(t) = 48 + 96*exp(-0,0278*t) para t > 55 Ma",
+      "source_level": "revisada por pares (fonte primaria do modelo)",
+      "source_version": "consultado em 2026-09-10",
+      "confidence": "confirmado",
+      "affected_files": [
+        "17-geofisica-marinha-bacias-sedimentares/17-geofisica-marinha-bacias-sedimentares-aula-04-gravimetria-magnetometria-fluxo-de-calor.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-10"
+    },
+    {
+      "claim_id": "AUD-M17-A04-GDH1SELAMENTO-014",
+      "severity": "yellow",
+      "nature": "inconsistencia_interna",
+      "lesson": "geologia-avancado-m17-a04",
+      "location": "Fluxo de calor; recap; alegacao GEOFISMAR-M17-A04-FLUXOCALOR-004",
+      "written": "circulacao hidrotermal removendo calor adicional da crosta superior ate uma 'idade de selamento' da ordem de 50-65 milhoes de anos",
+      "problem": "Funde dois numeros de origem distinta. 55 Ma e a quebra interna do proprio GDH1, o ponto em que a lei de semiespaco cede lugar ao comportamento de placa (Stein & Stein 1992). ~65 Ma e a idade de selamento da circulacao hidrotermal (Stein & Stein 1994), ate a qual o fluxo MEDIDO fica sistematicamente abaixo do previsto pela conducao pura. Colapsa-los numa faixa de '50-65 Ma' apaga a distincao entre uma propriedade do modelo e uma propriedade do dado.",
+      "correction": "Separados, com a origem de cada numero nomeada num paragrafo proprio. Stein & Stein (1994), JGR 99(B2), 3081-3095, acrescentado as Fontes.",
+      "source": "Stein, C. A. & Stein, S. (1992), Nature 359; Stein, C. A. & Stein, S. (1994), JGR 99(B2), 3081-3095",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-10",
+      "confidence": "confirmado",
+      "affected_files": [
+        "17-geofisica-marinha-bacias-sedimentares/17-geofisica-marinha-bacias-sedimentares-aula-04-gravimetria-magnetometria-fluxo-de-calor.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-10"
+    },
+    {
+      "claim_id": "AUD-M17-A02-SALIDADE-W1",
+      "severity": "white",
+      "nature": "controversia",
+      "lesson": "geologia-avancado-m17-a02",
+      "location": "quadro da idade do sal aptiano",
+      "problem": "A idade do sal do Atlantico Sul e questao genuinamente aberta na literatura, com dois campos sustentados por evidencia de peso. Nao cabe a auditoria resolve-la.",
+      "correction": "Depois da correcao de AUD-M17-A02-SALCONTROVERSIA-003, a aula expoe os dois campos sem escolher lado. Mantido como questao aberta.",
+      "confidence": "em disputa",
+      "outcome": "mantido_com_ressalva",
+      "applied_at": "2026-09-10",
+      "downstream_constraint": "NAO gerar questao de gabarito fechado nem flashcard que fixe uma idade unica para o sal aptiano. Cobravel com seguranca: (a) que a controversia existe e qual e o eixo dela, (b) que a deposicao foi rapida, (c) a armadilha de escala de tempo (125 Ma era Aptiano na GTS2012 e hoje e Barremiano)."
+    }
+  ],
+  "verified_ok": [
+    {
+      "claim_id": "AUD-M17-A01-ROLLOVER-B1",
+      "lesson": "geologia-avancado-m17-a01",
+      "statement": "As camadas do bloco do teto rodam de volta EM DIRECAO ao plano de falha, com o mergulho AUMENTANDO quanto mais perto dele; o mecanismo e colapso do bloco do teto, nao atrito; rollover e arrasto reverso NAO sao diagnosticos de falha listrica.",
+      "verdict": "correto em todos os pontos",
+      "note": "Este era o ponto de maior risco declarado do modulo - uma inversao de sentido aqui teria sido a mais cara, e ela NAO esta presente. Conferido contra a literatura primaria (Hamblin 1965; Grasemann, Martel & Passchier 2005, JSG 27(6), 999-1010) e contra o texto ja corrigido do Modulo 10, aula 04, palavra a palavra.",
+      "source": "Grasemann, Martel & Passchier (2005), Journal of Structural Geology 27(6), 999-1010; AAPG Bulletin 68(7) (listric normal faults, illustrated summary)"
+    },
+    {
+      "claim_id": "AUD-M17-A01-SANTOSAREA-013",
+      "lesson": "geologia-avancado-m17-a01",
+      "statement": "Bacia de Santos e a maior bacia sedimentar marginal brasileira em area.",
+      "verdict": "confirmado - promovido de azul (nao verificado) na auditoria anterior",
+      "note": "~352 mil km2 ate a cota batimetrica de 3.000 m, contra ~100 mil km2 de Campos; e a maior bacia sedimentar offshore do Brasil. Limites conferem: Alto de Cabo Frio ao norte, Alto de Florianopolis ao sul.",
+      "source": "ANP; Boletim de Geociencias da Petrobras; dados de area das bacias marginais brasileiras"
+    },
+    {
+      "claim_id": "AUD-M17-A02-ALTOS-B1",
+      "lesson": "geologia-avancado-m17-a02",
+      "statement": "Alto de Florianopolis separa Santos de Pelotas; Alto de Vitoria separa Campos do Espirito Santo; o rifteamento propagou-se de sul para norte.",
+      "verdict": "correto"
+    },
+    {
+      "claim_id": "AUD-M17-A02-IBURA-B2",
+      "lesson": "geologia-avancado-m17-a02",
+      "statement": "Membro Ibura, Formacao Muribeca, Sergipe-Alagoas: secao evaporitica menos espessa que a de Santos, porem mineralogicamente mais variada (anidrita, halita, silvita, carnalita, taquidrita), sustentando a lavra de potassio de Taquari-Vassouras. O sal NAO esta ausente fora de Santos e Campos.",
+      "verdict": "correto, e a enfase que a ressalva recebe e acertada"
+    },
+    {
+      "claim_id": "AUD-M17-A03-VELOCIDADE-B1",
+      "lesson": "geologia-avancado-m17-a03",
+      "statement": "Velocidade do som na agua do mar: referencia de 1.500 m/s, faixa oceanica de ~1.450 a 1.570 m/s conforme temperatura, salinidade e pressao; duas a tres vezes menor que a de rochas sedimentares consolidadas.",
+      "verdict": "correto",
+      "source": "NPL, Technical Guides - Speed of Sound in Sea-Water; DOSITS"
+    },
+    {
+      "claim_id": "AUD-M17-A03-AQUISICAO-B2",
+      "lesson": "geologia-avancado-m17-a03",
+      "statement": "Air guns e supressao do bubble pulse por arranjo; tiro a intervalo de distancia e nao de tempo; hidrofones como sensores de pressao contra geofones como sensores de velocidade de particula; multiplos streamers com posicionamento acustico continuo; cobertura CDP continua; papel do offset minimo e maximo; reflexao quase perfeita na interface agua-ar; multipla de fundo em ~2x o tempo primario.",
+      "verdict": "correto em todos os pontos",
+      "source": "Kearey, Brooks & Hill (2002), cap. 4; Sheriff & Geldart (1995)"
+    },
+    {
+      "claim_id": "AUD-M17-A03-SONAR-B3",
+      "lesson": "geologia-avancado-m17-a03",
+      "statement": "Varredura lateral pela INTENSIDADE do retorno e nao pelo tempo de transito; ecobatimetro de feixe unico contra multifeixe; swath proporcional a lamina d'agua; cobertura de 100% em levantamento multifeixe moderno.",
+      "verdict": "correto",
+      "source": "NOAA, Multibeam Bathymetry e Side Scan Sonar; Mayer et al. (2018), Geosciences 8(2), 63"
+    },
+    {
+      "claim_id": "AUD-M17-A04-BOUGUER-B1",
+      "lesson": "geologia-avancado-m17-a04",
+      "statement": "Contraste agua-rocha 2,67 - 1,03 ~ 1,64 g/cm3; sobre oceano profundo compensado ar-livre ~0 e Bouguer fortemente positiva (+220 a +330 mGal); sob montanhas compensadas o par e espelhado; densidade do sal ~2,2 g/cm3 contra encaixantes 2,4-2,7; velocidade sismica do sal ~4.500 m/s.",
+      "verdict": "correto; a faixa de Bouguer esta dentro do usual (valores tipicamente em torno de +300 mGal em bacias oceanicas)"
+    },
+    {
+      "claim_id": "AUD-M17-A04-MAGNETO-B2",
+      "lesson": "geologia-avancado-m17-a04",
+      "statement": "Anomalias magneticas lineares e simetricas registram reversoes do campo geomagnetico durante o espalhamento (Vine & Matthews 1963, Nature 199, 947-949); magnetizacao remanente adquirida abaixo do ponto de Curie; servem para datar a crosta oceanica e auxiliar a localizacao do COB. GDH1 substituiu Parsons & Sclater (1977), com placa mais fina e mais quente em profundidade e ajuste muito melhor para litosfera >70 Ma.",
+      "verdict": "correto; equacoes do GDH1 conferidas na fonte primaria"
+    }
+  ],
+  "assessment_gate": {
+    "released": true,
+    "reason": "0 achados vermelhos e 0 laranjas em aberto; todos corrigidos e registrados. O unico item que permanece aberto e a controversia branca A02-W1, que nao bloqueia o gate mas restringe o formato das questoes sobre a idade do sal."
+  },
+  "derived_material_to_propagate": {
+    "questionario": "inexistente - auditoria rodou antes, como manda a cadeia",
+    "flashcards": "inexistente - auditoria rodou antes, como manda a cadeia",
+    "anki_reimport_warning": false
+  }
+}

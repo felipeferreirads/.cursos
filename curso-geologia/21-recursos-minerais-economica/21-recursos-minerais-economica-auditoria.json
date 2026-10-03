@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "21-recursos-minerais-economica/",
+    "module_id": "21",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-18T00:00:00-03:00",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 0,
+    "yellow": 0,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 14
+  },
+  "findings": [],
+  "verified_claims": [
+    {"claim_id": "GEO-M21-A01-TEOR-UNIDADE-001", "file": "21-recursos-minerais-economica/21-recursos-minerais-economica-aula-01-deposito-mineral-teor-teor-de-corte.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M21-A01-CUTOFF-002", "file": "21-recursos-minerais-economica/21-recursos-minerais-economica-aula-01-deposito-mineral-teor-teor-de-corte.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M21-A02-CUMULADO-CROMITA-001", "file": "21-recursos-minerais-economica/21-recursos-minerais-economica-aula-02-depositos-magmaticos-e-ortomagmaticos.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M21-A02-IMISCIBILIDADE-002", "file": "21-recursos-minerais-economica/21-recursos-minerais-economica-aula-02-depositos-magmaticos-e-ortomagmaticos.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M21-A03-PORFIRO-001", "file": "21-recursos-minerais-economica/21-recursos-minerais-economica-aula-03-depositos-hidrotermais.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M21-A03-EPITERMAL-002", "file": "21-recursos-minerais-economica/21-recursos-minerais-economica-aula-03-depositos-hidrotermais.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M21-A03-ALTERACAO-003", "file": "21-recursos-minerais-economica/21-recursos-minerais-economica-aula-03-depositos-hidrotermais.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M21-A04-PLACER-001", "file": "21-recursos-minerais-economica/21-recursos-minerais-economica-aula-04-depositos-sedimentares-e-supergenicos.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M21-A04-SUPERGENICO-002", "file": "21-recursos-minerais-economica/21-recursos-minerais-economica-aula-04-depositos-sedimentares-e-supergenicos.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M21-A04-LATERITIZACAO-003", "file": "21-recursos-minerais-economica/21-recursos-minerais-economica-aula-04-depositos-sedimentares-e-supergenicos.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M21-A05-SEQUENCIA-EXPLORACAO-001", "file": "21-recursos-minerais-economica/21-recursos-minerais-economica-aula-05-prospeccao-e-exploracao-mineral.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M21-A05-GEOFISICA-NAO-UNICIDADE-002", "file": "21-recursos-minerais-economica/21-recursos-minerais-economica-aula-05-prospeccao-e-exploracao-mineral.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M21-A06-RECURSO-RESERVA-001", "file": "21-recursos-minerais-economica/21-recursos-minerais-economica-aula-06-recursos-reservas-e-viabilidade-economica.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M21-A06-VIABILIDADE-002", "file": "21-recursos-minerais-economica/21-recursos-minerais-economica-aula-06-recursos-reservas-e-viabilidade-economica.md", "confidence": "confirmado"}
+  ]
+}

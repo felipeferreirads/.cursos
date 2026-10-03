@@ -1,0 +1,471 @@
+{
+  "course_id": "geologia-avancado",
+  "module_id": "30",
+  "module_slug": "kimberlitos-carbonatitos",
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "verdict": "aprovado_apos_correcoes",
+  "audited_at": "2026-09-23",
+  "applied_at": "2026-09-23",
+  "manifest_written_at": "2026-09-23",
+  "passes": 1,
+  "passes_note": "Passagem unica (2026-09-23). Backup do estado antes da auditoria: course-state.yaml.bak-20260923-pre-m30-audit (identico ao estado inicial). Relatorio e manifesto gravados ANTES das edicoes nas aulas (Fase 1).",
+  "counts": {
+    "red": 4,
+    "orange": 7,
+    "yellow": 1,
+    "blue": 2,
+    "white": 0,
+    "red_open": 0,
+    "orange_open": 0,
+    "yellow_open": 0,
+    "blue_open": 0,
+    "white_open": 0,
+    "total": 14
+  },
+  "counts_note": "Contagens do LEVANTAMENTO; *_open = pendente. Todos os 14 tratados.",
+  "inversions": [
+    "KIMB-M30-A04-NUMERO-OCORRENCIAS-005",
+    "KIMB-M30-A03-TUFFISITICO-006"
+  ],
+  "claims": {
+    "declared_at_writing": 26,
+    "raised_by_audit": 8,
+    "tracked": 34,
+    "declared_in_files_now": 33,
+    "per_lesson_now": "a01 5, a02 4, a03 8, a04 6, a05 4, a06 6",
+    "note": "Claims criados pela auditoria: A01-ARGYLE-005, A03-TUFFISITICO-006, A03-ATOL-007, A03-JACUPIRANGUITO-009, A04-NUMERO-OCORRENCIAS-005, A04-TRANSICIONAIS-006, A06-ORAPA-006 (declarados nos metadados das aulas) e MOD-BIBLIO-001 (de modulo, registrado so no relatorio e no estado)."
+  },
+  "bibliography_items_checked": 47,
+  "bibliography_items_wrong": 4,
+  "bibliography_all_correct": false,
+  "bibliography_note": "Crossref para os artigos; livros e anais por catalogo e literatura secundaria. Erros: Janse 1992->1994; Scott Smith 2013 sem Harder e Skinner; Sarkar et al. 2023 e Yuan et al. 2023 nao identificados. Nenhuma paginacao ou volume errado. Referencias novas: Berman & Simon 1955, Clement et al. 1984, Roeder & Schulze 2008, Humphreys-Williams & Zahirovic 2021, Coe et al. 2008, Olierook et al. 2023, USGS MCS 2026.",
+  "open_findings": [],
+  "findings": [
+    {
+      "n": 1,
+      "claim_id": "KIMB-M30-A02-GRAFITE-DIAMANTE-002",
+      "severity": "red",
+      "nature": "erro_factual",
+      "title": "Reta de Berman-Simon (T em K) atribuida a Kennedy & Kennedy com T em C",
+      "file": "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-02-manto-geotermas-metassomatismo.md",
+      "section": "Geotermas e o campo de estabilidade do diamante; Exemplo trabalhado",
+      "quoted": "P (kbar) ~ 7,1 + 0,027 T (C) (Kennedy e Kennedy, 1976); z ~ 95 km a 875 C",
+      "problem": "K&K 1976: P = 19,4 + T/40 kbar (1100-1625 C). 7,1+0,027T e Berman & Simon 1955 com T em K; com T em C poe a fronteira ~10 kbar (~30 km) mais rasa; o exemplo dava diamante a 95 km num craton (irreal). A geoterma quente 800+5z nao serve com a reta correta (~200 km, ~1800 C). Cobre KIMB-M30-A02-EXEMPLO-GEOTERMAS-004.",
+      "correction": "Reta correta + nota sobre Berman-Simon; exemplo recalculado: cratonica z~149 km, T~1145 C, P~4,8 GPa; quente redefinida T=1100+5(z-100): z~174 km, T~1470 C; diferenca ~25 km; O que fixar ajustado; acima/abaixo da curva reescrito.",
+      "source": "Kennedy & Kennedy 1976 JGR 81:2467-2470 doi 10.1029/JB081i014p02467; Berman & Simon 1955 Z. Elektrochem. 59:333-338 doi 10.1002/bbpc.19550590503",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-02-manto-geotermas-metassomatismo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": false
+    },
+    {
+      "n": 2,
+      "claim_id": "KIMB-M30-A03-TUFFISITICO-006",
+      "severity": "red",
+      "nature": "erro_factual",
+      "title": "Tuffisitico apresentado como nome moderno (inversao)",
+      "file": "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-03-aspectos-geologicos-mineralogicos-petrograficos.md",
+      "section": "Kimberlitos: a forma do corpo e as tres facies, item 2; recap",
+      "quoted": "Nas descricoes modernas e o corpo que se chama tuffisitico.",
+      "problem": "Inverso: brecha kimberlitica tuffisitica (TKB) e o nome tradicional; em Scott Smith et al. 2013 = Kimberley-type pyroclastic kimberlite (KPK), formerly tuffisitic kimberlite.",
+      "correction": "TKB = nome antigo; KPK = nome de 2013.",
+      "source": "Scott Smith et al. 2013 Proc 10th IKC v2 1-17 doi 10.1007/978-81-322-1173-0_1 (texto integral)",
+      "source_level": "normativa",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-03-aspectos-geologicos-mineralogicos-petrograficos.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": true,
+      "inversao_de_sentido": true
+    },
+    {
+      "n": 3,
+      "claim_id": "KIMB-M30-A03-ATOL-007",
+      "severity": "red",
+      "nature": "erro_factual",
+      "title": "Textura em atol definida errado",
+      "file": "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-03-aspectos-geologicos-mineralogicos-petrograficos.md",
+      "section": "Kimberlitos: mineralogia, Fenocristais e matriz",
+      "quoted": "Textura tipica: atol (espinelio circundando um grao de olivina ou de perovskita).",
+      "problem": "Atol = nucleo de espinelio (magnesiocromita/MUM), zona de serpentina ou calcita, borda de magnetita.",
+      "correction": "Definicao correta com a analogia do atol.",
+      "source": "Roeder & Schulze 2008 J Petrol 49:1473-1495 doi 10.1093/petrology/egn034; descricoes convergentes (Benfontein)",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-03-aspectos-geologicos-mineralogicos-petrograficos.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": true
+    },
+    {
+      "n": 4,
+      "claim_id": "KIMB-M30-A04-NUMERO-OCORRENCIAS-005",
+      "severity": "red",
+      "nature": "erro_factual",
+      "title": "Carbonatitos ditos muito mais numerosos que kimberlitos (inversao)",
+      "file": "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-04-geoquimica-geracao-kimberlitos-carbonatitos.md",
+      "section": "Kimberlito e carbonatito: continuo ou linhagens separadas?",
+      "quoted": "carbonatitos sao muito mais numerosos (varias centenas de ocorrencias conhecidas...)",
+      "problem": "Inverso: kimberlitos = milhares (~3500 a >5000 conforme compilacao); carbonatitos ~600 (527 W&K 2008; 594 Liu 2023; 609 H-W&Z 2021). Carbonatitos sao sobretudo continentais e 75% ficam a <600 km de borda cratonica; nao sao exclusivos de riftes/plumas. Tappe et al. 2018 (EPSL 484) com aviso de remocao em 2026: nao usado.",
+      "correction": "Relacao invertida corrigida; distribuicao reescrita.",
+      "source": "Humphreys-Williams & Zahirovic 2021 Elements 17:339-344; Liu et al. 2023 Geology 51:101-105; Giuliani & Pearson 2019; Simandl & Paradis 2018",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-04-geoquimica-geracao-kimberlitos-carbonatitos.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": true,
+      "inversao_de_sentido": true
+    },
+    {
+      "n": 5,
+      "claim_id": "KIMB-M30-A04-ISOTOPOS-002",
+      "severity": "orange",
+      "nature": "omissao_que_gera_erro",
+      "title": "Sr do orangeito desde 0,705 e eNd do Grupo I deslocado para negativo",
+      "file": "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-04-geoquimica-geracao-kimberlitos-carbonatitos.md",
+      "section": "Isotopos; Exemplo trabalhado; recap",
+      "quoted": "orangeito ~0,705 a 0,710; Grupo I eNd de levemente negativo a positivo; amostra 1 eNd -2,4 = Grupo I",
+      "problem": "Orangeitos: Sr(i) ~0,707-0,712, eNd -6 a -12; Grupo I: Sr ~0,703-0,705, eNd ~0 a +4. -2,4 fica fora do tipico. Cobre KIMB-M30-A04-EXEMPLO-ENDT-004.",
+      "correction": "Faixas corrigidas; amostra 1 = 0,512600 (eNd ~ +1,5).",
+      "source": "Smith 1983 Nature 304:51-54; Becker & le Roex 2006 J Petrol 47:673-703; Coe et al. 2008 CMP 156:627-652",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-04-geoquimica-geracao-kimberlitos-carbonatitos.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": false
+    },
+    {
+      "n": 6,
+      "claim_id": "KIMB-M30-A01-GRUPOS-I-II-002",
+      "severity": "orange",
+      "nature": "erro_factual",
+      "title": "Atribuicoes: Grupos I/II (Smith 1983) e orangeito (Wagner 1928)",
+      "file": "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-01-historico-definicoes-classificacoes.md",
+      "section": "Um percurso historico curto; recap",
+      "quoted": "Skinner (1989) consolidou os rotulos Grupo I e Grupo II, e Mitchell (1995) propos [...] orangeito",
+      "problem": "Rotulos de Smith 1983; Skinner 1989 = contraste petrografico; orangeito de Wagner 1928, retomado por Mitchell desde 1989 e consolidado em 1995.",
+      "correction": "Atribuicoes corrigidas.",
+      "source": "Smith 1983; Skinner 1989 GSA Spec Publ 14:528-544; Mitchell 1995; literatura secundaria convergente",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-01-historico-definicoes-classificacoes.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": false
+    },
+    {
+      "n": 7,
+      "claim_id": "KIMB-M30-A03-FACIES-001",
+      "severity": "orange",
+      "nature": "confusao_de_escopo",
+      "title": "Tres facies universais atribuidas a Scott Smith 2013; estagios fora de ordem; corte do macrocristal",
+      "file": "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-03-aspectos-geologicos-mineralogicos-petrograficos.md",
+      "section": "Facies (a03); macrocristal (a03); A mudanca de 2013 (a01)",
+      "quoted": "Scott Smith e colaboradores (2013) organizam a descricao em tres facies; macrocristais acima de 0,5 mm; primeiro campo e textura (facies), depois mineralogia",
+      "problem": "Modelo de 3 zonas = pipes tipo Kimberley; Field & Scott Smith 1999 = 3 classes de pipe; esquema de 2013 = 5 estagios (descricao nao genetica primeiro); macrocristal 0,5 mm (Clement 1984) ou 1 mm (Scott Smith 2013).",
+      "correction": "Escopo, estagios e cortes corrigidos.",
+      "source": "Scott Smith et al. 2013 (texto integral); Field & Scott Smith 1999 Proc 7th IKC v1 214-237; Clement, Skinner & Scott Smith 1984 J Geol 92:223-228",
+      "source_level": "normativa",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-03-aspectos-geologicos-mineralogicos-petrograficos.md",
+        "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-01-historico-definicoes-classificacoes.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": false
+    },
+    {
+      "n": 8,
+      "claim_id": "KIMB-M30-A03-JACUPIRANGUITO-009",
+      "severity": "orange",
+      "nature": "erro_factual",
+      "title": "Jacupiranguito com magnetita e titanita",
+      "file": "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-03-aspectos-geologicos-mineralogicos-petrograficos.md",
+      "section": "Foscoritos e rochas ultramaficas alcalinas",
+      "quoted": "clinopiroxenito alcalino com magnetita e titanita",
+      "problem": "Definicao: titanoaugita + magnetita + pouca nefelina (Derby 1891; Le Maitre 2002).",
+      "correction": "Definicao corrigida.",
+      "source": "Le Maitre 2002 glossario; Mindat glossary jacupirangite",
+      "source_level": "normativa",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-03-aspectos-geologicos-mineralogicos-petrograficos.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": true
+    },
+    {
+      "n": 9,
+      "claim_id": "KIMB-M30-A04-TRANSICIONAIS-006",
+      "severity": "orange",
+      "nature": "erro_factual",
+      "title": "Kimberlitos transicionais atribuidos a artigo que os reclassifica",
+      "file": "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-04-geoquimica-geracao-kimberlitos-carbonatitos.md",
+      "section": "Exemplo trabalhado, Passo 3 (i); Fontes",
+      "quoted": "amostras com eNd intermediario sao comuns em kimberlitos transicionais (Journal of Petrology, 2023...)",
+      "problem": "Sarkar et al. 2023 reclassificam os transicionais como kimberlitos tipicos ou olivina-lamproitos por petrografia e quimica mineral.",
+      "correction": "Ressalva reescrita com a conclusao do artigo.",
+      "source": "Sarkar et al. 2023 J Petrol 64(7) egad043 doi 10.1093/petrology/egad043",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-04-geoquimica-geracao-kimberlitos-carbonatitos.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": true
+    },
+    {
+      "n": 10,
+      "claim_id": "KIMB-M30-A06-ORAPA-006",
+      "severity": "orange",
+      "nature": "erro_factual",
+      "title": "Orapa como pipe de baixo teor",
+      "file": "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-06-diamante-potencial-carbonatitos-mineralizacoes-brasil.md",
+      "section": "Da anomalia ao teor",
+      "quoted": "minas como Orapa [...] exploram grandes pipes de baixo teor",
+      "problem": "AK1 ~117 ha; reservas de 2012 ~59 cpht (acima dos 25 cpht do exemplo); o traco distintivo e a tonelagem.",
+      "correction": "Frase reescrita.",
+      "source": "Mining Technology, Orapa Diamond Mine (reservas dez/2012 85,7 Mct a 58,69 cpht); Debswana",
+      "source_level": "geral",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "provavel",
+      "affected_files": [
+        "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-06-diamante-potencial-carbonatitos-mineralizacoes-brasil.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": true
+    },
+    {
+      "n": 11,
+      "claim_id": "KIMB-M30-MOD-BIBLIO-001",
+      "severity": "orange",
+      "nature": "erro_factual",
+      "title": "Problemas bibliograficos",
+      "file": "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-06-diamante-potencial-carbonatitos-mineralizacoes-brasil.md",
+      "section": "Fontes a01, a03, a04, a05, a06; texto a06",
+      "quoted": "Janse (1992); Scott Smith et al. com 7 autores; JPetrol 2023 sem autoria; PubMed 37467324 sem autoria",
+      "problem": "Janse = 1994 (Proc 5th IKC v2, CPRM, 215-235); Scott Smith 2013 tem 9 autores (faltavam Harder e Skinner); Sarkar et al. 2023; Yuan et al. 2023 Sci Adv 9(29) eadh0458.",
+      "correction": "Referencias corrigidas e identificadas.",
+      "source": "Crossref; texto integral de Scott Smith 2013; IKC Extended Abstracts",
+      "source_level": "base_de_referencia",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-01-historico-definicoes-classificacoes.md",
+        "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-03-aspectos-geologicos-mineralogicos-petrograficos.md",
+        "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-04-geoquimica-geracao-kimberlitos-carbonatitos.md",
+        "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-05-diferenciacao-sitios-finais-consolidacao.md",
+        "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-06-diamante-potencial-carbonatitos-mineralizacoes-brasil.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": true
+    },
+    {
+      "n": 12,
+      "claim_id": "KIMB-M30-A01-ARGYLE-005",
+      "severity": "yellow",
+      "nature": "desatualizacao",
+      "title": "Idade de Argyle ~1,2 Ga",
+      "file": "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-01-historico-definicoes-classificacoes.md",
+      "section": "Lamproitos; percurso historico",
+      "quoted": "Argyle (Australia, cerca de 1,2 Ga, diamantifero)",
+      "problem": "Olierook et al. 2023: 1311 +- 9 a 1257 +- 15 Ma (~1,3 Ga), mais velho que 1178 +- 47 Ma; descoberto em 1979.",
+      "correction": "Idade revista com a antiga mantida como referencia; descoberta em 1979.",
+      "source": "Olierook et al. 2023 Nature Communications 14:5274 doi 10.1038/s41467-023-40904-8",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-01-historico-definicoes-classificacoes.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": true
+    },
+    {
+      "n": 13,
+      "claim_id": "KIMB-M30-A03-EXEMPLO-GRANADA-005",
+      "severity": "blue",
+      "nature": "evidencia_insuficiente",
+      "title": "Limiar G10 declarado ilustrativo",
+      "file": "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-03-aspectos-geologicos-mineralogicos-petrograficos.md",
+      "section": "Exemplo trabalhado, Passo 2; Fontes",
+      "quoted": "limite depende do diagrama; limiares ilustrativos e nao os do artigo",
+      "problem": "Grutter 2004: G10/G9 em CaO = 3,375 + 0,25 Cr2O3; G10D: Cr2O3 >= 5,0 + 0,94 CaO. O exemplo (9; 2,5) e G10 e G10D.",
+      "correction": "Divisoria e criterio G10D escritos.",
+      "source": "Grutter et al. 2004 Lithos 77:841-857 (texto integral)",
+      "source_level": "normativa",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-03-aspectos-geologicos-mineralogicos-petrograficos.md"
+      ],
+      "outcome": "confirmado_com_fonte_e_reescrito",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": false
+    },
+    {
+      "n": 14,
+      "claim_id": "KIMB-M30-A06-CARBONATITOS-MINERIO-003",
+      "severity": "blue",
+      "nature": "evidencia_insuficiente",
+      "title": "Nb do Brasil de memoria; percentuais de Simandl & Paradis",
+      "file": "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-06-diamante-potencial-carbonatitos-mineralizacoes-brasil.md",
+      "section": "Carbonatitos: os grandes fornecedores de Nb e ETR",
+      "quoted": "mais de 85 %, de memoria; ~10 % mina e ~10 % recurso",
+      "problem": "USGS MCS 2026: Brasil ~93 % da producao mineira de Nb em 2025; Simandl & Paradis: 9 % com minas ativas/historicas, 11 % com recurso estabelecido (sobre 527 de Woolley & Kjarsgaard 2008).",
+      "correction": "Valores com fonte.",
+      "source": "USGS MCS 2026 Niobium; Simandl & Paradis 2018 (texto integral)",
+      "source_level": "normativa",
+      "source_version": "consultado 2026-09-23",
+      "confidence": "confirmado",
+      "affected_files": [
+        "30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-aula-06-diamante-potencial-carbonatitos-mineralizacoes-brasil.md"
+      ],
+      "outcome": "confirmado_com_fonte_e_reescrito",
+      "applied_at": "2026-09-23",
+      "claim_created_by_audit": false
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "KIMB-M30-A01-CARBONATITO-IUGS-001",
+      "claim": "Definicao e subdivisao IUGS do carbonatito",
+      "source": "Le Maitre 2002; Simandl & Paradis 2018",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "KIMB-M30-A01-HISTORICO-003",
+      "claim": "Lewis 1887; Brogger 1921; Niggli 1923; Dawson 1962",
+      "source": "Crossref; literatura secundaria",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "KIMB-M30-A01-EXEMPLO-CLASSIFICACAO-004",
+      "claim": "Aritmetica A-D",
+      "source": "recalculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "KIMB-M30-A02-QUILHA-CRATONICA-001",
+      "claim": "Quilha 150-250 km, Fo 92-93, ~40 mW/m2",
+      "source": "Jordan 1978; Pollack & Chapman 1977; Pearson et al. 2014",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "KIMB-M30-A02-METASSOMATISMO-003",
+      "claim": "Modal/criptico, MARID, PIC, Foley 1992, continuo",
+      "source": "Crossref",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "KIMB-M30-A03-MINERAIS-INDICADORES-002",
+      "claim": "KIMs e G10",
+      "source": "Grutter et al. 2004",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "KIMB-M30-A03-LAMPROITO-KAMAFUGITO-003",
+      "claim": "Assembleias diagnosticas",
+      "source": "Mitchell & Bergman 1991; Tappe et al. 2005",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "KIMB-M30-A03-FENITIZACAO-004",
+      "claim": "Fenitizacao",
+      "source": "Le Bas 2008",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "KIMB-M30-A04-GEOQUIMICA-001",
+      "claim": "Faixas tipicas e padroes de tracos",
+      "source": "Giuliani & Pearson 2019; Becker & le Roex 2006; Gibson 1995",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "KIMB-M30-A04-TRES-ROTAS-003",
+      "claim": "Tres rotas nao exclusivas",
+      "source": "Yaxley et al. 2022; Brooker & Kjarsgaard 2011; Kjarsgaard & Hamilton 1988",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "KIMB-M30-A05-ASCENSAO-001",
+      "claim": "Ascensao m/s; Russell 2012",
+      "source": "Sparks et al. 2006; Russell et al. 2012",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "KIMB-M30-A05-SEQUENCIA-CARBONATITO-002",
+      "claim": "Sequencia calcita-dolomita-ferrocarbonato",
+      "source": "Chakhmouradian & Zaitsev 2012; Yaxley 2022",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "KIMB-M30-A05-MAGMA-BRINE-003",
+      "claim": "Exsolucao x diluicao continua",
+      "source": "Yuan et al. 2023",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "KIMB-M30-A05-EXEMPLO-RAYLEIGH-004",
+      "claim": "Aritmetica de Rayleigh e residual",
+      "source": "recalculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "KIMB-M30-A06-DIAMANTE-TRANSPORTADOR-001",
+      "claim": "Diamante 1 a >3 Ga; populacoes",
+      "source": "Gurney et al. 2010; Stachel & Harris 2008",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "KIMB-M30-A06-CLIFFORD-002",
+      "claim": "Clifford 1966; archon; Argyle; fechamento em 2020",
+      "source": "Crossref; Olierook 2023; Rio Tinto",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "KIMB-M30-A06-APIP-004",
+      "claim": "APIP, complexos, Brauna, Juina",
+      "source": "Gibson 1995; Donatti-Filho 2013; Kaminsky 2001",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "KIMB-M30-A06-EXEMPLO-ESTOQUE-005",
+      "claim": "Aritmetica de estoques",
+      "source": "recalculo",
+      "confidence": "confirmado"
+    }
+  ]
+}

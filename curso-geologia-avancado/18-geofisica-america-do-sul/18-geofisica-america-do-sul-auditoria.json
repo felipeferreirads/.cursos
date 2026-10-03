@@ -1,0 +1,584 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "18-geofisica-america-do-sul/",
+    "module_id": "18",
+    "course_id": "geologia-avancado"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-09-11",
+  "verdict": "aprovado",
+  "verdict_note": "Reauditado e CORRIGIDO em modo audit-and-fix em 2026-09-11, sobre o relatorio audit-only da mesma data. Os 17 achados corrigiveis (3 vermelhos, 8 laranjas, 6 amarelos) foram aplicados cirurgicamente nas quatro aulas, com propagacao interna para recaps, exemplos trabalhados, listas de Fontes e blocos de alegacoes auditaveis. O achado branco recebeu o tratamento prescrito para controversia (os dois campos expostos, sem escolha de lado). Os 18 achados azuis sao registros de verificacao bem-sucedida e nao exigiam alteracao. 0 vermelhos e 0 laranjas em aberto: GATE LIBERADO para questionario e flashcards, observadas as restricoes de formato em assessment_gate. Nenhum material derivado existia, de modo que nao houve propagacao para questionario ou baralho.",
+  "summary": {
+    "red": 3,
+    "orange": 8,
+    "yellow": 6,
+    "blue": 18,
+    "white": 1,
+    "verified_ok": 18,
+    "claims_declared_by_author": 23,
+    "claims_raised_by_audit": 9,
+    "claims_tracked_total": 32,
+    "worked_examples_recomputed": 4,
+    "worked_examples_arithmetic_failures": 0,
+    "worked_examples_logic_failures": 1,
+    "open_findings": 0,
+    "red_open": 0,
+    "orange_open": 0,
+    "yellow_open": 0,
+    "white_open": 0,
+    "red_fixed": 3,
+    "orange_fixed": 8,
+    "yellow_fixed": 6,
+    "white_treated": 1,
+    "findings_resolved": 18,
+    "summary_note": "As contagens red/orange/yellow/blue/white sao as do levantamento original e nao mudam - achado nao se apaga ao ser corrigido. O que mudou e a SITUACAO: todos os 17 corrigiveis estao corrigidos e o branco esta tratado como controversia. Os 18 azuis sao verificacoes bem-sucedidas (verified_ok), nunca exigiram correcao."
+  },
+  "dominant_pattern": "DIRECAO E POSICAO GEOGRAFICA - o fato certo apontado para o lado errado. Quatro dos onze achados vermelhos/laranjas tem esta forma: a unidade existe, o mecanismo existe, e a aula a coloca no quadrante errado do mapa. (1) A Faixa Paraguai-Araguaia posta na 'borda sudoeste' do Craton Amazonico; o Araguaia corre pela borda LESTE, o Paraguai pela borda SUL-SUDESTE, e quem ocupa a borda sudoeste e o cinturao Tucavaca - este e um dos tres achados vermelhos. (2) O Craton Rio de La Plata posto 'no Uruguai e norte da Argentina'; ele esta no Uruguai e na Argentina centro-oriental (Tandilia, sudeste de Buenos Aires, 36 30'-38 10'S), estendendo-se ~1.000 km ate as proximidades de Cordoba. (3) As provincias geocronologicas do Craton Amazonico descritas como envelhecendo 'do centro para as bordas', num padrao radial; o gradiente real e unidirecional NE->SW, com o nucleo arqueano da Provincia Amazonia Central a leste-nordeste. (4) No exemplo trabalhado da a04, a laje de Nazca 'aprofundando para oeste'; ela aprofunda para LESTE, continente adentro, afastando-se da fossa, que esta a oeste - e a propria aula ensina o contrario, corretamente, duas secoes acima. POR QUE ISSO E CARO NESTE MODULO: a aula 01 e declaradamente o MAPA-BASE sobre o qual as tres aulas seguintes sobrepoem dados; um erro de posicao na a01 nao e um fato isolado, e a moldura que o aluno usara para localizar toda anomalia gravimetrica, todo perfil magnetotelurico e todo hipocentro das aulas 02 a 04. E a a04, que fecha o modulo, e onde o sentido de mergulho da laje E o conteudo: e a partir dele que se distingue subduccao normal de subduccao plana, o fio condutor declarado do modulo inteiro. PADRAO SECUNDARIO: ATRIBUICAO DE FONTE - quatro dos seis amarelos sao o mesmo defeito que dominou o Modulo 17, o dado certo debaixo do nome errado ou a entrada de bibliografia colada. Reincide aqui com uma inversao especialmente visivel: Gotze & Krause (2002), cujo titulo e 'The Central Andean gravity HIGH', e creditado como fonte da anomalia de Bouguer NEGATIVA andina. ONDE O MODULO ESTA LIMPO: toda a fisica do metodo magnetotelurico e o caso do corpo magmatico do Altiplano-Puna na a02; a distincao Moho x base da litosfera; as quilhas cratonicas e suas faixas de profundidade; o fluxo de calor por provincia tectonica; o geoide como ferramenta de comprimento de onda longo e sua separacao da Bouguer; a mare terrestre e suas ordens de grandeza; a distincao entre anomalia magnetica CRUSTAL e a Anomalia Magnetica do Atlantico Sul (campo principal/nucleo), que e o melhor paragrafo do modulo; toda a mecanica do paleomagnetismo, incluindo a nao determinacao da paleolongitude; a zona de Wadati-Benioff e suas tres faixas de profundidade; e o enxame de Joao Camara.",
+  "cross_module_check": "Verificacao explicita contra os modulos que o M18 declara como antecedentes. NENHUMA CONTRADICAO ENCONTRADA ENTRE MODULOS. (1) MODULO 15 (petrofisica), pre-requisito formal: densidade, velocidade sismica, porosidade e condutividade eletrica sao usadas na a02 na mesma acepcao do M15, agora em escala de placa; a a01 declara corretamente que NAO aciona o M15, e nao aciona - sem salto de pre-requisito. (2) MODULO 17 (geofisica marinha): a a03 remete as correcoes de campos potenciais (Eotvos, Bouguer marinha) do M17 sem reensina-las e sem divergir; as anomalias magneticas lineares da crosta oceanica sao invocadas na a01 e na a03 na mesma acepcao auditada e aprovada no M17; a familia de bacias de margem passiva e remetida ao M17 sem repetir dado, o que evita divergencia numerica transversal. (3) COMPENSACAO ISOSTATICA: o principio e usado na a02 e na a03 de forma consistente entre si e com o M17 - crosta espessa e menos densa flutuando mais alto e mais fundo, produzindo deficit de massa e Bouguer negativa; o SENTIDO NAO ESTA INVERTIDO em nenhum dos tres pontos, verificado individualmente dado o historico de inversoes dos Modulos 10 e 17. (4) CLASSIFICACAO DE BACIAS: a a01 declara explicitamente que a classificacao por CONTEXTO TECTONICO e complementar, nao concorrente, a classificacao por MECANISMO DE SUBSIDENCIA do M10/M17 - mesma declaracao de compatibilidade que a auditoria do M17 elogiou. O QUE NAO SE SUSTENTOU FOI INTERNO AO PROPRIO MODULO: a a01 e a a02 dao MECANISMOS DIFERENTES para a supressao do vulcanismo em subduccao plana (achado AUD-M18-A01-FLATSLABMECANISMO-007), e a a01 contradiz a si mesma ao introduzir o Craton Paranapanema e, dois paragrafos adiante, tratar a Faixa Ribeira como sutura direta Sao Francisco/Rio de La Plata (AUD-M18-A01-RIBEIRA-008).",
+  "process_defect_note": "A auditoria do Modulo 17 identificou como padrao dominante a ATRIBUICAO DE FONTE, com quatro ocorrencias. O Modulo 18 REINCIDE com quatro ocorrencias do mesmo padrao (GOTZEKRAUSE-012, WARDMT-013, PINTOHALLINAN-014, HEIRTZLER-015), mais ASSUMPCAO1998-017 e PERUFLATSLAB-016, que sao a mesma familia. Duas sao copias estruturais exatas de achados do M17: PINTOHALLINAN-014 e a entrada de bibliografia colada com autor espurio (igual a AUD-M17-A05-KAMINSKI-011), e GOTZEKRAUSE-012 e o dado creditado ao artigo que trata do fenomeno OPOSTO (igual a AUD-M17-A02-TEDESCHI-001, o vermelho daquele modulo). Isto nao e coincidencia de dois modulos: e defeito do processo de redacao, nao do conteudo de um modulo especifico. RECOMENDACAO AO ORQUESTRADOR: antes de escrever o Modulo 19, acrescentar ao gerador de aula uma verificacao obrigatoria de que cada entrada da lista de Fontes (a) existe com aquele autor, ano, periodico e paginacao e (b) trata efetivamente do fato que a aula lhe credita. E barato na redacao e, aqui, teria evitado seis dos dezessete achados.",
+  "findings": [
+    {
+      "claim_id": "AUD-M18-A03-TPW-001",
+      "severity": "red",
+      "nature": "erro_factual",
+      "lesson": "geologia-avancado-m18-a03",
+      "location": "secao 'Paleomagnetismo: como uma rocha registra onde estava'; recap relampago; alegacao GEOFISSA-M18-A03-PALEOMAG-005",
+      "written": "nao e o polo que efetivamente 'andou' (o eixo de rotacao da Terra e estavel em relacao ao manto em escalas geologicas, um resultado bem estabelecido), mas sim a placa que se moveu",
+      "problem": "A afirmacao entre parenteses e falsa, e falsa exatamente ao contrario do que a literatura estabelece. A reorientacao do conjunto manto+litosfera em relacao ao eixo de rotacao tem nome proprio, literatura propria e medidas proprias: e a DERIVA POLAR VERDADEIRA (true polar wander, TPW). A estabilizacao pelo bojo rotacional DESAPARECE em escala geologica, e a orientacao de equilibrio do planeta passa a ser ditada pela distribuicao de massa - ou seja, o eixo de rotacao NAO e estavel em relacao ao manto ao longo de tempo geologico. Ha TPW documentada e quantificada ao menos desde 320 Ma, com taxas que variam sistematicamente com o ciclo de supercontinentes. O dano especifico: uma APWP global CONTEM uma componente de TPW somada ao movimento de placa, e separar as duas e problema de pesquisa corrente. A aula nao so omite isso - ensina que a componente nao existe, e carimba a negacao como consenso. Nao e controversia em que a aula escolheu um lado: e a negacao da existencia de um fenomeno estabelecido, apresentada como resultado firmado.",
+      "correction": "Substituir o parentese por: '- e a rigor a trajetoria soma duas coisas: o movimento da propria placa, que e dominante, e uma componente menor de DERIVA POLAR VERDADEIRA (true polar wander), a reorientacao do conjunto manto-litosfera em relacao ao eixo de rotacao, que existe, e documentada ao menos desde o Paleozoico e cuja separacao do sinal de placa e problema de pesquisa corrente'. Atualizar a alegacao PALEOMAG-005 no mesmo sentido e ajustar o recap, que repete a formulacao 'que documenta o movimento historico da placa (nao do polo)'.",
+      "source": "Vaes et al. (2025), 'Slow True Polar Wander Around Varying Equatorial Axes Since 320 Ma', AGU Advances, 10.1029/2024AV001515; Evans, D. A. D., 'True polar wander and supercontinents' (revisao); literatura de conveccao mantelica e reajuste do bojo rotacional, Earth and Planetary Science Letters (2011), que afirma explicitamente que a estabilizacao rotacional desaparece em escalas geologicas",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-11",
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-geofisica-america-do-sul/18-geofisica-america-do-sul-aula-03-campos-potenciais-paleomagnetismo-gravimetria-geoide-mare-terrestre-magnetometria.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-11",
+      "status": "resolvido",
+      "resolution": "CORRIGIDO na aula 03. O parentese que negava a deriva polar verdadeira foi substituido por um trecho que (a) mantem o movimento de placa como termo dominante da APWP, (b) nomeia a deriva polar verdadeira (true polar wander) como componente menor e real, (c) explica que a estabilizacao pelo bojo rotacional desaparece em escala geologica, e (d) registra que separar TPW do sinal de placa e problema de pesquisa corrente. Propagado para o recap (bullet de paleomagnetismo) e para a alegacao GEOFISSA-M18-A03-PALEOMAG-005. Vaes et al. (2025), AGU Advances, e Evans, 'True polar wander and supercontinents', acrescentados as Fontes da a03."
+    },
+    {
+      "claim_id": "AUD-M18-A01-PARAGUAIARAGUAIA-002",
+      "severity": "red",
+      "nature": "erro_factual",
+      "lesson": "geologia-avancado-m18-a01",
+      "location": "secao 'Faixas moveis: onde os cratons se soldaram'; recap relampago; alegacao GEOFISSA-M18-A01-BRASILIANO-002",
+      "written": "e a Faixa Paraguai-Araguaia, na borda sudoeste do Craton Amazonico",
+      "problem": "A configuracao da plataforma sul-americana, definida na amalgamacao do Gondwana, tem o Craton Amazonico bordejado por cinturoes neoproterozoicos A LESTE (Araguaia), AO SUL (Paraguai) e A SUDOESTE (Tucavaca). O Cinturao Araguaia e um cinturao N-S ao longo da margem ORIENTAL do craton; o Cinturao Paraguai e uma faixa arqueada de cavalgamento com vergencia para NW ao longo da margem SUL-SUDESTE, sobre a margem SE do craton e do Bloco Rio Apa. 'Sudoeste' nao e imprecisao de quadrante: e o lado oposto do craton para o Araguaia, e o lugar de outra faixa (Tucavaca) que a aula nao menciona.",
+      "correction": "'e a Faixa Araguaia, ao longo da borda LESTE do Craton Amazonico, e a Faixa Paraguai, na borda SUL-SUDESTE (sobre a margem SE do craton e o Bloco Rio Apa)'. Se a intencao era manter o par como unidade: 'o sistema Paraguai-Araguaia, que contorna as bordas leste e sul do Craton Amazonico'. OPORTUNIDADE: Bologna et al. (2014) e um trabalho MAGNETOTELURICO sobre exatamente esta sutura - e a fonte natural para amarrar a a01 a a02 do proprio modulo, e hoje nao esta citada em nenhuma das duas.",
+      "source": "Alkmim & Marshak / Pimentel, 'Paraguay and Araguaia Belts' (capitulo de sintese); Bologna et al. (2014), 'Paraguay-Araguaia Belt Conductivity Anomaly: A fundamental tectonic boundary in South American Platform imaged by electromagnetic induction surveys', Geochemistry Geophysics Geosystems, 10.1002/2013GC004970; 'An Overview of the Amazonian Craton Evolution' (2015), International Journal of Geosciences",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-11",
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-geofisica-america-do-sul/18-geofisica-america-do-sul-aula-01-arcabouco-tectonico-placa-sul-americana-cratons-faixas-moveis-andes.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-11",
+      "status": "resolvido",
+      "resolution": "CORRIGIDO na aula 01. O par colapsado 'Faixa Paraguai-Araguaia, na borda sudoeste' foi desdobrado em 'Faixa Araguaia, ao longo da borda LESTE do Craton Amazonico' e 'Faixa Paraguai, na borda SUL-SUDESTE (sobre a margem SE do craton e o Bloco Rio Apa)'. Propagado para o recap (lista de faixas brasilianas) e para a alegacao GEOFISSA-M18-A01-BRASILIANO-002, que agora registra tambem que a borda sudoeste e ocupada pelo cinturao Tucavaca. Bologna et al. (2014), G-cubed, acrescentado as Fontes da a01, atendendo a oportunidade apontada pela auditoria de amarrar a a01 a a02 por um trabalho magnetotelurico sobre esta mesma sutura."
+    },
+    {
+      "claim_id": "AUD-M18-A04-MERGULHOOESTE-003",
+      "severity": "red",
+      "nature": "erro_factual",
+      "lesson": "geologia-avancado-m18-a04",
+      "location": "Exemplo trabalhado, resolucao do item (1)",
+      "written": "numa subduccao plana, a placa nao aprofunda rapidamente logo apos a fossa como faria numa subduccao normal, entao a concentracao de sismicidade rasa proxima a costa, seguida por uma extensao anomala para leste em vez de um aprofundamento rapido para oeste, e exatamente o padrao geometrico esperado",
+      "problem": "Na margem andina a Fossa Peru-Chile esta a OESTE (~71-72 O na latitude do exemplo) e a placa de Nazca mergulha para LESTE, continente adentro. Numa subduccao normal a laje aprofunda indo PARA LESTE a partir da fossa; nao existe 'aprofundamento para oeste' em lugar nenhum desta margem. A frase constroi uma oposicao falsa - 'estender-se para leste EM VEZ DE aprofundar para oeste' - quando os dois regimes se distinguem por QUAO RAPIDO a laje aprofunda indo para leste, nao por direcoes opostas. AGRAVANTE: a propria aula ensina o contrario duas secoes acima, corretamente ('uma superficie inclinada que mergulha DA FOSSA OCEANICA PARA O INTERIOR DO CONTINENTE'). A aula se contradiz dentro de si mesma, e a versao errada esta no EXEMPLO TRABALHADO - a parte que o aluno usa como modelo de raciocinio e de onde o questionario costuma sair. E a categoria de defeito que ja custou achados vermelhos aos Modulos 10 e 17 deste curso, e a unica do modulo capaz de produzir um gabarito invertido se propagada para a avaliacao.",
+      "correction": "'...entao a concentracao de sismicidade rasa proxima a fossa e a costa, seguida por uma extensao anomala da sismicidade para LESTE, continente adentro, em vez do aprofundamento rapido - tambem para leste - que uma laje de ~30 graus produziria logo depois da fossa, e exatamente o padrao geometrico esperado.' VERIFICACAO ADICIONAL NO MESMO EXEMPLO: a situacao diz 'poucos hipocentros de profundidade intermediaria a oeste de 68 O', o que e geometricamente AMBIGUO, nao errado - num flat slab a laje atinge ~100 km por volta de 69-68 O e segue horizontal ate ~66 O, de modo que sismicidade intermediaria existe sim a oeste de 68 O, e o que a distingue e ela CONTINUAR para leste. Recomenda-se reformular o item (1) para 'hipocentros de profundidade intermediaria que, em vez de cessarem a leste de 68 O, prosseguem'; caso contrario o dado que o item (1) oferece nao sustenta a conclusao que a resolucao tira dele.",
+      "source": "Cahill & Isacks (1992), 'Seismicity and shape of the subducted Nazca Plate', JGR 97(B12), 17503-17529 - ja citada pela propria aula; Ramos & Folguera (2009), Geological Society London Special Publications 327(1), 31-54",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-11",
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-geofisica-america-do-sul/18-geofisica-america-do-sul-aula-04-sismicidade-campo-de-esforcos-placa-de-nazca.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-11",
+      "status": "resolvido",
+      "resolution": "CORRIGIDO na aula 04, nas duas metades do exemplo trabalhado. (a) Resolucao do item (1): a oposicao falsa 'extensao para leste EM VEZ DE aprofundamento rapido para oeste' foi substituida pela oposicao correta - extensao anomala para leste em vez do aprofundamento rapido, TAMBEM para leste, que uma laje de ~30 graus produziria logo depois da fossa -, com uma frase explicita fixando que a fossa esta a oeste (~71-72 O nesta latitude), que a laje mergulha para leste nos DOIS regimes, e que o discriminante e a TAXA de aprofundamento, nao a direcao. (b) Situacao, item (1): reformulado conforme a verificacao adicional da auditoria, de 'poucos hipocentros de profundidade intermediaria a oeste de 68 O' (geometricamente ambiguo) para 'sismicidade de profundidade intermediaria que, em vez de cessar por volta de 68 O, prossegue continente adentro' - de modo que o dado oferecido pelo item (1) agora sustenta a conclusao que a resolucao tira dele. Propagado para a alegacao GEOFISSA-M18-A04-FLATSLABSISMICO-003. A contradicao interna com a secao da zona de Wadati-Benioff, que ja ensinava o sentido correto, esta desfeita."
+    },
+    {
+      "claim_id": "AUD-M18-A01-ARACUAI-004",
+      "severity": "orange",
+      "nature": "confusao_de_escopo",
+      "lesson": "geologia-avancado-m18-a01",
+      "location": "secao 'Faixas moveis: onde os cratons se soldaram'",
+      "written": "a Faixa Aracuai e a Faixa Ribeira, no sudeste, que fecham o Craton Sao Francisco contra o Craton Sao Francisco-Congo (sua contraparte africana) e contra o Craton Rio de La Plata, respectivamente",
+      "problem": "Duas coisas. (a) NOMENCLATURA: 'Sao Francisco-Congo' e o nome do PALEOCONTINENTE COMPOSTO - o bloco em forma de U invertido que reune as duas metades. A contraparte africana do Craton Sao Francisco e o CRATON DO CONGO, e o orogeno e o Aracuai-Congo Ocidental (Aracuai-West Congo). Dizer que o Sao Francisco fechou 'contra o Sao Francisco-Congo' e dizer que um bloco colidiu com o conjunto do qual ele proprio e metade. (b) ESCOPO/MECANISMO: o Aracuai e o exemplo canonico de OROGENO CONFINADO, formado pela inversao de um GOLFO do paleocontinente Sao Francisco-Congo, cercado em tres lados por crosta cratonica - nao pelo fechamento de um oceano entre dois cratons que estavam separados. O verbo 'fechar ... contra' ensina o modelo errado justamente no caso que a literatura usa como contraexemplo do modelo padrao.",
+      "correction": "'a Faixa Aracuai, no sudeste, que junto com seu prolongamento africano (a faixa do Congo Ocidental) forma o orogeno Aracuai-Congo Ocidental - um orogeno dito CONFINADO, formado pela inversao de um golfo do paleocontinente Sao Francisco-Congo em vez do fechamento de um oceano amplo; e a Faixa Ribeira, a sudoeste dela'",
+      "source": "Pedrosa-Soares et al. (2001), 'The Aracuai-West-Congo Orogen in Brazil: an overview of a confined orogen formed during Gondwanaland assembly', Precambrian Research; Alkmim et al. (2006), 'Kinematic evolution of the Aracuai-West Congo orogen ... Nutcracker tectonics', Precambrian Research; 'Basement inliers of the Aracuai-West Congo orogen: key pieces for understanding the evolution of the Sao Francisco-Congo paleocontinent', JSAES (2023)",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-11",
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-geofisica-america-do-sul/18-geofisica-america-do-sul-aula-01-arcabouco-tectonico-placa-sul-americana-cratons-faixas-moveis-andes.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-11",
+      "status": "resolvido",
+      "resolution": "CORRIGIDO na aula 01. O Aracuai deixou de 'fechar o Craton Sao Francisco contra o Craton Sao Francisco-Congo' e passa a ser apresentado como metade brasileira do orogeno Aracuai-Congo Ocidental, com o prolongamento africano nomeado corretamente (faixa do Congo Ocidental) e o mecanismo corrigido: orogeno CONFINADO, formado pela inversao de um golfo do paleocontinente Sao Francisco-Congo, e nao pelo fechamento de um oceano amplo entre dois cratons separados. Propagado para o recap e para a alegacao GEOFISSA-M18-A01-BRASILIANO-002; Pedrosa-Soares et al. (2001) acrescentado as Fontes."
+    },
+    {
+      "claim_id": "AUD-M18-A01-RIOPLATA-005",
+      "severity": "orange",
+      "nature": "impreciso",
+      "lesson": "geologia-avancado-m18-a01",
+      "location": "secao 'Cratons: o nucleo antigo e estavel do continente', verbete do Craton Rio de La Plata",
+      "written": "Craton Rio de La Plata (ou Rio da Prata): no Uruguai e norte da Argentina, com extensao para o sul do Brasil",
+      "problem": "Os afloramentos cratonicos do Rio de La Plata na Argentina estao no SISTEMA DE TANDILIA ('Sierras Septentrionales de Buenos Aires'), sudeste da provincia de Buenos Aires, entre 36 30'-38 10'S e 57 30'-61 O - isto e, no CENTRO-LESTE/SUDESTE do pais, a mais de 1.500 km do norte argentino. O craton se estende cerca de 1.000 km desde Tandilia ate as proximidades dos afloramentos do cinturao Pampeano, perto de Cordoba. O norte da Argentina e dominio andino e de antepais, nao cratonico.",
+      "correction": "'no Uruguai e na Argentina centro-oriental (aflorando no Sistema de Tandilia, sudeste da provincia de Buenos Aires, e estendendo-se em subsuperficie ate as proximidades de Cordoba), com extensao para o sul do Brasil'",
+      "source": "Rapela et al., 'The Rio de la Plata Craton of Argentina and Uruguay', em Geology of Southwest Gondwana, Springer, 10.1007/978-3-319-68920-3_4; Cingolani, 'The Tandilia System of Argentina as a southern extension of the Rio de la Plata craton: an overview', International Journal of Earth Sciences",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-11",
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-geofisica-america-do-sul/18-geofisica-america-do-sul-aula-01-arcabouco-tectonico-placa-sul-americana-cratons-faixas-moveis-andes.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-11",
+      "status": "resolvido",
+      "resolution": "CORRIGIDO na aula 01. 'No Uruguai e norte da Argentina' passou a 'no Uruguai e na Argentina centro-oriental (aflorando no Sistema de Tandilia, sudeste da provincia de Buenos Aires, e estendendo-se em subsuperficie ate as proximidades de Cordoba)'. Propagado para a alegacao GEOFISSA-M18-A01-CRATONS-001, que registra explicitamente que o craton NAO esta no norte da Argentina. Rapela et al. (Geology of Southwest Gondwana) e Cingolani (IJES) acrescentados as Fontes."
+    },
+    {
+      "claim_id": "AUD-M18-A01-AMAZONICOPROVINCIAS-006",
+      "severity": "orange",
+      "nature": "impreciso",
+      "lesson": "geologia-avancado-m18-a01",
+      "location": "secao 'Cratons', verbete do Craton Amazonico; alegacao GEOFISSA-M18-A01-CRATONS-001",
+      "written": "Internamente, o craton se organiza em provincias geocronologicas de idades decrescentes do centro (arqueano) para as bordas (proterozoicas), um padrao de acrescao crustal para fora ao longo de bilhoes de anos",
+      "problem": "O padrao real nao e radial. As provincias geocronologicas do Craton Amazonico sao faixas subparalelas de direcao NW-SE que envelhecem DO NORDESTE PARA O SUDOESTE, numa sequencia unica: Ventuari-Tapajos (1,95-1,80 Ga) -> Rio Negro-Juruena (1,80-1,55 Ga) -> Rondoniano-San Ignacio (1,45-1,30 Ga) -> Sunsas (1,25-1,00 Ga). O nucleo arqueano (Provincia Amazonia Central) esta no LESTE-NORDESTE, nao no centro, e a acrescao se deu ao longo da margem OCIDENTAL de um nucleo comum - crescimento lateral e unidirecional, nao concentrico. POR QUE IMPORTA AQUI: a aula 02 usa a arquitetura de provincias para justificar variacao de espessura crustal 'associada a historia de acrescao de cada provincia geocronologica dentro do craton'; um leitor com o modelo radial na cabeca vai esperar simetria em torno de um centro num mapa que e, na verdade, um gradiente diagonal.",
+      "correction": "'Internamente, o craton se organiza em provincias geocronologicas dispostas em faixas subparalelas de direcao NW-SE, que envelhecem DE NORDESTE PARA SUDOESTE - do nucleo arqueano da Provincia Amazonia Central, a leste-nordeste, ate a Provincia Sunsas (1,25-1,00 Ga), a sudoeste -, um padrao de acrescao crustal sucessiva ao longo da margem ocidental do nucleo, e nao um crescimento concentrico.'",
+      "source": "Tassinari & Macambira (1999, 2004), provincias geocronologicas do Craton Amazonico; 'An Overview of the Amazonian Craton Evolution: Insights for Paleocontinental Reconstruction' (2015)",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-11",
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-geofisica-america-do-sul/18-geofisica-america-do-sul-aula-01-arcabouco-tectonico-placa-sul-americana-cratons-faixas-moveis-andes.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-11",
+      "status": "resolvido",
+      "resolution": "CORRIGIDO na aula 01. O padrao radial 'do centro (arqueano) para as bordas (proterozoicas)' foi substituido pelo gradiente real: faixas subparalelas de direcao NW-SE que envelhecem de NORDESTE para SUDOESTE, do nucleo arqueano da Provincia Amazonia Central (a leste-nordeste) ate a Provincia Sunsas (1,25-1,00 Ga, a sudoeste), com a acrescao se dando ao longo da margem ocidental do nucleo - crescimento lateral e unidirecional, explicitamente nao concentrico. Propagado para a alegacao GEOFISSA-M18-A01-CRATONS-001; Tassinari & Macambira (1999, 2004) acrescentado as Fontes. Com isso o leitor chega a a02 com o modelo mental certo para a variacao de espessura crustal por provincia geocronologica."
+    },
+    {
+      "claim_id": "AUD-M18-A01-FLATSLABMECANISMO-007",
+      "severity": "orange",
+      "nature": "inconsistencia_interna",
+      "lesson": "geologia-avancado-m18-a01",
+      "location": "secao 'Os Andes: uma cordilheira, varios regimes de subduccao'; comparar com a a02, secao 'Fluxo de calor'",
+      "written": "Esses segmentos coincidem com lacunas no vulcanismo ativo (porque a placa fria nao chega a profundidade suficiente sob o continente para gerar fusao parcial na cunha mantelica logo atras do arco)",
+      "problem": "O mecanismo aceito e o FECHAMENTO DA CUNHA MANTELICA: ao se horizontalizar, a laje encosta na base da litosfera continental e EXPULSA (ou desloca para o interior) a cunha de astenosfera quente que ficava entre as duas. Sem cunha astenosferica quente, nao ha o que fundir - independentemente da profundidade que a laje atinge. A formulacao da aula sugere que a laje precisaria 'chegar mais fundo' para haver fusao, o que embute dois erros de modelo: (a) quem funde e a CUNHA MANTELICA, nao a laje; e (b) o flat slab peruano de fato atinge 60-70 km e o chileno central ultrapassa 100 km - profundidades comparaveis as de subduccao normal sob o arco -, e ainda assim nao ha vulcanismo. A profundidade nao e a variavel de controle; a presenca da cunha e. AGRAVANTE - INCONSISTENCIA INTERNA: a aula 02, tratando do mesmo fenomeno, da explicacao DIFERENTE E MELHOR ('suprimem o vulcanismo do arco exatamente por afastar a fonte de calor mantelica da base da crosta continental'). As duas aulas ensinam mecanismos distintos para o mesmo fato, e a aula que o apresenta primeiro - a que o aluno vai fixar - e a que esta errada.",
+      "correction": "Na a01: '(porque a laje, ao se horizontalizar, encosta na base da litosfera continental e FECHA a cunha de manto astenosferico quente que, na subduccao normal, ocupa o espaco entre as duas placas - e e essa cunha, nao a laje, que funde parcialmente para alimentar o arco)'. Com isso a a01 passa a dizer a mesma coisa que a a02, e a remissao entre elas fica coerente.",
+      "source": "'Slab underthrusting is the primary control on flat-slab size' (2025), PMC12248310, que enuncia a associacao entre achatamento da laje e fechamento da cunha mantelica quente; Ramos & Folguera (2009), GSL SP 327(1); Gutscher et al., sobre a geometria e profundidade dos flat slabs peruano (60-70 km) e chileno central (>100 km)",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-11",
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-geofisica-america-do-sul/18-geofisica-america-do-sul-aula-01-arcabouco-tectonico-placa-sul-americana-cratons-faixas-moveis-andes.md",
+        "18-geofisica-america-do-sul/18-geofisica-america-do-sul-aula-02-estrutura-profunda-espessura-crustal-litosferica-magnetotelurico-fluxo-calor.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-11",
+      "status": "resolvido",
+      "resolution": "CORRIGIDO na aula 01. O mecanismo 'a placa fria nao chega a profundidade suficiente' foi substituido pelo mecanismo aceito - a laje, ao se horizontalizar, encosta na base da litosfera continental e FECHA a cunha de manto astenosferico quente, e e essa cunha, nao a laje, que funde parcialmente para alimentar o arco. Propagado para o recap da a01 e para a alegacao GEOFISSA-M18-A01-FLATSLAB-003, que registra tambem os contraexemplos de profundidade (flat slab peruano 60-70 km, chileno central >100 km, sem vulcanismo). A aula 02 nao precisou de edicao: sua formulacao ja era a correta, e a inconsistencia interna entre as duas aulas esta resolvida por convergencia da a01 para a a02."
+    },
+    {
+      "claim_id": "AUD-M18-A01-RIBEIRA-008",
+      "severity": "orange",
+      "nature": "inconsistencia_interna",
+      "lesson": "geologia-avancado-m18-a01",
+      "location": "secao 'Faixas moveis'; Exemplo trabalhado, Localidade 3",
+      "written": "a Faixa Ribeira ... [fecha o Craton Sao Francisco] contra o Craton Rio de La Plata; e, no exemplo trabalhado: a posicao geografica descrita (entre esses dois cratons) corresponde a regiao da Faixa Ribeira, que registra a colisao que fechou o oceano entre esses dois blocos",
+      "problem": "A Faixa Ribeira resulta do fechamento do Oceano Adamastor pela interacao de VARIOS blocos - Sao Francisco, PARANAPANEMA, Rio de La Plata, LUIS ALVES, Congo e Kalahari - e e composta por quatro terrenos tectono-estratigraficos (Ocidental, Paraiba do Sul, Oriental e Cabo Frio). Reduzi-la a uma sutura Sao Francisco/Rio de La Plata apaga exatamente os blocos intermediarios que a PROPRIA AULA acabou de apresentar dois paragrafos antes: o Craton Paranapanema e o Craton Luis Alves. A colisao Sao Francisco-Paranapanema (~640-620 Ma) e o que gera a Faixa Brasilia meridional, nao a Ribeira. O exemplo trabalhado piora o quadro, porque transforma a simplificacao em GABARITO: pergunta a que unidade pertence uma faixa neoproterozoica 'entre Sao Francisco e Rio de La Plata' e responde 'Faixa Ribeira' como se a geografia fosse univoca - quando o que ha entre os dois e uma colagem de blocos e ao menos duas faixas (Ribeira e Dom Feliciano).",
+      "correction": "No corpo: 'e a Faixa Ribeira, no sudeste, que registra o fechamento do Oceano Adamastor e a interacao entre o Sao Francisco-Congo, o Paranapanema, o Luis Alves e o Rio de La Plata - nao uma sutura simples entre dois cratons'. No exemplo trabalhado, reformular a Localidade 3 para pedir a CATEGORIA ('faixa movel brasiliana') sem exigir a identificacao nominal da faixa, ou mover a localidade para um par inequivoco (p. ex. Faixa Brasilia, a oeste do Sao Francisco).",
+      "source": "Heilbron et al., 'The Ribeira Belt', em Sao Francisco Craton, Eastern Brazil: Tectonic Genealogy of a Miniature Continent, Springer, 10.1007/978-3-319-01715-0_15; revisao dos arcos magmaticos neoproterozoicos do Ribeira central, JSAES (2020)",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-11",
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-geofisica-america-do-sul/18-geofisica-america-do-sul-aula-01-arcabouco-tectonico-placa-sul-americana-cratons-faixas-moveis-andes.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-11",
+      "status": "resolvido",
+      "resolution": "CORRIGIDO na aula 01, nos dois pontos. (a) Corpo: a Ribeira deixou de ser 'a faixa que fecha o Sao Francisco contra o Rio de La Plata' e passa a registrar o fechamento do Oceano Adamastor com a interacao entre Sao Francisco-Congo, Paranapanema, Luis Alves e Rio de La Plata, com a negacao explicita 'nao uma sutura simples entre dois cratons' - o que reconcilia a secao com os cratons Paranapanema e Luis Alves apresentados dois paragrafos antes. (b) Exemplo trabalhado, Localidade 3: a resolucao deixou de nomear a Faixa Ribeira como gabarito e passa a responder a CATEGORIA ('faixa movel brasiliana'), explicando que a posicao geografica dada nao identifica uma faixa especifica - ha uma colagem de blocos e ao menos duas faixas candidatas (Ribeira e Dom Feliciano) - e que nomear exigiria dado estrutural, geocronologico ou geofisico que o relatorio nao fornece. Heilbron et al. ('The Ribeira Belt') acrescentado as Fontes."
+    },
+    {
+      "claim_id": "AUD-M18-A02-ESPESSURACRATON-009",
+      "severity": "orange",
+      "nature": "impreciso",
+      "lesson": "geologia-avancado-m18-a02",
+      "location": "secao 'Espessura crustal: o Moho como assinatura de cada unidade tectonica'; recap; alegacao GEOFISSA-M18-A02-CRUSTALTHICK-002; reusado na a03",
+      "written": "O interior cratonico estavel da placa Sul-Americana tem crosta de espessura moderada, tipicamente na faixa de 35 a 42 quilometros",
+      "problem": "A fonte citada - Assumpcao et al. (2013), Crustal thickness map of Brazil - NAO sustenta esse recorte. Ali a espessura media da regiao continental estavel e ~38-40 km (e ~41 km para a porcao brasileira da plataforma); o Craton Sao Francisco fica em 38-42 km, com espessamento local a 44 km ao norte; e a CROSTA MAIS ESPESSA DO BRASIL esta justamente no Craton Amazonico, com anomalias de Moho de ate 50-60 km no escudo das Guianas e no sul do escudo Brasil-Central. Os 35 km do limite inferior nao sao valor cratonico: sao a assinatura da crosta FINA da Provincia Borborema (30-35 km) e de uma faixa estreita da Provincia Tocantins (~35 km) - isto e, de FAIXAS MOVEIS, exatamente as unidades das quais a aula quer que o craton se distinga. O efeito e duplo: a faixa declarada engole o contraste que a secao existe para ensinar (craton x faixa movel), e trunca por cima justamente a unidade que detem o recorde continental brasileiro.",
+      "correction": "'tipicamente na faixa de 38 a 44 quilometros - proxima da espessura crustal continental media global -, com o Craton Amazonico detendo a crosta mais espessa do territorio brasileiro (anomalias locais de Moho a 50-60 km no escudo das Guianas). Para contraste, a crosta MAIS FINA do Brasil nao esta sob bacia nenhuma, e sim sob faixas moveis: 30-35 km na Provincia Borborema e ~35 km numa faixa estreita da Provincia Tocantins.' Propagar para o recap da a02, para a alegacao e para a frase da a03 que reusa o par '60-70 / 35-42'.",
+      "source": "Assumpcao, Bianchi, Julia et al. (2013), 'Crustal thickness map of Brazil: Data compilation and main features', JSAES 43, 74-85 - a propria fonte da aula; Assumpcao et al. (2017), 'Lithospheric Features of the Sao Francisco Craton', Springer; 'Crustal structure of the Amazonian Craton and adjacent provinces in Brazil', JSAES (2017), media 38,2 km com faixa 27,4-48,6 km",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-11",
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-geofisica-america-do-sul/18-geofisica-america-do-sul-aula-02-estrutura-profunda-espessura-crustal-litosferica-magnetotelurico-fluxo-calor.md",
+        "18-geofisica-america-do-sul/18-geofisica-america-do-sul-aula-03-campos-potenciais-paleomagnetismo-gravimetria-geoide-mare-terrestre-magnetometria.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-11",
+      "status": "resolvido",
+      "resolution": "CORRIGIDO na aula 02 e propagado para a aula 03. A faixa cratonica passou de '35 a 42 km' para '38 a 44 km', com dois acrescimos que a fonte sustenta e que restauram o contraste que a secao existe para ensinar: o Craton Amazonico detem a crosta mais espessa do territorio brasileiro (anomalias locais de Moho a 50-60 km no escudo das Guianas e no sul do escudo Brasil-Central), e a crosta MAIS FINA do Brasil esta sob FAIXAS MOVEIS (Borborema 30-35 km; faixa estreita da Provincia Tocantins ~35 km), nao sob bacias. Propagado para o recap da a02, para a alegacao GEOFISSA-M18-A02-CRUSTALTHICK-002 e para a frase da a03 que reusava o par '60-70 / 35-42', agora '60-70 / 38-44'."
+    },
+    {
+      "claim_id": "AUD-M18-A03-BOUGUERCRATON-010",
+      "severity": "orange",
+      "nature": "omissao_que_gera_erro",
+      "lesson": "geologia-avancado-m18-a03",
+      "location": "secao 'Gravimetria continental: a raiz andina revisitada'; recap; alegacao GEOFISSA-M18-A03-BOUGUERANDES-001",
+      "written": "O interior cratonico, com crosta de espessura moderada e bem equilibrada isostaticamente havia muito tempo geologico, exibe anomalias de Bouguer mais proximas de zero ou moderadamente positivas, sem o forte deficit regional que caracteriza a raiz andina",
+      "problem": "A metade 'proximas de zero' esta certa; 'ou moderadamente positivas' como descricao GERAL do interior cratonico nao esta. Sobre crosta continental normal a anomalia de Bouguer e ~0 ao nivel do mar e fica PROGRESSIVAMENTE MAIS NEGATIVA com a elevacao - e e isso que se observa no escudo brasileiro: no SE do Brasil a regiao de topografia mais alta e caracterizada por Bouguer MAIS BAIXA, sinal de que a isostasia regional se mantem; a Bacia do Parnaiba se assenta num low amplo de ~-40 mGal. Onde ha Bouguer francamente POSITIVA no interior do continente, ela NAO e assinatura de 'craton bem compensado': e um alto estreito alinhado ao EIXO de bacias intracratonicas - na Bacia do Amazonas, uma cadeia de altos de +40 a +90 mGal coincidente com o eixo de maxima espessura sedimentar, ladeada por lows de ~-40 mGal -, e reflete SUBPLACAGEM MAFICA E AFINAMENTO CRUSTAL, mecanismo completamente diferente. A aula, ao oferecer 'moderadamente positiva' como leitura normal do craton, entrega ao aluno um sinal diagnostico com a explicacao trocada.",
+      "correction": "'O interior cratonico, com crosta de espessura moderada e isostaticamente equilibrada havia muito tempo geologico, exibe anomalias de Bouguer proximas de zero ao nivel do mar, tornando-se moderadamente negativas onde a topografia sobe - sem o forte deficit regional que caracteriza a raiz andina. Altos de Bouguer francamente positivos no interior do continente existem, mas sao estreitos e alinhados ao EIXO de bacias intracratonicas (na Bacia do Amazonas, +40 a +90 mGal sobre o eixo de maxima espessura sedimentar, ladeados por lows de ~-40 mGal), e a leitura deles nao e craton compensado: e afinamento crustal e subplacagem mafica sob o eixo da bacia.'",
+      "source": "Tozer et al. (2017), 'Crustal structure, gravity anomalies, and subsidence history of the Parnaiba cratonic basin', JGR Solid Earth, 10.1002/2017JB014348; Assumpcao et al. (2002), 'Crustal thicknesses in SE Brazilian Shield by receiver function analysis: Implications for isostatic compensation', JGR 107(B1); literatura sobre os altos gravimetricos do eixo da Bacia do Amazonas",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-11",
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-geofisica-america-do-sul/18-geofisica-america-do-sul-aula-03-campos-potenciais-paleomagnetismo-gravimetria-geoide-mare-terrestre-magnetometria.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-11",
+      "status": "resolvido",
+      "resolution": "CORRIGIDO na aula 03. 'Proximas de zero ou moderadamente positivas' passou a 'proximas de zero ao nivel do mar, tornando-se moderadamente NEGATIVAS onde a topografia sobe', e foi acrescentado o paragrafo que devolve a leitura correta aos altos francamente positivos do interior: sao estreitos, alinhados ao EIXO de bacias intracratonicas (Bacia do Amazonas, +40 a +90 mGal sobre o eixo de maxima espessura sedimentar, ladeados por lows de ~-40 mGal) e significam afinamento crustal e subplacagem mafica, nao craton compensado. Propagado para o recap da a03 e para a alegacao GEOFISSA-M18-A03-BOUGUERANDES-001; Tozer et al. (2017) e Assumpcao et al. (2002) acrescentados como fontes da alegacao."
+    },
+    {
+      "claim_id": "AUD-M18-A04-ESFORCOSANDES-011",
+      "severity": "orange",
+      "nature": "impreciso",
+      "lesson": "geologia-avancado-m18-a04",
+      "location": "secao 'O campo de esforcos regional: quais forcas atuam sobre a placa'; recap; alegacao GEOFISSA-M18-A04-CAMPOESFORCOS-005",
+      "written": "o empurrao de dorsal (ridge push) ... e a resistencia (ou eventual tracao) transmitida pela zona de subduccao andina no lado oposto da placa - de modo que ... boa parte do interior da placa Sul-Americana esta sob um regime de compressao de escala de placa, resultante do balanco entre essas forcas de borda, ainda que localmente esse padrao regional possa ser perturbado por estruturas crustais herdadas e por processos superficiais, como o proprio peso e a erosao diferencial da topografia andina",
+      "problem": "Dois pontos. (a) 'EVENTUAL TRACAO' NAO SE APLICA: slab pull atua sobre a placa SUBDUCTANTE (Nazca), nao sobre a placa CAVALGANTE (Sul-Americana). Nao ha mecanismo reconhecido pelo qual a subduccao andina transmita TRACAO ao interior da placa Sul-Americana; o que ela transmite e forca resistiva/compressiva ao longo da margem. O parentese introduz um mecanismo inexistente num ponto em que a aula esta justamente montando o balanco de forcas. (b) A TOPOGRAFIA ANDINA ESTA DO LADO ERRADO DA HIERARQUIA: na modelagem de referencia do campo de esforcos intraplaca sul-americano, o regime compressivo E-O de primeira ordem resulta da INTERACAO ENTRE O EMPURRAO DE DORSAL E AS FORCAS COLISIONAIS ao longo da margem ocidental, e as FORCAS DE FLUTUABILIDADE/TOPOGRAFICAS - explicitamente incluindo a crosta continental elevada da Cordilheira Andina, ao lado da dorsal e das margens continentais - sao um dos DOIS PROCESSOS TECTONICOS PRINCIPAIS, nao um ruido. A aula inverte isso: nomeia 'o proprio peso ... da topografia andina' como perturbacao LOCAL de um padrao regional que, na literatura, ela ajuda a PRODUZIR.",
+      "correction": "Remover '(ou eventual tracao)'; e reescrever o fecho como: '...resultante do balanco entre o empurrao de dorsal, as forcas colisionais transmitidas ao longo da margem convergente ocidental e as forcas de flutuabilidade da topografia elevada - a propria Cordilheira Andina, cuja energia potencial gravitacional e uma das fontes de primeira ordem do campo, e nao uma perturbacao local. O que perturba localmente esse padrao sao estruturas crustais herdadas, cargas sedimentares flexurais e afinamentos litosfericos.' Acrescentar Coblentz & Richardson (1996) as Fontes.",
+      "source": "Coblentz & Richardson (1996), 'Analysis of the South American intraplate stress field', JGR Solid Earth 101, 8643-8657, 10.1029/96JB00090; Assumpcao et al. (2016), 'Intraplate stress field in South America from earthquake focal mechanisms', JSAES",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-11",
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-geofisica-america-do-sul/18-geofisica-america-do-sul-aula-04-sismicidade-campo-de-esforcos-placa-de-nazca.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-11",
+      "status": "resolvido",
+      "resolution": "CORRIGIDO na aula 04, nos dois pontos. (a) '(ou eventual tracao)' foi removido e substituido por uma ressalva explicita de que slab pull atua sobre a placa SUBDUCTANTE (Nazca) e nao sobre a cavalgante, e que o que a margem convergente transmite ao interior sul-americano e forca resistiva/compressiva. (b) A topografia andina foi promovida de perturbacao local a fonte de PRIMEIRA ORDEM do campo, com o balanco reescrito como empurrao de dorsal + forcas colisionais da margem ocidental + forcas de flutuabilidade da topografia elevada; as perturbacoes locais passaram a ser estruturas crustais herdadas, cargas sedimentares flexurais e afinamentos litosfericos. Propagado para o recap e para a alegacao GEOFISSA-M18-A04-CAMPOESFORCOS-005; Coblentz & Richardson (1996) e Assumpcao et al. (2016) acrescentados as Fontes."
+    },
+    {
+      "claim_id": "AUD-M18-A03-GOTZEKRAUSE-012",
+      "severity": "yellow",
+      "nature": "erro_factual",
+      "lesson": "geologia-avancado-m18-a03",
+      "location": "lista de Fontes; alegacao GEOFISSA-M18-A03-BOUGUERANDES-001",
+      "written": "Gotze, H.-J. & Krause, S. (2002), 'The Central Andean gravity high, a relic of an old subduction complex?', Journal of South American Earth Sciences, 14(8), 799-811 (gravimetria de Bouguer da regiao andina central e interpretacao isostatica)",
+      "problem": "O artigo trata de um ALTO de gravidade residual isostatica (Central Andean gravity high, CAGH) centrado no FLANCO OCIDENTAL dos Andes Centrais a ~24 S, atribuido a um corpo denso de ~400 km de comprimento e 100-140 km de largura, com massas entre 10 e 38 km de profundidade, possivelmente um complexo de subduccao Ordovicio-Siluriano. E a feicao de SINAL OPOSTO ao que a aula usa a referencia para sustentar (a anomalia de Bouguer regionalmente NEGATIVA da cordilheira). Mesma forma do achado vermelho AUD-M17-A02-TEDESCHI-001 do modulo anterior.",
+      "correction": "Manter Gotze & Krause como leitura sobre o ALTO do antearco, com a anotacao corrigida - e e um bom contraponto didatico, porque nem toda anomalia andina e negativa. Creditar a Bouguer regional negativa e a estrutura de densidade da margem a Tassara et al. (2006), JGR 111(B9), ja citada pela aula, e a compilacao gravimetrica andina.",
+      "source": "Gotze & Krause (2002), JSAES 14(8), 799-811 (resumo e conteudo verificados: anomalia POSITIVA de gravidade residual isostatica a ~24 S no flanco ocidental)",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-11",
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-geofisica-america-do-sul/18-geofisica-america-do-sul-aula-03-campos-potenciais-paleomagnetismo-gravimetria-geoide-mare-terrestre-magnetometria.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-11",
+      "status": "resolvido",
+      "resolution": "CORRIGIDO na aula 03, lista de Fontes. Tassara et al. (2006) passou a encabecar a lista como a referencia da Bouguer regional NEGATIVA da cordilheira; Gotze & Krause (2002) foi mantido, reposicionado e reanotado com a advertencia de sinal - trata de um ALTO de gravidade residual isostatica no flanco ocidental (antearco) a ~24 S, corpo denso de ~400 km entre 10 e 38 km de profundidade, possivelmente complexo de subduccao ordovicio-siluriano -, com a nota de que nao e a fonte da Bouguer negativa e vale como contraponto didatico de que nem toda anomalia andina e negativa. Propagado para a alegacao GEOFISSA-M18-A03-BOUGUERANDES-001."
+    },
+    {
+      "claim_id": "AUD-M18-A03-WARDMT-013",
+      "severity": "yellow",
+      "nature": "erro_factual",
+      "lesson": "geologia-avancado-m18-a02",
+      "location": "aula 02, lista de Fontes, anotacao da entrada de Ward et al. (2014)",
+      "written": "Ward, K. M., Zandt, G., Beck, S. L. et al. (2014), 'Seismic imaging of the magmatic underpinnings beneath the Altiplano-Puna volcanic complex from the joint inversion of surface wave dispersion and receiver functions', EPSL, 404, 43-53 (corpo magmatico do Altiplano-Puna, integracao sismica e magnetotelurica)",
+      "problem": "O artigo e uma inversao conjunta de DISPERSAO DE ONDAS DE SUPERFICIE + FUNCOES DO RECEPTOR - inteiramente sismica; nenhum dado magnetotelurico entra nela. O proprio titulo, corretamente transcrito pela aula, ja diz isso; e a anotacao entre parenteses que contradiz o titulo logo acima dela. O corpo magmatico que o artigo imageia e descrito como zona eliptica de baixa velocidade S de ~200 km de diametro e ~10 km de espessura na crosta media.",
+      "correction": "Trocar a anotacao para '(corpo magmatico do Altiplano-Puna por inversao conjunta SISMICA: dispersao de ondas de superficie e funcoes do receptor; ~200 km de diametro, ~10 km de espessura, crosta media)'. O lado magnetotelurico ja esta corretamente coberto pela entrada seguinte, Comeau et al. (2015).",
+      "source": "Ward, Zandt, Beck, Christensen & McFarlin (2014), EPSL 404, 43-53 (autoria, paginacao e metodo verificados; produto EMC-APVC.ANT+RF.Ward.2014 do NSF SAGE/IRIS)",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-11",
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-geofisica-america-do-sul/18-geofisica-america-do-sul-aula-02-estrutura-profunda-espessura-crustal-litosferica-magnetotelurico-fluxo-calor.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-11",
+      "status": "resolvido",
+      "resolution": "CORRIGIDO na aula 02, lista de Fontes. A anotacao '(corpo magmatico do Altiplano-Puna, integracao sismica e magnetotelurica)', que contradizia o titulo transcrito logo acima dela, passou a '(corpo magmatico do Altiplano-Puna por inversao conjunta SISMICA: dispersao de ondas de superficie e funcoes do receptor; ~200 km de diametro, ~10 km de espessura, na crosta media - o artigo NAO usa dados magnetotelericos, que entram pela referencia seguinte)'. O lado magnetotelurico continua coberto por Comeau et al. (2015), que a auditoria verificou como correto na paginacao e no conteudo."
+    },
+    {
+      "claim_id": "AUD-M18-A03-PINTOHALLINAN-014",
+      "severity": "yellow",
+      "nature": "evidencia_insuficiente",
+      "lesson": "geologia-avancado-m18-a03",
+      "location": "lista de Fontes",
+      "written": "Pinto, V., Hallinan, S. E. et al., compilacoes de mapas aeromagneticos regionais do Servico Geologico do Brasil (CPRM) e de agencias geologicas nacionais sul-americanas (magnetometria regional aplicada a limites cratonicos e de faixas moveis)",
+      "problem": "Entrada de bibliografia colada: sem ano, sem periodico, com a inicial errada, e fundindo autores de trabalhos distintos num unico item que nao existe como publicacao. Mesmo defeito do achado AUD-M17-A05-KAMINSKI-011 do modulo anterior. O leitor autodidata que tentar conferir nao encontra nada.",
+      "correction": "Separar em duas entradas reais: Hallinan, S. E., Mantovani, M. S. M., Shukowsky, W. & Braggion Jr., I. (1993), 'Estrutura do Escudo Sul-Brasileiro: uma revisao atraves de dados gravimetricos e magnetometricos', Revista Brasileira de Geociencias; e Pinto, L. G. R. & Vidotti, R. M. (2019), sobre dominios do embasamento da Bacia do Parana por gravimetria e magnetometria. Manter a mencao ao acervo aerogeofisico do SGB/CPRM como ACERVO, nao como autoria.",
+      "source": "Hallinan, Mantovani, Shukowsky & Braggion Jr. (1993), RBG (existencia e autoria completa verificadas); Pinto & Vidotti (2019), novos limites de dominios do embasamento da Bacia do Parana por gravimetria e magnetometria",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-11",
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-geofisica-america-do-sul/18-geofisica-america-do-sul-aula-03-campos-potenciais-paleomagnetismo-gravimetria-geoide-mare-terrestre-magnetometria.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-11",
+      "status": "resolvido",
+      "resolution": "CORRIGIDO na aula 03, lista de Fontes. A entrada colada com autor espurio foi desfeita em tres itens reais: Hallinan, Mantovani, Shukowsky & Braggion Jr. (1993), RBG, 'Estrutura do Escudo Sul-Brasileiro'; Pinto, L. G. R. & Vidotti, R. M. (2019), sobre dominios do embasamento da Bacia do Parana por gravimetria e magnetometria; e o acervo aerogeofisico do SGB/CPRM e das agencias geologicas nacionais sul-americanas, agora declarado explicitamente como ACERVO DE DADOS e nao como autoria. O leitor autodidata que for conferir agora encontra os trabalhos."
+    },
+    {
+      "claim_id": "AUD-M18-A03-HEIRTZLER-015",
+      "severity": "yellow",
+      "nature": "evidencia_insuficiente",
+      "lesson": "geologia-avancado-m18-a03",
+      "location": "lista de Fontes",
+      "written": "Heirtzler, J. R. et al., literatura padrao sobre a Anomalia Magnetica do Atlantico Sul como fenomeno de campo principal (nucleo), distinta de anomalias magneticas crustais - ver tambem NASA/NOAA, documentacao publica sobre a South Atlantic Anomaly",
+      "problem": "Sem ano, sem periodico, e com 'et al.' num artigo de autor unico. O CONTEUDO que a aula sustenta com essa referencia esta CORRETO - o defeito e exclusivamente a citacao, que nao permite ao leitor chegar ao trabalho.",
+      "correction": "Citar corretamente: Heirtzler, J. R. (2002), 'The future of the South Atlantic anomaly and implications for radiation damage in space', Journal of Atmospheric and Solar-Terrestrial Physics 64(16), 1701-1708, DOI 10.1016/S1364-6826(02)00120-7.",
+      "source": "Heirtzler (2002), JASTP 64(16), 1701-1708, DOI 10.1016/S1364-6826(02)00120-7 (autoria unica, ano, periodico e paginacao verificados; tambem NTRS 20000085550)",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-11",
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-geofisica-america-do-sul/18-geofisica-america-do-sul-aula-03-campos-potenciais-paleomagnetismo-gravimetria-geoide-mare-terrestre-magnetometria.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-11",
+      "status": "resolvido",
+      "resolution": "CORRIGIDO na aula 03, lista de Fontes. 'Heirtzler, J. R. et al., literatura padrao...' passou a citacao completa de autor unico: Heirtzler, J. R. (2002), 'The future of the South Atlantic anomaly and implications for radiation damage in space', Journal of Atmospheric and Solar-Terrestrial Physics 64(16), 1701-1708, DOI 10.1016/S1364-6826(02)00120-7, mantida a remissao a documentacao publica NASA/NOAA. O conteudo sustentado por ela ja estava correto (achado azul B12) e nao foi tocado."
+    },
+    {
+      "claim_id": "AUD-M18-A01-PERUFLATSLAB-016",
+      "severity": "yellow",
+      "nature": "impreciso",
+      "lesson": "geologia-avancado-m18-a01",
+      "location": "a01 corpo e recap; a04 corpo e recap; alegacoes GEOFISSA-M18-A01-FLATSLAB-003 e GEOFISSA-M18-A04-FLATSLABSISMICO-003",
+      "written": "o chamado flat slab peruano (aproximadamente entre 3 S e 15 S)",
+      "problem": "A fonte que a propria aula credita - Ramos & Folguera (2009) - situa o flat slab peruano em 5-15 S. Ramos et al. (2002) e as revisoes posteriores dao 5-15 S ou 5-14 S. O limite norte de 3 S nao sai da fonte citada. (O pampeano, '~27-33 S', CONFERE: Ramos et al. 2002 da 27 00'-33 30'S, e Ramos & Folguera 2009 da 26-32 S; a formulacao da aula esta dentro do aceito.)",
+      "correction": "Trocar para '~5-15 S' nos QUATRO lugares em que aparece: corpo e recap da a01, e corpo e recap da a04. Atualizar as duas alegacoes correspondentes.",
+      "source": "Ramos & Folguera (2009), 'Andean flat-slab subduction through time', Geological Society London Special Publications 327(1), 31-54 (flat slab peruano 5-15 S); Ramos, Cristallini & Perez (2002), 'The Pampean flat-slab of the Central Andes', JSAES 15(1), 59-78 (pampeano 27 00'-33 30'S)",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-11",
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-geofisica-america-do-sul/18-geofisica-america-do-sul-aula-01-arcabouco-tectonico-placa-sul-americana-cratons-faixas-moveis-andes.md",
+        "18-geofisica-america-do-sul/18-geofisica-america-do-sul-aula-04-sismicidade-campo-de-esforcos-placa-de-nazca.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-11",
+      "status": "resolvido",
+      "resolution": "CORRIGIDO nos quatro lugares apontados: corpo e recap da a01, corpo e recap da a04, todos de '~3-15 S' para '~5-15 S', o limite que Ramos & Folguera (2009) - a fonte que a propria aula credita - efetivamente sustenta. Propagado para as alegacoes GEOFISSA-M18-A01-FLATSLAB-003 e GEOFISSA-M18-A04-FLATSLABSISMICO-003. O segmento pampeano ('~27-33 S') foi conferido pela auditoria e mantido sem alteracao."
+    },
+    {
+      "claim_id": "AUD-M18-A04-ASSUMPCAO1998-017",
+      "severity": "yellow",
+      "nature": "erro_factual",
+      "lesson": "geologia-avancado-m18-a04",
+      "location": "lista de Fontes; alegacao GEOFISSA-M18-A04-INTRAPLACA-004",
+      "written": "Assumpcao, M. (1998), 'Seismicity and stresses in the Brazilian passive margin', Bulletin of the Seismological Society of America, 88(1), 160-169 (sismicidade intraplaca e campo de esforcos na margem passiva e interior brasileiro) ... citado tambem como fonte de 'sismicidade intraplaca brasileira, incluindo Mogi Gucau'",
+      "problem": "O artigo trata da sismicidade e dos esforcos das MARGENS brasileiras: a margem NE (terremotos onshore, regime transcorrente) e a margem SE (sismicidade mais alta offshore, mecanismos inversos), com modelos de esforco intraplaca, efeitos flexurais de carga sedimentar e crosta enfraquecida por afinamento mesozoico. Nao cobre o interior cratonico nem o evento de Mogi Guacu (SP), que fica a ~300 km da costa e nao pertence ao dominio de margem. O FATO sobre Mogi Guacu esta correto (ver achado azul B4); o que esta errado e a fonte que lhe e atribuida.",
+      "correction": "Manter Assumpcao (1998) para o campo de esforcos DA MARGEM. Creditar a sismicidade intraplaca do interior a Assumpcao et al. (2004), 'Intraplate seismicity in SE Brazil: stress concentration in lithospheric thin spots', Geophysical Journal International 159(1), 390-399, e/ou a sintese de sismicidade intraplaca brasileira, que e onde o evento de Mogi Guacu efetivamente aparece.",
+      "source": "Assumpcao (1998), BSSA 88(1), 160-169 (escopo verificado no resumo: margens NE e SE); Assumpcao et al. (2004), GJI 159(1), 390-399; sintese de sismicidade do sudeste brasileiro (RBGf/SciELO) que documenta o evento de 1922 em Mogi Guacu, mb 5,1 (~Mw 4,8)",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-11",
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-geofisica-america-do-sul/18-geofisica-america-do-sul-aula-04-sismicidade-campo-de-esforcos-placa-de-nazca.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-11",
+      "status": "resolvido",
+      "resolution": "CORRIGIDO na aula 04, lista de Fontes e alegacao GEOFISSA-M18-A04-INTRAPLACA-004. Assumpcao (1998), BSSA 88(1), 160-169, foi mantido com o escopo real anotado (sismicidade e esforcos das MARGENS brasileiras: NE onshore transcorrente, SE offshore com mecanismos inversos), e a sismicidade intraplaca do INTERIOR - incluindo o evento de 1922 de Mogi Guacu, mb 5,1 (~Mw 4,8), o maior do sudeste brasileiro - foi creditada a Assumpcao et al. (2004), GJI 159(1), 390-399, e a sintese de sismicidade intraplaca brasileira (RBGf). O fato sobre Mogi Guacu ja estava correto (achado azul B4) e nao foi alterado."
+    },
+    {
+      "claim_id": "AUD-M18-A01-CHACOPARANA-W1",
+      "severity": "white",
+      "nature": "controversia",
+      "lesson": "geologia-avancado-m18-a01",
+      "location": "secao 'Bacias sedimentares: intracratonicas, de antepais e de margem'; recap; alegacao GEOFISSA-M18-A01-BACIAS-005",
+      "written": "Bacias de antepais (foreland): ... a Bacia Chaco-Paranaense, a Bacia de Bermejo e a Bacia de Magallanes, entre outras",
+      "problem": "A classificacao tectonica da Chaco-Paranaense e objeto de divergencia real. Um campo a trata como BACIA DE ANTEPAIS, iniciada no Oligoceno superior pela resposta flexural ao encurtamento do retroarco andino; outro a trata como BACIA INTRACRATONICA / SAG DE MARGEM PASSIVA, com ~500.000 km2 sobre crosta continental, baixas taxas de subsidencia e atividade magmatica e tectonica limitada. A divergencia e substantiva e em parte geografica - a porcao ocidental tem carater de antepais andino, a oriental nao. E especialmente sensivel NESTA AULA, cujo exercicio central e pedir ao leitor que classifique uma bacia em uma das tres familias: oferecer como exemplo de antepais uma bacia cuja familia e disputada corroi o proprio criterio que a secao ensina. Bermejo e Magallanes sao exemplos limpos e nao tem esse problema.",
+      "correction": "Ou (a) retirar a Chaco-Paranaense da lista de antepais, deixando Bermejo e Magallanes, que sao inequivocas; ou (b) mante-la com a ressalva explicita, didaticamente mais rico: 'a Bacia Chaco-Paranaense - cuja classificacao e ela propria disputada, lida como antepais andino por sua porcao ocidental e como bacia intracratonica/sag por sua porcao oriental, e um bom lembrete de que as tres familias sao um esquema de primeira ordem, nao gavetas estanques'.",
+      "source": "'Andean foreland evolution and flexure in NW Argentina: Chaco-Parana Basin', Tectonophysics (2014) - leitura de antepais; 'Late Paleozoic tectono-sedimentary evolution of eastern Chaco-Parana Basin (Uruguay, Brazil, Argentina and Paraguay)', JSAES (2020) - leitura intracratonica",
+      "source_level": "revisada por pares",
+      "source_version": "consultado em 2026-09-11",
+      "confidence": "em disputa",
+      "affected_files": [
+        "18-geofisica-america-do-sul/18-geofisica-america-do-sul-aula-01-arcabouco-tectonico-placa-sul-americana-cratons-faixas-moveis-andes.md"
+      ],
+      "outcome": "mantido_como_controversia_com_ressalva",
+      "applied_at": "2026-09-11",
+      "note": "Nao bloqueia o gate sozinho, mas RESTRINGE O FORMATO DAS QUESTOES: nenhuma questao fechada deve exigir que a Chaco-Paranaense seja classificada como antepais. Ver assessment_gate, restricao (a).",
+      "status": "resolvido",
+      "resolution": "TRATADO na aula 01 pela opcao (b) do relatorio, que e a conduta que a skill prescreve para achado branco: nao escolher lado, e sim expor a divergencia. A Chaco-Paranaense saiu da enumeracao direta de exemplos de antepais - que agora abre com Bermejo e Magallanes, os exemplos inequivocos - e passou a entrar com a ressalva explicita de que sua classificacao e ela propria disputada, lida como antepais andino pela porcao ocidental e como intracratonica/sag pela oriental, com o fecho didatico de que as tres familias sao esquema de primeira ordem e nao gavetas estanques. Propagado para o recap e para a alegacao GEOFISSA-M18-A01-BACIAS-005, cujo risco passou de 'fato' para 'controversia'. A CONTROVERSIA PERMANECE ABERTA NA LITERATURA e nao cabia a auditoria resolve-la: o que mudou e que a aula nao a apresenta mais como resolvida. Consequencia operacional preservada em assessment_gate: nenhuma questao fechada deve exigir que a Chaco-Paranaense seja classificada como antepais."
+    }
+  ],
+  "verified_ok": [
+    {
+      "id": "B1",
+      "lesson": "geologia-avancado-m18-a04",
+      "claim": "Zona de Wadati-Benioff: nome, atribuicao a Wadati e Benioff como reconhecimento independente, e o corte convencional raso (ate ~70 km, interface, megaterremotos) / intermediario (~70-300 km, intralaje, desidratacao mineral e transformacoes de fase) / foco profundo (~300-700 km, mecanismo em pesquisa ativa, hipoteses de transformacao metaestavel e instabilidade termal por cisalhamento).",
+      "verdict": "correto - era a secao de maior risco declarado da a04 e esta limpa",
+      "source": "Kirby, Engdahl & Denlinger (1996), AGU Geophysical Monograph 96; Cahill & Isacks (1992), JGR 97(B12)"
+    },
+    {
+      "id": "B2",
+      "lesson": "geologia-avancado-m18-a04",
+      "claim": "Sismo profundo da Bolivia. A alegacao GEOFISSA-M18-A04-BOLIVIA-002 pedia explicitamente que a auditoria conferisse magnitude, profundidade e data.",
+      "verdict": "CONFIRMADO E A ALEGACAO PODE SER FECHADA: 9 de junho de 1994 (8 de junho em hora local), Mw 8,2 (algumas solucoes dao 8,3), profundidade ~631 km, epicentro ~55 km NNO de Reyes, Bolivia. Foi o MAIOR sismo de foco profundo ja registrado instrumentalmente ATE 2013, quando o evento do Mar de Okhotsk (24/05/2013, Mw 8,3, 609 km) o superou, com momento sismico ~30% maior. Portanto a formulacao hedgeada da aula ('um dos maiores sismos de foco profundo ja instrumentalmente registrados') ESTA CORRETA E E A FORMULACAO CERTA; troca-la por 'o maior' seria INTRODUZIR um erro. Recomendacao opcional, nao achado: inserir data, Mw e profundidade no corpo, ja que agora estao conferidos, e nomear o Okhotsk 2013 como recordista atual.",
+      "source": "USGS event page usp0006dzc; Kikuchi & Ishii (1994), GRL; Ye et al. (2013), Science (Okhotsk)"
+    },
+    {
+      "id": "B3",
+      "lesson": "geologia-avancado-m18-a04",
+      "claim": "Enxame de Joao Camara (RN) 'ativo entre meados e o final da decada de 1980', associado a reativacao de estrutura do embasamento em regiao tectonicamente considerada estavel.",
+      "verdict": "correto - inicio em agosto de 1986, intensificacao em novembro, evento principal em 30/11/1986 (mb 5,1), segundo pico em 20/03/1987 (mb 5,0), mais de 1.000 eventos, atividade prolongando-se pelo restante da decada; Sistema de Falhas Samambaia, falhas normais E-O a ENE-WSW, 30-40 km de comprimento. Ferreira et al. (1998), GJI 134(2), 341-355, esta CORRETAMENTE citado aqui.",
+      "source": "Ferreira, Oliveira, Takeya & Assumpcao (1998), GJI 134(2), 341-355; Assumpcao, calculo de magnitudes do enxame, Revista Brasileira de Geofisica"
+    },
+    {
+      "id": "B4",
+      "lesson": "geologia-avancado-m18-a04",
+      "claim": "Sismicidade registrada na regiao de Mogi Guacu (SP) como exemplo de sismicidade intraplaca brasileira.",
+      "verdict": "o fato esta correto - o maior evento do sudeste brasileiro ocorreu em 1922 perto de Mogi Guacu (SP), mb 5,1 (~Mw 4,8), intensidade ate VI MMI e raio de percepcao ~300 km. O defeito e exclusivamente de FONTE (ver achado amarelo AUD-M18-A04-ASSUMPCAO1998-017).",
+      "source": "sintese de padroes de sismicidade e mecanismos focais do sudeste brasileiro, RBGf/SciELO"
+    },
+    {
+      "id": "B5",
+      "lesson": "geologia-avancado-m18-a02",
+      "claim": "Quilhas cratonicas de 150-250 km sob os cratons Amazonico, Sao Francisco e Rio de La Plata, frias e depletadas.",
+      "verdict": "correto e bem calibrado - tomografia de ondas de superficie da ~200 km para a porcao arqueana meridional do Craton Sao Francisco; litosfera termica de 200-300 km sob o sul do Amazonico e o Sao Francisco; o Rio de La Plata meridional retem quilha de 200-250 km. Nomear os TRES cratons juntos, como a aula faz, E SUSTENTADO pela literatura - nao era obvio e foi verificado um a um.",
+      "source": "Feng, Assumpcao & Van der Lee (2004), PEPI 147(4), 315-331; Altoe et al. (2022), 'Thermo-Compositional Structure of the South American Platform Lithosphere', G-cubed, 10.1029/2022GC010516; 'Geophysical constraints of the Rio de la Plata's Archon Craton'"
+    },
+    {
+      "id": "B6",
+      "lesson": "geologia-avancado-m18-a02",
+      "claim": "Espessura crustal de 60-70 km sob o Altiplano-Puna, entre as crostas continentais mais espessas do planeta, comparavel a do Himalaia e do Plato Tibetano.",
+      "verdict": "dentro do aceito - Beck & Zandt (2002) e a literatura subsequente sustentam ~70 km, com a faixa usualmente dada como 60-75 km e Moho localmente >80 km sob o Altiplano (e ~45 km sob a Puna setentrional, heterogeneidade que a aula nao precisa cobrir). A comparacao com Himalaia/Tibete (70-80 km) e justa. NOTA: se o numero for retocado algum dia, o limite superior usual e 75, nao 70.",
+      "source": "Beck & Zandt (2002), JGR 107(B10); literatura de espessura crustal dos Andes Centrais"
+    },
+    {
+      "id": "B7",
+      "lesson": "geologia-avancado-m18-a02",
+      "claim": "Crosta oceanica madura com espessura padrao de ~6-8 km.",
+      "verdict": "correto",
+      "source": "espessura padrao de crosta oceanica madura na literatura de geofisica global"
+    },
+    {
+      "id": "B8",
+      "lesson": "geologia-avancado-m18-a02",
+      "claim": "Fisica do metodo magnetotelurico: fonte de sinal (variacoes naturais do campo EM, ionosfera/magnetosfera), relacao frequencia-profundidade, alcance de longo periodo ate manto litosferico e astenosfera, e a enfase em que o que controla a queda de resistividade e a INTERCONEXAO da fase condutiva, nao sua fracao volumetrica.",
+      "verdict": "correto nos tres agentes citados (fluido salino, grafita, fusao parcial) - e o ponto da interconexao, que e o mais facil de errar, esta enunciado com precisao",
+      "source": "Simpson & Bahr (2005), Practical Magnetotellurics; revisoes de MT crustal"
+    },
+    {
+      "id": "B9",
+      "lesson": "geologia-avancado-m18-a02",
+      "claim": "Corpo magmatico do Altiplano-Puna: zona extensa de baixa resistividade e baixa velocidade na crosta media, interpretada como grande reservatorio de fusao parcial, uma das maiores acumulacoes documentadas em crosta continental.",
+      "verdict": "correto - existe, esta na crosta media, e imageado tanto por sismologia quanto por MT, e a caracterizacao como uma das maiores e sustentada. Ward et al. (2014): ~200 km de diametro, ~10 km de espessura. Comeau et al. (2015), Geology 43(3), 243-246, CONFERE EXATAMENTE na paginacao e no conteudo (MT de banda larga, modelos 2D e 3D, topo do APMB mais raso sob o Uturuncu). Aula correta; so a ANOTACAO de Ward esta errada (ver AUD-M18-A03-WARDMT-013).",
+      "source": "Ward et al. (2014), EPSL 404, 43-53; Comeau, Unsworth, Ticona & Sunagua (2015), Geology 43(3), 243-246, DOI 10.1130/G36258.1"
+    },
+    {
+      "id": "B10",
+      "lesson": "geologia-avancado-m18-a02",
+      "claim": "Fluxo de calor cratonico na faixa mais baixa observada em continentes; arco andino elevado; segmentos de flat slab mais baixos que segmentos de subduccao normal adjacentes. Exemplo trabalhado usa ~40 mW/m2 no interior do Craton Amazonico.",
+      "verdict": "coerente - valores cratonicos sul-americanos na faixa baixa continental (Sao Francisco ~35-42 mW/m2; Craton do Amazonas em faixa ampla de normalidade), com valores altos nas faixas moveis e em zonas de litosfera fina; os ~40 mW/m2 do exemplo estao dentro do observado. A aula ACERTA ao apresentar isso qualitativamente, dada a cobertura desigual de dados - o que o proprio hub ja registra nos Pontos de dificuldade.",
+      "source": "Hasterok & Chapman (2011), EPSL 307(1-2), 59-70; Correa et al. (2022), 'Mapping the Thermal Structure of the Amazon Craton', JGR Solid Earth, 10.1029/2021JB023025; Vieira & Hamza, mapas regionais de fluxo de calor da America do Sul"
+    },
+    {
+      "id": "B11",
+      "lesson": "geologia-avancado-m18-a03",
+      "claim": "Mare terrestre: deformacao elastica periodica do corpo solido por atracao lunissolar, deslocamento vertical de dezenas de centimetros, variacao de gravidade de dezenas a algumas centenas de microgals por ciclo, corrigivel por modelo.",
+      "verdict": "correto - a amplitude tipica de gravidade de mare e da ordem de 100 microgal, com a conversao de referencia entre 2 e 3 microgal por cm de deslocamento; previsibilidade por modelo a partir das posicoes Lua-Sol-Terra e necessidade da correcao em estacoes fixas de longa duracao, corretas",
+      "source": "Hofmann-Wellenhof & Moritz (2006), Physical Geodesy, cap. 8; literatura de gravimetros supercondutores (IGETS)"
+    },
+    {
+      "id": "B12",
+      "lesson": "geologia-avancado-m18-a03",
+      "claim": "Distincao entre anomalia magnetica CRUSTAL (rochas magnetizadas na crosta, dezenas a centenas de km, interpretacao estrutural) e a Anomalia Magnetica do Atlantico Sul (enfraquecimento do CAMPO PRINCIPAL gerado pelo dinamo do nucleo externo, relevante para engenharia de satelites e dose de radiacao, irrelevante para interpretacao estrutural).",
+      "verdict": "correto em tudo - o melhor paragrafo do modulo, e foi verificado justamente por ser o tipo de distincao onde um material se engana; inclusive a observacao de que a semelhanca de nome e de unidade e a origem da confusao. So a CITACAO precisa de conserto (ver AUD-M18-A03-HEIRTZLER-015).",
+      "source": "Heirtzler (2002), JASTP 64(16), 1701-1708; Merrill, McElhinny & McFadden, The Magnetic Field of the Earth; documentacao publica NASA/NOAA sobre a South Atlantic Anomaly"
+    },
+    {
+      "id": "B13",
+      "lesson": "geologia-avancado-m18-a03",
+      "claim": "Mecanica do paleomagnetismo: aquisicao de magnetizacao remanente (resfriamento abaixo do ponto de Curie em igneas, alinhamento detritico em sedimentos), oxidos de Fe-Ti como portadores, dipolo geocentrico axial em primeira ordem, inclinacao -> paleolatitude, declinacao -> rotacao local, construcao do polo paleomagnetico e da APWP, e a NAO determinacao da paleolongitude.",
+      "verdict": "tudo correto, e a limitacao da paleolongitude e enunciada com precisao incomum. O defeito da secao e APENAS o parentese sobre deriva polar verdadeira (achado vermelho AUD-M18-A03-TPW-001) - o resto e solido.",
+      "source": "Butler (1992), Paleomagnetism: Magnetic Domains to Geologic Terranes, Blackwell"
+    },
+    {
+      "id": "B14",
+      "lesson": "geologia-avancado-m18-a03",
+      "claim": "Geoide x Bouguer: separacao por comprimento de onda, sensibilidade do geoide a heterogeneidades profundas de densidade no manto (inclusive lajes subductadas e plumas), complementaridade em vez de substituicao, e o alerta de que usar o geoide para mapear uma bacia local nao funciona porque o sinal esta no comprimento de onda errado.",
+      "verdict": "correto",
+      "source": "Hofmann-Wellenhof & Moritz (2006), Physical Geodesy, caps. 2 e 8; Tassara et al. (2006), JGR 111(B9)"
+    },
+    {
+      "id": "B15",
+      "lesson": "geologia-avancado-m18-a01",
+      "claim": "Ciclo Brasiliano como evento orogenico neoproterozoico de aproximadamente 900-500 Ma, equivalente regional do Pan-Africano, responsavel pela amalgamacao final do Gondwana Ocidental.",
+      "verdict": "confere como faixa aproximada - o ciclo e datado ~900-480 Ma, com a amalgamacao do Gondwana Ocidental comecando no intervalo 900-700 Ma e a amalgamacao final em ~550-530 Ma, e com o pico orogenico maior na transicao Ediacarano/Cambriano. A ressalva de diacronismo que a propria alegacao do autor ja traz e correta e vale manter.",
+      "source": "Cordani et al. (2000), Tectonic Evolution of South America, 31st IGC; literatura de geotectonica pre-cambriana sul-americana"
+    },
+    {
+      "id": "B16",
+      "lesson": "geologia-avancado-m18-a02",
+      "claim": "Moho (salto composicional e de velocidade sismica/densidade) x base da litosfera (transicao reologica com a astenosfera, nao composicional); a litosfera e sempre mais espessa que a crosta.",
+      "verdict": "correto",
+      "source": "Fowler, The Solid Earth; Turcotte & Schubert, Geodynamics"
+    },
+    {
+      "id": "B17",
+      "lesson": "geologia-avancado-m18-a03",
+      "claim": "Anomalia de Bouguer da cordilheira andina entre as mais negativas observadas em continentes, comparavel a outras regioes de crosta excepcionalmente espessa como o Himalaia.",
+      "verdict": "confere, e a comparacao com o Himalaia e adequada. E so a FONTE que esta trocada (ver AUD-M18-A03-GOTZEKRAUSE-012).",
+      "source": "Tassara et al. (2006), JGR 111(B9); compilacoes de Bouguer do orogeno andino"
+    },
+    {
+      "id": "B18",
+      "lesson": "geologia-avancado-m18-a01",
+      "claim": "Limites da placa Sul-Americana: Dorsal Meso-Atlantica a leste, Fossa Peru-Chile a oeste com subduccao de Nazca e, mais ao sul, da placa Antartica; fronteiras mais complexas ao norte (placa Caribenha) e ao sul (placa Scotia).",
+      "verdict": "correto",
+      "source": "Cordani et al. (2000); descricao padrao dos limites da placa Sul-Americana"
+    }
+  ],
+  "assessment_gate": {
+    "status": "liberado",
+    "released": true,
+    "released_at": "2026-09-11",
+    "reason": "0 achados vermelhos e 0 laranjas em aberto - todos corrigidos e registrados em 2026-09-11, com a correcao aplicada tambem aos recaps, exemplos trabalhados e alegacoes auditaveis que repetiam o dado errado. Os cinco pontos que bloqueavam o gate foram desfeitos na origem: (1) a posicao da Faixa Araguaia (borda leste) e da Faixa Paraguai (borda sul-sudeste) e a localizacao do Craton Rio de La Plata (Tandilia, sudeste de Buenos Aires) estao corretas no corpo, no recap e nas alegacoes, de modo que um flashcard de localizacao gerado agora nasce certo; (2) o sentido de aprofundamento da laje esta corrigido no exemplo trabalhado da a04 e reforcado por uma frase que fixa a fossa a oeste e o mergulho para leste nos dois regimes, eliminando o risco de gabarito invertido; (3) a faixa de espessura crustal cratonica passou a 38-44 km, com o contraste craton x faixa movel restaurado; (4) o sinal da Bouguer sobre craton esta corrigido e os altos positivos do interior receberam sua leitura correta; (5) a Localidade 3 do exemplo trabalhado da a01 nao pede mais o nome da faixa, e a Chaco-Paranaense entra com ressalva de controversia. PERMANECEM VALIDAS as restricoes de formato listadas abaixo, que nao bloqueiam a geracao, apenas delimitam o que pode ser cobrado em questao fechada.",
+    "restrictions_for_future_assessment": [
+      "(a) NAO cobrar a classificacao tectonica da Bacia Chaco-Paranaense em questao fechada (achado branco AUD-M18-A01-CHACOPARANA-W1, tratado mas nao resolvido pela literatura). Bermejo e Magallanes sao os exemplos seguros de antepais. O cobravel com seguranca e a EXISTENCIA da divergencia e seu eixo geografico (porcao ocidental de antepais, oriental intracratonica).",
+      "(b) NAO cobrar a origem da Patagonia como fato resolvido. A controversia alocotone x autoctone e corretamente apresentada nas aulas 01 e 03, e o cobravel e o EIXO da controversia e o papel do dado paleomagnetico nela, nunca um veredito.",
+      "(c) Ao cobrar a APWP, cobrar que ela e dominada pelo MOVIMENTO DE PLACA e que ha uma componente menor de DERIVA POLAR VERDADEIRA somada, cuja separacao e problema de pesquisa corrente (texto ja corrigido, AUD-M18-A03-TPW-001). Nunca afirmar que o eixo de rotacao e fixo em relacao ao manto em escala geologica - e exatamente o erro que foi corrigido.",
+      "(d) Ao cobrar o sismo profundo da Bolivia, cobrar 'UM DOS MAIORES ja registrados instrumentalmente', nunca 'o maior' - o recordista e o evento do Mar de Okhotsk de 2013 (Mw 8,3, 609 km). A formulacao hedgeada da aula esta correta e nao deve ser 'melhorada'.",
+      "(e) Ao cobrar subduccao plana, cobrar a GEOMETRIA EM PROFUNDIDADE e a extensao da sismicidade continente adentro, e NAO o campo de esforcos superficial - que, como a propria a04 diz corretamente, nao discrimina os dois regimes. Ao cobrar o sentido, cobrar que a laje mergulha PARA LESTE em ambos os regimes e que o discriminante e a TAXA de aprofundamento.",
+      "(f) Ao cobrar limites de flat slab, usar 5-15 S (peruano) e 27-33 S (pampeano) - valores ja corrigidos no texto (AUD-M18-A01-PERUFLATSLAB-016).",
+      "(g) Ao cobrar espessura crustal cratonica, usar 38-44 km (nao 35-42, que era o valor errado) e lembrar que a crosta mais FINA do Brasil esta sob faixas moveis (Borborema 30-35 km), nao sob bacias - o contraste e bom material de questao de aplicacao.",
+      "(h) Ao cobrar Bouguer sobre craton, a resposta e 'proxima de zero ao nivel do mar, moderadamente NEGATIVA onde a topografia sobe'. 'Moderadamente positiva' agora e distrator, nao gabarito."
+    ]
+  },
+  "derived_material_to_propagate": {
+    "questionario": "nao existe ainda - nada a propagar",
+    "flashcards": "nao existe ainda - nada a propagar",
+    "glossario": "nao aplicavel",
+    "anki_warning": "Nao se aplica: nenhum baralho foi gerado nem importado para este modulo, portanto nao ha card em revisao a corrigir a mao.",
+    "note": "NENHUM material derivado existia quando as correcoes foram aplicadas, de modo que a propagacao ficou contida nas quatro aulas (corpo, exemplos trabalhados, recaps, listas de Fontes e blocos de alegacoes auditaveis) e no hub do modulo. Esta era a melhor hora possivel para corrigir: o erro nao chegou a virar gabarito nem card."
+  },
+  "out_of_scope_observations": [
+    "ESTRUTURAL (validador-estrutural-do-curso): o cabecalho da a03 usa o wikilink em formato de caminho - [[17-geofisica-marinha-bacias-sedimentares/17-geofisica-marinha-bacias-sedimentares-modulo|Modulo 17]] - enquanto os links internos ao modulo usam nome de arquivo puro. As duas formas convivem no curso; vale conferir qual resolve no vault.",
+    "DIDATICA (revisor-didatico): a a03 carrega quatro blocos conceituais independentes (Bouguer, geoide, mare terrestre, paleomagnetismo) em ~2.200 palavras declaradas, sendo a maior das quatro aulas, e o paleomagnetismo tem material proprio suficiente para uma aula inteira. Nao e achado desta auditoria - e exatamente o tipo de carga que produziu o encaminhamento DID-M17-A04-CARGA-003 no modulo anterior."
+  ],
+  "passes": 2,
+  "passes_note": "PASSAGEM 1 (2026-09-11, modo audit-only): levantamento sobre as quatro aulas em conjunto, 32 alegacoes rastreadas, quatro exemplos trabalhados refeitos, 17 achados corrigiveis + 18 azuis + 1 branco. Nenhum arquivo alterado. PASSAGEM 2 (2026-09-11, modo audit-and-fix): aplicacao dos 17 corrigiveis mais o tratamento do branco. Edicoes cirurgicas, cada diff rastreavel a um claim_id. Alem do trecho apontado em cada achado, foram varridos e alinhados todos os pontos do proprio modulo que repetiam o dado errado: o par '60-70 / 35-42 km' na a03, os quatro lugares do limite do flat slab peruano, os recaps das quatro aulas, os dois pontos da Faixa Ribeira (corpo e exemplo trabalhado) e os blocos de alegacoes auditaveis, que passam a registrar o valor corrigido e o claim_id da auditoria que o corrigiu. A inconsistencia interna a01 x a02 sobre a supressao do vulcanismo em subduccao plana foi resolvida por convergencia da a01 para a formulacao da a02, que ja era a correta - a a02 nao precisou de edicao nesse ponto. Passagem unica em modo AUDIT-ONLY sobre as quatro aulas em conjunto, executada antes de qualquer material derivado existir. NENHUM ARQUIVO DE AULA FOI ALTERADO. As 23 alegacoes auditaveis declaradas pelas aulas (6 na a01, 6 na a02, 6 na a03, 5 na a04) foram verificadas uma a uma; a auditoria levantou mais 9 fora da lista do autor, chegando a 32 alegacoes rastreadas. Os quatro exemplos trabalhados foram refeitos: nao ha aritmetica a recalcular neste modulo (nenhum dos quatro pede conta), os quatro sao exercicios de consistencia e classificacao; TRES FECHAM e o da a04 NAO FECHA, porque sua resolucao inverte o sentido de mergulho da laje subductada (achado vermelho AUD-M18-A04-MERGULHOOESTE-003). A alegacao GEOFISSA-M18-A04-BOLIVIA-002 pedia explicitamente que a auditoria conferisse magnitude, profundidade e data do sismo profundo boliviano; foi conferido (9/6/1994, Mw 8,2, ~631 km) e a conclusao e que a formulacao hedgeada da aula esta CORRETA e nao deve ser trocada por 'o maior', porque o recordista passou a ser o Okhotsk 2013. Atencao especial foi dada a inversoes de sentido e de posicao, dado o historico dos Modulos 10 e 17: ENCONTROU-SE UMA INVERSAO DE SENTIDO (o aprofundamento da laje para oeste, na a04) E TRES ERROS DE POSICAO GEOGRAFICA (Paraguai-Araguaia a sudoeste, Rio de La Plata no norte da Argentina, provincias amazonicas do centro para as bordas), o que constitui o padrao dominante deste modulo. A compensacao isostatica, que era o outro candidato obvio a inversao, foi verificada em tres pontos independentes (a02 e a03) e esta CORRETA em todos.",
+  "fixed_at": "2026-09-11"
+}

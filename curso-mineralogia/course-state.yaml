@@ -1,0 +1,3572 @@
+# course-state.yaml — curso-mineralogia. Fonte de verdade do estado. Gerado pelo planejador-curricular em 2026-09-29.
+# A trilha (nucleo/aprofundamento) de cada modulo aparece em comentario acima dele; o registro canonico da trilha
+# esta em decisions (acima) e em _contexto.md, porque o schema nao tem campo para ela.
+schema_version: 1
+skill_version: 0.2.0
+course_id: mineralogia
+title: Mineralogia — da cristalografia à gênese (base e avançado)
+topic: 'mineralogia geocientífica geral: cristalografia geométrica e de difração, cristaloquímica, termodinâmica
+  e diagramas de fase, crescimento cristalino e texturas, mineralogia óptica, métodos analíticos, sistemática IMA/Strunz,
+  gênese e paragênese, evolução mineral e biomineralização, com aprofundamentos em espécies minerais e mineralogia
+  gemológica e um gancho de catalogação de espécimes'
+starting_level: 'ensino médio completo, sem geologia prévia. Curso autossuficiente: nenhum pré-requisito cruzado
+  para outros cursos; a química, a óptica e o contexto geológico necessários são reconstruídos dentro do próprio
+  curso (módulos 01, 03 e 14).'
+target_level: avançado — nível de graduação plena em mineralogia e cristalografia, com incursões de pós-graduação
+  nos módulos de aprofundamento (grupos espaciais, difração avançada, cinética, inclusões fluidas, geotermobarometria,
+  mineralogia gemológica).
+estimated_lessons: 262
+estimated_hours: '109-131 h (núcleo: 199 aulas, 83-100 h; aprofundamento: 63 aulas, 26-32 h)'
+learning_outcomes:
+- Descrever a simetria, as formas e a geometria de um cristal com a notação cristalográfica formal (grupos pontuais,
+  índices de Miller, projeção estereográfica, retículos de Bravais) e ler um grupo espacial.
+- Explicar a estrutura e a composição de um mineral pela cristaloquímica (raios iônicos, coordenação, regras de
+  Pauling, substituição e solução sólida) e calcular sua fórmula estrutural a partir de uma análise química.
+- Identificar minerais por propriedades físicas, ao microscópio petrográfico (luz plana, polarizadores cruzados
+  e conoscopia) e por difração de raios X, declarando o grau de confiança.
+- Selecionar e interpretar os métodos analíticos adequados a um problema mineralógico (MEV, microssonda, Raman,
+  FTIR, LA-ICP-MS, EBSD, inclusões fluidas).
+- Ler diagramas de fase e aplicar a termodinâmica e a cinética para prever estabilidade, cristalização, exsolução
+  e transformações minerais.
+- Interpretar crescimento, zoneamento, sobrecrescimento, intercrescimento, dissolução, pseudomorfose e inclusões
+  como registro da história de um cristal, separando observação, descrição interpretativa, interpretação genética
+  e hipótese de processo.
+- Descrever os principais minerais de cada classe química pela sistemática IMA/Nickel-Strunz, nomeá-los pelas regras
+  da IMA e relacioná-los a seus ambientes de formação e paragêneses.
+- Reconstruir a gênese e a sequência paragenética de uma assembleia mineral em ambiente magmático, pegmatítico,
+  hidrotermal, metamórfico, sedimentar ou supergênico.
+- Descrever e catalogar um espécime de coleção com os campos cristalográficos, texturais, de superfície, de associação
+  e de propriedades, com grau de confiança explícito.
+status: in_progress
+created_at: '2026-09-29T00:00:00-03:00'
+updated_at: '2026-09-30T12:57:51-03:00'
+curriculum_basis: 'pesquisa das ementas e sumários de referência, cruzada com o escopo previsto pelo usuário: ementas
+  do IGc-USP — GMG0106 Cristalografia Fundamental (45 h) e GMG0220 Mineralogia (105 h), com as optativas GMG0203
+  Mineralogia Aplicada e GMG0425 Técnicas Gemológicas (pasta GradeCurricular/Geologia-USP) —; sumários de Klein
+  & Dutrow, Manual of Mineral Science, 23a ed. (22 capítulos, incl. crescimento e defeitos, estabilidade e diagramas
+  de fase, processos pós-cristalização, gemas e assembleias); Nesse, Introduction to Mineralogy (cristalografia,
+  cristaloquímica, estrutura, crescimento mineral, óptica, DRX, análise química, sistemática por classe estrutural);
+  Putnis, An Introduction to Mineral Sciences (simetria, anisotropia, difração, espectroscopia, defeitos, energética,
+  soluções sólidas, exsolução, ordem, cinética, transformações); Perkins, Mineralogy (gênese por ambiente ígneo,
+  sedimentar, metamórfico e de minério); Wenk & Bulakh, Minerals: Their Constitution and Origin (formação e ambientes);
+  Dyar & Gunter, Mineralogy and Optical Mineralogy (MSA); Deer, Howie & Zussman (minerais formadores de rocha);
+  Nesse, Introduction to Optical Mineralogy; normativo IMA-CNMNC (definição de mineral, lista de espécies, nomenclatura
+  de grupos) e classificação Nickel-Strunz/Dana; Mindat e RRUFF como referência de dados.'
+current_module: '01'
+next_action: 'Módulo 01: 6 aulas escritas e auditadas (audit-and-fix em 2026-09-30: 1 vermelho, 12 laranjas e 1 branco, todos corrigidos; nenhum achado aberto). Revisão didática concluída em 2026-09-30 (review-and-fix: 6 laranjas e 8 amarelos corrigidos, 3 azuis em aberto não bloqueantes; 3 alegações novas de caráter definicional aguardam conferência do auditor: QUI-TAB-GRUPOD-001, QUI-SPIN-DEF-001, QUI-LIG-METALREGRA-001). Próximo passo: questionário e flashcards do módulo 01. Só então iniciar o módulo 02.'
+blocking_issues: []
+decisions:
+- date: '2026-09-29'
+  decision: 'Curso completo e autossuficiente: reescreve a base (química, óptica, contexto geológico) dentro do
+    próprio curso; partida ensino médio completo sem geologia, chegada avançado. Nenhum pré-requisito cruzado; outros
+    cursos entram só como remissão por nome, nunca por wikilink.'
+- date: '2026-09-29'
+  decision: Viés geocientífico geral. Gemologia fica com o curso-gemologia; aqui entram só os aprofundamentos de
+    mineralogia gemológica (módulos 48-49), que explicam mecanismo estrutural e não ensinam identificação, graduação,
+    valor nem divulgação.
+- date: '2026-09-29'
+  decision: 'Trilha dupla. O schema course-state.schema.json não tem campo para a trilha (o objeto module tem additionalProperties:
+    false), então a trilha fica registrada nesta decisão, em comentário YAML acima de cada módulo, no hub de cada
+    módulo e na tabela de _contexto.md — sem quebrar o schema. NÚCLEO: 01, 02, 03, 04, 05, 06, 08, 09, 10, 11, 12,
+    13, 14, 15, 16, 18, 19, 22, 23, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 50. APROFUNDAMENTO:
+    07, 17, 20, 21, 24, 28, 42, 43, 44, 45, 46, 47, 48, 49. Regra verificada: nenhum módulo do núcleo depende de
+    módulo de aprofundamento.'
+- date: '2026-09-29'
+  decision: Incluídos, por ajuste de escopo do usuário, módulos de espécies minerais (46-47, estudos de caso integradores)
+    e de mineralogia gemológica (48-49), todos como aprofundamento, com remissão por nome ao curso-gemologia e ao
+    curso-lapidacao.
+- date: '2026-09-29'
+  decision: Tectossilicatos (módulo 36) em nível de disciplina de graduação; o curso-geologia-avancado, módulo 40
+    (14 aulas), é o aprofundamento natural e não pode ser contradito.
+- date: '2026-09-29'
+  decision: 'Os insumos do usuário (resumo de IA sobre crescimento cristalino e lista de campos de catalogação)
+    são ponto de partida, não fonte: toda afirmação vinda deles passa pelo auditor-cientifico. A citação ''(Nature)
+    2024'' sobre epitaxia e singenesia em inclusões de diamante foi checada no planejamento e corresponde a Bruno,
+    Ghignone, Aquilano & Nestola (2024), Scientific Reports 14, doi:10.1038/s41598-024-59432-6 — que CRITICA o uso
+    da epitaxia como prova de singenesia (ver _contexto.md).'
+modules:
+# trilha: nucleo (núcleo) — módulo 01
+- id: '01'
+  slug: fundamentos-quimicos
+  title: 'Fundamentos químicos: átomo, tabela periódica e ligação'
+  area: 'I. Fundamentos: da matéria ao mineral'
+  objective: Reconstruir, a partir do ensino médio, a química de que a mineralogia depende — estrutura eletrônica,
+    tendências periódicas, íons e estados de oxidação, tipos de ligação e estequiometria de óxidos — sem pressupor
+    nenhuma geologia.
+  prerequisites: []
+  status: in_progress
+  learning_objectives:
+  - id: mineralogia-m01-oa01
+    statement: Descrever a estrutura do átomo (núcleo, camadas e orbitais s, p, d, f) e relacionar a configuração
+      eletrônica à posição do elemento na tabela periódica
+    cognitive_level: explicar
+  - id: mineralogia-m01-oa02
+    statement: Prever as tendências periódicas de raio atômico, energia de ionização e eletronegatividade e usá-las
+      para antecipar o comportamento químico de um elemento
+    cognitive_level: aplicar
+  - id: mineralogia-m01-oa03
+    statement: Determinar a carga de íons comuns e o estado de oxidação de cada elemento numa fórmula mineral, incluindo
+      elementos de valência variável (Fe, Mn, S)
+    cognitive_level: aplicar
+  - id: mineralogia-m01-oa04
+    statement: Classificar a ligação predominante entre dois átomos (iônica, covalente, metálica, van der Waals,
+      ponte de hidrogênio) e relacioná-la a propriedades físicas
+    cognitive_level: aplicar
+  - id: mineralogia-m01-oa05
+    statement: Calcular massa molar, proporções molares e porcentagem em massa de elementos e óxidos a partir de
+      uma fórmula mineral
+    cognitive_level: aplicar
+  - id: mineralogia-m01-oa06
+    statement: Converter entre as unidades e escalas usadas em mineralogia (Å, nm, µm, GPa, kbar, °C, K) e estimar
+      ordens de grandeza
+    cognitive_level: aplicar
+  lessons:
+    planned: 6
+    completed: 6
+    items:
+    - id: mineralogia-m01-a01
+      title: 'O átomo por dentro: núcleo, camadas e orbitais s, p, d e f'
+      status: completed
+      file: 01-fundamentos-quimicos/01-fundamentos-quimicos-aula-01-o-atomo-por-dentro-nucleo-camadas-e-orbitais.md
+      content_hash: 8f6f331ca8611da529cfa907e86c2d08ef6bf5383271af4d321c9d0502ea74c4
+      palavras_corpo: 1585
+      covers_objectives:
+      - mineralogia-m01-oa01
+    - id: mineralogia-m01-a02
+      title: 'A tabela periódica como mapa de comportamento: raio, ionização e eletronegatividade'
+      status: completed
+      file: 01-fundamentos-quimicos/01-fundamentos-quimicos-aula-02-tabela-periodica-raio-ionizacao-e-eletronegatividade.md
+      content_hash: a7f2710991cf80bad8ae3c712945296677810235fbeb0b9fc1476d047a8e7cda
+      palavras_corpo: 1482
+      covers_objectives:
+      - mineralogia-m01-oa02
+    - id: mineralogia-m01-a03
+      title: 'Íons e estados de oxidação: por que o ferro dos minerais é Fe²⁺ ou Fe³⁺'
+      status: completed
+      file: 01-fundamentos-quimicos/01-fundamentos-quimicos-aula-03-ions-e-estados-de-oxidacao-fe-mn-e-s.md
+      content_hash: 59f43d438b8606f8bc2577870450b8c84cd27b3531aa36304075cc5c26127dbc
+      palavras_corpo: 1391
+      covers_objectives:
+      - mineralogia-m01-oa03
+    - id: mineralogia-m01-a04
+      title: 'Ligação química: iônica, covalente e metálica como um espectro contínuo'
+      status: completed
+      file: 01-fundamentos-quimicos/01-fundamentos-quimicos-aula-04-ligacao-ionica-covalente-e-metalica-como-espectro.md
+      content_hash: f3186e309e6482fa36be772455ae4d8bd2b951d51c4b0666f2a4251bfa85c05b
+      palavras_corpo: 1465
+      covers_objectives:
+      - mineralogia-m01-oa04
+    - id: mineralogia-m01-a05
+      title: 'Ligações fracas e ligação mista: van der Waals, ponte de hidrogênio e minerais com mais de uma ligação'
+      status: completed
+      file: 01-fundamentos-quimicos/01-fundamentos-quimicos-aula-05-ligacoes-fracas-e-minerais-com-mais-de-uma-ligacao.md
+      content_hash: 0649725bfdc4f77dd2be986c8f687d13291a0121a44b50e5d6d0ddbddeb0e6bb
+      palavras_corpo: 1455
+      covers_objectives:
+      - mineralogia-m01-oa04
+    - id: mineralogia-m01-a06
+      title: Mol, massa molar e composição em óxidos — com as escalas e unidades da mineralogia
+      status: completed
+      file: 01-fundamentos-quimicos/01-fundamentos-quimicos-aula-06-mol-massa-molar-composicao-em-oxidos-e-unidades.md
+      content_hash: 795bfdae1b1471a5359dd8d37ef7f76cfdc1b3874f9f23c5e062682caa774419
+      palavras_corpo: 1337
+      covers_objectives:
+      - mineralogia-m01-oa05
+      - mineralogia-m01-oa06
+  audit:
+    status: approved
+    file: 01-fundamentos-quimicos/01-fundamentos-quimicos-auditoria.md
+    red: 1
+    orange: 12
+    yellow: 0
+    blue: 0
+    white: 1
+    open_findings: []
+    deferred_findings: []
+    audited_at: '2026-09-30'
+  didactic_review:
+    status: completed
+    file: 01-fundamentos-quimicos/01-fundamentos-quimicos-revisao-didatica.md
+    content_hash: 6793a5a5f2e780506fcb97c5f091fe01b3a466b78e201bef1d73546cb7fc44cc
+    generated_at: '2026-09-30T12:57:51-03:00'
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 02
+- id: '02'
+  slug: o-que-e-mineral
+  title: 'O que é um mineral: definição, espécie e classificação'
+  area: 'I. Fundamentos: da matéria ao mineral'
+  objective: Fixar com precisão normativa o objeto de estudo — a definição de mineral da IMA-CNMNC, a diferença
+    entre espécie, variedade, grupo e nome comercial, e o esqueleto da classificação química (Nickel-Strunz e Dana)
+    —, e ensinar onde buscar dados confiáveis.
+  prerequisites:
+  - '01'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m02-oa01
+    statement: Aplicar a definição de mineral da IMA-CNMNC (Nickel, 1995) para decidir se um material é mineral,
+      mineraloide, material biogênico ou antropogênico
+    cognitive_level: aplicar
+  - id: mineralogia-m02-oa02
+    statement: Distinguir espécie mineral, variedade, grupo, série de solução sólida, nome comercial e nome desacreditado
+    cognitive_level: analisar
+  - id: mineralogia-m02-oa03
+    statement: Explicar a abundância crustal dos elementos e prever por que um pequeno número de espécies forma
+      a maior parte das rochas
+    cognitive_level: explicar
+  - id: mineralogia-m02-oa04
+    statement: Classificar um mineral numa classe química de Nickel-Strunz, e na classe Dana correspondente, pelo
+      ânion ou grupo aniônico dominante
+    cognitive_level: aplicar
+  - id: mineralogia-m02-oa05
+    statement: Localizar os dados de referência de uma espécie (lista IMA, Mindat, Handbook of Mineralogy, RRUFF)
+      e julgar a confiabilidade de cada fonte
+    cognitive_level: lembrar
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: mineralogia-m02-a01
+      title: A definição de mineral da IMA e os casos de fronteira
+      status: pending
+      covers_objectives:
+      - mineralogia-m02-oa01
+    - id: mineralogia-m02-a02
+      title: 'Mineraloides, materiais biogênicos e antropogênicos: onde a definição traça a linha'
+      status: pending
+      covers_objectives:
+      - mineralogia-m02-oa01
+    - id: mineralogia-m02-a03
+      title: Espécie, variedade, grupo, série e nome comercial
+      status: pending
+      covers_objectives:
+      - mineralogia-m02-oa02
+    - id: mineralogia-m02-a04
+      title: 'Poucos elementos, poucos minerais: abundância crustal e os minerais formadores de rocha'
+      status: pending
+      covers_objectives:
+      - mineralogia-m02-oa03
+    - id: mineralogia-m02-a05
+      title: Classes químicas de Nickel-Strunz e Dana, e onde buscar dados confiáveis
+      status: pending
+      covers_objectives:
+      - mineralogia-m02-oa04
+      - mineralogia-m02-oa05
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 03
+- id: '03'
+  slug: terra-fabrica-de-minerais
+  title: 'A Terra como fábrica de minerais: contexto geológico mínimo'
+  area: 'I. Fundamentos: da matéria ao mineral'
+  objective: 'Dar o contexto geológico mínimo para que a gênese mineral faça sentido num curso autossuficiente:
+    camadas da Terra, ciclo das rochas, regimes de pressão e temperatura por ambiente tectônico e o papel dos fluidos.'
+  prerequisites:
+  - '01'
+  - '02'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m03-oa01
+    statement: Descrever as camadas da Terra e a composição química e mineralógica dominante de cada uma
+    cognitive_level: explicar
+  - id: mineralogia-m03-oa02
+    statement: Explicar o ciclo das rochas e distinguir rochas ígneas, sedimentares e metamórficas pelo processo
+      de formação, incluindo textura e foliação como registro desse processo
+    cognitive_level: explicar
+  - id: mineralogia-m03-oa03
+    statement: Relacionar ambientes tectônicos a regimes de pressão e temperatura e ler um gradiente geotérmico
+    cognitive_level: analisar
+  - id: mineralogia-m03-oa04
+    statement: Explicar o papel da água e dos fluidos na crosta como agentes de transporte de elementos e de cristalização
+      a partir de solução
+    cognitive_level: explicar
+  lessons:
+    planned: 4
+    completed: 0
+    items:
+    - id: mineralogia-m03-a01
+      title: 'Estrutura e composição da Terra: crosta, manto e núcleo em minerais'
+      status: pending
+      covers_objectives:
+      - mineralogia-m03-oa01
+    - id: mineralogia-m03-a02
+      title: 'O ciclo das rochas: ígneas, sedimentares e metamórficas pelo processo'
+      status: pending
+      covers_objectives:
+      - mineralogia-m03-oa02
+    - id: mineralogia-m03-a03
+      title: 'Pressão, temperatura e tectônica: gradientes geotérmicos e ambientes de formação'
+      status: pending
+      covers_objectives:
+      - mineralogia-m03-oa03
+    - id: mineralogia-m03-a04
+      title: 'Água e fluidos na crosta: transporte de elementos e cristalização a partir de solução'
+      status: pending
+      covers_objectives:
+      - mineralogia-m03-oa04
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 04
+- id: '04'
+  slug: simetria-e-morfologia
+  title: 'Simetria e morfologia cristalina: operações, classes e sistemas'
+  area: II. Cristalografia geométrica e reticular
+  objective: Ler a simetria de um cristal — operações e elementos, os 32 grupos pontuais em notação de Hermann-Mauguin,
+    os sete sistemas cristalinos — e descrever suas formas e hábito com o vocabulário correto.
+  prerequisites:
+  - '02'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m04-oa01
+    statement: Explicar o estado cristalino e as leis de Steno (constância dos ângulos interfaciais) e de Haüy,
+      distinguindo cristal, agregado cristalino e sólido amorfo
+    cognitive_level: explicar
+  - id: mineralogia-m04-oa02
+    statement: Identificar operações e elementos de simetria (rotação, reflexão, inversão, rotoinversão) num cristal
+      ou modelo
+    cognitive_level: aplicar
+  - id: mineralogia-m04-oa03
+    statement: Deduzir o grupo pontual (classe cristalina) de um cristal a partir dos seus elementos de simetria
+      e escrevê-lo em notação de Hermann-Mauguin
+    cognitive_level: aplicar
+  - id: mineralogia-m04-oa04
+    statement: Classificar um cristal num dos sete sistemas cristalinos pela simetria característica, e não pela
+      forma aparente
+    cognitive_level: aplicar
+  - id: mineralogia-m04-oa05
+    statement: Distinguir forma cristalina, forma geral e especial, forma aberta e fechada, e hábito, e nomear as
+      formas comuns de cada sistema
+    cognitive_level: analisar
+  lessons:
+    planned: 7
+    completed: 0
+    items:
+    - id: mineralogia-m04-a01
+      title: 'O estado cristalino: ordem interna, leis de Steno e de Haüy'
+      status: pending
+      covers_objectives:
+      - mineralogia-m04-oa01
+    - id: mineralogia-m04-a02
+      title: 'Operações de simetria I: rotação, reflexão e inversão'
+      status: pending
+      covers_objectives:
+      - mineralogia-m04-oa02
+    - id: mineralogia-m04-a03
+      title: 'Operações de simetria II: rotoinversão e combinação de elementos'
+      status: pending
+      covers_objectives:
+      - mineralogia-m04-oa02
+    - id: mineralogia-m04-a04
+      title: 'Os 32 grupos pontuais e a notação de Hermann-Mauguin — Parte 1: dedução'
+      status: pending
+      covers_objectives:
+      - mineralogia-m04-oa03
+    - id: mineralogia-m04-a05
+      title: 'Os 32 grupos pontuais — Parte 2: reconhecer a classe num cristal real'
+      status: pending
+      covers_objectives:
+      - mineralogia-m04-oa03
+    - id: mineralogia-m04-a06
+      title: 'Os sete sistemas cristalinos: definidos pela simetria, não pela aparência'
+      status: pending
+      covers_objectives:
+      - mineralogia-m04-oa04
+    - id: mineralogia-m04-a07
+      title: 'Formas cristalinas e hábito: formas gerais, especiais, abertas e fechadas'
+      status: pending
+      covers_objectives:
+      - mineralogia-m04-oa05
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 05
+- id: '05'
+  slug: miller-e-projecao
+  title: Eixos cristalográficos, índices de Miller e projeção estereográfica
+  area: II. Cristalografia geométrica e reticular
+  objective: Dar nome e coordenada a faces, formas e direções (Miller, Miller-Bravais, [uvw]), trabalhar com zonas
+    e representar e medir a geometria de um cristal na projeção estereográfica.
+  prerequisites:
+  - '04'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m05-oa01
+    statement: Associar a cada sistema cristalino seus eixos cristalográficos e as relações entre os parâmetros
+      de cela (a, b, c; α, β, γ)
+    cognitive_level: lembrar
+  - id: mineralogia-m05-oa02
+    statement: Atribuir índices de Miller (hkl) e de Miller-Bravais (hkil) a faces, formas {hkl} e direções [uvw]
+    cognitive_level: aplicar
+  - id: mineralogia-m05-oa03
+    statement: Aplicar a lei das zonas (Weiss) para determinar o eixo de zona de duas faces e verificar se uma face
+      pertence a uma zona
+    cognitive_level: aplicar
+  - id: mineralogia-m05-oa04
+    statement: Construir e ler uma projeção estereográfica de faces e elementos de simetria na rede de Wulff
+    cognitive_level: aplicar
+  - id: mineralogia-m05-oa05
+    statement: Medir ângulos interfaciais e entre direções com a rede de Wulff
+    cognitive_level: aplicar
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: mineralogia-m05-a01
+      title: Eixos cristalográficos e parâmetros de cela por sistema
+      status: pending
+      covers_objectives:
+      - mineralogia-m05-oa01
+    - id: mineralogia-m05-a02
+      title: 'Índices de Miller: de interceptos a (hkl) e formas {hkl}'
+      status: pending
+      covers_objectives:
+      - mineralogia-m05-oa02
+    - id: mineralogia-m05-a03
+      title: Direções [uvw] e o sistema hexagonal de Miller-Bravais (hkil)
+      status: pending
+      covers_objectives:
+      - mineralogia-m05-oa02
+    - id: mineralogia-m05-a04
+      title: Zonas e a lei de Weiss
+      status: pending
+      covers_objectives:
+      - mineralogia-m05-oa03
+    - id: mineralogia-m05-a05
+      title: A projeção estereográfica e a rede de Wulff
+      status: pending
+      covers_objectives:
+      - mineralogia-m05-oa04
+    - id: mineralogia-m05-a06
+      title: 'Medir ângulos na rede de Wulff: faces, zonas e elementos de simetria'
+      status: pending
+      covers_objectives:
+      - mineralogia-m05-oa05
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 06
+- id: '06'
+  slug: reticulo-e-cela
+  title: Retículo cristalino, cela unitária e redes de Bravais
+  area: II. Cristalografia geométrica e reticular
+  objective: 'Passar da simetria da forma externa à periodicidade interna: motivo, retículo, cela unitária, os 14
+    retículos de Bravais e o conteúdo da cela (Z e densidade calculada).'
+  prerequisites:
+  - '05'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m06-oa01
+    statement: Explicar a relação entre motivo, retículo e estrutura cristalina e as translações que geram um retículo
+    cognitive_level: explicar
+  - id: mineralogia-m06-oa02
+    statement: Identificar os 14 retículos de Bravais e justificar quais centragens são permitidas em cada sistema
+    cognitive_level: aplicar
+  - id: mineralogia-m06-oa03
+    statement: Calcular o número de fórmulas por cela (Z) e a densidade calculada de um mineral a partir dos parâmetros
+      de cela
+    cognitive_level: aplicar
+  - id: mineralogia-m06-oa04
+    statement: Distinguir cela primitiva de cela convencional e justificar a escolha da cela convencional pela simetria
+    cognitive_level: analisar
+  lessons:
+    planned: 4
+    completed: 0
+    items:
+    - id: mineralogia-m06-a01
+      title: 'Motivo, retículo e estrutura: a translação como operação'
+      status: pending
+      covers_objectives:
+      - mineralogia-m06-oa01
+    - id: mineralogia-m06-a02
+      title: Cela primitiva e cela convencional
+      status: pending
+      covers_objectives:
+      - mineralogia-m06-oa04
+    - id: mineralogia-m06-a03
+      title: Os 14 retículos de Bravais
+      status: pending
+      covers_objectives:
+      - mineralogia-m06-oa02
+    - id: mineralogia-m06-a04
+      title: 'Conteúdo da cela: Z, volume e densidade calculada'
+      status: pending
+      covers_objectives:
+      - mineralogia-m06-oa03
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: aprofundamento (aprofundamento) — módulo 07
+- id: '07'
+  slug: grupos-espaciais
+  title: 'Grupos espaciais: translação, eixos helicoidais e planos de deslizamento'
+  area: II. Cristalografia geométrica e reticular
+  objective: 'Ler e usar grupos espaciais: operações com translação, símbolos de Hermann-Mauguin completos, International
+    Tables e arquivos CIF.'
+  prerequisites:
+  - '06'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m07-oa01
+    statement: Descrever as operações de simetria com translação (eixos helicoidais, planos de deslizamento) e seu
+      efeito sobre o motivo
+    cognitive_level: explicar
+  - id: mineralogia-m07-oa02
+    statement: Ler um símbolo de grupo espacial em notação de Hermann-Mauguin e deduzir dele o sistema, a centragem
+      e o grupo pontual
+    cognitive_level: aplicar
+  - id: mineralogia-m07-oa03
+    statement: Interpretar uma entrada das International Tables for Crystallography (diagrama de operações, posições
+      de Wyckoff, multiplicidade)
+    cognitive_level: analisar
+  - id: mineralogia-m07-oa04
+    statement: Usar um arquivo CIF num visualizador (VESTA) para extrair coordenação, distâncias e poliedros de
+      uma estrutura real
+    cognitive_level: aplicar
+  lessons:
+    planned: 4
+    completed: 0
+    items:
+    - id: mineralogia-m07-a01
+      title: 'Simetria com translação: eixos helicoidais e planos de deslizamento'
+      status: pending
+      covers_objectives:
+      - mineralogia-m07-oa01
+    - id: mineralogia-m07-a02
+      title: 'Os 230 grupos espaciais: ler um símbolo de Hermann-Mauguin'
+      status: pending
+      covers_objectives:
+      - mineralogia-m07-oa02
+    - id: mineralogia-m07-a03
+      title: 'International Tables: posições de Wyckoff e multiplicidade'
+      status: pending
+      covers_objectives:
+      - mineralogia-m07-oa03
+    - id: mineralogia-m07-a04
+      title: 'Da tabela à estrutura: arquivos CIF e visualização no VESTA'
+      status: pending
+      covers_objectives:
+      - mineralogia-m07-oa04
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 08
+- id: 08
+  slug: empacotamento-e-coordenacao
+  title: 'Cristaloquímica I: raios iônicos, coordenação e regras de Pauling'
+  area: III. Cristaloquímica
+  objective: 'Explicar por que os átomos se arranjam como se arranjam nos minerais: raios iônicos efetivos, coordenação,
+    empacotamento compacto, as regras de Pauling e as estruturas-tipo.'
+  prerequisites:
+  - '01'
+  - '06'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m08-oa01
+    statement: Usar raios iônicos efetivos (Shannon, 1976) considerando carga, número de coordenação e estado de
+      spin, e explicar por que o raio depende do ambiente
+    cognitive_level: aplicar
+  - id: mineralogia-m08-oa02
+    statement: Prever o número de coordenação de um cátion pela razão de raios e reconhecer os limites desse critério
+    cognitive_level: aplicar
+  - id: mineralogia-m08-oa03
+    statement: Descrever os empacotamentos compactos hexagonal e cúbico e localizar os interstícios tetraédricos
+      e octaédricos
+    cognitive_level: explicar
+  - id: mineralogia-m08-oa04
+    statement: Aplicar as cinco regras de Pauling, incluindo a valência eletrostática, para julgar a estabilidade
+      de um arranjo e explicar o compartilhamento de poliedros
+    cognitive_level: aplicar
+  - id: mineralogia-m08-oa05
+    statement: Reconhecer as estruturas-tipo (halita, fluorita, rutilo, corindo, espinélio, perovskita, esfalerita/wurtzita)
+      e os minerais que as adotam
+    cognitive_level: aplicar
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: mineralogia-m08-a01
+      title: 'Raios iônicos efetivos: por que o raio depende da coordenação'
+      status: pending
+      covers_objectives:
+      - mineralogia-m08-oa01
+    - id: mineralogia-m08-a02
+      title: Razão de raios e poliedros de coordenação
+      status: pending
+      covers_objectives:
+      - mineralogia-m08-oa02
+    - id: mineralogia-m08-a03
+      title: Empacotamento compacto e interstícios
+      status: pending
+      covers_objectives:
+      - mineralogia-m08-oa03
+    - id: mineralogia-m08-a04
+      title: 'As regras de Pauling — Parte 1: coordenação e valência eletrostática'
+      status: pending
+      covers_objectives:
+      - mineralogia-m08-oa04
+    - id: mineralogia-m08-a05
+      title: 'As regras de Pauling — Parte 2: compartilhamento de poliedros e parcimônia'
+      status: pending
+      covers_objectives:
+      - mineralogia-m08-oa04
+    - id: mineralogia-m08-a06
+      title: 'Estruturas-tipo: halita, fluorita, rutilo, corindo, espinélio, perovskita e esfalerita'
+      status: pending
+      covers_objectives:
+      - mineralogia-m08-oa05
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 09
+- id: 09
+  slug: substituicao-e-formula
+  title: 'Cristaloquímica II: substituição iônica, solução sólida e fórmula estrutural'
+  area: III. Cristaloquímica
+  objective: Explicar a variabilidade química dos minerais — substituição, solução sólida, isomorfismo, comportamento
+    geoquímico dos elementos — e calcular fórmulas estruturais a partir de análises.
+  prerequisites:
+  - 08
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m09-oa01
+    statement: Aplicar as regras de Goldschmidt, e o refinamento de Ringwood pela eletronegatividade, para prever
+      se dois íons podem se substituir numa estrutura
+    cognitive_level: aplicar
+  - id: mineralogia-m09-oa02
+    statement: Classificar os mecanismos de substituição (simples, acoplada, intersticial, por omissão) e escrever
+      o vetor de troca correspondente
+    cognitive_level: aplicar
+  - id: mineralogia-m09-oa03
+    statement: Distinguir solução sólida completa, solução sólida limitada e isomorfismo, e explicar o papel da
+      temperatura na extensão da miscibilidade
+    cognitive_level: analisar
+  - id: mineralogia-m09-oa04
+    statement: Calcular a fórmula estrutural de um mineral a partir de uma análise em porcentagem em peso de óxidos,
+      normalizando por oxigênios ou por cátions, e distribuir os cátions pelos sítios
+    cognitive_level: aplicar
+  - id: mineralogia-m09-oa05
+    statement: Classificar os elementos segundo Goldschmidt (litófilos, calcófilos, siderófilos, atmófilos) e explicar
+      o comportamento de elementos-traço compatíveis e incompatíveis
+    cognitive_level: aplicar
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: mineralogia-m09-a01
+      title: 'Quem substitui quem: regras de Goldschmidt e de Ringwood'
+      status: pending
+      covers_objectives:
+      - mineralogia-m09-oa01
+    - id: mineralogia-m09-a02
+      title: Mecanismos de substituição e vetores de troca
+      status: pending
+      covers_objectives:
+      - mineralogia-m09-oa02
+    - id: mineralogia-m09-a03
+      title: Solução sólida, miscibilidade e isomorfismo
+      status: pending
+      covers_objectives:
+      - mineralogia-m09-oa03
+    - id: mineralogia-m09-a04
+      title: 'Cálculo de fórmula estrutural — Parte 1: de % em peso de óxidos a átomos por fórmula'
+      status: pending
+      covers_objectives:
+      - mineralogia-m09-oa04
+    - id: mineralogia-m09-a05
+      title: 'Cálculo de fórmula estrutural — Parte 2: distribuição por sítios e Fe²⁺/Fe³⁺ por balanço de carga'
+      status: pending
+      covers_objectives:
+      - mineralogia-m09-oa04
+    - id: mineralogia-m09-a06
+      title: Classificação geoquímica de Goldschmidt e elementos-traço compatíveis e incompatíveis
+      status: pending
+      covers_objectives:
+      - mineralogia-m09-oa05
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 10
+- id: '10'
+  slug: polimorfismo
+  title: Polimorfismo, politipismo, ordem-desordem e não cristalinidade
+  area: III. Cristaloquímica
+  objective: Descrever do ponto de vista estrutural as várias maneiras de uma mesma composição existir em mais de
+    um arranjo, e os limites do estado cristalino (amorfos e metamícticos). A estabilidade termodinâmica dos polimorfos
+    fica para o módulo 22.
+  prerequisites:
+  - 09
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m10-oa01
+    statement: Classificar transformações polimórficas em reconstrutivas, deslocativas e de ordem-desordem pelo
+      tipo de mudança estrutural envolvida
+    cognitive_level: aplicar
+  - id: mineralogia-m10-oa02
+    statement: Explicar o politipismo (micas, ZnS, SiC) e ler a notação de politipos
+    cognitive_level: explicar
+  - id: mineralogia-m10-oa03
+    statement: Descrever a ordem-desordem de cátions (Al/Si em feldspatos, Fe/Mg em piroxênios) e prever o efeito
+      da história térmica sobre o grau de ordem
+    cognitive_level: explicar
+  - id: mineralogia-m10-oa04
+    statement: Distinguir cristal, mineraloide amorfo e mineral metamíctico e explicar a metamictização por dano
+      de radiação
+    cognitive_level: analisar
+  lessons:
+    planned: 4
+    completed: 0
+    items:
+    - id: mineralogia-m10-a01
+      title: 'Polimorfismo: transformações reconstrutivas e deslocativas'
+      status: pending
+      covers_objectives:
+      - mineralogia-m10-oa01
+    - id: mineralogia-m10-a02
+      title: Ordem-desordem de cátions e a história térmica
+      status: pending
+      covers_objectives:
+      - mineralogia-m10-oa03
+    - id: mineralogia-m10-a03
+      title: Politipismo
+      status: pending
+      covers_objectives:
+      - mineralogia-m10-oa02
+    - id: mineralogia-m10-a04
+      title: Amorfos, mineraloides e metamictização
+      status: pending
+      covers_objectives:
+      - mineralogia-m10-oa04
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 11
+- id: '11'
+  slug: estrutura-dos-silicatos
+  title: Arquitetura dos silicatos
+  area: III. Cristaloquímica
+  objective: Explicar a classificação estrutural dos silicatos a partir do tetraedro SiO₄ e do grau de polimerização,
+    e usá-la para prever propriedades — a espinha do maior bloco da sistemática.
+  prerequisites:
+  - 09
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m11-oa01
+    statement: Descrever o tetraedro SiO₄ e explicar, pela segunda regra de Pauling, por que ele polimeriza por
+      compartilhamento de vértices
+    cognitive_level: explicar
+  - id: mineralogia-m11-oa02
+    statement: Classificar um silicato em neso-, soro-, ciclo-, ino-, filo- ou tectossilicato pela razão Si:O e
+      pelo número de oxigênios compartilhados
+    cognitive_level: aplicar
+  - id: mineralogia-m11-oa03
+    statement: Explicar a substituição Al↔Si tetraédrica e o papel dos cátions de compensação de carga
+    cognitive_level: explicar
+  - id: mineralogia-m11-oa04
+    statement: Prever propriedades (clivagem, hábito, densidade, ordem de cristalização) a partir do grau de polimerização
+    cognitive_level: aplicar
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: mineralogia-m11-a01
+      title: O tetraedro SiO₄ e a ligação Si-O
+      status: pending
+      covers_objectives:
+      - mineralogia-m11-oa01
+    - id: mineralogia-m11-a02
+      title: 'Polimerização: de tetraedros isolados a arcabouços'
+      status: pending
+      covers_objectives:
+      - mineralogia-m11-oa02
+    - id: mineralogia-m11-a03
+      title: Substituição Al↔Si e cátions de compensação
+      status: pending
+      covers_objectives:
+      - mineralogia-m11-oa03
+    - id: mineralogia-m11-a04
+      title: 'Da estrutura à propriedade: clivagem, hábito e densidade'
+      status: pending
+      covers_objectives:
+      - mineralogia-m11-oa04
+    - id: mineralogia-m11-a05
+      title: 'Panorama dos silicatos formadores de rocha: o mapa do bloco de sistemática'
+      status: pending
+      covers_objectives:
+      - mineralogia-m11-oa02
+      - mineralogia-m11-oa04
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 12
+- id: '12'
+  slug: defeitos-e-maclas
+  title: Defeitos cristalinos e maclas
+  area: III. Cristaloquímica
+  objective: Mostrar que o cristal real é imperfeito e que essas imperfeições — defeitos pontuais, lineares e planares,
+    e maclas — controlam difusão, cor, deformação, crescimento e identificação.
+  prerequisites:
+  - '05'
+  - '10'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m12-oa01
+    statement: Classificar defeitos pontuais (vacância, intersticial, Schottky, Frenkel, substitucional) e relacioná-los
+      a difusão, cor e condutividade
+    cognitive_level: aplicar
+  - id: mineralogia-m12-oa02
+    statement: Descrever discordâncias em cunha e em hélice pelo vetor de Burgers e explicar seu papel na deformação
+      plástica e no crescimento em espiral
+    cognitive_level: explicar
+  - id: mineralogia-m12-oa03
+    statement: Distinguir defeitos planares (contorno de grão, falha de empilhamento, contorno de antifase) e reconhecer
+      onde cada um aparece
+    cognitive_level: analisar
+  - id: mineralogia-m12-oa04
+    statement: Definir macla e seu elemento de macla (plano, eixo, centro) e classificá-la em contato, penetração,
+      polissintética ou cíclica
+    cognitive_level: explicar
+  - id: mineralogia-m12-oa05
+    statement: Explicar a origem das maclas (de crescimento, de transformação, de deformação) e reconhecer as leis
+      de macla nomeadas mais comuns
+    cognitive_level: explicar
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: mineralogia-m12-a01
+      title: Defeitos pontuais e o que eles fazem
+      status: pending
+      covers_objectives:
+      - mineralogia-m12-oa01
+    - id: mineralogia-m12-a02
+      title: Discordâncias e defeitos planares
+      status: pending
+      covers_objectives:
+      - mineralogia-m12-oa02
+      - mineralogia-m12-oa03
+    - id: mineralogia-m12-a03
+      title: 'Maclas: definição, elemento de macla e tipos'
+      status: pending
+      covers_objectives:
+      - mineralogia-m12-oa04
+    - id: mineralogia-m12-a04
+      title: 'Origem das maclas: crescimento, transformação e deformação'
+      status: pending
+      covers_objectives:
+      - mineralogia-m12-oa05
+    - id: mineralogia-m12-a05
+      title: 'Leis de macla nomeadas — Parte 1: feldspatos (Carlsbad, albita, periclina, Baveno, Manebach)'
+      status: pending
+      covers_objectives:
+      - mineralogia-m12-oa05
+    - id: mineralogia-m12-a06
+      title: 'Leis de macla nomeadas — Parte 2: quartzo, espinélio, rutilo, estaurolita, calcita e gipsita'
+      status: pending
+      covers_objectives:
+      - mineralogia-m12-oa05
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 13
+- id: '13'
+  slug: propriedades-fisicas
+  title: Propriedades físicas e identificação macroscópica
+  area: IV. Propriedades físicas e identificação macroscópica
+  objective: Explicar cada propriedade física pela estrutura e pela ligação, medi-la ou estimá-la com segurança
+    e combiná-las numa identificação macroscópica com grau de confiança declarado.
+  prerequisites:
+  - '05'
+  - '11'
+  - '12'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m13-oa01
+    statement: Descrever hábito e agregados cristalinos com a terminologia padrão
+    cognitive_level: explicar
+  - id: mineralogia-m13-oa02
+    statement: Relacionar clivagem, partição e fratura à estrutura e à ligação, e expressar a clivagem em notação
+      de forma {hkl}
+    cognitive_level: analisar
+  - id: mineralogia-m13-oa03
+    statement: Distinguir dureza relativa (Mohs), dureza absoluta e tenacidade, e explicar a anisotropia de dureza
+    cognitive_level: analisar
+  - id: mineralogia-m13-oa04
+    statement: Estimar a densidade relativa de uma amostra e compará-la à densidade calculada
+    cognitive_level: aplicar
+  - id: mineralogia-m13-oa05
+    statement: Descrever brilho, diafaneidade, cor (idiocromática, alocromática, pseudocromática) e traço, e explicar
+      por que a cor é o critério menos confiável
+    cognitive_level: explicar
+  - id: mineralogia-m13-oa06
+    statement: Reconhecer propriedades especiais (magnetismo, luminescência, radioatividade, piezo e piroeletricidade,
+      efervescência, solubilidade) e o teste seguro para cada uma
+    cognitive_level: aplicar
+  - id: mineralogia-m13-oa07
+    statement: Aplicar uma chave de identificação macroscópica e declarar o grau de confiança e os testes confirmatórios
+      pendentes
+    cognitive_level: aplicar
+  lessons:
+    planned: 7
+    completed: 0
+    items:
+    - id: mineralogia-m13-a01
+      title: 'Hábito e agregados: a linguagem da morfologia'
+      status: pending
+      covers_objectives:
+      - mineralogia-m13-oa01
+    - id: mineralogia-m13-a02
+      title: Clivagem, partição e fratura
+      status: pending
+      covers_objectives:
+      - mineralogia-m13-oa02
+    - id: mineralogia-m13-a03
+      title: Dureza e tenacidade
+      status: pending
+      covers_objectives:
+      - mineralogia-m13-oa03
+    - id: mineralogia-m13-a04
+      title: 'Densidade: medida e calculada'
+      status: pending
+      covers_objectives:
+      - mineralogia-m13-oa04
+    - id: mineralogia-m13-a05
+      title: Brilho, diafaneidade, cor e traço
+      status: pending
+      covers_objectives:
+      - mineralogia-m13-oa05
+    - id: mineralogia-m13-a06
+      title: 'Propriedades especiais: magnetismo, luminescência, radioatividade, eletricidade e reações'
+      status: pending
+      covers_objectives:
+      - mineralogia-m13-oa06
+    - id: mineralogia-m13-a07
+      title: A chave macroscópica e o grau de confiança da identificação
+      status: pending
+      covers_objectives:
+      - mineralogia-m13-oa07
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 14
+- id: '14'
+  slug: optica-fisica
+  title: 'Óptica física para mineralogia: luz, refração, polarização e interferência'
+  area: V. Mineralogia óptica
+  objective: Reconstruir, a partir do ensino médio, a óptica ondulatória de que a mineralogia óptica depende e ligá-la
+    à simetria cristalina.
+  prerequisites:
+  - '04'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m14-oa01
+    statement: Descrever a luz como onda eletromagnética (comprimento de onda, frequência, velocidade) e situar
+      o espectro visível
+    cognitive_level: explicar
+  - id: mineralogia-m14-oa02
+    statement: Aplicar a lei de Snell e o conceito de índice de refração, incluindo ângulo crítico e reflexão total
+    cognitive_level: aplicar
+  - id: mineralogia-m14-oa03
+    statement: Explicar a dispersão da luz e como ela é medida
+    cognitive_level: explicar
+  - id: mineralogia-m14-oa04
+    statement: Explicar a polarização da luz por absorção, reflexão e dupla refração
+    cognitive_level: explicar
+  - id: mineralogia-m14-oa05
+    statement: Calcular a diferença de caminho (retardo) entre dois raios e prever interferência construtiva ou
+      destrutiva
+    cognitive_level: aplicar
+  - id: mineralogia-m14-oa06
+    statement: Relacionar isotropia e anisotropia óptica à simetria cristalina (isométrico, uniaxial, biaxial)
+    cognitive_level: analisar
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: mineralogia-m14-a01
+      title: A luz como onda eletromagnética
+      status: pending
+      covers_objectives:
+      - mineralogia-m14-oa01
+    - id: mineralogia-m14-a02
+      title: Refração, índice de refração e lei de Snell
+      status: pending
+      covers_objectives:
+      - mineralogia-m14-oa02
+    - id: mineralogia-m14-a03
+      title: Dispersão e reflexão total
+      status: pending
+      covers_objectives:
+      - mineralogia-m14-oa02
+      - mineralogia-m14-oa03
+    - id: mineralogia-m14-a04
+      title: Polarização
+      status: pending
+      covers_objectives:
+      - mineralogia-m14-oa04
+    - id: mineralogia-m14-a05
+      title: Interferência, retardo e anisotropia óptica
+      status: pending
+      covers_objectives:
+      - mineralogia-m14-oa05
+      - mineralogia-m14-oa06
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 15
+- id: '15'
+  slug: microscopio-petrografico
+  title: 'O microscópio petrográfico: luz plana e polarizadores cruzados'
+  area: V. Mineralogia óptica
+  objective: Operar conceitualmente o microscópio petrográfico e extrair, em luz plana e com polarizadores cruzados,
+    as propriedades ópticas que identificam minerais transparentes em lâmina delgada.
+  prerequisites:
+  - '13'
+  - '14'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m15-oa01
+    statement: Descrever os componentes do microscópio petrográfico e a preparação da lâmina delgada padrão (~30
+      µm)
+    cognitive_level: explicar
+  - id: mineralogia-m15-oa02
+    statement: Estimar o relevo e determinar o índice relativo pela linha de Becke
+    cognitive_level: aplicar
+  - id: mineralogia-m15-oa03
+    statement: Descrever cor, pleocroísmo, hábito e clivagem de um mineral em seção delgada
+    cognitive_level: explicar
+  - id: mineralogia-m15-oa04
+    statement: Usar a carta de Michel-Lévy para estimar a birrefringência a partir da cor de interferência e da
+      espessura
+    cognitive_level: aplicar
+  - id: mineralogia-m15-oa05
+    statement: Classificar a extinção (reta, oblíqua, simétrica, ondulante) e medir o ângulo de extinção
+    cognitive_level: aplicar
+  - id: mineralogia-m15-oa06
+    statement: Determinar o sinal de elongação com placa acessória e reconhecer maclas ao microscópio
+    cognitive_level: aplicar
+  lessons:
+    planned: 7
+    completed: 0
+    items:
+    - id: mineralogia-m15-a01
+      title: O microscópio petrográfico e a lâmina delgada
+      status: pending
+      covers_objectives:
+      - mineralogia-m15-oa01
+    - id: mineralogia-m15-a02
+      title: Relevo e linha de Becke
+      status: pending
+      covers_objectives:
+      - mineralogia-m15-oa02
+    - id: mineralogia-m15-a03
+      title: 'Luz plana: cor, pleocroísmo, hábito e clivagem em seção'
+      status: pending
+      covers_objectives:
+      - mineralogia-m15-oa03
+    - id: mineralogia-m15-a04
+      title: 'Polarizadores cruzados: cores de interferência e a carta de Michel-Lévy'
+      status: pending
+      covers_objectives:
+      - mineralogia-m15-oa04
+    - id: mineralogia-m15-a05
+      title: Extinção e ângulo de extinção
+      status: pending
+      covers_objectives:
+      - mineralogia-m15-oa05
+    - id: mineralogia-m15-a06
+      title: Placas acessórias e sinal de elongação
+      status: pending
+      covers_objectives:
+      - mineralogia-m15-oa06
+    - id: mineralogia-m15-a07
+      title: Maclas ao microscópio e o roteiro ortoscópico completo
+      status: pending
+      covers_objectives:
+      - mineralogia-m15-oa06
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 16
+- id: '16'
+  slug: indicatriz-e-conoscopia
+  title: Indicatriz óptica e figuras de interferência
+  area: V. Mineralogia óptica
+  objective: Modelar a anisotropia óptica com a indicatriz, relacioná-la aos eixos cristalográficos e usar a conoscopia
+    para determinar caráter, sinal óptico e 2V.
+  prerequisites:
+  - '05'
+  - '15'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m16-oa01
+    statement: Descrever as indicatrizes uniaxial e biaxial e relacionar seus eixos aos índices ω, ε e α, β, γ
+    cognitive_level: explicar
+  - id: mineralogia-m16-oa02
+    statement: Relacionar a orientação da indicatriz aos eixos cristalográficos em cada sistema (orientação óptica)
+    cognitive_level: analisar
+  - id: mineralogia-m16-oa03
+    statement: Obter e interpretar figuras de interferência conoscópicas (eixo óptico, bissetriz aguda, bissetriz
+      obtusa, flash)
+    cognitive_level: aplicar
+  - id: mineralogia-m16-oa04
+    statement: Determinar o sinal óptico e estimar o 2V com placa acessória
+    cognitive_level: aplicar
+  - id: mineralogia-m16-oa05
+    statement: Integrar observações ortoscópicas e conoscópicas num protocolo de identificação de minerais transparentes
+      em lâmina
+    cognitive_level: analisar
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: mineralogia-m16-a01
+      title: A indicatriz uniaxial
+      status: pending
+      covers_objectives:
+      - mineralogia-m16-oa01
+    - id: mineralogia-m16-a02
+      title: A indicatriz biaxial
+      status: pending
+      covers_objectives:
+      - mineralogia-m16-oa01
+    - id: mineralogia-m16-a03
+      title: 'Orientação óptica: indicatriz e eixos cristalográficos'
+      status: pending
+      covers_objectives:
+      - mineralogia-m16-oa02
+    - id: mineralogia-m16-a04
+      title: 'Conoscopia: figuras uniaxiais e sinal óptico'
+      status: pending
+      covers_objectives:
+      - mineralogia-m16-oa03
+      - mineralogia-m16-oa04
+    - id: mineralogia-m16-a05
+      title: Figuras biaxiais, 2V e sinal
+      status: pending
+      covers_objectives:
+      - mineralogia-m16-oa03
+      - mineralogia-m16-oa04
+    - id: mineralogia-m16-a06
+      title: Protocolo integrado de identificação em lâmina delgada
+      status: pending
+      covers_objectives:
+      - mineralogia-m16-oa05
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: aprofundamento (aprofundamento) — módulo 17
+- id: '17'
+  slug: luz-refletida
+  title: 'Luz refletida: minerais opacos'
+  area: V. Mineralogia óptica
+  objective: Dar a porta de entrada da microscopia de luz refletida para os minerais opacos (sulfetos, óxidos, nativos),
+    sem duplicar os módulos de minérios do curso avançado.
+  prerequisites:
+  - '15'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m17-oa01
+    statement: Descrever o microscópio de luz refletida e a preparação da seção polida
+    cognitive_level: explicar
+  - id: mineralogia-m17-oa02
+    statement: Identificar minerais opacos por refletância, cor, birreflectância, anisotropia, reflexões internas
+      e dureza de polimento
+    cognitive_level: aplicar
+  - id: mineralogia-m17-oa03
+    statement: Reconhecer texturas básicas de minério e situar a microscopia de opacos entre os métodos de estudo
+      de paragênese
+    cognitive_level: aplicar
+  lessons:
+    planned: 3
+    completed: 0
+    items:
+    - id: mineralogia-m17-a01
+      title: 'Luz refletida: microscópio e seção polida'
+      status: pending
+      covers_objectives:
+      - mineralogia-m17-oa01
+    - id: mineralogia-m17-a02
+      title: 'Propriedades dos opacos: refletância, cor, anisotropia e reflexões internas'
+      status: pending
+      covers_objectives:
+      - mineralogia-m17-oa02
+    - id: mineralogia-m17-a03
+      title: Texturas de minério em seção polida — a porta para o estudo de minérios
+      status: pending
+      covers_objectives:
+      - mineralogia-m17-oa03
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 18
+- id: '18'
+  slug: difracao-raios-x
+  title: 'Difração de raios X: Bragg, rede recíproca e o método do pó'
+  area: VI. Difração e métodos analíticos
+  objective: Explicar por que cristais difratam raios X, dominar a lei de Bragg e a rede recíproca e interpretar
+    um difratograma de pó para identificar fases.
+  prerequisites:
+  - '06'
+  - '14'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m18-oa01
+    statement: Explicar a produção de raios X (espectro contínuo e característico, radiação Kα, filtros e monocromadores)
+    cognitive_level: explicar
+  - id: mineralogia-m18-oa02
+    statement: Deduzir e aplicar a lei de Bragg e calcular d(hkl) para sistemas ortogonais
+    cognitive_level: aplicar
+  - id: mineralogia-m18-oa03
+    statement: Explicar a rede recíproca e a construção de Ewald como condição geométrica de difração
+    cognitive_level: explicar
+  - id: mineralogia-m18-oa04
+    statement: Relacionar a intensidade difratada ao conteúdo da cela (fator de estrutura, qualitativo) e explicar
+      ausências sistemáticas causadas por centragem
+    cognitive_level: analisar
+  - id: mineralogia-m18-oa05
+    statement: Interpretar um difratograma de pó, identificando fases por comparação com bancos (ICDD-PDF, COD,
+      RRUFF) e reconhecendo seus limites
+    cognitive_level: analisar
+  - id: mineralogia-m18-oa06
+    statement: Calcular parâmetros de cela a partir de picos indexados em sistemas cúbico e tetragonal
+    cognitive_level: aplicar
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: mineralogia-m18-a01
+      title: 'Raios X: produção, espectro e radiação característica'
+      status: pending
+      covers_objectives:
+      - mineralogia-m18-oa01
+    - id: mineralogia-m18-a02
+      title: A lei de Bragg e o espaçamento d(hkl)
+      status: pending
+      covers_objectives:
+      - mineralogia-m18-oa02
+    - id: mineralogia-m18-a03
+      title: Rede recíproca e esfera de Ewald
+      status: pending
+      covers_objectives:
+      - mineralogia-m18-oa03
+    - id: mineralogia-m18-a04
+      title: Intensidade, fator de estrutura e ausências por centragem
+      status: pending
+      covers_objectives:
+      - mineralogia-m18-oa04
+    - id: mineralogia-m18-a05
+      title: O difratograma de pó e a identificação de fases
+      status: pending
+      covers_objectives:
+      - mineralogia-m18-oa05
+    - id: mineralogia-m18-a06
+      title: Indexação e parâmetros de cela a partir do difratograma
+      status: pending
+      covers_objectives:
+      - mineralogia-m18-oa06
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 19
+- id: '19'
+  slug: feixe-de-eletrons
+  title: 'Métodos de feixe de elétrons: MEV, EDS/WDS e microssonda'
+  area: VI. Difração e métodos analíticos
+  objective: Explicar as interações feixe-amostra e usar imagens (SE, BSE, CL) e análises pontuais (EDS, WDS, microssonda)
+    para caracterizar composição e zoneamento, até a fórmula estrutural.
+  prerequisites:
+  - 09
+  - '18'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m19-oa01
+    statement: Explicar as interações entre feixe de elétrons e amostra (elétrons secundários, retroespalhados,
+      raios X, catodoluminescência) e o volume de interação
+    cognitive_level: explicar
+  - id: mineralogia-m19-oa02
+    statement: Interpretar imagens de elétrons secundários, retroespalhados (contraste de número atômico médio)
+      e de catodoluminescência
+    cognitive_level: analisar
+  - id: mineralogia-m19-oa03
+    statement: Distinguir EDS de WDS por resolução espectral, limite de detecção e uso adequado
+    cognitive_level: analisar
+  - id: mineralogia-m19-oa04
+    statement: Explicar a análise quantitativa por microssonda (padrões, correções de matriz) e avaliar a qualidade
+      de uma análise pelos totais e pela estequiometria
+    cognitive_level: explicar
+  - id: mineralogia-m19-oa05
+    statement: Converter uma análise de microssonda em fórmula estrutural e proporções de membros finais
+    cognitive_level: aplicar
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: mineralogia-m19-a01
+      title: 'Elétrons encontram a amostra: sinais e volume de interação'
+      status: pending
+      covers_objectives:
+      - mineralogia-m19-oa01
+    - id: mineralogia-m19-a02
+      title: 'Imagem no MEV: SE, BSE e catodoluminescência'
+      status: pending
+      covers_objectives:
+      - mineralogia-m19-oa02
+    - id: mineralogia-m19-a03
+      title: EDS e WDS
+      status: pending
+      covers_objectives:
+      - mineralogia-m19-oa03
+    - id: mineralogia-m19-a04
+      title: 'Microssonda eletrônica: análise quantitativa e controle de qualidade'
+      status: pending
+      covers_objectives:
+      - mineralogia-m19-oa04
+    - id: mineralogia-m19-a05
+      title: Da análise à fórmula e aos membros finais
+      status: pending
+      covers_objectives:
+      - mineralogia-m19-oa05
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: aprofundamento (aprofundamento) — módulo 20
+- id: '20'
+  slug: espectroscopia-e-tracos
+  title: Espectroscopia e análise de elementos-traço
+  area: VI. Difração e métodos analíticos
+  objective: Explicar o que Raman, FTIR, UV-Vis-NIR, Mössbauer, LA-ICP-MS e SIMS medem e escolher a combinação de
+    métodos adequada a um problema mineralógico.
+  prerequisites:
+  - '14'
+  - '19'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m20-oa01
+    statement: Explicar o princípio do espalhamento Raman e interpretar espectros para identificar fases e polimorfos
+    cognitive_level: explicar
+  - id: mineralogia-m20-oa02
+    statement: Explicar o que a espectroscopia no infravermelho (FTIR) revela sobre OH, H₂O, CO₂ e hidrogênio em
+      minerais nominalmente anidros
+    cognitive_level: explicar
+  - id: mineralogia-m20-oa03
+    statement: Explicar o que UV-Vis-NIR e Mössbauer informam sobre valência e coordenação de metais de transição
+    cognitive_level: explicar
+  - id: mineralogia-m20-oa04
+    statement: Explicar LA-ICP-MS e SIMS para elementos-traço e isótopos in situ e comparar técnicas por resolução
+      espacial, limite de detecção e destrutividade
+    cognitive_level: explicar
+  - id: mineralogia-m20-oa05
+    statement: Selecionar a combinação de métodos adequada a um problema mineralógico e justificar a escolha
+    cognitive_level: analisar
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: mineralogia-m20-a01
+      title: Espectroscopia Raman
+      status: pending
+      covers_objectives:
+      - mineralogia-m20-oa01
+    - id: mineralogia-m20-a02
+      title: 'FTIR: água, hidroxila e voláteis'
+      status: pending
+      covers_objectives:
+      - mineralogia-m20-oa02
+    - id: mineralogia-m20-a03
+      title: 'UV-Vis-NIR e Mössbauer: valência e coordenação'
+      status: pending
+      covers_objectives:
+      - mineralogia-m20-oa03
+    - id: mineralogia-m20-a04
+      title: 'LA-ICP-MS e SIMS: traços e isótopos in situ'
+      status: pending
+      covers_objectives:
+      - mineralogia-m20-oa04
+    - id: mineralogia-m20-a05
+      title: 'Escolher o método: uma matriz de decisão'
+      status: pending
+      covers_objectives:
+      - mineralogia-m20-oa05
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: aprofundamento (aprofundamento) — módulo 21
+- id: '21'
+  slug: difracao-avancada
+  title: 'Difração avançada: monocristal, Rietveld e EBSD'
+  area: VI. Difração e métodos analíticos
+  objective: 'Levar a difração ao nível de pós-graduação: determinação de estrutura por monocristal, ausências sistemáticas
+    e grupo espacial, refinamento de Rietveld e EBSD.'
+  prerequisites:
+  - '07'
+  - '18'
+  - '19'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m21-oa01
+    statement: Explicar o fluxo de determinação de estrutura por monocristal (coleta, integração, solução, refinamento,
+      índice R) e ler um relatório CIF
+    cognitive_level: explicar
+  - id: mineralogia-m21-oa02
+    statement: Relacionar ausências sistemáticas aos elementos de simetria translacional e usá-las para restringir
+      o grupo espacial
+    cognitive_level: analisar
+  - id: mineralogia-m21-oa03
+    statement: Explicar o refinamento de Rietveld e seu uso na quantificação de fases e no refinamento de parâmetros
+      de cela
+    cognitive_level: explicar
+  - id: mineralogia-m21-oa04
+    statement: Explicar a formação dos padrões de Kikuchi no EBSD e interpretar mapas de orientação, de fases e
+      de desorientação
+    cognitive_level: explicar
+  lessons:
+    planned: 4
+    completed: 0
+    items:
+    - id: mineralogia-m21-a01
+      title: 'Difração de monocristal: da coleta ao refinamento'
+      status: pending
+      covers_objectives:
+      - mineralogia-m21-oa01
+    - id: mineralogia-m21-a02
+      title: Ausências sistemáticas e grupo espacial
+      status: pending
+      covers_objectives:
+      - mineralogia-m21-oa02
+    - id: mineralogia-m21-a03
+      title: O método de Rietveld
+      status: pending
+      covers_objectives:
+      - mineralogia-m21-oa03
+    - id: mineralogia-m21-a04
+      title: 'EBSD: padrões de Kikuchi e mapas de orientação'
+      status: pending
+      covers_objectives:
+      - mineralogia-m21-oa04
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 22
+- id: '22'
+  slug: termodinamica-mineral
+  title: 'Termodinâmica mineral: energia livre, equilíbrio e diagramas de um componente'
+  area: VII. Termodinâmica, diagramas de fase e cinética
+  objective: Dar a linguagem termodinâmica da estabilidade mineral — fase, componente, regra das fases, energia
+    livre, constante de equilíbrio, Clapeyron — e aplicá-la aos diagramas P-T de polimorfos.
+  prerequisites:
+  - '03'
+  - '10'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m22-oa01
+    statement: Definir sistema, fase, componente e equilíbrio e aplicar a regra das fases de Gibbs
+    cognitive_level: explicar
+  - id: mineralogia-m22-oa02
+    statement: Explicar entalpia, entropia e energia livre de Gibbs e usar o sinal de ΔG para prever o sentido de
+      uma reação
+    cognitive_level: explicar
+  - id: mineralogia-m22-oa03
+    statement: Aplicar a equação de Clapeyron para prever a inclinação de uma curva de reação num diagrama P-T
+    cognitive_level: aplicar
+  - id: mineralogia-m22-oa04
+    statement: Ler diagramas P-T de sistemas de um componente (SiO₂, Al₂SiO₅, C, CaCO₃) e inferir condições de formação
+      a partir do polimorfo presente
+    cognitive_level: aplicar
+  - id: mineralogia-m22-oa05
+    statement: Distinguir estabilidade, metaestabilidade e instabilidade e explicar por que polimorfos metaestáveis
+      persistem
+    cognitive_level: analisar
+  - id: mineralogia-m22-oa06
+    statement: Relacionar ΔG° à constante de equilíbrio K e interpretar K como razão de atividades
+    cognitive_level: analisar
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: mineralogia-m22-a01
+      title: Sistema, fase, componente e a regra das fases
+      status: pending
+      covers_objectives:
+      - mineralogia-m22-oa01
+    - id: mineralogia-m22-a02
+      title: Entalpia, entropia e energia livre de Gibbs
+      status: pending
+      covers_objectives:
+      - mineralogia-m22-oa02
+    - id: mineralogia-m22-a03
+      title: ΔG de reação e constante de equilíbrio
+      status: pending
+      covers_objectives:
+      - mineralogia-m22-oa02
+      - mineralogia-m22-oa06
+    - id: mineralogia-m22-a04
+      title: A equação de Clapeyron e a inclinação das curvas
+      status: pending
+      covers_objectives:
+      - mineralogia-m22-oa03
+    - id: mineralogia-m22-a05
+      title: 'Diagramas P-T de um componente: SiO₂, Al₂SiO₅, C e CaCO₃'
+      status: pending
+      covers_objectives:
+      - mineralogia-m22-oa04
+    - id: mineralogia-m22-a06
+      title: 'Metaestabilidade: por que o diamante não vira grafite'
+      status: pending
+      covers_objectives:
+      - mineralogia-m22-oa05
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 23
+- id: '23'
+  slug: diagramas-de-fase
+  title: Soluções sólidas e diagramas de fase binários e ternários
+  area: VII. Termodinâmica, diagramas de fase e cinética
+  objective: Ler diagramas de fase de sistemas com mais de um componente — solução sólida, eutético, peritético,
+    solvus, ternários — e prever cristalização, exsolução e zoneamento.
+  prerequisites:
+  - 09
+  - '22'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m23-oa01
+    statement: Relacionar a forma da curva de energia livre de mistura (G-X) à miscibilidade completa, ao solvus
+      e à exsolução
+    cognitive_level: analisar
+  - id: mineralogia-m23-oa02
+    statement: Ler diagramas T-X com solução sólida completa (plagioclásio, olivina) e aplicar a regra da alavanca
+    cognitive_level: aplicar
+  - id: mineralogia-m23-oa03
+    statement: Ler diagramas binários eutético e peritético (Di-An, Fo-SiO₂, Lc-SiO₂) e prever a sequência de cristalização
+      em equilíbrio e fracionada
+    cognitive_level: aplicar
+  - id: mineralogia-m23-oa04
+    statement: Explicar o solvus e a exsolução em feldspatos alcalinos e piroxênios e prever as texturas resultantes
+    cognitive_level: explicar
+  - id: mineralogia-m23-oa05
+    statement: Ler diagramas ternários (projeção, isotermas, caminho de cristalização) num sistema simples
+    cognitive_level: aplicar
+  - id: mineralogia-m23-oa06
+    statement: Explicar como a cristalização fracionada produz zoneamento composicional normal e inverso
+    cognitive_level: explicar
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: mineralogia-m23-a01
+      title: Energia livre de mistura, miscibilidade e solvus
+      status: pending
+      covers_objectives:
+      - mineralogia-m23-oa01
+    - id: mineralogia-m23-a02
+      title: 'Solução sólida completa: plagioclásio, olivina e a regra da alavanca'
+      status: pending
+      covers_objectives:
+      - mineralogia-m23-oa02
+    - id: mineralogia-m23-a03
+      title: Binários eutético e peritético
+      status: pending
+      covers_objectives:
+      - mineralogia-m23-oa03
+    - id: mineralogia-m23-a04
+      title: Solvus e exsolução em feldspatos e piroxênios
+      status: pending
+      covers_objectives:
+      - mineralogia-m23-oa04
+    - id: mineralogia-m23-a05
+      title: Diagramas ternários
+      status: pending
+      covers_objectives:
+      - mineralogia-m23-oa05
+    - id: mineralogia-m23-a06
+      title: Cristalização fracionada e zoneamento composicional
+      status: pending
+      covers_objectives:
+      - mineralogia-m23-oa06
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: aprofundamento (aprofundamento) — módulo 24
+- id: '24'
+  slug: cinetica-e-transformacoes
+  title: Cinética e transformações no estado sólido
+  area: VII. Termodinâmica, diagramas de fase e cinética
+  objective: Explicar quando e com que velocidade as transformações acontecem — nucleação, difusão, exsolução, decomposição
+    espinodal, transições deslocativas — e ler texturas como relógios de resfriamento (nível Putnis).
+  prerequisites:
+  - '12'
+  - '23'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m24-oa01
+    statement: Explicar a nucleação homogênea e heterogênea pela barreira de energia livre e pelo raio crítico
+    cognitive_level: explicar
+  - id: mineralogia-m24-oa02
+    statement: Aplicar as leis de Fick e a dependência de Arrhenius à difusão em minerais e estimar escalas de tempo
+      de homogeneização pela relação x ≈ √(Dt)
+    cognitive_level: aplicar
+  - id: mineralogia-m24-oa03
+    statement: Distinguir exsolução por nucleação e crescimento de decomposição espinodal pelas texturas e pela
+      forma da curva de energia livre
+    cognitive_level: analisar
+  - id: mineralogia-m24-oa04
+    statement: Explicar transformações deslocativas (α-β quartzo) com o conceito de parâmetro de ordem e a teoria
+      de Landau em nível qualitativo
+    cognitive_level: explicar
+  - id: mineralogia-m24-oa05
+    statement: Interpretar texturas de transformação e exsolução (antipertita, mesopertita, lamelas de ilmenita
+      em magnetita, rutilo orientado em coríndon) como registros de resfriamento
+    cognitive_level: analisar
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: mineralogia-m24-a01
+      title: 'Nucleação: barreira e raio crítico'
+      status: pending
+      covers_objectives:
+      - mineralogia-m24-oa01
+    - id: mineralogia-m24-a02
+      title: 'Difusão: Fick, Arrhenius e escalas de tempo'
+      status: pending
+      covers_objectives:
+      - mineralogia-m24-oa02
+    - id: mineralogia-m24-a03
+      title: 'Exsolução: nucleação e crescimento versus decomposição espinodal'
+      status: pending
+      covers_objectives:
+      - mineralogia-m24-oa03
+    - id: mineralogia-m24-a04
+      title: Transformações deslocativas e o parâmetro de ordem
+      status: pending
+      covers_objectives:
+      - mineralogia-m24-oa04
+    - id: mineralogia-m24-a05
+      title: Texturas de transformação e exsolução como relógios de resfriamento
+      status: pending
+      covers_objectives:
+      - mineralogia-m24-oa05
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 25
+- id: '25'
+  slug: crescimento-cristalino
+  title: 'Crescimento cristalino: força motriz, mecanismos e hábito'
+  area: VIII. Crescimento cristalino, texturas e inclusões
+  objective: Explicar como um cristal cresce — supersaturação, mecanismos de crescimento de faces, controle cristalográfico
+    e ambiental do hábito — e ler a morfologia como registro das condições de crescimento.
+  prerequisites:
+  - '12'
+  - '13'
+  - '18'
+  - '22'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m25-oa01
+    statement: Explicar supersaturação e sub-resfriamento como força motriz do crescimento e descrever qualitativamente
+      a nucleação
+    cognitive_level: explicar
+  - id: mineralogia-m25-oa02
+    statement: Distinguir mecanismos de crescimento de faces (rugoso contínuo, nucleação bidimensional, espiral
+      a partir de discordância em hélice) e relacioná-los à supersaturação
+    cognitive_level: analisar
+  - id: mineralogia-m25-oa03
+    statement: Aplicar a lei de Bravais-Friedel-Donnay-Harker e a teoria das cadeias de ligação periódicas (Hartman-Perdok)
+      para prever as faces dominantes
+    cognitive_level: aplicar
+  - id: mineralogia-m25-oa04
+    statement: Explicar como supersaturação, temperatura e impurezas modificam o hábito de um mineral
+    cognitive_level: explicar
+  - id: mineralogia-m25-oa05
+    statement: Reconhecer morfologias de crescimento rápido (esqueletal, dendrítica, em funil, esferulítica) e interpretá-las
+      como indicadores de supersaturação alta
+    cognitive_level: aplicar
+  - id: mineralogia-m25-oa06
+    statement: Distinguir figuras de superfície de crescimento de figuras de dissolução
+    cognitive_level: analisar
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: mineralogia-m25-a01
+      title: 'Força motriz: supersaturação e sub-resfriamento'
+      status: pending
+      covers_objectives:
+      - mineralogia-m25-oa01
+    - id: mineralogia-m25-a02
+      title: 'Como uma face cresce: rugosa, nucleação 2D e espiral'
+      status: pending
+      covers_objectives:
+      - mineralogia-m25-oa02
+    - id: mineralogia-m25-a03
+      title: 'Por que estas faces: BFDH e a teoria PBC'
+      status: pending
+      covers_objectives:
+      - mineralogia-m25-oa03
+    - id: mineralogia-m25-a04
+      title: 'O que muda o hábito: supersaturação, temperatura e impurezas'
+      status: pending
+      covers_objectives:
+      - mineralogia-m25-oa04
+    - id: mineralogia-m25-a05
+      title: 'Crescimento rápido: esqueletal, dendrítico, em funil e esferulítico'
+      status: pending
+      covers_objectives:
+      - mineralogia-m25-oa05
+    - id: mineralogia-m25-a06
+      title: Superfícies de crescimento e de dissolução
+      status: pending
+      covers_objectives:
+      - mineralogia-m25-oa06
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 26
+- id: '26'
+  slug: zoneamento
+  title: 'Zoneamento: o cristal como arquivo'
+  area: VIII. Crescimento cristalino, texturas e inclusões
+  objective: Ler o zoneamento de um cristal como arquivo de sua história, aplicando com disciplina a escada observação
+    → descrição interpretativa → interpretação genética → hipótese de processo.
+  prerequisites:
+  - '19'
+  - '23'
+  - '25'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m26-oa01
+    statement: Aplicar a escada observação → descrição interpretativa → interpretação genética → hipótese de processo
+      a um cristal zonado, separando o que se vê do que se infere
+    cognitive_level: aplicar
+  - id: mineralogia-m26-oa02
+    statement: Distinguir zoneamento concêntrico normal, inverso e oscilatório e comparar os modelos de zoneamento
+      oscilatório (controle interfacial autônomo × controle externo)
+    cognitive_level: analisar
+  - id: mineralogia-m26-oa03
+    statement: Explicar o zoneamento setorial pela partição dependente da face e distingui-lo do zoneamento concêntrico
+    cognitive_level: explicar
+  - id: mineralogia-m26-oa04
+    statement: Reconhecer fantasmas, superfícies de reabsorção e zoneamento em manchas e interpretá-los como mudanças
+      de condição
+    cognitive_level: aplicar
+  - id: mineralogia-m26-oa05
+    statement: Selecionar a técnica adequada para revelar e quantificar zoneamento (óptica, BSE, CL, mapas composicionais)
+    cognitive_level: analisar
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: mineralogia-m26-a01
+      title: 'Da observação à hipótese: a escada de inferência aplicada ao cristal'
+      status: pending
+      covers_objectives:
+      - mineralogia-m26-oa01
+    - id: mineralogia-m26-a02
+      title: 'Zoneamento concêntrico: normal, inverso e oscilatório'
+      status: pending
+      covers_objectives:
+      - mineralogia-m26-oa02
+    - id: mineralogia-m26-a03
+      title: Zoneamento setorial
+      status: pending
+      covers_objectives:
+      - mineralogia-m26-oa03
+    - id: mineralogia-m26-a04
+      title: Fantasmas, superfícies de reabsorção e zoneamento em manchas
+      status: pending
+      covers_objectives:
+      - mineralogia-m26-oa04
+    - id: mineralogia-m26-a05
+      title: 'Revelar o zoneamento: óptica, BSE, CL e mapas composicionais'
+      status: pending
+      covers_objectives:
+      - mineralogia-m26-oa05
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 27
+- id: '27'
+  slug: sobrecrescimento-e-substituicao
+  title: Sobrecrescimento, intercrescimento, dissolução, substituição e inclusões
+  area: VIII. Crescimento cristalino, texturas e inclusões
+  objective: Reconhecer e interpretar as relações entre cristais e entre gerações de um mesmo cristal — sobrecrescimento
+    sintaxial e epitaxial, intercrescimentos, dissolução, pseudomorfose e inclusões — declarando os limites de cada
+    critério temporal.
+  prerequisites:
+  - '26'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m27-oa01
+    statement: Distinguir sobrecrescimento sintaxial (mesma fase, continuidade cristalográfica), epitaxial (fase
+      diferente orientada) e topotaxia, com exemplos reais
+    cognitive_level: analisar
+  - id: mineralogia-m27-oa02
+    statement: Classificar intercrescimentos (gráfico, mirmequítico, simplectítico, pertítico) e distinguir os de
+      cocristalização dos de exsolução e de substituição
+    cognitive_level: aplicar
+  - id: mineralogia-m27-oa03
+    statement: Reconhecer feições de dissolução e reabsorção (figuras de corrosão, embaiamentos, arredondamento)
+      e interpretá-las como registro
+    cognitive_level: aplicar
+  - id: mineralogia-m27-oa04
+    statement: Distinguir pseudomorfose por substituição, epimorfose (incrustação) e paramorfose, e explicar a substituição
+      por dissolução-reprecipitação acoplada
+    cognitive_level: analisar
+  - id: mineralogia-m27-oa05
+    statement: Classificar inclusões pela relação temporal com o hospedeiro (protogenéticas, singenéticas, epigenéticas)
+      e declarar os limites dos critérios morfológico e epitaxial, incluindo o debate das inclusões em diamante
+    cognitive_level: aplicar
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: mineralogia-m27-a01
+      title: 'Sobrecrescimento: sintaxia, epitaxia e topotaxia'
+      status: pending
+      covers_objectives:
+      - mineralogia-m27-oa01
+    - id: mineralogia-m27-a02
+      title: 'Intercrescimentos: gráfico, mirmequítico, simplectítico e pertítico'
+      status: pending
+      covers_objectives:
+      - mineralogia-m27-oa02
+    - id: mineralogia-m27-a03
+      title: Dissolução e reabsorção como registro
+      status: pending
+      covers_objectives:
+      - mineralogia-m27-oa03
+    - id: mineralogia-m27-a04
+      title: Pseudomorfose, epimorfose e paramorfose; dissolução-reprecipitação acoplada
+      status: pending
+      covers_objectives:
+      - mineralogia-m27-oa04
+    - id: mineralogia-m27-a05
+      title: 'Inclusões e tempo: protogenéticas, singenéticas e epigenéticas'
+      status: pending
+      covers_objectives:
+      - mineralogia-m27-oa05
+    - id: mineralogia-m27-a06
+      title: 'Limites dos critérios: morfologia, epitaxia e o debate das inclusões em diamante'
+      status: pending
+      covers_objectives:
+      - mineralogia-m27-oa05
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: aprofundamento (aprofundamento) — módulo 28
+- id: '28'
+  slug: inclusoes-fluidas
+  title: Inclusões fluidas, fundidas e sólidas como sondas de pressão e temperatura
+  area: VIII. Crescimento cristalino, texturas e inclusões
+  objective: 'Usar inclusões como sondas quantitativas: petrografia de inclusões fluidas, microtermometria, isócoras,
+    inclusões de fundido e barometria elástica de inclusões sólidas.'
+  prerequisites:
+  - '20'
+  - '22'
+  - '27'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m28-oa01
+    statement: Aplicar os critérios petrográficos de Roedder e o conceito de associação de inclusões fluidas (FIA)
+      para classificar inclusões em primárias, secundárias e pseudossecundárias
+    cognitive_level: aplicar
+  - id: mineralogia-m28-oa02
+    statement: Interpretar dados de microtermometria (temperatura eutética, fusão do gelo, homogeneização e seu
+      modo) e calcular a salinidade em % em peso de NaCl equivalente
+    cognitive_level: analisar
+  - id: mineralogia-m28-oa03
+    statement: Construir e ler isócoras e combiná-las com um geotermômetro independente para estimar as condições
+      de aprisionamento
+    cognitive_level: aplicar
+  - id: mineralogia-m28-oa04
+    statement: Explicar o uso de inclusões de fundido para estimar composição de magma e teor de voláteis
+    cognitive_level: explicar
+  - id: mineralogia-m28-oa05
+    statement: Explicar a barometria elástica de inclusões sólidas (quartzo em granada) e as premissas que ela exige
+    cognitive_level: explicar
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: mineralogia-m28-a01
+      title: 'Petrografia de inclusões fluidas: Roedder e FIA'
+      status: pending
+      covers_objectives:
+      - mineralogia-m28-oa01
+    - id: mineralogia-m28-a02
+      title: Microtermometria e salinidade
+      status: pending
+      covers_objectives:
+      - mineralogia-m28-oa02
+    - id: mineralogia-m28-a03
+      title: Isócoras e P-T de aprisionamento
+      status: pending
+      covers_objectives:
+      - mineralogia-m28-oa03
+    - id: mineralogia-m28-a04
+      title: Inclusões de fundido
+      status: pending
+      covers_objectives:
+      - mineralogia-m28-oa04
+    - id: mineralogia-m28-a05
+      title: Inclusões sólidas como barômetros elásticos
+      status: pending
+      covers_objectives:
+      - mineralogia-m28-oa05
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 29
+- id: '29'
+  slug: nomenclatura-ima
+  title: 'Nomenclatura IMA: espécie, grupo e solução sólida'
+  area: IX. Mineralogia sistemática
+  objective: 'Nomear minerais como a IMA nomeia: processo de aprovação, status dos nomes, regras do constituinte
+    e da valência dominantes, hierarquia de grupos e sufixos — base obrigatória antes da sistemática.'
+  prerequisites:
+  - '02'
+  - 09
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m29-oa01
+    statement: Descrever o processo de aprovação de uma nova espécie pela IMA-CNMNC e distinguir espécie aprovada,
+      grandfathered, desacreditada e pendente
+    cognitive_level: explicar
+  - id: mineralogia-m29-oa02
+    statement: Aplicar a regra do constituinte dominante e a regra da valência dominante para nomear um membro de
+      solução sólida a partir da fórmula
+    cognitive_level: aplicar
+  - id: mineralogia-m29-oa03
+    statement: Situar uma espécie na hierarquia de classificação (classe, subclasse, família, supergrupo, grupo,
+      subgrupo) e interpretar sufixos de Levinson e prefixos
+    cognitive_level: explicar
+  lessons:
+    planned: 3
+    completed: 0
+    items:
+    - id: mineralogia-m29-a01
+      title: 'Como nasce uma espécie: a IMA-CNMNC e o status dos nomes'
+      status: pending
+      covers_objectives:
+      - mineralogia-m29-oa01
+    - id: mineralogia-m29-a02
+      title: 'Nomear solução sólida: constituinte dominante e valência dominante'
+      status: pending
+      covers_objectives:
+      - mineralogia-m29-oa02
+    - id: mineralogia-m29-a03
+      title: Hierarquia, sufixos e prefixos
+      status: pending
+      covers_objectives:
+      - mineralogia-m29-oa03
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 30
+- id: '30'
+  slug: elementos-e-sulfetos
+  title: Elementos nativos, sulfetos e sulfossais
+  area: IX. Mineralogia sistemática
+  objective: Descrever a cristaloquímica, as propriedades, a identificação e o ambiente dos elementos nativos, sulfetos
+    e sulfossais.
+  prerequisites:
+  - 08
+  - '13'
+  - '29'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m30-oa01
+    statement: Relacionar a ligação e a estrutura dos elementos nativos (metais, semimetais e não metais) às suas
+      propriedades
+    cognitive_level: analisar
+  - id: mineralogia-m30-oa02
+    statement: Descrever as estruturas-tipo dos sulfetos (esfalerita/wurtzita, galena, pirita/marcassita, calcopirita,
+      pirrotita) e o caráter de sua ligação
+    cognitive_level: explicar
+  - id: mineralogia-m30-oa03
+    statement: Distinguir sulfossais de sulfetos pela função estrutural de As, Sb e Bi
+    cognitive_level: analisar
+  - id: mineralogia-m30-oa04
+    statement: Identificar macroscopicamente os sulfetos comuns e separar pares confundíveis
+    cognitive_level: aplicar
+  - id: mineralogia-m30-oa05
+    statement: Relacionar os sulfetos a seus ambientes de formação e à sua instabilidade em condições oxidantes
+    cognitive_level: analisar
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: mineralogia-m30-a01
+      title: 'Elementos nativos: metais, semimetais e não metais'
+      status: pending
+      covers_objectives:
+      - mineralogia-m30-oa01
+    - id: mineralogia-m30-a02
+      title: Estruturas e ligação dos sulfetos
+      status: pending
+      covers_objectives:
+      - mineralogia-m30-oa02
+    - id: mineralogia-m30-a03
+      title: Sulfossais
+      status: pending
+      covers_objectives:
+      - mineralogia-m30-oa03
+    - id: mineralogia-m30-a04
+      title: Identificar sulfetos e separar os confundíveis
+      status: pending
+      covers_objectives:
+      - mineralogia-m30-oa04
+    - id: mineralogia-m30-a05
+      title: 'Sulfetos no ambiente: onde se formam e como se oxidam'
+      status: pending
+      covers_objectives:
+      - mineralogia-m30-oa05
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 31
+- id: '31'
+  slug: oxidos-hidroxidos-haletos
+  title: Óxidos, hidróxidos e haletos
+  area: IX. Mineralogia sistemática
+  objective: Descrever a cristaloquímica, as soluções sólidas, o magnetismo, a identificação e o ambiente dos óxidos,
+    hidróxidos e haletos.
+  prerequisites:
+  - 08
+  - '13'
+  - '29'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m31-oa01
+    statement: Descrever as estruturas dos óxidos simples e múltiplos (corindo-hematita, rutilo, espinélio normal
+      e inverso, crisoberilo, perovskita)
+    cognitive_level: explicar
+  - id: mineralogia-m31-oa02
+    statement: Explicar as soluções sólidas dos óxidos de Fe-Ti (magnetita-ulvöespinélio, hematita-ilmenita) e sua
+      relação com o magnetismo das rochas
+    cognitive_level: explicar
+  - id: mineralogia-m31-oa03
+    statement: Descrever os hidróxidos (gibbsita, boehmita, goethita, brucita) e seu papel no intemperismo tropical
+    cognitive_level: explicar
+  - id: mineralogia-m31-oa04
+    statement: Descrever os haletos (halita, silvita, fluorita) e relacionar estrutura a clivagem e solubilidade
+    cognitive_level: explicar
+  - id: mineralogia-m31-oa05
+    statement: Identificar os óxidos e haletos comuns em amostra de mão
+    cognitive_level: aplicar
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: mineralogia-m31-a01
+      title: 'Óxidos simples: corindo, hematita e rutilo'
+      status: pending
+      covers_objectives:
+      - mineralogia-m31-oa01
+    - id: mineralogia-m31-a02
+      title: Espinélios, crisoberilo e óxidos de Fe-Ti
+      status: pending
+      covers_objectives:
+      - mineralogia-m31-oa01
+      - mineralogia-m31-oa02
+    - id: mineralogia-m31-a03
+      title: Hidróxidos e o intemperismo tropical
+      status: pending
+      covers_objectives:
+      - mineralogia-m31-oa03
+    - id: mineralogia-m31-a04
+      title: Haletos
+      status: pending
+      covers_objectives:
+      - mineralogia-m31-oa04
+    - id: mineralogia-m31-a05
+      title: Identificação macroscópica de óxidos e haletos
+      status: pending
+      covers_objectives:
+      - mineralogia-m31-oa05
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 32
+- id: '32'
+  slug: carbonatos-sulfatos-fosfatos
+  title: Carbonatos, boratos, sulfatos, fosfatos e afins
+  area: IX. Mineralogia sistemática
+  objective: Descrever a cristaloquímica, as propriedades, a identificação e o ambiente dos carbonatos, nitratos,
+    boratos, sulfatos, fosfatos, arsenatos, vanadatos, tungstatos e molibdatos.
+  prerequisites:
+  - '13'
+  - '22'
+  - '29'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m32-oa01
+    statement: Relacionar a estrutura dos carbonatos romboédricos (calcita, dolomita, magnesita, siderita) e ortorrômbicos
+      (aragonita, cerussita) ao raio do cátion
+    cognitive_level: analisar
+  - id: mineralogia-m32-oa02
+    statement: Explicar a birrefringência extrema e as maclas da calcita e o ordenamento catiônico da dolomita
+    cognitive_level: explicar
+  - id: mineralogia-m32-oa03
+    statement: Descrever os boratos e nitratos de interesse geológico
+    cognitive_level: explicar
+  - id: mineralogia-m32-oa04
+    statement: Descrever os sulfatos (gipsita, anidrita, barita, celestina, alunita, jarosita) e relacioná-los a
+      evaporitos e à oxidação de sulfetos
+    cognitive_level: explicar
+  - id: mineralogia-m32-oa05
+    statement: Descrever fosfatos, arsenatos e vanadatos (supergrupo da apatita, monazita, xenotímio, turquesa,
+      piromorfita) e tungstatos e molibdatos (scheelita, wolframita, wulfenita)
+    cognitive_level: explicar
+  - id: mineralogia-m32-oa06
+    statement: Identificar macroscopicamente carbonatos, sulfatos e fosfatos comuns
+    cognitive_level: aplicar
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: mineralogia-m32-a01
+      title: Carbonatos romboédricos e ortorrômbicos
+      status: pending
+      covers_objectives:
+      - mineralogia-m32-oa01
+    - id: mineralogia-m32-a02
+      title: 'Calcita e dolomita: birrefringência, maclas e ordenamento'
+      status: pending
+      covers_objectives:
+      - mineralogia-m32-oa02
+    - id: mineralogia-m32-a03
+      title: Boratos e nitratos
+      status: pending
+      covers_objectives:
+      - mineralogia-m32-oa03
+    - id: mineralogia-m32-a04
+      title: Sulfatos
+      status: pending
+      covers_objectives:
+      - mineralogia-m32-oa04
+    - id: mineralogia-m32-a05
+      title: Fosfatos, arsenatos, vanadatos, tungstatos e molibdatos
+      status: pending
+      covers_objectives:
+      - mineralogia-m32-oa05
+    - id: mineralogia-m32-a06
+      title: Identificação macroscópica de carbonatos, sulfatos e fosfatos
+      status: pending
+      covers_objectives:
+      - mineralogia-m32-oa06
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 33
+- id: '33'
+  slug: silicatos-isolados-e-aneis
+  title: Neso-, soro- e ciclossilicatos
+  area: IX. Mineralogia sistemática
+  objective: Descrever estrutura, química, propriedades diagnósticas e significado petrológico dos silicatos de
+    tetraedros isolados, pares e anéis.
+  prerequisites:
+  - '11'
+  - '16'
+  - '29'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m33-oa01
+    statement: Relacionar estrutura e química da olivina (série forsterita-faialita), do supergrupo das granadas
+      e dos polimorfos de Al₂SiO₅ às suas propriedades
+    cognitive_level: analisar
+  - id: mineralogia-m33-oa02
+    statement: Descrever zircão, titanita, topázio, estaurolita e cloritoide e seu significado petrológico
+    cognitive_level: explicar
+  - id: mineralogia-m33-oa03
+    statement: Descrever os sorossilicatos (grupo do epidoto, lawsonita, vesuvianita, melilita)
+    cognitive_level: explicar
+  - id: mineralogia-m33-oa04
+    statement: Descrever os ciclossilicatos (berilo, cordierita, supergrupo da turmalina) com ênfase nos canais
+      estruturais e na química complexa
+    cognitive_level: explicar
+  - id: mineralogia-m33-oa05
+    statement: Identificar esses minerais em amostra de mão e em lâmina delgada pelas propriedades diagnósticas
+    cognitive_level: aplicar
+  lessons:
+    planned: 7
+    completed: 0
+    items:
+    - id: mineralogia-m33-a01
+      title: Olivina e a série forsterita-faialita
+      status: pending
+      covers_objectives:
+      - mineralogia-m33-oa01
+    - id: mineralogia-m33-a02
+      title: O supergrupo das granadas
+      status: pending
+      covers_objectives:
+      - mineralogia-m33-oa01
+    - id: mineralogia-m33-a03
+      title: Os polimorfos de Al₂SiO₅
+      status: pending
+      covers_objectives:
+      - mineralogia-m33-oa01
+    - id: mineralogia-m33-a04
+      title: Zircão, titanita, topázio, estaurolita e cloritoide
+      status: pending
+      covers_objectives:
+      - mineralogia-m33-oa02
+    - id: mineralogia-m33-a05
+      title: 'Sorossilicatos: epidoto, lawsonita, vesuvianita e melilita'
+      status: pending
+      covers_objectives:
+      - mineralogia-m33-oa03
+    - id: mineralogia-m33-a06
+      title: 'Ciclossilicatos: berilo, cordierita e o supergrupo da turmalina'
+      status: pending
+      covers_objectives:
+      - mineralogia-m33-oa04
+    - id: mineralogia-m33-a07
+      title: Identificação de neso-, soro- e ciclossilicatos em mão e em lâmina
+      status: pending
+      covers_objectives:
+      - mineralogia-m33-oa05
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 34
+- id: '34'
+  slug: inossilicatos
+  title: 'Inossilicatos: piroxênios, piroxenoides e anfibólios'
+  area: IX. Mineralogia sistemática
+  objective: Descrever estrutura, classificação IMA, propriedades diagnósticas e significado petrológico dos silicatos
+    de cadeia.
+  prerequisites:
+  - '11'
+  - '16'
+  - '23'
+  - '29'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m34-oa01
+    statement: Descrever a estrutura dos piroxênios (cadeia simples, sítios M1 e M2) e explicar a clivagem em ângulos
+      de ~87° e ~93°
+    cognitive_level: explicar
+  - id: mineralogia-m34-oa02
+    statement: Classificar piroxênios pelo quadrilátero Wo-En-Fs e pela nomenclatura IMA (Morimoto, 1988)
+    cognitive_level: aplicar
+  - id: mineralogia-m34-oa03
+    statement: Distinguir piroxenoides (wollastonita, rodonita) de piroxênios pela periodicidade da cadeia
+    cognitive_level: analisar
+  - id: mineralogia-m34-oa04
+    statement: Descrever a estrutura dos anfibólios (cadeia dupla, sítios A, B, C, T e o grupo OH) e explicar a
+      clivagem em ângulos de ~56° e ~124°
+    cognitive_level: explicar
+  - id: mineralogia-m34-oa05
+    statement: Classificar anfibólios pela nomenclatura IMA (Hawthorne et al., 2012) a partir da fórmula
+    cognitive_level: aplicar
+  - id: mineralogia-m34-oa06
+    statement: Distinguir piroxênio de anfibólio em amostra de mão e em lâmina delgada
+    cognitive_level: analisar
+  lessons:
+    planned: 7
+    completed: 0
+    items:
+    - id: mineralogia-m34-a01
+      title: Estrutura dos piroxênios
+      status: pending
+      covers_objectives:
+      - mineralogia-m34-oa01
+    - id: mineralogia-m34-a02
+      title: Classificação e nomenclatura dos piroxênios
+      status: pending
+      covers_objectives:
+      - mineralogia-m34-oa02
+    - id: mineralogia-m34-a03
+      title: Piroxenoides
+      status: pending
+      covers_objectives:
+      - mineralogia-m34-oa03
+    - id: mineralogia-m34-a04
+      title: Estrutura dos anfibólios
+      status: pending
+      covers_objectives:
+      - mineralogia-m34-oa04
+    - id: mineralogia-m34-a05
+      title: 'Nomenclatura dos anfibólios — Parte 1: grupos e sítios'
+      status: pending
+      covers_objectives:
+      - mineralogia-m34-oa05
+    - id: mineralogia-m34-a06
+      title: 'Nomenclatura dos anfibólios — Parte 2: classificar a partir da fórmula'
+      status: pending
+      covers_objectives:
+      - mineralogia-m34-oa05
+    - id: mineralogia-m34-a07
+      title: 'Piroxênio ou anfibólio: identificação em mão e em lâmina'
+      status: pending
+      covers_objectives:
+      - mineralogia-m34-oa06
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 35
+- id: '35'
+  slug: filossilicatos
+  title: Filossilicatos e argilominerais
+  area: IX. Mineralogia sistemática
+  objective: Descrever estrutura em camadas, classificação, politipos, química e identificação (incluindo DRX de
+    argilas) dos filossilicatos.
+  prerequisites:
+  - '11'
+  - '16'
+  - '18'
+  - '29'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m35-oa01
+    statement: Descrever as camadas tetraédrica e octaédrica, as estruturas 1:1 e 2:1, di- e trioctaédricas, e o
+      papel da intercamada
+    cognitive_level: explicar
+  - id: mineralogia-m35-oa02
+    statement: Classificar filossilicatos (serpentina-caulinita, talco-pirofilita, micas, micas frágeis, cloritas)
+      pela estrutura
+    cognitive_level: aplicar
+  - id: mineralogia-m35-oa03
+    statement: Explicar os politipos e a variação química das micas (flogopita-biotita, muscovita, lepidolita)
+    cognitive_level: explicar
+  - id: mineralogia-m35-oa04
+    statement: Classificar argilominerais (caulinita, ilita, esmectita, vermiculita, interestratificados) e explicar
+      expansividade e troca catiônica
+    cognitive_level: aplicar
+  - id: mineralogia-m35-oa05
+    statement: Identificar argilominerais por DRX em lâmina orientada (natural, glicolada, aquecida)
+    cognitive_level: aplicar
+  - id: mineralogia-m35-oa06
+    statement: Identificar filossilicatos comuns em amostra de mão e em lâmina delgada
+    cognitive_level: aplicar
+  lessons:
+    planned: 7
+    completed: 0
+    items:
+    - id: mineralogia-m35-a01
+      title: 'Camadas T e O: estruturas 1:1 e 2:1'
+      status: pending
+      covers_objectives:
+      - mineralogia-m35-oa01
+    - id: mineralogia-m35-a02
+      title: Serpentinas, caulinita, talco e pirofilita
+      status: pending
+      covers_objectives:
+      - mineralogia-m35-oa02
+    - id: mineralogia-m35-a03
+      title: Micas e micas frágeis
+      status: pending
+      covers_objectives:
+      - mineralogia-m35-oa02
+      - mineralogia-m35-oa03
+    - id: mineralogia-m35-a04
+      title: Cloritas
+      status: pending
+      covers_objectives:
+      - mineralogia-m35-oa02
+    - id: mineralogia-m35-a05
+      title: 'Argilominerais: expansão e troca catiônica'
+      status: pending
+      covers_objectives:
+      - mineralogia-m35-oa04
+    - id: mineralogia-m35-a06
+      title: DRX de argilominerais
+      status: pending
+      covers_objectives:
+      - mineralogia-m35-oa05
+    - id: mineralogia-m35-a07
+      title: Identificação de filossilicatos em mão e em lâmina
+      status: pending
+      covers_objectives:
+      - mineralogia-m35-oa06
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 36
+- id: '36'
+  slug: tectossilicatos
+  title: 'Tectossilicatos: sílica, feldspatos, feldspatoides e zeólitas'
+  area: IX. Mineralogia sistemática
+  objective: Descrever estrutura, química, estado estrutural, exsolução, identificação óptica e significado petrológico
+    dos tectossilicatos, em nível de disciplina de graduação, com remissão ao módulo avançado de tectossilicatos
+    para aprofundamento.
+  prerequisites:
+  - '10'
+  - '11'
+  - '16'
+  - '23'
+  - '29'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m36-oa01
+    statement: Distinguir os polimorfos de SiO₂ por estrutura, campo de estabilidade e tipo de transformação, e
+      as formas microcristalinas e amorfas (calcedônia, opala)
+    cognitive_level: analisar
+  - id: mineralogia-m36-oa02
+    statement: Classificar feldspatos no ternário An-Ab-Or e relacionar o estado estrutural (sanidina, ortoclásio,
+      microclínio) à história térmica
+    cognitive_level: aplicar
+  - id: mineralogia-m36-oa03
+    statement: Interpretar solvus, exsolução e pertitas nos feldspatos alcalinos e reconhecer os intercrescimentos
+      submicroscópicos dos plagioclásios
+    cognitive_level: analisar
+  - id: mineralogia-m36-oa04
+    statement: Identificar feldspatos por maclas e propriedades ópticas e estimar o teor de anortita do plagioclásio
+      pelo método de Michel-Lévy
+    cognitive_level: aplicar
+  - id: mineralogia-m36-oa05
+    statement: Descrever feldspatoides (nefelina, leucita, sodalita), zeólitas e escapolita e explicar a incompatibilidade
+      entre feldspatoide e quartzo
+    cognitive_level: explicar
+  lessons:
+    planned: 7
+    completed: 0
+    items:
+    - id: mineralogia-m36-a01
+      title: 'Grupo da sílica: polimorfos e formas microcristalinas'
+      status: pending
+      covers_objectives:
+      - mineralogia-m36-oa01
+    - id: mineralogia-m36-a02
+      title: 'Feldspatos: química, estrutura e o ternário'
+      status: pending
+      covers_objectives:
+      - mineralogia-m36-oa02
+    - id: mineralogia-m36-a03
+      title: Estado estrutural dos feldspatos potássicos
+      status: pending
+      covers_objectives:
+      - mineralogia-m36-oa02
+    - id: mineralogia-m36-a04
+      title: Exsolução e intercrescimentos nos feldspatos
+      status: pending
+      covers_objectives:
+      - mineralogia-m36-oa03
+    - id: mineralogia-m36-a05
+      title: Feldspatos ao microscópio e o teor de anortita
+      status: pending
+      covers_objectives:
+      - mineralogia-m36-oa04
+    - id: mineralogia-m36-a06
+      title: Feldspatoides
+      status: pending
+      covers_objectives:
+      - mineralogia-m36-oa05
+    - id: mineralogia-m36-a07
+      title: Zeólitas e escapolita
+      status: pending
+      covers_objectives:
+      - mineralogia-m36-oa05
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 37
+- id: '37'
+  slug: paragenese
+  title: 'Paragênese: princípios e método'
+  area: X. Gênese e paragênese
+  objective: 'Dar o método de leitura de assembleias minerais: assembleia × associação × paragênese, sequência paragenética
+    por critério textural, equilíbrio × desequilíbrio e diagramas de atividade e Eh-pH.'
+  prerequisites:
+  - '13'
+  - '22'
+  - '27'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m37-oa01
+    statement: Distinguir assembleia, associação e paragênese e aplicar a regra das fases mineralógica
+    cognitive_level: analisar
+  - id: mineralogia-m37-oa02
+    statement: Estabelecer uma sequência paragenética a partir de critérios texturais de tempo relativo, declarando
+      o grau de confiança de cada inferência
+    cognitive_level: analisar
+  - id: mineralogia-m37-oa03
+    statement: Reconhecer texturas de desequilíbrio (coronas, reações incompletas, relictos) e distingui-las de
+      coexistência em equilíbrio
+    cognitive_level: aplicar
+  - id: mineralogia-m37-oa04
+    statement: Ler diagramas de atividade e diagramas Eh-pH simples e usá-los para prever a estabilidade de fases
+    cognitive_level: aplicar
+  lessons:
+    planned: 4
+    completed: 0
+    items:
+    - id: mineralogia-m37-a01
+      title: Assembleia, associação e paragênese; a regra das fases mineralógica
+      status: pending
+      covers_objectives:
+      - mineralogia-m37-oa01
+    - id: mineralogia-m37-a02
+      title: 'Sequência paragenética: critérios texturais de tempo relativo'
+      status: pending
+      covers_objectives:
+      - mineralogia-m37-oa02
+    - id: mineralogia-m37-a03
+      title: 'Equilíbrio e desequilíbrio: coronas, relictos e reações incompletas'
+      status: pending
+      covers_objectives:
+      - mineralogia-m37-oa03
+    - id: mineralogia-m37-a04
+      title: Diagramas de atividade e Eh-pH
+      status: pending
+      covers_objectives:
+      - mineralogia-m37-oa04
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 38
+- id: '38'
+  slug: genese-magmatica-e-pegmatitica
+  title: Minerais de ambiente magmático e pegmatítico
+  area: X. Gênese e paragênese
+  objective: Explicar a mineralogia de rochas ígneas e de pegmatitos a partir dos diagramas de fase, da química
+    do magma e da fase fluida, e ler texturas ígneas de crescimento.
+  prerequisites:
+  - '23'
+  - '33'
+  - '34'
+  - '35'
+  - '36'
+  - '37'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m38-oa01
+    statement: Relacionar a série de reação de Bowen e os diagramas de fase à sequência de cristalização mineral
+      em magmas
+    cognitive_level: analisar
+  - id: mineralogia-m38-oa02
+    statement: Relacionar a mineralogia de rochas ígneas à saturação do magma em sílica e em alumina
+    cognitive_level: analisar
+  - id: mineralogia-m38-oa03
+    statement: Explicar a gênese e o zoneamento dos pegmatitos e o papel de fluxantes e da fase fluida
+    cognitive_level: explicar
+  - id: mineralogia-m38-oa04
+    statement: Descrever as assembleias de pegmatitos LCT e NYF e a formação de cavidades miarolíticas e de cristais
+      de coleção
+    cognitive_level: explicar
+  - id: mineralogia-m38-oa05
+    statement: Interpretar texturas ígneas de crescimento (zoneamento em plagioclásio, textura gráfica, crescimento
+      unidirecional)
+    cognitive_level: analisar
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: mineralogia-m38-a01
+      title: A sequência de cristalização magmática
+      status: pending
+      covers_objectives:
+      - mineralogia-m38-oa01
+    - id: mineralogia-m38-a02
+      title: Saturação em sílica e em alumina e a mineralogia ígnea
+      status: pending
+      covers_objectives:
+      - mineralogia-m38-oa02
+    - id: mineralogia-m38-a03
+      title: Texturas de cristalização ígnea
+      status: pending
+      covers_objectives:
+      - mineralogia-m38-oa05
+    - id: mineralogia-m38-a04
+      title: 'Pegmatitos: gênese, zoneamento e fluidos'
+      status: pending
+      covers_objectives:
+      - mineralogia-m38-oa03
+    - id: mineralogia-m38-a05
+      title: Pegmatitos LCT e NYF e as cavidades miarolíticas
+      status: pending
+      covers_objectives:
+      - mineralogia-m38-oa04
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 39
+- id: '39'
+  slug: genese-hidrotermal
+  title: Minerais de ambiente hidrotermal
+  area: X. Gênese e paragênese
+  objective: Explicar o transporte e a precipitação de componentes por fluidos, as assembleias de alteração, as
+    texturas de veio e a mineralogia dos grandes sistemas hidrotermais e das cavidades de cristais de coleção.
+  prerequisites:
+  - '30'
+  - '31'
+  - '32'
+  - '35'
+  - '37'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m39-oa01
+    statement: Explicar a solubilidade e o transporte de metais em fluidos (complexos aquosos de cloreto e bissulfeto)
+      e os mecanismos de precipitação (resfriamento, ebulição, mistura, reação com a rocha)
+    cognitive_level: explicar
+  - id: mineralogia-m39-oa02
+    statement: Relacionar assembleias de alteração hidrotermal (potássica, fílica, argílica, propilítica) a temperatura
+      e pH
+    cognitive_level: analisar
+  - id: mineralogia-m39-oa03
+    statement: Descrever texturas de veio e de preenchimento de cavidade (crustiforme, coloforme, em pente, lamelar)
+      e interpretá-las
+    cognitive_level: explicar
+  - id: mineralogia-m39-oa04
+    statement: Descrever a mineralogia de escarnitos, pórfiros, depósitos epitermais e fendas alpinas como ambientes
+      de formação de cristais
+    cognitive_level: explicar
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: mineralogia-m39-a01
+      title: 'Fluidos hidrotermais: complexos, solubilidade e precipitação'
+      status: pending
+      covers_objectives:
+      - mineralogia-m39-oa01
+    - id: mineralogia-m39-a02
+      title: Alteração hidrotermal e suas assembleias
+      status: pending
+      covers_objectives:
+      - mineralogia-m39-oa02
+    - id: mineralogia-m39-a03
+      title: Texturas de veio e de preenchimento
+      status: pending
+      covers_objectives:
+      - mineralogia-m39-oa03
+    - id: mineralogia-m39-a04
+      title: Escarnitos, pórfiros e epitermais
+      status: pending
+      covers_objectives:
+      - mineralogia-m39-oa04
+    - id: mineralogia-m39-a05
+      title: 'Fendas alpinas e cavidades: os cristais de coleção hidrotermais'
+      status: pending
+      covers_objectives:
+      - mineralogia-m39-oa04
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 40
+- id: '40'
+  slug: genese-metamorfica
+  title: Minerais de ambiente metamórfico
+  area: X. Gênese e paragênese
+  objective: Explicar reações metamórficas, minerais índice e fácies, porfiroblastos e suas inclusões, zoneamento
+    de granada e metassomatismo.
+  prerequisites:
+  - '33'
+  - '34'
+  - '35'
+  - '36'
+  - '37'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m40-oa01
+    statement: Explicar as reações metamórficas (sólido-sólido e de desvolatilização) e sua dependência de pressão,
+      temperatura e fluido
+    cognitive_level: explicar
+  - id: mineralogia-m40-oa02
+    statement: Usar minerais índice, zonas de Barrow e fácies metamórficas para estimar condições de formação
+    cognitive_level: aplicar
+  - id: mineralogia-m40-oa03
+    statement: Interpretar porfiroblastos e suas trilhas de inclusões (pré-, sin- e pós-cinemáticos) como registro
+      de crescimento e deformação
+    cognitive_level: analisar
+  - id: mineralogia-m40-oa04
+    statement: Interpretar o zoneamento de granada como registro de trajetória P-T, distinguindo zoneamento de crescimento
+      de zoneamento de difusão
+    cognitive_level: analisar
+  - id: mineralogia-m40-oa05
+    statement: Descrever o metassomatismo de contato e regional e as assembleias resultantes
+    cognitive_level: explicar
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: mineralogia-m40-a01
+      title: Reações metamórficas
+      status: pending
+      covers_objectives:
+      - mineralogia-m40-oa01
+    - id: mineralogia-m40-a02
+      title: Minerais índice, zonas e fácies
+      status: pending
+      covers_objectives:
+      - mineralogia-m40-oa02
+    - id: mineralogia-m40-a03
+      title: Porfiroblastos e suas inclusões
+      status: pending
+      covers_objectives:
+      - mineralogia-m40-oa03
+    - id: mineralogia-m40-a04
+      title: Zoneamento de granada e trajetórias P-T
+      status: pending
+      covers_objectives:
+      - mineralogia-m40-oa04
+    - id: mineralogia-m40-a05
+      title: Metassomatismo e minerais de contato
+      status: pending
+      covers_objectives:
+      - mineralogia-m40-oa05
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 41
+- id: '41'
+  slug: genese-superficial
+  title: Minerais de ambiente sedimentar, diagenético, evaporítico e supergênico
+  area: X. Gênese e paragênese
+  objective: 'Explicar a mineralogia formada na superfície e próximo a ela: intemperismo, argilas e lateritas, evaporitos,
+    minerais autigênicos e diagenéticos, e a zona supergênica dos depósitos de sulfetos.'
+  prerequisites:
+  - '31'
+  - '32'
+  - '35'
+  - '36'
+  - '37'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m41-oa01
+    statement: Explicar o intemperismo químico (hidrólise, oxidação, dissolução) e a estabilidade relativa dos minerais
+      na superfície (série de Goldich)
+    cognitive_level: explicar
+  - id: mineralogia-m41-oa02
+    statement: Relacionar a formação de argilominerais e de óxidos e hidróxidos ao clima e à drenagem (laterita,
+      bauxita)
+    cognitive_level: analisar
+  - id: mineralogia-m41-oa03
+    statement: Explicar a sequência de precipitação evaporítica e a mineralogia dos evaporitos
+    cognitive_level: explicar
+  - id: mineralogia-m41-oa04
+    statement: Descrever minerais autigênicos e diagenéticos (cimentos, sobrecrescimento sintaxial de quartzo, glauconita,
+      dolomitização)
+    cognitive_level: explicar
+  - id: mineralogia-m41-oa05
+    statement: Explicar o perfil supergênico de um depósito de sulfetos (gossan, zona oxidada, zona de enriquecimento)
+      e a mineralogia secundária de Cu, Pb e Zn usando diagramas Eh-pH
+    cognitive_level: explicar
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: mineralogia-m41-a01
+      title: Intemperismo químico e a série de Goldich
+      status: pending
+      covers_objectives:
+      - mineralogia-m41-oa01
+    - id: mineralogia-m41-a02
+      title: 'Solos, lateritas e bauxitas: a mineralogia do intemperismo'
+      status: pending
+      covers_objectives:
+      - mineralogia-m41-oa02
+    - id: mineralogia-m41-a03
+      title: Evaporitos
+      status: pending
+      covers_objectives:
+      - mineralogia-m41-oa03
+    - id: mineralogia-m41-a04
+      title: Diagênese e minerais autigênicos
+      status: pending
+      covers_objectives:
+      - mineralogia-m41-oa04
+    - id: mineralogia-m41-a05
+      title: 'O perfil supergênico: gossan, oxidação e enriquecimento'
+      status: pending
+      covers_objectives:
+      - mineralogia-m41-oa05
+    - id: mineralogia-m41-a06
+      title: 'Minerais secundários de Cu, Pb e Zn: Eh-pH aplicado'
+      status: pending
+      covers_objectives:
+      - mineralogia-m41-oa05
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: aprofundamento (aprofundamento) — módulo 42
+- id: '42'
+  slug: geotermobarometria
+  title: Geotermobarometria básica
+  area: X. Gênese e paragênese
+  objective: Aplicar o equilíbrio entre fases minerais para estimar pressão e temperatura e avaliar criticamente
+    o resultado.
+  prerequisites:
+  - '19'
+  - '23'
+  - '33'
+  - '36'
+  - '40'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m42-oa01
+    statement: Distinguir termômetros de troca, barômetros de transferência líquida e termômetros de solvus e explicar
+      por que cada um é sensível a temperatura ou a pressão
+    cognitive_level: analisar
+  - id: mineralogia-m42-oa02
+    statement: Aplicar o termômetro granada-biotita e o barômetro GASP a um exemplo numérico
+    cognitive_level: aplicar
+  - id: mineralogia-m42-oa03
+    statement: Aplicar termômetros de elemento-traço (Ti em zircão, Zr em rutilo, Ti em quartzo) e reconhecer suas
+      premissas de atividade e equilíbrio
+    cognitive_level: aplicar
+  - id: mineralogia-m42-oa04
+    statement: Avaliar criticamente um resultado termobarométrico (equilíbrio, reequilíbrio difusivo, incerteza)
+      e situar as pseudosseções como ferramenta
+    cognitive_level: analisar
+  lessons:
+    planned: 4
+    completed: 0
+    items:
+    - id: mineralogia-m42-a01
+      title: 'Termômetros e barômetros: por que uma reação mede T ou P'
+      status: pending
+      covers_objectives:
+      - mineralogia-m42-oa01
+    - id: mineralogia-m42-a02
+      title: Granada-biotita e GASP
+      status: pending
+      covers_objectives:
+      - mineralogia-m42-oa02
+    - id: mineralogia-m42-a03
+      title: Termômetros de elemento-traço
+      status: pending
+      covers_objectives:
+      - mineralogia-m42-oa03
+    - id: mineralogia-m42-a04
+      title: 'Crítica do resultado: equilíbrio, reequilíbrio e incerteza'
+      status: pending
+      covers_objectives:
+      - mineralogia-m42-oa04
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: aprofundamento (aprofundamento) — módulo 43
+- id: '43'
+  slug: manto-e-alta-pressao
+  title: Minerais do manto profundo, de alta pressão e de impacto
+  area: X. Gênese e paragênese
+  objective: 'Estender a mineralogia para além da crosta: transformações de fase no manto, diamante e suas inclusões,
+    minerais de choque e minerais de meteoritos.'
+  prerequisites:
+  - '22'
+  - '27'
+  - '33'
+  - '36'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m43-oa01
+    statement: Descrever a sequência de transformações de fase no manto (olivina, wadsleyíta, ringwoodita, bridgmanita
+      e ferropericlásio) e relacioná-la às descontinuidades sísmicas
+    cognitive_level: explicar
+  - id: mineralogia-m43-oa02
+    statement: Explicar as inclusões em diamante como amostras do manto e apresentar o debate protogenético × singenético
+      com a evidência de cada lado
+    cognitive_level: explicar
+  - id: mineralogia-m43-oa03
+    statement: Reconhecer minerais e feições de choque (coesita, stishovita, feições planares de deformação em quartzo)
+      como evidência de impacto
+    cognitive_level: aplicar
+  - id: mineralogia-m43-oa04
+    statement: Descrever as assembleias minerais características dos grandes grupos de meteoritos e o que informam
+      sobre a formação do Sistema Solar
+    cognitive_level: explicar
+  lessons:
+    planned: 4
+    completed: 0
+    items:
+    - id: mineralogia-m43-a01
+      title: 'O manto em transformação: da olivina à bridgmanita'
+      status: pending
+      covers_objectives:
+      - mineralogia-m43-oa01
+    - id: mineralogia-m43-a02
+      title: Diamante e suas inclusões como amostras do manto
+      status: pending
+      covers_objectives:
+      - mineralogia-m43-oa02
+    - id: mineralogia-m43-a03
+      title: Minerais de choque e evidência de impacto
+      status: pending
+      covers_objectives:
+      - mineralogia-m43-oa03
+    - id: mineralogia-m43-a04
+      title: Minerais de meteoritos
+      status: pending
+      covers_objectives:
+      - mineralogia-m43-oa04
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: aprofundamento (aprofundamento) — módulo 44
+- id: '44'
+  slug: evolucao-mineral
+  title: Evolução mineral e ecologia mineral
+  area: XI. Mineralogia no tempo e na vida
+  objective: 'Situar a diversidade mineral no tempo: a evolução mineral de Hazen e colaboradores, o papel da oxigenação
+    e da vida e a ecologia mineral.'
+  prerequisites:
+  - '03'
+  - '41'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m44-oa01
+    statement: Explicar o conceito de evolução mineral (Hazen et al., 2008) e os estágios propostos de diversificação
+    cognitive_level: explicar
+  - id: mineralogia-m44-oa02
+    statement: Relacionar o Grande Evento de Oxidação ao surgimento de novas espécies minerais
+    cognitive_level: analisar
+  - id: mineralogia-m44-oa03
+    statement: Explicar a ecologia mineral (distribuição de frequência de espécies raras, previsão de minerais não
+      descobertos) e a proposta de um sistema evolutivo de mineralogia
+    cognitive_level: explicar
+  lessons:
+    planned: 3
+    completed: 0
+    items:
+    - id: mineralogia-m44-a01
+      title: 'Evolução mineral: estágios e diversificação'
+      status: pending
+      covers_objectives:
+      - mineralogia-m44-oa01
+    - id: mineralogia-m44-a02
+      title: 'Oxigênio e vida: o Grande Evento de Oxidação na mineralogia'
+      status: pending
+      covers_objectives:
+      - mineralogia-m44-oa02
+    - id: mineralogia-m44-a03
+      title: Ecologia mineral e o sistema evolutivo de mineralogia
+      status: pending
+      covers_objectives:
+      - mineralogia-m44-oa03
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: aprofundamento (aprofundamento) — módulo 45
+- id: '45'
+  slug: biomineralizacao
+  title: Biomineralização
+  area: XI. Mineralogia no tempo e na vida
+  objective: Explicar como organismos formam minerais, os principais biominerais e o status dos materiais biogênicos
+    na definição de mineral, e aplicar critérios de biogenicidade.
+  prerequisites:
+  - '32'
+  - '41'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m45-oa01
+    statement: Distinguir biomineralização controlada e induzida (Lowenstam) e explicar o status dos materiais biogênicos
+      na definição da IMA
+    cognitive_level: analisar
+  - id: mineralogia-m45-oa02
+    statement: Descrever os biominerais de carbonato, fosfato e sílica e o papel de precursores amorfos
+    cognitive_level: explicar
+  - id: mineralogia-m45-oa03
+    statement: Descrever a magnetita magnetotática, os oxalatos biogênicos e os minerais orgânicos
+    cognitive_level: explicar
+  - id: mineralogia-m45-oa04
+    statement: Aplicar critérios de biogenicidade a um mineral e reconhecer suas armadilhas
+    cognitive_level: aplicar
+  lessons:
+    planned: 4
+    completed: 0
+    items:
+    - id: mineralogia-m45-a01
+      title: Biomineralização controlada e induzida; biominerais e a definição IMA
+      status: pending
+      covers_objectives:
+      - mineralogia-m45-oa01
+    - id: mineralogia-m45-a02
+      title: Carbonatos biogênicos e o caminho do precursor amorfo
+      status: pending
+      covers_objectives:
+      - mineralogia-m45-oa02
+    - id: mineralogia-m45-a03
+      title: Fosfatos, sílica, magnetita e oxalatos
+      status: pending
+      covers_objectives:
+      - mineralogia-m45-oa02
+      - mineralogia-m45-oa03
+    - id: mineralogia-m45-a04
+      title: Critérios de biogenicidade
+      status: pending
+      covers_objectives:
+      - mineralogia-m45-oa04
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: aprofundamento (aprofundamento) — módulo 46
+- id: '46'
+  slug: monografias-silicatos
+  title: 'Espécies minerais I: quartzo, granada, turmalina, berilo e zircão'
+  area: XII. Espécies minerais e mineralogia gemológica
+  objective: Integrar, em estudos de caso por espécie ou grupo, cristalografia, cristaloquímica, polimorfismo, gênese,
+    texturas e identificação de cinco silicatos-chave — em chave mineralógica, não gemológica.
+  prerequisites:
+  - '27'
+  - '33'
+  - '36'
+  - '38'
+  - '39'
+  - '40'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m46-oa01
+    statement: Integrar estrutura, polimorfismo, maclas, hábitos, gênese e texturas do quartzo para explicar suas
+      variedades e morfologias
+    cognitive_level: analisar
+  - id: mineralogia-m46-oa02
+    statement: Explicar como a química do supergrupo das granadas e seu zoneamento registram condições de formação
+    cognitive_level: explicar
+  - id: mineralogia-m46-oa03
+    statement: Relacionar a complexidade química do supergrupo da turmalina ao zoneamento de cor e à gênese pegmatítica
+      e hidrotermal
+    cognitive_level: analisar
+  - id: mineralogia-m46-oa04
+    statement: Relacionar os constituintes dos canais estruturais do berilo e seus cromóforos à gênese em pegmatito
+      e em xisto
+    cognitive_level: analisar
+  - id: mineralogia-m46-oa05
+    statement: Explicar por que o zircão é o mineral-chave da geocronologia (estrutura, U-Th, metamictização, zoneamento
+      em catodoluminescência)
+    cognitive_level: explicar
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: mineralogia-m46-a01
+      title: 'Quartzo: estrutura, maclas, hábitos e ambientes'
+      status: pending
+      covers_objectives:
+      - mineralogia-m46-oa01
+    - id: mineralogia-m46-a02
+      title: 'Granadas: química, zoneamento e condições de formação'
+      status: pending
+      covers_objectives:
+      - mineralogia-m46-oa02
+    - id: mineralogia-m46-a03
+      title: 'Turmalinas: química complexa, zoneamento e gênese'
+      status: pending
+      covers_objectives:
+      - mineralogia-m46-oa03
+    - id: mineralogia-m46-a04
+      title: 'Berilo: canais estruturais, cromóforos e gênese'
+      status: pending
+      covers_objectives:
+      - mineralogia-m46-oa04
+    - id: mineralogia-m46-a05
+      title: 'Zircão: o cronômetro mineral'
+      status: pending
+      covers_objectives:
+      - mineralogia-m46-oa05
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: aprofundamento (aprofundamento) — módulo 47
+- id: '47'
+  slug: monografias-nao-silicatos
+  title: 'Espécies minerais II: coríndon, espinélio, calcita, fluorita, pirita e apatita'
+  area: XII. Espécies minerais e mineralogia gemológica
+  objective: Integrar, em estudos de caso por espécie, a mineralogia completa de seis não silicatos importantes
+    para a geologia e para a coleção.
+  prerequisites:
+  - '27'
+  - '30'
+  - '31'
+  - '32'
+  - '39'
+  - '40'
+  - '41'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m47-oa01
+    statement: Relacionar a estrutura e os cromóforos do coríndon à sua gênese em ambientes pobres em sílica
+    cognitive_level: analisar
+  - id: mineralogia-m47-oa02
+    statement: Explicar a estrutura normal e inversa, a solução sólida e a gênese do espinélio
+    cognitive_level: explicar
+  - id: mineralogia-m47-oa03
+    statement: Relacionar polimorfismo, maclas e controle ambiental do hábito na calcita e na aragonita
+    cognitive_level: analisar
+  - id: mineralogia-m47-oa04
+    statement: Explicar o hábito, o zoneamento de cor, a fluorescência e os centros de cor da fluorita
+    cognitive_level: explicar
+  - id: mineralogia-m47-oa05
+    statement: Relacionar os hábitos da pirita (cubo, piritoedro, octaedro), suas estrias, pseudomorfoses e oxidação
+      à estrutura e ao ambiente
+    cognitive_level: analisar
+  - id: mineralogia-m47-oa06
+    statement: Explicar as substituições no supergrupo da apatita e seu duplo papel de mineral acessório e de biomineral
+    cognitive_level: explicar
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: mineralogia-m47-a01
+      title: 'Coríndon: estrutura, cromóforos e ambientes pobres em sílica'
+      status: pending
+      covers_objectives:
+      - mineralogia-m47-oa01
+    - id: mineralogia-m47-a02
+      title: 'Espinélio: estrutura, solução sólida e gênese'
+      status: pending
+      covers_objectives:
+      - mineralogia-m47-oa02
+    - id: mineralogia-m47-a03
+      title: 'Calcita e aragonita: polimorfismo, maclas e hábito'
+      status: pending
+      covers_objectives:
+      - mineralogia-m47-oa03
+    - id: mineralogia-m47-a04
+      title: 'Fluorita: hábito, zoneamento de cor e centros de cor'
+      status: pending
+      covers_objectives:
+      - mineralogia-m47-oa04
+    - id: mineralogia-m47-a05
+      title: 'Pirita: hábitos, estrias, pseudomorfoses e oxidação'
+      status: pending
+      covers_objectives:
+      - mineralogia-m47-oa05
+    - id: mineralogia-m47-a06
+      title: 'Apatita: substituições, acessório e biomineral'
+      status: pending
+      covers_objectives:
+      - mineralogia-m47-oa06
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: aprofundamento (aprofundamento) — módulo 48
+- id: '48'
+  slug: gemologica-cor-e-optica
+  title: 'Mineralogia gemológica I: cor, fenômenos ópticos e óptica das gemas pela estrutura'
+  area: XII. Espécies minerais e mineralogia gemológica
+  objective: 'Explicar pela cristaloquímica e pela física do estado sólido o que a gemologia observa: causas de
+    cor, fenômenos ópticos e a relação entre indicatriz e instrumentos gemológicos.'
+  prerequisites:
+  - '12'
+  - '16'
+  - '20'
+  - '24'
+  - '31'
+  - '33'
+  - '36'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m48-oa01
+    statement: Aplicar a teoria do campo cristalino para explicar a cor de minerais com metais de transição e o
+      efeito da coordenação e da força do campo
+    cognitive_level: aplicar
+  - id: mineralogia-m48-oa02
+    statement: Explicar pelo campo cristalino por que o Cr³⁺ produz vermelho no rubi, verde na esmeralda e mudança
+      de cor na alexandrita
+    cognitive_level: explicar
+  - id: mineralogia-m48-oa03
+    statement: Explicar a transferência de carga (intervalência e ligante-metal), os centros de cor e a cor por
+      bandas de energia, com exemplos
+    cognitive_level: explicar
+  - id: mineralogia-m48-oa04
+    statement: Explicar a cor estrutural (opala, labradorescência, adularescência) por difração e interferência
+      em estruturas periódicas ou lamelares
+    cognitive_level: explicar
+  - id: mineralogia-m48-oa05
+    statement: Relacionar asterismo e chatoyance a inclusões orientadas formadas por exsolução
+    cognitive_level: analisar
+  - id: mineralogia-m48-oa06
+    statement: Relacionar as leituras de refratômetro, polariscópio e dicroscópio à indicatriz e ao pleocroísmo
+    cognitive_level: analisar
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: mineralogia-m48-a01
+      title: A teoria do campo cristalino
+      status: pending
+      covers_objectives:
+      - mineralogia-m48-oa01
+    - id: mineralogia-m48-a02
+      title: 'Cr³⁺: rubi, esmeralda e alexandrita'
+      status: pending
+      covers_objectives:
+      - mineralogia-m48-oa02
+    - id: mineralogia-m48-a03
+      title: Transferência de carga, centros de cor e cor por bandas
+      status: pending
+      covers_objectives:
+      - mineralogia-m48-oa03
+    - id: mineralogia-m48-a04
+      title: 'Cor estrutural: opala, labradorescência e adularescência'
+      status: pending
+      covers_objectives:
+      - mineralogia-m48-oa04
+    - id: mineralogia-m48-a05
+      title: 'Asterismo e chatoyance: inclusões orientadas por exsolução'
+      status: pending
+      covers_objectives:
+      - mineralogia-m48-oa05
+    - id: mineralogia-m48-a06
+      title: Da indicatriz ao refratômetro, polariscópio e dicroscópio
+      status: pending
+      covers_objectives:
+      - mineralogia-m48-oa06
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: aprofundamento (aprofundamento) — módulo 49
+- id: '49'
+  slug: gemologica-tratamentos-sintese
+  title: 'Mineralogia gemológica II: tratamentos, síntese e inclusões diagnósticas pela estrutura'
+  area: XII. Espécies minerais e mineralogia gemológica
+  objective: Explicar tratamentos como química de defeitos e difusão, a síntese como aplicação do crescimento cristalino
+    e as inclusões diagnósticas como consequência de cada rota de formação.
+  prerequisites:
+  - '24'
+  - '25'
+  - '26'
+  - '27'
+  - '48'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m49-oa01
+    statement: Explicar o tratamento térmico como mudança de valência, dissolução de inclusões e difusão
+    cognitive_level: explicar
+  - id: mineralogia-m49-oa02
+    statement: Explicar irradiação e HPHT como criação e modificação de defeitos (centros de cor, agregação de nitrogênio)
+    cognitive_level: explicar
+  - id: mineralogia-m49-oa03
+    statement: Relacionar cada rota de síntese (Verneuil, Czochralski, fluxo, hidrotermal, HPHT, CVD) aos princípios
+      de crescimento cristalino e às feições que ela deixa
+    cognitive_level: analisar
+  - id: mineralogia-m49-oa04
+    statement: Distinguir material natural, sintético e tratado pelas inclusões e feições de crescimento diagnósticas,
+      declarando os limites do critério
+    cognitive_level: analisar
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: mineralogia-m49-a01
+      title: Tratamento térmico como química de defeitos e difusão
+      status: pending
+      covers_objectives:
+      - mineralogia-m49-oa01
+    - id: mineralogia-m49-a02
+      title: 'Irradiação e HPHT: criar e modificar defeitos'
+      status: pending
+      covers_objectives:
+      - mineralogia-m49-oa02
+    - id: mineralogia-m49-a03
+      title: 'Síntese por fusão: Verneuil e Czochralski'
+      status: pending
+      covers_objectives:
+      - mineralogia-m49-oa03
+    - id: mineralogia-m49-a04
+      title: 'Síntese por solução e vapor: fluxo, hidrotermal, HPHT e CVD'
+      status: pending
+      covers_objectives:
+      - mineralogia-m49-oa03
+    - id: mineralogia-m49-a05
+      title: 'Inclusões diagnósticas: natural, sintético e tratado'
+      status: pending
+      covers_objectives:
+      - mineralogia-m49-oa04
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending
+# trilha: nucleo (núcleo) — módulo 50
+- id: '50'
+  slug: catalogacao-de-especimes
+  title: Descrever e catalogar espécimes de coleção
+  area: XIII. Catalogação de espécimes
+  objective: Fechar o núcleo aplicando todo o curso à descrição rigorosa de um espécime de coleção, com os campos
+    de catalogação do usuário e a escada de inferência como método.
+  prerequisites:
+  - '13'
+  - '27'
+  - '37'
+  - '38'
+  - '39'
+  - '40'
+  - '41'
+  status: pending
+  learning_objectives:
+  - id: mineralogia-m50-oa01
+    statement: Descrever um espécime pelos campos cristalográficos, morfológicos e texturais (hábito, formas, maclas,
+      zoneamento, fantasmas, inclusões, sobrecrescimentos)
+    cognitive_level: explicar
+  - id: mineralogia-m50-oa02
+    statement: Descrever superfície e alteração, associação mineralógica e paragênese, propriedades visuais e propriedades
+      físicas variáveis de um espécime
+    cognitive_level: explicar
+  - id: mineralogia-m50-oa03
+    statement: Redigir a ficha de um espécime separando observação, descrição interpretativa, interpretação genética
+      e hipótese de processo, com grau de confiança e testes pendentes
+    cognitive_level: aplicar
+  lessons:
+    planned: 3
+    completed: 0
+    items:
+    - id: mineralogia-m50-a01
+      title: Campos cristalográficos, morfológicos e texturais
+      status: pending
+      covers_objectives:
+      - mineralogia-m50-oa01
+    - id: mineralogia-m50-a02
+      title: Superfície, alteração, associação e propriedades variáveis
+      status: pending
+      covers_objectives:
+      - mineralogia-m50-oa02
+    - id: mineralogia-m50-a03
+      title: 'Da observação à hipótese: redigir a ficha do espécime'
+      status: pending
+      covers_objectives:
+      - mineralogia-m50-oa03
+  audit:
+    status: pending
+  didactic_review:
+    status: pending
+  assessment:
+    status: pending
+  flashcards:
+    status: pending

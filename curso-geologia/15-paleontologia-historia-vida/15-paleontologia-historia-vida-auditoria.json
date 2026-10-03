@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "15-paleontologia-historia-vida",
+    "module_id": "15",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-17",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 0,
+    "yellow": 0,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 16
+  },
+  "findings": [],
+  "verified_claims": [
+    {"claim_id":"PAL-TAFONOMIA-001","claim":"A preservação fóssil é seletiva e depende da história pós-morte e pós-soterramento.","source":"USGS, The Making of a Fossil; Schopf (1975)","confidence":"confirmado"},
+    {"claim_id":"PAL-ICZN-001","claim":"O nome zoológico de espécie é binominal, formado por nome genérico e nome específico.","source":"ICZN, Artigo 5, consultado em 2026-08-17","confidence":"confirmado"},
+    {"claim_id":"PAL-FILOGENIA-001","claim":"Um clado reúne um ancestral e todos os seus descendentes; uma filogenia é hipótese de parentesco.","source":"ICZN, Artigo 1; literatura de sistemática","confidence":"provavel"},
+    {"claim_id":"PAL-REGISTRO-001","claim":"Composição corporal e contexto deposicional afetam a preservação do registro fóssil.","source":"USGS, Fossil Succession","confidence":"confirmado"},
+    {"claim_id":"PAL-GRUPOS-001","claim":"Invertebrado não é um clado; vertebrados pertencem aos cordados.","source":"PBDB; Treatise on Invertebrate Paleontology","confidence":"provavel"},
+    {"claim_id":"PAL-IDENTIFICACAO-001","claim":"Identificação taxonômica requer caracteres diagnósticos e pode permanecer indeterminada.","source":"Treatise on Invertebrate Paleontology; PBDB","confidence":"confirmado"},
+    {"claim_id":"PAL-TRILOBITA-001","claim":"Trilobitas são artrópodes extintos, segmentados, com três regiões longitudinais aparentes.","source":"PBDB; Treatise on Invertebrate Paleontology","confidence":"confirmado"},
+    {"claim_id":"PAL-BRACHIOPODA-001","claim":"Braquiópodes e bivalves têm duas valvas, mas diferem no padrão usual de simetria.","source":"Treatise on Invertebrate Paleontology","confidence":"provavel"},
+    {"claim_id":"PAL-AMMONOIDEA-001","claim":"Ammonoides têm conchas enroladas, compartimentadas e suturadas; uma espiral isolada não basta para diagnose.","source":"Treatise on Invertebrate Paleontology","confidence":"provavel"},
+    {"claim_id":"PAL-BIOESTRAT-001","claim":"Correlação bioestratigráfica não equivale, por si, a datação numérica direta.","source":"USGS, Fossil Succession; ICS v2026/06","confidence":"confirmado"},
+    {"claim_id":"PAL-FADLAD-001","claim":"Primeiras e últimas ocorrências registradas são dados locais, sujeitos a vieses de ambiente, preservação e amostragem.","source":"International Stratigraphic Guide; PBDB","confidence":"provavel"},
+    {"claim_id":"PAL-ICS-001","claim":"O Fanerozoico divide-se nas eras Paleozoico, Mesozoico e Cenozoico.","source":"ICS, International Chronostratigraphic Chart v2026/06","confidence":"confirmado"},
+    {"claim_id":"PAL-PRECAMBRIANO-001","claim":"Pré-Cambriano reúne Hadeano, Arqueano e Proterozoico.","source":"ICS v2026/06","confidence":"confirmado"},
+    {"claim_id":"PAL-TRILOBITA-RANGE-001","claim":"Trilobitas restringem uma camada ao Fanerozoico e, em geral, ao Paleozoico.","source":"PBDB; ICS v2026/06","confidence":"confirmado"},
+    {"claim_id":"PAL-EXTINCAO-001","claim":"Hipóteses causais para crises bióticas requerem linhas independentes de evidência.","source":"PBDB; literatura de paleontologia","confidence":"provavel"},
+    {"claim_id":"PAL-KPG-001","claim":"O limite Cretáceo–Paleógeno está associado a evidências de impacto e mudanças ambientais amplas.","source":"ICS v2026/06; literatura revisada por pares","confidence":"provavel"}
+  ]
+}

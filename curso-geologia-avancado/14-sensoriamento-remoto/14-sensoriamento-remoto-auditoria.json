@@ -1,0 +1,348 @@
+{
+ "schema_version": 1,
+ "target": {
+  "kind": "modulo",
+  "path": "14-sensoriamento-remoto/",
+  "module_id": "14",
+  "course_id": "geologia-avancado"
+ },
+ "mode": "audit-and-fix",
+ "depth": "full",
+ "audited_at": "2026-09-08",
+ "verdict": "approved",
+ "summary": {
+  "red": 2,
+  "orange": 5,
+  "yellow": 2,
+  "blue": 0,
+  "white": 2,
+  "verified_ok": 32
+ },
+ "findings": [
+  {
+   "claim_id": "SENSREM-M14-A03-FEOXIDO-001",
+   "severity": "red",
+   "kind": "erro_factual",
+   "location": {
+    "file": "14-sensoriamento-remoto/14-sensoriamento-remoto-aula-03-comportamento-espectral-agua-solos-minerais-rochas-vegetacao-geobotanica.md",
+    "section": "Solos / Minerais e rochas / Exemplo trabalhado / Recap / manifesto",
+    "quote": "uma feicao adicional em torno de 0,87-0,92 um associada a transferencia de carga do Fe3+"
+   },
+   "claim": "A feicao de absorcao de oxidos de ferro em 0,87-0,92 um e produzida por transferencia de carga do Fe3+.",
+   "problem": "Os dois mecanismos foram trocados. A banda de 0,86-0,92 um e uma transicao de CAMPO CRISTALINO (ligand field) do Fe3+ (envelope do nivel 4T1 desdobrado), e sua posicao discrimina hematita (~0,86 um) de goethita (~0,90-0,92 um). A transicao de TRANSFERENCIA DE CARGA ligante-metal (O2- para Fe3+) fica proxima de 40.000 cm-1, ou seja ~0,25 um no ultravioleta proximo; e a cauda dessa banda, ordens de grandeza mais intensa, que invade o visivel pela borda azul e produz a queda de 0,4-0,6 um, responsavel pela COR do solo lateritico. A aula atribuiu a cor a feicao errada e o discriminador mineralogico a fisica errada, num trecho cujo proposito declarado e ensinar mecanismo; o erro propagava para o exemplo trabalhado da propria aula.",
+   "replacement": "Duas feicoes de mecanismos distintos: queda de 0,4-0,6 um como cauda da banda de transferencia de carga centrada em ~0,25 um (responsavel pela cor); feicao de 0,87-0,92 um como transicao de campo cristalino do Fe3+, com hematita ~0,86 um e goethita ~0,90-0,92 um como discriminador.",
+   "source": {
+    "name": "Sherman, D. M. & Waite, T. D. (1985), Electronic spectra of Fe3+ oxides and oxide hydroxides in the near IR to near UV, American Mineralogist 70(11-12):1262-1269; Clark, R. N. (1999), Spectroscopy of Rocks and Minerals, Manual of Remote Sensing vol. 3, cap. 1",
+    "url": "https://pubs.geoscienceworld.org/msa/ammin/article-abstract/70/11-12/1262/41700/",
+    "tier": "peer_reviewed",
+    "version": "Am. Mineral. 70 (1985); Manual of Remote Sensing vol. 3 (1999)",
+    "consulted_at": "2026-09-08"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "14-sensoriamento-remoto/14-sensoriamento-remoto-aula-03-comportamento-espectral-agua-solos-minerais-rochas-vegetacao-geobotanica.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "SENSREM-M14-A07-CHRISTIANSEN-002",
+   "severity": "red",
+   "kind": "erro_factual",
+   "location": {
+    "file": "14-sensoriamento-remoto/14-sensoriamento-remoto-aula-07-fotogrametria-produtos-3d-sensoriamento-termal.md",
+    "section": "Sensoriamento remoto termal / Recap / manifesto / hub do modulo",
+    "quote": "feicoes de absorcao (na verdade, minimos de emissividade) caracteristicas ligadas ao grau de polimerizacao ... um principio conhecido como deslocamento de Christiansen"
+   },
+   "claim": "A feicao de Christiansen e um minimo de emissividade que se desloca com o grau de polimerizacao dos silicatos.",
+   "problem": "A feicao de Christiansen e um MAXIMO de emissividade (minimo de reflectancia), na faixa estreita em que o indice de refracao do material se aproxima do indice do meio, tipicamente entre 7 e 9 um. Os MINIMOS de emissividade no TIR sao as BANDAS DE RESTSTRAHLEN, produzidas pelas vibracoes fundamentais de estiramento Si-O entre ~8 e 12 um. A aula fundiu as duas feicoes e atribuiu a feicao nomeada a propriedade da outra. O SENTIDO do deslocamento com a polimerizacao (felsico para onda mais curta) estava correto e foi preservado.",
+   "replacement": "Feicao de Christiansen como maximo de emissividade (7-9 um) e bandas de reststrahlen como minimos (Si-O, ~8-12 um), com o deslocamento da CF quantificado: ~7,5-8,0 um em felsicas, ~8,5-9,0 um em maficas a ultramaficas.",
+   "source": {
+    "name": "Ferrari et al. (2019), Retrieving magma composition from TIR spectra, Scientific Reports 9; Greenhagen et al., Christiansen Feature map from LRO Diviner; Sabins & Ellis (2020), Remote Sensing, cap. 8",
+    "url": "https://www.nature.com/articles/s41598-019-51543-9",
+    "tier": "peer_reviewed",
+    "version": "Sci. Rep. 9 (2019); Diviner CF map",
+    "consulted_at": "2026-09-08"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "14-sensoriamento-remoto/14-sensoriamento-remoto-aula-07-fotogrametria-produtos-3d-sensoriamento-termal.md",
+    "14-sensoriamento-remoto/14-sensoriamento-remoto-modulo.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "SENSREM-M14-A07-STEFANBOLTZMANN-003",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "14-sensoriamento-remoto/14-sensoriamento-remoto-aula-07-fotogrametria-produtos-3d-sensoriamento-termal.md",
+    "section": "Sensoriamento remoto termal / Recap / manifesto / hub do modulo",
+    "quote": "A relacao fisica central que permite converter a radiancia termal medida pelo sensor em temperatura e a Lei de Stefan-Boltzmann"
+   },
+   "claim": "A Lei de Stefan-Boltzmann e a relacao que converte a radiancia termal medida pelo sensor em temperatura.",
+   "problem": "Stefan-Boltzmann (M = e.sigma.T^4) governa a exitancia radiante INTEGRADA em todos os comprimentos de onda. Um sensor termal mede radiancia espectral DENTRO DE UMA BANDA ESTREITA, e a conversao dessa medida em temperatura de brilho e feita INVERTENDO A LEI DE PLANCK - a mesma lei ja introduzida na Aula 02 e que a Aula 07 deixava de reutilizar. Ha ainda imprecisao de grandeza: Stefan-Boltzmann da exitancia (W/m2), nao radiancia (W/m2/sr). Classificado laranja e nao vermelho porque a direcao fisica (emissao cresce com T, escalada por e) esta certa e o argumento da ambiguidade temperatura-emissividade sobrevive as duas leis.",
+   "replacement": "As duas leis separadas com seus papeis: Stefan-Boltzmann para emissao total (exitancia radiante), inversao de Planck para converter radiancia de banda em temperatura de brilho; ambiguidade reancorada no produto emissividade x funcao da temperatura.",
+   "source": {
+    "name": "Jensen (2016), Introductory Digital Image Processing, cap. 2; USGS, Landsat Collection 2 Level-2 Surface Temperature ATBD; Sabins & Ellis (2020), cap. 8",
+    "url": "https://www.usgs.gov/landsat-missions/landsat-collection-2-level-2-science-products",
+    "tier": "normative",
+    "version": "Landsat Collection 2 ST ATBD",
+    "consulted_at": "2026-09-08"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "14-sensoriamento-remoto/14-sensoriamento-remoto-aula-07-fotogrametria-produtos-3d-sensoriamento-termal.md",
+    "14-sensoriamento-remoto/14-sensoriamento-remoto-modulo.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "SENSREM-M14-A07-TIRSB11-004",
+   "severity": "orange",
+   "kind": "omissao_que_gera_erro",
+   "location": {
+    "file": "14-sensoriamento-remoto/14-sensoriamento-remoto-aula-07-fotogrametria-produtos-3d-sensoriamento-termal.md",
+    "section": "Sensoriamento remoto termal / Exemplo trabalhado / Recap / Fontes / manifesto",
+    "quote": "o Landsat 8/9, com suas duas bandas TIRS ... permite aplicar algoritmos de janela dividida (split-window)"
+   },
+   "claim": "Janela dividida com as duas bandas TIRS do Landsat 8/9 e o caminho para estimar temperatura de superficie.",
+   "problem": "Omissao que torna a orientacao falsa como escrita. A banda 11 do TIRS tem incerteza radiometrica residual muito maior que a banda 10 por luz espuria (stray light) captada de fora do campo de visao do telescopio; mesmo apos o algoritmo de correcao implementado na cadeia de producao em fevereiro de 2017 a variabilidade residual permanece da ordem de 1,7 K, e o USGS recomenda explicitamente que os usuarios evitem a banda 11 em analise quantitativa, NOMEANDO as tecnicas de janela dividida. A aula ensinava o procedimento desaconselhado pelo operador do sensor; o proprio artigo ja citado nas Fontes (Jimenez-Munoz et al. 2014) chega a essa conclusao e recomenda canal unico sobre a banda 10.",
+   "replacement": "Ressalva operacional inserida separando o principio (janela dividida, valido, e metodo de escolha em sensores como o MODIS) da pratica recomendada para o TIRS (canal unico sobre a banda 10, com emissividade e correcao atmosferica fornecidas a parte); exemplo trabalhado ajustado.",
+   "source": {
+    "name": "USGS, Landsat 8 OLI and TIRS Calibration Notices; Barsi et al., Landsat-8 TIRS Thermal Radiometric Calibration Status (SPIE 2020, NTRS 20210026916); Jimenez-Munoz et al. (2014), IEEE GRSL 11(10):1840-1843",
+    "url": "https://www.usgs.gov/landsat-missions/landsat-8-oli-and-tirs-calibration-notices",
+    "tier": "normative",
+    "version": "notas de calibracao do USGS; correcao de stray light em producao desde fev/2017",
+    "consulted_at": "2026-09-08"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "14-sensoriamento-remoto/14-sensoriamento-remoto-aula-07-fotogrametria-produtos-3d-sensoriamento-termal.md",
+    "14-sensoriamento-remoto/14-sensoriamento-remoto-modulo.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "SENSREM-M14-A01-COMPOSICAO-005",
+   "severity": "orange",
+   "kind": "inconsistencia_interna",
+   "location": {
+    "file": "14-sensoriamento-remoto/14-sensoriamento-remoto-aula-01-conceitos-plataformas-sensores-composicoes-coloridas.md",
+    "section": "Composicoes coloridas / Exemplo trabalhado / Recap / manifesto",
+    "quote": "composicoes que colocam bandas do infravermelho de ondas curtas (SWIR) nos tres canais - por exemplo, no Landsat 8, as bandas 7-5-3 ou 6-5-2 em R-G-B"
+   },
+   "claim": "Composicoes geologicas do Landsat 8 colocam bandas SWIR nos tres canais RGB, por exemplo 7-5-3 ou 6-5-2.",
+   "problem": "Tres defeitos encadeados. (a) O OLI tem exatamente DUAS bandas SWIR (6 e 7) - nenhuma composicao pode ocupar os tres canais com SWIR, e a frase afirma uma impossibilidade fisica do sensor. (b) Nem 7-5-3 nem 6-5-2 tem mais de uma banda SWIR: 7-5-3 e a combinacao convencionalmente rotulada 'natural com remocao atmosferica' e 6-5-2 'agricultura'; as convencionalmente chamadas de geologia e de SWIR sao 7-6-2 e 7-6-4. (c) INCONSISTENCIA INTERNA: o exemplo trabalhado da mesma aula usa 7-6-4 e a descreve corretamente banda a banda, e o manifesto declarava 7-6-4 - so o corpo da aula divergia.",
+   "replacement": "Paragrafo reescrito explicitando que o OLI tem duas bandas SWIR e que o padrao e usa-las mais uma terceira banda de contraste, nomeando 7-6-2 e 7-6-4; 'nos tres canais' removido; exemplo trabalhado e recap alinhados; preservada a ressalva de que os rotulos sao convencao de mercado, nao norma.",
+   "source": {
+    "name": "NASA/USGS, Landsat 8 Data Users Handbook (o OLI possui duas bandas SWIR - fato normativo); convencoes de rotulagem de combinacao divergem entre fontes de mercado e por isso nao foram tratadas como norma",
+    "url": "https://www.usgs.gov/landsat-missions/landsat-8",
+    "tier": "normative",
+    "version": "Landsat 8 Data Users Handbook",
+    "consulted_at": "2026-09-08"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "14-sensoriamento-remoto/14-sensoriamento-remoto-aula-01-conceitos-plataformas-sensores-composicoes-coloridas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "SENSREM-M14-A06-BANDALRESOL-006",
+   "severity": "orange",
+   "kind": "confusao_de_escopo",
+   "location": {
+    "file": "14-sensoriamento-remoto/14-sensoriamento-remoto-aula-06-sensoriamento-remoto-ativo-radar-sar-insar-lidar.md",
+    "section": "Radar de Abertura Sintetica (SAR) / Recap / manifesto",
+    "quote": "banda L penetra mais fundo na vegetacao ... mas com resolucao espacial tipicamente mais grosseira para uma mesma abertura sintetica"
+   },
+   "claim": "A banda L tem resolucao espacial mais grosseira porque o comprimento de onda e maior, para uma mesma abertura sintetica.",
+   "problem": "Algebricamente defensavel apenas sob a restricao artificial de manter fixo o comprimento da abertura sintetica, o que nao e como um SAR e projetado. O resultado de manual e o oposto do que o aluno memorizaria: a resolucao em azimute de um SAR estripe e INDEPENDENTE do comprimento de onda, valendo aproximadamente D/2 (metade do comprimento fisico da antena), porque um lambda maior obriga a sintetizar uma abertura proporcionalmente mais longa (Ls = lambda.R/D) e o lambda se cancela. A frase planta a regra falsa 'lambda maior implica pior resolucao' como se fosse fisica fundamental. A observacao empirica (sistemas em banda L sao mais grosseiros) esta certa; a causa apontada, nao - as causas reais sao a antena fisica maior necessaria e a menor largura de banda disponivel/alocada, que fixa a resolucao em alcance.",
+   "replacement": "Paragrafo dedicado com o resultado D/2, a demonstracao de por que o lambda se cancela, e as duas causas praticas reais; afirmacao empirica mantida, desacoplada da causa errada.",
+   "source": {
+    "name": "Woodhouse, I. H. (2006), Introduction to Microwave Remote Sensing, cap. 6-7; formulacao padrao de resolucao azimutal de SAR (delta_az = D/2)",
+    "url": "https://igppweb.ucsd.edu/~fialko/insar/sar_summary.pdf",
+    "tier": "reference_base",
+    "version": "Woodhouse 2006; resumo SAR IGPP/UCSD",
+    "consulted_at": "2026-09-08"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "14-sensoriamento-remoto/14-sensoriamento-remoto-aula-06-sensoriamento-remoto-ativo-radar-sar-insar-lidar.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "SENSREM-M14-A06-LAYOVER-007",
+   "severity": "orange",
+   "kind": "omissao_que_gera_erro",
+   "location": {
+    "file": "14-sensoriamento-remoto/14-sensoriamento-remoto-aula-06-sensoriamento-remoto-ativo-radar-sar-insar-lidar.md",
+    "section": "Geometria de imageamento lateral / Recap / manifesto",
+    "quote": "quando a encosta e ingreme o bastante (mais inclinada que a linha de visada do radar) ... encostas voltadas para longe do radar, mais ingremes que o angulo de visada"
+   },
+   "claim": "Layover ocorre quando a encosta e mais inclinada que a linha de visada do radar; sombra quando a encosta oposta e mais ingreme que o angulo de visada.",
+   "problem": "'Linha de visada' e uma reta, nao um angulo - nao ha com o que comparar uma declividade -, e 'angulo de visada' e usado sem definicao e, no caso da sombra, aponta para o complemento errado. As condicoes corretas se organizam numa unica comparacao entre a declividade da encosta (alfa) e o ANGULO DE INCIDENCIA (teta), medido a partir da vertical local: encurtamento quando alfa < teta (caso-limite alfa = teta, em que a encosta colapsa numa linha brilhante), layover quando alfa > teta, e sombra na encosta oposta quando sua declividade supera 90 graus menos teta, o angulo de depressao. O angulo de incidencia e citado adiante na propria aula sem nunca ter sido usado para nada.",
+   "replacement": "Frase de enquadramento apresentando alfa vs. teta como criterio unico das tres distorcoes; cada condicao passou a declarar seu limiar; caso-limite alfa = teta acrescentado; recap reescrito com os tres limiares.",
+   "source": {
+    "name": "Woodhouse (2006), Introduction to Microwave Remote Sensing, cap. 6; Sabins & Ellis (2020), Remote Sensing, cap. 4; convergencia de fontes tecnicas de SAR (ITC Living Textbook) sobre os limiares",
+    "url": "https://ltb.itc.utwente.nl/671/concept/124273",
+    "tier": "reference_base",
+    "version": "ITC Living Textbook, verbete Foreshortening",
+    "consulted_at": "2026-09-08"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "14-sensoriamento-remoto/14-sensoriamento-remoto-aula-06-sensoriamento-remoto-ativo-radar-sar-insar-lidar.md",
+    "14-sensoriamento-remoto/14-sensoriamento-remoto-modulo.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "SENSREM-M14-A01-SENTINEL2C-008",
+   "severity": "yellow",
+   "kind": "desatualizacao",
+   "location": {
+    "file": "14-sensoriamento-remoto/14-sensoriamento-remoto-aula-01-conceitos-plataformas-sensores-composicoes-coloridas.md",
+    "section": "As quatro resolucoes / tabela de sensores / Recap / manifesto",
+    "quote": "O Sentinel-2 e composto por dois satelites (2A e 2B) com revisita combinada de cerca de 5 dias no Equador."
+   },
+   "claim": "A constelacao Sentinel-2 e formada pelos satelites 2A e 2B.",
+   "problem": "Correto ate janeiro de 2025, nao mais. O Sentinel-2C substituiu o Sentinel-2A na operacao nominal em 21 de janeiro de 2025; o par nominal e hoje 2B+2C (o 2D sucedera o 2B). O 2A nao foi desligado: desde marco de 2025 opera numa campanha de extensao, defasado 36 graus do 2B, que adensa a revisita sobre a Europa, a Africa tropical e a America do Sul - informacao de valor pratico direto para o leitor brasileiro, que a redacao antiga omitia. A revisita nominal de 5 dias nao mudou.",
+   "replacement": "Paragrafo reescrito distinguindo o arranjo (dois satelites simultaneos defasados 180 graus, 5 dias - estavel) da identidade dos satelites (que muda), com as datas e a campanha de extensao nomeadas e sua consequencia para a America do Sul explicitada.",
+   "source": {
+    "name": "SentiWiki/Copernicus, S2 Mission; ESA Sentinel-2 User Handbook",
+    "url": "https://sentiwiki.copernicus.eu/web/s2-mission",
+    "tier": "normative",
+    "version": "SentiWiki consultado em 2026-09-08",
+    "consulted_at": "2026-09-08"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "14-sensoriamento-remoto/14-sensoriamento-remoto-aula-01-conceitos-plataformas-sensores-composicoes-coloridas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08",
+   "maintenance_note": "Especificacao volatil. Reconferir a identidade dos satelites da constelacao a cada revisao do curso; o 2D sucedera o 2B."
+  },
+  {
+   "claim_id": "SENSREM-M14-A03-AGUAREFL-009",
+   "severity": "yellow",
+   "kind": "omissao_que_gera_erro",
+   "location": {
+    "file": "14-sensoriamento-remoto/14-sensoriamento-remoto-aula-03-comportamento-espectral-agua-solos-minerais-rochas-vegetacao-geobotanica.md",
+    "section": "Agua: absorcao crescente do visivel ao infravermelho / manifesto",
+    "quote": "reflectancia relativamente alta e razoavelmente uniforme na faixa azul-verde do visivel"
+   },
+   "claim": "A agua liquida tem reflectancia relativamente alta na faixa azul-verde do visivel.",
+   "problem": "Verdadeiro como afirmacao relativa, dentro da propria curva da agua, mas em termos absolutos a reflectancia da agua limpa e baixa em todo o espectro, da ordem de poucos por cento mesmo no maximo. Sem o qualificador o aluno pode ler 'alta' como 'clara', o que colide com o fato operacional que a mesma secao ensina em seguida (agua e escura em qualquer banda) e com o que o NDWI de fato explora, que nao e o verde ser alto e sim o verde ser menos baixo que o NIR.",
+   "replacement": "'Relativamente alta' trocada por 'mais alta', e ressalva de escala inserida ao fim da secao amarrando a leitura relativa ao mecanismo do indice.",
+   "source": {
+    "name": "Sabins & Ellis (2020), Remote Sensing, cap. 2; Jensen (2016), Introductory Digital Image Processing, cap. 2 (curvas de reflectancia de agua limpa)",
+    "tier": "reference_base",
+    "version": "Sabins & Ellis 4a ed. (2020); Jensen 4a ed. (2016)",
+    "consulted_at": "2026-09-08"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "14-sensoriamento-remoto/14-sensoriamento-remoto-aula-03-comportamento-espectral-agua-solos-minerais-rochas-vegetacao-geobotanica.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "SENSREM-M14-A05-KAPPA-010",
+   "severity": "white",
+   "kind": "controversia",
+   "location": {
+    "file": "14-sensoriamento-remoto/14-sensoriamento-remoto-aula-05-pdi-ii-transformacoes-multivariadas-classificacao.md",
+    "section": "Avaliando a qualidade de uma classificacao / Recap / Fontes / manifesto",
+    "quote": "O coeficiente Kappa ... ajusta a acuracia global descontando a concordancia que ocorreria apenas por acaso ... e o Kappa penaliza esse efeito."
+   },
+   "claim": "O coeficiente Kappa e a metrica-padrao para ajustar a acuracia global de uma classificacao pela concordancia ao acaso.",
+   "problem": "Nao e erro do autor - e divergencia real e ativa entre fontes do mesmo nivel. Congalton & Green (2019), a referencia-padrao que a propria aula cita, ensina e recomenda o Kappa, reportado em cerca de metade da literatura recente. Do outro lado, Pontius & Millones (2011, 'Death to Kappa') argumentam que a linha de base de acaso e arbitraria e propoem substitui-lo por desacordo de quantidade e desacordo de alocacao; Foody (2020) argumenta sua inadequacao especifica para COMPARAR acuracias de mapas distintos. Um aluno que conheca so um dos lados interpretara mal metade do que ler.",
+   "replacement": "Paragrafo registrando as duas posicoes com seus argumentos e proponentes, fechando com a postura que ambos sustentam: reportar sempre a matriz completa e as acuracias de produtor e usuario por classe, e tratar o Kappa como numero de contexto. Nenhum lado escolhido, conforme a politica para achados brancos.",
+   "source": {
+    "name": "Congalton & Green (2019), Assessing the Accuracy of Remotely Sensed Data, 3a ed., cap. 4-5; Pontius Jr. & Millones (2011), International Journal of Remote Sensing 32(15):4407-4429; Foody (2020), Remote Sensing of Environment 239",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/01431161.2011.552923",
+    "tier": "peer_reviewed",
+    "version": "IJRS 32(15), 2011; RSE 239, 2020",
+    "consulted_at": "2026-09-08"
+   },
+   "confidence": "em_disputa",
+   "affected_files": [
+    "14-sensoriamento-remoto/14-sensoriamento-remoto-aula-05-pdi-ii-transformacoes-multivariadas-classificacao.md"
+   ],
+   "outcome": "registrado_sem_escolha_de_lado",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "SENSREM-M14-A04-NDWIHOMONIMO-011",
+   "severity": "white",
+   "kind": "controversia",
+   "location": {
+    "file": "14-sensoriamento-remoto/14-sensoriamento-remoto-aula-04-pdi-i-realces-operacoes-aritmeticas-filtros.md",
+    "section": "Operacoes aritmeticas entre bandas / Recap / Fontes / manifesto",
+    "quote": "NDWI = (Verde - NIR) / (Verde + NIR)"
+   },
+   "claim": "NDWI e o indice normalizado de verde e NIR usado para delinear corpos d'agua.",
+   "problem": "A atribuicao da aula estava CORRETA - essa formula e de McFeeters (1996), para corpos d'agua. O que faltava era a advertencia: existe um segundo indice homonimo, de Gao (1996), definido como (NIR - SWIR)/(NIR + SWIR), que mede agua liquida na folha e e indice de vegetacao, nao de agua superficial - e a Aula 03 deste mesmo modulo ensina que o SWIR responde a agua foliar, deixando o aluno a um passo da confusao. Ha ainda o MNDWI de Xu (2006), (Verde - SWIR)/(Verde + SWIR).",
+   "replacement": "Paragrafo nomeando os tres indices com formulas, autores e o que cada um mede, fechando com a regra pratica de conferir as bandas antes de supor o que um 'NDWI' mede. Nenhuma correcao necessaria no que a aula ja afirmava.",
+   "source": {
+    "name": "McFeeters (1996), IJRS 17(7):1425-1432; Gao (1996), Remote Sensing of Environment 58(3):257-266; Xu (2006), IJRS 27(14):3025-3033",
+    "tier": "peer_reviewed",
+    "version": "artigos originais dos tres indices",
+    "consulted_at": "2026-09-08"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "14-sensoriamento-remoto/14-sensoriamento-remoto-aula-04-pdi-i-realces-operacoes-aritmeticas-filtros.md"
+   ],
+   "outcome": "registrado_e_explicitado",
+   "applied_at": "2026-09-08"
+  }
+ ],
+ "verified_claims": [
+  {"claim_id": "SENSREM-M14-A01-PASSIVOATIVO-001", "claim": "Distincao sensor passivo/ativo; radar e LiDAR como ativos; micro-ondas atravessam nuvens e independem de luz solar.", "source": "Jensen 2016 cap. 1; Sabins & Ellis 2020 cap. 1", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A01-ORBITA-002", "claim": "Landsat 8/9 e Sentinel-2 em orbita heliossincrona de ~700-800 km, cruzamento do Equador ~10h local; geoestacionaria ~36.000 km sobre o Equador com resolucao grosseira.", "source": "NASA/USGS Landsat 8/9 Data Users Handbook; ESA Sentinel-2 User Handbook", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A01-LANDSAT-003", "claim": "Landsat 8/9 OLI/TIRS: 11 bandas (2 termais), 30 m multiespectral, 15 m pancromatica, 100 m termal, 12 bits, revisita 16 dias cada e ~8 dias combinado; cena 185 x 180 km.", "source": "NASA/USGS Landsat 8 e Landsat 9 Data Users Handbook", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A01-ASTER-005", "claim": "ASTER a bordo do Terra: 14 bandas, VNIR 15 m, SWIR 30 m, TIR 90 m, 6 bandas SWIR e 5 termais; perda do detector SWIR em 2008 com arquivo historico ainda de referencia em geologia mineral.", "source": "NASA/METI ASTER User Handbook", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A01-BANDASLANDSAT-012", "claim": "Landsat 8/9: banda 4 vermelho 0,64-0,67 um; banda 6 SWIR1 1,57-1,65 um; banda 7 SWIR2 2,11-2,29 um; banda 9 cirrus 1,36-1,38 um; TIRS 10 10,60-11,19 um e 11 11,50-12,51 um.", "source": "NASA/USGS Landsat 8 Data Users Handbook", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A02-ONDAENERGIA-001", "claim": "c = lambda.nu, E = h.nu, comprimento de onda mais curto significa maior energia por foton.", "source": "Jensen 2016 cap. 2; fisica ondulatoria padrao", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A02-REGIOES-006", "claim": "Faixas espectrais: UV 0,01-0,4 um; visivel 0,4-0,7; NIR 0,7-1,3; SWIR 1,3-3; TIR 3-14 com uso pratico 8-14; micro-ondas 1 mm a 1 m.", "source": "Jensen 2016 cap. 2; Lillesand, Kiefer & Chipman 2015 cap. 1", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A02-EMISSIVIDADE-002", "claim": "Emissividade como razao entre emitancia de material real e de corpo negro na mesma temperatura; materiais naturais tipicamente entre 0,85 e 0,98.", "source": "Sabins & Ellis 2020 cap. 1 e 8; Lillesand, Kiefer & Chipman 2015 cap. 1", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A02-JANELA-003", "claim": "Absorcao atmosferica por vapor d'agua, CO2 e ozonio (bandas em ~1,4 e ~1,9 um) define as janelas atmosfericas; banda cirrus do Landsat 8/9 posicionada DENTRO de uma banda de absorcao de vapor d'agua para detectar cirros em alta altitude.", "source": "NASA/USGS Landsat 8 Data Users Handbook (banda 9); Jensen 2016 cap. 2", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A02-RAYLEIGH-004", "claim": "Espalhamento de Rayleigh proporcional a lambda^-4, afetando muito mais o azul, responsavel pela cor do ceu e pela maior degradacao da banda azul; espalhamento de Mie com menor dependencia espectral.", "source": "Sabins & Ellis 2020 cap. 1; fisica atmosferica padrao", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A02-PATHRADIANCE-007", "claim": "Path radiance: a imagem bruta mistura radiancia do alvo com radiancia espalhada pela atmosfera, e separa-las e o objetivo da correcao atmosferica.", "source": "Jensen 2016 cap. 2 e 4", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A03-VIBRACIONAL-003", "claim": "Feicoes vibracionais no SWIR: caulinita com dubleto em 2,16-2,20 um; esmectita/montmorilonita ~2,20 um mais larga e assimetrica; ilita/muscovita ~2,20 um distinguivel por posicao e forma; calcita e dolomita em 2,3-2,35 um.", "source": "Clark 1999 cap. 1; Hunt 1977 Geophysics 42(3)", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A03-VEGETACAO-004", "claim": "Curva foliar: absorcao de clorofila em ~0,45 e ~0,68 um com pico verde em ~0,55 um; borda vermelha entre ~0,68 e 0,75 um; reflectancia NIR de 40-50% ou mais controlada pelo mesofilo esponjoso; queda no SWIR por agua foliar.", "source": "Gates et al. 1965 Applied Optics 4(1); Jensen 2016 cap. 2", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A03-GEOBOTANICA-005", "claim": "Estresse por metais desloca a borda vermelha para comprimentos de onda mais curtos (blue shift) e reduz a reflectancia NIR; sinal indireto e probabilistico, exigindo verificacao de campo.", "source": "Pratica consolidada de geobotanica aplicada a exploracao mineral; magnitude variavel por especie e condicao, corretamente apresentada como principio", "confidence": "provavel"},
+  {"claim_id": "SENSREM-M14-A04-PREPROC-001", "claim": "Correcao radiometrica (calibracao entre detectores, DN para radiancia), atmosferica (remocao do path radiance para reflectancia de superficie) e geometrica/ortorretificacao precedem realce e analise quantitativa.", "source": "Jensen 2016 cap. 4", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A04-NDVI-002", "claim": "NDVI = (NIR - Vermelho)/(NIR + Vermelho), Rouse et al. 1973 NASA SP-351; varia entre -1 e +1, vegetacao densa tipicamente 0,6-0,9, solo/rocha proximo de 0, agua negativo.", "source": "Rouse et al. 1973 NASA SP-351; Jensen 2016 cap. 7", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A04-RAZAOCANCELA-004", "claim": "Fator multiplicativo uniforme aplicado a ambas as bandas se cancela algebricamente na razao, tornando indices normalizados robustos a sombra e a variacao de iluminacao. Exemplo trabalhado recalculado: 0,80 ao sol e 0,80 em sombra.", "source": "Consequencia algebrica direta; Lillesand, Kiefer & Chipman 2015 cap. 7", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A04-FILTROS-005", "claim": "Passa-baixa suaviza por media da vizinhanca; passa-alta realca bordas amplificando ruido; Sobel e Prewitt calculam gradiente em direcoes horizontal e vertical; lineamento realcado e hipotese, nao confirmacao.", "source": "Gonzalez & Woods 2018 cap. 3; Jensen 2016 cap. 5", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A05-ACP-001", "claim": "ACP produz componentes nao correlacionadas ordenadas por variancia explicada; PC1 tipicamente captura brilho geral e componentes posteriores concentram diferencas espectrais sutis, com a ressalva correta de que a atribuicao por componente nao e fixa e deve ser verificada caso a caso.", "source": "Richards 2022 cap. 6; Jensen 2016 cap. 8", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A05-ACPSELETIVA-002", "claim": "ACP seletiva / feature-oriented PCA aplicada a subconjunto de bandas com feicoes diagnosticas de um mineral-alvo, usada em exploracao mineral.", "source": "Loughlin 1991, Photogrammetric Engineering and Remote Sensing 57(9)", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A05-KMEANS-003", "claim": "K-means agrupa pixels iterativamente por similaridade espectral em K agrupamentos definidos a priori, sem rotulo de classe; a rotulacao e etapa posterior do analista.", "source": "Richards 2022 cap. 8; Jensen 2016 cap. 9", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A05-MAXVEROSS-004", "claim": "Maxima verossimilhanca assume normalidade multivariada por classe a partir de amostras de treinamento; SVM e Random Forest fazem menos suposicoes e frequentemente superam em cenas complexas, sem eliminar a dependencia das amostras de treinamento.", "source": "Richards 2022 cap. 8", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A05-MATRIZARITMETICA-013", "claim": "Matriz de confusao 3x3 do exemplo trabalhado: linhas 100/100/100, colunas 95/90/115, total 300; acuracia global 240/300 = 80%; produtor xisto 70/100 = 70%; usuario xisto 70/90 = 77,8%; comissao 20/90 = 22,2%.", "source": "Recalculo aritmetico independente da auditoria; definicoes conforme Congalton & Green 2019 cap. 4-5", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A06-SARPRINCIPIO-001", "claim": "SAR sintetiza por processamento Doppler ao longo da trajetoria uma antena efetivamente muito maior que a fisica, alcancando resolucao metrica a partir de orbita.", "source": "Woodhouse 2006 cap. 5-6", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A06-BANDAS-002", "claim": "Banda X ~8-12 GHz (~2,4-3,8 cm), banda C ~4-8 GHz (Sentinel-1 a 5,405 GHz, ~5,6 cm), banda L ~1-2 GHz (~15-30 cm); lambda maior penetra mais em dossel.", "source": "NASA Earthdata SAR; ESA Sentinel-1 User Handbook", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A06-INSAR-004", "claim": "Cada franja completa corresponde a lambda/2 de deslocamento na linha de visada, pelo trajeto de ida e volta; para o Sentinel-1 em banda C (~5,6 cm) isso da ~2,8 cm por franja. Exemplo trabalhado recalculado: 3,5 x 2,8 = 9,8 cm. Desdobramento de fase e coerencia corretamente apresentados como limitacoes.", "source": "Hanssen 2001 cap. 2-3; ESA/Copernicus Sentinel-1 InSAR", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A06-SRTM-014", "claim": "Interferometria por duas antenas simultaneas como base do SRTM para mapeamento topografico, em contraste com pares em datas diferentes para deformacao.", "source": "Hanssen 2001; NASA JPL SRTM", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A06-LIDAR-005", "claim": "LiDAR e sensor ATIVO, mede por tempo de voo de pulsos de laser tipicamente ~1064 nm (faixa de 900-1550 nm conforme o sistema); multiplos retornos por pulso separam topo de dossel, vegetacao intermediaria e solo, permitindo MDT sob floresta densa. Mecanismo corretamente descrito: o pulso passa PELAS ABERTURAS do dossel, nao atraves das folhas.", "source": "Wehr & Lohr 1999, ISPRS Journal 54(2-3)", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A07-SFM-001", "claim": "SfM reconstroi simultaneamente geometria 3D e posicao/orientacao de cada camera a partir de fotos sobrepostas, sem exigir camera metrica calibrada; sobreposicoes recomendadas ~70-80% longitudinal e 60-70% lateral, corretamente hedgeadas como boa pratica e nao padrao fixo.", "source": "Westoby et al. 2012, Geomorphology 179; Linder 2016, Digital Photogrammetry 4a ed., cap. 6", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-A07-GCP-002", "claim": "Sem GCPs o modelo SfM tem geometria relativa correta mas pode ficar deslocado, rotacionado ou com escala distorcida em relacao ao sistema de coordenadas real.", "source": "James & Robson 2012, JGR 117; Westoby et al. 2012", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-BIBLIOGRAFIA-015", "claim": "As 23 referencias bibliograficas do modulo estao corretas em autor, ano, periodico, volume, edicao e editora - incluindo Linder 4a ed. 2016, Richards 6a ed. 2022, Congalton & Green 3a ed. 2019, Sabins & Ellis 4a ed. 2020 Waveland, Hunt 1977 Geophysics 42(3), Gates et al. 1965 Applied Optics 4(1), Loughlin 1991 PE&RS 57(9), Wehr & Lohr 1999 ISPRS J. 54(2-3), Westoby et al. 2012 Geomorphology 179, James & Robson 2012 JGR 117, Rouse et al. 1973 NASA SP-351, McFeeters 1996 IJRS 17(7).", "source": "Conferencia item a item contra catalogo de editora e registro de periodico", "confidence": "confirmado"},
+  {"claim_id": "SENSREM-M14-CROSSMODULO-016", "claim": "Nenhuma contradicao transversal. Fora do Modulo 14, o vocabulario de sensoriamento remoto aparece apenas no Modulo 07 a04, integralmente consistente: InSAR em escala milimetrica a centimetrica medindo apenas a componente na linha de visada e perdendo coerencia em vegetacao densa; LiDAR para terreno sob dossel. Os pares de sinal oposto dos achados 1 e 2 nao aparecem em nenhum outro modulo.", "source": "Busca em todo o curso por transferencia de carga, campo cristalino, Christiansen, reststrahlen, polimerizacao, NDVI, Kappa, Sentinel, emissividade, InSAR, LiDAR, SAR", "confidence": "confirmado"}
+ ],
+ "derived_material_note": "Nenhum material derivado a propagar. O modulo nao tem questionario nem baralho ainda - a auditoria rodou antes deles, como manda a cadeia. Nada a reimportar no Anki.",
+ "report": "14-sensoriamento-remoto/14-sensoriamento-remoto-auditoria.md"
+}

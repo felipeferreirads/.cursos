@@ -1,0 +1,55 @@
+frente;verso;tipo;aula;id
+Qual é a velocidade típica de cruzeiro de um avião de asa fixa em aerolevantamento geofísico?;250-280 km/h;basic;a01;geologia-avancado-m16-fb001
+Qual é a velocidade típica de cruzeiro de um helicóptero em aerolevantamento geofísico?;100-140 km/h;basic;a01;geologia-avancado-m16-fb002
+O espaçamento de linha em um aerolevantamento se dimensiona pela profundidade do alvo ou pela distância sensor-fonte?;Distância sensor-fonte (altura de voo + profundidade do topo do corpo);basic;a01;geologia-avancado-m16-fb003
+Qual é a fórmula do critério de Reid para a fração de potência aliasada?;F = exp(−2π·h/Δx), onde h é a distância sensor-fonte e Δx é o espaçamento de linha;basic;a01;geologia-avancado-m16-fb004
+O que são tie lines (linhas de controle) em um aerolevantamento?;Linhas voadas perpendicularmente às linhas principais e mais espaçadas (5-10× o espaçamento principal), usadas para nivelamento nos cruzamentos;basic;a01;geologia-avancado-m16-fb005
+Qual é o teste de calibração que detecta a magnetização da aeronave?;Teste de erro de rumo (heading error), realizado voando um padrão em forma de oito sobre um ponto fixo;basic;a01;geologia-avancado-m16-fb006
+Qual magnetômetro é mais comumente usado como sensor de mapeamento em aerolevantamentos: fluxgate ou escalar de vapor de césio?;Escalar de vapor de césio (ou potássio, bombeado opticamente);basic;a02;geologia-avancado-m16-fb007
+A faixa de campo magnético total da Terra à superfície varia de quantos nanoTesla no equador magnético a quantos nos polos?;De cerca de 25.000 nT no equador a cerca de 65.000 nT nos polos;basic;a02;geologia-avancado-m16-fb008
+Qual é a sigla do modelo internacional de referência do campo magnético da Terra que precisa ser subtraído dos dados aeromagnéticos?;IGRF (International Geomagnetic Reference Field), geração atual IGRF-14;basic;a02;geologia-avancado-m16-fb009
+Entre IGRF e variação diurna, qual tem ordem obrigatória na cadeia de processamento?;Nenhuma entre os dois (ambos são subtrações, subtração é comutativa); o que é obrigatório é que ambos venham ANTES do nivelamento;basic;a02;geologia-avancado-m16-fb010
+Qual é a ressalva essencial sobre a independência do sinal analítico à direção de magnetização?;Independe APENAS para fontes 2D (diques, contatos); para corpos 3D compactos, a amplitude volta a depender da direção;basic;a02;geologia-avancado-m16-fb011
+Qual é o principal desafio da aerogravimetria: a variação temporal do campo externo ou o movimento da aeronave?;O movimento da aeronave (acelerações tipicamente ordens de grandeza maiores que a anomalia geológica);basic;a03;geologia-avancado-m16-fb012
+Qual é o equivalente prático entre Eötvös e mGal/km?;1 Eötvös = 0,1 mGal/km;basic;a03;geologia-avancado-m16-fb013
+O efeito Eötvös aumenta ou diminui a gravidade aparente ao voar para leste?;Diminui (voar para leste soma-se à rotação terrestre, aumentando aceleração centrífuga e reduzindo gravidade);basic;a03;geologia-avancado-m16-fb014
+Um gradiente vertical de gravidade pode ser multiplicado por uma distância horizontal para dar variação de gravidade?;Não; só se ambos apontarem na MESMA direção (um gradiente vertical descreve variação com altura, não com distância horizontal);basic;a03;geologia-avancado-m16-fb015
+O que mede um sistema de Full Tensor Gradiometry (FTG)?;Múltiplas componentes do tensor gravitacional simultaneamente;basic;a03;geologia-avancado-m16-fb016
+Qual é a profundidade de investigação da gamaespectrometria aérea?;30 a 45 centímetros (apenas os primeiros cm do solo/rocha);basic;a04;geologia-avancado-m16-fb017
+Qual é a sequência CORRETA de correções em aerogamaespectrometria?;Tempo morto → background → stripping → altura → concentração;basic;a04;geologia-avancado-m16-fb018
+Por que o stripping deve vir ANTES da correção de altura em gamaespectrometria?;Stripping resolve o problema espectral (qual elemento cada contagem); altura resolve transporte (coeficientes de atenuação são definidos POR ELEMENTO);basic;a04;geologia-avancado-m16-fb019
+Qual é o valor de referência crustal da razão Th/U?;Aproximadamente 3,5 a 4 (crosta superior ~3,9; crosta total ~4,3);basic;a04;geologia-avancado-m16-fb020
+A faixa Th/U 2-7 em rocha não alterada é um valor de referência ou uma tolerância?;É uma tolerância larga; o valor de referência é 3,5-4, que não fica no meio geométrico da faixa;basic;a04;geologia-avancado-m16-fb021
+Qual profundidade investiga a gamaespectrometria: a rocha-mãe ou o que está exposto/raso?;O que está exposto ou raso (solo, saprolito, cobertura) — não penetra cobertura espessa;basic;a04;geologia-avancado-m16-fb022
+A convenção IAEA para cores no mapa ternário K-eU-eTh é qual?;Potássio=vermelho, Tório=verde, Urânio=azul;basic;a04;geologia-avancado-m16-fb023
+Qual é a diferença fundamental entre alteração potássica e alteração fílica num pórfiro cuprífero?;Potássica: núcleo quente com feldspato potássico + biotita. Fílica: mais rasa/fria com sericita + quartzo + pirita. Mapa gama não as separa;basic;a04;geologia-avancado-m16-fb024
+Sistema FDEM transmite continuamente ou emite pulsos?;Transmite continuamente em frequências fixas;basic;a05;geologia-avancado-m16-fb025
+Sistema TDEM transmite continuamente ou emite pulsos?;Emite pulsos; mede o decaimento do campo secundário durante intervalo desligado;basic;a05;geologia-avancado-m16-fb026
+Qual é a frequência de base típica do TDEM onde a rede elétrica é de 50 Hz?;25 Hz (para que empilhamento com polaridade alternada cancele interferência das linhas);basic;a05;geologia-avancado-m16-fb027
+Qual é a faixa de frequência típica dos sistemas VLF aéreos?;15-30 kHz;basic;a05;geologia-avancado-m16-fb028
+Qual é o mecanismo de origem dos campos naturais explorados pelo AFMAG/NFEM?;Atividade global de relâmpagos; os pulsos (sferics) se propagam no guia de onda entre a superfície e a base da ionosfera;basic;a05;geologia-avancado-m16-fb029
+A profundidade pelicular (skin depth) aumenta com frequência alta ou baixa?;Aumenta com frequência BAIXA (e com resistividade alta);basic;a05;geologia-avancado-m16-fb030
+Qual é a fórmula aproximada da profundidade pelicular em unidades práticas?;δ (metros) ≈ 503 × √(ρ/f), onde ρ é resistividade (Ω·m) e f é frequência (Hz);basic;a05;geologia-avancado-m16-fb031
+Quais são os três "falsos condutores" clássicos que produzem resposta EM forte sem interesse econômico?;Água salina em fraturas, grafita em xisto, argila ou solo saturado;basic;a05;geologia-avancado-m16-fb032
+Por que nenhum método aerogeofísico sozinho resolve a ambiguidade geológica?;Cada um explora uma propriedade diferente; apenas coincidência espacial de métodos diferentes elimina explicações alternativas (ex.: condutor EM + anomalia magnética + alteração K);basic;a05;geologia-avancado-m16-fb033
+O IGRF-14 teve seus coeficientes finalizados em qual ano?;2024 (novembro de 2024);basic;a02;geologia-avancado-m16-fb034
+Em um levantamento aeromagnético, qual é o principal propósito da estação-base terrestre?;Registrar variação diurna do campo em tempo real, para que essa variação temporal possa ser removida do dado aéreo;basic;a02;geologia-avancado-m16-fb035
+Na Aula 01, qual é o exemplo de azimute de direção das linhas principais?;N60°O (ou 300°/120° em convenção de rumo), perpendicular à zona de cisalhamento N30°E;basic;a01;geologia-avancado-m16-fb036
+Qual é o valor do critério de Reid em Δx = 2h?;F = e^(−π) ≈ 4,3% da potência aliasada;basic;a01;geologia-avancado-m16-fb037
+Na Aula 02, qual foi o resultado numérico da TMI residual no exemplo trabalhado?;+162 nT (45.410 − 38 − 45.210);basic;a02;geologia-avancado-m16-fb038
+Na Aula 03, qual foi o resultado numérico da conversão de gradiente no exemplo trabalhado?;0,72 mGal (18 Eo × 0,1 mGal/km × 0,4 km);basic;a03;geologia-avancado-m16-fb039
+Na Aula 04, qual foi o resultado da razão Th/U para o granito fresco no exemplo trabalhado?;3,9 (16,5 / 4,2);basic;a04;geologia-avancado-m16-fb040
+Na Aula 04, qual foi o resultado da razão Th/U para o granito sob laterita no exemplo trabalhado?;13,5 (14,8 / 1,1);basic;a04;geologia-avancado-m16-fb041
+Na Aula 05, qual é o skin depth do VLF a 20 kHz em terreno de 1.000 Ω·m?;~112 m;basic;a05;geologia-avancado-m16-fb042
+Na Aula 05, qual é o skin depth do AFMAG a 30 Hz em terreno de 1.000 Ω·m?;~2.902 m;basic;a05;geologia-avancado-m16-fb043
+Qual é a altura de voo típica de um helicóptero em levantamento de detalhe com magnetometria e gamaespectrometria?;60-80 m (drapeado, acompanhando relevo);basic;a01;geologia-avancado-m16-fb044
+Qual é a profundidade esperada do topo do corpo no exemplo de planejamento da Aula 01?;150 m;basic;a01;geologia-avancado-m16-fb045
+Na Aula 03, qual é o nome do sistema de gradiometria mencionado como exemplo de precisão ±5,6 Eötvös?;FALCON (desenvolvido originalmente pela BHP);basic;a03;geologia-avancado-m16-fb046
+Na Aula 03, qual é o decaimento teórico do campo com a distância para um dipolo magnético?;r^−3 (cubo inverso);basic;a03;geologia-avancado-m16-fb047
+Na Aula 03, qual é o decaimento teórico do campo com a distância para uma massa pontual gravitacional?;r^−2 (quadrado inverso);basic;a03;geologia-avancado-m16-fb048
+Qual radioelemento tem janela de energia em 1,46 MeV em gamaespectrometria aérea?;K (potássio-40, ⁴⁰K);basic;a04;geologia-avancado-m16-fb049
+Qual produto-filho é medido para representar U em gamaespectrometria?;²¹⁴Bi (bismuto-214, em 1,76 MeV);basic;a04;geologia-avancado-m16-fb050
+Qual produto-filho é medido para representar Th em gamaespectrometria?;²⁰⁸Tl (tálio-208, em 2,61 MeV);basic;a04;geologia-avancado-m16-fb051
+Qual é o material típico do detector grande em espectrômetro gama aéreo?;NaI(Tl) — iodeto de sódio dopado com tálio;basic;a04;geologia-avancado-m16-fb052
+Na Aula 01, qual é a extensão lateral mínima esperada do corpo mineralizado no exemplo?;300 m;basic;a01;geologia-avancado-m16-fb053
+A profundidade pelicular é a profundidade máxima de detecção de um alvo EM?;Não; é uma medida de atenuação do campo primário, detectabilidade real depende de tamanho, contraste e ruído;basic;a05;geologia-avancado-m16-fb054

@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "30-metodos-numericos-geociencias/",
+    "module_id": "30",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-29T00:00:00-03:00",
+  "verdict": "approved",
+  "summary": {
+    "red": 1,
+    "orange": 3,
+    "yellow": 0,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 21
+  },
+  "findings": [
+    {
+      "claim_id": "NUM-M30A01-PROPGRAD-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "No exemplo do gradiente geotermico, o erro de leitura de +/-0,1 C em cada temperatura produziria um erro relativo de ate ~33% no gradiente calculado.",
+      "location": {
+        "file": "30-metodos-numericos-geociencias/30-metodos-numericos-geociencias-aula-01-erro-numerico.md",
+        "section": "Exemplo trabalhado, Situacao 2, Passo 2",
+        "quote": "o erro em cada temperatura (+/-0,1 C) e 1/3 do proprio numerador (0,3 C) - um erro relativo de ate ~33% so de leitura"
+      },
+      "problem": "O numerador do gradiente e a diferenca de duas leituras, cada uma com +/-0,1 C. No pior caso os erros tem sinais opostos e se somam: a incerteza propagada da diferenca chega a +/-0,2 C, ou ~67% de 0,3 C (~47% somando em quadratura). O valor de ~33% e a contribuicao de UMA leitura, nao o erro relativo do resultado, e a palavra 'ate' o apresenta como cota superior, que e justamente o que ele nao e. A aula que ensina propagacao de erro subestima em 2x a propagacao que o exemplo existe para demonstrar.",
+      "replacement": "o erro de cada leitura (+/-0,1 C) ja e 1/3 do numerador (0,3 C); como o numerador e uma diferenca de duas leituras, a incerteza propagada chega a +/-0,2 C no pior caso (+/-0,14 C somando em quadratura) - um erro relativo de ate ~67% no gradiente, antes de considerar qualquer outra fonte de incerteza.",
+      "source": {
+        "name": "Chapra & Canale, Numerical Methods for Engineers, 7a ed., cap. sobre propagacao de erro; Burden & Faires, Numerical Analysis, 9a ed.",
+        "tier": "peer_reviewed",
+        "version": "Chapra & Canale 7a ed.; Burden & Faires 9a ed.",
+        "consulted_at": "2026-08-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "30-metodos-numericos-geociencias/30-metodos-numericos-geociencias-aula-01-erro-numerico.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-29T00:00:00-03:00"
+    },
+    {
+      "claim_id": "NUM-M30A02-GAUSSSEIDEL-002",
+      "severity": "red",
+      "kind": "erro_factual",
+      "claim": "Aplicando Gauss-Seidel ao sistema de balanco de massa de tres fontes, isolando a da equacao de soma, b da equacao do tracador X e c da equacao do tracador Y, o metodo convergiria para os mesmos valores obtidos pela eliminacao de Gauss.",
+      "location": {
+        "file": "30-metodos-numericos-geociencias/30-metodos-numericos-geociencias-aula-02-sistemas-lineares.md",
+        "section": "Exemplo trabalhado, paragrafo final 'O que Gauss-Seidel faria diferente'",
+        "quote": "isolando cada incognita (a = 1-b-c; b da equacao X; c da equacao Y) e partindo de um palpite (a=b=c~0,33), o metodo recalcularia as tres repetidamente ate convergir para os mesmos valores"
+      },
+      "problem": "Com exatamente o arranjo prescrito, a matriz de iteracao de Gauss-Seidel tem raio espectral rho ~ 9,87; como a convergencia exige rho < 1, o metodo diverge de forma explosiva (|c| ultrapassa 1e8 em 10 iteracoes partindo de a=b=c=0,33). O sistema nao tem dominancia diagonal em arranjo nenhum: na equacao do tracador Y o coeficiente de c e 0,10 contra 0,70+0,30=1,00 dos demais. Alem do erro factual, ha inconsistencia interna grave: a propria aula lista em 'Erros comuns' o item 'Aplicar Gauss-Seidel sem checar dominancia diagonal e assumir que vai convergir', e entao comete exatamente esse erro no seu exemplo trabalhado.",
+      "replacement": "Transformar o paragrafo no contraexemplo que ele ja e: declarar que este sistema nao satisfaz dominancia diagonal (mostrando a equacao Y, 0,10 contra 1,00), que aplicar Gauss-Seidel nesse arranjo diverge, e que e por isso que a checagem vem antes da aplicacao. Alternativa, se a intencao era exibir convergencia: reordenar isolando a da equacao X, b da equacao Y e c da equacao de soma (rho ~ 0,913, converge devagar), exigindo entao explicar que dominancia diagonal e suficiente mas nao necessaria.",
+      "source": {
+        "name": "Burden & Faires, Numerical Analysis, 9a ed., cap. sobre metodos iterativos (rho(T)<1 necessario e suficiente; dominancia diagonal estrita suficiente e nao necessaria); Chapra & Canale, Numerical Methods for Engineers, 7a ed.; ELA, Convergence on Gauss-Seidel iterative methods",
+        "url": "https://emis.de/ft/34278",
+        "tier": "peer_reviewed",
+        "version": "consultado 2026-08-29; rho e trajetoria de divergencia recalculados sobre o sistema publicado na aula",
+        "consulted_at": "2026-08-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "30-metodos-numericos-geociencias/30-metodos-numericos-geociencias-aula-02-sistemas-lineares.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-29T00:00:00-03:00"
+    },
+    {
+      "claim_id": "NUM-M30A03-BISNEWTON-003",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "No primeiro passo, Newton-Raphson chegou mais perto da raiz do que a bissecao depois de tres repeticoes.",
+      "location": {
+        "file": "30-metodos-numericos-geociencias/30-metodos-numericos-geociencias-aula-03-zeros-de-funcoes.md",
+        "section": "Exemplo trabalhado, 'Comparacao com Newton-Raphson'",
+        "quote": "Ja nesse primeiro passo, Newton-Raphson chegou mais perto da raiz (~2,0946) do que a bissecao depois de tres repeticoes"
+      },
+      "problem": "Raiz verdadeira 2,0945515. Newton apos 1 passo da 2,1 (erro 5,4e-3). A bissecao apos 3 repeticoes deixa o intervalo [2,0625; 2,125], cujo ponto medio 2,09375 tem erro 8,0e-4 - cerca de 7 vezes MAIS PERTO, nao mais longe. A aula ja havia dito isso: o Passo 4 conclui 'ja convergindo para proximo de y ~ 2,09', que e a estimativa melhor. A frase final contradiz o passo anterior. O que e verdade: o erro de Newton apos 1 passo e menor que a GARANTIA da bissecao apos 3 repeticoes (+/-3,1e-2), e no segundo passo Newton atinge 2,0945681 (erro 1,7e-5), precisao que a bissecao so garante por volta da 11a repeticao.",
+      "replacement": "Depois de dois passos, Newton-Raphson chega a 2,0945681 - erro da ordem de 1e-5, precisao que a bissecao so garantiria por volta da decima primeira repeticao. Ja no primeiro passo, o erro de Newton (~0,005) e menor que a margem garantida pela bissecao apos tres repeticoes (+/-0,031), embora o ponto medio do intervalo da bissecao, nesse caso particular, tenha calhado de cair ainda mais perto. E essa aceleracao - e nao o primeiro passo isolado - que a convergencia quadratica descreve.",
+      "source": {
+        "name": "Chapra & Canale, Numerical Methods for Engineers, 7a ed., caps. sobre metodos de intervalo e metodos abertos; Burden & Faires, Numerical Analysis, 9a ed.",
+        "tier": "peer_reviewed",
+        "version": "iteracoes recalculadas sobre f(y)=y^3-2y-5 em 2026-08-29",
+        "consulted_at": "2026-08-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "30-metodos-numericos-geociencias/30-metodos-numericos-geociencias-aula-03-zeros-de-funcoes.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-29T00:00:00-03:00"
+    },
+    {
+      "claim_id": "NUM-M30A03-FEVAL-004",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "f(2,0625) ~ 8,78 - 4,125 - 5 = -0,34",
+      "location": {
+        "file": "30-metodos-numericos-geociencias/30-metodos-numericos-geociencias-aula-03-zeros-de-funcoes.md",
+        "section": "Exemplo trabalhado, Passo 4 (terceira bissecao)",
+        "quote": "f(2,0625) ~ 8,78 - 4,125 - 5 = -0,34 (negativo)"
+      },
+      "problem": "2,0625^3 = 8,77368, que arredonda para 8,77 e nao 8,78; f(2,0625) = -0,35132, que arredonda para -0,35 e nao -0,34. Dois digitos errados na ultima casa, num exemplo de uma aula cujo assunto declarado e erro de arredondamento. O sinal e a conclusao (raiz entre 2,0625 e 2,125) nao mudam. Os demais valores do exemplo foram conferidos e estao corretos: f(2)=-1; f(2,5)=5,625; f(2,25)=1,89062; f(2,125)=0,34570.",
+      "replacement": "f(2,0625) ~ 8,774 - 4,125 - 5 = -0,351 (negativo)",
+      "source": {
+        "name": "calculo direto verificado",
+        "tier": "general",
+        "version": "recalculado em 2026-08-29",
+        "consulted_at": "2026-08-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "30-metodos-numericos-geociencias/30-metodos-numericos-geociencias-aula-03-zeros-de-funcoes.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-29T00:00:00-03:00"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "NUM-M30A01-PONTOFLUT-005",
+      "claim": "Base binaria torna 0,1 uma dizima infinita; 0,1 + 0,2 nao resulta exatamente em 0,3 em aritmetica de ponto flutuante padrao.",
+      "source": "Chapra & Canale, 7a ed.; IEEE 754",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "NUM-M30A01-TRUNCAMENTO-006",
+      "claim": "Erro de truncamento (parar um processo infinito) e conceitualmente distinto de erro de arredondamento (representacao com digitos finitos).",
+      "source": "Burden & Faires, Numerical Analysis, 9a ed.",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "NUM-M30A01-CANCELAMENTO-007",
+      "claim": "A subtracao de dois numeros proximos amplia o erro relativo do resultado, mesmo com operandos precisos (cancelamento catastrofico).",
+      "source": "Burden & Faires, Numerical Analysis, 9a ed.",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "NUM-M30A01-CONDICIONAMENTO-008",
+      "claim": "Condicionamento e propriedade do problema, nao do algoritmo usado para resolve-lo.",
+      "source": "Burden & Faires, Numerical Analysis, 9a ed.",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "NUM-M30A01-EXEMPLO1-009",
+      "claim": "45,782 - 45,779 = 0,003, valor menor que a incerteza declarada de +/-0,01 de cada analise isolada.",
+      "source": "recalculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "NUM-M30A01-GEOTERMA-010",
+      "claim": "(42,6 - 42,3)/(810 - 800) = 0,03 C/m = 30 C/km.",
+      "source": "recalculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "NUM-M30A02-GAUSSDIRETO-011",
+      "claim": "Eliminacao de Gauss = escalonamento seguido de substituicao regressiva; pivotamento parcial reduz a amplificacao de erro de arredondamento sem alterar a solucao exata.",
+      "source": "Chapra & Canale, 7a ed.",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "NUM-M30A02-DOMINANCIA-012",
+      "claim": "Dominancia diagonal estrita e condicao suficiente, mas nao necessaria, para a convergencia de Gauss-Seidel; a condicao necessaria e suficiente e rho(T) < 1.",
+      "source": "Burden & Faires, 9a ed.; ELA, Convergence on Gauss-Seidel iterative methods (https://emis.de/ft/34278)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "NUM-M30A02-CUSTOCUBO-013",
+      "claim": "O custo computacional da eliminacao de Gauss cresce aproximadamente com o cubo do numero de incognitas.",
+      "source": "Chapra & Canale, 7a ed.",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "NUM-M30A02-EXEMPLOMISTURA-014",
+      "claim": "a ~ 0,333, b = 0,5, c ~ 0,167 resolvem o sistema de tres fontes e verificam nas tres equacoes originais.",
+      "source": "recalculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "NUM-M30A03-TVI-015",
+      "claim": "O Teorema do Valor Intermediario sustenta a bissecao; convergencia garantida, de ordem linear.",
+      "source": "Chapra & Canale, 7a ed.",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "NUM-M30A03-BISSECAO2N-016",
+      "claim": "Reduzir o intervalo por um fator de mil exige cerca de 10 repeticoes (2^10 ~ 1.024); ~7 palpites bastam para 100 numeros.",
+      "source": "recalculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "NUM-M30A03-DIVERGNEWTON-017",
+      "claim": "Newton-Raphson pode divergir com palpite inicial distante, derivada proxima de zero, ou raizes multiplas e pontos de inflexao na vizinhanca.",
+      "source": "Burden & Faires, 9a ed.",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "NUM-M30A03-PHREEQC-018",
+      "claim": "Softwares de especiacao geoquimica como o PHREEQC (USGS) resolvem sistemas de equilibrio nao lineares por metodos iterativos da familia Newton-Raphson.",
+      "source": "documentacao tecnica do PHREEQC (USGS)",
+      "confidence": "provavel"
+    },
+    {
+      "claim_id": "NUM-M30A03-FLEXURA-019",
+      "claim": "Modelos de isostasia flexural (placa elastica) resultam em equacoes sem forma fechada simples, resolvidas numericamente.",
+      "source": "Turcotte & Schubert, Geodynamics, 3a ed., cap. sobre flexura da litosfera",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "NUM-M30A04-RUNGE-020",
+      "claim": "Fenomeno de Runge: polinomios interpoladores de grau alto oscilam entre os pontos, sobretudo perto das bordas, mesmo passando exatamente por eles.",
+      "source": "Chapra & Canale, 7a ed., cap. sobre interpolacao",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "NUM-M30A04-DIFCENTRAL-021",
+      "claim": "Para o mesmo espacamento, a diferenca central tem erro de truncamento menor que a progressiva ou a regressiva.",
+      "source": "Chapra & Canale, 7a ed., cap. sobre diferenciacao numerica",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "NUM-M30A04-INTERPOLACAO-022",
+      "claim": "Interpolacao linear: 120 + 0,4 x 25 = 130 m para o topo da camada a 200 m do furo A.",
+      "source": "recalculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "NUM-M30A04-ISOCRONA-023",
+      "claim": "Inclinacao da isocrona (0,735-0,705)/(0,70-0,10) = 0,05; a inclinacao relaciona-se com a idade via constante de decaimento e o intercepto da a razao isotopica inicial.",
+      "source": "recalculo; Faure & Mensing, Isotopes, 3a ed., cap. sobre o metodo isocrono",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "NUM-M30A05-ORDENS-024",
+      "claim": "Trapezio composto O(h^2); Simpson composto O(h^4) exigindo numero par de intervalos; Euler O(h); RK4 O(h^4) com quatro avaliacoes da derivada por passo.",
+      "source": "Chapra & Canale, 7a ed.; Burden & Faires, 9a ed.",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "NUM-M30A05-EULEREXEMPLO-025",
+      "claim": "Euler com h=1 da N(1)=900 e N(2)=810; a solucao exata 1.000 x e^(-0,2) = 818,73; erro ~8,7 atomos, ~1,1% do valor verdadeiro.",
+      "source": "recalculo",
+      "confidence": "confirmado"
+    }
+  ]
+}

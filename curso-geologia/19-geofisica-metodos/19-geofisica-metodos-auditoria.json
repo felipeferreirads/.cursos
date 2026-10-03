@@ -1,0 +1,505 @@
+{
+ "schema_version": 1,
+ "target": {
+  "kind": "modulo",
+  "path": "19-geofisica-metodos/",
+  "module_id": "19",
+  "course_id": "geologia"
+ },
+ "mode": "audit-and-fix",
+ "depth": "full",
+ "audited_at": "2026-08-19",
+ "verdict": "approved_with_reservations",
+ "summary": {
+  "red": 1,
+  "orange": 10,
+  "yellow": 0,
+  "blue": 1,
+  "white": 1,
+  "verified_ok": 18
+ },
+ "findings": [
+  {
+   "claim_id": "GFI-M19-RESIST-INSULATOR-001",
+   "severity": "red",
+   "kind": "erro_factual",
+   "claim": "Minerais formadores de rocha (quartzo, feldspato, calcita) sao, em geral, isolantes eletricos muito pobres.",
+   "location": {
+    "file": "19-geofisica-metodos/19-geofisica-metodos-aula-05-metodos-eletricos-eletromagneticos-e-geotermicos.md",
+    "section": "O que faz uma rocha conduzir eletricidade",
+    "quote": "minerais formadores de rocha (quartzo, feldspato, calcita) sao, em geral, isolantes eletricos muito pobres"
+   },
+   "problem": "Inversao de sentido: esses minerais sao excelentes isolantes, ou seja, condutores muito pobres. Como escrito, a frase afirma que isolam mal e contradiz o proprio paragrafo, que atribui toda a conducao a agua dos poros.",
+   "replacement": "A rocha em si quase nao conduz: minerais formadores de rocha (quartzo, feldspato, calcita) sao, em geral, excelentes isolantes eletricos - ou seja, condutores muito pobres.",
+   "source": {
+    "name": "US EPA, Electrical Methods; Britannica, Rock - Electrical properties; Burnley, Resistivity of Earth Materials (UNLV)",
+    "url": "https://www.epa.gov/environmental-geophysics/electrical-methods",
+    "tier": "reference_database",
+    "version": "consultado 2026-08-18",
+    "consulted_at": "2026-08-18"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "19-geofisica-metodos/19-geofisica-metodos-aula-05-metodos-eletricos-eletromagneticos-e-geotermicos.md",
+    "19-geofisica-metodos/19-geofisica-metodos-questionario-final.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-08-18T16:05:00-03:00"
+  },
+  {
+   "claim_id": "GFI-M19-MAG-ILMENITE-002",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "claim": "A ilmenita e um mineral fortemente magnetico que contribui, em menor grau que a magnetita, para a anomalia magnetica das rochas.",
+   "location": {
+    "file": "19-geofisica-metodos/19-geofisica-metodos-aula-04-magnetometria.md",
+    "section": "Por que magnetita domina tudo",
+    "quote": "minerais fortemente magneticos - sobretudo a magnetita (Fe3O4), e em menor grau a ilmenita e a pirrotita"
+   },
+   "problem": "A ilmenita (FeTiO3) e paramagnetica a temperatura ambiente (temperatura de Neel em torno de -218 C / 40-80 K) e praticamente nao contribui para a anomalia. Os oxidos de Fe-Ti relevantes sao as titanomagnetitas (serie magnetita-ulvoespinelio, Curie 200-580 C) e intercrescimentos hemo-ilmeniticos ferrimagneticos, alem da pirrotita.",
+   "replacement": "Substituir ilmenita por titanomagnetita na lista de minerais fortemente magneticos, manter pirrotita e acrescentar ressalva de que a ilmenita pura e paramagnetica a temperatura ambiente.",
+   "source": {
+    "name": "Haggerty, Mineralogical constraints on Curie isotherms in deep crustal magnetic anomalies; McEnroe et al., Magnetism at Depth",
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/GL005i002p00105",
+    "tier": "peer_reviewed",
+    "version": "GRL 5(2), 1978; G3 19, 2018",
+    "consulted_at": "2026-08-18"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "19-geofisica-metodos/19-geofisica-metodos-aula-04-magnetometria.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-08-18T16:07:00-03:00"
+  },
+  {
+   "claim_id": "GFI-M19-MOHO-DISCOVERY-003",
+   "severity": "orange",
+   "kind": "confusao_de_escopo",
+   "claim": "A descontinuidade de Mohorovicic foi definida nos primeiros levantamentos de sismica de refracao.",
+   "location": {
+    "file": "19-geofisica-metodos/19-geofisica-metodos-aula-02-sismica-de-reflexao-e-refracao.md",
+    "section": "Refracao: quando a onda corre ao longo da interface; Recap relampago",
+    "quote": "inclusive foi o metodo usado nos primeiros levantamentos que definiram a descontinuidade de Mohorovicic"
+   },
+   "problem": "O principio fisico (onda refratada criticamente / onda de cabeca) esta correto, mas Mohorovicic nao realizou levantamento com fonte artificial: em 1909 analisou sismogramas de um terremoto natural (vale do Kupa/Pokupsko, 8 de outubro de 1909), identificando um segundo conjunto de chegadas P mais rapidas alem de ~200-300 km. Inserida num capitulo sobre fontes controladas, a frase ensina uma origem historica errada.",
+   "replacement": "Atribuir a identificacao a Mohorovicic em 1909, a partir de curvas de tempo-percurso de um terremoto natural, com ressalva de que nao houve fonte artificial e que levantamentos controlados vieram depois.",
+   "source": {
+    "name": "Prodehl & Mooney, 100 years of seismic research on the Moho; Mohorovicic (1909/1910)",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0040195113003508",
+    "tier": "peer_reviewed",
+    "version": "Tectonophysics 609, 2013",
+    "consulted_at": "2026-08-18"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "19-geofisica-metodos/19-geofisica-metodos-aula-02-sismica-de-reflexao-e-refracao.md",
+    "19-geofisica-metodos/19-geofisica-metodos-flashcards-basic.csv",
+    "19-geofisica-metodos/19-geofisica-metodos-flashcards-cloze.csv"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-08-18T16:06:00-03:00"
+  },
+  {
+   "claim_id": "GFI-M19-INNERCORE-SOLID-004",
+   "severity": "orange",
+   "kind": "certeza_indevida",
+   "claim": "A deteccao de ondas P vindas de uma superficie interna revelou o nucleo interno solido.",
+   "location": {
+    "file": "19-geofisica-metodos/19-geofisica-metodos-aula-01-sismologia-e-ondas-sismicas.md",
+    "section": "A zona de sombra: como um nucleo liquido aparece num grafico",
+    "quote": "a deteccao de ondas P refratadas de volta a partir de uma superficie ainda mais interna revelou o nucleo interno solido"
+   },
+   "problem": "Contradiz o criterio P/S que a propria aula acabou de ensinar: ondas P atravessam liquidos tao bem quanto solidos, entao a observacao de Lehmann (1936), feita so com P, nao podia estabelecer solidez. A solidez foi argumentada por Birch (1940) e Bullen (1946) e validada por modos normais em Dziewonski & Gilbert (1971).",
+   "replacement": "Separar a deteccao (Lehmann, 1936) da demonstracao de solidez (modos normais, Dziewonski & Gilbert, 1971), explicitando por que ondas P sozinhas nao bastam.",
+   "source": {
+    "name": "Dziewonski & Gilbert, Solidity of the inner core of the Earth inferred from normal mode observations",
+    "url": "https://www.nature.com/articles/234465a0",
+    "tier": "peer_reviewed",
+    "version": "Nature 234, 1971",
+    "consulted_at": "2026-08-18"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "19-geofisica-metodos/19-geofisica-metodos-aula-01-sismologia-e-ondas-sismicas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-08-18T16:03:00-03:00"
+  },
+  {
+   "claim_id": "GFI-M19-SHADOW-HISTORY-005",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "claim": "A delimitacao angular da zona de sombra (103-142 graus) foi observada por volta de 1906.",
+   "location": {
+    "file": "19-geofisica-metodos/19-geofisica-metodos-aula-01-sismologia-e-ondas-sismicas.md",
+    "section": "A zona de sombra",
+    "quote": "Ao redor de 1906, observou-se que estacoes a certas distancias angulares do epicentro (aproximadamente entre 103 e 142 de arco) nao recebiam ondas P diretas"
+   },
+   "problem": "Os valores angulares estao corretos, mas a data nao. Oldham (1906) inferiu a existencia de um nucleo a partir de tempos de chegada anomalos, sem delimitar a faixa; a delimitacao da zona de sombra e a profundidade do limite nucleo-manto sao de Gutenberg, 1913-1914. O bloco alegacoes_auditaveis da propria aula ja listava ambos.",
+   "replacement": "Atribuir a inferencia do nucleo a Oldham (1906) e a delimitacao da zona de sombra a Gutenberg (1913-1914), preservando os valores angulares.",
+   "source": {
+    "name": "IRIS/EarthScope, Seismic Shadow Zones; USGS, Shadow Zone",
+    "url": "https://www.iris.edu/hq/inclass/animation/seismic_shadow_zone_basic_introduction",
+    "tier": "reference_database",
+    "version": "consultado 2026-08-18",
+    "consulted_at": "2026-08-18"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "19-geofisica-metodos/19-geofisica-metodos-aula-01-sismologia-e-ondas-sismicas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-08-18T16:03:00-03:00"
+  },
+  {
+   "claim_id": "GFI-M19-PVEL-CRUST-006",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "claim": "A velocidade da onda P na crosta e tipicamente 5-8 km/s.",
+   "location": {
+    "file": "19-geofisica-metodos/19-geofisica-metodos-aula-01-sismologia-e-ondas-sismicas.md",
+    "section": "Dois tipos de onda de corpo, duas fisicas diferentes",
+    "quote": "tipicamente 5-8 km/s na crosta, mais rapida ainda no manto profundo"
+   },
+   "problem": "8 km/s e valor do manto imediatamente abaixo do Moho (Pn ~8,0-8,1 km/s, faixa 7,6-8,8), nao da crosta. A media global crustal e ~6,45 km/s e a crosta superior/media fica em 6,0-6,5 km/s. Incluir 8 km/s na faixa crustal apaga o salto de velocidade que define o Moho, usado pela aula 02.",
+   "replacement": "Cerca de 6 km/s na crosta continental, variando com litologia e profundidade, saltando para ~8 km/s no manto logo abaixo do Moho.",
+   "source": {
+    "name": "Christensen & Mooney, Seismic Velocity Structure and Composition of the Continental Crust: A Global View",
+    "url": "https://escweb.wr.usgs.gov/share/mooney/54seismicvelocitystruct.pdf",
+    "tier": "peer_reviewed",
+    "version": "JGR 100(B7), 1995",
+    "consulted_at": "2026-08-18"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "19-geofisica-metodos/19-geofisica-metodos-aula-01-sismologia-e-ondas-sismicas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-08-18T16:03:00-03:00"
+  },
+  {
+   "claim_id": "GFI-M19-BOUGUER-COMPLETE-007",
+   "severity": "orange",
+   "kind": "omissao_que_gera_erro",
+   "claim": "Anomalia Bouguer e a anomalia obtida apos todas as correcoes padrao, incluindo terreno.",
+   "location": {
+    "file": "19-geofisica-metodos/19-geofisica-metodos-aula-03-gravimetria.md",
+    "section": "Vocabulario; Da leitura bruta a anomalia",
+    "quote": "Anomalia obtida apos todas as correcoes padrao (ar-livre, Bouguer, terreno)"
+   },
+   "problem": "A definicao dada e a da anomalia Bouguer completa (refinada), apresentada como unica. A terminologia padrao distingue anomalia Bouguer simples (ou incompleta), que para na aproximacao de laje plana infinita, da completa, que acrescenta a correcao de terreno. Sem a distincao, o aluno le errado mapas rotulados simple Bouguer anomaly.",
+   "replacement": "Nomear as duas variantes, indicando em que etapa da reducao cada uma se fecha e quando a diferenca importa.",
+   "source": {
+    "name": "Hinze et al., New standards for reducing gravity data: The North American gravity database; Holom & Oldow, Gravity reduction spreadsheet",
+    "url": "https://pubs.geoscienceworld.org/gsa/geosphere/article/3/2/86/31148/Gravity-reduction-spreadsheet-to-calculate-the",
+    "tier": "normative",
+    "version": "Geophysics 70(4), 2005; Geosphere 3(2), 2007",
+    "consulted_at": "2026-08-18"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "19-geofisica-metodos/19-geofisica-metodos-aula-03-gravimetria.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-08-18T16:07:00-03:00"
+  },
+  {
+   "claim_id": "GFI-M19-MAG-ENERGY-008",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "claim": "Magnitude e a medida instrumental unica da energia liberada num terremoto.",
+   "location": {
+    "file": "19-geofisica-metodos/19-geofisica-metodos-aula-01-sismologia-e-ondas-sismicas.md",
+    "section": "Vocabulario desta aula; Recap relampago",
+    "quote": "Medida instrumental unica da energia liberada num terremoto (hoje, tipicamente magnitude de momento, Mw)"
+   },
+   "problem": "O USGS separa as grandezas: Mw deriva do momento sismico (rigidez x area x deslocamento) e mede o tamanho do terremoto; a energia radiada tem escala propria (magnitude de energia, Me), e o USGS afirma que as duas medem propriedades diferentes e nao coincidem. O corpo da aula ja definia Mw corretamente, de modo que o vocabulario contradizia o texto.",
+   "replacement": "Medida instrumental unica do tamanho do terremoto na fonte, calculada a partir do momento sismico; relaciona-se a energia liberada, mas nao e a mesma grandeza que a magnitude de energia (Me).",
+   "source": {
+    "name": "USGS, Earthquake Magnitude, Energy Release, and Shaking Intensity",
+    "url": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+    "tier": "normative",
+    "version": "consultado 2026-08-18",
+    "consulted_at": "2026-08-18"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "19-geofisica-metodos/19-geofisica-metodos-aula-01-sismologia-e-ondas-sismicas.md",
+    "19-geofisica-metodos/19-geofisica-metodos-flashcards-basic.csv"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-08-18T16:04:00-03:00"
+  },
+  {
+   "claim_id": "GFI-M19-QUIZ-OBJMAP-009",
+   "severity": "orange",
+   "kind": "inconsistencia_interna",
+   "claim": "A matriz de cobertura atribui a Q18 ao objetivo oa03 e a Q17 ao objetivo oa04.",
+   "location": {
+    "file": "19-geofisica-metodos/19-geofisica-metodos-questionario-final.md",
+    "section": "Matriz de cobertura; Autodiagnostico",
+    "quote": "oa03 | ... | 6, 7, 8, 15, 16, 18 | 12"
+   },
+   "problem": "Q18 trata de intervalos P-S, trilateracao e modelo de velocidade (aula 01, oa01); Q17 trata de interpretacao de anomalia aeromagnetica (aula 04, oa03). O autodiagnostico enviava quem errava a Q18 para gravimetria/magnetometria e quem errava a Q17 para a aula 05. A caixa de dica final do proprio questionario ja tratava a Q17 como conteudo das aulas 03-04, contradizendo a matriz.",
+   "replacement": "Mover Q18 para oa01/aula 01 e Q17 para oa03/aulas 03-04, na matriz e no autodiagnostico.",
+   "source": {
+    "name": "Consistencia interna do material: enunciados das Q17 e Q18 contra os objetivos declarados no hub do modulo",
+    "url": null,
+    "tier": "internal",
+    "version": "estado de 2026-08-18",
+    "consulted_at": "2026-08-18"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "19-geofisica-metodos/19-geofisica-metodos-questionario-final.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-08-18T16:10:00-03:00"
+  },
+  {
+   "claim_id": "GFI-M19-QUIZ-POINTS-010",
+   "severity": "orange",
+   "kind": "inconsistencia_interna",
+   "claim": "O questionario soma 46 pontos possiveis, normalizados a 40 por arredondamento de escala.",
+   "location": {
+    "file": "19-geofisica-metodos/19-geofisica-metodos-questionario-final.md",
+    "section": "Matriz de cobertura",
+    "quote": "Total: 46 pontos possiveis distribuidos pelas 19 questoes antes de arredondamento de escala"
+   },
+   "problem": "Nao existe normalizacao. A soma real e exatamente 40: 12 na Parte I (12 x 1), 8 na Parte II (4 x 2) e 20 na Parte III (6+6+8). Os 46 vinham da coluna de pontos por objetivo, que estava errada, e a frase sobre arredondamento foi construida para justificar a divergencia. Distribuicao real com o mapeamento corrigido: oa01 11, oa02 4, oa03 13, oa04 2, oa05 10.",
+   "replacement": "Substituir a coluna de pontos pelos valores reais e trocar a nota de normalizacao pela decomposicao verdadeira (12 + 8 + 20 = 40).",
+   "source": {
+    "name": "Aritmetica do proprio questionario",
+    "url": null,
+    "tier": "internal",
+    "version": "estado de 2026-08-18",
+    "consulted_at": "2026-08-18"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "19-geofisica-metodos/19-geofisica-metodos-questionario-final.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-08-18T16:10:00-03:00",
+   "note": "Consequencia registrada: com as contas corretas, oa04 fica com 2 pontos para uma aula inteira. Desenho de avaliacao, encaminhado a revisao didatica; nenhuma questao nova foi inventada nesta auditoria."
+  },
+  {
+   "claim_id": "GFI-M19-CARDS-DIST-011",
+   "severity": "orange",
+   "kind": "inconsistencia_interna",
+   "claim": "O baralho tem 6 cards Cloze para cada uma das seis aulas, e oa03 recebe 20 Basic + 12 Cloze.",
+   "location": {
+    "file": "19-geofisica-metodos/19-geofisica-metodos-flashcards.md",
+    "section": "Distribuicao",
+    "quote": "| a03 - Gravimetria | oa03 | 10 | 6 | 16 |"
+   },
+   "problem": "A contagem real nos CSVs difere: a03 tem 5 Cloze (fc013-fc017) e a06 tem 7 (fc030-fc036); as demais tem 6. O total de 36 esta certo, mas oa03 soma 11 Cloze, nao 12. Os 60 Basic estao corretamente distribuidos 10 por aula.",
+   "replacement": "Ajustar a tabela para a contagem real (a03 = 5, a06 = 7) e corrigir o paragrafo de cobertura para 20 Basic + 11 Cloze em oa03.",
+   "source": {
+    "name": "Contagem direta em 19-geofisica-metodos-flashcards-cloze.csv",
+    "url": null,
+    "tier": "internal",
+    "version": "estado de 2026-08-18",
+    "consulted_at": "2026-08-18"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "19-geofisica-metodos/19-geofisica-metodos-flashcards.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-08-18T16:12:00-03:00"
+  },
+  {
+   "claim_id": "GFI-M19-CITATION-INTEGRITY-012",
+   "severity": "blue",
+   "kind": "evidencia_insuficiente",
+   "claim": "As aulas 02 e 05 citam paginas do USGS como fonte dos metodos sismicos e do gradiente geotermico.",
+   "location": {
+    "file": "19-geofisica-metodos/19-geofisica-metodos-aula-02-sismica-de-reflexao-e-refracao.md",
+    "section": "Fontes (aula 02 e aula 05)",
+    "quote": "USGS, Seismic Reflection and Refraction (https://www.usgs.gov/special-topics/water-science-school)"
+   },
+   "problem": "A URL da aula 02 foi verificada e e a pagina do USGS Water Science School, sobre agua, sem conteudo sismico. A URL da aula 05 (usgs.gov/faqs/what-geothermal-gradient) retorna HTTP 404. As alegacoes em si nao sao erro: reflexao/refracao foram confirmadas pelas paginas do SEG Wiki ja citadas, e o gradiente de 25-30 C/km foi confirmado independentemente. O defeito e de verificabilidade.",
+   "replacement": "Remover a atribuicao falsa ao USGS na aula 02, mantendo Kearey, Brooks & Hill; substituir a URL morta da aula 05 pela publicacao USGS viva e verificada sobre o mesmo dado.",
+   "source": {
+    "name": "USGS, Geothermal gradients in the conterminous United States (fonte substituta verificada)",
+    "url": "https://www.usgs.gov/publications/geothermal-gradients-conterminous-united-states",
+    "tier": "normative",
+    "version": "consultado 2026-08-18",
+    "consulted_at": "2026-08-18"
+   },
+   "confidence": "nao_verificado",
+   "affected_files": [
+    "19-geofisica-metodos/19-geofisica-metodos-aula-02-sismica-de-reflexao-e-refracao.md",
+    "19-geofisica-metodos/19-geofisica-metodos-aula-05-metodos-eletricos-eletromagneticos-e-geotermicos.md"
+   ],
+   "outcome": "corrigido_com_ressalva",
+   "applied_at": "2026-08-18T16:08:00-03:00",
+   "note": "Nenhuma alegacao nova foi inventada: apenas se retirou uma atribuicao demonstravelmente falsa e se apontou para fonte conferida. Reversivel se o usuario preferir nao substituir fontes durante auditoria."
+  },
+  {
+   "claim_id": "GFI-M19-RICHTER-SAT-013",
+   "severity": "white",
+   "kind": "controversia",
+   "claim": "A escala Richter satura (perde sensibilidade) acima de magnitude ~7.",
+   "location": {
+    "file": "19-geofisica-metodos/19-geofisica-metodos-aula-01-sismologia-e-ondas-sismicas.md",
+    "section": "Localizando um epicentro: a corrida P-S",
+    "quote": "porque a Richter satura (perde sensibilidade) acima de magnitude ~7"
+   },
+   "problem": "O fato de fundo (ML satura, por isso Mw a substituiu para eventos grandes) e indiscutivel, mas o numero nao e consenso. A pagina do USGS sobre escalas de magnitude nao fixa limiar, dizendo apenas que o metodo era estritamente valido para certas faixas de frequencia e distancia; fontes secundarias dao ~6,5; literatura didatica da 6,5-7; e o limiar depende de qual escala se discute (ML satura antes de Ms, que satura em torno de 8).",
+   "replacement": "Substituir o numero unico por faixa com a divergencia explicita, por exemplo: satura em torno de magnitude 6,5-7, conforme a escala e o criterio adotados.",
+   "source": {
+    "name": "USGS, Moment magnitude, Richter scale - what are the different magnitude scales, and why are there so many?",
+    "url": "https://usgs.gov/faqs/moment-magnitude-richter-scale-what-are-different-magnitude-scales-and-why-are-there-so-many",
+    "tier": "normative",
+    "version": "consultado 2026-08-18; silente quanto ao limiar",
+    "consulted_at": "2026-08-18"
+   },
+   "confidence": "em_disputa",
+   "affected_files": [
+    "19-geofisica-metodos/19-geofisica-metodos-aula-01-sismologia-e-ondas-sismicas.md"
+   ],
+   "outcome": "corrigido_com_ressalva",
+   "applied_at": "2026-08-18T00:00:00-03:00",
+   "note": "Nao corrigido por instrucao explicita de nao aplicar correcao a achados controversos sem decisao do usuario. Nenhum material derivado depende do limiar."
+  }
+ ],
+ "verified_claims": [
+  {
+   "claim_id": "GFI-M19-OK-PS-PROP-014",
+   "claim": "Onda P e longitudinal e atravessa solido, liquido e gas; onda S e transversal e so se propaga em solidos.",
+   "source": "USGS, The Science of Earthquakes (2026)",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GFI-M19-OK-VSVP-015",
+   "claim": "Vs e cerca de 60% de Vp no mesmo meio.",
+   "source": "Christensen & Mooney 1995 (Vp/Vs crustal 1,74-1,83)",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GFI-M19-OK-SHADOW-ANG-016",
+   "claim": "Zona de sombra: P ausente entre ~103 e ~142 graus; S ausente alem de ~103 graus.",
+   "source": "IRIS/EarthScope; USGS",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GFI-M19-OK-SHADOW-MECH-017",
+   "claim": "A ausencia total de S alem de ~103 graus evidencia nucleo externo liquido; a de P vem de refracao no limite nucleo-manto.",
+   "source": "IRIS/EarthScope",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GFI-M19-OK-ENERGY-32-018",
+   "claim": "Cada grau inteiro de magnitude corresponde a cerca de 32x mais energia liberada; dois graus, a ~1.000x.",
+   "source": "USGS, Earthquake Magnitude, Energy Release, and Shaking Intensity",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GFI-M19-OK-INTENSITY-019",
+   "claim": "Intensidade (Mercalli) varia ponto a ponto para um mesmo evento; magnitude e unica.",
+   "source": "USGS",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GFI-M19-OK-TRILAT-020",
+   "claim": "O intervalo P-S da distancia, nao direcao; tres estacoes localizam o epicentro por trilateracao.",
+   "source": "IRIS, How Do Seismologists Locate an Earthquake?",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GFI-M19-OK-IMPEDANCE-021",
+   "claim": "Impedancia acustica e densidade x velocidade P, e o contraste de impedancia gera a reflexao.",
+   "source": "SEG Wiki, Seismic reflection method; Kearey, Brooks & Hill",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GFI-M19-OK-HEADWAVE-022",
+   "claim": "No angulo critico a onda viaja ao longo da interface na velocidade da camada inferior e, alem do ponto de cruzamento, chega antes da direta.",
+   "source": "SEG Wiki, Seismic refraction method",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GFI-M19-OK-TIMEDEPTH-023",
+   "claim": "A sismica bruta e medida em tempo; converter para profundidade exige modelo de velocidade.",
+   "source": "SEG Wiki; Schlumberger Oilfield Glossary",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GFI-M19-OK-BOUGUER-DENS-024",
+   "claim": "A correcao Bouguer assume tipicamente ~2,67 g/cm3 para crosta continental.",
+   "source": "Hinze, Bouguer reduction density, why 2.67?, Geophysics 68(5), 2003",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GFI-M19-OK-NONUNIQUE-025",
+   "claim": "Metodos potenciais sofrem de nao unicidade: a mesma anomalia admite infinitas solucoes.",
+   "source": "SEG Wiki, Gravity method",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GFI-M19-OK-CURIE-580-026",
+   "claim": "A temperatura de Curie da magnetita e ~580 C e define a profundidade de Curie na crosta.",
+   "source": "Bouligand et al., JGR 114, 2009; Haggerty, GRL 5(2), 1978",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GFI-M19-OK-NT-BACKGROUND-027",
+   "claim": "Anomalias magneticas de interesse sao de dezenas a centenas de nT sobre campo de fundo de dezenas de milhares de nT.",
+   "source": "SEG Wiki, Magnetic method; IGRF",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GFI-M19-OK-PORE-FLUID-028",
+   "claim": "A resistividade de rocha porosa e controlada pela agua dos poros e sua salinidade; minerio macico e grafita conduzem por via eletronica.",
+   "source": "US EPA, Electrical Methods; Britannica, Rock - Electrical properties",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GFI-M19-OK-IP-DISSEM-029",
+   "claim": "IP e especialmente sensivel a minerais metalicos disseminados, mesmo com pouco contraste de resistividade.",
+   "source": "SEG Wiki, Induced polarization",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GFI-M19-OK-GEOTHERM-030",
+   "claim": "Gradiente geotermico continental medio da ordem de 25-30 C/km, variando com contexto tectonico.",
+   "source": "USGS, Geothermal gradients in the conterminous United States",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GFI-M19-OK-LOGS-031",
+   "claim": "GR mede radioatividade natural (K, Th, U) e separa folhelho de rocha limpa; sonico + densidade dao a impedancia do sismograma sintetico da amarracao poco-sismica.",
+   "source": "SEG Wiki, Well logging; Schlumberger Oilfield Glossary",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEO-M19-A01-MEC-FOCAL-004",
+   "claim": "A polaridade do primeiro movimento da onda P em multiplas estacoes define quatro quadrantes alternados de compressao e dilatacao, cujas fronteiras sao dois planos perpendiculares (plano de falha e plano auxiliar), indistinguiveis apenas por sismogramas.",
+   "source": "USGS, Earthquake Glossary - focal mechanism; Stein & Wysession (2003), cap. 4",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEO-M19-A01-BEACHBALL-005",
+   "claim": "Na bola de praia (projecao estereografica de hemisferio inferior): centro claro = falha normal; centro escuro = falha reversa; padrao de xadrez em quatro quadrantes = falha transcorrente.",
+   "source": "USGS, Earthquake Glossary - focal mechanism; Stein & Wysession (2003), cap. 4",
+   "confidence": "confirmado"
+  }
+ ],
+ "pending": [
+  {
+   "claim_id": "GFI-M19-CITATION-INTEGRITY-012",
+   "reason": "Corrigido com ressalva: substituicao de fonte durante auditoria. Reversivel se o usuario preferir outra politica."
+  }
+ ],
+ "course_state_updated": false,
+ "course_state_note": "Bloco audit do modulo 19 NAO foi escrito em course-state.yaml, por instrucao explicita. Consolidacao externa pendente, junto com os modulos 17 e 19. Ate la, este manifesto e o hub do modulo sao a fonte da verdade sobre o estado da auditoria.",
+ "anki_warning": "Cards alterados: fb008, fb020, fc012. Se o baralho foi importado no Anki antes de 2026-08-18, reimportar os CSVs nao sobrescreve com seguranca cards ja em revisao - corrigir ou apagar esses tres a mao.",
+ "gate": {
+  "red_open": 0,
+  "orange_open": 0,
+  "status": "liberado"
+ }
+}

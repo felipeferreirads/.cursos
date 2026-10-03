@@ -1,0 +1,549 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "18-tectonica-global-geodinamica/",
+    "module_id": "18",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-19",
+  "verdict": "approved",
+  "summary": {
+    "red": 1,
+    "orange": 12,
+    "yellow": 0,
+    "blue": 1,
+    "white": 1,
+    "verified_ok": 18
+  },
+  "findings": [
+    {
+      "claim_id": "TEC-SUPERC-ULTIMA-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "claim": "Pangeia Ultima foi apresentada como cenario de fechamento extrovertido consumindo o Atlantico.",
+      "location": {
+        "file": "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-06-ciclo-dos-supercontinentes.md",
+        "section": "E o proximo supercontinente?; Recap relampago",
+        "quote": "Pangeia Ultima (fechamento extrovertido, consumindo o Atlantico) ou Amasia (reuniao em torno do Artico, unindo America e Asia)"
+      },
+      "problem": "Os rotulos estao trocados. Pangeia Ultima e o cenario de INTROVERSAO (fechamento do oceano interior, o Atlantico); o cenario de extroversao (fechamento do Pacifico) e Novopangeia, que estava ausente da aula; Amasia e ortoversao.",
+      "replacement": "Apresentar os tres cenarios com o modo correspondente: Pangeia Ultima = introversao (Atlantico), Novopangeia = extroversao (Pacifico), Amasia = ortoversao (Artico, a ~90 graus da Pangeia).",
+      "source": {
+        "name": "Davies, Green & Duarte, Back to the future II: tidal evolution of four supercontinent scenarios",
+        "url": "https://esd.copernicus.org/articles/11/291/2020/",
+        "tier": "peer_reviewed",
+        "version": "Earth System Dynamics 11, 291 (2020); orig. Global and Planetary Change (2018)",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-06-ciclo-dos-supercontinentes.md",
+        "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-flashcards-basic.csv",
+        "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-flashcards.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-18T00:00:00-03:00"
+    },
+    {
+      "claim_id": "TEC-SUPERC-PANNOTIA-002",
+      "severity": "white",
+      "kind": "controversia",
+      "claim": "Pannotia foi apresentada como supercontinente intermediario consolidado entre Rodinia e Pangeia, e usada como resposta esperada no gabarito da Q14.",
+      "location": {
+        "file": "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-06-ciclo-dos-supercontinentes.md",
+        "section": "Os principais supercontinentes propostos; Exemplo trabalhado",
+        "quote": "Um supercontinente intermediario frequentemente citado entre Rodinia e Pangeia e Pannotia (tambem chamada Gondwana pan-africana em algumas formulacoes)"
+      },
+      "problem": "A existencia de Pannotia como supercontinente coerente e objeto de disputa publicada: ha refutacao explicita (Nance & Murphy 2022) e defesa explicita (Murphy et al. 2021). O material tratava a disputa como consenso e o gabarito da Q14 a transformava em item de prova.",
+      "replacement": "Marcar Pannotia (c. 650-540 Ma) como hipotese em disputa, apontar que a amalgamacao do Gondwana Ocidental no mesmo intervalo e menos controversa, e aceitar as duas respostas na Q14.",
+      "source": {
+        "name": "Nance & Murphy, Pannotia: to be or not to be?; Murphy et al., Pannotia: in defence of its existence and geodynamic significance",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0012825222002124",
+        "tier": "peer_reviewed",
+        "version": "Earth-Science Reviews (2022); GSL Spec. Pub. 503 (2021)",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "em_disputa",
+      "affected_files": [
+        "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-06-ciclo-dos-supercontinentes.md",
+        "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-questionario-final.md"
+      ],
+      "outcome": "corrigido_com_ressalva",
+      "applied_at": "2026-08-18T00:00:00-03:00"
+    },
+    {
+      "claim_id": "TEC-PLUMA-HAVAI-003",
+      "severity": "orange",
+      "kind": "certeza_indevida",
+      "claim": "O deslocamento da pluma havaiana foi descrito como contribuicao menor e deslocamento lento na formacao da inflexao Havai-Imperador.",
+      "location": {
+        "file": "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-02-margens-de-placa-e-geodinamica-do-manto.md",
+        "section": "Exemplo trabalhado; Erros comuns",
+        "quote": "a explicacao completa combina movimento da placa e uma contribuicao menor de deslocamento da pluma"
+      },
+      "problem": "Paleomagnetismo de testemunhos do Imperador indica deriva de 11-15 graus de latitude para o sul entre ~81 e ~47 Ma, a taxas acima de 40 mm/ano, comparaveis as da placa. Alem disso a causa da inflexao segue em debate ativo, e o texto fechava o debate.",
+      "replacement": "Dar os numeros da deriva, declarar que e comparavel a velocidade da placa e apresentar a divisao entre as duas causas como debate aberto.",
+      "source": {
+        "name": "Tarduno et al., The Emperor Seamounts: southward motion of the Hawaiian hotspot plume in Earth's mantle",
+        "url": "https://www.science.org/doi/10.1126/science.1086442",
+        "tier": "peer_reviewed",
+        "version": "Science 301, 1064-1069 (2003); contraponto em Torsvik et al., Nat. Commun. 8:15660 (2017)",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-02-margens-de-placa-e-geodinamica-do-manto.md",
+        "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-questionario-final.md",
+        "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-flashcards-cloze.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-18T00:00:00-03:00"
+    },
+    {
+      "claim_id": "TEC-FORCAS-SLABPULL-004",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "O vocabulario glosa puxao de placa como 'slab push/pull'.",
+      "location": {
+        "file": "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-01-cinematica-de-placas-e-forcas-motrizes.md",
+        "section": "Vocabulario desta aula",
+        "quote": "Puxao de placa (slab push/pull)"
+      },
+      "problem": "'Slab push' nao existe na literatura; o termo correto e slab pull. O restante da aula e os flashcards fb002/fc002 ja usavam slab pull, o que torna o glosario tambem internamente inconsistente e inutil como chave de busca.",
+      "replacement": "Puxao de placa (slab pull).",
+      "source": {
+        "name": "Forsyth & Uyeda, On the relative importance of the driving forces of plate motion",
+        "url": "https://academic.oup.com/gji/article/43/1/163/586101",
+        "tier": "peer_reviewed",
+        "version": "Geophys. J. R. Astron. Soc. 43, 163-200 (1975); cf. Conrad & Lithgow-Bertelloni, Science 298 (2002)",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-01-cinematica-de-placas-e-forcas-motrizes.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-18T00:00:00-03:00"
+    },
+    {
+      "claim_id": "TEC-VEL-UNHA-005",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "A analogia com o crescimento da unha humana foi ancorada em mais de 10 cm/ano.",
+      "location": {
+        "file": "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-01-cinematica-de-placas-e-forcas-motrizes.md",
+        "section": "Como se mede o movimento",
+        "quote": "a mais de 10 cm/ano (algumas taxas de convergencia no Pacifico) - para comparacao, essa e aproximadamente a velocidade de crescimento de uma unha humana"
+      },
+      "problem": "Unha humana cresce cerca de 1 a 3,6 cm/ano. A analogia do USGS vale para a faixa central de poucos centimetros por ano, nao para o topo da faixa, que e 3 a 10 vezes mais rapido.",
+      "replacement": "Ancorar a analogia na faixa central (poucos centimetros por ano) e sinalizar que o topo da faixa e varias vezes mais rapido.",
+      "source": {
+        "name": "USGS, This Dynamic Earth - Understanding plate motions",
+        "url": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+        "tier": "reference_database",
+        "version": "consulta 2026-08-18",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-01-cinematica-de-placas-e-forcas-motrizes.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-18T00:00:00-03:00"
+    },
+    {
+      "claim_id": "TEC-BACIA-ROLLBACK-006",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "O estiramento da litosfera atras do arco foi nomeado como sendo o proprio rollback.",
+      "location": {
+        "file": "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-03-tectonica-e-bacias-sedimentares.md",
+        "section": "Subduccao: duas bacias, dois lados da fossa",
+        "quote": "quando o proprio processo de subduccao estica a litosfera atras do arco, um fenomeno chamado recuo de fossa ou rollback"
+      },
+      "problem": "Rollback e o recuo da fossa (a placa se verticaliza e a charneira migra oceano adentro); a extensao de retroarco e a consequencia. Colapsar causa e efeito remove o mecanismo que a aula pretende ensinar.",
+      "replacement": "Separar o recuo da fossa (causa) da extensao atras do arco (efeito).",
+      "source": {
+        "name": "Dynamics of slab rollback and induced back-arc basin formation",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0012821X12006000",
+        "tier": "peer_reviewed",
+        "version": "Earth Planet. Sci. Lett. (2012); sintese em Earth-Science Reviews (2022)",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-03-tectonica-e-bacias-sedimentares.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-18T00:00:00-03:00"
+    },
+    {
+      "claim_id": "TEC-CRATON-PARANA-007",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "A Bacia do Parana foi apresentada como assentada sobre embasamento cratonico da Plataforma Sul-Americana.",
+      "location": {
+        "file": "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-05-cratons-escudos-e-estabilizacao-continental.md",
+        "section": "Dois compartimentos dentro de um mesmo craton: escudo e bacia cratonica",
+        "quote": "se assenta sobre embasamento cratonico da Plataforma Sul-Americana"
+      },
+      "problem": "O embasamento da Bacia do Parana e um mosaico de blocos cratonicos (Paranapanema, Rio de la Plata, Luis Alves e bordas amazonica e sao-franciscana) soldados por faixas moveis brasilianas; por isso a literatura a classifica como bacia intracratonica. Como exemplo de 'duas faces do mesmo craton', a frase contradiz a definicao dada na propria secao.",
+      "replacement": "Descrever o embasamento como heterogeneo (blocos cratonicos + faixas brasilianas) e nomear a bacia como intracratonica.",
+      "source": {
+        "name": "Affonso et al., Lithospheric architecture of the Paranapanema Block and adjacent nuclei; Milani et al., Bacia do Parana",
+        "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020JB021183",
+        "tier": "peer_reviewed",
+        "version": "JGR Solid Earth (2021); Bol. Geoci. Petrobras 15(2) (2007); SGB/CPRM",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-05-cratons-escudos-e-estabilizacao-continental.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-18T00:00:00-03:00"
+    },
+    {
+      "claim_id": "TEC-SUPERC-MANTO-008",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Regioes quentes do manto profundo sob o oceano exterior foram apresentadas como favorecendo a subduccao que reune os fragmentos.",
+      "location": {
+        "file": "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-06-ciclo-dos-supercontinentes.md",
+        "section": "Por que os continentes voltam a se reunir? Duas familias de hipotese, item 2",
+        "quote": "regioes anomalamente quentes sob o antigo oceano que cercava o supercontinente, que poderiam favorecer padroes de subduccao que puxam os fragmentos de volta"
+      },
+      "problem": "Cadeia causal invertida. Nos modelos de manto de grau 2 as duas regioes quentes antipodais (LLSVPs) estao associadas antes a ruptura do supercontinente; a reuniao ocorre sobre o cinturao de manto descendente que as separa - conteudo da hipotese de ortoversao.",
+      "replacement": "Descrever a estrutura de grau 2 (duas regioes quentes antipodais + cinturao descendente), situar a reuniao sobre o cinturao descendente e nomear a ortoversao.",
+      "source": {
+        "name": "Mitchell, Kilian & Evans, Supercontinent cycles and the calculation of absolute palaeolongitude in deep time; The evolution of basal mantle structure in response to supercontinent aggregation and dispersal",
+        "url": "https://www.nature.com/articles/s41598-021-02359-z",
+        "tier": "peer_reviewed",
+        "version": "Nature 482, 208-211 (2012); Scientific Reports (2021); Zhong et al. (2007)",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-06-ciclo-dos-supercontinentes.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-18T00:00:00-03:00"
+    },
+    {
+      "claim_id": "TEC-OROG-SUTURA-009",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Falhas de alto angulo entre blocos foram lidas como suturas de acrescao sem evidencia de material oceanico.",
+      "location": {
+        "file": "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-04-orogenese-colisao-e-crescimento-de-cadeias.md",
+        "section": "Exemplo trabalhado, passo 2",
+        "quote": "As falhas de alto angulo que os separam sao consistentes com suturas de acrescao"
+      },
+      "problem": "O vocabulario e a secao de diagnostico da mesma aula usam a preservacao de fragmentos de crosta oceanica como criterio de sutura. No exemplo nao ha esse dado; o passo 3 e explicitamente mais cauteloso, o que confirma a inconsistencia entre os passos.",
+      "replacement": "Nomear os contatos como limites de terreno e condicionar a promocao a sutura a preservacao de material da litosfera oceanica consumida (ofiolitos, melanges).",
+      "source": {
+        "name": "Coney, Jones & Monger, Cordilleran suspect terranes",
+        "url": "https://www.nature.com/articles/288329a0",
+        "tier": "peer_reviewed",
+        "version": "Nature 288, 329-333 (1980)",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-04-orogenese-colisao-e-crescimento-de-cadeias.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-18T00:00:00-03:00"
+    },
+    {
+      "claim_id": "TEC-SUPERC-RODINIA-ERA-010",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "O intervalo 1.100-750 Ma de Rodinia foi glosado como (Neoproterozoico/Mesoproterozoico), em ordem invertida.",
+      "location": {
+        "file": "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-06-ciclo-dos-supercontinentes.md",
+        "section": "Os principais supercontinentes propostos",
+        "quote": "1.100 a 750 milhoes de anos atras (Neoproterozoico/Mesoproterozoico)"
+      },
+      "problem": "1.100 Ma e Mesoproterozoico (Esteniano) e 750 Ma e Neoproterozoico (Toniano) na carta ICS vigente; os numeros vao do mais antigo ao mais recente e as eras vem na ordem oposta. O item vizinho (Columbia) usa a convencao correta, num ponto em que a aula ensina ordenacao cronologica cobrada na Q12.",
+      "replacement": "(do Mesoproterozoico ao Neoproterozoico)",
+      "source": {
+        "name": "ICS, International Chronostratigraphic Chart",
+        "url": "https://stratigraphy.org/chart",
+        "tier": "normative",
+        "version": "versao vigente em 2026",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-06-ciclo-dos-supercontinentes.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-18T00:00:00-03:00"
+    },
+    {
+      "claim_id": "TEC-CINEM-MAR-ESCOPO-011",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "claim": "A variacao da taxa de espalhamento com a distancia ao polo de Euler foi estendida a toda a Dorsal Meso-Atlantica.",
+      "location": {
+        "file": "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-01-cinematica-de-placas-e-forcas-motrizes.md",
+        "section": "Exemplo trabalhado, passo 3",
+        "quote": "Por isso, ao longo de toda a Dorsal Meso-Atlantica a taxa de espalhamento nao e uniforme"
+      },
+      "problem": "A Dorsal Meso-Atlantica nao e o limite de um unico par de placas: ao norte dos Acores separa America do Norte-Eurasia e ao sul America do Sul-Africa, pares com polos de Euler distintos. A regra vale dentro de cada par, como a propria aula enunciou antes.",
+      "replacement": "Restringir a conclusao ao segmento do par de placas em questao e explicitar por que a dorsal inteira nao serve como exemplo unico.",
+      "source": {
+        "name": "USGS, This Dynamic Earth - Understanding plate motions; Cochran et al., The Gakkel Ridge",
+        "url": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+        "tier": "reference_database",
+        "version": "USGS consulta 2026-08-18; JGR Solid Earth (2003)",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-01-cinematica-de-placas-e-forcas-motrizes.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-18T00:00:00-03:00"
+    },
+    {
+      "claim_id": "TEC-FONTE-USGS-URL-012",
+      "severity": "blue",
+      "kind": "evidencia_insuficiente",
+      "claim": "A aula 01 cita a fonte USGS 'Understanding plate motions' numa URL que retorna HTTP 404.",
+      "location": {
+        "file": "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-01-cinematica-de-placas-e-forcas-motrizes.md",
+        "section": "Fontes",
+        "quote": "https://www.usgs.gov/programs/earthquake-hazards/science/understanding-plate-motions"
+      },
+      "problem": "A fonte sustenta o conteudo, mas na referencia dada nao e recuperavel: o endereco nao resolve, e a data de consulta declarada nao pode estar correta. Falha de rastreabilidade, nao de conteudo.",
+      "replacement": "Substituir pela URL canonica do capitulo em This Dynamic Earth: https://pubs.usgs.gov/gip/dynamic/understanding.html",
+      "source": {
+        "name": "USGS, This Dynamic Earth: the story of plate tectonics",
+        "url": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+        "tier": "reference_database",
+        "version": "consulta 2026-08-18",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-01-cinematica-de-placas-e-forcas-motrizes.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-18T00:00:00-03:00"
+    },
+    {
+      "claim_id": "TEC-SUPERC-AURICA-031",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "A aula apresenta tres cenarios de proximo supercontinente e afirma que cada cenario corresponde a um modo de fechamento diferente, omitindo Aurica.",
+      "location": {
+        "file": "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-06-ciclo-dos-supercontinentes.md",
+        "section": "E o proximo supercontinente?; Erros comuns; Recap relampago",
+        "quote": "cada cenario corresponde a um modo de fechamento diferente: Pangeia Ultima (introversao), Novopangeia (extroversao) e Amasia (ortoversao)"
+      },
+      "problem": "A fonte citada pela propria aula (Davies, Green & Duarte) testa QUATRO cenarios, nao tres. Falta Aurica, em que Atlantico e Pacifico se fecham simultaneamente e um oceano novo se abre atraves da Asia. A omissao nao e so de um item de lista: Aurica e justamente o contraexemplo que quebra a afirmacao de que cada cenario corresponde a UM modo de fechamento, porque combina introversao e extroversao. Como escrita, a frase ensina uma taxonomia mais limpa do que a literatura sustenta. Agrava-se no flashcard fb020, cuja pergunta (Quais cenarios sao propostos) tem forma exaustiva e era respondida com tres de quatro, citando como fonte o proprio artigo que define quatro.",
+      "replacement": "Incluir Aurica como quarto cenario (combinacao) e declarar explicitamente que os modos nao sao mutuamente exclusivos.",
+      "source": {
+        "name": "Davies, Green & Duarte, Back to the future II: tidal evolution of four supercontinent scenarios",
+        "url": "https://esd.copernicus.org/articles/11/291/2020/",
+        "tier": "peer_reviewed",
+        "version": "Earth System Dynamics 11, 291 (2020)",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-06-ciclo-dos-supercontinentes.md",
+        "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-flashcards-basic.csv",
+        "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-flashcards.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-18"
+    },
+    {
+      "claim_id": "TEC-QUIZ-COBERTURA-032",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "A secao Cobertura do questionario declara contagens que somam 13 questoes, quando o instrumento tem 14.",
+      "location": {
+        "file": "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-questionario-final.md",
+        "section": "Cobertura",
+        "quote": "Distribuicao cognitiva: lembrar 5; explicar 3; aplicar 4; analisar 1. / Tipos: 5 multipla escolha, 3 dissertativas curtas, 4 aplicacoes e 1 analise."
+      },
+      "problem": "Contagem direta dos itens: as questoes de lembrar/multipla escolha sao Q01, Q03, Q05, Q07, Q10 e Q12 = SEIS, nao cinco. As duas linhas somam 13 e descrevem um questionario com uma questao a menos que o real. O cabecalho (14 questoes, 46 pts) e a matriz por objetivo estao corretos e foram conferidos item a item, entao o erro esta contido na secao Cobertura. Nao e erro cientifico: e o instrumento contradizendo a si mesmo, e o efeito pratico e o aluno se autoavaliar contra um denominador errado.",
+      "replacement": "lembrar 6; 6 multipla escolha.",
+      "source": {
+        "name": "O proprio material: contagem direta dos itens e dos pesos declarados, conferida contra o gabarito comentado",
+        "url": "",
+        "tier": "internal",
+        "version": "conteudo em 2026-08-18",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-questionario-final.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-18"
+    },
+    {
+      "claim_id": "TEC-BACIA-FOREARC-TERMO-033",
+      "severity": "orange",
+      "kind": "imprecisao_de_nomenclatura",
+      "claim": "A entrada de vocabulario funde antearco e retroarco numa linha e glosa em ingles apenas backarc.",
+      "location": {
+        "file": "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-03-tectonica-e-bacias-sedimentares.md",
+        "section": "Vocabulario desta aula",
+        "quote": "| Bacia de antearco / retroarco (backarc) | Bacias associadas a zonas de subducao..."
+      },
+      "problem": "O glossario existe para permitir ao aluno buscar o termo original na literatura. Ao juntar dois conceitos numa linha e oferecer um unico termo ingles, a entrada deixa antearco sem equivalente: o aluno nao tem como saber que o termo consagrado e FOREARC (forearc basin) e pode inferir uma forma inexistente. Mesma classe de defeito do achado TEC-FORCAS-SLABPULL-004, em grau menor - ali o termo estava errado, aqui esta ausente.",
+      "replacement": "Separar em duas entradas: Bacia de antearco (forearc) e Bacia de retroarco (back-arc).",
+      "source": {
+        "name": "Forearc / Back-arc basin - terminologia corrente em literatura de zonas de subducao (Tectonics/AGU; Balazs et al. 2022)",
+        "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021TC007078",
+        "tier": "peer_reviewed",
+        "version": "consulta 2026-08-18",
+        "consulted_at": "2026-08-18"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-aula-03-tectonica-e-bacias-sedimentares.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-18"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "TEC-CINEM-EULER-013",
+      "claim": "Movimento relativo entre placas e rotacao em torno de um polo de Euler; velocidade linear maxima a 90 graus do polo.",
+      "source": "USGS, This Dynamic Earth (2026)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TEC-CINEM-ISL-014",
+      "claim": "A Dorsal Meso-Atlantica abre mais devagar perto da Islandia que em segmentos mais distantes do polo America do Norte-Eurasia.",
+      "source": "USGS; Cochran et al. 2003, JGR",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TEC-CINEM-METODOS-015",
+      "claim": "Anomalias magneticas dao taxas de longo prazo e GPS/GNSS taxas de curto prazo; divergencia sistematica sinaliza falha travada ou limite difuso.",
+      "source": "USGS; EarthScope/UNAVCO",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TEC-FORCAS-DOMIN-016",
+      "claim": "Puxao de placa domina em placas com muito limite em subduccao; empurrao de cume e real mas bem menor; nao ha motor unico.",
+      "source": "Forsyth & Uyeda 1975; Conrad & Lithgow-Bertelloni 2002",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TEC-FORCAS-AFR-017",
+      "claim": "A Placa Africana, cercada em boa parte por limites divergentes, depende mais de empurrao de cume e do acoplamento com o manto.",
+      "source": "Forsyth & Uyeda 1975; sintese de geodinamica",
+      "confidence": "provavel"
+    },
+    {
+      "claim_id": "TEC-MANTO-SOLIDO-018",
+      "claim": "O manto e majoritariamente solido e flui em escalas de milhoes de anos.",
+      "source": "USGS, This Dynamic Earth",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TEC-MANTO-SLABMOTOR-019",
+      "claim": "As placas em subduccao sao parte ativa do motor da conveccao, nao passageiras de um fluxo independente.",
+      "source": "Conrad & Lithgow-Bertelloni 2002",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TEC-MANTO-DORSAL-020",
+      "claim": "A ascensao de manto sob dorsais e em grande parte passiva, com fusao por descompressao.",
+      "source": "Modelos de upwelling passivo; USGS",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TEC-MANTO-ARCO-021",
+      "claim": "Agua liberada da placa em subduccao reduz o solidus da cunha mantelica e gera magmatismo de arco.",
+      "source": "USGS; petrologia de zonas de subduccao",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TEC-BACIA-ACOM-022",
+      "claim": "Bacia sedimentar define-se por espaco de acomodacao, nao pelo sedimento que a preenche.",
+      "source": "Allen & Allen, Basin Analysis",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TEC-BACIA-TERM-023",
+      "claim": "A subsidencia termica pos-rifte e lenta e decai exponencialmente.",
+      "source": "Allen & Allen (modelo de McKenzie)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TEC-BACIA-FLEX-024",
+      "claim": "Bacias de antepais resultam de flexao sob a carga orogenica e recebem sedimento erodido da propria cadeia.",
+      "source": "Allen & Allen; Geological Society of London",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TEC-OROG-WILSON-025",
+      "claim": "O ciclo de Wilson e modelo idealizado, com estagios que se sobrepoem em casos reais.",
+      "source": "Geological Society of London",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TEC-OROG-DENS-026",
+      "claim": "Crosta continental e menos densa que a oceanica e o manto, resiste a subduccao, e a colisao pode dobrar a espessura crustal.",
+      "source": "USGS; geofisica de referencia (Tibete 70-80 km)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TEC-OROG-TERRENOS-027",
+      "claim": "A Cordilheira Norte-Americana e interpretada em parte substancial como acrescao sucessiva de terrenos.",
+      "source": "Coney, Jones & Monger 1980, Nature 288",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TEC-OROG-HIMALAIA-028",
+      "claim": "O Himalaia resulta da colisao India-Eurasia em curso, com soerguimento na ordem de mm/ano medido por geodesia.",
+      "source": "USGS",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TEC-CRATON-QUILHA-029",
+      "claim": "Cratons arqueanos repousam sobre quilhas de 200 km ou mais, de manto residual empobrecido, mais rigido e menos denso.",
+      "source": "Pearson et al., cratonic mantle roots",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TEC-SUPERC-IDADES-030",
+      "claim": "Columbia/Nuna ~1800-1300 Ma, Rodinia ~1100-750 Ma e Pangeia ~335-175 Ma, nessa ordem cronologica.",
+      "source": "Evans & Mitchell (Columbia/Nuna); Li et al. 2008",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M18-A03-HORST-GRABEN-003",
+      "claim": "Em regime extensional, o bloco rebaixado entre duas falhas normais e um graben e o bloco soerguido adjacente e um horst; a bacia sedimentar se instala no graben. Riftes reais sao comumente assimetricos (meio-graben).",
+      "source": "Fossen 2016, Structural Geology (2a ed.); van der Pluijm & Marshak 2004, Earth Structure (2a ed.)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M18-A03-EARS-004",
+      "claim": "O Vale do Rifte Africano Oriental e um sistema ativo de grabens e meios-grabens em escala continental; Tanganica e Malawi ocupam meios-grabens, o Lago Vitoria ocupa depressao ampla entre os ramos - nao um graben - e por isso e raso apesar da grande area.",
+      "source": "USGS, materiais educacionais sobre riftes continentais e o East African Rift System; Fossen 2016",
+      "confidence": "confirmado"
+    }
+  ],
+  "notes": {
+    "course_state_updated": false,
+    "course_state_reason": "Bloco audit do modulo 18 nao gravado em course-state.yaml por coordenacao externa com as sessoes dos modulos 17 e 20; registro feito apenas no hub do modulo.",
+    "anki_reimport_warning": "Cards fb020 (Basic, alterado duas vezes: cenarios do proximo supercontinente, agora quatro) e fc003 (Cloze, campo extra) tiveram conteudo alterado; reimportar o CSV nao sobrescreve necessariamente cards ja existentes no Anki.",
+    "second_pass": "Segunda passada independente sobre o modulo ja corrigido. Os 12 achados originais foram reconferidos no texto dos arquivos e contra fonte: todos aplicados e sustentados; execucao idempotente, nenhuma reedicao necessaria. Tres achados novos (031, 032, 033) foram encontrados e corrigidos."
+  },
+  "reverified_at": "2026-08-18T00:00:00-03:00"
+}

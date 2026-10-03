@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "03-tempo-geologico-geocronologia",
+    "module_id": "03",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-16",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 2,
+    "yellow": 0,
+    "blue": 3,
+    "white": 0,
+    "verified_ok": 0
+  },
+  "findings": [
+    {
+      "claim_id": "GEO-M03-A07-REGUA-004",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "| metro ~94 | primeiras florestas |",
+      "location": {
+        "file": "03-tempo-geologico-geocronologia-aula-07-tempo-rocha-e-magnitude.md",
+        "section": "tabela do corredor de 100 m"
+      },
+      "problem": "Na régua declarada (100 m = 4,54 Ga; 1 m = 45,4 Ma), o metro 94 corresponde a ~272 Ma (Permiano). As primeiras florestas são do Devoniano Médio, ~385 Ma, que cai no metro ~91,5. Contradizia a própria régua e ficava fora de ordem em relação à linha seguinte.",
+      "replacement": "| metro ~91,5 | primeiras florestas |",
+      "affected_files": [
+        "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-07-tempo-rocha-e-magnitude.md"
+      ],
+      "applied_at": "2026-08-16",
+      "source": {
+        "name": "Gilboa, Devoniano Médio ~385 Ma + cálculo sobre a régua declarada"
+      },
+      "confidence": "confirmado",
+      "outcome": "corrigido"
+    },
+    {
+      "claim_id": "GEO-M03-A07-DURACAO-JURASSICO-006",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "O Jurássico durou cerca de 55 milhões de anos.",
+      "location": {
+        "file": "03-tempo-geologico-geocronologia-aula-07-tempo-rocha-e-magnitude.md",
+        "section": "abertura da seção 'Duas coisas com o mesmo nome'"
+      },
+      "problem": "ICS v2024/12: Jurássico 201,4 a 143,1 Ma = 58,3 Ma. Erra por mais de 3 Ma e arredonda para o lado errado, sugerindo um período mais curto que o Devoniano quando os dois têm duração praticamente igual — e a mesma aula dá o Devoniano como 'cerca de 60'.",
+      "replacement": "O Jurássico durou quase 60 milhões de anos.",
+      "affected_files": [
+        "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-07-tempo-rocha-e-magnitude.md"
+      ],
+      "applied_at": "2026-08-16",
+      "source": {
+        "name": "ICS",
+        "version": "2024-12"
+      },
+      "confidence": "confirmado",
+      "outcome": "corrigido"
+    },
+    {
+      "claim_id": "GEO-M03-A06-BASE-FANEROZOICO-004",
+      "severity": "blue",
+      "kind": "evidencia_insuficiente",
+      "claim": "Versão da fonte normativa não declarada em três alegações numéricas.",
+      "location": {
+        "file": "blocos de alegações das aulas 06 e 07",
+        "section": "três marcadores CITAR VERSÃO"
+      },
+      "problem": "Versão da fonte normativa não declarada em três alegações numéricas.",
+      "replacement": "Valores conferidos contra a carta ICS v2024/12 e versão registrada. Base do Cambriano 538,8 +/- 0,6 Ma; Paleozoico 538,8-251,9; Mesozoico 251,9-66,0; Cenozoico 66,0-presente. Nenhum valor além do Jurássico precisou mudar.",
+      "affected_files": [
+        "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-06-escala-do-tempo-e-gssp.md",
+        "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-07-tempo-rocha-e-magnitude.md"
+      ],
+      "applied_at": "2026-08-16",
+      "source": {
+        "name": "ICS",
+        "version": "2024-12"
+      },
+      "confidence": "confirmado",
+      "outcome": "corrigido"
+    },
+    {
+      "claim_id": "M03-F02",
+      "severity": "blue",
+      "kind": "controversia",
+      "claim": "Registrado no relatório anterior e em _contexto.md; não é defeito do texto reescrito.",
+      "location": {
+        "file": "03-tempo-geologico-geocronologia-auditoria.json"
+      },
+      "problem": "Registrado no relatório anterior e em _contexto.md; não é defeito do texto reescrito.",
+      "replacement": "Nenhuma.",
+      "affected_files": [],
+      "applied_at": "2026-08-16",
+      "confidence": "em_disputa",
+      "outcome": "aceito_como_esta"
+    }
+  ],
+  "verified_claims": []
+}

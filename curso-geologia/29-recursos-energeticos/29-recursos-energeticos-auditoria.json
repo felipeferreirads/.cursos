@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "29-recursos-energeticos/",
+    "module_id": "29",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-29T00:00:00-03:00",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 0,
+    "yellow": 1,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 14
+  },
+  "findings": [
+    {
+      "claim_id": "ENE-M29A04-HIDROCAP-001",
+      "severity": "yellow",
+      "kind": "desatualizacao",
+      "claim": "A hidreletrica e a tecnologia renovavel mais madura e, historicamente, a de maior capacidade instalada entre as fontes renovaveis em escala mundial.",
+      "location": {
+        "file": "29-recursos-energeticos/29-recursos-energeticos-aula-04-renovaveis-transicao-energetica-e-clima.md",
+        "section": "Hidreletrica: a renovavel mais madura, com um limite geografico claro",
+        "quote": "a tecnologia renovavel mais madura e, historicamente, a de maior capacidade instalada entre as fontes renovaveis em escala mundial"
+      },
+      "problem": "A solar fotovoltaica ultrapassou a hidreletrica em capacidade instalada global em 2023, tres anos antes de a aula ser escrita. Pela IRENA (marco de 2026, dados de fim de 2025): solar 2.392 GW, hidreletrica renovavel 1.296 GW, eolica 1.291 GW. A palavra 'historicamente' atenua mas nao salva a frase, porque a aula descreve o presente da matriz num modulo cujo objetivo declarado e ler a matriz atual. Permanece verdadeiro que a hidreletrica e a maior fonte renovavel de ELETRICIDADE GERADA (cerca de 14% da geracao eletrica global em 2025, IEA), por causa do fator de capacidade mais alto - e essa e justamente a distincao capacidade instalada versus energia gerada que a aula 01 do proprio modulo dedica uma secao inteira a ensinar.",
+      "replacement": "a tecnologia renovavel mais madura e, ainda hoje, a que mais gera eletricidade entre as fontes renovaveis em escala mundial - cerca de 14% da geracao eletrica global (IEA, 2025) - embora a solar fotovoltaica ja a tenha ultrapassado em capacidade instalada desde 2023 (IRENA), diferenca que se explica pelo fator de capacidade muito mais alto da hidreletrica, como visto na Aula 01.",
+      "source": {
+        "name": "IRENA, Renewable capacity highlights (31 mar 2026), dados de fim de 2025: solar 2.392 GW, hidreletrica 1.296 GW, eolica 1.291 GW; IEA, Renewables 2025 - Renewable electricity: hidreletrica ainda a maior fonte renovavel de geracao, cerca de 14%, com a solar projetada para ultrapassa-la em geracao por volta de 2029",
+        "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2026/Mar/IRENA_DAT_RE_capacity_highlights_2026.pdf",
+        "tier": "reference_database",
+        "version": "IRENA dados de fim de 2025 publicados em marco de 2026; IEA Renewables 2025",
+        "consulted_at": "2026-08-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "29-recursos-energeticos/29-recursos-energeticos-aula-04-renovaveis-transicao-energetica-e-clima.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-29T00:00:00-03:00"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "ENE-M29A01-TEPEJ-002",
+      "claim": "tep e EJ sao unidades de energia usadas em balancos energeticos; o BEN brasileiro usa tep e a IEA frequentemente usa EJ.",
+      "source": "EPE/MME, Balanco Energetico Nacional; IEA, World Energy Balances",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ENE-M29A01-PRIMFINAL-003",
+      "claim": "A energia final disponivel e sempre menor que a energia primaria que lhe deu origem, porque toda conversao envolve perdas.",
+      "source": "termodinamica e contabilidade energetica padrao (IEA)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ENE-M29A01-MATRIZBR-004",
+      "claim": "A matriz eletrica brasileira e majoritariamente renovavel, puxada pela hidreletrica, enquanto a matriz energetica total permanece significativamente fossil por causa dos transportes.",
+      "source": "EPE/MME, Balanco Energetico Nacional (serie historica)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ENE-M29A01-FATORCAP-005",
+      "claim": "O fator de capacidade e alto e estavel para hidreletrica e nuclear, e baixo e variavel para eolica e solar, o que faz capacidade instalada divergir de energia gerada entre fontes.",
+      "source": "conceito padrao de planejamento de sistemas eletricos (IEA; EPE)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ENE-M29A01-EXEMPLOFC-006",
+      "claim": "Fatores de capacidade de cerca de 35% para eolica e 90% para nuclear sao ordens de grandeza tipicas. Conferem com as medias dos EUA em 2024 (eolica 34%, nuclear 92,3%); as medias mundiais sao mais baixas (nuclear em torno de 80%, eolica onshore 25-30%), variacao que a propria aula declara.",
+      "source": "EIA/Statista, capacity factor by energy source, EUA 2024",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ENE-M29A02-RANKCARVAO-007",
+      "claim": "O rank do carvao (linhito, sub-betuminoso, betuminoso, antracito) reflete grau crescente de carbonificacao e poder calorifico crescente.",
+      "source": "classificacao padrao de carvao mineral (USGS; petrologia sedimentar)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ENE-M29A02-EMISSAO-008",
+      "claim": "Por unidade de energia gerada, a emissao de CO2 segue a ordem carvao > petroleo > gas natural, refletindo a razao carbono/hidrogenio de cada combustivel.",
+      "source": "IEA/EIA, fatores de emissao por combustivel; quimica da combustao padrao",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ENE-M29A02-GNL-009",
+      "claim": "GNL e gas natural resfriado a cerca de -162 C ate o estado liquido, o que reduz seu volume em cerca de 600 vezes e permite transporte maritimo em navios metaneiros sem gasoduto.",
+      "source": "US DOE, LNG Basics (https://www.energy.gov/hgeo/articles/lng-basics); industria de GNL",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ENE-M29A02-RP-010",
+      "claim": "A relacao reserva/producao do petroleo manteve-se historicamente numa faixa relativamente estavel apesar do consumo continuo, por reavaliacao de reservas via nova descoberta e avanco tecnologico.",
+      "source": "series historicas de reservas provadas (EI/BP Statistical Review; IEA)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ENE-M29A03-URANIO235-011",
+      "claim": "O uranio natural contem cerca de 0,7% de U-235 e cerca de 99,3% de U-238, proporcao praticamente constante em qualquer deposito.",
+      "source": "World Nuclear Association, Uranium Enrichment; CDC, Uranium-235 and Uranium-238",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ENE-M29A03-ENRIQUECIMENTO-012",
+      "claim": "O enriquecimento eleva a proporcao de U-235 a poucos por cento para reatores de agua leve, o tipo de reator comercial mais comum no mundo.",
+      "source": "World Nuclear Association; IAEA",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ENE-M29A03-CICLOABERTO-013",
+      "claim": "O ciclo do combustivel nuclear aberto (sem reprocessamento) e o modelo mais adotado, incluindo pelo Brasil, que nao planeja reprocessar e armazena o combustivel usado em Angra.",
+      "source": "World Nuclear Association, Nuclear Power in Brazil; IAEA, spent fuel management (a maioria dos Estados-membros nao reprocessa)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ENE-M29A03-GRADIENTE-014",
+      "claim": "O gradiente geotermico e tipicamente da ordem de 25-30 C/km na crosta continental fora de limites de placa.",
+      "source": "Britannica, Geothermal gradient; literatura geofisica padrao",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ENE-M29A04-PUMPEDHYDRO-015",
+      "claim": "O armazenamento por bombeamento (pumped hydro) e, ainda em 2025-2026, a tecnologia de armazenamento de energia de maior capacidade instalada em escala mundial: ultrapassou 200 GW e responde por mais de 94% da capacidade de armazenamento de longa duracao, cerca de tres vezes a das baterias, embora as baterias cresçam muito mais rapido.",
+      "source": "IHA, World Hydropower Outlook (bombeamento supera 200 GW); IEA, How rapidly will the global electricity storage market grow by 2026",
+      "confidence": "confirmado"
+    }
+  ]
+}

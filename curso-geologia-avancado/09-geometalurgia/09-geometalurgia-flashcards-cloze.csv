@@ -1,0 +1,36 @@
+Em um minério de cobre com teor f = 1,00 % Cu, se o bloco A (sulfeto primário) tem recuperação R_A = 91 % e o bloco B (transição) tem recuperação R_B = 63 %, a diferença em metal recuperável por 10 000 t é {{c1::28 toneladas de Cu}}.;geologia-avancado-m09-fc001
+Num programa geometalúrgico, a relação de número entre testes de bancada e testes de piloto é {{c1::muitos para poucos}}, refletindo a lógica de mapear a variabilidade com testes baratos e calibrar com testes caros.;geologia-avancado-m09-fc002
+Na curva teor-recuperação, andar sobre a curva mudando {{c1::reagente, tempo, estágios de limpeza}} apenas troca teor por recuperação sem ganho líquido, enquanto trocar de curva moendo mais fino produz ganho real em ambas.;geologia-avancado-m09-fc003
+O P80 é a abertura de malha pela qual passam {{c1::80 %}} da massa do produto de moagem.;geologia-avancado-m09-fc004
+Na equação de Bond W = 10 × Wi × (1/√P80 − 1/√F80), a energia é proporcional a {{c1::1/√P80}}, o que significa que reduzir o P80 de 106 µm para 75 µm custa não proporcionalmente {{c1::~21 %}} mais energia.;geologia-avancado-m09-fc005
+Um minério com {{c1::disseminação grossa}} (grãos 0,1–1 mm) libera com moagem moderada, enquanto {{c1::disseminação fina}} (grãos < 50 µm) ou com {{c1::microinclusões}} exige moagem fina a ultrafina.;geologia-avancado-m09-fc006
+A liberdad preferencial ocorre quando a fratura segue {{c1::os contornos de grão}} ou uma {{c1::fase frágil ou clivável}}, reduzindo drasticamente o custo de energia da liberação.;geologia-avancado-m09-fc007
+A curva de liberação é {{c1::monótona crescente}} com {{c1::assíntota abaixo de 100 %}}, porque sempre restam {{c1::travamento fino e inclusões}}.;geologia-avancado-m09-fc008
+O alvo de condutividade hidráulica de uma barreira de argila compactada (CCL) ou geocomposto bentonítico (GCL) é K ≤ {{c1::1×10⁻⁹ m/s}}.;geologia-avancado-m09-fc009
+Um moinho de bolas opera em circuito fechado com {{c1::hidrociclone}}, com {{c1::carga circulante}} de {{c1::200–350 %}}, para evitar sobremoagem e ganhar capacidade.;geologia-avancado-m09-fc010
+A resolução espacial típica de análise modal automatizada por MEV (MLA, QEMSCAN, TIMA) é de {{c1::~1 µm}}, o que significa que grãos e inclusões {{c1::submícron}} ficam mal resolvidos.;geologia-avancado-m09-fc011
+O viés estereológico em análise modal automatizada 2D ocorre porque uma seção que corta uma partícula mista fora do centro pode atravessar {{c1::só uma das fases}}, indistinguível do corte de uma genuinamente liberada, fazendo com que a seção 2D {{c1::superestime}} a liberação 3D.;geologia-avancado-m09-fc012
+No exemplo de partição de cobre (f = 1,00 % Cu) da Aula 02, o cobre total é {{c1::1,025 %}} distribuído como: calcopirita {{c1::74,2 %}}, calcosita {{c1::14,0 %}}, crisocola {{c1::8,8 %}}, óxidos de Fe {{c1::2,9 %}}.;geologia-avancado-m09-fc013
+No mesmo exemplo, se a flotação de sulfetos recupera 95 % do cobre em sulfetos, a recuperação máxima teórica é {{c1::~83,8 %}}, porque o cobre em crisocola e óxidos de ferro fica {{c1::invisível à flotação}}.;geologia-avancado-m09-fc014
+A recuperação em função do tempo de flotação segue {{c1::R(t) = R_∞ (1 − e^(−kt))}}, com {{c1::R_∞}} sendo a recuperação máxima e {{c1::k}} a constante de taxa dependente de reagente, granulometria e hidrodinâmica.;geologia-avancado-m09-fc015
+No exemplo da Aula 03, para P80 150 µm a recuperação estimada é {{c1::~66,7 %}}, para 106 µm é {{c1::~78,3 %}}, para 75 µm é {{c1::~87,5 %}} e para 45 µm é {{c1::~92,3 %}}.;geologia-avancado-m09-fc016
+O Work Index é a energia, em kWh/t, para reduzir o material de tamanho {{c1::teoricamente infinito}} a {{c1::80 % passante em 100 µm}}.;geologia-avancado-m09-fc017
+Valores típicos de Work Index para minérios de cobre sulfetado caem na faixa {{c1::~12–15 kWh/t}}, com muitos minérios silicáticos intermediários entre 11 e 16 kWh/t.;geologia-avancado-m09-fc018
+No exemplo da Aula 04 com F80 = 9 000 µm, P80 = 106 µm e Wi = 15,0 kWh/t, a energia específica de moagem é {{c1::~13,0 kWh/t}}.;geologia-avancado-m09-fc019
+Se o P80 baixar de 106 µm para 75 µm no mesmo minério (Wi = 15,0), a energia sobe para {{c1::~15,7 kWh/t}}, um aumento de {{c1::~21 %}}.;geologia-avancado-m09-fc020
+Numa planta de 12 Mt/ano processando um minério, o aumento de energia de 2,7 kWh/t custa {{c1::~US$ 2,9 milhões/ano}} a US$ 0,09/kWh de eletricidade.;geologia-avancado-m09-fc021
+Se um minério tem Wi = 19,0 kWh/t em vez de 15,5 kWh/t, a capacidade de uma planta de potência fixa que processava 20 Mt/ano do primeiro cai para {{c1::~16,3 Mt/ano}}, uma perda de {{c1::~18 %}}.;geologia-avancado-m09-fc022
+A fórmula de dois produtos para recuperação é {{c1::R = [c × (f − t)] / [f × (c − t)] × 100 %}}, onde f = teor da alimentação, c = teor do concentrado, t = teor do rejeito.;geologia-avancado-m09-fc023
+No exemplo da Aula 05, com f = 0,85 % Cu, c = 27,5 % Cu, t = 0,072 % Cu, a recuperação é {{c1::~91,8 %}} e a razão de concentração é {{c1::~35,3}} t de minério por tonelada de concentrado.;geologia-avancado-m09-fc024
+A razão de enriquecimento no mesmo exemplo é {{c1::~32,4}}, ou seja, o concentrado é {{c1::32,4 vezes}} mais rico que a alimentação.;geologia-avancado-m09-fc025
+Se o rejeito baixar de 0,072 % Cu para 0,050 % Cu, a recuperação sobe para {{c1::~94,3 %}}}, um ganho de {{c1::~2,5 pontos}}.;geologia-avancado-m09-fc026
+"O critério de concentração para separação gravítica é {{c1::CC = (ρ_pesado − ρ_fluido) / (ρ_leve − ρ_fluido)}}; quando {{c1::CC > 2,5}}, a separação é {{c1::fácil}}, viável até ~75 µm.";geologia-avancado-m09-fc027
+Quando {{c1::CC = 1,75–2,50}}, a separação é {{c1::viável mas exige controle de finos}}, funciona até ~150 µm.;geologia-avancado-m09-fc028
+Quando {{c1::CC = 1,50–1,75}}, a separação é {{c1::difícil}}, só funciona até ~1,7 mm (material grosso).;geologia-avancado-m09-fc029
+Quando {{c1::CC = 1,25–1,50}}, a separação é só em {{c1::fragmentos}}, tipicamente como {{c1::pré-concentração}}, até ~6,35 mm.;geologia-avancado-m09-fc030
+Quando {{c1::CC < 1,25}}, a separação gravítica é {{c1::comercialmente inviável}} em qualquer tamanho.;geologia-avancado-m09-fc031
+No exemplo da Aula 06, o domínio A (sulfeto primário) tem {{c1::60 Mt}}, {{c1::0,80 % Cu}}, {{c1::90 % recuperação}} e {{c1::Wi 15,5 kWh/t}}.;geologia-avancado-m09-fc032
+No mesmo exemplo, o domínio B (transição) tem {{c1::15 Mt}}}, {{c1::0,70 % Cu}}, {{c1::62 % recuperação}} e {{c1::Wi 19,0 kWh/t}}.;geologia-avancado-m09-fc033
+Calculando o cobre recuperável real com os dois domínios: A produz {{c1::0,4320 Mt Cu}}, B produz {{c1::0,0651 Mt Cu}}, totalizando {{c1::0,4971 Mt Cu}}.;geologia-avancado-m09-fc034
+Se ignorássemos a variabilidade e usássemos uma recuperação única de 88 %, o cobre recuperável previsto seria {{c1::0,5148 Mt Cu}}}, uma superestimativa de {{c1::0,0177 Mt (17 700 t)}}, equivalente a {{c1::~US$ 150 milhões}} de receita inexistente a US$ 8 500/t.;geologia-avancado-m09-fc035
+No domínio B do exemplo da Aula 06, a planta que processava 20 Mt/ano do minério A (Wi 15,5) processa apenas {{c1::~16,3 Mt/ano}} do minério B (Wi 19,0), um atraso de {{c1::~dois meses}} para processar os 15 Mt totais, reduzindo o VPL pelo desconto.;geologia-avancado-m09-fc036

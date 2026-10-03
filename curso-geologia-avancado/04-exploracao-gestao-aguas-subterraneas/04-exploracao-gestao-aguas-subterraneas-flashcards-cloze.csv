@@ -1,0 +1,14 @@
+As três fases do desenvolvimento de um aquífero são exploração, {{c1::avaliação}} e {{c2::explotação}}.
+O produto técnico da fase de exploração é um {{c1::mapa de áreas favoráveis}}, não ainda uma estimativa de vazão explotável.
+A fase de avaliação exige um teste de aquífero de longa duração, tipicamente {{c1::72 horas}} ou mais.
+O rebaixamento composto num campo de poços é calculado pelo princípio da {{c1::superposição}}, somando os rebaixamentos individuais de cada poço.
+A vazão sustentável de um campo de poços é, em geral, {{c1::menor}} que a soma das vazões ótimas individuais, por causa da interferência mútua.
+Um limite de recarga próximo a um campo de poços é incorporado ao cálculo de superposição pelo método dos poços {{c1::imagem}}.
+O ciclo de vida de um projeto de abastecimento segue viabilidade, projeto básico, projeto {{c1::executivo}}, implantação e operação/manutenção.
+CAPEX é o investimento {{c1::inicial}}, OPEX é o custo {{c2::operacional}} recorrente, do qual a {{c3::energia elétrica}} de bombeamento costuma ser o maior componente.
+O {{c1::custo nivelado da água}} (LCOW) divide o valor presente de CAPEX e OPEX ao longo da vida útil pelo volume total de água produzido.
+A cobrança pelo uso da água bruta é instrumento da {{c1::Política Nacional de Recursos Hídricos}} (Lei 9.433/1997), distinto da tarifa de serviço de abastecimento.
+Superexplotação é definida pela persistência de rebaixamento regional {{c1::não sazonal}}, não por um valor absoluto de vazão extraída.
+A subsidência do terreno por extração excessiva resulta da consolidação {{c1::inelástica}} de camadas confinantes argilosas.
+O uso conjuntivo usa o aquífero como reservatório de {{c1::regularização}} de longo prazo, complementando a resposta rápida das águas superficiais à variabilidade de precipitação.
+O Acordo sobre o Aquífero Guarani (2010) foi assinado por Brasil, Argentina, {{c1::Paraguai}} e {{c2::Uruguai}}.

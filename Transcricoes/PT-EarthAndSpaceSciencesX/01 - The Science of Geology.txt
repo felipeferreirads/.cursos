@@ -1,0 +1,949 @@
+# 01 - The Science of Geology.txt
+Video ID: ND8Pbwg0EyY
+Lang: pt-BR
+URL: https://www.youtube.com/watch?v=ND8Pbwg0EyY
+
+---
+
+Olá a todos. Bem-vindos a este curso introdutório de geologia. Meu nome é Paul Day. Sou
+professor de geologia e serei o responsável por ministrar este curso. Esta será a
+primeira aula de uma série que produzirei. Todo o conteúdo estará disponível
+online. Se você tem interesse em aprender sobre rochas, a Terra, um pouco sobre as
+origens da Terra, como funciona o tempo geológico, se você se interessa por minerais, terremotos,
+desastres naturais ou pela formação que você está vendo bem à sua frente, que é o Morro
+Rock em Morro Bay, Califórnia, então você está no lugar certo. Esta é a aula certa para você. Portanto,
+se você estiver interessado, continue comigo e acompanhe a série. Eu adoraria ter você conosco.
+Vamos começar esta introdução à geologia. O foco principal desta primeira
+aula é entender a ciência da geologia, ou seja, entender como os geólogos pensam
+e raciocinam, como eles lidam com as evidências e como examinamos essas evidências. Através de que lentes
+as observamos? É isso que vamos analisar. Vamos examinar um pouco da história
+disso, porque a maneira como pensamos no passado certamente influencia a maneira como pensamos
+hoje. Às vezes, rejeitamos algo. Às vezes, aceitamos. Às vezes, usamos como
+contraponto. Então, vamos nos concentrar bastante nisso. Mas o que é geologia? Sobre o
+que vamos falar? Bem, para começar, geologia é a ciência que busca
+compreender o planeta Terra. Geralmente, ela é subdividida em duas subdisciplinas. Normalmente, no
+início dos estudos em geologia, um aluno iniciante pode optar por um
+curso de geologia física ou um curso de geologia histórica. A geologia física examina
+os materiais que compõem a Terra e busca compreender os diversos processos que operam abaixo e na
+superfície do nosso planeta. Isso descreve exatamente o que faremos neste curso. Faremos
+um curso de geologia física. Pretendo dar continuidade a esse assunto futuramente com
+um curso de geologia histórica, então fiquem atentos. A geologia física estuda
+os materiais. Aqui vemos uma montanha, certo? Vemos essas camadas. Elas estão torcidas
+, dobradas e há desmoronamentos acontecendo ali, se você tiver olhos capazes
+de discernir. O que causa isso? Qual é o processo? Quanto tempo leva? O que isso
+nos diz sobre a Terra? O que isso diz sobre nós como habitantes deste planeta?
+A geologia histórica busca compreender a origem da Terra e seu desenvolvimento ao longo do tempo. Portanto,
+a geologia histórica é a história da Terra. Quando ela se originou? Como ela se originou? Em que momento
+ela passou a ter oxigênio na atmosfera? Como sabemos disso? Qual foi o papel das rochas na vida?
+Qual foi o papel das rochas em nossa existência atual? Tudo isso faz parte da
+geologia histórica. E, claro, o registro fóssil é muito importante. E, de fato, aqui vemos um belo
+crânio de Tiranossauro Rex que demonstra que este é um animal que não existe mais.
+Portanto, trata-se de algo que surgiu no passado e desapareceu. Foi
+extinto. Vamos explorar um pouco a geologia histórica, mas esse é
+um foco que pode ser abordado em um curso futuro. Então, se você estiver interessado, fique
+atento. Antes de analisarmos o que acreditamos estar acontecendo hoje, precisamos
+examinar a herança do pensamento humano e o que temos pesquisado. Claro que parte disso está
+documentado, parte não. Mas temos registros muito bons de grandes pensadores.
+Creio que seu nome era Xenopanes, que se debruçou sobre a questão de como a Terra mudou
+e evoluiu ao longo do tempo, e o que essa evolução realmente significa. Então, Xenopanes, e mais tarde
+Heródoto, por exemplo, observaram fósseis de peixes e conchas e concluíram que a terra onde foram
+encontrados havia estado submersa em algum momento. Então, aqui encontramos um fóssil de peixe na China. A China é claramente
+uma massa de terra, mas há peixes nas rochas, fósseis de peixes nas rochas. E a conclusão foi essa:
+Eles tinham que estar submersos. Isso é uma evolução da paisagem. E assim podemos concluir que
+a Terra, como a vemos hoje, não era como era quando aquele peixe estava vivo.
+Aristóteles deduziu que a Terra muda a um ritmo lento e que essas mudanças não podem ser observadas
+durante a vida de uma pessoa. A conclusão é que isso está acontecendo agora. Está acontecendo o
+tempo todo, mas você simplesmente não consegue ver. É algo que está ocorrendo. Teoprasto,
+com seus escritos sobre minerais e suas propriedades, minérios e rochas, foi estudado durante o
+Renascimento. Aliás, você ainda pode baixar ou encomendar esses livros facilmente online e
+lê-los. Mas não há como negar, o mais importante para muitos dos
+pensadores antigos era a idade da Terra. E a razão pela qual isso era importante para muitas pessoas
+é porque estava intimamente ligado aos seus sistemas de crenças, geralmente o que chamaríamos de religião
+ou filosofia de vida. Portanto, a idade e as origens da Terra têm sido um assunto de
+interesse religioso e científico desde os tempos antigos. Os samrenses e babilônios acreditavam que a Terra
+tinha entre 200.000 e 400.000 anos. Os egípcios a consideravam muito mais jovem, estimando-a
+entre 15.000 e 49.000 anos, dependendo da fonte. Os gregos e romanos tinham uma
+ampla gama de idades. Alguns acreditavam que a Terra era eterna, sem começo definido. Outros a estimavam
+em cerca de 2.400 anos. Os zerastrianos, por sua vez, afirmavam que tinha cerca de 12.000 anos. Os hindus,
+no hinduísmo, possuem textos que sugerem que a Terra tem 4,3 bilhões de anos, o que é muito
+interessante, pois não está muito distante da idade cientificamente aceita atualmente. A
+cultura chinesa atribuía uma idade de 39.000 anos. E os maias, inclusive, estabeleceram uma data exata.
+Eles não foram os únicos a datar a Terra com precisão, mas afirmavam que ela se formou no
+ano 3114 a.C. Então, este é um tema que circula entre diferentes culturas há
+muito tempo. É um foco central. Qual a idade da Terra? Se for uma questão religiosa,
+claro, a pergunta é: quando Deus criou a Terra? A idade da Terra
+não era importante apenas para as culturas que mencionei na seção anterior.
+A fé cristã também tinha um interesse muito profundo nisso. E embora várias
+pessoas tenham se dedicado ao assunto, a principal figura citada é o Arcebispo James Usher. Em 1650,
+ele publicou seu popular e influente tratado chamado Anais do Antigo Testamento. Aliás,
+aqui está a capa. Nele, calculou-se que a criação ocorreu ao anoitecer de
+22 de outubro de 4004 a.C. Certo. Então, você pode ter ouvido em algum momento da sua vida que muitas pessoas no
+mundo ocidental acreditam que a Terra tem 6.000 anos. Bem, se considerarmos o período de 4004 a.C. até o ano atual,
+que é... isto está sendo filmado em 2025... isso nos levaria a 6.029 anos atrás... 22 de outubro, à
+noite. Isso é relativamente consistente com outras cronologias baseadas na Bíblia, produzidas por
+Kepler e Newton. Essa era uma crença amplamente aceita. E se você estiver interessado, pode
+acessar este link e encomendar o livro, é claro, e lê-lo. No princípio, Deus criou
+os céus e a terra. Gênesis 1:1. O início dos tempos, de acordo com nossa cronologia,
+ocorreu na entrada da noite que antecedeu o dia 23 de outubro, no
+calendário juliano, 710, o que corresponde a 4004 a.C. Certo. Então, esse é um ponto importante para
+começar. A geologia, é claro, vai analisar essa questão. Os geólogos vão
+analisar a questão de qual a idade da Terra? E isso faz sentido? Então, os primeiros geólogos
+surgiram de crenças religiosas, tentando confirmar essas questões. O interesse das
+pessoas pela Terra e sua relação com a Bíblia ia muito além das origens
+e da idade do planeta. Elas também queriam interpretar a criação da
+Terra e observar sua formação nas próprias rochas. Isso deu origem a uma
+filosofia chamada catastrofismo. Gostaria de mencionar aqui uma figura interessante
+da história. Nos estágios iniciais do desenvolvimento da geologia, foram feitos esforços para...
+As sociedades cristãs ocidentais buscavam reconciliar as narrativas bíblicas da criação e do dilúvio universal.
+Houve um evento de criação e, em seguida, um dilúvio universal bíblico, conhecido
+como "dilúvio". Esses eventos nem sempre são tratados como o mesmo, podendo haver um grande
+intervalo de tempo entre eles. Existiam diferentes filosofias sobre como isso aconteceu, mas
+muitas delas se debruçaram sobre a Terra para tentar responder a essa questão com novos conceitos sobre
+os processos que a formaram. William Whiston é provavelmente um dos
+escritores mais famosos dessa época. Ele publicou um livro em 1696, no qual argumentava que Deus, ao colocar
+os seres humanos na Terra, efetivamente terraformou um cometa e que muitas das coisas que vemos
+na Terra estão relacionadas a eventos astronômicos observados no sistema solar.
+Diferentes corpos interagindo com a Terra, geralmente com cometas, eram os principais exemplos
+apontados. Muito disso está descrito em sua teoria. Este livro foi extremamente influente.
+O livro se chama "Uma Nova Teoria da Terra, desde sua origem até a consumação de todas as coisas,
+na qual a criação do mundo em seis dias, o dilúvio universal e a conflagração geral,
+que significa um incêndio ou desastre gigantesco, conforme descrito nas escrituras sagradas e demonstrado ser perfeitamente
+aceitável à razão e à filosofia". Basicamente, ele tenta afirmar que não há controvérsia entre a Bíblia e o que observamos
+nas rochas e no registro geológico. Ele busca
+demonstrar que existe uma maneira perfeitamente razoável de realizar exatamente o que a Bíblia descreve.
+E uma das conclusões disso é que, quando se tem uma Terra muito jovem com características que
+aparentam ser bastante antigas, significa que era necessário algum meio para que as coisas acontecessem muito rapidamente. E
+esses meios que podiam ser realizados rapidamente eram geralmente catástrofes. Portanto, uma das
+ideias que precisamos abordar é o catastrofismo. O catastrofismo é o conceito de que o passado remoto
+consistiu em eventos épicos de ação paroxística e catastrófica intercalados com períodos de relativa
+tranquilidade. Então, temos tudo isso escrito aqui. Isso simplesmente significa que haverá uma
+convulsão repentina, rápida e incontrolável. Digamos que um meteoro atinja a
+Terra ou que ocorra algum tipo de grande inundação que transforme completamente as paisagens. Para
+aqueles que se preocupavam com teologia — e, claro, na época em que o
+catastrofismo começou, isso incluía praticamente todos — tais eventos poderiam ser de natureza sobrenatural. A
+água não precisava vir do oceano. Não precisava vir dos rios. Nem
+mesmo do céu. Poderia vir de Deus ou de algum outro ser sobrenatural.
+O exemplo mais citado, especialmente no Ocidente, era o "dilúvio", também conhecido como o dilúvio de Noé.
+Aqui temos uma imagem — alguém desenhou isso, encontrei online — esta é uma imagem da
+Terra, e vemos uma grande inundação global cobrindo tudo. E, claro,
+através do prisma do dilúvio de Noé, muitas pessoas observavam a história da Terra e tentavam
+explicá-la e interpretá-la dessa maneira. Assim, muitas delas realmente acreditavam que a Terra
+tinha 6.000 anos até recentemente, como consequência da forma como pensavam
+em termos de catastrofismo. Isso, naturalmente, dá origem a um conceito chamado
+geologia do dilúvio. A geologia do dilúvio é um dos primeiros paradigmas amplamente aceitos dentro do catastrofismo.
+Seu desenvolvimento ocorreu ao longo de um período de cerca de 350 anos, antes de, repentinamente,
+esfriar — veremos aonde isso leva —, mas o desenvolvimento da geologia do dilúvio atribuiu
+as camadas da Terra — as camadas rochosas que vemos por todo o planeta — e os fósseis ao
+dilúvio de Noé, moldando o pensamento geológico inicial ao integrar narrativas bíblicas com observações
+de fósseis marinhos e camadas sedimentares. Então, muitas dessas pessoas estavam indo para a
+Terra, estudando as paisagens e os fósseis, e viam isso como uma forma
+de compreender e validar a arquitetura da Terra como sendo de origem sobrenatural.
+Em particular, a entidade da Bíblia. Apoio cultural e institucional: sua popularidade foi reforçada
+por seu alinhamento com a doutrina cristã. Era ensinada nas universidades e apoiada pelo clero,
+tornando-se um paradigma dominante no discurso geológico até meados do século XIX. Este
+senhor aqui, cujo nome é francês e tenho dificuldade em pronunciá-lo, mas acredito que seja Saussure,
+é creditado por popularizar o termo "geologia" em 1779 por meio de sua obra "Viagem nos Alpes", baseando-se
+na introdução anterior do termo por seu colega Deluc em 1778. Portanto, a primeira vez
+que vemos a palavra "geólogo" ou "geologia" sendo usada é por este senhor durante seu período de
+trabalho nos Alpes e a publicação dessa obra. No final do século XVIII, o desenvolvimento do catastrofismo
+e sua reconciliação com a Bíblia deram origem a uma nova ideia refinada de catastrofismo
+que hoje chamamos de "neptunismo". Assim, a teoria do neptunismo é simplesmente esta: a teoria
+de que as rochas se formaram a partir de um oceano primordial. Em outras palavras, que toda a Terra foi
+coberta por um oceano primitivo... água líquida... necessária para que a geologia do dilúvio fornecesse uma
+explicação sistemática baseada na água para a formação de rochas, alinhando-se com as narrativas bíblicas do dilúvio. E o
+princípio disso é que todas as rochas precipitaram de uma solução aquosa. Em outras palavras, todas as rochas
+na Terra vieram da água. Então, isso é algo interessante. A ideia de termos
+granito aqui nesta imagem... é a rocha mais famosa. Quase todo mundo que já
+esteve ao ar livre ou já olhou para uma bancada sempre se pergunta: isso é granito? Eles
+conseguem identificar granito rapidamente. A segunda rocha mais famosa é provavelmente o calcário. E
+calcários fossilizados são bastante comuns no planeta Terra. Podemos observar essas duas rochas e o
+argumento dos neptunistas é que ambas vieram dos oceanos. Ambas precipitaram da água. E a
+maneira como os neptunistas chegaram a essa conclusão foi através de um sistema de classificação. Os neptunistas classificavam
+os depósitos por idade e formação. E eles afirmavam que havia uma rocha primária, uma fonte primária.
+Estas são as rochas mais antigas sem fósseis. Em outras palavras, não há fósseis nelas.
+E rochas cristalinas como o granito. Quando observamos o granito, notamos que ele possui
+cristais interligados de cores diferentes. Abordaremos isso em outra
+aula. Mas aqui vemos esses diferentes cristais todos interligados. No entanto, quando
+observamos o calcário, vemos claramente que ele contém fósseis. O granito não. Portanto, o
+granito se enquadra na categoria de rochas primárias, que teriam sido a antiga pedra fundamental da
+Terra, a pedra angular, a pedra fundamental de Deus para o planeta. Esta é uma
+rocha muito, muito antiga, se você for um neptunista. Acima dela, haveria uma camada secundária, que seriam
+rochas sedimentares fossilíferas sobrepostas às rochas primárias, como xisto ou, neste caso, talvez
+um calcário fossilífero. Não é incomum encontrar calcário ao redor da Terra e, ao observá-
+lo, perceber que ele é secundário. Portanto, esta é uma rocha secundária. Os depósitos terciários são, como
+você sabe, terciários significa terceiro, sedimentos mais jovens sobrepostos à rocha secundária. Então, você pode ter
+calcário e, sobre ele, um arenito. Nesse caso, o arenito
+seria terciário, em oposição ao calcário secundário que estaria abaixo dele. E,
+claro, os materiais mais recentes seriam os quaternários, que são o quarto grupo. Quaternário
+significa 4. Recente, e isso seria comum para seixos, areias e coisas do tipo
+, que estão acontecendo agora. Então, vamos dar um exemplo de um afloramento, como
+seria visto pelos neptunistas em termos do que seria - neste caso - um
+depósito terciário e um quaternário. Aqui vemos um exemplo de um depósito quaternário sobreposto a um
+depósito terciário, como seria interpretado pelos neptunistas. Aqui podemos ver uma clara diferença
+entre essas duas formações. Aqui temos esses seixos depositados por cima. É claro
+que uma superfície muito jovem vai se formar aqui, mas efetivamente isso
+É algum tipo de depósito de inundação. E, de fato, geólogos modernos argumentariam que provavelmente foi depositado ali
+com a ajuda da água. Isso corrobora o argumento neptunista. Mas
+outros problemas surgirão para mostrar que esta é uma imagem mais sofisticada
+do que imaginamos. Abaixo daqui está a unidade mais antiga. Esta unidade mais antiga, abaixo daqui, é terciária.
+Em outras palavras, esta é a camada seguinte. E, em teoria, se você for abaixo do
+terciário, encontrará um depósito secundário. E, se você for fundo o suficiente, encontrará
+granito ou algo cristalino sem fósseis. Então, era assim que eles viam as coisas,
+classificando-as em quatro grupos. Agora, o que é realmente interessante, se você se interessa por geologia como
+é ensinada hoje, é que ainda usamos os termos quaternário e terciário em nossa escala de tempo geológico,
+mas os usamos de uma maneira diferente da que os neptunistas os introduziram, embora sejam
+termos úteis. Os depósitos quaternários, de modo geral, têm esta aparência em massas terrestres. Os
+neptunistas não operaram sem que suas teorias fossem confrontadas com falhas de tempos em tempos.
+Isso era um tanto problemático para eles. A primeira pessoa a fazê-lo de uma forma que
+contribuiu substancialmente para a maneira como vemos a geologia hoje foi Anton Moro, que na década de 1740 estudava
+rochas do Pacífico Sul, uma área que estava sendo ativamente explorada na
+época. Ele observou essas rochas e percebeu que o basalto, uma
+rocha negra, cristalina e sem fósseis, estava ligado à atividade vulcânica e
+também à formação de montanhas, possivelmente montanhas que se formam até hoje,
+não por meio de uma catástrofe, mas por um processo natural. Isso sugere que o basalto
+se formou a partir de material fundido, e de fato observamos isso hoje. Esta é a lava. Esta é a lava que
+está esfriando e formando esta rocha negra aqui. Essa rocha negra é o basalto cristalino. Isso
+lançou as bases iniciais contra o neptinismo baseado na água e estabeleceu um novo paradigma:
+o plutonismo. Lembre-se, no mundo neptunista, o basalto é uma rocha primitiva ou primária que remonta
+aos primórdios da Terra. É uma das pedras fundamentais,
+como o granito. Isso é revolucionário no mundo neptunista: chegar e dizer: "Não,
+esta não é uma rocha formada a partir dos oceanos, mas sim formada pelo calor e que está sendo
+expelida atualmente." O Sr. Mora também foi o primeiro a distinguir a existência de
+rochas ígneas das rochas sedimentares. Ninguém havia feito isso oficialmente no
+campo que hoje chamamos de geologia. Portanto, ele foi o primeiro a fazer essa distinção em
+nível científico. O plutonismo postula que algumas rochas, como o basalto, se formam a partir do resfriamento e solidificação
+de material fundido dentro ou na superfície da Terra, impulsionado pelo calor interno. E isso é o que
+define uma rocha ígnea: uma rocha formada por esses processos. O plutonismo enfatiza
+processos geológicos contínuos, como vulcanismo e soerguimento, que remodelam constantemente a crosta terrestre, em
+oposição à deposição em meio aquoso, na qual ocorre uma catástrofe, com grande deposição
+seguida de um período de estagnação. O plutonismo
+defende que a mudança é constante. Essa é uma visão de mundo muito diferente,
+que dá origem à controvérsia entre neptunismo e plutonismo. Esse debate é crucial na
+história da geologia e no desenvolvimento da nossa compreensão do funcionamento da Terra, tendo
+influenciado profundamente cientistas como Darwin, nas ciências biológicas. Os neptunistas
+argumentavam que o granito e o basalto se precipitaram de um oceano primordial. Embora muito antigo,
+suas texturas cristalinas e associação vulcânica corroboravam a visão plutonista sobre as rochas ígneas. Uma das
+coisas que Moro estava basicamente dizendo era que o basalto não é, na verdade, uma
+rocha primitiva ou primordial que remonta ao oceano primordial, mas sim um exemplo de rocha jovem que
+faz parte de um processo que está em andamento hoje e que provavelmente já dura algum tempo. E vamos
+abordar o quão controversa essa afirmação é daqui a pouco, porque esse "algum tempo" se refere a 6.000 anos ou...
+É mais longo ou mais curto? É uma questão interessante que se transformou em uma grande
+discussão acalorada nas geociências por volta do final do século XVIII e certamente no início do século XIX.
+Neste ponto, precisamos apresentar um personagem muito importante, uma figura histórica no
+desenvolvimento da geologia: James Hutton. James Hutton foi um geólogo escocês. Ele fez parte do
+Iluminismo Escocês. Era plutonista. Estava muito ciente das descobertas do Sr. Moro.
+E era amigo do famoso filósofo David Hume. Também era amigo de James
+Watt. Sim, aquele James Watt, que dá nome à palavra "watt". Esse era seu amigo. E Adam Smith...
+Adam Smith, claro, é o autor de "A Riqueza das Nações" e muitos o consideram
+um dos pais do que chamam de capitalismo na economia. Portanto, ele estava cercado por pessoas que
+pensavam profundamente. Muitas vezes chamado de pai da geologia moderna. Então, ele é uma figura importante
+no Iluminismo Escocês e certamente teve um profundo impacto no mundo atual.
+Ele revolucionou as ciências da Terra com suas observações e teorias sobre
+processos geológicos, enfatizando a natureza dinâmica e cíclica da Terra com base em evidências empíricas.
+Evidências empíricas no sentido de que podem ser obtidas por meio de medições, observações, sensações e
+experiências. A palavra "experimento" tem esse mesmo sentido, certo? Adquirir experiência.
+E assim, por meio de evidências empíricas, é possível compilar essas informações ao longo do tempo. Agora, Hutton propôs
+algo muito novo. Hutton propôs que a Terra era imensamente antiga. Como ele descreveria
+em seus escritos, com "nenhum vestígio de um começo, nenhuma perspectiva de um fim". É uma frase muito famosa
+de seus escritos. "Nenhum vestígio de começo" significa, no que lhe concerne, que não há início. A
+Terra simplesmente sempre existiu e não tem perspectiva de desaparecer. Ela simplesmente estará aqui para sempre. Com base
+em suas observações de processos geológicos lentos, como erosão e soerguimento, ele conseguiu argumentar
+que quase tudo poderia acontecer, dado tempo suficiente. Aliás, vamos abordar
+seu raciocínio daqui a pouco. Ele desafiou a cronologia bíblica então aceita, de alguns milhares
+de anos. Em seu mundo, a Terra era imensamente antiga, muito mais antiga do que a interpretação bíblica vigente
+na época permitia. Isso não o tornaria muito popular, mas
+ele acabou dando contribuições muito importantes, impulsionando-nos da
+visão neptunista para as visões atuais. Ele foi o ponto de partida. Enquanto os neptunistas
+usavam catástrofes e eventos aquáticos, até mesmo o dilúvio de Noé, para explicar muitos dos fenômenos
+observados na superfície da Terra, James Hutton adotou uma abordagem diferente. Ele adotou uma
+abordagem plutonista, na qual o calor e o tempo convergiam para a explicação. E, ao fazer isso, desenvolveu um novo paradigma
+para a geologia, que chamamos de uniformitarismo, para que tudo funcionasse. O uniformitarismo
+é o princípio geológico introduzido por James Hutton que afirma o seguinte, e
+estes são princípios muito importantes e bastante simplistas. Hutton, claro, explica-os em
+termos muito mais amplos e com muito mais detalhes, mas, essencialmente, resumem-se a estes
+princípios: as características antigas da Terra são moldadas pelos mesmos processos naturais –
+erosão, sedimentação, vulcanismo – observados hoje. Portanto, se algo estivesse acontecendo há 60 milhões de anos,
+digamos, a formação de um vulcão, esse vulcão teria se formado da
+mesma maneira que os vulcões se formam hoje. Assim, basta pegar o que se observa
+hoje e extrapolar para o passado. Operando consistentemente em vastas escalas de tempo,
+como sintetizado em sua citação: "O presente é a chave para o passado". Então
+, se você quiser saber o que estava acontecendo naquela época, observe as analogias atuais com o que está acontecendo hoje.
+Um exemplo clássico disso pode ser visto aqui, entre a fazenda de Hutton, a fazenda Slighhouse, na Escócia, e
+este afloramento rochoso também na Escócia. Não especificamente esta, mas uma muito semelhante.
+Os processos atuais servem de guia para a ideia de uma Terra antiga e dinâmica, moldada gradualmente.
+em vez de por eventos catastróficos. Gradualmente. Certo. Muitas pessoas se referem a isso como gradualismo.
+O que ele notou, por exemplo, em Slighhouses, esta é a fazenda dele localizada aqui, é que nesta fazenda há
+uma série de valas. E o que ele percebeu é que, quando chovia durante eventos de chuva torrencial,
+uma grande quantidade daquela camada superficial do solo era levada para as ravinas, e essas ravinas, por sua vez, alimentavam
+os rios com esse sedimento, que eventualmente desaguavam no oceano.
+E ele reconheceu que, quando observamos xistos marinhos e
+rochas estratificadas de origem marinha, grande parte disso foi depositada por
+rios nesses oceanos. E assim, como seu amigo John Playfair escreveria sobre James Hutton, Hutton notou que uma vasta proporção das rochas atuais é composta
+de materiais provenientes da decomposição de corpos animais, vegetais e minerais de
+formação mais antiga. Em outras palavras, isso não foi depositado por um grande oceano diretamente
+da água, precipitado diretamente, mas sim composto de fragmentos de matéria de
+uma existência anterior em terra firme, e que levaria muito tempo para
+criar essas estruturas. E aqui temos um xisto que se formou originalmente na água,
+mas que deriva da terra e agora está de volta à terra. Portanto, passou por um
+ciclo muito complexo. Esse princípio, é claro, é hostil ao Neptunismo, pois enfatiza
+processos geológicos observáveis ​​contínuos, como erosão e vulcanismo, em vez de uma origem catastrófica única baseada na água.
+Bem, Hutton fez muitos estudos sobre esses sedimentos provenientes de sua fazenda, que eram levados pela água, e
+percebeu que, se por muito tempo não houvesse algum tipo de ciclo que reabastecesse o
+solo de tempos em tempos, eventualmente todo o solo seria erodido e levado para o
+oceano. Mas isso não aconteceu. De alguma forma, as rochas e as paisagens estavam sendo rejuvenescidas, e
+isso representou uma grande revolução na geologia da época. Outra grande controvérsia
+durante esse período foi a questão do granito e do basalto. Certo? Falamos sobre o que
+aconteceu com o Sr. Moro. O fato de ele ter apresentado esse argumento foi recebido com certa
+hostilidade. Os neptunistas não gostaram disso. Foi parte da
+controvérsia entre neptunistas e plutonistas. E em 1785, em Glen Tilt, na Escócia, James Hutton decidiu observar
+o local e tentar determinar se o granito,
+que era, repito, a pedra fundamental de Deus – essa rocha primária –, deveria ter sido a
+pedra angular da própria Terra. A questão é: esse núcleo, essa pedra fundamental da
+Terra, é um exemplo de rocha antiga ou jovem? Então, o que ele sabia era sobre um local,
+baseado em informações que possuía, onde granito e outro tipo de rocha
+chamada xisto estavam próximos um do outro. Ele decidiu ir até lá e examinar
+para descobrir se era uma rocha cristalina primitiva, formada e precipitada de um
+oceano primitivo, ou se havia nascido como material fundido. E o que ele descobriu foi que, ao
+chegar ao ponto em que o granito entra em contato próximo com o xisto, é possível identificar
+onde eles se encaixam, e isso é chamado de contato. E estamos vendo esta imagem aqui.
+Ela é de Glen Tilt. Este é o local exato para onde ele foi. E em Glen Tilt,
+ele observou que este material rosa, que é o granito, e o material cinza,
+que é o xisto, apresentam veios de granito injetando-
+se no xisto. Bem, isso é muito importante. 1) Se está se injetando,
+é líquido. E 2) se está se injetando, é mais jovem. O que ele demonstrou aqui é que
+este granito, nesta situação, não é um exemplo de uma pedra antiga que remonta às origens
+da própria Terra, mas sim um exemplo de uma rocha mais jovem que nasceu fundida e chegou a esta área
+por meio de algum processo causado pelo calor de algum lugar dentro da Terra — novamente, apoiando a
+visão plutonista — e se injetou nas rochas ao seu redor. Certo. Então, fornecendo evidências para o seu plutonismo.
+A teoria era de que o granito era uma rocha jovem formada a partir de material fundido injetado na crosta terrestre,
+e não rochas antigas formadas pela água. Isso aconteceu em 1785 em Glen Tilt, onde ele fez essa descoberta. Aliás,
+muitos turistas param lá para visitar esse afloramento. É um lugar muito famoso
+para visitar se você gosta de geoturismo e estiver na Escócia. Outro
+ponto importante que ele precisava apresentar era a prova de que a Terra era imensamente antiga. Certo? Então,
+simplesmente demonstrar que havia uma fonte de calor que poderia ter causado isso já era um passo. Mas, novamente,
+ele precisava demonstrar que havia tempo. E um dos lugares onde ele conseguiu fazer isso
+foi em Siccar Point. Isso aconteceu em 1788, três anos após sua descoberta em Glen
+Tilt. Ele visitou Siccar Point, na Escócia, onde observou uma discordância impressionante. Então, abordarei
+as discordâncias em outra aula, mas aqui se trata de camadas de rocha que deveriam estar planas
+, umas sobre as outras, mas não estão. Elas formam um
+ângulo entre si. Nesse caso, chama-se discordância angular. A imagem está
+aqui. Podemos ver rochas localizadas aqui. Elas estão quase na vertical
+. E sobre elas, há outra série de rochas. Estas também estão inclinadas, mas
+não são concordantes. Elas não estão assentadas corretamente sobre as rochas. Sabemos também que as
+camadas de rocha sempre se formam planas quando se originam. Isso já era conhecido naquela
+época. Um sujeito chamado Nicholas Steno já havia descoberto todas essas informações. Ele
+sabia que essas camadas de rocha teriam se formado planas. Então, ele analisou isso e
+disse que, se essas camadas de rocha se formaram originalmente planas e estas estão sobre elas, a única maneira de
+isso acontecer é se houver algum tipo de ciclo de deposição. Em algum momento, a Terra
+se elevou e girou essas rochas. A erosão teve que desgastar as partes superiores dessas rochas. Então,
+tudo o que estava aqui, projetando-se para o ar, desapareceu. Foi erodido. E uma
+nova série de deposições teve que ocorrer sobre essa camada, e essa deposição agora está rotacionada
+na orientação que estamos vendo aqui. Esta é uma discordância impressionante. E o que
+ficou bastante óbvio é que isso não é algo que pode acontecer em 6.000 anos. Esta é uma
+história geológica dinâmica e muito complexa, mas uma história dinâmica de mudança e movimento constantes na
+superfície da Terra. E estamos vendo isso em Siccar Point. Novamente, outro lugar que geólogos
+que praticam geoturismo visitam. É um local onde se presta muita homenagem à história da
+geologia, este local em Siccar Point. Portanto, isso corroborou sua teoria de uma Terra antiga dinâmica.
+E, de muitas maneiras, esse foi o primeiro prego no caixão da
+visão de mundo neptunista. Os plutonistas começaram a realmente dar o pontapé inicial. Agora, James Hutton
+só viveria até por volta de 1797. O golpe final para os neptunistas só ocorreria
+na década de 1830. O que nos leva ao próximo nome muito importante na geologia, Charles Lyell. Se James
+Hutton foi o pai da geologia, Charles Lyell foi seu maior defensor e provavelmente um dos
+pensadores mais importantes que já surgiram na geologia em termos de filosofia, impulsionando-a
+e tornando-a a disciplina que é hoje. Ele era plutonista. Era um seguidor de Hutton,
+mas não estudou nem trabalhou na época de Hutton. Hutton morreu em 1797. Charles Lyell
+nasceu em 1797. Eles não se conheciam. Ele foi um geólogo escocês cujo
+trabalho o estabeleceu como um dos fundadores da geologia moderna, particularmente por meio do desenvolvimento
+do uniformitarismo. Foi ele quem pegou as ideias de Hutton e começou a divulgá-las
+ao público. Na época de Hutton, a maioria de suas ideias não foi aceita, certamente
+não pela maioria dos geólogos daquele período. Mas isso mudaria. Hutton
+tinha um pequeno grupo de seguidores. Esses seguidores apresentaram essas ideias a jovens geólogos como uma espécie de
+teoria secundária ou alternativa ao que estava acontecendo com o neptunismo. Charles Lyell estava
+ciente disso. Na verdade, ele tomou conhecimento disso principalmente por meio do livro de Playfair, que foi publicado em
+1802. Lembre-se, Playfair é o cavalheiro que citei aqui. E você ainda pode comprar o livro dele.
+Lyell leu esse livro. Ele leu vários livros, estava muito familiarizado com as ideias do uniformitarismo
+e se convenceu. Então, novamente, Hutton não viveu para ver suas ideias aceitas, mas Lyell as vendeu mais tarde. Sua
+obra seminal, "Princípios de Geologia", argumentava contra o catastrofismo. E, de fato, é considerada
+o primeiro livro didático de geologia moderna. Todos a leram, incluindo Charles Darwin, que era um
+grande amigo de Charles Lyell. A combinação de evidências, eloquência e princípios convenceu
+uma ampla gama de leitores da importância desse conceito chamado "tempo profundo" para a compreensão
+da Terra e do meio ambiente. Isso influenciou fortemente a teoria da evolução de Darwin, porque,
+de repente, se a Terra era bastante antiga, os animais que viviam na Terra também eram bastante
+antigos e, portanto, a evolução se tornou uma teoria mais viável. Sua escrita conseguiu o que Hutton
+não conseguiu: atrair a atenção mundial. Certo, ele mudou tudo. Essa ideia de
+tempo profundo desempenharia um papel fundamental para pessoas como Lord Kelvin, na busca por determinar a idade exata da Terra
+. Muitas pessoas não gostavam da ideia de "nenhum vestígio de um começo". Sabe, a Terra provavelmente
+tem um começo; na verdade, essa é uma das grandes contribuições de Hutton, ou melhor, de Lord Kelvin: ele demonstrou que a Terra de fato tem um começo. Mas Lyell foi um dos
+que disseram: "Ei, se tivermos tempo suficiente, coisas extraordinárias podem começar a acontecer".
+Então, sob o uniformitarismo, basta uma mudança incremental para que coisas imensas, como
+cadeias de montanhas se alterem e se elevem, e bacias oceânicas diminuam, e coisas do tipo
+, ocorram . Claro, houve refinamentos no uniformitarismo desde que foi
+proposto originalmente por Hutton e posteriormente impulsionado por Lyell em seus conceitos de tempo profundo. E o
+refinamento mais moderno dessa ideia de uniformitarismo, que ainda é uniformitarista, mas com uma
+leve mudança, é o atualismo. E parte do pressuposto de que as leis naturais —
+ou seja, as leis da física e da química — permaneceram constantes ao longo do tempo. Assim, o hidrogênio
+sempre se comportou como hidrogênio. O hélio sempre se comportou como hélio. O oxigênio como oxigênio. As leis
+da gravitação universal funcionam de maneira muito semelhante à que sempre funcionaram.
+Mas o foco está em aplicar essas leis para interpretar eventos passados, sem assumir que a taxa
+ou a intensidade dos processos sempre foram as mesmas. Por exemplo, acreditamos que, no início da Terra,
+houve grandes bombardeios de asteroides e cometas, e é claro que isso teve um grande
+efeito ou um papel importante na formação da superfície e da composição da Terra
+. Agora, as pessoas diriam: "Bem, cada um desses eventos foi uma catástrofe". Mas lembre-se,
+o ponto-chave de uma perspectiva uniformitarista é que, se algo acontece constantemente, se é
+um processo constante, não é mais catastrofismo. É uniformitarismo. É um processo que
+ocorre por um período de tempo suficientemente longo. Ainda acontece hoje? Claro que sim!
+Temos pequenos meteoritos atingindo a Terra o tempo todo, todos os dias. São as chamadas
+chuvas de meteoros. Certo? De vez em quando, ocorre uma grande explosão na atmosfera e,
+às vezes, temos um evento no estilo de Tunguska, onde vemos coisas danificadas
+no solo. Então, essas coisas sempre aconteceram. A questão é: será que acontecem com a
+mesma frequência ou intensidade de sempre? Não, obviamente mudou. Variações nas
+condições ambientais ou na magnitude dos eventos, que podem não ser comuns hoje em dia, são outro fator importante a se considerar
+. Sempre tivemos geleiras por toda a Terra? Não, houve períodos em que
+havia pouquíssimas geleiras. Também houve períodos em que havia grandes geleiras. Aliás,
+algumas pessoas até têm a ideia de uma Terra bola de gelo. Então, essas condições ou
+magnitudes ambientais podem variar muito, mas isso não torna o evento catastrófico. Significa apenas que a
+aplicação das leis ou as condições existentes na época produzem esse resultado.
+Eventos episódicos ou catastróficos repetidos se tornam uniformes ao longo de longos períodos de tempo. Certo? Então
+É como se um vulcão entrasse em erupção e, além de expelir lava, o que é muito comum e pode
+acontecer gradualmente, certos vulcões explodissem completamente de tempos em tempos
+e depois começassem a se reconstruir. A explosão desse vulcão, como no caso do Monte
+Tehama, um vulcão que se acredita ter existido no norte da Califórnia,
+é um evento catastrofista? Não! Porque é
+algo que os vulcões fazem. Faz parte do processo. Portanto, reconhecer
+que isso ocorre não torna o evento catastrofista. Se for um processo repetido e reproduzível que vem acontecendo
+ao longo da história da Terra e está em conformidade com as leis naturais, ainda é uniformitarista,
+mas sob a perspectiva do realismo. Um ótimo exemplo de realismo
+em ação é a mega-inundação do Lago Missoula. O Lago Missoula era uma área gigantesca que agora é
+basicamente terra aberta. Aqui está uma imagem de onde era. Este é um grande vale que foi
+completamente coberto por água em determinado momento. E a água, em determinado momento, escoou muito rapidamente —
+alguns diriam até catastroficamente — escoou. Bem, se for catastrófico,
+implica certas coisas. Lembre-se de que estávamos falando sobre catastrofismo e como ele funciona.
+Mas, sob a perspectiva do atualismo, o que se diz é que o escoamento da água por esses vales provavelmente
+é bastante comum. O que estamos vendo é uma inundação de magnitude muito grande passando por aqui.
+Na verdade, esta é uma inundação de magnitude enorme, mas esse tipo de inundação pode ter sido mais comum como
+consequência direta do movimento das camadas de gelo e coisas do tipo que estavam acontecendo naquela
+época. E então, as pessoas que estudam a mega inundação do Lago Missoula imediatamente se concentram nessas
+grandes ondulações aqui. Então, aqui estão essas ondulações. Esta é a água se movendo sobre essas
+ondulações que as criam. Novamente, a mesma física que cria ondulações em pequenos riachos e
+na praia também é a mesma física que está criando essas ondulações, só que essas
+ondulações são gigantescas. Há um prédio bem em cima dessa ondulação. Há outro prédio em
+cima daquela ondulação. E aqui atrás, só para você ter uma ideia. Para que ondulações desse tamanho se formem,
+é preciso uma grande quantidade de água se movendo a uma velocidade muito alta. Certo. Mas os eventos que criam as
+condições para que essa mega inundação tenha ocorrido são completamente típicos do uniformitarismo
+. Não se trata da ira de Deus ou algo do tipo. Podemos, de fato,
+encontrar depósitos de megainundações em diferentes lugares da Terra e, em todos os casos, podemos
+explicá-los por meio de um processo natural padrão, que é completamente
+traduzível para o uniformitarismo. Como os plutonistas não seguiriam mais
+o guia dos neptunistas, que consistia em analisar textos históricos e religiosos
+para interpretar a geologia ou usá-la como guia
+, eles precisavam adotar uma abordagem diferente e, naturalmente, recorreram ao
+método científico. O método científico tem alguns conceitos-chave que você precisa conhecer. Vamos
+começar por eles. Vamos aprofundar isso ao longo da série de palestras. Mas
+o primeiro ponto que quero mencionar é a palavra hipótese. Uma hipótese é uma previsão testável
+sobre um fenômeno geológico. Por exemplo, a ideia: este vulcão local
+criou esta camada de cinzas que estamos observando. Então, cinzas vulcânicas formaram esta camada. Isso poderia ser
+uma hipótese testável. Você pode realizar uma série de testes para comprová-la. Outro
+termo importante é raciocínio indutivo. Trata-se de generalizar a partir de observações. Um exemplo disso seria
+inferir o movimento do solo a partir de padrões de falhas. Outra forma de raciocínio indutivo é realizar uma
+série de experimentos e extrapolar os resultados, concluindo que aprendemos com esses experimentos que isso
+parece ser o que acontece em nossos experimentos e vamos extrapolar isso para
+todas as condições. Isso pode ser um problema, e vamos abordar esse problema daqui a pouco
+. O raciocínio dedutivo consiste em prever resultados específicos a partir de teorias gerais. Por exemplo, camadas mais jovens,
+Por exemplo, os sedimentos são depositados sobre camadas mais antigas, e isso quase sempre acontece. Existem algumas
+situações bizarras que ocorrem quando os materiais são injetados uns nos outros, mas, na
+maior parte dos casos, desde que a gravidade esteja atuando e a deposição esteja ocorrendo,
+as camadas sedimentares formarão uma espécie de bolo, com a mais jovem no topo e a mais antiga
+na base. Bem simples. Evidências empíricas são
+dados observáveis ​​e mensuráveis. Isso inclui a composição de rochas, dados sísmicos, ou simplesmente medir
+a distância entre dois pontos com uma régua, um número que pode ser anotado em um caderno.
+Essa é uma ótima maneira de fazer isso. Conclusões são descobertas baseadas em evidências, que validam ou refinam
+hipóteses. Então, vamos falar sobre o que é uma conclusão e o que caracteriza
+uma conclusão, porque às vezes o que consideramos uma conclusão precisa ser reavaliado
+. Também precisamos introduzir o conceito da falácia da indução.
+A falácia da indução é a generalização excessiva a partir de dados limitados. Por exemplo, assumir que todas as rochas são vulcânicas
+com base em apenas algumas amostras. Então, algo que acontecia com a visão neptunista era que
+eles estavam cometendo a falácia da indução. Eles estavam analisando um número muito pequeno de exemplos
+em comparação com o que está disponível na superfície do planeta. Eles desconheciam amplamente os
+processos ígneos que ocorriam na América do Sul. Tinham conhecimento de vulcões e coisas do tipo. Eles entendiam que isso
+existia, mas não encontraram muitos exemplos de processos ígneos como base para a formação de novas
+rochas jovens. Portanto, a falácia da indução é
+a generalização excessiva a partir de dados e exemplos limitados. Um exemplo de observação que podemos
+fazer é: temos um pequeno pedaço de gelo. Esta é uma rocha que está bem aqui. E
+você notará que esta rocha tem sulcos profundos. Isso fica bem ao lado da geleira.
+Assim, podemos rapidamente formular a hipótese de que esse polimento glacial — como o chamamos —
+essa rocha polida com esses sulcos é criada pelo movimento das geleiras sobre
+a superfície da rocha, esculpindo essas linhas e sulcos e polindo-a
+. Isso poderia ser testado. E como testar? Bem, vamos a outros locais e
+verificamos se, onde existem geleiras, há polimento na rocha? E se esses sulcos estão presentes? Se
+sim, poderíamos começar a construir essa narrativa. Poderíamos começar a construir esse argumento ao longo do tempo. Se analisarmos apenas
+um local, os resultados podem não ser tão bons. É preciso analisar vários locais para
+realmente entender o que está acontecendo. Sempre acho importante reservar um tempo
+para reconhecer alguns dos principais contribuintes. Esta não é uma lista completa, de forma alguma
+. E há nomes aqui que eu gostaria de incluir, mas, novamente,
+isso transformaria a aula em uma aula sobre o método científico, em vez de uma aula sobre geologia. Mas você
+precisa garantir que anote as principais contribuições para ter um ponto de partida
+caso queira começar a analisar questões ou perguntas sobre o que estamos fazendo. Então,
+Aristóteles, novamente, este é outro nome importante na história, enfatizou a observação e
+a classificação dos fenômenos naturais. Uma figura importantíssima. Realmente o inventor da lógica como
+a conhecemos hoje. Temos outro senhor cujo nome não consigo pronunciar, mas que foi latinizado como
+Alhazen. Alhazen viveu por volta do ano 1000 d.C. Ele foi pioneiro na experimentação
+e na evidência empírica. Ele é realmente muito importante. Esta é uma imagem de Alhazen aqui.
+E este é Galileu na mesma imagem, na capa deste livro, para mostrar a
+importância desses dois pensadores para a formulação do método científico. Já
+em 1647, quando esse trabalho foi publicado, Francis Bacon formalizou a observação sistemática
+e a indução. Em outras palavras, o método científico inicial para garantir que se siga um
+processo. E ao percorrer esse processo, você está verificando uma lista de verificação para garantir que tudo o
+que você está fazendo funcione e que você esteja obtendo conhecimento, informações
+, fatos e dados, e usando-os para construir o argumento que está elaborando. Novamente,
+Não quero me precipitar, mas Francis Bacon foi o primeiro a formalizar
+isso. Galileu Galilei usou experimentos para testar sua teoria. Então, essa ideia de usar, no caso dele,
+vários tipos de pequenos dispositivos diferentes. Ele jogava bolas da Torre
+de Pisa, coisas assim. Esses experimentos forneceram a experiência necessária para que ele pudesse
+demonstrar a teoria, e essa teoria foi muito importante posteriormente, aplicada por Sir Isaac Newton.
+René Descartes enfatizou o raciocínio dedutivo e o ceticismo, e, de fato, o método científico já
+incorpora isso por meio do processo de repetibilidade. A ideia — que você provavelmente já ouviu antes — é que se
+algo é repetível e você continua obtendo o mesmo resultado, então não é mais apenas uma
+generalização a partir de uma observação básica, mas sim uma generalização a partir de uma grande quantidade
+de dados. E assim, as chances de ser verdade aumentam à medida que você tem essas iterações, esses experimentos
+, e você entra no raciocínio dedutivo. John Locke promoveu o conhecimento empírico a partir da experiência sensorial
+. Em outras palavras, ele foi o cara que realmente chegou e disse que se você pudesse medir,
+ver, sentir, tocar e quantificar algo,
+isso teria um valor enorme no que você está tentando fazer. Isso também significava que coisas metafísicas
+seriam excluídas, e isso é algo muito importante. Metafísica significa coisas do
+reino espiritual, coisas que você não pode ver, tocar ou sentir
+explicitamente. Você pode sentir algo no seu coração ou na sua mente,
+mas as ações de um anjo — a menos que o anjo se manifeste e pegue
+uma pedra e a mova, por exemplo — não são conhecimento empírico. Certo? Então ,
+as experiências sensoriais, ou seja, seus cinco sentidos, se você puder captar algo, é daí que
+você vai obter seu conhecimento. David Hume destacou a causalidade, o ceticismo
+e a investigação científica. Na verdade, foi ele quem
+introduziu as preocupações sobre a falácia da indução, que consiste em dizer que, não importa quantas
+vezes você estude algo, sempre haverá uma pequena chance de estar errado. E que você nunca poderá ter
+conhecimento perfeito sobre algo, porque sempre haverá um momento em que estará errado. E
+esse momento em que estiver errado exigirá algum tipo de correção naquilo em que
+você acredita atualmente. David Hume foi um dos que enfatizaram isso fortemente.
+E, claro, David Hume é o mentor de James Hutton. Só para mostrar essa linhagem,
+que vai de Hutton a Lyell e, eventualmente, a você, o espectador.
+Então, vamos analisar uma possível pergunta que pode ser feita no
+método científico e alguns dos procedimentos que você pode seguir para garantir que está
+verificando todos os critérios e que está realmente adquirindo
+conhecimento, e não apenas cumprindo formalidades ou tentando obter algum tipo de
+resposta tendenciosa, baseada na crença de que já sabe o que está acontecendo, e assim manipular
+os resultados. O método científico foi projetado para mantê-lo no caminho certo e garantir que você obtenha um resultado honesto. Como
+isso se traduz na prática? Observação: neste caso, a observação
+se concentra na atividade sísmica na região central da Califórnia.
+Atividade sísmica – que significa principalmente terremotos – tremores, movimentos do solo,
+coisas desse tipo. Que tipos de perguntas podemos fazer? Podemos fazer perguntas bem específicas,
+como: por que grandes terremotos ocorrem perto da falha de San Andreas, que atravessa a região central
+da Califórnia? Essa é uma ótima pergunta, aliás. Essa é uma das principais questões que
+os geólogos da Califórnia têm se perguntado há cem anos. Por que isso acontecia ao longo desse
+sistema de falhas? Por que ainda acontece? E o quanto realmente entendemos isso?
+Poderíamos fazer pesquisas preparatórias. Pesquisas preparatórias significam consultar
+os arquivos e ver o que outros já aprenderam, o que já descobriram.
+É importante analisar outros trabalhos e dados disponíveis e começar a trabalhar a partir disso, pois você poderia
+repetir o que outras pessoas já fizeram, mas uma das coisas que você pode fazer é não apenas repetir
+e replicar os dados que elas já possuem, como também complementá-los
+, sem adicionar seus próprios dados. Portanto, a pesquisa preparatória inclui a revisão de levantamentos geológicos,
+mapas e estudos anteriores. Por exemplo, aqui vemos um mapa geológico de San Benito, Califórnia,
+nesta região. Esta é a cidade de San Juan Bautista. A falha de San Andreas passa bem aqui.
+Bem aqui. Veja se consigo posicionar o cursor sobre ela. E notaremos que as rochas são muito
+diferentes em cada lado. Aqui, elas estão coloridas de marrom. Elas não têm essa cor na natureza,
+mas essa é a cor que elas têm no mapa. E isso se deve principalmente ao fato de o código de cores
+corresponder à sua idade. Certo? Então, as rochas aqui em cima, em amarelo, creme claro
+e amarelo claro, são muito mais jovens do que as vermelhas aqui embaixo e as azuis
+aqui embaixo. Então, essas são rochas mais antigas e essas são rochas relativamente mais jovens em comparação com
+estas. Então, temos a pergunta: por que isso está acontecendo? Temos todos esses dados de terremotos
+e sísmicos. A falha de San Andreas
+claramente tem rochas em lados opostos, o que é incomum, porque, como sabemos, as camadas de rocha se espalham
+e deveriam ser contínuas em ambos os lados, mas não são. Então, algo está acontecendo
+com a falha de San Andreas. Podemos fazer essa pergunta. Podemos realizar essa pesquisa preparatória
+e podemos ver que claramente algo está acontecendo. Podemos propor uma hipótese testável
+ou uma explicação testável, que é uma hipótese. Por exemplo, tectônica ativa,
+placas tectônicas formam a falha de San Andreas, certo? Podemos ir a campo
+e verificar isso. Podemos realizar experimentos para validar essa hipótese. Alguns desses experimentos podem ser
+estudos de campo, análises em laboratório ou simulações. Simulações em laboratório ou podemos
+ir a campo e fazer medições usando GPS. Certo? Então, coletamos dados, medimos as propriedades das rochas,
+os dados sísmicos ou a composição mineral. Aqui, na verdade, estamos fazendo uma observação direta e tradicional
+da falha. Isso foi depois do Grande Terremoto de São Francisco de 1906, que
+matou mais de 3.000 pessoas e destruiu 80% da cidade de São Francisco. Foi um
+evento devastador para o centro e o norte da Califórnia. Mas aqui vemos claramente o que a falha faz. Ela
+se rompe aqui. Poderíamos vir aqui, tirar fotos, medir essas coisas. E se
+ela se movesse novamente, poderíamos voltar e coletar esses dados novamente, não apenas no
+sismógrafo para ver como foi o terremoto, mas também para ver como o próprio terreno
+se deslocou. E então podemos analisar questões mais amplas: será que esta é de fato uma fronteira de placas tectônicas, como
+se acredita que a falha de San Andreas seja? Esses são os tipos de hipóteses que podemos formular. E
+é assim que funciona o método científico. É assim que funciona o trabalho de campo geológico e
+a experimentação. E juntando tudo e validando através da repetição desse processo
+. Assim, coletar uma grande quantidade de dados certamente reforçará e aprimorará o
+resultado. E isso é algo pelo qual devemos trabalhar. Agora que saímos, mapeamos
+a falha, fizemos nossa pesquisa preparatória, estamos reunindo tudo, vamos
+analisar todos esses dados e compará-los com o que encontramos anteriormente em nossa pesquisa preparatória,
+e começaremos a interpretá-los. Analisaremos esses dados. Interpretaremos os
+resultados para confirmar ou refutar a hipótese. E então chegaremos a uma conclusão. Agora,
+vamos elaborar conclusões baseadas em evidências para relatórios ou publicações. E
+o que é realmente importante é entendermos que outras pessoas precisam poder revisar
+isso, que seja compreensível e interpretável para elas. Não pode ser
+algo que você simplesmente publica em um periódico e todos dizem: "Ah, é ótimo". Alguém
+precisa poder ir lá e dizer: "Sim, eu consigo ver de onde eles tiraram essa medida,
+e essa medição é a mesma que eu obteria se a fizesse eu mesmo."
+Iteração: iteração é refinar uma hipótese ou fazer novas perguntas com base nos resultados. Por que
+queremos fazer isso? Porque queremos minimizar o risco da falácia da indução. Se não fizermos
+essa iteração no processo e permitirmos que as coisas sejam não apenas reproduzíveis
+, mas também reproduzíveis em outros locais, ou seja, para obtermos um conhecimento maior, então essa
+falácia da indução começa a se tornar muito relevante se tivermos apenas uma pequena quantidade de informações.
+Se tivermos apenas o terremoto de São Francisco de 1906 como nosso ponto de dados, é quase impossível
+concluir que a falha de San Andreas seja provavelmente o limite da placa entre o Oceano Pacífico e
+o que está acontecendo na América do Norte, no continente norte-americano. Abordaremos isso mais tarde
+. Certo. Mas você não pode fazer isso com base em um único terremoto. Mas se você estiver mapeando,
+estiver analisando dados de terremotos e observando as coisas em uma escala muito ampla e Você
+coleta milhares e milhares de observações ao longo de um extenso período de tempo e,
+de repente, fica bastante claro que a falha de San Andreas parece estar funcionando dessa
+maneira. E, na verdade, é muito difícil argumentar que ela não esteja. Então
+, vamos resumir tudo. Primeiro, você levanta uma questão sobre o mundo natural. Seja qual for
+o seu interesse no método científico em geral, você realiza uma pesquisa prévia,
+ou seja, coleta dados científicos relacionados à questão. Você formula uma hipótese que
+pode ou não responder à pergunta. Você desenvolve observações e/ou experimentos que testam a
+hipótese. Basicamente, você quer atacar suas crenças. Você quer atacar sua pergunta,
+certo? Coletando o máximo de dados possível, você analisa esses dados. E se os resultados apoiarem a
+hipótese, você os compartilha com a comunidade científica. Se os resultados apoiarem parcialmente
+ou não a hipótese, você ainda os compartilha com a comunidade. Mas sabe o que mais? Você também
+tenta novamente. Você insiste. Às vezes, descobrir que algo não é a resposta
+é tão valioso quanto descobrir que é. Certo. Então, todo o processo do
+método científico consiste em constantemente aprimorá-lo, minimizando
+riscos e maximizando a probabilidade de se obter uma resposta concreta. Agora que já vimos
+o método científico e como os geólogos o aplicam aos problemas, e provavelmente nos
+aprofundaremos um pouco mais nisso ao longo da série de aulas, precisamos
+começar com o conceito de rocha. O que é uma rocha? Tudo começou quando James Hutton
+e seus colegas observaram rochas e se perguntaram de onde elas vieram. A partir da
+compreensão da origem das rochas, eles descobriram se a causa era o calor e o tempo
+versus o catastrofismo e um oceano primordial que realizou processos. Certo? Plutonismo versus
+neptunismo. E, segundo o plutonismo, fica muito claro que as rochas são simplesmente
+aglomerações naturais de cristais que chamamos de minerais. Os minerais que compõem uma rocha
+influenciam fortemente sua natureza e aparência, conferindo-lhe muitas de suas propriedades. Quais são os
+minerais constituintes? Há minerais ali dentro. É feito de carbonato de cálcio? É quartzo? É feldspato?
+A textura de uma rocha, como seu tamanho, forma ou disposição dos minerais que a compõem, também
+influencia sua aparência. E quando olhamos aqui, podemos notar que existem vários tipos
+de rochas diferentes, com cores e texturas diferentes. Algumas delas até contêm
+material fóssil, como mencionado no último tópico. Algumas rochas podem até conter
+material fóssil. Outras podem conter ou produzir fluidos como petróleo. Então, quando olhamos
+aqui, vemos um fóssil. Aquele objeto circular ali. Há material fóssil aqui.
+Fósseis aqui. Mas aqui está uma rocha onde não vemos nenhum fóssil. Os grãos são minúsculos.
+São muito pequenos. Todas essas rochas foram formadas de maneiras diferentes em ambientes diferentes.
+E provavelmente em épocas diferentes. E, no entanto, nós os encontramos aqui, nesta pilha de entulho e material
+localizada no Alasca. Uma série muito importante de processos geológicos os reuniu
+neste local, onde é possível obter uma bela fotografia de suas diferentes cores
+e texturas. Mas o que são eles? São aglomerados de minerais. E a origem
+desses minerais é bastante importante. Aliás, um dos princípios introduzidos por
+Hutton é que as coisas antigas se transformam em coisas novas. Em outras palavras, elas estão sempre em ciclo.
+Então, ele criou o conceito chamado ciclo das rochas. E aqui estamos vendo material, neste caso,
+material vivo – material fóssil – que agora está depositado em uma nova rocha junto com
+outras coisas que não são fossilíferas, como estes outros materiais aqui. Muito interessante.
+Uma das consequências das ideias de Hutton é a criação de um ciclo das rochas, em que o material que
+existia antes pode se transformar em outras coisas com o tempo, e, de fato, as rochas estão em constante ciclo
+. Rochas ígneas, como discutimos anteriormente, foram descobertas pelo Sr. Morrow. Mas as rochas sedimentares,
+que são esses tipos de rochas em camadas que estamos vendo aqui, são derivadas
+do intemperismo de rochas pré-existentes. Os sedimentos passam por um processo chamado litificação,
+que significa transformação em rocha. Então, você pega um monte de silte, areia, argila, e você comprime,
+cimenta, e isso forma uma camada. Essa camada se torna um arenito, um siltito, um xisto,
+seja lá o que for. Ela se acumula em camadas na superfície da Terra. Essas são as
+rochas sedimentares. E aqui estamos vendo belas rochas sedimentares depositadas.
+E há um terceiro tipo de rocha cuja existência foi teoricamente determinada por
+Hutton e posteriormente confirmada: as rochas metamórficas. As rochas metamórficas são formadas
+pela transformação de rochas ígneas, sedimentares ou outras rochas metamórficas pré-existentes. Então, se você pegar uma
+rocha, não importa se é uma rocha ígnea como este basalto aqui, ou se você pegar uma pilha de
+rochas sedimentares, seja arenito, xisto ou qualquer outra, e submetê-la a uma grande quantidade
+de pressão e calor, ela irá recristalizar. E essas recristalizações criarão
+novas texturas e novos minerais. E você obtém coisas como rochas metamórficas, onde vemos
+essas camadas com faixas pretas e brancas em espiral. Quer dizer,
+parece quase um doce que foi esticado e depois comprimido novamente
+, sendo deixado na Terra. É extraordinário. E o que eles perceberam é que existem três
+tipos diferentes. E acontece que, com o tempo, elas podem se transformar em outros tipos,
+dependendo apenas da quantidade de tempo. É isso que dá origem ao ciclo das rochas. O
+ciclo das rochas é um processo que nos permite visualizar as inter-relações entre as diferentes partes do
+sistema terrestre. Certo. Então, descobriu-se que o material expelido pelos vulcões provavelmente esteve
+em outro lugar da Terra em algum momento do passado. Serviu a algum outro propósito. Eram os
+minerais, os átomos que estavam nos minerais, que foram alocados de forma diferente. E assim a
+Terra está em constante movimento e transformação ao longo do tempo. O ciclo das rochas nos permite
+entender as origens das rochas ígneas, sedimentares e metamórficas, o que , aliás
+, nem sempre é fácil . E ver que cada tipo está ligado aos outros por processos terrestres. Em outras palavras,
+não é necessário que ocorra algum tipo de catástrofe. Não é necessário um oceano primordial.
+O ciclo das rochas está constantemente produzindo todos os diferentes tipos de rochas na Terra. Constantemente e
+ao mesmo tempo, dependendo de onde você está. Em alguns lugares, areia está sendo gerada nas
+praias. No passado, onde essas praias estão hoje, talvez não fosse assim. Poderia ter sido
+calcário, ou poderia ter sido parte de uma cadeia montanhosa com vulcões, ou ainda
+rochas metamórficas sendo formadas pela compressão de grandes massas de terra com seu peso
+e calor naquela área. O ciclo das rochas foi inicialmente concebido por James Hutton, que
+teorizou sobre a origem das rochas metamórficas com base em experimentos. E este é um diagrama onde...
+Imagine que pudéssemos começar aqui mesmo: rocha vulcânica. Digamos que essa lava,
+ao esfriar, cristaliza e forma uma rocha ígnea extrusiva, algo como o basalto.
+Esse basalto pode então ser erodido, fragmentado e transformado em um sedimento como o arenito.
+Esse arenito pode então ser comprimido e cimentado ao longo do tempo para criar uma
+camada sedimentar como a que vemos no Grand Canyon. O Grand Canyon pode então, em algum momento,
+ser soterrado e submetido a grandes quantidades de calor, de modo que essas camadas no Grand Canyon acabem
+se tornando materiais metamórficos como mármores e quartzitos. E, eventualmente, se você aplicar
+calor suficiente a um local específico, essa rocha começará a derreter e o ciclo recomeça. O que é
+realmente interessante é que todos os pontos do ciclo estão conectados entre si
+. A areia pode se transformar em rochas metamórficas e se tornar quartzitos. Rochas metamórficas
+podem se transformar novamente em rochas sedimentares sem passar pelo processo ígneo. Portanto, a Terra está
+constantemente ciclando e produzindo diferentes tipos de rochas simultaneamente. Não
+são necessárias catástrofes para que isso aconteça. E essa é a principal inovação de James Hutton. Agora
+que introduzimos as rochas no ciclo das rochas, que é realmente para entendermos as
+partes constituintes da própria Terra,
+precisamos também entender o contexto da Terra. Qual é o endereço cósmico da Terra?
+Como são seus vizinhos? Qual é o produto a partir do qual a Terra se formou?
+Precisamos falar um pouco sobre isso, e isso nos dará uma boa base para o
+resto da aula. A Terra é o terceiro planeta do sistema solar a partir do Sol. Há uma
+série de planetas que se estendem a partir do Sol, sendo o Sol a estrela central do nosso sistema solar.
+A Terra orbita a uma distância média de cerca de 150 milhões de quilômetros (93 milhões de milhas)
+do Sol e é um dos oito planetas do nosso sistema solar. O sistema solar inclui o Sol,
+oito outros planetas, luas (muitas, muitas mesmo, especialmente ao redor de Júpiter
+e Saturno), milhares de asteroides e cometas. Quando você observa o sistema solar —
+aliás, existe um gráfico bem interessante que mostra o sistema girando — ele exibe todos os
+pequenos objetos mapeados no sistema solar, e o Sol, claro, está localizado no
+centro. Os planetas do nosso sistema solar orbitam o Sol quase no mesmo plano, conhecido como
+plano da eclíptica. Então, temos o Sol e a Terra orbitando ao seu redor, mas nesse mesmo plano estão
+Mercúrio, Vênus, Júpiter, Saturno, Urano e Netuno. Todos estão no
+mesmo plano. Não é como se a Terra estivesse se movendo em uma direção e Júpiter em
+outra. Todos eles orbitam o Sol como em uma pista de corrida. Os planetas
+também orbitam na mesma direção. Portanto, não é como se Saturno estivesse se movendo em uma direção diferente.
+Todos eles estão se movendo na mesma direção ao redor do Sol. E a implicação é que todos esses
+planetas e tudo mais no sistema solar, em sua maior parte, começaram a se formar mais ou menos ao
+mesmo tempo. Isso implica que todos se formaram simultaneamente, no mesmo evento. Claro que as coisas podem
+se mover, sofrer colisões e mudar com o tempo, mas o processo original parece ser o original do
+sistema solar. Seja o que for que criou o sistema solar, está criando tudo o que está nele.
+Portanto, o sistema solar também faz parte de uma comunidade maior. O seu sistema solar reside na
+Via Láctea. A galáxia é uma galáxia espiral barrada com aproximadamente 100.000
+anos-luz de diâmetro. Ano-luz: essa é a distância que a luz percorre em um ano. Então, a
+Via Láctea, e há uma bela imagem dela aqui - esta é uma representação artística. Aqui está
+a barra no meio. É isso que queremos dizer com ela ser uma galáxia espiral barrada. E aqui estão
+os braços espirais saindo dela. Aqui está o nosso sistema solar, localizado mais ou menos aqui. Este é o
+centro galáctico, bem aqui. E estamos em um braço local chamado Braço de Órion, que fica bem aqui. E
+você vai notar que estamos a cerca de dois terços do caminho para fora. Então, não estamos exatamente no centro.
+Mas nós definitivamente estamos dentro desta galáxia. Certo. A galáxia como um todo contém um número estimado de 100
+a 400 bilhões de estrelas. É um número enorme de estrelas e a maioria delas tem planetas orbitando, aliás
+. Então é fascinante. E também há a formação de novas estrelas e a destruição
+de estrelas antigas. Isso acontece o tempo todo. Acredita-se que o que está acontecendo no resto da galáxia
+também esteja acontecendo em nosso próprio sistema solar. Como dissemos antes, o
+sistema solar está localizado no braço de Órion, um braço espiral menor, a cerca de 27.000 anos-luz
+do buraco negro supermassivo central da galáxia, chamado Sagitário A*. Sagitário
+A* é um buraco negro localizado bem aqui no centro. E quando dizemos que ele é supermassivo, queremos dizer que
+ele é milhões de vezes maior que o nosso Sol. E praticamente tudo no sistema solar orbita
+ao seu redor, incluindo o nosso Sol. Nosso Sol orbita um buraco negro supermassivo, e
+a Terra é o terceiro planeta a orbitar o Sol, que por sua vez orbita um buraco negro supermassivo
+. Nosso sistema solar orbita o centro galáctico a cada 225 a 250 milhões de anos. Isso
+significa que, da última vez que a Terra esteve nessa posição em torno do centro galáctico, da última
+vez que completou um ano galáctico, os dinossauros estavam vivos. É impressionante
+pensar na quantidade de tempo que se passou. Enquanto orbitamos esse
+buraco negro, havia dinossauros aqui da última vez que estivemos nessa posição na galáxia. O
+plano galáctico e o plano da eclíptica estão inclinados em cerca de 60° um em relação ao outro. Portanto, enquanto o sistema solar se
+move em uma trajetória circular ao redor do Sol, o Sol está, na verdade, em um ângulo em relação
+ao plano galáctico. Assim, o Sol tem a aparência
+que vemos nesta imagem aqui no canto inferior direito. Está se movendo para a direita aqui,
+mas você pode ver que os planetas estão se movendo, quase como em espiral, ao redor do Sol enquanto ele
+faz sua órbita ao redor de Sagitário A*. E o mais incrível de estar na Via Láctea
+é que você pode vê-la. Se você for a um lugar escuro à noite, em uma noite sem nuvens, quando
+não há luar brilhante, então, se estiver realmente escuro, você pode olhar para cima e, com certeza,
+poderá ver a bela Via Láctea, que está representada aqui nesta imagem. Certo. E
+há algumas coisas que você pode observar. Se você olhar, quero destacar a localização de Escorpião.
+Esta é uma constelação. Há várias estrelas importantes aqui. Antares lambda scorpii, que é,
+o mais interessante sobre esta aqui é que lambda é um sistema estelar triplo. Então, são três
+estrelas orbitando uma à outra. Esta aqui é um sistema estelar quíntuplo. São cinco estrelas que estão
+gravitacionalmente ligadas entre si. Então, não existe regra que diga que a única coisa que
+pode orbitar uma estrela são planetas. Na verdade, estrelas podem orbitar outras estrelas. Antares é um
+sistema estelar binário. É uma estrela gigante e linda, absolutamente massiva, e tem outra estrela orbitando ao
+seu redor. E, na verdade, também está muito perto de um pequeno berçário para a criação de
+novas estrelas, e mostraremos isso daqui a pouco. A próxima coisa que quero mostrar é a
+localização de Sagitário A*. Aqui está o centro galáctico. Aqui vemos a Via Láctea.
+Bem ali está o centro da galáxia da Via Láctea. E se você souber onde fica Escorpião,
+pode vir. Siga a cauda de Escorpião e continue subindo por aquela faixa, e lá está
+Sagitário A*, a estrela, o centro da galáxia da Via Láctea. Está bem no meio daquela
+nuvem de poeira. E, na verdade, esta é uma imagem dela. Temos uma fotografia de Sagitário A*.
+E o que você notará é o horizonte de eventos central. O horizonte de eventos é o
+ponto a partir do qual a luz não pode mais retornar. Então, ele absorve a luz, trazendo-a para dentro.
+E então, há o disco ao redor que refrata a luz e a direciona para
+nós, vinda das estrelas ao seu redor. É absolutamente incrível o que está acontecendo aqui.
+Sagitário A* é um buraco negro supermassivo ao redor do qual você está orbitando atualmente.
+Bem perto de Antares está esta nuvem aqui. É um complexo de nuvens. É o mais próximo.
+região produtora de estrelas para a Terra. E localizada exatamente nesta posição aqui - você notará esses
+pequenos pontos rosa ali - essas são estrelas novíssimas se formando nos últimos milhares
+de anos. São coisas que vêm acontecendo há milhares e milhares
+de anos. Mas essas estrelas estão se formando a partir da poeira
+no espaço. Então, aqui temos esse complexo de nuvens, ou algo que chamaríamos de nebulosa, e essa nebulosa
+está produzindo essas estrelas. E acreditamos que este seja o local de onde o nosso Sol,
+não especificamente este, mas essas condições são o que produzem o nosso Sol no sistema solar:
+uma nebulosa ou uma nuvem de gás e poeira. Então, a questão agora é: como se passa de nuvens de gás e poeira -
+nebulosa - para estrelas, planetas e, finalmente, para nós? E isso é algo chamado
+teoria nebular. A nebulosa solar, que acreditamos ser a origem da formação do Sol, surgiu de uma
+situação muito semelhante à que acabei de mostrar. A nebulosa solar era uma enorme nuvem de gás e poeira
+composta de hidrogênio, hélio e grãos de poeira microscópicos. Assim como vemos
+estrelas se formando lá fora, acreditamos que a nebulosa colapsará sob sua própria
+gravidade. Em outras palavras, todos esses objetos flutuam no espaço, interagindo
+uns com os outros e começando a se atrair. Conforme as coisas começam a
+se aproximar, o campo gravitacional aumenta e
+atrai mais e mais matéria. Esse colapso tende a fazer com que
+, se for uma grande bola de poeira, ela comece a girar e forme um
+disco. É quase como pegar uma bola de massa de pizza e jogá-la para o ar. Ela gira,
+mas ao mesmo tempo se achata, se move em uma direção e se torna menor,
+mais compacta. É um disco que gira mais rápido. Através de colisões e outras interações, os gases
+e partículas começam a orbitar em um mesmo plano. Então, assim como aquela pizza, sendo jogada para o
+ar, com a maior parte da matéria se condensando no centro, onde se
+forma o Proto-Sol, que mais tarde se tornará o Sol. Então, todos os gases começam a se mover em direção ao centro, onde a maior parte da massa
+se concentrará. Mas nem tudo chega lá. O material na parte externa, por exemplo,
+forma planetesimais. Planetesimais são minúsculos corpos orbitando – eu não diria "minúsculos" – eles são
+grandes, mas são protoplanetas primitivos. Certo. Trata-se de material rochoso que se move e
+acumula poeira e gás enquanto orbita o disco solar, a nebulosa, limpando tudo
+isso. Você pode estar se perguntando: "Bem, temos alguma evidência de que isso seja verdade?". Acontece que
+sim. Podemos observar algumas dessas estrelas jovens. Aliás, aqui está uma
+desse mesmo complexo de nuvens, bem aqui, esta é a AS 209. A estrela central está bem aqui.
+E ao redor dela há um disco de material. E você notará que existem essas lacunas, esses anéis aqui.
+Acredita-se que entre esses anéis, e este anel aqui, aqui, aqui, aqui e
+todos esses outros, esteja um planeta se formando enquanto, você sabe, enquanto capturamos esta imagem,
+ele está absorvendo e absorvendo todo esse material, adicionando a si toda essa massa
+e limpando a nebulosa. Então, aqui temos a estrela central se formando. Aqui está a
+nebulosa se condensando e formando planetas e planetesimais. E os planetesimais
+e planetas internos, como Mercúrio, Vênus, Terra e Marte, começarão a se formar pela acreção
+de substâncias metálicas e rochosas. Assim, o material rochoso mais pesado se acumula mais perto do Sol.
+Planetas externos maiores, como Júpiter e Saturno, começam a se formar pela acreção de fragmentos de gelo, como água,
+dióxido de carbono, metano e outros tipos de gelo. O gás hidrogênio é outro exemplo. E uma das coisas que
+observamos é que, quando procuramos saber se outras estrelas têm planetas orbitando ao seu redor,
+os remanescentes desse antigo disco, descobrimos que não só temos um em nosso sistema solar, como também
+outro. Este é um exoplaneta — ou seja, planetas que orbitam estrelas que são
+Não é o nosso Sol. É o HR8799. Isso foi observado ao longo de sete anos. E aqueles pequenos
+pontos brancos que você vê girando, na imagem inferior direita, são
+planetas orbitando essa estrela. Sabemos que estrelas e planetas estão intimamente ligados
+. Então, quando se cria um disco giratório com uma estrela no centro, é muito provável
+que também se formem planetas orbitando ao redor dela. Aliás,
+estamos descobrindo agora que quase todos os sistemas estelares que observamos têm planetas
+ao seu redor. Todo esse material está vindo de uma fonte astronômica, certo?
+Meteoritos, cometas, poeira, gás – acumulando-se muito rapidamente. E, claro, conforme isso começa a acontecer,
+acelera e começa a varrer quase tudo ao seu redor. Quando esse material
+se acumulou na Terra, a temperatura era alta o suficiente para
+derreter ferro e níquel. Quando você junta objetos em um choque, produz uma grande quantidade de calor,
+muito atrito e coisas do tipo, a ponto de todos os metais começarem
+a derreter e se fundir. E nós argumentamos que isso levará à formação de uma
+estrutura em camadas na Terra. Chamamos isso de diferenciação. Então, o que acontece? Bem, os metais afundam para o
+centro, que é o núcleo. O campo magnético da Terra, uma vez que isso ocorre – então você tem uma grande quantidade de
+metais lá embaixo, especialmente se forem metais líquidos – o campo magnético da Terra começará
+a se desenvolver. De repente, você terá um campo magnético se desenvolvendo ao redor da Terra.
+Materiais de silicato fundidos subiram para formar uma crosta primitiva. Assim, toda a sílica, o oxigênio, o potássio,
+o sódio e muitas dessas substâncias irão para a superfície, porque não são tão densas quanto os líquidos
+nesses metais. E com o tempo, você estabelecerá as três divisões básicas do
+interior da Terra, o que chamamos de núcleo, manto e crosta. E se abríssemos a Terra,
+teríamos uma compreensão bastante boa do que acontece lá embaixo. Novamente, teremos uma aula
+que abordará o interior da Terra e como sabemos disso, mas na verdade temos uma
+compreensão bastante sólida de que a porção mais interna da Terra é quase toda metálica: ferro
+e níquel. Ela é sólida no centro, com um oceano de metal fundido ao redor, e
+acima disso há um manto rochoso. Acima desse manto rochoso está a crosta, sobre a qual vivemos
+. A partir dessa diferenciação, o que teria se separado? A atmosfera
+teria se expandido para a parte externa, assim como o vapor que sai de uma panela de
+água fervente. E o oceano teria se formado a partir dos gases vulcânicos. De fato, quando estudamos
+vulcões que ainda expelem gases dessa porção da Terra, especialmente do manto,
+descobrimos que ainda há uma grande quantidade de vapor d'água sendo expelida. Portanto, ainda há muita água
+no interior da Terra. Acreditamos que a Terra se formou completamente há cerca de 4,54 bilhões de anos. Portanto,
+a Terra é bastante antiga e certamente teve um começo. Como chegamos
+a essa data? Abordaremos isso em uma aula posterior. Há muita controvérsia sobre o que acontecia
+na Terra primitiva, e nos importamos profundamente com o que aconteceu naquela
+época por razões que veremos em breve. Existem duas hipóteses concorrentes
+sobre a Terra primitiva e como ela era: a hipótese da Terra quente e a hipótese da Terra fria.
+A hipótese da Terra quente era a principal teoria vigente quando eu era um jovem estudante. Ela
+afirmava que a Terra primitiva era extremamente quente devido à
+acreção de cometas e asteroides, e tudo o mais que chegava e atingia
+a Terra, com impactos de meteoritos atingindo a superfície terrestre e aquecendo tudo.
+Houve também uma grande quantidade de decaimento radioativo em certos
+elementos de meia-vida curta. Assim, oceanos de magma derretido, impulsionados pelo calor da formação, decaimento radioativo e frequentes
+impactos de meteoritos — o que eles chamam de bombardeio pesado tardio — atrasaram o surgimento
+de água líquida e vida até que o resfriamento ocorresse há cerca de 4,4 bilhões de anos. Então, o que aconteceu com a Terra primitiva?
+Por muito tempo, muitas pessoas que estudaram isso acreditavam que não havia nada em que se apoiar.
+Que toda a superfície era um oceano de magma. Essa ideia tem sido questionada recentemente. Há
+evidências crescentes de que certamente existiram bolsões, no mínimo, de Terra fria. A hipótese da Terra fria
+propõe que a Terra esfriou rapidamente após sua formação. Assim, a Terra se formou, e pode ter havido um
+oceano de magma, mas ele teve vida muito curta. Uma crosta sólida se formou muito rapidamente e
+oceanos de água líquida já existiam há 4,4 bilhões de anos. Portanto, condições favoráveis ​​à vida,
+apesar de um Sol jovem e fraco. O Sol estava apenas começando seu processo de
+formação atual. E a razão pela qual isso é importante é porque essas teriam sido
+as condições em que a vida teria se formado na Terra, ou potencialmente poderia ter se formado,
+por volta dessa época. Alguns argumentam que a vida surgiu mais tarde, outros argumentam que
+surgiu logo no início, e esse é um tema que tem sido muito estudado. Quando
+analisamos os minerais mais antigos do mundo, descobrimos que minerais como este
+zircão de 4,4 bilhões de anos se formaram sob condições típicas de uma Terra fria,
+com a presença de um oceano. Os isótopos — falaremos mais sobre isótopos
+adiante — são consistentes com uma Terra fria. Nada de extraordinário. É
+provável que a Terra quente tenha predominado logo após sua formação. Evidências como os zircões antigos apontam
+para uma Terra fria há 4,4 bilhões de anos — o "GA" significa "giga anum", que quer dizer
+"bilhões de anos atrás" — indicando uma transição de condições quentes para mais frias, o que possibilitou
+a habitabilidade inicial. Em outras palavras: vida. Portanto, a Terra é única, pois não só possui as
+condições adequadas para a vida, como também para a água, e provavelmente a possuía em tempos extremamente remotos. E, de fato,
+encontramos evidências de vida em algumas das rochas mais antigas da Terra. Então, depois de tudo isso,
+de todo esse calor, desses bombardeios cometários, desses impactos de meteoritos, como é
+a aparência da Terra? Precisamos falar sobre a face da Terra como a encontramos
+hoje, enquanto humanos. O que descobrimos é que existem duas zonas principais que precisamos conhecer:
+1) os continentes, que são as massas de terra onde vivemos, e 2) as
+bacias oceânicas. E acontece que há terra, rocha e outros materiais no fundo das
+bacias oceânicas, mas elas são cobertas por água. Portanto, temos uma grande quantidade de água. Temos
+uma atmosfera. Temos esses continentes. Os continentes representam cerca de 29% da
+superfície da Terra. O oceano, cerca de 71%. E nas extremidades norte e sul da Terra,
+temos continentes cobertos por calotas polares. Aqui em cima, este é um continente coberto por
+uma calota polar. Assim, o gelo é um fator importante na face da Terra. Outra coisa que aprendemos
+sobre a Terra e sua evolução é que algumas partes dela são incrivelmente antigas, outras
+incrivelmente jovens e outras tão jovens que estão se formando hoje. Quando observamos
+o núcleo dos continentes, por exemplo, este escudo canadense que vemos aqui, ou o
+escudo africano ou o escudo brasileiro, vemos rochas muito antigas. De fato, temos rochas com quatro bilhões de anos
+aqui mesmo no Canadá. Mas aqui na costa oeste dos Estados Unidos e do Canadá,
+temos algumas das cadeias de montanhas mais jovens do planeta. E elas estão se elevando hoje. Por que tínhamos
+rochas com 4 bilhões de anos aqui e o crescimento atual? O mesmo aconteceu com os
+Montes Apalaches. Temos cadeias de montanhas que se formaram, neste caso, entre 200 e
+400 milhões de anos atrás, há 480 milhões de anos, e então chegamos aqui – mas essas montanhas
+não estão mais crescendo. Elas estão erodindo e se fragmentando. No entanto, quando vamos ao Himalaia,
+vemos que ele está se elevando hoje. As montanhas da costa oeste dos Estados Unidos e de
+toda a costa oeste da América do Sul estão se elevando atualmente. Portanto, a Terra está em constante movimento. Montanhas estão surgindo
+. Montanhas antigas estão sofrendo erosão. O catastrofismo não explica nada disso. Isso requer alguma explicação.
+nova teoria. A Terra é realmente única por ter uma geosfera, e essa geosfera tem um
+ciclo das rochas. Ela tem uma hidrosfera, e essa hidrosfera tem um ciclo da água. Assim, a Terra tem
+as condições ideais de pressão e temperatura para que a água exista em seus três estados físicos:
+líquido, sólido e gasoso, o que dá origem às condições climáticas, a razão pela qual chove
+e neva em certas épocas do ano. Ela tem uma atmosfera
+rica em oxigênio que podemos respirar. Acredita-se que esses três fatores juntos tenham criado
+as condições iniciais para a formação de uma biosfera na Terra. A ciência por trás
+disso é fascinante. A Terra é única em tantos aspectos. Mas a questão é:
+será que ela é única porque não temos muita experiência com ela? Em outras palavras,
+a falácia da indução. É possível que existam outros planetas semelhantes à Terra com essas
+mesmas condições? Estatisticamente, sim. Mas a questão de se eles abrigam vida é
+completamente diferente. Agora, por que estudamos a Terra? Por que estudamos geologia, afinal? Bem, nós,
+humanos, temos uma conexão muito próxima com a Terra. É de onde viemos.
+Somos daqui, mas também precisamos viver aqui. Então, precisamos entender como os desastres naturais
+da Terra funcionam e como eles nos impactam, como podem impactar nossas comunidades. Geólogos estudam
+vulcões. Estudamos inundações, tsunamis, terremotos e deslizamentos de terra. E esses são processos naturais,
+mas se tornam riscos quando ocorrem onde as pessoas vivem. Aqui temos um deslizamento de terra natural.
+Certo. Isso não é catastrofismo. Esta montanha está constantemente
+despejando detritos sobre esta área, que agora é uma beira de estrada. O mesmo acontece com
+esta inundação. Esta área provavelmente sempre foi uma planície de inundação e, por algum motivo,
+decidimos ocupá-la. Isso também não é catastrofismo. É o uniformitarismo em
+ação. Ambos são resultados provavelmente previsíveis. A questão
+é quando isso vai acontecer, não se vai acontecer. Bem, se você pretende ser geólogo,
+precisa aceitar o fato de que fará trabalho de campo. E não é necessariamente
+algo ruim. É muito divertido. Aqui está um geólogo coletando amostras de lava no Havaí. Dá para
+ver o quão quente é. Outra coisa que fazemos são muitos experimentos em laboratório. Analisamos
+diferentes tipos de areia. Nesse caso, você pode estar estudando a areia, sua origem,
+analisando arenitos antigos, observando como a água se move através deles, analisando a
+composição química, enfim, todos os tipos de coisas importantes para nós. E, claro,
+às vezes você simplesmente sai e observa formações como esta e se pergunta:
+o que aconteceu com isso? Qual é a história da Terra? O que ela está tentando nos dizer? E, por último, as pessoas
+têm um grande interesse nos recursos que obtemos da Terra. Certo. A Terra nos dá
+vida. Ela nos sustenta. Ela nos fornece os materiais de construção necessários para nossas casas, para nossas roupas
+e também para outros animais dos quais dependemos. Então, quais são os recursos que a Terra
+nos dá? Bem, isso inclui a água, o solo, os minerais metálicos e não metálicos.
+Ela nos dá toda a energia. Tudo isso é produzido por meio de reações químicas muito complexas
+dentro da Terra ou, neste caso, com as plantas. Essas cenouras estão crescendo por meio de uma
+interação complexa entre o solo, o Sol, a atmosfera e a hidrosfera, tudo interagindo de
+forma complexa. Estas são pepitas de ouro. A maioria das pepitas de ouro se origina de
+processos vulcânicos. E, claro, energia: este é carvão queimando aqui. A energia é
+derivada de um processo sedimentar no qual organismos vivos, geralmente na forma de florestas,
+são enterrados e o carvão é preservado e prensado, onde a água é extraída de uma
+camada de carvão e o carbono restante pode ser queimado como fonte de energia. Então, se a Terra não se
+encaixa na visão neptunista e, em vez disso, há uma grande quantidade de calor lá embaixo, como esse
+calor manifesta as mudanças que vemos na Terra ao longo do tempo? Seria uma série de pistões se movendo para cima?
+E para baixo? As coisas estão deslizando? O que está acontecendo? Como as coisas realmente funcionam? E agora os
+plutonistas precisam assumir a responsabilidade e responder a essas perguntas por si mesmos. Como
+a Terra muda com o calor e o tempo, em contraste com um oceano e catástrofes? Isso será o tema da
+nossa próxima aula. Mais uma vez, aqui é Paul Day. Obrigado por dedicarem seu tempo para assistir a esta aula
+e por participarem desta turma. Espero contar com vocês em todas as próximas aulas. Até mais.

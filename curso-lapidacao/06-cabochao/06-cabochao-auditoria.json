@@ -1,0 +1,629 @@
+{
+ "schema_version": 1,
+ "target": {
+  "kind": "modulo",
+  "path": "06-cabochao/",
+  "module_id": "06",
+  "course_id": "lapidacao"
+ },
+ "mode": "audit-and-fix",
+ "depth": "full",
+ "audited_at": "2026-09-03T00:00:00-03:00",
+ "verdict": "approved",
+ "summary": {
+  "red": 2,
+  "orange": 7,
+  "yellow": 4,
+  "blue": 4,
+  "white": 1,
+  "verified_ok": 25,
+  "open_findings": 0
+ },
+ "findings": [
+  {
+   "claim_id": "CIN-INCL-UNDER-001",
+   "severity": "red",
+   "kind": "erro_factual",
+   "new_claim": false,
+   "location": {
+    "file": "06-cabochao/06-cabochao-aula-04-cinta-e-base-onde-o-cabochao-mais-se-estraga.md",
+    "section": "Defeitos de cinta / Vocabulario / Erros comuns / Recap relampago",
+    "quote": "Inclinada para dentro (socavacao): ... a pedra parece pequena para o engaste e pode escapar por baixo. Inclinada para fora: a base e menor que o topo; o aro nao consegue dobrar sobre a cinta e a pedra fica presa so pela pressao, insegura."
+   },
+   "problem": "Sentido da inclinacao invertido, mais uma consequencia geometricamente impossivel. (1) A conicidade que a aula classificava como defeito - base ligeiramente MENOR que o topo da cinta - e a geometria normal de oficina, cortada de proposito para o aro do engaste fechar sem dobrar longe demais; a faixa recomendada e de 10 a 15 graus e as maquinas trazem apoios de angulo para produzi-la (cab rest de 12,5 graus da Diamond Pacific). A aula invertia a causa-efeito: e justamente essa conicidade que PERMITE ao aro dobrar. (2) 'Pode escapar por baixo' e impossivel na socavacao: se a base e a maior secao e o engaste tem assento, nao ha por onde a pedra sair para baixo. O custo real da socavacao e o aro atravessar um vao para dentro (fecha mal, enruga, segura pouco) mais a perda de silhueta.",
+   "replacement": "Secao reescrita em quatro blocos: como e a cinta de uma pedra bem cortada (parede vertical de 0,5-1 mm no alto, conicidade de trabalho de 10-15 graus abaixo dela, bisel na aresta inferior porque aresta viva ali lasca ao cravar); socavacao com a consequencia correta; conicidade excessiva; parede vertical comida. Frase-chave instalada: 'cinta inclinada nao e defeito por si'. Vocabulario reindexado, Recap reescrito, Erros comuns ajustado.",
+   "source": {
+    "name": "International Gem Society, Lapidary Fundamentals: Cabochon Cutting ('leave a small, vertical area on the sides' e o bisel de protecao da aresta inferior); SUVA Lapidary Supply, Lapidary 101: How to Make a Cabochon (angulo de cinta de 10 a 15 graus, bisel da base); Diamond Pacific, Genie and Pixie Cab Rests (12,5 graus); Sinkankas, Gem Cutting: A Lapidary's Manual (cinta em bisel e socavacao)",
+    "level": "literatura lapidaria de referencia + fontes tecnicas de fabricante",
+    "version": "consultado em 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "06-cabochao/06-cabochao-aula-04-cinta-e-base-onde-o-cabochao-mais-se-estraga.md",
+    "06-cabochao/06-cabochao-aula-02-da-lasca-a-preforma-gabarito-serragem-contorno.md",
+    "06-cabochao/06-cabochao-aula-03-geometria-da-cupula-altura-curvatura-luz-engaste.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "FEN-ASTER-EIXOC-001",
+   "severity": "red",
+   "kind": "erro_factual",
+   "new_claim": false,
+   "location": {
+    "file": "06-cabochao/06-cabochao-aula-05-orientar-para-fenomeno-asterismo-chatoyance-adularescencia-jogo-de-cores.md",
+    "section": "Asterismo - dois ou tres feixes, uma estrela / Recap relampago / O que nao concluir",
+    "quote": "Em granada e diopsidio, geralmente dois ou dois pares de conjuntos -> estrela de 4 raios. ... Orientacao de corte: a base perpendicular ao eixo c"
+   },
+   "problem": "Dois erros. (1) 'Dois pares de conjuntos' quebra a aritmetica do proprio mecanismo: cada conjunto de inclusoes paralelas gera UMA faixa, que atravessa a pedra de lado a lado; dois conjuntos dao 4 raios, tres dao 6. Dois pares seriam quatro conjuntos e dariam 8 raios - e a aula afirmava 'dois ou tres conjuntos' duas linhas acima, contradizendo-se. (2) A regra de corte foi enunciada como geral ('base perpendicular ao eixo c') logo depois de citar granada, que e ISOMETRICA: nela nao existe eixo c distinto dos demais e, por ser isotropica, tampouco eixo optico. A regra que generaliza e a base perpendicular ao eixo de simetria que os conjuntos compartilham.",
+   "replacement": "Mecanismo passou a enunciar a regra de contagem antes dos exemplos ('cada conjunto gera uma faixa ... dois conjuntos dao 4 raios, tres dao 6'). Orientacao reformulada para o eixo de simetria compartilhado, com parentese sobre granada isometrica (a normal ao plano que contem os feixes). Recap e 'O que nao concluir' alinhados. Acoplado o fato do diopsidio (claim nova FEN-ASTER-DIOP-001).",
+   "source": {
+    "name": "GIA - asterismo no corindon (rutilo a 60/120 graus no plano perpendicular ao eixo c, estrela de 6 raios) e estrela de 4 raios em granada e diopsidio; literatura gemologica corrente sobre diopsidio estrela (duas direcoes de agulhas); Sinkankas, Gem Cutting: A Lapidary's Manual",
+    "level": "base de referencia gemologica + literatura lapidaria",
+    "version": "consultado em 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "06-cabochao/06-cabochao-aula-05-orientar-para-fenomeno-asterismo-chatoyance-adularescencia-jogo-de-cores.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "FEN-ASTER-CONT-001",
+   "severity": "orange",
+   "kind": "falso_universal",
+   "new_claim": true,
+   "location": {
+    "file": "06-cabochao/06-cabochao-aula-05-orientar-para-fenomeno-asterismo-chatoyance-adularescencia-jogo-de-cores.md",
+    "section": "Asterismo - Orientacao de corte / Erros comuns / Recap relampago",
+    "quote": "O contorno deve ser redondo e a cupula, uma superficie de revolucao simetrica: uma oval distorce a estrela. / Usar contorno oval para estrela."
+   },
+   "problem": "Proibicao absoluta contradita pela pratica universal: safira e rubi estrela sao correntemente lapidados em oval, e os criterios de qualidade da pedra estrela (estrela centrada, raios retos e equivalentes) valem para cabochao redondo OU oval. O que a simetria sustenta e a afirmacao gradual: o redondo com cupula de revolucao e o ideal porque a simetria da cupula acompanha a dos feixes, e quanto mais alongada a oval, mais desiguais ficam os raios. Como estava, viraria distrator errado no questionario.",
+   "replacement": "Corpo, Recap e o bullet de Erros comuns (que passou a 'Achar que so o redondo serve para estrela') reescritos com a formulacao gradual. Claim nova FEN-ASTER-CONT-001 registrando o limite.",
+   "source": {
+    "name": "GIA - criterios de qualidade da pedra estrela em cabochao redondo ou oval; levantamento de oferta comercial corrente de safira estrela, com os dois contornos igualmente presentes",
+    "level": "base de referencia gemologica + verificacao de pratica de mercado",
+    "version": "consultado em 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "06-cabochao/06-cabochao-aula-05-orientar-para-fenomeno-asterismo-chatoyance-adularescencia-jogo-de-cores.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "CAB-ESC-FEN-001",
+   "severity": "orange",
+   "kind": "falso_universal",
+   "new_claim": false,
+   "location": {
+    "file": "06-cabochao/06-cabochao-aula-01-por-que-existe-o-cabochao-opacidade-fenomeno-faceta.md",
+    "section": "Gatilho 2 - fenomeno optico direcional / Recap relampago / alegacao",
+    "quote": "Por isso material com esses fenomenos e sempre lapidado em cabochao."
+   },
+   "problem": "Falso universal. A regra vale com forca diferente por fenomeno: em asterismo e chatoyance a superficie curva e obrigatoria, porque o efeito e um reflexo que so se reune numa curva; ja opala com jogo de cores e pedra da lua aparecem facetadas no comercio, com o fenomeno mais fraco e picotado. O 'sempre' converte um raciocinio de mecanismo em regra decorada, o oposto do que lapidacao-m06-oa01 pede.",
+   "replacement": "Paragrafo do Gatilho 2 e Recap reescritos com a gradacao por fenomeno e o fecho 'regra forte, nao lei sem excecao'; alegacao reescrita.",
+   "source": {
+    "name": "GIA - fenomenos opticos e talhe; Sinkankas, Gem Cutting: A Lapidary's Manual - cabochao para pedras fenomenais",
+    "level": "base de referencia gemologica + literatura lapidaria",
+    "version": "consultado em 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "06-cabochao/06-cabochao-aula-01-por-que-existe-o-cabochao-opacidade-fenomeno-faceta.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "CAB-ESC-TEN-001",
+   "severity": "orange",
+   "kind": "erro_conceitual",
+   "new_claim": false,
+   "location": {
+    "file": "06-cabochao/06-cabochao-aula-01-por-que-existe-o-cabochao-opacidade-fenomeno-faceta.md",
+    "section": "Exemplo trabalhado (b)",
+    "quote": "transparente, sem inclusoes, tenacidade alta (8,5 Mohs), cor boa"
+   },
+   "problem": "8,5 e a DUREZA Mohs do crisoberilo, nao sua tenacidade. A colagem ensina, no ponto de maior atencao do leitor, que uma propriedade e evidencia da outra - exatamente a distincao que o pre-requisito do curso de Gemologia estabelece e que o Gatilho 3 da propria aula usa como criterio operante.",
+   "replacement": "'dureza 8,5 e boa tenacidade (sao duas propriedades distintas - a dureza resiste ao risco, a tenacidade resiste ao lascar)'. A alegacao recebeu a mesma advertencia, junto com o qualificador de uso do amarelo 2.",
+   "source": {
+    "name": "Modulo 01 do curso de Gemologia (por nome) - dureza Mohs e tenacidade como propriedades distintas; _contexto.md deste curso",
+    "level": "pre-requisito declarado do curso",
+    "version": "consultado em 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "06-cabochao/06-cabochao-aula-01-por-que-existe-o-cabochao-opacidade-fenomeno-faceta.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "VAR-DUP-TRANSL-001",
+   "severity": "orange",
+   "kind": "termo_colidente",
+   "new_claim": false,
+   "location": {
+    "file": "06-cabochao/06-cabochao-aula-06-variantes-duplo-oco-calibrado-freeform.md",
+    "section": "Cabochao duplo - quando a base plana atrapalha",
+    "quote": "cria uma reflexao morta no fundo (um brilho chapado, sem vida) ou um efeito de 'olho de peixe'"
+   },
+   "problem": "Fisheye / olho de peixe e defeito de pedra FACETADA - a reflexao da cinta vista pela mesa quando o pavilhao e raso demais - e o curso vai ensina-lo com esse sentido no modulo 14 (catalogo de defeitos e diagnostico reverso). Usa-lo aqui para outro fenomeno planta colisao de termo dentro do proprio curso.",
+   "replacement": "Termo removido; a reflexao morta ficou descrita pelo que e ('um brilho chapado, sem vida, que devolve o plano da base em vez de deixar a luz passar'). Alegacao reescrita com a razao da remocao registrada.",
+   "source": {
+    "name": "Vocabulario canonico de defeito de talhe facetado (fisheye = reflexao da cinta na mesa por pavilhao raso), previsto para o modulo 14 deste curso; Sinkankas, Gem Cutting: A Lapidary's Manual",
+    "level": "coerencia interna do curso + literatura lapidaria",
+    "version": "consultado em 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "06-cabochao/06-cabochao-aula-06-variantes-duplo-oco-calibrado-freeform.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "PRE-ORDEM-FIXA-001",
+   "severity": "orange",
+   "kind": "impreciso",
+   "new_claim": false,
+   "location": {
+    "file": "06-cabochao/06-cabochao-aula-02-da-lasca-a-preforma-gabarito-serragem-contorno.md",
+    "section": "Por que a ordem e fixa / Recap relampago",
+    "quote": "Dopagem por ultimo na preformacao: so se dopa uma peca cujo contorno e base ja estao prontos, porque o dop atrapalha o acesso a cinta e a base."
+   },
+   "problem": "Duas amarras sao geometricas e nao tem alternativa (contorno fechado antes da cupula; base plana antes da dopagem). A terceira - dopar POR ULTIMO - e uma escola, nao uma necessidade: ha pratica corrente que dopa logo apos o recorte grosso e desbasta o contorno com a peca ja no bastao. A justificativa dada ('o dop atrapalha o acesso a cinta') tambem e fraca, ja que o bastao e mais fino que a pedra.",
+   "replacement": "Secao separa as duas amarras rigidas da posicao aberta da dopagem, e a divergencia foi declarada como pergunta em aberto, sem arbitrar - o que instala o unico LC-08 do modulo. Recap, Erros comuns e alegacao alinhados.",
+   "source": {
+    "name": "Sinkankas, Gem Cutting: A Lapidary's Manual (dopagem apos o contorno) contra SUVA Lapidary Supply, Lapidary 101: How to Make a Cabochon (dopagem logo apos o recorte, contorno desbastado com a peca dopada)",
+    "level": "literatura lapidaria de referencia + escola de oficina corrente",
+    "version": "consultado em 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "06-cabochao/06-cabochao-aula-02-da-lasca-a-preforma-gabarito-serragem-contorno.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "PRE-CINTA-VERT-001",
+   "severity": "orange",
+   "kind": "impreciso",
+   "new_claim": false,
+   "location": {
+    "file": "06-cabochao/06-cabochao-aula-02-da-lasca-a-preforma-gabarito-serragem-contorno.md",
+    "section": "Etapa 5 - desbastar o contorno ate a linha, com a cinta vertical / Vocabulario / Erros comuns",
+    "quote": "a parede tem de sair perpendicular a base - essa e a cinta. Uma cinta inclinada aqui e um defeito"
+   },
+   "problem": "Propagacao do vermelho 1. Corrigir so a a04 deixaria o modulo em contradicao: uma aula mandando a parede sair rigorosamente perpendicular, outra descrevendo a conicidade de trabalho como normal.",
+   "replacement": "A perpendicular permanece como geometria de referencia (e ela que faz o contorno visivel coincidir com o real) e a conicidade intencional foi nomeada, com remissao a a04 para o numero. O defeito passou a ser a inclinacao NAO intencional. Vocabulario da entrada 'cinta' ajustado.",
+   "source": {
+    "name": "International Gem Society, Lapidary Fundamentals: Cabochon Cutting; SUVA Lapidary Supply, Lapidary 101; Sinkankas, Gem Cutting: A Lapidary's Manual",
+    "level": "literatura lapidaria de referencia",
+    "version": "consultado em 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "06-cabochao/06-cabochao-aula-02-da-lasca-a-preforma-gabarito-serragem-contorno.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "DOM-ENG-PAREDE-001",
+   "severity": "orange",
+   "kind": "impreciso",
+   "new_claim": false,
+   "location": {
+    "file": "06-cabochao/06-cabochao-aula-03-geometria-da-cupula-altura-curvatura-luz-engaste.md",
+    "section": "A exigencia do engaste",
+    "quote": "Se a cupula comeca a curvar ja na cinta, o metal do aro escorrega sobre a curva e nao segura"
+   },
+   "problem": "Propagacao do vermelho 1. A aula deixava implicito que o engaste exige a peca inteira reta, quando o que ele exige e a PAREDE de 0,5-1 mm que o aro encosta.",
+   "replacement": "Acrescentada a explicacao do porque a parede e necessaria (e o que o aro encosta e apoia) e a meia-frase 'abaixo dessa parede a cinta ainda pode afunilar de leve para a base (aula 04) - o que o aro pede e a parede, nao a peca inteira reta'. Alegacao e Fontes consultadas atualizadas.",
+   "source": {
+    "name": "International Gem Society, Lapidary Fundamentals: Cabochon Cutting - a area vertical na lateral que apoia o aro e a conicidade abaixo dela; Lapidary Journal / Rock & Gem - parede de cinta 0,5-1 mm",
+    "level": "literatura lapidaria de referencia",
+    "version": "consultado em 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "06-cabochao/06-cabochao-aula-03-geometria-da-cupula-altura-curvatura-luz-engaste.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "CIN-CONIC-BISEL-001",
+   "severity": "blue",
+   "kind": "enriquecimento",
+   "new_claim": true,
+   "location": {
+    "file": "06-cabochao/06-cabochao-aula-04-cinta-e-base-onde-o-cabochao-mais-se-estraga.md",
+    "section": "Defeitos de cinta - como e a cinta de uma pedra bem cortada",
+    "quote": "(passagem instalada pela auditoria)"
+   },
+   "problem": "A aula descrevia defeitos de cinta sem nunca ter descrito a geometria correta completa: faltavam a conicidade de trabalho e o bisel da aresta inferior, que e a razao pratica pela qual essa aresta nao fica viva (aresta viva ali lasca no momento de cravar).",
+   "replacement": "Claim nova cobrindo a geometria de trabalho completa - parede vertical de 0,5-1 mm no alto, conicidade de 10 a 15 graus abaixo dela, bisel na aresta inferior - com a perpendicular mantida como geometria de referencia.",
+   "source": {
+    "name": "SUVA Lapidary Supply, Lapidary 101: How to Make a Cabochon; Diamond Pacific, Genie and Pixie Cab Rests (12,5 graus); International Gem Society, Lapidary Fundamentals: Cabochon Cutting",
+    "level": "literatura lapidaria de referencia + fontes tecnicas de fabricante",
+    "version": "consultado em 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "06-cabochao/06-cabochao-aula-04-cinta-e-base-onde-o-cabochao-mais-se-estraga.md"
+   ],
+   "outcome": "aplicado",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "FEN-ASTER-DIOP-001",
+   "severity": "blue",
+   "kind": "enriquecimento",
+   "new_claim": true,
+   "location": {
+    "file": "06-cabochao/06-cabochao-aula-05-orientar-para-fenomeno-asterismo-chatoyance-adularescencia-jogo-de-cores.md",
+    "section": "Asterismo - Mecanismo / Recap relampago / O que nao concluir",
+    "quote": "(passagem instalada pela auditoria)"
+   },
+   "problem": "Acoplado ao vermelho 2. No diopsidio estrela os dois conjuntos de agulhas nao sao perpendiculares entre si e os quatro raios nao se cruzam a 90 graus - propriedade do material (simetria monoclinica), nao erro de orientacao. Sem isso, o modulo 14 herdaria o diagnostico errado 'estrela torta = bruto mal orientado'.",
+   "replacement": "Fato instalado no mecanismo do asterismo e no Recap, com a ressalva explicita de que nao e defeito de lapidacao; 'O que nao concluir' ajustado.",
+   "source": {
+    "name": "Literatura gemologica corrente sobre diopsidio estrela - duas direcoes de agulhas, estrela de 4 raios cujas direcoes nao se cruzam a 90 graus, o que nao decorre de ma orientacao do bruto",
+    "level": "base de referencia gemologica",
+    "version": "consultado em 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "06-cabochao/06-cabochao-aula-05-orientar-para-fenomeno-asterismo-chatoyance-adularescencia-jogo-de-cores.md"
+   ],
+   "outcome": "aplicado",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "DOM-CAMINHO-COR-001",
+   "severity": "yellow",
+   "kind": "impreciso",
+   "new_claim": false,
+   "location": {
+    "file": "06-cabochao/06-cabochao-aula-03-geometria-da-cupula-altura-curvatura-luz-engaste.md",
+    "section": "Exemplo trabalhado (b)",
+    "quote": "O caminho optico central cai de ~6,6 mm (com o domo padrao) para ~4 mm"
+   },
+   "problem": "Os numeros sao exatamente duas vezes a altura da cupula, o que despreza a parede de cinta de 0,5-1 mm que a mesma aula exige duas secoes antes - subestimando o caminho real em cerca de 20%. A razao entre os dois casos, que e o que o exemplo ensina, continua correta.",
+   "replacement": "O texto passou a dizer que o caminho central e a ida e volta pela espessura da pedra - cupula MAIS parede de cinta - e que os numeros citados sao a parcela que a cupula controla. Nenhum numero alterado.",
+   "source": {
+    "name": "Coerencia interna da propria aula (DOM-ENG-PAREDE-001, parede de 0,5-1 mm); Sinkankas, Gem Cutting: A Lapidary's Manual - caminho optico e cor",
+    "level": "coerencia interna + literatura lapidaria",
+    "version": "consultado em 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "06-cabochao/06-cabochao-aula-03-geometria-da-cupula-altura-curvatura-luz-engaste.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "CAB-ESC-TEN-001",
+   "severity": "yellow",
+   "kind": "impreciso",
+   "new_claim": false,
+   "location": {
+    "file": "06-cabochao/06-cabochao-aula-01-por-que-existe-o-cabochao-opacidade-fenomeno-faceta.md",
+    "section": "Gatilho 3 - tenacidade baixa e material fraturado",
+    "quote": "Material mole (abaixo de ~6 na escala Mohs) nao guarda o brilho de espelho de uma faceta ... serpentina, fluorita, calcita, obsidiana e ambar quase sempre vao para cabochao"
+   },
+   "problem": "Vale para USO EM JOIA, nao como possibilidade tecnica: fluorita, calcita e esfalerita sao rotineiramente facetadas como pedra de colecao. Sem o qualificador, a lista contradiz qualquer vitrine de colecao.",
+   "replacement": "Qualificador 'em uso de joia' no criterio, parentese sobre pedra de colecao, e 'quando o destino e joia' na lista. Alegacao reescrita: 'o criterio e de uso, nao de possibilidade'.",
+   "source": {
+    "name": "Sinkankas, Gem Cutting: A Lapidary's Manual; pratica corrente de facetamento de material mole para colecao; Modulo 01 do curso de Gemologia (por nome)",
+    "level": "literatura lapidaria + pratica corrente",
+    "version": "consultado em 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "06-cabochao/06-cabochao-aula-01-por-que-existe-o-cabochao-opacidade-fenomeno-faceta.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "FEN-OPALA-CAMADA-001",
+   "severity": "yellow",
+   "kind": "termo_colidente",
+   "new_claim": false,
+   "location": {
+    "file": "06-cabochao/06-cabochao-aula-05-orientar-para-fenomeno-asterismo-chatoyance-adularescencia-jogo-de-cores.md",
+    "section": "Jogo de cores / Erros comuns / Vocabulario; e a01 Gatilho 2 e Vocabulario",
+    "quote": "o fogo da opala / a camada de fogo"
+   },
+   "problem": "'Fogo' e corrente no jargao de oficina para o jogo de cores da opala, mas o curso vai usar 'fogo' no sentido optico de DISPERSAO no modulo 08. Duas palavras iguais para dois fenomenos diferentes, dentro do mesmo curso, sem aviso.",
+   "replacement": "No corpo das duas aulas o termo foi trocado por 'jogo de cores' / 'camada de cor' (custo zero de palavras) e a entrada de vocabulario da a05 recebeu a glosa do duplo uso, remetendo ao modulo 08. A tabela de vocabulario fica fora da regua de LC-02.",
+   "source": {
+    "name": "Vocabulario optico do modulo 08 deste curso (fogo = dispersao); jargao lapidario corrente (fogo da opala = jogo de cores)",
+    "level": "coerencia interna do curso",
+    "version": "consultado em 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "06-cabochao/06-cabochao-aula-05-orientar-para-fenomeno-asterismo-chatoyance-adularescencia-jogo-de-cores.md",
+    "06-cabochao/06-cabochao-aula-01-por-que-existe-o-cabochao-opacidade-fenomeno-faceta.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "VAR-DUP-TRANSL-001",
+   "severity": "yellow",
+   "kind": "contradicao_interna",
+   "new_claim": false,
+   "location": {
+    "file": "06-cabochao/06-cabochao-aula-06-variantes-duplo-oco-calibrado-freeform.md",
+    "section": "Cabochao duplo - Problema que resolve e Custo / tabela-resumo",
+    "quote": "serve para material fino demais para dar altura de cupula de um lado so ... as duas cupulas consomem mais material em altura"
+   },
+   "problem": "As duas afirmacoes sao verdadeiras em condicoes diferentes e a aula nao as separava, deixando uma contradicao aparente na mesma secao.",
+   "replacement": "O caso do material fino foi explicitado (distribuir a pouca espessura em duas curvas rasas, para que nenhuma face fique plana) e o custo foi condicionado ('mantida a mesma cupula superior do simples, a segunda curva pede espessura a mais: o duplo economiza material FINO, nao material em geral'). Tabela-resumo ajustada.",
+   "source": {
+    "name": "Sinkankas, Gem Cutting: A Lapidary's Manual - cabochao duplo para material translucido e fino; Lapidary Journal / Rock & Gem",
+    "level": "literatura lapidaria de referencia",
+    "version": "consultado em 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "06-cabochao/06-cabochao-aula-06-variantes-duplo-oco-calibrado-freeform.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "FEN-ADUL-LAMELA-001",
+   "severity": "white",
+   "kind": "limite_de_fonte",
+   "new_claim": false,
+   "location": {
+    "file": "06-cabochao/06-cabochao-aula-05-orientar-para-fenomeno-asterismo-chatoyance-adularescencia-jogo-de-cores.md",
+    "section": "Adularescencia - lamelas num plano, um brilho que sobe",
+    "quote": "as lamelas ficam num plano cristalografico definido, ligado a clivagem principal ... base paralela ao plano das lamelas (aproximadamente o plano de clivagem principal)"
+   },
+   "problem": "Verificado e MANTIDO. As fontes confirmam sem ressalva a regra de corte (base do cabochao paralela ao plano das camadas) e o mecanismo (espalhamento da luz de comprimento de onda curto por lamelas de exsolucao de ortoclasio e albita, com as lamelas mais finas produzindo espalhamento de tipo Rayleigh e o azul). A indexacao cristalografica exata do plano de exsolucao, porem, varia entre fontes.",
+   "replacement": "Nenhuma alteracao. A aula acertou ao nao indexar o plano e ao hedgear com 'aproximadamente' - indexar aqui seria precisao que a evidencia disponivel nao sustenta.",
+   "source": {
+    "name": "GIA - adularescencia por exsolucao lamelar no feldspato; literatura gemologica corrente sobre pedra da lua (camadas de ortoclasio e albita de 50 a 1000 nm; corte com a base paralela ao plano das camadas)",
+    "level": "base de referencia gemologica",
+    "version": "consultado em 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "06-cabochao/06-cabochao-aula-05-orientar-para-fenomeno-asterismo-chatoyance-adularescencia-jogo-de-cores.md"
+   ],
+   "outcome": "verificado_sem_acao",
+   "applied_at": null
+  },
+  {
+   "claim_id": null,
+   "severity": "blue",
+   "kind": "escrituracao",
+   "new_claim": false,
+   "location": {
+    "file": "course-state.yaml",
+    "section": "next_action do modulo 06 (etapa 1)",
+    "quote": "Total de 33 alegacoes auditaveis (a01=5, a02=6, a03=6, a04=6, a05=7, a06=5)"
+   },
+   "problem": "Os parciais somam 35 e a contagem real era 34 (a05 tinha 6, nao 7). Erro de escrituracao do redator, sem efeito sobre o conteudo.",
+   "replacement": "Corrigido no bloco de auditoria do course-state.yaml: 34 alegacoes herdadas, 37 apos a auditoria.",
+   "source": {
+    "name": "Contagem por regex sobre os seis arquivos do modulo",
+    "level": "verificacao deterministica",
+    "version": "2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "course-state.yaml"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": null,
+   "severity": "blue",
+   "kind": "contrato_lc08",
+   "new_claim": false,
+   "location": {
+    "file": "06-cabochao/ (as seis aulas)",
+    "section": "modulo inteiro",
+    "quote": "(ausencia)"
+   },
+   "problem": "Varredura por marcador de controversia: ZERO ocorrencias nas seis aulas do modulo 06. O modulo 04 tem quatro aulas com controversia declarada e o modulo 05 tem uma. LC-08 pede a controversia em uma frase, como pergunta aberta, sem arbitrar o debate.",
+   "replacement": "A correcao do laranja 5 (PRE-ORDEM-FIXA-001) instalou uma na a02 - a posicao da dopagem na sequencia -, declarada como pergunta em aberto e sem arbitrar. Registrado para a revisao didatica decidir se o modulo pede mais alguma.",
+   "source": {
+    "name": "_contexto.md deste curso - contrato ensino-medio-com-gemologia-v1, clausula LC-08",
+    "level": "contrato do curso",
+    "version": "2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "06-cabochao/"
+   ],
+   "outcome": "resolvido_de_passagem",
+   "applied_at": "2026-09-03"
+  }
+ ],
+ "verified_ok": [
+  {
+   "claim_id": "CAB-DEF-DOMO-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "CAB-ESC-OPAC-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "CAB-ESC-CLAR-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PRE-SEQ-ETAP-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PRE-SLAB-ESP-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PRE-GAB-CONT-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PRE-DOP-CENT-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "DOM-ALT-RAZ-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "DOM-ESC-RAZAO-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "DOM-BASE-PLAN-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "DOM-CURV-CONT-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "CIN-INTERF-ENG-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "CIN-FINA-LASCA-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "CIN-CONT-ASSIM-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "BAS-CONV-ROCK-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "BAS-CONC-FRAG-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "FEN-CUP-CONC-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "FEN-CHAT-FIBRA-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "FEN-STAR-ALT-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "FEN-ADUL-LAMELA-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "FEN-OPALA-CAMADA-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VAR-PROB-CADA-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VAR-OCO-ESCURO-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VAR-CAL-ENGASTE-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VAR-FREE-PADRAO-001",
+   "confidence": "confirmado"
+  }
+ ],
+ "claim_id_format": {
+  "pattern": "^[A-Z]{2,4}-[A-Z0-9]+-[A-Z0-9]+-[0-9]{3}$",
+  "segments": 4,
+  "total_claims": 37,
+  "inherited": 34,
+  "created_by_audit": 3,
+  "malformed": [],
+  "renamed": {},
+  "note": "Verificado por regex sobre os seis arquivos, antes e depois das correcoes. NENHUM residuo de 5 segmentos - ao contrario dos modulos 04 e 05, onde o redator escorregou. O next_action da etapa 1 declarava 33 alegacoes com parciais somando 35; a contagem real era 34 (a05 tinha 6, nao 7)."
+ },
+ "new_claim_ids": [
+  "CIN-CONIC-BISEL-001",
+  "FEN-ASTER-CONT-001",
+  "FEN-ASTER-DIOP-001"
+ ],
+ "bench_competence_scan": {
+  "result": "nenhum achado",
+  "note": "Varredura especifica nas seis aulas por afirmacao, sugestao ou avaliacao de competencia de bancada ou destreza manual. As seis usam construcao impessoal (serra-se, desbasta-se, marca-se), nunca imperativo de bancada, e as seis trazem em 'O que nao concluir' a exclusao explicita (operar serra/esmeril/dop; desbastar a cupula; produzir a figura de asterismo; escavar o oco; a tecnica de engaste, remetida a joalheria). Os seis verbos de objetivo sao de conhecimento observavel: justificar, descrever, relacionar, explicar, determinar, distinguir. O passo 1 do exemplo trabalhado da a05 (localizar o eixo c sob luz pontual) descreve um teste de diagnostico, nao uma operacao de maquina - mesmo criterio ja aceito no modulo 05."
+ },
+ "cross_lesson_checks": [
+  "Cadeia por que cabochao (a01) -> preforma (a02) -> cupula (a03) -> defeitos de cinta e base (a04) -> orientacao para fenomeno (a05) -> variantes (a06): coerente, cada aula usa so o que a anterior entregou.",
+  "Cinta perpendicular x conicidade de trabalho: a02, a03 e a04 estavam desalinhadas apos o vermelho 1 e foram harmonizadas nas tres.",
+  "Razao de cupula: a03 fixa ~1/3 (faixa 1/4-1/2) para cor de corpo e a05 pede ~1/2 para estrela declarando explicitamente que contraria a a03 - contradicao APARENTE e resolvida no texto, nao achado.",
+  "Caminho optico: a03 (domo baixo clareia) -> a06 (cabochao oco como versao radical do domo baixo) e coerente.",
+  "Calibre: a04 (custo de sair do calibre) -> a06 (calibrado inverte a prioridade do rendimento do modulo 05) e coerente.",
+  "Pre-requisito cross-curso: o curso de Gemologia e citado por nome em a01, a03 e a05, nunca por wikilink. Nenhuma violacao.",
+  "Colisao de termo com modulos futuros: 'fogo' (a01, a05) contra dispersao do modulo 08 - corrigido; 'olho de peixe' (a06) contra fisheye do modulo 14 - corrigido."
+ ],
+ "derived_material": {
+  "assessment": "inexistente no momento da auditoria - nada a propagar",
+  "flashcards": "inexistentes no momento da auditoria - nada a propagar",
+  "note": "E exatamente o efeito pretendido do gate: o modulo chega limpo ao gerador-de-questionarios."
+ },
+ "handed_to_didactic_review": [
+  "a04 - fechou em 1599, um ponto do teto. A correcao do vermelho 1 acrescentou o bloco da geometria correta da cinta, financiado por corte de redundancia em cinco pontos (fecho de 'Por que cinta e base parecem triviais', introducao do ponto chato, 'Custo real da opcao B', secao 'O que o engaste nao conserta', causa da base concava). Nenhum corte removeu conteudo - todos removeram repeticao do Recap -, mas cabe a revisao confirmar que o ritmo nao ficou seco.",
+  "a05 - folga de 3 palavras. Qualquer melhoria didatica precisa ser financiada por corte, e o texto instalado pelas correcoes (aritmetica dos feixes, eixo de simetria, granada isometrica, diopsidio a 90 graus, redondo x oval) NAO pode ser o financiador.",
+  "VOLUME DO MODULO - as seis aulas entraram entre 1275 e 1577 palavras, bem abaixo dos modulos 01-05 (~1590-1600). Nao e violacao de LC-02 (teto, nao piso) e a auditoria devolveu as seis para 1330-1599. Mas a01 e a06, as duas mais curtas antes e depois, pedem exame explicito de exemplo insuficiente, conceito subdesenvolvido ou recap que nao recapitula por efeito da concisao. Ha folga: a06 fechou em 1330 (270 de margem) e a03 em 1397 (200).",
+  "a05 - carga de conceitos: quatro mecanismos opticos e quatro regras de orientacao numa aula so, agora com a distincao adicional entre eixo c e eixo de simetria generico. Correto e e o objeto de oa05, mas e a aula mais densa do modulo; a revisao julga se a estrutura em quatro blocos paralelos basta como organizador previo.",
+  "LC-08 - o modulo tinha ZERO controversias declaradas nas seis aulas (o modulo 04 tem quatro, o 05 tem uma). A correcao do laranja 5 instalou uma na a02 (posicao da dopagem na sequencia), declarada como pergunta aberta sem arbitrar. Cabe a revisao decidir se o modulo pede mais alguma."
+ ],
+ "palavras_corpo_pre_auditoria": {
+  "a01": 1286,
+  "a02": 1362,
+  "a03": 1337,
+  "a04": 1445,
+  "a05": 1577,
+  "a06": 1275
+ },
+ "palavras_corpo_pos_auditoria": {
+  "a01": 1441,
+  "a02": 1537,
+  "a03": 1397,
+  "a04": 1599,
+  "a05": 1597,
+  "a06": 1330
+ },
+ "corrected": [
+  "CIN-INCL-UNDER-001",
+  "FEN-ASTER-EIXOC-001",
+  "CAB-ESC-FEN-001",
+  "CAB-ESC-TEN-001",
+  "VAR-DUP-TRANSL-001",
+  "PRE-ORDEM-FIXA-001",
+  "PRE-CINTA-VERT-001",
+  "DOM-ENG-PAREDE-001",
+  "DOM-CAMINHO-COR-001"
+ ],
+ "open_findings": []
+}

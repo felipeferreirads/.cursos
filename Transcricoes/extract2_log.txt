@@ -1,0 +1,155 @@
+OK (en): Ep01 - Intro to Earth.txt (30536 chars)
+OK (en): Ep02 - Intro to Plate Tectonics.txt (27323 chars)
+OK (en): Ep03 - Divergent Plate Boundaries.txt (24524 chars)
+OK (en): Ep04 - Convergent Plate Boundaries.txt (27939 chars)
+OK (en): Ep05 - Transform Plate Boundaries.txt (24417 chars)
+OK (en): Ep06 - Hot Spots.txt (22342 chars)
+OK (en): Ep07 - Minerals Part One.txt (25514 chars)
+OK (en): Ep08 - Minerals Part Two.txt (14845 chars)
+OK (en): Ep09 - Igneous Rocks Part One.txt (31786 chars)
+OK (en): Ep10 - Igneous Rocks Part Two.txt (27415 chars)
+OK (en): Ep11 - Intro to Volcanoes.txt (22920 chars)
+OK (en): Ep12 - Volcano Types.txt (29162 chars)
+OK (en): Ep13 - Volcanic Hazards.txt (19362 chars)
+OK (en): Ep14 - Weathering.txt (22108 chars)
+OK (en): Ep15 - Sedimentary Rocks.txt (29286 chars)
+OK (en): Ep16 - Metamorphic Rocks.txt (29478 chars)
+OK (en): Ep17 - Relative Dating Principles.txt (23748 chars)
+OK (en): Ep18 - Unconformities.txt (19420 chars)
+OK (en): Ep19 - Geo-Logic Puzzles.txt (23949 chars)
+OK (en): Ep20 - Absolute Dating.txt (22057 chars)
+OK (en): Ep21 - Fossils.txt (29086 chars)
+OK (en): Ep22 - The Geologic Time Scale.txt (15565 chars)
+OK (en): Ep23 - Intro to Rock Deformation.txt (10666 chars)
+OK (en): Ep24 - Explaining Strike and Dip.txt (15065 chars)
+OK (en): Ep25 - Measuring Strike and Dip.txt (17383 chars)
+OK (en): Ep26 - Folds in Rocks.txt (23610 chars)
+OK (en): Ep27 - Know Your Faults.txt (24870 chars)
+OK (en): Ep28 - Earthquake Basics.txt (26858 chars)
+OK (en): Ep29 - Earthquake Location and Size.txt (31151 chars)
+OK (en): Ep30 - Earthquake Hazards.txt (25869 chars)
+OK (en): Ep31 - Beachballs Explained.txt (28392 chars)
+OK (en): Ep32 - Mass Wasting Basics.txt (25344 chars)
+OK (en): Ep33 - Types of Mass Wasting Processes.txt (27362 chars)
+OK (en): Ep34 - Stream Basics.txt (31110 chars)
+OK (en): Ep35 - Stream Landforms.txt (20921 chars)
+OK (en): Ep36 - Groundwater Concepts.txt (25697 chars)
+OK (en): Ep37 - Groundwater Issues and Caves.txt (17566 chars)
+OK (en): Ep38 - How Deserts Form.txt (18884 chars)
+OK (en): Ep39 - Desert Landforms.txt (24355 chars)
+OK (en): 01 - Introduction to Geology.txt (7458 chars)
+OK (en): 02 - History of the Earth Part 1.txt (8761 chars)
+OK (en): 03 - History of the Earth Part 2.txt (3603 chars)
+OK (en): 04 - History of the Earth Part 3.txt (6896 chars)
+OK (en): 05 - History of the Earth Part 4.txt (5269 chars)
+OK (en): 06 - Geologic Structures Part 1.txt (7978 chars)
+OK (en): 07 - Geologic Structures Part 2.txt (8198 chars)
+OK (en): 08 - Overview of Earths Layers.txt (9436 chars)
+OK (en): 09 - Earthquakes and Seismology.txt (9356 chars)
+OK (en): 10 - Development of Plate Tectonics.txt (7423 chars)
+OK (en): 11 - Wilson Cycle and Plate Boundaries.txt (9397 chars)
+OK (en): 12 - Layers of the Ocean.txt (5023 chars)
+OK (en): 13 - Composition of Oceanic Crust Part 1.txt (9225 chars)
+OK (en): 14 - Composition of Oceanic Crust Part 2.txt (5151 chars)
+OK (en): 15 - Composition of Rocks Mineral Crystallinity.txt (7621 chars)
+OK (en): 16 - Macroscopic Characteristics Part 1.txt (7475 chars)
+OK (en): 17 - Macroscopic Characteristics Part 2.txt (4786 chars)
+OK (en): 18 - 8 Classes of Minerals Part 1.txt (7563 chars)
+OK (en): 19 - 8 Classes of Minerals Part 2.txt (5558 chars)
+OK (en): 20 - Types of Silicates Part 1.txt (7991 chars)
+OK (en): 21 - Types of Silicates Part 2.txt (10874 chars)
+OK (en): 22 - Origin of Igneous Rocks.txt (10175 chars)
+OK (en): 23 - Classification of Igneous Rocks.txt (4869 chars)
+OK (en): 24 - Characteristics of Sedimentary Rocks.txt (7047 chars)
+OK (en): 25 - Mineralogy of Sedimentary Rocks.txt (5822 chars)
+OK (en): 26 - Classification Sedimentary Rocks Part 1.txt (14904 chars)
+OK (en): 27 - Classification Sedimentary Rocks Part 2.txt (15609 chars)
+OK (en): 28 - Classification Sedimentary Rocks Part 3.txt (8942 chars)
+OK (en): 29 - Origin of Metamorphic Rocks.txt (5902 chars)
+OK (en): 30 - Types of Metamorphism.txt (10627 chars)
+OK (en): 31 - The Rock Cycle.txt (4183 chars)
+OK (en): 32 - Physical Weathering Processes.txt (3972 chars)
+OK (en): 33 - Chemical Weathering Processes.txt (6847 chars)
+OK (en): 34 - Weathering Environments Part 1 Fluvial.txt (9394 chars)
+OK (en): 35 - Weathering Environments Part 2 Aeolian.txt (5563 chars)
+OK (en): 36 - Weathering Environments Part 3 Glacial.txt (6963 chars)
+OK (en): 37 - Methods of Dating Earth Part 1 Relative.txt (6348 chars)
+OK (en): 38 - Methods of Dating Earth Part 2 Absolute.txt (9673 chars)
+OK (en): 39 - Volcanoes Formation Types Activity.txt (13087 chars)
+OK (pt-BR): 01 - The Science of Geology.txt (86068 chars)
+OK (pt-BR): 02 - Continental Drift.txt (80195 chars)
+FAIL z58vSr_VTvk: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+OK (pt-BR): 04 - Atoms and Chemical Bonds.txt (34010 chars)
+FAIL EZMBoXQbA6k: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+FAIL PVF9jeH2-8U: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+FAIL AoXU2sSrK9Q: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+OK (pt-BR): 08 - Volcanoes.txt (101092 chars)
+FAIL NMmNOUQL0Xc: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+FAIL 0VzbhTP0ujI: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+FAIL 6XbXM5y1110: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+FAIL MeAz8An80ro: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+FAIL f5ExuqB6SJI: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+OK (pt): 14 - The Ocean Floor.txt (36592 chars)
+OK (pt-BR): 15 - Faults Folds and Joints.txt (71727 chars)
+OK (pt-BR): 16 - Mountains.txt (93407 chars)
+OK (pt-BR): 17 - Landslides and Mass Wasting.txt (70021 chars)
+FAIL E_BypVAw5Zc: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+FAIL 1eu55XyKBSM: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+FAIL 6VkbOSKQP1A: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+OK (pt): 21 - Deserts.txt (40419 chars)
+FAIL _dOpehNbCRk: : ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'pt': HTTP Error 429: Too Many Requests
+
+OK (pt): 23 - Farewell.txt (1056 chars)
+OK (en): 00 - Crash Course Geology Preview.txt (2495 chars)
+OK (en): 01 - Intro to Geology.txt (9693 chars)
+OK (en): 02 - How did Earth form.txt (9712 chars)
+OK (en): 03 - Earths Crust and Mantle Explained.txt (9874 chars)
+OK (en): 04 - Whats at the center of the earth.txt (10118 chars)
+OK (en): 05 - How Do Minerals Form.txt (9839 chars)
+OK (en): 06 - The Rock Episode.txt (8997 chars)
+OK (en): 07 - How Do Gems Form.txt (10026 chars)
+OK (en): 08 - Where Do Diamonds Come From.txt (10176 chars)
+OK (en): 09 - How Water Shapes the Land.txt (10537 chars)
+OK (en): 10 - What is Plate Tectonics.txt (10042 chars)
+OK (en): 11 - How Do Mountains Form.txt (10027 chars)
+OK (en): 12 - The Deepest Point in the World.txt (11543 chars)
+OK (en): 13 - Volcanoes Explained.txt (11394 chars)
+OK (en): 14 - Earthquakes Explained.txt (10788 chars)

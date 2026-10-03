@@ -1,0 +1,605 @@
+{
+ "schema_version": 1,
+ "target": {
+  "kind": "modulo",
+  "path": "05-leitura-do-bruto/",
+  "module_id": "05",
+  "course_id": "lapidacao"
+ },
+ "mode": "audit-and-fix",
+ "depth": "full",
+ "audited_at": "2026-09-03T00:00:00-03:00",
+ "verdict": "approved",
+ "summary": {
+  "red": 5,
+  "orange": 9,
+  "yellow": 0,
+  "blue": 0,
+  "white": 1,
+  "verified_ok": 35,
+  "open_findings": 0
+ },
+ "findings": [
+  {
+   "claim_id": "ZON-FAIXA-MESA-001",
+   "severity": "red",
+   "kind": "erro_factual",
+   "new_claim": false,
+   "location": {
+    "file": "05-leitura-do-bruto/05-leitura-do-bruto-aula-03-zonacao-de-cor.md",
+    "section": "A orientacao da mesa muda o caminho da luz / Exemplo trabalhado / Erros comuns / Recap relampago",
+    "quote": "Ja uma faixa de cor paralela a mesa e o pior caso de todos: a pedra fica com uma metade viva e outra apagada"
+   },
+   "problem": "Regra invertida. A pratica lapidaria orienta as bandas de cor PARALELAS a mesa e a cinta justamente para que a cor apareca uniforme de face, e coloca a banda mais escura na culaca para que irradie cor por toda a gema. O caso ruim e a faixa DE PE (plano perpendicular ao da mesa), que so e cruzada pelos raios de uma regiao. O texto ainda se contradizia: duas linhas acima ja prescrevia por a faixa fina na culaca, que e geometricamente deita-la paralela a cinta.",
+   "replacement": "Os dois lados foram invertidos: o pior caso passou a ser a faixa de pe; a saida passou a ser deitar a faixa paralela a mesa e a cinta, de preferencia funda, perto da culaca. Propagado para o exemplo trabalhado (linhas de Orientacao e de O que seria erro), Erros comuns e Recap.",
+   "source": {
+    "name": "Gemporia, Learning Library, 'Zoning / Colour Banding' (o lapidario orienta as bandas paralelas a mesa; a banda mais escura vai para a culaca e reflete cor por toda a gema); GIA (o lapidario experiente dispoe as zonas de cor paralelas a cinta ou coloca cor concentrada na culaca)",
+    "level": "base de referencia gemologica + literatura lapidaria",
+    "version": "consultado 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "05-leitura-do-bruto/05-leitura-do-bruto-aula-03-zonacao-de-cor.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "PLE-REN-CUSTO-001",
+   "severity": "red",
+   "kind": "erro_factual",
+   "new_claim": false,
+   "location": {
+    "file": "05-leitura-do-bruto/05-leitura-do-bruto-aula-04-pleocroismo-e-eixo-optico.md",
+    "section": "O custo em rendimento / Recap relampago",
+    "quote": "A cor boa esta perpendicular ao comprimento do prisma. Orientar a mesa perpendicular a essa direcao significa cortar a pedra atravessada no cristal"
+   },
+   "problem": "As duas situacoes estao trocadas entre si e contradizem o exemplo trabalhado da propria aula. Se a cor boa e vista OLHANDO AO LONGO do comprimento, a mesa fica perpendicular ao comprimento, o plano da cinta fica perpendicular ao eixo do prisma e as duas medidas da cinta ficam presas a largura: e o caso caro. Se a cor boa e vista de lado, o plano da cinta contem o comprimento e a pedra pode ser longa: cor e peso praticamente coincidem. O exemplo da safira executa a versao correta.",
+   "replacement": "As duas situacoes foram trocadas de lugar e reescritas na linguagem do procedimento da propria aula, com o primeiro caso marcado como o do exemplo. Propagado para o bullet de custo do Recap.",
+   "source": {
+    "name": "Geometria de inscricao de solido em prisma; Sinkankas, Gem Cutting: A Lapidary's Manual (perda de rendimento ao cortar atravessado); Vargas & Vargas, Faceting for Amateurs; exemplo trabalhado da propria aula",
+    "level": "geometria + literatura de facetamento",
+    "version": "consultado 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "05-leitura-do-bruto/05-leitura-do-bruto-aula-04-pleocroismo-e-eixo-optico.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "PLE-EXEM-SAFIRA-001",
+   "severity": "red",
+   "kind": "erro_factual",
+   "new_claim": true,
+   "location": {
+    "file": "05-leitura-do-bruto/05-leitura-do-bruto-aula-04-pleocroismo-e-eixo-optico.md",
+    "section": "Exemplo trabalhado (enunciado e Passo 3)",
+    "quote": "15 mm de comprimento (ao longo de c), 8 mm de diametro. Peso ~4,5 g (~22 ct) ... uma safira de ~6 mm, ~1,2 ct"
+   },
+   "problem": "(a) Um cilindro de 15 x 8 mm tem ~754 mm3; com SG do corindon ~4,0 o cilindro CHEIO pesaria no maximo ~3,0 g, e um barril afina nas pontas. Os 4,5 g declarados sao geometricamente impossiveis. (b) Com o fator de forma correto do redondo (0,0018), 6,0 mm em proporcoes corretas dao ~1,0 ct; 1,2 ct corresponde a ~6,5 mm.",
+   "replacement": "Peso do bruto ajustado para ~2,6 g (~13 ct); diametro da pedra orientada para cor de ~6 mm para ~6,5 mm, preservando o 1,2 ct usado em quatro pontos da aula. A alternativa de peso (~12 x 7 mm, ~3 ct) foi reconferida com k=0,0025 e a profundidade maxima admitida por um retangulo de 7 mm dentro de um barril de 8 mm (~3,9 mm): ~3,3 ct.",
+   "source": {
+    "name": "Geometria do cilindro circunscrito; densidade relativa do corindon ~3,98-4,02; fatores de forma de estimativa de peso (redondo 0,0018; degrau 0,0025), ver REN-FORMULA-PESO-001",
+    "level": "geometria + dados fisicos + tabela de estimativa de peso",
+    "version": "consultado 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "05-leitura-do-bruto/05-leitura-do-bruto-aula-04-pleocroismo-e-eixo-optico.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "REN-FORMULA-PESO-001",
+   "severity": "red",
+   "kind": "erro_factual",
+   "new_claim": false,
+   "location": {
+    "file": "05-leitura-do-bruto/05-leitura-do-bruto-aula-05-rendimento.md",
+    "section": "Estimar o peso antes de cortar / Exemplo trabalhado / Erros comuns / O que nao concluir / Recap relampago",
+    "quote": "cerca de 0,0020 para o brilhante redondo, 0,0025 para oval e navete, 0,0026 para o talhe degrau retangular ... trate como +/-10%"
+   },
+   "problem": "Os fatores estao deslocados uma posicao na tabela corrente: redondo 0,0018, oval 0,0020, esmeralda/degrau 0,0025, navete 0,0016. A aula deu ao redondo o fator do oval, ao oval o do degrau, e inventou 0,0026 para o degrau. A navete, agrupada com o oval em 0,0025, ficou 56% acima do fator real. A margem tambem estava mal caracterizada: nao e +/-10% simetrico, e um acrescimo unidirecional sobre um piso.",
+   "replacement": "Os quatro fatores corrigidos, a navete separada do oval, e a margem substituida por 'e um piso, +2-10% por cinta grossa e +5-10% por barriga de pavilhao'. Exemplo recalculado: A 2,5->2,3 ct (rendimento ~6%); B 4,3->4,2 ct (11%->10%); C 5,8->5,5 ct (14%); ganho de C sobre B 1,5->1,3 ct. Todas as conclusoes qualitativas preservadas.",
+   "source": {
+    "name": "Tabela padrao de fatores de forma para estimativa de peso (redondo .0018, oval .0020, esmeralda .0025, navete .0016; +2-10% cinta grossa, +5-10% barriga de pavilhao) - Esslinger, 'Stone Weight Estimation Formula'; The Plumb Club, 'How to Estimate Gem Weight'",
+    "level": "base de referencia da industria",
+    "version": "consultado 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "05-leitura-do-bruto/05-leitura-do-bruto-aula-05-rendimento.md",
+    "05-leitura-do-bruto/05-leitura-do-bruto-aula-04-pleocroismo-e-eixo-optico.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "INC-CLIV-KUNZ-001",
+   "severity": "red",
+   "kind": "erro_factual",
+   "new_claim": true,
+   "location": {
+    "file": "05-leitura-do-bruto/05-leitura-do-bruto-aula-02-inclusoes-fraturas-e-planos-de-clivagem.md",
+    "section": "Exemplo trabalhado (enunciado e paragrafo Clivagem)",
+    "quote": "a kunzita tem clivagem perfeita em um sentido, paralela ao comprimento do prisma"
+   },
+   "problem": "O espodumenio tem clivagem PERFEITA em DUAS direcoes, ambas do prisma {110}, paralelas ao eixo c e cruzando-se a cerca de 87 graus. Reduzir a uma direcao enfraquece o proprio argumento do exemplo, porque com dois planos a familia de orientacoes proibidas e bem maior. A aula tambem omitia, no exemplo, que a proibicao alcanca a cinta.",
+   "replacement": "'em um sentido' -> 'em duas direcoes, ambas paralelas ao comprimento do prisma e cruzando-se a cerca de 87 graus'; o paragrafo Clivagem passou a falar dos dois planos e do desvio em relacao a ambos; o adendo nao verificado sobre concentracao de tensao na ponta do pavilhao foi substituido pela regra documentada de que a proibicao vale tambem para a cinta.",
+   "source": {
+    "name": "Dados cristalograficos do espodumenio (clivagem perfeita {110} em duas direcoes, ~87 graus) - Mindat / geology.com / International Gem Society, Spodumene e Kunzite Faceting Information; GIA, Gems & Gemology (Summer 2020), 'The Fragility of the Eternal': Kunzite",
+    "level": "dados cristalograficos + base de referencia gemologica",
+    "version": "consultado 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "05-leitura-do-bruto/05-leitura-do-bruto-aula-02-inclusoes-fraturas-e-planos-de-clivagem.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "REN-FAIXA-TIP-001",
+   "severity": "orange",
+   "kind": "dado_numerico",
+   "new_claim": false,
+   "location": {
+    "file": "05-leitura-do-bruto/05-leitura-do-bruto-aula-05-rendimento.md",
+    "section": "Quanto se perde, tipicamente / Erros comuns / Recap relampago",
+    "quote": "entre 15% e 25% do peso do bruto; bruto mal formado ... cai para 8% a 12%; e ocasionalmente um cristal ja perto da forma final passa de 30%. Para cabochao ... 30% a 50% ou mais"
+   },
+   "problem": "(a) 15-25% e a faixa do corte de FABRICA; o corte de precisao fica em 25-33%. (b) '>30% raro' e falso: 30% ja esta na faixa normal do corte de precisao e bruto bem formado chega a 40%+. (c) A faixa 8-12% para bruto ruim nao foi localizada em nenhuma fonte. (d) Nenhuma fonte quantifica o rendimento de cabochao; o intervalo 30-50% e atribuicao nao verificada.",
+   "replacement": "Faixas corrigidas para 25-33% (precisao) e 15-25% (fabrica), com >40% para bruto quase preformado. Os dois numeros sem fonte foram REMOVIDOS em vez de substituidos: o piso de bruto ruim virou 'cai bem abaixo disso - os projetos do exemplo desta aula ficam entre 6% e 14%', usando o proprio exemplo como demonstracao, e o cabochao passou a ser descrito como reconhecidamente maior, sem faixa citavel. Regra pratica de 20% mantida, agora com fonte.",
+   "source": {
+    "name": "International Gem Society, 'What is the Average Gemstone Faceting Yield?' (25-33% custom; 15-25% factory; 40%+ em bruto bem formado; planejar por 20%)",
+    "level": "base de referencia gemologica",
+    "version": "consultado 2026-09-03"
+   },
+   "confidence": "confirmado (faixas de precisao e fabrica e o teto); nao verificado e por isso removido (piso de 8-12% e faixa de cabochao)",
+   "affected_files": [
+    "05-leitura-do-bruto/05-leitura-do-bruto-aula-05-rendimento.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "REN-RECUT-PERDA-001",
+   "severity": "orange",
+   "kind": "dado_numerico",
+   "new_claim": true,
+   "location": {
+    "file": "05-leitura-do-bruto/05-leitura-do-bruto-aula-05-rendimento.md",
+    "section": "A escolha que sempre aparece: beleza x peso / Erros comuns / Recap relampago",
+    "quote": "Relapidar uma dessas pedras para angulos corretos (recorte) custa tipicamente de 10% a 30% do peso."
+   },
+   "problem": "O teto de 30% corta fora os casos que motivam a secao. A literatura de recorte trabalha com 10% a 50%, e passa de 50% em nativos muito rasos ou assimetricos; o caso citado como tipico e uma safira de 3 ct rasa demais que perde ~40%.",
+   "replacement": "'10% a 30%' -> '10% a 50% do peso, e mais que isso quando a pedra e muito rasa ou torta'. Propagado para Erros comuns e Recap.",
+   "source": {
+    "name": "Justin K. Prim, 'The Art and Joy of Recutting Gemstones'; Faceting Academy, 'Recutting Native Cut Gemstones'",
+    "level": "literatura de lapidacao",
+    "version": "consultado 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "05-leitura-do-bruto/05-leitura-do-bruto-aula-05-rendimento.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "PLE-CRESC-EIXO-001",
+   "severity": "orange",
+   "kind": "confusao_de_escopo",
+   "new_claim": true,
+   "location": {
+    "file": "05-leitura-do-bruto/05-leitura-do-bruto-aula-04-pleocroismo-e-eixo-optico.md",
+    "section": "O custo em rendimento (abertura) / Recap relampago / O que nao concluir",
+    "quote": "Cristais crescem, na maioria, alongados ao longo do eixo optico - prismas compridos."
+   },
+   "problem": "Vale para muitos uniaxiais, em que o eixo optico e o eixo c. Nao se generaliza aos biaxiais - e a aula listara cinco deles tres paragrafos antes. Num biaxial os dois eixos opticos sao direcoes da indicatriz, situadas no plano optico, e nao correspondem a nenhum eixo cristalografico nem a direcao de alongamento. Alem disso o GIA registra que o corindon natural e usualmente orientado com c perpendicular a mesa, o que 'tends to provide the best color AND weight retention' - ou seja, o barril muito alongado do exemplo e o caso dificil, nao a regra.",
+   "replacement": "A frase foi restrita aos uniaxiais e recebeu parentese explicitando que nos biaxiais os eixos opticos nao coincidem com nenhum eixo de crescimento. Recap alinhado. Em 'O que nao concluir', o bullet que ja isentava as medidas do exemplo passou a marcar que se trata de um caso deliberadamente dificil.",
+   "source": {
+    "name": "Optica cristalina padrao (indicatriz uniaxial e biaxial); GIA, Gems & Gemology (Fall 2014), 'Pleochroism in Faceted Gems: An Introduction'",
+    "level": "literatura revisada por pares + optica cristalina",
+    "version": "consultado 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "05-leitura-do-bruto/05-leitura-do-bruto-aula-04-pleocroismo-e-eixo-optico.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "EXT-CONSERTO-CAUSA-001",
+   "severity": "orange",
+   "kind": "inconsistencia_interna",
+   "new_claim": false,
+   "location": {
+    "file": "05-leitura-do-bruto/05-leitura-do-bruto-aula-06-janelamento-e-extincao.md",
+    "section": "Extincao - cinco causas independentes (causa 3) / quadro [!note] / Erros comuns / Recap relampago",
+    "quote": "Aqui a causa e quimica, nao optica: nenhum angulo conserta."
+   },
+   "problem": "(a) A frase se desmente duas linhas adiante: 'um talhe mais raso' E uma mudanca de angulo de pavilhao. O enunciado defensavel e que manter os ANGULOS CORRETOS nao resolve, e que a atenuacao exige sair de proposito do otimo optico - compromisso, nao conserto. (b) A absorcao por centro de cor E um fenomeno optico, de origem quimica; classifica-la como 'quimica, nao optica' ensina uma separacao inexistente que atrapalha o modulo 08.",
+   "replacement": "A causa 3 passou a dizer que a ORIGEM e quimica - a absorcao da propria cor - e que nao e um erro de geometria: manter os angulos corretos nao resolve. Em Erros comuns, 'nenhum angulo a resolve' virou 'nenhum angulo CORRETO a resolve; so se atenua encurtando o caminho da luz com um talhe mais raso, sacrificando brilho'. A coluna 'Se conserta com angulo?' do quadro passou de 'so a causa 1' para 'so a 1 (a 3 apenas se atenua)'. Recap alinhado.",
+   "source": {
+    "name": "Sinkankas, Gem Cutting: A Lapidary's Manual (talhe mais raso para clarear cor saturada, com perda de brilho); United States Faceters Guild; Vargas & Vargas, Faceting for Amateurs",
+    "level": "literatura de facetamento + consistencia interna",
+    "version": "consultado 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "05-leitura-do-bruto/05-leitura-do-bruto-aula-06-janelamento-e-extincao.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "EXT-CINCO-CAUSAS-001",
+   "severity": "orange",
+   "kind": "omissao_que_gera_erro",
+   "new_claim": false,
+   "location": {
+    "file": "05-leitura-do-bruto/05-leitura-do-bruto-aula-06-janelamento-e-extincao.md",
+    "section": "Extincao - cinco causas independentes (causa 2)",
+    "quote": "o cone de angulos que refletem por dentro e menor, e mais luz vaza em cada rebatida"
+   },
+   "problem": "Numa faceta atingida ACIMA do angulo critico a reflexao interna e TOTAL - nao vaza nada, e isso independe do indice. O que o indice baixo faz e estreitar o cone de direcoes que satisfazem a condicao: uma fracao maior dos raios cai fora do cone e escapa, e a margem de erro de angulo encolhe. Como escrito, o texto ensina que a reflexao interna total e parcial, colidindo com a secao anterior da propria aula e com o pre-requisito do curso de Gemologia.",
+   "replacement": "'e mais luz vaza em cada rebatida' -> 'entao uma fracao maior dos raios escapa em vez de voltar, e a margem de erro de angulo e menor'. As outras quatro causas foram conferidas uma a uma e mantidas.",
+   "source": {
+    "name": "United States Faceters Guild - 'Refractive Index and Critical Angle' e 'Design Principles' (facetas do pavilhao abaixo do angulo critico janelam; o angulo critico e funcao do indice; material de indice baixo pede coroa normal ou mais alta)",
+    "level": "literatura normativa do dominio",
+    "version": "consultado 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "05-leitura-do-bruto/05-leitura-do-bruto-aula-06-janelamento-e-extincao.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "ZON-ORIENT-PATH-001",
+   "severity": "orange",
+   "kind": "certeza_indevida",
+   "new_claim": false,
+   "location": {
+    "file": "05-leitura-do-bruto/05-leitura-do-bruto-aula-03-zonacao-de-cor.md",
+    "section": "A orientacao da mesa muda o caminho da luz / Exemplo trabalhado",
+    "quote": "Como todos os raios convergem para a ponta antes de voltar, aquela lasquinha de cor pinta a pedra inteira"
+   },
+   "problem": "Num brilhante, boa parte dos raios volta apos duas reflexoes em facetas principais opostas do pavilhao sem passar pela regiao da culaca. A tecnica funciona porque a MAIOR PARTE do caminho optico se concentra ali, nao por convergencia total, que e propriedade de um cone e nao de um pavilhao facetado.",
+   "replacement": "'todos os raios convergem' -> 'quase todo raio que entra pela mesa passa pela regiao da ponta'; no exemplo, 'todos os raios ... ao convergir para a ponta' -> 'quase todos os raios ... na convergencia para a ponta'. Ressalva registrada na alegacao auditavel.",
+   "source": {
+    "name": "GIA - mistura optica e a tecnica de posicionar cor concentrada perto da culaca; Sinkankas, Gem Cutting: A Lapidary's Manual",
+    "level": "base de referencia gemologica",
+    "version": "consultado 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "05-leitura-do-bruto/05-leitura-do-bruto-aula-03-zonacao-de-cor.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "PLE-ORIENT-PROC-001",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "new_claim": false,
+   "location": {
+    "file": "05-leitura-do-bruto/05-leitura-do-bruto-aula-04-pleocroismo-e-eixo-optico.md",
+    "section": "Qual cor se quer, e onde ela esta (passo 2)",
+    "quote": "a luz que entra reto pela mesa vibra predominantemente naquela direcao e devolve aquela cor"
+   },
+   "problem": "A luz que VIAJA numa direcao vibra no plano PERPENDICULAR a ela - fato que sustenta a secao seguinte da propria aula (ao longo do eixo optico nao ha pleocroismo) e que contradiz o vocabulario que a aula define. A conclusao pratica (mesa perpendicular a direcao pela qual a cor desejada e vista) esta certa; so a razao oferecida estava errada.",
+   "replacement": "'vibra predominantemente naquela direcao' -> 'viaja naquela direcao'. Edicao de uma palavra, sem tocar na conclusao.",
+   "source": {
+    "name": "Optica cristalina padrao (direcao de vibracao perpendicular a de propagacao); GIA, Gems & Gemology (Fall 2014), 'Pleochroism in Faceted Gems'; vocabulario da propria aula",
+    "level": "optica + consistencia interna",
+    "version": "consultado 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "05-leitura-do-bruto/05-leitura-do-bruto-aula-04-pleocroismo-e-eixo-optico.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "BRU-IMER-IDX-001",
+   "severity": "orange",
+   "kind": "dado_numerico",
+   "new_claim": false,
+   "location": {
+    "file": "05-leitura-do-bruto/05-leitura-do-bruto-aula-01-ler-um-bruto-janela-imersao-iluminacao.md",
+    "section": "A imersao",
+    "quote": "Gemas de indice alto (corindon ~1,76, granada ~1,74) nunca terao casamento com liquido comum"
+   },
+   "problem": "'Granada' e um GRUPO, com indice de ~1,714 (piropo) a ~1,888 (demantoide). O valor 1,74 corresponde a piropo/grossularia e fica abaixo das granadas mais comuns. A regua LC-05 deste curso exige, para numero tabelado, valor com faixa e fonte, e o resto da mesma lista traz faixa ou aproximacao declarada.",
+   "replacement": "'granada ~1,74' -> 'granada 1,71-1,89 conforme a especie'. Os demais indices da lista foram conferidos e mantidos: agua 1,333, isopropanol 1,377, glicerina 1,473, oleo mineral 1,46-1,48, corindon 1,76, berilo 1,58.",
+   "source": {
+    "name": "Indices de refracao do grupo da granada (piropo ~1,714; grossularia ~1,73; almandina ~1,79; espessartita ~1,80; demantoide ~1,888) - dados gemologicos padrao; indices de agua, isopropanol, glicerina e oleo mineral - dados fisico-quimicos padrao",
+    "level": "dados gemologicos e fisico-quimicos",
+    "version": "consultado 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "05-leitura-do-bruto/05-leitura-do-bruto-aula-01-ler-um-bruto-janela-imersao-iluminacao.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "REN-ESTIM-PROC-001",
+   "severity": "orange",
+   "kind": "inconsistencia_interna",
+   "new_claim": false,
+   "location": {
+    "file": "05-leitura-do-bruto/05-leitura-do-bruto-aula-05-rendimento.md",
+    "section": "Exemplo trabalhado (opcao A)",
+    "quote": "A maior pedra redonda que cabe no bloco tem diametro ~8,5 mm (limitado pela menor dimensao util)"
+   },
+   "problem": "O volume aproveitavel declarado tres linhas acima e 11 x 9 x 8 mm. A MENOR dimensao e 8 mm e e ela que vira a profundidade (a opcao A usa 5,6 mm). O que limita o DIAMETRO e a menor das duas medidas do plano da cinta - os 9 mm. A opcao B, quatro linhas abaixo, usa um contorno de 10,5 x 8,5 mm nesse mesmo plano.",
+   "replacement": "'(limitado pela menor dimensao util)' -> '(limitado pela menor medida do contorno disponivel, os 9 mm)'.",
+   "source": {
+    "name": "Consistencia interna do exemplo (bloco 11 x 9 x 8 mm; contorno de B em 10,5 x 8,5 mm)",
+    "level": "verificacao aritmetica interna",
+    "version": "consultado 2026-09-03"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "05-leitura-do-bruto/05-leitura-do-bruto-aula-05-rendimento.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-03"
+  },
+  {
+   "claim_id": "BRU-AQUA-ORIENT-001",
+   "severity": "white",
+   "kind": "controversia",
+   "new_claim": true,
+   "location": {
+    "file": "05-leitura-do-bruto/05-leitura-do-bruto-aula-01-ler-um-bruto-janela-imersao-iluminacao.md",
+    "section": "Exemplo trabalhado (passo 1 e passo 4a)",
+    "quote": "numa agua-marinha a cor costuma ser mais forte olhando ao longo do comprimento do cristal"
+   },
+   "problem": "Divergencia real entre fontes do mesmo nivel. Parte da literatura lapidaria recomenda orientar 'no c' para o melhor azul (mesa perpendicular ao comprimento), validando a aula; outra parte situa o azul mais profundo na observacao perpendicular ao eixo c, o que e o esperado se a cor mais saturada do berilo for a do raio extraordinario. O dicroismo da agua-marinha e ainda descrito como fraco por varias fontes, o que reduz a nitidez do criterio. A aula apresentava um dos lados como regra da especie.",
+   "replacement": "Politica de achado controverso: nao arbitrar. O passo 1 passou a registrar que a cor mais forte pode estar ao longo do comprimento ou atravessada, que a literatura se divide, e que a janela lateral permite comparar as duas direcoes antes de decidir. O passo 4(a) deixou de enunciar regra da especie e passou a registrar um achado daquela peca ('nesta peca a cor mais forte apareceu olhando ao longo do comprimento').",
+   "source": {
+    "name": "International Gem Society, 'Aquamarine Faceting Information' (dicroismo fraco; 'orientating on the c is slightly better') contra fontes gemologicas que atribuem o azul mais profundo ao raio extraordinario",
+    "level": "base de referencia gemologica (divergente)",
+    "version": "consultado 2026-09-03"
+   },
+   "confidence": "em disputa",
+   "affected_files": [
+    "05-leitura-do-bruto/05-leitura-do-bruto-aula-01-ler-um-bruto-janela-imersao-iluminacao.md"
+   ],
+   "outcome": "corrigido - reescrito como divergencia declarada, sem arbitrar",
+   "applied_at": "2026-09-03"
+  }
+ ],
+ "verified_ok": [
+  {
+   "claim_id": "BRU-JAN-DEF-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "BRU-ILUM-MODO-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "BRU-DEC-CINCO-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "BRU-LEIT-LIM-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "INC-POS-ZONA-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "INC-CAB-MULT-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "INC-FRAT-PROP-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "INC-CLIV-ORIENT-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "INC-ACHADO-PROP-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "ZON-PADRAO-TIPO-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "ZON-TALHE-MIX-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "ZON-VS-PLEO-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PLE-CLASSE-NUM-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PLE-EIXO-OPT-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PLE-TILT-COMPR-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PLE-DECISAO-DEST-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "REN-PERDAS-ONDE-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "REN-BELEZA-PESO-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "JAN-DEF-EXT-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "JAN-CAUSA-PAV-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "EXT-PREVISAO-PROJ-001",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "a06 - cinco causas de extincao, separacao e independencia",
+   "source": "USFG; Sinkankas; Lapidary Journal / Rock & Gem",
+   "confidence": "confirmado (so a causa 2 teve o mecanismo corrigido)"
+  },
+  {
+   "claim_id": "a06 - distincao janela x extincao e a assimetria de numero de causas",
+   "source": "USFG, dicionario de facetamento e Refractive Index and Critical Angle",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "a06 - indices quartzo ~1,55, feldspato ~1,53, corindon ~1,76, zircao ~1,95",
+   "source": "Dados gemologicos padrao (zircao alto 1,925-1,984)",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "a06 - profundidade ~70% do diametro para brilhante redondo em quartzo",
+   "source": "Pavilhao 41-43 graus para quartzo (USFG, Choosing the Best Angles for Your SRB) + coroa usual",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "a06 - bowtie em navete/oval comprida/gota, ausente no redondo, quase ausente no quadrado",
+   "source": "Lapidary Journal / Rock & Gem; USFG, Design Principles",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "a02 - desvio da mesa em relacao a clivagem, 5 a 10 graus",
+   "source": "Literatura de facetamento de topazio: 7 graus, 7-10 graus ou 5-15 graus conforme a fonte; IGS, Topaz Faceting Information",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "a02 - materiais de clivagem marcada: topazio, kunzita, fluorita, diamante, feldspato",
+   "source": "Dados cristalograficos padrao",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "a04 - pleocroismo do corindon: raio ordinario e a cor mais escura; c perpendicular a mesa",
+   "source": "GIA, Gems & Gemology (Fall 2014), Pleochroism in Faceted Gems",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "a04 - doze atribuicoes de classe optica (uniaxial / biaxial / isotropico)",
+   "source": "Optica cristalina padrao",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "a03 - padroes de zonacao: faixas na safira, setores na ametista, nucleo no berilo, parti-color e melancia na turmalina",
+   "source": "GIA",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "a05 - densidades relativas: quartzo ~2,65, corindon ~4,0, granada 3,8-4,2, turmalina ~3,1",
+   "source": "Dados gemologicos padrao",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "a05 - aritmetica do exemplo trabalhado apos a correcao dos fatores k",
+   "source": "Verificacao aritmetica: A 2,26 ct (5,6%); B 4,15 ct (10,4%); C 5,53 ct (13,8%); bruto 8,0 g = 40 ct",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "a05 - kerf de serra de ~0,3 mm a alguns milimetros",
+   "source": "Modulo 03 deste curso; espessura corrente de lamina de trim saw",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "a01 - indices dos liquidos de imersao (agua 1,333; isopropanol 1,377; glicerina 1,473; oleo mineral 1,46-1,48)",
+   "source": "Dados fisico-quimicos padrao",
+   "confidence": "confirmado"
+  }
+ ],
+ "claim_id_format": {
+  "pattern": "^[A-Z]{2,4}-[A-Z0-9]+-[A-Z0-9]+-[0-9]{3}$",
+  "segments": 4,
+  "total_claims": 36,
+  "inherited": 31,
+  "created_by_audit": 5,
+  "malformed": [],
+  "renamed": {},
+  "note": "Verificado por regex sobre os seis arquivos. Nenhum residuo de 5 segmentos. INC-ACHADO-PROP-001 e JAN-DEF-EXT-001, corrigidos a mao antes desta auditoria, estao integros."
+ },
+ "new_claim_ids": [
+  "PLE-EXEM-SAFIRA-001",
+  "PLE-CRESC-EIXO-001",
+  "INC-CLIV-KUNZ-001",
+  "REN-RECUT-PERDA-001",
+  "BRU-AQUA-ORIENT-001"
+ ],
+ "bench_competence_scan": {
+  "result": "nenhum achado",
+  "note": "Varredura especifica nas seis aulas por afirmacao, sugestao ou avaliacao de competencia de bancada ou destreza manual. As seis trazem em 'O que nao concluir' a exclusao explicita (abrir janela, cortar respeitando clivagem, travar o bruto na dop, usar dicroscopio, serrar/pre-formar/medir, ajustar o angulo na facetadora). Os verbos dos seis objetivos sao todos de conhecimento observavel."
+ },
+ "cross_lesson_checks": [
+  "Cadeia leitura (a01) -> restricao (a02, a03, a04) -> rendimento (a05) -> defeito optico (a06): coerente.",
+  "Remissoes cruzadas ('e a aula 05', 'e o modulo 08', 'e o modulo 14') todas corretas; nenhuma promete o que a aula indicada nao entrega.",
+  "Unica contradicao inter-secao encontrada: a orientacao da faixa de cor na a03 (achado 1), interna a propria aula.",
+  "Nenhum dado do modulo 05 colide com valor fixado nos modulos 01-04. O kerf remete ao modulo 03; densidade e indice remetem ao curso de Gemologia por nome.",
+  "Nenhum wikilink aponta para fora do curso; o pre-requisito de Gemologia e citado so por nome nas seis aulas."
+ ],
+ "derived_material": {
+  "assessment": "inexistente no momento da auditoria - nada a propagar",
+  "flashcards": "inexistentes no momento da auditoria - nada a propagar",
+  "note": "E exatamente o efeito pretendido do gate: o modulo chega limpo ao gerador-de-questionarios."
+ },
+ "handed_to_didactic_review": [
+  "a04 - a analogia do celofane (duas folhas sobrepostas, azul e amarela, dando verde) descreve mistura subtrativa de dois filtros empilhados, que e precisamente o que o pleocroismo NAO e. O aluno que carregar a analogia vai prever que girar a pedra mistura cores, quando cada direcao entrega UMA cor. LC-04 exige analogia antes do termo, nao uma analogia que precise ser desfeita depois.",
+  "a03 - a correcao do achado 1 obrigou a reescrever o paragrafo mais importante da aula e, para pagar as palavras, a secao 'A regra que junta tudo' ficou bem mais enxuta que as demais. Cabe ao revisor decidir se o fecho ainda organiza o suficiente.",
+  "a04 - a aula esta exatamente no teto (1600). Qualquer melhoria didatica tera de ser financiada por corte, e o texto ja passou por uma rodada de compressao. Prioridade de corte sugerida: o Recap relampago, o mais redundante dos seis do modulo."
+ ],
+ "palavras_corpo_pos_auditoria": {
+  "a01": 1591,
+  "a02": 1592,
+  "a03": 1592,
+  "a04": 1600,
+  "a05": 1597,
+  "a06": 1594
+ },
+ "corrected": [
+  "ZON-FAIXA-MESA-001",
+  "PLE-REN-CUSTO-001",
+  "PLE-EXEM-SAFIRA-001",
+  "REN-FORMULA-PESO-001",
+  "INC-CLIV-KUNZ-001",
+  "REN-FAIXA-TIP-001",
+  "REN-RECUT-PERDA-001",
+  "PLE-CRESC-EIXO-001",
+  "EXT-CONSERTO-CAUSA-001",
+  "EXT-CINCO-CAUSAS-001",
+  "ZON-ORIENT-PATH-001",
+  "PLE-ORIENT-PROC-001",
+  "BRU-IMER-IDX-001",
+  "REN-ESTIM-PROC-001",
+  "BRU-AQUA-ORIENT-001"
+ ],
+ "open_findings": []
+}

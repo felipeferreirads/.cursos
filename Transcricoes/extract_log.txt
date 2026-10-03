@@ -1,0 +1,94 @@
+OK: 01 - Cursos USP Sistema Terra.txt (19130 chars)
+FAIL Tc7bt_DLfCM: upported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+
+OK: 03 - Cursos USP Sistema Terra.txt (18742 chars)
+FAIL qHhGZWm27zU: upported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+
+FAIL ut5DUJhO-G8: upported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+
+OK: 06 - Cursos USP Sistema Terra.txt (19206 chars)
+FAIL JpNO_LmeXIQ: upported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+
+FAIL L0kGaGbVg-c: upported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+
+FAIL cDle-Xg2wng: upported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+
+FAIL VhOtrJmZIUk: upported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+
+OK: 11 - Cursos USP Sistema Terra.txt (28323 chars)
+OK: 12 - Cursos USP Sistema Terra.txt (25910 chars)
+OK: 13 - Cursos USP Sistema Terra.txt (27362 chars)
+FAIL ZIbA2h7L7V8: upported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+
+FAIL 3U8lUYJ7c68: upported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+
+OK: 16 - Cursos USP Sistema Terra.txt (16682 chars)
+FAIL 7jjz6kaWlzw: upported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+
+FAIL 6gUCIdfN7Pw: upported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+
+FAIL X_y5AeFe_dI: upported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+
+FAIL hLGxQqf5EkM: upported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+
+OK: 21 - Cursos USP Sistema Terra.txt (17622 chars)
+OK: 22 - Cursos USP Sistema Terra.txt (18737 chars)
+FAIL rhSUu5dwBDk: upported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+
+FAIL vGIHhnUtAqQ: upported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+
+FAIL aD6txgHn1po: upported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+
+FAIL AZhfhHKFNF8: upported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+
+OK: Aula 01 parte 1 - Introducao.txt (18343 chars)
+OK: Aula 01 parte 2 - Introducao.txt (15872 chars)
+OK: Aula 01 parte 3 - Introducao.txt (16984 chars)
+OK: Aula 02 parte 1 - Tectonica de Placas.txt (18394 chars)
+OK: Aula 02 parte 2 - Tectonica de Placas.txt (16932 chars)
+OK: Aula 02 parte 3 - Tectonica de Placas.txt (17846 chars)
+OK: Aula 03 parte 1 - Evolucao do Pensamento Geocientifico.txt (23776 chars)
+OK: Aula 03 parte 2 - Evolucao do Pensamento Geocientifico.txt (24238 chars)
+OK: Aula 03 parte 3 - Evolucao do Pensamento Geocientifico.txt (25139 chars)
+OK: Aula 04 parte 1 - Minerais.txt (26072 chars)
+OK: Aula 04 parte 2 - Minerais.txt (23879 chars)
+OK: Aula 05 parte 1 - Processos formadores de rochas.txt (24822 chars)
+OK: Aula 05 parte 2 - Processos formadores de rochas.txt (25606 chars)
+FAIL ZIbA2h7L7V8: upported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+
+OK: Aula 06 parte 2 - Rochas Igneas.txt (16747 chars)
+OK: Aula 06 parte 3 - Rochas Igneas.txt (12664 chars)
+OK: Aula 07 parte 1 - Rochas Sedimentares.txt (20117 chars)
+OK: Aula 07 parte 2 - Rochas Sedimentares.txt (20045 chars)
+OK: Aula 07 parte 3 - Rochas Sedimentares.txt (21224 chars)
+OK: Aula 08 parte 1 - Rochas Metamorficas.txt (16351 chars)
+OK: Aula 08 parte 2 - Rochas Metamorficas.txt (14939 chars)
+OK: Aula 09 parte 1 - Ciclo das Rochas e Estruturas.txt (16583 chars)
+OK: Aula 09 parte 2 - Ciclo das Rochas e Estruturas.txt (12192 chars)
+OK: Aula 09 parte 3 - Ciclo das Rochas e Estruturas.txt (12472 chars)
+OK: Aula 10 parte 1 - Ciencias da Terra e o Tempo Geologico.txt (14517 chars)
+OK: Aula 10 parte 2 - Ciencias da Terra e o Tempo Geologico.txt (13365 chars)
+OK: Eras Geologicas (aula completa).txt (31433 chars)
+OK: Tipos de Rochas (aula completa).txt (26767 chars)
+OK: Geomorfologia - Agentes Internos do Relevo.txt (33761 chars)
+OK: Geomorfologia - Agentes Externos do Relevo.txt (16530 chars)
+OK: Relevo do Brasil (aula completa).txt (38882 chars)
+OK: Relevo de Sao Paulo (aula completa).txt (13707 chars)

@@ -1,0 +1,743 @@
+{
+ "schema_version": 1,
+ "target": {
+  "kind": "modulo",
+  "path": "35-vulcanismo-mineralizacoes-associadas/",
+  "module_id": "35",
+  "course_id": "geologia-avancado"
+ },
+ "mode": "audit-and-fix",
+ "depth": "full",
+ "audited_at": "2026-09-29",
+ "verdict": "approved",
+ "summary": {
+  "red": 0,
+  "orange": 10,
+  "yellow": 2,
+  "blue": 5,
+  "white": 4,
+  "verified_ok": 32
+ },
+ "findings": [
+  {
+   "claim_id": "VUL-M35-A01-ESTROMBOLIANO-008",
+   "severity": "orange",
+   "kind": "confusao_de_escopo",
+   "location": {
+    "file": "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-01-magmas-origem-transporte-gases-agua-estilo-eruptivo.md",
+    "section": "Do controle ao estilo (tabela)",
+    "quote": "Basalto rico em gas, ascensao rapida ... (fontes de lava, atividade estromboliana)"
+   },
+   "claim": "Basalto rico em gas, ascensao rapida ... (fontes de lava, atividade estromboliana)",
+   "problem": "[1] INVERSAO PARCIAL. Estromboliano = subida lenta, bolhas coalescem em bolsoes; fontes de lava havaianas = subida rapida, gas acoplado.",
+   "replacement": "Linha desdobrada em duas (havaiano rapida / estromboliano lenta)",
+   "source": {
+    "name": "Parfitt & Wilson 1995 Geophys J Int 121:226-232",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-01-magmas-origem-transporte-gases-agua-estilo-eruptivo.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "VUL-M35-A01-TRANSPORTE-002",
+   "severity": "blue",
+   "kind": "evidencia_insuficiente",
+   "location": {
+    "file": "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-01-magmas-origem-transporte-gases-agua-estilo-eruptivo.md",
+    "section": "Transporte e armazenamento",
+    "quote": "o liquido eruptavel se acumula em porcoes rasas e de vida limitada (Sigurdsson et al., 2015)"
+   },
+   "claim": "o liquido eruptavel se acumula em porcoes rasas e de vida limitada (Sigurdsson et al., 2015)",
+   "problem": "[2] Modelo transcrustal de mush atribuido a enciclopedia; referencia primaria e Cashman et al. 2017.",
+   "replacement": "Citacao trocada por Cashman, Sparks & Blundy 2017; lentes efemeras reunidas em geral na crosta rasa",
+   "source": {
+    "name": "Cashman, Sparks & Blundy 2017 Science 355:eaag3055",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-01-magmas-origem-transporte-gases-agua-estilo-eruptivo.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "VUL-M35-A02-EXTINCOES-003",
+   "severity": "white",
+   "kind": "controversia",
+   "location": {
+    "file": "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-02-ambientes-tectonicos-lips-tipos-de-vulcoes-rochas-vulcanicas.md",
+    "section": "Large igneous provinces",
+    "quote": "a relacao causal, mediada por gases, e hipotese ativa, e nao fato estabelecido caso a caso"
+   },
+   "claim": "a relacao causal, mediada por gases, e hipotese ativa, e nao fato estabelecido caso a caso",
+   "problem": "[3] Sincronia datada por U-Pb na Siberia e CAMP (causalidade via gases dominante); Deccan x Chicxulub em debate (Schoene 2019 x Sprain 2019).",
+   "replacement": "Posicoes expostas sem vencedor no Deccan",
+   "source": {
+    "name": "Burgess & Bowring 2015 Sci Adv 1:e1500470; Blackburn et al. 2013 Science 340:941-945; Schoene et al. 2019 Science 363:862-866; Sprain et al. 2019 Science 363:866-870",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "em_disputa",
+   "affected_files": [
+    "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-02-ambientes-tectonicos-lips-tipos-de-vulcoes-rochas-vulcanicas.md"
+   ],
+   "outcome": "corrigido_com_ressalva",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "VUL-M35-A02-PARANA-004",
+   "severity": "white",
+   "kind": "controversia",
+   "location": {
+    "file": "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-02-ambientes-tectonicos-lips-tipos-de-vulcoes-rochas-vulcanicas.md",
+    "section": "Parana-Etendeka; recap",
+    "quote": "volume principal por volta de 134 Ma, em cerca de 1 Ma de duracao ... coincidindo com a abertura do Atlantico Sul"
+   },
+   "claim": "volume principal por volta de 134 Ma, em cerca de 1 Ma de duracao ... coincidindo com a abertura do Atlantico Sul",
+   "problem": "[4] Duracao em revisao: < ~1,2 Ma (Thiede & Vasconcelos 2010) x ~1,6-3,5 Ma, 135,5-132 Ma (Gomes & Vasconcelos 2021); magmatismo precede e acompanha o rifteamento.",
+   "replacement": "~135-134 Ma; duas estimativas de duracao; precede e acompanha o rifteamento",
+   "source": {
+    "name": "Thiede & Vasconcelos 2010 Geology 38:747-750; Gomes & Vasconcelos 2021 Earth-Sci Rev 220:103716; Renne et al. 1992 Science 258:975-979; Frank, Gomes & Formoso 2009 Pesq Geoc 36:49-57",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "em_disputa",
+   "affected_files": [
+    "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-02-ambientes-tectonicos-lips-tipos-de-vulcoes-rochas-vulcanicas.md"
+   ],
+   "outcome": "corrigido_com_ressalva",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "VUL-M35-A02-SERRAGERAL-009",
+   "severity": "yellow",
+   "kind": "desatualizacao",
+   "location": {
+    "file": "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-02-ambientes-tectonicos-lips-tipos-de-vulcoes-rochas-vulcanicas.md",
+    "section": "Parana-Etendeka; a05 Mineralizacoes de baixa temperatura em cavidades e recap",
+    "quote": "A Formacao Serra Geral"
+   },
+   "claim": "A Formacao Serra Geral",
+   "problem": "[5] Rossetti et al. 2018 formalizaram o Grupo Serra Geral (formacoes Torres, Vale do Sol, Palmas, Esmeralda, Chapeco...).",
+   "replacement": "Grupo Serra Geral (antes Formacao Serra Geral; Rossetti et al., 2018)",
+   "source": {
+    "name": "Rossetti et al. 2018 JVGR 355:98-114",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-02-ambientes-tectonicos-lips-tipos-de-vulcoes-rochas-vulcanicas.md",
+    "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-05-vulcanismo-mafico-ultramafico-derrames-submarino-mineralizacoes-magmaticas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "VUL-M35-A02-VULCOES-006",
+   "severity": "orange",
+   "kind": "confusao_de_escopo",
+   "location": {
+    "file": "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-02-ambientes-tectonicos-lips-tipos-de-vulcoes-rochas-vulcanicas.md",
+    "section": "Tipos de vulcoes (Caldeira)",
+    "quote": "Em LIPs, o sistema e dominado por fissuras, sem edificio central."
+   },
+   "claim": "Em LIPs, o sistema e dominado por fissuras, sem edificio central.",
+   "problem": "[6] Vale para LIPs basalticas; LIPs silicicas (Uatuma, Aulas 04 e 06) tem caldeiras e ignimbritos.",
+   "replacement": "Restrito a LIPs basalticas; SLIPs com caldeiras",
+   "source": {
+    "name": "Bryan 2007 Episodes 30:20-31; Pierosan et al. 2011 An Acad Bras Cienc 83(3)",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-02-ambientes-tectonicos-lips-tipos-de-vulcoes-rochas-vulcanicas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "VUL-M35-A02-EXEMPLO-008",
+   "severity": "orange",
+   "kind": "inconsistencia_interna",
+   "location": {
+    "file": "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-02-ambientes-tectonicos-lips-tipos-de-vulcoes-rochas-vulcanicas.md",
+    "section": "Exemplo trabalhado (situacao e passo 1)",
+    "quote": "vesicular no topo e macico na base; topo vesicular e base macica sao o padrao de um derrame"
+   },
+   "claim": "vesicular no topo e macico na base; topo vesicular e base macica sao o padrao de um derrame",
+   "problem": "[7] Contradiz a Aula 05 (estrutura tripartida com base fina vesicular).",
+   "replacement": "Topo vesicular espesso, nucleo macico, faixa vesicular fina na base",
+   "source": {
+    "name": "Self, Thordarson & Keszthelyi 1997 AGU Mono 100:381-410",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-02-ambientes-tectonicos-lips-tipos-de-vulcoes-rochas-vulcanicas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "VUL-M35-A02-AMBIENTES-001",
+   "severity": "blue",
+   "kind": "evidencia_insuficiente",
+   "location": {
+    "file": "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-02-ambientes-tectonicos-lips-tipos-de-vulcoes-rochas-vulcanicas.md",
+    "section": "Ambiente tectonico como filtro do magma",
+    "quote": "Fernando de Noronha e Trindade exibem vulcanismo alcalino de intraplaca"
+   },
+   "claim": "Fernando de Noronha e Trindade exibem vulcanismo alcalino de intraplaca",
+   "problem": "[8] Confere: series fortemente subsaturadas nefelinito-basanito-fonolito (traquitos em Noronha).",
+   "replacement": "Acrescentada Weaver 1990",
+   "source": {
+    "name": "Weaver 1990 Contrib Mineral Petrol 105:502-515",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-02-ambientes-tectonicos-lips-tipos-de-vulcoes-rochas-vulcanicas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "VUL-M35-A02-UATUMA-005",
+   "severity": "blue",
+   "kind": "evidencia_insuficiente",
+   "location": {
+    "file": "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-02-ambientes-tectonicos-lips-tipos-de-vulcoes-rochas-vulcanicas.md",
+    "section": "Paragrafo do Supergrupo Uatuma; recap",
+    "quote": "que a literatura regional trata como candidata a LIP silicica"
+   },
+   "claim": "que a literatura regional trata como candidata a LIP silicica",
+   "problem": "[9] Confere e mais forte: SLIP de 1,89-1,87 Ga com Iricoume e Iriri (Klein et al. 2012).",
+   "replacement": "Tratada como LIP silicica; Klein et al. 2012",
+   "source": {
+    "name": "Klein, Almeida & Rosa-Costa 2012, LIP of the Month nov 2012 (Large Igneous Provinces Commission)",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-02-ambientes-tectonicos-lips-tipos-de-vulcoes-rochas-vulcanicas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "VUL-M35-A03-EXEMPLOS-RES-007",
+   "severity": "blue",
+   "kind": "evidencia_insuficiente",
+   "location": {
+    "file": "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-03-componentes-texturas-estruturas-litofacies-reservatorios.md",
+    "section": "Reservatorios nao convencionais",
+    "quote": "Songliao ... basaltos fraturados da Formacao Cabiunas ... citados como reservatorio em alguns campos"
+   },
+   "claim": "Songliao ... basaltos fraturados da Formacao Cabiunas ... citados como reservatorio em alguns campos",
+   "problem": "[10] Confere: Fm. Yingcheng, campo de Qingshen (Feng 2008); Cabiunas nos campos de Badejo e Linguado (Marins et al. 2022).",
+   "replacement": "Campos nomeados e fontes acrescentadas",
+   "source": {
+    "name": "Feng 2008 Mar Petrol Geol 25(4):416-432; Marins et al. 2022 Mar Petrol Geol 146:105950",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-03-componentes-texturas-estruturas-litofacies-reservatorios.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "VUL-M35-A04-IRICOUME-005",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-04-vulcanismo-explosivo-calderas-ignimbritos-depositos-vulcanoclasticos.md",
+    "section": "Caldeiras (Brasil)",
+    "quote": "riolitos e ignimbritos paleoproterozoicos, hoje deformados e alterados de forma variavel"
+   },
+   "claim": "riolitos e ignimbritos paleoproterozoicos, hoje deformados e alterados de forma variavel",
+   "problem": "[11] Em Pitinga o Iricoume e bem preservado e nao metamorfisado, com ignimbritos soldados de alto grau e caldeira com falhas anelares.",
+   "replacement": "Caracterizacao corrigida; Pierosan et al. 2011 acrescentado",
+   "source": {
+    "name": "Pierosan et al. 2011 An Acad Bras Cienc 83(3); Ferron et al. 2006 RBG 36:499-512",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-04-vulcanismo-explosivo-calderas-ignimbritos-depositos-vulcanoclasticos.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "VUL-M35-A04-IUGS-006",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-04-vulcanismo-explosivo-calderas-ignimbritos-depositos-vulcanoclasticos.md",
+    "section": "Nomenclatura IUGS, item 1",
+    "quote": "A rocha e piroclastica (a maior parte dos fragmentos e piroclastica)"
+   },
+   "claim": "A rocha e piroclastica (a maior parte dos fragmentos e piroclastica)",
+   "problem": "[12] Schmid 1981: piroclastica > 75% piroclastos; tufito 25-75%; epiclastica < 25%.",
+   "replacement": "Limiares normativos explicitados",
+   "source": {
+    "name": "Schmid 1981 Geology 9:41-43; Le Maitre et al. 2002",
+    "tier": "normative",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-04-vulcanismo-explosivo-calderas-ignimbritos-depositos-vulcanoclasticos.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "VUL-M35-A04-SPATTER-MAAR-007",
+   "severity": "white",
+   "kind": "controversia",
+   "location": {
+    "file": "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-04-vulcanismo-explosivo-calderas-ignimbritos-depositos-vulcanoclasticos.md",
+    "section": "Tabela de depositos, linha Maar",
+    "quote": "diatremas de kimberlito (Modulo 30) sao raizes de tipo maar (White & Ross, 2011)"
+   },
+   "claim": "diatremas de kimberlito (Modulo 30) sao raizes de tipo maar (White & Ross, 2011)",
+   "problem": "[13] Origem debatida (freatomagmatica x fluidizacao por gas); contradizia o Modulo 30, Aula 03.",
+   "replacement": "Debate exposto, alinhado ao Modulo 30",
+   "source": {
+    "name": "White & Ross 2011 JVGR 201:1-29; Sparks et al. 2006 JVGR 155:18-48",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "em_disputa",
+   "affected_files": [
+    "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-04-vulcanismo-explosivo-calderas-ignimbritos-depositos-vulcanoclasticos.md"
+   ],
+   "outcome": "corrigido_com_ressalva",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "VUL-M35-A04-LAHAR-AVALANCHE-008",
+   "severity": "orange",
+   "kind": "omissao_que_gera_erro",
+   "location": {
+    "file": "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-04-vulcanismo-explosivo-calderas-ignimbritos-depositos-vulcanoclasticos.md",
+    "section": "Tabela de depositos (Lahar); Exemplo, passo 3",
+    "quote": "clastos vulcanicos nao vesiculares ...; se houver [juvenis], o nome muda para piroclastico ressedimentado"
+   },
+   "claim": "clastos vulcanicos nao vesiculares ...; se houver [juvenis], o nome muda para piroclastico ressedimentado",
+   "problem": "[14] Lahar se define pelo processo; lahares sin-eruptivos contem pumice; com juvenis continua lahar (material piroclastico ressedimentado).",
+   "replacement": "Criterio corrigido na tabela e no passo 3",
+   "source": {
+    "name": "Vallance & Iverson 2015 in Encyclopedia of Volcanoes 2a ed.; McPhie, Doyle & Allen 1993",
+    "tier": "reference_database",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-04-vulcanismo-explosivo-calderas-ignimbritos-depositos-vulcanoclasticos.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "VUL-M35-A05-KOMATIITO-003",
+   "severity": "white",
+   "kind": "controversia",
+   "location": {
+    "file": "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-05-vulcanismo-mafico-ultramafico-derrames-submarino-mineralizacoes-magmaticas.md",
+    "section": "Lavas ultramaficas: komatiitos",
+    "quote": "Os liquidos eram extremamente quentes, na faixa de ~1500 C e acima"
+   },
+   "claim": "Os liquidos eram extremamente quentes, na faixa de ~1500 C e acima",
+   "problem": "[15] Modelo anidro (~1500-1600 C; Arndt et al. 2008) x hidratado (mais frio; Grove & Parman 2004).",
+   "replacement": "Dois modelos expostos; viscosidade baixa em ambos",
+   "source": {
+    "name": "Arndt, Lesher & Barnes 2008; Grove & Parman 2004 EPSL 219:173-187",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "em_disputa",
+   "affected_files": [
+    "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-05-vulcanismo-mafico-ultramafico-derrames-submarino-mineralizacoes-magmaticas.md"
+   ],
+   "outcome": "corrigido_com_ressalva",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "VUL-M35-A05-SPINIFEX-011",
+   "severity": "yellow",
+   "kind": "desatualizacao",
+   "location": {
+    "file": "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-05-vulcanismo-mafico-ultramafico-derrames-submarino-mineralizacoes-magmaticas.md",
+    "section": "Lavas ultramaficas: komatiitos (spinifex)",
+    "quote": "resultantes de resfriamento rapido em liquido super-resfriado"
+   },
+   "claim": "resultantes de resfriamento rapido em liquido super-resfriado",
+   "problem": "[16] Faure et al. 2006: spinifex cresce com resfriamento lento (1-5 C/h) em gradiente termico forte; resfriamento rapido da cristais aleatorios.",
+   "replacement": "Mecanismo atualizado; leitura de tempera mencionada como superada",
+   "source": {
+    "name": "Faure, Arndt & Libourel 2006 J Petrol 47:1591-1610",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-05-vulcanismo-mafico-ultramafico-derrames-submarino-mineralizacoes-magmaticas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "VUL-M35-A05-SUBMARINO-004",
+   "severity": "orange",
+   "kind": "certeza_indevida",
+   "location": {
+    "file": "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-05-vulcanismo-mafico-ultramafico-derrames-submarino-mineralizacoes-magmaticas.md",
+    "section": "Vulcanismo submarino (Ilhas vulcanicas); recap",
+    "quote": "a explosividade so reaparece em aguas rasas"
+   },
+   "claim": "a explosividade so reaparece em aguas rasas",
+   "problem": "[17] Piroclastos a ~4000 m no vale axial da Dorsal de Gakkel (Sohn et al. 2008); pressao reduz mas nao impede.",
+   "replacement": "Regra reescrita como tendencia, com a excecao documentada",
+   "source": {
+    "name": "Sohn et al. 2008 Nature 453:1236-1238",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-05-vulcanismo-mafico-ultramafico-derrames-submarino-mineralizacoes-magmaticas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "VUL-M35-A05-KOMATIITO-NI-007",
+   "severity": "blue",
+   "kind": "evidencia_insuficiente",
+   "location": {
+    "file": "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-05-vulcanismo-mafico-ultramafico-derrames-submarino-mineralizacoes-magmaticas.md",
+    "section": "Mineralizacoes magmaticas (Komatiito)",
+    "quote": "Fortaleza de Minas ... descrito na literatura como Ni-Cu-EGP em rochas komatiiticas ..., embora sua interpretacao seja debatida"
+   },
+   "claim": "Fortaleza de Minas ... descrito na literatura como Ni-Cu-EGP em rochas komatiiticas ..., embora sua interpretacao seja debatida",
+   "problem": "[18] Confere: antigo O'Toole, greenstone belt Morro do Ferro (Brenner et al. 1990); remobilizacao hidrotermal (Almeida et al. 2007).",
+   "replacement": "Fontes e motivo do debate acrescentados",
+   "source": {
+    "name": "Brenner et al. 1990 Econ Geol 85:904-920; Almeida, Olivo & Carvalho 2007 Can Mineral 45:751-773",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-05-vulcanismo-mafico-ultramafico-derrames-submarino-mineralizacoes-magmaticas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "VUL-M35-A06-ARGILICA-002",
+   "severity": "orange",
+   "kind": "inconsistencia_interna",
+   "location": {
+    "file": "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-06-alteracao-hidrotermal-sistemas-vulcanicos-geotermal-vhms-epitermais-porfiros.md",
+    "section": "Uma armadilha de leitura; Exemplo trabalhado passo 1",
+    "quote": "alimentado pelo H2S de um sistema de baixa sulfetacao abaixo ... pode ate indicar um LS mais profundo; indica um sistema LS ou geotermal abaixo"
+   },
+   "claim": "alimentado pelo H2S de um sistema de baixa sulfetacao abaixo ... pode ate indicar um LS mais profundo; indica um sistema LS ou geotermal abaixo",
+   "problem": "[19] Em area de arco conclui LS, contrariando o Modulo 34 (HS+IS em arcos; LS em riftes bimodais). Manto de vapor = fluido quase neutro em ebulicao abaixo.",
+   "replacement": "Fluido quase neutro em ebulicao (LS em riftes; IS ou geotermal em arcos)",
+   "source": {
+    "name": "Sillitoe 1993 GAC SP40:403-417; Hedenquist et al. 2000 Rev Econ Geol 13:245-277; Sillitoe & Hedenquist 2003 SEG SP10:315-343",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-06-alteracao-hidrotermal-sistemas-vulcanicos-geotermal-vhms-epitermais-porfiros.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "VUL-M35-A06-GEOTERMAL-001",
+   "severity": "orange",
+   "kind": "omissao_que_gera_erro",
+   "location": {
+    "file": "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-06-alteracao-hidrotermal-sistemas-vulcanicos-geotermal-vhms-epitermais-porfiros.md",
+    "section": "O campo geotermal como epitermal ativo",
+    "quote": "Tres familias de aguas aparecem na superficie"
+   },
+   "claim": "Tres familias de aguas aparecem na superficie",
+   "problem": "[20] Classificacao Cl-SO4-HCO3 inclui aguas bicarbonatadas; as tres nao sao exaustivas.",
+   "replacement": "Ressalva das aguas bicarbonatadas",
+   "source": {
+    "name": "Giggenbach 1991 UNITAR/UNDP 119-144; Henley & Ellis 1983 Earth-Sci Rev 19:1-50",
+    "tier": "reference_database",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-06-alteracao-hidrotermal-sistemas-vulcanicos-geotermal-vhms-epitermais-porfiros.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "VUL-M35-A06-BATALHA-SERRINHA-006",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-06-alteracao-hidrotermal-sistemas-vulcanicos-geotermal-vhms-epitermais-porfiros.md",
+    "section": "Fontes",
+    "quote": "The Batalha Au-granite system, Tapajos Province, southern Amazonian Craton, Brazil"
+   },
+   "claim": "The Batalha Au-granite system, Tapajos Province, southern Amazonian Craton, Brazil",
+   "problem": "[21] Titulo publicado: The Batalha Au-granite system - Tapajos Gold Province, Amazonian craton, Brazil: hydrothermal alteration and regional implications.",
+   "replacement": "Titulo corrigido; aviso dos metadados retirado",
+   "source": {
+    "name": "Juliani et al. 2002 Precambrian Res 119:225-256",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-aula-06-alteracao-hidrotermal-sistemas-vulcanicos-geotermal-vhms-epitermais-porfiros.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  }
+ ],
+ "verified_claims": [
+  {
+   "claim_id": "VUL-M35-A01-GERACAO-001",
+   "claim": "Três mecanismos de fusão parcial (descompressão, fluxo de fluidos, aquecimento); líquido sempre parcial",
+   "source": "McKenzie & Bickle 1988, *J. Petrol.* 29:625-679; Grove, Till & Krawczynski 2012, *AREPS* 40:413-439",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A01-VISCOSIDADE-003",
+   "claim": "Quatro controles; basalto ~1200 °C 10–10³ Pa·s; riolito hidratado ~800 °C 10⁵–10⁸ Pa·s; riolito seco maior [ordens de grandeza]",
+   "source": "Giordano, Russell & Dingwell 2008, *EPSL* 271:123-134",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A01-AGUA-004",
+   "claim": "Água dissolvida **reduz** a viscosidade; a perda de água a aumenta e pode cristalizar [sem inversão]",
+   "source": "Giordano et al. 2008",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A01-SOLUBILIDADE-005",
+   "claim": "~4% H₂O em riolito a ~100 MPa (~4 km); queda de pressão → supersaturação",
+   "source": "Newman & Lowenstern 2002, *Comput. Geosci.* 28:597-604",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A01-FRAGMENTACAO-006",
+   "claim": "Estilo = taxa de subida × desgaseificação; limiar ~70–80% de vesículas (aproximado) ou de taxa de deformação; domo por subida lenta; basalto explosivo por subida rápida [limiar marcado como aproximado]",
+   "source": "Sparks 1978, *JVGR* 3:1-37 (~75%); Eichelberger et al. 1986, *Nature* 323:598-602; Gonnermann & Manga 2007, *Annu. Rev. Fluid Mech.* 39:321-356",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A01-EXEMPLO-007",
+   "claim": "Exemplo hipotético basalto × dacito",
+   "source": "—",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A02-LIP-DEFINICAO-002",
+   "claim": "Critérios de Bryan & Ernst (0,1 Mkm², 0,1 Mkm³, ≤ ~50 Ma, intraplaca, pulsos de 1–5 Ma com > 75%)",
+   "source": "Bryan & Ernst 2008, *Earth-Sci. Rev.* 86:175-202; Bryan 2007",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A02-SUBVULCANICO-007",
+   "claim": "Diques, *sills*, *necks*, *plugs*; diabásio; pórfiros subvulcânicos",
+   "source": "Cas & Wright 1987; Sillitoe 2010",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A03-FACIES-001",
+   "claim": "Coerente × vulcanoclástica; quatro processos; origem ≠ granulometria",
+   "source": "Fisher 1961, *GSA Bull.* 72:1409-1414; McPhie et al. 1993 (hialoclastito às vezes agrupado com autoclástico, sem conflito)",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A03-COMPONENTES-002",
+   "claim": "Juvenis, cristais, líticos; cinza < 2, lapilli 2–64, blocos/bombas > 64 mm",
+   "source": "Fisher & Schmincke 1984; Schmid 1981",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A03-TEXTURAS-003",
+   "claim": "Vítrea, vesicular, amigdaloidal, perlítica, esferulítica (primária ou de devitrificação), *lithophysae*",
+   "source": "McPhie et al. 1993; Breitkreuz 2013, *Bull. Volcanol.* 75:705",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A03-ANTIGAS-004",
+   "claim": "Vidro substituído; textura fantasma",
+   "source": "McPhie et al. 1993",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A03-ESTRUTURAS-005",
+   "claim": "Disjunção colunar, bandamento, autobrechas, vesículas alongadas",
+   "source": "Cas & Wright 1987",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A03-RESERVATORIOS-006",
+   "claim": "Porosidade de vesículas, fraturas, brechas e dissolução; controle por fácies; *sills* e maturação",
+   "source": "Sruoga & Rubinstein 2007, *AAPG Bull.* 91:115-129; Schutter 2003, GSL SP 214:7-33",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A03-EXEMPLO-008",
+   "claim": "Exemplo hipotético de ignimbrito soldado metamorfisado",
+   "source": "—",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A04-QUEDA-PDC-001",
+   "claim": "Coluna pliniana e queda; colapso → PDC contínua",
+   "source": "Walker 1973, *Geol. Rundsch.* 62:431-446; Branney & Kokelaar 2002, GSL Mem. 27",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A04-FLUXO-SURGE-002",
+   "claim": "Fluxo × *surge*; agradação progressiva",
+   "source": "Branney & Kokelaar 1992, *Bull. Volcanol.* 54:504-520; 2002",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A04-IGNIMBRITO-003",
+   "claim": "Ignimbrito, soldagem acima da transição vítrea, fiamme, eutaxítica, reomorfismo, zonação da unidade de resfriamento",
+   "source": "Smith 1960, *GSA Bull.* 71:795-842; Branney & Kokelaar 1992",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A04-CALDEIRA-004",
+   "claim": "Colapso em falhas anelares; intracaldeira × *outflow*; ressurgência; VEI 8 > 1000 km³ (Toba, Yellowstone)",
+   "source": "Lipman 1997, *Bull. Volcanol.* 59:198-218; Cole et al. 2005, *Earth-Sci. Rev.* 69:1-26; Newhall & Self 1982, *JGR* 87:1231-1238",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A04-EXEMPLO-009",
+   "claim": "Exemplo hipotético de três depósitos [passo 3 ajustado pelo achado 14]",
+   "source": "—",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A05-DERRAMES-001",
+   "claim": "*Pahoehoe*, *aa*, blocos; transição *pahoehoe* → *aa*",
+   "source": "Peterson & Tilling 1980, *JVGR* 7:271-293",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A05-CFB-002",
+   "claim": "*Pahoehoe* inflado; estrutura tripartida",
+   "source": "Self, Thordarson & Keszthelyi 1997",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A05-SULFETO-005",
+   "claim": "Saturação em S, líquido imiscível, gatilhos",
+   "source": "Naldrett 2004; Barnes & Lightfoot 2005",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A05-FATOR-R-006",
+   "claim": "Y = X·D·(R+1)/(R+D); EGP exigem R alto",
+   "source": "Campbell & Naldrett 1979, *Econ. Geol.* 74:1503-1506",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A05-NORILSK-008",
+   "claim": "Noril'sk-Talnakh em intrusões, não nos derrames",
+   "source": "Naldrett 2004; Barnes & Lightfoot 2005",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A05-GEODOS-009",
+   "claim": "Ametista e ágata por abertura e preenchimento sequencial de cavidades, a baixa temperatura, depois do derrame [a fonte do fluido é debatida — salmouras de baixa T, Gilg et al. 2014 — mas a aula não afirma fonte]",
+   "source": "Hartmann et al. 2012, *Int. Geol. Rev.* 54:1-14 (título conferido; preenchimento a 30–150 °C)",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A05-EXEMPLO-010",
+   "claim": "Exemplo hipotético de canal komatiítico",
+   "source": "—",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A06-VHMS-003",
+   "claim": "Tipo Chipre máfico Cu-Zn; retroarco bimodal-félsico Zn-Pb-Ag-Au; Manus; Kuroko",
+   "source": "Franklin et al. 2005; Hannington et al. 2005; Binns & Scott 1993, *Econ. Geol.* 88:2226-2236",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A06-RARIDADE-004",
+   "claim": "Epitermais antigos raros por erosão",
+   "source": "Simmons et al. 2005; Sillitoe & Hedenquist 2003",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A06-TAPAJOS-005",
+   "claim": "HS paleoproterozoica com alunita Ar-Ar, caldeiras aninhadas; Iriri como parte do magmatismo Uatumã",
+   "source": "Juliani et al. 2005, *Chem. Geol.* 215:95-125 (Módulo 34); Klein et al. 2012",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A06-CHAPADA-007",
+   "claim": "Chapada = pórfiro Cu-Au neoproterozoico metamorfisado",
+   "source": "Oliveira et al. 2016 (Módulo 34, Aula 09)",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "VUL-M35-A06-EXEMPLO-008",
+   "claim": "Exemplo hipotético manto de vapor × HS enraizada [passo 1 ajustado pelo achado 19]",
+   "source": "—",
+   "confidence": "confirmado"
+  }
+ ]
+}

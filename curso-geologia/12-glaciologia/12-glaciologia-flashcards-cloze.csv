@@ -1,0 +1,6 @@
+id;texto;extra;tags;objetivo;aula;dificuldade;fonte
+geologia-m12-fc001;"O balanço de massa é a diferença entre {{c1::acumulação}} e {{c2::ablação}}.";"Ganho e perda de gelo.";"geologia::glaciologia";"geologia-m12-oa01";"geologia-m12-a01";"facil";"USGS"
+geologia-m12-fc002;"O gelo pode fluir por {{c1::deformação interna}} e {{c2::deslizamento basal}}.";"Os mecanismos podem coexistir.";"geologia::glaciologia";"geologia-m12-oa02";"geologia-m12-a02";"medio";"USGS"
+geologia-m12-fc003;"Sedimento depositado diretamente pelo gelo chama-se {{c1::till}}.";"Em geral, mal selecionado.";"geologia::glaciologia";"geologia-m12-oa03";"geologia-m12-a03";"facil";"USGS"
+geologia-m12-fc004;"Um {{c1::diamictito}} descreve textura e não demonstra sozinho origem glacial.";"Contexto é necessário.";"geologia::glaciologia";"geologia-m12-oa04";"geologia-m12-a04";"medio";"USGS"
+geologia-m12-fc005;"A perda de {{c1::gelo terrestre}} contribui diretamente para elevar o nível global do mar.";"Diferencie de gelo marinho flutuante.";"geologia::glaciologia";"geologia-m12-oa05";"geologia-m12-a05";"facil";"NASA"

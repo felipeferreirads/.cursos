@@ -1,0 +1,676 @@
+# Ep32 - Mass Wasting Basics.txt
+Video ID: YBfrIB1WVPA
+Lang: en
+URL: https://www.youtube.com/watch?v=YBfrIB1WVPA
+
+---
+
+Hi there and welcome to another video in
+the physical geology geology 101 video
+series. I'm geology professor Shawn
+Wily. Thanks for joining me today. In
+episode 32, we're going to look at some
+of the basics that govern a really
+important process and that is mass
+wasting. A process that affects humans
+uh all the time in a variety of
+locations. In our subsequent episode 33,
+we'll look at the exact types of mass
+wasting uh processes that are involved.
+Um, this geology 101 video series is
+modeled after the classes I teach here
+at the college. No tuition required. It
+is the same curriculum, the same content
+that I cover. Uh, the only thing you're
+missing here are some of the field trips
+and labs, but you can probably
+supplement a lot of that by looking at
+some of my other videos. And I'll put
+some videos in the description that go
+along with this topic. Um, okay. So,
+let's go ahead and get started. So, mass
+wasting is often what you would, I
+guess, commonly call uh landslides.
+Although, as we're going to see, there's
+a lot of different types of ways in
+which slopes can fail and move.
+Different speeds involved. And so, it's
+a little bit more um involved than just
+calling everything a landslide. So, what
+we're looking at here is um the downhill
+movement of various earth materials due
+to gravity. Basically, when slopes fail,
+that's what mass wasting is. We're going
+to see this can occur in a variety of
+settings. Steep slopes, gentle slopes,
+um dry climates, wet climates. It's an
+important process in the grand scheme of
+erosion of transporting uh material. And
+again, it can be fast or slow. There's
+some that happen almost instantaneously
+within a few seconds at the most and
+some which can take years to sort of
+culminate. So, we got a little eye candy
+there with a um a really nasty mass
+wasting uh event there in Bolivia in
+2011. Let's look at some of the the
+basics here though regarding mass
+wasting. Of course, it's all driven by
+gravity. And so gravity is this
+universal constant and this is what
+actually causes slopes to fail. Now
+looking at it from sort of a a physics
+point of view, uh if we look at just a
+block here on an inclined plane on a
+ramp, we actually have um the force of
+gravity, this red area, red arrow here,
+this vector is really just the two
+components. It is what we call the the
+shear stress or what we might call the
+driving force here. So the driving force
+or the shear force and then this other
+force here the normal force is the
+resisting force. And basically it's a
+balancing act between um the material
+moving or staying in place. And
+depending on some of the the factors
+here and how strong these vectors are
+that'll sort of dictate whether the
+slope stays in place or whether it
+actually moves. We sometimes call the
+relationship between the sheer force and
+the normal force or the um resisting
+force. We sometimes call that sheer
+stress or shear strength. Um, so you
+could sometimes talk about the sheer
+strength of a of a soil or a slope at
+any given location. Notice here on these
+diagrams that as we increase the slope
+angle from left to right, look what
+happens to our vectors to our arrows
+here. The the force of gravity um stays
+the same, but the different forces
+involved. the the sheer force or the
+driving force uh becomes longer and more
+pronounced as the slope angle increases
+and the normal force or the resisting
+force um gets shorter as the angle is
+increased. So there's this constant
+balancing act here that's going on with
+any given slope. Even though it's it's
+it's uh every given slope, but even
+though it's angle might may not be
+changing, um some of these other factors
+are changing a little bit. And so to
+explore that in a little bit more
+detail, uh let's head down the hall to
+the classroom for a little
+demonstration. We'll do a little quiz
+along with it and learn more about slope
+angle and slope
+stability. All righty. So, we've moved
+down the hallway to the classroom and
+we're going to explore this concept of
+slope angle and the role that water
+plays in slope stability with a little
+demonstration here and also a bit of a
+quiz for you to handle. So, what I have
+here is an old uh cookie sheet and in my
+beaker here I have a uh container a
+beaker full of dry loose sand. And what
+we're going to do is pour out this dry
+loose sand on the cookie sheet. As I do
+so, I will attempt as best I can to
+operate the camera and also pour the the
+sand out in a nice steady consistent
+manner and in the same location. So, as
+we do this with the dry loose sand, what
+I'd like you to do as part of your
+little quiz here is to make a prediction
+about which of these three
+um cross-sections you think best
+demonstrates the pile of sand that will
+I will end up with. Will it look like A,
+which is a much steeper pile of sand?
+Will it look like B, a little bit more
+moderate? or will that pile of sand look
+a little bit like sea? So, those are
+your three options. So, go ahead and
+think about that and consider it and
+then let's go ahead and get right to it.
+So, I'm going to try to do this while
+operating the camera. So, what we're
+going to do here is pour the sand out.
+trying to like basically what I'm trying
+to do here is pour the sand out such
+that in a nice slow controlled manner
+such that I get all the sand grains on
+top. I'm trying to get every sand grain
+to go to the tippy top. Now I'm going to
+pour out a little bit quicker here and a
+little faster. Just pretend this is like
+time lapse and sped up a little
+bit. And what we can see here is if we
+kind of come and look at it in
+cross-section view. Hopefully you can
+see that there. It looks a lot like um
+option B on our handout. So with this
+maybe more moderate angle here, this is
+maybe a a 25 maybe 30 degree angle or
+so. And I contend that no matter how big
+the pile of sand is, if I had a dump
+truck just, you know, dropping a bunch
+of sand in my classroom here, that that
+angle, that cross-sectional angle for
+the sand would be the same regardless of
+the size. So that's what dry loose sand
+looks like. But let's go a little
+further. Can we get the sand to look
+A or anything like
+C? Think about what we might do there.
+So for A, a lot of times my students are
+like, "Hey, you got to add some water to
+it." And so let's go ahead and do that.
+Let's grab our our beaker of sand here,
+come over to the sink, get the water
+going, and there you go. Oh, I've added
+water. This is where the students say,
+"Oh, no, you got to add more water than
+that." And luckily for the students, uh,
+I am an expert. I took a class in water
+sand
+relations, ratios. Just kidding. That's
+a bit of a lie. And so, what I'm doing
+here is I'm adding sand. We're watching
+the sand kind of uh, percolate down to
+the bottom of the beaker. So, the water
+is infiltrating the sand vertically.
+It's finding the pore space. Um, it's
+working its way down under the influence
+of gravity, filling in all the available
+pore space. What I'm trying to do here
+is get the sand
+wet, but not too wet. And we'll look at
+how that might uh play a difference
+here. So, it looks like we pretty well
+just about might need to tap it a little
+bit there. Yeah, it looks like all the
+sand is pretty well wet at this point.
+And now what I'll try to do, this might
+be where I need to have three hands
+here. Um, let's see if we can get this
+oriented just right. I might need to
+pause it here and get this oriented. So,
+hang
+on. Okay, so I think I've got this
+situated. We've got our nice pile of dry
+sand, but what we're trying to do is see
+if we can make our sand pile up to a
+much steeper angle. Basically, what we
+saw in a that very steep pile. So, we've
+added water to the beaker um and to the
+sand here. And so, let's see if we can
+get that
+here. Tada. Oh, is that going to
+collapse? Hopefully not. So, there you
+have it. There's like a nice little pile
+uh of sand. Try to look at it from the
+side view. Maybe you've done this before
+playing with sand as a kid or something
+like that. And again, this is just like
+sand castles, right? So this is the idea
+that if we have water here, it actually
+acts as a cohesive agent and it binds
+and holds the tiny grains of sand
+together. So we all know making a sand
+castle, you know, you're looking for a
+certain amount of water um with the sand
+in terms of how you mix it. If you have
+too much water, you might end up not
+being able to achieve this. But this is
+like the perfect or pretty close to the
+perfect ratio of water to sand that
+allows the sand to maintain a much
+steeper angle. And so let's see if we
+can to kind of round this out. Let's see
+if we can also achieve C here. So what
+we might
+do is um let's see here. Let's take our
+sand. Just kind of mash it up here.
+Let's take the rest of
+this. Get this out. Science is
+messy. Okay, so there's the rest of our
+sand. Okay, so we piled up all our sand.
+I'm going to go ahead and turn
+this cookie sheet around and actually
+put it here on a slope. So now I've
+actually added the cookie sheets at an
+angle. the water is in the sand, but
+it's actually acting more as a cohesive
+um glue that's holding the particles
+together. So then what we'll do to make
+this fun and engaging for our student
+audience is we'll pretend this is like a
+real slope uh and we'll put a few little
+Monopoly houses up on the hill. And now
+if this is the situation, maybe this is
+stable for some period of time. Um, but
+of course, uh, one of the big factors
+that that drives mass wasting is the
+amount of water in a slope. So, we'll go
+ahead and add some water. So, notice as
+we add water to the slope, no water is
+coming down the cookie sheet. It's all
+still being absorbed by the sand. The
+sand is able to
+uh hold that water because there's still
+available pore space. So, let's just
+keep going with the water up here on the
+slope. We might add quite a bit of
+water. There's still quite a bit of
+available pore space in here. But
+eventually, at some point, what we're
+going to see here is at some point we're
+going to reach a level of saturation.
+Basically, there is no more uh pore
+space for the water to go into. And of
+course, that's when we see the water
+pushing aside the sand grains. And now
+the material is actually flowing and is
+destabilized. And so we end up with a
+very low angle of repose. Obviously I've
+inclined this on the cookie sheet, but
+we could have achieve achieved the same
+thing if I'd kept that cookie sheet
+level. And now we can say that you can
+get this kind of geometry to the pile of
+sand if it's completely saturated. So
+again, to review, we started with a dry
+pile of sand with an angle maybe about
+25 to 30°. When we added a little bit of
+water, a certain amount of water, the
+water was able to bind the particles
+together, forming a lot of cohesion and
+allow us to achieve much steeper angles
+to our pile of sand. But finally, when
+we added too much water, the water
+pushed the grains apart, was no longer
+acting as a cohesive um entity, and so
+it actually separates the grains and
+creates a very low angle such as we see
+here. And now we have a big mess of sand
+on our cookie sheet there. So, pretty
+sweet stuff. So, uh that's our little
+classroom demonstration. Let's head back
+to the
+lecture. Okay. So, we've learned a
+little bit through our demonstration
+about slope angle. Basically, as slopes
+become steeper, they tend to become more
+unstable. Just as a general rule, the
+language we use regarding slopes in
+terms of how steep they can become
+before material starts to move or slide,
+that's something we call the angle of
+repose. Uh, and it varies depending on
+the sediment sizes. Also, depending on
+the shape of the grains in that sediment
+or that soil and in general as the as
+the size of the particles gets larger,
+we see that the angle of repose
+increases a little bit as well. Um, as
+the sediment or material becomes more
+angular in terms of its shape, you can
+also achieve higher angles of repose as
+well. And that's because those particles
+have those little angles and sharp
+corners that can grab and add a little
+bit more friction. And so if you've ever
+been past like a sand and gravel plant,
+you might have seen something like this,
+a conveyor belt uh just carrying the
+aggregate or the sediment up to the top
+and then getting piled there. And as it
+piles more and more up on top,
+eventually it slides or cascades down
+the side. So if we measure the angle
+there of that pile, that would give us
+the angle of repose for that material.
+Let's look at some other factors that
+govern uh slopes as well. We've seen the
+role of water a little bit, but just to
+kind of put a fine point on it, um we
+know that a slightly uh a slight amount
+of water or in in sediment will allow it
+to be cohesive. So water actually acts
+as a bit of a glue or cohesive material
+holding the particles together um in
+small quantities. But when we add more
+water that water then is forced into the
+pore spaces between the particles
+separating them and then we lose all our
+cohesive um our cohesive properties.
+Then the material basically flows. Uh
+it's not no longer able to maintain any
+sort of uh structural stability. And so
+that's what happens when we get too much
+water in our sediment. Some other
+effects related to water. Water is
+heavy. Water adds a lot of weight to the
+slope, which can be an important factor
+when we're looking at slope stability.
+Uh certain materials like clay actually
+expand when they're wet. And so they
+actually can decrease slope stability to
+some degree. And then depending on the
+type of rocks you have and some of the
+chemical properties of the water, we
+also know looking at the one of our
+previous episodes on chemical weathering
+that you can actually dissolve some
+rocks as well. And so you can actually
+cause rocks to chemically weather
+depending on some of the exact
+properties there. Some of the other
+factors that govern slope stability
+involve vegetation. So vegetation um
+typically native vegetation acts as a
+good slope stability agent. It will keep
+uh the the water will be absorbed. Uh
+the canopy of trees and leaves or the
+canopy of leaves and branches will act
+as a way to dissipate water that's
+falling out of the sky. So it it
+decreases the erosional energy of that
+material. Of course, when we lose the
+vegetation, maybe in a big wildfire or
+something like that, or maybe just
+stripping, you know, deforestation, any
+sort of activity that removes
+vegetation, um we set the stage
+typically for enhanced slope
+instability. Now, that vegetation's no
+longer to help with um absorbing the
+water and keeping the slope more stable.
+And so there's a host of reasons why uh
+keeping vegetation on on slopes is
+generally a good idea. But for reasons
+both u natural and sort of human-caused,
+sometimes that's not the case or at
+least not possible. Um other things that
+are important are just the types of
+materials you have, the actual material
+making up the slope itself. Um usually
+if it's loose material like loose
+sediment, it's typically weaker than
+consolidated material like solid rocks.
+Um although you can have fractures in
+rocks or uh pre-existing weak layers in
+rocks like bedding and sedimentary rocks
+or foliation the layering we see in
+metamorphic rocks and those structural
+weaknesses can um act to cause the slope
+to become less stable even in solid
+rocks. Uh, one of the things here with
+clay materials as we've talked about is
+it becomes quite um it loses a lot of
+its sheer strength when it can become
+saturated and it can flow um and cause
+mass wasting events kind of like the one
+shown here. In other places where we
+have rocks, we might look at actually
+the orientation of the rocks. Turns out
+that the how those rocks are oriented
+can play a big role in determining how
+stable slopes are. We particularly are
+aware of and a little bit uh wary of
+something called a dip slope. So if we
+have layered rocks, these could either
+be sedimentary rocks or these could be
+foliated metamorphic rocks. Even in
+rocks like granite, you might get uh
+fractures running through the rocks. And
+if any of these planer fabrics like
+bedding or foliation or fractures is
+more or less parallel to the slope, that
+sets up what we call a dip slope. And
+these are often sites or can be sites at
+least where slopes instability occurs
+and slopes tend to fail. This slope over
+here to the left of the person is not a
+dip slope because the slope angle which
+kind of comes off here to the left is
+not parallel to the dip of the layers
+here. But this uh slope here kind of
+shown in this olive green just to the
+right of the person is a dip slope. And
+then we go up the ridge here. But this
+is not a dip slope. So, we'd expect this
+this slope here to potentially be
+problematic depending on specific things
+about the climate, what the rock layers
+are made out of, and some other factors.
+But, this would be something to be a
+little bit concerned about if you're
+ever looking at property or any sort of
+location that's on a dip slope. And then
+up here, uh this is from the Canadian
+Rockies, but you can see these layers
+dipping to the right here. So, this
+slope uh on that side of the mountain
+would also be a dip slope. And there's a
+good example of a dip slope failure from
+uh northwestern Wyoming just near
+Jackson Hole in the Tetons. This
+happened in 1925 and it's called the
+Groant slide. And what we had here
+geologically was a bed of sandstone
+sitting over uh basically a shale.
+Shales are clay rich. And during a
+really uh wet uh spring after a heavy
+snowpack that's completely saturated the
+sandstone. And so the water percolated
+down through the sandstone through those
+pore spaces, but when it hit that bed of
+shale or clay was no longer able to move
+down because clay is very impermeable.
+So that water basically saturated that
+contact between the sandstone and the
+shale or clay there caused it to lose a
+lot of its sheer strength and it slid
+down. that whole chunk of sandstone on
+the hillside slid down into the valley,
+damned up the Groant River and created a
+lake, the Grant Lake, which still exists
+today. So that slide material um is
+still there damning up the lake. And
+what that looks like today, you can
+still see the scar on the mountain, even
+though that's a good hundred years or so
+old. You can see the difference in the
+color of the trees. Uh the old growth
+trees are darker green. These newer
+trees that have grown on top of the
+landslide here are lighter green, but
+there's the lake. There's the big scar
+up on the hillside. So, we've looked at
+some of the factors that govern uh mass
+wasting. And let's round up this episode
+by looking at different triggers. What
+are some things either natural or human
+cause that actually cause slopes to
+fail? Uh the photo here is actually from
+2006. This is down in northern Utah. You
+can see the damage to the home here. Um,
+this was when a slope uh located
+adjacent to the property became
+completely saturated, mobilized, moved
+down the hill, moved out across the
+flats, ran into the house. The house
+actually has a basement and window
+wells, and this slurry of muddy debris
+went down into the window well. Um, and
+there was a four-year-old girl that that
+muddy debris sort of uh slammed against
+the wall and she ended up uh breaking
+her femur and having some other minor
+injuries. Just to show you some of the
+impact and some of the hazards
+associated with mass wasting. So,
+usually heavy rainfall or snowfall is
+probably one of the most common
+triggers. Basically adding more water
+and completely saturating the the
+sediment within a slope. it not only
+adds um the water not only adds weight
+to the slope but it reduces the sheer
+strength of that slope. Volcanic
+eruptions can be part of the equation at
+times either erupting and adding ash or
+having a volcanic landscape uh coated in
+ash which is very uh easily mobilized
+during mass wasting events. Um so that's
+part of the equation. At times,
+earthquakes can cause shaking that can
+destabilize slopes and cause them to
+lose um their stability and fail and
+move. Uh and then the last one, the one
+we've talked about here, of course, is
+wildfires. Removing that vegetation,
+removing uh all the benefits that
+vegetation produces in enhancing slope
+stability. Once that's gone, we
+sometimes see um mass wasting events
+that are pretty um rampant in those
+areas. So, these are just some natural
+triggers, by no means all-incclusive,
+but just some food for thought. Let's
+turn now to uh human cause triggers.
+What are some things that we do in our
+world uh on the landscape that can
+enhance or possibly cause mass wasting
+events to occur? Well, one thing we do
+when we build roads, and this isn't uh
+universal, but it's pretty common in a
+lot of locations, is when we have a
+slope and we need to put a roadway uh
+maybe up and down a canyon or something
+like that. What we tend to do is we cut
+into the slope uh in order to create a
+level surface for the roadway and then
+we take some of that material that's
+been removed. We dump it over here on
+the downhill side um and then we compact
+that material and put the roadway there.
+And this is a process known as cut and
+fill. We cut into the slope and we take
+that fill, that material that's been
+removed, and we add it here. And by
+don't get me wrong, I'm not saying that
+these um engineering methods or
+construction methods are 100% doomed to
+failure. I'm just saying that there's
+some inherent flaws and there's some
+things to consider and we sometimes do
+see mass wasting events uh in these
+locations because these areas have been
+disturbed in this manner. Notice that
+locally by cutting into the slope, we've
+changed the natural angle of repose. The
+natural angle of repose came down like
+this. we just cut into it creating a
+steeper angle in this location. The
+other thing we're not quite sure of and
+that can be questionable at times is how
+well this this removed material now is
+connected to the underlying material.
+How, you know, what what level of
+adherence is going on to those two
+different types of material. Um, so road
+building and road construction can be a
+trigger for mass wasting at times. Uh we
+talked about the removal of native
+vegetation. Maybe not a wildfire though,
+which which you know by the by its name
+implies that it's naturally occurring,
+but maybe um deforestation, clear, you
+know, clear cutting an area, clearing
+out a swath of land maybe for a a
+subdivision or something like that. And
+we go sometimes and put in grass or
+maybe we plant non-native vegetation
+that demands higher amounts of water.
+And by doing so, we change the equation
+and we change some of the dynamics
+involved with that slope. And when we
+build buildings, we often use a similar
+method to this for building
+construction, cut and fill. So in this
+case, uh maybe someone buys some
+property on a hillside, they want to put
+their house there. So we cut and remove
+some portion of the existing slope
+material. We possibly rather than you
+know uh trucking that material out which
+is costly and you got to have a place to
+put it. We just keep it on site uh and
+put it down here on the downhill portion
+of the slope. There is the fill and now
+we have a little bit bigger pad in which
+to build our home. And again, don't get
+me wrong, I'm not saying that every
+house built like this is doomed to utter
+failure and collapse. I'm just saying
+there's some inherent um design issues
+and some considerations to look at when
+this kind of uh technique is employed.
+So some other considerations here as
+we've um cut and with this cut and fill
+method related to homes or buildings um
+if we have a situation where the water
+table is high maybe as they're cutting
+down into make the pad here they
+intersect the water table and there's a
+little spring and maybe the homeowner's
+excited that it will be you know nice
+little water feature on their property.
+Um, but remember that water table is
+telling us that everything below that
+point, all this material down here is
+saturated. All the available pore spaces
+in these rocks or in these sediments is
+completely filled by water. And so that
+would be something that I would
+definitely um consider and want to look
+at in a little bit more detail before uh
+I I pulled the trigger on either
+building this home or potentially buying
+this home. So, we've got the seeper cut.
+We've got the water table, the fill. Um,
+in this case, I've chose chosen to give
+the person a nice little lawn, which
+will mean that they need to pump water
+onto the property to grow their grass
+most likely, depending on where they are
+in the world. And that will add more
+water to the slope and more weight to
+the slope. The house itself introduces
+uh more weight. And so again, these cut
+and fill methods of construction just
+need to also um involve some engineering
+considerations or just looking at the
+slope in a little bit more detail
+because every time you do this, you are
+increasing uh the risk of some sort of
+mass wasting event taking place taking
+place. So that's our episode for this
+time. In our next episode, we'll look at
+different mass wasting features. We'll
+learn to classify mass wasting features
+based on how they move, what types of
+material they move, and then we'll do a
+little quiz to round out that section.
+But thank you for your support of the
+channel. Hope you've enjoyed this video
+and this series, and we'll see you next
+time. Take care.

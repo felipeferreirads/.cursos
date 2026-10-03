@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "27-fisica-geociencias",
+    "module_id": "27",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-19",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 0,
+    "yellow": 0,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 29
+  },
+  "findings": [],
+  "verified_claims": [
+    {
+      "claim_id": "GEO-M27-A01-GRANDEZA-UNIDADE-001",
+      "claim": "Uma grandeza física é medida por comparação com uma unidade padrão; grandezas de dimensões diferentes (ex.: comprimento e massa) não podem ser somadas entre si.",
+      "source": "física geral básica; SI (BIPM)",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-01-grandezas-unidades-e-medida.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A01-INCERTEZA-002",
+      "claim": "Toda medida experimental carrega uma incerteza associada à resolução do instrumento, convencionalmente reportada como valor ± incerteza.",
+      "source": "física geral básica; prática de metrologia",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-01-grandezas-unidades-e-medida.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A01-PRECISAO-EXATIDAO-003",
+      "claim": "Precisão (consistência entre medidas repetidas) e exatidão (proximidade do valor verdadeiro) são conceitos independentes.",
+      "source": "física geral básica; metrologia",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-01-grandezas-unidades-e-medida.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A01-SIGFIG-004",
+      "claim": "O número de algarismos significativos de uma medida deve refletir a resolução real do instrumento usado; reportar mais dígitos do que o instrumento sustenta constitui falsa precisão.",
+      "source": "física geral básica; convenções de notação científica",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-01-grandezas-unidades-e-medida.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A01-GEOCRON-INCERTEZA-005",
+      "claim": "Idades radiométricas são convencionalmente publicadas como valor ± incerteza, permitindo avaliar separadamente a precisão e a exatidão do método de datação.",
+      "source": "prática consolidada de geocronologia (consistente com o Módulo 03 deste curso)",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-01-grandezas-unidades-e-medida.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A02-LEIS-NEWTON-001",
+      "claim": "As três leis de Newton descrevem: (1) inércia — objeto mantém estado de movimento sem força resultante; (2) F=ma; (3) toda força tem uma reação igual e oposta.",
+      "source": "física clássica (mecânica newtoniana), consolidada em qualquer texto de física geral",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-02-forca-massa-leis-de-newton.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A02-MASSA-PESO-002",
+      "claim": "Massa é propriedade intrínseca de um objeto (kg), independente da localização; peso é a força gravitacional sobre essa massa (N), e varia conforme a gravidade local.",
+      "source": "física geral básica",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-02-forca-massa-leis-de-newton.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A02-DECOMPOSICAO-TALUDE-003",
+      "claim": "O peso de um bloco sobre uma superfície inclinada se decompõe em componente perpendicular (comprime, proporcional ao cosseno do ângulo) e componente paralela (desloca encosta abaixo, proporcional ao seno do ângulo) à superfície.",
+      "source": "mecânica clássica; análise padrão de plano inclinado, aplicada de forma introdutória à estabilidade de taludes",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-02-forca-massa-leis-de-newton.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A02-ATRITO-EQUILIBRIO-004",
+      "claim": "Um bloco sobre um talude permanece em repouso enquanto o atrito disponível cancela a componente do peso paralela à encosta; quando essa componente excede o atrito máximo, o bloco acelera segundo a segunda lei de Newton.",
+      "source": "mecânica clássica aplicada de forma simplificada a um modelo de bloco único; consistente com os princípios gerais de estabilidade de taludes usados na geotecnia",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-02-forca-massa-leis-de-newton.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A03-PRESSAO-DEFINICAO-001",
+      "claim": "Pressão é definida como força dividida por área (P=F/A, em pascal) e é isotrópica em um fluido em equilíbrio.",
+      "source": "física geral básica; mecânica dos fluidos",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-03-pressao-e-tensao.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A03-PRESSAO-LITOSTATICA-002",
+      "claim": "A pressão litostática é aproximada por P=ρ·g·h, onde ρ é a densidade média da coluna de rocha sobrejacente; é isotrópica em condições de equilíbrio.",
+      "source": "Twiss & Moores, Structural Geology; Fossen, Structural Geology",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-03-pressao-e-tensao.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A03-TENSAO-VS-PRESSAO-003",
+      "claim": "Tensão (stress) é o conceito geral de força interna por área, podendo variar com a direção do plano considerado; pressão é o caso particular de tensão isotrópica.",
+      "source": "Twiss & Moores, Structural Geology; Davis, Reynolds & Kluth, Structural Geology of Rocks and Regions",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-03-pressao-e-tensao.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A03-NORMAL-CISALHANTE-004",
+      "claim": "Em qualquer plano dentro de um corpo sob tensão, a tensão se decompõe em componente normal (perpendicular ao plano) e componente cisalhante (paralela ao plano).",
+      "source": "Twiss & Moores, Structural Geology; mecânica dos meios contínuos básica",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-03-pressao-e-tensao.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A03-TENSAO-DIFERENCIAL-005",
+      "claim": "É a tensão diferencial (diferença de magnitude de tensão entre direções), e não a pressão litostática isotrópica de fundo, que controla a orientação da deformação da rocha, incluindo dobras e falhas.",
+      "source": "Twiss & Moores, Structural Geology; Fossen, Structural Geology; confirmado por busca web contra opengeology.org, An Introduction to Geology (\"deformation results from application of a differential stress\")",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-03-pressao-e-tensao.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A04-TRABALHO-001",
+      "claim": "Trabalho físico é o produto entre a força aplicada e o deslocamento na direção dessa força (W=F·d), em joules, a mesma unidade de energia.",
+      "source": "física geral básica",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-04-trabalho-energia-potencia.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A04-ENERGIA-POTENCIAL-CINETICA-002",
+      "claim": "Energia potencial gravitacional é aproximada por Ep=m·g·h e energia cinética por Ec=½·m·v²; a energia cinética cresce com o quadrado da velocidade.",
+      "source": "física geral básica",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-04-trabalho-energia-potencia.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A04-CONSERVACAO-003",
+      "claim": "Em um sistema isolado, a energia total permanece constante, apenas mudando de forma — incluindo conversão de energia mecânica em calor e som por dissipação/atrito.",
+      "source": "física geral básica (primeira lei da termodinâmica em forma mecânica)",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-04-trabalho-energia-potencia.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A04-TERREMOTO-ENERGIA-004",
+      "claim": "Em um terremoto, energia elástica de deformação acumulada ao longo do tempo ao redor de uma falha é liberada de forma concentrada durante a ruptura, parcialmente convertida em ondas sísmicas e parcialmente dissipada como calor por atrito ao longo do plano de falha.",
+      "source": "Stein & Wysession, An Introduction to Seismology, Earthquakes, and Earth Structure (modelo de rebote elástico de Reid)",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-04-trabalho-energia-potencia.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A04-POTENCIA-005",
+      "claim": "Potência é energia transferida por unidade de tempo (P=E/t, em watts); dois processos com a mesma energia total liberada podem ter efeitos muito diferentes conforme a rapidez dessa liberação.",
+      "source": "física geral básica",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-04-trabalho-energia-potencia.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A05-CALOR-TEMPERATURA-001",
+      "claim": "Calor é energia térmica em trânsito, fluindo do corpo mais quente para o mais frio até o equilíbrio térmico; temperatura mede a agitação média das partículas — são grandezas distintas.",
+      "source": "física geral básica (termodinâmica)",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-05-calor-e-transporte-de-calor.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A05-TRES-MECANISMOS-002",
+      "claim": "Existem três mecanismos de transporte de calor: condução, convecção e radiação.",
+      "source": "física geral básica (termodinâmica); Turcotte & Schubert, Geodynamics",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-05-calor-e-transporte-de-calor.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A05-CONDUCAO-CROSTA-003",
+      "claim": "Na crosta terrestre, rígida e sem deslocamento de massa em grande escala, a condução é o mecanismo dominante de transporte de calor.",
+      "source": "Turcotte & Schubert, Geodynamics; Fowler, The Solid Earth",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-05-calor-e-transporte-de-calor.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A05-CONVECCAO-MANTO-004",
+      "claim": "No manto terrestre, dúctil sob as condições de temperatura e pressão do interior da Terra ao longo de tempo geológico, a convecção é o mecanismo dominante de transporte de calor e um dos motores propostos para o movimento das placas tectônicas.",
+      "source": "Turcotte & Schubert, Geodynamics — hipótese amplamente aceita, com detalhes do balanço de forças ainda em debate (pendências M02-F04/F06 já registradas em _contexto.md)",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-05-calor-e-transporte-de-calor.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A05-GRADIENTE-GEOTERMICO-005",
+      "claim": "O gradiente geotérmico próximo à superfície continental é da ordem de 25 a 30 °C por quilômetro de profundidade, variando regionalmente conforme o contexto tectônico.",
+      "source": "confirmado por busca web: Wikipedia, Geothermal gradient (valor comum ~25 °C/km, faixa continental 20-40 °C/km); AAPG Wiki, Geothermal gradient — valores mais baixos em crátons estáveis, mais altos em regiões vulcânicas",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-05-calor-e-transporte-de-calor.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A06-CAMPO-DEFINICAO-001",
+      "claim": "Um campo físico é uma grandeza que assume um valor definido em cada ponto do espaço, permitindo determinar a força que um objeto teste sentiria ali sem contato direto com a fonte.",
+      "source": "física geral básica (conceito de campo em física clássica)",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-06-campo-fisico-e-anomalia.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A06-CAMPO-GRAVITACIONAL-002",
+      "claim": "Toda massa produz um campo gravitacional; a intensidade medida na superfície da Terra (g) varia ligeiramente conforme a distribuição de densidade do subsolo, além de variar com latitude e altitude.",
+      "source": "Telford, Geldart & Sheriff, Applied Geophysics; Lowrie, Fundamentals of Geophysics",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-06-campo-fisico-e-anomalia.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A06-CAMPO-MAGNETICO-003",
+      "claim": "O campo magnético terrestre é gerado pelo movimento de ferro líquido no núcleo externo; rochas com minerais magnéticos se magnetizam e contribuem com campo local adicional mensurável.",
+      "source": "Fowler, The Solid Earth; Lowrie, Fundamentals of Geophysics",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-06-campo-fisico-e-anomalia.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A06-ANOMALIA-DEFINICAO-004",
+      "claim": "Uma anomalia é a diferença entre o valor medido de um campo físico e o valor esperado por um modelo de referência que assume Terra idealizada e homogênea; anomalia positiva indica excesso de massa/magnetização relativa, negativa indica déficit.",
+      "source": "Telford, Geldart & Sheriff, Applied Geophysics",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-06-campo-fisico-e-anomalia.md"]
+    },
+    {
+      "claim_id": "GEO-M27-A06-NAO-UNICIDADE-005",
+      "claim": "Diferentes distribuições de massa ou magnetização no subsolo podem produzir anomalias gravimétricas ou magnéticas indistinguíveis na superfície (problema da não unicidade).",
+      "source": "confirmado por busca web: Springer, On the Non-uniqueness of Gravitational and Magnetic Field Data Inversion (\"the non-uniqueness of gravity or magnetic data inversion is well known... multiple inverse solutions can explain the measurements equally well\")",
+      "confidence": "confirmado",
+      "affected_files": ["27-fisica-geociencias-aula-06-campo-fisico-e-anomalia.md"]
+    }
+  ]
+}

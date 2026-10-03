@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "target": {"kind":"modulo","path":"13-sedimentologia-ambientes","module_id": "13","course_id":"geologia"},
+  "mode":"audit-and-fix","depth":"full","audited_at":"2026-08-19T00:00:00-03:00","verdict":"approved",
+  "summary":{"red":0,"orange":0,"yellow":0,"blue":0,"white":0,"verified_ok":7},"findings":[],
+  "verified_claims":[
+    {"claim_id":"SED-FACIES-001","claim":"Fácies sedimentar reúne características observáveis que permitem inferir condições deposicionais.","source":"SEPM; Boggs","confidence":"confirmado"},
+    {"claim_id":"SED-WALTHER-001","claim":"A Lei de Walther relaciona sucessões verticais contínuas a mudanças laterais entre fácies adjacentes.","source":"SEPM Strata","confidence":"confirmado"},
+    {"claim_id":"SED-CONTINENTAL-001","claim":"Ambientes fluviais podem associar depósitos de canal e de planície de inundação.","source":"USGS","confidence":"confirmado"},
+    {"claim_id":"SED-CONTINENTAL-002","claim":"A planície salina (playa) é um lago efêmero de depressão fechada desértica cujo ressecamento precipita evaporitos; playa, dunas eólicas e leques aluviais compõem a associação de fácies desértica padrão.","source":"Boggs (2014); Nichols (2009)","confidence":"confirmado"},
+    {"claim_id":"SED-COASTAL-001","claim":"Deltas se formam quando o aporte fluvial excede a redistribuição por processos marinhos.","source":"USGS","confidence":"confirmado"},
+    {"claim_id":"SED-MARINE-001","claim":"Correntes de turbidez podem deixar turbiditos.","source":"SEPM","confidence":"confirmado"},
+    {"claim_id":"SED-SYSTEMS-001","claim":"Associações de fácies e arquitetura sustentam interpretações de sistemas deposicionais.","source":"SEPM","confidence":"confirmado"}
+  ]
+}

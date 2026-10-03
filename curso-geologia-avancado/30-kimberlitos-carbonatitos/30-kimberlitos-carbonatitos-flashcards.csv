@@ -1,0 +1,51 @@
+id;frente;verso;tags;objetivo;aula;dificuldade;fonte
+geologia-avancado-m30-fb001;Qual é a definição IUGS de carbonatito?;Rocha ígnea com mais de 50 % em volume de carbonatos primários e menos de 20 % em peso de SiO2.;carbonatito;entender;01;intermediaria;Le Maitre 2002
+geologia-avancado-m30-fb002;Como subdividir carbonatito?;Usa razão CaO/(CaO+MgO+FeO+Fe2O3+MnO): se >0,8 calcio; senão se MgO maior que (FeO+Fe2O3+MnO) magnesio; caso contrário ferrocarbonatito.;carbonatito;aplicar;01;intermediaria;Aula 01
+geologia-avancado-m30-fb003;Diferença entre kimberlito e orangeíto?;Orangeíto: mais K e flogopita; kimberlito: mais monticellita e perovskita.;kimberlito;distinguir;01;intermediaria;Scott Smith 2013
+geologia-avancado-m30-fb004;Origem da nomenclatura Grupos I e II?;Smith 1983 usou isótopos Sr-Nd-Pb para separar populações de kimberlito.;kimberlito;conhecer;01;facil;Smith 1983
+geologia-avancado-m30-fb005;O que é lamproíto?;Rocha ultrapotássica com flogopita titanífera, K-richterita, diopsídio, olivina, leucita.;lamproito;reconhecer;01;intermediaria;Mitchell 1991
+geologia-avancado-m30-fb006;Rochas insaturadas em silica?;Rochas com SiO2 baixo ao lado de kimberlitos e carbonatitos.;rochas;aplicar;01;facil;Aula 01
+geologia-avancado-m30-fb007;Espessura de quilha cratonica?;Espessa 150-250 km, fria, empobrecida em componentes basálticos.;quilha;entender;02;facil;Pearson 2014
+geologia-avancado-m30-fb008;O que é forsterita em olivina?;Fração molar de Mg2SiO4; manto fértil Fo ~89-90%, cratônico Fo ~92-93%.;forsterita;ler;02;intermediaria;Aula 02
+geologia-avancado-m30-fb009;O que é uma geoterma?;Perfil temperatura versus profundidade; reconstrói por termobarometria de xenólitos.;geoterma;aplicar;02;intermediaria;Brey 1990
+geologia-avancado-m30-fb010;Temperatura diamante estável a 4,8 GPa?;P=48 kbar; T=(48-19,4)/0,025=1144 C.;diamante;calcular;02;intermediaria;Kennedy 1976
+geologia-avancado-m30-fb011;O que é metassomatismo modal?;Modificação rocha por fluidos criando fases novas: flogopita, anfibólio, ilmenita.;metassomatismo;aplicar;02;facil;Foley 1992
+geologia-avancado-m30-fb012;Modelo Foley: por que veios fundem primeiro?;Veios com minerais fusíveis: fusão preferencial explica variedade de composições.;magma;entender;02;intermediaria;Foley 1992
+geologia-avancado-m30-fb013;O que é cristalização fracionada?;Minerais cristalizam seletivamente deixando líquido enriquecido em incompatíveis.;cristalizacao;definir;03;facil;Aula 03
+geologia-avancado-m30-fb014;Três fácies pipe Kimberley?;Cratera vulcaniclástico, diatrema brecha com xenólitos, hipabissal coerente.;pipe;reconhecer;03;intermediaria;Field 1999
+geologia-avancado-m30-fb015;Nome moderno brecha tuffisítica?;Kimberlito piroclástico tipo Kimberley (KPK) Scott Smith 2013.;nomenclatura;aplicar;03;facil;Scott Smith 2013
+geologia-avancado-m30-fb016;Textura kimberlito hipabissal?;Inequigranular: macrocristais xenocristais em matriz fina fenocristais.;kimberlito;descrever;03;facil;Aula 03
+geologia-avancado-m30-fb017;O que é espinélio em atol?;Núcleo espinélio, zona serpentina/calcita, borda fina magnetita.;espinelio;reconhecer;03;intermediaria;Roeder 2008
+geologia-avancado-m30-fb018;Minerais indicadores kimberlito?;Granada piropo, Cr-diopsídio, ilmenita magnesiana, cromita, olivina.;minerais;usar;03;intermediaria;Grutter 2004
+geologia-avancado-m30-fb019;Distinguir granada G10 de G9?;CaO=3,375+0,25*Cr2O3; se CaO abaixo reta é G10.;granada;aplicar;03;intermediaria;Grutter 2004
+geologia-avancado-m30-fb020;O que é fenitização?;Transformação encaixante por fluidos alcalinos em fenito com feldspato alcalino, aegirina.;fenito;reconhecer;03;facil;Le Bas 2008
+geologia-avancado-m30-fb021;Por que geoquímica rocha total difícil?;Kimberlito carrega xenocristais e xenólitos alterados; é mistura não líquido primário.;geoquimica;criticar;04;facil;Sparks 2013
+geologia-avancado-m30-fb022;Padrão elementos-traço kimberlito?;Enriquecido em LREE versus HREE com anomalias variáveis.;elementos;reconhecer;04;facil;Aula 04
+geologia-avancado-m30-fb023;Razão Sr-Nd separa Grupo I de orangeíto?;Grupo I: Sr 0,703-0,705 eNd 0 a +4; Orangeíto: Sr 0,707-0,712 eNd -6 a -12.;isotopo;classificar;04;intermediaria;Smith 1983
+geologia-avancado-m30-fb024;Fonte de orangeíto?;Litosférica enriquecida há muito tempo com Rb/Sr altos Sm/Nd baixos.;orangeito;aplicar;04;facil;Becker 2006
+geologia-avancado-m30-fb025;Três rotas gerar magma carbonatítico?;Fusão direta fonte carbonatada; cristalização fracionada; imiscibilidade líquida.;carbonatito;entender;04;facil;Yaxley 2022
+geologia-avancado-m30-fb026;Variação composição peridotito carbonatado?;De líquidos carbonatíticos baixa fusão a composições kimberlíticas maior fusão.;continuo;entender;04;intermediaria;Wyllie 1975
+geologia-avancado-m30-fb027;Por que kimberlito transporta diamante?;Magma sobe diques metros/segundo preservando xenólitos frágeis.;diamante;explicar;05;facil;Aula 05
+geologia-avancado-m30-fb028;Papel assimilação ortopiroxênio?;Magma assimila ortopiroxênio reduz solubilidade CO2 causa exsolução gás.;ascensao;aplicar;05;intermediaria;Russell 2012
+geologia-avancado-m30-fb029;Sequência evolução mineral complexo carbonatítico?;Calciocarbonatito sövito a dolomita-carbonatito beforsito a ferrocarbonatito.;carbonatito;reconhecer;05;facil;Aula 05
+geologia-avancado-m30-fb030;Resultado cristalização fracionada incompatível?;Concentração no líquido residual pela equação Rayleigh.;rayleigh;calcular;05;intermediaria;Aula 05
+geologia-avancado-m30-fb031;O que é brine hidrotermal?;Fluido rico sais alcalino capaz transportar ETR Nb Fe.;hidrotermal;aplicar;05;intermediaria;Chakhmouradian 2012
+geologia-avancado-m30-fb032;Idade diamante mais velha que kimberlito?;Sim diamantes 1-3+ Ga; kimberlitos Proterozoico-Cretáceo.;diamante;estabelecer;06;facil;Stachel 2008
+geologia-avancado-m30-fb033;O que é regra Clifford?;Kimberlitos economicamente diamantíferos ocorrem crátons embasamento arqueano.;Clifford;aplicar;06;facil;Clifford 1966
+geologia-avancado-m30-fb034;O que é arqueon?;Cráton embasamento arqueano mais velho 2,5 Ga com raiz espessa.;arqueon;usar;06;facil;Janse 1994
+geologia-avancado-m30-fb035;Argyle qual tipo rocha?;Lamproíto diamantífero em cinturão proterozoico lado cráton.;Argyle;conhecer;06;intermediaria;Olierook 2023
+geologia-avancado-m30-fb036;Unidade teor diamante?;Carats por cem toneladas (cpht); 1 ct=0,2 g.;diamante;calcular;06;facil;Aula 06
+geologia-avancado-m30-fb037;Complexos alcalino-carbonatíticos APIP?;Catalão Serra Negra Salitre Araxá Tapira com Nb fosfato Ti ETR.;APIP;localizar;06;intermediaria;Aula 06
+geologia-avancado-m30-fb038;Idade Província Alto Paranaíba?;Cretáceo Superior 90-80 Ma atribuída pluma Trindade.;APIP;entender;06;facil;Gibson 1995
+geologia-avancado-m30-fb039;Idade kimberlito Braúna?;Neoproterozoica 642 Ma U-Pb perovskita; primeira mina diamante América Latina.;Brauna;conhecer;06;facil;Donatti-Filho 2013
+geologia-avancado-m30-fb040;Por que carbonatitos lateríticos importantes?;Intemperismo tropical concentra pirocloro Nb; Brasil 93% Nb mundial.;Brasil;explicar;06;facil;USGS 2026
+geologia-avancado-m30-fb041;Diferença sövito alvikito beforsito?;Sövito calciocarbonatito grosso; alvikito fino; beforsito dolomítico.;carbonatito;aplicar;01;intermediaria;Aula 01
+geologia-avancado-m30-fb042;População diamantífera mais comum?;Diamante peridotítico harzburgito; eclogítica websterítica menores.;diamante;entender;06;facil;Stachel 2008
+geologia-avancado-m30-fb043;Ciclo exploração primeiro?;Minerais indicadores sedimentos; depois geofísica mapear anomalias.;exploracao;sequenciar;06;intermediaria;Aula 06
+geologia-avancado-m30-fb044;O que é diluição xenólitos?;Xenólitos crosta manto misturam kimberlito alterando composição rocha total.;geoquimica;criticar;04;facil;Aula 04
+geologia-avancado-m30-fb045;Fórmula calcular eNd(t)?;eNd(t)=[(Nd143/Nd144)amostra(t)/(Nd143/Nd144)CHUR(t)-1]*10000; CHUR idade rocha.;isotopo;aplicar;04;intermediaria;Aula 04
+geologia-avancado-m30-fb046;Por que diamante mais profundo geoterma quente?;Geoterma quente intersecta fronteira grafite-diamante mais profundamente.;diamante;explicar;02;intermediaria;Aula 02
+geologia-avancado-m30-fb047;Significado HIMU?;HIMU=alto μ U238/Pb204; indica contribuição manto reciclado crosta oceânica.;carbonatito;entender;04;facil;Bell 2010
+geologia-avancado-m30-fb048;Composição modal foscoritos?;Magnetita apatita olivina ou flogopita.;foscoritos;reconhecer;03;facil;Aula 03
+geologia-avancado-m30-fb049;Teor K kimberlito?;SiO2 25-35% (vs 50% basalto), MgO 15-35% (vs 8% basalto).;kimberlito;comparar;01;intermediaria;Aula 04
+geologia-avancado-m30-fb050;O que é metassomatismo críptico?;Enriquecimento químico fases presentes sem criar mineral novo; traços isótopos.;metassomatismo;criticar;02;facil;Aula 02

@@ -1,0 +1,16 @@
+A carga contaminante é calculada como concentração na fonte multiplicada pela {{c1::vazão de infiltração}} através da fonte.
+A velocidade relevante para o transporte de soluto é a velocidade {{c1::linear média}}, igual a (K×i) dividido pela porosidade {{c2::efetiva}}.
+A dispersão hidrodinâmica é a soma da dispersão {{c1::mecânica}} com a {{c2::difusão molecular}}.
+A dispersividade transversal é tipicamente {{c1::5 a 20}} vezes menor que a longitudinal.
+O {{c1::efeito de escala}} da dispersividade explica por que valores de laboratório subestimam a dispersão observada em plumas de campo.
+Na solução de {{c1::Ogata-Banks}}, a frente de concentração de uma fonte contínua avança como uma curva em forma de {{c2::S}}, não como um degrau abrupto.
+O coeficiente de distribuição Kd de um composto orgânico hidrofóbico é estimado como Kd = {{c1::Koc}} × {{c2::foc}}.
+O fator de retardação é R = 1 + ({{c1::rho_b}}/ne) × Kd — a velocidade do soluto retardado é vx dividido por {{c2::R}}.
+A sorção é um processo {{c1::reversível}} — sob certas condições, o contaminante sorvido pode sofrer {{c2::dessorção}}.
+A sequência de aceptores de elétrons na biodegradação começa por {{c1::O2}} (aeróbio) e termina em {{c2::CO2}} (metanogênese).
+MNA exige três linhas de evidência: tendência histórica, dados geoquímicos consistentes, e capacidade {{c1::microbiológica}} de degradação demonstrada.
+LNAPL tem densidade {{c1::menor}} que a água e flutua sobre o lençol freático — DNAPL tem densidade {{c2::maior}} e afunda pela zona saturada.
+A migração de DNAPL é controlada por gravidade e pela geometria de camadas {{c1::confinantes}}, podendo divergir da direção do {{c2::fluxo hidráulico}} regional.
+Pela relação de Ghyben-Herzberg, cada metro de água doce acima do nível do mar corresponde a cerca de {{c1::40}} metros de água doce abaixo dele até a interface salina.
+O índice do método {{c1::GOD}} é o produto de três parâmetros — G, O e D — cada um variando de {{c2::0 a 1}}.
+O perímetro de proteção de um poço se estende preferencialmente a {{c1::montante}} do fluxo regional, não formando um círculo simétrico.

@@ -1,0 +1,20 @@
+Em mecânica das rochas, a convenção usual trata {{c1::compressão}} como tensão positiva.
+O raio do círculo de Mohr 2D é dado por R = √[((σx−σy)/2)² + {{c1::τxy²}}].
+A tensão cisalhante máxima ocorre a {{c1::45°}} das direções principais.
+Em três dimensões, a tensão cisalhante máxima absoluta é sempre {{c1::(σ1−σ3)/2}}, independentemente de σ2.
+A curva tensão-deformação de um ensaio uniaxial passa por fechamento de microfissuras, comportamento elástico linear, propagação {{c1::estável}} e depois {{c2::instável}} de fissuras, pico e comportamento pós-pico.
+O critério de Griffith prevê uma relação {{c1::parabólica}} entre σ1 e σ3, com razão teórica compressão/tração de {{c2::8}}.
+No critério de Hoek-Brown generalizado, os parâmetros mb, s e a dependem do {{c1::GSI}}, do fator de perturbação D e do parâmetro litológico {{c2::mi}}.
+O critério de Barton-Bandis é τ = σn·tan[φb + {{c1::JRC}}·log10(JCS/σn)].
+O fluxo laminar através de uma fratura plana é proporcional ao {{c1::cubo}} da abertura hidráulica (lei cúbica).
+A tensão vertical in situ é aproximada por σv = {{c1::ρ·g·z}}.
+Sob a hipótese elástica de deformação lateral nula, K0 = {{c1::ν/(1−ν)}}.
+O overcoring mede o tensor de tensão 3D completo a partir da deformação elástica de {{c1::alívio}} de um testemunho isolado.
+No fraturamento hidráulico, a pressão de {{c1::reabertura}} permite estimar a tensão principal maior no plano perpendicular ao furo.
+O parâmetro do sistema RMR com maior peso (até 30 pontos) é a {{c1::condição das descontinuidades}}.
+O sistema Q varia numa escala logarítmica de aproximadamente {{c1::0,001}} a {{c2::1.000}}.
+O GSI é a única classificação geomecânica deste módulo que se converte diretamente nos parâmetros do critério de {{c1::Hoek-Brown}}.
+O SMR soma ao RMR básico os fatores F1, F2 e F3 multiplicados entre si, mais o fator {{c1::F4}}, relacionado ao método de escavação.
+A análise {{c1::cinemática}} (projeção estereográfica) deve preceder qualquer cálculo de fator de segurança de talude rochoso.
+Segundo as equações de Kirsch, no teto e no piso de uma escavação circular a tensão tangencial é (3K−1)·σv, tornando-se {{c1::tração}} quando K é menor que 1/3.
+No método de convergência-confinamento, instalar o suporte {{c1::cedo demais}} sobrecarrega-o com toda a convergência ainda por vir.

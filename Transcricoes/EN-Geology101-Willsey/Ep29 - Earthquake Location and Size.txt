@@ -1,0 +1,822 @@
+# Ep29 - Earthquake Location and Size.txt
+Video ID: BrRlO355RTk
+Lang: en
+URL: https://www.youtube.com/watch?v=BrRlO355RTk
+
+---
+
+hey there folks and welcome to another
+episode in the geology 101 physical
+geology video series I am geology
+Professor Shawn Willy thanks for joining
+me um today we are going to delve a
+little bit further into the study of
+earthquakes by looking at earthquake
+location and magnitude this geology 101
+video series is modeled after my college
+course the same curriculum the same
+content you would get as if you were
+sitting right there in my classroom if
+you'd like to support this series and
+you're enjoying what you're watching
+here you can go under your video viewer
+and there's three little dots there if
+you click on that button you'll get an
+option for a thanks and you can donate
+that way or you can go under the video
+description and there's a few links
+listed there where you can donate or
+send some support to the cause let's get
+right to it here today so last time we
+spent some time looking at seismic waves
+kind of getting into the nuts and bolts
+of where earthquakes OCC and what
+earthquakes actually are today what
+we're going to do is we're going to look
+at uh understanding where Lo earthquakes
+occur in terms of figuring out their
+location how we actually can determine
+the location of an earthquake and then
+we'll look at different scales that um
+tell us how big the earthquake is the
+the magnitude or the intensity of the
+earthquake so let's start right off here
+with the with a definition the focus of
+an earthquake is the location inside the
+Earth where the the earthquake actually
+was originated so where the fault
+movement took place and where that
+seismic energy was released that's what
+we call the focus you can kind of think
+of it like a little bomb going off
+inside the earth it releases energy
+those seismic waves radiate out in
+different directions and so we can have
+different depths of our Focus um and so
+we broadly classify them as shallow
+intermediate or deep with these sort of
+crude classifications here these of
+course A lot of times relate to plate
+boundaries and so we do see some
+relationships between the depth of an
+earthquake and the location of uh the
+earthquake in terms of plate boundaries
+so we typically see divergent boundaries
+containing almost entirely shallow Focus
+Quakes same thing with transform plate
+boundaries and then our convergent
+boundaries more specifically our
+subduction zones where one Plate's
+diving beneath the other that's where we
+actually see quite a variety in terms of
+the depth of the focus now when I look
+in hear when I hear on you know if I get
+an email alert or I hear a news item
+about an earthquake and and they may be
+tell me the magnitude or something about
+the size and the location the very next
+thing I often want to know is the focus
+because very deep earthquakes don't tend
+to cause as much damage as shallow
+earthquakes so the bad news here for
+humankind is that all three types of
+plate boundaries can produce shallow
+Focus Quakes and because humans are up
+here on the surface uh that presents a
+problem because a lot of that seismic
+energy is is focused or no pun intended
+or is um concentrated on that area at
+the surface because those earthquakes
+are not too far underground we use a
+different term to refer to the location
+directly above the earthquake basically
+the map location of the earthquake and
+that's the epicenter that might be the
+term you're a little bit more familiar
+with is the epicenter so if they say the
+epicenter of the earthquake was you know
+50 miles east of Los Angeles that's the
+location on the map but it doesn't tell
+us the whole story because we should
+also be interested in knowing how deep
+the earthquake was that's going to help
+us understand uh the possible damage
+that might occur from that earthquake
+and we'll Circle back to that here in a
+bit um I have a link I am going to share
+in the video description I'm not going
+to show the video here because I'm not
+sure if I'm allowed to but there's a
+great uh educational group that puts
+together different videos about
+earthquakes and seismic instruments and
+all sorts of things related to
+earthquakes and I'll put a link on there
+that relates to how we um understand the
+three-dimensional motion that comes from
+an earthquake and how we actually
+measure that with these seismometers or
+these seismograph stations so go ahead
+and look for that under the video
+description they do a great job in that
+two or three minute video of explaining
+it so moving ahead what I'd like to do
+now is focus on the readout the actual
+um the printed record of the earthquakes
+seismic energy passing past a location
+going past a location this is what's
+known as a seismogram so as we learned
+in our first episode there's the p waves
+or primary waves the S waves and then
+the surface wav so these three distinct
+sets of seismic energy waves um can be
+recorded on a seismogram and then we can
+analyze them turns out as we look at map
+location for the earthquake the two most
+important parameters are when exactly
+that p-wave first arrival is you can see
+that little deflection there on the
+seismogram lets us know that the p-wave
+has hit this recording station and then
+similarly we see another arrival of the
+second group of seismic waves or the S
+waves and if we can figure out when that
+occurred which which you know this is
+time this component here working its way
+across the the seismogram if we know
+exactly when the P wve first arrived and
+when the s-wave first arrived we can
+subtract the difference between those
+two because the p waves are always
+faster than the s-waves as we learned in
+the previous episode and we can take
+that interval the ps-wave time interval
+we can take that
+that number of seconds or it might be
+minutes and we can turn that into a
+distance from that specific station to
+the earthquake's epicenter so what we're
+doing here is we're learning how how do
+we know where the earthquake occurred
+now in today's world the computers are
+incredibly rapid at telling us you know
+right seconds after the earthquakes
+begun sometimes where the earthquake's
+location is but let's look at the
+science a little bit behind how do we
+know exactly where the earthquake's
+location is but this is the first bit of
+information here the difference between
+the arrival of the p-wave and the AR
+first arrival of the swave if you know
+that time difference which you should be
+able to figure out on your seismogram uh
+there is some simple ways that I'll show
+you here in a second to turn that time
+into a distance from this specific
+station to the actual earthquake
+epicenter or Focus so let's use a fun
+example here to see how this might work
+so let's say we have uh three good
+friends Joe Max and Anna and they all
+have seismograph stations they all have
+seismometers Santa was good to them that
+year for Christmas and they got a brand
+new shiny seismometer sitting under the
+tree fantastic and they all you can see
+where they live here a little bit of
+scale they all live in this region and
+they all record uh an earthquake and so
+they all record the same earthquake and
+let's say Joe records an earthquake and
+he measures the time interval between
+those P and S waves turns out it's about
+a minute and he turns that into a
+distance and I'll show you how he did
+that here in a second turns out that the
+distance is 1,000 kilm so how would we
+know exactly where the location of the
+earthquake is relative to Joe well all
+we know is that it's a distance of a
+th000 kilometers from Joe so we would
+plot up a circle with a radius of 1,000
+kilm so here's Joe's location with the
+star and with the circle of radius 1,000
+km somewhere along that circle's
+perimeter is where the earthquake
+occurred but we still don't know exactly
+where the earthquake is luckily Joe has
+friends and so he calls up his friend
+Anna and Anna recorded the same
+earthquake however the time difference
+between the p and the S waves at her
+location was 1 and a half minutes and so
+that corresponds to a different distance
+and let's just pretend that's 15500 or
+so kilometers so at Anna's location we
+do the same thing we draw a circle with
+a radius representing the distance 1500
+km and now do we know where the
+earthquakes location is some of you
+might be saying yeah it's right right
+where they overlap but it can't be in
+this area because if it's anywhere in
+this region it's not 1,000 km from Joe
+and it is not 1500 km from Anna so the
+location either has to be this location
+where the two circles intersect or this
+one over here so we've narrowed it down
+considerably from just this huge circle
+perimeter around Joe to either this
+location or this location well we still
+don't know for sure so what we need is a
+third Source a third friend and that's
+where Max comes in Max recorded the same
+earthquake the PS wve interval was 2
+minutes that corresponds let's say to a
+distance of 2,000 kilom so we draw a
+circle around Max's location with a
+distance or radius of 2,000 km and now
+you can see we get this all three
+circles intersecting at one common point
+and that lets us know where the
+epicenter is so this is exactly how
+earthquake WIS are located now in the
+old days I imagine they had to like you
+know plot up Circles on a paper map and
+you know it took a few minutes to do and
+nowadays the computers and the Computing
+speed is very rapid and it can determine
+that epicenter quite quickly um pretty
+awesome so there's the epicenter of the
+earthquake but before we move on what
+about depth have we actually been able
+to determine how deep the earthquake is
+so on our map we know where the
+earthquake is relative especially to Joe
+Max and location it's right here but do
+we know how deep that earthquake is and
+here's where you have to change your
+thought from two dimensional thinking on
+a map just circles on a map pretty easy
+right there's all three intersecting
+this is called triangulation it's
+exactly how your phone using uh
+satellites is able to locate know where
+you are and locate your
+position um but we actually do know the
+depth because instead of thinking these
+as circles this is where you got to use
+three-dimensional thought
+don't consider it as a circle around Joe
+think of it as a sphere or in this case
+really a half sphere or a hemosphere
+because above Joe up into the sky of
+course earthquakes don't happen in the
+sky they're below the Earth's surface so
+it's really a half circle or think of a
+bowl like a cereal bowl if if that helps
+so if you consider Joe's location and
+Max and Anna's location and think of
+these circles not as circles but
+actually three-dimensional spheres then
+not only do we have an epicenter Center
+but we would also have a focus as well
+we would actually know where in the
+Earth's surface at what depth this
+earthquake took place so that's a little
+bit on how we locate earthquakes um
+using seismic
+information okay so I told you we would
+I'd show you how we determine uh this
+ps-wave thing so here's a simple graph
+and there's similar ones that are used
+often but this basically shows us two
+things the p-wave and the swave so
+there's the travel time of the two waves
+and here's the distance so notice here
+if we start at the origin the earthquake
+has begun and the p-wave races ahead in
+fact 2 minutes into the earthquake the p
+wve is almost moved 1,000 kilometers
+whereas the swaave still lagging behind
+because it's always slower okay so you
+can see the further the distance is
+between these two waves the greater the
+time difference is notice 1,000 km away
+from the epicenter the ps-wave time
+interval is about 2 minutes if we move
+further away maybe like 3,000 km notice
+it's 1 2 3 4 it's almost 4 and a half or
+so minutes out here by the time you get
+out to this point shown by the red line
+it's maybe five minutes and so we can
+take that time difference okay between
+the p and the S waves and then turn that
+into a distance using a graph similar to
+this pretty simple really um pretty fun
+using the graphs in the math all put
+together so that's a little bit on
+earthquake location let's talk a bit
+here about how we measure the actual
+size of the earthquake and we actually
+use two different terms um but they mean
+and they mean very different things of
+course the one you're most familiar with
+that we'll get to in a second is
+magnitude you often hear the first thing
+we hear about an earthquake was oh there
+was a magnitude 6.2 earthquake uh and
+then the location those are usually the
+very first uh bits of information that
+are relayed in a news report about a
+given earthquake but we actually have
+two ways to look at earthquakes we have
+something called intensity which is a
+qualitative me measure of how much
+shaking has occurred and this is
+normally based on primarily personal
+counts and damage that we see so we can
+assess the size of an earthquake partly
+by looking at its magnitude which we'll
+get to in a second but also by looking
+at how much damage it did how bad was
+the shaking maybe at one person's house
+you know the shaking was substantial and
+there's damage in the home and the
+person is really rattled and uh quite uh
+there's a lot of anxiety in that person
+and we might move a mile away in the
+same town and talk to another person
+that says hey that earthquake wasn't so
+bad you know there was there was a
+little bit of shaking and a couple books
+fell off my shelf but my house is in
+really good shape I'm not personally
+super alarmed I didn't get hurt or
+injured and we might see differences
+like that um depending on location and
+some other factors as well so the other
+thing we do is look at the magnitude and
+the magnitude of course is more of a
+quantitative measure of how much energy
+was released in the earthquake so this
+this is the same for any given
+earthquake now sometimes you might hear
+an initial report of oh the it was a
+magnitude 6.8 earthquake and then
+minutes or hours later that maybe gets
+downgraded or something like that that's
+because we're just taking that initial
+computer assessment of the earth quake
+and then later a seismologist goes in
+and looks at all the data and um gives
+pins it down and gives it a much more
+precise number but usually it's fairly
+close but the difference here is one is
+based on location
+people's accounts damage more of the
+human element if you will magnitude is
+purely Math and Science we're just
+looking at how much energy the
+earthquake released and so that
+typically will not change so if the if
+the earthquake was magnitude 6.2 doesn't
+matter where you are it's a 6.2
+earthquake okay now further if you're
+further away from the earthquake you
+might be feeling less of the earthquakes
+effects but the magnitude is a specific
+number for that given earthquake so both
+of those are helpful they both provide
+useful information but it's just
+different so let's look at the intensity
+scale the intensity scale we use is
+called the modified mercal intensity
+scale and we use Roman numerals Roman
+numerals instead of numbers to
+differentiate it from the magnitude
+scale which does use numbers uh so it
+goes from 1 to 12 using Roman numerals
+um and there's a lot of variability here
+the intensity of an earthquake doesn't
+always go hand inhand with the magnet
+magude now typically the greater the
+magnitude the intensity goes up with it
+but we can see instances where there's
+some big differences so here's two
+earthquakes here um in the US this was
+the 94 Northridge California quake in a
+large urban area outside of Los Angeles
+here's the Nali Quake I think that was
+oh boy now I can't remember 2001 or
+three or two somewhere in the early
+2000s um doesn't matter but similar
+magnitude 6.8 um located you know
+Southwest of
+Seattle but notice the two Shake Maps or
+the intensity Maps notice the the darker
+shades of orange and red here in
+Northridge and you just don't see a lot
+of those colors over here even though it
+was a tiny bit bigger in terms of
+magnitude Well turns out that this one
+had a much shallower depth so the depth
+of the earthquake is going to play a big
+role in the intensity or the shaking
+other factors that might come into play
+could be the subsurface materials areas
+that have Solid Rock under them versus
+areas that are underlain by soft
+sediment or might be a high groundwater
+table where the shaking is actually
+enhanced and becomes much larger could
+be the construction styles of the the
+buildings and infrastructure in these
+Urban environments um oh I got a typo
+there that should just be materials not
+materials with an M sorry about that
+yeah you could have one place with wood
+frame construction another place with
+brick or adobe uh again we we talked
+about the depth could be the population
+density all of these factors play into
+the intensity scale uh and I'll Circle
+back here and kind of make and do a case
+study comparison between uh two fairly
+recent earthquakes and looking at them
+in terms of magnitude versus intensity
+so let's look at the magnitude scale
+when it comes to um an earthquake and of
+course most people have heard of the RoR
+scale invented by Charles RoR uh I think
+in the mid 1930s he was just looking a
+way to to measure and compare
+earthquakes in the Los Angeles Southern
+California area comparing one earthquake
+to another cuz up till that point we
+really didn't have any sort of good way
+of measuring the size of an earthquake
+other than looking at maybe the the
+damage that was done so he came up with
+a way of looking at earthquakes and it's
+a simple way basically takes remember
+our seismogram he just says hey find the
+largest seismic wave on your seismogram
+which will typically be your surface
+waves measure that amplitude with your
+ruler in in millimeters um and then I'll
+show you here how you actually can
+figure that out and then basically by
+measuring that largest seismic wave you
+can determine the size of the earthquake
+on the RoR scale now there's oh no upper
+limit theoretically to the RoR scale it
+it's you can go into the negative
+numbers you can go into the positive
+numbers as far as you want to go and
+it's a logarithmic scale so it's not a
+linear scale as you go up one number on
+the RoR scale it's a tenfold increase in
+the wave amplitude so a magnitude 6
+earthquake has um 10 times the wave amp
+amplitude as a magnitude 5 earthquake if
+you assess the earthquake in terms of
+full full energy the energy released
+from that seismic event it's actually a
+32-fold increase from one number to the
+next so a magnitude six is 32 times
+larger in terms of energy as compared to
+a magnitude 5 um and so using the RoR
+scale the biggest earthquake we've ever
+measured using uh you know fairly modern
+seismic equipment since the RoR scale
+was invented was an 8.9 in Chile in 1960
+now if you're already kind of looking at
+that number and ready to type in the
+comments hey I know there was one bigger
+than that um after 1960 hold your horses
+just for a second and let me get through
+all of this here and then you can see
+where we're at here this is just using
+the RoR scale so the biggest earthquake
+on record using modern scientific
+equipment comes out to an 8.9 uh on the
+RoR scale that was Chile in 1960 here's
+the this is a simple way that he used to
+figure out the size of the earthquake so
+let me walk you through this and these
+are small numbers I apologize but here's
+a seismogram up here P wve swave surface
+waves basically again uh measure the
+largest seismic wave so in this case
+measuring the largest seismic wave let's
+say it comes out to 23 mm so over here
+you have a simple scale of amplitude of
+the of the wave over here because you
+want to correct for how far away the
+location is the the seismogram that is
+recording relative to um the
+earthquake's location so we're going to
+take the s that s time interval or we
+can just take distance so either one so
+if you know either one of those two
+things and you measure the the waves
+amplitude obviously the further away you
+are the smaller the amplitude if you're
+right on top of the earthquake those
+would be quite large but basically by
+lining up those two end points here it
+passes through a middle scale that gives
+us magnitude so in this case if we had
+uh amplitude of 23 or so mm on our
+seismogram and we had about a distance
+to the earthquake of a little over 200
+km by lining up those two points and
+drawing a straight line that would give
+us a magnitude of about five on the RoR
+scale so a very simple way to do it very
+ingenious and for many years that was a
+great way for us to measure earthquakes
+but there was a problem there's an
+inherent problem that we realized uh not
+too far after the RoR scale was put in
+place and the RoR scale again he was
+just trying to compare local earthquakes
+he wasn't necessarily intending it for
+to be this this Global uh way to measure
+earthquake sizes so what I've done here
+uh with my terrible handwriting is drawn
+my own seismogram so there's the p waves
+the S waves and then the surface waves
+coming in this is earthquake number one
+and I want you to look closely at
+earthquake number one and earthquake
+number two and compare these two now
+I've tried to as best I can draw the
+amplitude of the p waves about the same
+the s-waves amplitude should be pretty
+close and the highest amplitude of the
+surface waves from here to here and here
+to here I didn't pull out a ruler and
+measure it but just optically just
+eyeballing them it looks like it's about
+the same and remember what the RoR scale
+says to do the RoR scale says find the
+biggest wave which is typically a
+surface wave measure it plug it into
+that simple little thing I showed you
+before and there you go there's your
+magnitude so notice if we use the RoR
+scale for both of these earthquakes we
+would get the exact same magnitude let's
+say I don't know 5.6 whatever doesn't
+matter um but what do you notice it's
+different about these
+earthquakes earthquake number two had
+sustained shaking these surface waves
+were coming in with high amplitudes over
+some period of time whereas in
+earthquake number one the surface waves
+came in but then dissipated quite
+quickly and so it stands to reason then
+that if you had to guess which was the
+more substantially larger or more
+destructive earthquake youd probably
+pick earthquake number two because it
+the level of shaking from these large
+amplitude surface waves goes on for a
+lot longer that's harder on the
+buildings and the infrastructure um
+that's trying to stay put so earthquake
+number two is larger than earthquake
+number one in terms of energy and yet
+the RoR scale will tell us that they're
+the same so there's a problem with the
+RoR scale for very large earthquakes it
+works fine for small earthquakes you
+know it it works well so all we've done
+basically is tweak it a little bit the
+problem with the RoR scales it does not
+do a good job of measuring the magnitude
+of EX exceptionally large earthquakes
+where we have faulting over a large
+distance large displacements and energy
+um being dissipated over longer periods
+of time and so we've tweaked the RoR
+scale and the scale that actually is
+preferred above the RoR scale is What's
+called the moment magnitude scale and
+often times you'll see a difference you
+see the big letter M but if you see a
+second smaller letter if it's an L
+that's RoR scale or local and if it's a
+W and I can't remember what w stands for
+I'm sure someone else does that is the
+moment magnitude scale it's a better way
+to measure big earthquakes and it
+accounts for all the total energy of the
+earthquake not just the one big wave so
+remember that 1968 Chile earthquake that
+I told you is the biggest one that we've
+measured in the last 100 or so years
+using modern instruments it was an 8.9
+or so on the RoR scale and some of you
+were probably scratching your heads
+you're like wait a minute there was the
+2011 Japan earthquake there was 2004 in
+Indonesia there was an earthquake in 64
+in Alaska and you knew all those were
+bigger than 8.9 well here is the Chile
+earthquake um with a better measure of
+its true energy it comes out at 9.5 and
+that's that's a huge earthquake I'll
+show you how much bigger that Quake
+actually was than some of those other
+nearly equal but not quite as big
+earthquakes that took place uh in in the
+last H 100 or so years um okay so
+hopefully that helps you understand a
+bit about earthquakes in terms of the
+magnitude and intensity oh here's my
+graphic here to show you the energy
+level so that 9.5 quake in Chile in 1960
+if we represent the energy released by
+that earthquake with this big red circle
+let's compare it to the Prince William
+sound earthquake in Alaska 1964 again a
+huge historic catastrophic Quake uh that
+would be represented by this circle uh
+the biggest earthquake of of my lifetime
+I was born after both of those Quakes so
+the biggest earthquake so far on planet
+Earth in my lifetime was this one in
+Indonesia in 2004 uh the great Sumatra
+earthquake 9.1 this generated a tsunami
+that went across the Indian Ocean and
+killed like something like a quarter of
+a million people um right on its heels
+was a big earthquake in Japan a 9.0 in
+2011 uh and then we get to smaller
+Quakes here and then you know
+interestingly the smallest one shown
+here and we'll talk about more about
+this Quake later on the Haiti quake in
+2010 which was only a 7.0 I mean really
+much smaller than all these other ones
+and yet um tragically this was actually
+a very destructive and fatal earthquake
+so there's earthquakes by size
+earthquakes in terms of their um how
+often they occur so magnitude over here
+on the left and then right here in the
+middle these numbers are basically
+averages of how many we see per year on
+planet Earth so magnitude 2 earthquakes
+tons of them there's a million or so of
+those happening all over the globe so
+those are very common magnitude seven
+earthquakes we might get about 20 in a
+given year on average right so that's a
+very much more rare event magnitude 8
+level maybe three depending on the given
+year magnitude 9es it's less than one
+per year um it's usually it's you know
+one every I don't know 30 years 50 years
+something like that so what you can see
+here is a simple relationship that is
+common in most Earth processes and that
+is as you go uh to higher magnitudes
+higher and more energetic events are
+less frequent right small energy events
+small little magnitude to earthquakes
+all the time but more massive
+earthquakes that need to store up and
+release a lot of energy those are much
+more rare and then over on the right
+here um if you need another sort of
+comparison for their size just the
+energy equivalence of different kind of
+common things we might have a reference
+on the hirosima bomb catoa eruption and
+how those would kind of fit with the
+energy release of these different
+earthquakes so fun little thing from the
+USGS there um okay so winding down uh
+looking at two this is a case study
+looking at two Quakes Haiti versus Chile
+both the same year 2010 looking at their
+magnitudes look at the big difference
+here 8.8 versus 7.0 as you've seen with
+that previous diagram with those huge
+circles this is way bigger than this one
+I mean by hundreds of times potenti EV
+the Chile Quake was way bigger than the
+Haiti Quake there's their depths but now
+look at the interesting thing even
+though the magnitude was much more
+massive in the Chile Quake look at the
+intensity level and then look at the
+deaths so the deaths in Haiti were
+approaching a quarter of a million
+people just horrendous numbers here as
+compared to about a little over 500 in
+Chile the intensity level was high in
+both but it was much higher in Haiti
+even though it was a smaller magnitude
+quake so what this gets back to is you
+know you can't always assume that the
+higher magnitude Quake is the most
+destructive because there's plenty of
+instances in history such as this one
+that would show us that that's not the
+case now why well look at the depth
+there was a bit of a difference in the
+depth the Haiti Quake was shallow and
+shallow Quakes are always going to be
+more destructive than deeper ones now
+these aren't too big of a difference but
+might have made some some of the the
+difference here in terms of intensity
+and deaths the other Factor here uh was
+the construction Styles the type of
+buildings in Haiti which is a largely
+underdeveloped country with with poor
+building codes and they often get
+hurricanes so they often tend to build
+roofs that are heavy that are they can
+withstand high winds and and storms but
+those are terrible in earthquakes and
+there was collapse a lot of this
+earthquake took place right under the
+Capital Area so there was a population
+density component so I think the depth
+of the earthquake population density
+construction Styles um of buildings
+those all were big factors as to why we
+see such a big difference here uh in
+these two Quakes so um okay last thing
+the quiz time let's do a quiz question
+to round out this episode so what we
+have here is we're going to compare two
+earthquakes we've learned about
+magnitude and we've learned it's a
+logarithmic scale so a magnitude 6.2
+earthquake releases how many times more
+energy or how much more energy than a
+magnitude 4.2 earthquake there's your
+options there so if you need to pause
+the video and think about it or do some
+complex calculations go ahead and pause
+video okay let's go to it so the first
+thing you want to do here is subtract
+the numbers so 6.2 minus 4.2 gives you
+two which you guys probably all figured
+out quite easily then it's a question of
+what to do with that two do I times it
+by 32 cuz you remember hopefully that
+when you go from from one number to the
+next on the the RoR scale or the moment
+magnitude scale it's a 32-fold increase
+in energy but we have a number
+difference of two so what do I do with
+two and the 32 well you do not times
+them by each other it is not 32 * 2 it
+is not 64 what it actually is the
+correct answer is C the difference in
+magnitudes between the Quakes becomes
+the exponent to 32 because it's an
+exponential or logarithmic scale and
+that add that uh turns out to be
+something close to I just rounded off
+here around a thousand so what I really
+want you to take away from this here is
+not so much getting it right or wrong is
+that a magnitude 6 earthquake is a
+thousand times bigger than a magnitude 4
+or in other words you need a th000
+magnitude 4 Quakes all combined together
+going off all at once to equal the
+energy of a magnitude six and that that
+might hopefully blow your hopefully that
+blows your mind um because I think
+everyone gets the feeling that oh yeah
+8.1 is worse than a 7.6 but do you but
+to understand really the difference um
+you sub you subtract the difference
+those two earthquakes in terms of their
+difference and turn that into the
+exponent to 32 and that gives you the
+energy difference between the Quakes so
+pretty fun stuff there team hopefully
+you enjoyed this we're going to do one
+more episode The Next Episode we'll wrap
+up this section on earthquakes we're
+going to look at earthquake hazards
+basically what earthquakes do thata so
+Much Death and destruction we'll look at
+liquifaction we'll look at Ground
+shaking uh other secondary effects that
+go along with earthquake so thanks for
+joining me appreciate your time and
+we'll see you next time

@@ -1,0 +1,766 @@
+{
+ "schema_version": 1,
+ "target": {
+  "kind": "modulo",
+  "path": "01-gemologia-geral/",
+  "module_id": "01",
+  "course_id": "gemologia"
+ },
+ "mode": "audit-and-fix",
+ "depth": "full",
+ "audited_at": "2026-08-24T00:00:00-03:00",
+ "verdict": "approved",
+ "summary": {
+  "red": 0,
+  "orange": 5,
+  "yellow": 0,
+  "blue": 0,
+  "white": 0,
+  "verified_ok": 34
+ },
+ "findings": [
+  {
+   "claim_id": "GEM-UV-002",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "claim": "Cerca de um terco dos diamantes naturais fluoresce sob onda longa.",
+   "location": {
+    "file": "01-gemologia-geral/01-gemologia-geral-aula-09-fluorescencia-uv-onda-longa-e-onda-curta.md",
+    "section": "O que a fluorescencia ajuda a ver; Recap relampago",
+    "quote": "Cerca de um terco dos diamantes naturais fluoresce sob onda longa"
+   },
+   "problem": "Um terco (33%) e o topo da faixa publicada pelo GIA (25% a 35%) e foi apresentado como valor central. Faltavam duas qualificacoes relevantes: mais de 95% das reacoes sao azuis, e apenas cerca de 10% dos que fluorescem atingem intensidade capaz de afetar a aparencia.",
+   "replacement": "Entre cerca de 25% e 35% dos diamantes naturais submetidos a graduacao apresentam alguma fluorescencia sob onda longa, e mais de 95% dessas reacoes sao azuis, produzidas pelo centro N3. Dos diamantes que fluorescem, apenas cerca de 10% chegam as intensidades media, forte ou muito forte.",
+   "source": {
+    "name": "GIA — Understanding Diamond Fluorescence; Dispelling Myths: The Truth About Diamond Fluorescence; Gems & Gemology Summer 2021",
+    "url": "https://4cs.gia.edu/en-us/blog/understanding-diamond-fluorescence/",
+    "tier": "normative",
+    "version": "consultado em 2026-08-24",
+    "consulted_at": "2026-08-24"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "01-gemologia-geral/01-gemologia-geral-aula-09-fluorescencia-uv-onda-longa-e-onda-curta.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-08-24"
+  },
+  {
+   "claim_id": "GEM-TUR-001",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "claim": "Turquesa tem densidade relativa entre 2,3 e 2,9 e indice de refracao de ponto proximo de 1,61.",
+   "location": {
+    "file": "01-gemologia-geral/01-gemologia-geral-aula-17-opala-turquesa-lapis-lazuli-e-outros-opacos.md",
+    "section": "Turquesa; Recap relampago",
+    "quote": "densidade relativa entre 2,3 e 2,9"
+   },
+   "problem": "O GIA publica DR 2,76 com tolerancia +0,14 / -0,36, ou seja de 2,40 a 2,90. O limite inferior de 2,3 fica abaixo do publicado. O indice de refracao e uma faixa (1,610-1,650), nao um valor unico.",
+   "replacement": "densidade relativa de referencia 2,76, com variacao de cerca de 2,40 a 2,90; indice de refracao de ponto entre 1,61 e 1,65",
+   "source": {
+    "name": "GIA Gem Encyclopedia — Turquoise, gem overview",
+    "url": "https://www.gia.edu/turquoise",
+    "tier": "reference_database",
+    "version": "consultado em 2026-08-24",
+    "consulted_at": "2026-08-24"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "01-gemologia-geral/01-gemologia-geral-aula-17-opala-turquesa-lapis-lazuli-e-outros-opacos.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-08-24"
+  },
+  {
+   "claim_id": "GEM-PROP-003",
+   "severity": "orange",
+   "kind": "omissao_que_gera_erro",
+   "claim": "O grau de lapidacao GIA avalia o resultado visual, o acabamento e a durabilidade do desenho.",
+   "location": {
+    "file": "01-gemologia-geral/01-gemologia-geral-aula-13-proporcoes-desempenho-optico-e-defeitos-de-lapidacao.md",
+    "section": "As proporcoes do brilhante redondo",
+    "quote": "ele avalia o resultado visual, mais o acabamento, mais a durabilidade do desenho"
+   },
+   "problem": "A formulacao vaga sugere tres componentes. O sistema GIA e explicito: sete componentes, tres de aparencia (brilho, fogo, cintilacao) e quatro de projeto e execucao (razao de peso, durabilidade, polimento, simetria), aplicaveis ao brilhante redondo padrao na faixa D-Z.",
+   "replacement": "o sistema avalia sete componentes — tres de aparencia (brilho, fogo e cintilacao) e quatro de projeto e execucao (razao de peso, durabilidade, polimento e simetria)",
+   "source": {
+    "name": "GIA 4Cs — Diamond Cut: Understanding the Cut Scale; GIA Cut Grading System Charts and Booklets",
+    "url": "https://4cs.gia.edu/en-us/diamond-cut/",
+    "tier": "normative",
+    "version": "consultado em 2026-08-24",
+    "consulted_at": "2026-08-24"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "01-gemologia-geral/01-gemologia-geral-aula-13-proporcoes-desempenho-optico-e-defeitos-de-lapidacao.md",
+    "02-diamantes/02-diamantes-aula-09-lapidacao-e-grau-de-cut.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-08-24"
+  },
+  {
+   "claim_id": "GEM-DR-005",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "claim": "Corindon tem densidade relativa de 3,95 a 4,05.",
+   "location": {
+    "file": "01-gemologia-geral/01-gemologia-geral-aula-08-densidade-relativa-e-liquidos-pesados.md",
+    "section": "Faixas de referencia, nao impressoes digitais",
+    "quote": "| Corindon | 3,95-4,05 |"
+   },
+   "problem": "O valor de referencia GIA para corindon e 4,00 com tolerancia +0,10 / -0,05, ou seja ate 4,10. A faixa truncada em 4,05 pode levar o aluno a rejeitar uma leitura legitima de 4,08.",
+   "replacement": "| Corindon | 3,95-4,10 (referencia 4,00) |",
+   "source": {
+    "name": "GIA Gem Encyclopedia — Sapphire/Corundum, gem overview; Mindat",
+    "url": "https://www.gia.edu/gem-encyclopedia",
+    "tier": "reference_database",
+    "version": "consultado em 2026-08-24",
+    "consulted_at": "2026-08-24"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "01-gemologia-geral/01-gemologia-geral-aula-08-densidade-relativa-e-liquidos-pesados.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-08-24"
+  },
+  {
+   "claim_id": "GEM-SIM-004",
+   "severity": "orange",
+   "kind": "inconsistencia_interna",
+   "claim": "As tabelas das aulas 07 e 09 dao faixas diferentes de densidade para o zircao (3,90-4,73 e 4,6-4,7) sem declarar a distincao.",
+   "location": {
+    "file": "01-gemologia-geral/01-gemologia-geral-aula-10-condutividade-termica-eletrica-e-simulantes.md",
+    "section": "Separando os simulantes na bancada",
+    "quote": "| Zircao incolor | 1,925-1,984 | 0,059 (forte) | 4,6-4,7 | 0,039 | 6-7,5 |"
+   },
+   "problem": "As duas faixas estao corretas mas descrevem materiais diferentes: a aula 07 cobre o zircao inteiro, incluindo o metamictico de baixa densidade; a aula 09 descreve o zircao de tipo alto, usado como simulante. Sem declarar a distincao, o material se contradiz aos olhos do aluno.",
+   "replacement": "Rotular a linha como 'Zircao incolor (tipo alto)' e explicar no exemplo trabalhado a diferenca entre zircao de tipo alto e metamictico.",
+   "source": {
+    "name": "GIA Gem Encyclopedia — Zircon; Mindat — zircao e metamictizacao",
+    "url": "https://www.mindat.org/min-4421.html",
+    "tier": "reference_database",
+    "version": "consultado em 2026-08-24",
+    "consulted_at": "2026-08-24"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "01-gemologia-geral/01-gemologia-geral-aula-10-condutividade-termica-eletrica-e-simulantes.md",
+    "01-gemologia-geral/01-gemologia-geral-aula-08-densidade-relativa-e-liquidos-pesados.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-08-24"
+  }
+ ],
+ "verified_claims": [
+  {
+   "claim_id": "GEM-NOM-001",
+   "claim": "Esmeralda e variedade de berilo; ametista e variedade de quartzo.",
+   "source": "Mindat; IMA-CNMNC",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-NOM-002",
+   "claim": "Jade designa nefrita, jadeita e, sob criterios definidos, onfacita verde.",
+   "source": "CIBJO Gemmological Laboratories Blue Book 2024; GIA Jade",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-COR-001",
+   "claim": "No corindon, Cr3+ associa-se a rosa/vermelho e o par Fe2+-Ti4+ a azul.",
+   "source": "GIA, Gems & Gemology Spring 2020",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-ID-001",
+   "claim": "Refratometro, polariscopio, dicroscopio e espectroscopio integram o conjunto padrao GIA.",
+   "source": "GIA Gem Identification",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-INST-001",
+   "claim": "Refratometro com liquido de contato e polariscopio no equipamento basico.",
+   "source": "GIA Gem Identification",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-INST-002",
+   "claim": "Dicroscopio, lupa 10x, espectroscopio e microscopio no equipamento de identificacao.",
+   "source": "GIA Gem Identification",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-FLUXO-001",
+   "claim": "Testes padrao como base da identificacao, com testes avancados conforme necessario.",
+   "source": "GIA, Analysis of Gemstones (2024)",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-DR-001",
+   "claim": "Densidade relativa e razao adimensional entre a massa do material e a de igual volume de agua.",
+   "source": "GIA; Gem-A",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-DR-002",
+   "claim": "DR = P(ar) / [P(ar) - P(agua)].",
+   "source": "Principio de Arquimedes; GIA Gem Identification",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-DR-003",
+   "claim": "Bromoformio 2,89; di-iodometano 3,32; solucao de Clerici 4,15.",
+   "source": "Densidades tabeladas dos reagentes; literatura gemologica",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-DR-004",
+   "claim": "A solucao de Clerici contem sais de talio, e altamente toxica e caiu em desuso.",
+   "source": "Fichas de seguranca de compostos de talio; Gem-A",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-DR-006",
+   "claim": "Diamante 3,52; topazio 3,49-3,57; quartzo 2,65; berilo 2,67-2,90; opala 1,98-2,25; ambar 1,05-1,09.",
+   "source": "GIA Gem Encyclopedia",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-UV-001",
+   "claim": "Onda longa aproximadamente 365 nm; onda curta aproximadamente 254 nm.",
+   "source": "GIA Gem Identification",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-UV-003",
+   "claim": "O GIA registra a fluorescencia do diamante em cinco niveis, como identificacao e nao como qualidade.",
+   "source": "GIA — Diamond Fluorescence",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-UV-004",
+   "claim": "Sinteticos de fusao em chama mostram luminescencia de aspecto giz sob onda curta.",
+   "source": "GIA Gem Identification",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-UV-005",
+   "claim": "Fluorescencia vermelha no rubi vem do cromo e e atenuada por ferro.",
+   "source": "GIA, Gems & Gemology",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-COND-001",
+   "claim": "O diamante tem a maior condutividade termica entre materiais macicos a temperatura ambiente.",
+   "source": "GIA; fisica de materiais",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-COND-002",
+   "claim": "Moissanita aciona o testador termico, o que motivou o teste de condutividade eletrica.",
+   "source": "GIA, Gems & Gemology Summer 1997",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-COND-003",
+   "claim": "Diamante tipo IIb contem boro, e semicondutor e pode ser lido como moissanita.",
+   "source": "GIA — diamond type classification",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-SIM-001",
+   "claim": "RI: diamante 2,417; moissanita 2,648-2,691; CZ 2,15-2,18; YAG 1,833; GGG 1,970.",
+   "source": "GIA Gem Encyclopedia; literatura de simulantes",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-SIM-002",
+   "claim": "Dispersao: diamante 0,044; moissanita 0,104; CZ cerca de 0,060; YAG 0,028; GGG 0,045.",
+   "source": "GIA; literatura de simulantes",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-SIM-003",
+   "claim": "Moissanita tem birrefringencia de cerca de 0,043 e duplica facetas; diamante e isotropico.",
+   "source": "GIA, Gems & Gemology Summer 1997",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-SIM-005",
+   "claim": "CZ tem DR 5,6-6,0; GGG tem DR 7,05; YAG tem DR cerca de 4,55.",
+   "source": "Literatura de simulantes sinteticos",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-LAB-001",
+   "claim": "Tipos Ia/Ib/IIa/IIb sao determinados por FTIR, pela agregacao do nitrogenio.",
+   "source": "GIA — Laboratory-Grown Diamond Identification",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-LAB-002",
+   "claim": "Preenchimentos organicos produzem bandas em cerca de 2800-3000 cm-1.",
+   "source": "GIA; literatura de FTIR",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-LAB-003",
+   "claim": "A linha em 415 nm (centro N3) e indicio de diamante natural.",
+   "source": "GIA, Gems & Gemology",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-LAB-004",
+   "claim": "PL e medida a frio; a feicao em cerca de 737 nm associada ao silicio indica CVD.",
+   "source": "GIA — Laboratory-Grown Diamond Identification",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-LAB-005",
+   "claim": "LA-ICP-MS mede tracos em ppm/ppb, sustenta opiniao de origem e deixa microcrateras.",
+   "source": "GIA, Analysis of Gemstones (2024)",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-CUT-001",
+   "claim": "Partes da gema lapidada: mesa, coroa, cintura, pavilhao e culete.",
+   "source": "GIA — Anatomy of a diamond",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-CUT-002",
+   "claim": "Brilhante redondo padrao tem 57 facetas, ou 58 com culete facetado.",
+   "source": "GIA — Diamond Cut",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-CUT-003",
+   "claim": "Estilo de talhe e forma sao categorias distintas.",
+   "source": "GIA Gem Encyclopedia; CIBJO",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-CUT-004",
+   "claim": "Asterismo e chatoyance exigem lapidacao em cabochao orientado.",
+   "source": "GIA Gem Encyclopedia",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-PROP-001",
+   "claim": "Angulo critico: diamante cerca de 24,4 graus; corindon 34,6; quartzo 40,4.",
+   "source": "Calculo arcsen(1/n) sobre indices GIA",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-PROP-002",
+   "claim": "Brilhante redondo: mesa 53-58%; coroa 34-35 graus; pavilhao 40,6-41,0 graus; profundidade 59-62,5%.",
+   "source": "GIA — Diamond Cut; Gems & Gemology Fall 2004",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-PROP-004",
+   "claim": "Pavilhao raso produz olho de peixe; pavilhao fundo produz cabeca de prego.",
+   "source": "GIA — Diamond Cut",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-FEN-001",
+   "claim": "Chatoyance vem da reflexao de fonte pontual por inclusoes finas e paralelas; a faixa e perpendicular a elas.",
+   "source": "GIA Gem Encyclopedia",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-FEN-002",
+   "claim": "Asterismo de seis raios no corindon vem de rutilo em tres direcoes a 120 graus.",
+   "source": "GIA — Sapphire quality factors",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-FEN-003",
+   "claim": "Apenas o crisoberilo pode ser chamado de olho de gato sem qualificacao.",
+   "source": "GIA — Chrysoberyl; CIBJO",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-FEN-004",
+   "claim": "O tratamento termico dissolve a seda do corindon e destroi o asterismo.",
+   "source": "GIA — corundum heat treatment",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-FEN-005",
+   "claim": "Estrelas excessivamente regulares indicam corindon sintetico com asterismo induzido.",
+   "source": "GIA — synthetic star corundum",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-FEN-006",
+   "claim": "Adularescencia vem do espalhamento por lamelas finissimas de feldspatos separados no resfriamento.",
+   "source": "GIA Gem Encyclopedia — moonstone",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-FEN-007",
+   "claim": "Jogo de cores da opala vem da difracao por esferas de silica ordenadas.",
+   "source": "Jones, Sanders & Segnit, Nature 204 (1964); GIA",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-FEN-008",
+   "claim": "Esferas de cerca de 150 nm produzem violeta e azul; de cerca de 350 nm permitem chegar ao vermelho.",
+   "source": "Jones, Sanders & Segnit (1964); literatura sobre estrutura da opala",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-FEN-009",
+   "claim": "A mudanca de cor da alexandrita vem de duas janelas de transmissao mais o espectro da fonte.",
+   "source": "GIA — Alexandrite quality factors",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-FEN-010",
+   "claim": "Mudanca de cor depende da fonte de luz; pleocroismo depende da direcao de observacao.",
+   "source": "GIA Gem Identification",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-JADE-001",
+   "claim": "Jade cobre nefrita e jadeita; a separacao foi feita por Alexis Damour em 1863.",
+   "source": "GIA Jade; historia da mineralogia",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-JADE-002",
+   "claim": "Nefrita RI 1,60-1,63 e DR 2,90-3,03; jadeita RI cerca de 1,66 e DR 3,30-3,38.",
+   "source": "GIA Gem Encyclopedia; Mindat",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-JADE-003",
+   "claim": "Nefrita nao e especie IMA; e o nome de um agregado de tremolita-actinolita.",
+   "source": "IMA-CNMNC; Mindat",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-JADE-004",
+   "claim": "Sistema comercial A/B/C de jadeita: A natural com cera, B branqueado e impregnado, C tingido, B+C ambos.",
+   "source": "GIA — What is B jade?",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-JADE-005",
+   "claim": "A deteccao de impregnacao polimerica em jadeita e feita por FTIR.",
+   "source": "GIA — jadeite treatment identification",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-JADE-006",
+   "claim": "Jadeita verde natural mostra linha proxima de 437 nm; tingida acrescenta banda larga em torno de 650 nm.",
+   "source": "GIA; literatura gemologica",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-OPA-001",
+   "claim": "Opala: RI 1,37-1,47; DR 1,98-2,25; dureza 5-6,5; agua tipica de 3% a 10%.",
+   "source": "GIA Gem Encyclopedia; Mindat",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-OPA-002",
+   "claim": "Opala hidrofanica absorve agua e muda de aparencia; caracteristica do material de Wollo, Etiopia.",
+   "source": "GIA, Gems & Gemology",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-OPA-003",
+   "claim": "Opala de fogo designa cor de corpo e pode nao apresentar jogo de cores.",
+   "source": "GIA — Opal quality factors",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-LAP-001",
+   "claim": "Lapis-lazuli e rocha de lazurita com calcita e pirita; Sar-e-Sang e a fonte historica.",
+   "source": "GIA — Lapis lazuli; Mindat",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-MAL-001",
+   "claim": "Malaquita: dureza 3,5-4, DR 3,6-4,0, reage com acidos.",
+   "source": "Mindat; GIA",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-DUR-001",
+   "claim": "Durabilidade se decompoe em dureza, tenacidade e estabilidade.",
+   "source": "GIA — Gemstone durability",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-DUR-002",
+   "claim": "A escala de Mohs e ordinal e nao linear.",
+   "source": "GIA; mineralogia",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-DUR-003",
+   "claim": "O diamante tem clivagem octaedrica apesar da dureza 10.",
+   "source": "GIA; Mindat",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-DUR-004",
+   "claim": "Lista de materiais que nao devem ir a ultrassom ou vapor.",
+   "source": "GIA — Gem care and cleaning",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-DUR-005",
+   "claim": "A poeira domestica contem quartzo com dureza 7.",
+   "source": "GIA — Gem care and cleaning",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-MET-001",
+   "claim": "24 K = 999; 18 K = 750; 14 K = 585; 10 K = 417; 9 K = 375.",
+   "source": "CIBJO Precious Metals Blue Book",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-MET-002",
+   "claim": "No Brasil a marcacao de teor e regulada pelo Inmetro e o padrao de mercado e 18 K.",
+   "source": "Inmetro",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-MET-003",
+   "claim": "Densidades: platina cerca de 21,4; ouro puro 19,3; prata 10,5 g/cm3.",
+   "source": "Mindat; tabelas de metais",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-MET-004",
+   "claim": "Ouro branco recebe banho de rodio, que se desgasta com o uso.",
+   "source": "CIBJO; GIA",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-MET-005",
+   "claim": "Prata 925 tem 92,5% de prata e escurece por compostos de enxofre.",
+   "source": "CIBJO Precious Metals Blue Book",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-GEO-001",
+   "claim": "Pegmatitos concentram elementos incompativeis e produzem cristais grandes.",
+   "source": "GIA; petrologia de pegmatitos",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-GEO-002",
+   "claim": "Basaltos alcalinos e kimberlitos transportam gemas profundas sem as gerar.",
+   "source": "GIA, Gems & Gemology",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-GEO-003",
+   "claim": "Esmeralda de xisto se forma por metassomatismo no contato pegmatito-ultramafica.",
+   "source": "GIA, Gems & Gemology — Emerald deposits classification",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-GEO-004",
+   "claim": "Rubi e safira em marmore exigem aluminio disponivel e silica escassa.",
+   "source": "GIA Gem Encyclopedia",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-GEO-005",
+   "claim": "Jadeita gemologica se forma em alta pressao e temperatura relativamente baixa.",
+   "source": "GIA Jade; petrologia metamorfica",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-GEO-006",
+   "claim": "Placers concentram gemas duras, densas e quimicamente estaveis.",
+   "source": "GIA; CPRM/SGB",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-BR-001",
+   "claim": "A Provincia Pegmatitica Oriental e a principal fonte brasileira de agua-marinha, turmalina, morganita e crisoberilo.",
+   "source": "CPRM/SGB",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-BR-002",
+   "claim": "Turmalina Paraiba: Mina da Batalha, elbaita cuprifera, mercado internacional por volta de 1990.",
+   "source": "GIA, Gems & Gemology Fall 2008",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-BR-003",
+   "claim": "Turmalina Paraiba e nome de variedade independente do pais de origem, por convencao LMHC.",
+   "source": "LMHC Information Sheet",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-BR-004",
+   "claim": "Topazio imperial de Ouro Preto nao tem equivalente conhecido em outra localidade.",
+   "source": "CPRM/SGB; GIA",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-BR-005",
+   "claim": "Ametista do Sul (RS) e o maior distrito produtor de ametista do mundo, em geodos da Formacao Serra Geral.",
+   "source": "IBRAM; literatura sobre gemas do RS; CPRM/SGB",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-BR-006",
+   "claim": "Ringwoodita natural foi identificada em inclusao de diamante superprofundo de Juina (MT).",
+   "source": "Pearson et al., Nature 507 (2014)",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-BR-007",
+   "claim": "Dom Pedro, de material de Pedra Azul (MG), e a maior agua-marinha lapidada do mundo.",
+   "source": "Smithsonian NMNH",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-MKT-001",
+   "claim": "O Processo de Kimberley entrou em vigor em 2003 e certifica diamante bruto.",
+   "source": "Kimberley Process; ONU",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-MKT-002",
+   "claim": "A definicao de diamante de conflito do KP se limita a bruto usado por movimentos rebeldes.",
+   "source": "Kimberley Process — texto do esquema",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-MKT-003",
+   "claim": "As tentativas de ampliar a definicao fracassaram em ciclos sucessivos, pela regra do consenso.",
+   "source": "KP Civil Society Coalition; plenarios 2023-2026",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-MKT-004",
+   "claim": "A lista Rapaport e semanal desde 1978 e o mercado negocia em desconto sobre ela.",
+   "source": "Rapaport",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-MKT-005",
+   "claim": "Nao existe lista de precos nem certificacao internacional equivalentes para gemas coradas.",
+   "source": "CIBJO; pratica de mercado",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-REPORT-001",
+   "claim": "O GIA oferece relatorios de identificacao de gemas coradas com tratamentos e, para materiais elegiveis, origem.",
+   "source": "GIA — Colored Stone Reports & Services",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-REPORT-002",
+   "claim": "O LMHC harmoniza terminologia entre laboratorios gemologicos de referencia.",
+   "source": "LMHC",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-REPORT-003",
+   "claim": "'Nenhum tratamento detectado' declara o limite do exame e nao equivale a 'nao tratada'.",
+   "source": "CIBJO Gemmological Laboratories Blue Book 2024",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "GEM-ORIGIN-001",
+   "claim": "O GIA descreve a determinacao de pais de origem como opiniao de especialista.",
+   "source": "GIA — Country of origin and expert opinion",
+   "confidence": "confirmado"
+  }
+ ],
+ "audit_passes": [
+  {
+   "audited_at": "2026-08-27",
+   "mode": "audit-and-fix",
+   "depth": "full",
+   "scope": "alegacoes novas das aulas 01-06 acrescentadas no aprofundamento de 2026-08-25 (GEM-NOM-003..009, GEM-COR-002..009, GEM-DIAG-001..008, GEM-OPT-001..009, GEM-OBS-001..008, GEM-FLUXO-002..006) — pendencia 2 do _contexto.md",
+   "verdict": "Aprovado com correcoes",
+   "summary": {
+    "red": 0,
+    "orange": 1,
+    "yellow": 1,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 38
+   },
+   "verification_method": "revisao contra Gem-A Gemmology Foundation, GIA Gem Encyclopedia, Mindat e IMA-CNMNC, com buscas web dirigidas em 2026-08-27 para faixa de IR do grupo das granadas, valores de IR/DR de berilo/espinelio/moissanita, sinal optico de corindon/berilo/quartzo e a citacao do mecanismo de cor da opala.",
+   "findings": [
+    {
+     "claim_id": "GEM-DIAG-004",
+     "severity": "orange",
+     "kind": "confusao_de_escopo",
+     "claim": "granadas IR 1,714-1,830 (materiais isotropicos, tabela de referencia)",
+     "location": {
+      "file": "01-gemologia-geral/01-gemologia-geral-aula-03-propriedades-diagnosticas-gemologicas.md",
+      "section": "Tabela de valores de referencia; Exemplo trabalhado da aula 04",
+      "quote": "| Granadas (grupo) | 1,714–1,830 |"
+     },
+     "problem": "O limite superior 1,830 e o maximo da almandina, nao do grupo. Andradita e sua variedade gema demantoide alcancam cerca de 1,88-1,895 (GIA/Webster). Como escrita, a faixa levaria a rejeitar uma leitura legitima de demantoide (~1,885) como 'nao granada'.",
+     "replacement": "granadas 1,714–1,888 (grupo, do piropo a andradita/demantoide)",
+     "source": {
+      "name": "GIA — A Proposed New Classification for Gem-Quality Garnets; Mindat garnet group; Webster, Gems",
+      "level": "base de referencia",
+      "version": "consultado 2026-08-27"
+     },
+     "confidence": "confirmado",
+     "also_in": [
+      "01-gemologia-geral/01-gemologia-geral-aula-04-refratometro-e-polariscopio.md"
+     ],
+     "outcome": "corrigido",
+     "applied_at": "2026-08-27",
+     "affected_files": [
+      "01-gemologia-geral/01-gemologia-geral-aula-03-propriedades-diagnosticas-gemologicas.md",
+      "01-gemologia-geral/01-gemologia-geral-aula-04-refratometro-e-polariscopio.md"
+     ]
+    },
+    {
+     "claim_id": "GEM-COR-006",
+     "severity": "yellow",
+     "kind": "desatualizacao",
+     "claim": "jogo de cores da opala: mecanismo estabelecido por Jones, Sanders e Segnit em Nature 204 (1964)",
+     "location": {
+      "file": "01-gemologia-geral/01-gemologia-geral-aula-02-origem-da-cor-nas-gemas.md",
+      "section": "Cor por efeito fisico; Fontes consultadas",
+      "quote": "O mecanismo foi estabelecido por Jones, Sanders e Segnit em 1964."
+     },
+     "problem": "O artigo Jones, Sanders & Segnit 'Structure of Opal' (Nature 204:990-991) trata do arranjo de esferas. O mecanismo de DIFRACAO DA COR foi demonstrado por J. V. Sanders, 'Colour of Precious Opal', Nature 204:1151-1153 (1964) — artigo distinto, do mesmo volume. A atribuicao do mecanismo de cor ao artigo de estrutura e imprecisa.",
+     "replacement": "O arranjo de esferas foi descrito por Jones, Sanders & Segnit (Nature 204, 990, 1964) e o mecanismo de difracao da cor demonstrado por Sanders (Nature 204, 1151, 1964).",
+     "source": {
+      "name": "Sanders, Colour of Precious Opal, Nature 204, 1151-1153 (1964); Jones, Sanders & Segnit, Structure of Opal, Nature 204, 990-991 (1964)",
+      "level": "revisada por pares",
+      "version": "1964"
+     },
+     "confidence": "confirmado",
+     "also_in": [
+      "01-gemologia-geral/01-gemologia-geral-flashcards-basic.csv",
+      "01-gemologia-geral/01-gemologia-geral-flashcards-cloze.csv",
+      "01-gemologia-geral/01-gemologia-geral-flashcards.md"
+     ],
+     "outcome": "corrigido",
+     "applied_at": "2026-08-27",
+     "affected_files": [
+      "01-gemologia-geral/01-gemologia-geral-aula-02-origem-da-cor-nas-gemas.md",
+      "01-gemologia-geral/01-gemologia-geral-flashcards-basic.csv",
+      "01-gemologia-geral/01-gemologia-geral-flashcards-cloze.csv",
+      "01-gemologia-geral/01-gemologia-geral-flashcards.md"
+     ]
+    }
+   ],
+   "notes": "As ~38 demais alegacoes verificam contra as fontes normativas e de referencia: faixas de IR e DR de quartzo, berilo, topazio, turmalina, peridoto, corindon, fluorita, espinelio, CZ, diamante e moissanita; angulos criticos (diamante 24,4 graus, corindon 34,6, quartzo 40,4 — coerentes com arcsen(1/n)); classes opticas por sistema cristalino; sinais opticos (corindon e berilo negativos, quartzo positivo); lei de Snell e angulo critico; centros de cor da ametista e rota ametista->citrino por aquecimento; idiocromatico/alocromatico/pseudocromatico; transferencia de carga vs campo cristalino; faixa visivel ~380-780 nm; nomenclatura IMA (variedade nao e categoria IMA; granada e turmalina sao grupos), reserva de 'sintetico', misnomers (topazio-fume, diamante Herkimer), pedra preciosa/semipreciosa (CIBJO), jade (nefrita/jadeita/onfacita); ADR em granada/espinelio/vidro/ambar; efeito de flash; escopo de laudo; cinco perguntas do oficio e opiniao de origem."
+  }
+ ]
+}

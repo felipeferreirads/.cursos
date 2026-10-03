@@ -1,0 +1,897 @@
+{
+ "schema_version": 1,
+ "target": {
+  "kind": "modulo",
+  "path": "34-sistemas-hidrotermais-metalogenese/",
+  "module_id": "34",
+  "course_id": "geologia-avancado"
+ },
+ "mode": "audit-and-fix",
+ "depth": "full",
+ "audited_at": "2026-09-29",
+ "verdict": "approved",
+ "summary": {
+  "red": 5,
+  "orange": 11,
+  "yellow": 1,
+  "blue": 5,
+  "white": 0,
+  "verified_ok": 52
+ },
+ "findings": [
+  {
+   "claim_id": "HID-M34-A02-ZONAMENTO-006",
+   "severity": "red",
+   "kind": "erro_factual",
+   "location": {
+    "file": "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-02-alteracao-hidrotermal-estilos-zonamentos.md",
+    "section": "O zonamento como resultado de perda de acidez e calor",
+    "quote": "telescopado: o colapso do sistema superpoe alteracao de alta temperatura sobre alteracao de baixa temperatura"
+   },
+   "claim": "telescopado: o colapso do sistema superpoe alteracao de alta temperatura sobre alteracao de baixa temperatura",
+   "problem": "[1] INVERSAO. Telescopagem = declinio termico + rebaixamento da paleossuperficie; alteracao mais fria e rasa (sericitica, argilica avancada) se superpoe a mais quente e antiga (potassica).",
+   "replacement": "Frase reescrita com o sentido correto (Sillitoe 2010)",
+   "source": {
+    "name": "Sillitoe 2010 Econ Geol 105:3-41",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-02-alteracao-hidrotermal-estilos-zonamentos.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "HID-M34-A05-TECTONICA-005",
+   "severity": "red",
+   "kind": "erro_factual",
+   "location": {
+    "file": "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-05-depositos-epitermais-caldeiras-vulcanicas.md",
+    "section": "Controle tectonico e caldeiras",
+    "quote": "Arcos em compressao favorecem HS; arcos com extensao favorecem LS e IS"
+   },
+   "claim": "Arcos em compressao favorecem HS; arcos com extensao favorecem LS e IS",
+   "problem": "[2] HS e IS ocorrem juntas em arcos andesitico-daciticos neutros a levemente extensionais (ambiente dos porfiros); LS em riftes com vulcanismo bimodal.",
+   "replacement": "Dois itens reescritos",
+   "source": {
+    "name": "Sillitoe & Hedenquist 2003 SEG SP10:315-343",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-05-depositos-epitermais-caldeiras-vulcanicas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "HID-M34-A10-ANALOGOS-005",
+   "severity": "red",
+   "kind": "erro_factual",
+   "location": {
+    "file": "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-10-criterios-prospeccao-analogos-modernos-antigos.md",
+    "section": "Analogos modernos",
+    "quote": "Campos geotermicos de arcos vulcanicos (Nova Zelandia, Islandia e Filipinas)"
+   },
+   "claim": "Campos geotermicos de arcos vulcanicos (Nova Zelandia, Islandia e Filipinas)",
+   "problem": "[3] Islandia e dorsal meso-atlantica emersa com pluma, nao arco. Tambem: black smokers atribuidos a Corliss 1979 (ver achado 8).",
+   "replacement": "Zona Vulcanica de Taupo (Broadlands-Ohaaki) e Filipinas; nota sobre Islandia; Spiess et al. 1980 para black smokers",
+   "source": {
+    "name": "Econ Geol 95(5):971 (Broadlands-Ohaaki); Spiess et al. 1980 Science 207:1421-1433",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-10-criterios-prospeccao-analogos-modernos-antigos.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "HID-M34-A05-TAPAJOS-006",
+   "severity": "red",
+   "kind": "erro_factual",
+   "location": {
+    "file": "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-05-depositos-epitermais-caldeiras-vulcanicas.md",
+    "section": "Controle tectonico e caldeiras (Tapajos); Fontes",
+    "quote": "Juliani et al. 2005, Mineralium Deposita 40"
+   },
+   "claim": "Juliani et al. 2005, Mineralium Deposita 40",
+   "problem": "[4] Referencia correta: Juliani et al. 2005, Chemical Geology 215:95-125, titulo completo com 'geology, mineralogy, alunite argon age, and stable-isotope constraints'. Conteudo confirmado; acrescentado complexo de caldeiras aninhadas e primeira evidencia de HS no Craton Amazonico.",
+   "replacement": "Referencia e frase corrigidas",
+   "source": {
+    "name": "Juliani et al. 2005 Chem Geol 215:95-125",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-05-depositos-epitermais-caldeiras-vulcanicas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "HID-M34-A08-BRASIL-006",
+   "severity": "red",
+   "kind": "erro_factual",
+   "location": {
+    "file": "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-08-ouro-orogenico-e-tipo-carlin.md",
+    "section": "Distribuicao no tempo e exemplos brasileiros; Fontes",
+    "quote": "Lobato et al. 2001, 'Styles of hydrothermal alteration...', Rev Bras Geoc 31"
+   },
+   "claim": "Lobato et al. 2001, 'Styles of hydrothermal alteration...', Rev Bras Geoc 31",
+   "problem": "[5] Referencia hibrida: serie 'Styles...' e RBG 28(3) 1998; em 2001 e Lobato, Ribeiro-Rodrigues & Vieira, Miner Deposita 36:249-277. Frase vaga sugeria Morro Velho em formacao ferrifera; reescrita com os tres estilos (Cuiaba = substituicao de BIF).",
+   "replacement": "Referencia e frase corrigidas; Crixas desmembrado para HID-M34-A08-CRIXAS-010",
+   "source": {
+    "name": "Lobato, Ribeiro-Rodrigues & Vieira 2001 Miner Deposita 36:249-277; Lobato et al. 1998 RBG 28(3):339-354",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-08-ouro-orogenico-e-tipo-carlin.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "HID-M34-A09-MARAROSA-005",
+   "severity": "orange",
+   "kind": "omissao_que_gera_erro",
+   "location": {
+    "file": "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-09-alteracao-hidrotermal-metamorfisada-terrenos-antigos.md",
+    "section": "Exemplo brasileiro: Mara Rosa; Recap; Fontes",
+    "quote": "Chapada e Posse interpretados como sistemas porfiro/epitermal metamorfisados"
+   },
+   "claim": "Chapada e Posse interpretados como sistemas porfiro/epitermal metamorfisados",
+   "problem": "[6] Chapada: porfiro Cu-Au metamorfisado, cianita = halo argilico metamorfisado, evento de cisalhamento sobreposto (Oliveira et al. 2016). Posse: ouro em zona de cisalhamento, filiacao aberta. Fonte primaria ausente.",
+   "replacement": "Paragrafo, recap, Fontes e Aula 10 reescritos",
+   "source": {
+    "name": "Oliveira et al. 2016 Ore Geol Rev 72:1-21; CPR Posse Gold Project (Hochschild 2022)",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-09-alteracao-hidrotermal-metamorfisada-terrenos-antigos.md",
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-10-criterios-prospeccao-analogos-modernos-antigos.md"
+   ],
+   "outcome": "corrigido_com_ressalva",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "HID-M34-A06-SEDEX-005",
+   "severity": "orange",
+   "kind": "certeza_indevida",
+   "location": {
+    "file": "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-06-sistemas-exalativos-vhms-sedex.md",
+    "section": "SEDEX; tabela VHMS x SEDEX",
+    "quote": "O fluido e uma salmoura de bacia, oxidada"
+   },
+   "claim": "O fluido e uma salmoura de bacia, oxidada",
+   "problem": "[7] Cooke et al. 2000: salmoura oxidada (tipo McArthur: HYC, Mount Isa) ou reduzida (tipo Selwyn: Sullivan, Rammelsberg).",
+   "replacement": "Texto, tabela e Fontes",
+   "source": {
+    "name": "Cooke, Bull, Large & McGoldrick 2000 Econ Geol 95:1-18",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-06-sistemas-exalativos-vhms-sedex.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "HID-M34-A06-VHMS-MOTOR-001",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-06-sistemas-exalativos-vhms-sedex.md",
+    "section": "VHMS passo 3",
+    "quote": "black smokers descobertos no fim dos anos 1970 (Corliss et al. 1979)"
+   },
+   "claim": "black smokers descobertos no fim dos anos 1970 (Corliss et al. 1979)",
+   "problem": "[8] Corliss 1979 = fontes mornas de Galapagos (1977); black smokers = Dorsal do Pacifico Leste 21N, 1979, 380+-30 C (Spiess et al. 1980).",
+   "replacement": "Duas descobertas separadas; Spiess 1980 nas Fontes",
+   "source": {
+    "name": "Corliss et al. 1979 Science 203:1073-1083; Spiess et al. 1980 Science 207:1421-1433",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-06-sistemas-exalativos-vhms-sedex.md",
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-10-criterios-prospeccao-analogos-modernos-antigos.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "HID-M34-A08-CONTINUUM-002",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-08-ouro-orogenico-e-tipo-carlin.md",
+    "section": "Ouro orogenico: continuum crustal",
+    "quote": "condicoes do facies xisto-verde superior ao anfibolito"
+   },
+   "claim": "condicoes do facies xisto-verde superior ao anfibolito",
+   "problem": "[9] Groves et al. 1998: sub-xisto-verde a granulito, ~2-20 km, maioria em xisto-verde; epi/meso/hipozonal.",
+   "replacement": "Faixa corrigida",
+   "source": {
+    "name": "Groves et al. 1998 Ore Geol Rev 13:7-27",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-08-ouro-orogenico-e-tipo-carlin.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "HID-M34-A05-TRES-TIPOS-002",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-05-depositos-epitermais-caldeiras-vulcanicas.md",
+    "section": "Tabela dos tres tipos (LS); Recap",
+    "quote": "LS: pirita, esfalerita, galena; Au-Ag, com Zn-Pb"
+   },
+   "claim": "LS: pirita, esfalerita, galena; Au-Ag, com Zn-Pb",
+   "problem": "[10] LS: pirita-pirrotita-arsenopirita, esfalerita rica em Fe, metais-base subordinados; Zn-Pb com esfalerita pobre em Fe e marca de IS.",
+   "replacement": "Linha da tabela e recap",
+   "source": {
+    "name": "Einaudi, Hedenquist & Inan 2003; Sillitoe & Hedenquist 2003; Hedenquist et al. 2000",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-05-depositos-epitermais-caldeiras-vulcanicas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "HID-M34-A04-ALTAFLORESTA-006",
+   "severity": "orange",
+   "kind": "omissao_que_gera_erro",
+   "location": {
+    "file": "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-04-sistemas-magmatico-hidrotermais-parte-2-skarns-irgs.md",
+    "section": "IRGS: exemplo brasileiro; Recap; Fontes",
+    "quote": "Serrinha descrito como deposito aurifero relacionado a granito (na secao de IRGS)"
+   },
+   "claim": "Serrinha descrito como deposito aurifero relacionado a granito (na secao de IRGS)",
+   "problem": "[11] Moura et al. 2006: Serrinha ligado ao monzogranito Matupa, calcio-alcalino tipo I (1872+-12 Ma), proximal, semelhante a estilo porfiro; nao e IRGS reduzido estrito. Titulo das Fontes corrigido (Southern Amazonia).",
+   "replacement": "Paragrafo, recap e Fontes",
+   "source": {
+    "name": "Moura, Botelho, Olivo & Kyser 2006 Econ Geol 101:585-605",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-04-sistemas-magmatico-hidrotermais-parte-2-skarns-irgs.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "HID-M34-A03-DEFINICAO-001",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-03-sistemas-magmatico-hidrotermais-parte-1-porfiros.md",
+    "section": "O que e um deposito do tipo porfiro",
+    "quote": "porfiros respondem por parcela dominante da producao mundial de cobre e Mo"
+   },
+   "claim": "porfiros respondem por parcela dominante da producao mundial de cobre e Mo",
+   "problem": "[12] Sillitoe 2010: quase tres quartos do Cu e metade do Mo.",
+   "replacement": "Frase quantificada",
+   "source": {
+    "name": "Sillitoe 2010 Econ Geol 105:3-41",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-03-sistemas-magmatico-hidrotermais-parte-1-porfiros.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "HID-M34-A06-CLASSIFICACAO-VHMS-003",
+   "severity": "orange",
+   "kind": "omissao_que_gera_erro",
+   "location": {
+    "file": "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-06-sistemas-exalativos-vhms-sedex.md",
+    "section": "Classificacao de VHMS",
+    "quote": "(maficos, bimodais maficos, bimodais felsicos, siliciclasticos-felsicos)"
+   },
+   "claim": "(maficos, bimodais maficos, bimodais felsicos, siliciclasticos-felsicos)",
+   "problem": "[13] Franklin et al. 2005 tem cinco tipos: bimodal-mafico, mafico, pelitico-mafico, bimodal-felsico, siliciclastico-felsico.",
+   "replacement": "Lista completada",
+   "source": {
+    "name": "Franklin et al. 2005 Econ Geol 100th Anniv:523-560",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-06-sistemas-exalativos-vhms-sedex.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "HID-M34-A05-DEFINICAO-001",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-05-depositos-epitermais-caldeiras-vulcanicas.md",
+    "section": "Epitermal: conceito; Recap",
+    "quote": "O termo epitermal foi proposto para depositos ... ate cerca de um a dois quilometros ... (Simmons et al. 2005)"
+   },
+   "claim": "O termo epitermal foi proposto para depositos ... ate cerca de um a dois quilometros ... (Simmons et al. 2005)",
+   "problem": "[14] Termo de Lindgren (1922, 1933); definicao moderna ate ~1,5 km e ~150-300 C (Hedenquist et al. 2000; Simmons et al. 2005).",
+   "replacement": "Frase e recap",
+   "source": {
+    "name": "Simmons, White & John 2005; Hedenquist et al. 2000",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-05-depositos-epitermais-caldeiras-vulcanicas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "HID-M34-A09-EXEMPLO-006",
+   "severity": "orange",
+   "kind": "confusao_de_escopo",
+   "location": {
+    "file": "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-09-alteracao-hidrotermal-metamorfisada-terrenos-antigos.md",
+    "section": "Exemplo trabalhado, passo 3",
+    "quote": "Argilica avancada acima e cloritica abaixo e o par classico de um sistema vulcanogenico ou epitermal-porfiro"
+   },
+   "claim": "Argilica avancada acima e cloritica abaixo e o par classico de um sistema vulcanogenico ou epitermal-porfiro",
+   "problem": "[15] Par acima/abaixo e de porfiro-epitermal; em VHMS o nucleo cloritico e envolvido por halo sericitico/aluminoso; o enunciado nao da posicao vertical.",
+   "replacement": "Passo reescrito com as duas leituras",
+   "source": {
+    "name": "Franklin et al. 2005; Galley et al. 2007; Sillitoe 2010; Bonnet & Corriveau 2007",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-09-alteracao-hidrotermal-metamorfisada-terrenos-antigos.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "HID-M34-A07-MVT-BRASIL-004",
+   "severity": "yellow",
+   "kind": "desatualizacao",
+   "location": {
+    "file": "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-07-fluidos-basinais-mvt-iocg.md",
+    "section": "MVT: exemplos brasileiros",
+    "quote": "Morro Agudo hospedado em carbonatos neoproterozoicos do Grupo Bambui"
+   },
+   "claim": "Morro Agudo hospedado em carbonatos neoproterozoicos do Grupo Bambui",
+   "problem": "[16] Morro Agudo esta no Grupo Vazante (idade meso a neoproterozoica discutida; antes incluido no Bambui); classificado como SEDEX, irlandes e MVT; recente: MVT (Cordeiro et al. 2018). Vazante: willemita hipogenica em zona de cisalhamento (Monteiro et al. 2006).",
+   "replacement": "Frase reescrita, nome antigo mantido como referencia historica",
+   "source": {
+    "name": "Cordeiro et al. 2018 Ore Geol Rev 101:437-452; Monteiro et al. 2006 Ore Geol Rev 28:201-234",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-07-fluidos-basinais-mvt-iocg.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "HID-M34-A06-EXEMPLO-007",
+   "severity": "blue",
+   "kind": "evidencia_insuficiente",
+   "location": {
+    "file": "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-06-sistemas-exalativos-vhms-sedex.md",
+    "section": "Exemplo trabalhado, passo 4",
+    "quote": "seguir a direcao em que a clorita fica mais intensa e mais rica em Mg"
+   },
+   "claim": "seguir a direcao em que a clorita fica mais intensa e mais rica em Mg",
+   "problem": "[17] Intensidade da cloritizacao como vetor: confirmada. Sentido do gradiente Fe/Mg: nao confirmado como regra (varia entre depositos). Afirmacao retirada.",
+   "replacement": "Passo reescrito sem sentido fixo do gradiente",
+   "source": {
+    "name": "Galley 2007; vetores no Cinturao Piritico Iberico (Solid Earth 12:1931, 2021)",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "nao_verificado",
+   "affected_files": [
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-06-sistemas-exalativos-vhms-sedex.md"
+   ],
+   "outcome": "corrigido_com_ressalva",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "HID-M34-A04-SERIDO-004",
+   "severity": "blue",
+   "kind": "evidencia_insuficiente",
+   "location": {
+    "file": "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-04-sistemas-magmatico-hidrotermais-parte-2-skarns-irgs.md",
+    "section": "Exemplo brasileiro de skarn de W",
+    "quote": "Brejui: scheelita em skarns em rochas calcio-silicaticas e marmores do Grupo Serido (a conferir)"
+   },
+   "claim": "Brejui: scheelita em skarns em rochas calcio-silicaticas e marmores do Grupo Serido (a conferir)",
+   "problem": "[18] Confirmado: skarns na Formacao Jucurutu (Grupo Serido), contato marmore-gnaisse, plutons brasilianos; Brejui = skarn W-Mo em marmores (Souza Neto et al. 2008).",
+   "replacement": "Reescrito com fonte; aviso retirado",
+   "source": {
+    "name": "Souza Neto et al. 2008 Miner Deposita 43:185-205; Mindat Brejui",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-04-sistemas-magmatico-hidrotermais-parte-2-skarns-irgs.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "HID-M34-A06-VHMS-BRASIL-004",
+   "severity": "blue",
+   "kind": "evidencia_insuficiente",
+   "location": {
+    "file": "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-06-sistemas-exalativos-vhms-sedex.md",
+    "section": "VHMS: exemplos brasileiros",
+    "quote": "Zn-Cu de Palmeiropolis (TO) e distrito de Aripuana (MT) (a conferir)"
+   },
+   "claim": "Zn-Cu de Palmeiropolis (TO) e distrito de Aripuana (MT) (a conferir)",
+   "problem": "[19] Confirmado: Palmeiropolis VMS Zn-Pb-Cu mesoproterozoico em facies anfibolito (Oliveira et al. 2022); Aripuana VMS Zn-Pb-Ag (Au-Cu) paleoproterozoico, caldeira submarina (Biondi et al. 2013).",
+   "replacement": "Reescrito com fontes; aviso retirado",
+   "source": {
+    "name": "Oliveira, Torresi & Rossi 2022 Appl Earth Sci 131(2); Biondi, Santos & Cury 2013 Econ Geol 108:781-811",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-06-sistemas-exalativos-vhms-sedex.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "HID-M34-A08-CRIXAS-010",
+   "severity": "blue",
+   "kind": "evidencia_insuficiente",
+   "location": {
+    "file": "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-08-ouro-orogenico-e-tipo-carlin.md",
+    "section": "Exemplos brasileiros: Crixas",
+    "quote": "Crixas (GO), ouro em zonas de cisalhamento (Serra Grande) (a conferir)"
+   },
+   "claim": "Crixas (GO), ouro em zonas de cisalhamento (Serra Grande) (a conferir)",
+   "problem": "[20] Claim novo (desmembrado de A08-BRASIL-006). Confirmado: ouro orogenico, corpos controlados por falhas de empurrao de angulo baixo a moderado, Mineracao Serra Grande (Ulrich et al. 2021).",
+   "replacement": "Reescrito com fonte; claim acrescentado a aula",
+   "source": {
+    "name": "Ulrich et al. 2021 Minerals 11:1050",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-08-ouro-orogenico-e-tipo-carlin.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "HID-M34-MOD-PENDENCIAS-REDACAO-001",
+   "severity": "blue",
+   "kind": "evidencia_insuficiente",
+   "location": {
+    "file": "34-sistemas-hidrotermais-metalogenese/",
+    "section": "Aulas 04-09 (texto e Fontes); metadados 03-10",
+    "quote": "avisos 'a conferir na auditoria' / 'fonte primaria a definir' no texto do aluno"
+   },
+   "claim": "avisos 'a conferir na auditoria' / 'fonte primaria a definir' no texto do aluno",
+   "problem": "[21] Avisos de redacao visiveis ao aluno; todos os pontos conferidos (achados 4-6, 16, 18-20) e avisos retirados; Carajas sem idade no texto, frase de aviso retirada.",
+   "replacement": "Avisos retirados; campos source dos metadados atualizados",
+   "source": {
+    "name": "ver achados citados",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-03-sistemas-magmatico-hidrotermais-parte-1-porfiros.md",
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-04-sistemas-magmatico-hidrotermais-parte-2-skarns-irgs.md",
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-05-depositos-epitermais-caldeiras-vulcanicas.md",
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-06-sistemas-exalativos-vhms-sedex.md",
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-07-fluidos-basinais-mvt-iocg.md",
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-08-ouro-orogenico-e-tipo-carlin.md",
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-09-alteracao-hidrotermal-metamorfisada-terrenos-antigos.md",
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-10-criterios-prospeccao-analogos-modernos-antigos.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "HID-M34-A03-ZONAMENTO-002",
+   "severity": "orange",
+   "kind": "inconsistencia_interna",
+   "location": {
+    "file": "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-03-sistemas-magmatico-hidrotermais-parte-1-porfiros.md",
+    "section": "O que e um deposito do tipo porfiro (arquitetura); Recap; Aula 02 zonamento",
+    "quote": "Arquitetura vertical resumida (Lowell & Guilbert 1970; Sillitoe 2010): nucleo potassico, halo sericitico, franja propilitica externa, lithocap"
+   },
+   "claim": "Arquitetura vertical resumida (Lowell & Guilbert 1970; Sillitoe 2010): nucleo potassico, halo sericitico, franja propilitica externa, lithocap",
+   "problem": "[22] Contradiz o Modulo 22 (achado GEOMOD3D-M22-A04-ZONEAMENTOPORFIRO-005): halos concentricos de Lowell & Guilbert sao o modelo historico; Sillitoe 2010 descreve pilha vertical sodico-calcica, potassica, clorita-sericita, sericitica, argilica avancada, com propilitica distal e profunda.",
+   "replacement": "Aula 03 (lista e recap) e Aula 02 (frase) alinhadas a Sillitoe 2010 e ao Modulo 22",
+   "source": {
+    "name": "Sillitoe 2010 Econ Geol 105:3-41; Lowell & Guilbert 1970 Econ Geol 65:373-408",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-03-sistemas-magmatico-hidrotermais-parte-1-porfiros.md",
+    "34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-aula-02-alteracao-hidrotermal-estilos-zonamentos.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  }
+ ],
+ "verified_claims": [
+  {
+   "claim_id": "HID-M34-A01-FONTES-001",
+   "claim": "Cinco reservatórios de água; a fonte condiciona salinidade, ligantes e redox",
+   "source": "Robb 2005; Pirajno 2009; Hedenquist & Lowenstern 1994, *Nature* 370:519-527",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A01-ISOTOPOS-002",
+   "claim": "Reta meteórica δD = 8δ¹⁸O + 10 (Craig 1961, *Science* 133:1702-1703); campos magmático e metamórfico (Taylor 1974, *Econ. Geol.* 69:843-883); isótopos restringem, não provam",
+   "source": "Craig 1961; Taylor 1974",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A01-LIGANTES-003",
+   "claim": "Cloreto para Cu-Ag-Zn-Pb-Fe; Au(HS)₂⁻ em fluido de baixa salinidade e pH quase neutro",
+   "source": "Seward & Barnes 1997",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A01-GATILHOS-004",
+   "claim": "Quatro gatilhos; ponto crítico da água ~374 °C, ~22 MPa",
+   "source": "Robb 2005; valor termodinâmico padrão (373,9 °C; 22,06 MPa)",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A01-HIDROLISE-005",
+   "claim": "Hidrólise e razão cátion/H⁺ organizam a alteração (feldspato → sericita → caulinita/pirofilita)",
+   "source": "Hemley & Jones 1964, *Econ. Geol.* 59:538-569 (resumo conferido); Reed 1997",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A01-CLASSIFICACAO-006",
+   "claim": "Classificação calor × fluido é didática; orogênico e IOCG com fonte debatida",
+   "source": "Pirajno 2009; Goldfarb & Groves 2015; Barton 2014",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A01-EXEMPLO-007",
+   "claim": "Exemplo hipotético; lógica de ebulição e mistura coerente",
+   "source": "—",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A02-PRINCIPIO-001",
+   "claim": "Assembleia função de T e acidez (a_K⁺/a_H⁺)",
+   "source": "Meyer & Hemley 1967; Hemley & Jones 1964",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A02-ALCALINA-002",
+   "claim": "Sódica e potássica de alta T; potássica no núcleo dos pórfiros",
+   "source": "Seedorff et al. 2005; Sillitoe 2010",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A02-HIDROLITICA-003",
+   "claim": "Sericítica (qz-ser-py); argílica intermediária × avançada",
+   "source": "Sillitoe 2010; Corbett & Leach 1998",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A02-PROPILITICA-004",
+   "claim": "Propilítica distal e pouco diagnóstica",
+   "source": "Lowell & Guilbert 1970; Sillitoe 2010",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A02-CLORITICA-CARBONATICA-005",
+   "claim": "Cloritização em condutos de VHMS; carbonatização depende do CO₂",
+   "source": "Franklin et al. 2005; Groves et al. 1998",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A02-EXEMPLO-007",
+   "claim": "Seção hipotética interpretada como pórfiro com *lithocap*",
+   "source": "—",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A03-VEIOS-003",
+   "claim": "Veios A, B, D de El Salvador",
+   "source": "Gustafson & Hunt 1975, *Econ. Geol.* 70:857-912",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A03-FLUIDOS-004",
+   "claim": "Fluido magmático → vapor + salmoura; condensado ácido forma o *lithocap*",
+   "source": "Hedenquist & Lowenstern 1994; Sillitoe 2010",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A03-TECTONICA-005",
+   "claim": "Arcos convergentes; precursores de Richards 2003 (*Econ. Geol.* 98:1515-1533); Sr/Y debatido",
+   "source": "Richards 2003; Cooke, Hollings & Walshe 2005, *Econ. Geol.* 100:801-818",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A03-VARIANTES-006",
+   "claim": "Oxidado, reduzido (Rowins 2000, *Geology* 28:491-494), alcalino; Cadia (NSW, Austrália), Galore Creek (Colúmbia Britânica, Canadá)",
+   "source": "Rowins 2000; Holliday & Cooke 2007 (Exploration 07:791-809, conferido)",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A03-EXEMPLO-007",
+   "claim": "Exemplo hipotético de pórfiro oxidado",
+   "source": "—",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A04-SKARN-001",
+   "claim": "Skarn como rocha; exo × endoskarn",
+   "source": "Meinert 1992; Meinert et al. 2005",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A04-PROGRADO-RETROGRADO-002",
+   "claim": "Progrado anidro → retrógrado hidratado com minério",
+   "source": "Meinert et al. 2005",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A04-CLASSES-003",
+   "claim": "Classes por metal como tendências redox",
+   "source": "Meinert 1992; Meinert et al. 2005",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A04-IRGS-005",
+   "claim": "IRGS do Yukon-Alasca (Fort Knox), série da ilmenita, Au-Bi-Te-As-W, baixo sulfeto, fluido rico em CO₂",
+   "source": "Thompson et al. 1999; Lang & Baker 2001; Hart 2007 (GAC SP5:95-112, conferido)",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A04-EXEMPLO-007",
+   "claim": "Exemplo hipotético de skarn de W",
+   "source": "—",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A05-EBULICAO-003",
+   "claim": "Ebulição, perda de H₂S/CO₂, pH sobe; texturas crustiformes, calcita lamelar, adulária",
+   "source": "White & Hedenquist 1990; Simmons et al. 2005",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A05-CONTINUUM-004",
+   "claim": "Pórfiro-HS-LS/IS como partes de um sistema",
+   "source": "Sillitoe 2010; Sillitoe & Hedenquist 2003",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A05-EXEMPLO-007",
+   "claim": "Exemplo hipotético de HS e LS no mesmo distrito",
+   "source": "—",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A06-ARQUITETURA-002",
+   "claim": "Monte, *stockwork* Cu-rico, pé de parede clorítico-sericítico, exalito",
+   "source": "Franklin et al. 2005; Spry, Peter & Slack 2000",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A06-DEBATE-006",
+   "claim": "SEDEX com componente de substituição; Broken Hill debatido",
+   "source": "Leach et al. 2005, 2010",
+   "confidence": "em_disputa"
+  },
+  {
+   "claim_id": "HID-M34-A07-MVT-001",
+   "claim": "MVT: Zn-Pb epigenético em carbonato, salmoura de baixa T, dolomita em sela",
+   "source": "Leach et al. 2005, 2010",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A07-MVT-AMBIENTE-002",
+   "claim": "Bacias de antepaís; fluxo gravitacional",
+   "source": "Leach et al. 2005",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A07-MVT-GATILHO-003",
+   "claim": "Mistura × redução de sulfato",
+   "source": "Leach et al. 2005",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A07-IOCG-DEFINICAO-005",
+   "claim": "IOCG: óxido de Fe pobre em Ti, Cu-Au, ETR-P-F, alteração Na-Ca → K",
+   "source": "Hitzman et al. 1992; Williams et al. 2005; Groves et al. 2010",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A07-IOCG-FLUIDO-006",
+   "claim": "Fonte do fluido debatida; B em turmalina de Carajás indica evaporito marinho",
+   "source": "Xavier et al. 2008, *Geology* 36:743-746; Barton 2014",
+   "confidence": "em_disputa"
+  },
+  {
+   "claim_id": "HID-M34-A07-CARAJAS-007",
+   "claim": "Salobo, Sossego, Cristalino, Igarapé Bahia/Alemão; eventos neoarqueanos e paleoproterozoicos em Sossego",
+   "source": "Moreto et al. 2015, *Econ. Geol.* 110:809-835",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A07-EXEMPLO-008",
+   "claim": "Exemplo hipotético IOCG × MVT",
+   "source": "—",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A08-ORO-DEFINICAO-001",
+   "claim": "Orogênico em cinturões metamórficos, sin-deformacional",
+   "source": "Groves et al. 1998",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A08-FLUIDO-003",
+   "claim": "Fluido aquo-carbônico, baixa salinidade, Au(HS)₂⁻",
+   "source": "Groves et al. 1998; Goldfarb & Groves 2015",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A08-FONTE-004",
+   "claim": "Fonte do fluido orogênico debatida",
+   "source": "Goldfarb & Groves 2015, *Lithos* 233:2-26",
+   "confidence": "em_disputa"
+  },
+  {
+   "claim_id": "HID-M34-A08-TEMPO-005",
+   "claim": "Picos no Neoarqueano, Paleoproterozoico e Fanerozoico",
+   "source": "Goldfarb, Groves & Gardoll 2001, *Ore Geol. Rev.* 18:1-75",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A08-CARLIN-007",
+   "claim": "Carlin: ouro invisível em pirita arsenical, descarbonatação, jasperoide",
+   "source": "Cline et al. 2005",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A08-CARLIN-ORIGEM-008",
+   "claim": "Origem magmático-hidrotermal proposta (Muntean et al. 2011, *Nat. Geosci.* 4:122-127)",
+   "source": "Muntean et al. 2011",
+   "confidence": "em_disputa"
+  },
+  {
+   "claim_id": "HID-M34-A08-EXEMPLO-009",
+   "claim": "Exemplo hipotético orogênico × Carlin",
+   "source": "—",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A09-REESCRITA-001",
+   "claim": "Metamorfismo aproximadamente isoquímico preserva a química anômala",
+   "source": "Bonnet & Corriveau 2007 (GAC SP5:1035-1049, conferido)",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A09-TRADUCAO-002",
+   "claim": "Argílica/sericítica → qz-cianita; clorítica → cordierita-antofilita",
+   "source": "Bonnet & Corriveau 2007; Spry et al. 2000",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A09-ALUMINOSILICATOS-003",
+   "claim": "Aluminossilicatos também em metassedimentos; distinção geoquímica",
+   "source": "Bonnet & Corriveau 2007",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A09-HERDADO-IMPOSTO-004",
+   "claim": "Sulfetos dúcteis remobilizados; pirita e arsenopirita resistem",
+   "source": "literatura de metamorfismo de minério",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A10-SISTEMA-MINERAL-001",
+   "claim": "Fonte, via, armadilha, deposição",
+   "source": "Wyborn, Heinrich & Jaques 1994 (AusIMM, 109-115, conferido); McCuaig & Hronsky 2014",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A10-SWIR-002",
+   "claim": "SWIR e composição de mica branca/clorita como vetores",
+   "source": "Thompson, Hauff & Robitaille 1999 (SEG Newsletter 39, conferido); Halley, Dilles & Tosdal 2015 (SEG Newsletter 100, conferido)",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A10-PATHFINDERS-003",
+   "claim": "*Pathfinders* por tipo; regolito desloca anomalias",
+   "source": "síntese das Aulas 03–08",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A10-GEOFISICA-004",
+   "claim": "Magnetometria, IP, radiometria, gravimetria, EM por propriedade física",
+   "source": "literatura geral de geofísica de exploração (Módulo 19)",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A10-TERRENOS-ANTIGOS-006",
+   "claim": "Preservação, química anômala, herdado × imposto, controle estrutural",
+   "source": "Bonnet & Corriveau 2007; Groves et al. 1998",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "HID-M34-A10-EXEMPLO-007",
+   "claim": "Exemplo hipotético de greenstone com regolito",
+   "source": "—",
+   "confidence": "confirmado"
+  }
+ ]
+}

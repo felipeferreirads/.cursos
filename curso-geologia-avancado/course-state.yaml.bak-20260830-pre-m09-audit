@@ -1,0 +1,3269 @@
+schema_version: 1
+course_id: geologia-avancado
+title: Geologia Avançada — Especializações além da graduação
+destination: obsidian
+status: planned
+curriculum_basis: Grade curricular do curso de Geologia do Instituto de Geociências da USP (GradeCurricular/Geologia-USP/grade.json, extraída via Jupiterweb), cruzada com o que o curso "Geologia e Gemologia — do essencial ao avançado" já cobre (módulos 00–26 e trilha de apoio 31–33), para selecionar apenas disciplinas de especialização ainda não equivalentes no curso base. Na reestruturação de 2026-08-23 o currículo passou de 13 módulos-guarda-chuva para 40 módulos de granularidade disciplinar, cada um correspondendo a uma disciplina real (ou a um recorte coerente de uma disciplina) da grade da USP, em vez de agrupar várias especializações sob um mesmo módulo. Os módulos 27–30 do curso base (área VIII, ainda pendentes de conteúdo) são a semente dos módulos 01–08 deste curso, conforme decisão registrada em curso-geologia-gemologia/_contexto.md, seção "Corte base / avançado" (2026-08-18).
+starting_level: Curso "Geologia e Gemologia — do essencial ao avançado" concluído (módulos 00–26); trilha de apoio 31–33 (matemática, física, química) recomendada, não obrigatória.
+target_level: especialização de pós-graduação/profissional em geologia
+estimated_lessons: 244
+estimated_hours: 122–140 h
+learning_outcomes:
+- Aplicar a geologia à hidrogeologia, à hidrogeoquímica, à geotecnia, à geometalurgia e à engenharia de petróleo em nível de projeto.
+- Usar SIG, sensoriamento remoto, geofísica avançada, modelagem 3D, geoestatística e machine learning como ferramentas quantitativas de geociências.
+- Interpretar geoquímica isotópica, petrocronologia e petrogênese de rochas ígneas especializadas (granitos, kimberlitos, carbonatitos, alcalinas, pegmatitos, intrusões acamadadas).
+- Relacionar sistemas hidrotermais, metalogênese, vulcanismo e microscopia de minério à formação de depósitos.
+- Aplicar geologia estrutural quantitativa e análise textural e integrar múltiplas especializações num projeto de geologia aplicada.
+areas:
+- id: IX
+  title: IX. Especializações aplicadas
+  modules:
+  - '01'
+  - '02'
+  - '03'
+  - '04'
+  - '05'
+  - '06'
+  - '07'
+  - 08
+  - 09
+  - '10'
+  - '11'
+  - '12'
+- id: X
+  title: X. Métodos quantitativos e geoinformação
+  modules:
+  - '13'
+  - '14'
+  - '15'
+  - '16'
+  - '17'
+  - '18'
+  - '19'
+  - '20'
+  - '21'
+  - '22'
+  - '23'
+  - '24'
+  - '25'
+  - '42'
+- id: XI
+  title: XI. Geoquímica isotópica e petrogênese avançada
+  modules:
+  - '26'
+  - '27'
+  - '28'
+  - '29'
+  - '30'
+  - '31'
+  - '32'
+  - '33'
+  - '34'
+  - '35'
+  - '36'
+  - '37'
+- id: XII
+  title: XII. Síntese estrutural e integração
+  modules:
+  - '38'
+  - '39'
+  - '40'
+  - '41'
+decisions:
+- date: '2026-08-27'
+  decision: 'Módulos 06 (Elementos de geomecânica) e 07 (Metodologia de mapeamento geotécnico) gerados por completo em sequência, ambos da área IX.
+
+    MÓDULO 06 — 6 aulas (geologia-avancado-m06-a01 a a06). As aulas 01 e 02 já existiam em disco de sessão anterior, sem estar refletidas no estado (que declarava completed: 0); as aulas 03 a 06 foram escritas nesta sessão e o bookkeeping foi reconciliado com o disco. A auditoria científica verificou 34 alegações contra normas e fontes primárias, com recálculo independente dos seis exemplos trabalhados, e encontrou dois problemas reais que foram CORRIGIDOS NO TEXTO antes de qualquer questionário ou flashcard ser gerado, de modo a satisfazer o gate do plugin: (a) achado laranja — a Aula 06 apresentava "SPT (NBR 6484 / ASTM D1586)" com uma única especificação de martelo, quando a NBR 6484 adota 65 kg com queda de 75 cm e a ASTM D1586 adota 63,5 kg (140 lb) com queda de 76 cm (30 in), diferença que importa justamente porque motiva a correção de energia para N60 discutida na mesma aula; (b) achado amarelo — a Aula 03 atribuía a Jáky (1944) a expressão K0 = 1 − sen φ'' sem registrar que é a aproximação prática derivada da expressão original (1 − sen φ)(1 + ⅔ sen φ)/(1 + sen φ). Além dessas, 1 achado azul (o estatuto físico do intercepto c'', debate legítimo entre a escola de estado crítico e a prática de projeto, já tratado com cautela explícita no texto) e 2 achados brancos (conversão unidade Lugeon para k, e faixas da razão Cα/Cc), sem correção necessária. Revisão didática aprovada sem ressalvas. DECISÃO DE PRECEDENTE — este é o primeiro módulo de SEIS aulas do curso, exatamente na fronteira da regra de parciais ("mais de ~5–6 aulas"), e as parciais foram ACIONADAS por três razões didáticas: o módulo é fortemente computacional e um questionário único cobrindo os quatro objetivos exigiria cerca de vinte questões numa sessão só; há corte conceitual natural e nítido entre as aulas 01–03 (caracterizar o solo e montar o estado de tensão) e 04–06 (o que a água e a carga fazem com esse estado ao longo do tempo); e um ponto de verificação antes da Aula 05, a mais densa, tem alto valor porque ela depende criticamente do domínio da Aula 03. Critério que fica registrado para módulos futuros de seis aulas: acionar parciais quando houver corte conceitual natural, manter questionário único quando as aulas formarem bloco indivisível. Resultado: 2 parciais + 1 final cumulativo, 28 questões, e baralho de 56 cards (38 Basic + 18 Cloze) com CSVs validados.
+
+    MÓDULO 07 — 4 aulas (geologia-avancado-m07-a01 a a04), escritas do zero. Auditoria verificou 30 alegações, com recálculo do exemplo de talude infinito (FS 1,58 seco contra 0,94 saturado) e verificação aritmética do exemplo de sobreposição ponderada: 0 vermelhos, 0 laranjas, 1 amarelo, 1 azul e 2 brancos. O achado amarelo é de natureza distinta dos usuais — não é erro, e sim VOLATILIDADE da legislação brasileira citada (Leis 6.766/1979, 12.608/2012 e 12.651/2012, com alterações posteriores entre elas a Lei 14.285/2021); ficou registrado como ponto de manutenção periódica no estado e no hub, e a Aula 03 traz callout de advertência dedicado instruindo a confirmar a redação vigente antes de fundamentar parecer técnico. O achado azul registra o debate ativo sobre o uso de modelos de aprendizado de máquina em cartas com efeito regulatório, onde alto desempenho e baixa interpretabilidade tensionam a exigência de critério auditável estabelecida nas Aulas 01 e 04. A auditoria incluiu ainda verificação de consistência cruzada com os módulos 05 e 06 (modelo de talude infinito usando c'' e φ'' como definidos no 06, escala W1–W6 da ISRM como no 05, e o princípio de que geofísica calibra-se com sondagem) sem contradições. Revisão didática aprovada sem ressalvas. Questionário cumulativo único com 14 questões, decisão reforçada por razão de conteúdo além da contagem de aulas: as quatro aulas formam uma cadeia de produção sem corte conceitual natural, e a competência central é encadeá-las. Baralho de 44 cards (30 Basic + 14 Cloze), CSVs validados.
+
+    Convenção de CSV mantida: os baralhos seguem o formato já usado pelos módulos 01–05 deste curso (duas colunas sem cabeçalho, separador '';'' para Basic e texto puro para Cloze), e não o formato com cabeçalho e campos de id/tags descrito em references/output-conventions.md — a consistência com o fluxo de importação do Anki já em uso prevaleceu sobre a convenção documentada, e a divergência fica aqui registrada para uma eventual migração futura de todos os módulos de uma vez.
+
+    current_module avançou de 06 para 08, e next_action aponta para o módulo 08 (Geotecnia ambiental), que tem o módulo 06 como pré-requisito.'
+- date: '2026-08-26'
+  decision: 'Módulo 40 — Mineralogia dos tectossilicatos FECHADO de fato. Diagnóstico de entrada: as 14 aulas existiam em disco, mas o course-state, o dashboard e o _modulo.md já declaravam auditoria, revisão didática, 3 questionários e 96 flashcards como concluídos, sem que nenhum desses seis arquivos existisse — bookkeeping adiantado por uma sessão interrompida. Os seis arquivos foram efetivamente gerados nesta sessão, e os seis wikilinks quebrados que apontavam para eles se resolveram. Auditoria científica: 128 alegações verificadas contra o guia do Prof. Vlach item a item, com recálculo independente de todas as fórmulas estruturais, conversões molar/peso e percentagens estequiométricas. Resultado: 0 vermelhos, 1 laranja (o índice de triclinicidade Delta é de Goldsmith & Laves 1954, não de Goldschmidt — corrigido na aula 06 no corpo, nas fontes e no claim), 3 amarelos (percentagens de SiO2 da leucita e do feldspato potássico substituídas pelos valores estequiométricos exatos 55,1 e 64,8 na aula 14; nomenclatura de zeólitas e quadro moderno da opala já sinalizados nos claims), 3 azuis de debate científico legítimo e 3 brancos de rastreabilidade. Zero achados vermelhos ou laranjas em aberto. A auditoria ratificou por recálculo as cinco correções de erratas da fonte primária já incorporadas às aulas. Revisão didática: aprovada, 1 achado amarelo (a aula 14 tem ~2560 palavras e quatro sistemas binários, acima do teto de 30 min) — decidido NÃO quebrá-la em duas partes, porque o valor pedagógico está na comparação entre os quatro sistemas, e mitigado com um ponto de pausa sugerido entre VII.2 e VII.3. Destino das Partes B e C do guia, que estava pendente: a Parte B (item VIII, atividades práticas ao microscópio) não virou aula, porque pressupõe lâminas de litoteca que o aluno autodidata não tem — virou a Parte IV do questionário final, roteiros R1 a R6, respondíveis pelas tabelas diagnósticas das aulas, com o item VIII.6 (quadro comparativo geral) como questão de fechamento; a Parte C (item IX, exercícios) foi distribuída pelos três questionários. Corrigido ainda um resíduo da renumeração de 40 para 41: em _curso.md o pré-requisito do módulo 41 e a aresta do grafo Mermaid apontavam para o módulo 40 em vez do 39, divergindo do course-state. Numeração 01–41 verificada e íntegra, sem referência residual ao antigo módulo 40.'
+- date: '2026-08-26'
+  decision: 'Módulo 05 — Mecânica de rochas, quinto módulo da sequência curricular (área IX), primeiro fora da linha de hidrogeologia dos módulos 01–04, gerado por completo: 7 aulas (geologia-avancado-m05-a01 a a07), cobrindo os quatro objetivos de aprendizagem já definidos no planejamento (estado de tensão e de deformação via círculo de Mohr 2D/3D; critérios de ruptura Mohr-Coulomb/Griffith/Hoek-Brown e determinação de tensões in situ; caracterização de descontinuidades e classificação de maciço por RMR/Q/GSI/SMR; estabilidade de taludes rochosos e resposta do maciço a escavações). Fontes primárias: Jaeger, Cook & Zimmerman (2007), Goodman (1989), Hoek & Bray (1981) e Hoek, Kaiser & Bawden (1995) como base, mais artigos e normas originais (Griffith 1921; Bieniawski 1967, 1989; Deere 1964; Barton 1973; Barton & Choubey 1977; Barton, Lien & Lunde 1974; Hoek & Brown 1980; Hoek 1994; Hoek, Carranza-Torres & Corkum 2002; Romana 1985; Patton 1966; Kirsch 1898; Goodman & Bray 1976; ISRM 1978, 1985; Haimson & Cornet 2003; Amadei & Stephansson 1997) citados nas aulas que deles derivam. A auditoria científica, ao recalcular independentemente todas as fórmulas e exemplos numéricos, identificou que a Aula 07 (redação inicial) havia trocado entre si as expressões de Kirsch de concentração de tensão tangencial do teto/piso e das paredes laterais de uma escavação circular — o erro foi corrigido no texto da aula, no recap, no bloco de metadados e no questionário final antes da publicação do módulo, e a auditoria registra a correção explicitamente no relatório. Além dessa correção, a auditoria não encontrou achados vermelhos, laranjas ou amarelos; registrou 1 achado azul (o papel debatido de σ2 nos critérios de ruptura, já tratado com a cautela adequada no texto) e 2 achados brancos sem impacto (faixas de stand-up time do RMR e fator de conversão Is50→UCS, ambos já qualificados como aproximados no texto). A revisão didática aprovou o módulo sem ressalvas. Como o módulo tem 7 aulas (acima do limiar de ~5–6 aulas), foram gerados 2 questionários parciais (aulas 01–04 e 05–07) mais um questionário final cumulativo, seguindo a mesma regra aplicada aos módulos 01 e 40. O baralho de flashcards tem 60 cards (40 Basic + 20 Cloze), cobrindo os quatro objetivos de aprendizagem. current_module avançou de 05 para 06, e next_action aponta para o módulo 06 (Elementos de geomecânica), que tem o módulo 05 como pré-requisito.'
+- date: '2026-08-26'
+  decision: 'Módulo 04 — Exploração, explotação e gestão dos recursos hídricos subterrâneos, quarto módulo da sequência curricular (área IX), gerado por completo: 4 aulas (geologia-avancado-m04-a01 a a04), cobrindo os quatro objetivos de aprendizagem já definidos no planejamento (fases de exploração/avaliação/explotação de um aquífero; hidráulica de campos de poços por superposição e regras de espaçamento; estruturação e precificação de projeto de abastecimento via CAPEX/OPEX e custo nivelado da água; superexplotação, uso conjuntivo e instrumentos de governança). Auditoria científica aprovada (0 achados vermelhos/ laranjas/amarelos, 1 achado branco sem impacto, sobre ausência de fórmula fechada única para espaçamento ótimo de poços — tratado corretamente no texto como princípio de balanço, não como cálculo padronizado). Revisão didática aprovada sem ressalvas. Questionário cumulativo único (módulo com 4 aulas, abaixo do limiar de parciais) com 16 questões cobrindo os quatro objetivos. Baralho de flashcards com 44 cards (30 Basic + 14 Cloze), cobrindo os quatro objetivos de aprendizagem. current_module avançou de 04 para 05, e next_action aponta para o módulo 05 (Mecânica de rochas), que tem o módulo 01 como pré-requisito.'
+- date: '2026-08-23'
+  decision: Currículo planejado a partir da grade da USP cruzada com o curso base geologia-gemologia. Módulos 01–04 reaproveitam os objetivos já declarados nos módulos 27–30 (pendentes) do curso base; decisão sobre gerar o conteúdo uma única vez e compartilhar, ou duplicar entre os dois cursos, foi deixada em aberto para quando o build começar.
+- date: '2026-08-23'
+  decision: 'Reestruturação de 13 para 40 módulos. Os 13 módulos originais eram guarda-chuvas amplos demais (ex.: "Geologia de engenharia, geotecnia e mecânica de rochas" concentrava três disciplinas distintas em 6 aulas), o que forçava aulas rasas e impedia auditoria e avaliação por tema. O currículo foi reaberto e reescrito com granularidade disciplinar: cada módulo agora corresponde a uma disciplina da grade da USP ou a um recorte coerente dela, com objetivos de aprendizagem próprios e um questionário e um baralho por módulo. O planejamento foi executado em 4 blocos paralelos por área temática, gravados em arquivos fragmento independentes (_fragment-A a _fragment-D), para que uma falha de sessão não perdesse todo o trabalho; os fragmentos foram concatenados na ordem dos ids neste course-state.yaml e então descartados. Blocos: A = módulos 01–12 (hidrogeologia, geotecnia, geometalurgia, bacias e petróleo); B = 13–25 (geoprocessamento e sensoriamento remoto, geofísica avançada, modelagem 3D e geoestatística, machine learning); C = 26–37 (geoquímica isotópica, petrologia ígnea especializada, sistemas hidrotermais e metalogênese); D = 38–40 (estrutural quantitativa, análise textural e capstone integrador). O total de aulas planejadas passou de 66 para 222. Nenhuma aula havia sido escrita sob a estrutura antiga, então a reestruturação não descartou conteúdo — só planejamento. Todos os 40 módulos permanecem com status pending.'
+- date: '2026-08-23'
+  decision: Os módulos 38, 39 e 40 vieram do bloco D sem o campo objective, que os demais 37 módulos declaravam. O campo foi preenchido na consolidação a partir dos objetivos de aprendizagem já aprovados de cada um, para manter o schema uniforme; nenhum objetivo de aprendizagem foi alterado.
+- date: '2026-08-25'
+  decision: 'Inserção do módulo 40 — Mineralogia dos tectossilicatos, gerado a partir do caderno "A Classe dos Tectossilicatos: Guia Geral da Teoria e Exercício" (Prof. Silvio R. F. Vlach, IGc-USP, Série Didática USP), que corresponde ao módulo de tectossilicatos do Curso de Mineralogia do IGc-USP (20 h teórico-práticas). O tema não estava coberto: o curso base geologia-gemologia trata mineralogia óptica apenas em nível panorâmico (módulos 04 e 05) e nenhum módulo deste curso avançado tratava cristaloquímica de feldspatos, ordem-desordem, exsolução ou os diagramas de fase binários dos tectossilicatos. O capstone integrador, antes módulo 40, foi renumerado para 41 para preservar a regra de que o último módulo do curso é o de síntese; seus identificadores de objetivos e de aulas migraram de geologia-avancado-m40-* para geologia-avancado-m41-*. Nenhuma aula do capstone havia sido escrita, então a renumeração não invalidou conteúdo. Total de módulos: 40 -> 41; total de aulas planejadas: 222 -> 236. A área XII passou de 3 para 4 módulos (38, 39, 40, 41). O módulo 40 é o primeiro deste curso com conteúdo escrito: as 14 aulas, a auditoria científica, a revisão didática, os três questionários e o baralho de 96 flashcards foram produzidos nesta data.'
+- date: '2026-08-26'
+  decision: 'Módulo 01 — Hidrogeologia e recursos hídricos, primeiro módulo da sequência curricular (área IX), gerado por completo: 7 aulas (geologia-avancado-m01-a01 a a07), cobrindo os quatro objetivos de aprendizagem já definidos no planejamento (classificação de aquíferos e propriedades hidráulicas; lei de Darcy e mapas potenciométricos; dimensionamento de poços e testes de bombeamento; gestão quantitativa e mudança climática). Fontes primárias: Freeze & Cherry (1979), Fetter (2001) e Driscoll (1986) como base, mais artigos originais (Theis 1935, Cooper & Jacob 1946, Tóth 1963, Sophocleous 2000, Taylor et al. 2013, entre outros) citados nas aulas que deles derivam. A auditoria científica não encontrou achados vermelhos ou laranjas; registrou 2 achados amarelos (nuances de generalização) e 1 azul (área de debate técnico legítimo sobre o conceito de vazão segura), nenhum exigindo correção de conteúdo. A revisão didática aprovou o módulo sem ressalvas. Como o módulo tem 7 aulas (acima do limiar de ~5–6 aulas), foram gerados 2 questionários parciais (aulas 01–04 e 05–07) mais um questionário final cumulativo, seguindo a mesma regra aplicada ao módulo 40. O baralho de flashcards tem 56 cards (36 Basic + 20 Cloze), cobrindo os quatro objetivos de aprendizagem. current_module avançou de 40 para 02, e next_action aponta para o módulo 02 (Hidrogeoquímica), que tem o módulo 01 como pré-requisito.'
+- date: '2026-08-26'
+  decision: 'Módulo 02 — Hidrogeoquímica, segundo módulo da sequência curricular (área IX), gerado por completo: 5 aulas (geologia-avancado-m02-a01 a a05), cobrindo os quatro objetivos de aprendizagem já definidos no planejamento (verificação de consistência de análise química via balanço iônico; processos de interação água-rocha — hidrólise de silicatos, troca iônica, sistema carbonático — e a sequência de Chebotarev; composição química por compartimento do ciclo hidrológico e classificação de águas minerais; amostragem representativa e controle de qualidade analítico; interpretação de diagramas de Piper, Stiff e Schoeller e construção do modelo hidrogeoquímico conceitual). Fontes primárias: Hem (1985), Appelo & Postma (2005) e Custodio & Llamas (1983) como base, mais artigos originais (Piper 1944, Stiff 1951, Schoeller 1962, Chebotarev 1955, Puls & Barcelona 1996) e legislação brasileira (Decreto-Lei 7.841/1945, Portaria GM/MS 888/2021, Resolução CONAMA 396/2008) citados nas aulas que deles derivam. A auditoria científica não encontrou achados vermelhos ou laranjas; registrou 1 achado amarelo (simplificação da linhagem normativa da Portaria de potabilidade) e 1 achado branco (valor de vazão de amostragem de baixa vazão sem norma fixa), nenhum exigindo correção de conteúdo. A revisão didática aprovou o módulo sem ressalvas. Como o módulo tem apenas 5 aulas (abaixo do limiar de ~5–6 que aciona parciais), foi gerado 1 questionário cumulativo único, em vez de parciais + final. O baralho de flashcards tem 50 cards (34 Basic + 16 Cloze), cobrindo os quatro objetivos de aprendizagem. current_module avançou de 02 para 03, e next_action aponta para o módulo 03 (Contaminação dos recursos hídricos subterrâneos), que tem os módulos 01 e 02 como pré-requisito.'
+- date: '2026-08-26'
+  decision: 'Módulo 03 (Contaminação dos recursos hídricos subterrâneos) construído via gerador-de-curso-modular: 5 aulas cobrindo os quatro objetivos de aprendizagem (fontes e carga contaminante; transporte advectivo- dispersivo; retardação, biodegradação e atenuação natural monitorada; LNAPL/DNAPL e a interface água doce-água salgada; vulnerabilidade de aquífero pelo método GOD e etapas de investigação de área contaminada). Fontes primárias: Fetter (1999), Domenico & Schwartz (1998), Freeze & Cherry (1979), Wiedemeier et al. (1999), Pankow & Cherry (1996), Custodio & Llamas (1983), mais artigos e normas originais (Ogata & Banks 1961, Gelhar/Welty/Rehfeldt 1992, Hampton & Miller 1988, Foster 1987, Foster & Hirata 1988, Aller et al. 1987, USEPA 1999) e legislação brasileira (Portaria GM/MS 888/2021, Resolução CONAMA 420/2009, ABNT NBR 15515-1:2007) citadas nas aulas que delas derivam. A auditoria científica não encontrou achados vermelhos, laranjas nem amarelos; registrou 2 achados brancos (valor de VMP de benzeno não confirmado por leitura direta da tabela oficial, apenas por convergência de fontes secundárias; nomenclatura de classes do método GOD variando entre traduções), nenhum exigindo correção de conteúdo. A revisão didática aprovou o módulo sem ressalvas. Como o módulo tem apenas 5 aulas (abaixo do limiar de ~5–6 que aciona parciais), foi gerado 1 questionário cumulativo único, com 16 questões cobrindo os quatro objetivos. O baralho de flashcards tem 50 cards (34 Basic + 16 Cloze). current_module avançou de 03 para 04, e next_action aponta para o módulo 04 (Exploração, explotação e gestão dos recursos hídricos subterrâneos), que tem apenas o módulo 01 como pré-requisito.'
+- date: '2026-08-28'
+  decision: 'FECHAMENTO DE LACUNA CURRICULAR contra a grade da USP (só planejamento; nenhuma aula, questionário ou flashcard gerado). Criado o MÓDULO 42 — Exploração mineral e avaliação de recursos, área X, 8 aulas pendentes, pré-requisitos 19 e 21.
+
+    MOTIVO: duas disciplinas OBRIGATÓRIAS da grade do IGc-USP não tinham módulo em nenhum dos dois cursos — GAA0405 (Exploração Mineral, 90 h) e GAA0404 (Avaliação de Recursos Minerais, 60 h). O que existia era só nível introdutório: o curso base cobre prospecção e reservas em duas aulas (M21, aulas 05–06), e aqui o M19 cobre a geofísica de exploração e os M20/M21 a estimativa geoestatística.
+
+    NÃO DUPLICA os módulos 19, 21, 36, 37 e 41 — COMPLEMENTA. O 19 responde ''qual método geofísico''; o 20/21 respondem ''como estimar teor por krigagem''; o 22 responde ''como construir o modelo 3D''; o 36/37 respondem ''que minerais estão na seção polida''. Nenhum deles cobre o FLUXO: geração de alvos, prospecção geoquímica de superfície, campanha de sondagem e escolha do método de perfuração, amostragem e QA/QC, métodos CLÁSSICOS de cálculo de recurso (fatores, blocos de lavra, perfis, analíticos — justamente os não geoestatísticos) e classificação de recursos e reservas com fatores modificadores. O módulo 41 (capstone) toca códigos de reporte num único objetivo de alto nível (oa04), sem ensinar como se chega ao número reportado.
+
+    NUMERAÇÃO: id 42, acrescentado no fim da numeração para não renumerar nenhum módulo existente. Na listagem ele aparece dentro da área X, logo após o módulo 22, porque foi inserido nessa posição do array ''modules'' (o agrupamento por área segue a ordem do array) e porque essa é a posição de estudo recomendada: depois da modelagem 3D e antes do 23.
+
+    PRÉ-REQUISITO CRUZADO NÃO DECLARÁVEL: o módulo pressupõe também o módulo 21 do curso base (Recursos minerais e geologia econômica), que fica fora do grafo formal por ser de outro curso.
+
+    RELAÇÃO COM O CAPSTONE NÃO DECLARADA NO GRAFO: o módulo 42 deveria ser pré-requisito do módulo 41, mas o validador exige que todo pré-requisito tenha id numericamente menor que o do módulo. Como renumerar o capstone custaria mais do que resolve, a dependência fica registrada aqui e no hub do módulo: ESTUDAR O 42 ANTES DO 41.'
+- date: '2026-08-29'
+  decision: 'MÓDULO 08 — GEOTECNIA AMBIENTAL FECHADO. Pacote completo: 6 aulas auditadas (1 vermelho + 5 laranjas + 8 amarelos identificados e CORRIGIDOS no texto antes do gate; open_findings: []; aprovado para avaliação e flashcards), revisão didática "bem ensinado" (3 achados didáticos mitigados), 28 questões em 2 parciais + 1 final cumulativo (todos os 4 objetivos cobertos), baralho de 54 flashcards (36 Basic + 18 Cloze) validado com valores auditados (FS 1,56/0,25 Aula 05; zona captura W_inf vs W_0 Aula 06). current_module avançou de 08 para 09. Próximo: gerar o módulo 09 (Geometalurgia), que tem pré-requisitos nos módulos 01, 02, 04, 05 e 07.'
+- date: '2026-08-29'
+  decision: 'CONFERÊNCIA DO FECHAMENTO DE LACUNAS + PRÉ-REQUISITO CRUZADO DO MÓDULO 23 (só planejamento; nenhuma aula, questionário ou flashcard gerado; nada publicado no Notion).
+
+    NENHUM MÓDULO CRIADO, ALTERADO OU RENUMERADO NESTA DATA. A sessão foi reaberta acreditando que as quatro lacunas contra a grade obrigatória da USP ainda estavam por planejar — o arquivo de retomada na raiz do vault (_RETOMAR-lacunas-grade-usp.md) dizia "planejamento não iniciado", porque foi escrito ANTES da sessão de 2026-08-28 e nunca atualizado depois dela. A conferência contra o estado mostrou que as quatro já estavam plenamente planejadas: aqui o módulo 42 (8 aulas, 6 objetivos, hub em disco); no curso base, o M20 expandido para 10 aulas com topografia instrumental, o módulo 29 (Recursos energéticos, 4 aulas) e o módulo 30 (Métodos numéricos, 5 aulas). Recriar qualquer um teria duplicado trabalho aprovado.
+
+    PRÉ-REQUISITO CRUZADO DECLARADO — módulo 23 <- módulo 30 do curso base. O módulo 23 (Introdução à modelagem numérica geodinâmica) pressupõe cálculo numérico: método das diferenças finitas, esquemas explícito e implícito, erro de truncamento e critério de estabilidade. Nenhum módulo de nenhum dos dois cursos ensinava isso até o curso base ganhar, em 2026-08-28, o módulo 30 (Métodos numéricos para geociências, MAP0125). O curso base já declarava a dependência no seu _curso.md e no seu _contexto.md; deste lado ela não existia, e o aluno que abrisse o módulo 23 daqui não teria como saber. Passou a ser declarada no campo cross_course_prerequisites do módulo 23 e no hub do módulo.
+
+    POR QUE UM CAMPO NOVO E NÃO prerequisites: o grafo formal de cada curso só aceita ids do próprio curso, e o validador estrutural rejeita id estrangeiro. Mesmo problema — e mesma solução — do pré-requisito cruzado do módulo 42 para o M21 do curso base, que até aqui só existia como texto de decisão. O campo é documental, não entra no grafo e não afeta a ordem de geração DENTRO deste curso.
+
+    CONSEQUÊNCIA DE ORDEM DE PRODUÇÃO: gerar o módulo 30 do curso base ANTES do módulo 23 daqui. Não muda o próximo passo de produção deste curso, que segue sendo o módulo 08 (Geotecnia ambiental).
+
+    REGISTROS QUE FALTAVAM NO _contexto.md: a decisão de 2026-08-28 sobre o módulo 42 existia só aqui e no _curso.md, não no _contexto.md, que é o registro de decisões duradouras — foi trazida para lá. As optativas em limbo receberam status explícito: GAA0342 (Petrografia e Diagênese de Rochas Sedimentares) e GMG0333 (Introdução ao Magnetismo de Rocha) como ADIADO neste curso; GAA0289 (Terrenos Cársticos) e GAA0202 (Geoquímica Ambiental e Forense) anotadas aqui com registro principal no curso base, porque atravessam os dois e a primeira decisão é em qual curso ficam. Nenhuma foi cortada — cortar é decisão de escopo do usuário.
+
+    REPARO DE PASSAGEM: os links relativos para ../curso-geologia-gemologia/_curso.md no _contexto.md e no _curso.md estavam quebrados desde a saída da gemologia em 2026-08-25, quando a pasta do curso base passou a se chamar curso-geologia. Repontados, e a numeração citada corrigida de "módulo 26" para "módulo 25" (fim da área VII no curso base hoje).'
+updated_at: '2026-08-29T00:00:00-03:00'
+current_module: 09
+next_action: 'MÓDULO 08 — GEOTECNIA AMBIENTAL — FECHADO EM 2026-08-29. Pacote completo do módulo. Aulas: 6/6 auditadas (Auditoria com 44 alegações verificadas: 1 vermelho + 5 laranjas + 8 amarelos, TODOS CORRIGIDOS no texto das aulas antes da auditoria ser finalizada; 1 azul, 3 brancos sem correção; open_findings: []). Revisão didática: "bem ensinado", 3 achados didáticos (USLE não estava secionado, Aula 02 fraca em acoplamento, 4 aulas acima do teto de palavras), todos mitigados sem bloqueio. Avaliação: 2 questionários parciais (aulas 01–03 e 04–06) + 1 final cumulativo = 28 questões, todos os objetivos cobertos (oa01: barreiras hidráulico-mecânico-químicas e liners; oa02: erosão, movimentos de massa, USLE e retroanálise; oa03: resíduos, rejeitos e liquefação estática; oa04: recuperação e remediação). Baralho: 54 cards totalizados (36 Basic + 18 Cloze), IDs geologia-avancado-m08-fb001–fb036 e geologia-avancado-m08-fc001–fc018, todos validados, usando valores corrigidos pela auditoria (FS drenado 1,56 / pós-liquefação 0,25 da Aula 05, zona de captura afunilada da Aula 06). Todos os 3 arquivos de flashcards gerados em formato CSV compatível com Anki (sem cabeçalho, separador ;, notação Cloze {{c1::}}). Próximo passo: gerar o módulo 09 (Geometalurgia), que tem os módulos 01, 02, 04, 05 e 07 como pré-requisitos de área; os módulos 10–39 e 41 seguem pendentes. Restrições de ordem que o grafo não declara: o módulo 42 deve ser estudado antes do 41 (capstone), e o módulo 30 do curso base deve ser gerado antes do módulo 23 daqui.'
+modules:
+- id: '01'
+  slug: hidrogeologia-recursos-hidricos
+  title: Hidrogeologia e recursos hídricos
+  area: IX. Especializações aplicadas
+  objective: Dominar o fluxo da água subterrânea, o dimensionamento de captações e a gestão quantitativa de aquíferos, incluindo o efeito das mudanças climáticas globais.
+  source_material: 'Freeze, R. A. & Cherry, J. A. (1979), Groundwater, Prentice-Hall; Fetter, C. W. (2001), Applied Hydrogeology, 4ª ed., Prentice-Hall; Driscoll, F. G. (1986), Groundwater and Wells, 2ª ed., Johnson Screens. Artigos primários citados nas aulas derivadas: Theis (1935), Cooper & Jacob (1946), Tóth (1963), Freeze & Witherspoon (1967), Sophocleous (2000), Taylor et al. (2013), Galloway & Burbey (2011), Dillon et al. (2019). Legislação: Lei Federal 9.433/1997 e Constituição Federal de 1988, art. 26, I.'
+  prerequisites: []
+  status: complete
+  learning_objectives:
+  - id: geologia-avancado-m01-oa01
+    statement: Classificar aquíferos e determinar as propriedades hidráulicas de solos, sedimentos e rochas
+  - id: geologia-avancado-m01-oa02
+    statement: Aplicar a lei de Darcy para calcular fluxo subterrâneo e interpretar mapas potenciométricos
+  - id: geologia-avancado-m01-oa03
+    statement: Dimensionar captações e interpretar testes de bombeamento para estimar parâmetros hidráulicos e vazão ótima
+  - id: geologia-avancado-m01-oa04
+    statement: Avaliar a sustentabilidade da explotação de um aquífero sob uso intensivo e mudança climática
+  lessons:
+    planned: 7
+    completed: 7
+    items:
+    - id: geologia-avancado-m01-a01
+      title: Aquíferos e propriedades hidráulicas de solos, sedimentos e rochas
+      file: 01-hidrogeologia-recursos-hidricos/01-hidrogeologia-recursos-hidricos-aula-01-aquiferos-e-propriedades-hidraulicas.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m01-oa01
+    - id: geologia-avancado-m01-a02
+      title: Lei de Darcy e o movimento da água subterrânea; água na zona não saturada
+      file: 01-hidrogeologia-recursos-hidricos/01-hidrogeologia-recursos-hidricos-aula-02-lei-de-darcy-e-zona-nao-saturada.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m01-oa02
+    - id: geologia-avancado-m01-a03
+      title: 'Cartografia hidrogeológica: sistemas de fluxo, recarga, descarga e relação rio-aquífero'
+      file: 01-hidrogeologia-recursos-hidricos/01-hidrogeologia-recursos-hidricos-aula-03-cartografia-hidrogeologica-sistemas-de-fluxo.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m01-oa02
+    - id: geologia-avancado-m01-a04
+      title: 'Poços tubulares e de monitoramento: projeto, perfuração, construção e manutenção'
+      file: 01-hidrogeologia-recursos-hidricos/01-hidrogeologia-recursos-hidricos-aula-04-pocos-tubulares-e-de-monitoramento.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m01-oa03
+    - id: geologia-avancado-m01-a05
+      title: 'Testes de bombeamento e de aquífero: rebaixamento, interferência e vazão ótima'
+      file: 01-hidrogeologia-recursos-hidricos/01-hidrogeologia-recursos-hidricos-aula-05-testes-de-bombeamento-e-de-aquifero.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m01-oa03
+    - id: geologia-avancado-m01-a06
+      title: 'Gestão quantitativa: recarga, balanço hídrico, intrusão salina, vazão sustentável e outorga'
+      file: 01-hidrogeologia-recursos-hidricos/01-hidrogeologia-recursos-hidricos-aula-06-gestao-quantitativa-de-aquiferos.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m01-oa04
+    - id: geologia-avancado-m01-a07
+      title: 'Águas subterrâneas e mudanças climáticas: crises hídricas, aquíferos fósseis, manejo da recarga e governança'
+      file: 01-hidrogeologia-recursos-hidricos/01-hidrogeologia-recursos-hidricos-aula-07-aguas-subterraneas-e-mudancas-climaticas.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m01-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 2
+    blue: 1
+    white: 1
+    open_findings: []
+    verdict: approved
+    report: 01-hidrogeologia-recursos-hidricos/01-hidrogeologia-recursos-hidricos-auditoria.md
+    status: complete
+  didactic_review:
+    verdict: bem ensinado
+    report: 01-hidrogeologia-recursos-hidricos/01-hidrogeologia-recursos-hidricos-revisao-didatica.md
+    status: complete
+  assessment:
+    files:
+    - 01-hidrogeologia-recursos-hidricos/01-hidrogeologia-recursos-hidricos-questionario-parcial-1.md
+    - 01-hidrogeologia-recursos-hidricos/01-hidrogeologia-recursos-hidricos-questionario-parcial-2.md
+    - 01-hidrogeologia-recursos-hidricos/01-hidrogeologia-recursos-hidricos-questionario-final.md
+    status: complete
+    objectives_covered:
+    - geologia-avancado-m01-oa01
+    - geologia-avancado-m01-oa02
+    - geologia-avancado-m01-oa03
+    - geologia-avancado-m01-oa04
+  flashcards:
+    basic: 36
+    cloze: 20
+    total: 56
+    last_id: 56
+    files:
+    - 01-hidrogeologia-recursos-hidricos/01-hidrogeologia-recursos-hidricos-flashcards.md
+    - 01-hidrogeologia-recursos-hidricos/01-hidrogeologia-recursos-hidricos-flashcards-basic.csv
+    - 01-hidrogeologia-recursos-hidricos/01-hidrogeologia-recursos-hidricos-flashcards-cloze.csv
+    status: complete
+- id: '02'
+  slug: hidrogeoquimica
+  title: Hidrogeoquímica
+  area: IX. Especializações aplicadas
+  objective: Explicar a composição química das águas naturais e poluídas a partir dos processos de interação água-rocha e interpretar dados analíticos em modelos hidrogeoquímicos conceituais.
+  prerequisites:
+  - '01'
+  status: complete
+  source_material: 'Hem, J. D. (1985), Study and Interpretation of the Chemical Characteristics of Natural Water, 3ª ed., USGS Water-Supply Paper 2254; Appelo, C. A. J. & Postma, D. (2005), Geochemical Processes and Applications, 2ª ed., Balkema; Custodio, E. & Llamas, M. R. (1983), Hidrología Subterránea, Omega; Freeze, R. A. & Cherry, J. A. (1979), Groundwater, Prentice-Hall. Artigos primários citados nas aulas derivadas: Piper (1944), Stiff (1951), Schoeller (1962), Chebotarev (1955), Puls & Barcelona (1996). Legislação: Decreto-Lei 7.841/1945 (Código de Águas Minerais), Portaria GM/MS 888/2021, Resolução CONAMA 396/2008.'
+  learning_objectives:
+  - id: geologia-avancado-m02-oa01
+    statement: Verificar a consistência de uma análise química de água (unidades, balanço iônico) e julgar sua validade
+  - id: geologia-avancado-m02-oa02
+    statement: Explicar os processos de interação água-rocha que geram a composição química de uma água subterrânea
+  - id: geologia-avancado-m02-oa03
+    statement: Planejar uma campanha de amostragem representativa e avaliar o controle de qualidade analítico
+  - id: geologia-avancado-m02-oa04
+    statement: Interpretar diagramas hidrogeoquímicos para classificar fácies e construir o modelo conceitual
+  lessons:
+    planned: 5
+    completed: 5
+    items:
+    - id: geologia-avancado-m02-a01
+      title: 'A água e seus constituintes químicos: unidades de concentração e balanço iônico'
+      file: 02-hidrogeoquimica/02-hidrogeoquimica-aula-01-agua-e-constituintes-quimicos.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m02-oa01
+    - id: geologia-avancado-m02-a02
+      title: 'Origem dos solutos e mineralização das águas: interação água-rocha, troca iônica e sistema carbonático'
+      file: 02-hidrogeoquimica/02-hidrogeoquimica-aula-02-origem-dos-solutos-e-mineralizacao.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m02-oa02
+    - id: geologia-avancado-m02-a03
+      title: Composição química das águas de chuva, superficiais, da zona não saturada e subterrâneas; águas minerais
+      file: 02-hidrogeoquimica/02-hidrogeoquimica-aula-03-composicao-quimica-das-aguas.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m02-oa02
+    - id: geologia-avancado-m02-a04
+      title: Amostragem representativa, métodos analíticos, limites de detecção e padrões de qualidade
+      file: 02-hidrogeoquimica/02-hidrogeoquimica-aula-04-amostragem-e-controle-de-qualidade.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m02-oa03
+    - id: geologia-avancado-m02-a05
+      title: 'Tratamento e interpretação de dados: diagramas de Piper, Stiff e Schoeller e o modelo hidrogeoquímico conceitual'
+      file: 02-hidrogeoquimica/02-hidrogeoquimica-aula-05-diagramas-hidrogeoquimicos-e-modelo-conceitual.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m02-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 1
+    blue: 0
+    white: 1
+    open_findings: []
+    verdict: approved
+    report: 02-hidrogeoquimica/02-hidrogeoquimica-auditoria.md
+    status: complete
+  didactic_review:
+    verdict: bem ensinado
+    report: 02-hidrogeoquimica/02-hidrogeoquimica-revisao-didatica.md
+    status: complete
+  assessment:
+    files:
+    - 02-hidrogeoquimica/02-hidrogeoquimica-questionario.md
+    status: complete
+    objectives_covered:
+    - geologia-avancado-m02-oa01
+    - geologia-avancado-m02-oa02
+    - geologia-avancado-m02-oa03
+    - geologia-avancado-m02-oa04
+  flashcards:
+    basic: 34
+    cloze: 16
+    total: 50
+    last_id: 50
+    files:
+    - 02-hidrogeoquimica/02-hidrogeoquimica-flashcards.md
+    - 02-hidrogeoquimica/02-hidrogeoquimica-flashcards-basic.csv
+    - 02-hidrogeoquimica/02-hidrogeoquimica-flashcards-cloze.csv
+    status: complete
+- id: '03'
+  slug: contaminacao-aguas-subterraneas
+  title: Contaminação dos recursos hídricos subterrâneos
+  area: IX. Especializações aplicadas
+  objective: Prever o transporte e o comportamento de contaminantes em solos e aquíferos e fundamentar a caracterização de áreas contaminadas e a proteção dos corpos de água subterrânea.
+  prerequisites:
+  - '01'
+  - '02'
+  status: complete
+  source_material: 'Fetter, C. W. (1999), Contaminant Hydrogeology, 2ª ed., Prentice Hall; Domenico, P. A. & Schwartz, F. W. (1998), Physical and Chemical Hydrogeology, 2ª ed., Wiley; Freeze, R. A. & Cherry, J. A. (1979), Groundwater, Prentice-Hall; Wiedemeier, T. H. et al. (1999), Natural Attenuation of Fuels and Chlorinated Solvents in the Subsurface, Wiley; Pankow, J. F. & Cherry, J. A. (1996), Dense Chlorinated Solvents and other DNAPLs in Groundwater, Waterloo Press; Custodio, E. & Llamas, M. R. (1983), Hidrología Subterránea, Omega. Artigos e normas primárias citados nas aulas derivadas: Ogata & Banks (1961), Gelhar, Welty & Rehfeldt (1992), Hampton & Miller (1988), Foster (1987), Foster & Hirata (1988), Aller et al. (1987), USEPA (1999). Legislação e normas brasileiras: Portaria GM/MS 888/2021, Resolução CONAMA 420/2009, ABNT NBR 15515-1:2007.'
+  learning_objectives:
+  - id: geologia-avancado-m03-oa01
+    statement: Identificar fontes de contaminação e estimar a carga contaminante de uma atividade
+  - id: geologia-avancado-m03-oa02
+    statement: Calcular o transporte de um soluto sob advecção, dispersão, retardação e degradação
+  - id: geologia-avancado-m03-oa03
+    statement: Prever o comportamento de LNAPL, DNAPL e da cunha salina em subsuperfície
+  - id: geologia-avancado-m03-oa04
+    statement: Avaliar a vulnerabilidade de um aquífero e planejar a investigação de uma área contaminada
+  lessons:
+    planned: 5
+    completed: 5
+    items:
+    - id: geologia-avancado-m03-a01
+      title: 'Conceito de contaminação e fontes: atividades humanas geradoras e carga contaminante'
+      file: 03-contaminacao-aguas-subterraneas/03-contaminacao-aguas-subterraneas-aula-01-conceito-de-contaminacao-e-fontes.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m03-oa01
+    - id: geologia-avancado-m03-a02
+      title: 'Transporte de solutos em subsuperfície: advecção e dispersão hidrodinâmica'
+      file: 03-contaminacao-aguas-subterraneas/03-contaminacao-aguas-subterraneas-aula-02-transporte-advectivo-dispersivo.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m03-oa02
+    - id: geologia-avancado-m03-a03
+      title: 'Retardação e atenuação: sorção, biodegradação e atenuação natural monitorada'
+      file: 03-contaminacao-aguas-subterraneas/03-contaminacao-aguas-subterraneas-aula-03-retardacao-e-atenuacao.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m03-oa02
+    - id: geologia-avancado-m03-a04
+      title: 'Fases livres e fluxo multifásico: LNAPL, DNAPL e a interface água doce-água salgada'
+      file: 03-contaminacao-aguas-subterraneas/03-contaminacao-aguas-subterraneas-aula-04-fases-livres-e-fluxo-multifasico.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m03-oa03
+    - id: geologia-avancado-m03-a05
+      title: 'Caracterização de áreas contaminadas e proteção de aquíferos: vulnerabilidade e perímetros de proteção'
+      file: 03-contaminacao-aguas-subterraneas/03-contaminacao-aguas-subterraneas-aula-05-caracterizacao-e-protecao-de-aquiferos.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m03-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 0
+    white: 2
+    open_findings: []
+    verdict: approved
+    report: 03-contaminacao-aguas-subterraneas/03-contaminacao-aguas-subterraneas-auditoria.md
+    status: complete
+  didactic_review:
+    verdict: bem ensinado
+    report: 03-contaminacao-aguas-subterraneas/03-contaminacao-aguas-subterraneas-revisao-didatica.md
+    status: complete
+  assessment:
+    files:
+    - 03-contaminacao-aguas-subterraneas/03-contaminacao-aguas-subterraneas-questionario.md
+    status: complete
+    objectives_covered:
+    - geologia-avancado-m03-oa01
+    - geologia-avancado-m03-oa02
+    - geologia-avancado-m03-oa03
+    - geologia-avancado-m03-oa04
+  flashcards:
+    basic: 34
+    cloze: 16
+    total: 50
+    last_id: 50
+    files:
+    - 03-contaminacao-aguas-subterraneas/03-contaminacao-aguas-subterraneas-flashcards.md
+    - 03-contaminacao-aguas-subterraneas/03-contaminacao-aguas-subterraneas-flashcards-basic.csv
+    - 03-contaminacao-aguas-subterraneas/03-contaminacao-aguas-subterraneas-flashcards-cloze.csv
+    status: complete
+- id: '04'
+  slug: exploracao-gestao-aguas-subterraneas
+  title: Exploração, explotação e gestão dos recursos hídricos subterrâneos
+  area: IX. Especializações aplicadas
+  objective: Desenvolver um projeto de abastecimento por água subterrânea tecnicamente exequível, economicamente viável e ambientalmente sustentável.
+  prerequisites:
+  - '01'
+  status: complete
+  source_material: 'Todd, D. K. & Mays, L. W. (2005), Groundwater Hydrology, 3ª ed., Wiley, cap. 6 e 8; Kruseman, G. P. & de Ridder, N. A. (1994), Analysis and Evaluation of Pumping Test Data, 2ª ed., ILRI Publication 47; Driscoll, F. G. (1986), Groundwater and Wells, 2ª ed., Johnson Screens, cap. 16-18; Fetter, C. W. (2001), Applied Hydrogeology, 4ª ed., Prentice-Hall, cap. 5 e 15. Artigos e normas citados nas aulas derivadas: Sophocleous (2000), Galloway & Burbey (2011), Dillon et al. (2019). Legislação e acordos: Lei Federal 9.433/1997 (Política Nacional de Recursos Hídricos), Acordo sobre o Aquífero Guarani (2010).'
+  learning_objectives:
+  - id: geologia-avancado-m04-oa01
+    statement: Descrever as fases de exploração, avaliação e explotação de um aquífero
+  - id: geologia-avancado-m04-oa02
+    statement: Dimensionar um campo de poços considerando interferência entre captações e vazão sustentável
+  - id: geologia-avancado-m04-oa03
+    statement: Estruturar e precificar um projeto de abastecimento por água subterrânea
+  - id: geologia-avancado-m04-oa04
+    statement: Avaliar cenários de superexplotação e propor instrumentos de gestão e de uso conjuntivo
+  lessons:
+    planned: 4
+    completed: 4
+    items:
+    - id: geologia-avancado-m04-a01
+      title: 'Fases do desenvolvimento de um aquífero: exploração, avaliação e explotação'
+      file: 04-exploracao-gestao-aguas-subterraneas/04-exploracao-gestao-aguas-subterraneas-aula-01-fases-exploracao-avaliacao-explotacao.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m04-oa01
+    - id: geologia-avancado-m04-a02
+      title: 'Hidráulica de aquíferos aplicada ao projeto: interferência entre poços e dimensionamento de campos de poços'
+      file: 04-exploracao-gestao-aguas-subterraneas/04-exploracao-gestao-aguas-subterraneas-aula-02-hidraulica-interferencia-campos-de-pocos.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m04-oa02
+    - id: geologia-avancado-m04-a03
+      title: 'Projeto de abastecimento por água subterrânea: etapas, viabilidade e precificação da água'
+      file: 04-exploracao-gestao-aguas-subterraneas/04-exploracao-gestao-aguas-subterraneas-aula-03-projeto-de-abastecimento-viabilidade-precificacao.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m04-oa03
+    - id: geologia-avancado-m04-a04
+      title: Superexplotação, uso conjuntivo e governança dos recursos hídricos subterrâneos
+      file: 04-exploracao-gestao-aguas-subterraneas/04-exploracao-gestao-aguas-subterraneas-aula-04-superexplotacao-uso-conjuntivo-governanca.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m04-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 0
+    white: 1
+    open_findings: []
+    verdict: approved
+    report: 04-exploracao-gestao-aguas-subterraneas/04-exploracao-gestao-aguas-subterraneas-auditoria.md
+    status: complete
+  didactic_review:
+    verdict: bem ensinado
+    report: 04-exploracao-gestao-aguas-subterraneas/04-exploracao-gestao-aguas-subterraneas-revisao-didatica.md
+    status: complete
+  assessment:
+    files:
+    - 04-exploracao-gestao-aguas-subterraneas/04-exploracao-gestao-aguas-subterraneas-questionario.md
+    status: complete
+    objectives_covered:
+    - geologia-avancado-m04-oa01
+    - geologia-avancado-m04-oa02
+    - geologia-avancado-m04-oa03
+    - geologia-avancado-m04-oa04
+  flashcards:
+    basic: 30
+    cloze: 14
+    total: 44
+    last_id: 44
+    files:
+    - 04-exploracao-gestao-aguas-subterraneas/04-exploracao-gestao-aguas-subterraneas-flashcards.md
+    - 04-exploracao-gestao-aguas-subterraneas/04-exploracao-gestao-aguas-subterraneas-flashcards-basic.csv
+    - 04-exploracao-gestao-aguas-subterraneas/04-exploracao-gestao-aguas-subterraneas-flashcards-cloze.csv
+    status: complete
+- id: '05'
+  slug: mecanica-de-rochas
+  title: Mecânica de rochas
+  area: IX. Especializações aplicadas
+  objective: Descrever o comportamento mecânico da rocha intacta e do maciço rochoso e aplicá-lo à previsão de ruptura em taludes e escavações.
+  prerequisites:
+  - '01'
+  status: complete
+  source_material: 'Jaeger, J. C., Cook, N. G. W. & Zimmerman, R. W. (2007), Fundamentals of Rock Mechanics, 4ª ed., Blackwell; Goodman, R. E. (1989), Introduction to Rock Mechanics, 2ª ed., Wiley; Hoek, E. & Bray, J. W. (1981), Rock Slope Engineering, 3ª ed., Institution of Mining and Metallurgy; Hoek, E., Kaiser, P. K. & Bawden, W. F. (1995), Support of Underground Excavations in Hard Rock, Balkema; Bieniawski, Z. T. (1989), Engineering Rock Mass Classifications, Wiley. Artigos e normas primárias citados nas aulas derivadas: Griffith (1921), Bieniawski (1967), Deere (1964), Barton (1973), Barton & Choubey (1977), Barton, Lien & Lunde (1974), Hoek & Brown (1980), Hoek (1994), Hoek, Carranza-Torres & Corkum (2002), Romana (1985), Patton (1966), Kirsch (1898), Goodman & Bray (1976), ISRM (1978, 1985), Haimson & Cornet (2003), Amadei & Stephansson (1997).'
+  learning_objectives:
+  - id: geologia-avancado-m05-oa01
+    statement: Calcular o estado de tensão e de deformação em rochas usando o círculo de Mohr em 2D e 3D
+  - id: geologia-avancado-m05-oa02
+    statement: Aplicar critérios de ruptura (Mohr-Coulomb, Griffith, Hoek-Brown) e determinar tensões in situ
+  - id: geologia-avancado-m05-oa03
+    statement: Caracterizar descontinuidades e classificar um maciço rochoso pelos sistemas RMR, Q, GSI e SMR
+  - id: geologia-avancado-m05-oa04
+    statement: Analisar a estabilidade de taludes rochosos e a resposta do maciço a escavações
+  lessons:
+    planned: 7
+    completed: 7
+    items:
+    - id: geologia-avancado-m05-a01
+      title: 'Tensão e deformação em rochas: estado de tensão, tensões principais e círculo de Mohr'
+      file: 05-mecanica-de-rochas/05-mecanica-de-rochas-aula-01-tensao-deformacao-circulo-de-mohr.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m05-oa01
+    - id: geologia-avancado-m05-a02
+      title: Propriedades físicas e comportamento reológico das rochas; ensaios de laboratório
+      file: 05-mecanica-de-rochas/05-mecanica-de-rochas-aula-02-propriedades-fisicas-comportamento-reologico.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m05-oa01
+    - id: geologia-avancado-m05-a03
+      title: 'Critérios de ruptura aplicáveis às rochas: Mohr-Coulomb, Griffith e Hoek-Brown'
+      file: 05-mecanica-de-rochas/05-mecanica-de-rochas-aula-03-criterios-de-ruptura-mohr-coulomb-griffith-hoek-brown.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m05-oa02
+    - id: geologia-avancado-m05-a04
+      title: 'Descontinuidades: geometria, resistência ao cisalhamento e permeabilidade do maciço'
+      file: 05-mecanica-de-rochas/05-mecanica-de-rochas-aula-04-descontinuidades-geometria-resistencia-permeabilidade.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m05-oa03
+    - id: geologia-avancado-m05-a05
+      title: 'Tensões in situ: origem e métodos de determinação (overcoring, fraturamento hidráulico, macacos planos)'
+      file: 05-mecanica-de-rochas/05-mecanica-de-rochas-aula-05-tensoes-in-situ-metodos-de-determinacao.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m05-oa02
+    - id: geologia-avancado-m05-a06
+      title: 'Classificações geomecânicas de maciços rochosos: RMR, Q, GSI e SMR'
+      file: 05-mecanica-de-rochas/05-mecanica-de-rochas-aula-06-classificacoes-geomecanicas-rmr-q-gsi-smr.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m05-oa03
+    - id: geologia-avancado-m05-a07
+      title: Estabilidade de taludes rochosos e escavações a céu aberto e subterrâneas
+      file: 05-mecanica-de-rochas/05-mecanica-de-rochas-aula-07-estabilidade-de-taludes-e-escavacoes.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m05-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 1
+    white: 2
+    open_findings: []
+    verdict: approved
+    report: 05-mecanica-de-rochas/05-mecanica-de-rochas-auditoria.md
+    status: complete
+  didactic_review:
+    verdict: bem ensinado
+    report: 05-mecanica-de-rochas/05-mecanica-de-rochas-revisao-didatica.md
+    status: complete
+  assessment:
+    files:
+    - 05-mecanica-de-rochas/05-mecanica-de-rochas-questionario-parcial-1.md
+    - 05-mecanica-de-rochas/05-mecanica-de-rochas-questionario-parcial-2.md
+    - 05-mecanica-de-rochas/05-mecanica-de-rochas-questionario-final.md
+    status: complete
+    objectives_covered:
+    - geologia-avancado-m05-oa01
+    - geologia-avancado-m05-oa02
+    - geologia-avancado-m05-oa03
+    - geologia-avancado-m05-oa04
+  flashcards:
+    basic: 40
+    cloze: 20
+    total: 60
+    last_id: 60
+    files:
+    - 05-mecanica-de-rochas/05-mecanica-de-rochas-flashcards.md
+    - 05-mecanica-de-rochas/05-mecanica-de-rochas-flashcards-basic.csv
+    - 05-mecanica-de-rochas/05-mecanica-de-rochas-flashcards-cloze.csv
+    status: complete
+- id: '06'
+  slug: elementos-de-geomecanica
+  title: Elementos de geomecânica
+  area: IX. Especializações aplicadas
+  objective: Caracterizar solos e maciços quanto a índices físicos, tensões, deformabilidade e resistência, e selecionar os métodos de prospecção do subsolo adequados a obras civis e de mineração.
+  prerequisites:
+  - '05'
+  status: complete
+  source_material: 'Das, B. M. & Sobhan, K. (2019), Fundamentos de Engenharia Geotécnica, 9ª ed., Cengage; Terzaghi, K., Peck, R. B. & Mesri, G. (1996), Soil Mechanics in Engineering Practice, 3ª ed., Wiley; Cedergren, H. R. (1989), Seepage, Drainage, and Flow Nets, 3ª ed., Wiley; Lunne, T., Robertson, P. K. & Powell, J. J. M. (1997), Cone Penetration Testing in Geotechnical Practice, Blackie. Normas e artigos primários citados nas aulas derivadas: ASTM D698, D1557, D1586, D1587, D2166, D2216, D2434, D2435, D2487, D2573, D3080, D4253/D4254, D4767, D5084; ABNT NBR 6484 e 8036; AASHTO M 145; Terzaghi (1925), Casagrande (1936, 1948), Jáky (1944), Hvorslev (1951), Skempton (1964), Schofield & Wroth (1968), Bouwer & Rice (1976), Houlsby (1976), Mesri & Godlewski (1977), Bieniawski (1978), Witherspoon et al. (1980), Mayne & Kulhawy (1982), Serafim & Pereira (1983), Robertson (1990), Hoek & Diederichs (2006), Lugeon (1933).'
+  learning_objectives:
+  - id: geologia-avancado-m06-oa01
+    statement: Classificar um solo por granulometria e limites de consistência (SUCS, AASHTO)
+  - id: geologia-avancado-m06-oa02
+    statement: Calcular índices físicos e o perfil de tensões totais, efetivas e neutras
+  - id: geologia-avancado-m06-oa03
+    statement: Calcular recalques por adensamento a partir de ensaio edométrico e estimar a deformabilidade de maciços
+  - id: geologia-avancado-m06-oa04
+    statement: Selecionar ensaios de resistência e métodos de prospecção geotécnica adequados ao problema de engenharia
+  lessons:
+    planned: 6
+    completed: 6
+    items:
+    - id: geologia-avancado-m06-a01
+      title: 'Caracterização e classificação dos solos: granulometria, limites de Atterberg, SUCS e AASHTO'
+      file: 06-elementos-de-geomecanica/06-elementos-de-geomecanica-aula-01-classificacao-de-solos-granulometria-atterberg-sucs-aashto.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m06-oa01
+    - id: geologia-avancado-m06-a02
+      title: Índices físicos de solos e rochas e compactação
+      file: 06-elementos-de-geomecanica/06-elementos-de-geomecanica-aula-02-indices-fisicos-e-compactacao.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m06-oa02
+    - id: geologia-avancado-m06-a03
+      title: Tensões totais, efetivas e neutras; pressões geostáticas e o coeficiente K0
+      file: 06-elementos-de-geomecanica/06-elementos-de-geomecanica-aula-03-tensoes-totais-efetivas-neutras-k0.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m06-oa02
+    - id: geologia-avancado-m06-a04
+      title: 'Percolação de água em meios porosos e fissurados: equações e determinação em campo e laboratório'
+      file: 06-elementos-de-geomecanica/06-elementos-de-geomecanica-aula-04-percolacao-em-meios-porosos-e-fissurados.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m06-oa02
+    - id: geologia-avancado-m06-a05
+      title: 'Compressibilidade e adensamento: ensaio edométrico, cálculo de recalques e deformabilidade de maciços'
+      file: 06-elementos-de-geomecanica/06-elementos-de-geomecanica-aula-05-compressibilidade-adensamento-recalques.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m06-oa03
+    - id: geologia-avancado-m06-a06
+      title: Resistência ao cisalhamento de solos e rochas e prospecção geotécnica do subsolo
+      file: 06-elementos-de-geomecanica/06-elementos-de-geomecanica-aula-06-resistencia-ao-cisalhamento-e-prospeccao-geotecnica.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m06-oa04
+  audit:
+    red: 0
+    orange: 1
+    yellow: 1
+    blue: 1
+    white: 2
+    open_findings: []
+    resolved_findings:
+    - id: GEOMEC-M06-A06-SPT-005
+      severity: orange
+      summary: Especificação do martelo do SPT atribuída conjuntamente à NBR 6484 e à ASTM D1586 como se coincidissem. A NBR 6484 adota 65 kg e queda de 75 cm; a ASTM D1586 adota 63,5 kg (140 lb) e queda de 76 cm (30 in).
+      resolution: corrigido no texto da Aula 06 e no bloco de metadados antes do gate
+    - id: GEOMEC-M06-A03-K0-004
+      severity: yellow
+      summary: A expressão K0=1−sen φ foi atribuída diretamente a Jáky (1944) sem registrar que é a aproximação prática derivada da expressão original (1−sen φ)(1+⅔ sen φ)/(1+sen φ).
+      resolution: corrigido no texto da Aula 03 e no bloco de metadados antes do gate
+    verdict: approved
+    report: 06-elementos-de-geomecanica/06-elementos-de-geomecanica-auditoria.md
+    status: complete
+  didactic_review:
+    verdict: bem ensinado
+    report: 06-elementos-de-geomecanica/06-elementos-de-geomecanica-revisao-didatica.md
+    status: complete
+  assessment:
+    files:
+    - 06-elementos-de-geomecanica/06-elementos-de-geomecanica-questionario-parcial-1.md
+    - 06-elementos-de-geomecanica/06-elementos-de-geomecanica-questionario-parcial-2.md
+    - 06-elementos-de-geomecanica/06-elementos-de-geomecanica-questionario-final.md
+    partials_rationale: 'Primeiro módulo de 6 aulas do curso, na fronteira da regra de parciais ("mais de ~5–6 aulas"). Parciais acionadas por três razões, registradas na revisão didática: módulo fortemente computacional, cujo questionário único exigiria ~20 questões numa sessão; corte conceitual natural entre as aulas 01–03 (caracterizar o solo e montar o estado de tensão) e 04–06 (o que a água e a carga fazem com esse estado); e alto valor de um ponto de verificação antes da Aula 05, que depende criticamente da Aula 03. Critério para módulos futuros de 6 aulas: acionar parciais quando houver corte conceitual natural, manter questionário único quando as aulas formarem bloco indivisível.'
+    questions_total: 28
+    status: complete
+    objectives_covered:
+    - geologia-avancado-m06-oa01
+    - geologia-avancado-m06-oa02
+    - geologia-avancado-m06-oa03
+    - geologia-avancado-m06-oa04
+  flashcards:
+    basic: 38
+    cloze: 18
+    total: 56
+    last_id: 56
+    files:
+    - 06-elementos-de-geomecanica/06-elementos-de-geomecanica-flashcards.md
+    - 06-elementos-de-geomecanica/06-elementos-de-geomecanica-flashcards-basic.csv
+    - 06-elementos-de-geomecanica/06-elementos-de-geomecanica-flashcards-cloze.csv
+    status: complete
+- id: '07'
+  slug: mapeamento-geotecnico
+  title: Metodologia de mapeamento geotécnico
+  area: IX. Especializações aplicadas
+  objective: Produzir e interpretar cartas geotécnicas, de suscetibilidade e de risco como subsídio ao planejamento urbano.
+  prerequisites:
+  - '06'
+  status: complete
+  source_material: 'IAEG/UNESCO (1976), Engineering Geological Maps: A Guide to Their Preparation; Zuquette, L. V. & Gandolfi, N. (2004), Cartografia Geotécnica, Oficina de Textos; Zuquette, L. V. (1987), tese de doutorado, EESC-USP; Varnes, D. J. & IAEG Commission on Landslides (1984), Landslide Hazard Zonation, UNESCO; Fell, R. et al. (2008), Engineering Geology 102(3–4); Burrough, P. A., McDonnell, R. A. & Lloyd, C. D. (2015), Principles of Geographical Information Systems, 3ª ed., OUP. Fontes primárias e diplomas legais citados nas aulas derivadas: De Biasi (1992), Skempton & DeLory (1957), Chung & Fabbri (2003), Ferretti, Prati & Rocca (2001), Guzzetti et al. (2008), Tomlin (1990), Duncan, Wright & Brandon (2014), Ministério das Cidades/IPT (2007), IPT (1986), Prandini et al. (1995), ISRM (1981), UNDRR terminology; Leis nº 6.766/1979, 10.257/2001, 12.608/2012 e 12.651/2012, Decreto nº 89.817/1984 e ET-CQDG/DSG.'
+  learning_objectives:
+  - id: geologia-avancado-m07-oa01
+    statement: Distinguir carta geotécnica, carta de suscetibilidade e carta de risco quanto a objetivo e conteúdo
+  - id: geologia-avancado-m07-oa02
+    statement: Definir os atributos e a escala adequados a um mapeamento geotécnico
+  - id: geologia-avancado-m07-oa03
+    statement: Elaborar cartas derivadas (declividade, aptidão, suscetibilidade) a partir de camadas básicas em SIG
+  - id: geologia-avancado-m07-oa04
+    statement: Avaliar o risco geológico-geotécnico de uma área urbana e recomendar restrições de uso
+  lessons:
+    planned: 4
+    completed: 4
+    items:
+    - id: geologia-avancado-m07-a01
+      title: 'Conceitos e metodologia da cartografia geotécnica: objetivos, escalas e atributos'
+      file: 07-mapeamento-geotecnico/07-mapeamento-geotecnico-aula-01-conceitos-metodologia-escalas-atributos.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m07-oa02
+    - id: geologia-avancado-m07-a02
+      title: 'Cartas básicas: materiais inconsolidados, substrato rochoso, declividade e feições do terreno'
+      file: 07-mapeamento-geotecnico/07-mapeamento-geotecnico-aula-02-cartas-basicas-materiais-substrato-declividade.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m07-oa03
+    - id: geologia-avancado-m07-a03
+      title: 'Cartas derivadas e interpretativas: aptidão física ao assentamento urbano, suscetibilidade e risco'
+      file: 07-mapeamento-geotecnico/07-mapeamento-geotecnico-aula-03-cartas-derivadas-aptidao-suscetibilidade-risco.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m07-oa01
+      - geologia-avancado-m07-oa03
+    - id: geologia-avancado-m07-a04
+      title: SIG, imagens de satélite e análise de risco aplicados ao planejamento urbano
+      file: 07-mapeamento-geotecnico/07-mapeamento-geotecnico-aula-04-sig-sensoriamento-remoto-analise-de-risco.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m07-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 1
+    blue: 1
+    white: 2
+    open_findings: []
+    maintenance_flags:
+    - id: CARTGEO-M07-A03-LEI12608-003
+      severity: yellow
+      summary: As Aulas 02 e 03 citam legislação brasileira (Leis 6.766/1979, 12.608/2012 e 12.651/2012) sujeita a alterações posteriores, entre elas as da Lei 14.285/2021. O enquadramento descrito está correto e a Aula 03 traz callout de advertência explícito instruindo a confirmar a redação vigente antes de fundamentar parecer técnico.
+      action: reconfirmar a redação vigente a cada revisão do curso — conteúdo que envelhece sem sinalização
+    verdict: approved
+    report: 07-mapeamento-geotecnico/07-mapeamento-geotecnico-auditoria.md
+    status: complete
+  didactic_review:
+    verdict: bem ensinado
+    report: 07-mapeamento-geotecnico/07-mapeamento-geotecnico-revisao-didatica.md
+    status: complete
+  assessment:
+    files:
+    - 07-mapeamento-geotecnico/07-mapeamento-geotecnico-questionario.md
+    partials_rationale: 'Módulo com 4 aulas, abaixo do limiar que aciona parciais — questionário cumulativo único, em linha com os módulos 02, 03 e 04. Reforçado por razão de conteúdo: as quatro aulas formam uma cadeia de produção única (conceito, cartas básicas, cartas derivadas, operação e decisão), sem corte conceitual natural, e a competência central do módulo é justamente encadear as etapas — o que uma avaliação integrada afere melhor.'
+    questions_total: 14
+    status: complete
+    objectives_covered:
+    - geologia-avancado-m07-oa01
+    - geologia-avancado-m07-oa02
+    - geologia-avancado-m07-oa03
+    - geologia-avancado-m07-oa04
+  flashcards:
+    basic: 30
+    cloze: 14
+    total: 44
+    last_id: 44
+    files:
+    - 07-mapeamento-geotecnico/07-mapeamento-geotecnico-flashcards.md
+    - 07-mapeamento-geotecnico/07-mapeamento-geotecnico-flashcards-basic.csv
+    - 07-mapeamento-geotecnico/07-mapeamento-geotecnico-flashcards-cloze.csv
+    status: complete
+- id: 08
+  slug: geotecnia-ambiental
+  title: Geotecnia ambiental
+  area: IX. Especializações aplicadas
+  objective: Aplicar a geotecnia ao controle da contaminação, à disposição de resíduos e rejeitos e à recuperação de áreas degradadas.
+  prerequisites:
+  - '06'
+  - '03'
+  status: complete
+  learning_objectives:
+  - id: geologia-avancado-m08-oa01
+    statement: Relacionar propriedades geotécnicas (condutividade hidráulica, compactação, resistência) ao desempenho de barreiras e taludes
+  - id: geologia-avancado-m08-oa02
+    statement: Identificar condicionantes geológico-geotécnicos de processos erosivos e de movimentos gravitacionais de massa
+  - id: geologia-avancado-m08-oa03
+    statement: Avaliar o projeto, a operação e o monitoramento de aterros de resíduos e de estruturas de disposição de rejeitos
+  - id: geologia-avancado-m08-oa04
+    statement: Selecionar técnicas de recuperação de áreas degradadas e de remediação de solo e aquífero
+  lessons:
+    planned: 6
+    completed: 6
+    items:
+    - id: geologia-avancado-m08-a01
+      title: 'Geotecnia ambiental: conceitos, abrangência e propriedades geotécnicas relevantes'
+      file: 08-geotecnia-ambiental/08-geotecnia-ambiental-aula-01-conceitos-e-propriedades-geotecnicas.md
+      status: complete
+      content_hash: d5dfc4a76e83d4be0bd3f6ca264d039b1a9e837e224d268fce9e288db178ff25
+      covers_objectives:
+      - geologia-avancado-m08-oa01
+    - id: geologia-avancado-m08-a02
+      title: Condicionantes geológico-geotécnicos de processos erosivos e movimentos gravitacionais de massa
+      file: 08-geotecnia-ambiental/08-geotecnia-ambiental-aula-02-erosao-e-movimentos-de-massa.md
+      status: complete
+      content_hash: 06b3ded9ee2705021df1d0c52eb6c9bec1b6da6603f788af164a02f163a575e4
+      covers_objectives:
+      - geologia-avancado-m08-oa02
+    - id: geologia-avancado-m08-a03
+      title: 'Resíduos sólidos e seleção de áreas de disposição: Política Nacional de Resíduos Sólidos e plumas de contaminação'
+      file: 08-geotecnia-ambiental/08-geotecnia-ambiental-aula-03-residuos-solidos-e-selecao-de-areas.md
+      status: complete
+      content_hash: efbbd659c512579cfbd75410b3a99c90be86d9160c54a2039535fed74238ce32
+      covers_objectives:
+      - geologia-avancado-m08-oa03
+    - id: geologia-avancado-m08-a04
+      title: 'Aterros sanitários: liners, barreiras de cobertura, projeto, operação, monitoramento e recalques'
+      file: 08-geotecnia-ambiental/08-geotecnia-ambiental-aula-04-aterros-sanitarios-liners-e-recalques.md
+      status: complete
+      content_hash: 4b1135149a6f2929a393ea29b7a3c2dd918b5993095cbad48807382b4291e8bf
+      covers_objectives:
+      - geologia-avancado-m08-oa01
+      - geologia-avancado-m08-oa03
+    - id: geologia-avancado-m08-a05
+      title: 'Rejeitos de mineração: características geotécnicas, técnicas de disposição e estruturas de contenção'
+      file: 08-geotecnia-ambiental/08-geotecnia-ambiental-aula-05-rejeitos-de-mineracao.md
+      status: complete
+      content_hash: d603d9967e6771565f855ed5f675a94eda4094fceccf45257be2300dd257fb3d
+      covers_objectives:
+      - geologia-avancado-m08-oa03
+    - id: geologia-avancado-m08-a06
+      title: Recuperação de áreas degradadas, remediação de solo e aquífero e uso de resíduos em projetos geotécnicos
+      file: 08-geotecnia-ambiental/08-geotecnia-ambiental-aula-06-recuperacao-e-remediacao.md
+      status: complete
+      content_hash: 299ded5165b42d4ea3f240c35ce45f4a0b42508dd00726f09b0221970dc26ffc
+      covers_objectives:
+      - geologia-avancado-m08-oa04
+  audit:
+    red: 1
+    orange: 5
+    yellow: 8
+    blue: 1
+    white: 3
+    open_findings: []
+    resolved_findings:
+    - id: GEOAMB-M08-A05-EXEMPLO-008
+      severity: red
+      summary: Exemplo trabalhado da Aula 05 calculava o esforco cisalhante motriz com o peso submerso (tau = sigma_v0 x tan beta), formulacao de talude submerso, num talude declarado percolado (lencol na superficie). Contradizia o modelo de talude infinito do Modulo 07 Aula 03, aplicado corretamente na Aula 02 deste mesmo modulo. FS drenado e FS pos-liquefacao saiam maiores que os corretos por fator 1,88.
+      resolution: 'corrigido no texto, no recap, em Erros comuns e no bloco de metadados antes do gate; valores corretos: tau = 61,0 kPa, FS drenado = 1,56, FS pos-liquefacao = 0,25'
+    - id: GEOAMB-M08-A06-CAPTURA-007
+      severity: orange
+      summary: Largura assintotica da zona de captura (+/-93,8 m) rotulada como meia-largura na linha do poco. Na linha do poco a largura total e 93,8 m (+/-46,9 m), metade da assintotica, e menor que os 120 m da pluma, fato que decidia a conclusao do exemplo.
+      resolution: Passo 2 e Passo 4 do exemplo, recap e claim reescritos distinguindo W_inf de W_0 e explicitando o afunilamento do envelope
+    - id: GEOAMB-M08-A04-EXEMPLO-007
+      severity: orange
+      summary: Fuga por liner composto declarada como dezenas de litros por hectare por dia, contraditoria com a afirmacao de duas a tres ordens de grandeza feita na mesma frase e cerca de uma ordem acima do resultado de Giroud & Bonaparte 1989 para os dados do exemplo.
+      resolution: parte (c) do exemplo e claim reescritos com o calculo explicito (0,3 L/dia por furo) e a ordem correta, unidades de L por hectare-dia, cerca de 1 a 7 m3/ano sobre 4 ha
+    - id: GEOAMB-M08-A01-COMPAT-QUIMICA-004
+      severity: orange
+      summary: ASTM D6766 apresentada como o ensaio de compatibilidade de liners em geral, inclusive para camada de argila compactada. Seu escopo e restrito a geocompostos bentoniticos (GCL); para CCL a permeacao com o lixiviado real segue a ASTM D5084.
+      resolution: corpo, tabela de propriedades, recap, fontes e claim passaram a separar as duas normas por material
+    - id: GEOAMB-M08-A03-PNRS-VOLATIL-003
+      severity: orange
+      summary: 'Prazos de erradicacao de lixoes citados como Lei 14.026/2020 art. 11-B. O art. 11-B foi inserido na Lei 11.445/2007 e trata de capacidade economico-financeira; o escalonamento vem do art. 11 da Lei 14.026/2020, que deu nova redacao ao art. 54 da Lei 12.305/2010.'
+      resolution: callout, fontes e claim corrigidos, com o escalonamento por porte de municipio explicitado
+    - id: GEOAMB-M08-A06-RESIDUOS-006
+      severity: orange
+      summary: Referencia bibliografica com dois conjuntos de autores separados por barra (Javadi & Ghavami / Consoli et al. 2001), nao identificavel nem citavel.
+      resolution: entrada removida em vez de substituida por outra nao verificavel; alegacao passa a se apoiar em Edil 2005 e Sharma & Reddy 2004 cap. 17, e acrescentada a ASTM D6270 como fonte primaria do limite de espessura de agregado de pneu
+    - id: GEOAMB-M08-A02-VARNES-005
+      severity: yellow
+      summary: Classe complexo apresentada como parte da atualizacao de Hungr, Leroueil & Picarelli 2014, que justamente a abandonou em favor de descrever a sequencia de tipos observada.
+      resolution: tabela reatribuida a Varnes 1978, callout explicando a revisao de 2014, recap e claim atualizados
+    - id: GEOAMB-M08-A02-PIPING-008
+      severity: yellow
+      summary: Piping descrito como o mecanismo de falha mais comum de barragens de terra. Erosao interna e galgamento sao as duas causas dominantes com participacoes comparaveis; o Modulo 06, ja auditado, calibrou a mesma afirmacao como causa frequente. Alegacao criada nesta auditoria, pois nao havia claim_id cobrindo a afirmacao.
+      resolution: redacao recalibrada, item de recap acrescentado, claim GEOAMB-M08-A02-PIPING-008 criado com Foster, Fell & Spannagle 2000 como fonte
+    - id: GEOAMB-M08-A02-BACKCALC-007
+      severity: yellow
+      summary: Conclusao de que a encosta perde cerca de cinco vezes o toleravel usava so o extremo superior da faixa de tolerancia (4 a 12 t por hectare-ano) declarada na frase anterior; dividindo pelo extremo inferior o resultado e catorze vezes. O calculo de A = 57,3 confere.
+      resolution: redacao alterada para cinco a catorze vezes, com a razao explicitada
+    - id: GEOAMB-M08-A02-ERODIBILIDADE-002
+      severity: yellow
+      summary: A parte litologica da alegacao (alta erodibilidade de solos residuais de granito e de arenito) foi atribuida a Wischmeier & Smith 1978 e Renard et al. 1997, que modelam o fator K por textura, materia organica, estrutura e permeabilidade, e nao sustentam a afirmacao litologica.
+      resolution: campo source reescrito separando o que cada fonte sustenta; Salomao 1998 e Bertoni & Lombardi Neto 2012 acrescentados as fontes da aula
+    - id: GEOAMB-M08-A03-SELECAO-004
+      severity: yellow
+      summary: 'Restricao de distancia a aerodromos atribuida a NBR 13896. E regra de seguranca aerea (Lei 12.725/2012, sucedendo a Resolucao CONAMA 4/1995), nao criterio da norma tecnica, e a propria aula ja reconhecia a natureza da restricao em Erros comuns, o que tornava a atribuicao uma inconsistencia interna.'
+      resolution: item de distancias partido em dois com a base legal nomeada, Erros comuns reforcado, claim e fontes atualizados
+    - id: GEOAMB-M08-A05-LIQUEFACAO-005
+      severity: yellow
+      summary: Definicao categorica deflagrada sem sismo aplicada a Fundao sem registrar que o painel de Morgenstern et al. 2016 documentou tres pequenos eventos sismicos cerca de 90 min antes do colapso, considerados possiveis aceleradores de um processo ja em curso e nao a causa (que foi a perda de confinamento por extrusao lateral da lama). Feijao I nao teve gatilho externo.
+      resolution: definicao ajustada para sem necessidade de sismo, callout de ressalva acrescentado e claim atualizado com a precisao
+    - id: GEOAMB-M08-A01-TRANSITO-007
+      severity: yellow
+      summary: 'Consistencia cruzada com o Modulo 03: fator de retardacao escrito como R = 1 + rho_d x Kd / n nas secoes de retomada das Aulas 01 e 03, divergindo da definicao auditada do Modulo 03, R = 1 + (rho_b / n_e) x Kd, em especial n (porosidade total) por n_e (porosidade efetiva), que nao sao a mesma grandeza.'
+      resolution: notacao harmonizada com o Modulo 03 nas duas aulas, com o significado dos simbolos explicitado na Aula 01
+    - id: GEOAMB-M08-A06-RESIDUOS-006-NBR
+      severity: yellow
+      summary: NBR 15115 e NBR 15116 citadas com edicao de 2004, posteriormente revisada. Nao foi possivel confirmar a edicao vigente com confianca alta nesta auditoria.
+      resolution: citacoes desversionadas no corpo, nas fontes e no claim, com instrucao explicita de confirmar a edicao vigente antes de citar; tambem registrado como maintenance_flag
+    - id: GEOAMB-M08-A05-SU-LIQ-006
+      severity: blue
+      summary: Faixa de resistencia liquefeita de 5 a 12 por cento da tensao efetiva vertical para rejeito fofo e convencao de projeto derivada de retroanalises e de correlacoes com CPT, nao constante do material; a escola de estado critico a trata como funcao do parametro de estado, e a constancia da resistencia liquefeita durante o fluxo permanece em aberto. O texto ja qualifica a faixa como tipica e o valor do exemplo como estimado por ensaios.
+      resolution: nenhuma correcao necessaria, tratamento ja adequado
+    - id: GEOAMB-M08-A04-RECALQUE-005
+      severity: white
+      summary: Faixa de 15 a 30 por cento da altura para recalque total de aterro de RSU e consistente com Sowers 1973; compilacoes posteriores registram ate cerca de 40 por cento para residuo de alto teor organico e baixa compactacao inicial. O texto ja apresenta a faixa como tipica.
+      resolution: nenhuma correcao obrigatoria
+    - id: GEOAMB-M08-A05-DESCARACT-007
+      severity: white
+      summary: Proibicao do alteamento a montante e descaracterizacao atribuidas so a Lei 14.066/2020; apareceram primeiro na Resolucao ANM 4/2019, editada semanas apos Brumadinho, e so depois foram elevadas a lei.
+      resolution: enriquecimento de baixo risco aplicado, callout, fontes e claim passaram a registrar a ANM 4/2019 como origem
+    - id: GEOAMB-M08-A03-NBR10004-001
+      severity: white
+      summary: Classe II B descrita por nao liberar constituintes acima dos padroes de potabilidade. A NBR 10004 confronta o resultado do ensaio de solubilizacao com os limites do seu proprio anexo, que derivam dos padroes de potabilidade mas nao acompanham automaticamente a portaria vigente. Atalho consagrado na pratica.
+      resolution: nenhuma correcao, atalho padrao na literatura e a aula ja remete o ensaio a norma
+    maintenance_flags:
+    - id: GEOAMB-M08-A03-PNRS-VOLATIL-003
+      severity: yellow
+      summary: 'Aula 03 cita legislacao brasileira de residuos em evolucao: Lei 12.305/2010, Decreto 10.936/2022, prazos do art. 54 na redacao dada pelo art. 11 da Lei 14.026/2020, e a restricao a aerodromos da Lei 12.725/2012. O enquadramento esta correto e a aula traz callout de advertencia explicito.'
+      action: reconfirmar a redacao vigente e os prazos a cada revisao do curso antes de fundamentar parecer tecnico
+    - id: GEOAMB-M08-A05-DESCARACT-007
+      severity: yellow
+      summary: 'Aula 05 cita legislacao de barragens de rejeito em evolucao: Lei 12.334/2010 alterada pela Lei 14.066/2020, Resolucoes ANM 4/2019 e 95/2022, e o GISTM 2020. O enquadramento esta correto e a aula traz callout de advertencia explicito.'
+      action: reconfirmar a redacao vigente e os prazos a cada revisao do curso antes de fundamentar parecer tecnico
+    - id: GEOAMB-M08-A06-RESIDUOS-006-NBR
+      severity: yellow
+      summary: Edicao vigente das NBR 15115 e NBR 15116 nao pode ser confirmada nesta auditoria. As citacoes foram desversionadas e o texto instrui a confirmar antes de citar. Unico item com incerteza residual do modulo.
+      action: confirmar a edicao vigente das duas normas na proxima revisao e reversionar as citacoes
+    verdict: approved
+    report: 08-geotecnia-ambiental/08-geotecnia-ambiental-auditoria.md
+    status: complete
+  didactic_review:
+    verdict: bem ensinado
+    findings:
+    - id: DID-M08-A02-USLE-001
+      severity: orange
+      summary: Objetivo declarado da Aula 02 promete estimar a perda de solo pela USLE/RUSLE, mas nenhuma secao do conteudo apresentava a equacao. Ela surgia pela primeira vez dentro do enunciado do exemplo trabalhado, ja como cinco valores numericos, sem nenhum dos fatores nomeado ou definido. Agravante de clareza, a colisao de simbolo entre o K de erodibilidade da USLE e o K de condutividade hidraulica das demais aulas nao tinha lugar onde ser avisada.
+      resolution: acrescentada a secao Quantificar a perda de solo, USLE e RUSLE, definindo os cinco fatores, organizando-os por manipulabilidade (R e LS dados do sitio, C e P alavancas de intervencao) e avisando a colisao de simbolo; enunciado do exemplo, recap e mapa_objetivo_secao atualizados
+    - id: DID-M08-EXTENSAO
+      severity: yellow
+      summary: 'Quatro aulas acima do teto de cerca de 1900 palavras de corpo pela contagem declarada (a02 ~2060, a04 ~2010, a05 ~2050, a06 ~1990). Contagem independente feita na revisao da divergencia de ~15 por cento e indica que so a a02 (2074) excede claramente e a a05 (1923) tangencia. Divergencia de metodo de tokenizacao registrada no relatorio.'
+      resolution: 'ressalva justificada em vez de corte, seguindo o precedente da a14 do Modulo 40. O excedente da a02 e a secao de USLE que fecha o objetivo, e o das outras tres esta no exemplo trabalhado, que carrega o conceito central de cada uma. Enxugado o possivel na a05 (paragrafo de interpretacao redundante removido, ressalva de Fundao comprimida). Candidata a quebra futura, se o usuario relatar fadiga: a05, entre Tecnologias que reduzem a agua livre e Liquefacao.'
+    - id: DID-M08-A02-ACOPLAMENTO-002
+      severity: yellow
+      summary: A Aula 02 e a menos acoplada do modulo, unica cujo objetivo e coberto so por ela e cujo conteudo proprio (USLE, Varnes, solos dispersivos, retroanalise) quase nao e consumido adiante. Nao e defeito de sequenciamento, mas o aluno pode atravessa-la sem transferir nada dela.
+      resolution: reforco indireto aplicado (a Aula 05 passou a usar e citar a mesma formulacao de talude infinito da Aula 02); nao foram acrescentadas amarracoes retoricas para nao alongar uma aula ja acima do teto. Encaminhado a avaliacao, o final cumulativo deve trazer uma questao ligando a02 e a05 pelo mecanismo comum de poropressao e tensao efetiva.
+    report: 08-geotecnia-ambiental/08-geotecnia-ambiental-revisao-didatica.md
+    status: complete
+  assessment:
+    files:
+    - 08-geotecnia-ambiental/08-geotecnia-ambiental-questionario-parcial-1.md
+    - 08-geotecnia-ambiental/08-geotecnia-ambiental-questionario-parcial-2.md
+    - 08-geotecnia-ambiental/08-geotecnia-ambiental-questionario-final.md
+    partials_recommendation: 'PARCIAIS (2 mais 1 final cumulativo). Segundo modulo de 6 aulas do curso; aplicacao do criterio fixado no Modulo 06 (acionar parciais quando houver corte conceitual natural). Ha corte natural entre a03 e a04, na fronteira profissional entre viabilidade/licenciamento e projeto executivo: parcial 1 = a01-a03 (caracterizar o material, os processos do terreno e escolher o sitio, nenhuma constroi nada; exemplos de avaliacao), parcial 2 = a04-a06 (projetar, operar e reparar; exemplos de dimensionamento). Reforcado por tres razoes: ponto de verificacao antes da a05, a aula mais dificil, que depende do tripe da a01 e da mecanica de talude da a02; quatro aulas acima do teto de palavras, tornando um questionario unico de cerca de 20 questoes uma prova de resistencia; e oa02 (so a02) e oa04 (so a06) caem inteiros em uma parcial cada. ATENCAO ao gerador: oa01 (a01, a04) e oa03 (a03, a04, a05) atravessam o corte, as questoes de integracao ficam com o final cumulativo.'
+    partials_applied: 'Executado conforme recomendacao. Corte a01-a03 / a04-a06. Parcial 1: 9 questoes (oa02 integral; oa01 e oa03 parciais). Parcial 2: 9 questoes (oa04 integral; oa01 e oa03 parciais). Final cumulativo: 10 questoes, com as questoes de integracao de oa01 (a01<->a04) e oa03 (a03/a04/a05) e a questao a02<->a05 pelo mecanismo comum de poropressao/tensao efetiva (encaminhamento DID-M08-A02-ACOPLAMENTO-002). IDs geologia-avancado-m08-q01 a q28, numeracao continua entre os tres questionarios. Tipos: multipla escolha, V/F com justificativa, dissertativa curta, aplicacao/calculo em todos. Gabaritos com valores da a05 e a06 conforme correcoes da auditoria (FS drenado 1,56 / pos-liquefacao 0,25; zona de captura W_inf vs W_0).'
+    questions_total: 28
+    status: complete
+    objectives_covered:
+    - geologia-avancado-m08-oa01
+    - geologia-avancado-m08-oa02
+    - geologia-avancado-m08-oa03
+    - geologia-avancado-m08-oa04
+    uncovered_objectives: []
+  flashcards:
+    basic: 36
+    cloze: 18
+    total: 54
+    last_id: 54
+    files:
+    - 08-geotecnia-ambiental/08-geotecnia-ambiental-flashcards.md
+    - 08-geotecnia-ambiental/08-geotecnia-ambiental-flashcards-basic.csv
+    - 08-geotecnia-ambiental/08-geotecnia-ambiental-flashcards-cloze.csv
+    status: complete
+- id: 09
+  slug: geometalurgia
+  title: Geometalurgia
+  area: IX. Especializações aplicadas
+  objective: Integrar a caracterização geológica e mineralógica ao processamento mineral, modelando a variabilidade metalúrgica do depósito.
+  prerequisites: []
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m09-oa01
+    statement: Caracterizar minério e ganga do ponto de vista do processamento mineral
+  - id: geologia-avancado-m09-oa02
+    statement: Relacionar mineralogia, textura e liberação mineral ao desempenho do beneficiamento
+  - id: geologia-avancado-m09-oa03
+    statement: Descrever rotas de beneficiamento (cominuição, concentração) e seus índices de projeto
+  - id: geologia-avancado-m09-oa04
+    statement: Modelar domínios geometalúrgicos e avaliar o impacto da variabilidade na recuperação e no valor do projeto
+  lessons:
+    planned: 6
+    completed: 6
+    items:
+    - id: geologia-avancado-m09-a01
+      title: 'O que é geometalurgia: da caracterização geológica ao processo e o programa geometalúrgico'
+      file: 09-geometalurgia/09-geometalurgia-aula-01-o-que-e-geometalurgia.md
+      status: complete
+      content_hash: 5a01141cdfbc0d5edb602a649efe1c9a36ecd34d57fcc1602026af27c55cb507
+      covers_objectives:
+      - geologia-avancado-m09-oa01
+    - id: geologia-avancado-m09-a02
+      title: 'Caracterização de minério e ganga: mineralogia de processo e análise modal automatizada'
+      file: 09-geometalurgia/09-geometalurgia-aula-02-mineralogia-de-processo.md
+      status: complete
+      content_hash: 443171ad29575dad38ad8a4fae8c26c235bfc04b485c640d29427156dfb55147
+      covers_objectives:
+      - geologia-avancado-m09-oa01
+    - id: geologia-avancado-m09-a03
+      title: 'Textura, tamanho de grão e liberação mineral: curvas de liberação'
+      file: 09-geometalurgia/09-geometalurgia-aula-03-textura-e-liberacao.md
+      status: complete
+      content_hash: d0abadc2786f14fc78cb80dea124cec4882f677c4322f702ddc1a5bfd70f4fea
+      covers_objectives:
+      - geologia-avancado-m09-oa02
+    - id: geologia-avancado-m09-a04
+      title: 'Cominuição: britagem, moagem e índices de moabilidade'
+      file: 09-geometalurgia/09-geometalurgia-aula-04-cominuicao-e-moabilidade.md
+      status: complete
+      content_hash: 73bf10a4cfe4cd3b502f40805a22ff33e5c771bb2a1bbc729b95a72bb12462bc
+      covers_objectives:
+      - geologia-avancado-m09-oa03
+    - id: geologia-avancado-m09-a05
+      title: 'Concentração: gravítica, magnética, flotação e lixiviação; recuperação metalúrgica'
+      file: 09-geometalurgia/09-geometalurgia-aula-05-concentracao-e-recuperacao.md
+      status: complete
+      content_hash: b082cdf22878b90693f7441c522e0d263c8b8be3a5c9a3d9dbfdc2c34dd479d0
+      covers_objectives:
+      - geologia-avancado-m09-oa03
+    - id: geologia-avancado-m09-a06
+      title: 'Domínios geometalúrgicos e modelagem da variabilidade: variáveis proxy e valor do projeto'
+      file: 09-geometalurgia/09-geometalurgia-aula-06-dominios-e-modelagem-da-variabilidade.md
+      status: complete
+      content_hash: 01512dcd313ac549346d461238be7da8f9fb7761c155f4378d68cefaebb1ca04
+      covers_objectives:
+      - geologia-avancado-m09-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '10'
+  slug: tectonica-de-bacias-sedimentares
+  title: Tectônica de bacias sedimentares
+  area: IX. Especializações aplicadas
+  objective: Explicar a origem, a evolução e a inversão de bacias sedimentares a partir do regime tectônico e dos mecanismos de subsidência.
+  prerequisites: []
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m10-oa01
+    statement: Explicar os mecanismos de subsidência que geram bacias sedimentares
+  - id: geologia-avancado-m10-oa02
+    statement: Classificar uma bacia sedimentar pelo regime tectônico e reconhecer sua geometria e arquitetura
+  - id: geologia-avancado-m10-oa03
+    statement: Interpretar o controle do embasamento e das estruturas sin-sedimentares no preenchimento da bacia
+  - id: geologia-avancado-m10-oa04
+    statement: Reconhecer feições de inversão de bacia e relacionar o tipo de bacia ao hábitat do petróleo
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: geologia-avancado-m10-a01
+      title: 'Bacias sedimentares e mecanismos de subsidência: classificação segundo o regime tectônico'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m10-oa01
+      - geologia-avancado-m10-oa02
+    - id: geologia-avancado-m10-a02
+      title: 'Bacias extensionais: rifts, margens passivas e o controle tectônico do embasamento'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m10-oa02
+    - id: geologia-avancado-m10-a03
+      title: 'Bacias compressivas: antepaís e cinturões de cavalgamento'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m10-oa02
+    - id: geologia-avancado-m10-a04
+      title: Bacias transcorrentes e pull-apart; falhas de crescimento e tectônica de sal
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m10-oa03
+    - id: geologia-avancado-m10-a05
+      title: Inversão de bacias sedimentares e hábitat do petróleo nos diferentes tipos de bacia
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m10-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '11'
+  slug: sismoestratigrafia
+  title: Sismoestratigrafia
+  area: IX. Especializações aplicadas
+  objective: Interpretar seções sísmicas do ponto de vista estratigráfico, do refletor individual ao trato de sistemas deposicionais.
+  prerequisites:
+  - '10'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m11-oa01
+    statement: Explicar como um dado sísmico de reflexão é adquirido, processado e qual a sua resolução
+  - id: geologia-avancado-m11-oa02
+    statement: Interpretar padrões de terminação de refletores e identificar superfícies com significado cronológico
+  - id: geologia-avancado-m11-oa03
+    statement: Classificar sismofácies e associá-las a sistemas deposicionais siliciclásticos e carbonáticos
+  - id: geologia-avancado-m11-oa04
+    statement: Aplicar a estratigrafia de sequências à interpretação de uma seção sísmica e à avaliação de um sistema petrolífero
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: geologia-avancado-m11-a01
+      title: 'Fundamentos do método sísmico de reflexão: propagação de ondas, aquisição e processamento'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m11-oa01
+    - id: geologia-avancado-m11-a02
+      title: Propriedades físicas das rochas, perfilagem de poços, amarração poço-sísmica e resolução
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m11-oa01
+    - id: geologia-avancado-m11-a03
+      title: 'Refletores como linhas de tempo: significado estratigráfico e cronológico e padrões de terminação'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m11-oa02
+    - id: geologia-avancado-m11-a04
+      title: 'Sismofácies e sistemas deposicionais: siliciclásticos e carbonáticos'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m11-oa03
+    - id: geologia-avancado-m11-a05
+      title: 'Estratigrafia de sequências em seções sísmicas: acomodação, tratos de sistemas e diagramas espaço-temporais'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m11-oa04
+    - id: geologia-avancado-m11-a06
+      title: 'Interpretação estrutural e aplicações: sistemas petrolíferos e bacias da margem continental brasileira'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m11-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '12'
+  slug: engenharia-de-petroleo
+  title: Engenharia de petróleo
+  area: IX. Especializações aplicadas
+  objective: Compreender os princípios de perfuração, avaliação de formações e produção de reservatórios de hidrocarbonetos.
+  prerequisites:
+  - '11'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m12-oa01
+    statement: Descrever as etapas de perfuração e completação de um poço de petróleo
+  - id: geologia-avancado-m12-oa02
+    statement: Interpretar perfis geofísicos de poço para estimar porosidade, saturação e litologia
+  - id: geologia-avancado-m12-oa03
+    statement: Relacionar propriedades de rocha-reservatório e de fluidos aos mecanismos de produção e ao fator de recuperação
+  - id: geologia-avancado-m12-oa04
+    statement: Comparar métodos de recuperação secundária e avançada quanto à aplicabilidade e ao ganho de recuperação
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: geologia-avancado-m12-a01
+      title: 'Perfuração de poços: sondas, fluidos de perfuração, revestimento e cimentação'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m12-oa01
+    - id: geologia-avancado-m12-a02
+      title: 'Avaliação de formações: perfilagem geofísica de poço e testemunhagem'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m12-oa02
+    - id: geologia-avancado-m12-a03
+      title: Propriedades de rocha-reservatório e de fluidos (PVT) e cálculo de volumes in place
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m12-oa03
+    - id: geologia-avancado-m12-a04
+      title: Mecanismos de produção, recuperação primária e secundária e testes de poço
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m12-oa03
+    - id: geologia-avancado-m12-a05
+      title: Completação, elevação artificial e recuperação avançada (EOR); gestão de reservatórios
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m12-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '13'
+  slug: geoprocessamento
+  title: Geoprocessamento
+  area: X. Métodos quantitativos e geoinformação
+  objective: Elaborar, analisar e entregar projetos cartográficos digitais em ambiente SIG, da base cartográfica à análise espacial e ao layout final, aplicados a problemas geocientíficos.
+  prerequisites: []
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m13-oa01
+    statement: Explicar geoide, datum, sistemas de coordenadas, projeções e escala, e escolher o sistema de referência adequado a um projeto
+  - id: geologia-avancado-m13-oa02
+    statement: Distinguir as estruturas vetorial e matricial e organizar bases de dados espaciais em ambiente SIG
+  - id: geologia-avancado-m13-oa03
+    statement: Aplicar operações de geoprocessamento vetorial e métodos de interpolação para gerar análises espaciais e mapas de isovalores
+  - id: geologia-avancado-m13-oa04
+    statement: Derivar variáveis morfométricas e hidrológicas de modelos digitais de elevação e entregar produtos cartográficos normatizados
+  lessons:
+    planned: 7
+    completed: 0
+    items:
+    - id: geologia-avancado-m13-a01
+      title: 'Fundamentos cartográficos: geoide, datum, sistemas de coordenadas, projeções e escala'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m13-oa01
+    - id: geologia-avancado-m13-a02
+      title: Ambiente SIG, estruturas vetorial e matricial e organização de bases de dados espaciais
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m13-oa02
+    - id: geologia-avancado-m13-a03
+      title: Georreferenciamento, GPS/GNSS e aquisição digital de dados em campo
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m13-oa01
+      - geologia-avancado-m13-oa02
+    - id: geologia-avancado-m13-a04
+      title: 'Geoprocessamento vetorial: operações espaciais e cálculos com linhas e polígonos'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m13-oa03
+    - id: geologia-avancado-m13-a05
+      title: Interpolação espacial e mapas de isovalores a partir de nuvens de pontos
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m13-oa03
+    - id: geologia-avancado-m13-a06
+      title: 'Modelos digitais de elevação: declividade, hipsometria, análise hidrológica e extração de lineamentos'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m13-oa04
+    - id: geologia-avancado-m13-a07
+      title: Layout cartográfico normatizado e projeto integrado de geoprocessamento
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m13-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '14'
+  slug: sensoriamento-remoto
+  title: Sensoriamento remoto
+  area: X. Métodos quantitativos e geoinformação
+  objective: Interpretar imagens de sensores ópticos, ativos e termais e aplicar processamento digital e classificação para extrair informação geológica e ambiental.
+  prerequisites:
+  - '13'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m14-oa01
+    statement: Explicar a interação da radiação eletromagnética com a atmosfera e com alvos naturais e relacionar o comportamento espectral à composição de água, solos, vegetação, minerais e rochas
+  - id: geologia-avancado-m14-oa02
+    statement: Selecionar plataformas, sensores e resoluções adequados a um problema geológico e montar composições coloridas interpretáveis
+  - id: geologia-avancado-m14-oa03
+    statement: Aplicar processamento digital de imagens (realces, razões de bandas, filtros e transformações multivariadas) e classificar imagens por métodos supervisionados e não supervisionados
+  - id: geologia-avancado-m14-oa04
+    statement: Interpretar produtos de sensoriamento remoto ativo (Radar/SAR, InSAR, LiDAR), de fotogrametria digital e de imageamento termal
+  lessons:
+    planned: 7
+    completed: 0
+    items:
+    - id: geologia-avancado-m14-a01
+      title: Conceitos, plataformas e sensores; resoluções espacial, espectral, temporal e radiométrica; composições coloridas
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m14-oa02
+    - id: geologia-avancado-m14-a02
+      title: 'Fundamentos físicos: radiação eletromagnética, espectro e interação com a atmosfera'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m14-oa01
+    - id: geologia-avancado-m14-a03
+      title: Comportamento espectral de água, solos, minerais, rochas e vegetação; geobotânica
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m14-oa01
+    - id: geologia-avancado-m14-a04
+      title: 'Processamento digital de imagens I: realces, operações aritméticas e filtros de convolução'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m14-oa03
+    - id: geologia-avancado-m14-a05
+      title: 'Processamento digital de imagens II: transformações multivariadas e classificação supervisionada e não supervisionada'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m14-oa03
+    - id: geologia-avancado-m14-a06
+      title: 'Sensoriamento remoto ativo: Radar/SAR, InSAR e LiDAR'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m14-oa04
+    - id: geologia-avancado-m14-a07
+      title: Fotogrametria digital, produtos 3D e sensoriamento remoto termal (TIR)
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m14-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '15'
+  slug: petrofisica
+  title: Introdução à petrofísica
+  area: X. Métodos quantitativos e geoinformação
+  objective: Caracterizar as propriedades físicas de rochas e minerais e relacioná-las entre si, estabelecendo a base de contraste que todo método geofísico explora.
+  prerequisites: []
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m15-oa01
+    statement: Definir e medir porosidade e permeabilidade e explicar seus controles geológicos
+  - id: geologia-avancado-m15-oa02
+    statement: Relacionar densidade, módulos elásticos e velocidades sísmicas com composição, porosidade e fluido de poro
+  - id: geologia-avancado-m15-oa03
+    statement: Explicar a origem do magnetismo e da radioatividade natural das rochas e identificar os minerais responsáveis
+  - id: geologia-avancado-m15-oa04
+    statement: Aplicar a lei de Archie para relacionar condutividade elétrica, porosidade e saturação, e integrar as várias propriedades físicas na interpretação
+  lessons:
+    planned: 4
+    completed: 0
+    items:
+    - id: geologia-avancado-m15-a01
+      title: 'Meios porosos: porosidade, permeabilidade e seus controles geológicos'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m15-oa01
+    - id: geologia-avancado-m15-a02
+      title: Densidade, propriedades elásticas e propagação de ondas sísmicas
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m15-oa02
+    - id: geologia-avancado-m15-a03
+      title: Magnetismo das rochas e radioatividade natural
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m15-oa03
+    - id: geologia-avancado-m15-a04
+      title: Condutividade elétrica das rochas e a relação integrada entre as propriedades físicas
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m15-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '16'
+  slug: aerogeofisica
+  title: Introdução à aerogeofísica
+  area: X. Métodos quantitativos e geoinformação
+  objective: Planejar, processar e interpretar levantamentos aerogeofísicos magnéticos, gravimétricos, gamaespectrométricos e eletromagnéticos aplicados a problemas geológicos.
+  prerequisites:
+  - '15'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m16-oa01
+    statement: Definir os parâmetros de um aerolevantamento (plataforma, altura de voo, espaçamento e direção das linhas) e avaliar o controle de qualidade dos dados
+  - id: geologia-avancado-m16-oa02
+    statement: Processar e interpretar dados aeromagnéticos e aerogravimétricos, incluindo correções, reduções e realces
+  - id: geologia-avancado-m16-oa03
+    statement: Interpretar mapas aerogamaespectrométricos de K, eU e eTh e mapas ternários em termos de litologia e alteração
+  - id: geologia-avancado-m16-oa04
+    statement: Distinguir os aerolevantamentos eletromagnéticos de fonte artificial e de fonte natural e avaliar sua aplicabilidade
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: geologia-avancado-m16-a01
+      title: 'Aerogeofísica: por que voar, plataformas (avião, helicóptero e VANT), planejamento de voo, parâmetros de aquisição e controle de qualidade'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m16-oa01
+    - id: geologia-avancado-m16-a02
+      title: 'Aeromagnetometria: fundamentos, correções, reduções e realces de mapas magnéticos'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m16-oa02
+    - id: geologia-avancado-m16-a03
+      title: Aerogravimetria e gradiometria gravimétrica e magnética
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m16-oa02
+    - id: geologia-avancado-m16-a04
+      title: 'Aerogamaespectrometria: canais K, eU e eTh, processamento e mapas ternários'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m16-oa03
+    - id: geologia-avancado-m16-a05
+      title: Aerolevantamentos eletromagnéticos de fonte artificial e natural e estudos de caso integrados
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m16-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '17'
+  slug: geofisica-marinha-bacias-sedimentares
+  title: Geofísica marinha e de bacias sedimentares
+  area: X. Métodos quantitativos e geoinformação
+  objective: Integrar dados sísmicos, batimétricos, de campos potenciais e de fluxo de calor para interpretar a estrutura, o preenchimento e o potencial de recursos de bacias sedimentares e margens continentais.
+  prerequisites:
+  - '15'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m17-oa01
+    statement: Classificar bacias sedimentares por mecanismo de subsidência e contexto tectônico e reconhecer os estilos estruturais extensionais
+  - id: geologia-avancado-m17-oa02
+    statement: Descrever a origem e os estágios tectonossedimentares (pré-rifte, rifte, sag e margem divergente) da margem atlântica brasileira
+  - id: geologia-avancado-m17-oa03
+    statement: Explicar os princípios de aquisição e interpretação dos métodos sísmicos marinhos, do sonar e da batimetria
+  - id: geologia-avancado-m17-oa04
+    statement: Interpretar mapas gravimétricos, magnéticos e de fluxo de calor de bacias e avaliar o potencial de recursos minerais e energéticos associado
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: geologia-avancado-m17-a01
+      title: 'Bacias sedimentares: tipos, classificação e mecanismos de subsidência; exemplos brasileiros'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m17-oa01
+    - id: geologia-avancado-m17-a02
+      title: 'A margem atlântica brasileira: estágios pré-rifte, rifte, sag e divergente; estilos estruturais extensionais'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m17-oa02
+      - geologia-avancado-m17-oa01
+    - id: geologia-avancado-m17-a03
+      title: 'Métodos sísmicos marinhos: propagação de ondas, aquisição, sonar e batimetria'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m17-oa03
+    - id: geologia-avancado-m17-a04
+      title: Gravimetria, magnetometria e fluxo de calor em bacias e margens continentais
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m17-oa04
+    - id: geologia-avancado-m17-a05
+      title: 'Recursos minerais e energéticos da margem atlântica: sistemas petrolíferos, trapas e estudos de caso'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m17-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '18'
+  slug: geofisica-america-do-sul
+  title: Geofísica da América do Sul
+  area: X. Métodos quantitativos e geoinformação
+  objective: Correlacionar as assinaturas geofísicas regionais às principais unidades tectônicas da placa Sul-Americana.
+  prerequisites:
+  - '15'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m18-oa01
+    statement: Identificar as principais unidades tectônicas da placa Sul-Americana, incluindo sua porção oceânica
+  - id: geologia-avancado-m18-oa02
+    statement: Interpretar dados de espessura crustal e litosférica, magnetotelúricos e de fluxo de calor em termos de estrutura profunda
+  - id: geologia-avancado-m18-oa03
+    statement: Relacionar anomalias gravimétricas, do geoide e magnéticas às unidades tectônicas e explicar o que o paleomagnetismo informa sobre a deriva da placa
+  - id: geologia-avancado-m18-oa04
+    statement: Explicar a distribuição da sismicidade e do campo de esforços da América do Sul e da placa de Nazca
+  lessons:
+    planned: 4
+    completed: 0
+    items:
+    - id: geologia-avancado-m18-a01
+      title: 'Arcabouço tectônico da placa Sul-Americana: crátons, faixas móveis, Andes, Patagônia, bacias e litosfera oceânica'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m18-oa01
+    - id: geologia-avancado-m18-a02
+      title: 'Estrutura profunda: espessura da crosta e da litosfera, dados magnetotelúricos e fluxo de calor'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m18-oa02
+    - id: geologia-avancado-m18-a03
+      title: 'Campos potenciais e paleomagnetismo: gravimetria, geoide, maré terrestre, magnetometria regional e a deriva da placa'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m18-oa03
+    - id: geologia-avancado-m18-a04
+      title: Sismicidade, campo de esforços e a placa de Nazca
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m18-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '19'
+  slug: geofisica-exploracao-mineral
+  title: Geofísica aplicada na exploração mineral
+  area: X. Métodos quantitativos e geoinformação
+  objective: Selecionar, integrar e interpretar métodos geofísicos na exploração mineral sob o paradigma de sistemas minerais, das escalas de província a depósito.
+  prerequisites:
+  - '15'
+  - '14'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m19-oa01
+    statement: Selecionar o método geofísico adequado à escala e ao alvo de um programa exploratório, avaliando o compromisso entre resolução espacial e profundidade de investigação
+  - id: geologia-avancado-m19-oa02
+    statement: Interpretar dados gravimétricos, magnéticos e gamaespectrométricos em termos da assinatura de sistemas minerais
+  - id: geologia-avancado-m19-oa03
+    statement: Distinguir os métodos elétricos (eletrorresistividade e polarização induzida) dos eletromagnéticos e explicar a que propriedade física cada um responde
+  - id: geologia-avancado-m19-oa04
+    statement: Explicar os fundamentos, as vantagens e as limitações da inversão geofísica e dos modelos de prospectividade mineral
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: geologia-avancado-m19-a01
+      title: 'Geofísica na exploração mineral: sistemas minerais, escalas de trabalho, greenfields e brownfields, custos e o paradoxo resolução × profundidade'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m19-oa01
+    - id: geologia-avancado-m19-a02
+      title: Gravimetria, magnetometria e gamaespectrometria na caracterização de sistemas minerais
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m19-oa02
+    - id: geologia-avancado-m19-a03
+      title: Eletrorresistividade e polarização induzida
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m19-oa03
+    - id: geologia-avancado-m19-a04
+      title: Métodos eletromagnéticos indutivos, de fonte natural e GPR
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m19-oa03
+    - id: geologia-avancado-m19-a05
+      title: 'Introdução à teoria de inversão em geofísica: ambiguidade, regularização e modelos 3D'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m19-oa04
+    - id: geologia-avancado-m19-a06
+      title: 'Inteligência artificial e Big Data na exploração: modelos de prospectividade mineral e integração de dados'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m19-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '20'
+  slug: geoestatistica
+  title: Introdução à geoestatística
+  area: X. Métodos quantitativos e geoinformação
+  objective: Modelar a continuidade espacial de uma variável regionalizada por variografia e estimar valores por krigagem ordinária.
+  prerequisites:
+  - '13'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m20-oa01
+    statement: Preparar e descrever estatisticamente dados de furos de sonda, incluindo composição por bancada, distribuições, correlação e regressão
+  - id: geologia-avancado-m20-oa02
+    statement: Explicar o conceito de variável regionalizada e a hipótese intrínseca, e o papel do suporte, da continuidade e da anisotropia
+  - id: geologia-avancado-m20-oa03
+    statement: Calcular e modelar variogramas experimentais, interpretando alcance, patamar, efeito pepita e anisotropias
+  - id: geologia-avancado-m20-oa04
+    statement: Estimar valores por krigagem simples e ordinária, de ponto e de bloco, e validar a estimativa por validação cruzada
+  lessons:
+    planned: 4
+    completed: 0
+    items:
+    - id: geologia-avancado-m20-a01
+      title: 'Preparação de dados e estatística descritiva: composição de amostras de furos de sonda, distribuições, correlação e regressão'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m20-oa01
+    - id: geologia-avancado-m20-a02
+      title: 'Variáveis regionalizadas e a hipótese intrínseca: localização, suporte, continuidade e anisotropia'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m20-oa02
+    - id: geologia-avancado-m20-a03
+      title: 'O variograma: cálculo experimental, modelos teóricos, alcance, patamar, efeito pepita e comportamento próximo à origem'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m20-oa03
+    - id: geologia-avancado-m20-a04
+      title: 'Krigagem simples e ordinária: sistema de krigagem, vizinhança, malha, ponto e bloco, e validação cruzada'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m20-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '21'
+  slug: modelagem-geoestatistica-depositos-minerais
+  title: Modelagem geoestatística de depósitos minerais
+  area: X. Métodos quantitativos e geoinformação
+  objective: Construir o modelo geológico e geoestatístico tridimensional de um depósito mineral com geoestatística não paramétrica e não linear, para avaliação de recursos.
+  prerequisites:
+  - '20'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m21-oa01
+    statement: Consolidar e validar bases de dados de mineração e montar modelos de blocos
+  - id: geologia-avancado-m21-oa02
+    statement: Transformar variáveis contínuas em indicadoras e modelar seus variogramas, distinguindo modelos autorizados de não autorizados
+  - id: geologia-avancado-m21-oa03
+    statement: Aplicar e interpretar a krigagem de variáveis indicadoras e a krigagem log-normal de dados transformados
+  - id: geologia-avancado-m21-oa04
+    statement: Construir modelos em wireframe a partir de perfis de furos de sonda e integrá-los aos modelos estimados por operações lógicas
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: geologia-avancado-m21-a01
+      title: Consolidação e validação de bases de dados de mineração; revisão do modelo de blocos e da krigagem ordinária
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m21-oa01
+    - id: geologia-avancado-m21-a02
+      title: 'Geoestatística não paramétrica: variáveis contínuas, categóricas, booleanas e indicadoras'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m21-oa02
+    - id: geologia-avancado-m21-a03
+      title: 'Variograma e krigagem de variáveis indicadoras: abordagens e interpretação dos resultados'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m21-oa02
+      - geologia-avancado-m21-oa03
+    - id: geologia-avancado-m21-a04
+      title: 'Geoestatística não linear: dados log-normais, transformação logarítmica e krigagem log-normal'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m21-oa03
+    - id: geologia-avancado-m21-a05
+      title: 'Modelagem do depósito: perfis de furos, áreas de influência, triangulação de Delaunay, wireframes e integração lógica com os modelos estimados'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m21-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '22'
+  slug: modelagem-geologica-3d
+  title: Modelagem geológica 3D
+  area: X. Métodos quantitativos e geoinformação
+  objective: Construir e criticar modelos geológicos tridimensionais que integrem dados de superfície, de subsuperfície e inversões geofísicas em exploração mineral e metalogênese.
+  prerequisites:
+  - '21'
+  - '19'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m22-oa01
+    statement: Distinguir modelagem explícita e implícita e avaliar as vantagens, as limitações e os algoritmos de cada abordagem
+  - id: geologia-avancado-m22-oa02
+    statement: Integrar dados de superfície 2D e de subsuperfície 3D, com atributos estruturais, geoquímicos e geofísicos, na construção de um modelo
+  - id: geologia-avancado-m22-oa03
+    statement: Relacionar o tipo, o tamanho e a geometria de depósitos minerais à estratégia de modelagem e à interpretação metalogenética
+  - id: geologia-avancado-m22-oa04
+    statement: Avaliar a incerteza de um modelo 3D e a coerência entre o modelo geológico e o modelo geofísico de inversão
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: geologia-avancado-m22-a01
+      title: 'Modelagem geológica 3D: definições, usos, vantagens e limitações; softwares comerciais e livres'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m22-oa01
+    - id: geologia-avancado-m22-a02
+      title: 'Dados e algoritmos: integração de superfície (2D) e subsuperfície (3D); modelagem explícita versus implícita'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m22-oa01
+      - geologia-avancado-m22-oa02
+    - id: geologia-avancado-m22-a03
+      title: Atributos geológicos, estruturais, geoquímicos e geofísicos no modelo; modelos geofísicos de inversão e modelos geológicos
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m22-oa02
+      - geologia-avancado-m22-oa04
+    - id: geologia-avancado-m22-a04
+      title: Tipos, tamanhos e geometrias de depósitos minerais e a aplicação de modelos 3D em metalogênese
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m22-oa03
+    - id: geologia-avancado-m22-a05
+      title: Estudos de caso em exploração mineral e metalogênese; incerteza e crítica do modelo
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m22-oa04
+      - geologia-avancado-m22-oa03
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '42'
+  slug: exploracao-mineral-avaliacao-de-recursos
+  title: Exploração mineral e avaliação de recursos
+  area: X. Métodos quantitativos e geoinformação
+  objective: Percorrer o fluxo completo da pesquisa mineral — da geração de alvos à sondagem, à amostragem com QA/QC, ao cálculo de recursos e à classificação segundo os códigos internacionais — amarrando num processo único as ferramentas que os módulos 19, 20, 21 e 22 ensinam isoladamente.
+  prerequisites:
+  - '19'
+  - '21'
+  cross_course_prerequisites:
+  - course: curso-geologia
+    module: '21'
+    module_title: Recursos minerais e geologia econômica
+    reason: 'O módulo pressupõe o vocabulário de depósito mineral, tipologia de jazida, teor de corte e o nível introdutório de prospecção e reservas ensinado nas aulas 05–06 do M21 do curso base. Declarado aqui, e não em prerequisites, porque o grafo formal só aceita ids deste curso. A dependência já constava da decisão de 2026-08-28 como texto; virou campo em 2026-08-29 para ficar legível por máquina como a do módulo 23.'
+    declared_at: '2026-08-29'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m42-oa01
+    statement: Distinguir potencial, recurso e reserva e situar cada fase de um programa exploratório na curva risco–investimento–descoberta
+  - id: geologia-avancado-m42-oa02
+    statement: Selecionar ambientes geológicos e gerar alvos exploratórios integrando dados regionais geológicos, geoquímicos e geofísicos em SIG
+  - id: geologia-avancado-m42-oa03
+    statement: Escolher e justificar as técnicas de prospecção de superfície e de prospecção geoquímica adequadas ao alvo, ao clima e ao regolito
+  - id: geologia-avancado-m42-oa04
+    statement: Planejar uma campanha de sondagem escolhendo o método de perfuração pelo objetivo, e descrever e amostrar testemunhos com critério
+  - id: geologia-avancado-m42-oa05
+    statement: Aplicar procedimentos de amostragem e de QA/QC (padrões, brancos, duplicatas) e diagnosticar erro fundamental e viés numa base de dados de pesquisa mineral
+  - id: geologia-avancado-m42-oa06
+    statement: Calcular recursos minerais por métodos clássicos e classificar recursos e reservas segundo os códigos CRIRSCO/JORC e o guia CBRR, justificando os fatores modificadores
+  lessons:
+    planned: 8
+    completed: 0
+    items:
+    - id: geologia-avancado-m42-a01
+      title: 'A exploração mineral como processo: potencial, recurso e reserva; fases da pesquisa, curva descoberta–tempo, risco e investimento; regime legal da pesquisa mineral no Brasil'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m42-oa01
+    - id: geologia-avancado-m42-a02
+      title: 'Geração de alvos: seleção de ambientes geológicos, modelos exploratórios e integração de dados regionais em SIG (mapas metalogenéticos e previsionais, cadastro de ocorrências)'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m42-oa02
+    - id: geologia-avancado-m42-a03
+      title: 'Prospecção de superfície: mapeamento de detalhe, sedimento de corrente e follow-up, prospecção em malha regular, poços e trincheiras'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m42-oa03
+    - id: geologia-avancado-m42-a04
+      title: 'Prospecção geoquímica: solos e litoquímica, controles litológico, climático e pedogênico, geoquímica orientativa, métodos analíticos e tratamento de dados'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m42-oa03
+    - id: geologia-avancado-m42-a05
+      title: 'Sondagem exploratória: trado, RAB, roto-percussiva, circulação reversa e rotativa diamantada; critérios de uso, confiabilidade, gestão da campanha e descrição de testemunhos'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m42-oa04
+    - id: geologia-avancado-m42-a06
+      title: 'Amostragem e QA/QC: teoria de amostragem de Gy, erro fundamental, preparação de amostras, padrões, brancos, duplicatas e auditoria da base de dados'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m42-oa05
+    - id: geologia-avancado-m42-a07
+      title: 'Cálculo de recursos por métodos clássicos: método dos fatores, dos blocos de lavra, dos perfis e analíticos, e sua comparação com os métodos geoestatísticos'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m42-oa06
+    - id: geologia-avancado-m42-a08
+      title: 'Classificação e conversão: recursos medidos, indicados e inferidos, fatores modificadores, reservas provadas e prováveis; CRIRSCO, JORC, guia CBRR e a estrutura do relatório técnico'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m42-oa06
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '23'
+  slug: modelagem-numerica-geodinamica
+  title: Introdução à modelagem numérica geodinâmica
+  area: X. Métodos quantitativos e geoinformação
+  objective: Resolver numericamente, em Python, as equações de calor e de reologia aplicadas à litosfera e interpretar quantitativamente processos geodinâmicos.
+  prerequisites: []
+  cross_course_prerequisites:
+  - course: curso-geologia
+    module: '30'
+    module_title: 'Métodos numéricos para geociências: erro, sistemas lineares, interpolação e integração'
+    reason: 'A aula 02 deste módulo (equações diferenciais parciais e o método das diferenças finitas) e a aula 04 (soluções explícita e implícita da equação do calor) pressupõem cálculo numérico que nenhum módulo deste curso ensina: erro de arredondamento e de truncamento, condicionamento, sistemas lineares por eliminação de Gauss e por Gauss-Seidel, interpolação por diferenças finitas e integração numérica. O módulo 30 do curso base foi criado em 2026-08-28 exatamente para fechar essa lacuna (disciplina MAP0125 — Cálculo Numérico para Geociências, obrigatória no IGc-USP). Declarado aqui, e não em prerequisites, porque o grafo formal só aceita ids deste curso. Ordem de produção: gerar o módulo 30 do curso base antes deste.'
+    declared_at: '2026-08-29'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m23-oa01
+    statement: Programar em Python operações numéricas e gráficas com NumPy e Matplotlib aplicadas a problemas geológicos
+  - id: geologia-avancado-m23-oa02
+    statement: Resolver equações diferenciais parciais por métodos numéricos explícitos e implícitos e explicar a equação da continuidade e a de Navier-Stokes
+  - id: geologia-avancado-m23-oa03
+    statement: Calcular geotermas e fluxo de calor para a litosfera oceânica e continental e interpretar seus controles
+  - id: geologia-avancado-m23-oa04
+    statement: Explicar a reologia da litosfera e aplicá-la à análise quantitativa de continentes em extensão e em colisão
+  lessons:
+    planned: 7
+    completed: 0
+    items:
+    - id: geologia-avancado-m23-a01
+      title: 'Python para geodinâmica computacional: Jupyter, NumPy e Matplotlib; o que é e para que serve a modelagem numérica'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m23-oa01
+    - id: geologia-avancado-m23-a02
+      title: 'Álgebra linear, cálculo e equações diferenciais parciais: solução analítica versus numérica e o método das diferenças finitas'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m23-oa02
+    - id: geologia-avancado-m23-a03
+      title: 'Mecânica do contínuo: equação da continuidade e equação de Navier-Stokes; malhas e descrições lagrangiana e euleriana'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m23-oa02
+    - id: geologia-avancado-m23-a04
+      title: 'Calor: lei de Fourier, conservação de calor, produção e advecção; soluções numéricas explícita e implícita'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m23-oa03
+      - geologia-avancado-m23-oa02
+    - id: geologia-avancado-m23-a05
+      title: 'Calor na litosfera oceânica e continental: resfriamento e envelhecimento, geotermas estáveis e elementos produtores de calor'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m23-oa03
+    - id: geologia-avancado-m23-a06
+      title: 'Reologia das rochas: viscosidade efetiva, elasticidade, fluência por difusão e por deslocamento, reologia crustal e mantélica'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m23-oa04
+    - id: geologia-avancado-m23-a07
+      title: 'Continentes em extensão e em colisão: ruptura continental, subsidência, evolução termal de orógenos, slab-pull, ridge-push e cunhas orogênicas'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m23-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '24'
+  slug: machine-learning-geociencias
+  title: Fundamentos e aplicações de machine learning em geociências
+  area: X. Métodos quantitativos e geoinformação
+  objective: Aplicar o fluxo de trabalho de aprendizado de máquina a problemas geológicos reais, escolhendo o algoritmo, avaliando o desempenho e comunicando os resultados com suas limitações.
+  prerequisites:
+  - '20'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m24-oa01
+    statement: Situar os ramos da inteligência artificial e identificar as fontes e os desafios específicos dos dados geológicos
+  - id: geologia-avancado-m24-oa02
+    statement: 'Executar o fluxo de trabalho de aprendizado de máquina em Python: definição do problema, coleta, preparação, análise exploratória e particionamento dos dados'
+  - id: geologia-avancado-m24-oa03
+    statement: Selecionar e aplicar modelos supervisionados (regressão e classificação) e não supervisionados (agrupamento e redução de dimensionalidade)
+  - id: geologia-avancado-m24-oa04
+    statement: Avaliar o desempenho de um modelo com métricas apropriadas, diagnosticar sobreajuste e interpretar e comunicar os resultados
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: geologia-avancado-m24-a01
+      title: 'Inteligência artificial em geociências: ramos, tipos de aprendizado, fontes e desafios dos dados geológicos'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m24-oa01
+    - id: geologia-avancado-m24-a02
+      title: 'Fluxo de trabalho em Python: objetivo, coleta, preparação, análise exploratória e particionamento dos dados'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m24-oa02
+    - id: geologia-avancado-m24-a03
+      title: 'Modelagem supervisionada: regressão e classificação'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m24-oa03
+    - id: geologia-avancado-m24-a04
+      title: 'Modelagem não supervisionada: agrupamento e redução de dimensionalidade'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m24-oa03
+    - id: geologia-avancado-m24-a05
+      title: Medidas de avaliação de desempenho, sobreajuste e validação
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m24-oa04
+    - id: geologia-avancado-m24-a06
+      title: 'Deep learning e aplicações: redes neurais, estudos de caso com dados reais, interpretação e comunicação dos resultados'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m24-oa04
+      - geologia-avancado-m24-oa03
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '25'
+  slug: aquisicao-digital-ia-geociencias
+  title: Aquisição de dados digitais e inteligência artificial em geociências
+  area: X. Métodos quantitativos e geoinformação
+  objective: Adquirir, organizar e integrar dados geológicos digitais de campo e de sensores e aplicar inteligência artificial ao mapeamento geológico e à prospectividade mineral.
+  prerequisites:
+  - '24'
+  - '14'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m25-oa01
+    statement: Operar ferramentas de aquisição digital de dados em campo e avaliar suas vantagens e limitações frente à caderneta analógica
+  - id: geologia-avancado-m25-oa02
+    statement: Organizar e integrar tipos distintos de dados geológicos (litológicos, geoquímicos, geocronológicos, geofísicos e isotópicos) numa base consistente
+  - id: geologia-avancado-m25-oa03
+    statement: Interpretar estruturas geológicas de forma hierárquica a partir de estereoscopia digital, modelos digitais de terreno, sensoriamento remoto e aerogeofísica
+  - id: geologia-avancado-m25-oa04
+    statement: Avaliar aplicações de Big Data e inteligência artificial ao mapeamento geológico, à exploração mineral e a modelos metalogenéticos
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: geologia-avancado-m25-a01
+      title: 'Aquisição digital de dados em campo: FieldMove, FieldClino, GIS-Pro e outras ferramentas; imagens e croquis digitais'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m25-oa01
+    - id: geologia-avancado-m25-a02
+      title: 'Tipos e organização de dados geológicos: litologia, geoquímica, geocronologia, sedimentos de corrente, ocorrências minerais, aerogeofísica e isótopos'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m25-oa02
+    - id: geologia-avancado-m25-a03
+      title: Estereoscopia digital por anaglifos e interpretação estrutural integrada com MDT, sensoriamento remoto e aerogeofísica
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m25-oa03
+    - id: geologia-avancado-m25-a04
+      title: 'Bancos de dados e Big Data em geociências: modelagem, dados abertos, princípios FAIR e reprodutibilidade'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m25-oa02
+      - geologia-avancado-m25-oa04
+    - id: geologia-avancado-m25-a05
+      title: 'Inteligência artificial aplicada: mapeamento geológico automatizado, prospectividade mineral e modelos metalogenéticos em províncias geotectônicas'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m25-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '26'
+  slug: geologia-isotopica-aplicada
+  title: Geologia isotópica aplicada
+  area: XI. Geoquímica isotópica e petrogênese avançada
+  objective: Calcular e interpretar idades pelos principais sistemas isotópicos radiogênicos e aplicar isótopos estáveis tradicionais e não tradicionais à petrogênese, à metalogênese, ao paleoclima e à quimioestratigrafia.
+  prerequisites: []
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m26-oa01
+    statement: Explicar a lei do decaimento radioativo e o princípio da espectrometria de massa aplicada a isótopos tradicionais e não tradicionais
+  - id: geologia-avancado-m26-oa02
+    statement: Calcular idades isocrônicas e idades modelo nos sistemas K-Ar/Ar-Ar, Rb-Sr, Sm-Nd, U-Pb e Pb-Pb, construindo e lendo os diagramas correspondentes
+  - id: geologia-avancado-m26-oa03
+    statement: Interpretar razões iniciais de Sr, valores de εNd e discordância U-Pb como traçadores de fonte e de história de um sistema geológico
+  - id: geologia-avancado-m26-oa04
+    statement: Aplicar assinaturas de isótopos estáveis a problemas de metalogênese, paleoclimatologia, contaminação ambiental e quimioestratigrafia
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: geologia-avancado-m26-a01
+      title: Radioatividade, lei do decaimento e geocronologia; espectrometria de massa de isótopos tradicionais e não tradicionais
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m26-oa01
+    - id: geologia-avancado-m26-a02
+      title: 'Métodos K-Ar e 40Ar-39Ar: cálculo de idades, perda de argônio e leitura de espectros de aquecimento'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m26-oa02
+    - id: geologia-avancado-m26-a03
+      title: 'Sistema Rb-Sr: construção de diagramas isocrônicos e isótopos de Sr em petrogênese'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m26-oa02
+      - geologia-avancado-m26-oa03
+    - id: geologia-avancado-m26-a04
+      title: 'Método Sm-Nd: idades isocrônicas e idades modelo, notação εNd e isótopos de Nd em petrogênese'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m26-oa02
+      - geologia-avancado-m26-oa03
+    - id: geologia-avancado-m26-a05
+      title: 'Sistemas U-Pb e Pb-Pb: diagramas concórdia, discórdia, idades modelo de Pb e interpretação geológica'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m26-oa02
+      - geologia-avancado-m26-oa03
+    - id: geologia-avancado-m26-a06
+      title: 'Isótopos estáveis tradicionais e não tradicionais aplicados: metalogênese, paleoclimatologia, meio ambiente e quimioestratigrafia'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m26-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '27'
+  slug: petrocronologia
+  title: Introdução à petrocronologia
+  area: XI. Geoquímica isotópica e petrogênese avançada
+  objective: Atribuir significado petrogenético às idades obtidas em rochas metamórficas, ligando texturas e microdomínios composicionais de fases acessórias a trajetórias P-T e a dados isotópicos.
+  prerequisites:
+  - '26'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m27-oa01
+    statement: Explicar o que distingue a petrocronologia da geocronologia convencional e por que a idade só ganha sentido quando ancorada em textura e composição
+  - id: geologia-avancado-m27-oa02
+    statement: Selecionar a técnica analítica adequada (LA-ICP-MS, SIMS, TIMS, EPMA, MEV) ao problema petrocronológico, reconhecendo resolução espacial, precisão e limitações de cada uma
+  - id: geologia-avancado-m27-oa03
+    statement: Relacionar zonamento composicional de fases acessórias e de granada a trajetórias P-T e a reações metamórficas datáveis
+  - id: geologia-avancado-m27-oa04
+    statement: Interpretar bancos de dados petrológicos e geocronológicos integrados para reconstruir a duração e as condições de um evento metamórfico
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: geologia-avancado-m27-a01
+      title: 'O que é petrocronologia: atribuindo significado petrogenético às idades obtidas'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m27-oa01
+    - id: geologia-avancado-m27-a02
+      title: 'Conceitos básicos de geocronologia aplicados: minerais datáveis e os sistemas U-Pb, Rb-Sr, Sm-Nd e Lu-Hf'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m27-oa01
+    - id: geologia-avancado-m27-a03
+      title: 'Técnicas analíticas e de imageamento: LA-ICP-MS, SIMS, TIMS, microssonda eletrônica (EPMA) e MEV'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m27-oa02
+    - id: geologia-avancado-m27-a04
+      title: 'Fundamentos de petrologia metamórfica: texturas, microdomínios, trajetórias P-T e geotermobarometria convencional'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m27-oa03
+    - id: geologia-avancado-m27-a05
+      title: 'Petrocronologia dos minerais acessórios: zircão, monazita, titanita, rutilo e apatita'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m27-oa03
+    - id: geologia-avancado-m27-a06
+      title: Petrocronologia de granada e micas; interpretação integrada de bancos de dados petrológicos e geocronológicos
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m27-oa03
+      - geologia-avancado-m27-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '28'
+  slug: analise-instrumental-i
+  title: Análise instrumental I
+  area: XI. Geoquímica isotópica e petrogênese avançada
+  objective: Dominar a teoria e a prática dos principais métodos de análise química de amostra total em materiais geológicos, com ênfase em plasma de indução acoplada e fluorescência de raios X, e avaliar criticamente a qualidade do dado produzido.
+  prerequisites: []
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m28-oa01
+    statement: Planejar uma estratégia de amostragem representativa e um fluxo de preparação de amostra que controle homogeneidade e contaminação
+  - id: geologia-avancado-m28-oa02
+    statement: Explicar os princípios da espectrometria de absorção e de emissão atômicas e da espectrometria de raios X, identificando as interferências típicas de cada técnica
+  - id: geologia-avancado-m28-oa03
+    statement: Selecionar entre absorção atômica, ICP e fluorescência de raios X a técnica adequada ao elemento, à matriz e ao nível de concentração exigido
+  - id: geologia-avancado-m28-oa04
+    statement: Calcular e reportar erros, propagação de incertezas e limites de detecção, julgando se um resultado analítico sustenta a interpretação geológica pretendida
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: geologia-avancado-m28-a01
+      title: 'Química de amostra total: amostras, estratégias e estatística de amostragem, representatividade, homogeneidade e contaminação'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m28-oa01
+    - id: geologia-avancado-m28-a02
+      title: 'Preparação de amostras e métodos analíticos clássicos: rotinas de laboratório de tratamento e de análise'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m28-oa01
+      - geologia-avancado-m28-oa03
+    - id: geologia-avancado-m28-a03
+      title: 'Espectrometria atômica: princípios de absorção e de emissão; absorção atômica, aparelhagem e aplicações'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m28-oa02
+      - geologia-avancado-m28-oa03
+    - id: geologia-avancado-m28-a04
+      title: 'Plasma de indução acoplada (ICP-OES e ICP-MS): princípios, aparelhagem, métodos qualitativos e quantitativos e aplicações'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m28-oa02
+      - geologia-avancado-m28-oa03
+    - id: geologia-avancado-m28-a05
+      title: 'Fluorescência de raios X: princípios, aparelhagem e aplicações; estatística de contagens, propagação de erros e limites de detecção'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m28-oa02
+      - geologia-avancado-m28-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '29'
+  slug: granitos-no-ciclo-de-wilson
+  title: Granitos no ciclo de Wilson
+  area: XI. Geoquímica isotópica e petrogênese avançada
+  objective: Reconhecer os tipos tectônicos de granitos formados ao longo do ciclo de Wilson e relacionar suas assinaturas composicionais, geoquímicas e isotópicas às fontes dos magmas e ao regime tectônico que os gerou.
+  prerequisites:
+  - '26'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m29-oa01
+    statement: Descrever a estrutura interna da Terra a partir de ondas sísmicas e de tomografia e relacionar a reologia da litosfera e do manto aos regimes tectônicos
+  - id: geologia-avancado-m29-oa02
+    statement: Distinguir granitos cordilheranos, caledonianos e hercinianos pelo contexto tectônico, pela composição e pelas assinaturas geoquímica e isotópica
+  - id: geologia-avancado-m29-oa03
+    statement: Aplicar as classificações tipo-I, tipo-S e tipo-A e os esquemas geoquímicos correlatos para inferir a fonte de um magma granítico
+  - id: geologia-avancado-m29-oa04
+    statement: Explicar os modelos de geração, ascensão e colocação de magmas graníticos e o papel da gravimetria na definição da forma e do volume de plutons
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: geologia-avancado-m29-a01
+      title: Estrutura interna da Terra pelas ondas sísmicas, tomografia do interior e reologia do manto e da litosfera
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m29-oa01
+    - id: geologia-avancado-m29-a02
+      title: O ciclo de Wilson, os regimes tectônicos de placas e o magmatismo granítico associado
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m29-oa01
+      - geologia-avancado-m29-oa02
+    - id: geologia-avancado-m29-a03
+      title: 'Granitos cordilheranos: subducção sub-horizontal e de alto mergulho nos Andes, composição, geoquímica e isótopos'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m29-oa02
+    - id: geologia-avancado-m29-a04
+      title: 'Granitos caledonianos e hercinianos: abertura e fechamento dos oceanos Iapetus e Rheic e exemplos europeus'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m29-oa02
+    - id: geologia-avancado-m29-a05
+      title: 'Classificação dos granitos: tipo-I, tipo-S e tipo-A, da concepção australiana às revisões posteriores'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m29-oa03
+    - id: geologia-avancado-m29-a06
+      title: Geração, ascensão e colocação de magmas graníticos; gravimetria de plutons, modelagem tectônica e metalogênese associada
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m29-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '30'
+  slug: kimberlitos-carbonatitos
+  title: Petrologia de kimberlitos e carbonatitos e mineralizações associadas
+  area: XI. Geoquímica isotópica e petrogênese avançada
+  objective: Compreender a geração, a diferenciação e a expressão geológica dos magmas kimberlíticos e carbonatíticos e das rochas insaturadas em sílica associadas, e o potencial mineral que carregam.
+  prerequisites:
+  - '26'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m30-oa01
+    statement: Classificar kimberlitos, carbonatitos e rochas insaturadas associadas (lamproítos, lamprófiros, kamafugitos) segundo os critérios atuais e situar historicamente essas definições
+  - id: geologia-avancado-m30-oa02
+    statement: Explicar o papel do metassomatismo mantélico, das geotermas e da heterogeneidade composicional do manto na geração de magmas ultrabásicos insaturados em sílica
+  - id: geologia-avancado-m30-oa03
+    statement: Caracterizar aspectos geológicos, petrográficos, mineralógicos e geoquímicos desses litotipos e os processos de diferenciação que os modificam
+  - id: geologia-avancado-m30-oa04
+    statement: Avaliar o potencial diamantífero de corpos kimberlíticos e lamproíticos e as mineralizações de Nb, terras raras e fosfatos em carbonatitos
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: geologia-avancado-m30-a01
+      title: 'Kimberlitos e carbonatitos: histórico, definições e classificações atuais; rochas ígneas insaturadas em sílica associadas'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m30-oa01
+    - id: geologia-avancado-m30-a02
+      title: 'O manto terrestre: geotermas, variações composicionais e a importância do metassomatismo para a geração de magmas ultrabásicos insaturados'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m30-oa02
+    - id: geologia-avancado-m30-a03
+      title: Aspectos geológicos, mineralógicos e petrográficos macro e microscópicos de kimberlitos, carbonatitos e rochas associadas
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m30-oa01
+      - geologia-avancado-m30-oa03
+    - id: geologia-avancado-m30-a04
+      title: Geoquímica e processos de geração dos magmas carbonatíticos e kimberlíticos, e as relações entre eles
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m30-oa02
+      - geologia-avancado-m30-oa03
+    - id: geologia-avancado-m30-a05
+      title: Processos de diferenciação de magmas kimberlíticos e carbonatíticos até os sítios finais de consolidação
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m30-oa03
+    - id: geologia-avancado-m30-a06
+      title: Kimberlitos, lamproítos, crátons e potencial diamantífero; carbonatitos e mineralizações de Nb, ETR e fosfatos; panorama brasileiro
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m30-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '31'
+  slug: rochas-igneas-alcalinas
+  title: 'Rochas ígneas alcalinas: petrologia e mineralizações'
+  area: XI. Geoquímica isotópica e petrogênese avançada
+  objective: Classificar as rochas ígneas de tendência alcalina, explicar sua geração e evolução a partir de fontes mantélicas metassomatizadas e reconhecer os depósitos minerais que lhes são associados.
+  prerequisites:
+  - '26'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m31-oa01
+    statement: Classificar e nomear rochas alcalinas por clãs segundo os critérios da IUGS e situar historicamente a construção dessa nomenclatura
+  - id: geologia-avancado-m31-oa02
+    statement: Explicar a geração de magmas alcalinos em função da fonte mantélica, do metassomatismo, das taxas de fusão e do condicionante tectônico
+  - id: geologia-avancado-m31-oa03
+    statement: Interpretar dados geoquímicos elementais e isotópicos e de química mineral em modelagens petrogenéticas de suítes alcalinas
+  - id: geologia-avancado-m31-oa04
+    statement: Distinguir as séries miaskítica e agpaítica e relacionar a mineralogia exótica das rochas alcalinas aos depósitos de ETR e HFSE
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: geologia-avancado-m31-a01
+      title: 'Rochas ígneas alcalinas: definição, histórico, classificação, clãs e nomenclatura'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m31-oa01
+    - id: geologia-avancado-m31-a02
+      title: 'Estrutura do manto, metassomatismo e geração de magmas alcalinos: fontes, taxas de fusão, ambientes e condicionantes tectônicos'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m31-oa02
+    - id: geologia-avancado-m31-a03
+      title: Processos de evolução dos magmas alcalinos; geoquímica elemental e isotópica e modelagem petrogenética
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m31-oa03
+    - id: geologia-avancado-m31-a04
+      title: 'Rochas sieníticas: séries miaskítica e agpaítica; minerais exóticos das rochas alcalinas e seu potencial'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m31-oa01
+      - geologia-avancado-m31-oa04
+    - id: geologia-avancado-m31-a05
+      title: 'Magmas básicos a ultrabásicos de tendência alcalina: stocks cumuláticos, lamprófiros alcalinos e rochas ultrapotássicas'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m31-oa01
+      - geologia-avancado-m31-oa02
+    - id: geologia-avancado-m31-a06
+      title: Associação entre rochas alcalinas e carbonatitos; magmatismo alcalino na Plataforma Sul-Americana e depósitos minerais associados
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m31-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '32'
+  slug: pegmatitos
+  title: 'Pegmatitos: da gênese à exploração'
+  area: XI. Geoquímica isotópica e petrogênese avançada
+  objective: Compreender a gênese, o zonamento e o alojamento dos pegmatitos graníticos e avaliar seu aproveitamento como fonte de recursos minerais críticos para a transição energética.
+  prerequisites:
+  - '29'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m32-oa01
+    statement: Descrever o zonamento típico de um pegmatito e explicar como o enriquecimento em fluidos por fracionamento controla o desenvolvimento das texturas
+  - id: geologia-avancado-m32-oa02
+    statement: Classificar pegmatitos pelos esquemas mineralógicos e petrogenéticos vigentes e situar os principais distritos pegmatíticos do Brasil
+  - id: geologia-avancado-m32-oa03
+    statement: Comparar as teorias dominantes de gênese e os modos de alojamento, avaliando o que a geocronologia recente diz sobre as taxas de cristalização
+  - id: geologia-avancado-m32-oa04
+    statement: Aplicar critérios de pesquisa e exploração de pegmatitos a depósitos de classe mundial e a elementos críticos como Li, Cs, Ta e Nb
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: geologia-avancado-m32-a01
+      title: Definição clássica de pegmatito, zonamento típico, enriquecimento em fluidos por fracionamento e o papel dos fluidos nas texturas
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m32-oa01
+    - id: geologia-avancado-m32-a02
+      title: Mineralogia, sistemas de classificação de pegmatitos e distritos pegmatíticos do Brasil
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m32-oa02
+    - id: geologia-avancado-m32-a03
+      title: Teorias dominantes de gênese e mecânica de alojamento dos corpos pegmatíticos
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m32-oa03
+    - id: geologia-avancado-m32-a04
+      title: Desenvolvimentos recentes em geocronologia de pegmatitos e o debate sobre as taxas de cristalização
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m32-oa03
+    - id: geologia-avancado-m32-a05
+      title: Recursos minerais associados, depósitos pegmatíticos de classe mundial e práticas de pesquisa, exploração e mineração
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m32-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '33'
+  slug: intrusoes-acamadadas
+  title: Petrologia de intrusões acamadadas e processos ígneos de mineralização
+  area: XI. Geoquímica isotópica e petrogênese avançada
+  objective: Explicar a formação de rochas cumuláticas e de acamadamentos ígneos em câmaras magmáticas e reconhecer os depósitos metálicos magmáticos que resultam desses processos.
+  prerequisites:
+  - '26'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m33-oa01
+    statement: Classificar rochas cumuláticas segundo a terminologia consagrada e descrever as condições de formação e os magmas progenitores das intrusões acamadadas
+  - id: geologia-avancado-m33-oa02
+    statement: Caracterizar aspectos geológicos, petrográficos, mineralógicos e geoquímicos de intrusões acamadadas e lê-los como registro do sistema de plumbing crustal
+  - id: geologia-avancado-m33-oa03
+    statement: Explicar os mecanismos de diferenciação em ambiente de câmara que produzem os diferentes tipos de acamadamento ígneo e os processos pós-cumulus
+  - id: geologia-avancado-m33-oa04
+    statement: Relacionar depósitos de EGP, Cr, Ni-Cu e Ti-V aos processos ígneos que os concentram, usando os arquétipos mundiais e exemplos brasileiros
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: geologia-avancado-m33-a01
+      title: 'Rochas cumuláticas e intrusões acamadadas: histórico, terminologia e critérios de classificação'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m33-oa01
+    - id: geologia-avancado-m33-a02
+      title: Condições de formação, magmas progenitores e as intrusões acamadadas como janelas dos sistemas de plumbing crustal
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m33-oa01
+      - geologia-avancado-m33-oa02
+    - id: geologia-avancado-m33-a03
+      title: Aspectos geológicos, petrográficos, mineralógicos e geoquímicos de intrusões acamadadas
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m33-oa02
+    - id: geologia-avancado-m33-a04
+      title: 'Diferenciação magmática em ambiente de câmara: mecanismos de acamadamento ígneo e processos pós-cumulus'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m33-oa03
+    - id: geologia-avancado-m33-a05
+      title: 'Arquétipos mundiais: as intrusões de Skaergaard, Bushveld, Stillwater e Muskox'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m33-oa02
+      - geologia-avancado-m33-oa04
+    - id: geologia-avancado-m33-a06
+      title: Depósitos minerais metálicos associados a rochas cumuláticas e exemplos brasileiros de complexos acamadados
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m33-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '34'
+  slug: sistemas-hidrotermais-metalogenese
+  title: Sistemas hidrotermais e metalogênese
+  area: XI. Geoquímica isotópica e petrogênese avançada
+  objective: Sistematizar a origem, a evolução e os tipos de fluidos hidrotermais, os estilos de alteração que produzem e as mineralizações associadas em terrenos sedimentares, vulcânicos e metamórficos.
+  prerequisites:
+  - '29'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m34-oa01
+    statement: Explicar a origem, a evolução e a classificação dos fluidos hidrotermais e os mecanismos de interação fluido-rocha que geram alteração
+  - id: geologia-avancado-m34-oa02
+    statement: Identificar e nomear os estilos de alteração hidrotermal (sódica, potássica, sericítica, propilítica, argílica, clorítica, carbonática) e seus zonamentos
+  - id: geologia-avancado-m34-oa03
+    statement: Caracterizar os principais tipos de depósito hidrotermal (pórfiro, skarn, IRGS, epitermal, VHMS, SEDEX, MVT, IOCG, Carlin e orogênico) pelo ambiente, pela alteração e pela assinatura metálica
+  - id: geologia-avancado-m34-oa04
+    statement: Aplicar critérios de prospecção mineral ao reconhecimento de sistemas hidrotermais preservados e metamorfisados em terrenos antigos
+  lessons:
+    planned: 7
+    completed: 0
+    items:
+    - id: geologia-avancado-m34-a01
+      title: 'Fluidos hidrotermais: origem, evolução, interação fluido-rocha e classificação dos sistemas hidrotermais'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m34-oa01
+    - id: geologia-avancado-m34-a02
+      title: 'Tipos e estilos de alteração hidrotermal e seus zonamentos: metassomatismo sódico e potássico, sericitização, propilitização, alteração argílica, cloritização e carbonatização'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m34-oa02
+    - id: geologia-avancado-m34-a03
+      title: 'Sistemas magmático-hidrotermais I: depósitos do tipo pórfiro oxidados e reduzidos, granitoides alcalinos, skarns associados e IRGS'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m34-oa02
+      - geologia-avancado-m34-oa03
+    - id: geologia-avancado-m34-a04
+      title: 'Sistemas magmático-hidrotermais II: depósitos epitermais, zonamento tectônico, evolução e complexos de caldeiras vulcânicas'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m34-oa03
+    - id: geologia-avancado-m34-a05
+      title: 'Sistemas exalativos e estratoligados: VHMS, SEDEX, MVT e depósitos de óxido de ferro-cobre-ouro (IOCG)'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m34-oa03
+    - id: geologia-avancado-m34-a06
+      title: 'Ouro em terrenos metamórficos: depósitos do tipo orogênico e do tipo Carlin; produtos metamórficos de rochas alteradas hidrotermalmente'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m34-oa03
+      - geologia-avancado-m34-oa04
+    - id: geologia-avancado-m34-a07
+      title: Critérios de prospecção mineral e exemplos de mineralizações em sistemas hidrotermais modernos e antigos
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m34-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '35'
+  slug: vulcanismo-mineralizacoes-associadas
+  title: Vulcanismo e mineralizações associadas
+  area: XI. Geoquímica isotópica e petrogênese avançada
+  objective: Relacionar as propriedades dos magmas e o ambiente tectônico aos tipos de vulcões, aos produtos vulcânicos e vulcanoclásticos e às mineralizações magmáticas e hidrotermais associadas.
+  prerequisites:
+  - '34'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m35-oa01
+    statement: Explicar a origem e o transporte do magma e como viscosidade, temperatura, gases e conteúdo de água controlam o estilo eruptivo
+  - id: geologia-avancado-m35-oa02
+    statement: Relacionar tipos de vulcões e de rochas vulcânicas e subvulcânicas aos ambientes tectônicos continentais, oceânicos e de large igneous provinces
+  - id: geologia-avancado-m35-oa03
+    statement: Identificar componentes, texturas e estruturas de rochas vulcânicas e vulcanoclásticas e classificar os depósitos segundo a nomenclatura IUGS
+  - id: geologia-avancado-m35-oa04
+    statement: Caracterizar as mineralizações magmáticas e hidrotermais associadas ao vulcanismo, incluindo os sistemas epitermais e do tipo pórfiro do Cráton Amazônico
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: geologia-avancado-m35-a01
+      title: 'Magmas: origem, transporte e propriedades físico-químicas; gases e conteúdo de água como controle do estilo eruptivo'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m35-oa01
+    - id: geologia-avancado-m35-a02
+      title: Ambiente tectônico de formação dos magmas, large igneous provinces, tipos de vulcões e modos de ocorrência de rochas vulcânicas e subvulcânicas
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m35-oa02
+    - id: geologia-avancado-m35-a03
+      title: Componentes, texturas e estruturas de rochas vulcânicas e vulcanoclásticas; litofácies e reservatórios não convencionais de hidrocarbonetos
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m35-oa03
+    - id: geologia-avancado-m35-a04
+      title: 'Vulcanismo explosivo: caldeiras, ignimbritos e classificação dos materiais e depósitos vulcanoclásticos (surge, lahar, spatter, maar e fluxos de massa)'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m35-oa03
+    - id: geologia-avancado-m35-a05
+      title: 'Vulcanismo máfico e ultramáfico: tipos de derrames, vulcanismo submarino em dorsais e ilhas, e mineralizações magmáticas associadas'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m35-oa02
+      - geologia-avancado-m35-oa04
+    - id: geologia-avancado-m35-a06
+      title: 'Alteração hidrotermal em sistemas vulcânicos: campos geotermais, VHMS em zonas divergentes e back-arcs, epitermais e pórfiros paleoproterozoicos do Cráton Amazônico'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m35-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '36'
+  slug: microscopia-de-minerios
+  title: Microscopia de minérios
+  area: XI. Geoquímica isotópica e petrogênese avançada
+  objective: Operar o microscópio de luz refletida para reconhecer as fases minerais opacas mais comuns pelas suas propriedades ópticas e físicas e interpretar texturas e microestruturas de minério.
+  prerequisites: []
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m36-oa01
+    statement: Operar o microscópio de luz refletida, reconhecendo seus componentes, seu funcionamento e as precauções de uso, e avaliar a qualidade de uma seção polida
+  - id: geologia-avancado-m36-oa02
+    statement: 'Identificar fases opacas pelas propriedades físicas e ópticas diagnósticas: hábito, clivagem, borda, dureza pela pseudo-linha de Becke e escala de Talmage, cor, reflexões internas, birreflectância e anisotropia'
+  - id: geologia-avancado-m36-oa03
+    statement: Interpretar texturas e microestruturas de minério e reconstruir a paragênese mineral de uma associação
+  - id: geologia-avancado-m36-oa04
+    statement: Avaliar as aplicabilidades e as restrições da microscopia de opacos como ferramenta auxiliar no estudo da gênese de depósitos minerais
+  lessons:
+    planned: 4
+    completed: 0
+    items:
+    - id: geologia-avancado-m36-a01
+      title: 'O microscópio de luz refletida: componentes, funcionamento, precauções e preparação de seções polidas'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m36-oa01
+    - id: geologia-avancado-m36-a02
+      title: 'Fenômenos ópticos em luz refletida e propriedades diagnósticas: refletância, cor, hábito, clivagem, borda e dureza (pseudo-linha de Becke e escala de Talmage)'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m36-oa02
+    - id: geologia-avancado-m36-a03
+      title: Birreflectância e pleocroísmo, anisotropia, reflexões internas e figuras de polarização
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m36-oa02
+    - id: geologia-avancado-m36-a04
+      title: Paragênese mineral, texturas e microestruturas em minérios; a microscopia de opacos no estudo da gênese e a rotina de descrição com relatório
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m36-oa03
+      - geologia-avancado-m36-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '37'
+  slug: petrografia-de-minerio
+  title: Petrografia de minério
+  area: XI. Geoquímica isotópica e petrogênese avançada
+  objective: Identificar os principais minerais de minério e suas texturas ao microscópio de luz refletida e deduzir paragêneses e condições físico-químicas de formação aplicáveis à metalogênese.
+  prerequisites:
+  - '36'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m37-oa01
+    statement: Relacionar as condições físico-químicas de formação de minérios (temperatura, fugacidade de oxigênio e de enxofre) às assembleias observadas
+  - id: geologia-avancado-m37-oa02
+    statement: Distinguir texturas primárias, de substituição, metamórficas e de deformação em seções polidas e ordená-las temporalmente
+  - id: geologia-avancado-m37-oa03
+    statement: Identificar ao microscópio os minerais de minério dos grupos dos óxidos (Fe-Ti-O, Cr-Fe-O, Sn-W-O), dos sulfetos de Cu, Pb, Zn, Ni e As e dos minerais preciosos
+  - id: geologia-avancado-m37-oa04
+    statement: Reconstruir a paragênese de um minério e usá-la para inferir as condições de formação do depósito
+  lessons:
+    planned: 6
+    completed: 0
+    items:
+    - id: geologia-avancado-m37-a01
+      title: Condições físico-químicas de formação de minérios e propriedades ópticas diagnósticas aplicadas ao reconhecimento
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m37-oa01
+    - id: geologia-avancado-m37-a02
+      title: Texturas primárias e texturas de substituição em minérios
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m37-oa02
+    - id: geologia-avancado-m37-a03
+      title: Texturas metamórficas e de deformação em minérios
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m37-oa02
+    - id: geologia-avancado-m37-a04
+      title: 'Minerais de minério do grupo dos óxidos: sistema Fe-Ti-O e sistemas Cr-Fe-O e Sn-W-O'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m37-oa03
+    - id: geologia-avancado-m37-a05
+      title: Sulfetos de cobre e sulfetos de chumbo e zinco
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m37-oa03
+    - id: geologia-avancado-m37-a06
+      title: Sulfetos de níquel e de arsênio e os minerais preciosos; síntese paragenética de coleções de minério
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m37-oa03
+      - geologia-avancado-m37-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '38'
+  slug: geologia-estrutural-quantitativa
+  title: Geologia estrutural quantitativa
+  area: XII. Síntese estrutural e integração
+  objective: Quantificar a deformação finita e a cinemática do fluxo em rochas, do tensor de deformação e da medida em marcadores deformados até a inversão de paleotensões.
+  prerequisites:
+  - '06'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m38-oa01
+    statement: Formular a deformação finita em termos tensoriais e representá-la pelo elipsoide de deformação e seus eixos principais
+  - id: geologia-avancado-m38-oa02
+    statement: Medir deformação finita em rochas a partir de marcadores deformados pelos métodos Rf/φ, centro-a-centro e Fry
+  - id: geologia-avancado-m38-oa03
+    statement: Interpretar forma, intensidade e mudança de volume da deformação nos diagramas de Flinn e de Hsü
+  - id: geologia-avancado-m38-oa04
+    statement: Discriminar regimes de fluxo por análise de vorticidade cinemática e inverter paleotensões a partir de dados de estria de falha
+  lessons:
+    planned: 5
+    completed: 0
+    items:
+    - id: geologia-avancado-m38-a01
+      title: 'Do qualitativo ao quantitativo: tensor de deformação finita, elipsoide e eixos principais'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m38-oa01
+    - id: geologia-avancado-m38-a02
+      title: 'Medida de deformação a partir de marcadores: Rf/φ, centro-a-centro e método de Fry'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m38-oa02
+    - id: geologia-avancado-m38-a03
+      title: 'Forma e intensidade da deformação: diagramas de Flinn e de Hsü e a questão da variação de volume'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m38-oa03
+    - id: geologia-avancado-m38-a04
+      title: 'Cinemática do fluxo: cisalhamento puro, simples e geral; número de vorticidade cinemática (Wk)'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m38-oa04
+    - id: geologia-avancado-m38-a05
+      title: Inversão de paleotensões a partir de populações de falhas e tratamento estatístico de tramas
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m38-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '39'
+  slug: analise-textural-de-rochas
+  title: 'Análise textural de rochas: técnicas e aplicações'
+  area: XII. Síntese estrutural e integração
+  objective: Ler textura e microestrutura como registro de processo, escolhendo a técnica analítica adequada a cada problema e quantificando o resultado por estereologia e CSD.
+  prerequisites:
+  - '38'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m39-oa01
+    statement: Descrever textura e microestrutura de rochas ígneas, metamórficas e sedimentares usando os elementos diagnósticos corretos (contatos cristal-cristal, ângulos diedrais, intercrescimentos, granulação, forma e orientação)
+  - id: geologia-avancado-m39-oa02
+    statement: Relacionar as texturas observadas aos processos de nucleação, crescimento, recristalização e deformação que as produziram
+  - id: geologia-avancado-m39-oa03
+    statement: Selecionar a técnica analítica adequada a cada problema textural (BSE, EBSD, mapeamento composicional, microtomografia, mineralogia automatizada) reconhecendo resolução, representatividade e limitações de cada uma
+  - id: geologia-avancado-m39-oa04
+    statement: Quantificar texturas por análise modal, estereologia e distribuição de tamanhos de cristal (CSD) e interpretar corretamente os diagramas resultantes
+  lessons:
+    planned: 8
+    completed: 0
+    items:
+    - id: geologia-avancado-m39-a01
+      title: 'Elementos da textura e da microestrutura: contatos cristal-cristal, ângulos diedrais, intercrescimentos, granulação, forma e orientação de cristais'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m39-oa01
+    - id: geologia-avancado-m39-a02
+      title: 'Nucleação e crescimento cristalino: cinética, zonação e estruturas internas como registro de processo'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m39-oa02
+    - id: geologia-avancado-m39-a03
+      title: 'Imageamento eletrônico da textura: elétrons retroespalhados (BSE) e difração de elétrons retroespalhados (EBSD) para trama e orientação preferencial'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m39-oa03
+    - id: geologia-avancado-m39-a04
+      title: 'Mapeamento composicional in situ: EDS, WDS, micro-FRX, catodoluminescência e LA-ICP-MS integrados ao dado textural'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m39-oa03
+    - id: geologia-avancado-m39-a05
+      title: 'Estereologia e quantificação em 2D: análise modal, contagem de pontos e extração de parâmetros texturais por análise de imagem digital'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m39-oa04
+    - id: geologia-avancado-m39-a06
+      title: 'Distribuição de tamanhos de cristal (CSD): teoria, construção do diagrama e interpretação de taxas de nucleação e crescimento'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m39-oa04
+    - id: geologia-avancado-m39-a07
+      title: 'Textura em três dimensões: microtomografia de raios X, morfometria de cristais, porosidade e conectividade de poros'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m39-oa03
+      - geologia-avancado-m39-oa04
+    - id: geologia-avancado-m39-a08
+      title: Mineralogia automatizada (MLA, QEMSCAN, XMapTools) e integração textura-processo em rochas ígneas, metamórficas e sedimentares
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m39-oa02
+      - geologia-avancado-m39-oa03
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending
+- id: '40'
+  slug: mineralogia-dos-tectossilicatos
+  title: 'Mineralogia dos tectossilicatos: cristaloquímica, óptica e relações de fases'
+  area: XII. Síntese estrutural e integração
+  objective: Dominar a classe dos tectossilicatos — sílica, feldspatos, feldspatoides e zeólitas — do arcabouço cristaloquímico ao reconhecimento diagnóstico ao microscópio, passando por ordem-desordem, exsolução, fórmulas estruturais e relações de fases binárias.
+  prerequisites:
+  - '39'
+  source_material: 'Vlach, S. R. F. — "A Classe dos Tectossilicatos: Guia Geral da Teoria e Exercício". Departamento de Mineralogia e Geotectônica, IGc-USP, Série Didática USP, 49 p. Caderno do módulo de tectossilicatos do Curso de Mineralogia do IGc-USP (20 h de aulas teóricas e práticas). Obras que o próprio guia adota como base e que são citadas nas aulas derivadas: Deer, Howie & Zussman (1992); Klein & Hurlbut Jr. (1993, hoje Klein & Dutrow, 2007); Tröger (1979); Ribbe (1975); Smith & Brown (1988); Tuttle & Bowen (1958); Mumpton (1977).'
+  status: complete
+  learning_objectives:
+  - id: geologia-avancado-m40-oa01
+    statement: Explicar a arquitetura dos tectossilicatos (polimerização total do arcabouço, substituição Al-Si, cátions compensadores de carga) e derivar dela a abundância crustal do grupo e o seu papel na classificação QAPF
+  - id: geologia-avancado-m40-oa02
+    statement: Distinguir os polimorfos de SiO2 pelos campos de estabilidade P-T, pelo tipo de transformação polimórfica (deslocativa x reconstrutiva) e pelas propriedades morfológicas e ópticas diagnósticas
+  - id: geologia-avancado-m40-oa03
+    statement: Classificar um feldspato nas séries alcalina e dos plagioclásios, situar sua composição no ternário An-Ab-Or e relacionar o estado estrutural (ordem-desordem Al/Si) à história térmica da rocha
+  - id: geologia-avancado-m40-oa04
+    statement: Interpretar solvus e exsolução em feldspatos e feldspatoides, reconhecendo pertitas, antipertitas, mesopertitas e criptopertitas e as microestruturas correlatas
+  - id: geologia-avancado-m40-oa05
+    statement: Identificar tectossilicatos ao microscópio petrográfico por geminação, clivagem, relevo, birrefringência e intercrescimentos, e determinar o teor de anortita de plagioclásios pelos métodos ópticos padrão
+  - id: geologia-avancado-m40-oa06
+    statement: Calcular fórmulas estruturais de tectossilicatos a partir de análise química e ler diagramas de fases binários (eutético, peritético, solução sólida completa, ponto de mínimo) aplicando a regra das fases
+  lessons:
+    planned: 14
+    completed: 14
+    items:
+    - id: geologia-avancado-m40-a01
+      title: 'A classe dos tectossilicatos: arcabouço polimerizado, substituição Al-Si e abundância crustal'
+      file: 40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-aula-01-a-classe-dos-tectossilicatos.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m40-oa01
+    - id: geologia-avancado-m40-a02
+      title: 'O grupo da sílica: polimorfos, o diagrama P-T e os dois tipos de transformação polimórfica'
+      file: 40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-aula-02-grupo-da-silica-polimorfos-e-diagrama-p-t.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m40-oa02
+    - id: geologia-avancado-m40-a03
+      title: Geminações do quartzo e as variedades criptocristalinas e amorfas da sílica
+      file: 40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-aula-03-geminacoes-do-quartzo-e-silica-criptocristalina.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m40-oa02
+    - id: geologia-avancado-m40-a04
+      title: Quartzo, tridimita e cristobalita ao microscópio petrográfico
+      file: 40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-aula-04-minerais-de-silica-ao-microscopio.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m40-oa02
+      - geologia-avancado-m40-oa05
+    - id: geologia-avancado-m40-a05
+      title: 'Feldspatos: química, estrutura MT4O8, clivagens pinacoidais e o ternário An-Ab-Or'
+      file: 40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-aula-05-feldspatos-quimica-estrutura-e-ternario.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m40-oa03
+    - id: geologia-avancado-m40-a06
+      title: 'Ordem-desordem Al/Si nos feldspatos potássicos: sanidina, ortoclásio, microclínio e o parâmetro 2t1'
+      file: 40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-aula-06-ordem-desordem-nos-feldspatos-potassicos.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m40-oa03
+    - id: geologia-avancado-m40-a07
+      title: 'Solvus e exsolução nos feldspatos alcalinos: pertitas, antipertitas, mesopertitas e criptopertitas'
+      file: 40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-aula-07-solvus-e-exsolucao-pertitas.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m40-oa04
+    - id: geologia-avancado-m40-a08
+      title: As leis de geminação dos feldspatos e o que cada uma revela
+      file: 40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-aula-08-leis-de-geminacao-dos-feldspatos.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m40-oa05
+    - id: geologia-avancado-m40-a09
+      title: 'Feldspatos ao microscópio: reconhecimento, alteração e intercrescimentos mirmequíticos e granofíricos'
+      file: 40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-aula-09-feldspatos-ao-microscopio-e-intercrescimentos.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m40-oa05
+      - geologia-avancado-m40-oa04
+    - id: geologia-avancado-m40-a10
+      title: Determinação do teor de anortita em plagioclásios e leitura do zonamento composicional
+      file: 40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-aula-10-teor-de-anortita-e-zonamento.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m40-oa05
+    - id: geologia-avancado-m40-a11
+      title: 'Feldspatoides: nefelina, kalsilita, leucita, sodalita e a barreira da saturação em sílica'
+      file: 40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-aula-11-feldspatoides.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m40-oa01
+      - geologia-avancado-m40-oa05
+    - id: geologia-avancado-m40-a12
+      title: 'Zeólitas: arquitetura estrutural, classificação, troca catiônica e peneira molecular'
+      file: 40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-aula-12-zeolitas.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m40-oa01
+      - geologia-avancado-m40-oa05
+    - id: geologia-avancado-m40-a13
+      title: Cálculo de fórmulas estruturais de tectossilicatos e proporções An-Ab-Or
+      file: 40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-aula-13-formulas-estruturais.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m40-oa06
+    - id: geologia-avancado-m40-a14
+      title: 'Relações de fases binárias dos tectossilicatos: eutético, peritético, solução sólida completa e ponto de mínimo'
+      file: 40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-aula-14-relacoes-de-fases-binarias.md
+      status: complete
+      covers_objectives:
+      - geologia-avancado-m40-oa06
+  audit:
+    red: 0
+    orange: 1
+    yellow: 3
+    blue: 3
+    white: 3
+    open_findings: []
+    resolved_findings:
+    - id: TECTO-M40-A06-GOLDSMITH-001
+      severity: orange
+      summary: Indice de triclinicidade Delta atribuido a "Goldschmidt & Laves"; a autoria correta e Goldsmith, J. R. & Laves, F. (1954). Corrigido no corpo, nas fontes e no claim da aula 06.
+    - id: TECTO-M40-A14-SIO2-002
+      severity: yellow
+      summary: Percentagens em peso de SiO2 da leucita e do feldspato potassico lidas do eixo esquematico da Figura 19 (~54,5 e ~65,5). Substituidas pelos valores estequiometricos exatos 55,1 e 64,8 no corpo, no recap e no claim da aula 14.
+    - id: TECTO-M40-A12-ZEOLITAS-003
+      severity: yellow
+      summary: Classificacao de Breck e contagem de ~40 zeolitas superadas por Coombs et al. (1997) e pelos codigos da International Zeolite Association. Ja sinalizado no claim da aula 12; nenhuma correcao adicional necessaria.
+    - id: TECTO-M40-A03-OPALA-004
+      severity: yellow
+      summary: Opala tratada como variedade unica amorfa; o quadro moderno separa opala-A de opala-CT/opala-C, e a moganita e especie IMA desde 1999. Ja sinalizado no claim da aula 03.
+    source_errata_ratified:
+    - 'Aula 04: "atraso de 0,009 nm" e a birrefringencia (adimensional); atraso = 270 nm em lamina de 30 um.'
+    - 'Aula 11: "birrefringencia 0,002 nm" da leucita e adimensional; atraso = 60 nm.'
+    - 'Aula 06: grupo espacial dos feldspatos potassicos monoclinicos e C2/m, nao "P2/m".'
+    - 'Aula 07: labradorescencia e produzida pelo intercrescimento de Boggild (An45-An55), nao de Huttenlocher.'
+    - 'Aula 13: Tabela 1 do guia registra Ba = 0,004 (proporcao cationica sem multiplicar por F); valor correto 0,044, levando a An6,1Ab72,1Or20,7Cs1,1.'
+    verdict: approved
+    report: 40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-auditoria.md
+    date: '2026-08-26'
+    status: complete
+  didactic_review:
+    verdict: bem ensinado
+    yellow: 1
+    open_findings: []
+    resolved_findings:
+    - id: DID-M40-A14-EXTENSAO-001
+      severity: yellow
+      summary: Aula 14 com ~2560 palavras e quatro sistemas binarios ultrapassa o teto de 30 min. Nao quebrada em partes para preservar a comparacao entre os quatro sistemas; mitigada com ponto de pausa sugerido inserido entre VII.2 e VII.3.
+    report: 40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-revisao-didatica.md
+    date: '2026-08-26'
+    status: complete
+  source_parts_coverage:
+    part_a: Itens I a VII (teoria) — integralmente cobertos pelas 14 aulas.
+    part_b: Item VIII (atividades praticas ao microscopio) — convertido na Parte IV do questionario final, roteiros R1 a R6, respondiveis pelas tabelas diagnosticas das aulas. Item VIII.6 e a questao de fechamento.
+    part_c: 'Item IX (exercicios diversos) — distribuido pelos tres questionarios: IX.1 dissertativas, IX.2 e IX.3 aplicacao com calculo, IX.4 incorporado a aula 06 e cobrado no parcial 1, IX.5 no parcial 2 e no final.'
+  assessment:
+    files:
+    - 40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-questionario-parcial-1.md
+    - 40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-questionario-parcial-2.md
+    - 40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-questionario-final.md
+    status: complete
+    objectives_covered:
+    - geologia-avancado-m40-oa01
+    - geologia-avancado-m40-oa02
+    - geologia-avancado-m40-oa03
+    - geologia-avancado-m40-oa04
+    - geologia-avancado-m40-oa05
+    - geologia-avancado-m40-oa06
+  flashcards:
+    basic: 62
+    cloze: 34
+    total: 96
+    last_id: 62
+    files:
+    - 40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-flashcards.md
+    - 40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-flashcards-basic.csv
+    - 40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-flashcards-cloze.csv
+    status: complete
+- id: '41'
+  slug: estudos-integrados-projetos-em-geologia-aplicada
+  title: 'Estudos integrados: projetos em geologia aplicada'
+  area: XII. Síntese estrutural e integração
+  objective: Integrar as especializações do curso num projeto de geologia aplicada completo, do alvo exploratório ao relatório em padrão da indústria mineral.
+  prerequisites:
+  - '12'
+  - '25'
+  - '37'
+  - '39'
+  status: pending
+  learning_objectives:
+  - id: geologia-avancado-m41-oa01
+    statement: Analisar o mercado de commodities minerais e as tendências tecnológicas e sociais que definem quais alvos exploratórios são relevantes hoje
+  - id: geologia-avancado-m41-oa02
+    statement: Propor e justificar métodos de qualificação e quantificação de potencial mineral para uma província geológica, integrando dados multidisciplinares e técnicas de aprendizado de máquina
+  - id: geologia-avancado-m41-oa03
+    statement: Incorporar critérios éticos, ambientais e de relacionamento social ao desenho de um projeto de exploração mineral
+  - id: geologia-avancado-m41-oa04
+    statement: Estruturar e redigir um relatório de projeto no formato adotado pela indústria mineral, respeitando os códigos internacionais de reporte
+  lessons:
+    planned: 4
+    completed: 0
+    items:
+    - id: geologia-avancado-m41-a01
+      title: 'Mercado de commodities minerais, tendências tecnológicas e necessidades da sociedade: o que define um alvo exploratório hoje'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m41-oa01
+    - id: geologia-avancado-m41-a02
+      title: 'Qualificação e quantificação de potencial mineral: modelagem conceitual, métodos indiretos e prospectividade orientada por dados e inteligência artificial'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m41-oa02
+    - id: geologia-avancado-m41-a03
+      title: Ética, meio ambiente e relacionamento social em projetos de exploração mineral
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m41-oa03
+    - id: geologia-avancado-m41-a04
+      title: 'Do alvo ao relatório profissional: seleção da província, condução do projeto integrado em equipe e códigos internacionais de reporte de resultados e recursos'
+      status: pending
+      covers_objectives:
+      - geologia-avancado-m41-oa02
+      - geologia-avancado-m41-oa04
+  audit:
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    status: pending
+  assessment:
+    files: []
+    status: pending
+    objectives_covered: []
+  flashcards:
+    last_id: 0
+    status: pending

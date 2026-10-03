@@ -1,0 +1,16 @@
+A unidade {{c1::meq/L}} pondera cada íon pela carga elétrica que ele contribui, sendo a base do cálculo de {{c2::balanço iônico}}.
+O erro de balanço iônico é aceito na faixa de aproximadamente {{c1::±5%}} para águas de TDS moderado a alto.
+A hidrólise de silicatos é uma reação {{c1::incongruente}}, que retém alumínio numa fase secundária de {{c2::argila}}.
+A dissolução de calcita segue CaCO3 + {{c1::CO2}} + H2O ⇌ Ca2+ + 2{{c2::HCO3-}}.
+Pela troca iônica, água rica em Ca2+ percolando argila saturada em {{c1::Na+}} produz {{c2::abrandamento}} natural (softening).
+A sequência de {{c1::Chebotarev}} descreve evolução regional de fácies HCO3- para SO4(2-)+Cl-, com aumento de {{c2::TDS}}.
+A chuva "limpa" tem pH natural em torno de {{c1::5,6}}, devido ao equilíbrio com {{c2::CO2}} atmosférico.
+O PCO2 do solo na zona não saturada é de {{c1::10 a 100}} vezes o valor atmosférico, por respiração de raízes e decomposição orgânica.
+As cinco classes de água mineral por traço distintivo são carbogasosa, sulfurosa, ferruginosa, radioativa e {{c1::termal}}.
+Na amostragem de baixa vazão, a coleta ocorre após {{c1::estabilização}} de pH, condutividade elétrica, Eh e oxigênio dissolvido.
+Amostras para cátions dissolvidos são filtradas em membrana de {{c1::0,45 µm}} e acidificadas com {{c2::HNO3}}.
+Um resultado "< LOD" deve ser tratado, em cálculos, como {{c1::metade}} do valor do limite de detecção, nunca como zero.
+No diagrama de {{c1::Piper}}, dois triângulos e um losango central classificam a fácies hidroquímica em percentual de meq/L.
+O diagrama de {{c1::Stiff}} representa uma amostra como polígono compacto o suficiente para ser plotado no {{c2::mapa}}.
+O diagrama de {{c1::Schoeller}} usa eixos {{c2::logarítmicos}} paralelos para comparar concentrações absolutas entre amostras.
+Uma trajetória retilínea entre dois extremos no diamante de Piper é assinatura de {{c1::mistura binária}}, não de evolução progressiva.

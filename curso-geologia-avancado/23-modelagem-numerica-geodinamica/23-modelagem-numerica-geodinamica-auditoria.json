@@ -1,0 +1,1037 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "module",
+    "path": "23-modelagem-numerica-geodinamica",
+    "module_id": "23",
+    "course_id": "curso-geologia-avancado"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-09-19",
+  "fixed_at": "2026-09-19",
+  "verdict": "aprovado",
+  "verdict_note": "Auditoria e correcao na mesma data, passagem unica, sobre as sete aulas em conjunto mais o hub do modulo. METODO ESPECIFICO DESTE MODULO: por ser o modulo mais quantitativo do curso, os SETE blocos de codigo Python foram EXTRAIDOS E EXECUTADOS (NumPy 2.5.1) e a saida comparada digito a digito com a saida declarada no texto; onde a aula declara conferencia a mao, a conferencia a mao tambem foi refeita. NENHUMA SAIDA NUMERICA DECLARADA NO MODULO ESTA ERRADA - os doze itens azuis marcados com verified_by_execution registram isso. A segunda frente foi a coerencia de notacao com o Modulo 30 do curso base, declarado pre-requisito cruzado, e foi la que apareceu o unico achado vermelho. Os 15 achados numerados (1 vermelho, 13 laranjas, 1 amarelo) foram TODOS CORRIGIDOS. As Aulas 01 e 02 passaram integralmente e NAO precisaram de nenhuma edicao. Nenhum achado azul-escuro (sem fonte) nem branco (controverso) foi levantado, e isso e justificado em no_blue_no_white_note. 0 vermelhos e 0 laranjas em aberto: GATE LIBERADO para questionario e flashcards, observadas as SETE restricoes em assessment_gate.restrictions. Nenhum material derivado existia (sem questionario, sem baralho, sem glossario): nao houve propagacao externa e NAO HA CARD JA IMPORTADO NO ANKI A CORRIGIR A MAO.",
+  "summary": {
+    "red": 1,
+    "orange": 14,
+    "yellow": 1,
+    "blue": 40,
+    "white": 0,
+    "red_open": 0,
+    "orange_open": 0,
+    "yellow_open": 0,
+    "white_open": 0,
+    "red_fixed": 1,
+    "orange_fixed": 14,
+    "yellow_fixed": 1,
+    "numbered_findings": 16,
+    "declared_claims": 35,
+    "claims_raised_by_audit": 15,
+    "claims_tracked": 55,
+    "unaudited_claims": 0,
+    "claims_declared_in_file_after_audit": 49,
+    "code_blocks_executed": 11,
+    "code_outputs_wrong": 0,
+    "blue_note": "35 entradas azuis para 35 alegacoes declaradas: 33 correspondem a alegacoes aprovadas integralmente, e 2 (B11, numero de Reynolds, e B30, aritmetica de Arrhenius) registram a METADE VERIFICADA de alegacoes cujas outras metades viraram os achados 2 e 12 - ver partially_verified_declared_claims. PASSAGEM 2 (2026-09-20): +5 entradas azuis (P2 a P6), das quais 4 verificadas POR EXECUCAO (os dois blocos Matplotlib da a01, agora que a biblioteca foi instalada; a aritmetica escalonada da a04; e a aritmetica das propriedades termicas da a05) e 1 verificada contra fonte (o mecanismo do xadrez na malha colocalizada). Total 40.",
+    "spot_check_pass_2": "2026-09-20: escopo restrito as 5 alegacoes nascidas da divisao didatica de 2026-09-19. Resultado: 4 passaram limpas (azuis P2-P5) e a quinta (EXEMPLO-PROPRIEDADES-008, azul P6) teve a representatividade dos tres parametros CONFIRMADA mas gerou o achado laranja 16 (CPRESSALVA-009) pela ressalva ausente sobre a dependencia de Cp com a temperatura, corrigido na mesma passagem. Os 15 achados de 2026-09-19 NAO foram reabertos, reavaliados nem renumerados. Zero alegacoes nao auditadas no modulo."
+  },
+  "dominant_pattern": "A SIMPLIFICACAO QUE ESTAVA CERTA NA AULA ANTERIOR E DEIXOU DE ESTAR NESTA. Nove dos quinze achados tem a mesma forma: a aula enuncia uma versao simplificada de uma relacao - a que basta para o caso imediatamente a mao - e nao avisa que ela DEIXA DE VALER exatamente no cenario que o modulo constroi duas aulas adiante. O termo viscoso de Stokes escrito na forma de viscosidade constante, num modulo cuja Aula 06 existe para mostrar que a viscosidade varia por ordens de grandeza (achado 2). A diferenca central creditada por um resultado que nas bordas da malha nao foi calculado por diferenca central (achado 7). A relacao dq/dz = A(z) enunciada sem convencao de sinal, tres linhas antes de uma conclusao cujo sinal e o oposto (achado 4). Nenhum desses e erro de fato isolado: todos sao OMISSOES QUE SE TORNAM ERRO na hora em que o aluno aplica a formula ao problema realista que o modulo prometeu ensinar. Foi por isso que quase todos ficaram em laranja e nenhum em amarelo: nao e material envelhecido, e material que arredonda no ponto onde arredondar custa caro.",
+  "no_blue_no_white_note": "NENHUM achado azul-escuro (sem fonte) nem branco (controverso) foi levantado, e nao e omissao. O modulo e quantitativo e didaticamente conservador: ensina resultados estabelecidos ha decadas (Fourier, Stokes, von Neumann, McKenzie, Lachenbruch, Davis-Suppe-Dahlen) e, onde a literatura de fato diverge, A PROPRIA AULA JA DECLARA A DIVERGENCIA - a a05 apresenta o modelo de semi-espaco e imediatamente registra o problema do achatamento e os modelos de placa concorrentes; a a06 qualifica os parametros de fluencia como ilustrativos e como calibracoes experimentais. Nao ha, no modulo, afirmacao especifica que a auditoria nao tenha conseguido confirmar, nem posicao em disputa apresentada como consenso fechado. O unico ponto que chegou perto foi a energia de ativacao do olivino - e virou laranja de atribuicao (achado 11), nao branco, porque a dispersao entre calibracoes e fato bem documentado, nao controversia aberta.",
+  "cross_course_check": {
+    "target": "curso-geologia, modulo 30 - Metodos numericos para geociencias (fechado, auditado e aprovado)",
+    "declared_in": "hub do modulo 23 e cabecalhos das Aulas 02 e 04 (campo cross_course_prerequisite)",
+    "checked": [
+      {
+        "remissao": "Modulo 30 aula 01 - erro de truncamento e arredondamento",
+        "confere": true,
+        "nota": "o conteudo esta la, e o uso aqui (erro proporcional a dz^2, ruido de ponto flutuante) e coerente"
+      },
+      {
+        "remissao": "Modulo 30 aula 02 - eliminacao de Gauss e Gauss-Seidel",
+        "confere": true,
+        "nota": "esta la; a ponte EDP -> malha -> sistema linear construida na Aula 02 daqui e legitima"
+      },
+      {
+        "remissao": "Modulo 30 aula 04 - diferencas finitas progressiva, regressiva e central",
+        "confere": true,
+        "nota": "RESSALVA: o modulo 30 NAO rotula as formulas com ordem de precisao; a convencao 'ordem = ordem de precisao' nasce na Aula 02 DESTE modulo. Coerente (o modulo avancado pode ser mais formal), mas foi a origem do achado 6"
+      },
+      {
+        "remissao": "Modulo 30 aula 05 - EDO do decaimento radioativo",
+        "confere": false,
+        "nota": "ORIGEM DO ACHADO 1 (vermelho). O modulo 30 escreve dN/dt = -lambda*N com lambda, nunca kappa, e trata o decaimento como EDO com solucao exponencial, nunca como difusao"
+      },
+      {
+        "remissao": "Aula 02 daqui: 'o Modulo 30 deliberadamente deixou as EDPs para este modulo (ver a aula 05 daquele modulo, secao final)'",
+        "confere": true,
+        "nota": "confere - a aula 05 do modulo 30 de fato distingue o resfriamento de parametro concentrado (lei de Newton) da equacao de difusao completa, declarando esta ultima fora do seu escopo"
+      }
+    ],
+    "conclusion": "Uma unica inconsistencia de notacao entre os cursos, corrigida (achado 1). O restante da ponte entre os dois modulos e solido e bem construido."
+  },
+  "findings": [
+    {
+      "n": 1,
+      "claim_id": "GEODIN-M23-A04-KAPPA-DECAIMENTO-006",
+      "severity": "red",
+      "nature": "erro_factual",
+      "subnature": "notacao_e_equivalencia_matematica_falsas",
+      "lesson": "a04",
+      "location": "Secao 'A lei de Fourier e a conservacao de calor'",
+      "written": "E comum agrupar k/(rho*Cp) numa unica grandeza, a difusividade termica kappa (mesma letra grega ja usada na Aula 02 e no Modulo 30, aula 05, para o decaimento radioativo - nao e coincidencia: ambos os fenomenos, conducao de calor e difusao em geral, obedecem a mesma forma matematica de equacao).",
+      "problem": "DUAS afirmacoes falsas encadeadas. PRIMEIRA: kappa nao e a letra usada para o decaimento radioativo em lugar nenhum do curriculo. O Modulo 30 do curso base, aula 05, escreve dN/dt = -lambda*N com lambda (verificado nas linhas 44, 66, 72, 94 e 128 do arquivo), e a Aula 02 DESTE modulo tambem escreve dN/dt = -lambda*N e nao usa kappa uma unica vez. A frase inventa uma identidade de simbolos que contradiz literalmente as duas aulas que cita como apoio. SEGUNDA, e pior: decaimento radioativo e conducao de calor NAO obedecem a mesma forma matematica de equacao. Decaimento e EDO de primeira ordem no tempo, sem derivada espacial, solucao exponencial; difusao e EDP de segunda ordem no espaco. Essa e exatamente a distincao que a Aula 02 inteira existe para construir e que a Aula 04 e a primeira a usar. POR QUE E VERMELHO: um flashcard gerado sobre a frase ensinaria 'kappa = constante de decaimento' e 'decaimento radioativo e difusao', ambos falsos, numa aula cujo objetivo declarado e separar EDO de EDP. O erro ataca a espinha conceitual do modulo.",
+      "correction_applied": "Paragrafo reescrito: kappa mantido como difusividade termica, com a unidade m2/s e com a razao correta de reaparecer em toda equacao de difusao (calor, especies quimicas, momento), que e o que de fato da a elas a mesma forma matematica. Acrescentada advertencia explicita de falso parentesco: lambda do decaimento NAO e kappa, e decaimento NAO e difusao, com a razao (EDO de 1a ordem no tempo x EDP de 2a ordem no espaco) e a remissao correta a Aula 02. Claim KAPPA-DECAIMENTO-006 registrado no bloco de alegacoes. Recap da a04 relido: ja dizia apenas 'kappa=k/(rho*Cp) e a difusividade termica', sem o parentesco falso, e nao precisou de alteracao.",
+      "source": "Turcotte, D. L. & Schubert, G., Geodynamics, 3a ed. (2014), Cambridge University Press, cap. 4 (definicao e unidade da difusividade termica); Modulo 30 do curso base, aula 05 (notacao lambda para a constante de decaimento, verificada no arquivo)",
+      "source_level": "normativa",
+      "confidence": "confirmado",
+      "affected_files": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-04-calor-fourier-conservacao-producao-adveccao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-19",
+      "blocks_gate": false,
+      "affected_files_pos_divisao": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-05-calor-fourier-conservacao-producao-adveccao.md",
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-06-solucao-numerica-calor-explicito-implicito.md"
+      ]
+    },
+    {
+      "n": 2,
+      "claim_id": "GEODIN-M23-A03-STOKESVISCOSO-006",
+      "severity": "orange",
+      "nature": "omissao_que_gera_erro",
+      "subnature": "forma_valida_so_para_viscosidade_constante",
+      "lesson": "a03",
+      "location": "Secao 'A equacao de Navier-Stokes em regime de fluxo lento (Stokes)'; propagado para o Recap e para o bloco de alegacoes (edita tambem GEODIN-M23-A03-REYNOLDS-STOKES-002)",
+      "written": "-grad(P) + div(eta*grad(v)) + rho*g = 0",
+      "problem": "A forma div(eta*grad(v)) so coincide com o termo viscoso correto quando eta e CONSTANTE (com fluxo incompressivel), caso em que ambos se reduzem a eta*laplaciano(v). Para viscosidade variavel, o termo e o divergente do tensor de tensao DESVIATORIA, div(eta*(grad(v) + grad(v)^T)) = div(2*eta*taxa_de_deformacao). O que torna isto caro NESTE modulo: a Aula 06 existe para mostrar que eta varia por ordens de grandeza com a temperatura. A aula escreve a equacao na forma de viscosidade constante tres aulas antes de dedicar uma aula inteira a demonstrar que a viscosidade nao e constante. Um aluno que implementasse a equacao como escrita produziria um solver silenciosamente errado, e errado de um jeito que nao dispara nenhum dos testes de sanidade que a propria aula ensina (o divergente continuaria zero).",
+      "correction_applied": "Equacao reescrita como -grad(P) + div[eta*(grad(v) + grad(v)^T)] + rho*g = 0 no corpo, na glosa termo a termo e no Recap. Acrescentado paragrafo explicando que a combinacao simetrica e o tensor de taxa de deformacao, que escreve-la por inteiro e obrigatorio porque eta varia no espaco, e que a reducao a eta*laplaciano(v) vale apenas para eta constante - nomeando o atalho como uma das fontes classicas de implementacao errada. Claim novo STOKESVISCOSO-006 registrado; REYNOLDS-STOKES-002 sincronizado.",
+      "source": "Gerya, T., Introduction to Numerical Geodynamic Modelling, 2a ed. (2019), Cambridge University Press, capitulo sobre a equacao de Stokes com viscosidade variavel; formulacao conservativa em tensao sigma'_ij = 2*eta*edot_ij = eta*(dv_i/dx_j + dv_j/dx_i) confirmada na literatura corrente de discretizacao de Stokes variavel-viscosidade (arXiv:2509.19061, 2026); Turcotte & Schubert, Geodynamics, 3a ed., cap. 6",
+      "source_level": "normativa",
+      "confidence": "confirmado",
+      "affected_files": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-03-mecanica-continuo-continuidade-navier-stokes.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-19",
+      "blocks_gate": false,
+      "affected_files_pos_divisao": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-03-mecanica-continuo-continuidade-stokes.md",
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-04-malhas-descricoes-lagrangiana-euleriana.md"
+      ]
+    },
+    {
+      "n": 3,
+      "claim_id": "GEODIN-M23-A04-MAXIMOPRINCIPIO-007",
+      "severity": "orange",
+      "nature": "omissao_que_gera_erro",
+      "subnature": "criterio_de_impossibilidade_errado",
+      "lesson": "a04",
+      "location": "Secao 'Esquema explicito (FTCS)', exemplo trabalhado (caso instavel) e Recap",
+      "written": "temperaturas fisicamente impossiveis (negativas, ou muito acima de qualquer producao de calor razoavel) / uma temperatura NEGATIVA de -100 no no central, fisicamente impossivel",
+      "problem": "-100 graus Celsius nao tem nada de fisicamente impossivel. Uma geoterma sob superficie glaciada comeca negativa. O aluno que sair daqui com a regra 'negativo = erro numerico' vai aplica-la errado no primeiro perfil termico de clima frio. O que de fato torna o valor impossivel e o PRINCIPIO DO MAXIMO da equacao da difusao: sem termo de producao, a solucao em qualquer instante posterior permanece dentro do intervalo entre o menor e o maior valor presentes na condicao inicial e nos contornos - aqui, [0, 100]. O valor -100 e impossivel porque ESCAPA DO INTERVALO, nao porque e negativo. E o mesmo criterio pega o outro modo de falha (valores acima de 100) com a mesma frase, em vez do vago 'muito acima de qualquer producao razoavel' que a aula usava e que nao serve de teste.",
+      "correction_applied": "Principio do maximo enunciado explicitamente na secao do esquema explicito, com a justificativa fisica ('calor nunca se concentra espontaneamente') e a ressalva de que temperatura negativa em Celsius nao tem nada de impossivel em si. Exemplo trabalhado e Recap reescritos para diagnosticar o valor como 'fora do intervalo [0,100] delimitado pela condicao inicial e pelos contornos'. Claim MAXIMOPRINCIPIO-007 acrescentado; EXEMPLO-EXPLICITO-005 sincronizado; Evans (2010) acrescentado as Fontes.",
+      "source": "Evans, L. C., Partial Differential Equations, 2a ed. (2010), American Mathematical Society, capitulo sobre a equacao do calor (principio do maximo); Press, W. H. et al., Numerical Recipes, 3a ed. (2007), cap. sobre EDPs parabolicas",
+      "source_level": "normativa",
+      "confidence": "confirmado",
+      "affected_files": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-04-calor-fourier-conservacao-producao-adveccao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-19",
+      "blocks_gate": false,
+      "affected_files_pos_divisao": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-05-calor-fourier-conservacao-producao-adveccao.md",
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-06-solucao-numerica-calor-explicito-implicito.md"
+      ]
+    },
+    {
+      "n": 4,
+      "claim_id": "GEODIN-M23-A05-SINALFLUXO-008",
+      "severity": "orange",
+      "nature": "omissao_que_gera_erro",
+      "subnature": "convencao_de_sinal_nao_declarada",
+      "lesson": "a05",
+      "location": "Secao 'Litosfera continental: regime estavel com producao radiogenica'",
+      "written": "como a taxa de variacao do fluxo de calor com a profundidade e exatamente igual a producao local (dq/dz = A(z), consequencia direta da lei de Fourier combinada com a conservacao de energia em regime estavel), toda a producao radiogenica acima de uma profundidade contribui, somada, ao fluxo de calor que emerge na superficie.",
+      "problem": "O sinal depende inteiramente de uma convencao que a aula nao declara, e sob a convencao que o proprio contexto sugere a equacao sai com o sinal trocado em relacao a conclusao que a segunda metade da frase tira dela. Com z para baixo - a orientacao que a aula usa em toda parte - e q_z a componente do fluxo de Fourier nessa direcao (q_z = -k dT/dz, negativa, pois T cresce com z), vale de fato dq_z/dz = A(z). Mas q0, o fluxo de calor superficial que a aula acabou de definir e que a relacao de Lachenbruch usa tres paragrafos adiante, e o fluxo ASCENDENTE reportado como positivo - e para essa grandeza a relacao correta e dq/dz = -A(z). E precisamente esse sinal negativo que produz a conclusao enunciada: o fluxo que sobe CRESCE em direcao a superficie porque acumula a producao de tudo o que esta acima. Escrita sem a convencao, a equacao e a conclusao que dela se tira tem sinais opostos.",
+      "correction_applied": "Convencao fixada explicitamente. A frase agora da as duas formas - dq_z/dz = A(z) para a componente descendente, dq/dz = -A(z) para o fluxo ascendente positivo, 'a grandeza que o geofisico mede e reporta' - com a leitura fisica do sinal negativo, e fecha registrando que a conclusao pratica e a mesma nos dois casos. Claim SINALFLUXO-008 acrescentado ao bloco de alegacoes. A relacao de Lachenbruch logo abaixo ja estava correta e nao foi tocada.",
+      "source": "Turcotte & Schubert, Geodynamics, 3a ed. (2014), cap. 4 (balanco de calor em regime estavel com producao; q0 = qm + integral da producao)",
+      "source_level": "normativa",
+      "confidence": "confirmado",
+      "affected_files": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-05-calor-litosfera-oceanica-continental-geotermas.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-19",
+      "blocks_gate": false,
+      "affected_files_pos_divisao": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-07-calor-litosfera-oceanica-continental-geotermas.md"
+      ]
+    },
+    {
+      "n": 5,
+      "claim_id": "GEODIN-M23-A06-PLASTICOFRAGIL-007",
+      "severity": "orange",
+      "nature": "nomenclatura",
+      "subnature": "plastico_e_fragil_tratados_como_sinonimos",
+      "lesson": "a06",
+      "location": "Objetivo, secao 'Um mesmo material, tres comportamentos', Recap",
+      "written": "a rocha pode se romper de forma PLASTICA/FRAGIL - falhamento, o regime da geologia estrutural classica",
+      "problem": "Ruptura por falhamento e comportamento FRAGIL. Deformacao PLASTICA, na mecanica dos materiais, e permanente e CONTINUA, sem perda de coesao - literalmente o oposto de uma ruptura. Escrever 'romper de forma plastica' como se fossem sinonimos e errado, e e errado num curso de geologia onde o aluno ja viu a distincao fragil/ductil tratada com rigor. O incomodo e que os dois termos DE FATO viajam juntos na literatura de modelagem geodinamica, e a aula nao diz por que, que e a parte instrutiva: um meio continuo nao sabe abrir fratura discreta, entao os codigos representam o regime fragil por um criterio de escoamento plastico friccional dependente da pressao (Mohr-Coulomb ou Drucker-Prager). 'Plastico' ali e o nome do modelo numerico, nao do processo geologico. Sem essa distincao a Aula 07 fica incoerente: ela descreve a cunha critica como 'material plastico friccional (Coulomb)' - usando o termo no sentido de modelo - depois de o aluno ter aprendido que plastico e sinonimo de romper.",
+      "correction_applied": "O regime passou a ser nomeado FRAGIL no Objetivo, no corpo e no Recap. Acrescentada advertencia de vocabulario explicando que plastico nao e fragil na mecanica dos materiais, e por que a literatura de modelagem usa o criterio plastico friccional para representar o fragil num meio continuo. Claim PLASTICOFRAGIL-007 acrescentado; REGIMES-001 sincronizado; Gerya (2019), cap. de reologia viscoelastoplastica, acrescentado as Fontes. A Aula 07 NAO foi alterada e agora esta correta: com a distincao estabelecida na a06, o uso em 'material plastico friccional (Coulomb)' passa a ser o uso legitimo do termo.",
+      "source": "Gerya, T., Introduction to Numerical Geodynamic Modelling, 2a ed. (2019), capitulo sobre reologia viscoelastoplastica; Ranalli, G., Rheology of the Earth, 2a ed. (1995), Chapman & Hall",
+      "source_level": "normativa",
+      "confidence": "confirmado",
+      "affected_files": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-06-reologia-rochas-viscosidade-fluencia.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-19",
+      "blocks_gate": false,
+      "affected_files_pos_divisao": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-08-reologia-rochas-viscosidade-fluencia.md"
+      ]
+    },
+    {
+      "n": 6,
+      "claim_id": "GEODIN-M23-A03-ORDEMDIFCENTRAL-007",
+      "severity": "orange",
+      "nature": "inconsistencia_interna",
+      "subnature": "ordem_de_precisao_contradiz_a_aula_02",
+      "lesson": "a03",
+      "location": "Exemplo trabalhado, enunciado",
+      "written": "Calcule numericamente o divergente div(v) = dvx/dx + dvz/dz sobre uma malha, usando diferenca central de primeira ordem",
+      "problem": "A diferenca central para a PRIMEIRA derivada, (f[i+1]-f[i-1])/(2*dx), e de SEGUNDA ordem de precisao - erro de truncamento proporcional a dx^2. A Aula 02, uma aula antes, fixou 'ordem' como ordem de PRECISAO de forma explicita: 'a formula de diferenca central de segunda ordem [...] com erro proporcional a dz^2'. Sob a convencao que o proprio modulo acabou de estabelecer, 'primeira ordem' esta errado. Custo pratico: o aluno sai achando que a formula do divergente e menos precisa que a da segunda derivada da aula anterior, quando as duas sao igualmente de segunda ordem - e essa e justamente a comparacao que ele precisa fazer para escolher uma malha.",
+      "correction_applied": "Enunciado reescrito para 'a diferenca central para a primeira derivada (a mesma familia de formulas do Modulo 30, aula 04 - e, como a formula de segunda derivada da Aula 02, ela e de SEGUNDA ordem de precisao, com erro proporcional a dx^2)'. Claim ORDEMDIFCENTRAL-007 acrescentado ao bloco. Checagem cruzada: o Modulo 30, aula 04, nao rotula as formulas com ordem nenhuma - a convencao 'ordem = ordem de precisao' e originaria da Aula 02 DESTE modulo, e a a03 era o unico lugar que a violava.",
+      "source": "Chapra, S. C. & Canale, R. P., Numerical Methods for Engineers, 7a ed., capitulo sobre diferenciacao numerica; Press et al., Numerical Recipes, 3a ed., capitulo sobre derivacao numerica",
+      "source_level": "normativa",
+      "confidence": "confirmado",
+      "affected_files": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-03-mecanica-continuo-continuidade-navier-stokes.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-19",
+      "blocks_gate": false,
+      "affected_files_pos_divisao": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-03-mecanica-continuo-continuidade-stokes.md",
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-04-malhas-descricoes-lagrangiana-euleriana.md"
+      ]
+    },
+    {
+      "n": 7,
+      "claim_id": "GEODIN-M23-A03-GRADIENTEBORDA-008",
+      "severity": "orange",
+      "nature": "omissao_que_gera_erro",
+      "subnature": "resultado_creditado_a_formula_nao_usada_nas_bordas",
+      "lesson": "a03",
+      "location": "Exemplo trabalhado, comentarios do codigo e explicacao da saida",
+      "written": "comentarios '# diferenca central em x' / '# diferenca central em z'; e 'divergente e uma matriz 5x5 de zeros [...] O resultado e exato [...] porque [...] a diferenca central e exata para polinomios de baixo grau'",
+      "problem": "np.gradient aplica diferencas centrais de segunda ordem APENAS nos nos interiores. Nas duas bordas de cada eixo - onde falta um vizinho, exatamente o problema que a Aula 02 discutiu ao explicar por que uma malha de 5 nos so tem 3 nos interiores - a funcao recorre a diferenca de UM LADO SO, de primeira ordem por padrao (edge_order=1). Numa matriz 5x5 isso e a moldura inteira: 16 dos 25 valores nao foram calculados pela formula a qual o texto credita o resultado. O resultado em si esta certo e foi verificado por execucao (matriz toda zero), mas sai zero por um motivo que o texto nao da: a diferenca de um lado so TAMBEM e exata para funcao linear. Como escrito, a explicacao ensina que np.gradient e diferenca central em toda a malha, o que fara o aluno subestimar o erro nas bordas no primeiro campo nao linear que derivar - que e onde a precisao de um modelo costuma se perder.",
+      "correction_applied": "Comentarios do codigo trocados para '# central no interior, um lado nas bordas'. Acrescentado paragrafo de ressalva explicando o comportamento de np.gradient, ligando-o ao problema dos nos de borda ja visto na Aula 02, dando o motivo adicional de as bordas tambem sairem zero aqui, e fechando com a consequencia pratica (num campo nao linear as bordas sao a parte menos precisa, e e por isso que num modelo de verdade e nelas que mora a condicao de contorno). Claim GRADIENTEBORDA-008 acrescentado; EXEMPLO-DIVERGENTE-005 sincronizado; documentacao NumPy acrescentada as Fontes.",
+      "source": "Documentacao oficial NumPy, numpy.gradient (numpy.org/doc/stable/reference/generated/numpy.gradient.html), consultada em 2026-09-19: 'second order accurate central differences in the interior points and either first or second order accurate one-sided [...] differences at the boundaries', edge_order=1 por padrao",
+      "source_level": "normativa",
+      "confidence": "confirmado",
+      "affected_files": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-03-mecanica-continuo-continuidade-navier-stokes.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-19",
+      "blocks_gate": false,
+      "affected_files_pos_divisao": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-03-mecanica-continuo-continuidade-stokes.md",
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-04-malhas-descricoes-lagrangiana-euleriana.md"
+      ]
+    },
+    {
+      "n": 8,
+      "claim_id": "GEODIN-M23-A03-PURESHEAR-009",
+      "severity": "orange",
+      "nature": "nomenclatura",
+      "subnature": "fusao_de_dois_regimes_de_deformacao_distintos",
+      "lesson": "a03",
+      "location": "Exemplo trabalhado, enunciado",
+      "written": "o campo de velocidade bidimensional vx = x e vz = -z (um cisalhamento puro simples: o material se estica na direcao x na mesma taxa em que se comprime na direcao z)",
+      "problem": "Cisalhamento PURO (pure shear, coaxial) e cisalhamento SIMPLES (simple shear, nao coaxial) sao dois regimes de deformacao formalmente distintos e sistematicamente contrastados na geologia estrutural. Colocar as duas palavras encostadas, nessa ordem, produz um nome que parece um terceiro regime ou uma fusao dos dois. O campo descrito E cisalhamento puro (o autor quis dizer 'um caso simples de cisalhamento puro'), mas num curso de geologia avancada a colisao de termos e exatamente o tipo de coisa que um aluno memoriza errado.",
+      "correction_applied": "Reescrito como 'um cisalhamento puro (pure shear) na sua forma mais simples: deformacao coaxial, em que o material se estica na direcao x na mesma taxa em que se comprime na direcao z, sem componente rotacional', com ressalva explicita entre parenteses de que puro e simples sao regimes distintos e de que o campo aqui e puro. Claim PURESHEAR-009 acrescentado; Fossen (2016) acrescentado as Fontes.",
+      "source": "Fossen, H., Structural Geology, 2a ed. (2016), Cambridge University Press, capitulo sobre deformacao coaxial e nao coaxial",
+      "source_level": "normativa",
+      "confidence": "confirmado",
+      "affected_files": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-03-mecanica-continuo-continuidade-navier-stokes.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-19",
+      "blocks_gate": false,
+      "affected_files_pos_divisao": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-03-mecanica-continuo-continuidade-stokes.md",
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-04-malhas-descricoes-lagrangiana-euleriana.md"
+      ]
+    },
+    {
+      "n": 9,
+      "claim_id": "GEODIN-M23-A05-CITACAOA02-007",
+      "severity": "orange",
+      "nature": "inconsistencia_interna",
+      "subnature": "citacao_interna_fabricada",
+      "lesson": "a05",
+      "location": "Secao 'Litosfera continental: regime estavel com producao radiogenica'",
+      "written": "[...] resoluvel por integracao direta, exatamente o tipo de simplificacao que a Aula 02 descreveu como 'problema que deixa de ser EDP quando se remove a dependencia temporal'.",
+      "problem": "A frase entre aspas NAO aparece na Aula 02, nem em parafrase (busca literal e leitura integral das quatro secoes). A Aula 02 discute a distincao EDO/EDP pelo numero de variaveis independentes e discute solucao analitica x numerica, mas em nenhum momento trata a reducao de uma EDP a uma EDO por remocao do termo temporal. A atribuicao e fabricada, e as aspas a apresentam como citacao literal. A fisica esta certa; o defeito e de rastreabilidade: o aluno que voltar a Aula 02 procurando a frase nao a encontra e perde a confianca nas remissoes internas do modulo, que sao numerosas e, em todos os outros casos verificados, corretas.",
+      "correction_applied": "Aspas removidas e remissao reconstruida sobre o que a Aula 02 DE FATO ensina: 'E o criterio da Aula 02 operando na pratica: com o termo temporal eliminado, resta uma unica variavel independente (a profundidade z), e uma equacao de uma so variavel independente e, por definicao, uma EDO, nao uma EDP.' Acrescentada a observacao de que a notacao acompanha (derivada parcial vira derivada total), sinal visivel da mudanca que reforca o criterio da Aula 02.",
+      "source": "Verificacao direta no arquivo da Aula 02 deste modulo",
+      "source_level": "verificacao_interna",
+      "confidence": "confirmado",
+      "affected_files": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-05-calor-litosfera-oceanica-continental-geotermas.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-19",
+      "blocks_gate": false,
+      "affected_files_pos_divisao": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-07-calor-litosfera-oceanica-continental-geotermas.md"
+      ]
+    },
+    {
+      "n": 10,
+      "claim_id": "GEODIN-M23-MOD-CONDUTIVO-001",
+      "severity": "orange",
+      "nature": "nomenclatura",
+      "subnature": "anglicismo_ortografico",
+      "lesson": "a05, a07",
+      "location": "a05: 'Ao final voce vai conseguir', secao 'Interpretando os dois controles lado a lado', bloco de alegacoes (3 ocorrencias). a07: secoes de extensao e de colisao, constante de tempo termico, Recap (4 ocorrencias)",
+      "written": "resfriamento conductivo / processo puramente conductivo e transiente / relaxamento conductivo / reequilibrio conductivo",
+      "problem": "O adjetivo derivado de conducao / condutor em portugues e CONDUTIVO (fluxo condutivo, transferencia condutiva, resfriamento condutivo). 'Conductivo' e decalque direto do ingles conductive e nao e forma portuguesa. Num modulo cujo vocabulario tecnico o aluno vai reusar em textos e relatorios, a grafia importada se fixa e viaja.",
+      "correction_applied": "As 7 ocorrencias substituidas por 'condutivo'/'condutiva' nos dois arquivos, incluindo dentro do bloco de alegacoes auditaveis da a05. Verificado por busca: zero ocorrencias restantes no modulo.",
+      "source": "Formacao regular do adjetivo em portugues a partir de conducao/condutor; uso corrente na literatura geofisica em portugues (fluxo condutivo, gradiente condutivo)",
+      "source_level": "normativa",
+      "confidence": "confirmado",
+      "affected_files": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-05-calor-litosfera-oceanica-continental-geotermas.md",
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-07-extensao-colisao-continental-slab-pull-ridge-push.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-19",
+      "blocks_gate": false,
+      "affected_files_pos_divisao": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-07-calor-litosfera-oceanica-continental-geotermas.md",
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-09-extensao-colisao-continental-slab-pull-ridge-push.md"
+      ]
+    },
+    {
+      "n": 11,
+      "claim_id": "GEODIN-M23-A06-QOLIVINAFONTE-006",
+      "severity": "orange",
+      "nature": "erro_factual",
+      "subnature": "atribuicao_de_fonte_com_valor_divergente",
+      "lesson": "a06",
+      "location": "Exemplo trabalhado, enunciado e comentario do codigo; bloco de alegacoes",
+      "written": "(Q ~ 540 kJ/mol, um valor de energia de ativacao frequentemente citado na literatura de reologia mantelica); comentario '# (ilustrativo, ordem de grandeza da dislocation creep em olivino)'; e no bloco de alegacoes 'de ordem de grandeza consistente com Hirth & Kohlstedt (2003)'",
+      "problem": "O valor 540 kJ/mol nao e generico 'de ordem de grandeza': e a calibracao especifica de KARATO & WU (1993) para fluencia por deslocamento em olivino seco. A fonte que a aula credita, HIRTH & KOHLSTEDT (2003), publica 530 +- 4 kJ/mol - numero diferente, com barra de erro apertada o bastante para que 540 esteja fora dela. Creditar o numero a quem publicou outro e defeito de rastreabilidade numa aula cuja tese inteira e que ESSE NUMERO IMPORTA EXPONENCIALMENTE: se 50 K mudam a viscosidade por um fator 22, 10 kJ/mol de diferenca em Q nao sao detalhe editorial.",
+      "correction_applied": "Atribuicao corrigida para Karato & Wu (1993), com a faixa das calibracoes publicadas (~430-560 kJ/mol) e o valor de Hirth & Kohlstedt (530 +- 4 kJ/mol) dados explicitamente, e com a observacao de que o valor usado esta dentro da faixa mas nao e O numero - a dispersao entre calibracoes e ela propria parte do problema que a aula ensina. Comentario do codigo atualizado. Karato & Wu (1993) acrescentado as Fontes e Hirth & Kohlstedt (2003) qualificado com seu valor.",
+      "source": "Karato, S. & Wu, P. (1993), 'Rheology of the upper mantle: A synthesis', Science, 260(5109), 771-778, DOI 10.1126/science.260.5109.771; Hirth, G. & Kohlstedt, D. (2003), em Inside the Subduction Factory, AGU Geophysical Monograph 138, 83-105 (E = 530 +- 4 kJ/mol, dry dislocation creep); faixa 430-560 kJ/mol entre calibracoes publicadas",
+      "source_level": "revisada_por_pares",
+      "confidence": "confirmado",
+      "affected_files": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-06-reologia-rochas-viscosidade-fluencia.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-19",
+      "blocks_gate": false,
+      "affected_files_pos_divisao": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-08-reologia-rochas-viscosidade-fluencia.md"
+      ]
+    },
+    {
+      "n": 12,
+      "claim_id": "GEODIN-M23-A06-EXEMPLO-ARRHENIUS-005",
+      "severity": "orange",
+      "nature": "inconsistencia_interna",
+      "subnature": "metadado_exagera_o_que_o_corpo_diz_certo",
+      "lesson": "a06",
+      "location": "Bloco de alegacoes auditaveis (metadados)",
+      "written": "uma diferenca de 50K produz uma diferenca de aproximadamente uma ordem e meia de grandeza na viscosidade efetiva",
+      "problem": "log10(22,04) = 1,34 - pouco mais de UMA ordem de grandeza, nao uma e meia. O CORPO da aula esta certo ('mais de uma ordem de grandeza de diferenca'); so o bloco de metadados exagera. Isso nao e irrelevante: o bloco de alegacoes e precisamente o que a auditoria seguinte e o gerador de flashcards leem primeiro, de modo que o arredondamento generoso seria o que se propagaria para o card, enquanto a formulacao correta ficaria presa no corpo.",
+      "correction_applied": "Texto do claim corrigido para 'pouco mais de UMA ordem de grandeza (log10 de 22.04 = 1.34)', com o valor exato 22.04 substituindo 'aproximadamente 22' e com a fonte registrando a conferencia por execucao (NumPy 2.5.1: 22,0407). Corpo da aula nao alterado - ja estava correto.",
+      "source": "Calculo aritmetico direto, conferido por execucao (NumPy 2.5.1)",
+      "source_level": "calculo_reproduzivel",
+      "confidence": "confirmado",
+      "affected_files": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-06-reologia-rochas-viscosidade-fluencia.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-19",
+      "blocks_gate": false,
+      "affected_files_pos_divisao": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-08-reologia-rochas-viscosidade-fluencia.md"
+      ]
+    },
+    {
+      "n": 13,
+      "claim_id": "GEODIN-M23-A07-RESTANTE20-006",
+      "severity": "orange",
+      "nature": "inconsistencia_interna",
+      "subnature": "adverbio_contradiz_o_proprio_calculo",
+      "lesson": "a07",
+      "location": "Exemplo trabalhado, interpretacao geologica",
+      "written": "mas quase 20% da subsidencia total ainda esta por vir mesmo depois de 100 Ma",
+      "problem": "A aula calcula, tres linhas acima, fracao = 0,7965 aos 100 Ma. O que resta e 1 - 0,7965 = 0,2035, ou seja POUCO MAIS de 20% - nao 'quase'. A palavra aponta na direcao errada (sugere 19-e-pouco), e numa aula de metodos numericos cuja virtude declarada e conferir cada numero a mao, o adverbio que contradiz o proprio resultado tres linhas acima e o tipo de deslize que desautoriza o metodo que a aula esta ensinando.",
+      "correction_applied": "Trocado para 'pouco mais de 20% da subsidencia total (1 - 0,797 = 0,203)', com a subtracao explicita. Claim EXEMPLO-SUBSIDENCIA-005 sincronizado com os valores exatos (0,3798 e 0,7966), com o registro da conferencia por execucao, e com a verificacao independente de que tau = 62,8 Ma reproduz tau = a^2/(pi^2*kappa) do modelo original de McKenzie para a = 125 km e kappa = 8e-7 m2/s (62,7 Ma).",
+      "source": "Calculo aritmetico direto, conferido por execucao (NumPy 2.5.1: 0,37980 e 0,79655); McKenzie, D. (1978), EPSL 40(1), 25-32, para os parametros de referencia",
+      "source_level": "calculo_reproduzivel",
+      "confidence": "confirmado",
+      "affected_files": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-07-extensao-colisao-continental-slab-pull-ridge-push.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-19",
+      "blocks_gate": false,
+      "affected_files_pos_divisao": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-09-extensao-colisao-continental-slab-pull-ridge-push.md"
+      ]
+    },
+    {
+      "n": 14,
+      "claim_id": "GEODIN-M23-HUB-MATPLOTLIB-001",
+      "severity": "orange",
+      "nature": "erro_factual",
+      "subnature": "afirmacao_falsa_sobre_o_proprio_material",
+      "lesson": "hub",
+      "location": "23-modelagem-numerica-geodinamica-modulo.md, paragrafo de registro apos a lista de aulas",
+      "written": "com trechos de codigo Python reais (NumPy, Matplotlib, SciPy) nos exemplos trabalhados das Aulas 01, 02, 04, 05, 06 e 07",
+      "problem": "Tres imprecisoes numa frase so, verificadas bloco a bloco. (a) MATPLOTLIB NAO APARECE EM NENHUM BLOCO DE CODIGO DO MODULO: ele e apresentado e discutido em prosa na Aula 01 (plt.plot, plt.imshow, plt.contourf), mas nenhum dos sete blocos executaveis o importa ou o usa - a afirmacao e falsa como escrita. (b) A lista de aulas com codigo OMITE A AULA 03, que tem um bloco de codigo completo (o teste de divergente com np.gradient). (c) SciPy aparece em uma unica aula (a 05, scipy.special.erf), nao no conjunto que a enumeracao sugere.",
+      "correction_applied": "Paragrafo reescrito listando as sete aulas (inclusive a 03) e separando o que e executado do que e apenas exposto: NumPy nas sete, SciPy so na Aula 05, Matplotlib em nenhuma. A lacuna do Matplotlib foi explicitamente encaminhada a revisao didatica, com o motivo: a Aula 01 declara entre seus resultados esperados 'produzir um grafico de linha e um mapa de cores com Matplotlib' e nenhuma secao entrega isso. Esse desalinhamento objetivo-conteudo e achado DIDATICO, nao factual, e esta registrado em out_of_scope_observations.",
+      "source": "Inspecao direta dos sete blocos de codigo das sete aulas",
+      "source_level": "verificacao_interna",
+      "confidence": "confirmado",
+      "affected_files": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-19",
+      "blocks_gate": false,
+      "affected_files_pos_divisao": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-modulo.md"
+      ]
+    },
+    {
+      "n": 15,
+      "claim_id": "GEODIN-M23-A07-FORSYTHPERIODICO-007",
+      "severity": "yellow",
+      "nature": "desatualizacao",
+      "subnature": "nome_de_periodico_anacronico",
+      "lesson": "a07",
+      "location": "Secao 'Forcas motoras: slab-pull e ridge-push', lista de Fontes e bloco de alegacoes",
+      "written": "Forsyth, D. & Uyeda, S. (1975), 'On the relative importance of the driving forces of plate motion', Geophysical Journal International, 43(1), 163-200",
+      "problem": "O artigo de 1975 saiu no Geophysical Journal of the Royal Astronomical Society. O periodico so foi renomeado Geophysical Journal International em 1989, catorze anos depois. E anacronismo bibliografico: quem procurar o artigo sob o nome dado nao o encontra nos indices da epoca nem na capa do volume, embora o encontre hoje na plataforma do OUP, que reindexou o acervo antigo sob o nome atual - o que e provavelmente a origem do deslize. POR QUE AMARELO E NAO AZUL: o dado nao e nao-verificavel; e verificavel e estava desatualizado. Autores, ano, titulo, volume e paginas estavam todos corretos - so o nome do periodico pertence a outra epoca.",
+      "correction_applied": "Citacao corrigida no corpo, nas Fontes e no bloco de alegacoes para Geophysical Journal of the Royal Astronomical Society, 43(1), 163-200, com DOI 10.1111/j.1365-246X.1975.tb00631.x, e com a nota de que o periodico foi renomeado em 1989 e e sob o nome novo que o artigo hoje aparece indexado - preservando a forma antiga em vez de apaga-la, para que o aluno reconheca as duas.",
+      "source": "Wiley Online Library, DOI 10.1111/j.1365-246X.1975.tb00631.x (registro original, Geophys. J. R. astr. Soc. 43, 163-200); acervo historico do GJI no Oxford Academic",
+      "source_level": "base_de_referencia",
+      "confidence": "confirmado",
+      "affected_files": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-07-extensao-colisao-continental-slab-pull-ridge-push.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-19",
+      "blocks_gate": false,
+      "affected_files_pos_divisao": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-09-extensao-colisao-continental-slab-pull-ridge-push.md"
+      ]
+    },
+    {
+      "n": 16,
+      "claim_id": "GEODIN-M23-A04-CPRESSALVA-009",
+      "parent_claim_id": "GEODIN-M23-A04-EXEMPLO-PROPRIEDADES-008",
+      "severity": "orange",
+      "nature": "omissao_que_gera_erro",
+      "subnature": "ressalva_de_dependencia_com_a_temperatura_ausente",
+      "lesson": "a05",
+      "pass_n": 2,
+      "location": "Exemplo trabalhado, Situacao 1 (enunciado dos tres parametros)",
+      "written": "Uma rocha crustal tem condutividade termica k = 2,7 W/(m.K) (um valor representativo; a faixa medida em rochas crustais vai de cerca de 2 a 4), densidade rho = 2.700 kg/m3 e calor especifico Cp = 1.000 J/(kg.K).",
+      "problem": "Assimetria de tratamento entre os tres parametros: o texto da a k uma faixa medida explicita e apresenta Cp cru, como se fosse constante de rocha - e Cp e justamente o parametro dos tres cujo valor de laboratorio a temperatura ambiente mais se afasta do numero usado. Pela equacao de Cp bulk-crustal de Whittington, Hofmeister e Nabelek (2009), eq.(3), a crosta media vale 761 J/(kg.K) a 298 K (25 C) e so passa por 1000 J/(kg.K) em ~497 K (~220 C). O que torna isso laranja e nao observacao de estilo e o CONTEXTO DO ENUNCIADO: ele fala em gradiente geotermico medido num poco e pede o fluxo condutivo EM SUPERFICIE. O leitor que tomar Cp = 1000 como propriedade da rocha a superficie e recalcular obtem kappa = 1.0e-6 m2/s onde o valor coerente com a superficie seria ~1.3e-6. A frase seguinte da aula - sai de tres propriedades mediveis de rocha comum - reforca a leitura de que os tres sao medidas diretas.",
+      "correction_applied": "Ressalva de UMA CLAUSULA no mesmo formato que k ja tinha, mais uma frase de robustez. NENHUM VALOR ALTERADO e NENHUM RESULTADO MUDOU: kappa = 1.0e-6 m2/s e q = 54 mW/m2 permanecem. (1) Acrescentado apos Cp = 1.000 J/(kg.K): o valor padrao em geodinamica, mas atencao: o calor especifico da rocha CRESCE COM A TEMPERATURA - a crosta media vale cerca de 760 J/(kg.K) a superficie e so passa por 1.000 perto de 220 C. (2) Acrescentado apos sai de tres propriedades mediveis de rocha comum: E e robusto: varrendo k de 2 a 3,8 e Cp de 760 a 1.000, kappa fica entre 0,7 e 1,9 x 10^-6 m2/s, o que e a razao de os modelos termicos de litosfera adotarem kappa ~ 1 x 10^-6 m2/s como constante. Essa segunda frase impede a ressalva de virar problema pedagogico: mostra que a dispersao NAO ameaca o numero que o modulo reusa nas Aulas 06 e 07. (3) Fonte Whittington et al. (2009) acrescentada a lista de Fontes da aula.",
+      "source": "Whittington, A. G., Hofmeister, A. M. e Nabelek, P. I. (2009), Temperature-dependent thermal diffusivity of the Earth's crust and implications for magmatism, Nature, 458, 319-321, DOI 10.1038/nature07818, equacoes (3) e (4) avaliadas numericamente nesta passagem.",
+      "source_level": "revisada por pares",
+      "confidence": "confirmado",
+      "affected_files": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-05-calor-fourier-conservacao-producao-adveccao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-20",
+      "blocks_gate": false,
+      "propagation": "nenhuma - questionario, baralho e glossario continuam inexistentes"
+    }
+  ],
+  "verified_ok": [
+    {
+      "lesson": "a01",
+      "claim": "Vetorizacao do NumPy e delegacao a rotinas compiladas (NUMPY-VETORIZACAO-001)",
+      "verdict": "correto",
+      "source": "Harris, C. R. et al. (2020), Nature 585, 357-362, DOI 10.1038/s41586-020-2649-2",
+      "verified_by_execution": false,
+      "id": "B1"
+    },
+    {
+      "lesson": "a01",
+      "claim": "np.meshgrid devolve forma (len(z), len(x)) por padrao (MESHGRID-002)",
+      "verdict": "correto - execucao devolve (3, 4)",
+      "source": "Documentacao oficial NumPy, numpy.meshgrid",
+      "verified_by_execution": true,
+      "id": "B2"
+    },
+    {
+      "lesson": "a01",
+      "claim": "Jupyter: celulas independentes, origem no IPython, Project Jupyter (JUPYTER-003)",
+      "verdict": "correto",
+      "source": "Kluyver, T. et al. (2016), IOS Press, 87-90",
+      "verified_by_execution": false,
+      "id": "B3"
+    },
+    {
+      "lesson": "a01",
+      "claim": "Matplotlib como padrao de visualizacao; plt.plot, plt.imshow, plt.contourf (MATPLOTLIB-004)",
+      "verdict": "correto",
+      "source": "Hunter, J. D. (2007), CiSE 9(3), 90-95",
+      "verified_by_execution": false,
+      "id": "B4"
+    },
+    {
+      "lesson": "a01",
+      "claim": "Exemplo da geoterma: T = [10, 260, 510, 760, 1010] (EXEMPLO-GEOTERMA-005)",
+      "verdict": "EXATO - saida executada identica a declarada; verificada tambem a segunda situacao (F = X - Z, linha z=0 = [0,1,2,3], linha z=2 = [-2,-1,0,1], ponto (x=2,z=1) na segunda linha terceira coluna com valor 1)",
+      "source": "Calculo reproduzivel a partir do codigo da aula",
+      "verified_by_execution": true,
+      "id": "B5"
+    },
+    {
+      "lesson": "a02",
+      "claim": "Distincao EDO x EDP pelo numero de variaveis independentes (EDOEDP-001)",
+      "verdict": "correto",
+      "source": "Chapra & Canale, Numerical Methods for Engineers, 7a ed.",
+      "verified_by_execution": false,
+      "id": "B6"
+    },
+    {
+      "lesson": "a02",
+      "claim": "(T[i+1]-2T[i]+T[i-1])/dz^2, erro proporcional a dz^2, exata para polinomios ate grau tres (DIFCENTRAL2-002)",
+      "verdict": "correto - o termo de erro depende da quarta derivada, nula ate grau 3",
+      "source": "Chapra & Canale, 7a ed.; Press et al., Numerical Recipes, 3a ed.",
+      "verified_by_execution": false,
+      "id": "B7"
+    },
+    {
+      "lesson": "a02",
+      "claim": "Discretizacao de EDP gera sistema linear por no, resolvido por Gauss ou Gauss-Seidel (DISCRETIZACAO-SISTEMA-003)",
+      "verdict": "correto",
+      "source": "Gerya (2019), cap. introdutorio; Chapra & Canale, 7a ed.",
+      "verified_by_execution": false,
+      "id": "B8"
+    },
+    {
+      "lesson": "a02",
+      "claim": "Exemplo: d2T = [2. 2. 2.] para T(z)=z^2, dz=1 (EXEMPLO-DIFCENTRAL-004)",
+      "verdict": "EXATO - execucao confirma, e as tres conferencias a mao do texto (i=1,2,3) estao todas certas",
+      "source": "Calculo reproduzivel",
+      "verified_by_execution": true,
+      "id": "B9"
+    },
+    {
+      "lesson": "a03",
+      "claim": "Continuidade e reducao a div(v)=0 sob incompressibilidade (CONTINUIDADE-001)",
+      "verdict": "correto",
+      "source": "Turcotte & Schubert, Geodynamics, 3a ed., cap. 6",
+      "verified_by_execution": false,
+      "id": "B10"
+    },
+    {
+      "lesson": "a03",
+      "claim": "Numero de Reynolds do manto da ordem de 10^-20 ou menor (metade de REYNOLDS-STOKES-002)",
+      "verdict": "correto - recalculado: rho=3300, v=1e-9 m/s, L=1e6 m, eta=1e21 -> Re = 3,3e-21",
+      "source": "Turcotte & Schubert, 3a ed., cap. 6",
+      "verified_by_execution": true,
+      "id": "B11"
+    },
+    {
+      "lesson": "a03",
+      "claim": "Lagrangiano x euleriano; marcadores lagrangianos em malha euleriana (particle-in-cell) (LAGRANGE-EULER-003)",
+      "verdict": "correto",
+      "source": "Gerya (2019); Kronbichler et al. (2012), GJI 191(1), 12-29 (ASPECT)",
+      "verified_by_execution": false,
+      "id": "B12"
+    },
+    {
+      "lesson": "a03",
+      "claim": "Malha escalonada evita oscilacao espuria de pressao em malha colocalizada (MALHA-ESCALONADA-004)",
+      "verdict": "correto",
+      "source": "Gerya (2019), cap. de discretizacao da equacao de Stokes",
+      "verified_by_execution": false,
+      "id": "B13"
+    },
+    {
+      "lesson": "a03",
+      "claim": "Divergente de (vx=x, vz=-z) numericamente nulo (EXEMPLO-DIVERGENTE-005)",
+      "verdict": "EXATO - execucao devolve matriz 5x5 de zeros exatos, nao apenas ruido de ponto flutuante. Ressalva sobre por que as bordas tambem zeram: achado 7",
+      "source": "Calculo reproduzivel + documentacao NumPy",
+      "verified_by_execution": true,
+      "id": "B14"
+    },
+    {
+      "lesson": "a04",
+      "claim": "q = -k*grad(T) e equacao de conservacao de calor com difusao, producao e adveccao (FOURIER-CONSERVACAO-001)",
+      "verdict": "correto, com A em W/m3",
+      "source": "Turcotte & Schubert, 3a ed., cap. 4",
+      "verified_by_execution": false,
+      "id": "B15"
+    },
+    {
+      "lesson": "a04",
+      "claim": "FTCS: T[i,n+1] = T[i,n] + r*(T[i+1,n]-2T[i,n]+T[i-1,n]), r = kappa*dt/dz^2 (ESQUEMA-EXPLICITO-002)",
+      "verdict": "correto, inclusive o termo de producao A*dt/(rho*Cp) acrescentado no corpo",
+      "source": "Press et al., 3a ed.; Gerya (2019)",
+      "verified_by_execution": false,
+      "id": "B16"
+    },
+    {
+      "lesson": "a04",
+      "claim": "Estabilidade de von Neumann: r <= 1/2 em 1D (ESTABILIDADE-VONNEUMANN-003)",
+      "verdict": "correto",
+      "source": "Press et al., 3a ed., cap. de EDPs parabolicas",
+      "verified_by_execution": false,
+      "id": "B17"
+    },
+    {
+      "lesson": "a04",
+      "claim": "BTCS: sistema tridiagonal por passo, algoritmo de Thomas, incondicionalmente estavel (ESQUEMA-IMPLICITO-004)",
+      "verdict": "correto, inclusive a ressalva de que estabilidade nao e precisao",
+      "source": "Press et al., 3a ed.",
+      "verified_by_execution": false,
+      "id": "B18"
+    },
+    {
+      "lesson": "a04",
+      "claim": "Exemplo: [0,25,50,25,0] com r=0,25 e [0,100,-100,100,0] com r=1,0 (EXEMPLO-EXPLICITO-005)",
+      "verdict": "EXATO - execucao identica; as seis conferencias a mao do texto estao todas certas; conservacao de energia (soma 100 -> 100) confirmada",
+      "source": "Calculo reproduzivel",
+      "verified_by_execution": true,
+      "id": "B19"
+    },
+    {
+      "lesson": "a05",
+      "claim": "T(z,t) = Tm*erf(z/(2*sqrt(kappa*t))); isoterma proporcional a raiz da idade, fluxo ao inverso dela (SEMIESPACO-001)",
+      "verdict": "correto",
+      "source": "Turcotte & Schubert, 3a ed., cap. 4",
+      "verified_by_execution": false,
+      "id": "B20"
+    },
+    {
+      "lesson": "a05",
+      "claim": "Ajuste bom ate ~70-80 Ma; achatamento; modelo de placa e GDH1 (ACHATAMENTO-002)",
+      "verdict": "correto, e as duas referencias conferem",
+      "source": "Parsons & Sclater (1977), JGR 82(5), 803-827; Stein & Stein (1992), Nature 359, 123-129",
+      "verified_by_execution": false,
+      "id": "B21"
+    },
+    {
+      "lesson": "a05",
+      "claim": "A(z) = A0*exp(-z/hr) leva a q0 = qr + A0*hr (LACHENBRUCH-003)",
+      "verdict": "correto; referencia confere",
+      "source": "Lachenbruch (1970), JGR 75(17), 3291-3300; Turcotte & Schubert, cap. 4",
+      "verified_by_execution": false,
+      "id": "B22"
+    },
+    {
+      "lesson": "a05",
+      "claim": "Oceanica transiente e dependente de idade; continental estavel, producao mais fluxo de base (CONTROLES-OCEANICA-CONTINENTAL-004)",
+      "verdict": "correto",
+      "source": "Turcotte & Schubert, 3a ed., cap. 4",
+      "verified_by_execution": false,
+      "id": "B23"
+    },
+    {
+      "lesson": "a05",
+      "claim": "Exemplo erf: eta ~ 0,345 e T ~ 505 C (EXEMPLO-ERF-005)",
+      "verdict": "EXATO - execucao da eta = 0,34472 e T = 505,03 C. A interpolacao manual da tabela de erf feita no texto (0,374) tambem esta certa",
+      "source": "Calculo reproduzivel",
+      "verified_by_execution": true,
+      "id": "B24"
+    },
+    {
+      "lesson": "a05",
+      "claim": "Lachenbruch: 2,5 microW/m3 x 10 km = 25 mW/m2; q0 = 55 mW/m2; faixa tipica 40-70 mW/m2 (EXEMPLO-LACHENBRUCH-006)",
+      "verdict": "EXATO, inclusive a conversao de unidades",
+      "source": "Calculo reproduzivel; Turcotte & Schubert, cap. 4",
+      "verified_by_execution": true,
+      "id": "B25"
+    },
+    {
+      "lesson": "a06",
+      "claim": "Tempo de Maxwell (eta/mu) da ordem de centenas a milhares de anos para o manto (parte de REGIMES-001)",
+      "verdict": "correto - recalculado: eta=1e21 Pa.s, mu=7e10 Pa -> 453 anos",
+      "source": "Turcotte & Schubert, 3a ed., cap. 7",
+      "verified_by_execution": true,
+      "id": "B26"
+    },
+    {
+      "lesson": "a06",
+      "claim": "Difusao n=1 newtoniana dependente de tamanho de grao; deslocamento n~3-4, olivino ~3,5, independente de tamanho de grao (DIFUSAO-DESLOCAMENTO-002)",
+      "verdict": "correto, inclusive o enquadramento de 'temperaturas altas' para a difusao, que e a formulacao padrao dos mapas de mecanismo de deformacao (fluencia Nabarro-Herring a alta T e baixa tensao)",
+      "source": "Karato (2008); Hirth & Kohlstedt (2003), AGU Monograph 138, 83-105",
+      "verified_by_execution": false,
+      "id": "B27"
+    },
+    {
+      "lesson": "a06",
+      "claim": "Lei de Arrhenius e inversao para viscosidade efetiva eta = (1/2A)*sigma^(1-n)*exp(+Q/RT) (ARRHENIUS-003)",
+      "verdict": "correto - a inversao algebrica foi refeita, inclusive a troca de sinal do expoente e a leitura fisica (mais quente, menos viscoso)",
+      "source": "Turcotte & Schubert, cap. 7; Ranalli (1995)",
+      "verified_by_execution": false,
+      "id": "B28"
+    },
+    {
+      "lesson": "a06",
+      "claim": "Quartzo (crosta, mais fraco) x olivino (manto, mais resistente); envelope de resistencia em camadas (REOLOGIA-CROSTA-MANTO-004)",
+      "verdict": "correto",
+      "source": "Ranalli (1995), cap. de perfis de resistencia litosferica",
+      "verified_by_execution": false,
+      "id": "B29"
+    },
+    {
+      "lesson": "a06",
+      "claim": "Exemplo Arrhenius: Q/RT1 = 64,95; Q/RT2 = 61,86; razao ~ 22 (nucleo aritmetico de EXEMPLO-ARRHENIUS-005)",
+      "verdict": "EXATO - execucao da 64,9507 / 61,8578 / 22,0407; as tres conferencias a mao do texto conferem. So a glosa 'ordem e meia' foi corrigida: achado 12",
+      "source": "Calculo reproduzivel",
+      "verified_by_execution": true,
+      "id": "B30"
+    },
+    {
+      "lesson": "a07",
+      "claim": "beta, S(t)/Smax = 1 - exp(-t/tau), tau de 50-65 Ma para litosfera de ~125 km (MCKENZIE-001)",
+      "verdict": "correto, e VERIFICADO POR DERIVACAO INDEPENDENTE: tau = a^2/(pi^2*kappa) com a = 125 km e kappa = 8e-7 m2/s da 62,7 Ma, que e o tau = 62,8 Ma usado no exemplo",
+      "source": "McKenzie (1978), EPSL 40(1), 25-32; Allen & Allen (2013)",
+      "verified_by_execution": true,
+      "id": "B31"
+    },
+    {
+      "lesson": "a07",
+      "claim": "Orogeno colisional aquece antes de esfriar; trajetoria P-T-t (OROGENO-AQUECE-002)",
+      "verdict": "correto; referencia confere",
+      "source": "England & Thompson (1984), J. Petrology 25(4), 894-928",
+      "verified_by_execution": false,
+      "id": "B32"
+    },
+    {
+      "lesson": "a07",
+      "claim": "Slab-pull ~1e13 N/m, ridge-push ~1e12 N/m, slab-pull dominante quando presente (valores de FORCAS-PLACA-003)",
+      "verdict": "correto - ordens de grandeza conferem com a literatura classica; o nome do periodico da referencia e o achado 15, nao o valor",
+      "source": "Turcotte & Schubert, 3a ed., cap. 6; Forsyth & Uyeda (1975)",
+      "verified_by_execution": false,
+      "id": "B33"
+    },
+    {
+      "lesson": "a07",
+      "claim": "Cunha critica: material friccional de Coulomb sobre descolamento basal; taper; angulo critico (CUNHA-CRITICA-004)",
+      "verdict": "correto; referencia confere",
+      "source": "Davis, Suppe & Dahlen (1983), JGR 88(B2), 1153-1172; Dahlen (1990), Annu. Rev. 18, 55-99",
+      "verified_by_execution": false,
+      "id": "B34"
+    },
+    {
+      "lesson": "a07",
+      "claim": "Exemplo de subsidencia: 0,380 aos 30 Ma e 0,797 aos 100 Ma (nucleo aritmetico de EXEMPLO-SUBSIDENCIA-005)",
+      "verdict": "EXATO - execucao da 0,37980 e 0,79655; as decomposicoes manuais de exponencial feitas no texto conferem. So o 'quase 20%' foi corrigido: achado 13",
+      "source": "Calculo reproduzivel",
+      "verified_by_execution": true,
+      "id": "B35"
+    },
+    {
+      "lesson": "a01",
+      "claim": "API do Matplotlib: plot, gca().invert_yaxis(), imshow(origin=upper) e colorbar(label=...) (GEODIN-M23-A01-MATPLOTLIB-API-006)",
+      "verdict": "correto",
+      "source": "Documentacao oficial Matplotlib (pyplot.plot, pyplot.imshow, pyplot.colorbar) mais execucao contra a implementacao, Matplotlib 3.11.2",
+      "verified_by_execution": true,
+      "id": "P2",
+      "pass_n": 2,
+      "verified_at": "2026-09-20",
+      "how_verified": "EXECUTADO (Matplotlib 3.11.2, backend Agg, NumPy 2.5.1): invert_yaxis() -> ylim = (42.0, -2.0), eixo vertical decrescente para cima; imshow(origin=upper) -> extent = [-0.5, 3.5, 2.5, -0.5] e ylim = (2.5, -0.5), linha 0 da matriz no topo; colorbar(label=...) aceita o argumento e o rotulo e lido de volta do objeto (F = x - z). Sem erro nem aviso de depreciacao.",
+      "claim_id": "GEODIN-M23-A01-MATPLOTLIB-API-006",
+      "affected_files": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-01-python-jupyter-numpy-matplotlib.md"
+      ]
+    },
+    {
+      "lesson": "a01",
+      "claim": "Extremos do campo F = X - Z no mapa de cores e sua posicao na figura (GEODIN-M23-A01-EXEMPLO-MAPA-007)",
+      "verdict": "correto",
+      "source": "Execucao direta do bloco de codigo da aula, Matplotlib 3.11.2 e NumPy 2.5.1",
+      "verified_by_execution": true,
+      "id": "P3",
+      "pass_n": 2,
+      "verified_at": "2026-09-20",
+      "how_verified": "EXECUTADO: F = [[0,1,2,3],[-1,0,1,2],[-2,-1,0,1]]; argmax = (linha 0, coluna 3) valor 3.0; argmin = (linha 2, coluna 0) valor -2.0; clim = (-2.0, 3.0). Posicao na figura confirmada por transformacao para coordenadas de tela: maximo em (427.2, 360.8) e minimo em (129.6, 114.4) - maximo mais a DIREITA e mais ALTO, isto e, canto superior direito contra canto inferior esquerdo, como o texto afirma.",
+      "claim_id": "GEODIN-M23-A01-EXEMPLO-MAPA-007",
+      "affected_files": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-01-python-jupyter-numpy-matplotlib.md"
+      ]
+    },
+    {
+      "lesson": "a04",
+      "claim": "Mecanismo do padrao espurio em xadrez na malha colocalizada e sua supressao pela malha escalonada (GEODIN-M23-A03-MALHA-COLOCALIZADA-010)",
+      "verdict": "correto",
+      "source": "Gerya (2019), 2a ed., CUP, cap. sobre discretizacao de Stokes; Patankar (1980), Hemisphere, cap. sobre o campo de pressao em malha colocalizada; literatura de CFD contemporanea para confirmacao independente do mecanismo e da atribuicao",
+      "verified_by_execution": false,
+      "id": "P4",
+      "pass_n": 2,
+      "verified_at": "2026-09-20",
+      "how_verified": "VERIFICADO CONTRA FONTE, confirmado nas tres partes: (i) o operador de diferenca simetrica, de estencil [-1 0 +1], ANIQUILA um campo de pressao que alterna de no em no, porque os dois vizinhos usados tem o mesmo valor - a oscilacao nao produz gradiente e nao e penalizada; (ii) o solver aceita esse campo como solucao estacionaria legitima, gerando o padrao em xadrez de comprimento de onda igual a duas celulas; (iii) o remedio de Patankar e Spalding armazena pressao e velocidade em malhas deslocadas, acoplando as velocidades das faces a um gradiente de estencil compacto entre centros de celula DIRETAMENTE vizinhos - exatamente a formulacao da aula. Gerya 2a ed. 2019 (Cambridge University Press) confirmada como edicao e ano. RESSALVA DE ATRIBUICAO registrada sem edicao: a malha escalonada vem do metodo MAC de Harlow e Welch (1965), popularizada por Patankar e Spalding (1972); a aula nao reivindica autoria para Patankar (1980), cita-o como exposicao de referencia do problema, o que esta correto.",
+      "claim_id": "GEODIN-M23-A03-MALHA-COLOCALIZADA-010",
+      "affected_files": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-04-malhas-descricoes-lagrangiana-euleriana.md"
+      ]
+    },
+    {
+      "lesson": "a04",
+      "claim": "Aritmetica dos pontos escalonados e a contagem n nos -> n-1 centros de celula (GEODIN-M23-A03-EXEMPLO-ESCALONADA-011)",
+      "verdict": "correto",
+      "source": "Execucao direta do bloco de codigo da aula, NumPy 2.5.1",
+      "verified_by_execution": true,
+      "id": "P5",
+      "pass_n": 2,
+      "verified_at": "2026-09-20",
+      "how_verified": "RE-EXECUTADO (NumPy 2.5.1): x = [0. 1. 2. 3. 4.] com x.size = 5; x_meio = [0.5 1.5 2.5 3.5] com x_meio.size = 4, batendo digito a digito com a saida declarada. A conferencia a mao do texto tambem confere (x[:-1] = [0. 1. 2. 3.], x[1:] = [1. 2. 3. 4.]). A generalizacao n nos -> n-1 centros verificada exaustivamente para n de 2 a 59.",
+      "claim_id": "GEODIN-M23-A03-EXEMPLO-ESCALONADA-011",
+      "affected_files": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-04-malhas-descricoes-lagrangiana-euleriana.md"
+      ]
+    },
+    {
+      "lesson": "a05",
+      "claim": "Representatividade dos tres parametros termicos de entrada (k, rho, Cp) e dos dois resultados derivados (GEODIN-M23-A04-EXEMPLO-PROPRIEDADES-008)",
+      "verdict": "correto",
+      "source": "Whittington, Hofmeister e Nabelek (2009), Nature 458, 319-321, DOI 10.1038/nature07818; Turcotte e Schubert, Geodynamics, 3a ed. (2014), cap. 4; Van der Hilst, MIT OCW 12.201 Essentials of Geophysics, cap. 5 (fluxo de calor continental, apud Fowler)",
+      "verified_by_execution": true,
+      "id": "P6",
+      "pass_n": 2,
+      "verified_at": "2026-09-20",
+      "how_verified": "REPRESENTATIVIDADE CONFIRMADA - era a pendencia de maior prioridade. rho = 2700 kg/m3 e exatamente a densidade crustal de referencia adotada por Whittington et al. (2009) para a crosta media, com justificativa explicita de que compressao e expansao termica se compensam em boa parte. k = 2,7 W/(m.K) cai no meio da faixa crustal calculada pelo mesmo trabalho (3,8 a superficie caindo para 1,9 na transicao alfa-beta do quartzo), corroborando a faixa de 2 a 4 que a propria aula declara. Cp = 1000 J/(kg.K) e o valor padrao em geodinamica e corresponde a crosta media a ~220 C - representativo, com a ressalva agora registrada no texto (ver achado 16). OS DOIS RESULTADOS tambem confirmados contra fonte independente, nao apenas pela aritmetica: kappa = 1,0e-6 m2/s e declarado por Whittington et al. como o valor que a maioria dos modelos termicos de litosfera assume como constante; e q = 54 mW/m2 cai dentro da faixa continental declarada na aula (40-70), abaixo da media continental de 58 mW/m2, sendo que o material de referencia do MIT (12.201, cap. 5) faz o MESMO calculo com 20 K/km e k = 3,0 e chega a ~60 mW/m2. Aritmetica re-executada: kappa = 1.0e-6, q = 0.054 W/m2 = 54 mW/m2.",
+      "claim_id": "GEODIN-M23-A04-EXEMPLO-PROPRIEDADES-008",
+      "affected_files": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-05-calor-fourier-conservacao-producao-adveccao.md"
+      ]
+    }
+  ],
+  "verified_ok_extra_note": "Os doze itens com verified_by_execution=true nao foram lidos e aprovados - foram RODADOS. Todo bloco de codigo do modulo foi executado em NumPy 2.5.1 e comparado digito a digito com a saida declarada, e toda conferencia a mao declarada no texto foi refeita. Zero discrepancias. Destaque para B30 (a07): o valor tau = 62,8 Ma, apresentado na aula apenas como 'valor de referencia comumente citado', foi VERIFICADO POR DERIVACAO INDEPENDENTE a partir da formula original de McKenzie, tau = a^2/(pi^2*kappa), com a = 125 km e kappa = 8e-7 m2/s, dando 62,7 Ma - a aula estava certa e usando o parametro canonico, nao um numero solto.",
+  "partially_verified_declared_claims": [
+    {
+      "claim_id": "GEODIN-M23-A03-REYNOLDS-STOKES-002",
+      "verified_half": "o numero de Reynolds do manto (~1e-20) - registrado no item azul correspondente",
+      "corrected_half": "a forma do termo viscoso da equacao de Stokes - achado 2"
+    },
+    {
+      "claim_id": "GEODIN-M23-A06-EXEMPLO-ARRHENIUS-005",
+      "verified_half": "a aritmetica de Arrhenius (razao 22,04, conferida por execucao) - registrada no item azul correspondente",
+      "corrected_half": "a glosa 'uma ordem e meia de grandeza' - achado 12"
+    }
+  ],
+  "assessment_gate": {
+    "released": true,
+    "reason": "0 achados vermelhos e 0 laranjas em aberto; os 15 achados numerados foram todos corrigidos na passagem unica de 2026-09-19. Nenhuma alegacao do modulo permanece nao auditada (43 declaradas em arquivo apos a auditoria + 6 rastreadas so no relatorio = 49, todas com desfecho).",
+    "restrictions": [
+      "KAPPA NAO E A CONSTANTE DE DECAIMENTO, E DECAIMENTO NAO E DIFUSAO (vermelho 1). Nao gerar item que identifique kappa com lambda, nem item cuja resposta correta afirme que conducao de calor e decaimento radioativo tem a mesma forma de equacao. A distincao E boa questao - mas o gabarito e que decaimento e EDO de primeira ordem no tempo e difusao e EDP de segunda ordem no espaco.",
+      "O TERMO VISCOSO DE STOKES E div[eta*(grad(v) + grad(v)^T)] (laranja 2). Nao gerar item cuja resposta correta seja div(eta*grad(v)) ou eta*laplaciano(v) SEM a qualificacao 'para viscosidade constante'. Boa questao possivel: por que a forma simplificada nao serve num modelo cuja viscosidade depende da temperatura.",
+      "O CRITERIO DE INSTABILIDADE E O PRINCIPIO DO MAXIMO, NAO O SINAL NEGATIVO (laranja 3). Nao gerar item cuja resposta correta seja 'a temperatura ficou negativa, logo e impossivel'. O gabarito e 'o valor saiu do intervalo delimitado pela condicao inicial e pelos contornos'.",
+      "dq/dz = A(z) SO VALE COM A CONVENCAO DECLARADA (laranja 4). Nao cobrar o sinal sem dar a convencao no enunciado. Se cobrar, a resposta para o fluxo ASCENDENTE (o que se mede e se reporta) e dq/dz = -A(z).",
+      "RUPTURA E FRAGIL; 'PLASTICO' E O NOME DO MODELO NUMERICO (laranja 5). Nao gerar item que trate plastico e fragil como sinonimos. A distincao rende boa questao de aplicacao: por que um codigo de meio continuo precisa de um criterio plastico friccional para representar falhamento.",
+      "A DIFERENCA CENTRAL PARA A PRIMEIRA DERIVADA E DE SEGUNDA ORDEM (laranja 6). Nao gerar item cuja resposta correta seja 'primeira ordem' para a formula (f[i+1]-f[i-1])/(2*dx).",
+      "np.gradient NAO E DIFERENCA CENTRAL NAS BORDAS (laranja 7). Nao gerar item que afirme que a funcao aplica diferenca central em toda a malha. Se o comportamento de borda virar questao, o gabarito e: central de segunda ordem no interior, um lado so (primeira ordem, edge_order=1) nas bordas.",
+      "(8) PASSAGEM 2, 2026-09-20: ao cobrar a difusividade termica, NAO formular item que apresente Cp = 1.000 J/(kg.K) como A medida de rocha crustal a temperatura ambiente. O valor e o padrao de modelagem geodinamica e corresponde a ~220 C; a superficie a crosta media esta perto de 760 J/(kg.K). Item sobre kappa ~ 1e-6 m2/s como constante adotada nos modelos termicos de litosfera E seguro e desejavel."
+    ],
+    "numeric_notes": [
+      "Q = 540 kJ/mol deve ser atribuido a Karato & Wu (1993), nao a Hirth & Kohlstedt (2003), que publica 530 +- 4 kJ/mol.",
+      "A razao de viscosidades do exemplo da a06 e 22,04 - POUCO MAIS DE UMA ordem de grandeza (log10 = 1,34), nunca 'uma ordem e meia'.",
+      "A fracao de subsidencia remanescente aos 100 Ma e POUCO MAIS de 20% (0,2034), nao 'quase 20%'."
+    ]
+  },
+  "partials_recommendation": {
+    "format": "tres_parciais_mais_final_cumulativo",
+    "partials": true,
+    "n_partials": 3,
+    "blocks": [
+      {
+        "parcial": 1,
+        "aulas": "01-02",
+        "eixo": "A ferramenta e o metodo numerico: Python/NumPy vetorizado, EDO x EDP, diferencas finitas, ordem de precisao",
+        "objetivos": [
+          "geologia-avancado-m23-oa01",
+          "geologia-avancado-m23-oa02 (inicio)"
+        ]
+      },
+      {
+        "parcial": 2,
+        "aulas": "03-04",
+        "eixo": "As equacoes governantes e sua solucao: continuidade, Stokes, lagrangiano/euleriano, calor, FTCS/BTCS, estabilidade",
+        "objetivos": [
+          "geologia-avancado-m23-oa02",
+          "geologia-avancado-m23-oa03 (inicio)"
+        ]
+      },
+      {
+        "parcial": 3,
+        "aulas": "05-07",
+        "eixo": "A litosfera real: geotermas oceanica e continental, reologia, extensao e colisao",
+        "objetivos": [
+          "geologia-avancado-m23-oa03",
+          "geologia-avancado-m23-oa04"
+        ]
+      }
+    ],
+    "rationale": "O modulo tem SETE aulas, acima do limiar de ~5-6 do plugin - o mesmo tamanho do Modulo 19 (3 parciais + final) e do Modulo 14 (tambem parciais). Mas o argumento decisivo nao e a contagem: e que este modulo tem TRES CAMADAS GENUINAMENTE DISTINTAS, e um questionario unico nao conseguiria testar nenhuma delas com profundidade suficiente sem inchar. Os cortes 02|03 e 04|05 sao as duas unicas descontinuidades reais: em 02|03 o objeto muda de METODO para FISICA; em 04|05 muda de EQUACAO GENERICA para LITOSFERA CONCRETA COM NUMEROS MEDIDOS. Cortar em qualquer outro ponto separaria coisas que a aula seguinte usa na primeira linha.",
+    "final_is_mandatory": true,
+    "final_rationale": "O final cumulativo e OBRIGATORIO aqui, por um motivo que este modulo tem mais que os anteriores: a cadeia de dependencia CALOR -> REOLOGIA -> DEFORMACAO so existe atravessando as tres parciais. A pergunta central do modulo - por que um erro pequeno no campo termico da a04 destroi a viscosidade da a06 e, com ela, o modelo de extensao da a07 - nao cabe em parcial nenhuma.",
+    "composition_hint": "Pelo menos DUAS questoes do final devem ser de INTEGRACAO EXPLICITA: uma ligando estabilidade numerica (a04) a sensibilidade exponencial da viscosidade (a06); outra ligando geoterma (a05) a resistencia litosferica e localizacao da ruptura (a06-a07).",
+    "robust_to_didactic_split": true,
+    "split_note": "SE A REVISAO DIDATICA DIVIDIR ALGUMA AULA, A RECOMENDACAO NAO MUDA. O corte em tres blocos e CONCEITUAL, nao aritmetico - uma divisao por carga cognitiva acrescenta uma parte DENTRO de um bloco existente, sem criar fronteira nova. A candidata mais provavel, a Aula 04, ficaria inteira dentro da Parcial 2.",
+    "confirmed_by_didactic_review": true,
+    "blocks_pos_divisao": [
+      {
+        "parcial": 1,
+        "aulas": "01-02"
+      },
+      {
+        "parcial": 2,
+        "aulas": "03-06"
+      },
+      {
+        "parcial": 3,
+        "aulas": "07-09"
+      }
+    ]
+  },
+  "derived_material_to_propagate": {
+    "questionario": "inexistente no momento da auditoria - nada a propagar",
+    "flashcards": "inexistente no momento da auditoria - nada a propagar; NAO HA CARD JA IMPORTADO NO ANKI A CORRIGIR A MAO",
+    "glossario": "inexistente",
+    "outros": []
+  },
+  "sources_added_to_module": [
+    "Evans, L. C. (2010), Partial Differential Equations, 2a ed., American Mathematical Society - principio do maximo da equacao do calor (aula 04)",
+    "Fossen, H. (2016), Structural Geology, 2a ed., Cambridge University Press - cisalhamento coaxial x nao coaxial (aula 03)",
+    "Documentacao oficial NumPy, numpy.gradient - comportamento nas bordas, edge_order=1 (aula 03)",
+    "Karato, S. & Wu, P. (1993), 'Rheology of the upper mantle: A synthesis', Science 260(5109), 771-778, DOI 10.1126/science.260.5109.771 - origem de Q = 540 kJ/mol (aula 06)",
+    "Gerya, T. (2019), Introduction to Numerical Geodynamic Modelling, 2a ed., cap. de reologia viscoelastoplastica - criterio plastico friccional para o regime fragil (aula 06)",
+    "Forsyth, D. & Uyeda, S. (1975), com periodico e DOI corretos: Geophysical Journal of the Royal Astronomical Society 43(1), 163-200, DOI 10.1111/j.1365-246X.1975.tb00631.x (aula 07)",
+    "Whittington, A. G., Hofmeister, A. M. e Nabelek, P. I. (2009), Temperature-dependent thermal diffusivity of the Earth's crust and implications for magmatism, Nature, 458, 319-321, DOI 10.1038/nature07818 - acrescentada a Aula 05 na passagem pontual de 2026-09-20."
+  ],
+  "claims_added_to_lesson_metadata": [
+    "GEODIN-M23-A03-STOKESVISCOSO-006",
+    "GEODIN-M23-A03-ORDEMDIFCENTRAL-007",
+    "GEODIN-M23-A03-GRADIENTEBORDA-008",
+    "GEODIN-M23-A03-PURESHEAR-009",
+    "GEODIN-M23-A04-KAPPA-DECAIMENTO-006",
+    "GEODIN-M23-A04-MAXIMOPRINCIPIO-007",
+    "GEODIN-M23-A05-SINALFLUXO-008",
+    "GEODIN-M23-A06-PLASTICOFRAGIL-007",
+    "GEODIN-M23-A04-CPRESSALVA-009"
+  ],
+  "report_only_claim_ids": [
+    "GEODIN-M23-A05-CITACAOA02-007",
+    "GEODIN-M23-MOD-CONDUTIVO-001",
+    "GEODIN-M23-A06-QOLIVINAFONTE-006",
+    "GEODIN-M23-A07-RESTANTE20-006",
+    "GEODIN-M23-A07-FORSYTHPERIODICO-007",
+    "GEODIN-M23-HUB-MATPLOTLIB-001"
+  ],
+  "files_touched": [
+    "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-03-mecanica-continuo-continuidade-navier-stokes.md",
+    "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-04-calor-fourier-conservacao-producao-adveccao.md",
+    "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-05-calor-litosfera-oceanica-continental-geotermas.md",
+    "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-06-reologia-rochas-viscosidade-fluencia.md",
+    "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-07-extensao-colisao-continental-slab-pull-ridge-push.md",
+    "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-modulo.md",
+    "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-01-python-jupyter-numpy-matplotlib.md",
+    "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-04-malhas-descricoes-lagrangiana-euleriana.md",
+    "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-05-calor-fourier-conservacao-producao-adveccao.md"
+  ],
+  "files_audited_no_edit_needed": [
+    "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-01-python-jupyter-numpy-matplotlib.md",
+    "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-02-algebra-linear-calculo-edp-diferencas-finitas.md"
+  ],
+  "out_of_scope_observations": [
+    "DIDATICA - DESALINHAMENTO OBJETIVO x CONTEUDO, O MAIS NITIDO DO MODULO: a Aula 01 declara entre os resultados esperados 'produzir um grafico de linha e um mapa de cores com Matplotlib', e nenhuma secao da aula, nem nenhum dos dois exemplos trabalhados, contem uma linha de Matplotlib. A parte factual (o hub afirmava que havia codigo Matplotlib) foi corrigida no achado 14; a lacuna pedagogica e da revisao didatica.",
+    "REDACAO - frase quebrada na Aula 01, secao 'Por que geodinamica precisa de modelagem numerica': 'E exatamente esse e o fio condutor deste modulo' - verbo duplicado.",
+    "REDACAO - concordancia na Aula 07, primeira secao: 'a coluna afinada e mais leve, e a superficie subsidem quase instantaneamente' - deveria ser 'subside'.",
+    "DIDATICA - CARGA: a Aula 04 e a mais pesada do modulo e ficou mais pesada com esta auditoria. Ja declarava ~30 min e 2.080 palavras, no teto do plugin; as correcoes dos achados 1 e 3 acrescentaram o paragrafo do principio do maximo e reescreveram o da difusividade. E a primeira candidata a divisao em Parte 1 / Parte 2, com corte natural visivel entre a formulacao fisica (Fourier, conservacao, adveccao) e os dois esquemas numericos.",
+    "DIDATICA - CARGA: a Aula 03 tambem cresceu (achados 2, 7 e 8 acrescentaram um paragrafo sobre o tensor de taxa de deformacao e outro sobre o comportamento de np.gradient). Declarava ~29 min; vale remedir.",
+    "DIDATICA - DENSIDADE TRIPLA: as Aulas 04, 05, 06 e 07 pedem simultaneamente sintaxe Python, um conceito matematico novo e uma interpretacao geologica. E o risco de sobrecarga especifico deste modulo, e nao existia nos modulos 20-22.",
+    "REDACAO - a comparacao final da Aula 05 ('fluxo de calor de base e producao radiogenica crustal bem menores do que o calor represado na litosfera oceanica jovem') compara um fluxo com um calor armazenado. A conclusao esta certa, mas a formulacao mistura grandezas de dimensoes diferentes."
+  ],
+  "passes": 2,
+  "passes_note": "Passagem 1: 2026-09-19, levantamento e aplicacao na mesma data, 15 achados. Passagem 2: 2026-09-20, PONTUAL, escopo restrito as 5 alegacoes novas nascidas da divisao didatica; 1 achado laranja novo (n=16), corrigido, e 5 itens azuis (P2 a P6). Os 15 achados da passagem 1 nao foram reabertos.",
+  "report_file": "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-auditoria.md",
+  "manifest_note": "Os claim_id listados em claims_added_to_lesson_metadata sao ALEGACOES NOVAS levantadas por esta auditoria e gravadas nos blocos de metadados das aulas; os de report_only_claim_ids sao rastreados apenas aqui e no relatorio .md, por serem correcoes de atribuicao, ortografia ou remissao interna, e nao alegacoes cientificas autonomas. O modulo passa de 35 para 43 alegacoes auditaveis declaradas em arquivo.",
+  "execution_environment": "Python com NumPy 2.5.1 (SciPy indisponivel no ambiente; math.erf usado no lugar de scipy.special.erf para verificar o exemplo da Aula 05, com resultado identico ate a precisao dupla) PASSAGEM 2 (2026-09-20): Matplotlib 3.11.2 INSTALADO no ambiente (na passagem 1 e na revisao didatica ele estava ausente), backend Agg, sobre Python 3.13.2 e NumPy 2.5.1. Isso permitiu executar os DOIS blocos de codigo Matplotlib da Aula 01, que a revisao didatica so pudera conferir contra a documentacao. Total de blocos de codigo executados no modulo: 11 (7 na passagem 1, mais os 2 da a01 e as re-execucoes dos blocos da a04 e da a05 na passagem 2).",
+  "files_touched_pos_divisao": [
+    "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-03-mecanica-continuo-continuidade-stokes.md",
+    "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-04-malhas-descricoes-lagrangiana-euleriana.md",
+    "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-05-calor-fourier-conservacao-producao-adveccao.md",
+    "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-06-solucao-numerica-calor-explicito-implicito.md",
+    "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-07-calor-litosfera-oceanica-continental-geotermas.md",
+    "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-08-reologia-rochas-viscosidade-fluencia.md",
+    "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-09-extensao-colisao-continental-slab-pull-ridge-push.md",
+    "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-modulo.md",
+    "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-01-python-jupyter-numpy-matplotlib.md"
+  ],
+  "post_didactic_split_note": {
+    "data": "2026-09-19",
+    "o_que_mudou": "A revisao didatica, executada logo apos esta auditoria e na mesma data, DIVIDIU DUAS AULAS e renumerou as demais. O modulo passou de 7 para 9 aulas. Esta auditoria NAO foi reaberta nem refeita: os 15 achados nao foram renumerados, revertidos nem reavaliados, e todas as 15 correcoes continuam aplicadas.",
+    "divisoes": [
+      "Antiga Aula 03 (Mecanica do continuo; malhas e descricoes) -> Aula 03 (continuidade e Stokes) + Aula 04 (malhas, malha escalonada, lagrangiano/euleriano, particle-in-cell). Corte: fisica do continuo | representacao numerica.",
+      "Antiga Aula 04 (Calor; solucoes explicita e implicita) -> Aula 05 (Fourier, tres termos, difusividade) + Aula 06 (malha espaco-tempo, FTCS, estabilidade, BTCS). Corte: formulacao fisica | solucao numerica.",
+      "Antiga Aula 05 -> Aula 07; antiga Aula 06 -> Aula 08; antiga Aula 07 -> Aula 09 (renumeracao simples)."
+    ],
+    "claim_ids": "NAO RENUMERADOS, deliberadamente. Um claim_id com prefixo A03 pode hoje estar declarado na Aula 04; um com prefixo A04, na Aula 06; A05 na Aula 07; A06 na Aula 08; A07 na Aula 09. Renumera-los quebraria a rastreabilidade com este manifesto. Cada aula afetada traz a nota nota_alegacoes_migradas no seu bloco de metadados. O campo affected_files de cada achado foi PRESERVADO com os caminhos da epoca da auditoria; o caminho atual esta no campo irmao affected_files_pos_divisao.",
+    "correcoes_preservadas": "TODAS AS 15. Verificado achado a achado. As que mais correram risco na divisao, e que foram conferidas uma a uma: o vermelho 1 (KAPPA-DECAIMENTO-006) ficou integral na nova Aula 05 e GANHOU UM CALLOUT PROPRIO, ficando mais visivel; o laranja 3 (MAXIMOPRINCIPIO-007) acompanhou o esquema explicito para a nova Aula 06 e GANHOU SECAO PROPRIA ('A condicao de estabilidade, e o que significa impossivel'); os laranjas 2, 6, 7 e 8 (STOKESVISCOSO, ORDEMDIFCENTRAL, GRADIENTEBORDA, PURESHEAR) ficaram integrais na nova Aula 03, palavra por palavra; o laranja 4 (SINALFLUXO-008) esta integral na nova Aula 07, dentro do Passo 1 do paragrafo reestruturado.",
+    "alegacoes_novas_nao_auditadas": [
+      {
+        "claim_id": "GEODIN-M23-A03-MALHA-COLOCALIZADA-010",
+        "aula": "04",
+        "o_que_e": "mecanismo pelo qual a oscilacao de pressao de no em no fica invisivel para a diferenca central numa malha colocalizada. O corpo original ja afirmava, auditado, que a malha escalonada evita o problema; o MECANISMO foi acrescentado pela revisao didatica.",
+        "verificacao_feita": "nenhuma contra fonte; sintaxe conceitual ancorada em Gerya (2019) e Patankar (1980), ja fontes do modulo."
+      },
+      {
+        "claim_id": "GEODIN-M23-A03-EXEMPLO-ESCALONADA-011",
+        "aula": "04",
+        "o_que_e": "aritmetica dos pontos escalonados: x_meio = 0.5*(x[:-1]+x[1:]) = [0.5,1.5,2.5,3.5] para x = linspace(0,4,5), e n nos dao n-1 centros de celula.",
+        "verificacao_feita": "CONFERIDA POR EXECUCAO (numpy 2.5.1)."
+      },
+      {
+        "claim_id": "GEODIN-M23-A04-EXEMPLO-PROPRIEDADES-008",
+        "aula": "05",
+        "o_que_e": "k = 2.7 W/(m.K), rho = 2700 kg/m3, Cp = 1000 J/(kg.K) como valores representativos de rocha crustal, dando kappa = 1.0e-6 m2/s e, com gradiente de 20 C/km, q = 54 mW/m2.",
+        "verificacao_feita": "ARITMETICA CONFERIDA POR EXECUCAO; os dois RESULTADOS coincidem com valores que esta auditoria ja verificou em outras aulas (kappa = 1e-6 em B24 e faixa 40-70 mW/m2 em B25). O QUE FALTA VERIFICAR e a representatividade dos tres parametros de ENTRADA contra fonte. E a unica das quatro que envolve valores medidos."
+      },
+      {
+        "claim_id": "GEODIN-M23-A01-MATPLOTLIB-API-006 e GEODIN-M23-A01-EXEMPLO-MAPA-007",
+        "aula": "01",
+        "o_que_e": "sintaxe do Matplotlib (plot, invert_yaxis, imshow com origin, colorbar com label) e previsao dos extremos do campo F = X - Z na figura. Entraram para fechar o achado didatico VERMELHO: a aula prometia grafico de linha e mapa de cores com Matplotlib e nao tinha uma linha de Matplotlib.",
+        "verificacao_feita": "SINTAXE CONFERIDA contra a documentacao oficial do Matplotlib (parametro origin de imshow, parametro label de colorbar) em 2026-09-19. O CODIGO NAO PODE SER EXECUTADO: Matplotlib nao esta instalado no ambiente de verificacao, ao contrario do NumPy."
+      }
+    ],
+    "gate": "CONTINUA LIBERADO. Nenhuma das quatro alegacoes novas e um achado; nenhuma contradiz achado corrigido; nenhuma e vermelha ou laranja. Recomendacao: uma passagem pontual do auditor-cientifico sobre as quatro, com prioridade para EXEMPLO-PROPRIEDADES-008, que e a unica com valores medidos.",
+    "partials_recommendation": "CONFIRMADA SEM ALTERACAO pela revisao didatica apos a divisao. As duas divisoes cairam DENTRO dos blocos existentes: 03|04 e 05|06 estao ambos na Parcial 2. O mapeamento de aulas por parcial passou a 01-02 / 03-06 / 07-09, e as fronteiras conceituais (02|03 e 06|07) sao as mesmas de antes.",
+    "spot_check_executed": {
+      "data": "2026-09-20",
+      "escopo": "As 5 alegacoes novas listadas em alegacoes_novas_nao_auditadas. Os 15 achados de 2026-09-19 nao foram reabertos.",
+      "resultado": "4 limpas (azuis P2-P5) + 1 com representatividade confirmada mas com ressalva ausente (azul P6 mais achado laranja 16, CPRESSALVA-009, corrigido).",
+      "matplotlib": "Instalado (3.11.2) e os dois blocos da Aula 01 executados na integra - era a razao operacional da pendencia.",
+      "alegacoes_nao_auditadas_restantes": 0,
+      "gate": "Continua liberado. Oito restricoes ao gerador (as sete de 2026-09-19 mais a oitava sobre Cp).",
+      "arquivos_alterados": [
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-05-calor-fourier-conservacao-producao-adveccao.md (corpo, Fontes e metadados)",
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-01-python-jupyter-numpy-matplotlib.md (apenas metadados)",
+        "23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-aula-04-malhas-descricoes-lagrangiana-euleriana.md (apenas metadados)"
+      ]
+    }
+  }
+}

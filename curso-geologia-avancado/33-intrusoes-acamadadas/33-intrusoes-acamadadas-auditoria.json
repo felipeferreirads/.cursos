@@ -1,0 +1,1009 @@
+{
+ "schema_version": 1,
+ "target": {
+  "kind": "modulo",
+  "path": "33-intrusoes-acamadadas/",
+  "module_id": "33",
+  "course_id": "geologia-avancado"
+ },
+ "mode": "audit-and-fix",
+ "depth": "full",
+ "audited_at": "2026-09-29",
+ "verdict": "approved",
+ "summary": {
+  "red": 8,
+  "orange": 19,
+  "yellow": 2,
+  "blue": 3,
+  "white": 1,
+  "verified_ok": 24
+ },
+ "findings": [
+  {
+   "claim_id": "LAY-M33-A01-CUMULATO-HIST-001",
+   "severity": "red",
+   "kind": "erro_factual",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-01-rochas-cumulaticas-historico-terminologia-classificacao.md",
+    "section": "Um vocabulario criado para nao presumir a origem; Recap",
+    "quote": "Wager & Deer 1939 propuseram termo deliberadamente neutro; WBW 1960 retomaram"
+   },
+   "claim": "Wager & Deer 1939 propuseram termo deliberadamente neutro; WBW 1960 retomaram",
+   "problem": "[1] Origem do termo cumulato atribuida a Wager & Deer 1939 e descrita como neutra. Termo proposto por Wager, Brown & Wadsworth 1960 (resumo), ligado a acumulacao/decantacao; redefinido sem mecanismo por Irvine 1982; paradigma contestado por McBirney & Hunter 1995. INVERSAO de atribuicao e de sentido.",
+   "replacement": "Paragrafo e recap reescritos",
+   "source": {
+    "name": "Wager, Brown & Wadsworth 1960 J Petrol 1:73-85; Irvine 1982 J Petrol 23:127-162; McBirney & Hunter 1995 J Geol 103:114-122",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-01-rochas-cumulaticas-historico-terminologia-classificacao.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A01-EXEMPLO-005",
+   "severity": "red",
+   "kind": "inconsistencia_interna",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-01-rochas-cumulaticas-historico-terminologia-classificacao.md",
+    "section": "Classificacao textural (item 3); Exemplo, Passo 4",
+    "quote": "Com apenas 9% de material intersticial, a rocha se aproxima de um adcumulato; mais de 90% de olivina"
+   },
+   "claim": "Com apenas 9% de material intersticial, a rocha se aproxima de um adcumulato; mais de 90% de olivina",
+   "problem": "[2] 9% de intercumulus classificado como proximo de adcumulato; adcumulato >90% olivina. Limites de Irvine 1982 (0-7/7-25/>25%) dados pela propria aula: 9% = mesocumulato; >90% admite ate 10% intercumulus. Limites sao de Irvine 1982, nao WBW 1960.",
+   "replacement": "Segunda amostra = mesocumulato no limite inferior; adcumulato >=~93%; atribuicao dos limites a Irvine 1982",
+   "source": {
+    "name": "Irvine 1982 J Petrol 23:127-162",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-01-rochas-cumulaticas-historico-terminologia-classificacao.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A06-MAGMAS-B1B2B3-005",
+   "severity": "red",
+   "kind": "erro_factual",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-02-condicoes-formacao-magmas-progenitores-plumbing.md",
+    "section": "Aula 02 magmas progenitores; Aula 06 Bushveld e recap; Aula 07 Stillwater e quadro-sintese",
+    "quote": "magmas B1, B2 e B3, de afinidade boninitica/SHMB; SHMB progenitor de B1 e B2"
+   },
+   "claim": "magmas B1, B2 e B3, de afinidade boninitica/SHMB; SHMB progenitor de B1 e B2",
+   "problem": "[3] Magmas B2 e B3 do Bushveld dados como boniniticos/SHMB. So B1 e de alto Mg/afinidade boninitica; B2 (Zona Critica Superior) e B3 (Zona Principal) sao toleiticos.",
+   "replacement": "Quatro ocorrencias e recap reescritos",
+   "source": {
+    "name": "Barnes, Maier & Curl 2010 Econ Geol 105:1491-1511; Sharpe 1981; SAJG 128(3):255 (2025)",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-02-condicoes-formacao-magmas-progenitores-plumbing.md",
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-06-arquetipos-mundiais-parte-1-skaergaard-bushveld.md",
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-07-arquetipos-mundiais-parte-2-stillwater-muskox.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A03-SANDUICHE-007",
+   "severity": "red",
+   "kind": "erro_factual",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-03-aspectos-geologicos-petrograficos-mineralogicos-geoquimicos.md",
+    "section": "Zoneamento estratigrafico",
+    "quote": "com o Horizonte Sanduiche marcando o topo da Zona Media"
+   },
+   "claim": "com o Horizonte Sanduiche marcando o topo da Zona Media",
+   "problem": "[4] Horizonte Sanduiche no topo da Zona Media. Sanduiche = topo da Serie Estratificada (acima de UZc), encontro com a Upper Border Series.",
+   "replacement": "Frase corrigida; claim criado",
+   "source": {
+    "name": "Wager & Brown 1968; Nielsen 2004 J Petrol 45:507",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-03-aspectos-geologicos-petrograficos-mineralogicos-geoquimicos.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A04P1-SEDIMENTACAO-001",
+   "severity": "red",
+   "kind": "erro_factual",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-04-diferenciacao-magmatica-parte-1-mecanismos-acamadamento.md",
+    "section": "O modelo classico (1o topico); Cristalizacao in situ; Recap",
+    "quote": "Stokes preve velocidades muito baixas, metros por ano ou menos para cristais milimetricos"
+   },
+   "claim": "Stokes preve velocidades muito baixas, metros por ano ou menos para cristais milimetricos",
+   "problem": "[5] Lei de Stokes preveria sedimentacao lenta demais (INVERSAO). Stokes da ~0,4 m/dia para olivina de 1 mm em basalto; experimentos 0,1-10 m/dia (Schmidt et al. 2012). Objecoes reais: conveccao >> sedimentacao, reologia nao newtoniana, flutuacao do plagioclasio em liquido rico em Fe, camadas nas paredes. INVERSAO.",
+   "replacement": "Topico reescrito; paragrafo in situ e recap ajustados",
+   "source": {
+    "name": "Schmidt et al. 2012 CMP 164:959; Martin & Nokes 1988 Nature 332:534; McBirney & Noyes 1979 J Petrol 20:487-554",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-04-diferenciacao-magmatica-parte-1-mecanismos-acamadamento.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A04P1-CROMITITO-DENSIDADE-005",
+   "severity": "red",
+   "kind": "erro_factual",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-04-diferenciacao-magmatica-parte-1-mecanismos-acamadamento.md",
+    "section": "Um debate aberto; Exemplo, Passos 1 e 5; Recap",
+    "quote": "alta densidade e pequeno tamanho de cristal; Stokes preve velocidades mais plausiveis; explicacao mais amplamente aceita"
+   },
+   "claim": "alta densidade e pequeno tamanho de cristal; Stokes preve velocidades mais plausiveis; explicacao mais amplamente aceita",
+   "problem": "[6] Cristal pequeno de cromita favoreceria sedimentacao; sedimentacao mais amplamente aceita (INVERSAO). v proporcional a r^2: cristal pequeno sedimenta mais devagar. Sedimentacao da cromita contestada por crescimento in situ (Latypov et al. 2017). INVERSAO + certeza indevida.",
+   "replacement": "Debate, passos 1 e 5 e recap reescritos",
+   "source": {
+    "name": "Latypov et al. 2017 J Petrol 58:1899-1940; Earth-Sci Rev 2024 (revisao cromititos Bushveld)",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-04-diferenciacao-magmatica-parte-1-mecanismos-acamadamento.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A05P2-EXEMPLO-005",
+   "severity": "red",
+   "kind": "erro_factual",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-05-diferenciacao-magmatica-parte-2-processos-pos-cumulus.md",
+    "section": "Exemplo, Passos 2 e 3",
+    "quote": "empurrou Fe da olivina para o ortopiroxenio (ou Mg na direcao oposta); assinatura diagnostica"
+   },
+   "claim": "empurrou Fe da olivina para o ortopiroxenio (ou Mg na direcao oposta); assinatura diagnostica",
+   "problem": "[7] Direcao da troca Fe-Mg invertida no exemplo; reequilibrio dado como diagnostico (INVERSAO). Borda Fo81 < nucleo Fo85: Fe entrou na olivina, Mg saiu para o opx. Opx intersticial: reacao com liquido intercumulus explica igualmente. INVERSAO.",
+   "replacement": "Passos 2 e 3 reescritos",
+   "source": {
+    "name": "Barnes 1986 CMP 93:524-531",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-05-diferenciacao-magmatica-parte-2-processos-pos-cumulus.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A06-PLATINOVA-003",
+   "severity": "red",
+   "kind": "erro_factual",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-06-arquetipos-mundiais-parte-1-skaergaard-bushveld.md",
+    "section": "Estratigrafia de Skaergaard; Recap",
+    "quote": "Nas ultimas decadas da Zona Superior, foi identificado o Platinova Reef"
+   },
+   "claim": "Nas ultimas decadas da Zona Superior, foi identificado o Platinova Reef",
+   "problem": "[8] Platinova Reef na Zona Superior. Platinova = Triple Group, ~100 m superiores da Zona Media.",
+   "replacement": "Posicao corrigida em texto e recap",
+   "source": {
+    "name": "Andersen et al. 1998 Econ Geol 93(4):488; GEUS Bulletin (Nielsen et al.)",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-06-arquetipos-mundiais-parte-1-skaergaard-bushveld.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A01-HETERADCUMULATO-003",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-01-rochas-cumulaticas-historico-terminologia-classificacao.md",
+    "section": "Classificacao textural (item 4); Aula 05 Fontes",
+    "quote": "termo formalizado por Irvine (1982); ou de outra geracao do mesmo mineral"
+   },
+   "claim": "termo formalizado por Irvine (1982); ou de outra geracao do mesmo mineral",
+   "problem": "[9] Heteradcumulato atribuido a Irvine 1982; oicocristal do mesmo mineral. Termo de Wager, Brown & Wadsworth 1960 (mantido por Irvine 1982); oicocristal de mineral diferente da fase cumulus.",
+   "replacement": "Atribuicao e definicao corrigidas",
+   "source": {
+    "name": "Wager, Brown & Wadsworth 1960; J Petrol 57(6):1171 (2016)",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "provavel",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-01-rochas-cumulaticas-historico-terminologia-classificacao.md",
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-05-diferenciacao-magmatica-parte-2-processos-pos-cumulus.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A05P2-ADCUMULUS-COMPACTACAO-001",
+   "severity": "orange",
+   "kind": "omissao_que_gera_erro",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-01-rochas-cumulaticas-historico-terminologia-classificacao.md",
+    "section": "Aula 01 item 3; Aula 05 Crescimento adcumulus",
+    "quote": "o cristal captura e incorpora o liquido aprisionado"
+   },
+   "claim": "o cristal captura e incorpora o liquido aprisionado",
+   "problem": "[10] Crescimento adcumulus como cristal que incorpora o proprio liquido aprisionado. Adcumulus exige comunicacao do liquido intersticial com o magma principal (difusao/conveccao); bolsao fechado cristaliza como intercumulus.",
+   "replacement": "Ressalva inserida nas duas aulas",
+   "source": {
+    "name": "Wager, Brown & Wadsworth 1960; Wager 1963; Hunter 1996",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-01-rochas-cumulaticas-historico-terminologia-classificacao.md",
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-05-diferenciacao-magmatica-parte-2-processos-pos-cumulus.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A02-FENNER-BOWEN-003",
+   "severity": "orange",
+   "kind": "certeza_indevida",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-02-condicoes-formacao-magmas-progenitores-plumbing.md",
+    "section": "Aula 02 sistema fechado; Aula 03 variacao criptica; Aula 06 Skaergaard",
+    "quote": "demonstrou, de forma inequivoca [...] resolvendo; o laboratorio fechado que resolveu o debate"
+   },
+   "claim": "demonstrou, de forma inequivoca [...] resolvendo; o laboratorio fechado que resolveu o debate",
+   "problem": "[11] Skaergaard resolveu de forma inequivoca o debate Bowen-Fenner. Caso-tipo do trend de Fenner, mas trajetoria do liquido debatida (Hunter & Sparks 1987 x McBirney & Naslund 1990; Thy, Lesher & Tegner 2009; imiscibilidade Jakobsen et al. 2005).",
+   "replacement": "Reescrito como caso-tipo com debate",
+   "source": {
+    "name": "Thy, Lesher & Tegner 2009 CMP 157:735-747; Hunter & Sparks 1987; McBirney & Naslund 1990; Jakobsen et al. 2005 Geology 33:885",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-02-condicoes-formacao-magmas-progenitores-plumbing.md",
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-03-aspectos-geologicos-petrograficos-mineralogicos-geoquimicos.md",
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-06-arquetipos-mundiais-parte-1-skaergaard-bushveld.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A02-EXEMPLO-006",
+   "severity": "orange",
+   "kind": "certeza_indevida",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-02-condicoes-formacao-magmas-progenitores-plumbing.md",
+    "section": "Aula 02 Exemplo, Passo 2; Aula 03 variacao criptica e recap",
+    "quote": "so podem ser explicadas por injecao de magma novo; assinatura diagnostica de recarga"
+   },
+   "claim": "so podem ser explicadas por injecao de magma novo; assinatura diagnostica de recarga",
+   "problem": "[12] Reversoes cripticas so podem ser recarga. Deslocamento do liquido aprisionado, pressao e fO2 tambem deslocam composicoes; recarga = interpretacao mais comum.",
+   "replacement": "Ressalva inserida",
+   "source": {
+    "name": "Barnes 1986; Irvine 1982",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-02-condicoes-formacao-magmas-progenitores-plumbing.md",
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-03-aspectos-geologicos-petrograficos-mineralogicos-geoquimicos.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A07-MUSKOX-MAGMA-009",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-02-condicoes-formacao-magmas-progenitores-plumbing.md",
+    "section": "Aula 02 magmas progenitores; Aula 07 Muskox, quadro-sintese, recap",
+    "quote": "komatiitico a picritico, o mais magnesiano entre os quatro"
+   },
+   "claim": "komatiitico a picritico, o mais magnesiano entre os quatro",
+   "problem": "[13] Muskox com magma komatiitico e o mais magnesiano. Parental picritico ~13-15% MgO (abaixo do limiar komatiitico de 18%); superlativo sem base.",
+   "replacement": "Picritico; superlativo retirado; claim criado",
+   "source": {
+    "name": "Lithos 2024 (Muskox overview); Irvine 1977, 1980",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-02-condicoes-formacao-magmas-progenitores-plumbing.md",
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-07-arquetipos-mundiais-parte-2-stillwater-muskox.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A07-STILLWATER-MAGMA-008",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-02-condicoes-formacao-magmas-progenitores-plumbing.md",
+    "section": "Aula 07 2o paragrafo e quadro-sintese; Aula 02 recap",
+    "quote": "um magma de afinidade boninitica/SHMB"
+   },
+   "claim": "um magma de afinidade boninitica/SHMB",
+   "problem": "[14] Stillwater com progenitor unico boninitico/SHMB. Dois magmas: tipo U (ultramafico, alto Mg) e tipo A (anortositico, toleitico) (Irvine et al. 1983).",
+   "replacement": "Dois magmas descritos; claim criado",
+   "source": {
+    "name": "Irvine, Keith & Todd 1983 Econ Geol 78:1287-1318; J Petrol 65(4) egae014 (2024)",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-02-condicoes-formacao-magmas-progenitores-plumbing.md",
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-07-arquetipos-mundiais-parte-2-stillwater-muskox.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A03-FORMAS-001",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-03-aspectos-geologicos-petrograficos-mineralogicos-geoquimicos.md",
+    "section": "Aula 03 A forma dos corpos e recap; Aula 07 Muskox",
+    "quote": "Corpos em funil, como o Bushveld e o Muskox; tabulares como Skaergaard"
+   },
+   "claim": "Corpos em funil, como o Bushveld e o Muskox; tabulares como Skaergaard",
+   "problem": "[15] Bushveld em funil; Skaergaard tabular. Bushveld lopolitico (lobos em pires); funil classico = Muskox; Skaergaard caixa irregular ~11x8x3,4-4 km (Nielsen 2004).",
+   "replacement": "Formas corrigidas",
+   "source": {
+    "name": "Nielsen 2004 J Petrol 45:507-530; Cawthorn 2015",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-03-aspectos-geologicos-petrograficos-mineralogicos-geoquimicos.md",
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-07-arquetipos-mundiais-parte-2-stillwater-muskox.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A03-ORDEM-CRISTALIZACAO-008",
+   "severity": "orange",
+   "kind": "confusao_de_escopo",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-03-aspectos-geologicos-petrograficos-mineralogicos-geoquimicos.md",
+    "section": "Zoneamento estratigrafico",
+    "quote": "entrada progressiva de clinopiroxenio, depois plagioclasio"
+   },
+   "claim": "entrada progressiva de clinopiroxenio, depois plagioclasio",
+   "problem": "[16] Ordem olivina-cpx-plagioclasio como padrao geral. Em toleitos a baixa pressao plag antes de cpx (Skaergaard); Bushveld/Stillwater ol/opx-plag-cpx.",
+   "replacement": "Ordem relativizada; claim criado",
+   "source": {
+    "name": "Wager & Brown 1968; Cawthorn 2015; Irvine et al. 1983",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-03-aspectos-geologicos-petrograficos-mineralogicos-geoquimicos.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A05P2-TRAPPED-LIQUID-SHIFT-002",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-05-diferenciacao-magmatica-parte-2-processos-pos-cumulus.md",
+    "section": "O deslocamento do liquido aprisionado; Recap",
+    "quote": "retroativamente, a composicao media que se atribuiria a rocha como um todo; a partir de uma analise de rocha total; essencial para o fator R"
+   },
+   "claim": "retroativamente, a composicao media que se atribuiria a rocha como um todo; a partir de uma analise de rocha total; essencial para o fator R",
+   "problem": "[17] Trapped liquid shift descrito como mudanca da rocha total. Barnes 1986: sistema quimicamente fechado; desloca a composicao dos minerais cumulus, nao a rocha total; ligacao com fator R indireta.",
+   "replacement": "Paragrafo e recap reescritos",
+   "source": {
+    "name": "Barnes 1986 CMP 93:524-531",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-05-diferenciacao-magmatica-parte-2-processos-pos-cumulus.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A06-EXEMPLO-008",
+   "severity": "orange",
+   "kind": "inconsistencia_interna",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-06-arquetipos-mundiais-parte-1-skaergaard-bushveld.md",
+    "section": "Exemplo, Passo 2",
+    "quote": "A formacao de cromitito, no modelo mais aceito, depende de mistura de magmas"
+   },
+   "claim": "A formacao de cromitito, no modelo mais aceito, depende de mistura de magmas",
+   "problem": "[18] Exemplo da Aula 06 da mistura de magmas como modelo mais aceito de cromitito. Contradiz a Aula 08 (debate aberto).",
+   "replacement": "Passo 2 reescrito",
+   "source": {
+    "name": "Irvine 1975, 1977; Latypov et al. 2017, 2018",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-06-arquetipos-mundiais-parte-1-skaergaard-bushveld.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A06-BUSHVELD-PRODUCAO-009",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-06-arquetipos-mundiais-parte-1-skaergaard-bushveld.md",
+    "section": "Bushveld, 1o paragrafo",
+    "quote": "respondendo pela maior parte da producao e das reservas mundiais desses metais"
+   },
+   "claim": "respondendo pela maior parte da producao e das reservas mundiais desses metais",
+   "problem": "[19] Bushveld com a maior parte da producao de todos os EGP. Russia = maior produtor mineiro de paladio (USGS MCS 2026); Bushveld domina Pt e Rh; ~75% dos recursos de Pt, ~50% de Pd.",
+   "replacement": "Frase qualificada; claim criado",
+   "source": {
+    "name": "USGS MCS 2026 Platinum-Group Metals",
+    "tier": "reference_database",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-06-arquetipos-mundiais-parte-1-skaergaard-bushveld.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A06-ZONA-INFERIOR-010",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-06-arquetipos-mundiais-parte-1-skaergaard-bushveld.md",
+    "section": "Estratigrafia do Bushveld",
+    "quote": "Zona Inferior (dunito e harzburgito)"
+   },
+   "claim": "Zona Inferior (dunito e harzburgito)",
+   "problem": "[20] Zona Inferior do Bushveld = dunito e harzburgito. Dominada por ortopiroxenito, com harzburgito e dunito.",
+   "replacement": "Corrigido; claim criado",
+   "source": {
+    "name": "Cawthorn 2015",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-06-arquetipos-mundiais-parte-1-skaergaard-bushveld.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A06-SKAERGAARD-IDADE-001",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-06-arquetipos-mundiais-parte-1-skaergaard-bushveld.md",
+    "section": "Fontes",
+    "quote": "Skaergaard intrusion - A geochronological time capsule, Geology ou periodico correlato"
+   },
+   "claim": "Skaergaard intrusion - A geochronological time capsule, Geology ou periodico correlato",
+   "problem": "[21] Referencia de Wotzlaw et al. 2012 com titulo e periodico inventados. Real: Wotzlaw et al. 2012 EPSL 355-356:199-212 (55,960 +/- 0,018 Ma; posicionamento ~56,02 Ma). Idade ~56 Ma correta.",
+   "replacement": "Referencia substituida",
+   "source": {
+    "name": "Wotzlaw et al. 2012 EPSL doi:10.1016/j.epsl.2012.08.043",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-06-arquetipos-mundiais-parte-1-skaergaard-bushveld.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A07-JM-REEF-002",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-07-arquetipos-mundiais-parte-2-stillwater-muskox.md",
+    "section": "Stillwater, 3o paragrafo",
+    "quote": "sulfetos disseminados em piroxenito e norito"
+   },
+   "claim": "sulfetos disseminados em piroxenito e norito",
+   "problem": "[22] Reef J-M em piroxenito e norito. J-M na Zona com Olivina I (OB-I) da Serie Bandada Inferior: troctolito, olivina gabronorito, anortosito; ~18 ppm Pt+Pd.",
+   "replacement": "Hospedeira corrigida",
+   "source": {
+    "name": "Todd et al. 1982 Econ Geol 77:1454; Jenkins et al. 2021 Precambrian Res",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-07-arquetipos-mundiais-parte-2-stillwater-muskox.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A07-UNIDADE-CICLICA-005",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-07-arquetipos-mundiais-parte-2-stillwater-muskox.md",
+    "section": "Muskox, 3o paragrafo; Exemplo, Passo 2",
+    "quote": "desenvolver e formalizar o conceito de unidade ciclica; pelo menos doze eventos discretos de recarga"
+   },
+   "claim": "desenvolver e formalizar o conceito de unidade ciclica; pelo menos doze eventos discretos de recarga",
+   "problem": "[23] Irvine formalizou unidade ciclica/recarga; doze unidades = doze recargas. Brown 1956 (Rum) ja interpretava unidades ciclicas como pulsos de magma; Muskox ~42 unidades (Irvine & Smith 1967); doze unidades = preenchimento inicial + onze recargas.",
+   "replacement": "Atribuicao e exemplo corrigidos",
+   "source": {
+    "name": "Brown 1956 Phil Trans R Soc B 240:1-53; Irvine & Smith 1967",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-07-arquetipos-mundiais-parte-2-stillwater-muskox.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A08-SATURACAO-ENXOFRE-002",
+   "severity": "orange",
+   "kind": "confusao_de_escopo",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-08-depositos-minerais-exemplos-brasileiros.md",
+    "section": "Sulfetos imisciveis e o fator R, 1o paragrafo",
+    "quote": "mais frequentemente nos modelos aceitos para os grandes depositos, por contaminacao externa"
+   },
+   "claim": "mais frequentemente nos modelos aceitos para os grandes depositos, por contaminacao externa",
+   "problem": "[24] Contaminacao externa por S como gatilho mais frequente inclusive dos reefs de EGP. Vale para Ni-Cu de conduto/contato basal (Norilsk, Voiseys Bay, Duluth); reefs de EGP: modelos internos.",
+   "replacement": "Frase separa os dois grupos",
+   "source": {
+    "name": "Naldrett 2004; Barnes S-J & Lightfoot 2005 Econ Geol 100th Anniv Vol",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-08-depositos-minerais-exemplos-brasileiros.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A08-CROMITITO-MODELOS-003",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-08-depositos-minerais-exemplos-brasileiros.md",
+    "section": "Cromitito, 2o topico; Fontes",
+    "quote": "Adicao de silica (modelos aplicados ao UG2)"
+   },
+   "claim": "Adicao de silica (modelos aplicados ao UG2)",
+   "problem": "[25] Modelo de adicao de silica atribuido so a trabalhos recentes. Adicao de silica = Irvine 1975 (Muskox), antes da mistura (Irvine 1977); pressao: Latypov et al. 2018.",
+   "replacement": "Atribuicao e Fontes corrigidas",
+   "source": {
+    "name": "Irvine 1975 GCA 39:991-1020; Latypov et al. 2018 Nat Commun 9:462",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-08-depositos-minerais-exemplos-brasileiros.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-MOD-REMISSOES-001",
+   "severity": "orange",
+   "kind": "inconsistencia_interna",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-01-rochas-cumulaticas-historico-terminologia-classificacao.md",
+    "section": "Aula 01 Material pos-cumulus; Aula 04 Proxima aula",
+    "quote": "A Aula 04 (Parte 2) trata [...] pos-cumulus"
+   },
+   "claim": "A Aula 04 (Parte 2) trata [...] pos-cumulus",
+   "problem": "[26] Remissoes quebradas para a Aula 04 (Parte 2). Pos-cumulus esta na Aula 05.",
+   "replacement": "Remissoes corrigidas",
+   "source": {
+    "name": "hub e course-state (renumeracao 2026-09-29)",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-01-rochas-cumulaticas-historico-terminologia-classificacao.md",
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-04-diferenciacao-magmatica-parte-1-mecanismos-acamadamento.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-MOD-HUB-DEBATE-002",
+   "severity": "orange",
+   "kind": "inconsistencia_interna",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-modulo.md",
+    "section": "Pontos de dificuldade",
+    "quote": "A imagem classica [...] foi substituida; reequilibrar completamente"
+   },
+   "claim": "A imagem classica [...] foi substituida; reequilibrar completamente",
+   "problem": "[27] Hub fecha o debate que a Aula 04 deixa aberto. Aula 04: mecanismos nao excludentes, em debate; Aula 05: deslocamento mensuravel.",
+   "replacement": "Hub reescrito",
+   "source": {
+    "name": "Aulas 04-05; Latypov et al. 2024 ESR 249:104653",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-modulo.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A07-MUSKOX-IDADE-CONTEXTO-004",
+   "severity": "yellow",
+   "kind": "desatualizacao",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-07-arquetipos-mundiais-parte-2-stillwater-muskox.md",
+    "section": "Muskox, 1o paragrafo; Recap",
+    "quote": "nos Territorios do Noroeste do Canada"
+   },
+   "claim": "nos Territorios do Noroeste do Canada",
+   "problem": "[28] Muskox nos Territorios do Noroeste. Nunavut desde 1999.",
+   "replacement": "Nunavut (antes Territorios do Noroeste)",
+   "source": {
+    "name": "LeCheminant & Heaman 1989 EPSL 96:38-48; Precambrian Res 2009 (Muskox, Nunavut)",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-07-arquetipos-mundiais-parte-2-stillwater-muskox.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A08-FONTE-ANM-008",
+   "severity": "yellow",
+   "kind": "desatualizacao",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-08-depositos-minerais-exemplos-brasileiros.md",
+    "section": "Fontes",
+    "quote": "Departamento Nacional de Producao Mineral"
+   },
+   "claim": "Departamento Nacional de Producao Mineral",
+   "problem": "[29] DNPM nas Fontes. Substituido pela ANM (Lei 13.575/2017).",
+   "replacement": "ANM (antigo DNPM); claim criado",
+   "source": {
+    "name": "Lei 13.575/2017",
+    "tier": "normative",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-08-depositos-minerais-exemplos-brasileiros.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A04P1-DEBATE-ABERTO-004",
+   "severity": "blue",
+   "kind": "evidencia_insuficiente",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-04-diferenciacao-magmatica-parte-1-mecanismos-acamadamento.md",
+    "section": "Um debate aberto; Recap",
+    "quote": "evidencias de campo e isotopicas (razoes de Sr, por exemplo)"
+   },
+   "claim": "evidencias de campo e isotopicas (razoes de Sr, por exemplo)",
+   "problem": "[30] Evidencia isotopica de Sr atribuida a escola in situ. Nao confirmado; evidencia principal e de campo/textural.",
+   "replacement": "Trocado por evidencias de campo e texturais",
+   "source": {
+    "name": "Latypov et al. 2024 ESR 249:104653; Latypov et al. 2017",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "nao_verificado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-04-diferenciacao-magmatica-parte-1-mecanismos-acamadamento.md"
+   ],
+   "outcome": "corrigido_com_ressalva",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A08-IPUEIRA-MEDRADO-006",
+   "severity": "blue",
+   "kind": "evidencia_insuficiente",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-08-depositos-minerais-exemplos-brasileiros.md",
+    "section": "Complexos acamadados brasileiros, 3o item",
+    "quote": "historicamente um dos depositos de cromita mais importantes do Brasil"
+   },
+   "claim": "historicamente um dos depositos de cromita mais importantes do Brasil",
+   "problem": "[31] Ipueira-Medrado um dos depositos de cromita mais importantes, camadas. Confirmado: maior deposito de cromita do Brasil; camada principal de cromitito macico de 5-8 m; sill ~7 km x ~300 m. Numeros de recurso seguem omitidos.",
+   "replacement": "Reescrito com dados confirmados",
+   "source": {
+    "name": "Marques & Ferreira Filho 2003 Econ Geol 98:87-108; Mindat",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-08-depositos-minerais-exemplos-brasileiros.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A07-JM-TEXTURA-010",
+   "severity": "blue",
+   "kind": "evidencia_insuficiente",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-01-rochas-cumulaticas-historico-terminologia-classificacao.md",
+    "section": "Aula 01 item 4; Aula 05 Texturas poiquiliticas e recap; Aula 07 4o paragrafo",
+    "quote": "parte central da textura de minerio; o reef J-M e o exemplo mais estudado"
+   },
+   "claim": "parte central da textura de minerio; o reef J-M e o exemplo mais estudado",
+   "problem": "[32] Textura poiquilitica como parte central do minerio J-M. Oicocristais existem na OB-I, mas papel central no minerio nao confirmado.",
+   "replacement": "Suavizado; claim criado",
+   "source": {
+    "name": "Mineralium Deposita 2024 (J-M e OB-I); J Petrol 27:791 (1986)",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "nao_verificado",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-01-rochas-cumulaticas-historico-terminologia-classificacao.md",
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-05-diferenciacao-magmatica-parte-2-processos-pos-cumulus.md",
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-07-arquetipos-mundiais-parte-2-stillwater-muskox.md"
+   ],
+   "outcome": "corrigido_com_ressalva",
+   "applied_at": "2026-09-29"
+  },
+  {
+   "claim_id": "LAY-M33-A06-MERENSKY-MODELO-007",
+   "severity": "white",
+   "kind": "controversia",
+   "location": {
+    "file": "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-06-arquetipos-mundiais-parte-1-skaergaard-bushveld.md",
+    "section": "Aula 06 Merensky e Platinova; Aula 07 genese do J-M; Aula 08 fator R",
+    "quote": "O modelo genetico dominante, proposto por Campbell, Naldrett e Barnes (1983)"
+   },
+   "claim": "O modelo genetico dominante, proposto por Campbell, Naldrett e Barnes (1983)",
+   "problem": "[33] Mistura de magmas como modelo dominante do Merensky e do J-M. Concorrem: mistura duplo-difusiva (Irvine et al. 1983), hidromagmatico (Boudreau & McCallum 1992), pressao/in situ (Latypov et al. 2018), infiltracao-refusao (Jenkins et al. 2021).",
+   "replacement": "Reescrito como debate",
+   "source": {
+    "name": "Campbell, Naldrett & Barnes 1983 J Petrol 24:133-165; Boudreau & McCallum 1992 Econ Geol 87:1830; Jenkins et al. 2021",
+    "tier": "peer_reviewed",
+    "version": "consultado 2026-09-29",
+    "consulted_at": "2026-09-29"
+   },
+   "confidence": "em_disputa",
+   "affected_files": [
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-06-arquetipos-mundiais-parte-1-skaergaard-bushveld.md",
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-07-arquetipos-mundiais-parte-2-stillwater-muskox.md",
+    "33-intrusoes-acamadadas/33-intrusoes-acamadadas-aula-08-depositos-minerais-exemplos-brasileiros.md"
+   ],
+   "outcome": "corrigido_com_ressalva",
+   "applied_at": "2026-09-29"
+  }
+ ],
+ "verified_claims": [
+  {
+   "claim_id": "LAY-M33-A01-WBW1960-002",
+   "claim": "Wager, Brown & Wadsworth (1960), J Petrol 1:73-85, formalizam cumulus/intercumulus e ortocumulato/adcumulato",
+   "source": "resumo OUP",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "LAY-M33-A01-PATAMARES-004",
+   "claim": "Limites 0-7/7-25/>25% de intercumulus (atribuicao corrigida para Irvine 1982)",
+   "source": "Irvine 1982",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "LAY-M33-A01-DEFINICAO-INTRUSAO-006",
+   "claim": "Intrusao acamadada exige acamadamento macroscopico sistematico",
+   "source": "Irvine 1982; Cawthorn 1996",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "LAY-M33-A02-AMBIENTES-001",
+   "claim": "LIPs, riftes e terrenos arqueanos de regime debatido",
+   "source": "Cawthorn 1996; Lithos 2024",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "LAY-M33-A02-FECHADO-ABERTO-002",
+   "claim": "Skaergaard fechado; Bushveld e Stillwater abertos",
+   "source": "Wager & Brown 1968; Wotzlaw et al. 2012; Barnes et al. 2010",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "LAY-M33-A02-MUSH-TRANSCRUSTAL-005",
+   "claim": "Cashman, Sparks & Blundy 2017, Science 355:eaag3055",
+   "source": "Science",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "LAY-M33-A03-TRES-FRENTES-002",
+   "claim": "MBS, LS e UBS convergindo no Horizonte Sanduiche",
+   "source": "Wager & Brown 1968",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "LAY-M33-A03-ZONEAMENTO-BUSHVELD-003",
+   "claim": "Zonas Marginal, Inferior, Critica, Principal, Superior",
+   "source": "Cawthorn 2015",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "LAY-M33-A03-QUATRO-TIPOS-004",
+   "claim": "Acamadamento modal, de fase, textural e criptico",
+   "source": "Irvine 1982; Namur et al. 2015",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "LAY-M33-A03-VARIACAO-CRIPTICA-005",
+   "claim": "Queda de Fo/Mg# para o topo em Skaergaard ate olivina fayalitica",
+   "source": "Wager & Brown 1968; Thy, Lesher & Tegner 2009",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "LAY-M33-A03-EXEMPLO-006",
+   "claim": "Exemplo hipotetico coerente",
+   "source": "logica interna",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "LAY-M33-A04P1-INSITU-002",
+   "claim": "McBirney & Noyes 1979, J Petrol 20:487-554, cristalizacao in situ",
+   "source": "resumo OUP",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "LAY-M33-A04P1-DUPLA-DIFUSAO-003",
+   "claim": "Huppert & Sparks 1984, Annu Rev Earth Planet Sci 12:11-37",
+   "source": "literatura",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "LAY-M33-A04P1-EXEMPLO-006",
+   "claim": "Exemplo hipotetico (ajustado pelo achado 6)",
+   "source": "logica interna",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "LAY-M33-A05P2-REEQUILIBRIO-004",
+   "claim": "Reequilibrio subsolido Fe-Mg desloca composicoes mensuravelmente",
+   "source": "Hunter 1996",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "LAY-M33-A06-BUSHVELD-IDADE-EXTENSAO-004",
+   "claim": "~2,06 Ga; >66 000 km2; ate ~9 km",
+   "source": "Cawthorn 2015; Zeh et al. 2015",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "LAY-M33-A06-ZONEAMENTO-HORIZONTES-006",
+   "claim": "UG1/UG2 e Merensky na Zona Critica; Main Magnetite Layer na Zona Superior",
+   "source": "Cawthorn 2015",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "LAY-M33-A07-STILLWATER-IDADE-001",
+   "claim": "~2,7 Ga, basculado apos a consolidacao",
+   "source": "Premo et al. 1990",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "LAY-M33-A07-GEODINAMICA-ARQUEANA-006",
+   "claim": "Ambiente geodinamico sem analogo moderno fechado (tratado como debate)",
+   "source": "literatura",
+   "confidence": "em_disputa"
+  },
+  {
+   "claim_id": "LAY-M33-A07-EXEMPLO-007",
+   "claim": "Exemplo hipotetico (ajustado pelo achado 23)",
+   "source": "logica interna",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "LAY-M33-A08-FATOR-R-001",
+   "claim": "Campbell & Naldrett 1979, Econ Geol 74:1503-1506",
+   "source": "literatura",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "LAY-M33-A08-MAGNETITA-TIV-004",
+   "claim": "Saturacao tardia em oxido de Fe-Ti; fO2/overturn como hipotese",
+   "source": "Cawthorn 2015",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "LAY-M33-A08-NIQUELANDIA-BARRO-ALTO-005",
+   "claim": "Niquelandia, Barro Alto e Cana Brava ~0,79 Ga; Ni-Co lateritico",
+   "source": "Ferreira Filho et al. 2010, Precambrian Res 183:617-634",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "LAY-M33-A08-EXEMPLO-007",
+   "claim": "Logica do fator R no exemplo",
+   "source": "Campbell & Naldrett 1979",
+   "confidence": "confirmado"
+  }
+ ]
+}

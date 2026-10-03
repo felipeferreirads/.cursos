@@ -1,0 +1,821 @@
+# Ep34 - Stream Basics.txt
+Video ID: PjzSy6fMt08
+Lang: en
+URL: https://www.youtube.com/watch?v=PjzSy6fMt08
+
+---
+
+Hey there team and welcome to another
+episode in the geology 101 physical
+geology video series. I'm geology
+professor Shawn Wily. Thanks for joining
+me today. Here in episode 34 we're going
+to look at how rivers and streams work.
+We're going to look at the basic
+processes that govern the behavior of
+moving water across the earth's surface.
+And in a future episode we'll look more
+at the landforms that uh running water
+creates. Talk a little bit about floods.
+This geology 101 video series is modeled
+after my college course. It's the same
+curriculum. It's the same lectures, the
+same content. The only thing you're
+missing is the lab or field trip
+components, but you can supplement those
+a little bit with some of the other
+videos I have here on my channel. And
+I'll be sure to link a few of the more
+relevant videos to this video
+description in case you want to see some
+application of the things we're talking
+about here. So, uh, let's just jump
+right into this. So, we're going to be
+looking at how water works at the
+Earth's surface. And so, that kind of
+ties us back to the hydraologic cycle,
+which I'm sure many of you are familiar
+with or which is uh pretty easy to
+understand. Um, so basically water is a
+finite resource on planet Earth and it
+gets recycled from one reservoir to
+another through a variety of processes.
+Uh so for example, you might look
+outside today and maybe it's a little
+cloudy, maybe it's raining, maybe it's
+snowing, and that precipitation then
+falls to the ground. Some of it seeps
+into the ground and becomes what we call
+subsurface flow or groundwater. That's a
+topic that we'll tackle in a future
+episode. Some of it though runs across
+the Earth's surface, runs over the
+surface through rivers and streams
+downhill. That's the part of the
+geologic cycle or the hydraologic cycle
+that we're going to focus on today. Um,
+and then as that water works its way
+downhill, it eventually ends up at some
+location. Maybe it's a lake, maybe it's
+the ocean, where that water can then be
+transferred or or moved uh from a liquid
+state back to a gas state, either
+through evaporation or through
+transpiration through plants. Uh once
+that water vapor in a gas state goes up
+into the atmosphere, it can then
+condense back into liquid water uh get
+moved from one place to to another and
+then eventually fall as precipitation.
+So just a simplistic view of the
+hydraologic cycle. Again, we're going to
+be focusing on rivers and streams. I'll
+probably use those two terms somewhat
+synonymously. I think we all probably
+have a connotation that a river is a a
+bigger surface water entity and a stream
+is smaller, but the processes are the
+same. And I probably will be flip-fpping
+those two terms, but realize that they
+they stand for one thing uh regardless.
+So let's start with looking at the
+concept of a drainage basin. So rivers
+and streams capture water from a given
+area depending on the topography in that
+region. And this is what we call a
+drainage basin. So you can see here we
+have two distinct drainage basins, two
+river systems that are each capturing
+water. they have their own tributaries
+or smaller uh streams that feed into the
+larger stream system. Um and those
+drainage basins are divided or separated
+by high topography. This is a lot of
+times is like a mountain ridge or a pass
+that divides one drainage basin from
+another. So these drainage basins are
+what feed the river with its water. They
+include all the tributaries that feed
+into that river system. They can also
+include groundwater. Groundwater can be
+moving through the ground, discharging
+at a spring that goes into the river
+system. And so we'll explore that more
+in a future episode. But let's take a
+look at a specific drainage basin. And
+let's look at the good old Snake River
+drainage basin here in southern Idaho.
+And so this area here shown uh in the
+shaded area delineates all the area for
+the Snake River system. So this is every
+drop of water that falls in this area uh
+typically well eventually makes its way
+into the Snake River minus you know
+whatever evaporates out of the system.
+But if it stays as surface water or even
+groundwater it makes its way into this
+system. So, the Snake River uh properly
+starts here in northwest Wyoming near
+Yellowstone National Park, flows south
+past the Tetons, uh takes a westward
+turn into Idaho, and then flows through
+the Snake River Plane uh for a good
+duration here, past a lot of the big
+communities in southern Idaho. As it
+makes its way to the Oregon border, it
+starts flowing north, cutting through
+Hell's Canyon, which is a scenic area.
+And then up here near Lewon and where
+the Clearwater River joins the Snake
+River, it turns into WA southeast
+Washington and then it terminates right
+here because the Snake River joins a
+bigger river system, the Colombia River.
+And the Columbia River system takes off
+from this point, goes downstream, heads
+west through the Columbia River Gorge,
+and ends up in the Pacific Ocean between
+Oregon and Washington. So this entire
+area here, which you can see the numbers
+here for how large this drainage basin
+is, um is pretty significant. It's not
+by no means the biggest drainage basin
+on Earth, but for the western US, it's a
+significant drainage basin. You can see
+the relative size of the tributaries are
+somewhat shown by the uh the size of the
+font. So the Salmon River is a is a a
+major uh tributary into the Snake River
+whereas something maybe like Salmon
+Falls Creek down here is is a much
+smaller contributor to the system. But
+it's divided from other drainage bases
+by this high topography. This is
+actually um the border between Idaho and
+Montana are these high mountain passes
+and peaks that run along the border
+here. So that's the idea of a drainage
+basin. Let's now look at how streams
+velocity changes and just look at this
+concept of velocity. So velocity of
+course is speed or distance traveled
+over time. So how far the the water
+moves over some unit of time. We
+typically use seconds for that. Here in
+the US we use feet per second, but you
+could also use meters per second. Works
+just as well. Um and let's consider two
+cross-sections across the stream. Let's
+start here with a here we have a
+straight channel, right? The river is
+running straight across the landscape
+when we look at it in map view. And if
+we look at it in cross-section view,
+that stream channel maybe looks
+something like this. And we tend to see
+the fastest moving water here, right
+down the center of that channel. Uh the
+water along the banks of the stream and
+along the bed of the stream are in
+contact with the the ground. And so
+there tends to be more friction there.
+So the water tends to move a little bit
+more slowly. Maybe it's working its way
+over the rocks. Uh the the the sediment
+that's along the bed of that channel.
+Also notice that this
+um straight channel has a fairly
+symmetric uh look to it. Now, this isn't
+always true, but this is generally more
+true than not that you might get a more
+symmetrical channel here where the
+stream is flowing uh along a straight
+path. As we watch the water though go
+into uh this bend, this meander of the
+stream, things change quite a bit. That
+fast flow is actually on the outside of
+the bend. So basically as the water
+comes in, that fast flow comes into the
+bend basically runs right into the
+outside bend. And so we tend to see the
+fastest flow along the outside of the
+stream uh bend or or meander. And
+consequently, this the slower water
+tends to be on the inside of the bend.
+Um and so this actually affects the
+shape of the channel. We get a little
+bit more asymmetric shape to the channel
+with the deeper water and the faster
+moving water over here along the outside
+of the bend over in this area. Um so
+velocity of a stream is important. Um
+even for folks recreationally like for
+example I enjoy doing a lot of
+whitewater rafting and this is something
+you learn in guiding a boat is let's say
+you know I'm I'm coming into this the
+stream this way and I don't know exactly
+what hazards might be down here. Maybe I
+can hear the roar of a rapid down here
+and I want to come into this somewhat
+cautiously and maybe scout it out. So
+rather than put my boat on the outside
+of the bend, which would put me in the
+fast flow and kind of send me whipping
+around this bend, um, and maybe I
+wouldn't have much time to either pull
+over and scout it or really assess what
+the river is doing in this section. Uh
+instead of doing that, which would be a
+little bit reckless, I might choose
+instead to uh enter this section of the
+river on the inside of the bend where
+the water is slower uh and I could pull
+over to the side easier or I could get
+out of the main current a little bit
+easier and I could move my way through
+this slower section of water and have
+more time to be able to observe maybe to
+scout out the river, see what hazards
+exist there, uh and then make a decision
+based on on what I see. So velocity of
+in a stream we've seen changes along its
+its width u but also changes along its
+length when as you go from upstream
+locations to downstream locations. Uh so
+this is velocity and let's now look at a
+real sort of section of rivers. This is
+just a a screenshot from Google Earth.
+This is the little Brazos River in
+Texas. You can see the flow of the river
+kind of coming around this bend or
+meander. Again remember that the fastest
+moving water is pretty much right where
+my blue arrow is. But if you just extend
+that along here, that's going to
+eventually run into the outside bend.
+And of course, it's going to be
+deflected by the the banks of the
+stream. And so this is where we see the
+fastest moving water along this side of
+the stream. And because of that, because
+the water's moving faster, it's able to
+uh strip away sediment, rocks along the
+edge of the stream and then transport
+those. And whenever we transport
+sediment, that's something we call
+erosion. So this tends to be a more
+erosion dominant region of the stream.
+And then on the flip side, on the other
+side of the stream where the velocity is
+quite low, this is where the sediment
+the river is carrying is going to be
+deposited. It's going to settle out of
+the water column to the bottom of the
+stream. And this is where we get
+deposits of sediment like this big uh
+chunk of sand and mud you can see down
+here. We'll later get to in the next
+episode we'll talk about what landform
+features these are and give them some
+fun names. But for now, this is some of
+the basics here that's important to
+think about. Notice here you can see the
+the the landscape has sort of been cut
+into. There's some steep embankments
+along the margin of the stream whereas
+over here we have a much more subdued
+topographic feature uh where this low
+velocity zone has deposited some of the
+sediment. So that is the concept of
+velocity. Let's now turn to another
+important concept with streams and that
+is what's called gradient. So gradient
+is basically how much the stream is
+dropping as you go from an upstream
+location to a downstream location over a
+given distance. And you can think of it
+a lot like the slope of a line. Think
+about those good old days back in math
+class where you had a graph. You had a
+line on the graph and you had to figure
+out what the slope of the line was. Um
+and so we can treat that with those
+simple concepts of uh rise over run. So
+we can look at how much the stream the
+water is dropping vertically uh over
+some distance. So the rise the the the
+vertical change excuse me over the
+horizontal change what we call the run.
+So it's the vertical drop over some
+distance. Um gradient's always changing.
+So, as we move from one place on the
+stream, upstream or downstream, it it's
+constantly changing
+um in places. And let's go to a fun
+example here again locally here in
+southern Idaho. Although there's other
+lots of great examples one could use.
+And what I've done here is I've just
+picked a section of the Snake River,
+which runs through this region here of
+southern Idaho, just north of Twin
+Falls. And for this purpose, I went from
+uh about the Hansen Bridge right here.
+So, this is one bridge over the river.
+And I went downstream to the west
+through this amazing landscape carved by
+the Bonavville flood um to the Pine
+Bridge here. So, you can see the area of
+the stream or the the length of the
+stream that I've uh outlined in blue.
+And Google Earth does lots of fun things
+uh that you can do here. So, one thing
+once you create a path or in this case,
+so I've traced out the the path of the
+river through the Snake River Canyon,
+uh, and once you trace out that path and
+save it, um, you can actually put in an
+elevation profile. So, notice down here
+at the bottom, let me get my head out of
+the way a little bit there. Um, we have
+a profile of the river. So, you can see
+on the map where I'm at with that big
+red arrow. So, I'm starting at the
+upstream end near the Hansen Bridge. You
+can see the elevation there, and this is
+all in feet and miles. So, uh can
+convert that as needed, but you can see
+as headed downstream, the water levels
+dropping as we work our way downstream.
+Uh there's a significant drop right
+here. Uh then the stream is has a very
+low gradient, very slight gradient. Then
+another very large drop right here in
+this section of the river. Uh then it
+has another pretty uh low gradient.
+Little bit of a drop there. And then
+that low gradient continues all the way
+down to the bridge. So this is the
+profile. This is basically the
+topographic profile, the cross-section
+of the Snake River from about the Hansen
+Bridge down to the Pine Bridge. So I
+just wanted to show you uh kind of how
+that looks in profile. So let's explore
+this specific profile in a little bit
+more detail
+um and actually calculate the gradient
+of the Snake River between those two
+points there. So here I've just cut I've
+just uh screenshotted that same
+topographic profile. Um this is an odd
+place though. This part of the Snake
+River is not you know does not behave
+like a typical stream. Um but I think
+this is still kind of instructive. So if
+we think about the end point of the
+stream and the initial point here, we
+can actually connect those with a line
+and we can figure out what the average
+gradient is. So the gradient that we're
+interested in here is from two given
+points. So it's you can define this
+however you want to. You could do a
+gradient between two closer points. You
+could do the whole Snake River system
+from uh where it starts to where it ends
+up. It's just whatever you define it.
+But for us in this instance with this
+example, we've just chosen this uh eight
+or so mile section about 11 or so
+kilometers of river to figure out the
+average gradient. So how do we figure
+out the gradient? Well, we need to
+figure out the elevation at the starting
+point, the elevation at the ending
+point, and subtract those. That'll give
+us the elevation drop. And then we would
+divide that by the distance. And so my
+profile here has all the information I
+need. I'll put that up here for you both
+in uh English units and metric units. So
+here we have the elevation drop about
+511 ft between those two bridges on the
+Snake River or 156 m. That's the the the
+vertical drop of the river over a
+distance of just over 8 miles or about
+13 km. And so when you divide those out,
+depending on which units you want to use
+here, you get a gradient of about 62
+feet per mile, which means that the
+river on average is dropping every mile
+about 62 feet in elevation. Doesn't mean
+that it does it every mile. In fact, if
+you look at some of these sections where
+it's very flat, it's dropping very
+little if if at all, but we have these
+two big significant drops here. Uh in
+metric, it's it's it's similar. So about
+a little under 12 m per kilometer. Every
+kilometer you go down the Snake River,
+it's dropping vertically on average
+about 11.7 m. So the big two drops
+there, if you're not familiar with this
+area, we have two uh significant
+waterfalls on the Snake River, Shashonne
+Falls and the actual Twin Falls with the
+the the feature that the land or that
+the city is named after. And so even
+though we have those two distinct drops
+there, we can figure out the overall
+gradient along the stream between
+between those two points. So that's how
+you figure out gradient. Uh gradient is
+important because it tells us a little
+bit about, you know, the stream
+dynamics. You know, if you have a a
+steep gradient, you might expect more
+rapids and cascades, more turbulence in
+the water versus something that has a
+much more gentle gradient. So let's turn
+over now to our third uh stream
+characteristic that's important and this
+is called discharge. And discharge is
+basically how much water is moving
+downstream for every unit of time. So
+maybe every second in this case. And
+here in the US we use cubic feet per
+second. You can also use cubic meters/s.
+Just any volume. So a cubic foot would
+be a cube that's measures 1 ft by 1 ft
+by 1 ft. So, it's how much of that
+material is moving downstream. Now, this
+one's really important because this will
+tell you a lot about how much water the
+stream is carrying. So, again, from a
+recreational point of view, like as a
+whitewater rafter, this is incredibly
+important. Um, there's river sections
+where I want to know if there is a
+greater amount of water moving down that
+stream segment uh versus normal, right?
+I maybe I ran it two years ago at a
+certain flow and now I want to run that
+section of river again but it's going
+has more water maybe it's twice the flow
+now that presents new hazards and new
+obstacles and changes the dynamics of
+the river pretty um marketkedly and so
+this is the idea with discharge or
+stream flow. Now the way we figure out
+discharge of a stream is we have to know
+the cross-sectional area. So here's a
+stream here. This is the profile view
+here in front. And the stream channel
+probably is very irregular. Um probably
+isn't, you know, very geometrically
+um pleasing to the eye. But what we can
+do is just break it into little chunks
+or what we call subsections. So notice
+this river's channel has been divided
+into a bunch of rectangles. And
+rectangles of course have a simple area
+component where you just need to know
+the length times the width or in this
+case the width and the depth. So if we
+know the width and the depth of all
+these little subsegments or subsections,
+uh we can add those up. Now that's not
+probably not perfect, but it gives us a
+pretty close approximate
+um representation of the area of the
+stream, how much cross-sectional area
+the river is occupying as it flows
+downstream. The second thing we need is
+the velocity. So there's simple things
+we can put into the river like uh flow
+meters. Um, or you could do something
+simple like, you know, throw a a tennis
+ball in the river and see how long it
+takes that tennis ball to move some
+given distance, right? Maybe 100 feet or
+100 meters. How long does it take to
+move downstream? Simple ways you could
+estimate velocity. So, the discharge of
+the stream, again, very important. This
+is what uh entities like the USGS are
+constantly monitoring in real time, the
+discharge level. If you get more rain or
+more snow melt, that's going to uh put
+more water into the stream system,
+that's going to mean that the river
+rises. So, it's going to have greater
+depth. The river might also spill out
+laterally. So, it would gave it greater
+width. So, notice with the formula here,
+if you change any component of the area,
+you're going to increase if you increase
+any component of the area, you're going
+to also increase uh the discharge. Um,
+so discharge is always changing
+depending on how much water is moving
+downstream in a system. So those are
+some of the three big components related
+to streams. Let's kind of put those all
+together now um and just look at how
+things change typically from an upstream
+source to a downstream source. Now this
+is totally generalized. Does every
+single river follow this pattern of
+behavior? No. But this is generally
+true. So typically what do we see with
+the gradient of a stream? Typically the
+gradient of a streams start up in higher
+topography what we call the head of the
+stream. And so the gradient tends to be
+steeper there. And as that stream system
+moves down slope towards its mouth uh
+the gradient becomes less steep. And so
+here's just kind of a little graphic
+here showing the gradient is greater and
+it kind of decreases as we get closer to
+the mouth. What happens to the depth and
+the width of the stream and the
+velocity? Well, they start out pretty
+small. That stream might be something
+you could just hop over here up in the
+mountains. Very small. It doesn't carry
+a lot of water, so it doesn't have a lot
+of volume. Um, isn't very wide, moves
+fairly slowly, isn't very deep, but as
+we move downstream and more water is
+added to that through tributaries, uh,
+we would expect all those things to
+increase. So all these parameters
+increase in the downstream direction
+with the one difference here being the
+gradient which starts high or steep up
+in the mountains and then becomes less
+steep as you move down towards uh the
+mouth of the stream. Okay. So our next
+component and then we'll do some quiz
+questions here at the end is base level.
+base level is incredibly important for
+how the stream evolves over time and
+what sort of landscape it creates. So
+here we have a beautiful picture of
+these narrow deep canyons in
+southwestern Idaho. This is the Bruno
+River Canyon. In places it's 1,000 ft or
+over 300 m deep. It's not very wide. And
+these are very much uh the consequence
+of changes in base level. And I actually
+did a video on this uh canyon that I'll
+link in the video description that might
+be helpful as well. So base level again
+is just the lowest point that the stream
+can erode to. So for the Snake River,
+its base level is the Colombia cuz
+that's where it goes. That's its
+destination. Uh if we look at some of
+the tributaries to the Snake River, like
+let's say the Salmon River, what is base
+level to the Salmon River? Well, it's
+the Snake River cuz that's where it
+flows. That's its lowest point. Um, the
+Columbia River goes all the way to the
+ocean. So, its base level is sea level
+or the ocean. And lots of rivers and
+streams do go all the way to the ocean.
+And so, we sometimes think about sea
+level as being ultimate base level. But
+sometimes you can have localized base
+levels. You might have an area or a
+stream system that doesn't go all the
+way to the ocean. and maybe it ends at a
+lake or if you think of a place like um
+I don't know like in northern Utah those
+streams in northern Utah all flow into
+uh a low confined basin with no outlet
+that's the great salt lake. So that
+would be the more localized base level
+and streams are always adjusting to
+changes in base level. Base level is not
+constant. Even something like sea level,
+which would seem to be fairly constant,
+actually moves over time, especially
+geologic time. Um, and so there's always
+changes in the land. The land's being
+pushed up, maybe the land's going down,
+base levels rising, base levels falling,
+and the streams are always responding to
+that um in some way, shape, or form. And
+so, let's explore that in a little bit
+more detail. And what I have here for
+you are some simple little stream
+profiles. So, let's say we have a stream
+that starts at point A. So, this is like
+a cross-section view looking at the
+stream's gradient. Stream starts here at
+point A up in the mountains, flows down
+to its mouth here at point B. Okay? And
+let's say that we actually do, we're
+going to change something here. We're
+going to change one of these points
+here. Let's say we change base level
+such that it drops. Okay? So, there's
+been a drop in base level. Could be sea
+level dropping, could be a lake draining
+away, um, whatever the case may be. So
+base level has dropped. So now the
+stream which starts at the same point
+doesn't end at point B. It actually
+flows now to point C. Look and see
+what's happened here. That the slope of
+that line that we had originally is now
+much steeper. And so now with a steeper
+gradient, think about what might
+accompany that in terms of like you know
+what's actually taking place on the
+ground uh with that stream. Because that
+stream has a steeper gradient. It's now
+going to erode and cut into the
+landscape. It's going to carve a canyon.
+This is exactly how we get uh some of
+the the great canyons on Earth. Even
+canyons so impressive we might call them
+grand like the Grand Canyon. Um so this
+is entirely part of the story of the
+Grand Canyon is a a drop in base level.
+Well, what else could change with with
+base level? Well, let's say we start
+with another stream. Okay, same same
+concept. Starting at point A, ending at
+point B. the head of the stream, the
+mouth of the stream. What if in this
+case base level rises? Well, now the
+stream is going up to this point here.
+And so now look at the gradient of the
+stream. Now it's no longer as steep as
+it once was. It's less steep. It's more
+gentle. And so the stream's going to
+slow down. It's not going to cut down
+into the landscape. Instead, it's going
+to fill in the landscape. It's going to
+what we call a grade or deposit sediment
+on that landscape. So we would end up
+with deposition being the primary
+process associated with a rise in base
+level. So those are two fundamental
+changes there where we've we've moved
+base level down or we've moved base
+level up and we change the gradient. We
+change some of the dynamics of the
+stream and over time we end up with two
+very different landforms. Well, what if
+we keep base level constant? What if I
+told you we can do the same thing
+without changing base level? Well, the
+only way to make this work is not to
+change something at base level, but to
+change something up at the head of the
+stream. So, what if we had tectonic
+uplift of the mountains or the region
+where the head of the stream starts?
+Now, notice we still end up with that
+same steep slope. we still end up with a
+a steep gradient which again would cause
+the river to cut down and erode into the
+landscape. And what if you did both?
+What if you had the uplift happening at
+the head of the stream and a base level
+drop uh down here at the mouth of the
+stream? Think about how aggressively you
+could cut and carve into that landscape
+and make an impressive canyon. And that
+is part of the story of the Grand Canyon
+right there. And then finally here uh
+again we'll start with the same line A
+to B and instead of moving base level at
+all instead of uplifting the headarters
+what if we cause the headwater region
+this area up here to subside or lower
+its elevation. Notice now we have a
+gradient for that stream system that's
+less steep. And so it's going to be just
+like this one here where instead of
+erosion and down cutting, we're going to
+see deposition and what we call
+aggradation or building up of sediment.
+We're going to keep depositing sediment
+in that valley and on that stream and
+we're going to build up the land from
+the bottom. So just some fun things to
+think about in terms of base level. You
+might start to think about um different
+ways in which base level can change um
+again naturally through different
+processes.
+Okay, so let's do our uh quiz questions
+here to wrap up this episode. So here is
+your first quiz question. So let's say
+we have a dam that's constructed across
+a river. And as you construct that dam,
+you impound the water uh behind uh the
+dam to form a reservoir. So the stream
+gradient above the dam is now blank,
+likely resulting in blank. And you have
+five options here. So go ahead and pause
+the video so you can think about this
+and answer the
+question. Okay, let's go ahead and talk
+about this. So it's just exactly like we
+just went over with base level. That dam
+across the river has risen the stream's
+base level, right? The stream used to
+flow down to some other destination
+location. But by constructing the dam
+upstream of the dam, we now have created
+an artificial new base level. So by
+bringing base level up, that's going to
+cause the stream gradient to be reduced.
+So it's not as steep as it was
+previously. And because that is not as
+steep, we're going to see sediment being
+deposited there. So our best answer
+there looks like was B. B was the
+correct answer. Reducing the gradient
+and that would result in the deposition
+of sediment. All right, how'd you do on
+that one? Hopefully you did well. Let's
+do one more click or one more quiz
+question here. Uh this one, a little bit
+of numbers and a little bit of uh
+quantification. So this one you're going
+to calculate the discharge of a stream.
+So I have some information for you about
+this specific stream. It has a
+cross-sectional area of about 60 square
+ft. And I apologize, these are in uh all
+English units, but just change it to
+meters if you want to and just change
+these to cubic meters/s. It's all the
+same. So 60 square ft, the stream is 40
+m long. It has a gradient of 3 ft per
+mile and it has a velocity of 10 ft per
+second. So given those that bit of
+information, go ahead and see if you can
+calculate calculators are allowed here.
+Uh the gra excuse me, the discharge of
+this stream. How much water is it
+carrying? Go ahead and pause the video
+if you need to take a
+minute. Alrighty, let's go ahead and
+work this through together. Well, this
+one's a little tricky because you might
+have been looking at all these numbers
+and maybe you were overwhelmed and maybe
+you checked out already. Um, well, as we
+look at these numbers, welcome to
+information overload. You don't need all
+of this data in order to figure out the
+discharge of a stream. The discharge of
+a stream is the area times the velocity.
+The discharge of a stream, do we need to
+know that it's 40 miles long? No.
+Because the discharge of that stream
+would change all along those 40 mi that
+40 mile length. It would be constantly
+changing as more streams join it or
+groundwater flows into it. So that does
+that's not relevant. The 40 mile length
+is not relevant. the gradient of the
+stream which is important and we've
+looked talked about that already um has
+no bearing on the discharge either. What
+we just need to know is what is the
+cross-sectional area of the stream
+channel and how much water is it
+carrying in terms of or what's the
+velocity of that water as it moves
+downstream. The other way you might have
+tackled this is just look at what units
+you need. You need three units of feet
+and one unit of seconds. And the only
+way to get that is to take 60 square
+feet. That gives you two units of feet
+and times it by the 10 feet per second.
+And so the answer here again was B. 600
+cubic feet per second. That is the
+discharge of this stream. Area times
+velocity. Good stuff. Who who loves who
+doesn't love a good quiz with some
+numbers and math? I do. I think it's
+great. All righty, friends. Uh that is
+episode 34. How streams work. And in the
+next episode, we'll look at some of the
+land forms created by streams and we'll
+talk a little bit about floods. Thanks
+for your support of the channel. Hope
+you enjoyed this episode and take care.

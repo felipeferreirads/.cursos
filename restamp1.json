@@ -1,0 +1,305 @@
+{
+ "updates": [
+  {
+   "file": "01-fundamentos-e-metodo/01-fundamentos-e-metodo-auditoria.md",
+   "synced_hash": "bebf7c4fb31d7835a9697ea5524a03977dbe029c2911854f2f9cb582085643cf",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-02-o-presente-e-a-chave-do-passado.md",
+   "synced_hash": "fa003ee2f468dfd7890564b8d1fa9e0574d929adeb07c05a194b56bb55c265a5",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "06-gemologia/06-gemologia-aula-01-o-que-e-gema-especie-variedade-nome-comercial.md",
+   "synced_hash": "53daad01899c5e406d38712924e2f8d22c5f6b508db5c18f689a12e8baf9a215",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "06-gemologia/06-gemologia-aula-02-origem-da-cor-nas-gemas.md",
+   "synced_hash": "324683377b4d6282099d5f20c24c8528c62e4ce6093a2a30441c70a902691acd",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "06-gemologia/06-gemologia-aula-03-propriedades-diagnosticas-gemologicas.md",
+   "synced_hash": "4fa78cfbfb27ca5a0b01c4d1314c154ea15e8817f98516f08e2109c46c4392c4",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "06-gemologia/06-gemologia-aula-04-refratometro-e-polariscopio.md",
+   "synced_hash": "8154cdea9800df51774918f8b6bf84cedc45042a094504ef59dd4a7059c2b4e9",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "06-gemologia/06-gemologia-aula-05-dicroscopio-espectroscopio-lupa-microscopio.md",
+   "synced_hash": "53708f510e6e7732bef2d5bd64ad354aeaf8a606057abeb3c6a3640c4f8308ec",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "06-gemologia/06-gemologia-aula-06-fluxo-de-identificacao-gemologica.md",
+   "synced_hash": "9ad20dadac07a9075c2b32cb4058347b84801c745907fba230ea5c5d267ca74d",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "06-gemologia/06-gemologia-aula-07-diamantes-cor-e-pureza.md",
+   "synced_hash": "8777e0533333cd1283b8bcfe91730bf9a2bfa067ae82d1b591565bac1ce9cea0",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "06-gemologia/06-gemologia-aula-08-diamantes-lapidacao-peso-e-valor.md",
+   "synced_hash": "504d263be9279507b8cd01220a32f04f7782a5d0a4933aab2ff0ab516ef86702",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "06-gemologia/06-gemologia-aula-09-principais-gemas-coradas.md",
+   "synced_hash": "3e196a31cbd8dd5a8ceac931c58359f56d34dbabe16692913eea6301bb33f066",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "06-gemologia/06-gemologia-aula-10-tratamentos-sinteticos-e-imitacoes.md",
+   "synced_hash": "c71837ef11dd68601de800c4279cc5fc76531e1d0f480d63d7635e6bad62e96d",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "06-gemologia/06-gemologia-aula-11-proveniencia-laudos-e-fatores-de-valor.md",
+   "synced_hash": "ae39acd7181b13694505cea3609a78cbee45d6687143bef76534aff0a9a2d5c6",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "07-rochas-igneas/07-rochas-igneas-aula-05-corpos-intrusivos-e-extrusivos.md",
+   "synced_hash": "e7baaf2d6582348d9dc80309ceebb693efe86b3926cd87f45c9bc58b5f7c1321",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "07-rochas-igneas/07-rochas-igneas-modulo.md",
+   "synced_hash": "671d5cfa74a7a94d330f2d17993e18b7f455711a33b7144f459cb91b4b4c1d6a",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "08-rochas-sedimentares/08-rochas-sedimentares-aula-01-intemperismo-sedimentos-e-maturacao.md",
+   "synced_hash": "8749ac0fdac6c4353f2d3c502efd73f7f56d2a7c17aaf93662d7478dd438b1b6",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "08-rochas-sedimentares/08-rochas-sedimentares-aula-02-diagramas-ternarios-e-granulometria.md",
+   "synced_hash": "99e2666658e3a318102a1d2dc49d13d094ce63cf32589866e6500fd23193a93d",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "08-rochas-sedimentares/08-rochas-sedimentares-aula-03-classificacao-siliciclasticas-folk.md",
+   "synced_hash": "29975f79891c2f39f30af0b3ca58c95d05b21a4bff09dee50ae6dcdc26606b36",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "08-rochas-sedimentares/08-rochas-sedimentares-aula-04-classificacao-carbonaticas-dunham-e-folk.md",
+   "synced_hash": "9d2186534f3225901731363e5cd1d865e8ce2c7f28c95e4a377a41dfba2f9359",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "08-rochas-sedimentares/08-rochas-sedimentares-aula-05-rochas-quimicas-evaporiticas-e-organicas.md",
+   "synced_hash": "21c35b87da558c409f77f772a449f8700dcf36d6aec67b23e09241c56cc006a6",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "08-rochas-sedimentares/08-rochas-sedimentares-aula-06-diagenese.md",
+   "synced_hash": "2b594eac811df04ce49c0e8ce11e0a0457dae0d2a36db30f3b55d12d6c2f66be",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "08-rochas-sedimentares/08-rochas-sedimentares-aula-07-estruturas-sedimentares-e-interpretacoes.md",
+   "synced_hash": "a3f289b2ce10c1fe3b2ff5bf89166645f54abecd4c3236d972cfd2cdea33741e",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "09-rochas-metamorficas/09-rochas-metamorficas-aula-01-o-que-muda-sem-derreter.md",
+   "synced_hash": "8227efe65a4496df584deab13c56d44305a219232eee2a5c24d77d12adb37c4a",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "09-rochas-metamorficas/09-rochas-metamorficas-aula-02-tipos-de-metamorfismo.md",
+   "synced_hash": "aa163ffc7c0398ae2b228bd35473a02efa83427745e107497fe3c92931d44d82",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "09-rochas-metamorficas/09-rochas-metamorficas-aula-03-texturas-e-estruturas.md",
+   "synced_hash": "cf5eab706bb6d2ad71a4160289bf69637239d5b3e20a043fb80917198ee06825",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "09-rochas-metamorficas/09-rochas-metamorficas-aula-04-como-ler-diagramas-pt.md",
+   "synced_hash": "843d473e3eb88482d93d0ba7b04b040019002dda2ae638bd15c91713cac2c020",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "09-rochas-metamorficas/09-rochas-metamorficas-aula-05-grau-e-facies-metamorficas.md",
+   "synced_hash": "794c6b79d6704cec32ee0531c6f821213ec1e47920c1723e42fc3325e4c62e41",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "09-rochas-metamorficas/09-rochas-metamorficas-aula-06-classificacao-e-protolitos.md",
+   "synced_hash": "71ccd66d27733efd7810c91c32bfcce6a593fb331783971095e58597c01a6555",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "10-geoquimica/10-geoquimica-aula-01-energia-calor-e-equilibrio.md",
+   "synced_hash": "436155aa499180626c9c499f115863e6a9a7064e1e24b4cece822999c96055b5",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "10-geoquimica/10-geoquimica-aula-02-goldschmidt-e-o-destino-dos-elementos.md",
+   "synced_hash": "4224420c733321e34f2110ba415ec8eac155415c174044271db026bc4610b39b",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "10-geoquimica/10-geoquimica-aula-03-elementos-e-particao.md",
+   "synced_hash": "0446af79ac48f31d3d4a4af56b42d2b770cecc52b7b4173be5a318b92027d0ad",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "10-geoquimica/10-geoquimica-aula-04-fases-e-geotermobarometria.md",
+   "synced_hash": "045d031796723b34fb170e3a59c44f887e76afd197173cc43d674ec2acee8f22",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "10-geoquimica/10-geoquimica-aula-05-isotopos-radiogenicos-e-fontes.md",
+   "synced_hash": "d01c29cf39abc136e8a360758f0aeb1ada4ff55b3e781bf64d2c5053f4682718",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "10-geoquimica/10-geoquimica-aula-06-isocronas-concordia-e-discordia.md",
+   "synced_hash": "663c0fb31ff6011860ff7a4c98a308836c3c8fc924475f87b2a8670959d4abe8",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "10-geoquimica/10-geoquimica-aula-07-isotopos-estaveis.md",
+   "synced_hash": "2e7e24f6fea375b96fec89a9ce7ca8001efc1c293e600293db23f6895199c7b6",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "10-geoquimica/10-geoquimica-aula-08-ciclos-aplicacoes-e-limites.md",
+   "synced_hash": "653a6e74075b3d516c7670d45963e6101aa87b77574188aa79d11f83e53418ad",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "11-vulcanologia/11-vulcanologia-aula-01-formas-dos-vulcoes.md",
+   "synced_hash": "c85ebe7abaa1f60d12c30d8364c069f50c0acf81161fd185104dec58a3c57f05",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "11-vulcanologia/11-vulcanologia-aula-02-viscosidade-volateis-e-explosividade.md",
+   "synced_hash": "428388ef18e8086013f570e42dd22f66f4e23824df089ab3b41362cde9d47caa",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "11-vulcanologia/11-vulcanologia-aula-03-estilos-eruptivos-e-vei.md",
+   "synced_hash": "0dc7f01a9a31e416caec5a8d5245ba1b02c65198697a7999aa119114f121072c",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "11-vulcanologia/11-vulcanologia-aula-04-produtos-e-depositos-vulcanicos.md",
+   "synced_hash": "49f4c87a32b0c9cc728ee9ec3d2d21b6f972e9772f32bb96ae832e04cc7cf48d",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "11-vulcanologia/11-vulcanologia-aula-05-riscos-e-monitoramento.md",
+   "synced_hash": "8077c31272fd20c3b42110279c558e475fbe9515ed4d0082c05e17de5c32420f",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "11-vulcanologia/11-vulcanologia-aula-06-vulcanismo-placas-e-clima.md",
+   "synced_hash": "bfdf68d3c274ad94cf929c6e4bf4e40c21449c142af0b802f0a928d97e3cd468",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-aula-01-intemperismo-fisico-e-quimico.md",
+   "synced_hash": "2e61240361b602b89ac162ca5e7a6d3c2aa5e862664e62b4b76545b43470f42f",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-aula-02-formacao-e-horizontes-do-solo.md",
+   "synced_hash": "2ba27fe5e4bc816eb89b1697962d79ee2fe8e8fa673a486f183031ff91874e3e",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-aula-03-rios-erosao-transporte-e-deposicao.md",
+   "synced_hash": "be1efc050c065f7baece1714b6bb3eed289e5d49dc068b855b05e29b5649731f",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-aula-04-formas-fluviais-e-bacias-de-drenagem.md",
+   "synced_hash": "00a4a37490652ab5587833125b415f9c366fcba2ca0624dcfa13e073cabff852",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-aula-05-relevos-costeiros.md",
+   "synced_hash": "642babd2a06154e6de63cf7e2ebf873ee3b8412df573572329112b60ac2ca7c4",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-aula-06-relevos-eolicos-e-deserticos.md",
+   "synced_hash": "05268e759c8a3291c1765d8675ce5cf70461f472dcfa7e438d1525371741ccef",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-aula-07-processos-de-encosta-e-movimentos-de-massa.md",
+   "synced_hash": "3aa9fa55482af3930721d52ef1f60d6e2b34baf5a8361fc3e434df3ae2be4d60",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "13-glaciologia/13-glaciologia-aula-01-tipos-de-geleira-e-balanco-de-massa.md",
+   "synced_hash": "6ebb884275dd94b33cbc2b7149255e16c8ec6372dd35c445abc89928fa2a3224",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "13-glaciologia/13-glaciologia-aula-02-fluxo-glacial-e-erosao.md",
+   "synced_hash": "17d8955281a304801b11f8ce6a16ae7c52c10215437b6906df13db5a3eeca069",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "13-glaciologia/13-glaciologia-aula-03-formas-e-depositos-glaciais.md",
+   "synced_hash": "8ba7977d0a27f5e9ea7b0e038d4e9827c3aac2190fd8d61d5b42f278fe12183a",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "13-glaciologia/13-glaciologia-aula-04-glaciacoes-estratigrafia-e-paleoclima.md",
+   "synced_hash": "d779de7de9c7f7fce460e72156f372c64f49e1ec7cbb1edac83014bb91845c76",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "13-glaciologia/13-glaciologia-aula-05-criosfera-atual-e-mudancas-em-curso.md",
+   "synced_hash": "1b4f2012f02d6e8e7af4e085986917f8068b12520bbbf5847f1e17bac6d334bc",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "14-sedimentologia-ambientes/14-sedimentologia-ambientes-aula-01-facies.md",
+   "synced_hash": "6d7e194383c32c4b7f5f5f583ba548e211148f043c7b4cb479e24b18d63d6f32",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "14-sedimentologia-ambientes/14-sedimentologia-ambientes-aula-02-lei-de-walther.md",
+   "synced_hash": "6fa96217e3396873b8d2d866c662a35aa214086677c4920852d3b234c12c8f81",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "14-sedimentologia-ambientes/14-sedimentologia-ambientes-aula-03-ambientes-continentais.md",
+   "synced_hash": "2d3119416016276fdbc3374f8a5aa51ee46c5dfb3f4ff40a8b367a76496943c6",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "14-sedimentologia-ambientes/14-sedimentologia-ambientes-aula-04-ambientes-transicionais-e-costeiros.md",
+   "synced_hash": "9d3d61844829b2821067fad332154709f0c96cb24696b790028c99d4cb3ce0c6",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "14-sedimentologia-ambientes/14-sedimentologia-ambientes-aula-05-ambientes-marinhos.md",
+   "synced_hash": "1744cfe11f7c8cb11ee0cb38a81135ebcb51164e04f800e1b1e5fcf70d04fe74",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  },
+  {
+   "file": "14-sedimentologia-ambientes/14-sedimentologia-ambientes-aula-06-sistemas-deposicionais.md",
+   "synced_hash": "946b94282046a77eb74b50c7721239dafe8a4e6d1cb5fb3f9fd34ea638d92867",
+   "synced_at": "2026-08-19T00:00:00-03:00"
+  }
+ ],
+ "creates": []
+}

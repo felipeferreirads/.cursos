@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "module",
+    "path": "24-machine-learning-geociencias",
+    "module_id": "24",
+    "course_id": "curso-geologia-avancado"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-09-21",
+  "fixed_at": "2026-09-21",
+  "verdict": "aprovado",
+  "verdict_note": "AUDITORIA EM DUAS PASSAGENS. A passagem 1 (2026-09-20) NAO deixou relatorio em disco: a sessao aplicou correcoes e gravou as alegacoes nos metadados das aulas, mas terminou antes de escrever auditoria.md, auditoria.json e o bloco audit do course-state.yaml. Dela sobreviveram SEIS marcas explicitas nos metadados (ACHADO N DA AUDITORIA de 2026-09-20): achados 1 (a03, escala e nao multicolinearidade), 2 (a04, a inercia com k=1 e n vezes a variancia total, nao igual a ela), 3 (a02, get_dummies devolve booleano), 5 (a04, 36 do limiar contra 39 do rotulo), 8 (a03, GLS no lugar da expressao ambigua regressao linear generalizada) e 9 (a01, ViT lideram os referenciais de larga escala). Os achados 4, 6 e 7 daquela passagem foram aplicados sem deixar marca e NAO SAO RECONSTRUTIVEIS - isso fica declarado, nao disfarcado. A NUMERACAO NAO FOI RECICLADA: esta passagem 2 comeca em 10, para que as marcas ja gravadas nas aulas continuem apontando para o que apontam. METODO DESTA PASSAGEM: os 22 blocos de codigo das seis aulas foram extraidos e executados NA CADEIA DECLARADA (a02+a03+a05 num unico namespace, porque a a05 nao recarrega dados; a04 e a06 isoladas), em ambiente identico ao declarado (Python 3.13.2, NumPy 2.5.1, pandas 3.0.3, scikit-learn 1.9.1, Matplotlib 3.11.2), e cada saida foi comparada digito a digito com o texto. NENHUMA SAIDA NUMERICA DECLARADA NO MODULO ESTA ERRADA - os 30 itens azuis de execucao registram isso. O unico achado vermelho e de CONTINUIDADE DE CODIGO, nao de conteudo, e so aparece quando os blocos rodam na cadeia real: os cinco blocos da a05 usavam os nomes da particao de regressao da a03 em tarefas de classificacao e levantavam excecao. Os 9 achados numerados (1 vermelho, 5 laranjas, 3 amarelos) foram TODOS CORRIGIDOS. As Aulas 01 e 04 passaram integralmente nesta passagem e nao precisaram de edicao. Nenhum achado azul-escuro (sem fonte) nem branco (controverso) foi levantado, e isso e justificado em no_blue_no_white_note. 0 vermelhos e 0 laranjas em aberto: GATE LIBERADO para questionario e flashcards, observadas as SEIS restricoes em assessment_gate.restrictions. Nenhum material derivado existia (sem questionario, sem baralho, sem glossario): nao houve propagacao externa e NAO HA CARD JA IMPORTADO NO ANKI A CORRIGIR A MAO.",
+  "summary": {
+    "red": 1,
+    "orange": 5,
+    "yellow": 3,
+    "blue": 41,
+    "white": 0,
+    "red_open": 0,
+    "orange_open": 0,
+    "yellow_open": 0,
+    "white_open": 0,
+    "red_fixed": 1,
+    "orange_fixed": 5,
+    "yellow_fixed": 3,
+    "numbered_findings": 9,
+    "numbered_findings_pass_1_recovered": 6,
+    "numbered_findings_pass_1_lost": 3,
+    "numbered_findings_both_passes": 15,
+    "declared_claims_at_writing": 38,
+    "claims_raised_by_pass_1": 5,
+    "claims_raised_by_pass_2": 8,
+    "claims_declared_in_files_now": 51,
+    "claims_tracked": 51,
+    "unaudited_claims": 0,
+    "code_blocks_executed": 22,
+    "code_outputs_wrong": 0,
+    "blue_note": "41 itens azuis: 30 de execucao (B1 a B30, cobrindo os 22 blocos de codigo, a aritmetica dos exemplos trabalhados e a verificacao final de que os 22 blocos rodam em cadeia depois da correcao do achado 10) e 11 de conceito/fonte (B31 a B41), dos quais 5 sao verificacoes contra os arquivos do proprio curso (Modulo 20 Aulas 01, 02 e 05; Modulo 23 Aula 01) que PASSARAM - o unico que falhou virou o achado 16.",
+    "bibliography_note": "Toda a bibliografia das seis aulas foi conferida referencia por referencia (autor, ano, veiculo, volume, fasciculo, paginas, DOI) e NENHUMA ESTA ERRADA - primeiro modulo computacional do curso em que isso acontece, contra 3 amarelos bibliograficos no Modulo 22. Destaque: as paginas de McKinney (2010) circulam em duas versoes (51-56 e 56-61) e a aula usa 56-61, que e a citacao oficial da propria pandas - corrigir para 51-56 teria INTRODUZIDO um erro. Tambem confirmados: Bergen et al. 2019 Science 363(6433) eaau0323 DOI 10.1126/science.aau0323; Roberts et al. 2017 Ecography 40(8) 913-929 DOI 10.1111/ecog.02881; ESL 2a ed. secao 9.6 = Missing Data e 14.3.6 = K-means; Breiman 2001 Machine Learning 45(1) 5-32; Dosovitskiy et al. 2021 ICLR arXiv:2010.11929; Rossi & Deutsch 2014 cap. 4, coerente com o que os Modulos 21 e 22 do curso ja estabeleceram da mesma fonte.",
+    "no_blue_no_white_note": "Nenhum azul-escuro (sem fonte): toda alegacao do modulo e (i) saida de codigo, verificavel por execucao, (ii) definicao ou propriedade matematica demonstravel (MAE menor ou igual a RMSE, R2 negativo, inercia igual a n*p sob padronizacao, LOO como caso extremo de k-fold, colapso algebrico de camadas lineares sem ativacao), ou (iii) comportamento documentado de biblioteca na versao exata instalada. Nenhuma e afirmacao empirica sobre o mundo geologico dependente de dado de campo nao publicado - o conjunto de dados e declaradamente sintetico, e a aula e explicita nisso. Nenhum branco (controverso): o modulo opera sobre consenso metodologico; as duas afirmacoes potencialmente controversas foram examinadas - CNN contra ViT (a01), reescrita na passagem 1 para nao atribuir consenso a um lado, e a predominancia do criterio geologico na definicao de dominios (a04), ancorada em Rossi & Deutsch cap. 4, coerente com os Modulos 21 e 22 e apresentada como enfase relativa, nao regra absoluta.",
+    "dominant_pattern": "O MODULO ACERTA O QUE CALCULA E ESCORREGA NO QUE CONTA SOBRE O CALCULO. Nenhum dos nove achados e um numero errado; todos sao de segunda ordem - o que falha e a frase que interpreta o resultado. Tres assinaturas: (1) interpretacao de importancia de variavel sem as ressalvas dos metodos (achados 11 e 13 - as duas limitacoes estao documentadas na MESMA pagina do scikit-learn, uma ao lado da outra); (2) comparacao que atravessa a fronteira da metrica (achado 14); (3) credito a aula anterior que a aula anterior nao sustenta (achado 16) - pela TERCEIRA vez no curso, depois dos Modulos 22 e 23. COROLARIO PARA OS MODULOS SEGUINTES: quando a aula cita outra aula do proprio curso, a citacao e o ponto de falha mais provavel do texto, porque e a unica fonte que o autor nao abre para conferir - ele lembra do que escreveu. Quarto ponto: o achado 18 mostra que a passagem 1 corrigiu o CORPO da a03 e esqueceu o CABECALHO da mesma aula e o HUB - propagacao incompleta dentro do mesmo arquivo e o modo de falha mais silencioso de uma correcao."
+  },
+  "pass_1_recovered_findings": [
+    {
+      "number": 1,
+      "lesson": "a03",
+      "claim_id": "MLGEO-M24-A03-COEFICIENTES-ESCALA-008",
+      "fixed": "a aula atribuia a desproporcao do coeficiente de As a multicolinearidade; a causa direta e a escala da variavel"
+    },
+    {
+      "number": 2,
+      "lesson": "a04",
+      "claim_id": "MLGEO-M24-A04-INERCIA-K1-008",
+      "fixed": "a inercia com k=1 era dita equivalente a variancia total multivariada; ela e n vezes essa variancia (erro de fator 60)"
+    },
+    {
+      "number": 3,
+      "lesson": "a02",
+      "claim_id": "MLGEO-M24-A02-GETDUMMIES-DTYPE-007",
+      "fixed": "a saida declarada de get_dummies era 1/0; o padrao do pandas 3.0 e booleano (True/False)"
+    },
+    {
+      "number": 5,
+      "lesson": "a04",
+      "claim_id": "MLGEO-M24-A04-LIMIAR-CONTAGEM-009",
+      "fixed": "as 39 amostras anomalas eram atribuidas ao limiar sozinho; sao 36 do limiar mais 4 menos 1 de ruido de rotulo"
+    },
+    {
+      "number": 8,
+      "lesson": "a03",
+      "claim_id": "MLGEO-M24-A03-KRIGAGEM-REGRESSAO-006",
+      "fixed": "regressao linear generalizada (ambiguo) trocado por minimos quadrados generalizados (GLS), com a advertencia GLS diferente de GLM"
+    },
+    {
+      "number": 9,
+      "lesson": "a01",
+      "claim_id": "MLGEO-M24-A01-CNN-VIT-ESTADO-ARTE-006",
+      "fixed": "CNN apresentada como estado da arte em classificacao de imagem; hoje os ViT lideram os referenciais de larga escala"
+    }
+  ],
+  "pass_1_lost_findings_note": "Os achados 4, 6 e 7 da passagem 1 foram aplicados ao corpo das aulas sem deixar marca nos metadados e nao sao reconstrutiveis: nenhum arquivo em disco os documenta. A passagem 2 releu o modulo inteiro do zero, de modo que qualquer problema remanescente estaria agora capturado pelos achados 10 a 18 - mas o registro historico deles esta perdido.",
+  "findings": [
+    {
+      "number": 10,
+      "severity": "red",
+      "nature": "inconsistencia_interna",
+      "claim_id": "MLGEO-M24-A05-NAMESPACE-CONTINUIDADE-008",
+      "lesson": "a05",
+      "title": "Os cinco blocos de codigo da Aula 05 nao rodam no ambiente que a propria aula declara",
+      "as_written": "cm = confusion_matrix(y_test, pred); classification_report(y_test, pred, digits=3); DecisionTreeClassifier(...).fit(X_train, y_train); cross_val_score(rfc, X, y, scoring=accuracy); cross_val_score(LinearRegression(), X, y_reg, ...)",
+      "problem": "A Aula 05 nao recarrega dados nem refaz particoes: roda no ambiente da Aula 03, onde y/y_train/y_test/pred sao os objetos da tarefa de REGRESSAO (alvo Au_ppb). Os quatro primeiros blocos sao de CLASSIFICACAO e usam esses nomes, levantando excecao (ValueError continuous is not supported / Unknown label type: continuous / All the 5 fits failed); o quinto usa y_reg, nome que nao existe nas Aulas 02, 03 ou 05 (NameError). Toda Saida esperada da aula e, como escrita, inalcancavel - embora os numeros declarados estejam todos corretos com os objetos certos. E vermelho porque a saida declarada e factualmente falsa e o aluno nao tem como descobrir sozinho que o erro esta no material, nao no que ele digitou.",
+      "correction_applied": "Os cinco blocos passaram a usar os nomes da Aula 03 (y_test2, pred_logit, X_train2/y_train2/X_test2/y_test2, y2 para classificacao e y para regressao) e um paragrafo Continuidade de codigo foi acrescentado antes do primeiro bloco, declarando os objetos herdados e avisando que a troca de particao produz erro, nao numero errado. Dois ajustes de entorno por coerencia.",
+      "source": "Execucao direta dos cinco blocos no namespace declarado (Python 3.13.2, scikit-learn 1.9.1); mensagens de erro transcritas no relatorio. Apos a correcao, os 22 blocos das seis aulas rodam na sequencia declarada sem nenhuma falha.",
+      "source_level": "execucao",
+      "confidence": "confirmado",
+      "affected_files": [
+        "24-machine-learning-geociencias/24-machine-learning-geociencias-aula-05-avaliacao-desempenho-sobreajuste-validacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-21",
+      "audit_pass": 2
+    },
+    {
+      "number": 11,
+      "severity": "orange",
+      "nature": "omissao_que_gera_erro",
+      "claim_id": "MLGEO-M24-A03-MDI-VIES-CARDINALIDADE-009",
+      "lesson": "a03",
+      "title": "feature_importances_ usada como teste de sanidade sem a ressalva de vies de cardinalidade",
+      "as_written": "a de menor importancia de todas e justamente litologia_xisto, quase zero, sugerindo que a informacao de litologia ja esta capturada indiretamente pelos teores geoquimicos correlacionados a ela; e no Recap: a feature_importances_ da floresta ja e adimensional e nao precisa dessa correcao",
+      "problem": "A importancia por reducao de impureza e documentadamente enviesada a favor de variaveis de alta cardinalidade (continuas) e contra binarias. Na floresta de classificacao da mesma aula, cota_m (puro ruido por construcao) recebe 0.086, MAIS que litologia_xisto (0.025), que carrega informacao geologica real. A aula usa a medida como teste de sanidade sem dizer que o instrumento tem vies capaz de inverter a ordem entre ruido e variavel verdadeira - e sem notar que na sua propria tabela ele inverteu. O aluno sai com a leitura de que a litologia nao informa nada, quando parte daquele zero e artefato do metodo.",
+      "correction_applied": "Tres edicoes: ressalva com o vies nomeado mais o contraexemplo do proprio modulo (0.086 contra 0.025) e encaminhamento para a importancia por permutacao da Aula 06; apontamento da inversao onde os dois numeros aparecem na secao de classificacao; e nao precisa dessa correcao DE ESCALA - mas tem um vies proprio, no Recap.",
+      "source": "Documentacao oficial scikit-learn 1.9.1, 5.2 Permutation feature importance (scikit-learn.org/stable/modules/permutation_importance.html), consultada em 2026-09-21: importancias por impureza sao strongly biased e favor high cardinality features (typically numerical features) over low cardinality features such as binary features; permutation-based feature importances do not exhibit such a bias.",
+      "source_level": "documentacao normativa da biblioteca",
+      "confidence": "confirmado",
+      "affected_files": [
+        "24-machine-learning-geociencias/24-machine-learning-geociencias-aula-03-modelagem-supervisionada-regressao-classificacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-21",
+      "audit_pass": 2
+    },
+    {
+      "number": 12,
+      "severity": "orange",
+      "nature": "inconsistencia_interna",
+      "claim_id": "MLGEO-M24-A06-CONVERGENCIA-007",
+      "lesson": "a06",
+      "title": "A rede converge contradiz o ConvergenceWarning que a propria aula produz",
+      "as_written": "a rede converge (depois de atingir o limite de 5.000 iteracoes sem sinal claro de estabilizacao, um aviso adicional de que o ajuste esta no limite) para uma solucao que reproduz o treino quase exatamente e generaliza mal",
+      "problem": "A frase afirma e nega a mesma coisa em dez palavras. mlp_reg.n_iter_ = 5000: o treinamento termina por ESGOTAR o limite, e o scikit-learn emite ConvergenceWarning, impresso na tela junto com os resultados e nao anunciado em nenhuma Saida esperada - embora o metadado -REGRESSAO-SOBREAJUSTE-004 o registre corretamente. O aluno ve um aviso que o texto nao previu, sobre um fenomeno que o texto nega. Por contraste, os dois MLPClassifier convergem de fato (2514 de 3000 iteracoes) e nao emitem aviso.",
+      "correction_applied": "Frase reescrita: a rede NAO converge, o treinamento termina por esgotar o limite de 5000 iteracoes, o scikit-learn imprime um ConvergenceWarning junto com os numeros acima, e ela para numa solucao que reproduz o treino quase exatamente e generaliza mal.",
+      "source": "Execucao direta do bloco com captura explicita de avisos (scikit-learn 1.9.1): n_iter_=5000 com ConvergenceWarning no MLPRegressor; n_iter_=2514 sem aviso no MLPClassifier.",
+      "source_level": "execucao",
+      "confidence": "confirmado",
+      "affected_files": [
+        "24-machine-learning-geociencias/24-machine-learning-geociencias-aula-06-deep-learning-aplicacoes-estudos-caso.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-21",
+      "audit_pass": 2
+    },
+    {
+      "number": 13,
+      "severity": "orange",
+      "nature": "omissao_que_gera_erro",
+      "claim_id": "MLGEO-M24-A06-PERMUTACAO-CORRELACAO-008",
+      "lesson": "a06",
+      "title": "Importancia por permutacao declarada consistente com a da floresta, omitindo a divergencia que mais ensina",
+      "as_written": "O padrao qualitativo - Cu_ppm dominando, a variavel geograficamente irrelevante (cota_m) entre as mais baixas - e consistente com o que a importancia de variavel da floresta (Aula 03) ja havia mostrado",
+      "problem": "Verdadeiro nos dois aspectos que escolhe citar e silencioso sobre o terceiro, o mais visivel: dist_falha_m e a segunda mais importante na floresta de regressao (0.240) e na de classificacao (0.261), e na permutacao do MLP vale -0.002. Chamar o conjunto de consistente sugere concordancia entre metodos que divergem numa variavel central, e reabre a leitura errada (que a Aula 03 desmontou) de que a distancia a falha e irrelevante. Causa documentada: r = -0.90 com Cu_ppm, e a importancia por permutacao dilui variaveis correlacionadas.",
+      "correction_applied": "Paragrafo acrescentado nomeando a divergencia com os tres numeros (0.240 / 0.261 / -0.002), dando a causa documentada, amarrando ao raciocinio do coeficiente parcial pequeno da Aula 03 e fechando com a simetria dos pontos cegos dos dois metodos; mesma ressalva em uma linha no Recap.",
+      "source": "Documentacao oficial scikit-learn 1.9.1, 5.2 Permutation feature importance, secao Misleading values on strongly correlated features, consultada em 2026-09-21: When two features are correlated and one of the features is permuted, the model still has access to the latter through its correlated feature. This results in a lower reported importance value for both features, though they might actually be important.",
+      "source_level": "documentacao normativa da biblioteca",
+      "confidence": "confirmado",
+      "affected_files": [
+        "24-machine-learning-geociencias/24-machine-learning-geociencias-aula-06-deep-learning-aplicacoes-estudos-caso.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-21",
+      "audit_pass": 2
+    },
+    {
+      "number": 14,
+      "severity": "orange",
+      "nature": "confusao_de_escopo",
+      "claim_id": "MLGEO-M24-A06-COMPARACAO-METRICAS-009",
+      "lesson": "a06",
+      "title": "Os seis modelos ordenados num ranking unico, misturando R2 com acuracia",
+      "as_written": "entre os seis modelos treinados neste modulo (...), o de maior capacidade nominal (a rede de regressao, com 257 parametros) produziu o pior resultado de todos",
+      "problem": "Nao existe a operacao pressuposta: tres modelos sao avaliados por R2/MAE e tres por acuracia/F1, e nao ha transformacao que ponha as duas familias na mesma escala. O problema e agravado por ser a conclusao do resultado pedagogico mais forte do modulo - uma conclusao apoiada numa comparacao indefinida e fragil justamente onde precisa ser solida, sobretudo porque a versao correta e igualmente contundente e nao custa nada.",
+      "correction_applied": "Recorte restringido a o pior resultado entre os tres modelos de regressao - e o unico R2 negativo de todo o modulo, com parentese explicando por que os seis nao sao ordenaveis num ranking unico. O metadado -RESUMO-SEIS-MODELOS-006 recebeu a mesma correcao, porque repetia a formulacao antiga. O Recap da a06 nao precisou de correcao: la a comparacao ja estava restrita a regressao.",
+      "source": "Consequencia direta das definicoes formalizadas na Aula 05 do proprio modulo: R2 compara o erro do modelo com o de prever a media de um alvo continuo; acuracia e fracao de acertos de classe - medem grandezas diferentes de objetos diferentes.",
+      "source_level": "definicao interna consistente",
+      "confidence": "confirmado",
+      "affected_files": [
+        "24-machine-learning-geociencias/24-machine-learning-geociencias-aula-06-deep-learning-aplicacoes-estudos-caso.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-21",
+      "audit_pass": 2
+    },
+    {
+      "number": 15,
+      "severity": "orange",
+      "nature": "inconsistencia_interna",
+      "claim_id": "MLGEO-M24-A03-EXEMPLO-RF-PREVISOES-010",
+      "lesson": "a03",
+      "title": "O exemplo trabalhado anuncia uma comparacao lado a lado e nao a entrega",
+      "as_written": "Enunciado: compare, lado a lado, a previsao da regressao linear e da floresta aleatoria (regressao de Au_ppb) para as tres primeiras amostras do conjunto de teste; resolucao: Previsoes da floresta aleatoria: conferidas separadamente pelo codigo da aula.",
+      "problem": "O exemplo pede explicitamente uma comparacao entre dois modelos, apresenta os numeros de um so e despacha o outro com uma remissao vaga ao codigo da aula - que de fato imprime as metricas agregadas da floresta, nao as tres previsoes individuais pedidas. O aluno nao tem como fazer o que o enunciado manda com o que a aula da, e a metade faltante e justamente a que fecharia o raciocinio.",
+      "correction_applied": "Previsoes da floresta obtidas por execucao (7.65; 5.75; 21.18 ppb) e inseridas no lugar da remissao, seguidas de paragrafo novo com a aritmetica dos erros (0.22; 13.51; 11.29 -> MAE 25.02/3 = 8.34 ppb) e do fato que o calculo revela: nestas tres amostras a floresta sai MELHOR que a regressao linear (8.34 contra 9.08), o inverso do que vale nas 15 amostras completas (5.778 contra 5.128). A ordem entre dois modelos se inverte ao trocar a base de comparacao de 15 para 3 - o que REFORCA com evidencia a moral que o exemplo ja afirmava.",
+      "source": "Execucao direta do RandomForestRegressor(n_estimators=300, random_state=42) da aula sobre a mesma particao (scikit-learn 1.9.1): rf.predict(X_test)[:3] = [7.65, 5.75, 21.18]; aritmetica conferida a mao.",
+      "source_level": "execucao",
+      "confidence": "confirmado",
+      "affected_files": [
+        "24-machine-learning-geociencias/24-machine-learning-geociencias-aula-03-modelagem-supervisionada-regressao-classificacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-21",
+      "audit_pass": 2
+    },
+    {
+      "number": 16,
+      "severity": "yellow",
+      "nature": "atribuicao_interna_errada",
+      "claim_id": "MLGEO-M24-A02-ATRIBUICAO-M20-GRAFICOS-008",
+      "lesson": "a02",
+      "title": "Par de instrumentos graficos atribuido ao Modulo 20, Aula 01, que aquela aula nao usa",
+      "as_written": "o mesmo par de instrumentos graficos (histograma para distribuicao, dispersao para relacao entre duas variaveis) ja used no Modulo 20, Aula 01, para descrever dados de furo de sondagem antes da geoestatistica",
+      "problem": "O Modulo 20, Aula 01, usa histograma e BOXPLOT - e o titulo da propria secao la (Histograma, boxplot e o problema dos valores extremos). Grafico de dispersao NAO aparece naquela aula: a relacao entre duas variaveis e tratada algebricamente, por coeficiente de correlacao de Pearson e reta de regressao linear simples, e a palavra dispersao ocorre la apenas no sentido estatistico de espalhamento (medidas de dispersao), nunca como grafico. O aluno que voltar ao Modulo 20 para rever o grafico de dispersao nao o encontra e fica sem saber se perdeu algo ou se o material esta errado. No mesmo trecho havia o anglicismo used por usado.",
+      "correction_applied": "Trecho reescrito creditando ao Modulo 20 o que e dele - o histograma, ao lado do boxplot - e declarando que o grafico de dispersao e novo nesta aula, com a lembranca de que la a relacao entre duas variaveis entrava por via algebrica. O anglicismo foi corrigido na mesma edicao.",
+      "source": "Verificacao direta contra o arquivo do proprio curso 20-geoestatistica/20-geoestatistica-aula-01-preparacao-dados-estatistica-descritiva.md em 2026-09-21 (busca textual por dispersao, scatter e diagrama no arquivo inteiro).",
+      "source_level": "arquivo do proprio curso",
+      "confidence": "confirmado",
+      "affected_files": [
+        "24-machine-learning-geociencias/24-machine-learning-geociencias-aula-02-fluxo-trabalho-python-preparacao-exploracao-particionamento.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-21",
+      "audit_pass": 2
+    },
+    {
+      "number": 17,
+      "severity": "yellow",
+      "nature": "omissao_que_gera_erro",
+      "claim_id": "MLGEO-M24-A03-DDOF-DESVIO-011",
+      "lesson": "a03",
+      "title": "Desvio-padrao citado sem a convencao, e a reproducao com pandas da outro numero",
+      "as_written": "desvio-padrao de 7,7 ppm no treino, contra 330,5 ppm do cobre - e, no paragrafo seguinte, que multiplicar cada coeficiente pelo desvio-padrao da sua variavel EQUIVALE a reajustar o modelo sobre variaveis padronizadas (StandardScaler)",
+      "problem": "Os dois numeros sao os desvios POPULACIONAIS (divisor n, ddof=0), que e a convencao do StandardScaler - e e por isso que a equivalencia afirmada e exata. Mas a aula nao diz isso, e quem fizer o caminho natural (X_train.std() no pandas, cujo padrao e o divisor n-1) obtem 7.83 e 334.28, e efeitos padronizados 1.1% maiores que NAO coincidem mais com o ajuste sobre StandardScaler. Diante de numeros que nao fecham, a conclusao provavel do aluno e que o material esta errado - quando o material esta certo e a convencao e que estava implicita.",
+      "correction_applied": "Parentese ampliado para declarar que os desvios sao populacionais (divisor n, convencao do StandardScaler), registrar os valores que o pandas.std() devolve (7.8 e 334.3) e dizer que a equivalencia do paragrafo seguinte so e exata na convencao populacional.",
+      "source": "Documentacao oficial scikit-learn (StandardScaler, variancia populacional) e pandas (DataFrame.std, parametro ddof, padrao 1), versoes 1.9.1 e 3.0.3; ambos os conjuntos de valores confirmados por execucao em 2026-09-21.",
+      "source_level": "documentacao normativa da biblioteca mais execucao",
+      "confidence": "confirmado",
+      "affected_files": [
+        "24-machine-learning-geociencias/24-machine-learning-geociencias-aula-03-modelagem-supervisionada-regressao-classificacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-21",
+      "audit_pass": 2
+    },
+    {
+      "number": 18,
+      "severity": "yellow",
+      "nature": "propagacao_faltante",
+      "claim_id": "MLGEO-M24-A03-KRIGAGEM-REGRESSAO-006",
+      "lesson": "a03",
+      "title": "Propagacao faltante do achado 8 da passagem 1: cabecalho da Aula 03 e hub continuavam com a expressao removida",
+      "as_written": "a03, cabecalho: explicar por que a krigagem ordinaria e, formalmente, um caso particular de regressao linear generalizada; hub, item 3: a krigagem (Modulo 20) como caso particular de regressao linear generalizada",
+      "problem": "O achado 8 da passagem 1 existiu PRECISAMENTE para remover essa expressao, ambigua entre minimos quadrados generalizados (GLS, a familia a que a krigagem pertence) e modelo linear generalizado (GLM, a familia da regressao logistica ensinada na mesma aula) - e o proprio metadado registra que a expressao foi removida do texto. Ela foi removida do CORPO e ficou no CABECALHO da mesma aula e no HUB do modulo, que sao os dois lugares que o aluno le primeiro e que uma futura geracao de flashcards varreria. Uma correcao que nao alcanca o cabecalho do proprio arquivo nao esta aplicada.",
+      "correction_applied": "Cabecalho da a03 reescrito para pertence, formalmente, a familia dos minimos quadrados generalizados (GLS) - e por que isso nao e a mesma coisa que modelo linear generalizado (GLM); item 3 do hub reescrito para como membro da familia dos minimos quadrados generalizados (GLS, nao confundir com GLM).",
+      "source": "Cressie, N., Statistics for Spatial Data, ed. revisada (1993), Wiley, cap. 3 (krigagem como problema de minimos quadrados generalizados) - a mesma fonte do achado 8; e busca textual por linear generalizada em todos os .md do curso.",
+      "source_level": "livro de referencia mais arquivo do proprio curso",
+      "confidence": "confirmado",
+      "affected_files": [
+        "24-machine-learning-geociencias/24-machine-learning-geociencias-aula-03-modelagem-supervisionada-regressao-classificacao.md",
+        "24-machine-learning-geociencias/24-machine-learning-geociencias-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-21",
+      "audit_pass": 2
+    }
+  ],
+  "verified_and_correct": {
+    "by_execution": 30,
+    "by_source": 11,
+    "against_course_files": [
+      "Modulo 20 Aula 01: Pearson e regressao linear simples presentes, a extensao para multiplas variaveis e legitima (a02/a03 corretas)",
+      "Modulo 20 Aula 05: krigagem como BLUE e validacao cruzada leave-one-out presentes nos termos invocados (a03/a05 corretas)",
+      "Modulo 20: o Modulo 20 nao tratou explicitamente de agrupamento - verdadeiro, nenhuma das cinco aulas de la usa agrupamento (a04 correta)",
+      "Modulo 20 Aula 02: exigencia de estacionariedade dentro do dominio presente (a04 correta)",
+      "Modulo 23 Aula 01: o habito de prever o resultado antes de rodar esta la e e declarado como o habito que as aulas seguintes vao cobrar (a02 correta)"
+    ],
+    "worked_examples": "Os seis foram examinados; cinco passaram e o da a03 recebeu a metade que faltava (achado 15). Aritmetica refeita a mao: MAE 27.25/3 = 9.0833 (a03), inercia n*p = 60*3 = 180 (a04), 36-1+4 = 39 (a04), 192/200 = 0.96 e 0/8 = 0 (a05), e a tabela dos seis modelos da a06 conferida contra as execucoes das Aulas 03, 05 e 06. O exemplo das 200 encostas da a05 e hipotetico e internamente consistente, inclusive ao dizer que a precisao da classe rara e INDEFINIDA (0/0) e nao zero."
+  },
+  "assessment_gate": {
+    "released": true,
+    "restrictions": [
+      "NUNCA pedir para ordenar os seis modelos por desempenho (achado 14): R2 e acuracia nao sao comparaveis. Comparacoes validas: dentro da regressao (linear melhor que floresta melhor que MLP) ou dentro da classificacao (floresta melhor que logistica igual a MLP).",
+      "NUNCA formular card do tipo qual a variavel mais importante sem dizer POR QUAL METODO: a resposta muda (Zn_ppm pelo coeficiente padronizado; Zn_ppm e dist_falha_m pela impureza da floresta de regressao; Cu_ppm pela impureza da floresta de classificacao e pela permutacao do MLP). dist_falha_m vale 0.261 na floresta e -0.002 na permutacao (achado 13).",
+      "A inercia com k=1 e n*p = 180, NAO a variancia total multivariada (3) - erro de fator 60 corrigido na passagem 1 (achado 2).",
+      "As 39 amostras anomalas NAO vem do limiar sozinho: 36 do limiar Cu maior que 180 ppm, mais 4 e menos 1 pelo ruido de rotulo de 12% (achado 5). Questao sobre a contagem precisa distinguir limiar (36) de rotulo (39).",
+      "Krigagem e GLS, nao GLM (achados 8 e 18): distrator com modelo linear generalizado e legitimo e bom; a alternativa correta e minimos quadrados generalizados.",
+      "get_dummies devolve BOOLEANO no pandas 3.0 (achado 3): nao formular card cuja resposta seja 1 e 0 na tela."
+    ],
+    "strongest_assessment_material": "O R2 negativo em teste (-0.1208) da rede de regressao contra R2 0.9991 em treino, com 257 parametros para 45 amostras de treino: unico caso do curso em que um modelo fica pior do que prever a media, e o objetivo de aprendizagem oa04 depende dele."
+  },
+  "files": [
+    "24-machine-learning-geociencias/24-machine-learning-geociencias-auditoria.md",
+    "24-machine-learning-geociencias/24-machine-learning-geociencias-auditoria.json"
+  ],
+  "files_touched": [
+    "24-machine-learning-geociencias/24-machine-learning-geociencias-aula-02-fluxo-trabalho-python-preparacao-exploracao-particionamento.md",
+    "24-machine-learning-geociencias/24-machine-learning-geociencias-aula-03-modelagem-supervisionada-regressao-classificacao.md",
+    "24-machine-learning-geociencias/24-machine-learning-geociencias-aula-05-avaliacao-desempenho-sobreajuste-validacao.md",
+    "24-machine-learning-geociencias/24-machine-learning-geociencias-aula-06-deep-learning-aplicacoes-estudos-caso.md",
+    "24-machine-learning-geociencias/24-machine-learning-geociencias-modulo.md",
+    "24-machine-learning-geociencias/24-machine-learning-geociencias-auditoria.md",
+    "24-machine-learning-geociencias/24-machine-learning-geociencias-auditoria.json",
+    "course-state.yaml"
+  ],
+  "files_untouched": [
+    "24-machine-learning-geociencias/24-machine-learning-geociencias-aula-01-inteligencia-artificial-geociencias-ramos-aprendizado-dados.md",
+    "24-machine-learning-geociencias/24-machine-learning-geociencias-aula-04-modelagem-nao-supervisionada-agrupamento-reducao-dimensionalidade.md"
+  ],
+  "files_untouched_note": "As Aulas 01 e 04 passaram integralmente na passagem 2 e nao precisaram de nenhuma edicao; as duas ja haviam sido corrigidas na passagem 1 (achado 9, e achados 2 e 5, respectivamente).",
+  "bookkeeping_updates": [
+    "Os 8 novos claim_id gravados nos blocos de metadados das aulas 02, 03, 05 e 06 (total do modulo: 51 alegacoes, todas com id unico no padrao MLGEO-M24-A0N-TEMA-NNN, nenhuma duplicada).",
+    "Campo palavras_corpo recontado nas quatro aulas editadas: estava desatualizado desde a passagem 1 (a a03 declarava 2298 quando ja tinha cerca de 2560 apos as correcoes daquela passagem). Valores atuais: a02 2299, a03 2891, a05 2463, a06 2622. As aulas 01 (2156 declarado, 2106 medido) e 04 (2264 declarado, 2267 medido) nao foram tocadas.",
+    "Registro do modulo no hub atualizado com o veredito, as contagens reais de alegacoes e o aviso de carga para a revisao didatica."
+  ],
+  "propagation": {
+    "questionnaire": "inexistente - nada a propagar",
+    "flashcards": "inexistentes - nada a propagar; NAO HA CARD JA IMPORTADO NO ANKI A CORRIGIR A MAO",
+    "glossary": "inexistente",
+    "other_modules": "nenhuma propagacao devida: a busca por linear generalizada em todos os .md do curso encontrou apenas a a03, o hub do modulo 24 e o registro datado de decisions no course-state.yaml",
+    "course_state_decisions_not_rewritten": "O registro datado de 2026-09-20 em decisions repete a expressao regressao linear generalizada e foi DELIBERADAMENTE preservado: e um registro historico do que foi decidido naquela data, e reescreve-lo apagaria o historico em vez de corrigi-lo."
+  },
+  "out_of_scope_observations": [
+    "PARA A REVISAO DIDATICA (bloqueante para a decisao de divisao): as correcoes das duas passagens deixaram DUAS AULAS acima do teto de 30 min pela metrica de cerca de 84 palavras/min usada nos Modulos 22 e 23. Recontagem do corpo: a01 2106 (25 min), a02 2299 (27), a03 2891 (34), a04 2267 (27), a05 2463 (29), a06 2622 (31). A a03 e o caso claro: ja era a aula mais carregada (regressao linear mais interpretacao de coeficientes mais floresta mais classificacao mais krigagem como GLS) e recebeu tres das nove correcoes desta passagem. E o mesmo mecanismo que levou a divisao de aulas nos Modulos 22 e 23.",
+    "DEBITO DE SCHEMA PRE-EXISTENTE, DELIBERADAMENTE NAO NORMALIZADO: o bloco de metadados de TODAS as aulas do curso (verificado nos Modulos 20, 22, 23 e 24) nao e YAML valido, por causa da sintaxe \"Secao A\" + \"Secao B\" no mapa_objetivo_secao. A sub-arvore alegacoes_auditaveis E valida isoladamente e foi parseada nesta auditoria para validar os 51 claim_id. Normalizar isso em um modulo so criaria divergencia entre modulos.",
+    "A Aula 06 nao tem secao Proxima aula, por ser a ultima do modulo - coerente com os modulos anteriores, mas e item do validador estrutural, nao desta auditoria."
+  ],
+  "environment": {
+    "python": "3.13.2",
+    "numpy": "2.5.1",
+    "pandas": "3.0.3",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "note": "Identico ao ambiente declarado pelas aulas, o que elimina diferenca de versao como explicacao para qualquer divergencia."
+  },
+  "post_audit_note_didactic_split": {
+    "date": "2026-09-21",
+    "by": "revisao-didatica",
+    "finding": "DID-M24-A03-CARGA-001",
+    "note": "A revisao didatica DIVIDIU a Aula 03 e o modulo passou de 6 para 7 aulas. TODA a numeracao de aula deste manifesto e a de ANTES da divisao. Nenhum achado foi reaberto, renumerado ou revertido; nenhum claim_id foi renumerado (os prefixos A03, A04, A05 e A06 designam a numeracao em que a alegacao foi EMITIDA, nao a aula onde ela hoje mora). O gate continua liberado, e os 26 blocos de codigo das sete aulas foram reexecutados depois da divisao, na nova cadeia declarada, sem nenhuma falha.",
+    "lesson_number_map": {
+      "a03": "par a03 + a04: a a03 ficou com regressao (achados 11, 15, 17 e 18) e a a04 com classificacao (para onde migraram as alegacoes -CLASSIFICACAO-RESULTADO-003 e -REGRESSAO-LOGISTICA-CONCEITO-005, e onde hoje esta a evidencia numerica do achado 11)",
+      "a04": "a05 (nao supervisionada) - arquivo renomeado, ID geologia-avancado-m24-a05",
+      "a05": "a06 (avaliacao) - arquivo renomeado, ID ...-a06; E A AULA DO ACHADO VERMELHO 10",
+      "a06": "a07 (deep learning) - arquivo renomeado, ID ...-a07; achados 12, 13 e 14"
+    },
+    "corrections_extended_by_didactic_review": [
+      "Achado 10: o paragrafo 'Continuidade de codigo' passou a declarar objeto por objeto qual aula produz o que, porque com a divisao os objetos de classificacao passaram a vir da Aula 04 e nao mais da 03 (ver DID-M24-A06-DEPENDENCIA-NAMESPACE-003). Nenhum fato novo.",
+      "Achado 13: a ressalva foi CONDENSADA para caber no teto de 30 min da aula, preservando os tres numeros (0,240 / 0,261 / -0,002) e a fonte (ver DID-M24-A06A07-CARGA-005). Nenhum fato novo."
+    ],
+    "files_touched_pos_divisao": [
+      "24-machine-learning-geociencias/24-machine-learning-geociencias-aula-02-fluxo-trabalho-python-preparacao-exploracao-particionamento.md",
+      "24-machine-learning-geociencias/24-machine-learning-geociencias-aula-03-modelagem-supervisionada-regressao.md",
+      "24-machine-learning-geociencias/24-machine-learning-geociencias-aula-04-modelagem-supervisionada-classificacao.md",
+      "24-machine-learning-geociencias/24-machine-learning-geociencias-aula-05-modelagem-nao-supervisionada-agrupamento-reducao-dimensionalidade.md",
+      "24-machine-learning-geociencias/24-machine-learning-geociencias-aula-06-avaliacao-desempenho-sobreajuste-validacao.md",
+      "24-machine-learning-geociencias/24-machine-learning-geociencias-aula-07-deep-learning-aplicacoes-estudos-caso.md",
+      "24-machine-learning-geociencias/24-machine-learning-geociencias-modulo.md",
+      "24-machine-learning-geociencias/24-machine-learning-geociencias-auditoria.md",
+      "24-machine-learning-geociencias/24-machine-learning-geociencias-auditoria.json"
+    ],
+    "new_claim_born_from_split": {
+      "claim_id": "MLGEO-M24-A04-EXEMPLO-MATRIZES-LADO-A-LADO-001",
+      "status": "verificado na mesma passagem - NAO fica pendente de auditoria",
+      "note": "Ao contrario do que ocorreu no Modulo 22 (onde a divisao didatica gerou um claim que so foi auditado depois, numa passagem pontual), a alegacao nascida desta divisao foi verificada no ato: e aritmetica direta sobre as duas matrizes de confusao ja confirmadas por execucao (13/15=0.8667, 14/15=0.9333, contagem de celulas conferida a mao). O exemplo trabalhado que a gerou NAO usa precisao, revocacao nem F1, definidas so na Aula 06, para nao criar salto de pre-requisito."
+    },
+    "claims_declared_in_files_after_split": 52
+  }
+}

@@ -1,0 +1,438 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "16-aerogeofisica/",
+    "module_id": "16",
+    "course_id": "geologia-avancado"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-09-09",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 6,
+    "yellow": 16,
+    "blue": 5,
+    "white": 1,
+    "verified_ok": 5,
+    "claims_declared_by_author": 29,
+    "claims_raised_by_audit": 13,
+    "claims_tracked_total": 42,
+    "worked_examples_recomputed": 4,
+    "worked_examples_arithmetic_failures": 0
+  },
+  "dominant_pattern": "ORDEM E DIRECAO - a sequencia ou a direcao de uma operacao trocada, com a fisica por tras dela correta. Quatro dos seis laranjas tem a mesma forma: a aula descreve corretamente O QUE cada etapa faz e erra EM QUE ORDEM ela entra ou EM QUE DIRECAO ela se aplica. (1) Stripping posto depois da correcao de altura, quando a sequencia padrao IAEA/Minty o poe antes (a04). (2) Gradiente vertical multiplicado por distancia horizontal (a03). (3) Espacamento de linha dimensionado pela profundidade em vez da distancia sensor-fonte, na alegacao de metadados, contradizendo o proprio corpo (a01). (4) Invariancia do sinal analitico afirmada em 3D quando vale em 2D (a02). O padrao e caro NESTE modulo porque a aerogeofisica e, do comeco ao fim, uma disciplina de cadeia de processamento: a promessa declarada do Modulo 16 e ensinar como o dado bruto vira mapa interpretavel, e trocar a ordem de duas etapas e errar exatamente aquilo que o modulo existe para ensinar - e e o tipo de erro que vira flashcard invertido, porque 'ordem das correcoes' e o formato natural de questao desse conteudo. PADRAO SECUNDARIO: FAIXA APRESENTADA COMO VALOR DE REFERENCIA - tres achados (Th/U 2-7 na a04, faixa FDEM na a05, 'valido acima de 50 m' na a04) declaram uma faixa larga de tolerancia e a usam como se fosse o valor esperado ou uma norma. ONDE O MODULO ESTA LIMPO: toda a logica de plataformas e compromissos da a01, incluindo o decaimento dos campos, a orientacao das linhas, a funcao das tie lines e o bloco inteiro de controle de qualidade; na a02, a distincao IGRF x diurna, a faixa de campo total, o IGRF-14 e a instabilidade da RTP; na a03, todas as unidades e conversoes, o sentido do efeito Eotvos e a atribuicao dos dois sistemas de gradiometria; na a04, as tres janelas de energia com seus radionuclideos-filhos, a profundidade de 30-45 cm e a convencao de cores; na a05, a formula e a constante de skin depth, a faixa VLF, o tipper e a lista de falsos condutores.",
+  "cross_module_check": "Verificacao transversal explicita contra o Modulo 15 (pre-requisito imediato), conforme pedido na tarefa. NENHUMA CONTRADICAO ENCONTRADA. (1) Magnetita e titanomagnetita como agentes ferrimagneticos e ilmenita paramagnetica: a a02 cita explicitamente 'a magnetita (nao a ilmenita, paramagnetica)' e 'magnetita e titanomagnetita' - consistente. (2) Magnetizacao total = induzida + remanente: a a02 mantem as duas parcelas separadas e usa a distincao corretamente (a RTP pressupoe magnetizacao puramente induzida; o sinal analitico tolera remanencia) - consistente e reforcado pela correcao do achado SINALANALITICO2D3D-004. (3) Pirrotita monoclinica como a fase ferrimagnetica: a a05 dizia apenas 'pirrotita' - CORRIGIDO (achado PIRROTITA-Y04). (4) K-40 como isotopo isolado contra as series de U e Th: a a04 mantem '1,46 MeV, do proprio 40K' contra os produtos-filhos 214Bi e 208Tl - consistente. (5) Convencao eU/eTh por medida de produto-filho: repetida e justificada na a04 - consistente. (6) Regua Th/U 2-7: a a04 a mantinha mas a chamava de 'regua da IAEA' e a usava como valor de referencia - RESOLVIDO POR ACRESCIMO (valor crustal ~3,5-4 de Rudnick & Gao 2003), deliberadamente sem remover a faixa 2-7, para nao contradizer o Modulo 15, que esta complete com questionario e dois baralhos ja gerados. (7) Densidade e lei de Archie como propriedades exploradas por gravimetria e EM: declaradas e usadas nas a03 e a05 - consistentes. UNICO ITEM DE ENCAMINHAMENTO: o Modulo 15 cita o mesmo documento IAEA como 'Technical Reports Series' sem numero - impreciso, nao errado, e nao contamina o material derivado ja gerado daquele modulo; sugerido completar para IAEA-TECDOC-1363 numa eventual passagem cross-course, com custo zero de repropagacao.",
+  "findings": [
+    {
+      "claim_id": "AUD-M16-A04-ORDEMCORRECOES-001",
+      "severity": "orange",
+      "kind": "ordem_de_procedimento",
+      "location": {
+        "file": "16-aerogeofisica/16-aerogeofisica-aula-04-aerogamaespectrometria-canais-k-eu-eth-mapas-ternarios.md",
+        "section": "Do sinal bruto ao dado geologicamente interpretavel / Recap / Objetivo declarado / alegacao PROCESSAMENTO-003",
+        "quote": "correcao de tempo morto, radonio/cosmico, altura, stripping"
+      },
+      "claim": "A aula ensinava a sequencia de processamento aerogamaespectrometrico como tempo morto -> background -> ALTURA -> STRIPPING.",
+      "problem": "A sequencia padrao IAEA/Minty e tempo morto -> background -> STRIPPING -> ALTURA -> conversao em concentracao. A inversao quebra a fisica das duas etapas: as razoes de stripping sao elas proprias corrigidas para a altura ANTES de aplicadas (a informacao de altura entra no stripping, nao o contrario), e os coeficientes de atenuacao da correcao de altura sao definidos POR ELEMENTO, o que so faz sentido sobre contagens ja separadas por elemento. Aplicar altura antes do stripping reescala contagens ainda contaminadas entre janelas com um coeficiente que nao corresponde ao elemento que produziu a contagem.",
+      "correction": "Secoes trocadas de lugar; acrescentado paragrafo 'Repare na ordem' com a justificativa fisica; recap reescrito com a cadeia em setas; objetivo declarado corrigido; alegacao PROCESSAMENTO-003 reescrita com a ordem numerada e nota de correcao; esquema de pipeline de linha unica inserido no inicio da secao.",
+      "source": "Minty, B. R. S. (1997), Fundamentals of airborne gamma-ray spectrometry, AGSO Journal of Australian Geology & Geophysics 17(2):39-50; IAEA-TECDOC-1363 (2003); BGS Earthwise OR/14/014 Radiometric processing ('the background corrected and stripped count rates are corrected for variations in the altitude').",
+      "confidence": "alta",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "AUD-M16-A03-GRADIENTEDIRECAO-002",
+      "severity": "orange",
+      "kind": "grandeza_fisica_trocada",
+      "location": {
+        "file": "16-aerogeofisica/16-aerogeofisica-aula-03-aerogravimetria-e-gradiometria.md",
+        "section": "Exemplo trabalhado",
+        "quote": "registra um gradiente vertical de gravidade de 18 Eotvos entre dois pontos de uma mesma linha de voo, separados por 400 m de distancia horizontal"
+      },
+      "claim": "O exemplo declarava um gradiente VERTICAL de gravidade (18 Eo) e o multiplicava por uma distancia HORIZONTAL de 400 m para obter uma variacao de gravidade de 0,72 mGal.",
+      "problem": "A aritmetica e as unidades fecham - e por isso o erro e dimensionalmente invisivel. Mas G_DD = dgz/dz descreve como g varia se a aeronave subir ou descer, nao ao longo de uma linha horizontal; essa ultima e governada pela componente horizontal do tensor (dgz/dx). Um gradiente so pode ser multiplicado por uma distancia se ambos apontarem na mesma direcao.",
+      "correction": "Enunciado passou a declarar o gradiente horizontal ao longo da linha de voo, com a componente do tensor nomeada; Passo 2 explicita a condicao de mesma direcao; paragrafo de alerta acrescentado sobre o erro (frequente porque a conta fecha); Passo 3 registra que o +/-5,6 Eo do Falcon e especificado para G_DD e usado como regua de ordem de grandeza; alegacao UNIDADES-004 recebeu a condicao de uso e a nota de correcao. Aritmetica original (18 Eo -> 1,8 mGal/km -> 0,72 mGal) mantida, pois esta correta.",
+      "source": "Telford, Geldart & Sheriff 1990, cap. 2; ga.gov.au GA16642, General principles of airborne gravity gradiometers (definicao das componentes do tensor gravitacional).",
+      "confidence": "alta",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "AUD-M16-A01-ALEGACAOESPACAMENTO-003",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "location": {
+        "file": "16-aerogeofisica/16-aerogeofisica-aula-01-planejamento-de-voo-plataformas-parametros-de-aquisicao-controle-de-qualidade.md",
+        "section": "alegacoes_auditaveis / AEROGEOFIS-M16-A01-ESPACAMENTO-004",
+        "quote": "Regra pratica de dimensionamento do espacamento de linha: da ordem de 1 a 2 vezes a profundidade esperada do topo do alvo."
+      },
+      "claim": "A alegacao auditavel declarava a regra de espacamento em funcao da PROFUNDIDADE do topo do alvo, enquanto o corpo da aula ensina - e enfatiza - que o parametro correto e a DISTANCIA SENSOR-FONTE (altura de voo + profundidade do topo).",
+      "problem": "A alegacao afirmava exatamente o erro que o corpo da aula denuncia como 'o erro de projeto mais comum'. Residuo da tentativa de auditoria interrompida, que corrigiu o corpo e nao o metadado. Grave porque as alegacoes_auditaveis sao a fonte de que os geradores de questionario e flashcards puxam conteudo verificado: uma alegacao errada aqui produz questao de gabarito errado mesmo com o corpo da aula certo.",
+      "correction": "Alegacao reescrita com o criterio de Reid completo, incluindo a forma funcional F = exp(-2*pi*h/dx); risco reclassificado de 'aproximacao' para 'fato'; nota de correcao registrada. Corpo da aula tambem ganhou a forma funcional e teve a atribuicao nao verificada ao Servico Geologico do Canada removida.",
+      "source": "Reid, A. B. (1980), Aeromagnetic survey design, Geophysics 45(5):973-976; Saltus, Chulliat & Blakely (2026), Earth and Space Science 13, e2025EA004336.",
+      "confidence": "alta",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "AUD-M16-A02-SINALANALITICO2D3D-004",
+      "severity": "orange",
+      "kind": "generalizacao_indevida",
+      "location": {
+        "file": "16-aerogeofisica/16-aerogeofisica-aula-02-aeromagnetometria-fundamentos-correcoes-reducoes-realces.md",
+        "section": "Realces: tornando visivel o que ja esta no dado / Recap / alegacao SINALANALITICO-006",
+        "quote": "uma combinacao das derivadas horizontais e vertical cuja amplitude, ao contrario da anomalia de campo total, NAO DEPENDE da direcao de magnetizacao do corpo"
+      },
+      "claim": "A aula afirmava, em termos absolutos, que a amplitude do sinal analitico independe da direcao de magnetizacao, e o recomendava como a alternativa robusta a RTP perto do equador magnetico e sob magnetizacao remanente.",
+      "problem": "A invariancia e rigorosa apenas para fontes BIDIMENSIONAIS (diques extensos, contatos retilineos). Para corpos TRIDIMENSIONAIS compactos a amplitude volta a depender da direcao de magnetizacao (Li 2006). A recomendacao pratica permanece correta, mas apresentar a independencia como propriedade geral induz confianca indevida exatamente no caso em que ela falha: o alvo compacto e fortemente remanente, que e o alvo tipico de exploracao mineral.",
+      "correction": "Paragrafo de ressalva acrescentado ao corpo, distinguindo 2D de 3D e dizendo o que fazer no caso 3D (modelagem direta em vez de leitura visual do mapa); recap ajustado; alegacao reescrita com a ressalva marcada como essencial; Li (2006) acrescentado a lista de fontes.",
+      "source": "Li, X. (2006), Understanding 3D analytic signal amplitude, Geophysics 71(2):L13-L16; Nabighian et al. 2005, Geophysics 70(6).",
+      "confidence": "alta",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "AUD-M16-A04-ALTERACAOPORFIRO-005",
+      "severity": "orange",
+      "kind": "atribuicao_mineral_errada",
+      "location": {
+        "file": "16-aerogeofisica/16-aerogeofisica-aula-04-aerogamaespectrometria-canais-k-eu-eth-mapas-ternarios.md",
+        "section": "O mapa ternario: tres canais, uma imagem",
+        "quote": "alteracao hidrotermal potassica (comum em sistemas do tipo porfiro cuprifero, onde fluidos hidrotermais introduzem sericita e feldspato potassico secundario)"
+      },
+      "claim": "A aula atribuia a SERICITA a zona de alteracao POTASSICA de um sistema porfiritico.",
+      "problem": "No modelo de zoneamento de porfiro sao duas zonas distintas: a alteracao POTASSICA (nucleo, alta temperatura) e feldspato potassico + biotita secundarios; a FILICA/SERICITICA (mais rasa e fria, envolvendo a anterior) e sericita + quartzo + pirita. Fundir as duas num so nome embaralha o modelo de Lowell & Guilbert (1970), e a distincao tem consequencia exploratoria porque as duas zonas guardam relacoes diferentes com a mineralizacao de cobre.",
+      "correction": "Mencao trocada por 'alteracao hidrotermal enriquecida em potassio' e acrescentado paragrafo explicando as duas zonas, com o ponto que importa para a aula: o mapa gamaespectrometrico NAO separa uma da outra, registra apenas 'mais potassio aqui'. Recap ampliado; nova alegacao ALTERACAOPORFIRO-006 criada; Lowell & Guilbert (1970) acrescentado as fontes.",
+      "source": "Lowell, J. D. & Guilbert, J. M. (1970), Lateral and vertical alteration-mineralization zoning in porphyry ore deposits, Economic Geology 65(4):373-408.",
+      "confidence": "alta",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "AUD-M16-A04-DESIGNACAOIAEA-006",
+      "severity": "orange",
+      "kind": "referencia_bibliografica",
+      "location": {
+        "file": "16-aerogeofisica/16-aerogeofisica-aula-04-aerogamaespectrometria-canais-k-eu-eth-mapas-ternarios.md",
+        "section": "Fontes / quatro alegacoes auditaveis",
+        "quote": "IAEA (2003), Guidelines for Radioelement Mapping Using Gamma Ray Spectrometry Data, Technical Reports Series 452"
+      },
+      "claim": "O documento base da aula foi citado como 'Technical Reports Series 452' e o segundo documento IAEA como '(1991/2003), TRS 323'.",
+      "problem": "Guidelines for Radioelement Mapping Using Gamma Ray Spectrometry Data (IAEA, 2003) e o IAEA-TECDOC-1363 (Viena, julho de 2003, ISBN 92-0-108303-3; autores Erdi-Krausz, Matolin, Minty, Nicolet, Reford e Schetselaar). Nao existe TRS 452 com esse titulo. Airborne Gamma Ray Spectrometer Surveying e TRS No. 323 de 1991, sem edicao de 2003. Laranja e nao amarelo porque este documento sustenta a regua Th/U, a convencao de cores do mapa ternario, a sequencia de correcoes e o limiar de 50 m - quatro das cinco alegacoes da aula -, e a designacao errada torna toda essa cadeia nao rastreavel.",
+      "correction": "Designacao corrigida na lista de fontes e nas quatro alegacoes; ano espurio removido do TRS-323; acrescentados BGS Earthwise OR/14/014, Rudnick & Gao (2003) e Lowell & Guilbert (1970).",
+      "source": "IAEA-TECDOC-1363 (2003), pagina de publicacao da propria IAEA e www-pub.iaea.org/MTCD/Publications/PDF/te_1363_web.pdf.",
+      "confidence": "alta",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "AUD-M16-A01-GSC-Y01",
+      "severity": "yellow",
+      "kind": "atribuicao_nao_verificada",
+      "location": {
+        "file": "16-aerogeofisica/16-aerogeofisica-aula-01-planejamento-de-voo-plataformas-parametros-de-aquisicao-controle-de-qualidade.md",
+        "section": "Espacamento e direcao das linhas",
+        "quote": "o Servico Geologico do Canada opera rotineiramente com 2,5 vezes a altura de voo sobre as fontes"
+      },
+      "claim": "Pratica de espacamento de 2,5x atribuida especificamente ao Servico Geologico do Canada.",
+      "problem": "Atribuicao institucional nao confirmada em fonte primaria acessivel.",
+      "correction": "Atribuicao removida; mantida como 'pratica operacional corrente entre 2 e 2,5 vezes a distancia sensor-fonte'.",
+      "source": "Reid 1980; Saltus et al. 2026.",
+      "confidence": "media",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "AUD-M16-A01-CITACOES-Y02",
+      "severity": "yellow",
+      "kind": "referencia_bibliografica",
+      "location": {
+        "file": "16-aerogeofisica/16-aerogeofisica-aula-01-planejamento-de-voo-plataformas-parametros-de-aquisicao-controle-de-qualidade.md",
+        "section": "Fontes",
+        "quote": "a reavaliacao de Saltus et al. (2026), Earth and Space Science; Geological Survey/USGS Open-File Report ofr-00-0027"
+      },
+      "claim": "Citacao de Saltus et al. sem autores nem identificador; referencia USGS com designacao hibrida.",
+      "problem": "A referencia de Saltus EXISTE e confere, mas estava incompleta e portanto nao verificavel pelo leitor; a designacao 'Geological Survey/USGS Open-File Report ofr-00-0027' mistura duas formas.",
+      "correction": "Referencia completada (Saltus, R. W., Chulliat, A. & Blakely, R. J., 2026, Earth and Space Science 13, e2025EA004336) e separada em entrada propria; USGS OFR 00-0027 e OFR 2004-1293 nomeados separadamente.",
+      "source": "agupubs.onlinelibrary.wiley.com/doi/10.1029/2025EA004336.",
+      "confidence": "alta",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "AUD-M16-A01-REIDATUAL-Y03",
+      "severity": "yellow",
+      "kind": "nuance_omitida",
+      "location": {
+        "file": "16-aerogeofisica/16-aerogeofisica-aula-01-planejamento-de-voo-plataformas-parametros-de-aquisicao-controle-de-qualidade.md",
+        "section": "Espacamento e direcao das linhas",
+        "quote": "o criterio de aliasing de Reid (1980), ainda hoje a pratica padrao"
+      },
+      "claim": "O criterio de Reid apresentado como 'ainda hoje a pratica padrao'.",
+      "problem": "O proprio update de 2026 conclui que a analise de Reid segue valida para anomalias de curto comprimento de onda, mas que o projeto moderno de levantamento deve considerar fatores adicionais inexistentes em 1980.",
+      "correction": "Reformulado para 'ate hoje o ponto de partida do projeto de levantamento'; a nuance do update registrada na entrada de fonte.",
+      "source": "Saltus, Chulliat & Blakely (2026), Earth and Space Science 13, e2025EA004336.",
+      "confidence": "alta",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "AUD-M16-A02-FLUXGATE-Y01",
+      "severity": "yellow",
+      "kind": "caracterizacao_instrumental",
+      "location": {
+        "file": "16-aerogeofisica/16-aerogeofisica-aula-02-aeromagnetometria-fundamentos-correcoes-reducoes-realces.md",
+        "section": "O que o magnetometro aereo mede / alegacao INSTRUMENTO-001",
+        "quote": "mede as tres componentes do campo mas com resolucao angular mais grosseira ... usados sobretudo em gradiometros"
+      },
+      "claim": "Fluxgate caracterizado por 'resolucao angular mais grosseira' e, na alegacao, como usado sobretudo em gradiometros.",
+      "problem": "A limitacao real do fluxgate em aeromagnetometria e a menor exatidao absoluta e a deriva, nao resolucao angular. E o uso aeronautico dominante do fluxgate triaxial e o sistema de compensacao magnetica da aeronave; gradiometros aeromagneticos sao construidos com multiplos sensores ESCALARES de cesio separados espacialmente.",
+      "correction": "Corpo e alegacao reescritos, com o papel do fluxgate na compensacao magnetica explicitado.",
+      "source": "Telford, Geldart & Sheriff 1990, cap. 6; Reeves 2005, cap. sobre instrumentacao e compensacao.",
+      "confidence": "alta",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "AUD-M16-A02-DATUMDIURNA-Y02",
+      "severity": "yellow",
+      "kind": "explicacao_confusa",
+      "location": {
+        "file": "16-aerogeofisica/16-aerogeofisica-aula-02-aeromagnetometria-fundamentos-correcoes-reducoes-realces.md",
+        "section": "Exemplo trabalhado / Passo 3",
+        "quote": "O IGRF (45.210 nT) representa o campo principal da Terra na posicao e data do levantamento, referenciado ao mesmo nivel de base usado acima (08h00)"
+      },
+      "claim": "O IGRF descrito como 'referenciado ao mesmo nivel de base' da estacao-base.",
+      "problem": "O IGRF nao e referenciado ao datum arbitrario escolhido para a estacao-base. A aritmetica do exemplo esta correta (45.410 - 38 - 45.210 = +162 nT), mas a explicacao confundia duas coisas independentes.",
+      "correction": "Frase removida; acrescentada ressalva explicando que a escolha do datum diurno injeta um deslocamento constante arbitrario, absorvido depois pelo nivelamento, e que e por isso que a TMI residual se le por contraste relativo e nao por valor absoluto.",
+      "source": "BGS Earthwise OR/14/014 Part 3: Data processing; Reeves 2005.",
+      "confidence": "alta",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "AUD-M16-A03-ANGLICISMO-Y01",
+      "severity": "yellow",
+      "kind": "redacao",
+      "location": {
+        "file": "16-aerogeofisica/16-aerogeofisica-aula-03-aerogravimetria-e-gradiometria.md",
+        "section": "A correcao de Eotvos",
+        "quote": "Alem das aceleracoes verticais just discutidas"
+      },
+      "claim": "Palavra em ingles no corpo do texto ('just' no lugar de 'ja').",
+      "problem": "Erro de redacao.",
+      "correction": "Corrigido para 'ja discutidas'.",
+      "source": "-",
+      "confidence": "alta",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "AUD-M16-A03-BOUGUERAEREO-Y02",
+      "severity": "yellow",
+      "kind": "nuance_omitida",
+      "location": {
+        "file": "16-aerogeofisica/16-aerogeofisica-aula-03-aerogravimetria-e-gradiometria.md",
+        "section": "A correcao de Eotvos",
+        "quote": "correcao Bouguer (compensando a massa de rocha entre o ponto de medida e o datum)"
+      },
+      "claim": "Reducao Bouguer aerotransportada apresentada como identica a terrestre.",
+      "problem": "Entre o sensor aereo e o terreno ha AR, nao rocha; a reducao Bouguer aerotransportada precisa separar a lamina de ar sobrevoada da massa rochosa efetiva.",
+      "correction": "Acrescentada a diferenca e a consequencia pratica (o modelo digital de terreno passa a insumo obrigatorio do processamento, nao refinamento opcional).",
+      "source": "Telford, Geldart & Sheriff 1990, cap. 2.",
+      "confidence": "alta",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "AUD-M16-A04-THUREFERENCIA-Y01",
+      "severity": "yellow",
+      "kind": "faixa_como_valor_de_referencia",
+      "location": {
+        "file": "16-aerogeofisica/16-aerogeofisica-aula-04-aerogamaespectrometria-canais-k-eu-eth-mapas-ternarios.md",
+        "section": "A razao Th/U continua sendo a regua / Exemplo trabalhado / Recap / alegacao THU-005",
+        "quote": "a razao Th/U, ja apresentada no Modulo 15 com a regua de referencia da IAEA (aproximadamente 2 a 7 para rocha nao alterada)"
+      },
+      "claim": "A faixa 2-7 apresentada como 'a regua da IAEA' e usada como se fosse o valor de referencia esperado.",
+      "problem": "A faixa 2-7 e uma tolerancia larga para rocha nao alterada, nao o valor de referencia. O Th/U crustal fica em torno de 3,5-4: crosta continental superior 3,9 +/- 0,9 e crosta continental total 4,3 +/- 1,2 (Rudnick & Gao 2003). O centro da distribuicao nao esta no meio geometrico de 2-7, e ha gradiente interpretavel dentro da faixa que se perde ao ler a regua como semaforo.",
+      "correction": "Valor de referencia crustal ACRESCENTADO sem remover a faixa 2-7, deliberadamente, para nao contradizer o Modulo 15 (que esta complete, com questionario e dois baralhos ja gerados). Acrescentado paragrafo 'Faixa nao e o mesmo que valor de referencia'; interpretacao do Quarteirao 1 fortalecida (3,9 E o valor crustal, nao apenas 'dentro da faixa'); recap e alegacao atualizados; Rudnick & Gao (2003) acrescentado as fontes.",
+      "source": "Rudnick, R. L. & Gao, S. (2003), Composition of the continental crust, Treatise on Geochemistry vol. 3, Elsevier; IAEA-TECDOC-1363 (2003).",
+      "confidence": "alta",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "AUD-M16-A04-ORDEMBACKGROUND-Y02",
+      "severity": "yellow",
+      "kind": "inconsistencia_interna",
+      "location": {
+        "file": "16-aerogeofisica/16-aerogeofisica-aula-04-aerogamaespectrometria-canais-k-eu-eth-mapas-ternarios.md",
+        "section": "Do sinal bruto ao dado geologicamente interpretavel",
+        "quote": "Esse background e medido separadamente ... e subtraido antes de qualquer outra correcao"
+      },
+      "claim": "Background declarado como subtraido 'antes de qualquer outra correcao'.",
+      "problem": "Contradizia o paragrafo imediatamente anterior, que poe a correcao de tempo morto em primeiro lugar na sequencia.",
+      "correction": "Reformulado para 'subtraido das contagens ja corrigidas de tempo morto'.",
+      "source": "Minty 1997; BGS Earthwise OR/14/014.",
+      "confidence": "alta",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "AUD-M16-A04-COBERTURARESIDUAL-Y03",
+      "severity": "yellow",
+      "kind": "pressuposto_nao_declarado",
+      "location": {
+        "file": "16-aerogeofisica/16-aerogeofisica-aula-04-aerogamaespectrometria-canais-k-eu-eth-mapas-ternarios.md",
+        "section": "Exemplo trabalhado",
+        "quote": "coberto por um manto de alteracao lateritica espesso (varios metros)"
+      },
+      "claim": "O exemplo concluia que os dois quarteiroes correspondem ao mesmo granito com base no eTh herdado, sem jamais declarar que a cobertura e residual.",
+      "problem": "O argumento so se sustenta porque a laterita e RESIDUAL (formada in situ sobre o proprio granito). Sob cobertura TRANSPORTADA de mesma espessura, o eTh medido seria o do material transportado e a comparacao nao diria nada sobre a rocha em profundidade - que e exatamente a armadilha anunciada na primeira secao da propria aula.",
+      "correction": "Enunciado passou a declarar a laterita como residual, formada in situ; acrescentado fechamento 'O que sustenta esse raciocinio inteiro - e quando ele cai'; recap ampliado; nova alegacao COBERTURARESIDUAL-007 criada.",
+      "source": "IAEA-TECDOC-1363 (2003), capitulo de interpretacao em terreno de regolito; Wilford, J., Airborne gamma-ray spectrometry, CRC LEME Open File Report 144.",
+      "confidence": "alta",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "AUD-M16-A04-VALIDADE50M-Y04",
+      "severity": "yellow",
+      "kind": "forca_da_afirmacao",
+      "location": {
+        "file": "16-aerogeofisica/16-aerogeofisica-aula-04-aerogamaespectrometria-canais-k-eu-eth-mapas-ternarios.md",
+        "section": "Um sinal que vem so da pele do terreno / Recap / alegacao ALTURA-002",
+        "quote": "as correcoes padronizadas de altura publicadas pela IAEA sao validas apenas acima de cerca de 50 m"
+      },
+      "claim": "Limiar de 50 m apresentado como norma de validade da IAEA.",
+      "problem": "E uma limitacao de calibracao e validacao das curvas de atenuacao publicadas, nao uma proibicao normativa.",
+      "correction": "Reformulado nos tres lugares para 'as curvas foram calibradas e validadas para alturas acima de cerca de 50 m'.",
+      "source": "NCBI/PMC5579878, Accuracy of Flight Altitude Measured with Low-Cost GNSS, Radar and Barometer Sensors.",
+      "confidence": "alta",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "AUD-M16-A05-IONOSFERA-Y01",
+      "severity": "yellow",
+      "kind": "mecanismo_fisico_impreciso",
+      "location": {
+        "file": "16-aerogeofisica/16-aerogeofisica-aula-05-aerolevantamentos-eletromagneticos-fonte-artificial-natural-estudos-de-caso.md",
+        "section": "Sistemas de fonte natural: VLF e o campo eletromagnetico natural (AFMAG)",
+        "quote": "um espectro continuo de energia eletromagnetica de baixa frequencia propagando-se pela ionosfera"
+      },
+      "claim": "Energia dos relampagos descrita como propagando-se PELA ionosfera.",
+      "problem": "Os pulsos de banda larga dos relampagos (sferics) propagam-se DENTRO do guia de onda formado entre a superficie da Terra e a base da ionosfera, refletindo-se entre as duas - nao atravessando a ionosfera.",
+      "correction": "Mecanismo corrigido no corpo e no recap, com o termo sferics introduzido e a consequencia explicitada (campo natural de baixa frequencia disponivel em qualquer ponto do planeta, a qualquer hora); alegacao AFMAG-004 atualizada.",
+      "source": "MDPI Minerals 14(7):704 (2024); literatura padrao de propagacao ELF/VLF no guia de onda Terra-ionosfera.",
+      "confidence": "alta",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "AUD-M16-A05-TDEMREDE-Y02",
+      "severity": "yellow",
+      "kind": "formulacao_que_nao_corresponde_a_pratica",
+      "location": {
+        "file": "16-aerogeofisica/16-aerogeofisica-aula-05-aerolevantamentos-eletromagneticos-fonte-artificial-natural-estudos-de-caso.md",
+        "section": "Sistemas de fonte artificial",
+        "quote": "sincronizada com um multiplo impar de metade da frequencia da rede eletrica local"
+      },
+      "claim": "Sincronizacao do TDEM com a rede eletrica descrita como 'multiplo impar de metade da frequencia da rede'.",
+      "problem": "A formulacao nao descreve os valores efetivamente usados. Na pratica a frequencia de base do transmissor e casada a rede local: tipicamente 25 Hz onde a rede e de 50 Hz e 30 Hz onde e de 60 Hz, e e o empilhamento com polaridade alternada que cancela a interferencia.",
+      "correction": "Substituido pelos valores reais, com o mecanismo de cancelamento explicado; recap e alegacao FDEMTDEM-002 atualizados.",
+      "source": "Nabighian & Macnae 1991, SEG; especificacoes de sistemas comerciais (VTEM, TEMPEST).",
+      "confidence": "alta",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "AUD-M16-A05-FAIXAFDEM-Y03",
+      "severity": "yellow",
+      "kind": "faixa_subestimada",
+      "location": {
+        "file": "16-aerogeofisica/16-aerogeofisica-aula-05-aerolevantamentos-eletromagneticos-fonte-artificial-natural-estudos-de-caso.md",
+        "section": "Sistemas de fonte artificial",
+        "quote": "tipicamente na faixa de algumas centenas de hertz a algumas dezenas de quilohertz"
+      },
+      "claim": "Faixa de frequencia dos sistemas FDEM limitada a 'algumas dezenas de kHz'.",
+      "problem": "Sistemas FDEM helitransportados modernos operam rotineiramente acima de 100 kHz (ordem de 400 Hz a 130 kHz).",
+      "correction": "Faixa ampliada no corpo, no recap e na alegacao FDEMTDEM-002.",
+      "source": "CSEG Recorder, Airborne Electromagnetic Systems; especificacoes de sistemas RESOLVE/DIGHEM.",
+      "confidence": "alta",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "AUD-M16-A05-PIRROTITA-Y04",
+      "severity": "yellow",
+      "kind": "consistencia_com_pre_requisito",
+      "location": {
+        "file": "16-aerogeofisica/16-aerogeofisica-aula-05-aerolevantamentos-eletromagneticos-fonte-artificial-natural-estudos-de-caso.md",
+        "section": "Fechando o modulo",
+        "quote": "sugerindo sulfetos com alguma pirrotita, ferrimagnetica"
+      },
+      "claim": "Pirrotita citada sem qualificar a fase.",
+      "problem": "O Modulo 15 (pre-requisito) estabelece que apenas a pirrotita MONOCLINICA e ferrimagnetica; a hexagonal e antiferromagnetica a temperatura ambiente. Sem o qualificador, a a05 afrouxa uma distincao que o pre-requisito faz com cuidado.",
+      "correction": "Corrigido para 'pirrotita monoclinica, a fase ferrimagnetica vista no Modulo 15', com a hexagonal nomeada como contraste.",
+      "source": "Modulo 15, aula 03 (achado PETROFIS-M15-A03-ILMENITA-008); Clark 1997, AGSO Journal 17(2):83-103.",
+      "confidence": "alta",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "AUD-M16-ESTADO-TITULOA03-Y05",
+      "severity": "yellow",
+      "kind": "estado_divergente_do_conteudo",
+      "location": {
+        "file": "course-state.yaml",
+        "section": "modules[id:'16'].lessons.items[geologia-avancado-m16-a03].title",
+        "quote": "Aerogravimetria e gradiometria gravimetrica e magnetica"
+      },
+      "claim": "Titulo da aula 03 no estado do curso mencionava gradiometria magnetica.",
+      "problem": "A aula (assim como o hub do modulo e o nome do arquivo) trata apenas de gradiometria GRAVIMETRICA. Gradiometria aeromagnetica nao e ensinada em nenhum ponto do modulo.",
+      "correction": "Titulo do estado corrigido para casar com o conteudo. Gradiometria magnetica NAO foi acrescentada como conteudo: seria introduzir material factual novo depois da auditoria, o que esta skill nao faz. Encaminhado ao orquestrador.",
+      "source": "-",
+      "confidence": "alta",
+      "status": "fixed"
+    }
+  ],
+  "verified_claims": [
+    {
+      "id": "AUD-M16-A01-B01",
+      "aula": "a01",
+      "situacao": "correto",
+      "o_que": "Criterio de Reid conferido na fonte primaria: F = exp(-2*pi*h/dx). Em dx = 2h, F = e^(-pi) ~ 4,3% da potencia aliasada. Decaimento r^-3 do dipolo e r^-2 da massa pontual. Azimutes do exemplo (N30E -> linhas N60O = 300/120 graus). Aritmetica 60-80 + 150 -> 210-230 -> 420-460 m."
+    },
+    {
+      "id": "AUD-M16-A02-B01",
+      "aula": "a02",
+      "situacao": "correto",
+      "o_que": "IGRF-14 com coeficientes finalizados em novembro de 2024, epoca 2025.0, mantido pela IAGA com atualizacao quinquenal. Faixa do campo total 25.000-65.000 nT. DISTINCAO IGRF x VARIACAO DIURNA (item pedido na tarefa): correta e bem construida - apresentadas como correcoes de natureza diferente, uma modelada e outra medida em tempo real por estacao-base, sem confusao em nenhum ponto. Instabilidade da RTP em baixa latitude e alternativa RTE."
+    },
+    {
+      "id": "AUD-M16-A03-B01",
+      "aula": "a03",
+      "situacao": "correto",
+      "o_que": "UNIDADES REVERIFICADAS POR DERIVACAO, NAO POR CITACAO: mGal = 1e-5 m/s2; Eotvos = 1e-9 s^-2; 1 Eo = 0,1 mGal/km confirmado (0,1 mGal/km = 1e-6 m/s2 / 1e3 m = 1e-9 s^-2) - a conversao que a tarefa pediu para confirmar esta CORRETA na aula. g ~ 980.000 mGal ao nivel do mar. Sentido do efeito Eotvos (voo para leste reduz a gravidade medida). Falcon como acelerometros rotativos originalmente da BHP; Air-FTG de origem militar adaptada."
+    },
+    {
+      "id": "AUD-M16-A04-B01",
+      "aula": "a04",
+      "situacao": "correto",
+      "o_que": "Janelas de energia e radionuclideos: K 1,46 MeV do 40K direto; U 1,76 MeV do 214Bi; Th 2,61 MeV do 208Tl - corretos e consistentes com o Modulo 15. PROFUNDIDADE DE INVESTIGACAO (item pedido na tarefa): 30-45 cm, so solo/rocha exposta, nao penetra cobertura espessa, vegetacao nem agua - correta e enfatica no ponto certo. NaI(Tl) de grande volume; background de alta altitude sobre agua; convencao de cor K=vermelho/Th=verde/U=azul; razoes Th/U do exemplo (16,5/4,2=3,93 e 14,8/1,1=13,45)."
+    },
+    {
+      "id": "AUD-M16-A05-B01",
+      "aula": "a05",
+      "situacao": "correto",
+      "o_que": "SKIN DEPTH VERIFICADO POR DERIVACAO (item pedido na tarefa): delta = raiz(2*rho/(omega*mu0)) = raiz(rho/f) * raiz(1/(2*pi^2*1e-7)) = 503,3*raiz(rho/f), com rho em ohm.m e f em Hz - formula e constante corretas. Valores do exemplo: 503*raiz(0,05)=112,5 m e 503*raiz(33,33)=2.904 m, ambos conferem. Faixa VLF 15-30 kHz. Tipper como observavel de campo natural. Lista canonica de falsos condutores (grafita, agua salina, argila saturada). A 'Ressalva pedagogica' sobre skin depth nao ser profundidade maxima de deteccao JA ESTAVA no texto original e e exatamente a ressalva certa."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "AUD-M16-A05-W01",
+      "aula": "a05",
+      "questao": "A aula afirma que o TDEM 'se tornou o sistema dominante em exploracao mineral aerea' e que discrimina melhor condutores pequenos sob cobertura condutora do que o FDEM.",
+      "situacao": "Leitura majoritaria da literatura de exploracao, mantida. Mas a superioridade FDEM x TDEM depende do alvo: o FDEM helitransportado de alta frequencia segue preferido para mapeamento de condutividade rasa e condutores de resposta muito rapida. Alegacao FDEMTDEM-002 permanece marcada como risk: aproximacao, que e a classificacao correta.",
+      "instrucao_para_material_derivado": "NAO gerar questao de gabarito fechado que trate 'TDEM e melhor que FDEM' como verdade absoluta."
+    }
+  ],
+  "derived_material_note": "Nenhum material derivado a propagar. O modulo nao tem questionario nem baralho ainda - a auditoria rodou antes deles, como manda a cadeia. Nada a reimportar no Anki.",
+  "notes_for_assessment": [
+    "A ordem das correcoes da a04 e o melhor material de questao do modulo, e e justamente o que estava errado. Cadeia correta: tempo morto -> background -> stripping -> altura -> concentracao. Distrator forte: inverter stripping e altura (o texto original). Excelente dissertativa curta: por que o stripping tem de vir antes da correcao de altura?",
+    "NAO criar card ou gabarito dizendo que a amplitude do sinal analitico independe da direcao de magnetizacao sem qualificar. Resposta certa: independe para fontes 2D; para corpos 3D volta a depender.",
+    "NAO criar questao que dimensione espacamento de linha pela profundidade do alvo. E a distancia sensor-fonte (altura + profundidade do topo). Distrator perfeito: '150 m de profundidade -> teto de 300 m'. Resposta certa no exemplo da a01: 210-230 m -> teto de 420-460 m.",
+    "Th/U: cobrar o limiar E o valor de referencia, nao o adjetivo. Faixa 2-7 = rocha nao alterada; valor crustal ~3,5-4. Boa questao: 3,9 e 6,5 estao ambos dentro da faixa - o que os distingue?",
+    "A distincao IGRF x diurna e o par conceitual mais limpo da a02. Distrator forte: 'a diurna e removida pelo IGRF'.",
+    "Ordem obrigatoria x ordem indiferente (acrescimo desta passagem, a02): entre IGRF e diurna a ordem e indiferente porque subtracoes comutam; antes do nivelamento e dos realces, obrigatoria. A regra geral (a etapa e subtracao ponto a ponto, ou mistura pontos/canais?) e transferivel para a a04.",
+    "1 Eo = 0,1 mGal/km e par numerico limpo e verificado. Mas NAO criar questao que multiplique um gradiente vertical por uma distancia horizontal - foi exatamente o erro corrigido na a03; a questao boa cobra a consistencia de direcao.",
+    "Cobertura residual x transportada (a04) e a melhor questao de aplicacao do modulo depois da ordem das correcoes. Os numeros do exemplo (eTh 16,5 vs. 14,8 ppm) ja estao calculados; cobrar o que mudaria se a cobertura fosse transportada - o argumento inteiro cai.",
+    "Duas zonas de alteracao de porfiro enriquecem em K e o mapa gama nao as separa. Distrator forte: 'sericita e diagnostica de alteracao potassica'. Novo no material apos a correcao.",
+    "delta = 503*raiz(rho/f) com os dois numeros do exemplo (112 m para VLF a 20 kHz, 2.904 m para AFMAG a 30 Hz em 1.000 ohm.m) admite variacao numerica infinita, mas toda questao deve preservar a ressalva: skin depth e atenuacao, nao profundidade maxima de deteccao.",
+    "NAO gerar questao de gabarito fechado afirmando superioridade absoluta do TDEM sobre o FDEM (achado branco A05-W01)."
+  ],
+  "report": "16-aerogeofisica/16-aerogeofisica-auditoria.md"
+}

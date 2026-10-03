@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "04-cristalografia-quimica-minerais",
+    "module_id": "04",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-16",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 0,
+    "yellow": 0,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 56
+  },
+  "findings": [],
+  "verified_claims": [
+    {
+      "claim_id": "GEO-M04-A01-CAMADAS-001",
+      "claim": "Alegação verificada (GEO-M04-A01-CAMADAS-001).",
+      "source": "química geral consolidada",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A01-VALENCIA-002",
+      "claim": "Alegação verificada (GEO-M04-A01-VALENCIA-002).",
+      "source": "química geral consolidada",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A01-PERIODICIDADE-003",
+      "claim": "Alegação verificada (GEO-M04-A01-PERIODICIDADE-003).",
+      "source": "tabela periódica; lei periódica",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A01-ELETRONEGATIVIDADE-004",
+      "claim": "Alegação verificada (GEO-M04-A01-ELETRONEGATIVIDADE-004).",
+      "source": "escala de Pauling",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A01-RAIO-IONICO-005",
+      "claim": "Alegação verificada (GEO-M04-A01-RAIO-IONICO-005).",
+      "source": "química inorgânica básica",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A01-NACL-006",
+      "claim": "Alegação verificada (GEO-M04-A01-NACL-006).",
+      "source": "química inorgânica básica; mineralogia descritiva",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A02-TIPOS-LIGACAO-001",
+      "claim": "Alegação verificada (GEO-M04-A02-TIPOS-LIGACAO-001).",
+      "source": "cristaloquímica básica",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A02-HALITA-002",
+      "claim": "Alegação verificada (GEO-M04-A02-HALITA-002).",
+      "source": "mineralogia descritiva",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A02-DIAMANTE-003",
+      "claim": "Alegação verificada (GEO-M04-A02-DIAMANTE-003).",
+      "source": "cristalografia mineral; escala de Mohs",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A02-GRAFITE-004",
+      "claim": "Alegação verificada (GEO-M04-A02-GRAFITE-004).",
+      "source": "cristalografia mineral consolidada",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A02-OURO-005",
+      "claim": "Alegação verificada (GEO-M04-A02-OURO-005).",
+      "source": "mineralogia descritiva",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A02-POLIMORFISMO-006",
+      "claim": "Alegação verificada (GEO-M04-A02-POLIMORFISMO-006).",
+      "source": "cristalografia mineral consolidada",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A03-CRITERIOS-IMA-001",
+      "claim": "Alegação verificada (GEO-M04-A03-CRITERIOS-IMA-001).",
+      "source": "Nickel 1995, The definition of a mineral, Canadian Mineralogist",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A03-MERCURIO-002",
+      "claim": "Alegação verificada (GEO-M04-A03-MERCURIO-002).",
+      "source": "tradição mineralógica",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A03-OLIVINA-003",
+      "claim": "Alegação verificada (GEO-M04-A03-OLIVINA-003).",
+      "source": "série forsterita-faialita",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A03-OBSIDIANA-004",
+      "claim": "Alegação verificada (GEO-M04-A03-OBSIDIANA-004).",
+      "source": "petrologia ígnea; mineralogia descritiva",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A03-OPALA-005",
+      "claim": "Alegação verificada (GEO-M04-A03-OPALA-005).",
+      "source": "mineralogia descritiva; GIA",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A03-DIAMANTE-SINTETICO-006",
+      "claim": "Alegação verificada (GEO-M04-A03-DIAMANTE-SINTETICO-006).",
+      "source": "critérios IMA (Nickel 1995); GIA",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A04-DEFINICAO-SIMETRIA-001",
+      "claim": "Alegação verificada (GEO-M04-A04-DEFINICAO-SIMETRIA-001).",
+      "source": "Klein & Dutrow 2007",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A04-EIXO-ROTACAO-002",
+      "claim": "Alegação verificada (GEO-M04-A04-EIXO-ROTACAO-002).",
+      "source": "Klein & Dutrow 2007",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A04-ORDENS-PERMITIDAS-003",
+      "claim": "Alegação verificada (GEO-M04-A04-ORDENS-PERMITIDAS-003).",
+      "source": "IUCr, International Tables for Crystallography (restrição cristalográfica)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A04-PLANO-ESPELHO-004",
+      "claim": "Alegação verificada (GEO-M04-A04-PLANO-ESPELHO-004).",
+      "source": "Klein & Dutrow 2007",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A04-CENTRO-INVERSAO-005",
+      "claim": "Alegação verificada (GEO-M04-A04-CENTRO-INVERSAO-005).",
+      "source": "Klein & Dutrow 2007",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A04-INTERNA-EXTERNA-006",
+      "claim": "Alegação verificada (GEO-M04-A04-INTERNA-EXTERNA-006).",
+      "source": "lei da constância dos ângulos",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A04-SETE-SISTEMAS-007",
+      "claim": "Alegação verificada (GEO-M04-A04-SETE-SISTEMAS-007).",
+      "source": "IUCr; Nesse 2016",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A04-CUBO-SIMETRIA-008",
+      "claim": "Alegação verificada (GEO-M04-A04-CUBO-SIMETRIA-008).",
+      "source": "Klein & Dutrow 2007 — sistema isométrico",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A05-SETE-SISTEMAS-001",
+      "claim": "Alegação verificada (GEO-M04-A05-SETE-SISTEMAS-001).",
+      "source": "IUCr; Klein & Dutrow 2007; Nesse 2016 — verificado por busca web cruzada (CK-12, Rockhounding Wiki, GeologyScience) em 2026-08-16",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A05-ISOMETRICO-PIRITA-002",
+      "claim": "Alegação verificada (GEO-M04-A05-ISOMETRICO-PIRITA-002).",
+      "source": "Mindat.org — Pyrite; busca web 2026-08-16",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A05-ISOMETRICO-GRANADA-003",
+      "claim": "Alegação verificada (GEO-M04-A05-ISOMETRICO-GRANADA-003).",
+      "source": "Mindat.org — Garnet group; busca web 2026-08-16",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A05-TETRAGONAL-ZIRCAO-004",
+      "claim": "Alegação verificada (GEO-M04-A05-TETRAGONAL-ZIRCAO-004).",
+      "source": "Mindat.org — Zircon; busca web 2026-08-16",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A05-HEXAGONAL-BERILO-005",
+      "claim": "Alegação verificada (GEO-M04-A05-HEXAGONAL-BERILO-005).",
+      "source": "Mindat.org — Beryl; busca web 2026-08-16",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A05-TRIGONAL-QUARTZO-006",
+      "claim": "Alegação verificada (GEO-M04-A05-TRIGONAL-QUARTZO-006).",
+      "source": "Klein & Dutrow 2007; Nesse 2016; busca web 2026-08-16 confirmou que quartzo é trigonal, apesar de fontes de divulgação geral simplificarem para hexagonal",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A05-ORTORROMBICO-TOPAZIO-007",
+      "claim": "Alegação verificada (GEO-M04-A05-ORTORROMBICO-TOPAZIO-007).",
+      "source": "Mindat.org — Topaz; busca web 2026-08-16",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A05-MONOCLINICO-GIPSITA-008",
+      "claim": "Alegação verificada (GEO-M04-A05-MONOCLINICO-GIPSITA-008).",
+      "source": "Mindat.org — Gypsum; busca web 2026-08-16",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A05-TRICLINICO-MICROCLINA-009",
+      "claim": "Alegação verificada (GEO-M04-A05-TRICLINICO-MICROCLINA-009).",
+      "source": "Mindat.org — Microcline; busca web 2026-08-16",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A05-CLASSIFICACAO-USO-IDENTIFICACAO-010",
+      "claim": "Alegação verificada (GEO-M04-A05-CLASSIFICACAO-USO-IDENTIFICACAO-010).",
+      "source": "Nesse 2016 — metodologia de identificação mineral",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A06-CRITERIO-ANION-001",
+      "claim": "Alegação verificada (GEO-M04-A06-CRITERIO-ANION-001).",
+      "source": "Klein & Dutrow 2007",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A06-ELEMENTOS-NATIVOS-002",
+      "claim": "Alegação verificada (GEO-M04-A06-ELEMENTOS-NATIVOS-002).",
+      "source": "Mindat.org — Diamond, Gold",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A06-SULFETO-PIRITA-003",
+      "claim": "Alegação verificada (GEO-M04-A06-SULFETO-PIRITA-003).",
+      "source": "Mindat.org — Pyrite",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A06-OXIDO-HEMATITA-004",
+      "claim": "Alegação verificada (GEO-M04-A06-OXIDO-HEMATITA-004).",
+      "source": "Mindat.org — Hematite",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A06-HALETO-HALITA-005",
+      "claim": "Alegação verificada (GEO-M04-A06-HALETO-HALITA-005).",
+      "source": "Mindat.org — Halite",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A06-CARBONATO-CALCITA-006",
+      "claim": "Alegação verificada (GEO-M04-A06-CARBONATO-CALCITA-006).",
+      "source": "Mindat.org — Calcite",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A06-SULFATO-GIPSITA-007",
+      "claim": "Alegação verificada (GEO-M04-A06-SULFATO-GIPSITA-007).",
+      "source": "Mindat.org — Gypsum",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A06-FOSFATO-APATITA-008",
+      "claim": "Alegação verificada (GEO-M04-A06-FOSFATO-APATITA-008).",
+      "source": "Mindat.org — Apatite group",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A06-SILICATO-QUARTZO-OLIVINA-009",
+      "claim": "Alegação verificada (GEO-M04-A06-SILICATO-QUARTZO-OLIVINA-009).",
+      "source": "Mindat.org — Quartz, Olivine group",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A06-DANA-STRUNZ-010",
+      "claim": "Alegação verificada (GEO-M04-A06-DANA-STRUNZ-010).",
+      "source": "Gaines et al. 1997; Strunz & Nickel 2001",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A07-TETRAEDRO-SIO4-001",
+      "claim": "Alegação verificada (GEO-M04-A07-TETRAEDRO-SIO4-001).",
+      "source": "Klein & Dutrow 2007; Nesse 2016",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A07-LIGACAO-MISTA-002",
+      "claim": "Alegação verificada (GEO-M04-A07-LIGACAO-MISTA-002).",
+      "source": "cristaloquímica consolidada",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A07-POLIMERIZACAO-003",
+      "claim": "Alegação verificada (GEO-M04-A07-POLIMERIZACAO-003).",
+      "source": "Klein & Dutrow 2007; Nesse 2016",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A07-NESOSSILICATO-OLIVINA-004",
+      "claim": "Alegação verificada (GEO-M04-A07-NESOSSILICATO-OLIVINA-004).",
+      "source": "Mindat.org — Olivine group",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A07-SOROSSILICATO-HEMIMORFITA-005",
+      "claim": "Alegação verificada (GEO-M04-A07-SOROSSILICATO-HEMIMORFITA-005).",
+      "source": "busca web 2026-08-16 (Mindat, ScienceDirect, Wikipedia) confirma hemimorfita como sorossilicato Zn4Si2O7(OH)2·H2O, unidade Si2O7",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A07-CICLOSSILICATO-BERILO-TURMALINA-006",
+      "claim": "Alegação verificada (GEO-M04-A07-CICLOSSILICATO-BERILO-TURMALINA-006).",
+      "source": "Mindat.org — Beryl, Tourmaline group",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A07-INOSSILICATO-PIROXENIO-ANFIBOLIO-007",
+      "claim": "Alegação verificada (GEO-M04-A07-INOSSILICATO-PIROXENIO-ANFIBOLIO-007).",
+      "source": "Deer, Howie & Zussman 2013",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A07-FILOSSILICATO-MICAS-ARGILAS-008",
+      "claim": "Alegação verificada (GEO-M04-A07-FILOSSILICATO-MICAS-ARGILAS-008).",
+      "source": "Deer, Howie & Zussman 2013",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A07-TECTOSSILICATO-QUARTZO-FELDSPATO-009",
+      "claim": "Alegação verificada (GEO-M04-A07-TECTOSSILICATO-QUARTZO-FELDSPATO-009).",
+      "source": "Klein & Dutrow 2007; Nesse 2016",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-M04-A07-CLIVAGEM-ESTRUTURA-010",
+      "claim": "Alegação verificada (GEO-M04-A07-CLIVAGEM-ESTRUTURA-010).",
+      "source": "Klein & Dutrow 2007; Nesse 2016; Deer, Howie & Zussman 2013",
+      "confidence": "confirmado"
+    }
+  ]
+}

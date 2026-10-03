@@ -1,0 +1,14 @@
+O mapa geológico agrupa unidades por {{c1::origem e idade}}, enquanto a carta geotécnica as agrupa por {{c2::comportamento}} frente ao uso.
+O produto completo de cartografia geotécnica compreende a carta, a {{c1::legenda}} com o critério declarado e o {{c2::memorial}} com dados, incertezas e limitações de uso.
+Uma carta pode ser {{c1::generalizada}} para escala menor sem perda de validade, mas nunca {{c2::ampliada}} além de sua escala de levantamento.
+Numa encosta, o depósito {{c1::coluvionar}} é material que já se moveu, e seu contato basal constitui plano preferencial de escorregamento.
+A Lei 6.766/1979 não permite o parcelamento do solo em terrenos com declividade igual ou superior a {{c1::30}}%.
+Pelo Código Florestal vigente, encostas com declividade superior a {{c1::45}}°, equivalente a {{c2::100}}% na linha de maior declive, são Área de Preservação Permanente.
+Um MDE de resolução grosseira {{c1::subestima}} sistematicamente as declividades altas, por promediar a elevação em células maiores.
+A cadeia conceitual da análise de risco vai de {{c1::suscetibilidade}} (onde) para {{c2::perigo}} (com que frequência e magnitude) e daí para {{c3::risco}} (o que se perde).
+A formulação consagrada da análise de risco é Risco = Perigo × {{c1::Exposição}} × {{c2::Vulnerabilidade}}.
+No modelo de talude infinito com fluxo paralelo à encosta e nível d'água na superfície, a poropressão é u = {{c1::γw·z·cos²β}}.
+A setorização de risco no Brasil usa quatro graus, de {{c1::R1}} (baixo) a {{c2::R4}} (muito alto).
+A validação de uma carta de suscetibilidade só demonstra capacidade preditiva quando usa a curva de {{c1::predição}}, calculada sobre inventário {{c2::independente}}.
+O sistema de referência geodésico oficial do Brasil é o {{c1::SIRGAS 2000}}, de adoção obrigatória desde {{c2::2015}}.
+A soma ponderada em álgebra de mapas é {{c1::compensatória}}, e por isso fatores eliminatórios devem entrar como regra de {{c2::veto}} após a agregação.

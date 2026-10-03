@@ -1,0 +1,3565 @@
+schema_version: 1
+course_id: geologia-gemologia
+title: Geologia e Gemologia — do essencial ao avançado
+destination: obsidian
+status: in_progress
+created_at: '2026-07-20'
+updated_at: '2026-08-17T23:50:00-03:00'
+replanned_at: '2026-08-16'
+replan_reason: >-
+  O currículo original partia de "alguma base" e produzia aulas de 2.000 a 6.000
+  palavras que pressupunham química, física de ondas e matemática de exponenciais
+  já sabidas. A repartida de 2026-08-16 criou o M00 e aulas-ponte para fechar essas
+  lacunas. Em 2026-08-17, a entrada foi calibrada para ensino médio completo sem
+  geologia prévia: M00 e pontes permanecem, agora como revisão/nivelamento opcional,
+  sem reduzir o nível de chegada nem descartar conteúdo.
+curriculum_basis: graduação em geociências + taxonomia de áreas fornecida pelo usuário + geologia regional do Brasil (CPRM/SGB) + programa Graduate Gemologist do GIA
+starting_level: ensino médio completo, sem pressupor domínio prévio de geologia
+target_level: avançado/especialista
+estimated_lessons: 205
+estimated_hours: 115–130 h
+
+# Contrato de nível — vale para toda aula gerada ou revisada a partir de 2026-08-17.
+# O gerador-de-aula e o revisor-didatico devem verificar estes itens.
+level_contract:
+  id: ensino-medio-sem-geologia-v1
+  adopted_at: '2026-08-17'
+  rules:
+  - id: LC-01
+    rule: >-
+      Nenhum termo técnico de geociências aparece sem definição em linguagem comum
+      na mesma frase ou na frase seguinte, na primeira vez que é usado na aula.
+      Conhecimentos gerais do ensino médio podem ser reativados brevemente, sem
+      tratá-los como domínio especializado já consolidado.
+  - id: LC-02
+    rule: >-
+      Teto de 1.600 palavras por aula (corpo, sem contar cabeçalho, recap e bloco
+      de auditoria). Assunto que não cabe vira Parte 1 / Parte 2 ou é deferido a
+      um módulo posterior — nunca é comprimido.
+  - id: LC-03
+    rule: >-
+      Toda aula abre com um bloco "Vocabulário desta aula" (5 a 8 termos, uma
+      linha cada) e com "Antes de começar, você precisa saber", que lista os
+      conceitos exigidos e linka as aulas que os ensinam ou revisam.
+  - id: LC-04
+    rule: >-
+      Cada conceito central recebe pelo menos uma analogia do cotidiano antes da
+      formulação técnica. A analogia vem primeiro, o termo depois.
+  - id: LC-05
+    rule: >-
+      Números em ordem de grandeza, não em precisão de laboratório. "Cerca de
+      2.900 km" e não "2.891 km". A precisão fica para o módulo que a justifica
+      (tipicamente M20). Isso reduz achados de auditoria por valor desatualizado.
+  - id: LC-06
+    rule: >-
+      Derivações matemáticas usam apenas ferramentas explicitamente reativadas.
+      Aulas-ponte funcionam como revisão/nivelamento opcional: o aluno pode pulá-las
+      após checagem diagnóstica, mas elas permanecem como referência consultável.
+  - id: LC-07
+    rule: >-
+      As seções "Erros comuns", "O que não concluir" e "Recap relâmpago" são
+      obrigatórias e permanecem — são o que sustenta a honestidade epistêmica do
+      curso no nível iniciante.
+  - id: LC-08
+    rule: >-
+      Controvérsia de literatura é apresentada como pergunta em aberto, em uma
+      frase, sem o detalhe do debate. O detalhe fica para o módulo avançado
+      indicado. O aluno iniciante precisa saber que a questão existe, não
+      arbitrá-la.
+  deferral_policy: >-
+    Conteúdo cortado das aulas na repartida não é descartado: cada corte é
+    registrado no campo deferred_content do módulo, com o módulo de destino.
+  leveling_policy: >-
+    O M00 e as aulas marcadas como bridge são revisão/nivelamento opcional para
+    quem concluiu o ensino médio. Podem ser pulados quando o aluno demonstrar os
+    objetivos correspondentes em uma checagem diagnóstica; continuam disponíveis
+    como referência e não são removidos do currículo nem dos materiais derivados.
+
+learning_outcomes:
+- Partir do ensino médio completo, sem conhecimento prévio de geologia, e chegar a classificar minerais, rochas e gemas e a interpretar dados geoquímicos e isotópicos.
+- Ler o tempo geológico, correlacionar estratos, interpretar o registro fóssil e mapear geologia em campo.
+- Interpretar estrutura, tectônica, geofísica, vulcanismo e a evolução da Terra, incluindo a geologia do Brasil e de outros planetas.
+- Aplicar geologia a recursos, petróleo, ambiente, engenharia e processamento mineral; identificar e avaliar gemas.
+
+current_module: '17'
+next_action: >-
+  Módulo 16 concluído no fluxo integral. Próximo módulo pendente: Módulo 17 —
+  Geobiologia.
+progress_repartida:
+  lessons_written_new_level: 87
+  lessons_total_new_level: 205
+  modules_rewritten: ['01', '02', '03']
+  modules_created: ['00']
+  modules_in_progress: []
+  modules_pending_rewrite: []
+  modules_pending_creation: []
+  bloco_I_status: fechado
+  bloco_I_avaliacao_status: completa
+  bloco_I_note: >-
+    Os quatro módulos do bloco I (00, 01, 02, 03) têm aulas escritas, auditoria
+    com gate liberado, questionário e baralho de flashcards. Nenhuma pendência
+    de avaliação ou memorização em aberto no bloco.
+  cross_course_audit: _auditoria-transversal.md
+
+modules:
+- id: '00'
+  slug: partida-do-zero
+  title: 'Nivelamento opcional: kit de sobrevivência geológica'
+  area: 0. Nivelamento opcional
+  status: complete
+  written_at: '2026-08-16'
+  completed_at: '2026-08-16'
+  created_by_replan: '2026-08-16'
+  prerequisites: []
+  rationale: >-
+    Módulo de revisão/nivelamento opcional. Para quem concluiu o ensino médio, ele
+    oferece uma checagem e reativação rápida de vocabulário, escalas, leitura de
+    mapas e observação científica. Pode ser pulado quando os seis objetivos já
+    estiverem dominados; continua como referência de consulta para o curso inteiro.
+  learning_objectives:
+  - id: geologia-gemologia-m00-oa01
+    description: Usar corretamente as palavras pedra, rocha, mineral, cristal, gema e fóssil
+  - id: geologia-gemologia-m00-oa02
+    description: Reconhecer os três grandes tipos de rocha pela origem, em nível panorâmico
+  - id: geologia-gemologia-m00-oa03
+    description: Ler ordens de grandeza de tamanho e de tempo e usar notação científica
+  - id: geologia-gemologia-m00-oa04
+    description: Desenhar de memória a Terra em camadas e nomear cada uma
+  - id: geologia-gemologia-m00-oa05
+    description: Extrair informação básica de um mapa geológico e de um perfil
+  - id: geologia-gemologia-m00-oa06
+    description: Separar observação de interpretação ao descrever uma amostra
+  inbound_links_note: >-
+    As aulas já reescritas dos módulos 01 e 02 linkam para as aulas 01 a 04 deste
+    módulo pelos nomes de arquivo registrados abaixo. Esses nomes são contrato:
+    não renomear ao gerar as aulas, sob pena de quebrar links existentes.
+  lessons:
+    planned: 6
+    completed: 7
+    items:
+    - id: geologia-gemologia-m00-a01
+      title: 'Pedra, rocha, mineral, cristal, gema: pondo os nomes no lugar'
+      status: completed
+      file: 00-partida-do-zero/00-partida-do-zero-aula-01-nomes-no-lugar.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m00-oa01
+      estimated_minutes: 25
+    - id: geologia-gemologia-m00-a02
+      title: Os três tipos de rocha, em visão panorâmica
+      status: completed
+      file: 00-partida-do-zero/00-partida-do-zero-aula-02-tres-tipos-de-rocha.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m00-oa02
+      estimated_minutes: 30
+    - id: geologia-gemologia-m00-a03
+      title: 'Tamanhos e tempos: ordens de grandeza sem susto'
+      status: completed
+      file: 00-partida-do-zero/00-partida-do-zero-aula-03-ordens-de-grandeza.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m00-oa03
+      estimated_minutes: 30
+    - id: geologia-gemologia-m00-a04
+      title: A Terra por dentro, em desenho
+      status: completed
+      file: 00-partida-do-zero/00-partida-do-zero-aula-04-terra-por-dentro.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m00-oa04
+      estimated_minutes: 25
+    - id: geologia-gemologia-m00-a05
+      title: Como se olha para um mapa geológico
+      status: completed
+      file: 00-partida-do-zero/00-partida-do-zero-aula-05-mapa-geologico.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m00-oa05
+      estimated_minutes: 30
+    - id: geologia-gemologia-m00-a06
+      title: 'Observar, descrever, inferir: o hábito mental do geólogo'
+      status: completed
+      file: 00-partida-do-zero/00-partida-do-zero-aula-06-observar-descrever-inferir.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m00-oa06
+      estimated_minutes: 25
+  audit:
+    status: approved
+    audited_at: '2026-08-16'
+    audit_type: primeira-passagem
+    claims_declared: 46
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 0
+    white: 1
+    gate_released: true
+    note: >-
+      2 achados laranja encontrados e corrigidos (XC-F01 espessura da crosta
+      continental; M00-F01 escala da historia escrita na regua). 2 achados azuis
+      resolvidos na propria auditoria (referencia de Chamberlin; versao da carta
+      ICS). 1 achado branco aceito como esta (limite de idade do termo fossil,
+      tratado sob LC-08).
+    open_findings: []
+    deferred_findings:
+    - M00-F04
+    files:
+    - 00-partida-do-zero/00-partida-do-zero-auditoria.md
+    - 00-partida-do-zero/00-partida-do-zero-auditoria.json
+  assessment:
+    status: generated
+    generated_at: '2026-08-16'
+    method: primeira-geracao
+    reason: >-
+      O modulo nunca teve questionario. Gerado depois da auditoria cientifica,
+      contra o texto ja corrigido (gate liberado, 0 achados vermelhos). Um unico
+      questionario final, sem parciais: com 6 aulas o modulo fica dentro da regra
+      de modulo normal, e a convencao do curso (M01 com 6 aulas, M02 com 9, M03
+      com 7) e um questionario-final.md por modulo.
+    files:
+    - 00-partida-do-zero/00-partida-do-zero-questionario-final.md
+    questions: 19
+    points: 40
+    objectives_covered: 6
+  flashcards:
+    status: generated
+    generated_at: '2026-08-16'
+    method: primeira-geracao
+    reason: >-
+      O modulo nunca teve baralho, portanto nao ha migracao nem IDs antigos a
+      aposentar. Gerado depois da auditoria e depois do questionario, contra o
+      texto ja corrigido. Prioriza as distincoes de vocabulario que o curso
+      inteiro reutiliza sem reexplicar.
+    index_file: 00-partida-do-zero/00-partida-do-zero-flashcards.md
+    basic_file: 00-partida-do-zero/00-partida-do-zero-flashcards-basic.csv
+    cloze_file: 00-partida-do-zero/00-partida-do-zero-flashcards-cloze.csv
+    count_basic: 62
+    count_cloze: 39
+    last_id: 62
+    last_id_cloze: 39
+    objectives_covered: 6
+
+- id: '01'
+  slug: fundamentos-e-metodo
+  title: Fundamentos e método das geociências
+  area: I. Fundamentos e Terra sólida
+  status: complete
+  rewritten_at: '2026-08-16'
+  prerequisites: []
+  replan_change: >-
+    4 aulas viram 6. A antiga aula 02 misturava atualismo com os princípios
+    estratigráficos e passava de 2.600 palavras; foi partida em duas. A antiga
+    aula 03 juntava a formação da Terra com a diferenciação química e a regra de
+    Goldschmidt; a parte geoquímica foi deferida a M10 e o resto virou duas
+    aulas. Vocabulário e densidade foram recalibrados pelo contrato de nível; a
+    partir de 2026-08-17, o M00 é nivelamento recomendado, mas não pré-requisito.
+  deferred_content:
+  - what: Regra de Goldschmidt (litófilo, siderófilo, calcófilo, atmófilo) em detalhe
+    to_module: '10'
+  - what: Datação da Terra por isócrona de meteoritos (Patterson) com a matemática
+    to_module: '03'
+  learning_objectives:
+  - id: geologia-gemologia-m01-oa01
+    description: Explicar o que a geologia estuda e como se divide em subáreas
+  - id: geologia-gemologia-m01-oa02
+    description: Explicar o atualismo e distingui-lo de gradualismo
+  - id: geologia-gemologia-m01-oa03
+    description: Aplicar os princípios que ordenam camadas de rocha no tempo
+  - id: geologia-gemologia-m01-oa04
+    description: Contar como a Terra se formou, em narrativa, sem apoio de geoquímica
+  - id: geologia-gemologia-m01-oa05
+    description: Nomear as camadas da Terra e distinguir a divisão química da mecânica
+  - id: geologia-gemologia-m01-oa06
+    description: Relacionar as quatro esferas, o ciclo das rochas e a noção de tempo profundo
+  lessons:
+    planned: 6
+    completed: 8
+    items:
+    - id: geologia-gemologia-m01-a01
+      title: O que a geologia estuda e como se divide
+      status: completed
+      file: 01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-01-o-que-e-geologia.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m01-oa01
+      estimated_minutes: 25
+    - id: geologia-gemologia-m01-a02
+      title: 'O presente é a chave do passado: a grande ideia da geologia'
+      status: completed
+      file: 01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-02-o-presente-e-a-chave-do-passado.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m01-oa02
+      estimated_minutes: 25
+    - id: geologia-gemologia-m01-a03
+      title: Os princípios que põem as rochas em ordem
+      status: completed
+      file: 01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-03-principios-que-ordenam-as-rochas.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m01-oa03
+      estimated_minutes: 30
+    - id: geologia-gemologia-m01-a04
+      title: Como a Terra se formou
+      status: completed
+      file: 01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-04-como-a-terra-se-formou.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m01-oa04
+      estimated_minutes: 30
+    - id: geologia-gemologia-m01-a05
+      title: 'As camadas da Terra: duas formas de cortar o mesmo planeta'
+      status: completed
+      file: 01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-05-camadas-quimica-e-mecanica.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m01-oa05
+      estimated_minutes: 25
+    - id: geologia-gemologia-m01-a06
+      title: As quatro esferas, o ciclo das rochas e o tempo profundo
+      status: completed
+      file: 01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-06-esferas-ciclo-e-tempo-profundo.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m01-oa06
+      estimated_minutes: 30
+  retired_lessons_archived_to: _arquivo-nivel-antigo/
+  retired_lessons:
+  - old_file: 01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-02-metodo-e-raciocinio-geologico.md
+    replaced_by:
+    - geologia-gemologia-m01-a02
+    - geologia-gemologia-m01-a03
+  - old_file: 01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-03-origem-e-camadas-da-terra.md
+    replaced_by:
+    - geologia-gemologia-m01-a04
+    - geologia-gemologia-m01-a05
+  - old_file: 01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-04-sistemas-terrestres-e-tempo-profundo.md
+    replaced_by:
+    - geologia-gemologia-m01-a06
+  audit:
+    status: approved
+    audited_at: '2026-08-16'
+    audit_type: reauditoria
+    claims_declared: 31
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 3
+    white: 1
+    gate_released: true
+    note: >-
+      Nenhum achado novo. O texto reescrito passou limpo: a regra LC-05 eliminou a
+      classe de achado por valor desatualizado, e o conteudo de maior densidade
+      factual foi deferido a M10 e M03. Este modulo foi a referencia que resolveu o
+      achado transversal XC-F01 (espessura da crosta continental): ele ja dizia
+      30-50 km, e os modulos 00 e 02 e que foram harmonizados com ele.
+    open_findings: []
+    deferred_findings:
+    - M01-F02
+    - M01-F03
+    - M01-F04
+    previous_audit:
+      audited_at: '2026-07-21'
+      applied_to: 'texto de nivel antigo (4 aulas)'
+      status: approved
+      red: 0
+      orange: 0
+      yellow: 1
+      blue: 3
+      archived_to: 01-fundamentos-e-metodo/_arquivo-nivel-antigo/
+    files:
+    - 01-fundamentos-e-metodo/01-fundamentos-e-metodo-auditoria.md
+    - 01-fundamentos-e-metodo/01-fundamentos-e-metodo-auditoria.json
+  assessment:
+    status: reconciled
+    reconciled_at: '2026-08-16'
+    method: reconciliacao-cirurgica
+    reason: >-
+      3 itens trocados: Q7 (equifinalidade, termo que saiu do modulo), Q9
+      (Goldschmidt, deferido ao M10) e Q17a (as quatro afirmacoes do
+      uniformitarismo viraram duas). Matriz refeita de 4 para 6 objetivos.
+      15 questoes mantidas sem alteracao. Pontuacao total inalterada.
+    files:
+    - 01-fundamentos-e-metodo/01-fundamentos-e-metodo-questionario-final.md
+    questions: 18
+    points: 40
+  flashcards:
+    status: regenerated
+    regenerated_at: '2026-08-16'
+    reason: >-
+      Regenerado, nao corrigido. O baralho de 2026-07-21 apontava para a estrutura
+      de 4 aulas e 9 cards eram orfaos: Goldschmidt deferido ao M10, crono/geocrono
+      e carta da ICS migrados ao M03, e termos removidos na reescrita (abducao,
+      equifinalidade, linha de gelo). Um card afirmava Acasta como a rocha mais
+      antiga, violando o achado aberto M01-F02; foi reescrito para ensinar a disputa.
+    migration_note: 'baralho antigo precisa ser apagado no Anki; IDs foram reatribuidos'
+    index_file: 01-fundamentos-e-metodo/01-fundamentos-e-metodo-flashcards.md
+    basic_file: 01-fundamentos-e-metodo/01-fundamentos-e-metodo-flashcards-basic.csv
+    cloze_file: 01-fundamentos-e-metodo/01-fundamentos-e-metodo-flashcards-cloze.csv
+    count_basic: 49
+    count_cloze: 34
+    last_id: 49
+    last_id_cloze: 34
+
+- id: '02'
+  slug: sistema-terra-tectonica
+  title: 'Sistema Terra: estrutura interna e tectônica de placas'
+  area: I. Fundamentos e Terra sólida
+  status: complete
+  rewritten_at: '2026-08-16'
+  prerequisites:
+  - '01'
+  replan_change: >-
+    O módulo mais pesado do curso: 6 aulas de 4.900 a 6.000 palavras, cada uma
+    valendo duas ou três. Vira 9 aulas. Ganha uma aula-ponte de física de ondas
+    na abertura, porque a aula original de sismologia usava reflexão, refração,
+    onda P e onda S sem nunca ter dito o que é uma onda. A aula única de limites
+    de placa vira duas. A aula de sismos, vulcões e relevo é dissolvida nas duas
+    de limites e o restante é deferido a M11 e M19.
+  deferred_content:
+  - what: Anomalias magnéticas de Vine-Matthews-Morley em detalhe quantitativo
+    to_module: '20'
+  - what: Escalas de magnitude sísmica e mecanismo focal
+    to_module: '20'
+  - what: Estilos eruptivos e classificação de vulcões
+    to_module: '11'
+  - what: Orogênese e formação de relevo em detalhe
+    to_module: '19'
+  - what: Balanço quantitativo entre slab pull, ridge push e basal drag
+    to_module: '19'
+  learning_objectives:
+  - id: geologia-gemologia-m02-oa01
+    description: Explicar o que é uma onda e como ela se comporta ao mudar de meio
+  - id: geologia-gemologia-m02-oa02
+    description: Descrever como as ondas sísmicas revelam o interior da Terra
+  - id: geologia-gemologia-m02-oa03
+    description: Nomear as camadas do modelo sísmico e distinguir litosfera de crosta
+  - id: geologia-gemologia-m02-oa04
+    description: Reconstruir a passagem da deriva continental à tectônica de placas
+  - id: geologia-gemologia-m02-oa05
+    description: Identificar limites divergentes e transformantes e suas feições
+  - id: geologia-gemologia-m02-oa06
+    description: Identificar limites convergentes e distinguir subducção de colisão
+  - id: geologia-gemologia-m02-oa07
+    description: Explicar em nível qualitativo o que move as placas e o que segue em aberto
+  lessons:
+    planned: 9
+    completed: 9
+    items:
+    - id: geologia-gemologia-m02-a01
+      title: 'Ponte: o que é uma onda'
+      status: completed
+      file: 02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-01-ponte-o-que-e-uma-onda.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m02-oa01
+      estimated_minutes: 25
+      bridge_lesson: true
+    - id: geologia-gemologia-m02-a02
+      title: 'Ondas sísmicas: a radiografia da Terra'
+      status: completed
+      file: 02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-02-ondas-sismicas.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m02-oa02
+      estimated_minutes: 30
+    - id: geologia-gemologia-m02-a03
+      title: 'A sombra do núcleo: como se descobriu que há um núcleo líquido'
+      status: completed
+      file: 02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-03-a-sombra-do-nucleo.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m02-oa02
+      estimated_minutes: 25
+    - id: geologia-gemologia-m02-a04
+      title: 'O modelo em camadas: crosta, manto e núcleo'
+      status: completed
+      file: 02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-04-modelo-em-camadas.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m02-oa03
+      estimated_minutes: 30
+    - id: geologia-gemologia-m02-a05
+      title: 'Litosfera e astenosfera: por que a placa não é a crosta'
+      status: completed
+      file: 02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-05-litosfera-e-astenosfera.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m02-oa03
+      estimated_minutes: 25
+    - id: geologia-gemologia-m02-a06
+      title: 'Wegener e a deriva continental: uma boa ideia sem motor'
+      status: completed
+      file: 02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-06-wegener-e-a-deriva.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m02-oa04
+      estimated_minutes: 30
+    - id: geologia-gemologia-m02-a07
+      title: As provas que vieram do fundo do mar
+      status: completed
+      file: 02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-07-provas-do-fundo-do-mar.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m02-oa04
+      estimated_minutes: 30
+    - id: geologia-gemologia-m02-a08
+      title: 'Limites de placa I: onde as placas se afastam e onde deslizam'
+      status: completed
+      file: 02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-08-limites-divergentes-e-transformantes.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m02-oa05
+      estimated_minutes: 30
+    - id: geologia-gemologia-m02-a09
+      title: 'Limites de placa II: onde as placas se encontram, e o que as move'
+      status: completed
+      file: 02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-09-limites-convergentes-e-o-motor.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m02-oa06
+      - geologia-gemologia-m02-oa07
+      estimated_minutes: 30
+  retired_lessons_archived_to: _arquivo-nivel-antigo/
+  retired_lessons:
+  - old_file: 02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-01-interior-da-terra-sismologia.md
+    replaced_by:
+    - geologia-gemologia-m02-a01
+    - geologia-gemologia-m02-a02
+    - geologia-gemologia-m02-a03
+  - old_file: 02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-02-camadas-da-terra-modelo.md
+    replaced_by:
+    - geologia-gemologia-m02-a04
+    - geologia-gemologia-m02-a05
+  - old_file: 02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-03-deriva-continental-a-tectonica.md
+    replaced_by:
+    - geologia-gemologia-m02-a06
+    - geologia-gemologia-m02-a07
+  - old_file: 02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-04-limites-de-placa.md
+    replaced_by:
+    - geologia-gemologia-m02-a08
+    - geologia-gemologia-m02-a09
+  - old_file: 02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-05-motor-da-tectonica.md
+    replaced_by:
+    - geologia-gemologia-m02-a09
+  - old_file: 02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-06-sismos-vulcoes-relevo.md
+    replaced_by:
+    - geologia-gemologia-m02-a08
+    - geologia-gemologia-m02-a09
+    note: 'grande parte deferida a M11 e M19'
+  audit:
+    status: approved
+    audited_at: '2026-08-16'
+    audit_type: reauditoria
+    claims_declared: 60
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 4
+    white: 0
+    gate_released: true
+    note: >-
+      1 achado laranja encontrado e corrigido: XC-F01, espessura da crosta
+      continental dada como 30-40 km na aula 04 contra 30-50 km na aula 02 do
+      proprio modulo. Segunda vez que a inconsistencia numerica entre aulas e o
+      achado mais grave do modulo, o que confirma o valor de auditar as aulas em
+      conjunto. O achado antigo M02-F01 esta fechado em definitivo pela regra LC-05.
+    open_findings: []
+    deferred_findings:
+    - M02-F04
+    - M02-F05
+    - M02-F06
+    - M02-F07
+    previous_audit:
+      audited_at: '2026-08-15'
+      status: approved
+      red: 0
+      orange: 1
+      yellow: 2
+      blue: 4
+      applied_to: 'texto de nivel antigo (6 aulas)'
+      archived_to: 02-sistema-terra-tectonica/_arquivo-nivel-antigo/
+      note: >-
+        O achado M02-F01 (taxa de espalhamento da Elevação do Pacífico Leste,
+        inconsistente entre duas aulas) foi corrigido. A repartida adota ordem de
+        grandeza em vez de valor pontual (LC-05), o que elimina a classe de erro.
+    files:
+    - 02-sistema-terra-tectonica/02-sistema-terra-tectonica-auditoria.md
+    - 02-sistema-terra-tectonica/02-sistema-terra-tectonica-auditoria.json
+  assessment:
+    status: reconciled
+    reconciled_at: '2026-08-16'
+    method: reconciliacao-cirurgica
+    reason: >-
+      4 questoes trocadas (Q12 momento sismico, Q13 magnitude x intensidade, Q14
+      previsao de terremotos, Q19 previsao em V/F) e 2 subitens dissertativos
+      reescritos (Q20b momento de inercia, Q22c momento sismico). Todo esse
+      conteudo foi deferido ao M20. As questoes novas cobrem a aula-ponte de ondas,
+      que nao tinha nenhuma questao. Matriz refeita de 5 para 7 objetivos.
+      16 questoes mantidas. Pontuacao total inalterada.
+    files:
+    - 02-sistema-terra-tectonica/02-sistema-terra-tectonica-questionario-final.md
+    questions: 22
+    points: 50
+  flashcards:
+    status: regenerated
+    regenerated_at: '2026-08-16'
+    reason: >-
+      Regenerado, nao corrigido. O baralho de 2026-08-15 apontava para a estrutura de
+      6 aulas e nao tinha card algum sobre a aula-ponte de ondas. 16 cards eram
+      orfaos (ofiolito, bridgmanita, xenolito, PREM, prisma acrecionario, margem
+      passiva, DSDP, McKenzie, Isacks e outros) e 5 cobravam conteudo deferido ao
+      M20. Um card Basic continha marcacao de cloze no verso, defeito de formatacao.
+    migration_note: 'baralho antigo precisa ser apagado no Anki; IDs foram reatribuidos'
+    index_file: 02-sistema-terra-tectonica/02-sistema-terra-tectonica-flashcards.md
+    basic_file: 02-sistema-terra-tectonica/02-sistema-terra-tectonica-flashcards-basic.csv
+    cloze_file: 02-sistema-terra-tectonica/02-sistema-terra-tectonica-flashcards-cloze.csv
+    count_basic: 66
+    count_cloze: 48
+    last_id: 66
+    last_id_cloze: 48
+
+- id: '03'
+  slug: tempo-geologico-geocronologia
+  title: Tempo geológico e geocronologia
+  area: I. Fundamentos e Terra sólida
+  status: complete
+  rewritten_at: '2026-08-16'
+  prerequisites:
+  - '01'
+  replan_change: >-
+    5 aulas viram 7. A aula original de decaimento radioativo pressupunha átomo,
+    isótopo, exponencial e meia-vida como sabidos; foi partida em três, a
+    primeira delas uma ponte de estrutura atômica. Datação relativa e
+    discordâncias, que estavam juntas, viram duas. A carta da ICS e a distinção
+    crono/geocrono foram enxugadas e a magnitude do tempo profundo passou a
+    fechar o módulo junto com a distinção de unidades.
+  deferred_content:
+  - what: Isócronas, diagramas de concórdia e discórdia, perda de chumbo
+    to_module: '10'
+  - what: Procedimento formal de definição de um GSSP e histórico de ratificações
+    to_module: '15'
+  learning_objectives:
+  - id: geologia-gemologia-m03-oa01
+    description: Aplicar os princípios de datação relativa a uma seção de rochas
+  - id: geologia-gemologia-m03-oa02
+    description: Reconhecer discordâncias e explicar o que elas representam
+  - id: geologia-gemologia-m03-oa03
+    description: Descrever átomo, isótopo e radioatividade em nível funcional
+  - id: geologia-gemologia-m03-oa04
+    description: Explicar meia-vida e calcular idades simples por decaimento
+  - id: geologia-gemologia-m03-oa05
+    description: Escolher o método radiométrico adequado e reconhecer suas armadilhas
+  - id: geologia-gemologia-m03-oa06
+    description: Ler a carta cronoestratigráfica da ICS e explicar para que serve um GSSP
+  - id: geologia-gemologia-m03-oa07
+    description: Distinguir unidade de tempo de unidade de rocha e dimensionar o tempo profundo
+  lessons:
+    planned: 7
+    completed: 7
+    items:
+    - id: geologia-gemologia-m03-a01
+      title: 'Datação relativa: quem veio antes'
+      status: completed
+      file: 03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-01-datacao-relativa.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m03-oa01
+      estimated_minutes: 30
+    - id: geologia-gemologia-m03-a02
+      title: 'Discordâncias: o tempo que está faltando'
+      status: completed
+      file: 03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-02-discordancias.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m03-oa02
+      estimated_minutes: 25
+    - id: geologia-gemologia-m03-a03
+      title: 'Ponte: átomos, isótopos e radioatividade'
+      status: completed
+      file: 03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-03-ponte-atomos-e-isotopos.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m03-oa03
+      estimated_minutes: 30
+      bridge_lesson: true
+    - id: geologia-gemologia-m03-a04
+      title: 'Meia-vida: o relógio que não se pode adiantar'
+      status: completed
+      file: 03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-04-meia-vida.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m03-oa04
+      estimated_minutes: 30
+    - id: geologia-gemologia-m03-a05
+      title: 'Datação radiométrica na prática: o que se data e o que dá errado'
+      status: completed
+      file: 03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-05-datacao-na-pratica.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m03-oa05
+      estimated_minutes: 30
+    - id: geologia-gemologia-m03-a06
+      title: A escala do tempo geológico e o que é um GSSP
+      status: completed
+      file: 03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-06-escala-do-tempo-e-gssp.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m03-oa06
+      estimated_minutes: 30
+    - id: geologia-gemologia-m03-a07
+      title: 'Tempo e rocha são coisas diferentes — e o tempo é maior do que parece'
+      status: completed
+      file: 03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-07-tempo-rocha-e-magnitude.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m03-oa07
+      estimated_minutes: 30
+  retired_lessons_archived_to: _arquivo-nivel-antigo/
+  retired_lessons:
+  - old_file: 03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-01-datacao-relativa-e-discordancias.md
+    replaced_by:
+    - geologia-gemologia-m03-a01
+    - geologia-gemologia-m03-a02
+  - old_file: 03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-02-decaimento-radioativo-e-datacao-radiometrica.md
+    replaced_by:
+    - geologia-gemologia-m03-a03
+    - geologia-gemologia-m03-a04
+    - geologia-gemologia-m03-a05
+  - old_file: 03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-03-carta-cronoestratigrafica-e-gssp.md
+    replaced_by:
+    - geologia-gemologia-m03-a06
+  - old_file: 03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-04-unidades-cronoestratigraficas-e-geocronologicas.md
+    replaced_by:
+    - geologia-gemologia-m03-a07
+  - old_file: 03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-05-magnitude-do-tempo-profundo.md
+    replaced_by:
+    - geologia-gemologia-m03-a07
+  audit:
+    status: approved
+    audited_at: '2026-08-16'
+    audit_type: reauditoria
+    claims_declared: 52
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 1
+    white: 0
+    gate_released: true
+    note: >-
+      2 achados laranja encontrados e corrigidos, ambos na aula 07: M03-F03, a regua
+      de 100 m punha as primeiras florestas no metro 94 (que corresponde a ~272 Ma)
+      quando o correto e ~91,5 (Devoniano Medio, ~385 Ma); e M03-F04, duracao do
+      Jurassico dada como ~55 Ma contra 58,3 Ma da carta ICS v2024/12. Tres
+      placeholders CITAR VERSAO resolvidos (M03-F05). Nenhum material derivado
+      herdou os dois fatos corrigidos.
+    open_findings: []
+    deferred_findings:
+    - M03-F02
+    previous_audit:
+      audited_at: '2026-08-16'
+      applied_to: 'texto de nivel antigo (5 aulas)'
+      archived_to: 03-tempo-geologico-geocronologia/_arquivo-nivel-antigo/
+      status: approved
+      red: 0
+      orange: 1
+      yellow: 0
+      blue: 1
+    files:
+    - 03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-auditoria.md
+    - 03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-auditoria.json
+  assessment:
+    status: reconciled
+    reconciled_at: '2026-08-16'
+    method: reconciliacao-cirurgica
+    reason: >-
+      Nenhuma questao precisou ser substituida: a varredura NAO confirmou a suspeita
+      registrada antes da repartida de que havia itens de isocrona. Nao havia
+      nenhum. Corrigida a terminologia de discordancias (disconformidade para
+      desconformidade; nao conformidade para inconformidade), que divergia do texto
+      reescrito, e refeita a matriz de 5 para 7 objetivos. Pontuacao inalterada.
+    files:
+    - 03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-questionario-final.md
+    questions: 18
+    points: 44
+  flashcards:
+    status: regenerated
+    regenerated_at: '2026-08-16'
+    reason: >-
+      Regenerado, nao corrigido. O baralho apontava para a estrutura de 5 aulas e nao
+      tinha card sobre a aula-ponte de atomos e isotopos. 3 cards cobravam conteudo
+      deferido ao M10 (concordia, discordia, mecanica da isocrona) e a terminologia
+      de discordancias divergia da adotada no texto reescrito.
+    migration_note: 'baralho antigo precisa ser apagado no Anki; IDs foram reatribuidos'
+    index_file: 03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-flashcards.md
+    basic_file: 03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-flashcards-basic.csv
+    cloze_file: 03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-flashcards-cloze.csv
+    count_basic: 58
+    count_cloze: 45
+    last_id: 58
+    last_id_cloze: 45
+
+- id: '04'
+  slug: cristalografia-quimica-minerais
+  title: Química dos minerais e cristalografia
+  area: II. Materiais da Terra
+  status: complete
+  prerequisites:
+  - '01'
+  - '03'
+  replan_change: >-
+    5 aulas viram 7 e o módulo ganha duas aulas-ponte de química na abertura. Era
+    o maior abismo do currículo original: pedia ligação iônica, covalente e
+    metálica, eletronegatividade e raio iônico de um aluno que nunca teve
+    química. O pré-requisito muda de M02 para M03, porque a aula-ponte de átomos
+    e isótopos do M03 passa a ser a base sobre a qual a química aqui se apoia.
+    Simetria e sistemas cristalinos, que estavam numa aula só, viram duas.
+  learning_objectives:
+  - id: geologia-gemologia-m04-oa01
+    description: Descrever átomo, elétron, íon e tabela periódica no que a geologia usa
+  - id: geologia-gemologia-m04-oa02
+    description: Relacionar tipos de ligação química às propriedades dos minerais
+  - id: geologia-gemologia-m04-oa03
+    description: Definir mineral segundo os critérios da IMA
+  - id: geologia-gemologia-m04-oa04
+    description: Reconhecer simetria em cristais e o que ela significa
+  - id: geologia-gemologia-m04-oa05
+    description: Classificar cristais nos sete sistemas cristalinos
+  - id: geologia-gemologia-m04-oa06
+    description: Organizar os minerais nas classes químicas (Strunz/Dana)
+  - id: geologia-gemologia-m04-oa07
+    description: Descrever as estruturas dos silicatos e sua relação com a composição
+  lessons:
+    planned: 7
+    completed: 7
+    bridge_lessons: 2
+    items:
+    - id: geologia-gemologia-m04-a01
+      file: 04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-01-ponte-atomo-eletrons-tabela-periodica.md
+      bridge: true
+    - id: geologia-gemologia-m04-a02
+      file: 04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-02-ponte-ligacao-quimica.md
+      bridge: true
+    - id: geologia-gemologia-m04-a03
+      file: 04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-03-definicao-de-mineral.md
+      bridge: false
+    - id: geologia-gemologia-m04-a04
+      file: 04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-04-simetria-em-cristais.md
+      bridge: false
+    - id: geologia-gemologia-m04-a05
+      file: 04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-05-sistemas-cristalinos.md
+      bridge: false
+    - id: geologia-gemologia-m04-a06
+      file: 04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-06-classes-quimicas-strunz-dana.md
+      bridge: false
+    - id: geologia-gemologia-m04-a07
+      file: 04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-07-estruturas-dos-silicatos.md
+      bridge: false
+  audit:
+    status: approved
+    audited_at: '2026-08-16'
+    audit_type: audit-and-fix
+    claims_declared: 53
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 0
+    white: 0
+    gate_released: true
+    note: >-
+      Primeira auditoria do modulo desde a repartida, com as 7 aulas auditadas em
+      conjunto. Nenhum achado 🔴/🟠/🟡/🔵/⚪. Ponto de maior risco checado por busca
+      web: quartzo classificado como trigonal (nao hexagonal) esta correto e e
+      tratado de proposito pela aula 05 para desarmar a simplificacao comum de
+      fontes de divulgacao. Hemimorfita como sorossilicato confirmada.
+    open_findings: []
+    deferred_findings: []
+    files:
+    - 04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-auditoria.md
+    - 04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-auditoria.json
+  assessment:
+    status: generated
+    generated_at: '2026-08-16'
+    method: geracao-pos-auditoria
+    files:
+    - 04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-questionario-final.md
+    questions: 20
+    points: 46
+  flashcards:
+    status: generated
+    generated_at: '2026-08-16'
+    index_file: 04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-flashcards.md
+    basic_file: 04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-flashcards-basic.csv
+    cloze_file: 04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-flashcards-cloze.csv
+    count_basic: 60
+    count_cloze: 39
+    last_id: 60
+    last_id_cloze: 39
+
+- id: '05'
+  slug: mineralogia-identificacao-optica
+  title: 'Mineralogia: propriedades, identificação e óptica'
+  area: II. Materiais da Terra
+  status: complete
+  prerequisites:
+  - '04'
+  replan_change: >-
+    6 aulas viram 7. A óptica mineral, que ocupava duas aulas densas, passa a ter
+    uma aula-ponte sobre o comportamento da luz antes da mineralogia óptica
+    propriamente dita. As propriedades físicas diagnósticas ganham espaço próprio
+    porque é a competência mais prática e mais usada do módulo.
+  learning_objectives:
+  - id: geologia-gemologia-m05-oa01
+    description: Determinar propriedades físicas diagnósticas (dureza, clivagem, densidade, brilho, traço)
+  - id: geologia-gemologia-m05-oa02
+    description: Identificar os principais grupos minerais formadores de rocha
+  - id: geologia-gemologia-m05-oa03
+    description: Aplicar uma chave de identificação macroscópica
+  - id: geologia-gemologia-m05-oa04
+    description: Descrever como a luz atravessa um cristal (aula-ponte)
+  - id: geologia-gemologia-m05-oa05
+    description: Explicar os princípios da mineralogia óptica
+  - id: geologia-gemologia-m05-oa06
+    description: Identificar minerais ao microscópio petrográfico
+  lessons:
+    planned: 7
+    completed: 7
+    bridge_lessons: 1
+    items:
+    - id: geologia-gemologia-m05-a01
+      file: 05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-01-propriedades-fisicas-diagnosticas.md
+      bridge: false
+    - id: geologia-gemologia-m05-a02
+      file: 05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-02-grupos-minerais-formadores-de-rocha.md
+      bridge: false
+    - id: geologia-gemologia-m05-a03
+      file: 05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-03-chave-de-identificacao-macroscopica.md
+      bridge: false
+    - id: geologia-gemologia-m05-a04
+      file: 05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-04-ponte-como-a-luz-atravessa-um-cristal.md
+      bridge: true
+    - id: geologia-gemologia-m05-a05
+      file: 05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-05-optica-mineral-parte-1-luz-polarizada-e-pleocroismo.md
+      bridge: false
+    - id: geologia-gemologia-m05-a06
+      file: 05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-06-optica-mineral-parte-2-cores-de-interferencia-e-extincao.md
+      bridge: false
+    - id: geologia-gemologia-m05-a07
+      file: 05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-07-identificacao-ao-microscopio-petrografico.md
+      bridge: false
+  audit:
+    status: approved
+    audited_at: '2026-08-17'
+    audit_type: audit-and-fix
+    claims_declared: 32
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 0
+    white: 0
+    gate_released: true
+    note: >-
+      Sete aulas auditadas em conjunto. Dois achados laranja corrigidos: a
+      extincao obliqua foi restringida aos clinopiroxenios (ortopiroxenios
+      costumam ter extincao paralela) e foi removida a regra fragil de que o
+      angulo de extincao do anfibolio seria tipicamente menor. Correcoes
+      propagadas ao questionario final. Nenhuma pendencia aberta.
+    open_findings: []
+    files:
+    - 05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-auditoria.md
+    - 05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-auditoria.json
+  didactic_review:
+    status: completed
+    file: 05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-revisao-didatica.md
+    generated_at: '2026-08-17'
+  assessment:
+    status: completed
+    generated_at: '2026-08-17'
+    files:
+    - 05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-questionario-final.md
+    questions: 25
+    points: 42
+  flashcards:
+    status: generated
+    generated_at: '2026-08-17'
+    index_file: 05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-flashcards.md
+    basic_file: 05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-flashcards-basic.csv
+    cloze_file: 05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-flashcards-cloze.csv
+    count_basic: 49
+    count_cloze: 28
+    last_id: 49
+    last_id_cloze: 28
+
+- id: '06'
+  slug: gemologia
+  title: Gemologia
+  area: II. Materiais da Terra
+  status: completed
+  prerequisites:
+  - '04'
+  - '05'
+  learning_objectives:
+  - id: geologia-gemologia-m06-oa01
+    statement: Definir o que caracteriza uma gema e distinguir espécie, variedade e nome comercial
+  - id: geologia-gemologia-m06-oa02
+    statement: Explicar a origem da cor nas gemas
+  - id: geologia-gemologia-m06-oa03
+    statement: Relacionar as propriedades ópticas e físicas diagnósticas à identificação
+  - id: geologia-gemologia-m06-oa04
+    statement: Operar refratômetro e polariscópio
+  - id: geologia-gemologia-m06-oa05
+    statement: Operar dicroscópio, espectroscópio, lupa e microscópio gemológico
+  - id: geologia-gemologia-m06-oa06
+    statement: Aplicar um fluxo de identificação gemológica
+  - id: geologia-gemologia-m06-oa07
+    statement: Graduar diamantes por cor e pureza
+  - id: geologia-gemologia-m06-oa08
+    statement: Avaliar lapidação e peso e relacioná-los ao valor
+  - id: geologia-gemologia-m06-oa09
+    statement: Caracterizar as principais espécies de gemas coradas
+  - id: geologia-gemologia-m06-oa10
+    statement: Detectar tratamentos, gemas sintéticas e imitações
+  - id: geologia-gemologia-m06-oa11
+    statement: Relacionar proveniência, laudos e fatores de valor à avaliação
+  lessons:
+    planned: 11
+    completed: 11
+    items:
+    - id: geologia-gemologia-m06-a01
+      title: 'O que é gema: espécie, variedade e nome comercial'
+      status: completed
+      file: 06-gemologia/06-gemologia-aula-01-o-que-e-gema-especie-variedade-nome-comercial.md
+      content_hash: dc539f4e7f90327c516f89303f9519443d9fe994a4e3e7169b123f58b11405f9
+      covers_objectives: [geologia-gemologia-m06-oa01]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m06-a02
+      title: Origem da cor nas gemas
+      status: completed
+      file: 06-gemologia/06-gemologia-aula-02-origem-da-cor-nas-gemas.md
+      content_hash: 1360be9abe205399f6b18af48269d57db91d571d4fae020f45cd49e0a2ccb6c4
+      covers_objectives: [geologia-gemologia-m06-oa02]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m06-a03
+      title: Propriedades diagnósticas gemológicas
+      status: completed
+      file: 06-gemologia/06-gemologia-aula-03-propriedades-diagnosticas-gemologicas.md
+      content_hash: a57f5960ae39e90c0bff0fbe8348505d935baa4d2516d8e42662d7040fe1f19b
+      covers_objectives: [geologia-gemologia-m06-oa03]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m06-a04
+      title: Refratômetro e polariscópio
+      status: completed
+      file: 06-gemologia/06-gemologia-aula-04-refratometro-e-polariscopio.md
+      content_hash: 7f1b8ea94184d6a3d3ea50a930a7a6c9ba26fe91c0c2ae883f2ddbfde7681282
+      covers_objectives: [geologia-gemologia-m06-oa04]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m06-a05
+      title: Dicroscópio, espectroscópio, lupa e microscópio
+      status: completed
+      file: 06-gemologia/06-gemologia-aula-05-dicroscopio-espectroscopio-lupa-microscopio.md
+      content_hash: 4e95cbe6e089ff27abec63a7a9b89c45c94d1654776cf0873ffb5eee79cabea0
+      covers_objectives: [geologia-gemologia-m06-oa05]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m06-a06
+      title: Fluxo de identificação gemológica
+      status: completed
+      file: 06-gemologia/06-gemologia-aula-06-fluxo-de-identificacao-gemologica.md
+      content_hash: 195afc129fb0745bbea072d94737df0d6d031cd49a4538ca1eeac7ebb9697962
+      covers_objectives: [geologia-gemologia-m06-oa06]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m06-a07
+      title: 'Diamantes: cor e pureza'
+      status: completed
+      file: 06-gemologia/06-gemologia-aula-07-diamantes-cor-e-pureza.md
+      content_hash: f4b45c9c8a0cf3381933ee38d02b4377e6c9da62ab32feb4048d435ed200144c
+      covers_objectives: [geologia-gemologia-m06-oa07]
+      estimated_minutes: 30
+    - id: geologia-gemologia-m06-a08
+      title: 'Diamantes: lapidação, peso e valor'
+      status: completed
+      file: 06-gemologia/06-gemologia-aula-08-diamantes-lapidacao-peso-e-valor.md
+      content_hash: fa3245dd1367bcbc81be825a4dbe5c01cf69a5d37651b2a39e5d0e9a5dc4249f
+      covers_objectives: [geologia-gemologia-m06-oa08]
+      estimated_minutes: 30
+    - id: geologia-gemologia-m06-a09
+      title: Principais gemas coradas
+      status: completed
+      file: 06-gemologia/06-gemologia-aula-09-principais-gemas-coradas.md
+      content_hash: 9a0a6b3ca479ab06303b63a2ec3111cba172c540a120f137f1d44d7d2ca29afd
+      covers_objectives: [geologia-gemologia-m06-oa09]
+      estimated_minutes: 30
+    - id: geologia-gemologia-m06-a10
+      title: Tratamentos, sintéticos e imitações
+      status: completed
+      file: 06-gemologia/06-gemologia-aula-10-tratamentos-sinteticos-e-imitacoes.md
+      content_hash: f0e97390538c7eb8099e4bea3f90a722273f3d1741d8bbb49669cd0cea01b858
+      covers_objectives: [geologia-gemologia-m06-oa10]
+      estimated_minutes: 30
+    - id: geologia-gemologia-m06-a11
+      title: Proveniência, laudos e fatores de valor
+      status: completed
+      file: 06-gemologia/06-gemologia-aula-11-proveniencia-laudos-e-fatores-de-valor.md
+      content_hash: 10bdb6869994c9d4b17a654bc41c65f74b0ff5f67228612bee105cc97ddce95c
+      covers_objectives: [geologia-gemologia-m06-oa11]
+      estimated_minutes: 30
+  audit:
+    status: approved
+    audited_at: '2026-08-17T12:03:11-03:00'
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 0
+    white: 0
+    open_findings: []
+    files:
+    - 06-gemologia/06-gemologia-auditoria.md
+    - 06-gemologia/06-gemologia-auditoria.json
+  didactic_review:
+    status: completed
+    file: 06-gemologia/06-gemologia-revisao-didatica.md
+    generated_at: '2026-08-17'
+  assessment:
+    status: completed
+    generated_at: '2026-08-17'
+    files:
+    - 06-gemologia/06-gemologia-questionario-parcial-1.md
+    - 06-gemologia/06-gemologia-questionario-parcial-2.md
+    - 06-gemologia/06-gemologia-questionario-final.md
+    questions: 33
+    points: 113
+    objectives_covered:
+    - geologia-gemologia-m06-oa01
+    - geologia-gemologia-m06-oa02
+    - geologia-gemologia-m06-oa03
+    - geologia-gemologia-m06-oa04
+    - geologia-gemologia-m06-oa05
+    - geologia-gemologia-m06-oa06
+    - geologia-gemologia-m06-oa07
+    - geologia-gemologia-m06-oa08
+    - geologia-gemologia-m06-oa09
+    - geologia-gemologia-m06-oa10
+    - geologia-gemologia-m06-oa11
+    blueprint_complete: true
+    uncovered_objectives: []
+  flashcards:
+    status: completed
+    generated_at: '2026-08-17'
+    index_file: 06-gemologia/06-gemologia-flashcards.md
+    basic_file: 06-gemologia/06-gemologia-flashcards-basic.csv
+    cloze_file: 06-gemologia/06-gemologia-flashcards-cloze.csv
+    count_basic: 33
+    count_cloze: 22
+    last_id: 33
+    last_id_cloze: 22
+
+- id: '07'
+  slug: rochas-igneas
+  title: Rochas ígneas e magmatismo
+  area: III. Rochas e geoquímica
+  status: completed
+  prerequisites:
+  - '05'
+  learning_objectives:
+  - id: geologia-gemologia-m07-oa01
+    description: Explicar por que e como a rocha derrete
+    statement: Explicar por que e como a rocha derrete
+  - id: geologia-gemologia-m07-oa02
+    description: Descrever a geração e a evolução dos magmas
+    statement: Descrever a geração e a evolução dos magmas
+  - id: geologia-gemologia-m07-oa03
+    description: Aplicar a série de reação de Bowen à diferenciação magmática
+    statement: Aplicar a série de reação de Bowen à diferenciação magmática
+  - id: geologia-gemologia-m07-oa04
+    description: Descrever texturas ígneas e inferir condições de resfriamento
+    statement: Descrever texturas ígneas e inferir condições de resfriamento
+  - id: geologia-gemologia-m07-oa05
+    description: Distinguir corpos intrusivos e extrusivos e suas formas
+    statement: Distinguir corpos intrusivos e extrusivos e suas formas
+  - id: geologia-gemologia-m07-oa06
+    description: Classificar rochas ígneas por QAPF
+    statement: Classificar rochas ígneas por QAPF
+  - id: geologia-gemologia-m07-oa07
+    description: Classificar rochas vulcânicas por TAS
+    statement: Classificar rochas vulcânicas por TAS
+  - id: geologia-gemologia-m07-oa08
+    description: Relacionar tipos de magmatismo a ambientes tectônicos
+    statement: Relacionar tipos de magmatismo a ambientes tectônicos
+  lessons:
+    planned: 8
+    completed: 8
+    items:
+    - id: geologia-gemologia-m07-a01
+      title: 'Por que a rocha derrete — descompressão, água e aquecimento'
+      status: completed
+      file: 07-rochas-igneas/07-rochas-igneas-aula-01-por-que-a-rocha-derrete.md
+      content_hash: 12f4dc04df572408d776f37f8f5cd3db25262683453bf3528d07119a5b20ffd7
+      covers_objectives: [geologia-gemologia-m07-oa01]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m07-a02
+      title: 'Geração, composição e evolução dos magmas'
+      status: completed
+      file: 07-rochas-igneas/07-rochas-igneas-aula-02-geracao-e-evolucao-dos-magmas.md
+      content_hash: 425609df28110637ad7e2415591aade41def8757eb6101394bdf3474fd97e9b7
+      covers_objectives: [geologia-gemologia-m07-oa02]
+      estimated_minutes: 30
+    - id: geologia-gemologia-m07-a03
+      title: Série de reação de Bowen e diferenciação magmática
+      status: completed
+      file: 07-rochas-igneas/07-rochas-igneas-aula-03-serie-de-reacao-de-bowen.md
+      content_hash: 74c6d0ea3e933919e5d76b67ff2e2d3c83ac6438fb2902b65be0b53b6954f685
+      covers_objectives: [geologia-gemologia-m07-oa03]
+      estimated_minutes: 30
+    - id: geologia-gemologia-m07-a04
+      title: Texturas ígneas e história de resfriamento
+      status: completed
+      file: 07-rochas-igneas/07-rochas-igneas-aula-04-texturas-igneas-e-resfriamento.md
+      content_hash: 3fbcf39d4bf4c3d7692c533945f1ba886dd83b8a66014d3a76765803e38a7144
+      covers_objectives: [geologia-gemologia-m07-oa04]
+      estimated_minutes: 30
+    - id: geologia-gemologia-m07-a05
+      title: Corpos ígneos intrusivos e produtos extrusivos
+      status: completed
+      file: 07-rochas-igneas/07-rochas-igneas-aula-05-corpos-intrusivos-e-extrusivos.md
+      content_hash: c2c4c79c94011831f4e8fa8374c09c1eac6d6c68def5c258ead010172d458505
+      covers_objectives: [geologia-gemologia-m07-oa05]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m07-a06
+      title: Classificação modal QAPF
+      status: completed
+      file: 07-rochas-igneas/07-rochas-igneas-aula-06-classificacao-qapf.md
+      content_hash: e32a1342ac7dab493fc7fc9ba9cd8273f27c3ce9655817962bfffab0c9bd3a6d
+      covers_objectives: [geologia-gemologia-m07-oa06]
+      estimated_minutes: 30
+    - id: geologia-gemologia-m07-a07
+      title: Classificação química TAS
+      status: completed
+      file: 07-rochas-igneas/07-rochas-igneas-aula-07-classificacao-tas.md
+      content_hash: a15b7414770181f91fd0c9c01355353c2046ae32080a619437fc4a59e0348c57
+      covers_objectives: [geologia-gemologia-m07-oa07]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m07-a08
+      title: Magmatismo e ambientes tectônicos
+      status: completed
+      file: 07-rochas-igneas/07-rochas-igneas-aula-08-magmatismo-e-ambientes-tectonicos.md
+      content_hash: 19655a962aae1b20db95898b4cb1e48b5500523e8e54f6c0e2f0df8d9b2fa0ba
+      covers_objectives: [geologia-gemologia-m07-oa08]
+      estimated_minutes: 30
+  audit:
+    status: approved
+    audited_at: '2026-08-17T13:50:00-03:00'
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 0
+    white: 0
+    open_findings: []
+    files:
+    - 07-rochas-igneas/07-rochas-igneas-auditoria.md
+    - 07-rochas-igneas/07-rochas-igneas-auditoria.json
+  didactic_review:
+    status: completed
+    generated_at: '2026-08-17T13:54:00-03:00'
+    file: 07-rochas-igneas/07-rochas-igneas-revisao-didatica.md
+  assessment:
+    status: completed
+    generated_at: '2026-08-17T13:58:00-03:00'
+    files:
+    - 07-rochas-igneas/07-rochas-igneas-questionario-parcial-1.md
+    - 07-rochas-igneas/07-rochas-igneas-questionario-parcial-2.md
+    - 07-rochas-igneas/07-rochas-igneas-questionario-final.md
+    questions: 28
+    points: 88
+    objectives_covered: [geologia-gemologia-m07-oa01, geologia-gemologia-m07-oa02, geologia-gemologia-m07-oa03, geologia-gemologia-m07-oa04, geologia-gemologia-m07-oa05, geologia-gemologia-m07-oa06, geologia-gemologia-m07-oa07, geologia-gemologia-m07-oa08]
+    blueprint_complete: true
+    uncovered_objectives: []
+  flashcards:
+    status: completed
+    generated_at: '2026-08-17T14:02:00-03:00'
+    index_file: 07-rochas-igneas/07-rochas-igneas-flashcards.md
+    basic_file: 07-rochas-igneas/07-rochas-igneas-flashcards-basic.csv
+    cloze_file: 07-rochas-igneas/07-rochas-igneas-flashcards-cloze.csv
+    count_basic: 32
+    count_cloze: 24
+    last_id: 32
+    last_id_cloze: 25
+
+- id: '08'
+  slug: rochas-sedimentares
+  title: Rochas sedimentares
+  area: III. Rochas e geoquímica
+  status: completed
+  completed_at: '2026-08-17'
+  prerequisites:
+  - '05'
+  replan_change: >-
+    6 aulas viram 7. As classificações de Folk e de Dunham, que exigem ler
+    diagramas ternários, passam a vir depois de uma aula que ensina a ler um
+    diagrama ternário — habilidade que o currículo original presumia.
+  learning_objectives:
+  - id: geologia-gemologia-m08-oa01
+    description: Descrever a produção de sedimento por intemperismo e sua maturação
+  - id: geologia-gemologia-m08-oa02
+    description: Ler um diagrama ternário e uma escala granulométrica
+  - id: geologia-gemologia-m08-oa03
+    description: Classificar rochas siliciclásticas (Folk)
+  - id: geologia-gemologia-m08-oa04
+    description: Classificar rochas carbonáticas (Dunham/Folk)
+  - id: geologia-gemologia-m08-oa05
+    description: Distinguir rochas químicas, evaporíticas e orgânicas
+  - id: geologia-gemologia-m08-oa06
+    description: Explicar os processos diagenéticos
+  - id: geologia-gemologia-m08-oa07
+    description: Reconhecer estruturas sedimentares e o que elas indicam
+  lessons:
+    planned: 7
+    completed: 7
+    items:
+    - id: geologia-gemologia-m08-a01
+      title: Intemperismo, sedimentos e maturação
+      status: completed
+      file: 08-rochas-sedimentares/08-rochas-sedimentares-aula-01-intemperismo-sedimentos-e-maturacao.md
+      content_hash: 3854cbf919633d657e3ede0d5c3d67aa74524d2485169a0b66d3b1d4e8fdac45
+      covers_objectives: [geologia-gemologia-m08-oa01]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m08-a02
+      title: Diagramas ternários e granulometria
+      status: completed
+      file: 08-rochas-sedimentares/08-rochas-sedimentares-aula-02-diagramas-ternarios-e-granulometria.md
+      content_hash: f2316bf58ad3554283d9115026b5430de73da834be6f8a835d0f134dc7c64c17
+      covers_objectives: [geologia-gemologia-m08-oa02]
+      estimated_minutes: 30
+    - id: geologia-gemologia-m08-a03
+      title: Classificação siliciclástica pelo esquema de Folk
+      status: completed
+      file: 08-rochas-sedimentares/08-rochas-sedimentares-aula-03-classificacao-siliciclasticas-folk.md
+      content_hash: 5112f219dc15079457bbfbe699973d1957712e1e32d2a458d97e936867054939
+      covers_objectives: [geologia-gemologia-m08-oa03]
+      estimated_minutes: 30
+    - id: geologia-gemologia-m08-a04
+      title: Classificação de carbonáticas — Dunham e Folk
+      status: completed
+      file: 08-rochas-sedimentares/08-rochas-sedimentares-aula-04-classificacao-carbonaticas-dunham-e-folk.md
+      content_hash: 3a1f712ae8cd640f4066dcc71157231cc8949b95d37898db5b52a70e23e7c3b5
+      covers_objectives: [geologia-gemologia-m08-oa04]
+      estimated_minutes: 30
+    - id: geologia-gemologia-m08-a05
+      title: Rochas químicas, evaporíticas e orgânicas
+      status: completed
+      file: 08-rochas-sedimentares/08-rochas-sedimentares-aula-05-rochas-quimicas-evaporiticas-e-organicas.md
+      content_hash: 4f3301c78efe8dadd06abfe64c4d45b60b453f2f36245a7c2e941252106f3ad2
+      covers_objectives: [geologia-gemologia-m08-oa05]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m08-a06
+      title: Diagênese — do sedimento à rocha
+      status: completed
+      file: 08-rochas-sedimentares/08-rochas-sedimentares-aula-06-diagenese.md
+      content_hash: c3d1ee6107aa028d9f81fe4aeb138b0168d89d6eb6752ffd54f7fd086c727440
+      covers_objectives: [geologia-gemologia-m08-oa06]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m08-a07
+      title: Estruturas sedimentares e interpretações
+      status: completed
+      file: 08-rochas-sedimentares/08-rochas-sedimentares-aula-07-estruturas-sedimentares-e-interpretacoes.md
+      content_hash: aab8e0eeeb52dc211f124e21f95ffff71252787fe5edcd06e70ca232df802796
+      covers_objectives: [geologia-gemologia-m08-oa07]
+      estimated_minutes: 30
+  audit:
+    status: approved
+    audited_at: '2026-08-17'
+    audit_type: audit-and-fix
+    claims_declared: 17
+    red: 0
+    orange: 1
+    yellow: 0
+    blue: 0
+    white: 0
+    gate_released: true
+    note: >-
+      Auditoria científica conjunta full das sete aulas. Um achado laranja,
+      SED-DUNHAM-CRYSTALLINE-001, foi corrigido na aula 04: o Dunham original
+      inclui carbonato cristalino quando a textura deposicional não é reconhecível.
+      Não há achados vermelhos ou laranjas em aberto.
+    open_findings: []
+    deferred_findings: []
+    files:
+    - 08-rochas-sedimentares/08-rochas-sedimentares-auditoria.md
+    - 08-rochas-sedimentares/08-rochas-sedimentares-auditoria.json
+  didactic_review:
+    status: completed
+    generated_at: '2026-08-17'
+    file: 08-rochas-sedimentares/08-rochas-sedimentares-revisao-didatica.md
+  assessment:
+    status: completed
+    generated_at: '2026-08-17'
+    files:
+    - 08-rochas-sedimentares/08-rochas-sedimentares-questionario-final.md
+    questions: 12
+    points: 50
+    objectives_covered: [geologia-gemologia-m08-oa01, geologia-gemologia-m08-oa02, geologia-gemologia-m08-oa03, geologia-gemologia-m08-oa04, geologia-gemologia-m08-oa05, geologia-gemologia-m08-oa06, geologia-gemologia-m08-oa07]
+    blueprint_complete: true
+    uncovered_objectives: []
+    content_hash: ab37d68fa4be7a7502d4687dde4ba7c2303f7602b52839045eee41257368cac6
+  flashcards:
+    status: completed
+    generated_at: '2026-08-17'
+    index_file: 08-rochas-sedimentares/08-rochas-sedimentares-flashcards.md
+    basic_file: 08-rochas-sedimentares/08-rochas-sedimentares-flashcards-basic.csv
+    cloze_file: 08-rochas-sedimentares/08-rochas-sedimentares-flashcards-cloze.csv
+    count_basic: 32
+    count_cloze: 21
+    last_id: 32
+    last_id_cloze: 21
+
+- id: '09'
+  slug: rochas-metamorficas
+  title: Rochas metamórficas
+  area: III. Rochas e geoquímica
+  status: completed
+  written_at: '2026-08-17T15:30:00-03:00'
+  completed_at: '2026-08-17T16:10:00-03:00'
+  prerequisites:
+  - '05'
+  - '07'
+  - '08'
+  replan_change: >-
+    5 aulas viram 6. Fácies metamórficas exigem ler um diagrama pressão-temperatura;
+    ganha aula própria, com a leitura do diagrama ensinada antes do conteúdo.
+  learning_objectives:
+  - id: geologia-gemologia-m09-oa01
+    description: Definir metamorfismo e seus agentes (P, T, fluidos, deformação)
+  - id: geologia-gemologia-m09-oa02
+    description: Distinguir os tipos de metamorfismo
+  - id: geologia-gemologia-m09-oa03
+    description: Descrever texturas e estruturas metamórficas (foliação, xistosidade, bandamento)
+  - id: geologia-gemologia-m09-oa04
+    description: Ler um diagrama pressão-temperatura e situar um grau metamórfico
+  - id: geologia-gemologia-m09-oa05
+    description: Relacionar grau e fácies metamórficas
+  - id: geologia-gemologia-m09-oa06
+    description: Classificar rochas metamórficas a partir de protólito e grau
+  lessons:
+    planned: 6
+    completed: 6
+    items:
+    - id: geologia-gemologia-m09-a01
+      title: O que muda numa rocha sem ela derreter
+      status: completed
+      file: 09-rochas-metamorficas/09-rochas-metamorficas-aula-01-o-que-muda-sem-derreter.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives: [geologia-gemologia-m09-oa01]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m09-a02
+      title: Tipos de metamorfismo e seus contextos
+      status: completed
+      file: 09-rochas-metamorficas/09-rochas-metamorficas-aula-02-tipos-de-metamorfismo.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives: [geologia-gemologia-m09-oa02]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m09-a03
+      title: 'Texturas e estruturas: como a rocha registra a deformação'
+      status: completed
+      file: 09-rochas-metamorficas/09-rochas-metamorficas-aula-03-texturas-e-estruturas.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives: [geologia-gemologia-m09-oa03]
+      estimated_minutes: 28
+    - id: geologia-gemologia-m09-a04
+      title: Como ler diagramas pressão-temperatura
+      status: completed
+      file: 09-rochas-metamorficas/09-rochas-metamorficas-aula-04-como-ler-diagramas-pt.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives: [geologia-gemologia-m09-oa04]
+      estimated_minutes: 28
+    - id: geologia-gemologia-m09-a05
+      title: Grau, minerais-índice e fácies metamórficas
+      status: completed
+      file: 09-rochas-metamorficas/09-rochas-metamorficas-aula-05-grau-e-facies-metamorficas.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives: [geologia-gemologia-m09-oa05]
+      estimated_minutes: 28
+    - id: geologia-gemologia-m09-a06
+      title: Classificação, protólitos e nomes de rochas metamórficas
+      status: completed
+      file: 09-rochas-metamorficas/09-rochas-metamorficas-aula-06-classificacao-e-protolitos.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives: [geologia-gemologia-m09-oa06]
+      estimated_minutes: 30
+  audit:
+    status: approved
+    audited_at: '2026-08-17T16:10:00-03:00'
+    audit_type: primeira-passagem-conjunta
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 0
+    white: 0
+    gate_released: true
+    open_findings: []
+    files:
+    - 09-rochas-metamorficas/09-rochas-metamorficas-auditoria.md
+    - 09-rochas-metamorficas/09-rochas-metamorficas-auditoria.json
+  didactic_review:
+    status: completed
+    reviewed_at: '2026-08-17T16:10:00-03:00'
+    file: 09-rochas-metamorficas/09-rochas-metamorficas-revisao-didatica.md
+  assessment:
+    status: completed
+    generated_at: '2026-08-17T15:30:00-03:00'
+    files: [09-rochas-metamorficas/09-rochas-metamorficas-questionario-final.md]
+    questions: 12
+    points: 40
+    objectives_covered: 6
+  flashcards:
+    status: completed
+    generated_at: '2026-08-17T15:30:00-03:00'
+    index_file: 09-rochas-metamorficas/09-rochas-metamorficas-flashcards.md
+    basic_file: 09-rochas-metamorficas/09-rochas-metamorficas-flashcards-basic.csv
+    cloze_file: 09-rochas-metamorficas/09-rochas-metamorficas-flashcards-cloze.csv
+    count_basic: 14
+    count_cloze: 10
+    last_id: 14
+    last_id_cloze: 10
+    objectives_covered: 6
+
+- id: '10'
+  slug: geoquimica
+  title: Geoquímica
+  area: III. Rochas e geoquímica
+  status: complete
+  completed_at: '2026-08-17'
+  prerequisites:
+  - '03'
+  - '04'
+  - '05'
+  - '07'
+  replan_change: >-
+    6 aulas viram 8 e o módulo ganha uma aula de revisão/nivelamento opcional de
+    energia, calor e equilíbrio antes da termodinâmica. Ela reativa conteúdos do
+    ensino médio e pode ser pulada após checagem diagnóstica.
+    Recebe também o conteúdo deferido do M01 (regra de Goldschmidt em detalhe) e
+    do M03 (isócronas, concórdia e discórdia), que ganham aula própria.
+  learning_objectives:
+  - id: geologia-gemologia-m10-oa01
+    description: Reativar energia, calor e equilíbrio em nível funcional (nivelamento opcional)
+  - id: geologia-gemologia-m10-oa02
+    description: Classificar os elementos segundo Goldschmidt e prever seu comportamento
+  - id: geologia-gemologia-m10-oa03
+    description: Interpretar elementos maiores, menores e traço e coeficientes de partição
+  - id: geologia-gemologia-m10-oa04
+    description: Aplicar equilíbrio de fases à petrologia (geotermobarometria)
+  - id: geologia-gemologia-m10-oa05
+    description: Usar isótopos radiogênicos como traçadores de fonte
+  - id: geologia-gemologia-m10-oa06
+    description: Interpretar isócronas, concórdia e discórdia
+  - id: geologia-gemologia-m10-oa07
+    description: Interpretar isótopos estáveis (O, H, C, S) em processos geológicos
+  - id: geologia-gemologia-m10-oa08
+    description: Relacionar ciclos geoquímicos a aplicações ambientais e de exploração
+  lessons:
+    planned: 8
+    completed: 8
+    bridge_lessons: 1
+    items:
+    - id: geologia-gemologia-m10-a01
+      title: 'Energia, calor e equilíbrio — a ponte para a geoquímica'
+      status: completed
+      file: 10-geoquimica/10-geoquimica-aula-01-energia-calor-e-equilibrio.md
+      covers_objectives: [geologia-gemologia-m10-oa01]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m10-a02
+      title: Goldschmidt e o destino dos elementos
+      status: completed
+      file: 10-geoquimica/10-geoquimica-aula-02-goldschmidt-e-o-destino-dos-elementos.md
+      covers_objectives: [geologia-gemologia-m10-oa02]
+      estimated_minutes: 28
+    - id: geologia-gemologia-m10-a03
+      title: Elementos e partição entre minerais, magmas e fluidos
+      status: completed
+      file: 10-geoquimica/10-geoquimica-aula-03-elementos-e-particao.md
+      covers_objectives: [geologia-gemologia-m10-oa03]
+      estimated_minutes: 30
+    - id: geologia-gemologia-m10-a04
+      title: Fases e geotermobarometria
+      status: completed
+      file: 10-geoquimica/10-geoquimica-aula-04-fases-e-geotermobarometria.md
+      covers_objectives: [geologia-gemologia-m10-oa04]
+      estimated_minutes: 28
+    - id: geologia-gemologia-m10-a05
+      title: Isótopos radiogênicos e fontes geológicas
+      status: completed
+      file: 10-geoquimica/10-geoquimica-aula-05-isotopos-radiogenicos-e-fontes.md
+      covers_objectives: [geologia-gemologia-m10-oa05]
+      estimated_minutes: 28
+    - id: geologia-gemologia-m10-a06
+      title: Isócronas, concórdia e discórdia
+      status: completed
+      file: 10-geoquimica/10-geoquimica-aula-06-isocronas-concordia-e-discordia.md
+      covers_objectives: [geologia-gemologia-m10-oa06]
+      estimated_minutes: 30
+    - id: geologia-gemologia-m10-a07
+      title: Isótopos estáveis como registro de processo
+      status: completed
+      file: 10-geoquimica/10-geoquimica-aula-07-isotopos-estaveis.md
+      covers_objectives: [geologia-gemologia-m10-oa07]
+      estimated_minutes: 28
+    - id: geologia-gemologia-m10-a08
+      title: Ciclos geoquímicos, ambiente e exploração
+      status: completed
+      file: 10-geoquimica/10-geoquimica-aula-08-ciclos-aplicacoes-e-limites.md
+      covers_objectives: [geologia-gemologia-m10-oa08]
+      estimated_minutes: 28
+  audit:
+    status: approved
+    audited_at: '2026-08-17T17:20:00-03:00'
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 1
+    gate_released: true
+    open_findings: []
+    revisit_findings:
+    - M02-F07
+    files:
+    - 10-geoquimica/10-geoquimica-auditoria.md
+    - 10-geoquimica/10-geoquimica-auditoria.json
+  assessment:
+    status: generated
+    generated_at: '2026-08-17T17:30:00-03:00'
+    files:
+    - 10-geoquimica/10-geoquimica-questionario-parcial-1.md
+    - 10-geoquimica/10-geoquimica-questionario-parcial-2.md
+    - 10-geoquimica/10-geoquimica-questionario-final.md
+    partials: 2
+    questions: 16
+    points: 64
+    objectives_covered: 8
+    note: 'módulo grande: prever parciais + final'
+  flashcards:
+    status: generated
+    index_file: 10-geoquimica/10-geoquimica-flashcards.md
+    basic_file: 10-geoquimica/10-geoquimica-flashcards-basic.csv
+    cloze_file: 10-geoquimica/10-geoquimica-flashcards-cloze.csv
+    count_basic: 8
+    count_cloze: 3
+    last_id: 8
+    last_id_cloze: 3
+
+- id: '11'
+  slug: vulcanologia
+  title: Vulcanologia
+  area: IV. Vulcanismo e processos de superfície
+  status: complete
+  completed_at: '2026-08-17T19:30:00-03:00'
+  prerequisites:
+  - '02'
+  - '07'
+  replan_change: >-
+    5 aulas viram 6, absorvendo o conteúdo de estilos eruptivos e classificação de
+    vulcões deferido do M02. A relação entre composição, viscosidade e
+    explosividade ganha aula própria, por ser o conceito unificador do módulo.
+  learning_objectives:
+  - id: geologia-gemologia-m11-oa01
+    description: Classificar tipos de vulcões pela forma e pela origem
+  - id: geologia-gemologia-m11-oa02
+    description: Relacionar composição, viscosidade e voláteis à explosividade
+  - id: geologia-gemologia-m11-oa03
+    description: Classificar estilos eruptivos e o índice VEI
+  - id: geologia-gemologia-m11-oa04
+    description: Descrever os produtos vulcânicos (lavas, piroclastos, depósitos)
+  - id: geologia-gemologia-m11-oa05
+    description: Avaliar riscos vulcânicos e métodos de monitoramento
+  - id: geologia-gemologia-m11-oa06
+    description: Relacionar vulcanismo a ambientes tectônicos e ao clima
+  lessons:
+    planned: 6
+    completed: 6
+    items:
+    - id: geologia-gemologia-m11-a01
+      title: Formas dos vulcões e o que elas registram
+      status: completed
+      file: 11-vulcanologia/11-vulcanologia-aula-01-formas-dos-vulcoes.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m11-oa01
+      estimated_minutes: 25
+    - id: geologia-gemologia-m11-a02
+      title: Viscosidade, voláteis e explosividade
+      status: completed
+      file: 11-vulcanologia/11-vulcanologia-aula-02-viscosidade-volateis-e-explosividade.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m11-oa02
+      estimated_minutes: 30
+    - id: geologia-gemologia-m11-a03
+      title: Estilos eruptivos e o que o VEI mede
+      status: completed
+      file: 11-vulcanologia/11-vulcanologia-aula-03-estilos-eruptivos-e-vei.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m11-oa03
+      estimated_minutes: 25
+    - id: geologia-gemologia-m11-a04
+      title: Produtos e depósitos vulcânicos
+      status: completed
+      file: 11-vulcanologia/11-vulcanologia-aula-04-produtos-e-depositos-vulcanicos.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m11-oa04
+      estimated_minutes: 30
+    - id: geologia-gemologia-m11-a05
+      title: Riscos vulcânicos e monitoramento
+      status: completed
+      file: 11-vulcanologia/11-vulcanologia-aula-05-riscos-e-monitoramento.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m11-oa05
+      estimated_minutes: 30
+    - id: geologia-gemologia-m11-a06
+      title: Vulcanismo, placas tectônicas e clima
+      status: completed
+      file: 11-vulcanologia/11-vulcanologia-aula-06-vulcanismo-placas-e-clima.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m11-oa06
+      estimated_minutes: 30
+  audit:
+    status: approved
+    audited_at: '2026-08-17T18:00:00-03:00'
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 0
+    white: 0
+    gate_released: true
+    open_findings: []
+    revisit_findings:
+    - M02-F05
+    files:
+    - 11-vulcanologia/11-vulcanologia-auditoria.md
+    - 11-vulcanologia/11-vulcanologia-auditoria.json
+  didactic_review:
+    status: approved
+    reviewed_at: '2026-08-17T18:05:00-03:00'
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 0
+    files:
+    - 11-vulcanologia/11-vulcanologia-revisao-didatica.md
+  assessment:
+    status: generated
+    generated_at: '2026-08-17T18:20:00-03:00'
+    method: primeira-geracao
+    files:
+    - 11-vulcanologia/11-vulcanologia-questionario-final.md
+    questions: 12
+    points: 40
+    objectives_covered: 6
+  flashcards:
+    status: generated
+    generated_at: '2026-08-17T18:35:00-03:00'
+    method: primeira-geracao
+    reason: >-
+      Baralho gerado após a auditoria científica aprovada, revisão didática e
+      questionário final. Não havia baralho anterior; IDs começam em 001 e não há
+      migração de Anki a executar.
+    index_file: 11-vulcanologia/11-vulcanologia-flashcards.md
+    basic_file: 11-vulcanologia/11-vulcanologia-flashcards-basic.csv
+    cloze_file: 11-vulcanologia/11-vulcanologia-flashcards-cloze.csv
+    count_basic: 32
+    count_cloze: 19
+    last_id: 32
+    last_id_cloze: 19
+    objectives_covered: 6
+
+- id: '12'
+  slug: intemperismo-solos-geomorfologia
+  title: Intemperismo, solos e geomorfologia
+  area: IV. Vulcanismo e processos de superfície
+  status: complete
+  completed_at: '2026-08-17T19:30:00-03:00'
+  prerequisites:
+  - '08'
+  replan_change: >-
+    5 aulas viram 7. Relevo fluvial e relevo costeiro/eólico estavam apertados em
+    duas aulas que cobriam quatro sistemas distintos; agora são três aulas. A
+    pedologia ganha espaço próprio, separada do intemperismo que a origina.
+  learning_objectives:
+  - id: geologia-gemologia-m12-oa01
+    description: Distinguir intemperismo físico e químico e seus produtos
+  - id: geologia-gemologia-m12-oa02
+    description: Descrever a formação e os horizontes de um solo (pedologia)
+  - id: geologia-gemologia-m12-oa03
+    description: Explicar como um rio esculpe o relevo
+  - id: geologia-gemologia-m12-oa04
+    description: Interpretar formas de relevo fluviais e bacias de drenagem
+  - id: geologia-gemologia-m12-oa05
+    description: Interpretar relevos costeiros
+  - id: geologia-gemologia-m12-oa06
+    description: Interpretar relevos eólicos e desérticos
+  - id: geologia-gemologia-m12-oa07
+    description: Explicar processos de encosta e movimentos de massa
+  lessons:
+    planned: 7
+    completed: 7
+    items:
+    - id: geologia-gemologia-m12-a01
+      title: Intemperismo físico e químico
+      status: completed
+      file: 12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-aula-01-intemperismo-fisico-e-quimico.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives: [geologia-gemologia-m12-oa01]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m12-a02
+      title: Formação e horizontes do solo
+      status: completed
+      file: 12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-aula-02-formacao-e-horizontes-do-solo.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives: [geologia-gemologia-m12-oa02]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m12-a03
+      title: Rios — erosão, transporte e deposição
+      status: completed
+      file: 12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-aula-03-rios-erosao-transporte-e-deposicao.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives: [geologia-gemologia-m12-oa03]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m12-a04
+      title: Formas fluviais e bacias de drenagem
+      status: completed
+      file: 12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-aula-04-formas-fluviais-e-bacias-de-drenagem.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives: [geologia-gemologia-m12-oa04]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m12-a05
+      title: Relevos costeiros
+      status: completed
+      file: 12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-aula-05-relevos-costeiros.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives: [geologia-gemologia-m12-oa05]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m12-a06
+      title: Relevos eólicos e desérticos
+      status: completed
+      file: 12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-aula-06-relevos-eolicos-e-deserticos.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives: [geologia-gemologia-m12-oa06]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m12-a07
+      title: Processos de encosta e movimentos de massa
+      status: completed
+      file: 12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-aula-07-processos-de-encosta-e-movimentos-de-massa.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives: [geologia-gemologia-m12-oa07]
+      estimated_minutes: 30
+  audit:
+    status: approved
+    audited_at: '2026-08-17T18:45:00-03:00'
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 0
+    white: 0
+    gate_released: true
+    open_findings: []
+    files:
+    - 12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-auditoria.md
+    - 12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-auditoria.json
+  didactic_review:
+    status: approved
+    reviewed_at: '2026-08-17T18:50:00-03:00'
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 0
+    files:
+    - 12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-revisao-didatica.md
+  assessment:
+    status: generated
+    generated_at: '2026-08-17T19:05:00-03:00'
+    method: primeira-geracao
+    files:
+    - 12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-questionario-parcial-1.md
+    - 12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-questionario-parcial-2.md
+    - 12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-questionario-final.md
+    questions: 27
+    points: 80
+    objectives_covered: 7
+  flashcards:
+    status: generated
+    generated_at: '2026-08-17T19:20:00-03:00'
+    method: primeira-geracao
+    reason: >-
+      Baralho gerado após auditoria científica aprovada, revisão didática e
+      avaliações. Não havia baralho anterior; IDs começam em 001.
+    index_file: 12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-flashcards.md
+    basic_file: 12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-flashcards-basic.csv
+    cloze_file: 12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-flashcards-cloze.csv
+    count_basic: 27
+    count_cloze: 15
+    last_id: 27
+    last_id_cloze: 15
+    objectives_covered: 7
+
+- id: '13'
+  slug: glaciologia
+  title: Glaciologia
+  area: IV. Vulcanismo e processos de superfície
+  status: complete
+  completed_at: '2026-08-17T20:15:00-03:00'
+  prerequisites:
+  - '12'
+  replan_change: '4 aulas viram 5; o balanço de massa e o fluxo glacial passam a ter aulas separadas.'
+  learning_objectives:
+  - id: geologia-gemologia-m13-oa01
+    description: Classificar geleiras e descrever seu balanço de massa
+  - id: geologia-gemologia-m13-oa02
+    description: Explicar como o gelo flui e por que ele erode
+  - id: geologia-gemologia-m13-oa03
+    description: Identificar formas e depósitos glaciais (morainas, till, estrias)
+  - id: geologia-gemologia-m13-oa04
+    description: Relacionar glaciações ao registro estratigráfico e ao paleoclima
+  - id: geologia-gemologia-m13-oa05
+    description: Situar a criosfera atual e as mudanças em curso
+  lessons:
+    planned: 5
+    completed: 6
+    items:
+    - id: geologia-gemologia-m13-a01
+      title: Tipos de geleira e balanço de massa
+      status: completed
+      file: 13-glaciologia/13-glaciologia-aula-01-tipos-de-geleira-e-balanco-de-massa.md
+      covers_objectives: [geologia-gemologia-m13-oa01]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m13-a02
+      title: Fluxo glacial e erosão
+      status: completed
+      file: 13-glaciologia/13-glaciologia-aula-02-fluxo-glacial-e-erosao.md
+      covers_objectives: [geologia-gemologia-m13-oa02]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m13-a03
+      title: Formas e depósitos glaciais
+      status: completed
+      file: 13-glaciologia/13-glaciologia-aula-03-formas-e-depositos-glaciais.md
+      covers_objectives: [geologia-gemologia-m13-oa03]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m13-a04
+      title: Glaciações, estratigrafia e paleoclima
+      status: completed
+      file: 13-glaciologia/13-glaciologia-aula-04-glaciacoes-estratigrafia-e-paleoclima.md
+      covers_objectives: [geologia-gemologia-m13-oa04]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m13-a05
+      title: Criosfera atual e mudanças em curso
+      status: completed
+      file: 13-glaciologia/13-glaciologia-aula-05-criosfera-atual-e-mudancas-em-curso.md
+      covers_objectives: [geologia-gemologia-m13-oa05]
+      estimated_minutes: 25
+  audit:
+    status: approved
+    audited_at: '2026-08-17T20:00:00-03:00'
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 0
+    white: 0
+    gate_released: true
+    open_findings: []
+    files:
+    - 13-glaciologia/13-glaciologia-auditoria.md
+    - 13-glaciologia/13-glaciologia-auditoria.json
+  didactic_review:
+    status: approved
+    reviewed_at: '2026-08-17T20:05:00-03:00'
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 0
+    files:
+    - 13-glaciologia/13-glaciologia-revisao-didatica.md
+  assessment:
+    status: generated
+    generated_at: '2026-08-17T20:10:00-03:00'
+    method: primeira-geracao
+    files:
+    - 13-glaciologia/13-glaciologia-questionario-final.md
+    questions: 10
+    points: 20
+    objectives_covered: 5
+  flashcards:
+    status: generated
+    generated_at: '2026-08-17T20:12:00-03:00'
+    method: primeira-geracao
+    index_file: 13-glaciologia/13-glaciologia-flashcards.md
+    basic_file: 13-glaciologia/13-glaciologia-flashcards-basic.csv
+    cloze_file: 13-glaciologia/13-glaciologia-flashcards-cloze.csv
+    count_basic: 10
+    count_cloze: 5
+    last_id: 10
+    last_id_cloze: 5
+    objectives_covered: 5
+
+- id: '14'
+  slug: sedimentologia-ambientes
+  title: Sedimentologia e ambientes deposicionais
+  area: IV. Vulcanismo e processos de superfície
+  status: complete
+  completed_at: '2026-08-17T21:30:00-03:00'
+  written_at: '2026-08-17T21:00:00-03:00'
+  prerequisites:
+  - '08'
+  - '12'
+  replan_change: >-
+    5 aulas viram 6. O conceito de fácies e a Lei de Walther, que são o eixo do
+    módulo e costumam ser o ponto em que o iniciante trava, ganham duas aulas.
+  learning_objectives:
+  - id: geologia-gemologia-m14-oa01
+    description: Definir fácies e explicar o que uma fácies representa
+  - id: geologia-gemologia-m14-oa02
+    description: Aplicar a Lei de Walther a uma sucessão vertical
+  - id: geologia-gemologia-m14-oa03
+    description: Caracterizar ambientes deposicionais continentais
+  - id: geologia-gemologia-m14-oa04
+    description: Caracterizar ambientes transicionais e costeiros
+  - id: geologia-gemologia-m14-oa05
+    description: Caracterizar ambientes marinhos
+  - id: geologia-gemologia-m14-oa06
+    description: Integrar fácies em sistemas deposicionais
+  lessons:
+    planned: 6
+    completed: 6
+    items:
+    - id: geologia-gemologia-m14-a01
+      title: 'Fácies — a assinatura de um ambiente'
+      status: completed
+      file: 14-sedimentologia-ambientes/14-sedimentologia-ambientes-aula-01-facies.md
+      covers_objectives: [geologia-gemologia-m14-oa01]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m14-a02
+      title: 'Lei de Walther — do lado a lado ao empilhado'
+      status: completed
+      file: 14-sedimentologia-ambientes/14-sedimentologia-ambientes-aula-02-lei-de-walther.md
+      covers_objectives: [geologia-gemologia-m14-oa02]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m14-a03
+      title: 'Ambientes continentais — sedimento antes do mar'
+      status: completed
+      file: 14-sedimentologia-ambientes/14-sedimentologia-ambientes-aula-03-ambientes-continentais.md
+      covers_objectives: [geologia-gemologia-m14-oa03]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m14-a04
+      title: Ambientes transicionais e costeiros
+      status: completed
+      file: 14-sedimentologia-ambientes/14-sedimentologia-ambientes-aula-04-ambientes-transicionais-e-costeiros.md
+      covers_objectives: [geologia-gemologia-m14-oa04]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m14-a05
+      title: 'Ambientes marinhos — da plataforma ao fundo profundo'
+      status: completed
+      file: 14-sedimentologia-ambientes/14-sedimentologia-ambientes-aula-05-ambientes-marinhos.md
+      covers_objectives: [geologia-gemologia-m14-oa05]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m14-a06
+      title: 'Sistemas deposicionais — reconstruindo o conjunto'
+      status: completed
+      file: 14-sedimentologia-ambientes/14-sedimentologia-ambientes-aula-06-sistemas-deposicionais.md
+      covers_objectives: [geologia-gemologia-m14-oa06]
+      estimated_minutes: 30
+  audit:
+    status: approved
+    audited_at: '2026-08-17T21:10:00-03:00'
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 0
+    white: 0
+    gate_released: true
+    open_findings: []
+    files:
+    - 14-sedimentologia-ambientes/14-sedimentologia-ambientes-auditoria.md
+    - 14-sedimentologia-ambientes/14-sedimentologia-ambientes-auditoria.json
+  didactic_review:
+    status: completed
+    reviewed_at: '2026-08-17T21:12:00-03:00'
+    file: 14-sedimentologia-ambientes/14-sedimentologia-ambientes-revisao-didatica.md
+  assessment:
+    status: completed
+    generated_at: '2026-08-17T21:20:00-03:00'
+    files:
+    - 14-sedimentologia-ambientes/14-sedimentologia-ambientes-questionario-parcial-1.md
+    - 14-sedimentologia-ambientes/14-sedimentologia-ambientes-questionario-parcial-2.md
+    - 14-sedimentologia-ambientes/14-sedimentologia-ambientes-questionario-final.md
+    questions: 8
+    points: 40
+    objectives_covered: 6
+    blueprint_complete: true
+    uncovered_objectives: []
+  flashcards:
+    status: completed
+    generated_at: '2026-08-17T21:25:00-03:00'
+    index_file: 14-sedimentologia-ambientes/14-sedimentologia-ambientes-flashcards.md
+    basic_file: 14-sedimentologia-ambientes/14-sedimentologia-ambientes-flashcards-basic.csv
+    cloze_file: 14-sedimentologia-ambientes/14-sedimentologia-ambientes-flashcards-cloze.csv
+    count_basic: 6
+    count_cloze: 2
+    last_id: 6
+    last_id_cloze: 2
+
+- id: '15'
+  slug: estratigrafia-correlacao
+  title: Estratigrafia e correlação
+  area: V. Estratigrafia, tempo e vida
+  status: completed
+  completed_at: '2026-08-17T22:45:00-03:00'
+  prerequisites:
+  - '03'
+  - '14'
+  replan_change: >-
+    5 aulas viram 6. Recebe do M03 o conteúdo deferido sobre o procedimento
+    formal de definição de um GSSP. A distinção entre lito, bio e cronoestratigrafia
+    — que é a maior fonte de confusão do módulo — ganha aula dedicada, colocada
+    depois das três terem sido apresentadas separadamente.
+  learning_objectives:
+  - id: geologia-gemologia-m15-oa01
+    description: Definir unidades litoestratigráficas (formação, grupo, membro)
+  - id: geologia-gemologia-m15-oa02
+    description: Aplicar bioestratigrafia e fósseis-índice
+  - id: geologia-gemologia-m15-oa03
+    description: Distinguir crono, lito e bioestratigrafia
+  - id: geologia-gemologia-m15-oa04
+    description: Descrever como se define formalmente um GSSP
+  - id: geologia-gemologia-m15-oa05
+    description: Interpretar estratigrafia de sequências
+  - id: geologia-gemologia-m15-oa06
+    description: Correlacionar seções estratigráficas
+  lessons:
+    planned: 6
+    completed: 6
+    items:
+    - id: geologia-gemologia-m15-a01
+      title: Unidades litoestratigráficas — dando nome aos corpos de rocha
+      status: completed
+      file: 15-estratigrafia-correlacao/15-estratigrafia-correlacao-aula-01-unidades-litoestratigraficas.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m15-oa01
+      estimated_minutes: 25
+    - id: geologia-gemologia-m15-a02
+      title: Bioestratigrafia e fósseis-índice — usando a vida como marcador
+      status: completed
+      file: 15-estratigrafia-correlacao/15-estratigrafia-correlacao-aula-02-bioestratigrafia-e-fosseis-indice.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m15-oa02
+      estimated_minutes: 28
+    - id: geologia-gemologia-m15-a03
+      title: Lito, bio e cronoestratigrafia — três perguntas, três lentes
+      status: completed
+      file: 15-estratigrafia-correlacao/15-estratigrafia-correlacao-aula-03-lito-bio-e-cronoestratigrafia.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m15-oa03
+      estimated_minutes: 25
+    - id: geologia-gemologia-m15-a04
+      title: GSSP — como uma fronteira global vira padrão
+      status: completed
+      file: 15-estratigrafia-correlacao/15-estratigrafia-correlacao-aula-04-gssp-procedimento-formal.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m15-oa04
+      estimated_minutes: 28
+    - id: geologia-gemologia-m15-a05
+      title: Estratigrafia de sequências — lendo o empilhamento dos depósitos
+      status: completed
+      file: 15-estratigrafia-correlacao/15-estratigrafia-correlacao-aula-05-estratigrafia-de-sequencias.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m15-oa05
+      estimated_minutes: 28
+    - id: geologia-gemologia-m15-a06
+      title: Correlacionando seções — defendendo uma equivalência
+      status: completed
+      file: 15-estratigrafia-correlacao/15-estratigrafia-correlacao-aula-06-correlacionando-secoes.md
+      content_hash: null
+      hash_status: pending-recompute
+      covers_objectives:
+      - geologia-gemologia-m15-oa06
+      estimated_minutes: 30
+  audit:
+    status: approved
+    audited_at: '2026-08-17T22:20:00-03:00'
+    audit_type: audit-and-fix-full-conjunta
+    claims_declared: 11
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 0
+    white: 0
+    gate_released: true
+    note: >-
+      Auditoria científica full das seis aulas em conjunto, com fontes normativas
+      da ICS e Catuneanu et al. (2011) para estratigrafia de sequências. Não foram
+      encontrados achados; o gate para avaliações e flashcards está liberado.
+    open_findings: []
+    files:
+    - 15-estratigrafia-correlacao/15-estratigrafia-correlacao-auditoria.md
+    - 15-estratigrafia-correlacao/15-estratigrafia-correlacao-auditoria.json
+  didactic_review:
+    status: completed
+    reviewed_at: '2026-08-17T22:25:00-03:00'
+    file: 15-estratigrafia-correlacao/15-estratigrafia-correlacao-revisao-didatica.md
+  assessment:
+    status: completed
+    generated_at: '2026-08-17T22:35:00-03:00'
+    files:
+    - 15-estratigrafia-correlacao/15-estratigrafia-correlacao-questionario-parcial-1.md
+    - 15-estratigrafia-correlacao/15-estratigrafia-correlacao-questionario-parcial-2.md
+    - 15-estratigrafia-correlacao/15-estratigrafia-correlacao-questionario-final.md
+    questions: 10
+    points: 40
+    objectives_covered: 6
+    blueprint_complete: false
+    uncovered_objectives: []
+  flashcards:
+    status: generated
+    generated_at: '2026-08-17T23:05:00-03:00'
+    method: primeira-geracao
+    reason: >-
+      Gerado depois da auditoria cientifica aprovada, revisao didatica e
+      avaliacoes, contra as seis aulas auditadas. Primeiro baralho do modulo;
+      nao ha IDs antigos a preservar ou aposentar.
+    index_file: 15-estratigrafia-correlacao/15-estratigrafia-correlacao-flashcards.md
+    basic_file: 15-estratigrafia-correlacao/15-estratigrafia-correlacao-flashcards-basic.csv
+    cloze_file: 15-estratigrafia-correlacao/15-estratigrafia-correlacao-flashcards-cloze.csv
+    count_basic: 30
+    count_cloze: 18
+    last_id: 30
+    last_id_cloze: 18
+    objectives_covered: 6
+
+- id: '16'
+  slug: paleontologia-historia-vida
+  title: Paleontologia e história da vida
+  area: V. Estratigrafia, tempo e vida
+  status: completed
+  completed_at: '2026-08-17T23:50:00-03:00'
+  prerequisites:
+  - '03'
+  - '15'
+  replan_change: >-
+    6 aulas viram 7, com revisão/nivelamento opcional sobre classificação biológica
+    (espécie, gênero, clado e árvore filogenética). Pode ser pulada por quem
+    demonstrar essa competência na checagem diagnóstica.
+  learning_objectives:
+  - id: geologia-gemologia-m16-oa01
+    description: Explicar processos de fossilização e tafonomia
+  - id: geologia-gemologia-m16-oa02
+    description: Reativar a leitura de classificação biológica e árvore filogenética (nivelamento opcional)
+  - id: geologia-gemologia-m16-oa03
+    description: Situar os grandes grupos na árvore da vida
+  - id: geologia-gemologia-m16-oa04
+    description: Reconhecer os principais grupos fósseis
+  - id: geologia-gemologia-m16-oa05
+    description: Aplicar fósseis à bioestratigrafia
+  - id: geologia-gemologia-m16-oa06
+    description: Descrever a história da vida ao longo dos éons
+  - id: geologia-gemologia-m16-oa07
+    description: Caracterizar as extinções em massa e suas causas
+  lessons:
+    planned: 7
+    completed: 7
+    bridge_lessons: 1
+    items:
+    - id: geologia-gemologia-m16-a01
+      title: Fossilização e tafonomia
+      status: completed
+      file: 16-paleontologia-historia-vida/16-paleontologia-historia-vida-aula-01-fossilizacao-e-tafonomia.md
+      content_hash: 3a7b4d17ad33962a7a62697bb0de0a3428c591d69880c6ce3ecaa827eca3e18b
+      covers_objectives: [geologia-gemologia-m16-oa01]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m16-a02
+      title: Classificação biológica e árvores de parentesco
+      status: completed
+      file: 16-paleontologia-historia-vida/16-paleontologia-historia-vida-aula-02-classificacao-biologica-ponte.md
+      content_hash: a5246ae7fd920ecf26d8573f96030dc4fff3a51beb5efc191fe513ef855bc96d
+      covers_objectives: [geologia-gemologia-m16-oa02]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m16-a03
+      title: Grandes ramos da vida no registro fóssil
+      status: completed
+      file: 16-paleontologia-historia-vida/16-paleontologia-historia-vida-aula-03-grandes-ramos-da-vida.md
+      content_hash: b249516513f0040d61636b4f54ede4e470109aa041479d14754af1df19891272
+      covers_objectives: [geologia-gemologia-m16-oa03]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m16-a04
+      title: Reconhecimento inicial de grupos fósseis
+      status: completed
+      file: 16-paleontologia-historia-vida/16-paleontologia-historia-vida-aula-04-reconhecimento-de-grupos-fosseis.md
+      content_hash: 21e6e1a46060a8d3c0ca5c4ae23a301feffa6fa6e2cf8d2e105d936b508723be
+      covers_objectives: [geologia-gemologia-m16-oa04]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m16-a05
+      title: Fósseis e bioestratigrafia
+      status: completed
+      file: 16-paleontologia-historia-vida/16-paleontologia-historia-vida-aula-05-fosseis-e-bioestratigrafia.md
+      content_hash: e31a672f7cf5c78a42b3be1cd2712a0fb82201f4caf7a8971bbf053d49691bd2
+      covers_objectives: [geologia-gemologia-m16-oa05]
+      estimated_minutes: 25
+    - id: geologia-gemologia-m16-a06
+      title: História da vida ao longo dos éons
+      status: completed
+      file: 16-paleontologia-historia-vida/16-paleontologia-historia-vida-aula-06-historia-da-vida-nos-eons.md
+      content_hash: e9ea0d7bb4b600a153b7d092f8b09555a73d11d50317c24dc0ba6516f63bfd7d
+      covers_objectives: [geologia-gemologia-m16-oa06]
+      estimated_minutes: 30
+    - id: geologia-gemologia-m16-a07
+      title: Extinções em massa e recuperação da vida
+      status: completed
+      file: 16-paleontologia-historia-vida/16-paleontologia-historia-vida-aula-07-extincoes-em-massa.md
+      content_hash: e56a7e45e6bd9ff1dbb5495813686e231af73eea5509796f887f1e0b834909c5
+      covers_objectives: [geologia-gemologia-m16-oa07]
+      estimated_minutes: 30
+  audit:
+    status: approved
+    audited_at: '2026-08-17'
+    audit_type: audit-and-fix-full-conjunta
+    claims_declared: 16
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 0
+    white: 0
+    gate_released: true
+    open_findings: []
+    note: >-
+      Auditoria cientifica full e conjunta das sete aulas, com ICZN, ICS v2026/06,
+      USGS, PBDB e Treatise on Invertebrate Paleontology. Nenhum achado; 16
+      alegacoes verificadas. O gate para revisao didatica e avaliacoes foi liberado.
+    files:
+    - 16-paleontologia-historia-vida/16-paleontologia-historia-vida-auditoria.md
+    - 16-paleontologia-historia-vida/16-paleontologia-historia-vida-auditoria.json
+  didactic_review:
+    status: approved
+    reviewed_at: '2026-08-17T23:15:00-03:00'
+    red: 0
+    orange: 0
+    yellow: 0
+    blue: 0
+    files:
+    - 16-paleontologia-historia-vida/16-paleontologia-historia-vida-revisao-didatica.md
+  assessment:
+    status: completed
+    generated_at: '2026-08-17T23:30:00-03:00'
+    method: geracao-pos-auditoria
+    files:
+    - 16-paleontologia-historia-vida/16-paleontologia-historia-vida-questionario-parcial-1.md
+    - 16-paleontologia-historia-vida/16-paleontologia-historia-vida-questionario-parcial-2.md
+    - 16-paleontologia-historia-vida/16-paleontologia-historia-vida-questionario-final.md
+    partials: 2
+    questions: 27
+    points: 90
+    objectives_covered: [geologia-gemologia-m16-oa01, geologia-gemologia-m16-oa02, geologia-gemologia-m16-oa03, geologia-gemologia-m16-oa04, geologia-gemologia-m16-oa05, geologia-gemologia-m16-oa06, geologia-gemologia-m16-oa07]
+    uncovered_objectives: []
+    blueprint_complete: true
+  flashcards:
+    status: generated
+    generated_at: '2026-08-17T23:40:00-03:00'
+    method: primeira-geracao
+    reason: >-
+      Gerado depois da auditoria cientifica aprovada sem achados abertos, revisao
+      didatica aprovada e avaliacoes concluidas, contra as sete aulas auditadas.
+      Primeiro baralho do modulo; nao ha IDs anteriores a preservar ou aposentar.
+    index_file: 16-paleontologia-historia-vida/16-paleontologia-historia-vida-flashcards.md
+    basic_file: 16-paleontologia-historia-vida/16-paleontologia-historia-vida-flashcards-basic.csv
+    cloze_file: 16-paleontologia-historia-vida/16-paleontologia-historia-vida-flashcards-cloze.csv
+    count_basic: 35
+    count_cloze: 24
+    last_id: 35
+    last_id_cloze: 24
+    objectives_covered: 7
+
+- id: '17'
+  slug: geobiologia
+  title: Geobiologia
+  area: V. Estratigrafia, tempo e vida
+  status: pending
+  prerequisites:
+  - '10'
+  - '16'
+  replan_change: 'Mantém 5 aulas; densidade e vocabulário rebaixados ao level_contract.'
+  learning_objectives:
+  - id: geologia-gemologia-m17-oa01
+    description: Explicar a coevolução da vida e do ambiente terrestre
+  - id: geologia-gemologia-m17-oa02
+    description: Descrever estromatólitos e o registro microbiano
+  - id: geologia-gemologia-m17-oa03
+    description: Relacionar a vida aos ciclos biogeoquímicos (C, S, N, O)
+  - id: geologia-gemologia-m17-oa04
+    description: Explicar a biomineralização e os sedimentos biogênicos
+  - id: geologia-gemologia-m17-oa05
+    description: Situar a geobiologia na origem da vida e na astrobiologia
+  lessons:
+    planned: 5
+    completed: 0
+    items: []
+  audit:
+    status: pending
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+  assessment:
+    status: pending
+    files: []
+  flashcards:
+    status: pending
+    basic_file: null
+    cloze_file: null
+    last_id: 0
+
+- id: '18'
+  slug: geologia-estrutural
+  title: Geologia estrutural e deformação
+  area: VI. Estrutura e geofísica
+  status: pending
+  prerequisites:
+  - '02'
+  - '09'
+  replan_change: >-
+    6 aulas viram 8, com revisão/nivelamento opcional de força, pressão e tensão
+    antes da distinção entre stress e strain. Dobras e falhas, que estavam em uma aula cada com muita
+    terminologia, ganham espaço para a nomenclatura ser construída aos poucos.
+    A leitura de mapas estruturais vira duas aulas (atitude e projeção; mapa e
+    seção).
+  learning_objectives:
+  - id: geologia-gemologia-m18-oa01
+    description: Reativar força, pressão e tensão em nível funcional (nivelamento opcional)
+  - id: geologia-gemologia-m18-oa02
+    description: Distinguir tensão (stress) de deformação (strain)
+  - id: geologia-gemologia-m18-oa03
+    description: Relacionar comportamento rúptil e dúctil às condições
+  - id: geologia-gemologia-m18-oa04
+    description: Classificar dobras
+  - id: geologia-gemologia-m18-oa05
+    description: Classificar falhas
+  - id: geologia-gemologia-m18-oa06
+    description: Descrever zonas de cisalhamento e rochas de falha
+  - id: geologia-gemologia-m18-oa07
+    description: Medir e representar atitudes de planos e linhas
+  - id: geologia-gemologia-m18-oa08
+    description: Interpretar mapas e seções geológicas estruturais
+  lessons:
+    planned: 8
+    completed: 0
+    bridge_lessons: 1
+    items: []
+  audit:
+    status: pending
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+  assessment:
+    status: pending
+    files: []
+    note: 'módulo grande: prever parciais + final'
+  flashcards:
+    status: pending
+    basic_file: null
+    cloze_file: null
+    last_id: 0
+
+- id: '19'
+  slug: tectonica-global-geodinamica
+  title: Tectônica global e geodinâmica
+  area: VI. Estrutura e geofísica
+  status: pending
+  prerequisites:
+  - '02'
+  - '18'
+  replan_change: >-
+    6 aulas viram 7, absorvendo o conteúdo de orogênese e de balanço de forças
+    deferido do M02. É aqui que as controvérsias sinalizadas no M02 são retomadas
+    com o detalhe que o iniciante não tinha como sustentar antes.
+  learning_objectives:
+  - id: geologia-gemologia-m19-oa01
+    description: Explicar a dinâmica das margens de placa
+  - id: geologia-gemologia-m19-oa02
+    description: Explicar a geodinâmica do manto e o que segue em debate
+  - id: geologia-gemologia-m19-oa03
+    description: Relacionar tectônica à formação de bacias sedimentares
+  - id: geologia-gemologia-m19-oa04
+    description: Descrever os processos de orogênese
+  - id: geologia-gemologia-m19-oa05
+    description: Explicar crátons, escudos e a estabilização continental
+  - id: geologia-gemologia-m19-oa06
+    description: Reconstruir o ciclo dos supercontinentes
+  - id: geologia-gemologia-m19-oa07
+    description: Avaliar o balanço de forças que move as placas
+  lessons:
+    planned: 7
+    completed: 0
+    items: []
+  audit:
+    status: pending
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    revisit_findings:
+    - M02-F04
+    - M02-F05
+    - M02-F06
+  assessment:
+    status: pending
+    files: []
+    note: 'módulo grande: prever parciais + final'
+  flashcards:
+    status: pending
+    basic_file: null
+    cloze_file: null
+    last_id: 0
+
+- id: '20'
+  slug: geofisica-metodos
+  title: 'Geofísica: métodos e imageamento da Terra'
+  area: VI. Estrutura e geofísica
+  status: pending
+  prerequisites:
+  - '02'
+  - '19'
+  replan_change: >-
+    6 aulas viram 8, com revisão/nivelamento opcional sobre campos físicos
+    (gravitacional, magnético e elétrico) antes dos métodos potenciais. Recebe o conteúdo deferido do M01
+    (precisão do limite manto-núcleo), do M02 (anomalias magnéticas quantitativas,
+    escalas de magnitude sísmica). A sísmica de reflexão ganha aula própria.
+  learning_objectives:
+  - id: geologia-gemologia-m20-oa01
+    description: Reativar o conceito de campo físico e descrever como se mede uma anomalia (nivelamento opcional)
+  - id: geologia-gemologia-m20-oa02
+    description: Explicar a sismologia, as escalas de magnitude e o mecanismo focal
+  - id: geologia-gemologia-m20-oa03
+    description: Aplicar sísmica de refração ao imageamento raso
+  - id: geologia-gemologia-m20-oa04
+    description: Aplicar sísmica de reflexão ao imageamento de bacias
+  - id: geologia-gemologia-m20-oa05
+    description: Interpretar gravimetria
+  - id: geologia-gemologia-m20-oa06
+    description: Interpretar magnetometria e o registro de inversões do campo
+  - id: geologia-gemologia-m20-oa07
+    description: Descrever métodos elétricos, eletromagnéticos e geotérmicos
+  - id: geologia-gemologia-m20-oa08
+    description: Integrar perfilagem de poços e dados geofísicos na interpretação
+  lessons:
+    planned: 8
+    completed: 0
+    bridge_lessons: 1
+    items: []
+  audit:
+    status: pending
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    revisit_findings:
+    - M01-F04
+    - M02-F04
+    - M02-F06
+    - M02-F07
+  assessment:
+    status: pending
+    files: []
+    note: 'módulo grande: prever parciais + final'
+  flashcards:
+    status: pending
+    basic_file: null
+    cloze_file: null
+    last_id: 0
+
+- id: '21'
+  slug: metodos-campo-mapeamento
+  title: Métodos de campo e mapeamento geológico
+  area: VII. Métodos, recursos e regional
+  status: pending
+  prerequisites:
+  - '05'
+  - '15'
+  - '18'
+  replan_change: >-
+    5 aulas viram 6. A construção de seções e a de colunas estratigráficas, que
+    estavam juntas, viram duas aulas — são duas habilidades manuais distintas e
+    ambas exigem prática guiada passo a passo.
+  learning_objectives:
+  - id: geologia-gemologia-m21-oa01
+    description: Registrar observações de campo e coletar amostras com critério
+  - id: geologia-gemologia-m21-oa02
+    description: Medir atitudes (direção e mergulho) com a bússola de geólogo
+  - id: geologia-gemologia-m21-oa03
+    description: Ler um mapa geológico (símbolos, regra dos V, contatos)
+  - id: geologia-gemologia-m21-oa04
+    description: Construir uma seção geológica
+  - id: geologia-gemologia-m21-oa05
+    description: Levantar e desenhar uma coluna estratigráfica
+  - id: geologia-gemologia-m21-oa06
+    description: Aplicar sensoriamento remoto, GPS e SIG ao mapeamento
+  lessons:
+    planned: 6
+    completed: 0
+    items: []
+  audit:
+    status: pending
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+  assessment:
+    status: pending
+    files: []
+  flashcards:
+    status: pending
+    basic_file: null
+    cloze_file: null
+    last_id: 0
+
+- id: '22'
+  slug: recursos-minerais-economica
+  title: Recursos minerais e geologia econômica
+  area: VII. Métodos, recursos e regional
+  status: pending
+  prerequisites:
+  - '07'
+  - '08'
+  - '09'
+  - '19'
+  replan_change: >-
+    5 aulas viram 6. Os depósitos hidrotermais, que sozinhos respondem por boa
+    parte dos depósitos metálicos e concentravam metade de uma aula, ganham aula
+    própria.
+  learning_objectives:
+  - id: geologia-gemologia-m22-oa01
+    description: Definir depósito mineral, teor e teor de corte (cutoff)
+  - id: geologia-gemologia-m22-oa02
+    description: Classificar depósitos magmáticos e ortomagmáticos
+  - id: geologia-gemologia-m22-oa03
+    description: Classificar depósitos hidrotermais
+  - id: geologia-gemologia-m22-oa04
+    description: Classificar depósitos sedimentares e supergênicos
+  - id: geologia-gemologia-m22-oa05
+    description: Descrever métodos de prospecção e exploração mineral
+  - id: geologia-gemologia-m22-oa06
+    description: Relacionar recursos, reservas e viabilidade econômica
+  lessons:
+    planned: 6
+    completed: 0
+    items: []
+  audit:
+    status: pending
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+  assessment:
+    status: pending
+    files: []
+  flashcards:
+    status: pending
+    basic_file: null
+    cloze_file: null
+    last_id: 0
+
+- id: '23'
+  slug: geologia-do-petroleo
+  title: Geologia do petróleo
+  area: VII. Métodos, recursos e regional
+  status: pending
+  prerequisites:
+  - '08'
+  - '14'
+  - '22'
+  replan_change: '5 aulas viram 6; o sistema petrolífero ganha uma aula de síntese que integra os elementos antes vistos soltos.'
+  learning_objectives:
+  - id: geologia-gemologia-m23-oa01
+    description: Explicar a origem da matéria orgânica e a geração de hidrocarbonetos
+  - id: geologia-gemologia-m23-oa02
+    description: Descrever rocha geradora, reservatório, selo e trapa
+  - id: geologia-gemologia-m23-oa03
+    description: Relacionar maturação, migração e acumulação
+  - id: geologia-gemologia-m23-oa04
+    description: Integrar os elementos no conceito de sistema petrolífero
+  - id: geologia-gemologia-m23-oa05
+    description: Aplicar métodos de exploração (sísmica, poços) a plays petrolíferos
+  - id: geologia-gemologia-m23-oa06
+    description: Caracterizar reservatórios convencionais e não convencionais
+  lessons:
+    planned: 6
+    completed: 0
+    items: []
+  audit:
+    status: pending
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+  assessment:
+    status: pending
+    files: []
+  flashcards:
+    status: pending
+    basic_file: null
+    cloze_file: null
+    last_id: 0
+
+- id: '24'
+  slug: oceanografia-geologica
+  title: Oceanografia geológica (geologia marinha)
+  area: VII. Métodos, recursos e regional
+  status: pending
+  prerequisites:
+  - '14'
+  - '19'
+  - '20'
+  replan_change: 'Mantém 5 aulas; densidade e vocabulário rebaixados ao level_contract.'
+  learning_objectives:
+  - id: geologia-gemologia-m24-oa01
+    description: Descrever a fisiografia das bacias oceânicas e das margens continentais
+  - id: geologia-gemologia-m24-oa02
+    description: Explicar a formação e a estrutura da crosta oceânica nas dorsais
+  - id: geologia-gemologia-m24-oa03
+    description: Classificar os sedimentos marinhos e sua distribuição
+  - id: geologia-gemologia-m24-oa04
+    description: Relacionar circulação oceânica e a CCD ao registro paleoclimático
+  - id: geologia-gemologia-m24-oa05
+    description: Situar recursos e riscos geológicos marinhos
+  lessons:
+    planned: 5
+    completed: 0
+    items: []
+  audit:
+    status: pending
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+  assessment:
+    status: pending
+    files: []
+  flashcards:
+    status: pending
+    basic_file: null
+    cloze_file: null
+    last_id: 0
+
+- id: '25'
+  slug: geologia-planetaria
+  title: Geologia planetária
+  area: VII. Métodos, recursos e regional
+  status: pending
+  prerequisites:
+  - '02'
+  - '07'
+  - '10'
+  replan_change: 'Mantém 5 aulas; retoma as controvérsias M01-F03 (origem da Lua) e M02-F05 (plumas) com o detalhe que agora se sustenta.'
+  learning_objectives:
+  - id: geologia-gemologia-m25-oa01
+    description: Explicar a formação do sistema solar e a diferenciação planetária
+  - id: geologia-gemologia-m25-oa02
+    description: Classificar meteoritos e relacioná-los à origem e à composição dos planetas
+  - id: geologia-gemologia-m25-oa03
+    description: Descrever o processo de cratereamento por impacto e seu registro
+  - id: geologia-gemologia-m25-oa04
+    description: Comparar a geologia dos corpos rochosos e das luas ativas
+  - id: geologia-gemologia-m25-oa05
+    description: Relacionar geologia planetária e astrobiologia
+  lessons:
+    planned: 5
+    completed: 0
+    items: []
+  audit:
+    status: pending
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    revisit_findings:
+    - M01-F03
+    - M02-F05
+  assessment:
+    status: pending
+    files: []
+  flashcards:
+    status: pending
+    basic_file: null
+    cloze_file: null
+    last_id: 0
+
+- id: '26'
+  slug: geologia-do-brasil
+  title: Geologia do Brasil
+  area: VII. Métodos, recursos e regional
+  status: pending
+  prerequisites:
+  - '15'
+  - '19'
+  - '22'
+  replan_change: >-
+    6 aulas viram 7. Os orógenos brasilianos e a amalgamação do Gondwana
+    Ocidental, que estavam numa aula só e são o assunto mais denso do módulo,
+    viram duas.
+  learning_objectives:
+  - id: geologia-gemologia-m26-oa01
+    description: Descrever a compartimentação geotectônica do território brasileiro (CPRM/SGB)
+  - id: geologia-gemologia-m26-oa02
+    description: Caracterizar os crátons e o embasamento pré-cambriano
+  - id: geologia-gemologia-m26-oa03
+    description: Descrever os orógenos brasilianos
+  - id: geologia-gemologia-m26-oa04
+    description: Explicar a amalgamação do Gondwana Ocidental
+  - id: geologia-gemologia-m26-oa05
+    description: Caracterizar as principais bacias sedimentares fanerozoicas
+  - id: geologia-gemologia-m26-oa06
+    description: Relacionar o magmatismo mesozoico (Província do Paraná) à ruptura do Gondwana
+  - id: geologia-gemologia-m26-oa07
+    description: Situar os principais recursos minerais e sítios fossilíferos do Brasil
+  lessons:
+    planned: 7
+    completed: 0
+    items: []
+  audit:
+    status: pending
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+    revisit_findings:
+    - M01-F02
+  assessment:
+    status: pending
+    files: []
+    note: 'módulo grande: prever parciais + final'
+  flashcards:
+    status: pending
+    basic_file: null
+    cloze_file: null
+    last_id: 0
+
+- id: '27'
+  slug: geologia-ambiental-hidrogeologia
+  title: Geologia ambiental e hidrogeologia
+  area: VIII. Áreas especializadas e aplicadas
+  status: pending
+  prerequisites:
+  - '12'
+  - '19'
+  replan_change: '5 aulas viram 6; o fluxo em meio poroso (Darcy) ganha aula própria antes de contaminação.'
+  learning_objectives:
+  - id: geologia-gemologia-m27-oa01
+    description: Descrever aquíferos e os tipos de reservatório subterrâneo
+  - id: geologia-gemologia-m27-oa02
+    description: Explicar o fluxo da água no subsolo (porosidade, permeabilidade, Darcy)
+  - id: geologia-gemologia-m27-oa03
+    description: Avaliar contaminação e qualidade da água subterrânea
+  - id: geologia-gemologia-m27-oa04
+    description: Avaliar riscos geológicos (deslizamentos, subsidência, inundação)
+  - id: geologia-gemologia-m27-oa05
+    description: Relacionar geologia, uso do solo e impacto ambiental
+  - id: geologia-gemologia-m27-oa06
+    description: Relacionar geologia, clima e ciclos globais
+  lessons:
+    planned: 6
+    completed: 0
+    items: []
+  audit:
+    status: pending
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+  assessment:
+    status: pending
+    files: []
+  flashcards:
+    status: pending
+    basic_file: null
+    cloze_file: null
+    last_id: 0
+
+- id: '28'
+  slug: geologia-de-engenharia
+  title: Geologia de engenharia
+  area: VIII. Áreas especializadas e aplicadas
+  status: pending
+  prerequisites:
+  - '09'
+  - '18'
+  - '27'
+  replan_change: '5 aulas viram 6; propriedades de rocha e propriedades de solo passam a ter aulas separadas.'
+  learning_objectives:
+  - id: geologia-gemologia-m28-oa01
+    description: Caracterizar propriedades geomecânicas de rochas e maciços
+  - id: geologia-gemologia-m28-oa02
+    description: Caracterizar propriedades geomecânicas de solos
+  - id: geologia-gemologia-m28-oa03
+    description: Avaliar a estabilidade de taludes
+  - id: geologia-gemologia-m28-oa04
+    description: Aplicar investigação geotécnica a fundações, túneis e barragens
+  - id: geologia-gemologia-m28-oa05
+    description: Relacionar geologia estrutural a riscos em obras
+  - id: geologia-gemologia-m28-oa06
+    description: Interpretar mapas e seções geotécnicas
+  lessons:
+    planned: 6
+    completed: 0
+    items: []
+  audit:
+    status: pending
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+  assessment:
+    status: pending
+    files: []
+  flashcards:
+    status: pending
+    basic_file: null
+    cloze_file: null
+    last_id: 0
+
+- id: '29'
+  slug: geometalurgia
+  title: Geometalurgia
+  area: VIII. Áreas especializadas e aplicadas
+  status: pending
+  prerequisites:
+  - '05'
+  - '22'
+  replan_change: '4 aulas viram 5; cominuição e concentração passam a ter aulas separadas.'
+  learning_objectives:
+  - id: geologia-gemologia-m29-oa01
+    description: Caracterizar minério e ganga do ponto de vista do processamento
+  - id: geologia-gemologia-m29-oa02
+    description: Relacionar mineralogia, textura e liberação mineral
+  - id: geologia-gemologia-m29-oa03
+    description: Descrever a cominuição e seus indicadores
+  - id: geologia-gemologia-m29-oa04
+    description: Descrever as rotas de concentração
+  - id: geologia-gemologia-m29-oa05
+    description: Modelar domínios geometalúrgicos e relacioná-los à recuperação
+  lessons:
+    planned: 5
+    completed: 0
+    items: []
+  audit:
+    status: pending
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+  assessment:
+    status: pending
+    files: []
+  flashcards:
+    status: pending
+    basic_file: null
+    cloze_file: null
+    last_id: 0
+
+- id: '30'
+  slug: engenharia-de-petroleo
+  title: Engenharia de petróleo
+  area: VIII. Áreas especializadas e aplicadas
+  status: pending
+  prerequisites:
+  - '23'
+  replan_change: '5 aulas viram 6; perfuração e avaliação de formação passam a ter aulas separadas.'
+  learning_objectives:
+  - id: geologia-gemologia-m30-oa01
+    description: Descrever a perfuração de poços
+  - id: geologia-gemologia-m30-oa02
+    description: Descrever a avaliação de formações
+  - id: geologia-gemologia-m30-oa03
+    description: Explicar propriedades de rocha-reservatório e de fluidos
+  - id: geologia-gemologia-m30-oa04
+    description: Relacionar mecanismos de produção e recuperação primária/secundária
+  - id: geologia-gemologia-m30-oa05
+    description: Aplicar perfilagem e testes de poço à caracterização de reservatório
+  - id: geologia-gemologia-m30-oa06
+    description: Situar métodos de recuperação avançada (EOR)
+  lessons:
+    planned: 6
+    completed: 0
+    items: []
+  audit:
+    status: pending
+    red: 0
+    orange: 0
+    yellow: 0
+    open_findings: []
+  assessment:
+    status: pending
+    files: []
+  flashcards:
+    status: pending
+    basic_file: null
+    cloze_file: null
+    last_id: 0
+
+notion_sync:
+  root_page_id: 3a7e3d39309681939a96f11fa0c47051
+  last_pulled_at: '2026-08-17T04:02:14.8152431Z'
+  last_pushed_at: '2026-08-17T04:02:14.8152431Z'
+  pages:
+  - file: '_auditoria-transversal.md'
+    page_id: 3bfe3d393096818faef8cc43e51ed506
+    role: audit
+    synced_hash: bc9abc265e69d2746162c1ac496ed78bd72e46bcbcac6664d014c733efbb572e
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '_contexto.md'
+    page_id: 3a7e3d39309681529981e5d106303b8d
+    role: context
+    synced_hash: 068094c0e5139709b8c1674566c1999b0fe478102a181d3ec0ad109d3b11ee17
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '_curso.md'
+    page_id: 3a7e3d39309681939a96f11fa0c47051
+    role: course
+    synced_hash: 738ecffc2adcfc29267e22212e81d1b5c4f821f76525518a587e0d16f7b65d54
+    capture_zone: true
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '00-partida-do-zero/00-partida-do-zero-auditoria.md'
+    page_id: 3bfe3d393096811196fad9540b012654
+    role: audit
+    synced_hash: 4c3bcc71553fc2086a422df18f0c4199ed0040fcf19b16ec422ed98215c4d84c
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '00-partida-do-zero/00-partida-do-zero-aula-01-nomes-no-lugar.md'
+    page_id: 3bfe3d393096816a97f7fdecd040db58
+    role: lesson
+    synced_hash: 803c5a0d93e98e27bf5c705f8417438e7a49d641f1f129626769924fc9d75295
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '00-partida-do-zero/00-partida-do-zero-aula-02-tres-tipos-de-rocha.md'
+    page_id: 3bfe3d39309681ab8112dda597a2e85b
+    role: lesson
+    synced_hash: 003bd6de8e0b4f2c8e651bc11facf1ebc2dc4343f36ef4656ffc5cb42da36470
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '00-partida-do-zero/00-partida-do-zero-aula-03-ordens-de-grandeza.md'
+    page_id: 3bfe3d3930968184a4e0eb7a616f7559
+    role: lesson
+    synced_hash: fe7f862543997d5f7f741c17bb067232669fb017080b8390eb8a98f13ac5890c
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '00-partida-do-zero/00-partida-do-zero-aula-04-terra-por-dentro.md'
+    page_id: 3bfe3d3930968188b778fe058556137b
+    role: lesson
+    synced_hash: ab7f3c2d8a5283df92935bd83215e2092bdbde1a42bce9a80f4403d3d8564f29
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '00-partida-do-zero/00-partida-do-zero-aula-05-mapa-geologico.md'
+    page_id: 3bfe3d39309681d1b1d9fcf4ce1a4b98
+    role: lesson
+    synced_hash: 1baced2f88aa74afdf25505696296a51e1fc4b93ffed7f784d4c3be84b9c7aa3
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '00-partida-do-zero/00-partida-do-zero-aula-06-observar-descrever-inferir.md'
+    page_id: 3bfe3d39309681bfb5b8e9db3657a77d
+    role: lesson
+    synced_hash: c4cf76ae0d0a21f59f21df8ae965d0a5f255123e8ff99f17490a2e664309224c
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '00-partida-do-zero/00-partida-do-zero-flashcards.md'
+    page_id: 3bfe3d39309681b58a30cab6b297aa0b
+    role: flashcards
+    synced_hash: 6397ca658a0789a2670e15370e0bd76456e9a05ac5e679da91457cdc60c546df
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '00-partida-do-zero/00-partida-do-zero-modulo.md'
+    page_id: 3bfe3d39309681dc9923f57706a594ce
+    role: module
+    synced_hash: fcdadaccff4ab443eba530033b9d3d5f3358a297a4a34e71842f19b3af400592
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '00-partida-do-zero/00-partida-do-zero-questionario-final.md'
+    page_id: 3bfe3d393096811c92d0f7359ca19f0d
+    role: assessment
+    synced_hash: 3b682084ef9050f0a20b118d84b0afeddb3e53a48bbe172c92ef12225089a4b7
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '01-fundamentos-e-metodo/01-fundamentos-e-metodo-auditoria.md'
+    page_id: 3a7e3d393096815ebb29eda72704ed77
+    role: audit
+    synced_hash: 7bf8cb07228563aedb49801a6e65899fad067361c21d74a51dbb0331abb899b6
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-01-o-que-e-geologia.md'
+    page_id: 3a7e3d3930968106b2d0ecd1167a955c
+    role: lesson
+    synced_hash: 127b2c6c354d8f6cecc1757521f9e63f64500cd1fededf2ef150ec0f26dfe29b
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-02-o-presente-e-a-chave-do-passado.md'
+    page_id: 3a7e3d39309681c8a9fdc15c642fcfdf
+    role: lesson
+    synced_hash: f20ebff72466eb275d51559e4eba6c8a705fc68dfc767070dbac7d610a4afa0f
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-03-principios-que-ordenam-as-rochas.md'
+    page_id: 3a7e3d39309681f58a6ef697e3d0c803
+    role: lesson
+    synced_hash: de74129121b3e9f2cafbc740879fc94d8262087b4bc431503fa5c40ebb4555fa
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-04-como-a-terra-se-formou.md'
+    page_id: 3a7e3d3930968100b576f9bef5cba042
+    role: lesson
+    synced_hash: 3625c520e818465b4fa1c10e580bce8c308e2478fa8d9f5dc2b6b9e63be966fd
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-05-camadas-quimica-e-mecanica.md'
+    page_id: 3bfe3d393096810c9a55ea4301e8eb39
+    role: lesson
+    synced_hash: 3f0ad95ed302617b86e323bc0e3d597a740313ffbfb4e0fc83df67748c345165
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-06-esferas-ciclo-e-tempo-profundo.md'
+    page_id: 3bfe3d393096819c8f73df85c8995f14
+    role: lesson
+    synced_hash: 1aa33761c6197acfca897fbf74c9ad54a556abe8fb6bf54658529b9471b226ed
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '01-fundamentos-e-metodo/01-fundamentos-e-metodo-flashcards.md'
+    page_id: 3a7e3d393096814bb10cd1c7c9d5d6fa
+    role: flashcards
+    synced_hash: 81a1c9a5a2f8f7fd6d01d787771510f2aa58fb619233baff7ea5f326bc057621
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '01-fundamentos-e-metodo/01-fundamentos-e-metodo-modulo.md'
+    page_id: 3a7e3d3930968172b79eefbafddc6cff
+    role: module
+    synced_hash: cddd2fc6f3f91673b59938cb4b6eee160496c0d7a8a838ade82abe66035d1f2e
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '01-fundamentos-e-metodo/01-fundamentos-e-metodo-questionario-final.md'
+    page_id: 3a7e3d39309681d8a933dafd2a746161
+    role: assessment
+    synced_hash: 79fae9a2a8f710f32cca7350a7dfd67af2cde2ab6e4c3377fe0c770185ae19e7
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '02-sistema-terra-tectonica/02-sistema-terra-tectonica-auditoria.md'
+    page_id: 3bfe3d3930968124a8f6f357c9088728
+    role: audit
+    synced_hash: 53162817a9ea6999e05ed51d165a055fc11a021a1aa2862d0ac56666cee908c9
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-01-ponte-o-que-e-uma-onda.md'
+    page_id: 3bfe3d39309681c29714f88232851587
+    role: lesson
+    synced_hash: 8561d31049b15b69f4a7d464bdd7bb9dad89148057b170a7cf6559776c4fcc7e
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-02-ondas-sismicas.md'
+    page_id: 3bfe3d3930968129ba52ffb5fa05c78f
+    role: lesson
+    synced_hash: 63c804e56051532107f698fe2712cae304343e6a76b2816ff61bf57107f16b4a
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-03-a-sombra-do-nucleo.md'
+    page_id: 3bfe3d39309681e28330d49490a5e5c6
+    role: lesson
+    synced_hash: 65eeb3a3871613f89ed497330a4e025eaa7302ae0587c69899ab141ebfc87a12
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-04-modelo-em-camadas.md'
+    page_id: 3bfe3d39309681e08ee7f19984c30566
+    role: lesson
+    synced_hash: b701645d00a4e825d792f9f0806e0891423b11a488b0eb6b7906cd02d33681b6
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-05-litosfera-e-astenosfera.md'
+    page_id: 3bfe3d393096810ea50af3dcdc21cb49
+    role: lesson
+    synced_hash: 46721ba6605aab5f71ef9ad5d3eb6b257059213795bb47e41179d6d56a57d73e
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-06-wegener-e-a-deriva.md'
+    page_id: 3bfe3d39309681b5a8c2dc401f16ff39
+    role: lesson
+    synced_hash: 8eff84244d0dec115b686d7c391d84a7043a7fd3d85a68084e4a8719d8804943
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-07-provas-do-fundo-do-mar.md'
+    page_id: 3bfe3d39309681b9a01efcdc0242e220
+    role: lesson
+    synced_hash: 6064fafa82c815f45f4bc9d16a51770014d6138d6a331c615427f79164817f50
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-08-limites-divergentes-e-transformantes.md'
+    page_id: 3bfe3d39309681acb5b2ec7a6d377835
+    role: lesson
+    synced_hash: fa3525129c415e39ed371d74620a07a559dda815df3cf0513dc97dc58b647f45
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-09-limites-convergentes-e-o-motor.md'
+    page_id: 3bfe3d393096810298a4c77a498be0c0
+    role: lesson
+    synced_hash: b553eb69f307a65da6e18b873bf9bc4ecf09aa89ae1ede9801b9b1b66da7212a
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '02-sistema-terra-tectonica/02-sistema-terra-tectonica-flashcards.md'
+    page_id: 3bfe3d3930968105bae4c12cdeb28a8e
+    role: flashcards
+    synced_hash: f604bbafd8806b5c24f7fa6df471a059d87111ab2abd8d65e052f92a0e7780ed
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '02-sistema-terra-tectonica/02-sistema-terra-tectonica-modulo.md'
+    page_id: 3a7e3d39309681179b99c1011402007a
+    role: module
+    synced_hash: 5c4d66a05d4f7f385c2f5d13fc39b38954f3f66b7d75b064058376b99b354f51
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '02-sistema-terra-tectonica/02-sistema-terra-tectonica-questionario-final.md'
+    page_id: 3bfe3d393096810b943fe3d169ac91b7
+    role: assessment
+    synced_hash: 483f8ee47bf8dadb65ad167cb2bf8d7e94d44d57bb314dbe7c93b77005f339c9
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-auditoria.md'
+    page_id: 3bfe3d39309681949a9dfe8510f57a89
+    role: audit
+    synced_hash: d8e52752543d20b91bc16de35d9e0f5a34dc206833cad92183f34e8ecec1dec6
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-01-datacao-relativa.md'
+    page_id: 3bfe3d39309681a5942ad8cd2c2abb3c
+    role: lesson
+    synced_hash: f3776d7e1477257138431f466fdc2ff0e8c3a82e296f42c13c727b26846ad5f1
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-02-discordancias.md'
+    page_id: 3bfe3d39309681bda635d1f535b4517e
+    role: lesson
+    synced_hash: a17a28c8925882b1b3e8b1f0d31b727fb689c5d8a90d6fdfa609e3b5fe441674
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-03-ponte-atomos-e-isotopos.md'
+    page_id: 3bfe3d39309681138e4fd19387833649
+    role: lesson
+    synced_hash: 174edca789b834795ee384d9fd3b252ac8a74c782800851fe161a6d77dc6b0fc
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-04-meia-vida.md'
+    page_id: 3bfe3d3930968138a3fcc6198645bd38
+    role: lesson
+    synced_hash: e020b452ea2a795e1d965b12f169728d0e7e336c6b306ee0565ba6623e75a05e
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-05-datacao-na-pratica.md'
+    page_id: 3bfe3d393096818690aaff7cff5dd4a2
+    role: lesson
+    synced_hash: 5911ea929f2ae5caf9e4bf0410a28a3a7bc1c033c0a4a435a86b19bba4a8d696
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-06-escala-do-tempo-e-gssp.md'
+    page_id: 3bfe3d393096814a9863fdf1e8cb2785
+    role: lesson
+    synced_hash: 822a0d7fecd19353403baf3d59b123800018e60e936232e46176e2c36b11e5dd
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-07-tempo-rocha-e-magnitude.md'
+    page_id: 3bfe3d393096815f85e4e07329251957
+    role: lesson
+    synced_hash: b3c9341a79d412150138bed02c592dbda17ba5f515ccc1c83b9d32ad6bd2fbe2
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-flashcards.md'
+    page_id: 3bfe3d39309681668facc2bd8958bda6
+    role: flashcards
+    synced_hash: f7df7a75a5015e250c32531102a5a3c74eaa581260a2690ee24d722e1eefd2f5
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-modulo.md'
+    page_id: 3a7e3d3930968154abb8fcddd8f1aa80
+    role: module
+    synced_hash: 2e31125d8afb166808f7e36be48d28d48c0a462a629c94177c6bf43338bd0c7e
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-questionario-final.md'
+    page_id: 3bfe3d3930968121bbe7c3a3316f1e9a
+    role: assessment
+    synced_hash: f896797677259fa74ea5be340dd563c9ac4bf77322e13e7537fe5c3c1d4e08ab
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-auditoria.md'
+    page_id: 3bfe3d39309681919020c7a081c478cd
+    role: audit
+    synced_hash: f8872db206daba8bc021aaa8e22d472efc5ed112aec05ec940a3385e613a79c7
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-01-ponte-atomo-eletrons-tabela-periodica.md'
+    page_id: 3bfe3d3930968109a167dd917841a7b7
+    role: lesson
+    synced_hash: ef9e91db05d6b62025194599c31e77634917356565cfe4ca612a36de6a5431ce
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-02-ponte-ligacao-quimica.md'
+    page_id: 3bfe3d3930968129bfc2ddb97b23d174
+    role: lesson
+    synced_hash: 695ec1d741e2b9eed4156910a10f8945f64f1bca588411344d5330419a23f10f
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-03-definicao-de-mineral.md'
+    page_id: 3bfe3d3930968173a42ae4796f5c836b
+    role: lesson
+    synced_hash: 09ff23ebe5f2d1f89864b6b3821cd997ed173a2ece82076f43621d9c46e5c44b
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-04-simetria-em-cristais.md'
+    page_id: 3bfe3d3930968107abcecbe1155c7f61
+    role: lesson
+    synced_hash: 9f4a647530e8e78aa3285bc143b55258cb2e90163f74c634d83ed8af683ee596
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-05-sistemas-cristalinos.md'
+    page_id: 3bfe3d39309681bdb6f4d379c9a3ca32
+    role: lesson
+    synced_hash: 9ecaa7791611d6e10d9d14d79925fd27e40042869faaf6579aa76268478edf29
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-06-classes-quimicas-strunz-dana.md'
+    page_id: 3bfe3d39309681e0bd23cef2d54b0cb2
+    role: lesson
+    synced_hash: 849af91e35e8c2744b0377f7426266038d4cf1aee142fa8a9141c83deed7f80c
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-07-estruturas-dos-silicatos.md'
+    page_id: 3bfe3d393096816d933fd49eb96c993f
+    role: lesson
+    synced_hash: c33c0ba6b4efc86daa6cd6331c4c615de587e4aa46737748c60ebabf1381bd84
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-flashcards.md'
+    page_id: 3bfe3d3930968167aa24f91b16695943
+    role: flashcards
+    synced_hash: cb9686da327904f790890f272357ea6a80d7c78608540d0efa150eb5a9d894fb
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-modulo.md'
+    page_id: 3a7e3d39309681adb49de818e6296794
+    role: module
+    synced_hash: 66258c110bd9cd870506c1277e437deee8690340c8077e4f1c64db57bd38c743
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-questionario-final.md'
+    page_id: 3bfe3d39309681598c66d7316afffebd
+    role: assessment
+    synced_hash: d6bf9757f878efbd421a22ece5d4b031158c89e6fe2d194e48a185669839f06d
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-auditoria.md'
+    page_id: 3bfe3d3930968165b017ca079b619140
+    role: audit
+    synced_hash: 8097690a54424cc52d5ad68e03447b658750031fa82b8999bb0125b01949599e
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-01-propriedades-fisicas-diagnosticas.md'
+    page_id: 3bfe3d39309681e1822bc7d3809112d6
+    role: lesson
+    synced_hash: 17453412be055492155b804e5f8afbeacd32838a6522d0676a70dba785dab945
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-02-grupos-minerais-formadores-de-rocha.md'
+    page_id: 3bfe3d39309681b89323c3ba02b0b61b
+    role: lesson
+    synced_hash: b2d4bcb9c05a7184c8765815239836c5e62ebeb864f85a529a0913dc502dcb27
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-03-chave-de-identificacao-macroscopica.md'
+    page_id: 3bfe3d39309681859ae8db09b118e5b9
+    role: lesson
+    synced_hash: 88a649032a3819bb1f2528f23c31b9c0904224162fbdb8eb82a5cf3237355f69
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-04-ponte-como-a-luz-atravessa-um-cristal.md'
+    page_id: 3bfe3d3930968158b8ffd6593b11d9de
+    role: lesson
+    synced_hash: ef97d3f24d6f78153df5762c30197848723e345de1c034328aba0973040d8cd3
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-05-optica-mineral-parte-1-luz-polarizada-e-pleocroismo.md'
+    page_id: 3bfe3d39309681f08c42fc3ff246c4ac
+    role: lesson
+    synced_hash: 4fd8cd4ca87b1cacfd126659ab76c17e12ce3443a404fd5da902c50629c760bd
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-06-optica-mineral-parte-2-cores-de-interferencia-e-extincao.md'
+    page_id: 3bfe3d3930968195855eeaaf225ff5ae
+    role: lesson
+    synced_hash: 2c73fc74ab807fbe83d57f771cdefb44c4de526f30b5054b0a834f1f22c51a18
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-07-identificacao-ao-microscopio-petrografico.md'
+    page_id: 3bfe3d39309681748051f83070795883
+    role: lesson
+    synced_hash: 73857a375549806ebdf6c87f3c2f98c9549d4152d8dcc23bbeaf43d53b721294
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-flashcards.md'
+    page_id: 3bfe3d39309681d7b632f282becf21e2
+    role: flashcards
+    synced_hash: 1ee79c8f8df5c02e2c060856893aae554808f0fe9e395fca1681dd07d0159642
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-modulo.md'
+    page_id: 3a7e3d39309681b78094f4a2e0fd8239
+    role: module
+    synced_hash: 84f5e951e3610b6cbf8e7355d0ff1a739889fbb71959c02e37a003a7a09ce2bf
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-questionario-final.md'
+    page_id: 3bfe3d393096814295b4ee42ba977252
+    role: assessment
+    synced_hash: e74a23fcd16da8c42b299766ffd86396359d3ca02e9c8f691b909fc2329fc13f
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-revisao-didatica.md'
+    page_id: 3bfe3d393096811c9da4db44040d7f54
+    role: didactic_review
+    synced_hash: f1da4a01c8dc6f018ecb01dbdfde6fe5f715f34930b9b35aab54464b44e225e2
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '06-gemologia/06-gemologia-modulo.md'
+    page_id: 3a7e3d393096813c9130c81cb4dccaf2
+    role: module
+    synced_hash: 785db6276f39af3e7758814766ca04ff2cf493ed703249cf6b3aa9be1be78ef7
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '07-rochas-igneas/07-rochas-igneas-modulo.md'
+    page_id: 3a7e3d39309681bf9e22f6f259fc0556
+    role: module
+    synced_hash: 7d75aa6421216be6ab51748db79f06fe5ad2a070dfc0fdbdb7c6f6ed6b3966e3
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '08-rochas-sedimentares/08-rochas-sedimentares-modulo.md'
+    page_id: 3a7e3d39309681b98888fb4a4fb0f47a
+    role: module
+    synced_hash: 4d430cd00f86e0c04feb255272ae0678409ce14fa86aa61e3f11ffc6a7b51334
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '09-rochas-metamorficas/09-rochas-metamorficas-modulo.md'
+    page_id: 3a7e3d39309681409191e77ab4fa7b1e
+    role: module
+    synced_hash: 0d7fd42ab77e735ff4a38594b0ddc95e0a636ba9e02add2fb414664bbc9c401c
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '10-geoquimica/10-geoquimica-modulo.md'
+    page_id: 3a7e3d393096810b8306c199f42268a1
+    role: module
+    synced_hash: 267366ea757c77613d4f53668e338f2f210293839396f51f06a8bb3f37bd99a4
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '11-vulcanologia/11-vulcanologia-modulo.md'
+    page_id: 3a7e3d39309681c4a9ccf5e41958fcc5
+    role: module
+    synced_hash: 882f6d51947d381f46853473054b17a4e9beced850301736e3b6a1ce114be91f
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-modulo.md'
+    page_id: 3a7e3d3930968169b153d3bfed77165c
+    role: module
+    synced_hash: 8ba527556da221db2717142f62ebb11259f2dad3bf98a69a5048c2f94724233f
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '13-glaciologia/13-glaciologia-modulo.md'
+    page_id: 3a7e3d39309681209336f29e265c266a
+    role: module
+    synced_hash: 3b4f7ceac4fe0ab689651c0a6ebc37121a083b26afda3cfee8497dff924e6d87
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '14-sedimentologia-ambientes/14-sedimentologia-ambientes-modulo.md'
+    page_id: 3a7e3d39309681b69a2dedf5b40cf708
+    role: module
+    synced_hash: 2a1296b872dbf764fcb9678f4d0563c51abf0bcd69508b5239d15559e0931f54
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '15-estratigrafia-correlacao/15-estratigrafia-correlacao-modulo.md'
+    page_id: 3a7e3d39309681068eabcca73b4d5141
+    role: module
+    synced_hash: 7bd0ebbc25bf8af3f77c31ffb61728ac4a63b09701c693d66de50d3b1b5519f4
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '16-paleontologia-historia-vida/16-paleontologia-historia-vida-modulo.md'
+    page_id: 3a7e3d39309681f5b3dacee6ebfef30d
+    role: module
+    synced_hash: 8a8cd05f87fa7c0ea70f6985e0c51be13f1f9c6048c199719fde442bd17df5ff
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '17-geobiologia/17-geobiologia-modulo.md'
+    page_id: 3a7e3d39309681edb9bfe8441d3d9865
+    role: module
+    synced_hash: 4019b7a8c8136f37ee541b2b8d562025cf81349f47f82b8e8a7f9960da9b439c
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '18-geologia-estrutural/18-geologia-estrutural-modulo.md'
+    page_id: 3a7e3d39309681fd871acb817f5dfce9
+    role: module
+    synced_hash: 849c0192957ba4496e172482843d78ceb6eeb6cbd0e6e87a0260e1808a3542c1
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '19-tectonica-global-geodinamica/19-tectonica-global-geodinamica-modulo.md'
+    page_id: 3a7e3d393096812198afeb06625dd641
+    role: module
+    synced_hash: 5a46dbbab875c4b3b48d5b698c4ed0e3968f3c330133fa97b72fbf77ddfb0187
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '20-geofisica-metodos/20-geofisica-metodos-modulo.md'
+    page_id: 3a7e3d39309681b48bb0daf348850374
+    role: module
+    synced_hash: 32f4f2a4f7ce8af26828b331f3cfcdaa170a6b74fb545e4dfb1463c15570c004
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '21-metodos-campo-mapeamento/21-metodos-campo-mapeamento-modulo.md'
+    page_id: 3a7e3d39309681d299a3d3927a4c9a37
+    role: module
+    synced_hash: a21cf45fb98a65ad08e374615369e5a6266f5397f42c44a7ff20a60c858f4c86
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '22-recursos-minerais-economica/22-recursos-minerais-economica-modulo.md'
+    page_id: 3a7e3d39309681e79311fe5766be2ab0
+    role: module
+    synced_hash: 7555467d4a075952519e332d6225a874bfb9c3f8afa61fec5fc208763b15d07f
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '23-geologia-do-petroleo/23-geologia-do-petroleo-modulo.md'
+    page_id: 3a7e3d39309681d6b81cef3d23cf5c1f
+    role: module
+    synced_hash: ed37bdf259e061f8d40df054039f507664839ad652ac9c7fb042645712dce3fb
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '24-oceanografia-geologica/24-oceanografia-geologica-modulo.md'
+    page_id: 3a7e3d393096816aa17fc730caeab0d7
+    role: module
+    synced_hash: 7e51590d24cfd6995c090f995d7f4c49cf74aacb9856d4eb84d7621e9fc58dac
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '25-geologia-planetaria/25-geologia-planetaria-modulo.md'
+    page_id: 3a7e3d393096817a8944f1186cc4f8d0
+    role: module
+    synced_hash: 835777a190d0c1d612c5ae55c5a9338d5e76605649991dc730b9d0069412d864
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '26-geologia-do-brasil/26-geologia-do-brasil-modulo.md'
+    page_id: 3a7e3d393096812bb375d5fa2382fffe
+    role: module
+    synced_hash: d1b3172b317ca1a09713dbf9634bfb6b92b271e6cfc16930aaa3780fff72fb23
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '27-geologia-ambiental-hidrogeologia/27-geologia-ambiental-hidrogeologia-modulo.md'
+    page_id: 3a7e3d39309681da8342d30c5f717c85
+    role: module
+    synced_hash: 969be0d8c2ed50c1be36b96aeb13f56a111d95ec38391de18b1b79f413959ee3
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '28-geologia-de-engenharia/28-geologia-de-engenharia-modulo.md'
+    page_id: 3a7e3d3930968198a072efa91937cb00
+    role: module
+    synced_hash: edf4539053f8acfaf1a99972d8d6335b76ca2316275043efb8a148f8eee76df7
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '29-geometalurgia/29-geometalurgia-modulo.md'
+    page_id: 3a7e3d39309681499b5edfa7b8ad7739
+    role: module
+    synced_hash: 7fb3c11089f6c4cca20e19d06b2aca462759ca6c14e8a3bf14b892b0d964895e
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '30-engenharia-de-petroleo/30-engenharia-de-petroleo-modulo.md'
+    page_id: 3a7e3d3930968145a1c5de130d31d576
+    role: module
+    synced_hash: 791fc77e7224135c9856de92fdb36678ddb7ef3dd35c990e67015fd4d4240028
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '_curso.md#progresso-dos-modulos'
+    page_id: 3a7e3d393096813aa36ce309a76876ce
+    role: modules_progress
+    synced_hash: 738ecffc2adcfc29267e22212e81d1b5c4f821f76525518a587e0d16f7b65d54
+    synced_at: '2026-08-17T04:02:14.8152431Z'
+  - file: '01-fundamentos-e-metodo/_arquivo-nivel-antigo/01-fundamentos-e-metodo-aula-01-voz.md'
+    page_id: 3a7e3d393096810bb7b1efffdfeabd20
+    role: voice_script
+    synced_hash: 3155bb381f714fd875df1927d1c8fc9a3434f052c7f11cb31381ba432ad063ca
+    synced_at: '2026-08-17T04:02:55.8277748Z'
+  - file: '01-fundamentos-e-metodo/_arquivo-nivel-antigo/01-fundamentos-e-metodo-aula-02-voz.md'
+    page_id: 3a7e3d39309681f8a602c375bd709848
+    role: voice_script
+    synced_hash: 97a641a237e59361195851b2a44aea605f3c46d0368d0d78ba06494646311835
+    synced_at: '2026-08-17T04:02:55.8277748Z'
+  - file: '01-fundamentos-e-metodo/_arquivo-nivel-antigo/01-fundamentos-e-metodo-aula-03-voz.md'
+    page_id: 3a7e3d39309681148294f8e1e36fe19a
+    role: voice_script
+    synced_hash: 3c5c8c38cbad6cc156ab71b4ac6c187ec66590b106713e62f1698b318382651d
+    synced_at: '2026-08-17T04:02:55.8277748Z'
+  - file: '01-fundamentos-e-metodo/_arquivo-nivel-antigo/01-fundamentos-e-metodo-aula-04-voz.md'
+    page_id: 3a7e3d393096813d8fc7f322c9ebb400
+    role: voice_script
+    synced_hash: 0be1bec612b55d056cb75a3c8c497d8a52c2fc387d0ee88a8df5ea6bd934edf3
+    synced_at: '2026-08-17T04:02:55.8277748Z'

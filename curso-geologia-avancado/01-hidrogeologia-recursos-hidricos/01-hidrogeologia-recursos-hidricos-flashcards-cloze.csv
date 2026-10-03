@@ -1,0 +1,20 @@
+Num aquífero {{c1::livre}}, a superfície freática está em contato direto com a atmosfera; num aquífero {{c2::confinado}}, o topo é isolado por uma camada de baixa permeabilidade.
+A porosidade {{c1::efetiva}} exclui poros isolados e água retida por tensão superficial, ao contrário da porosidade {{c2::total}}.
+A condutividade hidráulica K relaciona-se à permeabilidade intrínseca k pela fórmula K = {{c1::k·ρg/μ}}.
+A transmissividade de um aquífero é dada por T = {{c1::K·b}}, onde b é a espessura {{c2::saturada}}.
+Em aquífero confinado, o coeficiente de armazenamento S é da ordem de {{c1::10⁻⁵ a 10⁻³}}, refletindo resposta {{c2::elástica}}.
+A lei de Darcy é Q = {{c1::-K·A·(dh/dl)}}.
+A velocidade linear média da água é vx = q/{{c1::ne}}, sempre {{c2::maior}} que a descarga específica q.
+A carga hidráulica total h é a soma h = {{c1::z}} + {{c2::ψ}} (elevação mais pressão).
+A lei de Darcy deixa de valer quando o número de {{c1::Reynolds}} é alto o suficiente para o escoamento se tornar {{c2::turbulento}}.
+Segundo o modelo de {{c1::Tóth}} (1963), a topografia controla o desenvolvimento de sistemas de fluxo {{c2::local}}, intermediário e regional.
+Um rio {{c1::efluente}} (ganhador) recebe água do aquífero; um rio {{c2::influente}} (perdedor) recarrega o aquífero.
+Um rio {{c1::desconectado}} tem infiltração no valor máximo, independente de rebaixamento adicional do aquífero.
+O pré-filtro de um poço é dimensionado com razão D50 do pré-filtro / D50 do aquífero entre {{c1::4 e 6}}.
+O método de perfuração {{c1::down-the-hole hammer (rotopercussão pneumática)}} é o padrão em rocha cristalina fraturada.
+A solução de {{c1::Theis}} (1935) descreve o rebaixamento transiente s(r,t) = (Q/4πT)·W(u).
+Pela aproximação de {{c1::Cooper-Jacob}}, T = 2,3Q/(4π·Δs), válida para u {{c2::pequeno}}.
+Num teste de degraus, s_total = {{c1::B·Q}} + {{c2::C·Q²}}, separando perda de carga no aquífero e no poço.
+O princípio da {{c1::captura}} (Theis 1940) diz que bombeamento sustentável depende de recarga induzida mais descarga reduzida equilibrarem a extração.
+Pela relação de {{c1::Ghyben-Herzberg}}, z ≈ {{c2::40}}·h estima a profundidade da interface água doce-água salgada.
+No Brasil, a outorga de água subterrânea é regida pela Lei {{c1::9.433/1997}} e é competência predominantemente {{c2::estadual}}.

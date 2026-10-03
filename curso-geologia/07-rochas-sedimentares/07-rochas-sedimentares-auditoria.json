@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "07-rochas-sedimentares",
+    "module_id": "07",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-17",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 1,
+    "yellow": 0,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 16
+  },
+  "findings": [
+    {
+      "claim_id": "SED-DUNHAM-CRYSTALLINE-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "location": {
+        "file": "07-rochas-sedimentares/07-rochas-sedimentares-aula-04-classificacao-carbonaticas-dunham-e-folk.md",
+        "section": "Conteúdo",
+        "quote": "Se a textura deposicional foi apagada por recristalização intensa, o nome deve comunicar essa limitação, não inventar uma categoria Dunham."
+      },
+      "claim": "O esquema de Dunham não fornece uma categoria para carbonato cuja textura deposicional não é reconhecível.",
+      "problem": "O Dunham original inclui a classe crystalline carbonate para rochas cuja textura deposicional foi obliterada. O texto corretamente impede a reconstrução da textura, mas omite essa classe e pode induzir a conclusão de que não há nome descritivo disponível.",
+      "replacement": "Se a textura deposicional foi apagada por recristalização intensa, Dunham a registra como **carbonato cristalino** (*crystalline carbonate*): esse nome comunica que a textura original não é reconhecível, sem inventá-la.",
+      "source": {
+        "name": "Dunham (1962), reproduzido pelo USGS OFR 83-537 e sintetizado pela AAPG",
+        "url": "https://pubs.usgs.gov/of/1983/0537/report.pdf",
+        "tier": "peer_reviewed",
+        "version": "Dunham 1962; consulta em 2026-08-17",
+        "consulted_at": "2026-08-17"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "07-rochas-sedimentares/07-rochas-sedimentares-aula-04-classificacao-carbonaticas-dunham-e-folk.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-17"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "SED-WENTWORTH-LIMITS-001",
+      "claim": "Os limites Udden–Wentworth ensinados para areia, silte e argila estão corretos.",
+      "source": "Wentworth (1922); USGS OFR 03-001",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SED-FOLK-ARENITE-001",
+      "claim": "Q–F–L se aplica ao arcabouço normalizado de arenitos siliciclásticos, separado de matriz e cimento.",
+      "source": "Folk (1974); USGS DDS-033",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SED-DUNHAM-CRITERIA-001",
+      "claim": "Os critérios e limites ensinados para mudstone, wackestone, packstone, grainstone e boundstone estão corretos.",
+      "source": "Dunham (1962); USGS OFR 83-537; AAPG",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SED-DIAGENESIS-001",
+      "claim": "Compactação, cimentação, dissolução e recristalização estão corretamente apresentadas como processos diagenéticos possíveis.",
+      "source": "USGS OFR 03-037; USGS DDS-033",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SED-STRUCTURES-001",
+      "claim": "As aulas tratam estruturas sedimentares como evidência contextual, não como diagnóstico automático de ambiente.",
+      "source": "BGS RR 99-03; USGS OFR 76-083",
+      "confidence": "confirmado"
+    }
+  ]
+}

@@ -1,0 +1,684 @@
+{
+  "course_id": "geologia-avancado",
+  "module_id": "31",
+  "module_slug": "rochas-igneas-alcalinas",
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "verdict": "aprovado_apos_correcoes",
+  "audited_at": "2026-09-24",
+  "applied_at": "2026-09-24",
+  "manifest_written_at": "2026-09-24",
+  "passes": 1,
+  "passes_note": "Passagem unica (2026-09-24). Tentativa anterior interrompida antes de gravar qualquer arquivo; recomecado do zero. Backup: course-state.yaml.bak-20260924-pre-m31-audit. Relatorio e manifesto gravados ANTES das edicoes nas aulas (Fase 1).",
+  "counts": {
+    "red": 4,
+    "orange": 19,
+    "yellow": 2,
+    "blue": 1,
+    "white": 1,
+    "red_open": 0,
+    "orange_open": 0,
+    "yellow_open": 0,
+    "blue_open": 0,
+    "white_open": 0,
+    "total": 27
+  },
+  "counts_note": "Contagens do LEVANTAMENTO; *_open = pendente. Todos os 27 tratados.",
+  "inversions": [
+    "ALK-M31-A05-INDICE-AGPAITICO-001"
+  ],
+  "cross_module_contradictions_fixed": [
+    "ALK-M31-A07-ASSOCIACAO-GENETICA-001",
+    "ALK-M31-A01-TOPONIMOS-004 (jacupiranguito)",
+    "ALK-M31-A07-ZONEAMENTO-002",
+    "ALK-M31-A07-MINERALIZACAO-ZONAS-006",
+    "ALK-M31-A05-PRODUCAO-ETR-006",
+    "ALK-M31-MOD-REMISSOES-001 (fusao em lote)"
+  ],
+  "module30_consistency": "Conferido contra as aulas e as 17 restricoes do M30. Coerentes: fenitizacao, metassomatismo modal/criptico, APIP (seis complexos), Jacupiranga (a07), Rayleigh e fator 3,14. Corrigidos no M31: jacupiranguito (a01), sequencia calcita-dolomita-ferrocarbonato (a07), ETR por zona (a07), rotas do carbonatito (a03, a07), ETR x Nb (a05), fusao em lote atribuida ao M30 (a04).",
+  "claims": {
+    "declared_at_writing": 36,
+    "raised_by_audit": 8,
+    "tracked": 44,
+    "per_lesson_at_writing": "a01 5, a02 6, a03 5, a04 5, a05 5, a06 5, a07 5",
+    "note": "Criados pela auditoria: A01-FOID-FOIDOLITO-006, A03-SERIE-SUBALCALINA-006, A04-DEFINICAO-OPERACIONAL-006, A05-PRODUCAO-ETR-006, A06-BARKEVIKITA-006, A07-MINERALIZACAO-ZONAS-006 (nos metadados das aulas); MOD-REMISSOES-001 e MOD-ANFIBOLIOS-002 (de modulo: relatorio, manifesto e estado)."
+  },
+  "open_findings": [],
+  "findings": [
+    {
+      "n": 1,
+      "claim_id": "ALK-M31-A05-INDICE-AGPAITICO-001",
+      "severity": "red",
+      "nature": "erro_factual",
+      "title": "Indice agpaitico como criterio da serie agpaitica; papel de Sorensen invertido",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-05-rochas-sieniticas-series-miaskitica-agpaitica.md"
+      ],
+      "quoted": "IA>=1 = agpaitica; formalizada geoquimicamente por Sorensen (1997); Agpat perto de Ivigtut; exemplo: ambas agpaiticas",
+      "problem": "Ussing 1912 = criterio quimico (AI>=1,2); Sorensen 1960/1997 e Le Maitre 2002 = definicao MINERALOGICA (HFSE em eudialita/rinkita vs zircao/titanita). AI>1 = peralcalina, necessaria e nao suficiente. Agpat na borda leste de Ilimaussaq. INVERSAO.",
+      "correction": "Secao reescrita; exemplo: A (1,08) e B (1,70) peralcalinas, classificacao exige lamina; O que fixar e recap ajustados.",
+      "source": "Sorensen 1997 Mineral Mag 61:485-498; Marks & Markl 2017 ESR 173:229-258; Marks et al. 2011 J Petrol 52:439-455; Friis 2015 BCGS Paper 2015-3",
+      "source_level": "normativa+revisada_por_pares",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-05-rochas-sieniticas-series-miaskitica-agpaitica.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 2,
+      "claim_id": "ALK-M31-A01-FOID-FOIDOLITO-006",
+      "severity": "red",
+      "nature": "erro_factual",
+      "title": "Etimologia inventada de foid (phelloeides, Rosenbusch) e termo inexistente foiolito",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-01-definicao-historico-classificacao-clas-nomenclatura.md"
+      ],
+      "quoted": "Foiolito e foid derivam do grego phelloeides; foiolito guarda-chuva historico; campo central",
+      "problem": "Foid = contracao de feldspathoid (Johannsen); foidolito = campo 15 QAPF, vertice F, termo IUGS vigente.",
+      "correction": "foidolito (campo 15, vertice F; equivalente plutonico do foidito); foid = contracao de feldspatoide (Johannsen).",
+      "source": "Le Maitre 2002 QAPF e glossario; Mindat glossary foid",
+      "source_level": "normativa",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-01-definicao-historico-classificacao-clas-nomenclatura.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 3,
+      "claim_id": "ALK-M31-A02-EXEMPLO-006",
+      "severity": "red",
+      "nature": "erro_factual",
+      "title": "Cenario A: fusao em facies de espinelio (<70 km) sob litosfera de 150 km",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-02-manto-metassomatismo-geracao-magmas-alcalinos.md"
+      ],
+      "quoted": "coluna litosferica de 150 km; descompressao ate a base da litosfera; facies espinelio <70 km; toleito",
+      "problem": "Fisicamente impossivel: fusao para na base da litosfera (~150 km, facies granada). Efeito tampa (Ellam 1992).",
+      "correction": "Cenario A sob litosfera adelgacada (~60 km); B sob litosfera espessa; Leitura com espessura da litosfera.",
+      "source": "Ellam 1992 Geology 20:153-156; Niu 2021 ESR 217:103614",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-02-manto-metassomatismo-geracao-magmas-alcalinos.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 4,
+      "claim_id": "ALK-M31-A05-PRODUCAO-ETR-006",
+      "severity": "red",
+      "nature": "erro_factual",
+      "title": "Araxa e Catalao ditos rota dominante da producao mundial de ETR",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-05-rochas-sieniticas-series-miaskitica-agpaitica.md"
+      ],
+      "quoted": "carbonatitos residuais lateriticos, como Araxa e Catalao, sao a rota dominante de producao mundial atual",
+      "problem": "Araxa/Catalao dominam o Nb. ETR: China ~69% (Bayan Obo, argilas ionicas), Mountain Pass, Mount Weld (M30 a06).",
+      "correction": "Bayan Obo, Mountain Pass, Mount Weld + argilas ionicas; Araxa/Catalao = niobio.",
+      "source": "USGS MCS 2026 Rare Earths",
+      "source_level": "normativa",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-05-rochas-sieniticas-series-miaskitica-agpaitica.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 5,
+      "claim_id": "ALK-M31-A01-TRES-SENTIDOS-001",
+      "severity": "orange",
+      "nature": "omissao_que_gera_erro",
+      "title": "Shand sem CaO; piroxenio/anfibolio sodicos chamados felsicos",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-01-definicao-historico-classificacao-clas-nomenclatura.md"
+      ],
+      "quoted": "falta alcali para saturar Al -> peraluminosa; minerais felsicos ricos em Na",
+      "problem": "Shand usa A/NK e A/CNK; peraluminosa exige Al>Ca+Na+K. Aegirina/arfvedsonita sao maficos.",
+      "correction": "Dois indices; maficos sodicos.",
+      "source": "Shand 1943; Maniar & Piccoli 1989 GSA Bull 101:635-643",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-01-definicao-historico-classificacao-clas-nomenclatura.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 6,
+      "claim_id": "ALK-M31-A01-CLAS-003",
+      "severity": "orange",
+      "nature": "confusao_de_escopo",
+      "title": "IUGS dita organizar vulcanicas em clas quimicos por indice de saturacao",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-01-definicao-historico-classificacao-clas-nomenclatura.md"
+      ],
+      "quoted": "Le Maitre (2002) complementa o QAPF com uma classificacao em clas quimicos",
+      "problem": "Classificacao quimica IUGS = TAS (Le Bas et al. 1986); basanito/tefrito por ol normativa 10%; havaito/mugearito/benmoreito = variedades sodicas; melilitito fora do TAS; cla = agrupamento didatico.",
+      "correction": "Atribuir ao TAS; clas como convencao.",
+      "source": "Le Bas et al. 1986 J Petrol 27:745-750; Le Maitre 2002",
+      "source_level": "normativa",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-01-definicao-historico-classificacao-clas-nomenclatura.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 7,
+      "claim_id": "ALK-M31-A01-TOPONIMOS-004",
+      "severity": "orange",
+      "nature": "erro_factual",
+      "title": "Ilha de Fen; rio Lujavr-Urt; Morro do Tingua/traquito; jacupiranguito rico em apatita (reintroduz erro corrigido no M30)",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-01-definicao-historico-classificacao-clas-nomenclatura.md"
+      ],
+      "quoted": "Fenita vem da Ilha de Fen; clinopiroxenito rica em magnetita e apatita; Morro do Tingua, traquito nefelinico; rio Lujavr-Urt",
+      "problem": "Fen = complexo em Nome, Telemark (fazenda Fen); jacupiranguito = titanoaugita+magnetita+pouca nefelina (M30 laranja 8); tinguaito = fonolito hipabissal (Rosenbusch 1887, Serra do Tingua); Lujavr-Urt = macico de Lovozero (Brogger 1890).",
+      "correction": "Quatro itens corrigidos, jacupiranguito alinhado ao M30.",
+      "source": "Mindat Fen Complex; Le Maitre 2002 glossario; M30 auditoria laranja 8",
+      "source_level": "normativa+base_de_referencia",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-01-definicao-historico-classificacao-clas-nomenclatura.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 8,
+      "claim_id": "ALK-M31-MOD-REMISSOES-001",
+      "severity": "orange",
+      "nature": "inconsistencia_interna",
+      "title": "Remissoes quebradas apos divisao da Aula 03 (Aulas 08/09 inexistentes, numeracao deslocada); fusao em lote dita ja usada no modulo 30",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-01-definicao-historico-classificacao-clas-nomenclatura.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-02-manto-metassomatismo-geracao-magmas-alcalinos.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-03-evolucao-magmas-alcalinos-parte-1-cristalizacao-imiscibilidade.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-04-evolucao-magmas-alcalinos-parte-2-geoquimica-isotopica-modelagem.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-05-rochas-sieniticas-series-miaskitica-agpaitica.md"
+      ],
+      "quoted": "Aula 04 a 08; Aula 09; Aula 07 stocks; Aula 03 vai interpretar; Aula 05 (em duas partes); sienitos agpaiticos da Aula 06; equacoes retomadas do modulo 30; Khibiny nas aulas seguintes; metadado a05/a06, a07/a08, a09",
+      "problem": "Mapeamento real 04->05, 05->06, 06->07; M30 usa so Rayleigh (a05).",
+      "correction": "Cada remissao corrigida; metadados divisao_de_aula corrigidos.",
+      "source": "hub do modulo; busca no M30",
+      "source_level": "interno",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-01-definicao-historico-classificacao-clas-nomenclatura.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-02-manto-metassomatismo-geracao-magmas-alcalinos.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-03-evolucao-magmas-alcalinos-parte-1-cristalizacao-imiscibilidade.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-04-evolucao-magmas-alcalinos-parte-2-geoquimica-isotopica-modelagem.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-05-rochas-sieniticas-series-miaskitica-agpaitica.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 9,
+      "claim_id": "ALK-M31-A02-GRAU-FUSAO-001",
+      "severity": "orange",
+      "nature": "omissao_que_gera_erro",
+      "title": "Pressao omitida como controle da saturacao em silica",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-02-manto-metassomatismo-geracao-magmas-alcalinos.md"
+      ],
+      "quoted": "A profundidade de fusao tambem importa: ... ETR pesadas",
+      "problem": "Pressao alta -> liquido mais pobre em silica e mais insaturado para o mesmo grau de fusao.",
+      "correction": "Acrescentar o efeito direto da pressao.",
+      "source": "Green & Ringwood 1967 CMP 15:103-190; Hirose & Kushiro 1993 EPSL 114:477-489",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-02-manto-metassomatismo-geracao-magmas-alcalinos.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 10,
+      "claim_id": "ALK-M31-A03-SERIE-SUBALCALINA-006",
+      "severity": "orange",
+      "nature": "erro_factual",
+      "title": "Serie toleitica chamada de serie calcialcalina de Bowen",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-03-evolucao-magmas-alcalinos-parte-1-cristalizacao-imiscibilidade.md"
+      ],
+      "quoted": "serie subalcalina/toleitica classica ... a chamada serie calcialcalina de Bowen",
+      "problem": "Toleitica e calcialcalina sao as duas series subalcalinas; Bowen nao e serie calcialcalina.",
+      "correction": "Frase reescrita.",
+      "source": "Irvine & Baragar 1971; Le Maitre 2002",
+      "source_level": "normativa",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-03-evolucao-magmas-alcalinos-parte-1-cristalizacao-imiscibilidade.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 11,
+      "claim_id": "ALK-M31-A03-IMISCIBILIDADE-003",
+      "severity": "orange",
+      "nature": "erro_factual",
+      "title": "Imiscibilidade silicato-carbonato documentada desde os anos 1980",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-03-evolucao-magmas-alcalinos-parte-1-cristalizacao-imiscibilidade.md"
+      ],
+      "quoted": "Estudos experimentais desde a decada de 1980; recap desde os anos 1980",
+      "problem": "Primeiro dado experimental: Koster van Groos & Wyllie 1963 (Nature 199:801-802). Ressalva da composicao do liquido (M30 a04).",
+      "correction": "Desde os anos 1960; ressalva alinhada ao M30.",
+      "source": "Koster van Groos & Wyllie 1963; Freestone & Hamilton 1980 CMP 73:105-117",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-03-evolucao-magmas-alcalinos-parte-1-cristalizacao-imiscibilidade.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 12,
+      "claim_id": "ALK-M31-A07-ASSOCIACAO-GENETICA-001",
+      "severity": "orange",
+      "nature": "certeza_indevida",
+      "title": "Imiscibilidade como rota que melhor explica a associacao; cristalizacao fracionada omitida; esmagadora maioria",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-03-evolucao-magmas-alcalinos-parte-1-cristalizacao-imiscibilidade.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-07-associacao-carbonatitos-plataforma-sul-americana-depositos.md"
+      ],
+      "quoted": "e o processo que melhor explica; produtos gemeos; ressalva so com fusao direta; carbonatitos raramente ocorrem sozinhos",
+      "problem": "Contradiz M30 a04 (tres rotas; FC favorecida por associacoes de campo; rota dominante em debate). ~76% dos carbonatitos em complexos com rocha silicatica (Woolley & Kjarsgaard 2008).",
+      "correction": "Imiscibilidade E cristalizacao fracionada; debate; cerca de tres quartos.",
+      "source": "M30 a04; Woolley & Kjarsgaard 2008 Can Mineral 46:741-752",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-03-evolucao-magmas-alcalinos-parte-1-cristalizacao-imiscibilidade.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-07-associacao-carbonatitos-plataforma-sul-americana-depositos.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 13,
+      "claim_id": "ALK-M31-A03-HIATO-DALY-002",
+      "severity": "orange",
+      "nature": "erro_factual",
+      "title": "Mecanismos do hiato de Daly imprecisos",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-03-evolucao-magmas-alcalinos-parte-1-cristalizacao-imiscibilidade.md"
+      ],
+      "quoted": "cinetica: cristalizacao mais rapida; imiscibilidade ... basico ou carbonatico",
+      "problem": "Explicacoes correntes: janela de extracao 50-70% cristais (Dufek & Bachmann 2010); mudanca rapida de composicao; imiscibilidade silicato-silicato toleitica (Charlier et al. 2011); fusao crustal. Debatido.",
+      "correction": "Reescrito com as quatro vias e o debate.",
+      "source": "Daly 1925; Dufek & Bachmann 2010 Geology 38:687-690; Charlier et al. 2011 Geology 39:907-910",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-03-evolucao-magmas-alcalinos-parte-1-cristalizacao-imiscibilidade.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 14,
+      "claim_id": "ALK-M31-A03-EXEMPLO-005",
+      "severity": "orange",
+      "nature": "erro_factual",
+      "title": "Exemplo: traquitica intermediaria 52-55%; indice de diferenciacao (alcalis/silica)",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-03-evolucao-magmas-alcalinos-parte-1-cristalizacao-imiscibilidade.md"
+      ],
+      "quoted": "rochas de composicao traquitica intermediaria (52-55% SiO2); indice de diferenciacao (alcalis/silica)",
+      "problem": "Termo ausente e tefrifonolito; DI = soma normativa (Thornton & Tuttle 1960).",
+      "correction": "tefrifonolitica; DI correto; passo 2 alinhado ao achado 13.",
+      "source": "Le Bas et al. 1986; Thornton & Tuttle 1960 AJS 258:664-684",
+      "source_level": "normativa",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-03-evolucao-magmas-alcalinos-parte-1-cristalizacao-imiscibilidade.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 15,
+      "claim_id": "ALK-M31-A04-ZINDLER-HART-003",
+      "severity": "orange",
+      "nature": "confusao_de_escopo",
+      "title": "Continental = EM1; ilhas oceanicas = HIMU/EM2; HIMU por desgaseificacao",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-04-evolucao-magmas-alcalinos-parte-2-geoquimica-isotopica-modelagem.md"
+      ],
+      "quoted": "Rochas alcalinas continentais ... EM1 ... em contraste com ilhas oceanicas ... HIMU ou EM2",
+      "problem": "Europa cenozoica e parte do Leste Africano HIMU-like; Pitcairn/Tristao EM1; HIMU = crosta oceanica reciclada com perda de Pb.",
+      "correction": "Afirmacao restringida, contraexemplos, origem do HIMU.",
+      "source": "Zindler & Hart 1986; Hoernle et al. 1995 Nature 374:34-39; Stracke 2012 Chem Geol 330-331:274-299",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-04-evolucao-magmas-alcalinos-parte-2-geoquimica-isotopica-modelagem.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 16,
+      "claim_id": "ALK-M31-A04-DEFINICAO-OPERACIONAL-006",
+      "severity": "orange",
+      "nature": "inconsistencia_interna",
+      "title": "Por definicao operacional enriquecidas em incompativeis",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-04-evolucao-magmas-alcalinos-parte-2-geoquimica-isotopica-modelagem.md"
+      ],
+      "quoted": "Rochas alcalinas sao, por definicao operacional, enriquecidas",
+      "problem": "Definicao e mineralogica/normativa (Aula 01).",
+      "correction": "tipicamente.",
+      "source": "Le Maitre 2002",
+      "source_level": "normativa",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-04-evolucao-magmas-alcalinos-parte-2-geoquimica-isotopica-modelagem.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 17,
+      "claim_id": "ALK-M31-MOD-ANFIBOLIOS-002",
+      "severity": "orange",
+      "nature": "erro_factual",
+      "title": "Hornblenda calcico-alcalina; kaersutita sodica; Zr essencial na astrofilita",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-05-rochas-sieniticas-series-miaskitica-agpaitica.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-06-magmas-basicos-ultrabasicos-alcalinos-lamprofiros-ultrapotassicas.md"
+      ],
+      "quoted": "anfibolio calcico-alcalino; anfibolio sodico a sodico-calcico (kaersutita); astrofilita Na-K-Fe-Ti-Zr",
+      "problem": "IMA: hornblenda e kaersutita calcicos; astrofilita K2NaFe7Ti2Si8O28(OH)4F, Zr na zircofilita.",
+      "correction": "Termos corrigidos.",
+      "source": "Hawthorne et al. 2012 Am Mineral 97:2031-2048; Mindat",
+      "source_level": "normativa",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-05-rochas-sieniticas-series-miaskitica-agpaitica.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-06-magmas-basicos-ultrabasicos-alcalinos-lamprofiros-ultrapotassicas.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 18,
+      "claim_id": "ALK-M31-A06-LAMPROFIROS-002",
+      "severity": "orange",
+      "nature": "erro_factual",
+      "title": "Rocher e Streckeisen (1978, 1980); so duas series",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-06-magmas-basicos-ultrabasicos-alcalinos-lamprofiros-ultrapotassicas.md"
+      ],
+      "quoted": "Rocher e Streckeisen (1978, 1980) ... duas grandes series",
+      "problem": "Rock (1977, 1987, 1991) e Streckeisen (1979); Rock inclui UML (ja no M30).",
+      "correction": "Atribuicao corrigida; UML mencionados.",
+      "source": "Streckeisen 1979 Geology 7:331-335; Rock 1977 ESR 13:123-169; Rock 1987 GSSP 30:191-226",
+      "source_level": "normativa+revisada_por_pares",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-06-magmas-basicos-ultrabasicos-alcalinos-lamprofiros-ultrapotassicas.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 19,
+      "claim_id": "ALK-M31-A06-ULTRAPOTASSICAS-003",
+      "severity": "orange",
+      "nature": "omissao_que_gera_erro",
+      "title": "Ultrapotassicas sem MgO>3%; Grupo III intermediario",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-06-magmas-basicos-ultrabasicos-alcalinos-lamprofiros-ultrapotassicas.md"
+      ],
+      "quoted": "criterios so K2O e K2O/Na2O; Grupo plagioleucititico intermediario",
+      "problem": "Foley et al. 1987: K2O>3, MgO>3, K2O/Na2O>2; Grupo III tipo Provincia Romana (alto CaO, Al2O3; zonas orogenicas).",
+      "correction": "MgO incluido no texto e no exemplo; Grupo III redefinido; frase do feldspato restrita.",
+      "source": "Foley et al. 1987 ESR 24:81-134",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-06-magmas-basicos-ultrabasicos-alcalinos-lamprofiros-ultrapotassicas.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 20,
+      "claim_id": "ALK-M31-A06-CUMULATOS-SEQUENCIA-001",
+      "severity": "orange",
+      "nature": "erro_factual",
+      "title": "Ijolito equivalente plutonico de basanito ou nefelinito",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-06-magmas-basicos-ultrabasicos-alcalinos-lamprofiros-ultrapotassicas.md"
+      ],
+      "quoted": "o equivalente plutonico saturado em nefelina de um basanito ou nefelinito",
+      "problem": "Ijolito = equivalente plutonico do nefelinito; basanito -> teralito.",
+      "correction": "de um nefelinito.",
+      "source": "Le Maitre 2002 glossario",
+      "source_level": "normativa",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-06-magmas-basicos-ultrabasicos-alcalinos-lamprofiros-ultrapotassicas.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 21,
+      "claim_id": "ALK-M31-A07-ZONEAMENTO-002",
+      "severity": "orange",
+      "nature": "inconsistencia_interna",
+      "title": "Sequencia calcio->ferrocarbonatito sem dolomita, dita ja vista no Modulo 30",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-07-associacao-carbonatitos-plataforma-sul-americana-depositos.md"
+      ],
+      "quoted": "evoluindo por vezes para ferrocarbonatito ... sequencia ja vista no Modulo 30",
+      "problem": "M30 a05: calcita -> dolomita -> ferrocarbonato.",
+      "correction": "Sequencia completa.",
+      "source": "M30 a05; Chakhmouradian & Zaitsev 2012 Elements 8:347-353",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-07-associacao-carbonatitos-plataforma-sul-americana-depositos.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 22,
+      "claim_id": "ALK-M31-A07-MINERALIZACAO-ZONAS-006",
+      "severity": "orange",
+      "nature": "confusao_de_escopo",
+      "title": "ETR no envelope sienitico; pirocloro so no carbonatito",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-07-associacao-carbonatitos-plataforma-sul-americana-depositos.md"
+      ],
+      "quoted": "minerais de Zr-Nb-ETR ... porcoes sieniticas; recap Zr/Nb/ETR no envelope sienitico; O que fixar ETR/Zr no sienito",
+      "problem": "M30 a05/a06: ETR em carbonatitos tardios e regolito; pirocloro tambem em foscoritos; sienito so hospeda Zr-Nb-ETR quando agpaitico.",
+      "correction": "Zonacao mineral reescrita; recap e O que fixar ajustados.",
+      "source": "M30 a05/a06; Simandl & Paradis 2018",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-07-associacao-carbonatitos-plataforma-sul-americana-depositos.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 23,
+      "claim_id": "ALK-M31-A07-PROVINCIAS-BRASILEIRAS-004",
+      "severity": "orange",
+      "nature": "erro_factual",
+      "title": "Pocos de Caldas ao longo do Arco de Ponta Grossa; Alinhamento Cabo Frio; area geologicamente modesta",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-07-associacao-carbonatitos-plataforma-sul-americana-depositos.md"
+      ],
+      "quoted": "complexos ... ao longo do Arco de Ponta Grossa ... (por exemplo, Pocos de Caldas ... Alinhamento Cabo Frio)",
+      "problem": "Arco de Ponta Grossa: Cretaceo Inferior (Jacupiranga); Alinhamento Magmatico Pocos de Caldas-Cabo Frio: 26 centros, ~84-49 Ma, Pocos no extremo oeste.",
+      "correction": "Duas provincias separadas com idades; numa mesma plataforma.",
+      "source": "Riccomini, Velazquez & Gomes 2005; Anuario IGeo UFRJ (revisao petrocronologica, 84-49 Ma); Almeida 1983",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-07-associacao-carbonatitos-plataforma-sul-americana-depositos.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 24,
+      "claim_id": "ALK-M31-A06-BARKEVIKITA-006",
+      "severity": "yellow",
+      "nature": "desatualizacao",
+      "title": "Barkevikita",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-06-magmas-basicos-ultrabasicos-alcalinos-lamprofiros-ultrapotassicas.md"
+      ],
+      "quoted": "(kaersutita, barkevikita)",
+      "problem": "Nome desacreditado pela IMA em 1978 (ferro-edenita no especime-tipo; hastingsita/magnesio-hastingsita).",
+      "correction": "Nome antigo mantido como referencia.",
+      "source": "Mindat Barkevikite",
+      "source_level": "base_de_referencia",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-06-magmas-basicos-ultrabasicos-alcalinos-lamprofiros-ultrapotassicas.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido_com_ressalva",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 25,
+      "claim_id": "ALK-M31-A07-PLATAFORMA-SA-CRETACEO-003",
+      "severity": "yellow",
+      "nature": "desatualizacao",
+      "title": "Cretaceo 145-66 Ma",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-07-associacao-carbonatitos-plataforma-sul-americana-depositos.md"
+      ],
+      "quoted": "entre 145 e 66 milhoes de anos",
+      "problem": "ICS vigente: base do Berriasiano 143,1 +/- 0,6 Ma (convencao do curso, auditoria do M26).",
+      "correction": "~143-66 Ma, com 145 Ma citado como valor antigo.",
+      "source": "ICS International Chronostratigraphic Chart (consultada na auditoria do M26, 2026-09-21)",
+      "source_level": "normativa",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "confirmado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-07-associacao-carbonatitos-plataforma-sul-americana-depositos.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido_com_ressalva",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 26,
+      "claim_id": "ALK-M31-A06-EXEMPLO-CALCULO-005",
+      "severity": "blue",
+      "nature": "evidencia_insuficiente",
+      "title": "Razao molar K2O/Na2O > 2 como criterio de Foley et al. 1987",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-06-magmas-basicos-ultrabasicos-alcalinos-lamprofiros-ultrapotassicas.md"
+      ],
+      "quoted": "razao molar K2O/Na2O tipicamente maior que 2",
+      "problem": "Base (peso x molar) nao confirmada no original (ScienceDirect 403); conclusao do exemplo igual nas duas bases (2,63/0,89 molar; 4,0/1,35 peso).",
+      "correction": "Criterio dado sem afirmar a base; exemplo mostra as duas.",
+      "source": "Foley et al. 1987 (resumo e citacoes secundarias)",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "nao_verificado",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-06-magmas-basicos-ultrabasicos-alcalinos-lamprofiros-ultrapotassicas.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido_com_ressalva",
+      "applied_at": "2026-09-24"
+    },
+    {
+      "n": 27,
+      "claim_id": "ALK-M31-A06-APIP-KAMAFUGITOS-004",
+      "severity": "white",
+      "nature": "controversia",
+      "title": "Pluma de Trindade como fato nos recaps",
+      "files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-06-magmas-basicos-ultrabasicos-alcalinos-lamprofiros-ultrapotassicas.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-07-associacao-carbonatitos-plataforma-sul-americana-depositos.md"
+      ],
+      "quoted": "todos interpretados ... sob a pluma de Trindade; recap sob a pluma de Trindade",
+      "problem": "Modelo de Gibson et al. 1995 contestado (Ernesto 2005, paleomagnetismo; anomalias termicas de longa duracao).",
+      "correction": "Atribuicao mantida, debate explicitado.",
+      "source": "Ernesto 2005 (9th CISBGf); Gibson et al. 1995 J Petrol 36:189-229",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-24",
+      "confidence": "em_disputa",
+      "affected_files": [
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-06-magmas-basicos-ultrabasicos-alcalinos-lamprofiros-ultrapotassicas.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-aula-07-associacao-carbonatitos-plataforma-sul-americana-depositos.md",
+        "31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo.md"
+      ],
+      "outcome": "corrigido_com_ressalva",
+      "applied_at": "2026-09-24"
+    }
+  ]
+}

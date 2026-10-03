@@ -1,0 +1,18 @@
+O coeficiente de uniformidade é Cu = {{c1::D60/D10}} e o coeficiente de curvatura é Cc = {{c2::(D30)²/(D10·D60)}}.
+A linha A da carta de plasticidade de Casagrande é dada por IP = {{c1::0,73(LL−20)}}.
+No SUCS, a peneira que separa solos de granulação grossa dos de granulação fina é a nº {{c1::200}}, de abertura {{c2::0,075}} mm.
+O índice de vazios e a porosidade convertem-se por n = {{c1::e/(1+e)}} e e = {{c2::n/(1−n)}}.
+O teor de umidade w = Mw/Ms usa como base a massa {{c1::seca}}, e não a massa total.
+A curva de compactação é limitada pela curva teórica de saturação γd,zav = {{c1::Gs·γw/(1+w·Gs)}}.
+O princípio das tensões efetivas de Terzaghi estabelece que σ' = {{c1::σ − u}}.
+Na franja capilar a poropressão é {{c1::negativa}}, o que {{c2::aumenta}} a tensão efetiva.
+O coeficiente de empuxo em repouso é estimado, para solos normalmente adensados, por K0 ≈ {{c1::1 − sen φ'}}, correlação atribuída a {{c2::Jáky}}.
+O gradiente hidráulico crítico é icr = γsub/γw = {{c1::(Gs−1)/(1+e)}}, próximo de {{c2::1}} para valores típicos.
+A vazão obtida de uma rede de fluxo é Q = {{c1::k·H·(Nf/Nd)}}.
+Num pacote estratificado, a condutividade equivalente horizontal é uma média {{c1::aritmética}} ponderada e a vertical é uma média {{c2::harmônica}}.
+A força de percolação por unidade de volume é j = {{c1::i·γw}}, atuando na direção do fluxo.
+Uma unidade Lugeon corresponde à absorção de 1 litro por metro de furo por minuto sob pressão de {{c1::1 MPa}}.
+Na curva e–log σ', o trecho de recompressão tem inclinação {{c1::Cr}} e a reta virgem tem inclinação {{c2::Cc}}, separados pela tensão de {{c3::pré-adensamento}}.
+O fator tempo do adensamento é Tv = {{c1::cv·t/Hd²}}, e para U = 90% vale Tv = {{c2::0,848}}.
+Em tensões principais, o critério de Mohr-Coulomb escreve-se σ'1 = σ'3·Nφ + 2c'·√Nφ, com Nφ = {{c1::tan²(45°+φ'/2)}}.
+A resistência que governa uma superfície de ruptura preexistente em argila é a resistência {{c1::residual}}, e não a de pico.

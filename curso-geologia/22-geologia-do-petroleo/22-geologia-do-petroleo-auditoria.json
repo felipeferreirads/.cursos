@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "22-geologia-do-petroleo/",
+    "module_id": "22",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-18T00:00:00-03:00",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 0,
+    "yellow": 0,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 15
+  },
+  "findings": [],
+  "verified_claims": [
+    {"claim_id": "GEO-M22-A01-AMBIENTE-REDUTOR-001", "file": "22-geologia-do-petroleo/22-geologia-do-petroleo-aula-01-origem-da-materia-organica-e-geracao-de-hidrocarbonetos.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M22-A01-TIPOS-QUEROGENIO-002", "file": "22-geologia-do-petroleo/22-geologia-do-petroleo-aula-01-origem-da-materia-organica-e-geracao-de-hidrocarbonetos.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M22-A01-GRADIENTE-GEOTERMICO-003", "file": "22-geologia-do-petroleo/22-geologia-do-petroleo-aula-01-origem-da-materia-organica-e-geracao-de-hidrocarbonetos.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M22-A02-POROSIDADE-PERMEABILIDADE-001", "file": "22-geologia-do-petroleo/22-geologia-do-petroleo-aula-02-rocha-geradora-reservatorio-selo-trapa.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M22-A02-QUATRO-ELEMENTOS-002", "file": "22-geologia-do-petroleo/22-geologia-do-petroleo-aula-02-rocha-geradora-reservatorio-selo-trapa.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M22-A02-TRAPA-TIPOS-003", "file": "22-geologia-do-petroleo/22-geologia-do-petroleo-aula-02-rocha-geradora-reservatorio-selo-trapa.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M22-A03-JANELA-OLEO-001", "file": "22-geologia-do-petroleo/22-geologia-do-petroleo-aula-03-maturacao-migracao-e-acumulacao.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M22-A03-MIGRACAO-PRIMARIA-002", "file": "22-geologia-do-petroleo/22-geologia-do-petroleo-aula-03-maturacao-migracao-e-acumulacao.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M22-A03-SINCRONISMO-003", "file": "22-geologia-do-petroleo/22-geologia-do-petroleo-aula-03-maturacao-migracao-e-acumulacao.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M22-A04-PLAY-001", "file": "22-geologia-do-petroleo/22-geologia-do-petroleo-aula-04-metodos-de-exploracao-sismica-pocos-e-plays.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M22-A04-BRIGHT-SPOT-002", "file": "22-geologia-do-petroleo/22-geologia-do-petroleo-aula-04-metodos-de-exploracao-sismica-pocos-e-plays.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M22-A04-PERFILAGEM-003", "file": "22-geologia-do-petroleo/22-geologia-do-petroleo-aula-04-metodos-de-exploracao-sismica-pocos-e-plays.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M22-A05-CONVENCIONAL-NAO-CONVENCIONAL-001", "file": "22-geologia-do-petroleo/22-geologia-do-petroleo-aula-05-reservatorios-convencionais-e-nao-convencionais.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M22-A05-FRATURAMENTO-002", "file": "22-geologia-do-petroleo/22-geologia-do-petroleo-aula-05-reservatorios-convencionais-e-nao-convencionais.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M22-A05-TIGHT-SANDS-003", "file": "22-geologia-do-petroleo/22-geologia-do-petroleo-aula-05-reservatorios-convencionais-e-nao-convencionais.md", "confidence": "confirmado"}
+  ]
+}

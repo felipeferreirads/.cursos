@@ -1,0 +1,585 @@
+# Ep20 - Absolute Dating.txt
+Video ID: 8veMBs8-UV8
+Lang: en
+URL: https://www.youtube.com/watch?v=8veMBs8-UV8
+
+---
+
+okay hi there again crew and welcome to
+another episode in the geology 101
+physical geology video series I am
+geology Professor Shan Willy thanks for
+joining me today and in this episode
+we're going to look at how geologists
+were able to determine the specific or
+absolute ages of rocks a lot of times on
+field trips you might be with a
+geologist like me that's telling you
+that the granite is 32 million years old
+or this this unit over here is 1 .3
+billion years old so we're going to look
+a little bit at some of the the
+techniques the processes the chemistry
+if you will that govern and help us
+determine those specific ages uh as
+always remember that this video series
+is based on my college course it's the
+same curriculum largely the same
+material that I present to my college
+students also with this specific episode
+um I know many of you are much more
+knowledgeable that I am about chemistry
+and physics and so please just bear in
+mind that this is a 101 level course and
+um while this is not necessarily my
+field the the Deep dive in the chemistry
+and such um but just kind of keep in
+mind that is 101 level so hopefully that
+um is just worth stating there so let's
+get right to it and look at um what
+we're looking for here what we're
+looking for is some sort of clock
+something that lets us know that The
+Rock has quote unquote been born or has
+um come into existence this rock now
+exists and we want some sort of clock to
+start so that later many years later
+often uh when we come around as humans
+we can find that rock perform some sort
+of analyses and be able to quantify the
+age of that specific Rock and the thing
+that turns out to be the most useful
+here is this thing called radioactivity
+just these unstable atoms or these
+things we'll talk about called Isotopes
+where these um these particles Decay
+into something else so there's a change
+from one atom to another and by looking
+and measuring how much we have of One
+Versus another what we're able to
+quantify and actually calculate the age
+of the rock turns out when we think of
+all the rocks that are out there the
+ignas the sedimentary and the
+metamorphic rocks turns out the most
+useful in many instances are the ous
+Rocks if you think about it all ous
+rocks have the same fundamental history
+they all start as magma or lava and that
+material ultimately cools and
+crystallizes it might be very quickly if
+it's coming out of a volcanic eruption
+or it can take some time if it's
+underground cooling much more slowly but
+all magmas go through some sort of uh
+cooling process where at some point the
+chemistry is locked in the uh atoms
+aren't able to move and migrate anymore
+and that's essentially when the clock
+would begin and when we would be able to
+uh date the actual age of the rock is
+that actual Moment In Time sedimentary
+rocks it should make sense that most
+sedimentary rocks are not going to be
+very helpful cuz a lot of sedimentary
+rocks are Aggregates of fragments of
+existing rocks so think of a
+conglomerate where you've got chunks of
+other rocks maybe carried down a river
+system and then later all glued together
+if you date each one of those particles
+in that rock it's going to give you a
+variety of Ages uh and then the
+metamorphic rocks are helpful to some
+degree but typically the metamorphic
+process sort of resets the ages a lot of
+times the metamorphic conditions are
+such that the uh chemistry of the
+minerals changes enough that it actually
+resets the clock and so you're not
+really dating the age of the original
+rock or the parent rock you're actually
+dating the metamorphic event um and so
+these IGN rocks prove to be very helpful
+um many of the minerals we find in the
+ignas Rocks contain radioactive elements
+and then the Assumption we make and that
+we try to make sure we're careful of
+when we're sampling is a closed system
+so for example I would not just go pick
+up some random uh piece of granite off
+the ground and then send that in for
+analysis because I want to make sure
+that the uranium or whatever the
+radioactive element is in my rock that
+it hasn't had any other new sources of
+uranium transported inside that rock
+since that rock formed since it cooled
+and crystalized we're trying to date the
+original formation of that rock and so
+any subsequent event where that
+radioactive element can be brought in
+that can change the results now luckily
+we can often times cross check those
+ages with with other Isotopes and see if
+we get agreement there in but it we do
+want to make sure that the system we're
+looking at is a closed system so I would
+not want to sample a highly fractured
+Granite outcrop where I think a lot of
+fluids have moved through that rock
+since it Formed um so those are some of
+the caveats there determining absolute
+ages so we're going to go a bit into
+chemistry just a little bit if you will
+um so most of you may have had some
+chemistry in the background if not we'll
+just review a bit here so all atoms have
+uh protons and neutrons and some sort of
+nucleus and then there's a cloud of
+electrons that surround that nucleus and
+so when we look at our elements
+everything that we find in the universe
+not just on Earth we have arranged those
+elements into a nice handy dandy
+periodic table which I'll show you in a
+second but basically all the elements we
+find um are defined by the number of
+protons they contain so for example
+carbon has an atomic number of six that
+means it has or contains six protons um
+and that really is what defines carbon
+if you were to you know add uh another
+proton to this and this became seven
+that would make it nitrogen so it
+actually change the fundamental element
+that we're looking at here so elements
+are defined by the number of protons in
+their nucleus we could look at something
+like pottassium here which is element or
+atomic number 19 and then there's
+another number associated with each
+element and this is what's known as the
+mass number number or the atomic mass
+which is fundamentally the number of
+protons and neutrons it's actually a
+weighted average of all the various
+forms of that element um but typically
+your your run-of-the-mill more stable
+ones tend to be the most dominant and so
+the mass number can vary a little bit
+depending on uh some different factors
+here so the again to review the atomic
+number dictates the element that's the
+number of protons but the mass number is
+the number of protons and neutrons so in
+this case if we round this off to 39 if
+we have 19 protons that means we have to
+have 20 neutrons in order for this to be
+39 well it turns out oh there's our
+periodic table so you can look that up
+everywhere this one's nice and bright
+with vibrant colors but this is um how
+we make sense of the elements we find in
+our universe and some of these are
+actually um synthetic elements chemists
+continue to find innovative ways to
+actually um essentially
+Jam another proton into the nucleus and
+and synthesize new elements but many of
+these are naturally occurring so they're
+of interest to geologist and then the
+really important thing here are these
+things called Isotopes these are forms
+of an element but they have a different
+mass number so a good example um here
+might be pottassium 39 okay which is
+run-of-the-mill potassium 19 protons 20
+neutrons like we talked about but
+there's another form of potassium called
+potassium 40 which still has 19 proton
+because that is what defines potassium
+that atomic number but in this case it
+would have 21 neutrons and this form of
+potassium is actually radioactive so
+it's unstable it decays and it turns
+into something else and the thing it
+turns into over some length of time is
+argon 40 so essentially it's turning um
+some of those particles into another
+type of particle in order to change in
+this case it's turning I think what a
+neutron into uh no a proton into a
+neutron in order order to turn into
+argon 40 another example you might have
+heard of is like carbon 14 Carbon 14
+dating or radiocarbon dating uh carbon
+14 is also radioactive and it decays
+over time to another uh element in this
+case
+nitrogen so we've talked about
+radioactive decay so that's when we have
+the unstable material um or element what
+we come sometimes called the parent
+element and it's decaying spontaneously
+but at a measurable rate uh into a more
+stable particle which is known as the
+daughter product so we have the parent
+which is unstable the daughter which is
+um stable over time why does this have a
+female connotation I'm not quite sure
+but that's just the the verbiage that
+we've been using for quite some time the
+other concept that's important and one
+in which I'll do a little a little
+thought experiment with you here in a
+second is this concept of a halflife so
+a halflife is how much time it takes for
+half of what you start with your parent
+element to Decay into the daughter so if
+you start out with you know a th000
+atoms of carbon 14 how long would a
+halflife be well it's going to be the
+amount of time it takes for in this case
+if I start with a thousand I would end
+up with 500 of those carbon atoms
+changing into nitrogen so it's the time
+it takes for half of what you start with
+to Decay and half- lives can be measured
+they don't change they are you know
+random uh in terms of the uh the rate at
+which it occurs but it's it's measurable
+and over time the averages turn out to
+be quite robust and very reliable so
+here's my little analogy here that'll
+hopefully be a good one and make some
+sense we're going to talk a little bit
+about popcorn so everyone knows that if
+you heat up popcorn kernels you end up
+getting popcorn so consider the popcorn
+kernels the parent element and the
+popped pop popcorn is the daughter
+element or the daughter product so let's
+say that for Christmas um like for
+example I I prefer airpop popcorn over
+microwave popcorn um that's not really
+relevant here but let's say you all have
+been given for a Christmas gift a air
+popped uh popper little small appliance
+you plug into your kitchen and add
+kernels to and let's say we all have the
+same brand same model and we all start
+out with let's say a 100 kernels of
+unpopped uh popcorns we have 100 popcorn
+kernels we're going to all start the
+clock at the same time add those 100
+kernels to our air poop popper um and
+then and then time how long it takes for
+the first kernel to pop now I would
+guess that we might have some variation
+there but we probably have a pretty
+tight average maybe at someone's house
+the first kernel popped at 30 seconds
+and at someone else it was 35 or 28
+seconds who knows what the range is but
+I'm guessing it's probably not a huge
+range furthermore if you looked at those
+100 kernels prior to popping them could
+you predict which one was going to pop
+first and the answer is of course not
+you have no way of knowing which one of
+those kernels really is going to pop
+first assuming they all look the same um
+and yet you have full confidence that
+when subjected to heat those kernels
+will change they will transform from
+kernels into popped popcorn uh that you
+can eat um at some at some rate and so
+that's the idea kind of here and so
+imagine now if we could take those
+kernels and you could add it to your
+popcorn popper and if you could somehow
+freeze freeze frame or freeze in time
+this would be very difficult to do the
+time in which you have half of your
+popcorn kernels unpopped and half of
+them popped so if you start out with a
+100 how long would it take for you to
+have 50 pieces of popcorn and 50
+unpopped kernels uh and if you could
+somehow like capture and measure that
+time and if everyone did that across the
+board I would get we would get a pretty
+pretty nice tight average there um who
+knows you know if it's 45 seconds or or
+whatever uh and that's the idea here is
+that these these parent elements are
+decaying they're changing into something
+else uh because they're radioactive
+unstable and the time it takes for half
+of them to change is what we call the
+half-life so hopefully that kind of
+makes sense here um because that's the
+the idea here and so by measuring the
+amount of uh kernels to popcorn if you
+will or how much daughter versus parent
+you have you can therefore use that
+halflife to figure out how old something
+is or how much time has elapsed on the
+clock since the rock formed in this case
+um so graphically this is sort of how it
+looks so if we have our parent element
+here on the left at time zero so let's
+uh assume our initial conditions we have
+100% of the parent element here after
+one halflife by definition we would have
+half of that material would be parent
+shown in yellow half would be the
+daughter product shown in blue after
+another halflife whatever length of time
+that is we would drop that parent amount
+again in half so now we're down in this
+case to like a quarter 25% of what we
+have 75% is the daughter and then you
+can see this dropping dropping dropping
+now this red curve here never quite gets
+down to the x- axis it becomes very
+close to it it's what we call an ASM
+toote but it never gets to zero because
+you can always take half of something
+right if you start out with a thousand
+you take it in half that's 500 half of
+that that's 250 half of that's 125 so on
+and so forth and so theoretically or
+mathematically this never goes to zero
+but you can get to such small quantities
+that after about like I think it's like
+8 to 10 half lives there's so little of
+the parent remaining that it's it's
+difficult to measure and so our
+instrumentation has a tough time
+detecting that parent material and so
+for practical purposes you know you can
+have so many half-lies go by that that
+isotope is no longer helpful for in the
+actual material um and so that's why
+carbon 14 like for Geology carbon 14 is
+only useful if you have organic material
+material that was organic and because
+the halflife of carbon 14 is pretty
+short like 6,000 years or so you can
+only go back about 50 maybe 60 maybe
+70,000 years before you're so it's so
+much time's gone by that there's very
+little if any of that parent material
+left so carbon 14 is useful for Fairly
+young geologic features maybe like lava
+flows in Hawaii or places where there's
+been fairly young um activity and we
+would then also need the organic
+components so we would need like a tree
+that the that the lava had burned and
+maybe a little bit of charcoal residue
+then we could do carbon 14 analysis on
+that otherwise we're going to need much
+older uh or excuse me longer lived
+isotopes with bigger Half-Life things
+like uranium 238 uranium 235 uh
+potassium 40 those are going to give us
+um the numbers for things that are in
+the millions or billions of year range
+okay so hopefully that makes sense again
+I'm I'm not a chemist so that's that's
+the best I can sort of handle it but
+let's do an example here with a little
+fun quiz question um so uranium 235 is
+the parent and it decays over time to
+lead
+207 okay so there's the parent there's
+the daughter the halflife I rounded this
+off just to make the it simple is about
+700 million years so let's suppose we
+find a chunk of Granite Granite contains
+these minerals called ziron and zircons
+contain uranium typically so let's say
+in that Granite we have a mineral that
+has about 12 1 12% of the parent uranium
+235 and 87 1.5% of the lead so how many
+half-lies have gone by how much how many
+of those half-lies have elapsed given
+the percentages we have here remember we
+start with 100% of the parent and 0% of
+the lead initially so go ahead and pause
+pause the video if you need to take a
+minute to try to figure that
+out and then let's go ahead and see how
+you did so what I like to do is set up a
+simple table uh which helps me kind of
+keep track of things you might be able
+to do this in your head um but for me
+it's much more helpful to write it down
+and keep track uh visually so I can
+actually make sure I don't make any
+mistakes so if we start here initially
+with no time off the clock the initial
+conditions would be 100% of the parent
+0% of the daughter if one halflife goes
+by then by definition we will have half
+of that material that was parent Decay
+and turn into the daughter notice these
+always have to add up in this case to
+100% okay so I'm down to 50% of my
+parent and I'm up to 50% on my daughter
+element if we allow another Half-Life to
+go by so now two full half-lies have
+gone by now we have 25% of the parent
+and 75% of the daughter so remember
+again these have to add up to the
+whatever you start with matter cannot be
+created nor destroyed and then finally
+in this case if we go to three half-lies
+notice we have the 12 1/2% and the 87
+1.2% that was measured in the Rocks so
+in this case we can conclude then that
+our rock or the minerals in the Rock
+here have gone through three full half-
+lives well that's that's great so
+hopefully you got that right answer was
+D now the next question is going to be
+well wait a minute we haven't actually
+determined how old the rock is we've
+just on some some cool little math and
+chemical mumbo jumbo here so the next
+question you have same scenario
+everything at the top of the screen here
+is the same thing as what you just saw
+but now we know that three half lives
+have gone by so what is the age of the
+Granite how old is it and so you have
+some ages here remember ma is millions
+of years ago GA is billions of years ago
+Mega anom and gigaom that's the
+abbreviations we use for time um so go
+ahead and pause the video again if you
+need to take take a minute to figure
+that out you should be able to use the
+table you just use um I would encourage
+you to add another column to your table
+that says time and then figure out the
+time component needed for each one of
+those half lives so again pause the
+video if you need a little bit more
+time okay so let's go right to the table
+here so here is the table uh same table
+we saw before but in this case I've
+added a column on the left with time so
+initially no time off the clock no
+half-lies 100% Z % when I have 50/50 of
+the parent daughter that's one halflife
+which in this case with this isotope
+represents about 700 million years if
+two half-lies have elapsed that would
+give me 1,400 million years and in this
+case if we have three full half-lies
+that have elapsed that would give us
+2100 million years or 2.1 billion years
+which would be answer number e here well
+not number answer letter e so e was the
+correct Choice there how' you do does
+that make sense again for my geology 101
+class this as far as we go many of you
+may know that there's more complex
+equations and there's different types of
+there's alpha decay beta Decay electron
+capture uh there's there's more to this
+for sure um that is handled in a
+chemistry course or in advanced courses
+in geology but at the 101 level this is
+pretty much uh where we land with things
+uh one more question for you one more
+quiz question if you're enjoying this um
+it's going to look look it's going to
+look a little different but
+fundamentally it's exactly the same as
+what you did here so if you understand
+where we were with these two quiz
+questions then I think you'll be in good
+shape with this next one okay so here we
+go so carbon 14 decays to nitrogen 14
+parent daughter the halflife of carbon
+14 is about 6,000 years again rounding
+off a bit here what fraction of the
+original carbon 14 remains after 24,000
+years Okay so so and it is worth noting
+that five out of four people hate
+fractions so when you take four people
+and divide them five ways things can get
+pretty messy so go ahead and pause the
+video if you need to figure this out I
+would encourage you to build a table
+like we did with the previous
+questions okay let's get right to it in
+this case I'm just going to kind of roll
+the table out for you so initially Time
+Zero No Half Lives we would have the
+whole right 100% of the parent none of
+the daughter well another way to
+represent percentages is just whole
+numbers okay such that if we had one
+half life go by rather than showing that
+as 50% we can just designate that as a
+half a half of the original material is
+parent a half is daughter in this case
+one halflife for carbon 14 is 6,000
+years so there's our time component we
+need to find out how much of the carbon
+14 which is the parent is left after
+24,000 years so we need a couple more
+half-lies elapsed to see that full
+24,000 years and then we can figure out
+what our uh ratios are here so let's
+allow another halflife go by so think
+about what half of a half is well that's
+a quarter right or 25% same thing and if
+we have 25% or a quarter of the parent
+left that would mean we have 75% or 3/4
+of the daughter present that's two
+half-lies that's 12,000 years if we
+allow another halflife to go by we take
+that am
+from previously and we cut that in half
+so we have an eighth or and 7/8 here now
+we're up to 18,000 years and now finally
+with one last and final halflife we are
+at four full half-lies we have 24,000
+years that have elapsed since this
+carbon 14 started to Decay and of that
+original amount of carbon 14 only 116th
+of it remains and the rest of it is all
+the daughter product obviously you could
+keep going the next one would be five
+Half Lives which would be 30,000 years
+and this would be 132 as a fraction so
+alls I really did here team was uh took
+out the percentages and just turned them
+into uh whole numbers or fractions in
+this in this case which everyone loves
+fractions right hopefully maybe not um
+but they're out there we have to use
+them from time to time so um I think
+that's it so again just kind of a maybe
+not a super deep dive but a look at how
+absolute dating is applied to geology at
+least at the 101 level hopefully you
+enjoyed this episode um if you want to
+support the channel there are links
+under the video description uh there
+might be three little dots at the bottom
+right of the viewer and if you hit that
+that'll open up the thanks button and
+you can donate that way otherwise thanks
+for supporting a Channel with your
+viewership appreciate you and we'll see
+you in our next episode where we discuss
+fossils and fossilization thanks so much
+and take care

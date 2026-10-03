@@ -1,0 +1,152 @@
+Qual é a função central do fluido de perfuração que controla a segurança do poço?;Controlar a pressão da formação, mantendo a pressão hidrostática da lama dentro da janela operacional (entre a pressão de poros e a pressão de fratura)
+O que é a janela operacional de peso de lama?;O intervalo de pressão hidrostática entre o gradiente de pressão de poros (limite inferior para evitar kick) e o gradiente de pressão de fratura (limite superior para evitar perda de circulação)
+Qual é a fórmula padrão de conversão de peso de lama em ppg para gradiente de pressão hidrostática em psi/ft?;Gradiente psi/ft = 0,052 × peso de lama em ppg
+Qual é o gradiente de pressão hidrostática de uma lama de 10,5 ppg?;0,546 psi/ft (conversão: 0,052 × 10,5)
+Qual é a constante de conversão de acre-pé para barris?;7.758 (1 acre-pé = 7.758 barris)
+O que são as fases de um poço de petróleo em ordem de profundidade crescente?;Condutor, superfície, intermediária (uma ou mais), produção
+Qual é a fórmula da conversão de area-pé para pés cúbicos?;43.560 pés cúbicos por acre-pé
+O que é o índice de raios gama (IGR)?;IGR = (GR − GRmin) / (GRmax − GRmin), normaliza a leitura de raios gama entre 0 (rocha limpa) e 1 (folhelho puro)
+Qual é o volume de argila (Vsh) aproximado quando IGR = 0,05?;Aproximadamente 0 (rocha essencialmente limpa), IGR muito baixo
+O que é a equação de Archie para saturação de água?;Sw = [(a/φᵐ)(Rw/Rt)]^(1/n), onde a ≈ 1 (tortuosidade), m ≈ 1,8-2,2 (cimentação), n ≈ 2 (saturação)
+Qual é o expoente de cimentação (m) típico em arenitos consolidados?;1,8 a 2,2 (o exemplo usa m = 2)
+Se Sw = 0,25 (25%), qual é a saturação de hidrocarboneto (Sh)?;0,75 ou 75%
+O que causa o efeito de gás (gas crossover) em um perfil combinado nêutron-densidade?;O baixo conteúdo de hidrogênio do gás faz o nêutron subestimar a porosidade enquanto a densidade a superestima, criando um afastamento característico entre as curvas
+Qual é o papel da testemunhagem na avaliação de formações?;Calibrar os parâmetros usados na interpretação de perfis (Archie, Vsh-IGR, porosidade por densidade) através de medidas diretas em laboratório
+O que é a saturação de água irredutível (Swi)?;A fração de água retida pelos poros por forças capilares que não se move mesmo sob pressão de produção, tipicamente 10-40%
+O que significa Bo > 1 para um óleo vivo?;O óleo no reservatório está expandido pelo gás em solução e pela temperatura, ocupando um volume maior que em superfície
+Qual é a faixa típica de Bo em óleos com razão gás-óleo moderada a alta?;1,1 a 1,5 bbl/STB
+O que é a razão de solubilidade gás-óleo (Rs)?;O volume de gás (scf) dissolvido em uma unidade de óleo (STB) nas condições de reservatório
+Acima da pressão de ponto de bolha, o óleo é chamado de quê?;Subsaturado (todo o gás permanece em solução, Rs se mantém constante em seu valor máximo Rsb)
+Abaixo da pressão de ponto de bolha, como se comporta Bo?;Bo cai porque domina a perda de gás dissolvido em solução
+Qual é a fórmula do OOIP pelo método volumétrico?;OOIP (STB) = (7.758 × A × h × φ × (1−Sw)) / Bo
+No exemplo da aula 03, qual é o OOIP calculado?;19.115.712 STB
+Se Bo fosse 1,35 em vez de 1,25, qual seria o OOIP aproximado?;Aproximadamente 17.699.733 STB (25% a menos)
+O que é o fator de recuperação (FR)?;A fração do OOIP que efetivamente chega à superfície ao longo da vida produtiva do campo
+Qual é o fator de recuperação típico de um reservatório com depleção por gás em solução?;5% a 30% (um dos mais baixos entre os mecanismos primários)
+Qual é o fator de recuperação típico de um reservatório com influxo de água?;35% a 75% (o mais eficiente entre os quatro mecanismos)
+Qual é o fator de recuperação típico em drenagem gravitacional?;Até 60-80% em condições estruturais e de permeabilidade vertical favoráveis, mas lento
+Quantos pontos percentuais de FR a recuperação secundária por injeção de água típicamente adiciona?;10 a 20 pontos percentuais acima da recuperação primária isolada
+O que causa a ineficiência da injeção de água em reservatórios heterogêneos?;Canalização preferencial da água pelas zonas mais permeáveis (channeling), deixando óleo não varrido em zonas de baixa permeabilidade
+Qual é a fórmula do índice de produtividade (IP ou J) acima do ponto de bolha?;J = q / (Pr − Pwf), onde q é vazão, Pr é pressão estática e Pwf é pressão de fundo de poço
+No exemplo da aula 04, qual é o índice de produtividade calculado?;1,0 bbl/dia/psi
+O que é o potencial absoluto de fluxo (AOF)?;A vazão teórica máxima de um poço com pressão de fundo reduzida a zero, um limite de referência nunca operado na prática
+O que significa "poço revestido e canhoneado" em completação?;O revestimento de produção desce cimentado e depois canhoneios (perfurações por explosivos) atravessam o revestimento e cimento para comunicação com a formação
+Qual é a vantagem principal da completação a poço aberto?;Maximiza a área de contato entre poço e reservatório, é mais simples e barata
+Qual é a principal limitação da completação a poço aberto?;Oferece pouco ou nenhum controle seletivo sobre quais intervalos produzem
+Em que tipo de rocha o controle de areia (telas ou gravel pack) se aplica?;Arenito mal consolidado ou friável, tipicamente de ALTA permeabilidade e alta vazão, não de baixa permeabilidade
+Qual é a diferença entre telas de contenção isoladas e gravel pack?;Telas isoladas filtram sozinhas; gravel pack combina a tela com preenchimento do anular por areia selecionada de alta permeabilidade
+O que é elevação natural?;A produção movida pela diferença de pressão entre reservatório e superfície, enquanto essa energia é suficiente
+Qual é o método de elevação artificial mais usado em poços de alta vazão offshore?;Bombeio centrífugo submerso (ESP — electrical submersible pump)
+Qual é a principal desvantagem de bombeio centrífugo submerso (ESP)?;É eletromecanicamente complexo, mais caro e sensível a produção de areia e gás livre na sucção
+Como funciona o gas lift como método de elevação artificial?;Gás comprimido é injetado no anular e reduz a densidade média da coluna de fluido, facilitando a produção
+Qual é a maior vantagem do gas lift?;É flexível, lida bem com produção de areia e com poços desviados
+Qual é a principal limitação do gas lift?;Depende de disponibilidade de gás comprimido em volume e pressão suficientes
+O que é recuperação avançada (EOR)?;Métodos que alteram as propriedades do fluido ou da interação rocha-fluido para liberar óleo remanescente não deslocado pela injeção de água
+Qual é o mecanismo físico dominante do EOR térmico?;Reduz a viscosidade do óleo, especialmente importante em óleos pesados e extrapesados
+Qual é o tipo de óleo para o qual EOR térmico é mais aplicável?;Óleo pesado/extrapesado
+Qual é o mecanismo físico dominante do EOR miscível?;Elimina a interface entre óleo e fluido injetado, removendo a tensão interfacial que retém óleo por capilaridade
+Qual é o tipo de óleo para o qual EOR miscível é mais aplicável?;Óleo leve/médio com pressão de reservatório suficiente para atingir miscibilidade
+O que é a pressão mínima de miscibilidade?;A pressão mínima necessária para que um fluido injetado (como CO₂) se torne miscível com o óleo nas condições de subsuperfície
+Como varia a pressão mínima de miscibilidade com a densidade do óleo?;Aumenta com a densidade/viscosidade do óleo
+Qual é o mecanismo físico dominante do EOR químico?;Melhora a mobilidade da água injetada (polímeros) ou reduz a tensão interfacial (surfactantes) para liberar óleo retido por capilaridade
+Qual é a principal limitação do EOR químico?;Sensível à salinidade e à temperatura do reservatório e ao custo dos produtos químicos
+O que significa CO₂ miscível acoplado com armazenamento geológico de carbono?;Parte do CO₂ injetado permanece retida no reservatório ao final do projeto, fornecendo um argumento ambiental adicional além do econômico
+O que é ASP (álcali-surfactante-polímero)?;Uma formulação combinada de EOR químico que reúne álcalis (reagem com ácidos orgânicos do óleo para gerar surfactantes in situ), surfactantes e polímeros
+O que é gestão de reservatórios?;O processo contínuo e iterativo de monitorar o comportamento real de um campo, atualizar o modelo geológico-de engenharia e decidir ações operacionais
+Qual é o princípio central da gestão eficaz de reservatórios?;Decisões tomadas cedo na vida do campo (malha de poços, momento de injeção de água) têm impacto desproporcional e raramente são compensadas por correções tardias
+Qual é a fórmula do volume recuperado em um projeto de EOR?;Volume adicional = OOIP × ganho incremental de fator de recuperação
+No exemplo da aula 05, qual é o ganho incremental de EOR miscível em volume?;Aproximadamente 2.293.885 STB (OOIP 19.115.712 × 0,12)
+No exemplo da aula 05, qual é o volume total recuperado ao final do EOR?;Aproximadamente 8.410.913 STB (OOIP 19.115.712 × 0,44)
+Qual é a diferença entre o volume recuperado ao final da secundária e ao final da EOR no exemplo?;Aproximadamente 2.293.885 STB (8.410.913 − 6.117.028)
+Como é chamado o volume de óleo que já foi produzido até o fim da recuperação secundária?;Volume já recuperado (OOIP × FR total da primária + secundária)
+Qual é o fator de recuperação primária no exemplo da aula 05?;18%
+Qual é o fator de recuperação total (primária + secundária) no exemplo da aula 05?;32%
+Qual é a fração de água retida na zona do exemplo da aula 02?;25% (Sw = 0,25 ou 25%)
+Qual é a fração de hidrocarboneto na zona do exemplo da aula 02?;75% (Sh = 0,75 ou 75%)
+Qual é o BOP em um poço de petróleo?;Blowout preventer — conjunto de válvulas de fechamento rápido montado no topo do poço, dimensionado para a pressão máxima esperada
+Qual é o papel primário do BOP?;Barreira mecânica de emergência; o controle primário do poço é o próprio peso de lama corretamente ajustado
+O que é um "kick" em um poço?;Entrada descontrolada de fluido da formação para o poço, causada por pressão hidrostática insuficiente (abaixo da pressão de poros)
+O que é a margem de sobrebalanço (overbalance)?;A diferença entre a pressão hidrostática exercida pela lama e a pressão de poros da formação, fornecendo um fator de segurança
+Como se chama o fino reboco de baixa permeabilidade formado pelo fluido de perfuração na parede da formação?;Mudcake (ou cake)
+Qual é a função do mudcake?;Reduzir a invasão de filtrado de fluido de perfuração na formação
+O que é invasão de filtrado?;A penetração de água/óleo do fluido de perfuração para dentro da rocha porosa ao redor do poço
+Qual é a profundidade vertical do topo do reservatório no exemplo da aula 01?;3.000 m (≈ 9.843 ft)
+Qual é a pressão de poros no topo do reservatório do exemplo da aula 01?;Aproximadamente 4.577 psi (gradiente 0,465 psi/ft × 9.843 ft)
+Qual é a pressão de fratura no topo do reservatório do exemplo da aula 01?;Aproximadamente 7.874 psi (gradiente 0,80 psi/ft × 9.843 ft)
+Qual é a pressão hidrostática da lama de 10,5 ppg no topo do reservatório do exemplo da aula 01?;Aproximadamente 5.374 psi (gradiente 0,546 psi/ft × 9.843 ft)
+Qual é a margem de segurança (sobrebalanço) no exemplo da aula 01?;Aproximadamente 797 psi (diferença entre 5.374 psi de lama e 4.577 psi de poros)
+Qual é a diferença entre porosidade e permeabilidade?;Porosidade é o espaço vazio disponível; permeabilidade é a facilidade de fluxo através dos poros interconectados
+Qual é a unidade de medida de permeabilidade?;Darcy (D) ou milidarcy (mD)
+Qual é a faixa típica de porosidade em um folhelho?;5% a 15%
+Qual é a faixa típica de permeabilidade em um folhelho?;Frequentemente < 0,01 mD (muito baixa)
+Qual é a faixa típica de porosidade em um arenito bem selecionado?;20% a 25%
+Qual é a faixa típica de permeabilidade em um arenito bem selecionado e pouco cimentado?;Centenas a milhares de mD
+O que é porosidade efetiva?;A fração de porosidade que está interconectada e disponível para fluxo de fluido
+Como a argila dispersa afeta a porosidade e a saturação calculadas?;Reduz a porosidade efetiva e distorce a resposta elétrica da formação, exigindo correções de Vsh nos cálculos
+Qual é a sensibilidade do resultado de Archie ao expoente de cimentação m?;Um m menor reduz a saturação de água calculada; m = 1,8 ao invés de 2 reduz Sw de 25% para aproximadamente 21%
+Qual é a fórmula de porosidade por densidade?;φD = (ρmatriz − ρformação) / (ρmatriz − ρfluido)
+Qual é a densidade típica da matriz de quartzo?;2,65 g/cm³
+Qual é a densidade típica de um fluido (água salgada)?;1,00 g/cm³
+Como é calculada a porosidade por nêutron?;Diretamente pela medida de desaceleração de nêutrons rápidos, que depende principalmente da concentração de hidrogênio
+Por que a convergência entre nêutron e densidade indica ausência de gás?;Ambos os perfis leem valores de porosidade próximos quando a rocha está saturada de líquido
+Qual é a unidade de resistividade da água de formação?;Ohm·m
+Qual é a resistividade típica de água de formação em uma bacia sedimentar profunda?;0,05 ohm·m
+Qual é a resistividade típica de óleo ou gás?;Muito alta (isolantes elétricos)
+O que significa "resistividade profunda" (Rt) em um perfil?;A leitura de resistividade pouco afetada pela invasão de filtrado de lama, que representa a formação intacta
+O que significa "resistividade rasa" em um perfil?;A leitura mais próxima ao poço, afetada pela invasão de filtrado de lama
+Como a comparação entre resistividades rasa e profunda indica presença de hidrocarboneto?;Uma diferença significativa indica permoporosidade e presença de hidrocarboneto móvel
+O que é a lei de Darcy aplicada à permeabilidade?;A definição matemática que formaliza a facilidade de fluxo em termos de gradiente de pressão
+Como é medida a permeabilidade em laboratório?;Por testes de fluxo de fluido em amostras de testemunho sob gradiente de pressão controlado
+Qual é o significado de uma testemunhagem "de fundo" (conventional core)?;Uma amostra contínua da formação cortada por uma coroa especial na broca
+Qual é o significado de uma testemunhagem "lateral" (sidewall core)?;Uma amostra pontual cortada lateralmente por uma ferramenta de cabo em posições específicas
+O que é um teste de drawdown em um poço?;Um teste que reduz a pressão de fundo do poço abrindo-o à produção e observando como a pressão cai com o tempo
+O que é um teste de buildup em um poço?;Um teste que fecha um poço em produção e observa a pressão subir de volta em direção à pressão estática
+O que é o fator de película (skin factor)?;Um dano ou melhoria localizada de permeabilidade ao redor do poço, causado por invasão de fluido (dano positivo) ou estimulação (dano negativo)
+O que é uma acidificação em um poço?;Uma estimulação que melhora a permeabilidade ao redor do poço, criando um dano negativo
+O que é um fraturamento hidráulico?;Uma estimulação que cria fraturas para aumentar a permeabilidade ao redor do poço
+Como varia a relação entre vazão e rebaixamento de pressão abaixo do ponto de bolha?;Deixa de ser linear; a curva de IPR passa a ser descrita por correlações empíricas como a de Vogel
+Qual é a correlação clássica para IPR abaixo do ponto de bolha?;Vogel (1968)
+O que é a curva de IPR?;Inflow Performance Relationship — a relação entre vazão e pressão de fundo de poço para todo o intervalo de Pwf
+Qual é a razão pela qual a relação de IP deixa de ser linear abaixo do ponto de bolha?;Gás liberado no próprio poço distorce a relação fluxo-pressão
+Qual é a vantagem do poço revestido e canhoneado versus poço aberto?;Oferece controle preciso sobre quais intervalos produzem, permitindo isolar zonas de água ou rocha de má qualidade
+Qual é a desvantagem do poço revestido e canhoneado versus poço aberto?;É mais complexo e caro de executar
+Qual é a razão pela qual o controle de areia se aplica a rochas de alta permeabilidade?;Rochas de alta permeabilidade e pouco cimentadas são friáveis e liberam grãos facilmente sob a ação do fluxo
+Por que rochas de baixa permeabilidade não sofrem produção de areia?;Os grãos estão bem consolidados e cimentados, não se desprendem com o fluxo
+O que causa a produção de areia em um poço?;A erosão de grãos da rocha pela ação do fluxo de fluido em rochas mal consolidadas ou friáveis
+Qual é o impacto da produção de areia nos equipamentos?;Erodem equipamentos de superfície e de fundo de poço ao longo do tempo
+O que é "natural flow" em produção de petróleo?;A produção movida apenas pela diferença de pressão entre reservatório e superfície, sem adição de energia externa
+O que é um método de elevação "artificial"?;Um método que adiciona energia externa para manter a produção quando a energia natural do reservatório é insuficiente
+Por que o bombeio mecânico é limitado em profundidade e vazão?;A haste que conecta a bomba de fundo à superfície tem limite de comprimento e carga mecânica
+Por que o bombeio mecânico é inadequado para poços muito desviados?;O atrito da haste contra a parede do poço se torna problemático em trajetos desviados
+Por que o ESP é preferido em ambientes offshore?;Suporta vazões e profundidades maiores que os outros métodos, sendo mais adequado para poços profundos e de alta vazão
+Qual é a unidade de Rs (razão de solubilidade gás-óleo)?;Pés cúbicos padrão por barril de tanque (scf/STB)
+Por que o ponto de bolha é importante na engenharia de petróleo?;Marca a transição onde o óleo deixa de ser subsaturado e começa a liberar gás, mudando o regime de comportamento de Bo e Rs
+Qual é o nome do óleo quando toda a sua pressão está abaixo do ponto de bolha?;Saturado
+Como varia Bo com a queda de pressão acima do ponto de bolha?;Sobe ligeiramente, porque o óleo subsaturado se expande
+Como varia Bo com a queda de pressão abaixo do ponto de bolha?;Cai, porque domina a perda de gás dissolvido que encolhe o óleo
+Qual é o valor máximo que Bo atinge?;Bob (Bo no ponto de bolha), o máximo teórico antes da queda
+Por que Rs permanece constante acima do ponto de bolha?;Porque todo o gás permanece em solução; nenhuma bolha se forma para liberar gás
+Por que Rs cai abaixo do ponto de bolha?;Porque gás começa a se liberar do óleo nessa pressão
+O que significa "reservas recuperáveis"?;O volume de óleo que efetivamente chega à superfície e é vendido, igual a OOIP × fator de recuperação
+Como se comparam os ganhos percentuais de FR entre a secundária e o EOR no exemplo?;A secundária adicionou 14 pontos percentuais (32% − 18%); o EOR adiciona 12 pontos percentuais — ambos são da mesma ordem mas o EOR é menor
+Por que projetos de EOR se concentram em campos maduros de grande volume?;Mesmo ganhos percentuais modestos representam volumes absolutos significativos quando aplicados a OOIP grande
+Qual é o volume absoluto recuperado pela secundária no exemplo (primária + secundária)?;Aproximadamente 6.117.028 STB (19.115.712 × 0,32)
+Qual é o volume absoluto adicional do EOR no exemplo?;Aproximadamente 2.293.885 STB (diferença entre EOR total e secundária)
+Qual é a métrica mais importante para justificar investimento em EOR?;O volume absoluto em barris, não apenas o ganho percentual
+Qual é a razão pela qual o Módulo 11 mencionou a invasão de filtrado?;Porque a invasão distorce a leitura do perfil sônico (fonte de distorção do well tie)
+O que é um poço produtor versus um poço injetor em um projeto de injeção de água?;Produtor: extrai óleo; injetor: injeta água em um padrão geométrico para varrer óleo para os produtores
+Qual é o padrão geométrico mais comum de injeção de água?;Five-spot (cinco pontos), um poço injetor no centro circundado por quatro produtores nos vértices
+Por que o corte de água aumenta com o tempo em um reservatório com influxo de água como mecanismo dominante?;Porque a água avança para dentro do reservatório e eventualmente é produzida junto com o óleo
+Qual é a característica diagnóstica da produção de um reservatório com influxo de água?;Corte de água crescente ao longo do tempo, mantendo pressão relativamente estável
+Como um engenheiro diagnostica qual mecanismo domina em um reservatório?;Observando o comportamento de pressão, produção de gás e corte de água ao longo do tempo
+O que é o balanço de materiais?;Uma equação de conservação de volume entre o reservatório em duas datas, considerando expansão de fluidos, influxo de água e volumes produzidos
+Por que a drenagem gravitacional é lenta?;Depende apenas da força da gravidade, muito mais fraca que um gradiente de pressão ativo
+Qual é o efeito da inclinação estrutural e permeabilidade vertical na drenagem gravitacional?;Ambas são essenciais; sem inclinação ou permeabilidade vertical, o mecanismo não funciona
+O que é uma "malha de poços" em um campo de petróleo?;A configuração geométrica de poços produtores (e injetores) planejada para otimizar a produção
+Por que a malha de poços é uma decisão crítica tomada cedo na vida de um campo?;Porque o espaçamento dos poços determina quantos poços serão necessários e quanto tempo levará para drenar o reservatório, impactando o fator de recuperação final
+O que significa converter um poço produtor em injetor durante a vida de um campo?;Começar a injetar água nesse poço para apoiar a pressão e varrer óleo, em vez de produzir
+Qual é o conceito de "preservação de pressão" em gestão de reservatórios?;Manter a pressão do reservatório acima do ponto de bolha o máximo possível para aproveitar a fase de óleo subsaturado
+Por que preservar a pressão acima do ponto de bolha é desejável?;Porque nessa fase o óleo é mais facilmente produzido (sem gás liberado no poço) e ocupam menos volume, deixando mais espaço poroso
+Qual é o papel da geofísica em gestão de integrada de reservatórios?;Fornecer o modelo geológico estrutural e estratigráfico que guia a posição dos poços
+Qual é o papel da geologia em gestão integrada de reservatórios?;Interpretar as facies, litologia e qualidade das rochas-reservatório que afetam porosidade e permeabilidade
+Qual é o papel da engenharia de reservatórios em gestão integrada?;Modelar o comportamento do fluxo de fluido, calcular volumes e prever produção

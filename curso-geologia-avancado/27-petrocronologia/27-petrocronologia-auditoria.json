@@ -1,0 +1,404 @@
+{
+  "course_id": "geologia-avancado",
+  "module_id": "27",
+  "module_slug": "petrocronologia",
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "verdict": "aprovado_apos_correcoes",
+  "audited_at": "2026-09-22",
+  "applied_at": "2026-09-22",
+  "manifest_written_at": "2026-09-22",
+  "passes": 1,
+  "passes_note": "Passagem unica valida (2026-09-22). Uma sessao anterior comecou a auditoria e foi cortada por limite de sessao ANTES de gravar qualquer arquivo; confirmado que nao havia relatorio e que course-state.yaml era byte-identico ao backup pre-auditoria. Nada recuperado; numeracao comeca em 1.",
+  "counts": {
+    "red": 2,
+    "orange": 10,
+    "yellow": 1,
+    "blue": 1,
+    "white": 0,
+    "red_open": 0,
+    "orange_open": 0,
+    "yellow_open": 0,
+    "blue_open": 0,
+    "white_open": 0,
+    "total": 14
+  },
+  "counts_note": "Contagens do LEVANTAMENTO; *_open = pendente. Todos os 14 corrigidos (o azul por remocao do dado nao verificavel).",
+  "claims": {
+    "declared_at_writing": 41,
+    "raised_by_audit": 7,
+    "tracked": 48,
+    "per_lesson_now": "a01 6, a02 10, a03 6, a04 8, a05 11, a06 7",
+    "unaudited": 0,
+    "note": "Contado em disco por script apos as edicoes; nenhum claim_id duplicado."
+  },
+  "bibliography_items_checked": 33,
+  "bibliography_items_wrong": 3,
+  "bibliography_all_correct": false,
+  "bibliography_note": "Metadados conferidos na API do Crossref (e GeoScienceWorld para Ghent 1976 e Powell & Holland 1994). Errados: Rubatto 2002 (titulo), Pollington & Baxter 2010 e 2011 (anos/revistas/volumes/paginas trocados). 14 de 16 paginacoes marcadas INCERTEZA DECLARADA estavam corretas; as 2 erradas eram as de Pollington & Baxter. Acrescentadas pela auditoria: Parrish 1990, Mezger et al. 1992, Kohn & Corrie 2011, Rubatto & Hermann 2007, Pyle et al. 2001, Schulz 2021, Le Breton & Thompson 1988, Smit et al. 2013, Simpson et al. 2021, Wu et al. 2023, SHRIMP-RG Stanford-USGS.",
+  "declared_uncertainties": {
+    "note": "Todas as marcas INCERTEZA DECLARADA das seis aulas foram substituidas pelo resultado da conferencia; nenhuma permanece."
+  },
+  "open_findings": [],
+  "findings": [
+    {
+      "n": 1,
+      "claim_id": "PETROCRON-M27-A01-EXEMPLO-NUCLEO-BORDA-004",
+      "severity": "red",
+      "nature": "inconsistencia_interna",
+      "title": "Exemplo diz 'protolito igneo' de um METAPELITO",
+      "file": "27-petrocronologia/27-petrocronologia-aula-01-o-que-e-petrocronologia.md",
+      "section": "Exemplo trabalhado",
+      "quoted": "Uma amostra de metapelito de alto grau contem zircoes [...] 550 Ma provavelmente data a cristalizacao do protolito igneo da rocha",
+      "problem": "Metapelito tem protolito sedimentar por definicao; nucleos oscilatorios nele sao detriticos e datam a rocha-fonte (idade maxima de deposicao), nao a cristalizacao do protolito da rocha.",
+      "correction": "Litologia trocada para ortognaisse de alto grau (protolito granitico); conclusao, idades e Aula 05 intactas.",
+      "source": "Corfu et al. (2003), RiMG 53, 469-500, doi:10.2113/0530469",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-22",
+      "confidence": "confirmado",
+      "affected_files": [
+        "27-petrocronologia/27-petrocronologia-aula-01-o-que-e-petrocronologia.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-22",
+      "claim_created_by_audit": false
+    },
+    {
+      "n": 2,
+      "claim_id": "PETROCRON-M27-A01-RUBATTO-TITULO-006",
+      "severity": "yellow",
+      "nature": "erro_metadado_bibliografico",
+      "title": "Titulo de Rubatto (2002) citado com variante nao publicada",
+      "file": "27-petrocronologia/27-petrocronologia-aula-01-o-que-e-petrocronologia.md",
+      "section": "Fontes (Aulas 01 e 05)",
+      "quoted": "Zircon trace element geochemistry: distribution coefficients and the link between U-Pb ages and metamorphism",
+      "problem": "Titulo publicado: '...partitioning with garnet and the link between U-Pb ages and metamorphism'. Revista, volume, paginas e ano corretos.",
+      "correction": "Titulo corrigido nas duas aulas, variante mencionada entre parenteses.",
+      "source": "Crossref doi:10.1016/S0009-2541(01)00355-2",
+      "source_level": "base_de_indexacao",
+      "source_version": "consultado 2026-09-22",
+      "confidence": "confirmado",
+      "affected_files": [
+        "27-petrocronologia/27-petrocronologia-aula-01-o-que-e-petrocronologia.md",
+        "27-petrocronologia/27-petrocronologia-aula-06-minerais-acessorios-zircao-monazita.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-22",
+      "claim_created_by_audit": true
+    },
+    {
+      "n": 3,
+      "claim_id": "PETROCRON-M27-A02-LU-CONCENTRACAO-GRANADA-009",
+      "severity": "orange",
+      "nature": "imprecisao",
+      "title": "Lu 'mais alto que em qualquer outra fase da rocha'",
+      "file": "27-petrocronologia/27-petrocronologia-aula-02-sistemas-isotopicos-minerais-dataveis.md",
+      "section": "Sm-Nd e Lu-Hf: a granada como cronometro",
+      "quoted": "entrando em concentracoes desproporcionalmente mais altas que em qualquer outra fase da rocha",
+      "problem": "Vale para minerais formadores de rocha; zircao tem mais HREE que a granada (Rubatto & Hermann 2007). Mesma raiz do achado 8.",
+      "correction": "'qualquer outro mineral formador de rocha' + ressalva sobre zircao/xenotima e inclusoes ricas em Hf.",
+      "source": "Rubatto & Hermann (2007), Chem. Geol. 241, 38-61, doi:10.1016/j.chemgeo.2007.01.027",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-22",
+      "confidence": "confirmado",
+      "affected_files": [
+        "27-petrocronologia/27-petrocronologia-aula-02-sistemas-isotopicos-minerais-dataveis.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-22",
+      "claim_created_by_audit": true
+    },
+    {
+      "n": 4,
+      "claim_id": "PETROCRON-M27-A02-FONTES-AUSENTES-010",
+      "severity": "orange",
+      "nature": "omissao_bibliografica",
+      "title": "Obras citadas no corpo e ausentes das Fontes; nota de verificacao falsa",
+      "file": "27-petrocronologia/27-petrocronologia-aula-02-sistemas-isotopicos-minerais-dataveis.md",
+      "section": "Corpo e Fontes (Aulas 02 e 05)",
+      "quoted": "Parrish (1990), Kohn & Corrie (2011), 'Mezger et al., 1992 estabeleceram valores de referencia' (Aula 02); 'Rubatto & Hermann, trabalhos experimentais posteriores' e 'ja confirmado na Aula 02' para Zack et al. (Aula 05)",
+      "problem": "Citacoes sem entrada bibliografica nao sao rastreaveis; Mezger et al. estimam ca. 600 +/- 30 C, nao a faixa 600-750; a Aula 02 nao cita Zack et al.",
+      "correction": "Parrish 1990, Mezger et al. 1992 e Kohn & Corrie 2011 acrescentados a Aula 02 com o valor de Mezger atribuido; Rubatto & Hermann 2007 nomeado e listado na Aula 05; nota falsa substituida.",
+      "source": "Crossref doi:10.1139/e90-152; doi:10.1016/0012-821X(92)90141-H (resumo lido); doi:10.1016/j.epsl.2011.09.008; doi:10.1016/j.chemgeo.2007.01.027",
+      "source_level": "base_de_indexacao",
+      "source_version": "consultado 2026-09-22",
+      "confidence": "confirmado",
+      "affected_files": [
+        "27-petrocronologia/27-petrocronologia-aula-02-sistemas-isotopicos-minerais-dataveis.md",
+        "27-petrocronologia/27-petrocronologia-aula-06-minerais-acessorios-zircao-monazita.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-22",
+      "claim_created_by_audit": true
+    },
+    {
+      "n": 5,
+      "claim_id": "PETROCRON-M27-A02-EXEMPLO-CINCO-IDADES-008",
+      "severity": "orange",
+      "nature": "confusao_de_escopo",
+      "title": "Muscovita num granulito lida como idade de resfriamento",
+      "file": "27-petrocronologia/27-petrocronologia-aula-02-sistemas-isotopicos-minerais-dataveis.md",
+      "section": "Exemplo trabalhado",
+      "quoted": "Um granulito de alto grau [...] muscovita Rb-Sr, 560 +/- 10 Ma [...] fechamento em torno de 450-500 C",
+      "problem": "Muscovita nao e estavel na facies granulito; se presente, e retrograda e dataria crescimento abaixo do fechamento.",
+      "correction": "Mica trocada por biotita (~300-350 C, valor dado pela propria aula), com frase explicando o porque; idade e intervalo mantidos.",
+      "source": "Dyck, Waters, St-Onge & Searle (2020), J. Metamorphic Geol. 38, 29-52, doi:10.1111/jmg.12511",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-22",
+      "confidence": "confirmado",
+      "affected_files": [
+        "27-petrocronologia/27-petrocronologia-aula-02-sistemas-isotopicos-minerais-dataveis.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-22",
+      "claim_created_by_audit": false
+    },
+    {
+      "n": 6,
+      "claim_id": "PETROCRON-M27-A03-SIMS-VS-LAICPMS-002",
+      "severity": "orange",
+      "nature": "imprecisao",
+      "title": "Resolucao em profundidade do SIMS apresentada como resolucao lateral",
+      "file": "27-petrocronologia/27-petrocronologia-aula-03-tecnicas-analiticas-imageamento.md",
+      "section": "SIMS; Exemplo trabalhado (Problema 2); Recap",
+      "quoted": "um pit tipico de SHRIMP tem profundidade da ordem de 1-3 um [...] permitindo atingir dominios estreitos; SIMS para a 'borda metamorfica fina de poucos micrometros'",
+      "problem": "Pit do SHRIMP: ~15-25 um de diametro, ~2 um de profundidade. Lateralmente, mesma ordem do LA-ICP-MS; bordas de poucos um exigem perfil em profundidade em grao nao polido.",
+      "correction": "Secao SIMS explicita diametro x profundidade; Problema 2 descreve perfil em profundidade; recap ajustado; fonte acrescentada.",
+      "source": "Stanford-USGS SHRIMP-RG Lab, https://shrimprg.stanford.edu/zircon-u-th-pb-and-u-th-ages-and-trace-element-analyses",
+      "source_level": "base_de_referencia",
+      "source_version": "consultado 2026-09-22",
+      "confidence": "confirmado",
+      "affected_files": [
+        "27-petrocronologia/27-petrocronologia-aula-03-tecnicas-analiticas-imageamento.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-22",
+      "claim_created_by_audit": false,
+      "also_covers": "PETROCRON-M27-A03-EXEMPLO-TRES-PROBLEMAS-006"
+    },
+    {
+      "n": 7,
+      "claim_id": "PETROCRON-M27-A04-GRT-BT-THERMOMETER-005",
+      "severity": "blue",
+      "nature": "evidencia_insuficiente",
+      "title": "Limite inferior de temperatura dos experimentos de Ferry & Spear (1978)",
+      "file": "27-petrocronologia/27-petrocronologia-aula-05-geotermobarometria-average-pt-pseudossecoes.md",
+      "section": "Geotermobarometria convencional; Fontes",
+      "quoted": "a pressao constante (0,207 GPa) e temperaturas entre 500 e 800 C",
+      "problem": "Pressao e limite superior consistentes; limite inferior diverge entre secundarias (500/550/600 C) e o resumo original e fechado.",
+      "correction": "Limite inferior removido: 'temperaturas de ate 800 C'. Nada inventado.",
+      "source": "Crossref doi:10.1007/BF00372150; Wu & Cheng (2006), Lithos 89, 1-23; Wikipedia 'Garnet-biotite geothermometry'",
+      "source_level": "base_de_indexacao",
+      "source_version": "consultado 2026-09-22",
+      "confidence": "nao_verificado_limite_inferior",
+      "affected_files": [
+        "27-petrocronologia/27-petrocronologia-aula-05-geotermobarometria-average-pt-pseudossecoes.md"
+      ],
+      "outcome": "corrigido_com_ressalva",
+      "applied_at": "2026-09-22",
+      "claim_created_by_audit": false
+    },
+    {
+      "n": 8,
+      "claim_id": "PETROCRON-M27-A05-PARTICAO-VALORES-NUMERICOS-003",
+      "severity": "red",
+      "nature": "erro_factual",
+      "title": "Coeficientes de particao zircao/granada lidos ao contrario",
+      "file": "27-petrocronologia/27-petrocronologia-aula-06-minerais-acessorios-zircao-monazita.md",
+      "section": "O fio condutor; Zircao: Th/U, Y/HREE; Recap; Fontes",
+      "quoted": "coeficientes de particao de HREE tipicamente maiores que 1 em favor da granada (valores da ordem de ~0,7-2,3 para Gd, crescendo para ~6-24 para Lu)",
+      "problem": "Os valores sao D(zircao/granada) e favorecem o ZIRCAO ('partitioning increasingly in favour of zircon across the HREE'); caem para ~1 em UHT. A granada domina o orcamento pela abundancia modal, nao por coeficiente maior.",
+      "correction": "Frases dos coeficientes, da abertura ('concentracoes menores') e do recap reescritas; tres claims de metadados corrigidos; Fontes com Rubatto & Hermann 2007.",
+      "source": "Rubatto & Hermann (2007), Chem. Geol. 241, 38-61 (texto integral lido); Taylor et al. (2015), J. Metamorphic Geol. 33, 231-248",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-22",
+      "confidence": "confirmado",
+      "affected_files": [
+        "27-petrocronologia/27-petrocronologia-aula-06-minerais-acessorios-zircao-monazita.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-22",
+      "claim_created_by_audit": false,
+      "also_covers": "PETROCRON-M27-A05-COMPETICAO-Y-HREE-001; PETROCRON-M27-A05-ZIRCAO-HREE-PADRAO-002"
+    },
+    {
+      "n": 9,
+      "claim_id": "PETROCRON-M27-A05-QUEBRA-GRANADA-FUSAO-010",
+      "severity": "orange",
+      "nature": "imprecisao_mecanismo",
+      "title": "Quebra retrograda da granada exemplificada 'durante fusao parcial'",
+      "file": "27-petrocronologia/27-petrocronologia-aula-06-minerais-acessorios-zircao-monazita.md",
+      "section": "O fio condutor",
+      "quoted": "quando a granada e consumida por uma reacao retrograda (por exemplo, durante fusao parcial ou descompressao)",
+      "problem": "A fusao por desidratacao da biotita e progada e produz granada peritetica; a granada e consumida na descompressao ou quando o fundido cristaliza e reage de volta.",
+      "correction": "Exemplo reescrito com a distincao explicita.",
+      "source": "Le Breton & Thompson (1988), CMP 99, 226-237, doi:10.1007/BF00371463; Pyle & Spear (2003), Am. Mineral. 88, 338-351",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-22",
+      "confidence": "confirmado",
+      "affected_files": [
+        "27-petrocronologia/27-petrocronologia-aula-06-minerais-acessorios-zircao-monazita.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-22",
+      "claim_created_by_audit": true
+    },
+    {
+      "n": 10,
+      "claim_id": "PETROCRON-M27-A05-MONAZITA-Y-PRE-GRANADA-011",
+      "severity": "orange",
+      "nature": "imprecisao",
+      "title": "Monazita pre-granada descrita com Y baixo",
+      "file": "27-petrocronologia/27-petrocronologia-aula-06-minerais-acessorios-zircao-monazita.md",
+      "section": "Monazita: zoneamento de itrio; Recap",
+      "quoted": "dominios de monazita que crescem antes ou durante o crescimento da granada tendem a Y relativamente baixo",
+      "problem": "Monazita pre-granada tende a Y alto (sequencia alto -> baixo -> alto).",
+      "correction": "Paragrafo e recap reescritos com a sequencia correta.",
+      "source": "Pyle et al. (2001), J. Petrol. 42, 2083-2107; Schulz (2021), Front. Earth Sci. 9:668566",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-22",
+      "confidence": "confirmado",
+      "affected_files": [
+        "27-petrocronologia/27-petrocronologia-aula-06-minerais-acessorios-zircao-monazita.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-22",
+      "claim_created_by_audit": true
+    },
+    {
+      "n": 11,
+      "claim_id": "PETROCRON-M27-A06-GRANADA-MEDIA-PONDERADA-001",
+      "severity": "orange",
+      "nature": "imprecisao",
+      "title": "Idade de granada inteira como media 'ponderada por massa'",
+      "file": "27-petrocronologia/27-petrocronologia-aula-07-granada-micas-integracao.md",
+      "section": "O problema da idade 'borrada'",
+      "quoted": "mede uma media ponderada por massa de todo o intervalo de crescimento",
+      "problem": "A media e ponderada pelos teores de Sm/Lu de cada zona; 'so massa' contradiz o vies de Lu-Hf para o nucleo explicado na mesma aula.",
+      "correction": "'ponderada pela massa de cada zona e pelo seu teor do elemento-pai'.",
+      "source": "Smit, Scherer & Mezger (2013), EPSL 381, 222-233; Baxter & Scherer (2013), Elements 9, 433-438",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-22",
+      "confidence": "confirmado",
+      "affected_files": [
+        "27-petrocronologia/27-petrocronologia-aula-07-granada-micas-integracao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-22",
+      "claim_created_by_audit": false
+    },
+    {
+      "n": 12,
+      "claim_id": "PETROCRON-M27-A06-POLLINGTON-BIBLIO-006",
+      "severity": "orange",
+      "nature": "erro_metadado_bibliografico",
+      "title": "Pollington & Baxter: anos, revistas, volumes e paginas trocados",
+      "file": "27-petrocronologia/27-petrocronologia-aula-07-granada-micas-integracao.md",
+      "section": "Fontes; corpo",
+      "quoted": "(2010) Chemical Geology 281, 270-282 [metodo]; (2011) EPSL 305, 579-590 [resultados]",
+      "problem": "Resultados: 2010, EPSL 293, 63-71. Metodo: 2011, Chem. Geol. 281, 270-282. Volume/paginas EPSL citados nao correspondem ao artigo.",
+      "correction": "Entradas reescritas com DOI; corpo atribui o resultado a 2010.",
+      "source": "Crossref doi:10.1016/j.epsl.2010.02.019; doi:10.1016/j.chemgeo.2010.12.014",
+      "source_level": "base_de_indexacao",
+      "source_version": "consultado 2026-09-22",
+      "confidence": "confirmado",
+      "affected_files": [
+        "27-petrocronologia/27-petrocronologia-aula-07-granada-micas-integracao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-22",
+      "claim_created_by_audit": true
+    },
+    {
+      "n": 13,
+      "claim_id": "PETROCRON-M27-A06-LUHF-INSITU-007",
+      "severity": "orange",
+      "nature": "imprecisao",
+      "title": "Lu-Hf in situ com resolucao 'comparavel' ao U-Pb por LA-ICP-MS",
+      "file": "27-petrocronologia/27-petrocronologia-aula-07-granada-micas-integracao.md",
+      "section": "Lu-Hf versus Sm-Nd; Fontes",
+      "quoted": "com resolucao espacial comparavel a do LA-ICP-MS discutido na Aula 03",
+      "problem": "Spots de 50-150 um e incertezas de 3,5-10% em granada; nao comparavel aos 10-50 um de U-Pb em zircao.",
+      "correction": "Frase reescrita; Simpson et al. 2021 e Wu et al. 2023 nas Fontes (resolve a pendencia de citacao primaria da redacao).",
+      "source": "Simpson et al. (2021), Chem. Geol. 577, 120299; Wu et al. (2023), JAAS 38, 1285-1300",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-22",
+      "confidence": "confirmado",
+      "affected_files": [
+        "27-petrocronologia/27-petrocronologia-aula-07-granada-micas-integracao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-22",
+      "claim_created_by_audit": true
+    },
+    {
+      "n": 14,
+      "claim_id": "PETROCRON-M27-A06-EXEMPLO-INTEGRACAO-005",
+      "severity": "orange",
+      "nature": "omissao_que_gera_erro",
+      "title": "Zonas Sm-Nd lidas como crescimento numa rocha acima de ~680 C sem ressalva",
+      "file": "27-petrocronologia/27-petrocronologia-aula-07-granada-micas-integracao.md",
+      "section": "Exemplo trabalhado",
+      "quoted": "duracao total de crescimento da granada de 480 - 465 = 15 milhoes de anos",
+      "problem": "Fechamento Sm-Nd em granada ~600 +/- 30 C (Mezger et al. 1992); em terrenos lentos de alto grau as zonas podem registrar resfriamento.",
+      "correction": "Frase de ressalva acrescentada; nenhum numero alterado; Mezger et al. 1992 nas Fontes.",
+      "source": "Mezger, Essene & Halliday (1992), EPSL 113, 397-409 (resumo lido)",
+      "source_level": "revisada_por_pares",
+      "source_version": "consultado 2026-09-22",
+      "confidence": "confirmado",
+      "affected_files": [
+        "27-petrocronologia/27-petrocronologia-aula-07-granada-micas-integracao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-22",
+      "claim_created_by_audit": false
+    }
+  ],
+  "verified_and_correct": [
+    {
+      "area": "Temperaturas de fechamento (Aula 02)",
+      "note": "Zircao sem reabertura <~900 C (Cherniak & Watson 2001); monazita 720-750 C campo e >900 C para graos de 10 um a 10 C/Ma (Copeland et al. 1988; Cherniak et al. 2004); rutilo ~600-640 C (Cherniak 2000 ~600 C para ~100 um; Vry & Baker 2006); apatita ~450-550 C (Chamberlain & Bowring 2001); Rb-Sr biotita ~300 / muscovita ~500 C (Jager 1967; Purdy & Jager 1976)."
+    },
+    {
+      "area": "Termometros (Aula 05)",
+      "note": "Zr-em-titanita: 800-1000 C, 1-2,4 GPa, tampao zircao+quartzo+rutilo, log-linear Zr-P-1/T (Hayden et al. 2008). Zr-em-rutilo: 31 rochas, 430-1100 C, 30-8400 ppm (Zack et al. 2004)."
+    },
+    {
+      "area": "Tecnicas (Aula 03)",
+      "note": "CA-ID-TIMS 800-1100 C ~48 h, <=0,1% (Mattinson 2005); EPMA 1-2 um e +/-30-50 Ma por ponto (Montel et al. 1996; Williams et al. 2007); LASS (Kylander-Clark et al. 2013)."
+    },
+    {
+      "area": "Petrologia (Aula 04)",
+      "note": "GASP 3An = Grs + 2Al2SiO5 + Qz (Ghent 1976); Mn em sino por Rayleigh (Hollister 1966); caminhos horario/anti-horario (England & Thompson 1984); debate das granadas rotacionadas (Bell 1985)."
+    },
+    {
+      "area": "Granada (Aula 06)",
+      "note": "12 zonas, 7,55 +/- 0,52 Ma (2 DP), dois pulsos, Tauern Window (Pollington & Baxter 2010); vies de Lu-Hf para o nucleo (Smit et al. 2013)."
+    },
+    {
+      "area": "Th/U em zircao (Aula 01)",
+      "note": "~0,1 como fronteira indicativa, magmatico tipicamente >0,5, com excecoes (Hoskin & Schaltegger 2003; Rubatto 2002)."
+    }
+  ],
+  "propagation": "NENHUMA externa: sem questionario, baralho ou glossario (auditoria antes deles). Nenhum card no Anki a corrigir. Hub atualizado so no registro de etapas. Nenhum outro modulo afirma os mesmos fatos.",
+  "dominant_pattern": "Os dois vermelhos estavam em trechos dados como verificados (coeficiente com sentido invertido apesar do numero certo) ou classificados como 'hipoteticos' (litologia que contradiz a conclusao). Tres referencias marcadas VERIFICADO estavam erradas. O rotulo VERIFICADO da redacao nao reduz o risco de um trecho.",
+  "out_of_scope_observation": "Aula 04: 'equilibrico', 'liquido/fluido' em contexto subsolidus e 'celula a celula' no recap - encaminhado a revisao didatica.",
+  "gate_note": "GATE LIBERADO: 0 vermelhos e 0 laranjas em aberto.",
+  "files": [
+    "27-petrocronologia/27-petrocronologia-auditoria.md",
+    "27-petrocronologia/27-petrocronologia-auditoria.json"
+  ],
+  "files_touched": [
+    "27-petrocronologia/27-petrocronologia-aula-01-o-que-e-petrocronologia.md",
+    "27-petrocronologia/27-petrocronologia-aula-02-sistemas-isotopicos-minerais-dataveis.md",
+    "27-petrocronologia/27-petrocronologia-aula-03-tecnicas-analiticas-imageamento.md",
+    "27-petrocronologia/27-petrocronologia-aula-04-petrologia-metamorfica-texturas-pt.md",
+    "27-petrocronologia/27-petrocronologia-aula-06-minerais-acessorios-zircao-monazita.md",
+    "27-petrocronologia/27-petrocronologia-aula-07-granada-micas-integracao.md",
+    "27-petrocronologia/27-petrocronologia-modulo.md",
+    "course-state.yaml",
+    "27-petrocronologia/27-petrocronologia-aula-05-geotermobarometria-average-pt-pseudossecoes.md (criado depois, pela revisao didatica, recebendo o trecho do achado 7)"
+  ],
+  "files_touched_note": "Todas as seis aulas tiveram corpo e/ou Fontes alterados, alem dos blocos de metadados.",
+  "renumbering_note": "Depois desta auditoria, a revisao didatica de 2026-09-22 dividiu a Aula 04 em Aula 04 (Parte 1) e Aula 05 (Parte 2, arquivo novo 27-petrocronologia-aula-05-geotermobarometria-average-pt-pseudossecoes.md) e renumerou as antigas Aulas 05 e 06 para 06 e 07. Os caminhos de arquivo deste manifesto foram atualizados para os nomes novos; os claim_id NAO mudaram (prefixos A04/A05/A06 sao estaveis e devem ser lidos como 'levantado na numeracao da auditoria'). Os claims A04-005, A04-006 e A04-007 (achado 7 incluido) vivem agora no arquivo da Aula 05."
+}

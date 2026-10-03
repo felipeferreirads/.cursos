@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "12-glaciologia",
+    "module_id": "12",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-19",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 0,
+    "yellow": 0,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 8
+  },
+  "findings": [],
+  "verified_claims": [
+    {
+      "claim_id": "GLA-MASS-001",
+      "claim": "Acumulação e ablação controlam o balanço de massa.",
+      "source": "USGS",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GLA-FLOW-001",
+      "claim": "Geleiras movem-se por deformação interna e deslizamento basal.",
+      "source": "USGS",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GLA-EROSION-001",
+      "claim": "Detritos basais causam polimento e estrias.",
+      "source": "USGS",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GLA-TILL-001",
+      "claim": "Till é depósito direto mal selecionado.",
+      "source": "USGS",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GLA-MORAINE-001",
+      "claim": "Morainas acumulam detritos glaciais.",
+      "source": "USGS",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GLA-PALEO-001",
+      "claim": "Textura mal selecionada exige contexto para inferência glacial.",
+      "source": "USGS",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRY-CHANGE-001",
+      "claim": "A criosfera encolheu amplamente nas últimas décadas.",
+      "source": "IPCC AR6 WG1 (2021)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRY-SEALEVEL-001",
+      "claim": "Perda de gelo terrestre contribui para elevar o nível do mar.",
+      "source": "NASA",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GLA-LOESS-001",
+      "claim": "Loess e silte transportado pelo vento; grande parte do loess e glaciogenica, formada a partir de farinha de rocha produzida pela abrasao glacial e exposta em planicies de degelo.",
+      "source": "USGS - Eolian sediments",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GLA-LOESS-002",
+      "claim": "Solos desenvolvidos sobre loess estao entre os mais ferteis e produtivos, pela granulometria siltica e pelo suprimento de minerais pouco intemperizados.",
+      "source": "USDA/NRCS; Ritter, Kochel & Miller, Process Geomorphology",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GLA-LOESS-003",
+      "claim": "Nem todo loess tem origem glacial; o Planalto de Loess da China e atribuido predominantemente a fontes aridas do interior da Asia.",
+      "source": "USGS - Eolian sediments",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GLA-MISSOULA-001",
+      "claim": "O Lago Missoula foi um lago proglacial represado por uma lingua do manto de gelo da Cordilheira no vale do rio Clark Fork, e sua barragem de gelo rompeu repetidamente no fim da ultima glaciacao.",
+      "source": "USGS; NPS - Ice Age Floods",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GLA-MISSOULA-002",
+      "claim": "As enchentes de ruptura foram dezenas de eventos, possivelmente mais de cem; o numero e a magnitude de cada evento seguem em discussao.",
+      "source": "USGS - Missoula and Bonneville floods review",
+      "confidence": "provavel",
+      "nota": "faixa em aberto, tratada corretamente como incerteza explicita no texto (LC-08)"
+    },
+    {
+      "claim_id": "GLA-SCABLAND-001",
+      "claim": "As cristas de cascalho dos Channeled Scablands atingem cerca de 15 m de altura e sao megaondulacoes de corrente formadas por agua, nao dunas eolicas.",
+      "source": "NPS - Camas Prairie Ripples (15 a 50 pes de altura)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GLA-BRETZ-001",
+      "claim": "J Harlen Bretz propos a hipotese de enchente catastrofica nos anos 1920; ela foi contestada por decadas e hoje e amplamente aceita.",
+      "source": "USGS - Missoula and Bonneville floods review",
+      "confidence": "confirmado"
+    }
+  ]
+}

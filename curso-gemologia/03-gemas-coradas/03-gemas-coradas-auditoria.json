@@ -1,0 +1,1862 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "03-gemas-coradas/",
+    "module_id": "03",
+    "course_id": "gemologia",
+    "lessons": 17
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-25T00:00:00-03:00",
+  "split_from": {
+    "module": "03-gemas-coradas-perolas",
+    "split_at": "2026-08-26",
+    "note": "Auditoria originalmente executada em 2026-08-25 sobre o modulo unico '03-gemas-coradas-perolas' (21 aulas). Em 2026-08-26 aquele modulo foi dividido em '03-gemas-coradas' (aulas 01-16) e '04-perolas' (ex-aulas 17-21, renumeradas 01-05), e este relatorio foi particionado pelo arquivo de origem de cada item. Nenhum achado, controversia, alegacao verificada ou nota deferida foi criado, alterado ou descartado na divisao."
+  },
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 2,
+    "yellow": 0,
+    "blue": 1,
+    "white": 2,
+    "verified_ok": 150,
+    "claims_total": 153,
+    "round3": {
+      "red": 0,
+      "orange": 2,
+      "yellow": 2,
+      "blue": 0,
+      "white": 0,
+      "verified_ok": 17,
+      "claims_total": 21,
+      "lessons": [
+        "gemologia-m03-a18",
+        "gemologia-m03-a19"
+      ]
+    },
+    "round4": {
+      "red": 0,
+      "orange": 0,
+      "yellow": 0,
+      "blue": 0,
+      "white": 0,
+      "verified_ok": 16,
+      "claims_total": 16,
+      "lessons": [
+        "gemologia-m03-a20",
+        "gemologia-m03-a21"
+      ]
+    }
+  },
+  "claim_id_format_note": "Este curso usa claim_id de tres segmentos (herdado do curso de origem), divergindo do padrao de quatro segmentos do audit.schema.json do plugin. Divergencia conhecida e registrada em _contexto.md. Os ids deferidos criados nesta auditoria seguem o formato de quatro segmentos.",
+  "findings": [
+    {
+      "claim_id": "GRA-EST-003",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "A faixa de indice de refracao da granada na aula 08 (1,71-1,89) contradizia aparentemente o valor citado no modulo 01, aula 04 (1,714-1,830), sem explicacao.",
+      "location": {
+        "file": "03-gemas-coradas/03-gemas-coradas-aula-08-granadas-o-grupo-e-as-series.md",
+        "section": "Por que a tabela de propriedades e uma faixa",
+        "quote": "Indice de refracao | ~1,71 a 1,89"
+      },
+      "problem": "Os dois valores estao corretos e descrevem escopos diferentes: 1,714-1,830 cobre a serie piralspita e o teto de 1,89 so se alcanca na ugrandita (na pratica, demantoide). Sem explicacao, a aula 08 parece corrigir silenciosamente o modulo 01.",
+      "correction": "Paragrafo acrescentado antes da tabela da aula 08, citando o valor do modulo 01, explicando que ele cobre a piralspita e declarando que as duas informacoes sao compativeis. Nenhum numero alterado em nenhum dos modulos.",
+      "source": "GIA Gem Encyclopedia; Webster, Gems; Deer, Howie & Zussman",
+      "source_level": "referencia_de_area",
+      "confidence": "confirmado",
+      "propagated_to": [],
+      "outcome": "corrigido"
+    },
+    {
+      "claim_id": null,
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "O exemplo trabalhado da aula 15 usava densidade 2,71 para esmeralda natural, divergindo do valor de referencia 2,72 estabelecido na aula 06 e repetido em tres pontos.",
+      "location": {
+        "file": "03-gemas-coradas/03-gemas-coradas-aula-16-rotas-de-sintese-e-suas-assinaturas.md",
+        "section": "Exemplo trabalhado",
+        "quote": "Densidade: 2,71. Dentro da faixa natural."
+      },
+      "problem": "Fisicamente defensavel (a faixa do berilo e 2,67-2,90), mas obriga o aluno a decidir qual numero memorizar, sem ganho didatico. Em modulo largamente tabelar, a coerencia do numero repetido vale mais que a variacao realista.",
+      "correction": "Densidade: 2,72.",
+      "source": "Aula 06 do proprio modulo; GIA Gem Encyclopedia",
+      "source_level": "interno_e_referencia_de_area",
+      "confidence": "confirmado",
+      "propagated_to": [],
+      "outcome": "corrigido"
+    },
+    {
+      "claim_id": "QTZ-VAR-003",
+      "severity": "blue",
+      "kind": "fonte_insuficiente",
+      "claim": "A causa da cor do quartzo rosa macico estava atribuida a 'Ma, C. & Rossman, G. R. e trabalhos correlatos', sem referencia verificavel, e a alegacao era mais assertiva que a fonte.",
+      "location": {
+        "file": "03-gemas-coradas/03-gemas-coradas-aula-11-quartzo-cristalino-variedades-coradas.md",
+        "section": "Fontes consultadas e bloco alegacoes_auditaveis",
+        "quote": "Ma, C. & Rossman, G. R., e trabalhos correlatos sobre a causa da cor do quartzo rosa macico"
+      },
+      "problem": "A referencia correta e Goreva, J. S., Ma, C. & Rossman, G. R., 'Fibrous nanoinclusions in massive rose quartz: The origin of rose coloration', American Mineralogist 86 (2001), 466-472. Alem disso os autores registram que o melhor equivalente por difracao e a dumortierita, mas que os espectros de FTIR e Raman nao coincidem exatamente, de modo que a nanofase pode nao ser dumortierita e sim material aparentado.",
+      "correction": "Referencia completada em 'Fontes consultadas' e alegacao QTZ-VAR-003 reescrita para incorporar a ressalva dos autores. Corpo da aula nao alterado (ja dizia 'do tipo dumortierita').",
+      "source": "Goreva, Ma & Rossman (2001), American Mineralogist 86, 466-472",
+      "source_level": "revisada_por_pares",
+      "confidence": "confirmado",
+      "propagated_to": [],
+      "outcome": "corrigido"
+    },
+    {
+      "claim_id": "OUT-FEN-001",
+      "severity": "orange",
+      "kind": "erro_de_mecanismo",
+      "round": 3,
+      "claim": "Hackmanita: direcao da tenebrescencia",
+      "location": "03-gemas-coradas-aula-19 · \"As demais, em uma frase cada\" e \"Erros comuns\"",
+      "problem": "Texto dizia que a cor surge sob luz solar e some no escuro. Correto: aprofunda sob UV e no escuro, desbota sob luz solar/visivel.",
+      "correction": "Reescrito: \"sob luz ultravioleta ou guardada no escuro ganha ou aprofunda uma cor rosa a violeta, e sob luz solar ou visivel forte desbota para branco-acinzentado\".",
+      "source": "The Fluorescent Mineral Society, What is Tenebrescence?; Gemworld International, Gem Focus (out. 2023)",
+      "source_level": "referencia de area",
+      "confidence": "confirmado",
+      "propagated_to": [],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-28"
+    },
+    {
+      "claim_id": "APA-EST-001",
+      "severity": "orange",
+      "kind": "valor_fora_da_faixa",
+      "round": 3,
+      "claim": "Apatita: birrefringencia",
+      "location": "03-gemas-coradas-aula-18 · tabela da apatita e recap",
+      "problem": "Faixa 0,002-0,004 estreita demais; GIA da 0,002-0,008.",
+      "correction": "\"~0,002-0,008 (baixa; muitas vezes ~0,003)\".",
+      "source": "GIA, Apatite (Gem Encyclopedia)",
+      "source_level": "referencia de area",
+      "confidence": "confirmado",
+      "propagated_to": [],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-28"
+    },
+    {
+      "claim_id": "OUT-FEN-001",
+      "severity": "yellow",
+      "kind": "nomenclatura_desatualizada",
+      "round": 3,
+      "claim": "Taaffeita: formula",
+      "location": "03-gemas-coradas-aula-19 · \"As demais, em uma frase cada\"",
+      "problem": "Formula BeMgAl4O8 e antiga; aceita e Mg3Al8BeO16; IMA renomeou magnesiotaaffeita-2N′2S em 2002.",
+      "correction": "\"Mg3Al8BeO16 (a IMA a renomeou magnesiotaaffeita-2N′2S em 2002; o comercio mantem taaffeita)\".",
+      "source": "Armbruster et al. (2002), Revised nomenclature of hogbomite, nigerite, and taaffeite minerals; Mindat",
+      "source_level": "revisada por pares",
+      "confidence": "confirmado",
+      "propagated_to": [],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-28"
+    },
+    {
+      "claim_id": "BRZ-EST-001",
+      "severity": "yellow",
+      "kind": "citacao_incorreta",
+      "round": 3,
+      "claim": "Brazilianita: autoria da descricao original",
+      "location": "03-gemas-coradas-aula-19 · campos source das alegacoes BRZ-* e \"Fontes consultadas\" (corpo da aula OK)",
+      "problem": "Citado \"Frondel, American Mineralogist 30:572 (1945)\"; a descricao original e de Pough & Henderson, American Mineralogist 30:572-582 (1945).",
+      "correction": "Citacao trocada para Pough & Henderson (1945) em BRZ-EST-001, BRZ-HIST-001 e \"Fontes consultadas\".",
+      "source": "American Mineralogist 30:572-582 (1945); Mindat",
+      "source_level": "revisada por pares",
+      "confidence": "confirmado",
+      "propagated_to": [],
+      "outcome": "corrigido",
+      "applied_at": "2026-08-28"
+    }
+  ],
+  "controversies": [
+    {
+      "claim_id": "CAL-VAR-003",
+      "severity": "white",
+      "kind": "controversia_declarada",
+      "topic": "Origem do olho-de-tigre: pseudomorfose sobre crocidolita x crescimento simultaneo em fraturas",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-12-calcedonia-e-quartzo-microcristalino.md",
+      "source": "Heaney & Fisher, Geology 31 (2003); literatura classica de pseudomorfose",
+      "outcome": "verificada_correta"
+    },
+    {
+      "claim_id": "IOL-HIST-001",
+      "severity": "white",
+      "kind": "controversia_declarada",
+      "topic": "Identidade da solarsteinn das sagas nordicas; atribuicao comercial a iolita nao sustentada",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-14-quatro-fragilidades-parte-2-espodumenio-e-iolita.md",
+      "source": "Literatura sobre a solarsteinn (calcita da Islandia como hipotese)",
+      "outcome": "verificada_correta"
+    }
+  ],
+  "deferred_findings": [
+    {
+      "id": "GEM-PER-COLONIA-001",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-10-topazio-e-peridoto.md",
+      "question": "A atribuicao das pedras do relicario dos Reis Magos, em Colonia, a peridoto e repetida com frequencia na literatura gemologica, mas a documentacao primaria e fina.",
+      "why_deferred": "A aula ja apresenta a afirmacao de forma qualificada e o ponto e ilustrativo, nao estrutural. Confirmar com fonte museologica primaria em rodada futura.",
+      "blocking": false
+    }
+  ],
+  "open_findings": [],
+  "cross_module_checks": [
+    {
+      "value": "corindon 1,762-1,770 / birr 0,008 / uniaxial negativo / DR 4,00",
+      "files_checked": [
+        "01-gemologia-geral-aula-04",
+        "01-gemologia-geral-aula-06",
+        "03-gemas-coradas-aula-04",
+        "03-gemas-coradas-aula-05",
+        "03-gemas-coradas-aula-09"
+      ],
+      "result": "consistente"
+    },
+    {
+      "value": "berilo 1,577-1,583 / DR 2,72",
+      "files_checked": [
+        "03-gemas-coradas-aula-06",
+        "03-gemas-coradas-aula-08",
+        "03-gemas-coradas-aula-10",
+        "03-gemas-coradas-aula-15"
+      ],
+      "result": "consistente_apos_correcao"
+    },
+    {
+      "value": "turmalina 1,624-1,644 / birr 0,018-0,020",
+      "files_checked": [
+        "01-gemologia-geral-aula-04",
+        "03-gemas-coradas-aula-07"
+      ],
+      "result": "consistente"
+    },
+    {
+      "value": "quartzo 1,544-1,553 / birr 0,009 / DR 2,65",
+      "files_checked": [
+        "01-gemologia-geral-aula-04",
+        "03-gemas-coradas-aula-11",
+        "03-gemas-coradas-aula-13"
+      ],
+      "result": "consistente"
+    },
+    {
+      "value": "jadeita 1,66 / DR 3,34 e nefrita 1,61 / DR 2,95",
+      "files_checked": [
+        "01-gemologia-geral-aula-15",
+        "03-gemas-coradas-aula-12"
+      ],
+      "result": "consistente"
+    },
+    {
+      "value": "granada: faixa de indice de refracao por serie",
+      "files_checked": [
+        "01-gemologia-geral-aula-04",
+        "03-gemas-coradas-aula-08"
+      ],
+      "result": "esclarecido_por_nota"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "GRAD-COR-001",
+      "claim": "O sistema de descricao de cor do GIA para gemas coradas separa a cor em tres dimensoes independentes: matiz (hue), tom (tone) e saturacao (saturation).",
+      "risk": "classificacao",
+      "source": "GIA, Colored Stones course; GIA Gem Encyclopedia",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-01-sistema-de-cor-matiz-tom-saturacao.md"
+    },
+    {
+      "claim_id": "GRAD-COR-002",
+      "claim": "O sistema do GIA trabalha com 31 matizes distribuidos pelo circulo cromatico; na nomenclatura, o matiz modificador precede o matiz dominante.",
+      "risk": "numero",
+      "source": "GIA, Colored Stones course",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-01-sistema-de-cor-matiz-tom-saturacao.md"
+    },
+    {
+      "claim_id": "GRAD-COR-003",
+      "claim": "A escala de tom do GIA vai de 0 (incolor) a 10 (preto), com a faixa util para gemas entre 2 e 8 e o otimo de valor tipicamente entre 5 e 7.",
+      "risk": "numero",
+      "source": "GIA, Colored Stones course",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-01-sistema-de-cor-matiz-tom-saturacao.md"
+    },
+    {
+      "claim_id": "GRAD-COR-004",
+      "claim": "A escala de saturacao do GIA vai de 1 a 6; em matizes quentes o modificador de baixa saturacao e acastanhado e em matizes frios e acinzentado, atingindo vivido no nivel 6.",
+      "risk": "classificacao",
+      "source": "GIA, Colored Stones course",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-01-sistema-de-cor-matiz-tom-saturacao.md"
+    },
+    {
+      "claim_id": "GRAD-COR-005",
+      "claim": "O GIA GemSet e um conjunto de 324 referencias plasticas de cor usado como padrao de comparacao para gemas coradas.",
+      "risk": "numero",
+      "source": "GIA, GemSet",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-01-sistema-de-cor-matiz-tom-saturacao.md"
+    },
+    {
+      "claim_id": "GRAD-COR-006",
+      "claim": "A notacao de cor do GIA para gema corada e escrita como matiz seguido de tom/saturacao, por exemplo azul levemente esverdeado 6/5.",
+      "risk": "classificacao",
+      "source": "GIA, Colored Stones course",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-01-sistema-de-cor-matiz-tom-saturacao.md"
+    },
+    {
+      "claim_id": "GRAD-COR-007",
+      "claim": "O relatorio padrao do GIA para gema corada identifica especie, variedade e tratamento detectado e descreve a cor, mas nao atribui um grau de qualidade a gema corada.",
+      "risk": "interpretacao",
+      "source": "GIA, Colored Stone Identification and Origin Report; CIBJO Gemmological Laboratories Blue Book",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-01-sistema-de-cor-matiz-tom-saturacao.md"
+    },
+    {
+      "claim_id": "GRAD-COR-008",
+      "claim": "Pleocroismo, mudanca de cor por fonte de luz, zoneamento de cor e janela de lapidacao alteram a cor aparente de face sem alterar a cor de corpo do material.",
+      "risk": "mecanismo",
+      "source": "Gem-A, Gemmology Foundation; GIA Colored Stones",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-01-sistema-de-cor-matiz-tom-saturacao.md"
+    },
+    {
+      "claim_id": "GRAD-VAL-001",
+      "claim": "Nao existe escala universal de qualidade para gema corada equivalente aos quatro fatores do diamante; o peso relativo de cada fator muda por especie.",
+      "risk": "interpretacao",
+      "source": "GIA, Colored Stones course; CIBJO Gemstone Blue Book",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-02-fatores-de-valor-da-gema-corada.md"
+    },
+    {
+      "claim_id": "GRAD-VAL-002",
+      "claim": "Em gemas coradas a cor responde tipicamente pela maior parte do valor; a excecao sao as gemas fenomenais (opala, alexandrita, pedra-da-lua, olho-de-gato, estreladas), em que a qualidade do fenomeno domina e a cor de corpo entra em segundo plano.",
+      "risk": "interpretacao",
+      "source": "GIA, Colored Stone Quality Factors; GIA Opal e Alexandrite Quality Factors",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-02-fatores-de-valor-da-gema-corada.md"
+    },
+    {
+      "claim_id": "GRAD-VAL-003",
+      "claim": "A regua pratica de pureza em gema corada e a observacao a olho nu, e nao a lupa de 10x usada em diamante; eye-clean e termo de comercio sem definicao normativa.",
+      "risk": "nomenclatura",
+      "source": "GIA, Colored Stones course; CIBJO Gemstone Blue Book",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-02-fatores-de-valor-da-gema-corada.md"
+    },
+    {
+      "claim_id": "GRAD-VAL-004",
+      "claim": "O GIA nao emite grau de lapidacao para gemas coradas; a avaliacao de corte usa criterios como rendimento de cor, presenca de janela, extincao, simetria, polimento, espessura de cinturao e orientacao.",
+      "risk": "classificacao",
+      "source": "GIA, Colored Stone Services; GIA Colored Stones course",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-02-fatores-de-valor-da-gema-corada.md"
+    },
+    {
+      "claim_id": "GRAD-VAL-005",
+      "claim": "Em gemas pleocroicas como tanzanita, turmalina, cordierita e andaluzita, a orientacao escolhida pelo lapidario determina qual cor fica de face e afeta materialmente o valor.",
+      "risk": "mecanismo",
+      "source": "GIA Gem Encyclopedia; Gem-A, Gemmology Foundation",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-02-fatores-de-valor-da-gema-corada.md"
+    },
+    {
+      "claim_id": "GRAD-VAL-006",
+      "claim": "Quilate mede massa, nao tamanho: gemas de densidades diferentes com o mesmo peso tem dimensoes diferentes, e por isso montagens usam medida em milimetros e pedras calibradas.",
+      "risk": "mecanismo",
+      "source": "GIA, 4Cs Carat Weight; CIBJO",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-02-fatores-de-valor-da-gema-corada.md"
+    },
+    {
+      "claim_id": "GRAD-VAL-007",
+      "claim": "A maioria das gemas coradas de mercado e tratada; o desconto de mercado e menor quanto mais comum for o tratamento na especie, e material comprovadamente nao tratado carrega premio, como no caso da safira nao aquecida.",
+      "risk": "interpretacao",
+      "source": "GIA, Gem Treatments; CIBJO Gemstone Blue Book; LMHC",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-02-fatores-de-valor-da-gema-corada.md"
+    },
+    {
+      "claim_id": "GRAD-VAL-008",
+      "claim": "A determinacao de origem geografica de gema corada e uma opiniao comparativa apoiada em quimica de elementos-traco e inclusoes contra bancos de dados de referencia, nao uma medida; laboratorios podem divergir, e origem nao indica qualidade.",
+      "risk": "interpretacao",
+      "source": "GIA, Country of Origin; LMHC Information Sheets",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-02-fatores-de-valor-da-gema-corada.md"
+    },
+    {
+      "claim_id": "GRAD-PUR-001",
+      "claim": "O GIA classifica as ESPECIES gemologicas em tres tipos de pureza conforme a limpeza que costumam apresentar na natureza: tipo I (tipicamente sem inclusao visivel a olho nu), tipo II (tipicamente com algumas inclusoes visiveis) e tipo III (quase sempre com inclusoes visiveis). A classificacao e da especie, nao da pedra individual.",
+      "risk": "classificacao",
+      "source": "GIA, Colored Stones course",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-03-tipos-de-pureza-i-ii-iii.md"
+    },
+    {
+      "claim_id": "GRAD-PUR-002",
+      "claim": "Sao exemplos de tipo I agua-marinha, morganita, heliodoro, topazio azul, tanzanita, crisoberilo, zircao e espodumenio; de tipo II rubi, safira, granada, espinelio, peridoto, iolita e a maioria das turmalinas; de tipo III esmeralda e as turmalinas vermelha e verde.",
+      "risk": "classificacao",
+      "source": "GIA, Colored Stones course",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-03-tipos-de-pureza-i-ii-iii.md"
+    },
+    {
+      "claim_id": "GRAD-PUR-003",
+      "claim": "A esmeralda se forma onde o berilio, de origem granitica, encontra cromo ou vanadio, de origem em rocha distinta; esse encontro ocorre em zona de reacao quimicamente agitada, o que explica a incidencia alta de inclusoes na especie.",
+      "risk": "mecanismo",
+      "source": "GIA, Emerald Description; Giuliani et al., geologia de depositos de esmeralda",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-03-tipos-de-pureza-i-ii-iii.md"
+    },
+    {
+      "claim_id": "GRAD-PUR-004",
+      "claim": "Uma esmeralda sem inclusoes visiveis e motivo de suspeita de material crescido em laboratorio, porque a especie praticamente nao ocorre limpa em quantidade relevante.",
+      "risk": "interpretacao",
+      "source": "GIA, Emerald Quality Factors; Gubelin & Koivula, Photoatlas of Inclusions",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-03-tipos-de-pureza-i-ii-iii.md"
+    },
+    {
+      "claim_id": "GRAD-PUR-005",
+      "claim": "Inclusoes trifasicas (cavidade contendo liquido, bolha de gas e cristal solido) sao caracteristicas de esmeralda natural e sao usadas como evidencia de origem natural e, em alguns casos, de procedencia.",
+      "risk": "mecanismo",
+      "source": "Gubelin & Koivula, Photoatlas of Inclusions in Gemstones; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-03-tipos-de-pureza-i-ii-iii.md"
+    },
+    {
+      "claim_id": "GRAD-PUR-006",
+      "claim": "Em gema corada a pureza e avaliada a olho nu a distancia de observacao usual, da ordem de 15 cm, sob luz difusa e com a pedra de face; lupa e microscopio servem para interpretar a inclusao, nao para atribuir grau.",
+      "risk": "mecanismo",
+      "source": "GIA, Colored Stones course; Gem-A, Gemmology Foundation",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-03-tipos-de-pureza-i-ii-iii.md"
+    },
+    {
+      "claim_id": "GRAD-PUR-007",
+      "claim": "Inclusoes podem acrescentar valor ou informacao: agulhas orientadas produzem asterismo e chatoyance, inclusoes diagnosticas sustentam determinacao de naturalidade e origem, e o arranjo de inclusoes permite reidentificar a pedra.",
+      "risk": "interpretacao",
+      "source": "GIA, Gem Identification; Gubelin & Koivula",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-03-tipos-de-pureza-i-ii-iii.md"
+    },
+    {
+      "claim_id": "GRAD-PUR-008",
+      "claim": "Pureza e durabilidade sao eixos distintos: fissura que atinge a superficie e risco fisico e possivel indicio de preenchimento, independentemente do tipo de pureza da especie.",
+      "risk": "interpretacao",
+      "source": "GIA, Gemstone Durability; CIBJO Gemstone Blue Book",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-03-tipos-de-pureza-i-ii-iii.md"
+    },
+    {
+      "claim_id": "RUB-EST-001",
+      "claim": "Corindon e Al2O3, sistema trigonal, dureza 9 Mohs, indice de refracao 1,762-1,770, birrefringencia 0,008-0,010, uniaxial negativo, densidade relativa 3,95-4,10; nao tem clivagem, mas apresenta particao ao longo de planos de geminacao.",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-04-corindon-rubi-e-safira.md"
+    },
+    {
+      "claim_id": "RUB-EST-002",
+      "claim": "Rubi e o corindon de cor vermelha e safira e o corindon de qualquer outra cor, incluindo o incolor; nao existe teste fisico que separe rubi de safira rosa, sendo a fronteira uma convencao de laboratorio e de mercado.",
+      "risk": "nomenclatura",
+      "source": "GIA Gem Encyclopedia; CIBJO Gemstone Blue Book; LMHC",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-04-corindon-rubi-e-safira.md"
+    },
+    {
+      "claim_id": "RUB-EST-003",
+      "claim": "Padparadscha e a variedade de corindon de matiz entre rosa e laranja; o LMHC publica ficha de informacao harmonizando o uso do termo entre laboratorios.",
+      "risk": "nomenclatura",
+      "source": "LMHC Information Sheet, padparadscha; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-04-corindon-rubi-e-safira.md"
+    },
+    {
+      "claim_id": "RUB-COR-001",
+      "claim": "No corindon, Cr3+ produz vermelho e rosa, o par Fe2+-Ti4+ produz azul por transferencia de carga, e Fe3+ produz amarelo e laranja.",
+      "risk": "mecanismo",
+      "source": "GIA, Corundum Chromophores (Gems & Gemology, Spring 2020)",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-04-corindon-rubi-e-safira.md"
+    },
+    {
+      "claim_id": "RUB-COR-002",
+      "claim": "O ferro suprime a fluorescencia do cromo no corindon: rubi pobre em ferro, como o de Mianmar, fluoresce vermelho forte sob onda longa, enquanto rubi rico em ferro, como o da Tailandia, fluoresce fraco ou nada.",
+      "risk": "mecanismo",
+      "source": "GIA, Ruby Description; Gem-A, Gemmology Foundation",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-04-corindon-rubi-e-safira.md"
+    },
+    {
+      "claim_id": "RUB-INC-001",
+      "claim": "Agulhas de rutilo (seda) no corindon cruzam-se a 60 e 120 graus seguindo a simetria trigonal e, em cabochao orientado, produzem asterismo de seis raios.",
+      "risk": "mecanismo",
+      "source": "Gubelin & Koivula, Photoatlas of Inclusions; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-04-corindon-rubi-e-safira.md"
+    },
+    {
+      "claim_id": "RUB-INC-002",
+      "claim": "Zoneamento de cor curvo e bolhas gasosas esfericas nao ocorrem em corindon natural e indicam material sintetico crescido por fusao em chama ou vidro.",
+      "risk": "mecanismo",
+      "source": "GIA, Gem Identification; Gubelin & Koivula",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-04-corindon-rubi-e-safira.md"
+    },
+    {
+      "claim_id": "RUB-ORIG-001",
+      "claim": "O deposito de safira da Caxemira teve producao principal concentrada na decada de 1880, e o premio de mercado associado a essa procedencia e em boa parte historico e de escassez.",
+      "risk": "numero",
+      "source": "GIA, Gems & Gemology — Kashmir sapphire",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-04-corindon-rubi-e-safira.md"
+    },
+    {
+      "claim_id": "RUB-ORIG-002",
+      "claim": "O deposito de rubi de Montepuez, em Mocambique, foi descoberto em 2009 e reordenou o mercado de rubi por volume e qualidade; o rubi de Mong Hsu, em Mianmar, apareceu nos anos 1990 e caracteriza-se por um nucleo azul-escuro removido por aquecimento.",
+      "risk": "numero",
+      "source": "GIA, Gems & Gemology — Montepuez (2015) e Mong Hsu (1995)",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-04-corindon-rubi-e-safira.md"
+    },
+    {
+      "claim_id": "RUB-NOM-001",
+      "claim": "Pigeon's blood e royal blue sao termos de comercio que descrevem cor, nao qualidade global, aplicados por alguns laboratorios sob criterios proprios; o LMHC publica fichas para harmonizar o uso.",
+      "risk": "nomenclatura",
+      "source": "LMHC Information Sheets; CIBJO Gemmological Laboratories Blue Book",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-04-corindon-rubi-e-safira.md"
+    },
+    {
+      "claim_id": "RUB-TRAT-001",
+      "claim": "O aquecimento de corindon ocorre em faixa de cerca de 800 a mais de 1700 graus Celsius e dissolve a seda de rutilo, aumentando a transparencia e liberando titanio que alimenta o par Fe-Ti responsavel pelo azul; e considerado tratamento padrao da especie.",
+      "risk": "numero",
+      "source": "GIA, Sapphire e Ruby Treatments; Nassau, Gemstone Enhancement",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-05-corindon-tratamentos-e-sinteticos.md"
+    },
+    {
+      "claim_id": "RUB-TRAT-002",
+      "claim": "Geuda e o corindon leitoso do Sri Lanka que, aquecido, converte-se em safira azul comercializavel.",
+      "risk": "mecanismo",
+      "source": "GIA, Sapphire Description; literatura gemologica sobre tratamento termico",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-05-corindon-tratamentos-e-sinteticos.md"
+    },
+    {
+      "claim_id": "RUB-TRAT-003",
+      "claim": "Indicios de aquecimento observaveis em bancada incluem halos de disco em torno de cristais inclusos, seda alterada ou pontilhada, residuo vitreo em cavidades que atingem a superficie e zoneamento de cor difuso; aquecimento a temperatura relativamente baixa pode nao deixar feicao visivel, e a declaracao de material nao aquecido depende de espectroscopia.",
+      "risk": "mecanismo",
+      "source": "GIA, Gems & Gemology — deteccao de tratamento termico; LMHC",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-05-corindon-tratamentos-e-sinteticos.md"
+    },
+    {
+      "claim_id": "RUB-TRAT-004",
+      "claim": "A difusao de titanio em safira, dos anos 1980, produz camada de cor superficial detectavel por imersao pela concentracao de cor nas juncoes de faceta; a difusao de berilio, identificada em 2001-2002, penetra profundamente e sua deteccao exige analise quimica de tracos em nivel de ppm, tipicamente LA-ICP-MS.",
+      "risk": "numero",
+      "source": "GIA, Gems & Gemology (2003) — beryllium-diffused sapphire",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-05-corindon-tratamentos-e-sinteticos.md"
+    },
+    {
+      "claim_id": "RUB-TRAT-005",
+      "claim": "O rubi preenchido com vidro de alto chumbo espalhou-se no mercado a partir de 2004; por o vidro representar parcela substancial do volume, CIBJO e GIA o tratam como composito ou produto manufaturado, e nao como rubi tratado.",
+      "risk": "classificacao",
+      "source": "GIA, Gems & Gemology (2004-2006); CIBJO Gemstone Blue Book",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-05-corindon-tratamentos-e-sinteticos.md"
+    },
+    {
+      "claim_id": "RUB-TRAT-006",
+      "claim": "O preenchimento com vidro de chumbo tem baixa estabilidade e e danificado por limpeza ultrassonica, vapor, acidos e pelo calor de reparos de joalheria; e detectado em bancada pelo efeito de flash e por bolhas achatadas dentro das fraturas.",
+      "risk": "seguranca",
+      "source": "GIA, Ruby Treatments; CIBJO",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-05-corindon-tratamentos-e-sinteticos.md"
+    },
+    {
+      "claim_id": "RUB-SIN-001",
+      "claim": "O corindon sintetico por fusao em chama foi desenvolvido por Auguste Verneuil, com processo publicado em 1902, e caracteriza-se por estrias de crescimento curvas e bolhas gasosas esfericas ou em forma de girino.",
+      "risk": "numero",
+      "source": "Nassau, Gems Made by Man; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-05-corindon-tratamentos-e-sinteticos.md"
+    },
+    {
+      "claim_id": "RUB-SIN-002",
+      "claim": "O corindon sintetico crescido em fluxo apresenta residuo de fluxo em veus semelhantes a fissuras cicatrizadas naturais e plaquetas metalicas de platina provenientes do cadinho, sendo estas ultimas sem equivalente natural; o crescimento hidrotermal deixa placa de semente e padrao de crescimento em chevron.",
+      "risk": "mecanismo",
+      "source": "GIA, Gem Identification; Gubelin & Koivula, Photoatlas of Inclusions",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-05-corindon-tratamentos-e-sinteticos.md"
+    },
+    {
+      "claim_id": "RUB-SIN-003",
+      "claim": "Nenhuma propriedade fisica ou optica separa corindon natural de corindon sintetico, por serem o mesmo material; a separacao depende de estrutura de crescimento, inclusoes e quimica de tracos.",
+      "risk": "mecanismo",
+      "source": "GIA, Gem Identification; CIBJO",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-05-corindon-tratamentos-e-sinteticos.md"
+    },
+    {
+      "claim_id": "BER-EST-001",
+      "claim": "Berilo e Be3Al2Si6O18, hexagonal, com indice de refracao 1,577-1,583, birrefringencia 0,005-0,009, uniaxial negativo, densidade relativa 2,67-2,90 (esmeralda cerca de 2,72), dureza Mohs 7,5 a 8 e clivagem basal imperfeita.",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-06-berilo-esmeralda-e-agua-marinha.md"
+    },
+    {
+      "claim_id": "BER-VAR-001",
+      "claim": "Variedades gemologicas do berilo e seus cromoforos: esmeralda (Cr3+ e/ou V3+), agua-marinha (Fe2+), morganita (Mn2+), heliodoro (Fe3+), goshenita (incolor) e berilo vermelho (Mn3+).",
+      "risk": "classificacao",
+      "source": "GIA Gem Encyclopedia; Mindat",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-06-berilo-esmeralda-e-agua-marinha.md"
+    },
+    {
+      "claim_id": "BER-VAR-002",
+      "claim": "O berilo vermelho tem producao gemologica praticamente restrita a Utah, nos Estados Unidos; o nome bixbita e desaconselhado por confusao com a especie mineral bixbyita.",
+      "risk": "nomenclatura",
+      "source": "GIA; CIBJO Gemstone Blue Book; IMA-CNMNC",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-06-berilo-esmeralda-e-agua-marinha.md"
+    },
+    {
+      "claim_id": "BER-VAR-003",
+      "claim": "O berilo maxixe tem cor azul-escura produzida por irradiacao e desbota com exposicao a luz, exigindo divulgacao.",
+      "risk": "seguranca",
+      "source": "Nassau, Gemstone Enhancement; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-06-berilo-esmeralda-e-agua-marinha.md"
+    },
+    {
+      "claim_id": "BER-ESM-001",
+      "claim": "A esmeralda forma-se onde berilio de origem granitica encontra cromo ou vanadio de origem distinta, em ambiente de reacao quimicamente agitado; e especie tipo III de pureza, tem tenacidade ruim apesar da dureza 7,5-8, e o corte esmeralda surgiu para proteger material fissurado.",
+      "risk": "mecanismo",
+      "source": "GIA, Emerald Description; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-06-berilo-esmeralda-e-agua-marinha.md"
+    },
+    {
+      "claim_id": "BER-ESM-002",
+      "claim": "A grande maioria das esmeraldas de mercado tem fissuras preenchidas com oleo, resina ou polimero; os laboratorios declaram a extensao do preenchimento em escala harmonizada de nenhum, leve, moderado e significativo.",
+      "risk": "interpretacao",
+      "source": "LMHC Information Sheet sobre preenchimento em esmeralda; CIBJO",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-06-berilo-esmeralda-e-agua-marinha.md"
+    },
+    {
+      "claim_id": "BER-ESM-003",
+      "claim": "Esmeralda preenchida nao deve ser submetida a limpeza ultrassonica, vapor ou calor, e pode necessitar de reaplicacao de oleo ao longo do tempo.",
+      "risk": "seguranca",
+      "source": "GIA, Gem Care; CIBJO Gemstone Blue Book",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-06-berilo-esmeralda-e-agua-marinha.md"
+    },
+    {
+      "claim_id": "BER-SIN-001",
+      "claim": "Esmeralda sintetica crescida em fluxo tem indice de refracao aproximadamente 1,560-1,565 e densidade 2,65-2,67, e a hidrotermal fica em torno de 1,568-1,573, valores abaixo da faixa natural de 1,577-1,583; leitura abaixo de cerca de 1,57 e fortemente sugestiva de material sintetico.",
+      "risk": "numero",
+      "source": "GIA, Gem Identification; Gem-A, Gemmology Foundation",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-06-berilo-esmeralda-e-agua-marinha.md"
+    },
+    {
+      "claim_id": "BER-SIN-002",
+      "claim": "Esmeralda sintetica em fluxo apresenta veus de residuo de fluxo e plaquetas de platina; a hidrotermal apresenta placa de semente e padrao de crescimento em chevron; inclusoes trifasicas sao caracteristicas de esmeralda natural.",
+      "risk": "mecanismo",
+      "source": "Gubelin & Koivula, Photoatlas of Inclusions; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-06-berilo-esmeralda-e-agua-marinha.md"
+    },
+    {
+      "claim_id": "BER-TRAT-001",
+      "claim": "Agua-marinha e quase sempre aquecida para converter Fe3+ em Fe2+ e remover o componente amarelo-esverdeado; o tratamento e estavel e indetectavel, e por isso assumido como padrao da especie. Morganita e frequentemente aquecida para remover o componente laranja.",
+      "risk": "mecanismo",
+      "source": "GIA, Aquamarine e Morganite descriptions; Nassau, Gemstone Enhancement",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-06-berilo-esmeralda-e-agua-marinha.md"
+    },
+    {
+      "claim_id": "BER-TRAT-002",
+      "claim": "O filtro Chelsea faz muita esmeralda natural rica em cromo aparecer avermelhada, mas muitas esmeraldas sinteticas tambem reagem e material rico em ferro pode nao reagir; e teste de triagem de baixa confiabilidade.",
+      "risk": "interpretacao",
+      "source": "Gem-A, Gemmology Foundation; GIA Gem Identification",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-06-berilo-esmeralda-e-agua-marinha.md"
+    },
+    {
+      "claim_id": "TUR-EST-001",
+      "claim": "Turmalina e um supergrupo de borossilicatos, formalmente reorganizado pela IMA em 2011 (Henry et al., American Mineralogist 96); a elbaita responde pela maior parte da turmalina de gema, ao lado de dravita, schorlita, liddicoatita e uvita.",
+      "risk": "nomenclatura",
+      "source": "Henry et al. (2011); IMA-CNMNC; Mindat",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-07-turmalina-o-grupo-e-a-paraiba.md"
+    },
+    {
+      "claim_id": "TUR-EST-002",
+      "claim": "Turmalina e trigonal, com indice de refracao 1,624-1,644, birrefringencia 0,018-0,020, uniaxial negativo, densidade relativa 3,00-3,26, dureza Mohs 7 a 7,5 e sem clivagem, sendo material quebradico.",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-07-turmalina-o-grupo-e-a-paraiba.md"
+    },
+    {
+      "claim_id": "TUR-EST-003",
+      "claim": "A turmalina e piroeletrica e piezoeletrica: aquecida ou friccionada, gera carga superficial e atrai po, comportamento que deu origem ao nome holandes aschentrekker.",
+      "risk": "mecanismo",
+      "source": "Klein & Dutrow, Manual of Mineral Science; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-07-turmalina-o-grupo-e-a-paraiba.md"
+    },
+    {
+      "claim_id": "TUR-EST-004",
+      "claim": "Na turmalina o pleocroismo e forte e a direcao ao longo do eixo do cristal e tipicamente a mais escura, o que faz o lapidario escolher entre cor (mesa perpendicular ao eixo) e peso (mesa paralela).",
+      "risk": "mecanismo",
+      "source": "GIA, Tourmaline Description; Gem-A, Gemmology Foundation",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-07-turmalina-o-grupo-e-a-paraiba.md"
+    },
+    {
+      "claim_id": "TUR-VAR-001",
+      "claim": "Nomes de variedade de turmalina por cor: rubelita (rosa a vermelha), indicolita (azul), verdelita (verde), acroita (incolor) e melancia (nucleo rosa com borda verde); a turmalina cromifera deve o verde intenso a Cr3+ e V3+ e ocorre na Tanzania e no Quenia.",
+      "risk": "nomenclatura",
+      "source": "GIA Gem Encyclopedia; Mindat",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-07-turmalina-o-grupo-e-a-paraiba.md"
+    },
+    {
+      "claim_id": "TUR-PAR-001",
+      "claim": "A turmalina Paraiba foi descoberta em Sao Jose da Batalha, na Paraiba, no fim dos anos 1980 e chegou ao mercado internacional por volta de 1990; sua cor azul a verde neon deve-se a cobre (com manganes) em elbaita.",
+      "risk": "numero",
+      "source": "GIA, Gems & Gemology — Paraiba-type copper-bearing tourmaline (Fall 2008)",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-07-turmalina-o-grupo-e-a-paraiba.md"
+    },
+    {
+      "claim_id": "TUR-PAR-002",
+      "claim": "Turmalina cuprifera de cor semelhante foi posteriormente encontrada no Rio Grande do Norte, na Nigeria por volta de 2001 e em Mocambique por volta de 2005.",
+      "risk": "numero",
+      "source": "GIA, Gems & Gemology (Fall 2008)",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-07-turmalina-o-grupo-e-a-paraiba.md"
+    },
+    {
+      "claim_id": "TUR-PAR-003",
+      "claim": "O LMHC harmonizou o uso de 'turmalina Paraiba' como nome de VARIEDADE, aplicavel a elbaita cuprifera de cor azul a verde independentemente da origem geografica; a qualificacao depende da presenca de cobre, verificavel por analise quimica e nao por exame de bancada.",
+      "risk": "nomenclatura",
+      "source": "LMHC Information Sheet — Paraiba tourmaline",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-07-turmalina-o-grupo-e-a-paraiba.md"
+    },
+    {
+      "claim_id": "TUR-TRAT-001",
+      "claim": "Grande parte da turmalina cuprifera de mercado e aquecida para reduzir a absorcao associada ao manganes e intensificar o azul; o tratamento e em geral indetectavel, e a divulgacao depende da cadeia de suprimento.",
+      "risk": "interpretacao",
+      "source": "GIA, Tourmaline Treatments; Gems & Gemology (Fall 2008)",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-07-turmalina-o-grupo-e-a-paraiba.md"
+    },
+    {
+      "claim_id": "GRA-EST-001",
+      "claim": "As granadas formam um grupo (supergrupo, na nomenclatura IMA de 2013) de formula X3Y2(SiO4)3, sempre cubico e isotropico, sem clivagem.",
+      "risk": "nomenclatura",
+      "source": "Grew et al. (2013), American Mineralogist 98; IMA-CNMNC; Mindat",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-08-granadas-o-grupo-e-as-series.md"
+    },
+    {
+      "claim_id": "GRA-EST-002",
+      "claim": "As seis especies gemologicas do grupo sao piropo (Mg), almandina (Fe) e espessartita (Mn), com aluminio no sitio Y, formando a serie piralspita; e uvarovita (Cr), grossularia (Al) e andradita (Fe3+), com calcio no sitio X, formando a serie ugrandita. A substituicao e ampla dentro de cada serie e limitada entre elas.",
+      "risk": "mecanismo",
+      "source": "Deer, Howie & Zussman; Gem-A, Gemmology Foundation; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-08-granadas-o-grupo-e-as-series.md"
+    },
+    {
+      "claim_id": "GRA-EST-003",
+      "claim": "As propriedades do grupo variam em faixa: indice de refracao de cerca de 1,71 a 1,89, densidade relativa de cerca de 3,4 a 4,3 e dureza Mohs de cerca de 6,5 a 7,5; indice de refracao e densidade sobem juntos com o teor de ferro e manganes.",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Webster, Gems; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-08-granadas-o-grupo-e-as-series.md"
+    },
+    {
+      "claim_id": "GRA-EST-004",
+      "claim": "Granadas, embora cubicas, frequentemente exibem birrefringencia anomala no polariscopio por tensao interna, especialmente almandina e demantoide; isso nao as torna anisotropicas.",
+      "risk": "mecanismo",
+      "source": "Gem-A, Gemmology Foundation; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-08-granadas-o-grupo-e-as-series.md"
+    },
+    {
+      "claim_id": "GRA-EST-005",
+      "claim": "Espessartita (IR proximo de 1,81) e demantoide (IR proximo de 1,89) ficam acima do teto de leitura do refratometro de bancada padrao.",
+      "risk": "numero",
+      "source": "GIA; Gem-A, Gemmology Foundation",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-08-granadas-o-grupo-e-as-series.md"
+    },
+    {
+      "claim_id": "GRA-VAR-001",
+      "claim": "Rodolita e nome de variedade da granada intermediaria piropo-almandina, de cor vermelho-arroxeada, com IR proximo de 1,76 e densidade proxima de 3,84; malaia designa a mistura piropo-espessartita do vale do Umba, na Tanzania.",
+      "risk": "nomenclatura",
+      "source": "GIA, Garnet Description; Webster, Gems",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-08-granadas-o-grupo-e-as-series.md"
+    },
+    {
+      "claim_id": "GRA-VAR-002",
+      "claim": "Tsavorita e a grossularia verde colorida por cromo e vanadio, encontrada na regiao de fronteira Quenia-Tanzania a partir do fim dos anos 1960 e batizada e lancada comercialmente pela Tiffany & Co. em 1974, com o nome derivado do parque nacional Tsavo.",
+      "risk": "numero",
+      "source": "GIA, Gems & Gemology; GIA Gem Encyclopedia",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-08-granadas-o-grupo-e-as-series.md"
+    },
+    {
+      "claim_id": "GRA-VAR-003",
+      "claim": "Demantoide e a andradita verde, com dispersao de cerca de 0,057, superior a do diamante (cerca de 0,044).",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Webster, Gems",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-08-granadas-o-grupo-e-as-series.md"
+    },
+    {
+      "claim_id": "GRA-VAR-004",
+      "claim": "A inclusao 'rabo-de-cavalo', tufo radial de fibras curvas de crisotila, e caracteristica do demantoide dos Urais; o demantoide da Namibia (Green Dragon) e de Madagascar em geral nao a apresenta.",
+      "risk": "interpretacao",
+      "source": "GIA, Gems & Gemology — demantoide da Namibia e da Russia",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-08-granadas-o-grupo-e-as-series.md"
+    },
+    {
+      "claim_id": "GRA-TRAT-001",
+      "claim": "Granadas de gema sao tipicamente nao tratadas: nao ha aquecimento, irradiacao ou difusao estabelecidos como pratica de mercado para o grupo.",
+      "risk": "interpretacao",
+      "source": "GIA, Garnet Treatments; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-08-granadas-o-grupo-e-as-series.md"
+    },
+    {
+      "claim_id": "GRA-SIN-001",
+      "claim": "YAG (granada de itrio e aluminio) e GGG (granada de gadolinio e galio) sao materiais de estrutura granada sem contraparte natural, desenvolvidos como simulantes de diamante nos anos 1960 e 1970; nao sao 'granadas sinteticas' no sentido de versao de laboratorio de uma especie natural.",
+      "risk": "nomenclatura",
+      "source": "GIA; Nassau, Gems Made by Man",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-08-granadas-o-grupo-e-as-series.md"
+    },
+    {
+      "claim_id": "ESP-EST-001",
+      "claim": "Espinelio e MgAl2O4, cubico e isotropico, com indice de refracao de cerca de 1,712 a 1,730 (tipicamente 1,718), densidade relativa de 3,58 a 3,61, dureza Mohs 8 e sem clivagem.",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-09-espinelio-e-crisoberilo.md"
+    },
+    {
+      "claim_id": "ESP-HIST-001",
+      "claim": "As pedras vermelhas conhecidas como 'Rubi do Principe Negro' e 'Rubi de Timur', nas joias da Coroa britanica, sao espinelios e nao rubis; o espinelio vermelho circulou sob o nome balas ruby ate ser reconhecido como especie distinta no fim do seculo XVIII.",
+      "risk": "nomenclatura",
+      "source": "Royal Collection Trust; GIA, Spinel Description",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-09-espinelio-e-crisoberilo.md"
+    },
+    {
+      "claim_id": "ESP-COR-001",
+      "claim": "No espinelio, o vermelho e o rosa devem-se a cromo e o azul comum a ferro, enquanto o azul de maior valor deve-se a cobalto (espinelio cobaltifero de Luc Yen, Vietna, e do Sri Lanka); o material rosa-avermelhado de Mahenge, na Tanzania, foi encontrado em 2007.",
+      "risk": "numero",
+      "source": "GIA, Gems & Gemology — Mahenge spinel; cobalt-bearing spinel",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-09-espinelio-e-crisoberilo.md"
+    },
+    {
+      "claim_id": "ESP-SIN-001",
+      "claim": "O espinelio sintetico por fusao de chama, produzido em escala desde os anos 1920, tem excesso de alumina que eleva o indice de refracao para cerca de 1,728 e exibe birrefringencia anomala em padrao quadriculado ('extincao em tabuleiro'); ha tambem espinelio sintetico por fluxo, com indice normal e inclusoes de fundente.",
+      "risk": "mecanismo",
+      "source": "Nassau, Gems Made by Man; Gem-A; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-09-espinelio-e-crisoberilo.md"
+    },
+    {
+      "claim_id": "ESP-TRAT-001",
+      "claim": "O espinelio e em regra nao tratado; aquecimento e preenchimento de fissuras ja foram documentados, mas nenhum e pratica dominante de mercado.",
+      "risk": "interpretacao",
+      "source": "GIA, Spinel Treatments; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-09-espinelio-e-crisoberilo.md"
+    },
+    {
+      "claim_id": "CRI-EST-001",
+      "claim": "Crisoberilo e BeAl2O4, ortorrombico, com indice de refracao de cerca de 1,746 a 1,755, birrefringencia de 0,008 a 0,010, biaxial positivo, densidade relativa de 3,71 a 3,73, dureza Mohs 8,5 e clivagem distinta em uma direcao; forma geminados ciclicos de contorno pseudo-hexagonal.",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; Deer, Howie & Zussman",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-09-espinelio-e-crisoberilo.md"
+    },
+    {
+      "claim_id": "CRI-ALX-001",
+      "claim": "A alexandrita e o crisoberilo com cromo; sua absorcao deixa passar verde e vermelho, de modo que aparece verde a verde-azulada sob luz do dia e vermelha a vermelho-arroxeada sob luz incandescente. Foi encontrada nos Urais na decada de 1830 e nomeada em homenagem ao futuro czar Alexandre II; depositos posteriores incluem Hematita, em Minas Gerais (1987), Sri Lanka, Tanzania e Madagascar.",
+      "risk": "numero",
+      "source": "GIA, Alexandrite Description; Gems & Gemology — alexandrita de Hematita, Minas Gerais",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-09-espinelio-e-crisoberilo.md"
+    },
+    {
+      "claim_id": "CRI-ALX-002",
+      "claim": "Na alexandrita, o principal fator de valor e a completude da mudanca de cor, e nao o matiz ou o tom isoladamente.",
+      "risk": "interpretacao",
+      "source": "GIA, Alexandrite Quality Factors",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-09-espinelio-e-crisoberilo.md"
+    },
+    {
+      "claim_id": "CRI-CIM-001",
+      "claim": "Cimofano e o crisoberilo olho-de-gato, cuja chatoyance vem de inclusoes fibrosas paralelas; em pedra bem orientada produz o efeito leite-e-mel. Por convencao de comercio, 'olho-de-gato' sem qualificativo designa crisoberilo, e qualquer outra especie exige o nome.",
+      "risk": "nomenclatura",
+      "source": "GIA; CIBJO Gemstone Blue Book; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-09-espinelio-e-crisoberilo.md"
+    },
+    {
+      "claim_id": "CRI-SIN-001",
+      "claim": "Existe alexandrita sintetica por fluxo e por puxamento Czochralski; o corindon sintetico dopado com vanadio, que muda de azul-acinzentado para violeta-avermelhado, e vendido ha decadas como 'alexandrita' mas e simulante, separavel pelo refratometro (corindon ~1,76-1,77, DR ~4,00) e pela densidade (crisoberilo ~3,72).",
+      "risk": "nomenclatura",
+      "source": "Nassau, Gems Made by Man; GIA; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-09-espinelio-e-crisoberilo.md"
+    },
+    {
+      "claim_id": "TOP-EST-001",
+      "claim": "Topazio e Al2SiO4(F,OH)2, ortorrombico, com indice de refracao de cerca de 1,609 a 1,643, birrefringencia de 0,008 a 0,010, biaxial positivo, densidade relativa de 3,49 a 3,57, dureza Mohs 8 e clivagem basal perfeita.",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; Deer, Howie & Zussman",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-10-topazio-e-peridoto.md"
+    },
+    {
+      "claim_id": "TOP-EST-002",
+      "claim": "No topazio, fluor e hidroxila competem pelo mesmo sitio: material rico em fluor (azuis e incolores) tem indice de refracao mais baixo e densidade mais alta, enquanto material rico em hidroxila (amarelos, laranjas e rosas) tem indice mais alto e densidade mais baixa.",
+      "risk": "mecanismo",
+      "source": "Deer, Howie & Zussman; Webster, Gems; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-10-topazio-e-peridoto.md"
+    },
+    {
+      "claim_id": "TOP-VAR-001",
+      "claim": "Topazio imperial e o topazio de matiz laranja a rosa-alaranjado, colorido por cromo, cuja fonte classica e a regiao de Ouro Preto, em Minas Gerais; 'topazio fume' e 'topazio dourado' sao denominacoes incorretas aplicadas a quartzo.",
+      "risk": "nomenclatura",
+      "source": "GIA, Topaz Description; CIBJO Gemstone Blue Book; CPRM/SGB, Gemas do Brasil",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-10-topazio-e-peridoto.md"
+    },
+    {
+      "claim_id": "TOP-TRAT-001",
+      "claim": "Praticamente todo o topazio azul de mercado e produzido por irradiacao seguida de aquecimento a partir de material incolor, e o tratamento e indetectavel tanto em bancada quanto em laboratorio; os nomes comerciais Sky Blue, Swiss Blue e London Blue designam tons desse material tratado.",
+      "risk": "interpretacao",
+      "source": "GIA, Topaz Treatments; CIBJO Gemstone Blue Book",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-10-topazio-e-peridoto.md"
+    },
+    {
+      "claim_id": "TOP-TRAT-002",
+      "claim": "O topazio irradiado em reator pode reter radioatividade residual e permanece em quarentena ate o decaimento a niveis aceitaveis, sob controle regulatorio; nos Estados Unidos essa distribuicao e licenciada pela Nuclear Regulatory Commission.",
+      "risk": "interpretacao",
+      "source": "U.S. NRC — irradiated gemstones guidance; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-10-topazio-e-peridoto.md"
+    },
+    {
+      "claim_id": "TOP-TRAT-003",
+      "claim": "O 'topazio mistico' e topazio incolor com filme fino aplicado na superficie; o revestimento e de baixa estabilidade e se desgasta nas arestas, sendo detectavel pela concentracao superficial da cor e por riscos no filme.",
+      "risk": "mecanismo",
+      "source": "GIA, Gems & Gemology — coated topaz; CIBJO",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-10-topazio-e-peridoto.md"
+    },
+    {
+      "claim_id": "PER-EST-001",
+      "claim": "Peridoto e a variedade de gema da olivina, solucao solida entre forsterita e faialita, (Mg,Fe)2SiO4, ortorrombica, com indice de refracao de cerca de 1,654 a 1,690, birrefringencia de 0,035 a 0,038, biaxial positivo, densidade relativa de 3,32 a 3,37, dureza Mohs de 6,5 a 7, clivagem imperfeita e comportamento quebradico.",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-10-topazio-e-peridoto.md"
+    },
+    {
+      "claim_id": "PER-COR-001",
+      "claim": "O peridoto e idiocromatico: sua cor verde vem do ferro divalente, constituinte essencial da formula, razao pela qual ocorre apenas de verde-amarelado a amarelo-esverdeado, sem variedades azuis, vermelhas ou incolores.",
+      "risk": "mecanismo",
+      "source": "GIA, Peridot Description; Nassau, The Physics and Chemistry of Color",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-10-topazio-e-peridoto.md"
+    },
+    {
+      "claim_id": "PER-INC-001",
+      "claim": "A inclusao 'vitoria-regia' (lily pad) do peridoto e uma fratura discoide de tensao formada em torno de um cristal de cromita.",
+      "risk": "mecanismo",
+      "source": "Gubelin & Koivula, Photoatlas of Inclusions in Gemstones; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-10-topazio-e-peridoto.md"
+    },
+    {
+      "claim_id": "PER-ORIG-001",
+      "claim": "A fonte historica do peridoto e a ilha de Zabargad, no Mar Vermelho egipcio; parte das 'esmeraldas' da Antiguidade e do medievo sao peridoto, incluindo pedras do relicario dos Reis Magos na catedral de Colonia. Fontes modernas incluem Mogok (Mianmar), o vale de Sapat (Paquistao, anos 1990), San Carlos (Arizona) e a China; olivina de qualidade gemologica tambem ocorre em meteoritos pallasitos.",
+      "risk": "interpretacao",
+      "source": "GIA, Gems & Gemology; Webster, Gems",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-10-topazio-e-peridoto.md"
+    },
+    {
+      "claim_id": "PER-TRAT-001",
+      "claim": "Peridoto e em regra nao tratado, com preenchimento de fissuras ocorrendo pontualmente; e sensivel a acidos e a choque termico, o que contraindica limpeza ultrassonica e a vapor. Nao ha sintese comercial de peridoto verde; a forsterita sintetica dopada com cobalto e azul-violacea e usada como simulante de tanzanita.",
+      "risk": "interpretacao",
+      "source": "GIA, Peridot Care and Cleaning; Nassau, Gems Made by Man",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-10-topazio-e-peridoto.md"
+    },
+    {
+      "claim_id": "QTZ-EST-001",
+      "claim": "Quartzo e SiO2 trigonal, com indice de refracao 1,544-1,553, birrefringencia 0,009, uniaxial POSITIVO, densidade relativa 2,65, dureza Mohs 7 e sem clivagem, com fratura conchoidal.",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-11-quartzo-cristalino-variedades-coradas.md"
+    },
+    {
+      "claim_id": "QTZ-EST-002",
+      "claim": "Por causa da geminacao segundo a lei do Brasil, a figura de interferencia do quartzo aparece tipicamente como 'olho-de-boi', em aneis concentricos, em vez da cruz limpa das demais gemas uniaxiais.",
+      "risk": "mecanismo",
+      "source": "Gem-A, Gemmology Foundation; Webster, Gems",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-11-quartzo-cristalino-variedades-coradas.md"
+    },
+    {
+      "claim_id": "QTZ-VAR-001",
+      "claim": "A cor da ametista e do citrino deve-se a centros de cor associados a ferro; a do quartzo fume, a centros associados a aluminio produzidos por irradiacao natural, com o termo morion designando o material quase preto.",
+      "risk": "mecanismo",
+      "source": "Nassau, The Physics and Chemistry of Color; GIA; Rossman, Colored Varieties of the Silica Minerals",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-11-quartzo-cristalino-variedades-coradas.md"
+    },
+    {
+      "claim_id": "QTZ-VAR-002",
+      "claim": "O aquecimento controlado de ametista converte o violeta em amarelo a laranja-avermelhado, e a maior parte do citrino de mercado e ametista aquecida; citrino natural existe mas e incomum.",
+      "risk": "interpretacao",
+      "source": "GIA, Quartz Treatments; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-11-quartzo-cristalino-variedades-coradas.md"
+    },
+    {
+      "claim_id": "QTZ-VAR-003",
+      "claim": "A cor do quartzo rosa macico e atribuida a nanoinclusoes fibrosas cujo melhor equivalente por difracao de raios X e a dumortierita, embora os espectros de FTIR e Raman nao coincidam exatamente com os padroes da especie, o que explica a turbidez e o asterismo de seis raios; o quartzo rosa transparente cristalizado, muito mais raro, tem causa distinta ligada a centros com aluminio e fosforo.",
+      "risk": "mecanismo",
+      "source": "Goreva, Ma & Rossman (2001), American Mineralogist 86, 466-472; GIA, Quartz Description",
+      "confidence": "confirmado_apos_correcao",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-11-quartzo-cristalino-variedades-coradas.md"
+    },
+    {
+      "claim_id": "QTZ-VAR-004",
+      "claim": "A prasiolita (quartzo verde) e obtida quase sempre por tratamento de ametista de certas procedencias, com material classico de Montezuma, em Minas Gerais, ou por irradiacao; o termo comercial 'ametista verde' e incorreto.",
+      "risk": "nomenclatura",
+      "source": "GIA, Gems & Gemology — prasiolite; CIBJO Gemstone Blue Book",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-11-quartzo-cristalino-variedades-coradas.md"
+    },
+    {
+      "claim_id": "QTZ-VAR-005",
+      "claim": "O ametrino, com setores de ametista e citrino no mesmo cristal, tem como fonte comercial praticamente unica a mina Anahi, na Bolivia.",
+      "risk": "interpretacao",
+      "source": "GIA, Gems & Gemology — Anahi mine ametrine",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-11-quartzo-cristalino-variedades-coradas.md"
+    },
+    {
+      "claim_id": "QTZ-SIN-001",
+      "claim": "O quartzo e sintetizado por via hidrotermal em escala industrial desde meados do seculo XX, sobretudo para a industria eletronica; ametista e citrino sinteticos sao produzidos com facilidade.",
+      "risk": "interpretacao",
+      "source": "Nassau, Gems Made by Man; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-11-quartzo-cristalino-variedades-coradas.md"
+    },
+    {
+      "claim_id": "QTZ-SIN-002",
+      "claim": "A separacao entre ametista natural e sintetica e uma das mais dificeis da gemologia rotineira: as propriedades fisicas sao identicas, a geminacao lei do Brasil e comum no natural e frequentemente ausente no sintetico (indicio, nao prova), inclusoes de 'migalha de pao' aparecem em parte do material sintetico, e a espectroscopia de infravermelho discrimina boa parte dos casos mas exige laboratorio.",
+      "risk": "interpretacao",
+      "source": "GIA, Gems & Gemology — natural vs. synthetic amethyst; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-11-quartzo-cristalino-variedades-coradas.md"
+    },
+    {
+      "claim_id": "QTZ-TRAT-001",
+      "claim": "Os tratamentos aplicados ao quartzo cristalino incluem aquecimento, irradiacao e revestimento por filmes metalicos iridescentes ('quartzo aura', 'quartzo mistico'), este ultimo detectavel pela iridescencia superficial e pelo desgaste nas arestas.",
+      "risk": "mecanismo",
+      "source": "GIA, Quartz Treatments; CIBJO Gemstone Blue Book",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-11-quartzo-cristalino-variedades-coradas.md"
+    },
+    {
+      "claim_id": "CAL-EST-001",
+      "claim": "Calcedonia e quartzo microcristalino fibroso e translucido; jaspe e quartzo microcristalino granular e opaco, com alto teor de impurezas. Ambos sao quartzo.",
+      "risk": "nomenclatura",
+      "source": "GIA, Chalcedony Description; Mindat; Deer, Howie & Zussman",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-12-calcedonia-e-quartzo-microcristalino.md"
+    },
+    {
+      "claim_id": "CAL-EST-002",
+      "claim": "O quartzo microcristalino apresenta indice de refracao de cerca de 1,53 a 1,54 em leitura de ponto, densidade relativa de cerca de 2,57 a 2,64 (menor que os 2,65 do quartzo cristalino, por causa da porosidade e da agua intersticial), dureza Mohs de 6,5 a 7 e reacao de agregado no polariscopio.",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Gem-A, Gemmology Foundation; Webster, Gems",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-12-calcedonia-e-quartzo-microcristalino.md"
+    },
+    {
+      "claim_id": "CAL-VAR-001",
+      "claim": "Variedades de calcedonia: agata (bandas curvas concentricas), onix (bandas retas e paralelas; no comercio, o material preto), sardonix, cornalina (laranja a vermelha, por ferro), sarda, crisoprasio (verde-maca, por niquel), heliotropio, agata de fogo e olho-de-tigre. A agata musgo contem dendritos de oxidos de manganes e ferro, e nao musgo nem fossil.",
+      "risk": "nomenclatura",
+      "source": "GIA, Chalcedony Description; Mindat",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-12-calcedonia-e-quartzo-microcristalino.md"
+    },
+    {
+      "claim_id": "CAL-VAR-002",
+      "claim": "A aventurina nao e calcedonia: e um quartzito, ou seja, uma rocha, cujo brilho (aventurescencia) vem do reflexo em inclusoes planas de mica verde (fucsita) ou de oxidos de ferro.",
+      "risk": "nomenclatura",
+      "source": "GIA; Mindat; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-12-calcedonia-e-quartzo-microcristalino.md"
+    },
+    {
+      "claim_id": "CAL-VAR-003",
+      "claim": "A origem do olho-de-tigre e objeto de debate: o modelo classico o descreve como pseudomorfose de silica sobre crocidolita, enquanto Heaney & Fisher (Geology, 2003) propuseram crescimento simultaneo de quartzo e crocidolita em fraturas que abrem e selam.",
+      "risk": "controverso",
+      "source": "Heaney & Fisher, Geology 31 (2003); literatura classica de pseudomorfose",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-12-calcedonia-e-quartzo-microcristalino.md"
+    },
+    {
+      "claim_id": "CAL-TRAT-001",
+      "claim": "O tingimento de agata foi industrializado em Idar-Oberstein, na Alemanha, a partir do inicio do seculo XIX, e a porosidade do material torna o tingimento a pratica dominante do grupo.",
+      "risk": "interpretacao",
+      "source": "Webster, Gems; GIA, Chalcedony Treatments",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-12-calcedonia-e-quartzo-microcristalino.md"
+    },
+    {
+      "claim_id": "CAL-TRAT-002",
+      "claim": "Praticamente todo o 'onix preto' de mercado e calcedonia tingida pelo processo acucar-e-acido, em que a pedra absorve solucao acucarada e o acido sulfurico carboniza o acucar dentro dos poros; onix naturalmente preto e rarissimo. A cornalina de mercado e frequentemente material com ferro submetido a aquecimento, pratica documentada desde a Antiguidade.",
+      "risk": "interpretacao",
+      "source": "GIA, Chalcedony Treatments; Webster, Gems",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-12-calcedonia-e-quartzo-microcristalino.md"
+    },
+    {
+      "claim_id": "CAL-TRAT-003",
+      "claim": "O crisoprasio natural e colorido por niquel e nao avermelha sob o filtro Chelsea, enquanto a calcedonia tingida de verde com sais de cromo costuma aparecer avermelhada; o filtro indica cromoforo e serve como triagem, nao como prova de identidade ou de tratamento.",
+      "risk": "mecanismo",
+      "source": "Gem-A, Gemmology Foundation; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-12-calcedonia-e-quartzo-microcristalino.md"
+    },
+    {
+      "claim_id": "CAL-NOM-001",
+      "claim": "Calcedonia tingida de verde e comercializada sob os nomes enganosos 'jade australiano' e 'jade sueco', e jaspe tingido de azul sob 'lapis suico' e 'lapis alemao'; nenhuma dessas denominacoes e aceitavel.",
+      "risk": "nomenclatura",
+      "source": "CIBJO Gemstone Blue Book; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-12-calcedonia-e-quartzo-microcristalino.md"
+    },
+    {
+      "claim_id": "CAL-DUR-001",
+      "claim": "A porosidade do quartzo microcristalino permite absorcao de liquidos e perda de corantes instaveis, riscos que a dureza 7 nao cobre; alem disso, o crisoprasio pode desbotar sob calor e luz prolongados.",
+      "risk": "interpretacao",
+      "source": "GIA, Chalcedony Care and Cleaning; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-12-calcedonia-e-quartzo-microcristalino.md"
+    },
+    {
+      "claim_id": "ZIR-NOM-001",
+      "claim": "Zircao e o mineral natural ZrSiO4; zirconia cubica e ZrO2 estabilizada, material sintetico difundido a partir dos anos 1970 como simulante de diamante. Sao materiais distintos, apesar da semelhanca dos nomes.",
+      "risk": "nomenclatura",
+      "source": "IMA-CNMNC; Mindat; Nassau, Gems Made by Man; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-13-quatro-fragilidades-parte-1-zircao-e-tanzanita.md"
+    },
+    {
+      "claim_id": "ZIR-EST-001",
+      "claim": "O zircao e tetragonal e uniaxial positivo. No zircao 'alto', o indice de refracao e de cerca de 1,92 a 1,98, a birrefringencia chega a cerca de 0,059, a densidade relativa fica entre 4,6 e 4,73 e a dispersao e de cerca de 0,039. No zircao 'baixo' (metamictico), o indice cai para cerca de 1,78-1,82, a birrefringencia se aproxima de zero e a densidade cai para cerca de 3,9-4,1.",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Webster, Gems; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-13-quatro-fragilidades-parte-1-zircao-e-tanzanita.md"
+    },
+    {
+      "claim_id": "ZIR-EST-002",
+      "claim": "A metamictizacao do zircao decorre do decaimento radioativo de uranio e torio incorporados na estrutura, que a degrada progressivamente e produz um continuo entre os tipos alto e baixo; o zircao e quebradico e apresenta desgaste caracteristico das arestas de faceta, e seu espectro costuma mostrar linhas finas de uranio, entre elas uma marcante proxima de 653,5 nm.",
+      "risk": "mecanismo",
+      "source": "Gem-A, Gemmology Foundation; Webster, Gems; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-13-quatro-fragilidades-parte-1-zircao-e-tanzanita.md"
+    },
+    {
+      "claim_id": "ZIR-TRAT-001",
+      "claim": "O zircao azul de mercado e obtido por aquecimento de material marrom do Sudeste Asiatico, e a cor resultante pode ser instavel, revertendo parcialmente na direcao do marrom sob exposicao prolongada a luz e ao ultravioleta.",
+      "risk": "interpretacao",
+      "source": "GIA, Zircon Treatments; Gems & Gemology",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-13-quatro-fragilidades-parte-1-zircao-e-tanzanita.md"
+    },
+    {
+      "claim_id": "TAN-ORIG-001",
+      "claim": "A tanzanita e a variedade azul-violacea da zoisita, encontrada em 1967 nas colinas de Merelani, na Tanzania, e batizada pela Tiffany & Co. em 1968; o deposito de Merelani permanece a unica fonte comercial conhecida.",
+      "risk": "numero",
+      "source": "GIA, Tanzanite Description; Gems & Gemology",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-13-quatro-fragilidades-parte-1-zircao-e-tanzanita.md"
+    },
+    {
+      "claim_id": "TAN-EST-001",
+      "claim": "A tanzanita e ortorrombica e biaxial positiva, com indice de refracao de cerca de 1,691 a 1,700, birrefringencia de 0,008 a 0,013, densidade relativa de cerca de 3,35, dureza Mohs de 6 a 7, clivagem perfeita em uma direcao e tricroismo forte.",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-13-quatro-fragilidades-parte-1-zircao-e-tanzanita.md"
+    },
+    {
+      "claim_id": "TAN-TRAT-001",
+      "claim": "Praticamente toda a tanzanita de mercado e aquecida para eliminar o componente pleocroico amarelo-acastanhado a esverdeado, deixando o azul e o violeta; material azul nao tratado existe, mas e raro, e o tratamento nao e detectavel com seguranca, de modo que a formulacao correta e que o aquecimento e pratica padrao da variedade.",
+      "risk": "interpretacao",
+      "source": "GIA, Tanzanite Treatments; CIBJO Gemstone Blue Book",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-13-quatro-fragilidades-parte-1-zircao-e-tanzanita.md"
+    },
+    {
+      "claim_id": "ESD-EST-001",
+      "claim": "O espodumenio e LiAlSi2O6, monoclinico e biaxial positivo, com indice de refracao de cerca de 1,660 a 1,681, birrefringencia de 0,014 a 0,016, densidade relativa de 3,15 a 3,21, dureza Mohs de 6,5 a 7 e clivagem perfeita em duas direcoes, alem de particao; a kunzita e a variedade rosa a violeta, por manganes, e a hiddenita, a verde, por cromo.",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; Deer, Howie & Zussman",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-14-quatro-fragilidades-parte-2-espodumenio-e-iolita.md"
+    },
+    {
+      "claim_id": "ESD-HIST-001",
+      "claim": "A kunzita foi descrita em 1902 e nomeada em homenagem a George Frederick Kunz, gemologo da Tiffany & Co.",
+      "risk": "numero",
+      "source": "GIA, Kunzite Description; Mindat",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-14-quatro-fragilidades-parte-2-espodumenio-e-iolita.md"
+    },
+    {
+      "claim_id": "ESD-TRAT-001",
+      "claim": "A kunzita perde cor sob exposicao prolongada a luz; a irradiacao e usada para intensificar ou produzir cor no espodumenio, e a cor assim obtida costuma ser ainda menos estavel.",
+      "risk": "interpretacao",
+      "source": "GIA, Kunzite Care and Cleaning; Gems & Gemology",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-14-quatro-fragilidades-parte-2-espodumenio-e-iolita.md"
+    },
+    {
+      "claim_id": "IOL-EST-001",
+      "claim": "A iolita e o nome de gema da cordierita, com indice de refracao de cerca de 1,542 a 1,551, birrefringencia de 0,008 a 0,012, densidade relativa de 2,57 a 2,66 e dureza Mohs de 7 a 7,5 — valores que se sobrepoem aos do quartzo —, mas e biaxial NEGATIVA (o quartzo e uniaxial positivo) e apresenta tricroismo extremo (azul-violeta, azul-claro e amarelo-palido). E em regra nao tratada e tem clivagem distinta em uma direcao.",
+      "risk": "numero",
+      "source": "GIA, Iolite Description; Mindat; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-14-quatro-fragilidades-parte-2-espodumenio-e-iolita.md"
+    },
+    {
+      "claim_id": "IOL-HIST-001",
+      "claim": "A atribuicao da 'solarsteinn' das sagas nordicas a iolita nao tem sustentacao documental: as fontes mencionam a pedra sem identificar o mineral, e as propostas na literatura moderna incluem a calcita da Islandia. O nome comercial 'safira-d'agua' e enganoso.",
+      "risk": "controverso",
+      "source": "Literatura sobre a solarsteinn (calcita da Islandia como hipotese); CIBJO Gemstone Blue Book",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-14-quatro-fragilidades-parte-2-espodumenio-e-iolita.md"
+    },
+    {
+      "claim_id": "TRAT-MAP-001",
+      "claim": "Os tratamentos de gemas coradas se descrevem por tres eixos independentes: mecanismo (o que foi feito ao material), estabilidade (se o efeito permanece com o uso normal) e detectabilidade (se o exame reconhece a intervencao).",
+      "risk": "interpretacao",
+      "source": "CIBJO Gemstone Blue Book; GIA, Gem Treatments; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-15-mapa-dos-tratamentos-e-a-regra-de-divulgacao.md"
+    },
+    {
+      "claim_id": "TRAT-MAP-002",
+      "claim": "Os mecanismos principais sao aquecimento, irradiacao, difusao reticular, preenchimento de fissuras, tingimento, impregnacao, revestimento e branqueamento.",
+      "risk": "nomenclatura",
+      "source": "CIBJO Gemstone Blue Book; GIA, Gem Treatments",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-15-mapa-dos-tratamentos-e-a-regra-de-divulgacao.md"
+    },
+    {
+      "claim_id": "TRAT-MAP-003",
+      "claim": "Ha correlacao geral entre profundidade e detectabilidade: tratamentos que atuam na estrutura (aquecimento, irradiacao, difusao) tendem a ser mais estaveis e mais dificeis de detectar, enquanto os que atuam na superficie ou nos poros (revestimento, tingimento, impregnacao) tendem a ser menos estaveis e mais faceis de reconhecer.",
+      "risk": "interpretacao",
+      "source": "GIA, Gem Treatments; Gem-A, Gemmology Foundation",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-15-mapa-dos-tratamentos-e-a-regra-de-divulgacao.md"
+    },
+    {
+      "claim_id": "TRAT-COMP-001",
+      "claim": "O rubi preenchido com vidro de chumbo tem volume de material estranho suficiente para deixar de ser descrito como rubi tratado: a terminologia harmonizada o classifica como 'rubi composito'. O material e destruido por acidos, por repolimento e por calor de macarico em conserto de joia.",
+      "risk": "nomenclatura",
+      "source": "LMHC Information Sheet — lead glass filled ruby; CIBJO; GIA, Gems & Gemology",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-15-mapa-dos-tratamentos-e-a-regra-de-divulgacao.md"
+    },
+    {
+      "claim_id": "TRAT-DIV-001",
+      "claim": "A regra de divulgacao exige que todo tratamento seja declarado ao comprador seguinte em cada etapa da cadeia comercial; nem o carater rotineiro do tratamento nem sua indetectabilidade dispensam a declaracao.",
+      "risk": "interpretacao",
+      "source": "CIBJO Gemstone Blue Book; U.S. FTC Jewelry Guides",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-15-mapa-dos-tratamentos-e-a-regra-de-divulgacao.md"
+    },
+    {
+      "claim_id": "TRAT-DIV-002",
+      "claim": "Diante de tratamento indetectavel, a formulacao correta descreve a pratica da variedade e nao a historia da pedra; 'nenhum indicio de tratamento observado' nao equivale a 'nao tratado'.",
+      "risk": "interpretacao",
+      "source": "LMHC Information Sheets; GIA; CIBJO",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-15-mapa-dos-tratamentos-e-a-regra-de-divulgacao.md"
+    },
+    {
+      "claim_id": "TRAT-DIV-003",
+      "claim": "O arcabouco de terminologia e divulgacao repousa nos Blue Books da CIBJO, em orientacoes de autoridades de defesa do consumidor como os Guides for the Jewelry, Precious Metals, and Pewter Industries da FTC norte-americana, e nas fichas de harmonizacao do LMHC; codigos de classificacao de associacoes de comercio sao taxonomia comercial e nao substituem a declaracao explicita do tratamento.",
+      "risk": "interpretacao",
+      "source": "CIBJO; U.S. FTC Jewelry Guides; LMHC",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-15-mapa-dos-tratamentos-e-a-regra-de-divulgacao.md"
+    },
+    {
+      "claim_id": "TRAT-DIV-004",
+      "claim": "Quando o tratamento altera o modo de limpar, consertar ou usar a joia, a informacao de cuidado integra a divulgacao.",
+      "risk": "interpretacao",
+      "source": "CIBJO Gemstone Blue Book; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-15-mapa-dos-tratamentos-e-a-regra-de-divulgacao.md"
+    },
+    {
+      "claim_id": "SIN-CAT-001",
+      "claim": "Sintetico, simulante, composito e tratado sao quatro categorias distintas: o sintetico tem a mesma composicao e estrutura da gema natural; o simulante e material diferente que apenas se parece; o composito e montado ou fundido a partir de mais de uma parte; e o tratado e gema natural com intervencao posterior.",
+      "risk": "nomenclatura",
+      "source": "CIBJO Gemstone Blue Book; GIA; U.S. FTC Jewelry Guides",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-16-rotas-de-sintese-e-suas-assinaturas.md"
+    },
+    {
+      "claim_id": "SIN-ROTA-001",
+      "claim": "As rotas de sintese se dividem em rotas de fusao (o material e derretido e recristaliza) e rotas de solucao (o material e dissolvido em sal fundido ou em agua quente sob pressao e cristaliza lentamente sobre uma semente); as de fusao sao rapidas e baratas e deixam assinaturas mais evidentes, enquanto as de solucao sao lentas e produzem material mais parecido com o natural.",
+      "risk": "mecanismo",
+      "source": "Nassau, Gems Made by Man; GIA; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-16-rotas-de-sintese-e-suas-assinaturas.md"
+    },
+    {
+      "claim_id": "SIN-FUS-001",
+      "claim": "A fusao de chama foi desenvolvida por Auguste Verneuil, e o rubi sintetico por esse processo entrou no comercio a partir de 1902; o processo produz uma massa cilindrica chamada bola (boule).",
+      "risk": "numero",
+      "source": "Nassau, Gems Made by Man; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-16-rotas-de-sintese-e-suas-assinaturas.md"
+    },
+    {
+      "claim_id": "SIN-FUS-002",
+      "claim": "As assinaturas da fusao de chama sao estrias de crescimento curvas, impossiveis em cristal natural (cujo crescimento segue faces planas e produz linhas retas e angulosas), e bolhas de gas esfericas ou alongadas.",
+      "risk": "mecanismo",
+      "source": "Gubelin & Koivula, Photoatlas of Inclusions in Gemstones; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-16-rotas-de-sintese-e-suas-assinaturas.md"
+    },
+    {
+      "claim_id": "SIN-FUS-003",
+      "claim": "O puxamento Czochralski produz corindon, YAG, GGG, alexandrita e forsterita sinteticos, em geral muito limpos; a fusao em cadinho frio (skull melting) colocou a zirconia cubica no mercado em volume a partir dos anos 1970.",
+      "risk": "numero",
+      "source": "Nassau, Gems Made by Man; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-16-rotas-de-sintese-e-suas-assinaturas.md"
+    },
+    {
+      "claim_id": "SIN-FLX-001",
+      "claim": "As assinaturas do crescimento por fluxo sao residuos de fundente aprisionados, em veus e filetes esbranquicados, e placas de platina desprendidas do cadinho; na esmeralda de fluxo, o indice de refracao e a densidade ficam abaixo da faixa natural.",
+      "risk": "mecanismo",
+      "source": "Gubelin & Koivula, Photoatlas; GIA, Gems & Gemology; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-16-rotas-de-sintese-e-suas-assinaturas.md"
+    },
+    {
+      "claim_id": "SIN-HID-001",
+      "claim": "As assinaturas do crescimento hidrotermal incluem o crescimento em espinha (chevron) no berilo, o plano de semente visivel e inclusoes bifasicas; a mesma rota produz o quartzo sintetico em escala industrial.",
+      "risk": "mecanismo",
+      "source": "Gubelin & Koivula, Photoatlas; GIA; Nassau, Gems Made by Man",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-16-rotas-de-sintese-e-suas-assinaturas.md"
+    },
+    {
+      "claim_id": "SIN-MET-001",
+      "claim": "A ausencia de assinatura de sintese nao constitui evidencia de origem natural: a identificacao de material sintetico se faz pela presenca de indicios, e material moderno de rota lenta pode ser limpo demais para o exame de bancada.",
+      "risk": "interpretacao",
+      "source": "GIA; Gem-A, Gemmology Foundation",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-16-rotas-de-sintese-e-suas-assinaturas.md"
+    },
+    {
+      "claim_id": "SIN-NOM-001",
+      "claim": "Os termos admitidos para material crescido em laboratorio sao 'sintetico', 'crescido em laboratorio' e 'criado em laboratorio', e o qualificativo deve vir imediatamente junto ao nome da gema e com igual destaque. Nao se aceita 'cultivado' para gema mineral (termo reservado a perola), nem 'semissintetico' ou 'genuino criado'; material sintetico tem produtor, e nao origem geografica.",
+      "risk": "nomenclatura",
+      "source": "CIBJO Gemstone Blue Book; U.S. FTC Jewelry Guides; LMHC",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-16-rotas-de-sintese-e-suas-assinaturas.md"
+    },
+    {
+      "claim_id": "IMI-VID-001",
+      "claim": "O vidro de gema e um solido amorfo e isotropico, com indice de refracao de cerca de 1,44 a 1,77 (comumente 1,5 a 1,6), densidade relativa de cerca de 2,3 a 4,5, dureza Mohs de 5 a 6 e baixa condutividade termica, o que o faz parecer morno ao toque.",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Gem-A, Gemmology Foundation; Webster, Gems",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-17-imitacoes-vidros-e-materiais-compostos.md"
+    },
+    {
+      "claim_id": "IMI-VID-002",
+      "claim": "As assinaturas do vidro sao bolhas de gas esfericas, marcas de fluxo em redemoinho (distintas das estrias curvas regulares da fusao de chama), arestas de faceta arredondadas por desgaste e marcas de molde.",
+      "risk": "mecanismo",
+      "source": "Gubelin & Koivula, Photoatlas of Inclusions in Gemstones; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-17-imitacoes-vidros-e-materiais-compostos.md"
+    },
+    {
+      "claim_id": "IMI-VID-003",
+      "claim": "O estrasse e vidro com chumbo, de alto brilho e alta densidade, associado ao nome de Georges Frederic Strass no seculo XVIII; a aventurina de vidro ('pedra do ouro') contem cristais de cobre precipitados e foi produzida em Veneza.",
+      "risk": "numero",
+      "source": "Webster, Gems; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-17-imitacoes-vidros-e-materiais-compostos.md"
+    },
+    {
+      "claim_id": "IMI-PLA-001",
+      "claim": "Os plasticos usados como imitacao de gema tem indice de refracao de cerca de 1,46 a 1,70, densidade relativa de cerca de 1,05 a 1,55 — abaixo de qualquer gema mineral — e dureza Mohs de cerca de 1,5 a 3; o teste do ponto quente e destrutivo.",
+      "risk": "numero",
+      "source": "Gem-A, Gemmology Foundation; Webster, Gems",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-17-imitacoes-vidros-e-materiais-compostos.md"
+    },
+    {
+      "claim_id": "IMI-COMP-001",
+      "claim": "Duplete e a pedra montada em duas partes e triplete a montada em tres. No duplete de granada, uma fatia fina de almandina e fundida sobre vidro colorido: a fatia fornece dureza e brilho e nao a cor, que vem do vidro; o tipo foi comum na joalheria dos seculos XIX e XX.",
+      "risk": "mecanismo",
+      "source": "Webster, Gems; GIA, Gems & Gemology; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-17-imitacoes-vidros-e-materiais-compostos.md"
+    },
+    {
+      "claim_id": "IMI-COMP-002",
+      "claim": "O exame de pedra montada procede pela cintura a lupa (linha de juncao, degrau, bolhas achatadas alinhadas), pela comparacao de brilho entre coroa e pavilhao, pela imersao com observacao lateral, pela iluminacao lateral e pelas bolhas achatadas no plano de cimento; o refratometro le apenas a superficie de contato e por isso e a ferramenta que mais falha nesse caso.",
+      "risk": "mecanismo",
+      "source": "Gem-A, Gemmology Foundation; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-17-imitacoes-vidros-e-materiais-compostos.md"
+    },
+    {
+      "claim_id": "IMI-COMP-003",
+      "claim": "Visto por tras ou em imersao, o duplete de granada revela um aro vermelho correspondente a fatia de almandina.",
+      "risk": "mecanismo",
+      "source": "Webster, Gems; Gem-A",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-17-imitacoes-vidros-e-materiais-compostos.md"
+    },
+    {
+      "claim_id": "IMI-FOL-001",
+      "claim": "Em joalheria antiga e comum o engaste fechado com folha metalica refletora atras da pedra, que intensifica cor e brilho, impede a observacao por tras e pode ocultar pedra palida ou pedra montada; um engaste fechado justifica declarar o exame como limitado pela montagem.",
+      "risk": "interpretacao",
+      "source": "Gem-A, Gemmology Foundation; GIA",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-17-imitacoes-vidros-e-materiais-compostos.md"
+    },
+    {
+      "claim_id": "IMI-REC-001",
+      "claim": "Material reconstituido — ambar prensado, turquesa e coral reconstituidos — consiste em fragmentos genuinos moidos e aglomerados com ligante, reconheciveis a lupa por contorno de graos, bolhas e ligante entre particulas; produtos inteiramente artificiais vendidos com nome de gema devem ser descritos como imitacao.",
+      "risk": "nomenclatura",
+      "source": "CIBJO Gemstone Blue Book; GIA; Webster, Gems",
+      "confidence": "confirmado",
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-17-imitacoes-vidros-e-materiais-compostos.md"
+    },
+    {
+      "claim_id": "SFE-EST-001",
+      "claim": "(rodada 3 - ver rodape da aula 18/19)",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; IMA-CNMNC; Webster; literatura primaria",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a18/a19",
+      "round": 3
+    },
+    {
+      "claim_id": "SFE-DISP-001",
+      "claim": "(rodada 3 - ver rodape da aula 18/19)",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; IMA-CNMNC; Webster; literatura primaria",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a18/a19",
+      "round": 3
+    },
+    {
+      "claim_id": "FDS-EST-001",
+      "claim": "(rodada 3 - ver rodape da aula 18/19)",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; IMA-CNMNC; Webster; literatura primaria",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a18/a19",
+      "round": 3
+    },
+    {
+      "claim_id": "FDS-VAR-001",
+      "claim": "(rodada 3 - ver rodape da aula 18/19)",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; IMA-CNMNC; Webster; literatura primaria",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a18/a19",
+      "round": 3
+    },
+    {
+      "claim_id": "FDS-AND-001",
+      "claim": "(rodada 3 - ver rodape da aula 18/19)",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; IMA-CNMNC; Webster; literatura primaria",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a18/a19",
+      "round": 3
+    },
+    {
+      "claim_id": "DAN-EST-001",
+      "claim": "(rodada 3 - ver rodape da aula 18/19)",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; IMA-CNMNC; Webster; literatura primaria",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a18/a19",
+      "round": 3
+    },
+    {
+      "claim_id": "DAN-MERC-001",
+      "claim": "(rodada 3 - ver rodape da aula 18/19)",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; IMA-CNMNC; Webster; literatura primaria",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a18/a19",
+      "round": 3
+    },
+    {
+      "claim_id": "APA-CONF-001",
+      "claim": "(rodada 3 - ver rodape da aula 18/19)",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; IMA-CNMNC; Webster; literatura primaria",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a18/a19",
+      "round": 3
+    },
+    {
+      "claim_id": "FLU-EST-001",
+      "claim": "(rodada 3 - ver rodape da aula 18/19)",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; IMA-CNMNC; Webster; literatura primaria",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a18/a19",
+      "round": 3
+    },
+    {
+      "claim_id": "FLU-USO-001",
+      "claim": "(rodada 3 - ver rodape da aula 18/19)",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; IMA-CNMNC; Webster; literatura primaria",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a18/a19",
+      "round": 3
+    },
+    {
+      "claim_id": "CIA-EST-001",
+      "claim": "(rodada 3 - ver rodape da aula 18/19)",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; IMA-CNMNC; Webster; literatura primaria",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a18/a19",
+      "round": 3
+    },
+    {
+      "claim_id": "CIA-DUR-001",
+      "claim": "(rodada 3 - ver rodape da aula 18/19)",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; IMA-CNMNC; Webster; literatura primaria",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a18/a19",
+      "round": 3
+    },
+    {
+      "claim_id": "DIO-EST-001",
+      "claim": "(rodada 3 - ver rodape da aula 18/19)",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; IMA-CNMNC; Webster; literatura primaria",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a18/a19",
+      "round": 3
+    },
+    {
+      "claim_id": "DIO-VAR-001",
+      "claim": "(rodada 3 - ver rodape da aula 18/19)",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; IMA-CNMNC; Webster; literatura primaria",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a18/a19",
+      "round": 3
+    },
+    {
+      "claim_id": "SCP-EST-001",
+      "claim": "(rodada 3 - ver rodape da aula 18/19)",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; IMA-CNMNC; Webster; literatura primaria",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a18/a19",
+      "round": 3
+    },
+    {
+      "claim_id": "SCP-VAR-001",
+      "claim": "(rodada 3 - ver rodape da aula 18/19)",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; IMA-CNMNC; Webster; literatura primaria",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a18/a19",
+      "round": 3
+    },
+    {
+      "claim_id": "BRZ-HIST-001",
+      "claim": "(rodada 3 - ver rodape da aula 18/19)",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; IMA-CNMNC; Webster; literatura primaria",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a18/a19",
+      "round": 3
+    },
+    {
+      "claim_id": "OUT-EST-001",
+      "claim": "(rodada 3 - ver rodape da aula 18/19)",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; IMA-CNMNC; Webster; literatura primaria",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a18/a19",
+      "round": 3
+    },
+    {
+      "claim_id": "OUT-SIN-001",
+      "claim": "(rodada 3 - ver rodape da aula 18/19)",
+      "risk": "numero",
+      "source": "GIA Gem Encyclopedia; Mindat; IMA-CNMNC; Webster; literatura primaria",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a18/a19",
+      "round": 3
+    },
+    {
+      "claim_id": "PRO-MMR-001",
+      "claim": "(rodada 4 - ver rodape da aula 20/21)",
+      "risk": "geografia/historico",
+      "source": "GIA Gems & Gemology; Hughes, Ruby & Sapphire; Giuliani et al.; CITES",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a20/a21",
+      "round": 4
+    },
+    {
+      "claim_id": "PRO-MMR-002",
+      "claim": "(rodada 4 - ver rodape da aula 20/21)",
+      "risk": "geografia/historico",
+      "source": "GIA Gems & Gemology; Hughes, Ruby & Sapphire; Giuliani et al.; CITES",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a20/a21",
+      "round": 4
+    },
+    {
+      "claim_id": "PRO-MMR-003",
+      "claim": "(rodada 4 - ver rodape da aula 20/21)",
+      "risk": "geografia/historico",
+      "source": "GIA Gems & Gemology; Hughes, Ruby & Sapphire; Giuliani et al.; CITES",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a20/a21",
+      "round": 4
+    },
+    {
+      "claim_id": "PRO-LKA-001",
+      "claim": "(rodada 4 - ver rodape da aula 20/21)",
+      "risk": "geografia/historico",
+      "source": "GIA Gems & Gemology; Hughes, Ruby & Sapphire; Giuliani et al.; CITES",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a20/a21",
+      "round": 4
+    },
+    {
+      "claim_id": "PRO-LKA-002",
+      "claim": "(rodada 4 - ver rodape da aula 20/21)",
+      "risk": "geografia/historico",
+      "source": "GIA Gems & Gemology; Hughes, Ruby & Sapphire; Giuliani et al.; CITES",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a20/a21",
+      "round": 4
+    },
+    {
+      "claim_id": "PRO-KSH-001",
+      "claim": "(rodada 4 - ver rodape da aula 20/21)",
+      "risk": "geografia/historico",
+      "source": "GIA Gems & Gemology; Hughes, Ruby & Sapphire; Giuliani et al.; CITES",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a20/a21",
+      "round": 4
+    },
+    {
+      "claim_id": "PRO-AFG-001",
+      "claim": "(rodada 4 - ver rodape da aula 20/21)",
+      "risk": "geografia/historico",
+      "source": "GIA Gems & Gemology; Hughes, Ruby & Sapphire; Giuliani et al.; CITES",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a20/a21",
+      "round": 4
+    },
+    {
+      "claim_id": "PRO-THA-001",
+      "claim": "(rodada 4 - ver rodape da aula 20/21)",
+      "risk": "geografia/historico",
+      "source": "GIA Gems & Gemology; Hughes, Ruby & Sapphire; Giuliani et al.; CITES",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a20/a21",
+      "round": 4
+    },
+    {
+      "claim_id": "PRO-MOZ-001",
+      "claim": "(rodada 4 - ver rodape da aula 20/21)",
+      "risk": "geografia/historico",
+      "source": "GIA Gems & Gemology; Hughes, Ruby & Sapphire; Giuliani et al.; CITES",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a20/a21",
+      "round": 4
+    },
+    {
+      "claim_id": "PRO-MDG-001",
+      "claim": "(rodada 4 - ver rodape da aula 20/21)",
+      "risk": "geografia/historico",
+      "source": "GIA Gems & Gemology; Hughes, Ruby & Sapphire; Giuliani et al.; CITES",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a20/a21",
+      "round": 4
+    },
+    {
+      "claim_id": "PRO-TZA-001",
+      "claim": "(rodada 4 - ver rodape da aula 20/21)",
+      "risk": "geografia/historico",
+      "source": "GIA Gems & Gemology; Hughes, Ruby & Sapphire; Giuliani et al.; CITES",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a20/a21",
+      "round": 4
+    },
+    {
+      "claim_id": "PRO-TZA-002",
+      "claim": "(rodada 4 - ver rodape da aula 20/21)",
+      "risk": "geografia/historico",
+      "source": "GIA Gems & Gemology; Hughes, Ruby & Sapphire; Giuliani et al.; CITES",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a20/a21",
+      "round": 4
+    },
+    {
+      "claim_id": "PRO-COL-001",
+      "claim": "(rodada 4 - ver rodape da aula 20/21)",
+      "risk": "geografia/historico",
+      "source": "GIA Gems & Gemology; Hughes, Ruby & Sapphire; Giuliani et al.; CITES",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a20/a21",
+      "round": 4
+    },
+    {
+      "claim_id": "PRO-ZMB-001",
+      "claim": "(rodada 4 - ver rodape da aula 20/21)",
+      "risk": "geografia/historico",
+      "source": "GIA Gems & Gemology; Hughes, Ruby & Sapphire; Giuliani et al.; CITES",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a20/a21",
+      "round": 4
+    },
+    {
+      "claim_id": "PRO-AUS-001",
+      "claim": "(rodada 4 - ver rodape da aula 20/21)",
+      "risk": "geografia/historico",
+      "source": "GIA Gems & Gemology; Hughes, Ruby & Sapphire; Giuliani et al.; CITES",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a20/a21",
+      "round": 4
+    },
+    {
+      "claim_id": "PRO-MET-001",
+      "claim": "(rodada 4 - ver rodape da aula 20/21)",
+      "risk": "geografia/historico",
+      "source": "GIA Gems & Gemology; Hughes, Ruby & Sapphire; Giuliani et al.; CITES",
+      "confidence": "confirmado",
+      "file": "gemologia-m03-a20/a21",
+      "round": 4
+    }
+  ],
+  "lesson_split": {
+    "split_at": "2026-08-27",
+    "reason": "Revisao didatica, achado laranja 3: a aula 13 carregava quatro especies independentes.",
+    "from": {
+      "file": "03-gemas-coradas/03-gemas-coradas-aula-13-zircao-tanzanita-espodumenio-e-iolita.md",
+      "lesson_id": "gemologia-m03-a13",
+      "objective": "gemologia-m03-oa13",
+      "claims": 12
+    },
+    "to": [
+      {
+        "file": "03-gemas-coradas/03-gemas-coradas-aula-13-quatro-fragilidades-parte-1-zircao-e-tanzanita.md",
+        "lesson_id": "gemologia-m03-a13",
+        "objective": "gemologia-m03-oa13",
+        "claims": [
+          "ZIR-NOM-001",
+          "ZIR-EST-001",
+          "ZIR-EST-002",
+          "ZIR-TRAT-001",
+          "TAN-ORIG-001",
+          "TAN-EST-001",
+          "TAN-TRAT-001"
+        ]
+      },
+      {
+        "file": "03-gemas-coradas/03-gemas-coradas-aula-14-quatro-fragilidades-parte-2-espodumenio-e-iolita.md",
+        "lesson_id": "gemologia-m03-a14",
+        "objective": "gemologia-m03-oa17",
+        "claims": [
+          "ESD-EST-001",
+          "ESD-HIST-001",
+          "ESD-TRAT-001",
+          "IOL-EST-001",
+          "IOL-HIST-001"
+        ]
+      }
+    ],
+    "renumbered": [
+      {
+        "from": "03-gemas-coradas/03-gemas-coradas-aula-14-mapa-dos-tratamentos-e-a-regra-de-divulgacao.md",
+        "to": "03-gemas-coradas/03-gemas-coradas-aula-15-mapa-dos-tratamentos-e-a-regra-de-divulgacao.md"
+      },
+      {
+        "from": "03-gemas-coradas/03-gemas-coradas-aula-15-rotas-de-sintese-e-suas-assinaturas.md",
+        "to": "03-gemas-coradas/03-gemas-coradas-aula-16-rotas-de-sintese-e-suas-assinaturas.md"
+      },
+      {
+        "from": "03-gemas-coradas/03-gemas-coradas-aula-16-imitacoes-vidros-e-materiais-compostos.md",
+        "to": "03-gemas-coradas/03-gemas-coradas-aula-17-imitacoes-vidros-e-materiais-compostos.md"
+      }
+    ],
+    "note": "Nenhuma alegacao foi criada, alterada ou descartada: as 12 alegacoes da antiga aula 13 foram PARTICIONADAS por especie entre as duas aulas novas (7 para a parte 1, 5 para a parte 2). Nenhum texto de especie foi reescrito. Os totais do resumo e o veredito permanecem validos. O exemplo trabalhado novo da parte 1 recombina exclusivamente valores ja verificados nesta auditoria (ZIR-EST-001, ZIR-EST-002, ZIR-TRAT-001, TAN-EST-001) e nao introduz alegacao nova."
+  },
+  "audited_at_rounds": [
+    "2026-08-25T00:00:00-03:00",
+    "2026-08-28T00:00:00-03:00",
+    "2026-08-28T00:00:00-03:00 (rodada 4)"
+  ],
+  "round3_note": "21 alegacoes das aulas 18-19 auditadas em 2026-08-28. FDS-AND-001 (andesina difundida com cobre) confirmada como controversia real, ja redigida como pergunta aberta - nao e pendencia. As aulas 20-21 (procedencias) aguardam a rodada 4.",
+  "round4_note": "16 alegacoes PRO-* das aulas 20-21 auditadas em 2026-08-28. 0 achado. Datas de deposito confirmadas: Montepuez maio/2009, Ilakaka 1998, Kashmir 1881-1888, tsavorita 1967/1970, Mahenge e Winza 2007. PRO-MET-001 (metodologia da determinacao de origem) confirmada como calibragem correta. Todas as 21 aulas do modulo agora auditadas."
+}

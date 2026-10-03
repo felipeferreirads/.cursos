@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "28-matematica-geociencias",
+    "module_id": "28",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-19",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 0,
+    "yellow": 0,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 18
+  },
+  "findings": [],
+  "verified_claims": [
+    {
+      "claim_id": "GEO-M28-A01-TRIG-BASICA-001",
+      "claim": "Seno, cosseno e tangente de um ângulo agudo de um triângulo retângulo são razões fixas entre os lados (oposto/hipotenusa, adjacente/hipotenusa, oposto/adjacente), independentes do tamanho do triângulo, e dependem apenas do ângulo.",
+      "source": "trigonometria plana básica, ensino médio",
+      "confidence": "confirmado",
+      "affected_files": ["28-matematica-geociencias-aula-01-trigonometria-em-campo.md"]
+    },
+    {
+      "claim_id": "GEO-M28-A01-MERGULHO-DEF-002",
+      "claim": "Mergulho verdadeiro é o ângulo de inclinação máxima de uma superfície, medido no plano vertical perpendicular à direção (strike); mergulho aparente é o ângulo de inclinação da mesma superfície medido em qualquer outro plano vertical, e é sempre menor ou igual ao mergulho verdadeiro.",
+      "source": "Rowland, Duebendorfer & Schiefelbein 2007, Structural Analysis and Synthesis, cap. 2; Davis, Reynolds & Kluth 2012, Structural Geology of Rocks and Regions, cap. 3; consistente com 17-geologia-estrutural-aula-06-mapas-e-secoes-estruturais-parte-1-atitude-e-padroes-de-afloramento.md",
+      "confidence": "confirmado",
+      "affected_files": ["28-matematica-geociencias-aula-01-trigonometria-em-campo.md"]
+    },
+    {
+      "claim_id": "GEO-M28-A01-FORMULA-APARENTE-003",
+      "claim": "A relação entre mergulho aparente e mergulho verdadeiro é tan(mergulho aparente) = tan(mergulho verdadeiro) × sen(α), onde α é o ângulo, medido em planta, entre a direção do corte de observação e a direção (strike) da superfície.",
+      "source": "stevedutch.net, Structural Geology - Find the Apparent Dip of a Plane; Rowland, Duebendorfer & Schiefelbein 2007; USGS Techniques and Methods 7-C28, An Apparent Dip Calculator for Spreadsheets",
+      "confidence": "confirmado",
+      "affected_files": ["28-matematica-geociencias-aula-01-trigonometria-em-campo.md"]
+    },
+    {
+      "claim_id": "GEO-M28-A01-ESPESSURA-004",
+      "claim": "Em terreno plano, com corte perpendicular à direção da camada, a espessura verdadeira (t) relaciona-se com a largura de afloramento medida horizontalmente (w) e o mergulho verdadeiro por t = w × sen(mergulho verdadeiro).",
+      "source": "Compton 1985, Geology in the Field; geometria descritiva aplicada a mapeamento geológico",
+      "confidence": "confirmado",
+      "affected_files": ["28-matematica-geociencias-aula-01-trigonometria-em-campo.md"]
+    },
+    {
+      "claim_id": "GEO-M28-A02-ESCALAR-VETOR-001",
+      "claim": "Uma grandeza escalar é completamente descrita por um número e uma unidade; uma grandeza vetorial exige adicionalmente direção e sentido para ser completamente descrita.",
+      "source": "física geral básica; álgebra vetorial elementar",
+      "confidence": "confirmado",
+      "affected_files": ["28-matematica-geociencias-aula-02-vetores.md"]
+    },
+    {
+      "claim_id": "GEO-M28-A02-DECOMPOSICAO-002",
+      "claim": "Um vetor de módulo F que faz ângulo θ com uma direção de referência tem componente F·cos(θ) ao longo dessa direção e componente F·sen(θ) perpendicular a ela.",
+      "source": "trigonometria aplicada a decomposição vetorial; física geral básica; consistente com 27-fisica-geociencias-aula-02-forca-massa-leis-de-newton.md",
+      "confidence": "confirmado",
+      "affected_files": ["28-matematica-geociencias-aula-02-vetores.md"]
+    },
+    {
+      "claim_id": "GEO-M28-A02-SOMA-VETORIAL-003",
+      "claim": "A soma de vetores não equivale, em geral, à soma aritmética de seus módulos; para vetores perpendiculares, o módulo do vetor resultante é dado pelo teorema de Pitágoras aplicado às componentes.",
+      "source": "álgebra vetorial elementar; geometria",
+      "confidence": "confirmado",
+      "affected_files": ["28-matematica-geociencias-aula-02-vetores.md"]
+    },
+    {
+      "claim_id": "GEO-M28-A02-ORIENTACAO-VETOR-004",
+      "claim": "A atitude de um plano geológico (direção e mergulho) pode ser representada matematicamente por um vetor unitário na orientação do polo do plano (perpendicular a ele), formalização usada em projeção estereográfica.",
+      "source": "Rowland, Duebendorfer & Schiefelbein 2007, Structural Analysis and Synthesis, cap. de projeção estereográfica",
+      "confidence": "provavel",
+      "affected_files": ["28-matematica-geociencias-aula-02-vetores.md"]
+    },
+    {
+      "claim_id": "GEO-M28-A03-DECAIMENTO-FORMULA-001",
+      "claim": "A lei do decaimento radioativo é N(t) = N0 · e^(-λt), onde N0 é a quantidade inicial de átomos-pai, λ é a constante de decaimento própria do isótopo e t é o tempo decorrido.",
+      "source": "física nuclear consolidada; Faure & Mensing 2005, Isotopes: Principles and Applications, cap. 1",
+      "confidence": "confirmado",
+      "affected_files": ["28-matematica-geociencias-aula-03-exponenciais-e-logaritmos.md"]
+    },
+    {
+      "claim_id": "GEO-M28-A03-LAMBDA-MEIA-VIDA-002",
+      "claim": "A constante de decaimento λ relaciona-se com a meia-vida T½ por λ = ln(2)/T½.",
+      "source": "física nuclear consolidada; Faure & Mensing 2005, Isotopes: Principles and Applications, cap. 1; consistente com 03-tempo-geologico-geocronologia-aula-04-meia-vida.md",
+      "confidence": "confirmado",
+      "affected_files": ["28-matematica-geociencias-aula-03-exponenciais-e-logaritmos.md"]
+    },
+    {
+      "claim_id": "GEO-M28-A03-LOGARITMO-DEF-003",
+      "claim": "O logaritmo é a operação inversa da exponenciação: log_b(x) = y se e somente se b^y = x.",
+      "source": "matemática elementar; definição padrão de logaritmo",
+      "confidence": "confirmado",
+      "affected_files": ["28-matematica-geociencias-aula-03-exponenciais-e-logaritmos.md"]
+    },
+    {
+      "claim_id": "GEO-M28-A03-FORMULA-IDADE-004",
+      "claim": "Isolando t na lei do decaimento, obtém-se t = -(1/λ)·ln(N/N0), válida para qualquer razão N/N0 entre 0 e 1, não apenas para potências inteiras de 1/2.",
+      "source": "álgebra elementar aplicada à lei do decaimento radioativo",
+      "confidence": "confirmado",
+      "affected_files": ["28-matematica-geociencias-aula-03-exponenciais-e-logaritmos.md"]
+    },
+    {
+      "claim_id": "GEO-M28-A03-MAGNITUDE-ESCALA-005",
+      "claim": "Na escala de magnitude sísmica, cada unidade inteira corresponde a um aumento de aproximadamente 10 vezes na amplitude registrada e de aproximadamente 31,6 vezes (10^1,5) na energia liberada; duas unidades correspondem a aproximadamente 1.000 vezes mais energia.",
+      "source": "USGS FAQ - Moment magnitude, Richter scale - what are the different magnitude scales; USGS - Earthquake Magnitude (pubs.usgs.gov/gip/earthq3/magnitude.html)",
+      "confidence": "confirmado",
+      "affected_files": ["28-matematica-geociencias-aula-03-exponenciais-e-logaritmos.md"]
+    },
+    {
+      "claim_id": "GEO-M28-A03-PHI-DEF-006",
+      "claim": "A escala phi (φ) de tamanho de grão sedimentar é definida como φ = -log2(diâmetro em milímetros), de modo que cada unidade de phi corresponde a uma duplicação ou redução à metade do diâmetro do grão.",
+      "source": "Krumbein 1934/1938 (definição original, φ = -log2(D/D0), D0 = 1 mm); Springer, Phi Scale; Geosciences LibreTexts, Grain Size",
+      "confidence": "confirmado",
+      "affected_files": ["28-matematica-geociencias-aula-03-exponenciais-e-logaritmos.md"]
+    },
+    {
+      "claim_id": "GEO-M28-A04-MEDIA-MEDIANA-001",
+      "claim": "A média é a soma dos valores de um conjunto dividida pela quantidade de valores e é sensível a valores extremos (outliers); a mediana é o valor central de um conjunto ordenado e é mais resistente a esses valores.",
+      "source": "estatística descritiva elementar",
+      "confidence": "confirmado",
+      "affected_files": ["28-matematica-geociencias-aula-04-estatistica-descritiva.md"]
+    },
+    {
+      "claim_id": "GEO-M28-A04-DESVIO-PADRAO-002",
+      "claim": "O desvio-padrão é calculado como a raiz quadrada da média dos quadrados dos desvios de cada valor em relação à média do conjunto (variância), expressando o espalhamento típico dos dados na mesma unidade da grandeza original.",
+      "source": "estatística descritiva elementar",
+      "confidence": "confirmado",
+      "affected_files": ["28-matematica-geociencias-aula-04-estatistica-descritiva.md"]
+    },
+    {
+      "claim_id": "GEO-M28-A04-INCERTEZA-DESVIO-003",
+      "claim": "A incerteza reportada como '±' em uma medição científica tipicamente corresponde ao desvio-padrão ou a um múltiplo declarado dele, e representa um intervalo de confiança, não uma garantia absoluta do valor verdadeiro.",
+      "source": "prática padrão de reporte de incerteza em ciências físicas; Faure & Mensing 2005, Isotopes: Principles and Applications",
+      "confidence": "confirmado",
+      "affected_files": ["28-matematica-geociencias-aula-04-estatistica-descritiva.md"]
+    },
+    {
+      "claim_id": "GEO-M28-A04-COMPARAR-FAIXAS-004",
+      "claim": "Para avaliar se duas medições com incerteza são estatisticamente compatíveis, deve-se comparar as faixas definidas pelo valor central mais/menos a incerteza, e não apenas os valores centrais isoladamente.",
+      "source": "princípio padrão de comparação de medidas com incerteza; Dickin 2005, Radiogenic Isotope Geology",
+      "confidence": "confirmado",
+      "affected_files": ["28-matematica-geociencias-aula-04-estatistica-descritiva.md"]
+    },
+    {
+      "claim_id": "GEO-M28-A04-PRECISAO-NAO-EXATIDAO-005",
+      "claim": "Um desvio-padrão pequeno indica alta precisão (repetibilidade), mas não garante exatidão (proximidade do valor verdadeiro), já que erros sistemáticos podem produzir medições precisas e inexatas ao mesmo tempo.",
+      "source": "retomada de 27-fisica-geociencias-aula-01-grandezas-unidades-e-medida.md; princípio consolidado de metrologia",
+      "confidence": "confirmado",
+      "affected_files": ["28-matematica-geociencias-aula-04-estatistica-descritiva.md"]
+    }
+  ],
+  "cross_module_checks": [
+    {
+      "against": "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-04-meia-vida.md",
+      "result": "sem contradição",
+      "note": "meia-vida do potássio-40 (~1,25 Ga) e vocabulário (razão pai/filho, sistema fechado) usados de forma idêntica; aula 03 do módulo 28 entrega a lacuna deixada explicitamente em aberto naquela aula (fórmula geral com logaritmo)"
+    },
+    {
+      "against": "17-geologia-estrutural/17-geologia-estrutural-aula-06-mapas-e-secoes-estruturais-parte-1-atitude-e-padroes-de-afloramento.md",
+      "result": "sem contradição",
+      "note": "definições de direção (strike) e mergulho (dip) idênticas; regra do V tratada como complementar (qualitativa lá, quantitativa aqui), não redundante"
+    },
+    {
+      "against": "27-fisica-geociencias/27-fisica-geociencias-aula-01-grandezas-unidades-e-medida.md",
+      "result": "sem contradição",
+      "note": "distinção precisão/exatidão reutilizada sem alteração"
+    },
+    {
+      "against": "27-fisica-geociencias/27-fisica-geociencias-aula-02-forca-massa-leis-de-newton.md",
+      "result": "sem contradição",
+      "note": "decomposição do peso num talude formalizada com o mesmo ângulo e a mesma lógica geométrica"
+    },
+    {
+      "against": "26-quimica-geociencias/26-quimica-geociencias-aula-03-solucoes-concentracao-ph.md",
+      "result": "sem contradição",
+      "note": "pH citado como exemplo de escala logarítmica sem repetir a explicação já dada"
+    }
+  ],
+  "corrections_applied": []
+}

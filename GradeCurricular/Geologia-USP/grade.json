@@ -1,0 +1,866 @@
+[
+  {
+    "codigo": "0440100",
+    "nome": "Geologia Geral - Sistema Terra",
+    "categoria": "Obrigatoria",
+    "periodo": 1
+  },
+  {
+    "codigo": "BIO0103",
+    "nome": "Biologia Evolutiva",
+    "categoria": "Obrigatoria",
+    "periodo": 1
+  },
+  {
+    "codigo": "MAE0116",
+    "nome": "Noções de Estatística",
+    "categoria": "Obrigatoria",
+    "periodo": 1
+  },
+  {
+    "codigo": "MAT0105",
+    "nome": "Geometria Analítica",
+    "categoria": "Obrigatoria",
+    "periodo": 1
+  },
+  {
+    "codigo": "MAT2453",
+    "nome": "Cálculo Diferencial e Integral I",
+    "categoria": "Obrigatoria",
+    "periodo": 1
+  },
+  {
+    "codigo": "QFL0605",
+    "nome": "Química Geral",
+    "categoria": "Obrigatoria",
+    "periodo": 1
+  },
+  {
+    "codigo": "4300152",
+    "nome": "Introdução às Medidas em Física",
+    "categoria": "Obrigatoria",
+    "periodo": 2
+  },
+  {
+    "codigo": "4310192",
+    "nome": "Mecânica",
+    "categoria": "Obrigatoria",
+    "periodo": 2
+  },
+  {
+    "codigo": "GMG0106",
+    "nome": "Cristalografia Fundamental",
+    "categoria": "Obrigatoria",
+    "periodo": 2
+  },
+  {
+    "codigo": "MAT2454",
+    "nome": "Cálculo Diferencial e Integral II",
+    "categoria": "Obrigatoria",
+    "periodo": 2
+  },
+  {
+    "codigo": "QFL0404",
+    "nome": "Físico - Química IV",
+    "categoria": "Obrigatoria",
+    "periodo": 2
+  },
+  {
+    "codigo": "0440220",
+    "nome": "Geoquímica",
+    "categoria": "Obrigatoria",
+    "periodo": 3
+  },
+  {
+    "codigo": "0440221",
+    "nome": "Geoprocessamento",
+    "categoria": "Obrigatoria",
+    "periodo": 3
+  },
+  {
+    "codigo": "4300270",
+    "nome": "Eletricidade e Magnetismo I",
+    "categoria": "Obrigatoria",
+    "periodo": 3
+  },
+  {
+    "codigo": "GAA0240",
+    "nome": "Paleontologia",
+    "categoria": "Obrigatoria",
+    "periodo": 3
+  },
+  {
+    "codigo": "GAA0252",
+    "nome": "Sedimentologia",
+    "categoria": "Obrigatoria",
+    "periodo": 3
+  },
+  {
+    "codigo": "GMG0220",
+    "nome": "Mineralogia",
+    "categoria": "Obrigatoria",
+    "periodo": 3
+  },
+  {
+    "codigo": "MAP0125",
+    "nome": "Cálculo Numérico para Geociências",
+    "categoria": "Obrigatoria",
+    "periodo": 3
+  },
+  {
+    "codigo": "0440222",
+    "nome": "Geomorfologia e Fotogeologia",
+    "categoria": "Obrigatoria",
+    "periodo": 4
+  },
+  {
+    "codigo": "4300357",
+    "nome": "Oscilações e Ondas",
+    "categoria": "Obrigatoria",
+    "periodo": 4
+  },
+  {
+    "codigo": "GAA0304",
+    "nome": "Mapeamento Geológico de Terrenos Sedimentares",
+    "categoria": "Obrigatoria",
+    "periodo": 4
+  },
+  {
+    "codigo": "PCC2110",
+    "nome": "Desenho para Geologia",
+    "categoria": "Obrigatoria",
+    "periodo": 4
+  },
+  {
+    "codigo": "PTR0201",
+    "nome": "Topografia Geral",
+    "categoria": "Obrigatoria",
+    "periodo": 4
+  },
+  {
+    "codigo": "GAA0301",
+    "nome": "Recursos Energéticos",
+    "categoria": "Obrigatoria",
+    "periodo": null
+  },
+  {
+    "codigo": "GAA0307",
+    "nome": "Estratigrafia",
+    "categoria": "Obrigatoria",
+    "periodo": 5
+  },
+  {
+    "codigo": "GMG0331",
+    "nome": "Petrologia Ígnea",
+    "categoria": "Obrigatoria",
+    "periodo": 5
+  },
+  {
+    "codigo": "GMG0337",
+    "nome": "Geologia Estrutural I: Regimes Rúpteis e Deformação",
+    "categoria": "Obrigatoria",
+    "periodo": 5
+  },
+  {
+    "codigo": "GAA0308",
+    "nome": "Geofísica Aplicada",
+    "categoria": "Obrigatoria",
+    "periodo": 6
+  },
+  {
+    "codigo": "GAA0401",
+    "nome": "Sensoriamento Remoto",
+    "categoria": "Obrigatoria",
+    "periodo": 6
+  },
+  {
+    "codigo": "GMG0332",
+    "nome": "Petrologia Metamórfica",
+    "categoria": "Obrigatoria",
+    "periodo": 6
+  },
+  {
+    "codigo": "GMG0338",
+    "nome": "Geologia Estrutural II: Regimes Dúcteis",
+    "categoria": "Obrigatoria",
+    "periodo": 6
+  },
+  {
+    "codigo": "PEF0514",
+    "nome": "Elementos de Geomecanica",
+    "categoria": "Obrigatoria",
+    "periodo": 6
+  },
+  {
+    "codigo": "0440335",
+    "nome": "Estágio Supervisionado em Geociências",
+    "categoria": "Obrigatoria",
+    "periodo": 7
+  },
+  {
+    "codigo": "GAA0417",
+    "nome": "Gênese de Depósitos Minerais",
+    "categoria": "Obrigatoria",
+    "periodo": 7
+  },
+  {
+    "codigo": "GAA0418",
+    "nome": "Geologia Econômica",
+    "categoria": "Obrigatoria",
+    "periodo": null
+  },
+  {
+    "codigo": "GAA0419",
+    "nome": "Geologia de Engenharia",
+    "categoria": "Obrigatoria",
+    "periodo": 7
+  },
+  {
+    "codigo": "GMG0401",
+    "nome": "Mapeamento Geológico",
+    "categoria": "Obrigatoria",
+    "periodo": 7
+  },
+  {
+    "codigo": "GMG0402",
+    "nome": "Geotectônica",
+    "categoria": "Obrigatoria",
+    "periodo": 7
+  },
+  {
+    "codigo": "GMG0409",
+    "nome": "Geologia Histórica e do Brasil - Pré-Cambriano",
+    "categoria": "Obrigatoria",
+    "periodo": 7
+  },
+  {
+    "codigo": "GAA0312",
+    "nome": "Hidrogeologia e Recursos Hídricos",
+    "categoria": "Obrigatoria",
+    "periodo": null
+  },
+  {
+    "codigo": "GAA0404",
+    "nome": "Avaliação de Recursos Minerais",
+    "categoria": "Obrigatoria",
+    "periodo": 8
+  },
+  {
+    "codigo": "GAA0405",
+    "nome": "Exploração Mineral",
+    "categoria": "Obrigatoria",
+    "periodo": 8
+  },
+  {
+    "codigo": "GAA0406",
+    "nome": "Geologia Histórica e do Brasil - Fanerozóico",
+    "categoria": "Obrigatoria",
+    "periodo": 8
+  },
+  {
+    "codigo": "0440500",
+    "nome": "Trabalho de Formatura",
+    "categoria": "Obrigatoria",
+    "periodo": null
+  },
+  {
+    "codigo": "ACA0115",
+    "nome": "Introdução às Ciências Atmosféricas",
+    "categoria": "Optativa Livre",
+    "periodo": 1
+  },
+  {
+    "codigo": "AGA0106",
+    "nome": "Astronomia de Posição",
+    "categoria": "Optativa Livre",
+    "periodo": 1
+  },
+  {
+    "codigo": "GAA0103",
+    "nome": "Recursos Minerais e Desenvolvimento Socioeconômico",
+    "categoria": "Optativa Livre",
+    "periodo": 1
+  },
+  {
+    "codigo": "IOB0100",
+    "nome": "Fundamentos de Oceanografia Biológica",
+    "categoria": "Optativa Livre",
+    "periodo": 1
+  },
+  {
+    "codigo": "AGA0316",
+    "nome": "A Vida no Contexto Cósmico",
+    "categoria": "Optativa Livre",
+    "periodo": 2
+  },
+  {
+    "codigo": "GAA0104",
+    "nome": "Recursos Hídricos Subterrâneos e o Enfrentamento das Mudanças Climáticas Globais",
+    "categoria": "Optativa Livre",
+    "periodo": 2
+  },
+  {
+    "codigo": "MAC0115",
+    "nome": "Introdução à Computação para Ciências Exatas e Tecnologia",
+    "categoria": "Optativa Livre",
+    "periodo": 2
+  },
+  {
+    "codigo": "0440203",
+    "nome": "Leitura crítica de artigos científicos em Geociências",
+    "categoria": "Optativa Livre",
+    "periodo": 3
+  },
+  {
+    "codigo": "ACA0223",
+    "nome": "Climatologia I",
+    "categoria": "Optativa Livre",
+    "periodo": 3
+  },
+  {
+    "codigo": "GAA0289",
+    "nome": "Geologia dos Terrenos Cársticos",
+    "categoria": "Optativa Livre",
+    "periodo": 3
+  },
+  {
+    "codigo": "GAA0291",
+    "nome": "Palinologia de Quaternário",
+    "categoria": "Optativa Livre",
+    "periodo": 3
+  },
+  {
+    "codigo": "GMG0201",
+    "nome": "Geoconservação\te Geoética",
+    "categoria": "Optativa Livre",
+    "periodo": 3
+  },
+  {
+    "codigo": "GMG0203",
+    "nome": "Mineralogia Aplicada",
+    "categoria": "Optativa Livre",
+    "periodo": 3
+  },
+  {
+    "codigo": "GMG0333",
+    "nome": "Introdução ao Magnetismo de Rocha",
+    "categoria": "Optativa Livre",
+    "periodo": 3
+  },
+  {
+    "codigo": "GMG0425",
+    "nome": "Técnicas Gemológicas",
+    "categoria": "Optativa Livre",
+    "periodo": 3
+  },
+  {
+    "codigo": "GMG0490",
+    "nome": "Princípios de Interpretação da Geodiversidade",
+    "categoria": "Optativa Livre",
+    "periodo": 3
+  },
+  {
+    "codigo": "IOF0201",
+    "nome": "Fundamentos de Oceanografia Fisica",
+    "categoria": "Optativa Livre",
+    "periodo": 3
+  },
+  {
+    "codigo": "IOF0210",
+    "nome": "Introdução à Dinâmica da Atmosfera e dos Oceanos",
+    "categoria": "Optativa Livre",
+    "periodo": 3
+  },
+  {
+    "codigo": "IOF0235",
+    "nome": "Micropaleontologia Marinha",
+    "categoria": "Optativa Livre",
+    "periodo": 3
+  },
+  {
+    "codigo": "IOF0255",
+    "nome": "Oceanografia Por Satélites",
+    "categoria": "Optativa Livre",
+    "periodo": 3
+  },
+  {
+    "codigo": "0440202",
+    "nome": "Projetos de Pesquisa em Geociências e Educação Ambiental",
+    "categoria": "Optativa Livre",
+    "periodo": 4
+  },
+  {
+    "codigo": "AGG0110",
+    "nome": "Elementos de Geofísica",
+    "categoria": "Optativa Livre",
+    "periodo": 4
+  },
+  {
+    "codigo": "AGG0209",
+    "nome": "Introdução à Petrofísica",
+    "categoria": "Optativa Livre",
+    "periodo": 4
+  },
+  {
+    "codigo": "GAA0200",
+    "nome": "Introdução à Análise de Dados em Geologia Sedimentar",
+    "categoria": "Optativa Livre",
+    "periodo": 4
+  },
+  {
+    "codigo": "GAA0202",
+    "nome": "Geoquímica Ambiental e Forense",
+    "categoria": "Optativa Livre",
+    "periodo": 4
+  },
+  {
+    "codigo": "GAA0204",
+    "nome": "Processos Hidrotermais em Reservatórios Carbonáticos",
+    "categoria": "Optativa Livre",
+    "periodo": 4
+  },
+  {
+    "codigo": "GAA0208",
+    "nome": "Astrobiologia - Estudando a Vida no Universo",
+    "categoria": "Optativa Livre",
+    "periodo": 4
+  },
+  {
+    "codigo": "GMG0202",
+    "nome": "Geologia Histórica e Tempo Geológico",
+    "categoria": "Optativa Livre",
+    "periodo": 4
+  },
+  {
+    "codigo": "GMG0404",
+    "nome": "Geologia Isotópica Aplicada",
+    "categoria": "Optativa Livre",
+    "periodo": 4
+  },
+  {
+    "codigo": "IOF0237",
+    "nome": "Ondas no Mar",
+    "categoria": "Optativa Livre",
+    "periodo": 4
+  },
+  {
+    "codigo": "IOF0248",
+    "nome": "Química dos Estuários",
+    "categoria": "Optativa Livre",
+    "periodo": 4
+  },
+  {
+    "codigo": "AGA0215",
+    "nome": "Fundamentos de Astronomia",
+    "categoria": "Optativa Livre",
+    "periodo": 5
+  },
+  {
+    "codigo": "AGA0502",
+    "nome": "Planetas e Sistemas Planetários",
+    "categoria": "Optativa Livre",
+    "periodo": 5
+  },
+  {
+    "codigo": "FLG0253",
+    "nome": "Climatologia I",
+    "categoria": "Optativa Livre",
+    "periodo": 5
+  },
+  {
+    "codigo": "GAA0305",
+    "nome": "Geobiologia",
+    "categoria": "Optativa Livre",
+    "periodo": 5
+  },
+  {
+    "codigo": "GAA0311",
+    "nome": "Geoquímica Orgânica",
+    "categoria": "Optativa Livre",
+    "periodo": 5
+  },
+  {
+    "codigo": "GAA0335",
+    "nome": "Vulcanismo e Mineralizações Associadas",
+    "categoria": "Optativa Livre",
+    "periodo": 5
+  },
+  {
+    "codigo": "GMG0303",
+    "nome": "Educação Patrimonial em Ambientes Naturais e Construídos",
+    "categoria": "Optativa Livre",
+    "periodo": 5
+  },
+  {
+    "codigo": "GMG0305",
+    "nome": "Petrologia dos kimberlitos e carbonatitos, e mineralizações associadas",
+    "categoria": "Optativa Livre",
+    "periodo": 5
+  },
+  {
+    "codigo": "GMG0307",
+    "nome": "Petrologia de Intrusões Acamadadas e processos ígneos de mineralização",
+    "categoria": "Optativa Livre",
+    "periodo": 5
+  },
+  {
+    "codigo": "GMG0309",
+    "nome": "Mapeamento da Geodiversidade",
+    "categoria": "Optativa Livre",
+    "periodo": 5
+  },
+  {
+    "codigo": "IPN0004",
+    "nome": "Introdução à Gerência de Rejeitos Radioativos",
+    "categoria": "Optativa Livre",
+    "periodo": 5
+  },
+  {
+    "codigo": "IPN0005",
+    "nome": "Tratamento de Água para Fins Industriais",
+    "categoria": "Optativa Livre",
+    "periodo": 5
+  },
+  {
+    "codigo": "IPN0024",
+    "nome": "Física dos Materiais Estruturais",
+    "categoria": "Optativa Livre",
+    "periodo": 5
+  },
+  {
+    "codigo": "4300375",
+    "nome": "Física Moderna I",
+    "categoria": "Optativa Livre",
+    "periodo": 6
+  },
+  {
+    "codigo": "AGA0309",
+    "nome": "Mecânica Celeste",
+    "categoria": "Optativa Livre",
+    "periodo": 6
+  },
+  {
+    "codigo": "AGA0315",
+    "nome": "Astrofísica de Altas Energias",
+    "categoria": "Optativa Livre",
+    "periodo": 6
+  },
+  {
+    "codigo": "GAA0300",
+    "nome": "Aquisição de Dados Digitais e Inteligência Artificial em Geociências",
+    "categoria": "Optativa Livre",
+    "periodo": 6
+  },
+  {
+    "codigo": "GAA0306",
+    "nome": "Granitos no Ciclo de Wilson",
+    "categoria": "Optativa Livre",
+    "periodo": 6
+  },
+  {
+    "codigo": "GAA0324",
+    "nome": "Mineração e O Meio Ambiente",
+    "categoria": "Optativa Livre",
+    "periodo": 6
+  },
+  {
+    "codigo": "GAA0342",
+    "nome": "Petrografia e Diagênese de Rochas Sedimentares",
+    "categoria": "Optativa Livre",
+    "periodo": 6
+  },
+  {
+    "codigo": "GAA0407",
+    "nome": "Sistemas Hidrotermais e Metalogênese",
+    "categoria": "Optativa Livre",
+    "periodo": 6
+  },
+  {
+    "codigo": "GAA0602",
+    "nome": "Introdução à Geoestatística",
+    "categoria": "Optativa Livre",
+    "periodo": 6
+  },
+  {
+    "codigo": "GMG0304",
+    "nome": "Pegmatitos: da gênese à exploração",
+    "categoria": "Optativa Livre",
+    "periodo": 6
+  },
+  {
+    "codigo": "GMG0306",
+    "nome": "Rochas ígneas alcalinas: petrologia e mineralizações",
+    "categoria": "Optativa Livre",
+    "periodo": 6
+  },
+  {
+    "codigo": "MZC0013",
+    "nome": "As Ordens de Malacostraca (crustacea) Morfologia Comparada, Sistemática, Biologia",
+    "categoria": "Optativa Livre",
+    "periodo": 6
+  },
+  {
+    "codigo": "0440407",
+    "nome": "Geologia do Espinhaço",
+    "categoria": "Optativa Livre",
+    "periodo": 7
+  },
+  {
+    "codigo": "0440493",
+    "nome": "Redação Técnico-Científica em Geociências",
+    "categoria": "Optativa Livre",
+    "periodo": 7
+  },
+  {
+    "codigo": "4300376",
+    "nome": "Física Moderna II",
+    "categoria": "Optativa Livre",
+    "periodo": 7
+  },
+  {
+    "codigo": "ACA0245",
+    "nome": "Biometeorologia",
+    "categoria": "Optativa Livre",
+    "periodo": 7
+  },
+  {
+    "codigo": "ACA0330",
+    "nome": "Introdução à Eletricidade Atmosférica",
+    "categoria": "Optativa Livre",
+    "periodo": 7
+  },
+  {
+    "codigo": "ACA0410",
+    "nome": "Introdução à Química Atmosférica",
+    "categoria": "Optativa Livre",
+    "periodo": 7
+  },
+  {
+    "codigo": "GAA0393",
+    "nome": "Geologia do Quaternário",
+    "categoria": "Optativa Livre",
+    "periodo": 7
+  },
+  {
+    "codigo": "GAA0408",
+    "nome": "Introdução à Aerogeofísica",
+    "categoria": "Optativa Livre",
+    "periodo": 7
+  },
+  {
+    "codigo": "GAA0411",
+    "nome": "Fundamentos e Aplicações de Machine Learning em Geociências",
+    "categoria": "Optativa Livre",
+    "periodo": 7
+  },
+  {
+    "codigo": "GAA0413",
+    "nome": "Modelagem Geológica 3D",
+    "categoria": "Optativa Livre",
+    "periodo": 7
+  },
+  {
+    "codigo": "GAA0415",
+    "nome": "Geotecnia Ambiental",
+    "categoria": "Optativa Livre",
+    "periodo": 7
+  },
+  {
+    "codigo": "GAA0425",
+    "nome": "Pedologia Aplicada",
+    "categoria": "Optativa Livre",
+    "periodo": 7
+  },
+  {
+    "codigo": "GAA0463",
+    "nome": "Geologia do Petróleo",
+    "categoria": "Optativa Livre",
+    "periodo": 7
+  },
+  {
+    "codigo": "GAA0477",
+    "nome": "Tectônica de Bacias Sedimentares",
+    "categoria": "Optativa Livre",
+    "periodo": 7
+  },
+  {
+    "codigo": "GAA0603",
+    "nome": "Modelagem Geoestatística de Depósitos Minerais",
+    "categoria": "Optativa Livre",
+    "periodo": 7
+  },
+  {
+    "codigo": "GMG0405",
+    "nome": "Mecânica de Rochas",
+    "categoria": "Optativa Livre",
+    "periodo": 7
+  },
+  {
+    "codigo": "GMG0411",
+    "nome": "Introdução à Petrocronologia",
+    "categoria": "Optativa Livre",
+    "periodo": 7
+  },
+  {
+    "codigo": "GMG0415",
+    "nome": "Análise Textural de Rochas: Técnicas e Aplicações",
+    "categoria": "Optativa Livre",
+    "periodo": 7
+  },
+  {
+    "codigo": "GMG0481",
+    "nome": "Análise Instrumental I",
+    "categoria": "Optativa Livre",
+    "periodo": 7
+  },
+  {
+    "codigo": "GMG0484",
+    "nome": "Microscopia de Minérios",
+    "categoria": "Optativa Livre",
+    "periodo": 7
+  },
+  {
+    "codigo": "0440494",
+    "nome": "Modelos Aplicados em Exploração Mineral",
+    "categoria": "Optativa Livre",
+    "periodo": 8
+  },
+  {
+    "codigo": "ACA0415",
+    "nome": "O Clima da Terra: Processos, Mudanças e Impactos",
+    "categoria": "Optativa Livre",
+    "periodo": 8
+  },
+  {
+    "codigo": "AGG0431",
+    "nome": "Geofísica da América do Sul",
+    "categoria": "Optativa Livre",
+    "periodo": 8
+  },
+  {
+    "codigo": "AGG0700",
+    "nome": "Geofísica Marinha e de Bacias Sedimentares",
+    "categoria": "Optativa Livre",
+    "periodo": 8
+  },
+  {
+    "codigo": "GAA0402",
+    "nome": "Geofísica Aplicada na Exploração Mineral",
+    "categoria": "Optativa Livre",
+    "periodo": 8
+  },
+  {
+    "codigo": "GAA0409",
+    "nome": "Geociências e Meio Ambiente",
+    "categoria": "Optativa Livre",
+    "periodo": 8
+  },
+  {
+    "codigo": "GAA0410",
+    "nome": "Estudos Integrados - Projetos em Geologia Aplicada",
+    "categoria": "Optativa Livre",
+    "periodo": 8
+  },
+  {
+    "codigo": "GAA0412",
+    "nome": "Geologia Ambiental",
+    "categoria": "Optativa Livre",
+    "periodo": 8
+  },
+  {
+    "codigo": "GAA0442",
+    "nome": "Metodologia de Mapeamento Geotécnico",
+    "categoria": "Optativa Livre",
+    "periodo": 8
+  },
+  {
+    "codigo": "GAA0476",
+    "nome": "Sismoestratigrafia",
+    "categoria": "Optativa Livre",
+    "periodo": 8
+  },
+  {
+    "codigo": "GMG0410",
+    "nome": "Introdução à Modelagem Numérica Geodinâmica",
+    "categoria": "Optativa Livre",
+    "periodo": 8
+  },
+  {
+    "codigo": "GMG0488",
+    "nome": "Geologia Estrutural Aplicada",
+    "categoria": "Optativa Livre",
+    "periodo": 8
+  },
+  {
+    "codigo": "IOF0268",
+    "nome": "Aspectos Geológicos do Litoral e da Plataforma Continental do Estado de São Paulo",
+    "categoria": "Optativa Livre",
+    "periodo": 8
+  },
+  {
+    "codigo": "IOF0270",
+    "nome": "Massas de Àgua e Frentes Oceânicas",
+    "categoria": "Optativa Livre",
+    "periodo": 8
+  },
+  {
+    "codigo": "IOF0272",
+    "nome": "Aplicação de Foraminíferos na Avaliação da Qualidade Ambiental em Regiões Costeiras e Oceânicas",
+    "categoria": "Optativa Livre",
+    "periodo": 8
+  },
+  {
+    "codigo": "FLG0335",
+    "nome": "Geografia dos Recursos Naturais",
+    "categoria": "Optativa Livre",
+    "periodo": 9
+  },
+  {
+    "codigo": "GAA0421",
+    "nome": "Contaminação dos recursos hídricos subterrâneos",
+    "categoria": "Optativa Livre",
+    "periodo": 9
+  },
+  {
+    "codigo": "GAA0423",
+    "nome": "Hidrogeoquímica",
+    "categoria": "Optativa Livre",
+    "periodo": 9
+  },
+  {
+    "codigo": "GAA0501",
+    "nome": "Petrografia de Minério",
+    "categoria": "Optativa Livre",
+    "periodo": 9
+  },
+  {
+    "codigo": "GAA0519",
+    "nome": "Geofísica Aplicada ao Estudo de Poluição Subterrânea",
+    "categoria": "Optativa Livre",
+    "periodo": 9
+  },
+  {
+    "codigo": "PRO2208",
+    "nome": "Introdução à Economia",
+    "categoria": "Optativa Livre",
+    "periodo": 9
+  },
+  {
+    "codigo": "GAA0441",
+    "nome": "Exploração, explotação e gerenciamento dos recursos hídricos subterrâneos",
+    "categoria": "Optativa Livre",
+    "periodo": 10
+  },
+  {
+    "codigo": "IOF0267",
+    "nome": "Metodologias de Estudo de Testemunhos Marinhos",
+    "categoria": "Optativa Livre",
+    "periodo": 10
+  },
+  {
+    "codigo": "PMI2024",
+    "nome": "Economia Mineral II",
+    "categoria": "Optativa Livre",
+    "periodo": 10
+  }
+]

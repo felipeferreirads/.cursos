@@ -1,0 +1,306 @@
+# 14 - Earthquakes Explained.txt
+Video ID: WNvAic8KLb0
+Lang: en
+URL: https://www.youtube.com/watch?v=WNvAic8KLb0
+
+---
+
+Earthquake!
+&gt;&gt; The word alone can paint intense
+pictures. Giant cracks splitting the
+ground open, swallowing cars and
+buildings, the after effects of
+tsunamis, landslides, and fires. Scary
+stuff. Some earthquakes are strong
+enough to be deadly. But of the roughly
+1 million detectable quakes that shake
+our planet every year, most are too mild
+to rattle even a teacup.
+So, can we predict the bad ones? Hi, I'm
+Sage, and this is CrashCourse Geology.
+Let's start with a simple question.
+What's an earthquake? Basically, it's
+any sudden shaking of the ground caused
+by waves of energy in the Earth. That
+energy can come from landslides,
+churning magma, or even meteorite
+impacts. But usually, an earthquake is
+the fault of
+a fault.
+No, wait. Not like The Fault in Our
+Stars.
+Faults are underground cracks in Earth's
+crust where blocks of rock slide and
+scrape against each other. They can
+range from thousands of kilometers long
+to smaller than your fingernail. It's no
+coincidence that some of the most active
+earthquake-prone faults sit at the edges
+of tectonic plates, those massive slabs
+of crust and bits of upper mantle that
+surf atop the lower mantle. Tectonic
+plates are moving all the time, very
+slowly. This movement puts stress on the
+rock within Earth's crust. As stress
+builds, it causes strain or physical
+changes to that rock, pushing it,
+pulling it, or shearing it. Some
+movement along the fault happens at such
+tiny, steady creep that there's not
+enough energy to generate an earthquake.
+But under great stress, brittle rocks in
+the crust can bend only so far before
+something's got to give. One side of the
+fault slips against the other, and all
+that pent-up energy breaks loose. That
+energy rolls out in waves that jiggles
+the ground, sometimes drastically
+changing the surface. That's an
+earthquake. It's basically rock stress
+relief. It's good to shake it off
+sometimes, right Dwayne?
+But if most earthquakes are so mild we
+can't even feel them, how do we know
+they're happening?
+For that, we turn to seismologists,
+geologists who specialize in studying
+seismic waves, the energy that's
+unleashed after a slip and breakage on a
+fault. Seismologists use GPS, radar
+satellites, and super sensitive machines
+called seismographs to detect and
+analyze these waves as they travel
+underground. Global networks of these
+machines record seismic data, which then
+get shared and studied through a
+facility called SAGE. No big deal.
+Seismologists help us not only better
+understand how earthquakes happen, but
+also estimate the risks of one
+happening. Now, there's more than one
+type of seismic wave, and some are more
+dangerous than others. First, there are
+body waves. Body waves begin from an
+earthquake's hypocenter or focus, the
+underground point on a fault where the
+rock cracks. Then they take a curving
+path through Earth's insides before
+reaching the surface. There are two
+kinds of body waves. A P-wave or primary
+wave compresses and squeezes the
+particles it moves through. It's sort of
+like what happens when you pull a Slinky
+out on a flat surface from both ends and
+push on one side.
+P-waves are the speediest waves, so
+they're the ones that hit first.
+They're what causes the initial jolt of
+an earthquake, but they usually aren't
+very destructive. S-waves, on the other
+hand, are secondary and often quite
+damaging. They move through the rock
+more slowly and they shear particles
+side-to-side or up and down. Sort of
+like if I jiggled the Slinky like this.
+Buildings, especially older ones,
+struggle to withstand the horizontal
+waggle, sometimes causing them to
+topple. So, those are the body waves,
+but there's another major type of
+seismic wave, surface waves, which
+travel along the, well, surface.
+And even though surface waves are the
+slowest, they can be the most
+destructive because they produce an
+undulating pattern with an up and down,
+back and forth, and side-to-side motion.
+But, not all big earthquakes necessarily
+produce strong shaking at the surface.
+Like, seismic waves from an earthquake
+deep underground largely peter out by
+the time they reach the surface. Seismic
+waves are more intense the closer you
+are to an earthquake's epicenter, the
+point that's directly above where the
+fault slipped. The type of ground that
+seismic waves move through can also
+affect the intensity of an earthquake.
+Like, in 2011, an earthquake in Virginia
+was felt up to 600 mi away from its
+epicenter. But, an even stronger
+earthquake in California was only felt
+about 250 mi away. The reason? Older
+rocks. Seismic waves on the US East
+Coast travel farther because the rocks
+there are much older than the rocks on
+the West Coast. The faults in these
+older rocks have had more time to heal,
+which lets the waves cross them more
+effectively and be felt much farther
+away. Meanwhile, these young
+whippersnapper rocks out on the West
+Coast have newer faults, which means
+seismic waves don't spread as
+effectively. When it comes to measuring
+earthquakes, scientists use a system
+called moment magnitude, or MW, an
+update to the more familiar Richter
+scale.
+Moment magnitude describes the absolute
+energy released during an earthquake.
+It's reached through a combination of
+seismic data and the physical shifts in
+the land that happened during an
+earthquake. Usually, this is just
+referred to as magnitude, or how much
+energy was released in general. The
+bigger the area of a fault that breaks,
+the bigger the magnitude. Often, when a
+big earthquake first makes the news, its
+magnitude is just a rough estimate. A
+truly accurate measurement can take days
+to calculate. Even though it might not
+sound like it at first, the difference
+between just one order of magnitude can
+be striking.
+Magnitude is measured on a logarithmic
+scale. So, each whole number represents
+a 10-fold jump in energy. Let's put that
+in spaghetti terms, ala my favorite
+earthquake geologist Dr. Wendy Bohon.
+Just go with me.
+Let's say a 4.0 magnitude earthquake is
+equivalent to the energy it takes to
+snap one noodle. Ah, don't get mad at
+me, Italians. It's for science.
+If that's the case,
+then a 5.0 magnitude event would be like
+snapping
+32 noodles.
+And a 6.0 magnitude earthquake
+would be like snapping roughly a
+thousand noodles.
+Yeah, I don't think I can do that. I'm
+just going to clean this up.
+So, the higher up you go on the scale,
+even by just a point or two, the more
+drastic the consequences. Consider the
+2009 earthquake that struck the city of
+L'Aquila, Italy. It was eventually
+recorded as a 6.2 on the moment
+magnitude scale.
+The quake brought 20,000
+buildings crashing to the ground,
+killing over 300 people, injuring 1,500,
+and leaving 65,000 [music] houseless. It
+left a lot of people asking,
+"Was this damage preventable?" For weeks
+before the quake, the people of L'Aquila
+felt smaller tremors in the city, but a
+government commission tasked with
+monitoring earthquake risk reassured the
+public that the shaking was normal and a
+bigger event was unlikely. Sadly, those
+tremors turned out to be foreshocks,
+smaller earthquakes that sometimes
+precede a serious event.
+In light of the tragedy, that government
+official and six scientists were accused
+of giving, {quote} "inexact, incomplete,
+and contradictory information that
+downplayed the true risks." Three years
+after the earthquake, an Italian court
+convicted them of manslaughter for not
+properly warning the public of the
+danger. But, here's the thing, we can't
+know if something's a foreshock until
+after the bigger earthquake happens.
+It's common for small earthquakes not to
+lead up to a worse event. And it's
+possible for a strong earthquake to
+happen with no foreshocks preceding it.
+So, can we tell when a tremor is nothing
+to worry about and when it's the lead up
+to something more dangerous? And how do
+seismologists even estimate earthquake
+risk? Well, it's nuanced. You see,
+prediction has a very specific meaning
+in earthquake speak.
+To predict an earthquake means you've
+pinned down the exact time, date,
+location, and severity. No one
+has ever predicted an earthquake.
+Not once. In the words of the US
+Geological Survey,
+"We do not know how and we do not expect
+to know how anytime in the foreseeable
+future." In other words, you can't just
+schedule an earthquake reminder in your
+Google calendar. What scientists can do
+is forecast earthquake risk in a certain
+area. It's a lot like a weather report.
+A meteorologist can't tell you if or
+when it will rain, only that there might
+be rain somewhere during a certain
+period. Forecasts deal in probability.
+It's an estimate of the long-term odds
+of an earthquake happening in a specific
+fault sometime in the future based on
+how much time has passed between big
+earthquakes in a particular spot, which
+is why gathering and analyzing seismic
+data is so important. They're what
+forecasts are based on. They're also
+based on literally digging into the past
+for evidence of shaking up sediment in
+the rock record, which tells us about
+the cadence of ancient earthquakes.
+There's always some uncertainty in
+forecasting, much like what happened
+with the L'Aquila earthquake.
+Over 5,000 members of the scientific
+community signed an open letter to
+Italy's president calling it "manifestly
+unfair" to bring criminal charges
+against scientists for not acting on
+information that, quote,
+the international scientific community
+would consider inadequate for issuing a
+warning. In light of those facts, the
+charges against the scientists were
+dropped in 2014. And though we'll
+probably never have an earthquake
+crystal ball, there are ways we can
+prepare. Places like Japan, Mexico, and
+California have developed early warning
+systems that notify people at the first
+signs of seismic waves, giving even a
+few precious seconds to get to a safer
+spot before the big shock hits. Many
+areas require new buildings to be
+constructed with earthquake-resistant
+techniques and materials, so they're
+less likely to collapse. And because
+earthquakes can happen anywhere, we can
+all personally prepare by getting
+familiar with the seismic risk where we
+live, and learning what to do if an
+earthquake ever affects our area.
+Earthquakes can happen anywhere on
+Earth, at any time. And unfortunately,
+we have no way of predicting exactly
+when or where. But by studying and
+tracking seismic data, scientists
+continue to refine forecasts, better
+assess the risks, and even research how
+to prevent and protect us from the most
+damaging shocks. Next time, we'll learn
+more about earthquake preparedness.
+See you then. Thanks for watching this
+episode of Crash Course Geology, which
+was filmed in our studio in
+Indianapolis, Indiana. It was made with
+the help of all these nice people.
+If you want to help keep Crash Course
+free for everyone, forever, you can join
+our community on Patreon.

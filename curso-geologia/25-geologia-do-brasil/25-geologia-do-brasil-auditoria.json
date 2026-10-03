@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "25-geologia-do-brasil/",
+    "module_id": "25",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-18T00:00:00-03:00",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 0,
+    "yellow": 0,
+    "blue": 0,
+    "white": 2,
+    "verified_ok": 17
+  },
+  "findings": [],
+  "verified_claims": [
+    {"claim_id": "GEO-M25-A01-CPRM-001", "file": "25-geologia-do-brasil/25-geologia-do-brasil-aula-01-compartimentacao-geotectonica-do-brasil.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M25-A01-COMPARTIMENTACAO-002", "file": "25-geologia-do-brasil/25-geologia-do-brasil-aula-01-compartimentacao-geotectonica-do-brasil.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M25-A02-CRATON-BLOCOS-001", "file": "25-geologia-do-brasil/25-geologia-do-brasil-aula-02-cratons-e-embasamento-pre-cambriano.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M25-A02-SAO-FRANCISCO-BLOCOS-002", "file": "25-geologia-do-brasil/25-geologia-do-brasil-aula-02-cratons-e-embasamento-pre-cambriano.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M25-A02-NUVVUAGITTUQ-003", "file": "25-geologia-do-brasil/25-geologia-do-brasil-aula-02-cratons-e-embasamento-pre-cambriano.md", "confidence": "confirmado", "kind": "controversia", "severity": "white"},
+    {"claim_id": "GEO-M25-A03-CICLO-BRASILIANO-001", "file": "25-geologia-do-brasil/25-geologia-do-brasil-aula-03-orogenos-brasilianos.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M25-A03-FAIXAS-002", "file": "25-geologia-do-brasil/25-geologia-do-brasil-aula-03-orogenos-brasilianos.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M25-A04-GONDWANA-OCIDENTAL-001", "file": "25-geologia-do-brasil/25-geologia-do-brasil-aula-04-amalgamacao-do-gondwana-ocidental.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M25-A04-CORRELACAO-TRANSATLANTICA-002", "file": "25-geologia-do-brasil/25-geologia-do-brasil-aula-04-amalgamacao-do-gondwana-ocidental.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M25-A05-SINECLISES-001", "file": "25-geologia-do-brasil/25-geologia-do-brasil-aula-05-bacias-sedimentares-fanerozoicas.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M25-A05-BACIAS-MARGEM-002", "file": "25-geologia-do-brasil/25-geologia-do-brasil-aula-05-bacias-sedimentares-fanerozoicas.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M25-A06-LIP-PARANA-001", "file": "25-geologia-do-brasil/25-geologia-do-brasil-aula-06-magmatismo-mesozoico-e-ruptura-do-gondwana.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M25-A06-PLUMA-CONTROVERSIA-002", "file": "25-geologia-do-brasil/25-geologia-do-brasil-aula-06-magmatismo-mesozoico-e-ruptura-do-gondwana.md", "confidence": "confirmado", "kind": "controversia", "severity": "white"},
+    {"claim_id": "GEO-M25-A06-MAGMATISMO-RIFTEAMENTO-003", "file": "25-geologia-do-brasil/25-geologia-do-brasil-aula-06-magmatismo-mesozoico-e-ruptura-do-gondwana.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M25-A07-QUADRILATERO-FERRIFERO-001", "file": "25-geologia-do-brasil/25-geologia-do-brasil-aula-07-recursos-minerais-e-sitios-fossiliferos.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M25-A07-PRESAL-002", "file": "25-geologia-do-brasil/25-geologia-do-brasil-aula-07-recursos-minerais-e-sitios-fossiliferos.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M25-A07-ARARIPE-003", "file": "25-geologia-do-brasil/25-geologia-do-brasil-aula-07-recursos-minerais-e-sitios-fossiliferos.md", "confidence": "confirmado"}
+  ]
+}

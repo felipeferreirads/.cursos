@@ -1,0 +1,686 @@
+# Ep30 - Earthquake Hazards.txt
+Video ID: PyGt9r9CvCA
+Lang: en
+URL: https://www.youtube.com/watch?v=PyGt9r9CvCA
+
+---
+
+hey there friends and welcome to another
+episode in the geology 101 physical
+geology video series I'm geology
+Professor sea Willy thanks for joining
+me this geology video series is based on
+the college class I teach here it's the
+same curriculum all the same content and
+so it's very similar to what you would
+be getting if you were sitting right in
+class today we're going to be looking
+here at episode 30 which is on
+earthquake hazard so we've done the last
+two episodes dealing with earthquakes
+the science behind earthquakes looking
+at earthquake magnitude location
+different types of seismic waves and so
+we're going to round out this section on
+earthquakes by analyzing them in terms
+of the hazards that they produce and
+look at exactly what is it about
+earthquakes that cause you know such a
+hazard to humans and civilization
+through the damage that they cause um in
+such an extensive way when we have
+earthquakes occurring so here's just a
+summary of some of the things we'll be
+looking at Ground shaking uh
+liquefaction which is related to ground
+shaking we'll talk about surface rupture
+fires associated with the earthquakes
+landslides and tsunami so those are just
+a handful of the things that we'll cover
+and then we'll end as we often do with a
+little quiz question a little way for
+you to assess your learning we have a
+photo here from the 1994 Northridge
+quake in Southern California you can see
+the extensive damage there from the
+freeway collapse so this was truly a
+large and historic earthquake I believe
+it was 6 point s or so in magnitude uh
+but shallow Focus right in an urban
+setting and so uh quite destructive
+quake in that area so ground shaking um
+you know some of the things that impact
+how much damage we see with respect to
+buildings and structures has a lot to do
+with obviously the size of the
+earthquake it should stand to reason
+that the bigger the earthquake typically
+the more damage is done that's not
+always the case however so as I I hear
+about earthquakes happening around the
+world some context or some knowledge
+about the location of the earthquake
+maybe a little bit of information about
+the build Styles the construction
+materials that they use there is going
+to be helpful as well we've seen
+historically you know magnitude 5.8
+earthquakes that were quite destructive
+um in some countries or areas and then
+earthquakes as big as you know magnitude
+seven or so that weren't nearly as
+destructive so it has a lot to do with
+how large the earthquake is but all
+things being equal bigger earthquakes
+will tend to produce more severe shaking
+uh and more damage the length of the sh
+shaking is also somewhat correlated to
+the magnitude as well so larger
+earthquakes will tend to produce more
+shaking or longer duration um probably
+just some ballpark numbers just off the
+top of my head you know if it's a
+magnitude 6.5 you might have shaking
+close to that epicentral area that lasts
+maybe a few seconds to tens of seconds
+maybe as much as you know maybe 30
+seconds Max versus at the other end of
+the spectrum something as big as a
+magnitude 9 earthquakes some of the
+great earthquakes we've seen in history
+you might have strong shaking that lasts
+not just you know seconds but literally
+minutes like several minutes of strong
+shaking uh going on there so these will
+all of course affect how much damage is
+done to the buildings other things we've
+talked about that are important when it
+comes to ground shaking and structures
+is the type of material that the the
+building sits on so the subsurface
+geologic materials I'm going to show you
+a little video clip here in a second
+that illustrates us a little bit but
+seismic waves do move through different
+rocks or sediments uh differently so the
+the the shaking effect through different
+materials varies um in solid dense rocks
+it's more attenuated the shaking is is
+less and they're they're less
+destructive in soft sediments or even
+saturated sediments the shaking can be
+Amplified and be much more destructive
+so knowing if you're in earthquake
+country knowing what kind of material
+geologic material your house is sitting
+on is in incredibly important because
+that will set the stage for somewhat um
+to some degree as to how the shaking is
+going to be manifested and then the last
+thing here this is just a quick and
+dirty list here by no means all
+inclusive this is the design of the
+building what what's it made out of what
+are the construction materials are we
+talking about wood is it brick is it uh
+concrete um is it steel um is it some
+combination of those material materials
+how's the building designed is it um
+multistory one story um where's it
+Center of mass does the you know a lot
+of high-rise buildings in big cities you
+know classically will tend to have
+parking garages underneath them
+sometimes first floor of that building
+might be a open Lobby so lots of open
+space and then you've got offices and
+maybe uh Condominiums and you know
+whatever else above it so the weight is
+actually higher in the building and so
+we've seen unfortunately in many
+instances you know those types of
+buildings might be failing whereas other
+buildings fa a little bit better so let
+me take you real quick then to um this
+little video clip that kind of show how
+um seismic waves move through different
+materials this is from Iris earthquake
+science so this is a um a company that
+puts together um scientific educational
+material especially related to
+earthquake so what we have here are
+three different I guess four different
+hom homes sitting here and you can see
+the different subsurface geologic
+conditions we've got this home here on
+the left it's sitting on solid Bedrock
+this one here's on you know maybe like a
+soft mudstone or Sandstone something
+like that and then down here closer to
+the water's edge we have homes that are
+sitting on even softer sediments where
+they're actually saturated with water
+and what you'll see and you can watch
+the seismograms come through these three
+areas is as the p-wave comes through
+from the earthquake there's a little
+bump Okay so probably not even detected
+by the people there and definitely not
+causing damage and then the S waves come
+in with the sideways motion and that may
+cause some damage but you can see it's
+it's shaking these ones over here a
+little bit more violently even knock the
+chimney off this one and then those
+rolling kind of s surface waves come
+through and look how much they slow down
+so they slow down and they amplify as
+they move through that softer sediment
+and then as the waterers involved the
+water is taking up space in there it
+amplifies it even more so uh to the
+point where you could also get some
+liquifaction occurring which we'll talk
+about here in a second so what you can
+see here the big takeaway is that um the
+homes over the solid Bedrock Fair much
+better than ones sitting on softer
+sediments and especially when you
+introduce water into the equation um and
+so this is just meant to graphically
+show how those different um subsurface
+conditions might vary to some degree so
+a big part again is uh the subsurface
+geology along with the design of the
+building some of those other things just
+kind of a fun little survey here I'm by
+no means a structural engineer but um we
+can take a look at how earthquakes
+affect different pieces of
+infrastructure in urban environment so
+here is freeway pillars this is from the
+1994 Northridge earthquake in Southern
+California so you can see how these are
+built there's some steel rebar uh set
+into a concrete form but during the
+earthquake and the seismic energy that
+these had to um endure you can see that
+the rebar has actually float out it's
+almost they sometimes call these
+mushroom structures and the concrete has
+kind of brittly shattered and and Fallen
+a little bit here and so we've seen
+these types of freeway pillars often
+fail this one's Still Standing which is
+a good news but it's been seriously
+impacted other ones like I showed you
+with that opening shot the freeway
+pillars are completely um the freeway
+structure completely collapses due to
+these pillars so what they do now um you
+know we learn as we go and we learn what
+designs work well and what designs do
+not is now these um forms are already
+have the a much more robust and I guess
+uh kind of tighter network of steel rods
+and pieces of Steel in there and then
+the concrete's poured into that and you
+can see it's a better design and you
+know there's no nothing so nothing is
+earthquake proof per se but these would
+be much more Earth Quake resistant so
+these types of freeway pillars would
+hold up much better to the movement from
+those seismic waves than the old designs
+so we're learning as we go with um
+different structures and all the
+engineering that goes into these sorts
+of things other things that we've done
+to help um make buildings more
+earthquake resistant is something called
+just base isolation basically the idea
+if you think about it we looked at all
+these seismic waves moving in different
+directions the building you know we want
+the build building to stay put the
+building's a fairly rigid structure um
+but rather than trying to keep the
+building from moving what if we allow
+the building to move a little bit if it
+can move more or less in three
+dimensions as those seismic waves come
+through but keep it intact um that can
+keep buildings and structures from
+collapsing so this is underneath the
+Utah state capital building uh these big
+and again I can't explain the the
+engineering here but basically these um
+think of them like shock absorbers
+sometimes in some instances they even
+use like almost like big ball bearings
+underneath the building to allow the
+building to withstand and sort of take
+some of that seismic energy um and
+dissipate it rather than it being
+transferred directly to that brittle and
+um you know that brittle building itself
+where it would actually just sort of
+shake itself into pieces so lots of cool
+things in in the way of you know seismic
+uh engineering and ways to make
+buildings and freeway overpasses better
+one of the big hazards with earthquakes
+when it comes to shaking is in cities
+and communities and areas where the
+water table is high so we have a
+saturated um subsurface so if we have a
+high water table usually in sedimentary
+material like sand gravel mud so you
+have this soft sediment that are
+completely um saturated is that we can
+have something called liquefaction it's
+kind of like you know quicksand if
+you've watched a Hollywood movie and of
+course Hollywood exaggerates quite a bit
+our hero or whoever walks into the
+quicks sand and then they just disappear
+there's just a hat left behind but real
+quick sand is completely saturated
+sediment that if you if you ever stood
+in quote unquote saturated sand maybe at
+the beach or down by the lake shore and
+you kind of stomp your feet back and
+forth and just kind of keep doing that
+for a while you're basically simulating
+an earthquake by producing that
+vibrational energy and what you'll find
+is that you'll start to sink down into
+the sand and maybe you can get as deep
+as your ankles maybe up to your shins
+maybe your knees or so if you're really
+working at it so as long as you're
+producing that vibrational energy that
+causes the the water to move between the
+sand grains and separate them so notice
+here on the left diagram the buildings
+look fine um because there's water in
+between the sediment but there's contact
+points between the sediments as well so
+there there's still enough cohesive
+contact between those sedimentary
+particles
+that the the ground has good U support
+it's a it's a good cohesive medium but
+when we have shaking involved that
+actually causes water to move between
+the sedimentary particles and separate
+so now you can see here in the zoomed in
+view there's no cohesion there's no
+contact points between the sedimentary
+particles so the material loses all its
+uh ability to support weight and you get
+in this case building sort of sinking
+and collapsing in this top photo here is
+from a earthquake in Japan uh in the 60s
+I believe and so this is a problem
+around coastal areas or lakes is this
+this phenomenon called
+liquefaction um with particularly large
+earthquakes we can get something called
+surface rupture so if we're looking at
+uh movements on faults that produce
+specifically up and down motion you can
+actually get the fault to break through
+at the surface so literally surface
+rupture is when the the movement on the
+fault causes the fault plane to breach
+the surface and create uh displacement
+and so over my head here this is from
+the Bora Peak area uh in Central Idaho
+there was a a large earthquake here 7.1
+or so in 1983 if you look over my head
+you'll see this kind of line that goes
+back along the hillside that's part of
+the fault scarp uh and then coming in
+more closer to the foreground here it's
+right here behind my truck and then
+right here in front of me so this big
+Breakin slope uh which is about maybe 3
+m or so about 10 ft was caused by that
+earthquake basically there was so SI so
+much seismic energy that the earthquake
+actually caused the brown ground to
+break uh the mountain side over here on
+the left went up the valley side went
+down so there's more or less the fault
+plane location there so this is what's
+called surface rupture we typically only
+see that with earthquakes that are maybe
+you know 6.5 and above uh this was 7.1
+so it was plenty big and it would need
+to be a pretty shallow earthquake to
+produce
+a false uh surface rupture as well and
+this little topographic feature here
+this little mini escarment uh it's
+called a fault scarp so this is
+literally a break in the slope caused by
+the faulting and you can still see that
+today it still looks pretty fresh uh
+even though it's you know gosh what 40
+plus years old so this is an example of
+surface rupture um little little example
+here of a fault scarp we can see cutting
+this aluvial fan here in Death Valley so
+sometimes geologists use the presence of
+fault scarps to let us know that the
+fault is still considered active because
+if you know typically if if it still has
+a fault scarp and erosion hasn't
+modified that and smoothed out that that
+kind of break in the slope then it tells
+us it's probably had an earthquake in
+the last few you know hundreds maybe
+thousands of years and it warrants some
+consideration and some scrutiny there
+could still be an active system capable
+of producing earthquakes so there's a
+fault scarp there in Death Valley um of
+course in strik s faults you can you can
+get breakage across the fault as well
+and Offset you just don't get the
+vertical displacement it's more
+horizontal displacement um and so here
+we're looking across the fault you can
+see how the road has shifted if you use
+some of the fun little tricks we learned
+about in a few a few episodes ago we
+talked about fault types you might be
+able to pick out and determine what type
+of fault this is sure it's a strik slip
+fault where the motion is horizontal but
+we can go even further by standing on
+let's say the center line on this side
+of the fault looking across the fault
+and observing that the dotted line the
+center line on the other side of the
+fault has shifted to our left so that
+would make this a left lateral strikes
+that fault if we were standing on the
+other side of the road looking back
+across the fault uh towards us we would
+see the same relative movement to the
+left so this is a left lateral strik
+slip fault here big earthquake in Turkey
+a few years ago uh fires are really
+common in earthquakes um if you think
+about the utilities and the lines that
+run underneath an urban area there's gas
+lines power lines water lines sewer
+lines uh those are all susceptible to
+breakage during all the the seismic
+upheaval caused by the earthquake um so
+the the the easy recipe here would be
+that the gas lines get severed um now
+you've got the power lines above them
+that maybe get broken as well that
+provides a spark that ignites the gas
+main like you can see in this bottom
+lower photo here uh and then that can
+burn down structures unfortunately we've
+gotten a little better with this in some
+of the more developed countries um with
+our earthquake early Warning Systems so
+I know in Japan parts of Japan and I
+believe maybe in parts of California
+they now have a system where um when
+those initial p waves are detected when
+they know an earthquake has begun but
+the more destructive s and surface waves
+have not arrived yet uh they can Auto
+they have an automated system that shuts
+down uh the gas line so basically the
+gas is turned off before the real big
+shaking occurs and those gas lines can
+be severed and potentially ignited so
+fires can be a big problem of course we
+fight fires typically with water but if
+the water lines are severed and broken
+as well then that creates a problem
+because then these fires can burn out of
+control and then uh sewer lines breaking
+can be a bit of a a hazard from a health
+standpoint because now you've got a lot
+of times the water M and and the sewer
+lines in at least in the US a lot of
+times those lines are sometimes right
+next to each other and so you could have
+cross-contamination the clean drinking
+water and the sewer lines are both been
+severed and so now you don't have clean
+drinking water so what this is why it's
+a good idea if you do live in earthquake
+country to have you know several gallons
+or liters of water on hand be ready to
+go you know several days with just the
+water you have stored in your home and
+not being reliant on your city or
+community's water system uh because
+there could be several days up to maybe
+a week or more where that water system
+has been compromised and you need to
+have other sources of water uh so fires
+are big Hazard associated with that
+landslides also can occur the sh if we
+have steep topography steep slopes um
+the shaking from those earthquakes can
+actually cause uh slopes to fail and
+material to to slide downhill uh I think
+this is from the Northridge quake as
+well this might be uh the Pacific
+Palisades area I think not quite sure um
+but Southern California for sure and
+parts of the uh slope here have failed
+during that 94 Northridge quake and so
+landslides being triggered as a
+secondary effect because of the
+earthquake shaking is a possibility I
+suppose in the mountains uh if there's
+snow on the ground you could also
+trigger Avalanches which is a similar
+you know Mass wasting feature
+stuff moving downhill um so this is
+another Hazard associated with
+earthquakes um one historic example of
+this was in 1959 this is earthquake lake
+or what's sometimes just called Quake
+Lake in Montana uh you can kind of see
+here look we're looking to the west but
+you'll see this this scar on the
+hillside this is the landslide so we
+actually had a a a bit of a you know
+domino effect here we had very large
+earthquake biggest earthquake in the
+western us I think in the last 100 years
+um outside of you know Alaska and that
+earthquake caused a large Landslide down
+into this Valley actually killed people
+in a campground so it was a fatal event
+um but the material damned up the river
+and so the river backed up behind that
+slide material and formed this Lake and
+so you can see these trees that you know
+previously were not underwater uh once
+the lake formed and they were you know
+completely inundated by the water those
+trees died out you can still see them
+here here today uh and this is known as
+earthquake lake so the Lake's still
+there the scar on the hillside is still
+there from the earthquake in the
+landslide combination so some of the
+effects again of earthquakes on the
+topography and how it can completely
+transform a landscape and then our last
+um Associated Hazard with earthquakes is
+a tsunami and this one of course
+everyone is aware of I think um for me
+at least I always you know as a
+geologist I've known this was a half
+um and learned about it but I think
+personally the 2004 uh December 26
+tsunami in the Indian Ocean caused by
+the Indonesia earthquake that definitely
+when the tsunami became a much more
+widespread known Hazard I think was
+after that event um so the idea here is
+if we have an earthquake in the ocean in
+the water beneath the Beneath the Sea
+and we have vertical motion on that
+fault system so in this case down motion
+it could be a normal fault or a reverse
+fault that the displacement of the the
+seafloor causes the water above it to
+also be displaced a similar amount and
+then that collapses on the open ocean
+and that dissip that uh moves outward in
+all directions and is what we could call
+a tsunami and in deep water tsunamis
+move very fast they don't have much
+amplitude to them so if you're out here
+in a boat in the deep water uh you
+probably wouldn't even know a tsunami
+had been triggered you know you're more
+concerned with the wind produced waves
+versus a tsunami but as the tsunami wave
+which moves from the top to the bottom
+of the ocean it's a it's a pulse of
+energy moving through the entire water
+column as that moves closer and closer
+to land and encounters shallower water
+its energy gets transferred upwards and
+so it becomes a a larger mound of water
+it slows down so you can see some of the
+speeds here um you know open ocean it's
+moving you know hundreds of kilometers
+of miles per hour but as we get closer
+to the land it's you know 35 M an hour
+50 km per hour uh and that produces that
+big wall of water that then rushes in
+inundates the landscape uh and can be
+quite destr destructive and so tsunami
+definitely if you're in a coastal
+setting you feel an earthquake your
+first instinct should be to get to
+Higher Ground and or to get further
+Inland if you can um and certainly if
+you hear of an an earthquake somewhere
+in that region that would be wise okay
+so those are some of the associated
+hazards that go along with earthquakes
+let's do a little quiz question here to
+kind of round out this episode um and so
+what I have for you here is a fun little
+drawing we've got a house uh that's
+built right on top of granite the house
+sits at about 200 M or about 650 ft
+above sea level uh the water table below
+the house is about 200 ft or 60 M down
+so there's where the groundwater resides
+and and then here is the fault and in
+this case here we're going to assume
+that this fault produces an earthquake
+we'll give it a magnitude of about
+7.2 the focus of that earthquake is
+going to be shallow you know maybe
+somewhere here or here a little bit
+further down but fairly close to the
+surface so your task here is to figure
+out which earthquake hazard poses the
+highest risk to this home uh given the
+factors I've shown you here given a 7.2
+shallow Quake on this fault and all the
+other factors we've seen here so is it
+liqu faction is it surface rupture is it
+a landslide is it a tsunami is it all of
+the above or is it none of the above so
+go ahead and pause the video if you need
+to think about this or maybe chat with a
+[Music]
+friend and then we'll go ahead and let
+me sorry my phone was ringing there all
+right we'll go ahead and answer this now
+so let's consider each one of these uh
+piece by piece so is the house at risk
+for liquefaction and the answer to that
+is no so in order to have liquefaction
+we need to have a high water table so we
+need a water table much closer to the
+surface which we don't have the water
+tables a good 60 M or 200 ft below the
+surface and we need to have uh
+sedimentary material we have Solid Rock
+here this house is right on top of rock
+it's not built on in a basin or a valley
+with sand and gravel and mud so
+liquefaction is not uh a hazard or not
+much of a hazard Hazard with a low risk
+um let's look at surface r rupture
+surface rupture likely to happen well
+here's the fault the fault is we know a
+reverse fault which produces up and down
+motion um the Quake that's producing the
+the hazard here is shallow so it's close
+to the surface and it's a pretty large
+earthquake a 7.2 so we have sufficient
+magnitude we have a shallow depth and we
+have the right type of fault that this
+fault could actually break through the
+surface on this during this earthquake
+and cause surface displacement which
+would obviously if the fault if the
+home's built right over the fault this
+would be bad news there would be
+substantial damage to the home not just
+the shaking the shaking might be one
+thing but the fault surface the fault
+breaking through the surface and causing
+damage inside the home could be um a big
+deal and a big risk and so this is why
+in many places there are earthquake
+zoning ordinances or hazards zone or
+there's zoning ordinances and other
+rules to prohibit people from building
+right on top of faults whether those
+faults actually break through the
+surface or or known to exist at a
+shallow depth so surface repture is for
+sure A Hazard but let's check out the
+others too Landslide well everything
+I've given you here there the house is
+not on a slope as far as we can tell um
+so there doesn't seem to be a landslide
+risk here given what we see here a
+tsunami well the house is sitting you
+know 200 M 650 ft above sea level and
+it's not adjacent to any body of water
+so this house would need to be on the
+coast uh or next to a body of water for
+a tsunami to be a hazard so our correct
+answer was B surface rupture how'd you
+do uh if you did well give yourself a
+gold star for the day if you didn't get
+it right that's okay just live and learn
+right life's all about making mistakes
+and moving forward and learning from
+those so thanks for joining me on this
+uh episode in the geology 101 series uh
+in future episodes I think what we'll do
+next topic-wise is we will look at Mass
+wasting so we're going to look at
+landslides and other processes related
+to landslides what factors influence
+slope stability and slope failure and so
+join me on that next episode thanks for
+your time and we'll see you later take
+care

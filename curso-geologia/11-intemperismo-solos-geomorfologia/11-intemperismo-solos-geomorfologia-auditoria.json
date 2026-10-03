@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "11-intemperismo-solos-geomorfologia",
+    "module_id": "11",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-19",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 0,
+    "yellow": 0,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 8
+  },
+  "findings": [],
+  "verified_claims": [
+    {
+      "claim_id": "GEO-WEA-001",
+      "claim": "Temperatura e umidade controlam padrões de intemperismo e lixiviação.",
+      "source": "USDA NRCS Soil Facts",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SOIL-HOR-001",
+      "claim": "O, A, B, C e E são horizontes mestres; nem todos aparecem em todo perfil.",
+      "source": "USDA NRCS A Soil Profile",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "FLUV-001",
+      "claim": "Bacias, água e sedimento em canais e forma do canal são componentes centrais dos processos fluviais.",
+      "source": "USGS Fluvial Processes in Geomorphology",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "FLUV-002",
+      "claim": "Bacias de drenagem, canais, água e sedimento são unidades de análise geomorfológica fluvial.",
+      "source": "USGS Fluvial Processes in Geomorphology",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "COAST-001",
+      "claim": "Ondas e correntes fortes iniciam erosão costeira por suspensão de sedimentos ou deslocamento de rochas.",
+      "source": "USGS Waves, Currents, and Storm Surges",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "EOL-001",
+      "claim": "Vento redistribui areia e outras partículas especialmente em regiões áridas.",
+      "source": "USDA NRCS Soil Facts",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MASS-001",
+      "claim": "Movimentos de massa são deslocamentos encosta abaixo sob influência direta da gravidade.",
+      "source": "USGS What is a landslide and what causes one?",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "GEO-EROSION-001",
+      "claim": "A erosão fluvial envolve a interação entre água corrente, sedimento e canal.",
+      "source": "USGS Fluvial Processes in Geomorphology",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "FLUV-003",
+      "claim": "A migracao de um meandro pode estreitar o pescoco da curva ate o rompimento (corte de pescoco, neck cutoff); o loop abandonado fica isolado como lago em ferradura (oxbow lake) e tende a assorear.",
+      "source": "USGS Fluvial Processes in Geomorphology; Ritter, Kochel & Miller, Process Geomorphology",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "EOL-002",
+      "claim": "Pavimento desertico e o manto de seixos que resta na superficie apos a remocao dos finos por deflacao e protege o material subjacente; ventifactos sao pedras facetadas por abrasao eolica.",
+      "source": "USGS Eolian Processes",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "EOL-003",
+      "claim": "Barcana forma-se com suprimento de areia limitado e vento de direcao constante; cristas transversais, com areia abundante e vento constante; dunas estrela, com ventos de direcoes variadas.",
+      "source": "USGS Types of Dunes; Bagnold 1941, The Physics of Blown Sand and Desert Dunes",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "EOL-004",
+      "claim": "Parte dos pavimentos desertidos forma-se por acumulacao de poeira eolica sob a camada de clastos, e nao apenas por deflacao dos finos.",
+      "source": "McFadden, Wells & Jercinovich (1987), Geology 15(6):504-508",
+      "confidence": "em_disputa",
+      "nota": "modelo de acrescao de poeira (McFadden et al. 1987) versus modelo classico de deflacao para genese do pavimento desertico; o texto ja apresenta ambos como mecanismos concorrentes/complementares, sem afirmar um lado como consenso unico - tratamento adequado, LC-08"
+    },
+    {
+      "claim_id": "MASS-002",
+      "claim": "Rastejo (creep) e o movimento lento e continuo de solo ou rocha encosta abaixo, causado por tensao de cisalhamento suficiente para deformacao permanente mas insuficiente para ruptura; indicado por troncos curvados, cercas e postes inclinados e ondulacoes no solo.",
+      "source": "USGS Fact Sheet 2004-3072, Landslide Types and Processes",
+      "confidence": "confirmado"
+    }
+  ]
+}

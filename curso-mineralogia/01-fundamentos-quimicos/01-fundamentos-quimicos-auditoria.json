@@ -1,0 +1,613 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "01-fundamentos-quimicos",
+    "module_id": "01",
+    "course_id": "mineralogia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-09-30",
+  "verdict": "approved",
+  "summary": {
+    "red": 1,
+    "orange": 12,
+    "yellow": 0,
+    "blue": 0,
+    "white": 1,
+    "verified_ok": 37
+  },
+  "findings": [
+    {
+      "claim_id": "QUI-CONF-DESEMP-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "claim": "Mn tem o máximo possível de elétrons desemparelhados num átomo",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-01-o-atomo-por-dentro-nucleo-camadas-e-orbitais.md",
+        "section": "Exemplo trabalhado",
+        "quote": "5 desemparelhados (o máximo possível num átomo)"
+      },
+      "problem": "Cr (3d5 4s1, 7S) tem 6; Eu tem 7; Gd (4f7 5d1 6s2, 9D) tem 8. Cinco é o máximo de uma subcamada d.",
+      "replacement": "(o máximo que uma subcamada d comporta; átomos como o cromo, com 6, e o gadolínio, com 8, têm mais)",
+      "source": {
+        "name": "NIST Atomic Spectra Database - Ground States and Ionization Energies",
+        "url": "https://physics.nist.gov/PhysRefData/ASD/ionEnergy.html",
+        "tier": "reference_database",
+        "version": "ASD online, consulta 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-01-o-atomo-por-dentro-nucleo-camadas-e-orbitais.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "QUI-ORB-ENERGIA-001",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "claim": "4s abaixo de 3d em todo átomo neutro",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-01-o-atomo-por-dentro-nucleo-camadas-e-orbitais.md",
+        "section": "A ordem de preenchimento",
+        "quote": "O 4s tem energia menor que o 3d nos átomos neutros"
+      },
+      "problem": "Vale para K e Ca; nos metais de transição 3d < 4s e a configuração 4s2 persiste pela repulsão eletrônica; a explicação contraditória era ensinada como regra.",
+      "replacement": "Explicação reescrita: 4s<3d em K e Ca; 3d<4s nos metais de transição; 4s ioniza primeiro; Madelung prevê configuração, não ranking de energia.",
+      "source": {
+        "name": "Scerri (2013), The trouble with the aufbau principle, Education in Chemistry 50(6) 24-26",
+        "url": "https://edu.rsc.org/feature/the-trouble-with-the-aufbau-principle/2000133.article",
+        "tier": "peer_reviewed",
+        "version": "2013; ver também Scerri 2017, Foundations of Chemistry, doi:10.1007/s10698-016-9249-0",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-01-o-atomo-por-dentro-nucleo-camadas-e-orbitais.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "QUI-TAB-TERRASRARAS-001",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "claim": "Bloco f = terras raras",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-01-o-atomo-por-dentro-nucleo-camadas-e-orbitais.md",
+        "section": "A tabela periódica como mapa de subcamadas",
+        "quote": "lantanídeos e actinídeos (as \"terras raras\" mineralógicas, como o lantânio e o cério)"
+      },
+      "problem": "IUPAC: terras raras = Sc, Y + lantanídeos; actinídeos não são terras raras; La é 5d1 6s2 (sem elétron f).",
+      "replacement": "lantanídeos e actinídeos (U e Th entre os actinídeos); lantanídeos + Sc + Y = terras raras da IUPAC; actinídeos não são terras raras.",
+      "source": {
+        "name": "IUPAC Nomenclature of Inorganic Chemistry (Red Book)",
+        "url": "https://iupac.org/what-we-do/books/redbook/",
+        "tier": "normative",
+        "version": "Recommendations 2005",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-01-o-atomo-por-dentro-nucleo-camadas-e-orbitais.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "QUI-VAL-DEF-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Elétrons de valência só da camada mais externa",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-01-o-atomo-por-dentro-nucleo-camadas-e-orbitais.md",
+        "section": "Vocabulário",
+        "quote": "elétron da camada mais externa ocupada; é o que participa das ligações."
+      },
+      "problem": "Contradiz o parágrafo que inclui os 3d do Fe e do Mn na valência.",
+      "replacement": "Acrescentado: nos metais de transição contam também os elétrons d da camada anterior (3d).",
+      "source": {
+        "name": "Atkins & Jones, Chemical Principles; coerência interna",
+        "url": "",
+        "tier": "peer_reviewed",
+        "version": "",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-01-o-atomo-por-dentro-nucleo-camadas-e-orbitais.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "QUI-ATOMO-ESCALA-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Núcleo ~1e-15 m; razão ~1e5",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-01-o-atomo-por-dentro-nucleo-camadas-e-orbitais.md",
+        "section": "Tamanhos; Recap",
+        "quote": "O núcleo de um átomo mede cerca de 10⁻¹⁵ m [...] A razão é de aproximadamente 100 000 para 1."
+      },
+      "problem": "1e-15 m só vale para o H; R = 1,2 fm A^(1/3) dá 6-15 fm de diâmetro de O a U; razão 1e4-1e5.",
+      "replacement": "entre 10⁻¹⁵ e 10⁻¹⁴ m (...); razão entre 10 000 e 100 000 para 1",
+      "source": {
+        "name": "Relação R = r0 A^(1/3), r0 ~1,2 fm (Krane, Introductory Nuclear Physics); raio de carga do próton (CODATA)",
+        "url": "",
+        "tier": "peer_reviewed",
+        "version": "",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-01-o-atomo-por-dentro-nucleo-camadas-e-orbitais.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "QUI-EI-SUCESS-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Fe 2a EI 1562; 4a EI 5290 kJ/mol",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-02-tabela-periodica-raio-ionizacao-e-eletronegatividade.md",
+        "section": "Ionizações sucessivas",
+        "quote": "ferro: 763; 1562; 2957; 5290 kJ/mol"
+      },
+      "problem": "NIST: 16,19921 eV = 1563,0 e 54,91 +- 0,04 eV = 5298 kJ/mol; 5290 fica fora da incerteza. Demais valores conferem.",
+      "replacement": "1563 e 5298",
+      "source": {
+        "name": "NIST ASD Ionization Energies",
+        "url": "https://physics.nist.gov/PhysRefData/ASD/ionEnergy.html",
+        "tier": "reference_database",
+        "version": "ASD online, consulta 2026-09-30",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-02-tabela-periodica-raio-ionizacao-e-eletronegatividade.md",
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-03-ions-e-estados-de-oxidacao-fe-mn-e-s.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "QUI-EN-PAULING-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "Valores de Pauling sem versão nem estado de oxidação",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-02-tabela-periodica-raio-ionizacao-e-eletronegatividade.md",
+        "section": "Eletronegatividade: tabela",
+        "quote": "χ (Pauling) ... Fe 1,83 ... Mn 1,55"
+      },
+      "problem": "Valores corretos, mas são a revisão de Allred (1961), por estado de oxidação: Fe(II) 1,83, Fe(III) 1,96, Mn(II) 1,55.",
+      "replacement": "Nota sob a tabela (Allred 1961/CRC; Fe²⁺ 1,83; Fe³⁺ 1,96; Mn²⁺ 1,55) e rótulo \"Fe–O (com χ do Fe²⁺)\" na aula 04.",
+      "source": {
+        "name": "Allred (1961), J. Inorg. Nucl. Chem. 17, 215-221; compilação KnowledgeDoor Elements Handbook",
+        "url": "https://www.knowledgedoor.com/2/elements_handbook/pauling_electronegativity.html",
+        "tier": "peer_reviewed",
+        "version": "1961",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-02-tabela-periodica-raio-ionizacao-e-eletronegatividade.md",
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-04-ligacao-ionica-covalente-e-metalica-como-espectro.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "QUI-FE-ANALISE-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "Análise química não distingue Fe2+ de Fe3+",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-03-ions-e-estados-de-oxidacao-fe-mn-e-s.md",
+        "section": "Nomes e grafia",
+        "quote": "Só a análise química não diz qual das duas cargas está presente"
+      },
+      "problem": "Falso para a titulação por via úmida; quem mede só o Fe total são a microssonda e a FRX.",
+      "replacement": "Análises de rotina (microssonda, FRX) medem só o Fe total; Fe²⁺/Fe³⁺ exige via úmida, Mössbauer, XANES ou balanço de cargas.",
+      "source": {
+        "name": "Droop (1987), Mineral. Mag. 51, 431-435; Forshaw & Pattison (2021), Contrib. Mineral. Petrol.",
+        "url": "https://link.springer.com/article/10.1007/s00410-021-01814-4",
+        "tier": "peer_reviewed",
+        "version": "",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-03-ions-e-estados-de-oxidacao-fe-mn-e-s.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "QUI-LIG-METAL-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Metais nativos têm χ baixo",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-04-ligacao-ionica-covalente-e-metalica-como-espectro.md",
+        "section": "Ligação metálica; Exemplo (c)",
+        "quote": "têm átomos com χ baixo (Cu 1,90; Au 2,54; Ag 1,93)"
+      },
+      "problem": "Au 2,54 ~ S 2,58; Cu 1,90 \"baixo\" vs Fe 1,83 \"intermediário\"; Si 1,90 com Δχ = 0 não é metal. A regra falha nos exemplos da própria aula.",
+      "replacement": "χ de Pauling moderado a alto; parágrafo sobre o limite da regra (ouro; silício); exemplo (c) \"moderado\"; escala de Allen (Au 1,92).",
+      "source": {
+        "name": "Allen & Capitani (1993), Van Arkel-Ketelaar triangles, J. Mol. Struct. 300",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/002228609387053C",
+        "tier": "peer_reviewed",
+        "version": "1993",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-04-ligacao-ionica-covalente-e-metalica-como-espectro.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "QUI-LIG-SILDUREZA-001",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "claim": "Silicatos em geral são duros",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-04-ligacao-ionica-covalente-e-metalica-como-espectro.md",
+        "section": "O meio-termo",
+        "quote": "por isso os silicatos combinam dureza alta"
+      },
+      "problem": "Talco (H = 1) é contraexemplo, na própria aula 05; dureza alta exige ligação forte nas três direções (quartzo).",
+      "replacement": "Dureza alta quando os tetraedros se ligam em todas as direções (quartzo, 7); silicatos em lâminas são moles.",
+      "source": {
+        "name": "Handbook of Mineralogy (quartz; talc)",
+        "url": "https://www.handbookofmineralogy.org/",
+        "tier": "reference_database",
+        "version": "2001-2005",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-04-ligacao-ionica-covalente-e-metalica-como-espectro.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "QUI-LIG-MGONACL-001",
+      "severity": "white",
+      "kind": "controversia",
+      "claim": "MgO funde a ~2800 C",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-04-ligacao-ionica-covalente-e-metalica-como-espectro.md",
+        "section": "Ligação iônica",
+        "quote": "o periclásio (+2/−2, íons menores) funde a cerca de 2800 °C"
+      },
+      "problem": "Medidas publicadas de 3073 a 3250 K (~2800-2977 C); Ronchi & Sheindlin 2001: 3250 +- 20 K. O texto só dava o extremo baixo e tinha nota interna para a auditoria.",
+      "replacement": "funde entre cerca de 2800 e 3000 °C (as medidas divergem; laser 2001 ~2980 °C)",
+      "source": {
+        "name": "Ronchi & Sheindlin (2001), Melting point of MgO, J. Appl. Phys. 90, 3325",
+        "url": "https://ui.adsabs.harvard.edu/abs/2001JAP....90.3325R/abstract",
+        "tier": "peer_reviewed",
+        "version": "2001",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "em_disputa",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-04-ligacao-ionica-covalente-e-metalica-como-espectro.md"
+      ],
+      "outcome": "corrigido_com_ressalva",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "QUI-ANISO-DIAMANTE-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "Diamante sem plano de fraqueza pronunciado",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-05-ligacoes-fracas-e-minerais-com-mais-de-uma-ligacao.md",
+        "section": "A ideia geral: anisotropia",
+        "quote": "não tem um plano de fraqueza tão pronunciado, e por isso a propriedade é muito mais uniforme"
+      },
+      "problem": "O diamante tem clivagem perfeita {111}, controlada pela densidade de ligações por plano.",
+      "replacement": "não tem plano de ligação fraca, mas tem clivagem perfeita {111} (densidade de ligações; módulo 13)",
+      "source": {
+        "name": "Handbook of Mineralogy - Diamond",
+        "url": "https://www.handbookofmineralogy.org/pdfs/diamond.pdf",
+        "tier": "reference_database",
+        "version": "2001-2005",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-05-ligacoes-fracas-e-minerais-com-mais-de-uma-ligacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "QUI-LIG-RAZAO-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Ligações fortes são 10-100x as fracas",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-05-ligacoes-fracas-e-minerais-com-mais-de-uma-ligacao.md",
+        "section": "Comparação de energias; Recap",
+        "quote": "uma a duas ordens de grandeza [...] 10 a 100 vezes mais energéticas que as fracas"
+      },
+      "problem": "Pela tabela da aula: 5-80x (ponte de H) e 40-1600x (van der Waals), uma a três ordens de grandeza.",
+      "replacement": "de 5 a 80 vezes (ponte de H) e de 40 a mais de 1000 vezes (van der Waals)",
+      "source": {
+        "name": "Cálculo sobre a tabela da aula; Arunan et al. (2011), IUPAC",
+        "url": "https://publications.iupac.org/pac/pdf/2011/pdf/8308x1637.pdf",
+        "tier": "normative",
+        "version": "IUPAC Recommendations 2011",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-05-ligacoes-fracas-e-minerais-com-mais-de-uma-ligacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "QUI-UNID-ESCALA-001",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "claim": "Íons medem 2-3 Å de diâmetro",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-06-mol-massa-molar-composicao-em-oxidos-e-unidades.md",
+        "section": "Unidades: comprimento",
+        "quote": "o diâmetro de um íon, 2 a 3 Å"
+      },
+      "problem": "Shannon: Si4+ IV r = 0,26 (d ~0,5); Al3+ VI 0,535; Mg2+ VI 0,72; O2- VI 1,40 (d 2,8); Cl- VI 1,81 (d 3,6).",
+      "replacement": "de ~0,5 Å (Si⁴⁺ IV) a ~2,8 Å (O²⁻) e ~3,6 Å (Cl⁻), raios de Shannon",
+      "source": {
+        "name": "Shannon (1976), Acta Cryst. A32, 751-767, via base de raios de Shannon (Imperial College)",
+        "url": "http://abulafia.mt.ic.ac.uk/shannon/ptable.php",
+        "tier": "peer_reviewed",
+        "version": "1976",
+        "consulted_at": "2026-09-30"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-06-mol-massa-molar-composicao-em-oxidos-e-unidades.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-30"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "QUI-ORB-CAP-001",
+      "claim": "s/p/d/f: 1/3/5/7 orbitais; 2/6/10/14 elétrons; Pauli",
+      "source": "química geral consolidada",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-ORB-ORDEM-001",
+      "claim": "Ordem de Madelung 1s...7s (prevê configuração)",
+      "source": "NIST ASD; Scerri 2013",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-CONF-FE-001",
+      "claim": "Fe [Ar]3d6 4s2 (5D), Mn [Ar]3d5 4s2 (6S); 4 e 5 desemparelhados",
+      "source": "NIST ASD",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-ORB-FORMA-001",
+      "claim": "5 orbitais d, quatro lóbulos na maioria",
+      "source": "química geral consolidada",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-CONF-EXC-001",
+      "claim": "Cr [Ar]3d5 4s1; Cu [Ar]3d10 4s1",
+      "source": "NIST ASD",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-PERIOD-TEND-001",
+      "claim": "Tendências periódicas; Al 577,5 < Mg 737,7 kJ/mol",
+      "source": "NIST ASD",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-RAIO-ATOM-001",
+      "claim": "Na ~1,9 A; Cl ~1,0 A, convenção variável",
+      "source": "Slater (1964) via tabela de raios atômicos",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-EN-INTENSIDADE-001",
+      "claim": "Escala de Pauling construída de energias de ligação",
+      "source": "Pauling (1960); Allred (1961)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-MIN-OXIDO-001",
+      "claim": "Periclásio MgO; coríndon Al2O3",
+      "source": "Handbook of Mineralogy",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-OX-CARGA-001",
+      "claim": "Cargas usuais; regra da soma com O = -2",
+      "source": "IUPAC Gold Book",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-FE-ESTADO-001",
+      "claim": "Fe2+ = 3d6; Fe3+ = 3d5; o 4s sai primeiro",
+      "source": "NIST ASD; Scerri 2013",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-FE-MAG-001",
+      "claim": "Magnetita Fe2+Fe3+2O4; hematita Fe3+; siderita e fayalita Fe2+",
+      "source": "balanço de cargas; HoM",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-FE-RAIO-001",
+      "claim": "Shannon VI spin alto: Fe2+ 0,78 A; Fe3+ 0,645 A",
+      "source": "Shannon (1976)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-MN-ESTADO-001",
+      "claim": "Rodocrosita Mn2+; hausmannita Mn2+Mn3+2O4; pirolusita Mn4+",
+      "source": "Handbook of Mineralogy",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-S-ESTADO-001",
+      "claim": "S -2/-1/0/+6; pirita Fe2+ (spin baixo) + S2 2-",
+      "source": "HoM; literatura XPS/Mössbauer",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-OX-CONVENCAO-001",
+      "claim": "Estado de oxidação é convenção de contagem",
+      "source": "IUPAC Gold Book",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-FE-D5-001",
+      "claim": "Estabilidade do d5 como guia simplificado",
+      "source": "NIST ASD (3a EI Fe 2957 < Mn 3248 kJ/mol)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-LIG-ESPECTRO-001",
+      "claim": "Contínuo; triângulo de Van Arkel-Ketelaar",
+      "source": "Allen & Capitani (1993)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-LIG-PAULING-001",
+      "claim": "I = 1 - exp(-dchi^2/4): 71,2/67,8/47,7/44,7/13,1%",
+      "source": "Pauling (1960); recálculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-LIG-DIAMANTE-001",
+      "claim": "Tetraedro 109,5; H 10; Mohs 1812",
+      "source": "HoM; Science History Institute",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-LIG-SIO-001",
+      "claim": "Si-O ~metade iônica; quartzo H 7",
+      "source": "Pauling (1960); HoM",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-LIG-PIRITA-001",
+      "claim": "Pirita semicondutora, frágil, brilho metálico",
+      "source": "HoM (pyrite)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-LIG-ENERGIA-001",
+      "claim": "Faixas de energia de ligação (ordens de grandeza); rede do NaCl 786-788",
+      "source": "Arunan et al. 2011; Born-Haber",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-GRAFITE-DIST-001",
+      "claim": "C-C 1,42 A; entre planos 3,35 A; H 1-2",
+      "source": "HoM (a 2,464; c 6,711 A)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-TALCO-ESTR-001",
+      "claim": "Talco H 1; clivagem {001}",
+      "source": "HoM",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-MICA-K-001",
+      "claim": "Moscovita; H 2,5 paralela a {001}",
+      "source": "HoM",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-GIPSITA-H-001",
+      "claim": "Gipsita {010}; H 2; H2O 20,93%",
+      "source": "HoM; recálculo CIAAW 2024",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-ENXOFRE-001",
+      "claim": "S8; H 1,5-2,5; funde ~115 C",
+      "source": "HoM; PubChem/CRC",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-BRUCITA-001",
+      "claim": "Brucita {0001}; H 2,5",
+      "source": "HoM",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-AGUA-ANG-001",
+      "claim": "Gelo espécie válida (grandfathered); 104,5 graus",
+      "source": "Mindat; conhecimento consolidado",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-MOL-AVOG-001",
+      "claim": "NA exato 6,02214076e23",
+      "source": "NIST CODATA; BIPM",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-MASSA-ATOM-001",
+      "claim": "12 massas atômicas",
+      "source": "CIAAW Abridged Standard Atomic Weights 2024",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-FORST-MOLAR-001",
+      "claim": "Forsterita 140,691; 57,29/42,71%; razão 2",
+      "source": "recálculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-FEOX-FATOR-001",
+      "claim": "0,7773; 0,6994; pirita 46,6% Fe; 20,98%",
+      "source": "recálculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-UNID-PRESS-001",
+      "claim": "Unidades de pressão; 26,5 MPa/km; centro ~364 GPa",
+      "source": "NIST; PREM (Dziewonski & Anderson 1981) via Fei et al. 2007",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-UNID-TEMP-001",
+      "claim": "K = C + 273,15",
+      "source": "BIPM",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-QZ-DENS-001",
+      "claim": "Quartzo 2,65; 2,66e22 fórmulas/cm3",
+      "source": "HoM; recálculo",
+      "confidence": "confirmado"
+    }
+  ]
+}

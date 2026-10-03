@@ -1,0 +1,287 @@
+{
+ "schema_version": 1,
+ "target": {
+  "kind": "modulo",
+  "path": "00-partida-do-zero",
+  "module_id": "00",
+  "course_id": "geologia"
+ },
+ "mode": "audit-and-fix",
+ "depth": "full",
+ "audited_at": "2026-08-16",
+ "verdict": "approved",
+ "summary": {
+  "red": 0,
+  "orange": 2,
+  "yellow": 0,
+  "blue": 2,
+  "white": 1,
+  "verified_ok": 41
+ },
+ "findings": [
+  {
+   "claim_id": "GEO-M00-A04-ESPESSURAS-002",
+   "severity": "orange",
+   "kind": "inconsistencia_interna",
+   "claim": "Crosta continental ~30 a 40 km",
+   "location": {
+    "file": "00-partida-do-zero-aula-04-terra-por-dentro.md",
+    "section": "tabela de espessuras; recap"
+   },
+   "problem": "Divergia de 01-fundamentos-e-metodo-aula-05 e 02-sistema-terra-tectonica-aula-02, que davam 30 a 50 km. USGS sustenta 30-50 km para regiões continentais estáveis.",
+   "replacement": "Crosta continental ~30 a 50 km",
+   "affected_files": [
+    "00-partida-do-zero/00-partida-do-zero-aula-04-terra-por-dentro.md",
+    "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-04-modelo-em-camadas.md"
+   ],
+   "applied_at": "2026-08-16",
+   "source": {
+    "name": "USGS",
+    "version": "consultada em 2026-08-16"
+   },
+   "confidence": "confirmado",
+   "outcome": "corrigido"
+  },
+  {
+   "claim_id": "GEO-M00-A03-REGUA-006",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "claim": "Toda a história escrita cabe em três milésimos de milímetro",
+   "location": {
+    "file": "00-partida-do-zero-aula-03-ordens-de-grandeza.md",
+    "section": "régua de 4,54 m"
+   },
+   "problem": "Na régua declarada (1 mm = 1 Ma), 0,003 mm equivale a 3.000 anos. A história escrita é convencionalmente contada a partir de ~5.000 anos.",
+   "replacement": "cinco milésimos de milímetro",
+   "affected_files": [
+    "00-partida-do-zero/00-partida-do-zero-aula-03-ordens-de-grandeza.md"
+   ],
+   "applied_at": "2026-08-16",
+   "source": {
+    "name": "cálculo aritmético sobre a régua declarada no próprio texto"
+   },
+   "confidence": "confirmado",
+   "outcome": "corrigido"
+  },
+  {
+   "claim_id": "GEO-M00-A06-CHAMBERLIN-003",
+   "severity": "blue",
+   "kind": "evidencia_insuficiente",
+   "claim": "marcador CONFERIR referência completa na auditoria",
+   "location": {
+    "file": "00-partida-do-zero-aula-06-observar-descrever-inferir.md",
+    "section": "bloco de alegações e Fontes"
+   },
+   "problem": "Referência bibliográfica incompleta declarada como pendente pelo autor.",
+   "replacement": "Chamberlin, T. C., 'The Method of Multiple Working Hypotheses', Science, ns-15(366), p. 92-96, 1890, DOI 10.1126/science.ns-15.366.92; reed. Journal of Geology 5:837-848, 1897.",
+   "affected_files": [
+    "00-partida-do-zero/00-partida-do-zero-aula-06-observar-descrever-inferir.md"
+   ],
+   "applied_at": "2026-08-16",
+   "source": {
+    "name": "Science / AAAS"
+   },
+   "confidence": "confirmado",
+   "outcome": "corrigido"
+  },
+  {
+   "claim_id": "GEO-M00-A03-MARCOS-004",
+   "severity": "blue",
+   "kind": "evidencia_insuficiente",
+   "claim": "marcador CONFERIR VERSÃO DA CARTA na reauditoria",
+   "location": {
+    "file": "00-partida-do-zero-aula-03-ordens-de-grandeza.md",
+    "section": "bloco de alegações"
+   },
+   "problem": "Versão da fonte normativa não declarada.",
+   "replacement": "Valores conferidos contra a carta ICS v2024/12: base do Cambriano 538,8 +/- 0,6 Ma; K-Pg 66,0 Ma. Nenhum valor precisou mudar; versão registrada.",
+   "affected_files": [
+    "00-partida-do-zero/00-partida-do-zero-aula-03-ordens-de-grandeza.md"
+   ],
+   "applied_at": "2026-08-16",
+   "source": {
+    "name": "ICS",
+    "version": "2024-12"
+   },
+   "confidence": "confirmado",
+   "outcome": "corrigido"
+  },
+  {
+   "claim_id": "GEO-M00-A01-FOSSIL-IDADE-008",
+   "severity": "white",
+   "kind": "controversia",
+   "claim": "Não há norma formal de idade mínima para o termo fóssil; circulam o limite do Holoceno (~11,7 ka) e o valor de conveniência de 10 ka.",
+   "location": {
+    "file": "00-partida-do-zero-aula-01-nomes-no-lugar.md",
+    "section": "seção Fóssil"
+   },
+   "problem": "Não há norma formal de idade mínima para o termo fóssil; circulam o limite do Holoceno (~11,7 ka) e o valor de conveniência de 10 ka.",
+   "replacement": "Nenhuma. O texto já declara a convenção como frouxa e defere a discussão, conforme LC-08.",
+   "affected_files": [],
+   "applied_at": "2026-08-16",
+   "confidence": "em_disputa",
+   "outcome": "aceito_como_esta"
+  }
+ ],
+ "verified_claims": [
+  {
+   "claim_id": "GEO-M00-A01-DEF-MINERAL-001",
+   "claim": "Alegação verificada (GEO-M00-A01-DEF-MINERAL-001)."
+  },
+  {
+   "claim_id": "GEO-M00-A01-ROCHA-AGREGADO-002",
+   "claim": "Alegação verificada (GEO-M00-A01-ROCHA-AGREGADO-002)."
+  },
+  {
+   "claim_id": "GEO-M00-A01-CRISTALINIDADE-003",
+   "claim": "Alegação verificada (GEO-M00-A01-CRISTALINIDADE-003)."
+  },
+  {
+   "claim_id": "GEO-M00-A01-OBSIDIANA-004",
+   "claim": "Alegação verificada (GEO-M00-A01-OBSIDIANA-004)."
+  },
+  {
+   "claim_id": "GEO-M00-A01-FOSSIL-TIPOS-007",
+   "claim": "Alegação verificada (GEO-M00-A01-FOSSIL-TIPOS-007)."
+  },
+  {
+   "claim_id": "GEO-M00-A02-TRES-FAMILIAS-001",
+   "claim": "Alegação verificada (GEO-M00-A02-TRES-FAMILIAS-001)."
+  },
+  {
+   "claim_id": "GEO-M00-A02-GRANULACAO-PROFUNDIDADE-002",
+   "claim": "Alegação verificada (GEO-M00-A02-GRANULACAO-PROFUNDIDADE-002)."
+  },
+  {
+   "claim_id": "GEO-M00-A02-VIAS-SEDIMENTARES-003",
+   "claim": "Alegação verificada (GEO-M00-A02-VIAS-SEDIMENTARES-003)."
+  },
+  {
+   "claim_id": "GEO-M00-A02-FOSSEIS-SEDIMENTAR-004",
+   "claim": "Alegação verificada (GEO-M00-A02-FOSSEIS-SEDIMENTAR-004)."
+  },
+  {
+   "claim_id": "GEO-M00-A02-FOLIACAO-005",
+   "claim": "Alegação verificada (GEO-M00-A02-FOLIACAO-005)."
+  },
+  {
+   "claim_id": "GEO-M00-A02-PARES-PROTOLITO-006",
+   "claim": "Alegação verificada (GEO-M00-A02-PARES-PROTOLITO-006)."
+  },
+  {
+   "claim_id": "GEO-M00-A02-CICLO-007",
+   "claim": "Alegação verificada (GEO-M00-A02-CICLO-007)."
+  },
+  {
+   "claim_id": "GEO-M00-A03-NOTACAO-001",
+   "claim": "Alegação verificada (GEO-M00-A03-NOTACAO-001)."
+  },
+  {
+   "claim_id": "GEO-M00-A03-UNIDADES-TEMPO-002",
+   "claim": "Alegação verificada (GEO-M00-A03-UNIDADES-TEMPO-002)."
+  },
+  {
+   "claim_id": "GEO-M00-A03-IDADE-TERRA-003",
+   "claim": "Alegação verificada (GEO-M00-A03-IDADE-TERRA-003)."
+  },
+  {
+   "claim_id": "GEO-M00-A03-SEGUNDOS-005",
+   "claim": "Alegação verificada (GEO-M00-A03-SEGUNDOS-005)."
+  },
+  {
+   "claim_id": "GEO-M00-A03-ESCALA-GRAO-007",
+   "claim": "Alegação verificada (GEO-M00-A03-ESCALA-GRAO-007)."
+  },
+  {
+   "claim_id": "GEO-M00-A03-BILHAO-AMBIGUO-008",
+   "claim": "Alegação verificada (GEO-M00-A03-BILHAO-AMBIGUO-008)."
+  },
+  {
+   "claim_id": "GEO-M00-A04-RAIO-001",
+   "claim": "Alegação verificada (GEO-M00-A04-RAIO-001)."
+  },
+  {
+   "claim_id": "GEO-M00-A04-CROSTA-PERCENTUAL-003",
+   "claim": "Alegação verificada (GEO-M00-A04-CROSTA-PERCENTUAL-003)."
+  },
+  {
+   "claim_id": "GEO-M00-A04-MANTO-SOLIDO-004",
+   "claim": "Alegação verificada (GEO-M00-A04-MANTO-SOLIDO-004)."
+  },
+  {
+   "claim_id": "GEO-M00-A04-NUCLEO-COMPOSICAO-005",
+   "claim": "Alegação verificada (GEO-M00-A04-NUCLEO-COMPOSICAO-005)."
+  },
+  {
+   "claim_id": "GEO-M00-A04-NUCLEO-INTERNO-SOLIDO-006",
+   "claim": "Alegação verificada (GEO-M00-A04-NUCLEO-INTERNO-SOLIDO-006)."
+  },
+  {
+   "claim_id": "GEO-M00-A04-DINAMO-007",
+   "claim": "Alegação verificada (GEO-M00-A04-DINAMO-007)."
+  },
+  {
+   "claim_id": "GEO-M00-A04-POCO-PROFUNDO-008",
+   "claim": "Alegação verificada (GEO-M00-A04-POCO-PROFUNDO-008)."
+  },
+  {
+   "claim_id": "GEO-M00-A04-TEMP-CENTRO-009",
+   "claim": "Alegação verificada (GEO-M00-A04-TEMP-CENTRO-009)."
+  },
+  {
+   "claim_id": "GEO-M00-A05-OBJETO-MAPA-001",
+   "claim": "Alegação verificada (GEO-M00-A05-OBJETO-MAPA-001)."
+  },
+  {
+   "claim_id": "GEO-M00-A05-CORES-002",
+   "claim": "Alegação verificada (GEO-M00-A05-CORES-002)."
+  },
+  {
+   "claim_id": "GEO-M00-A05-LEGENDA-ORDEM-003",
+   "claim": "Alegação verificada (GEO-M00-A05-LEGENDA-ORDEM-003)."
+  },
+  {
+   "claim_id": "GEO-M00-A05-ESTILO-LINHA-004",
+   "claim": "Alegação verificada (GEO-M00-A05-ESTILO-LINHA-004)."
+  },
+  {
+   "claim_id": "GEO-M00-A05-ATITUDE-005",
+   "claim": "Alegação verificada (GEO-M00-A05-ATITUDE-005)."
+  },
+  {
+   "claim_id": "GEO-M00-A05-ESCALA-006",
+   "claim": "Alegação verificada (GEO-M00-A05-ESCALA-006)."
+  },
+  {
+   "claim_id": "GEO-M00-A05-EXAGERO-VERTICAL-007",
+   "claim": "Alegação verificada (GEO-M00-A05-EXAGERO-VERTICAL-007)."
+  },
+  {
+   "claim_id": "GEO-M00-A05-CORTA-MAIS-NOVO-008",
+   "claim": "Alegação verificada (GEO-M00-A05-CORTA-MAIS-NOVO-008)."
+  },
+  {
+   "claim_id": "GEO-M00-A05-SIMETRIA-DOBRA-009",
+   "claim": "Alegação verificada (GEO-M00-A05-SIMETRIA-DOBRA-009)."
+  },
+  {
+   "claim_id": "GEO-M00-A06-OBS-INTERP-001",
+   "claim": "Alegação verificada (GEO-M00-A06-OBS-INTERP-001)."
+  },
+  {
+   "claim_id": "GEO-M00-A06-ESCADA-002",
+   "claim": "Alegação verificada (GEO-M00-A06-ESCADA-002)."
+  },
+  {
+   "claim_id": "GEO-M00-A06-COR-FRESCA-004",
+   "claim": "Alegação verificada (GEO-M00-A06-COR-FRESCA-004)."
+  },
+  {
+   "claim_id": "GEO-M00-A06-PARAMETROS-DESCRICAO-005",
+   "claim": "Alegação verificada (GEO-M00-A06-PARAMETROS-DESCRICAO-005)."
+  }
+ ],
+ "notes": [
+  "2026-08-25: as alegacoes GEO-M00-A01-GEMA-NAOMINERAL-005 e GEO-M00-A01-CRITERIOS-GEMA-006 foram removidas junto com o conceito de gema, quando a gemologia saiu deste curso. Os numeros 005 e 006 ficam retirados de circulacao nesta aula e nao serao reciclados."
+ ]
+}

@@ -1,0 +1,196 @@
+# Geologia Avançada — Especializações além da graduação
+
+> [!info] Status: **planejado** · destino Obsidian · complementar a [Geologia e Gemologia — do essencial ao avançado](../curso-geologia-gemologia/_curso.md)
+
+Atalhos: [[00-dashboard|Dashboard]] · [[00-progresso-do-aluno|Progresso do aluno]] · [[_contexto|Contexto da IA]]
+
+## Nível
+Partida: curso base concluído até o módulo 26. Chegada: especialização de pós-graduação/profissional em geologia.
+
+## Base curricular
+Grade curricular do curso de Geologia do Instituto de Geociências da USP (`GradeCurricular/Geologia-USP/`), cruzada com a cobertura do curso base para evitar duplicação. Desde a reestruturação de 2026-08-23, cada módulo corresponde a uma disciplina da grade (ou a um recorte coerente dela), e não a um agrupamento temático amplo. Ver [[_contexto|Contexto da IA]] para o método de seleção.
+
+## Ao final você vai conseguir
+- Aplicar a geologia à hidrogeologia, à hidrogeoquímica, à geotecnia, à geometalurgia e à engenharia de petróleo em nível de projeto.
+- Usar SIG, sensoriamento remoto, geofísica avançada, modelagem 3D, geoestatística e machine learning como ferramentas quantitativas de geociências.
+- Interpretar geoquímica isotópica, petrocronologia e petrogênese de rochas ígneas especializadas (granitos, kimberlitos, carbonatitos, alcalinas, pegmatitos, intrusões acamadadas).
+- Relacionar sistemas hidrotermais, metalogênese, vulcanismo e microscopia de minério à formação de depósitos.
+- Aplicar geologia estrutural quantitativa e análise textural e integrar múltiplas especializações num projeto de geologia aplicada.
+
+## Volume
+41 módulos · 236 aulas planejadas · ~118–135 h de estudo · 4 áreas temáticas · **52 aulas escritas** em 8 módulos concluídos (01, 02, 03, 04, 05, 06, 07 e 40)
+
+## Módulos
+
+### IX. Especializações aplicadas
+*12 módulos · 66 aulas*
+
+- [[01-hidrogeologia-recursos-hidricos/01-hidrogeologia-recursos-hidricos-modulo|01 — Hidrogeologia e recursos hídricos]] — 7 aulas — **concluído**
+- [[02-hidrogeoquimica/02-hidrogeoquimica-modulo|02 — Hidrogeoquímica]] — 5 aulas · requer 01 — **concluído**
+- [[03-contaminacao-aguas-subterraneas/03-contaminacao-aguas-subterraneas-modulo|03 — Contaminação dos recursos hídricos subterrâneos]] — 5 aulas · requer 01, 02 — **concluído**
+- [[04-exploracao-gestao-aguas-subterraneas/04-exploracao-gestao-aguas-subterraneas-modulo|04 — Exploração, explotação e gestão dos recursos hídricos subterrâneos]] — 4 aulas · requer 01 — **concluído**
+- [[05-mecanica-de-rochas/05-mecanica-de-rochas-modulo|05 — Mecânica de rochas]] — 7 aulas · requer 01 — **concluído**
+- [[06-elementos-de-geomecanica/06-elementos-de-geomecanica-modulo|06 — Elementos de geomecânica]] — 6 aulas · requer 05 — **concluído**
+- [[07-mapeamento-geotecnico/07-mapeamento-geotecnico-modulo|07 — Metodologia de mapeamento geotécnico]] — 4 aulas · requer 06 — **concluído**
+- [[08-geotecnia-ambiental/08-geotecnia-ambiental-modulo|08 — Geotecnia ambiental]] — 6 aulas · requer 06, 03 — pendente
+- [[09-geometalurgia/09-geometalurgia-modulo|09 — Geometalurgia]] — 6 aulas — pendente
+- [[10-tectonica-de-bacias-sedimentares/10-tectonica-de-bacias-sedimentares-modulo|10 — Tectônica de bacias sedimentares]] — 5 aulas — pendente
+- [[11-sismoestratigrafia/11-sismoestratigrafia-modulo|11 — Sismoestratigrafia]] — 6 aulas · requer 10 — pendente
+- [[12-engenharia-de-petroleo/12-engenharia-de-petroleo-modulo|12 — Engenharia de petróleo]] — 5 aulas · requer 11 — pendente
+
+### X. Métodos quantitativos e geoinformação
+*13 módulos · 70 aulas*
+
+- [[13-geoprocessamento/13-geoprocessamento-modulo|13 — Geoprocessamento]] — 7 aulas — pendente
+- [[14-sensoriamento-remoto/14-sensoriamento-remoto-modulo|14 — Sensoriamento remoto]] — 7 aulas · requer 13 — pendente
+- [[15-petrofisica/15-petrofisica-modulo|15 — Introdução à petrofísica]] — 4 aulas — pendente
+- [[16-aerogeofisica/16-aerogeofisica-modulo|16 — Introdução à aerogeofísica]] — 5 aulas · requer 15 — pendente
+- [[17-geofisica-marinha-bacias-sedimentares/17-geofisica-marinha-bacias-sedimentares-modulo|17 — Geofísica marinha e de bacias sedimentares]] — 5 aulas · requer 15 — pendente
+- [[18-geofisica-america-do-sul/18-geofisica-america-do-sul-modulo|18 — Geofísica da América do Sul]] — 4 aulas · requer 15 — pendente
+- [[19-geofisica-exploracao-mineral/19-geofisica-exploracao-mineral-modulo|19 — Geofísica aplicada na exploração mineral]] — 6 aulas · requer 15, 14 — pendente
+- [[20-geoestatistica/20-geoestatistica-modulo|20 — Introdução à geoestatística]] — 4 aulas · requer 13 — pendente
+- [[21-modelagem-geoestatistica-depositos-minerais/21-modelagem-geoestatistica-depositos-minerais-modulo|21 — Modelagem geoestatística de depósitos minerais]] — 5 aulas · requer 20 — pendente
+- [[22-modelagem-geologica-3d/22-modelagem-geologica-3d-modulo|22 — Modelagem geológica 3D]] — 5 aulas · requer 21, 19 — pendente
+- [[23-modelagem-numerica-geodinamica/23-modelagem-numerica-geodinamica-modulo|23 — Introdução à modelagem numérica geodinâmica]] — 7 aulas — pendente
+- [[24-machine-learning-geociencias/24-machine-learning-geociencias-modulo|24 — Fundamentos e aplicações de machine learning em geociências]] — 6 aulas · requer 20 — pendente
+- [[25-aquisicao-digital-ia-geociencias/25-aquisicao-digital-ia-geociencias-modulo|25 — Aquisição de dados digitais e inteligência artificial em geociências]] — 5 aulas · requer 24, 14 — pendente
+
+### XI. Geoquímica isotópica e petrogênese avançada
+*12 módulos · 69 aulas*
+
+- [[26-geologia-isotopica-aplicada/26-geologia-isotopica-aplicada-modulo|26 — Geologia isotópica aplicada]] — 6 aulas — pendente
+- [[27-petrocronologia/27-petrocronologia-modulo|27 — Introdução à petrocronologia]] — 6 aulas · requer 26 — pendente
+- [[28-analise-instrumental-i/28-analise-instrumental-i-modulo|28 — Análise instrumental I]] — 5 aulas — pendente
+- [[29-granitos-no-ciclo-de-wilson/29-granitos-no-ciclo-de-wilson-modulo|29 — Granitos no ciclo de Wilson]] — 6 aulas · requer 26 — pendente
+- [[30-kimberlitos-carbonatitos/30-kimberlitos-carbonatitos-modulo|30 — Petrologia de kimberlitos e carbonatitos e mineralizações associadas]] — 6 aulas · requer 26 — pendente
+- [[31-rochas-igneas-alcalinas/31-rochas-igneas-alcalinas-modulo|31 — Rochas ígneas alcalinas: petrologia e mineralizações]] — 6 aulas · requer 26 — pendente
+- [[32-pegmatitos/32-pegmatitos-modulo|32 — Pegmatitos: da gênese à exploração]] — 5 aulas · requer 29 — pendente
+- [[33-intrusoes-acamadadas/33-intrusoes-acamadadas-modulo|33 — Petrologia de intrusões acamadadas e processos ígneos de mineralização]] — 6 aulas · requer 26 — pendente
+- [[34-sistemas-hidrotermais-metalogenese/34-sistemas-hidrotermais-metalogenese-modulo|34 — Sistemas hidrotermais e metalogênese]] — 7 aulas · requer 29 — pendente
+- [[35-vulcanismo-mineralizacoes-associadas/35-vulcanismo-mineralizacoes-associadas-modulo|35 — Vulcanismo e mineralizações associadas]] — 6 aulas · requer 34 — pendente
+- [[36-microscopia-de-minerios/36-microscopia-de-minerios-modulo|36 — Microscopia de minérios]] — 4 aulas — pendente
+- [[37-petrografia-de-minerio/37-petrografia-de-minerio-modulo|37 — Petrografia de minério]] — 6 aulas · requer 36 — pendente
+
+### XII. Síntese estrutural e integração
+*4 módulos · 31 aulas*
+
+- [[38-geologia-estrutural-quantitativa/38-geologia-estrutural-quantitativa-modulo|38 — Geologia estrutural quantitativa]] — 5 aulas · requer 06 — pendente
+- [[39-analise-textural-de-rochas/39-analise-textural-de-rochas-modulo|39 — Análise textural de rochas: técnicas e aplicações]] — 8 aulas · requer 38 — pendente
+- [[40-mineralogia-dos-tectossilicatos/40-mineralogia-dos-tectossilicatos-modulo|40 — Mineralogia dos tectossilicatos: cristaloquímica, óptica e relações de fases]] — 14 aulas · requer 39 — **concluído**
+- [[41-estudos-integrados-projetos-em-geologia-aplicada/41-estudos-integrados-projetos-em-geologia-aplicada-modulo|41 — Estudos integrados: projetos em geologia aplicada]] — 4 aulas · requer 12, 25, 37, 39 — pendente
+
+## Grafo de pré-requisitos
+
+```mermaid
+graph TD
+  subgraph IX["IX. Especializações aplicadas"]
+    M01["01 Hidrogeologia"]
+    M02["02 Hidrogeoquímica"]
+    M03["03 Contaminação de aquíferos"]
+    M04["04 Exploração e gestão hídrica"]
+    M05["05 Mecânica de rochas"]
+    M06["06 Geomecânica"]
+    M07["07 Mapeamento geotécnico"]
+    M08["08 Geotecnia ambiental"]
+    M09["09 Geometalurgia"]
+    M10["10 Tectônica de bacias"]
+    M11["11 Sismoestratigrafia"]
+    M12["12 Engenharia de petróleo"]
+  end
+  subgraph X["X. Métodos quantitativos e geoinformação"]
+    M13["13 Geoprocessamento"]
+    M14["14 Sensoriamento remoto"]
+    M15["15 Petrofísica"]
+    M16["16 Aerogeofísica"]
+    M17["17 Geofísica marinha"]
+    M18["18 Geofísica da América do Sul"]
+    M19["19 Geofísica na exploração mineral"]
+    M20["20 Geoestatística"]
+    M21["21 Modelagem geoest. de depósitos"]
+    M22["22 Modelagem geológica 3D"]
+    M23["23 Modelagem numérica geodinâmica"]
+    M24["24 Machine learning"]
+    M25["25 Aquisição digital e IA"]
+  end
+  subgraph XI["XI. Geoquímica isotópica e petrogênese avançada"]
+    M26["26 Geologia isotópica"]
+    M27["27 Petrocronologia"]
+    M28["28 Análise instrumental I"]
+    M29["29 Granitos no ciclo de Wilson"]
+    M30["30 Kimberlitos e carbonatitos"]
+    M31["31 Rochas ígneas alcalinas"]
+    M32["32 Pegmatitos"]
+    M33["33 Intrusões acamadadas"]
+    M34["34 Sistemas hidrotermais"]
+    M35["35 Vulcanismo e mineralizações"]
+    M36["36 Microscopia de minérios"]
+    M37["37 Petrografia de minério"]
+  end
+  subgraph XII["XII. Síntese estrutural e integração"]
+    M38["38 Estrutural quantitativa"]
+    M39["39 Análise textural"]
+    M40["40 Tectossilicatos"]
+    M41["41 Projeto integrado"]
+  end
+  M01 --> M02
+  M01 --> M03
+  M02 --> M03
+  M01 --> M04
+  M01 --> M05
+  M05 --> M06
+  M06 --> M07
+  M06 --> M08
+  M03 --> M08
+  M10 --> M11
+  M11 --> M12
+  M13 --> M14
+  M15 --> M16
+  M15 --> M17
+  M15 --> M18
+  M15 --> M19
+  M14 --> M19
+  M13 --> M20
+  M20 --> M21
+  M21 --> M22
+  M19 --> M22
+  M20 --> M24
+  M24 --> M25
+  M14 --> M25
+  M26 --> M27
+  M26 --> M29
+  M26 --> M30
+  M26 --> M31
+  M29 --> M32
+  M26 --> M33
+  M29 --> M34
+  M34 --> M35
+  M36 --> M37
+  M06 --> M38
+  M38 --> M39
+  M39 --> M40
+  M12 --> M41
+  M25 --> M41
+  M37 --> M41
+  M39 --> M41
+```
+
+Módulos sem pré-requisito interno (pontos de entrada do curso): 01, 09, 10, 13, 15, 23, 26, 28, 36.
+
+## Próximo passo
+O módulo 40 (Mineralogia dos tectossilicatos) está concluído: 14 aulas, auditoria científica aprovada, revisão didática aprovada, 2 questionários parciais + 1 final e 96 flashcards. Ele foi gerado fora da ordem curricular porque nasceu de um material-fonte específico (o caderno do Prof. Vlach, IGc-USP). A auditoria fechou com 0 achados vermelhos, 1 laranja (atribuição autoral do índice de triclinicidade — Goldsmith & Laves, não Goldschmidt) e 3 amarelos, todos corrigidos ou já sinalizados no texto, mais 3 azuis de debate científico legítimo e 3 brancos de rastreabilidade. O recálculo independente ratificou cinco pontos em que as aulas corrigem erratas da própria fonte primária. A revisão didática aprovou o módulo, com um achado amarelo (extensão da aula 14) já mitigado por um ponto de pausa sugerido. As atividades práticas ao microscópio (Parte B do guia) tornaram-se a Parte IV do questionário final, e os exercícios diversos (Parte C) foram distribuídos pelos três questionários.
+
+O módulo 01 (Hidrogeologia e recursos hídricos), primeiro módulo da sequência curricular normal, também está concluído: 7 aulas, auditoria científica aprovada (0 achados vermelhos/laranjas), revisão didática aprovada, 2 questionários parciais + 1 final e 56 flashcards.
+
+O módulo 02 (Hidrogeoquímica) também está concluído: 5 aulas, auditoria científica aprovada (0 achados vermelhos/laranjas), revisão didática aprovada, 1 questionário cumulativo e 50 flashcards.
+
+O módulo 03 (Contaminação dos recursos hídricos subterrâneos) também está concluído: 5 aulas, auditoria científica aprovada (0 achados vermelhos/laranjas/amarelos, 2 achados brancos sem impacto), revisão didática aprovada, 1 questionário cumulativo e 50 flashcards.
+
+O módulo 04 (Exploração, explotação e gestão dos recursos hídricos subterrâneos) também está concluído: 4 aulas, auditoria científica aprovada (0 achados vermelhos/laranjas/amarelos, 1 achado branco sem impacto), revisão didática aprovada, 1 questionário cumulativo e 44 flashcards.
+
+O módulo 05 (Mecânica de rochas) também está concluído: 7 aulas, primeiro módulo do curso fora da linha de hidrogeologia dos módulos 01–04. Auditoria científica aprovada (0 achados vermelhos/laranjas/amarelos, 1 achado azul de debate técnico legítimo sobre o papel de σ2 nos critérios de ruptura, 2 achados brancos sem impacto); o recálculo independente da auditoria identificou e corrigiu, antes da publicação, uma troca entre as expressões de Kirsch de tensão tangencial do teto/piso e das paredes de uma escavação circular. Revisão didática aprovada sem ressalvas. Como o módulo tem 7 aulas (acima do limiar de ~5–6), foram gerados 2 questionários parciais + 1 final cumulativo, e um baralho de 60 flashcards.
+
+O módulo 06 (Elementos de geomecânica) também está concluído: 6 aulas — as duas primeiras já existiam de sessão anterior e as quatro restantes foram escritas em 2026-08-27. A auditoria verificou 34 alegações contra normas (ASTM, ABNT, AASHTO) e fontes primárias, com recálculo independente dos seis exemplos trabalhados, e identificou dois problemas que foram **corrigidos no texto antes de gerar avaliação e flashcards**: um achado laranja (a Aula 06 atribuía a mesma especificação de martelo do SPT à NBR 6484 e à ASTM D1586, que na verdade adotam 65 kg/75 cm e 63,5 kg/76 cm respectivamente) e um amarelo (a Aula 03 atribuía a Jáky a forma simplificada K0 = 1 − sen φ' sem registrar que é aproximação da expressão original). Restaram 1 achado azul (o estatuto físico do intercepto c', debate legítimo) e 2 brancos, sem correção necessária. Revisão didática aprovada sem ressalvas. Este é o **primeiro módulo de 6 aulas do curso**, na fronteira da regra de parciais: elas foram acionadas por haver corte conceitual natural entre as aulas 01–03 e 04–06 e por ser alto o valor de um ponto de verificação antes da Aula 05 — resultando em 2 parciais + 1 final cumulativo (28 questões) e um baralho de 56 flashcards.
+
+O módulo 07 (Metodologia de mapeamento geotécnico) também está concluído: 4 aulas, auditoria científica aprovada (0 achados vermelhos e laranjas, 1 amarelo, 1 azul, 2 brancos), com recálculo do exemplo de talude infinito e verificação cruzada de consistência com os módulos 05 e 06. O achado amarelo não é erro, e sim **volatilidade da legislação brasileira citada** (Leis 6.766/1979, 12.608/2012 e 12.651/2012, sujeitas a alterações posteriores) — ficou registrado como ponto de manutenção periódica, e a Aula 03 traz callout de advertência dedicado. Revisão didática aprovada sem ressalvas. Como o módulo tem 4 aulas (abaixo do limiar de parciais), foi gerado 1 questionário cumulativo de 14 questões, mais um baralho de 44 flashcards.
+
+Próximo passo: gerar o módulo 08 (Geotecnia ambiental), que tem o módulo 06 como pré-requisito, com gerador-de-curso-modular. Os módulos 09–39 e 41 seguem pendentes.

@@ -1,0 +1,4 @@
+id;texto;extra;tags;objetivo;aula;dificuldade;fonte
+geologia-m09-fc001;"Elementos com afinidade por silicatos são {{c1::litófilos}}.";"Classificação de Goldschmidt.";"geologia::geoquimica::goldschmidt";"geologia-m09-oa02";"geologia-m09-a02";"facil";"USGS OF 94-264"
+geologia-m09-fc002;"Em D mineral/fundido, D maior que 1 indica concentração relativa maior no {{c1::mineral}}.";"Declare sempre a convenção.";"geologia::geoquimica::particao";"geologia-m09-oa03";"geologia-m09-a03";"medio";"USGS"
+geologia-m09-fc003;"Isótopos estáveis são geralmente relatados como valores {{c1::δ}} relativos a um padrão.";"Padrão deve ser informado.";"geologia::geoquimica::isotopos-estaveis";"geologia-m09-oa07";"geologia-m09-a07";"medio";"USGS"

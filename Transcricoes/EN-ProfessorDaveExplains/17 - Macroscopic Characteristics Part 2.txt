@@ -1,0 +1,93 @@
+# 17 - Macroscopic Characteristics Part 2.txt
+Video ID: zS6Lro53c-Q
+Lang: en
+URL: https://www.youtube.com/watch?v=zS6Lro53c-Q
+
+---
+
+We just learned about how to identify minerals on&nbsp;
+the basis of luster and color. There are two more&nbsp;&nbsp;
+important characteristics we will also need to&nbsp;
+discuss. One of the best ways to identify minerals&nbsp;&nbsp;
+is by examining their cleavage, or lack thereof.&nbsp;
+A mineral is said to have cleavage if it breaks&nbsp;&nbsp;
+along a planar surface in one or more directions.&nbsp;
+The way that a mineral breaks is fundamentally&nbsp;&nbsp;
+controlled by its crystalline structure, and more&nbsp;
+specifically its relative strength along different&nbsp;&nbsp;
+crystallographic directions. For example, graphite&nbsp;
+is composed of stacks of two-dimensional sheets of&nbsp;&nbsp;
+carbon atoms bonded together through van der Waals&nbsp;
+forces. The carbon atoms themselves are strongly&nbsp;&nbsp;
+bonded within a sheet, but the bonds between the&nbsp;
+sheets are extremely weak. Because of this, when&nbsp;&nbsp;
+graphite is broken, it breaks into planar sheets&nbsp;
+along the direction of the weak van der Waals&nbsp;&nbsp;
+bonds, but breaks irregularly along the direction&nbsp;
+of the stronger, more isotropic covalent bonds.&nbsp;&nbsp;
+A mineral that has one direction of cleavage,&nbsp;
+like graphite, is said to have basal cleavage.&nbsp;&nbsp;
+A class of minerals called phyllosilicates,&nbsp;
+or sheet silicates, are easily identified&nbsp;&nbsp;
+based on their perfect basal cleavage, causing&nbsp;
+them to break apart like the crust of baklava.&nbsp;
+Some minerals totally lack cleavage and break&nbsp;
+along random, uneven fractures. The mineral&nbsp;&nbsp;
+quartz, or silicon dioxide, has a lattice composed&nbsp;
+of equal-strength silicon-oxygen bonds in all&nbsp;&nbsp;
+directions, and therefore lacks cleavage. However,&nbsp;
+quartz does have a characteristic fracture pattern&nbsp;&nbsp;
+called conchoidal fracture. A conchoidal&nbsp;
+fracture appears as a concave “scoop” with&nbsp;&nbsp;
+a series of parallel arc-like steps along its&nbsp;
+surface. Think of a broken piece of thick glass,&nbsp;&nbsp;
+like the bottom of a glass soda bottle. When&nbsp;
+a mineral has more than one plane of cleavage,&nbsp;&nbsp;
+it is useful to estimate the angle between them,&nbsp;
+which can also be diagnostic. The minerals quartz,&nbsp;&nbsp;
+calcite, and halite often appear very similar in&nbsp;
+color and luster. The easiest way to tell them&nbsp;&nbsp;
+apart, is to look for cleavage. Quartz has no&nbsp;
+cleavage, whereas calcite has 3 directions of&nbsp;&nbsp;
+cleavage. In addition, while both halite and&nbsp;
+calcite have three directions of cleavage,&nbsp;&nbsp;
+the cleavage planes of calcite are 60- and&nbsp;
+120-degrees apart vs. 90 degrees for halite. If&nbsp;&nbsp;
+you were to smash halite with a hammer, it would&nbsp;
+break into tiny cubes. Do the same to calcite&nbsp;&nbsp;
+and it would break into tiny rhombohedrons. Two&nbsp;
+of the most common minerals in Earth’s crust,&nbsp;&nbsp;
+quartz and plagioclase, can also look similar in&nbsp;
+color and luster, especially to the untrained eye.&nbsp;&nbsp;
+But plagioclase has two directions of cleavage at&nbsp;
+90 degrees in contrast with quartz’s lack thereof.&nbsp;
+Even scratching a rock with your fingernail can&nbsp;
+be a quick way to classify and identify minerals,&nbsp;&nbsp;
+telling you something about the strength of its&nbsp;
+chemical bonds. A typical human fingernail has a&nbsp;&nbsp;
+hardness, or resistance to scratching, similar&nbsp;
+to the mineral calcite. Austrian mineralogist,&nbsp;&nbsp;
+Friedrich Mohs, determined this literal rule of&nbsp;
+thumb while developing the Mohs Hardness Scale.&nbsp;&nbsp;
+The Mohs scale ranks minerals by their ability&nbsp;
+to scratch each other, and is used to measure&nbsp;&nbsp;
+the relative hardness of a mineral sample.&nbsp;
+The scale goes from 1, the softest mineral,&nbsp;&nbsp;
+talc, to 10, the hardest mineral, diamond.&nbsp;
+Geologists also use common objects like coins or a&nbsp;&nbsp;
+metal fingernail file to approximate the hardness&nbsp;
+of minerals. Pennies have a hardness of about 3.5&nbsp;&nbsp;
+on the Mohs scale, similar to fluorite, and metal&nbsp;
+files have a hardness of 6.5 on the Mohs scale,&nbsp;&nbsp;
+similar to quartz. For example, say you have an&nbsp;
+unknown mineral that can be scratched by a steel&nbsp;&nbsp;
+file, but not by a penny. This would indicate that&nbsp;
+your mineral has a hardness between 3.5 and 6.5.&nbsp;
+So that wraps up a discussion surrounding some&nbsp;
+of the physical characteristics of minerals.&nbsp;&nbsp;
+Now that we’ve related the atomic structure&nbsp;
+of minerals to their macroscopic properties,&nbsp;&nbsp;
+we can move on to the&nbsp;
+different classes of minerals&nbsp;&nbsp;
+and discover how crystal chemistry and&nbsp;
+crystal structure relate to one another.

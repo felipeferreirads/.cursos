@@ -1,0 +1,547 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "36-microscopia-de-minerios/",
+    "module_id": "36",
+    "course_id": "geologia-avancado"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-09-29",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 15,
+    "yellow": 1,
+    "blue": 1,
+    "white": 0,
+    "verified_ok": 16
+  },
+  "findings": [
+    {
+      "claim_id": "MIC-M36-A01-CAMINHO-002",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "location": {
+        "file": "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-01-microscopio-luz-refletida-componentes-precaucoes-secoes-polidas.md",
+        "section": "O caminho optico (tabela, iluminador vertical); Ajuste da iluminacao passo 5",
+        "quote": "vidro plano (iluminacao mais uniforme e melhor para polarizacao) ou prisma (imagem mais brilhante, mas usa so parte da abertura)"
+      },
+      "claim": "vidro plano (iluminacao mais uniforme e melhor para polarizacao) ou prisma (imagem mais brilhante, mas usa so parte da abertura)",
+      "problem": "[1] Vantagem trocada. Vidro plano: incidencia vertical e abertura total, preferido na rotina, mas perde luz (~19%) e gira levemente a polarizacao (isotropico nao fica perfeitamente negro); refletor de Smith reduz a rotacao; prisma: ate ~50% da luz, metade da abertura, incidencia obliqua.",
+      "replacement": "Tres refletores descritos com vantagens corretas; passo 5 com ressalva de residuo uniforme que nao muda ao girar",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 1.2.5 e 4.3.1",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-29",
+        "consulted_at": "2026-09-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-01-microscopio-luz-refletida-componentes-precaucoes-secoes-polidas.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-29"
+    },
+    {
+      "claim_id": "MIC-M36-A01-PREPARACAO-005",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "location": {
+        "file": "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-01-microscopio-luz-refletida-componentes-precaucoes-secoes-polidas.md",
+        "section": "Preparacao da secao polida, passo 2",
+        "quote": "Uma secao polida delgada e uma lamina polida dos dois lados"
+      },
+      "claim": "Uma secao polida delgada e uma lamina polida dos dois lados",
+      "problem": "[2] Secao delgada polida = face superior polida, sem laminula; duplamente polida e outro tipo (interior de translucidos).",
+      "replacement": "Definicao corrigida e versao duplamente polida distinguida",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 2.5",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-29",
+        "consulted_at": "2026-09-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-01-microscopio-luz-refletida-componentes-precaucoes-secoes-polidas.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-29"
+    },
+    {
+      "claim_id": "MIC-M36-A02-COM-002",
+      "severity": "yellow",
+      "kind": "desatualizacao",
+      "location": {
+        "file": "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-02-refletancia-cor-habito-clivagem-borda-dureza-de-polimento.md",
+        "section": "Refletancia: o que e e do que depende",
+        "quote": "a Comissao de Microscopia de Minerios (COM) da IMA padronizou quatro (470, 546, 589 e 650 nm) e uma escala de padroes"
+      },
+      "claim": "a Comissao de Microscopia de Minerios (COM) da IMA padronizou quatro (470, 546, 589 e 650 nm) e uma escala de padroes",
+      "problem": "[3] Comprimentos de onda conferem. Nome atual: Commission on Ore Mineralogy (criada 1962; Ore Microscopy e o nome antigo, ainda no QDF 1986). Padroes: vidro negro, SiC, WTiC.",
+      "replacement": "Comissao de Mineralogia de Minerios (antes Microscopia); 546 nm se for um so; padroes nomeados",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 5.2.3; IMA-COM relatorio 2007 (mineralogy-ima.org)",
+        "tier": "normative",
+        "version": "consultado 2026-09-29",
+        "consulted_at": "2026-09-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-02-refletancia-cor-habito-clivagem-borda-dureza-de-polimento.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-29"
+    },
+    {
+      "claim_id": "MIC-M36-A02-ORDEM-003",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "location": {
+        "file": "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-02-refletancia-cor-habito-clivagem-borda-dureza-de-polimento.md",
+        "section": "Tabela de ordens de grandeza; Guarde a ordem; recap",
+        "quote": "Baixa: hematita, ilmenita, magnetita ~15% a ~30% / Muito baixa: esfalerita cerca de 17% a 18% / magnetita ~ ilmenita > esfalerita"
+      },
+      "claim": "Baixa: hematita, ilmenita, magnetita ~15% a ~30% / Muito baixa: esfalerita cerca de 17% a 18% / magnetita ~ ilmenita > esfalerita",
+      "problem": "[4] Esfalerita (~17%) dentro da faixa da classe baixa; ilmenita 16,4-19,2 sobrepoe esfalerita 16,6 (546 nm, ar). Ordem geral confere (ouro 77,0; pirita 51,7; calcopirita 44,6-45,0; galena 42,9; pirrotita ~34-40; hematita 26,4-30,0; magnetita 19,9).",
+      "replacement": "Numeros por mineral; ordem magnetita >= ilmenita ~ esfalerita; separacao por anisotropia e reflexoes internas",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, Apendice 1 e sec. 3.4.3",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-29",
+        "consulted_at": "2026-09-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-02-refletancia-cor-habito-clivagem-borda-dureza-de-polimento.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-29"
+    },
+    {
+      "claim_id": "MIC-M36-A02-HABITO-005",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "location": {
+        "file": "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-02-refletancia-cor-habito-clivagem-borda-dureza-de-polimento.md",
+        "section": "Habito e clivagem (galena); exemplo trabalhado",
+        "quote": "clivagem cubica perfeita que, na secao, aparece como linhas em duas direcoes ortogonais e como cavidades triangulares"
+      },
+      "claim": "clivagem cubica perfeita que, na secao, aparece como linhas em duas direcoes ortogonais e como cavidades triangulares",
+      "problem": "[5] Tracos ortogonais so em corte paralelo a face do cubo; diagnostico = fileiras de cavidades triangulares onde o corte intercepta as tres clivagens.",
+      "replacement": "Fileiras de cavidades triangulares como diagnostico; ortogonais so em corte paralelo a face; exemplo ajustado",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 3.4.2, Fig. 3.5a",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-29",
+        "consulted_at": "2026-09-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-02-refletancia-cor-habito-clivagem-borda-dureza-de-polimento.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-29"
+    },
+    {
+      "claim_id": "MIC-M36-A02-DUREZA-006",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "location": {
+        "file": "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-02-refletancia-cor-habito-clivagem-borda-dureza-de-polimento.md",
+        "section": "Relevo, borda e dureza de polimento",
+        "quote": "ouro < galena < calcopirita ~ esfalerita < pirrotita < ilmenita ~ magnetita < hematita < pirita"
+      },
+      "claim": "ouro < galena < calcopirita ~ esfalerita < pirrotita < ilmenita ~ magnetita < hematita < pirita",
+      "problem": "[6] INVERSAO PARCIAL dependente da fonte: Apendice 1 da ouro PH > galena (Vickers do ouro 53-58 < galena 59-65); esfalerita PH > calcopirita; ilmenita PH > magnetita.",
+      "replacement": "galena ~ ouro < calcopirita < esfalerita <~ pirrotita < magnetita <~ ilmenita < hematita < pirita, com nota de variacao entre metodos",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, Apendice 1 (PH, VHN) e cap. 6",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-29",
+        "consulted_at": "2026-09-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-02-refletancia-cor-habito-clivagem-borda-dureza-de-polimento.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-29"
+    },
+    {
+      "claim_id": "MIC-M36-A02-TALMAGE-008",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "location": {
+        "file": "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-02-refletancia-cor-habito-clivagem-borda-dureza-de-polimento.md",
+        "section": "Relevo, borda e dureza de polimento; recap",
+        "quote": "A escala de Talmage e o esquema classico para registrar a dureza de polimento como classes ordinais ... pelo relevo, pela pseudo-linha de Becke"
+      },
+      "claim": "A escala de Talmage e o esquema classico para registrar a dureza de polimento como classes ordinais ... pelo relevo, pela pseudo-linha de Becke",
+      "problem": "[7] Talmage (1925) e dureza AO RISCO (ponta arrastada sob carga conhecida), distinta da dureza de polimento (relevo, linha de Kalb) e da microindentacao; ambas superadas pela Vickers.",
+      "replacement": "Talmage reescrita como dureza ao risco; tres durezas distinguidas; Talmage 1925 nas Fontes",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 3.3 e 6.1; Talmage 1925 Econ Geol 20:535-553",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-29",
+        "consulted_at": "2026-09-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-02-refletancia-cor-habito-clivagem-borda-dureza-de-polimento.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-29"
+    },
+    {
+      "claim_id": "MIC-M36-A02-EXEMPLO-009",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "location": {
+        "file": "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-02-refletancia-cor-habito-clivagem-borda-dureza-de-polimento.md",
+        "section": "Exemplo trabalhado, passo 5",
+        "quote": "pirrotita tambem poderia ser B: ela tem tinta rosada e e anisotropica, o que a Aula 03 resolve"
+      },
+      "claim": "pirrotita tambem poderia ser B: ela tem tinta rosada e e anisotropica, o que a Aula 03 resolve",
+      "problem": "[8] Calcopirita tambem e anisotropica (fraca); a diferenca e a intensidade (pirrotita muito forte).",
+      "replacement": "pirrotita fortemente anisotropica, calcopirita so fracamente",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, Apendice 1",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-29",
+        "consulted_at": "2026-09-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-02-refletancia-cor-habito-clivagem-borda-dureza-de-polimento.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-29"
+    },
+    {
+      "claim_id": "MIC-M36-A03-BIRREFLECTANCIA-002",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "location": {
+        "file": "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-03-birrefletancia-anisotropia-reflexoes-internas-figuras-de-polarizacao.md",
+        "section": "Birreflectancia e pleocroismo de refletancia",
+        "quote": "moderada em pirrotita e fraca em hematita, ilmenita e arsenopirita (Craig & Vaughan, 1994)"
+      },
+      "claim": "moderada em pirrotita e fraca em hematita, ilmenita e arsenopirita (Craig & Vaughan, 1994)",
+      "problem": "[9] A fonte citada da hematita como MODERADA (com marcassita, nicolita, cubanita, pirrotita); fracas: ilmenita, enargita, arsenopirita.",
+      "replacement": "moderada em pirrotita e hematita, fraca em ilmenita e arsenopirita; intensidades variam entre compilacoes",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 3.2.3, Tabela 3.2",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-29",
+        "consulted_at": "2026-09-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-03-birrefletancia-anisotropia-reflexoes-internas-figuras-de-polarizacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-29"
+    },
+    {
+      "claim_id": "MIC-M36-A03-ROTACAO-003",
+      "severity": "blue",
+      "kind": "evidencia_insuficiente",
+      "location": {
+        "file": "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-03-birrefletancia-anisotropia-reflexoes-internas-figuras-de-polarizacao.md",
+        "section": "Anisotropia (analisador cruzado); exemplo passo 1",
+        "quote": "ilmenita, marrom a azul-acinzentado"
+      },
+      "claim": "ilmenita, marrom a azul-acinzentado",
+      "problem": "[10] Apendice 1: ilmenita cinza-esverdeado a cinza-amarronzado; tinta azul-acinzentada nao conferida em fonte acessivel.",
+      "replacement": "Generalizado: tons de cinza, de esverdeado a amarronzado; tintas variam entre compilacoes",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, Apendice 1 e sec. 3.2.4",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-29",
+        "consulted_at": "2026-09-29"
+      },
+      "confidence": "nao_verificado",
+      "affected_files": [
+        "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-03-birrefletancia-anisotropia-reflexoes-internas-figuras-de-polarizacao.md"
+      ],
+      "outcome": "corrigido_com_ressalva",
+      "applied_at": "2026-09-29"
+    },
+    {
+      "claim_id": "MIC-M36-A03-CAUTELAS-004",
+      "severity": "orange",
+      "kind": "certeza_indevida",
+      "location": {
+        "file": "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-03-birrefletancia-anisotropia-reflexoes-internas-figuras-de-polarizacao.md",
+        "section": "Tres cuidados, item 2 (anisotropia anomala)",
+        "quote": "Alguns minerais cubicos, como a pirita, podem exibir anisotropia fraca por deformacao, zonamento quimico ou substituicoes"
+      },
+      "claim": "Alguns minerais cubicos, como a pirita, podem exibir anisotropia fraca por deformacao, zonamento quimico ou substituicoes",
+      "problem": "[11] Fenomeno confere, mas C&V dizem que ocorre por razoes que continuam obscuras; riscos de polimento imitam anisotropia.",
+      "replacement": "Causa nao esclarecida; hipoteses listadas como propostas; riscos como falso positivo",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 3.2.4 nota 2; Apendice 1 (pirita, magnetita)",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-29",
+        "consulted_at": "2026-09-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-03-birrefletancia-anisotropia-reflexoes-internas-figuras-de-polarizacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-29"
+    },
+    {
+      "claim_id": "MIC-M36-A03-EXEMPLO-007",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "location": {
+        "file": "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-03-birrefletancia-anisotropia-reflexoes-internas-figuras-de-polarizacao.md",
+        "section": "Exemplo trabalhado",
+        "quote": "Duas fases cinza-amarronzadas lado a lado, de refletancia baixa e parecida ... X e magnetita e Y e hematita"
+      },
+      "claim": "Duas fases cinza-amarronzadas lado a lado, de refletancia baixa e parecida ... X e magnetita e Y e hematita",
+      "problem": "[12] Hematita e branca-acinzentada azulada e mais refletiva (26-30% x ~20%), como a propria Aula 02 ensina; o enunciado descreve o par magnetita-ilmenita.",
+      "replacement": "Hematita tratada como hipotese a excluir; conclusao X magnetita, Y ilmenita (compativel, nao confirmada)",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, Apendice 1",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-29",
+        "consulted_at": "2026-09-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-03-birrefletancia-anisotropia-reflexoes-internas-figuras-de-polarizacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-29"
+    },
+    {
+      "claim_id": "MIC-M36-A04-PARAGENESE-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "location": {
+        "file": "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-04-paragenese-texturas-microestruturas-genese-rotina-de-descricao.md",
+        "section": "Assembleia, paragenese e sequencia",
+        "quote": "Paragenese: subconjunto da assembleia de minerais que se formaram no mesmo evento ou processo"
+      },
+      "claim": "Paragenese: subconjunto da assembleia de minerais que se formaram no mesmo evento ou processo",
+      "problem": "[13] Acepcao europeia. Craig & Vaughan (fonte citada) usam paragenesis so como sequencia de formacao e registram o uso europeu.",
+      "replacement": "Nota sobre o uso duplo do termo",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 8.1 nota 1",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-29",
+        "consulted_at": "2026-09-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-04-paragenese-texturas-microestruturas-genese-rotina-de-descricao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-29"
+    },
+    {
+      "claim_id": "MIC-M36-A04-EXSOLUCAO-003",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "location": {
+        "file": "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-04-paragenese-texturas-microestruturas-genese-rotina-de-descricao.md",
+        "section": "Quatro familias de textura item 2; Exsolucao ou substituicao; Aula 02 habito da ilmenita",
+        "quote": "O exemplo classico sao as lamelas de ilmenita em magnetita"
+      },
+      "claim": "O exemplo classico sao as lamelas de ilmenita em magnetita",
+      "problem": "[14] Ilmenita em magnetita ocorre em volume acima da solubilidade e e atribuida sobretudo a oxi-exsolucao (Lindsley 1976; Buddington & Lindsley 1964). Exsolucao verdadeira: ulvoespinelio em magnetita, hematita-ilmenita, pentlandita em pirrotita, calcopirita-bornita.",
+      "replacement": "Exemplos de exsolucao trocados; ilmenita em magnetita como oxi-exsolucao predominante; Aula 02 ajustada; fontes acrescentadas",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.5.1 e 7.5.4; Lindsley 1976 MSA SCN 3; Buddington & Lindsley 1964 J Petrol 5:310-357",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-29",
+        "consulted_at": "2026-09-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-04-paragenese-texturas-microestruturas-genese-rotina-de-descricao.md",
+        "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-02-refletancia-cor-habito-clivagem-borda-dureza-de-polimento.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-29"
+    },
+    {
+      "claim_id": "MIC-M36-A04-DEFORMACAO-005",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "location": {
+        "file": "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-04-paragenese-texturas-microestruturas-genese-rotina-de-descricao.md",
+        "section": "Quatro familias de textura, item 4",
+        "quote": "A galena e a calcopirita mostram geminacoes de deformacao"
+      },
+      "claim": "A galena e a calcopirita mostram geminacoes de deformacao",
+      "problem": "[15] Geminacao de deformacao em pirrotita, ilmenita, calcopirita, hematita; na galena a deformacao aparece no encurvamento das fileiras de cavidades triangulares.",
+      "replacement": "calcopirita, pirrotita e ilmenita com geminacao; galena com fileiras encurvadas",
+      "source": {
+        "name": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.6.1-7.6.2, Figs. 7.20 e 7.22",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-29",
+        "consulted_at": "2026-09-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-04-paragenese-texturas-microestruturas-genese-rotina-de-descricao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-29"
+    },
+    {
+      "claim_id": "MIC-M36-A04-DOENCA-006",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "location": {
+        "file": "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-04-paragenese-texturas-microestruturas-genese-rotina-de-descricao.md",
+        "section": "Exsolucao ou substituicao, segundo paragrafo; recap",
+        "quote": "foram por muito tempo lidos como exsolucao; Barton & Bethke (1987) propuseram que resultam da substituicao da esfalerita por fluido, e o tema segue debatido"
+      },
+      "claim": "foram por muito tempo lidos como exsolucao; Barton & Bethke (1987) propuseram que resultam da substituicao da esfalerita por fluido, e o tema segue debatido",
+      "problem": "[16] Debate mal enquadrado: exsolucao explica poucos casos (Cu so se dissolve apreciavelmente na esfalerita acima de ~500 C); B&B: substituicao nas texturas comuns, com paradoxo da difusao nao resolvido, exsolucao so em bead chains de Creede; C&V: crescimento epitaxial ou substituicao. Debate vivo: substituicao x crescimento conjunto.",
+      "replacement": "Paragrafo reescrito com as tres pecas; recap ajustado",
+      "source": {
+        "name": "Barton & Bethke 1987 Am Mineral 72:451-467 (texto integral minsocam.org); Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access, sec. 7.5.2",
+        "tier": "peer_reviewed",
+        "version": "consultado 2026-09-29",
+        "consulted_at": "2026-09-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-04-paragenese-texturas-microestruturas-genese-rotina-de-descricao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-29"
+    },
+    {
+      "claim_id": "MIC-M36-A04-APLICABILIDADE-007",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "location": {
+        "file": "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-04-paragenese-texturas-microestruturas-genese-rotina-de-descricao.md",
+        "section": "Restricoes, segundo item",
+        "quote": "Fases menores que cerca de 1 um estao abaixo da resolucao optica"
+      },
+      "claim": "Fases menores que cerca de 1 um estao abaixo da resolucao optica",
+      "problem": "[17] Resolucao de Abbe ~0,25 um com imersao (AN 1,3, 546 nm); 1 um e resolvido; o limite e de identificacao, nao de resolucao.",
+      "replacement": "Limite de identificacao pratico distinguido da resolucao (alguns decimos de um)",
+      "source": {
+        "name": "Criterio de Abbe d = 0,61 lambda/AN (optica de microscopio)",
+        "tier": "reference_database",
+        "version": "consultado 2026-09-29",
+        "consulted_at": "2026-09-29"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "36-microscopia-de-minerios/36-microscopia-de-minerios-aula-04-paragenese-texturas-microestruturas-genese-rotina-de-descricao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-29"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "MIC-M36-A01-OPACOS-001",
+      "claim": "Opacos por luz refletida; esfalerita, hematita fina, cassiterita, cuprita translucidas",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access sec. 2.5, Tabela 3.3",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIC-M36-A01-ILUMINACAO-003",
+      "claim": "Kohler; abertura = contraste x resolucao; mesmas condicoes; cor depende da lampada",
+      "source": "Optica de Kohler padrao; Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access sec. 1.2.4 (descreve os diafragmas de forma diferente da terminologia padrao; aula nao alterada)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIC-M36-A01-IMERSAO-004",
+      "claim": "Oleo nD ~1,515; sem laminula; R cai; ar e oleo a parte",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access sec. 1.2.3, 5.2.3",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIC-M36-A01-ARTEFATOS-006",
+      "claim": "Riscos, relevo, arrancamento, contaminacao, bornita",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access cap. 2, sec. 3.3.2",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIC-M36-A01-PRECAUCOES-007",
+      "claim": "Precaucoes de uso e preparo",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access sec. 5.2.4; boas praticas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIC-M36-A01-EXEMPLO-008",
+      "claim": "Exemplo hipotetico de avaliacao de secao",
+      "source": "-",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIC-M36-A02-REFLETANCIA-001",
+      "claim": "Formula de Fresnel com k; R cai em oleo",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access cap. 4",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIC-M36-A02-COR-004",
+      "claim": "Cores em ar; contraste simultaneo",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access Apendice 1",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIC-M36-A02-BECKE-007",
+      "claim": "Linha de Kalb vai para o mais mole ao afastar a objetiva (baixar a platina) - SEM INVERSAO",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access sec. 3.3.1, Fig. 3.3; Oxford Dictionary of Earth Sciences",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIC-M36-A03-ISOANISO-001",
+      "claim": "Cubico isotropico; 4 extincoes a 90 graus",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access sec. 3.2.4",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIC-M36-A03-INTERNAS-005",
+      "claim": "Reflexoes internas: cores e ausencias",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access sec. 3.2.5, Tabelas 3.3 e A1.1",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIC-M36-A03-FIGURAS-006",
+      "claim": "Figuras de polarizacao: cruz estacionaria x isogiras que se abrem",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access sec. 4.3.3, Fig. 4.11",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIC-M36-A04-CRESCIMENTO-002",
+      "claim": "Euedricos, zonamento, coloforme, framboides",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access sec. 7.2, 7.9; Roedder 1968",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIC-M36-A04-SUBSTITUICAO-004",
+      "claim": "Relictos, embaiamento, covelita/calcocita supergenicas",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access sec. 7.4",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIC-M36-A04-RELATORIO-008",
+      "claim": "Estrutura do relatorio",
+      "source": "Craig & Vaughan 1994, Ore Microscopy and Ore Petrography 2a ed., MSA open access cap. 8; estrutura do curso",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIC-M36-A04-EXEMPLO-009",
+      "claim": "Exemplo hipotetico pirita-calcopirita-covelita",
+      "source": "-",
+      "confidence": "confirmado"
+    }
+  ]
+}

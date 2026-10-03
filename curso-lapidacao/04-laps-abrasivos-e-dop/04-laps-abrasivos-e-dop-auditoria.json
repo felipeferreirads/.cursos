@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "04-laps-abrasivos-e-dop/",
+    "module_id": "04",
+    "course_id": "lapidacao"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-09-02T00:00:00-03:00",
+  "verdict": "approved",
+  "summary": {
+    "red": 2,
+    "orange": 6,
+    "yellow": 0,
+    "blue": 3,
+    "white": 0,
+    "verified_ok": 25,
+    "open_findings": 0
+  },
+  "findings": [
+    {
+      "claim_id": "POL-CRO-JAD-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "claim": "Óxido de crômio declarado como o único dos quatro óxidos acima do quartzo",
+      "location": {
+        "file": "04-laps-abrasivos-e-dop/04-laps-abrasivos-e-dop-aula-05-polidores-por-oxido-cerio-alumina-estanho-e-cromio-e-a-quem-cada-um-serve.md",
+        "section": "Óxido de crômio (Cr₂O₃)",
+        "quote": "o único dos quatro que fica acima do quartzo, ao contrário de cério, estanho e alumina calcinada em relação às gemas moles"
+      },
+      "problem": "Falso e autocontraditório na mesma frase. A aula lista cério (~6), estanho (~6-7), crômio (~8-8,5) e alumina (~9). A alumina também fica acima do quartzo (7), contradizendo a afirmação de que o crômio é o único. A afirmação transporta para um conjunto de quatro óxidos um enunciado que só valia para o recorte de três do módulo 02.",
+      "replacement": "O crômio passou a ser apresentado como um dos dois óxidos acima do quartzo, junto com a alumina, preservando o ponto pedagógico real — é ele que desmente a regra do polidor sempre mais mole que a gema, regra que vale para cério e estanho.",
+      "source": {
+        "name": "Dados de dureza de Cr₂O₃ ~8–8,5 Mohs; Al₂O₃ ~9 Mohs; consistentes com ABR-POL-CROM-001 (módulo 02) e POL-ALU-COR-001 (a própria aula 05)",
+        "level": "literatura de materiais + consistência interna do curso",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "04-laps-abrasivos-e-dop/04-laps-abrasivos-e-dop-aula-05-polidores-por-oxido-cerio-alumina-estanho-e-cromio-e-a-quem-cada-um-serve.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-02"
+    },
+    {
+      "claim_id": "LAP-CONCAVO-CENTRO-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "claim": "Lap côncavo é comum porque o centro gira mais devagar e desgasta diferente",
+      "location": {
+        "file": "04-laps-abrasivos-e-dop/04-laps-abrasivos-e-dop-aula-02-geometria-e-manutencao-do-lap-verdadeiro-planicidade-sulcamento-e-vida-util.md",
+        "section": "O que um lap fora de plano faz com a pedra",
+        "quote": "Lap côncavo (afundado no meio, comum porque o centro gira mais devagar e desgasta diferente)"
+      },
+      "problem": "A cadeia causal está invertida. A periferia de um disco em rotação percorre mais distância por volta; onde há mais caminho percorrido sob a mesma carga, há mais remoção. Isso faz a periferia desgastar mais rápido, empurrando a placa para convexa, não côncava. Também é falso que côncavo seja comum: a literatura trata côncavo e convexo como dois modos possíveis, sem preponderância intrínseca.",
+      "replacement": "Removida a atribuição causal e a alegação de frequência. O parêntese passou a dizer que qual dos dois modos aparece depende de onde o trabalho se concentra no raio e de como a pressão se distribui. O efeito na pedra (lap côncavo → faceta convexa) foi mantido.",
+      "source": {
+        "name": "Kemet, controle de planicidade de placa de lapping — a lapping plate will usually wear convex or concave; a convex plate produces a concave component and vice versa",
+        "level": "literatura técnica de processo",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "04-laps-abrasivos-e-dop/04-laps-abrasivos-e-dop-aula-02-geometria-e-manutencao-do-lap-verdadeiro-planicidade-sulcamento-e-vida-util.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-02"
+    },
+    {
+      "claim_id": "POL-CER-SIL-001",
+      "severity": "orange",
+      "kind": "inconsistencia_entre_modulos",
+      "claim": "Óxido de cério tem dureza de 5 a 6 na escala de Mohs",
+      "location": {
+        "file": "04-laps-abrasivos-e-dop/04-laps-abrasivos-e-dop-aula-05-polidores-por-oxido-cerio-alumina-estanho-e-cromio-e-a-quem-cada-um-serve.md",
+        "section": "Óxido de cério (CeO₂)",
+        "quote": "Dureza da ordem de 5 a 6 na escala de Mohs"
+      },
+      "problem": "O módulo 02 fixou o cério em ~6 (aula 01 e aula 04), e essa contagem resultou de correção de achado anterior. A aula 05 abre o intervalo para baixo, criando duas versões do mesmo dado no curso. A extremidade 5 também não é sustentada em nenhuma fonte. A própria aula 05 já dizia ~6 no bloco Antes de começar, contradizendo o corpo.",
+      "replacement": "Alinhado para ~6 nas quatro ocorrências do corpo, resolvendo simultaneamente a divergência com o módulo 02 e a divergência interna da própria aula.",
+      "source": {
+        "name": "Literatura de materiais sobre pós polidores de cério; módulo 02, aulas 01 e 04",
+        "level": "literatura de materiais + norma interna do curso",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "04-laps-abrasivos-e-dop/04-laps-abrasivos-e-dop-aula-05-polidores-por-oxido-cerio-alumina-estanho-e-cromio-e-a-quem-cada-um-serve.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-02"
+    },
+    {
+      "claim_id": "ABR-FAM-OXID-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "A família dos óxidos tem dureza de cerca de 6 a 8,5 em Mohs",
+      "location": {
+        "file": "04-laps-abrasivos-e-dop/04-laps-abrasivos-e-dop-aula-04-diamante-carbeto-de-silicio-e-oxidos-as-tres-familias-de-abrasivo-e-o-criterio-de-escolha.md",
+        "section": "Família 3 — Óxidos",
+        "quote": "São os mais moles do grupo — de cerca de 6 a 8,5 em Mohs (a alumina, a mais dura, ~9)"
+      },
+      "problem": "O teto declarado da família (8,5) exclui o membro que o parêntese imediatamente a seguir dá como o mais duro dela (alumina, ~9). O intervalo e o exemplo se contradizem na mesma frase.",
+      "replacement": "6 a 8,5 → 6 a 9 no corpo, no recap e na alegação auditável. Correção word-neutral.",
+      "source": {
+        "name": "As mesmas durezas já usadas pela aula; IGS / geology.com",
+        "level": "literatura de materiais",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "04-laps-abrasivos-e-dop/04-laps-abrasivos-e-dop-aula-04-diamante-carbeto-de-silicio-e-oxidos-as-tres-familias-de-abrasivo-e-o-criterio-de-escolha.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-02"
+    },
+    {
+      "claim_id": "LAP-ACO-DESB-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "O ferro fundido chega a servir para etapas mais finas",
+      "location": {
+        "file": "04-laps-abrasivos-e-dop/04-laps-abrasivos-e-dop-aula-01-o-lap-como-ferramenta-aco-cobre-estanho-lucite-ceramica-e-zinco.md",
+        "section": "Percorrendo os materiais",
+        "quote": "O ferro fundido, mais poroso que o aço, segura o grão um pouco melhor e chega a servir para etapas mais finas"
+      },
+      "problem": "A literatura de lapidação situa o lap de ferro fundido firmemente nos estágios de remoção — desbaste e lixamento médio — e o pré-polimento migra para cobre, estanho ou cerâmica. A atribuição a etapas finas vinha de Hannam, fonte secundária, nunca admissível como origem de alocação técnica contra a literatura forte.",
+      "replacement": "chega a servir para etapas mais finas → mas a literatura o mantém no desbaste e no lixamento médio, não no pré-polimento. A premissa correta (mais poroso, retém melhor que o aço) foi preservada.",
+      "source": {
+        "name": "Literatura de lapidação sobre laps de ferro fundido (estágios grosseiro e médio; carga com diamante 60–325 mesh)",
+        "level": "literatura de lapidação",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "04-laps-abrasivos-e-dop/04-laps-abrasivos-e-dop-aula-01-o-lap-como-ferramenta-aco-cobre-estanho-lucite-ceramica-e-zinco.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-02"
+    },
+    {
+      "claim_id": "LAP-EST-POL-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "Type metal é liga mole de chumbo com estanho",
+      "location": {
+        "file": "04-laps-abrasivos-e-dop/04-laps-abrasivos-e-dop-aula-01-o-lap-como-ferramenta-aco-cobre-estanho-lucite-ceramica-e-zinco.md",
+        "section": "Vocabulário desta aula e Percorrendo os materiais",
+        "quote": "chumbo-estanho (*type metal*) | liga mole de chumbo com estanho"
+      },
+      "problem": "Type metal é liga ternária de chumbo, antimônio e estanho (~80% Pb, ~15% Sb, ~5% Sn), e o antimônio está lá precisamente para endurecer. Omitir o antimônio apaga o componente que responde pela propriedade em discussão. Atribuir 1,5 Mohs ao conjunto estende ao type metal o valor do estanho e chumbo puros, que a liga antimoniada supera.",
+      "replacement": "Antimônio incluído na definição do vocabulário e no corpo. O valor 1,5 Mohs foi atribuído explicitamente ao estanho e chumbo, com ressalva de que o antimônio endurece um pouco a liga.",
+      "source": {
+        "name": "Britannica, type metal (composição ~80/15/5 Pb-Sb-Sn); dureza Mohs de estanho e chumbo ~1,5",
+        "level": "base de referência + dados de dureza de metais",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "04-laps-abrasivos-e-dop/04-laps-abrasivos-e-dop-aula-01-o-lap-como-ferramenta-aco-cobre-estanho-lucite-ceramica-e-zinco.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-02"
+    },
+    {
+      "claim_id": "POL-CRO-DIOP-002",
+      "severity": "orange",
+      "kind": "certeza_indevida",
+      "claim": "Óxido de crômio é o polidor do cromo-diopsídio",
+      "location": {
+        "file": "04-laps-abrasivos-e-dop/04-laps-abrasivos-e-dop-aula-05-polidores-por-oxido-cerio-alumina-estanho-e-cromio-e-a-quem-cada-um-serve.md",
+        "section": "Óxido de crômio (Cr₂O₃)",
+        "quote": "é o polidor do jade — tanto nefrita quanto jadeíta —, do cromo-diopsídio e de alguns materiais duros que respondem mal aos outros óxidos"
+      },
+      "problem": "Para o cromo-diopsídio, a referência gemológica dá alumina ou óxido de cério como os polidores da maioria dos laps, com crômio aparecendo numa configuração específica. Listá-lo ao lado do jade como cliente definidor do crômio inverte a ordem de preferência e ensina uma associação que a prática não sustenta.",
+      "replacement": "O cromo-diopsídio saiu da posição de cliente definidor e passou a ser mencionado como caso em que o crômio aparece como opção, com alumina e cério à frente. Removido da linha da tabela mental e do recap.",
+      "source": {
+        "name": "International Gem Society, Chrome Diopside / Faceting Information",
+        "level": "base de referência gemológica",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "04-laps-abrasivos-e-dop/04-laps-abrasivos-e-dop-aula-05-polidores-por-oxido-cerio-alumina-estanho-e-cromio-e-a-quem-cada-um-serve.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-02"
+    },
+    {
+      "claim_id": "DOP-CERA-TERM-001",
+      "severity": "orange",
+      "kind": "dado_numerico",
+      "claim": "A faixa de amolecimento da cera de dop fica por volta de 60–80 °C",
+      "location": {
+        "file": "04-laps-abrasivos-e-dop/04-laps-abrasivos-e-dop-aula-06-sistemas-de-dop-cera-adesivo-dop-mecanico-e-a-transferencia-de-dop.md",
+        "section": "Cera de dop",
+        "quote": "A faixa de amolecimento fica por volta de 60–80 °C (Sinkankas)"
+      },
+      "problem": "A atribuição nominal a Sinkankas não foi verificada, e o redator sinalizou como não conferida. A faixa exclui a metade baixa do espectro real: cimentos de dopping à base de goma-laca, breu e cera de abelha são moldáveis a 45–65 °C; ceras comerciais ficam em torno de 74–77 °C, com as verdes deliberadamente mais baixas para gema termossensível. Um piso de 60 °C apaga a faixa que mais importa para o eixo de risco térmico.",
+      "replacement": "Faixa ampliada para 45–80 °C com dependência de formulação explicitada. A atribuição pontual a Sinkankas foi removida e substituída pela base de verificação real. Correção word-neutral no saldo.",
+      "source": {
+        "name": "Dados de formulação de dopping cement (moldável 45–65 °C); cera de facetamento (74–77 °C; verdes para pedra termossensível); IGS Choosing the Best Faceting Wax",
+        "level": "base de referência + dados de produto",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "04-laps-abrasivos-e-dop/04-laps-abrasivos-e-dop-aula-06-sistemas-de-dop-cera-adesivo-dop-mecanico-e-a-transferencia-de-dop.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-02"
+    },
+    {
+      "claim_id": "LAP-PLAN-TOL-001",
+      "severity": "blue",
+      "kind": "evidencia_insuficiente",
+      "claim": "Um lap é tratado como fora de serviço quando a face se afasta do plano por mais do que cerca de 0,05 a 0,1 mm",
+      "location": {
+        "file": "04-laps-abrasivos-e-dop/04-laps-abrasivos-e-dop-aula-02-geometria-e-manutencao-do-lap-verdadeiro-planicidade-sulcamento-e-vida-util.md",
+        "section": "O que um lap fora de plano faz com a pedra",
+        "quote": "um lap é tratado como fora de serviço quando a face se afasta do plano por mais do que cerca de 0,05 a 0,1 mm (poucos milésimos de polegada)"
+      },
+      "problem": "O valor não foi localizado em Wykoff, USFG, Sinkankas nem Vargas & Vargas. A única cifra recorrente na literatura refere-se ao material removido por passe de truing, não ao desvio máximo tolerado. Um critério absoluto de planicidade não é como a literatura trata o assunto: ela trabalha por verificação com régua de precisão e por sintoma na pedra.",
+      "replacement": "O número saiu. O parágrafo passou a descrever a verificação por régua de precisão — enquanto o desvio se dilui na tolerância o lap serve; quando começa a aparecer na pedra, pede truing.",
+      "source": {
+        "name": "Ausência de fonte localizada; prática corrente de lapidação",
+        "level": "prática verificável",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "nao_verificado",
+      "affected_files": [
+        "04-laps-abrasivos-e-dop/04-laps-abrasivos-e-dop-aula-02-geometria-e-manutencao-do-lap-verdadeiro-planicidade-sulcamento-e-vida-util.md"
+      ],
+      "outcome": "corrigido_com_ressalva",
+      "applied_at": "2026-09-02"
+    },
+    {
+      "claim_id": "LAP-VIDA-METAL-001",
+      "severity": "blue",
+      "kind": "evidencia_insuficiente",
+      "claim": "Quando resta em torno de metade da espessura original o lap não vale mais a pena",
+      "location": {
+        "file": "04-laps-abrasivos-e-dop/04-laps-abrasivos-e-dop-aula-02-geometria-e-manutencao-do-lap-verdadeiro-planicidade-sulcamento-e-vida-util.md",
+        "section": "Vida útil",
+        "quote": "na prática, quando resta em torno de metade da espessura original ele já não vale a pena"
+      },
+      "problem": "Nenhuma das fontes primárias do curso oferece essa fração nem qualquer outra. O critério real na literatura é funcional, não dimensional.",
+      "replacement": "A fração saiu. O critério funcional já contido na frase — fino demais, empena sob fixação, deixa de sustentar planicidade — ficou como o critério, com ressalva explícita de que não há fração citável.",
+      "source": {
+        "name": "Ausência de fonte",
+        "level": "nao verificavel",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "nao_verificado",
+      "affected_files": [
+        "04-laps-abrasivos-e-dop/04-laps-abrasivos-e-dop-aula-02-geometria-e-manutencao-do-lap-verdadeiro-planicidade-sulcamento-e-vida-util.md"
+      ],
+      "outcome": "corrigido_com_ressalva",
+      "applied_at": "2026-09-02"
+    },
+    {
+      "claim_id": "LAP-ZN-INTER-001",
+      "severity": "blue",
+      "kind": "evidencia_insuficiente",
+      "claim": "Zinco é menos propenso a carregar demais de abrasivo velho e detrito",
+      "location": {
+        "file": "04-laps-abrasivos-e-dop/04-laps-abrasivos-e-dop-aula-01-o-lap-como-ferramenta-acao-cobre-estanho-lucite-ceramica-e-zinco.md",
+        "section": "Percorrendo os materiais",
+        "quote": "com a vantagem de ser menos propenso a 'carregar demais': acumula menos abrasivo velho e detrito"
+      },
+      "problem": "A propriedade específica não aparece em nenhuma fonte primária consultada. O que as fontes sustentam é que zinco é mais duro que estanho e por isso mantém a face plana por mais tempo. A afirmação original tinha feição de folclore de fórum.",
+      "replacement": "Substituída pela consequência que a dureza relativa sustenta — mais duro que o estanho, sustenta planicidade por mais tempo e sulca menos, à custa de reter um pouco menos de abrasivo. Isso liga o zinco ao mecanismo de sulcamento.",
+      "source": {
+        "name": "Dureza Mohs do zinco ~2,5; mecanismo de sulcamento de LAP-SULC-ANEL-001",
+        "level": "literatura de materiais + dedução",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "nao_verificado",
+      "affected_files": [
+        "04-laps-abrasivos-e-dop/04-laps-abrasivos-e-dop-aula-01-o-lap-como-ferramenta-acao-cobre-estanho-lucite-ceramica-e-zinco.md"
+      ],
+      "outcome": "corrigido_com_ressalva",
+      "applied_at": "2026-09-02"
+    }
+  ],
+  "verified_ok": [
+    {
+      "claim_id": "Aço",
+      "source": "Dados de dureza",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "Cobre",
+      "source": "Dados de dureza",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "Zinco",
+      "source": "Dados de dureza",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "Estanho e chumbo",
+      "source": "Dados de dureza",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "Diamante",
+      "source": "Dados de dureza Knoop",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "Carbeto de silício",
+      "source": "Dados de dureza Knoop",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "Coríndon",
+      "source": "Dados de dureza Knoop; bate com módulo 02",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "Carbeto de silício Mohs",
+      "source": "Dados de dureza Mohs",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "Alumina",
+      "source": "Dados de dureza Mohs",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "Óxido de crômio",
+      "source": "Dados de dureza Mohs; bate com ABR-POL-CROM-001",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "Óxido de estanho",
+      "source": "Dados de dureza Mohs; bate com módulo 02",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "Jadeíta",
+      "source": "Dados de dureza Mohs",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "Linde A",
+      "source": "Especificação técnica",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CON-GRAO-NUM-001",
+      "source": "Escala de grão de desbaste e polimento",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "LAP-PLAN-NEG-001",
+      "source": "Literatura de lapping",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "LAP-MOLE-CUT-001",
+      "source": "Mecanismo de corte",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "LAP-CER-ESTAB-001",
+      "source": "Literatura de cerâmica lapidária",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "LAP-SINTER-VIDA-001",
+      "source": "Literatura de lapidação",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "POL-EST-FLD-001",
+      "source": "Literatura gemológica",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "POL-ALU-COR-001",
+      "source": "Literatura de polimento",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "DOP-MEC-ALIN-001",
+      "source": "Literatura de sistemas de dop",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "DOP-ADE-REV-001",
+      "source": "Literatura de sistemas de dop",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "DOP-TRANSF-LOG-001",
+      "source": "Literatura de transferência de dop",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "Fronteira a06 × módulo 13",
+      "source": "Escopo declarado no _contexto.md",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "Nível teórico",
+      "source": "Regra dura do curso",
+      "confidence": "confirmado"
+    }
+  ],
+  "cross_lesson_checks": [
+    {
+      "check": "Durezas e escalas de abrasivos coerentes entre aulas 01, 04 e 05",
+      "result": "ok"
+    },
+    {
+      "check": "Família dos óxidos alinhada entre aulas 04 e 05 após correção de ABR-FAM-OXID-001",
+      "result": "ok apos correcao"
+    },
+    {
+      "check": "Laps e suas aplicações coerentes entre aulas 01 e 02",
+      "result": "ok apos correcao de LAP-ACO-DESB-001"
+    },
+    {
+      "check": "Mecanismos de polimento (módulo 02) reativados corretamente sem recreditação",
+      "result": "ok"
+    },
+    {
+      "check": "Nível teórico (regra dura): nenhuma afirmação de competência de bancada",
+      "result": "ok"
+    }
+  ],
+  "handed_to_didactic_review": [
+    "a04 · exemplo trabalhado antecipa a a05. O exemplo da safira indica polidor (alumina ou diamante) e o da ametista indica cério — enquanto o bloco Nao concluir promete que isso é da aula 05. A revisão didática decide se ajusta a promessa ou o exemplo.",
+    "a02 · o parêntese corrigido do lap côncavo ficou mais denso que a redação original, mas a correção era obrigatória. A frase resultante carrega duas condicionantes num aposto; cabe ao revisor avaliar se merece virar oração própria.",
+    "a05 · densidade numérica alta — quatro óxidos com dureza, mecanismo e clientela cada um. Está correto e dentro de LC-05, mas é a aula com mais números por parágrafo do módulo."
+  ],
+  "derived_material": {
+    "questionario": "inexistente no momento da auditoria",
+    "flashcards": "inexistente no momento da auditoria",
+    "propagacao_necessaria": false,
+    "anki_ja_importado": false
+  },
+  "palavras_corpo_pos_auditoria": {
+    "a01": 1592,
+    "a02": 1588,
+    "a03": 1597,
+    "a04": 1581,
+    "a05": 1587,
+    "a06": 1598
+  }
+}

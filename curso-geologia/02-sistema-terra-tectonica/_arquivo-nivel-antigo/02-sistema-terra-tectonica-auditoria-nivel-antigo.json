@@ -1,0 +1,100 @@
+{
+  "module_id": "02",
+  "module_slug": "sistema-terra-tectonica",
+  "audited_at": "2026-08-15",
+  "mode": "audit-and-fix",
+  "verdict": "approved",
+  "counts": { "red": 0, "orange": 1, "yellow": 2, "blue": 4, "white": 2 },
+  "findings": [
+    {
+      "id": "M02-F01",
+      "severity": "orange",
+      "lesson": "geologia-gemologia-m02-a03",
+      "claim_id": "GEO-M02-A03-TAXAESPALHAMENTO-028",
+      "issue": "Taxa de espalhamento da Elevacao do Pacifico Leste inconsistente entre A03 (meia-taxa 8-9 cm/ano, implicando 16-18 total) e A04 (total ate ~15 cm/ano)",
+      "correction": "A03 corrigida para meia-taxa 1-2,5 cm/ano (lentas) e ~7-7,5 cm/ano (rapidas), com equivalencia explicita para taxa total e remissao a A04",
+      "status": "closed"
+    },
+    {
+      "id": "M02-F02",
+      "severity": "yellow",
+      "lesson": "geologia-gemologia-m02-a03",
+      "claim_id": "GEO-M02-A03-ORTELIUS-001",
+      "issue": "Atribuicao a Ortelius (1596) apresentada sem procedencia; e uma redescoberta filologica moderna",
+      "correction": "Acrescentada a procedencia no texto (trazida a atencao moderna em 1994 por James Romm)",
+      "status": "closed"
+    },
+    {
+      "id": "M02-F03",
+      "severity": "yellow",
+      "lesson": "geologia-gemologia-m02-a02",
+      "claim_id": "GEO-M02-A02-CMB-013",
+      "issue": "Pendencia herdada M01-F04: precisao do limite manto-nucleo",
+      "correction": "A01 usa 2.900 km no contexto historico de Gutenberg 1913; A02 adota PREM 2.891 km e declara dependencia de modelo. Resolvido no escopo do modulo 02",
+      "status": "closed",
+      "revisit_in": ["20"]
+    },
+    {
+      "id": "M02-F04",
+      "severity": "blue",
+      "lesson": "geologia-gemologia-m02-a05",
+      "claim_id": "GEO-M02-A05-660KM-GEOMETRIA-005",
+      "issue": "Geometria da conveccao do manto: manto inteiro versus estratificada em 660 km",
+      "correction": "Apresentado como conhecimento em evolucao, nao como fato fechado",
+      "status": "deferred",
+      "revisit_in": ["19", "20"]
+    },
+    {
+      "id": "M02-F05",
+      "severity": "blue",
+      "lesson": "geologia-gemologia-m02-a05",
+      "claim_id": "GEO-M02-A05-PLUMAS-ORIGEM-012",
+      "issue": "Origem das plumas mantelicas (profunda versus rasa) e fixidez dos pontos quentes em debate ativo",
+      "correction": "Marcado como controverso; a dobra Havai-Imperador e apresentada com as duas leituras concorrentes, sem eleger uma",
+      "status": "deferred",
+      "revisit_in": ["11", "19", "25"]
+    },
+    {
+      "id": "M02-F06",
+      "severity": "blue",
+      "lesson": "geologia-gemologia-m02-a05",
+      "claim_id": "GEO-M02-A05-SLABPULL-DOMINANTE-006",
+      "issue": "Balanco quantitativo exato entre slab pull, ridge push, basal drag e succao; razao de Urey mal restringida",
+      "correction": "Aula distingue medido, modelado e disputado; razao de Urey registrada com confianca baixa",
+      "status": "deferred",
+      "revisit_in": ["19", "20"]
+    },
+    {
+      "id": "M02-F07",
+      "severity": "blue",
+      "lesson": "geologia-gemologia-m02-a02",
+      "claim_id": "GEO-M02-A02-LLSVP-012",
+      "issue": "Natureza das LLSVPs (termica, quimica ou mista) e identidade dos elementos leves do nucleo externo",
+      "correction": "Observacao e interpretacao separadas explicitamente; cada ponto tem item proprio em 'O que nao concluir'",
+      "status": "deferred",
+      "revisit_in": ["10", "20"]
+    },
+    {
+      "id": "M02-F08",
+      "severity": "white",
+      "lesson": "geologia-gemologia-m02-a06",
+      "claim_id": "GEO-M02-A06-JOAO-CAMARA-011",
+      "issue": "Magnitudes dos sismos brasileiros (Joao Camara 1986, Mato Grosso 1955) sao valores de catalogo que variam entre fontes",
+      "correction": "Ja registrados com confianca media e apresentados como 'da ordem de'; o ponto didatico nao depende do valor exato",
+      "status": "noted",
+      "revisit_in": ["26"]
+    },
+    {
+      "id": "M02-F09",
+      "severity": "white",
+      "lesson": null,
+      "claim_id": null,
+      "issue": "Vocabulario do campo risk e rotulos locais de objetivo variam entre as aulas do modulo",
+      "correction": "Sem impacto cientifico; mapeamento canonico e feito em course-state.yaml pelos ids geologia-gemologia-m02-oa01..oa05",
+      "status": "noted"
+    }
+  ],
+  "verified_claims": 108,
+  "blocking": false,
+  "gates_released": ["assessment", "flashcards"]
+}

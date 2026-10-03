@@ -1,0 +1,52 @@
+{
+  "module_id": "01",
+  "module_slug": "fundamentos-e-metodo",
+  "audited_at": "2026-07-21",
+  "mode": "audit-and-fix",
+  "verdict": "approved",
+  "counts": { "red": 0, "orange": 0, "yellow": 1, "blue": 3, "white": 2 },
+  "findings": [
+    {
+      "id": "M01-F01",
+      "severity": "yellow",
+      "lesson": "geologia-gemologia-m01-a02",
+      "claim_id": "GEO-M01-A02-GOE-001",
+      "issue": "Grande Evento de Oxidacao apresentado como data pontual (~2,4 Ga)",
+      "correction": "Reformulado para intervalo ~2,46-2,43 Ga ate ~2,06 Ga, com nota de que nao foi instantaneo",
+      "status": "closed"
+    },
+    {
+      "id": "M01-F02",
+      "severity": "blue",
+      "lesson": "geologia-gemologia-m01-a03",
+      "claim_id": "GEO-M01-A03-ACASTA-004",
+      "issue": "Titulo de 'rocha mais antiga' e disputado (Nuvvuagittuq ~4,28 Ga contestado)",
+      "correction": "Texto ja usa 'entre as mais antigas'; sem alteracao necessaria",
+      "status": "deferred",
+      "revisit_in": ["03", "26"]
+    },
+    {
+      "id": "M01-F03",
+      "severity": "blue",
+      "lesson": "geologia-gemologia-m01-a03",
+      "claim_id": "GEO-M01-A03-THEIA-010",
+      "issue": "Parametros do impacto formador da Lua em debate ativo",
+      "correction": "Apresentado como hipotese dominante e sinalizado em 'O que nao concluir'",
+      "status": "deferred",
+      "revisit_in": ["25"]
+    },
+    {
+      "id": "M01-F04",
+      "severity": "blue",
+      "lesson": "geologia-gemologia-m01-a03",
+      "claim_id": "GEO-M01-A03-LIMITE-NUCLEO-006",
+      "issue": "Profundidade do limite manto-nucleo depende do modelo sismico (2891 km no PREM)",
+      "correction": "Texto usa 'cerca de 2.900 km' como aproximacao",
+      "status": "deferred",
+      "revisit_in": ["20"]
+    }
+  ],
+  "verified_claims": 13,
+  "blocking": false,
+  "gates_released": ["assessment", "flashcards"]
+}

@@ -1,0 +1,147 @@
+Baixando grade curricular...
+144 disciplinas encontradas na grade.
+OK: 0440100 - Geologia Geral - Sistema Terra.md
+OK: BIO0103 - Biologia Evolutiva.md
+OK: MAE0116 - Noções de Estatística.md
+OK: MAT0105 - Geometria Analítica.md
+OK: MAT2453 - Cálculo Diferencial e Integral I.md
+OK: QFL0605 - Química Geral.md
+OK: 4300152 - Introdução às Medidas em Física.md
+OK: 4310192 - Mecânica.md
+OK: GMG0106 - Cristalografia Fundamental.md
+OK: MAT2454 - Cálculo Diferencial e Integral II.md
+OK: QFL0404 - Físico - Química IV.md
+OK: 0440220 - Geoquímica.md
+OK: 0440221 - Geoprocessamento.md
+OK: 4300270 - Eletricidade e Magnetismo I.md
+OK: GAA0240 - Paleontologia.md
+OK: GAA0252 - Sedimentologia.md
+OK: GMG0220 - Mineralogia.md
+OK: MAP0125 - Cálculo Numérico para Geociências.md
+OK: 0440222 - Geomorfologia e Fotogeologia.md
+OK: 4300357 - Oscilações e Ondas.md
+OK: GAA0304 - Mapeamento Geológico de Terrenos Sedimentares.md
+OK: PCC2110 - Desenho para Geologia.md
+OK: PTR0201 - Topografia Geral.md
+OK: GAA0301 - Recursos Energéticos.md
+OK: GAA0307 - Estratigrafia.md
+OK: GMG0331 - Petrologia Ígnea.md
+OK: GMG0337 - Geologia Estrutural I Regimes Rúpteis e Deformação.md
+OK: GAA0308 - Geofísica Aplicada.md
+OK: GAA0401 - Sensoriamento Remoto.md
+OK: GMG0332 - Petrologia Metamórfica.md
+OK: GMG0338 - Geologia Estrutural II Regimes Dúcteis.md
+OK: PEF0514 - Elementos de Geomecanica.md
+OK: 0440335 - Estágio Supervisionado em Geociências.md
+OK: GAA0417 - Gênese de Depósitos Minerais.md
+OK: GAA0418 - Geologia Econômica.md
+OK: GAA0419 - Geologia de Engenharia.md
+OK: GMG0401 - Mapeamento Geológico.md
+OK: GMG0402 - Geotectônica.md
+OK: GMG0409 - Geologia Histórica e do Brasil - Pré-Cambriano.md
+OK: GAA0312 - Hidrogeologia e Recursos Hídricos.md
+OK: GAA0404 - Avaliação de Recursos Minerais.md
+OK: GAA0405 - Exploração Mineral.md
+OK: GAA0406 - Geologia Histórica e do Brasil - Fanerozóico.md
+OK: 0440500 - Trabalho de Formatura.md
+OK: ACA0115 - Introdução às Ciências Atmosféricas.md
+OK: AGA0106 - Astronomia de Posição.md
+OK: GAA0103 - Recursos Minerais e Desenvolvimento Socioeconômico.md
+OK: IOB0100 - Fundamentos de Oceanografia Biológica.md
+OK: AGA0316 - A Vida no Contexto Cósmico.md
+OK: GAA0104 - Recursos Hídricos Subterrâneos e o Enfrentamento das Mudanças Climáticas Globais.md
+OK: MAC0115 - Introdução à Computação para Ciências Exatas e Tecnologia.md
+OK: 0440203 - Leitura crítica de artigos científicos em Geociências.md
+OK: ACA0223 - Climatologia I.md
+OK: GAA0289 - Geologia dos Terrenos Cársticos.md
+OK: GAA0291 - Palinologia de Quaternário.md
+OK: GMG0201 - Geoconservação e Geoética.md
+OK: GMG0203 - Mineralogia Aplicada.md
+OK: GMG0333 - Introdução ao Magnetismo de Rocha.md
+OK: GMG0425 - Técnicas Gemológicas.md
+OK: GMG0490 - Princípios de Interpretação da Geodiversidade.md
+OK: IOF0201 - Fundamentos de Oceanografia Fisica.md
+OK: IOF0210 - Introdução à Dinâmica da Atmosfera e dos Oceanos.md
+OK: IOF0235 - Micropaleontologia Marinha.md
+OK: IOF0255 - Oceanografia Por Satélites.md
+OK: 0440202 - Projetos de Pesquisa em Geociências e Educação Ambiental.md
+OK: AGG0110 - Elementos de Geofísica.md
+OK: AGG0209 - Introdução à Petrofísica.md
+OK: GAA0200 - Introdução à Análise de Dados em Geologia Sedimentar.md
+OK: GAA0202 - Geoquímica Ambiental e Forense.md
+OK: GAA0204 - Processos Hidrotermais em Reservatórios Carbonáticos.md
+OK: GAA0208 - Astrobiologia - Estudando a Vida no Universo.md
+OK: GMG0202 - Geologia Histórica e Tempo Geológico.md
+OK: GMG0404 - Geologia Isotópica Aplicada.md
+OK: IOF0237 - Ondas no Mar.md
+OK: IOF0248 - Química dos Estuários.md
+OK: AGA0215 - Fundamentos de Astronomia.md
+OK: AGA0502 - Planetas e Sistemas Planetários.md
+OK: FLG0253 - Climatologia I.md
+OK: GAA0305 - Geobiologia.md
+OK: GAA0311 - Geoquímica Orgânica.md
+OK: GAA0335 - Vulcanismo e Mineralizações Associadas.md
+OK: GMG0303 - Educação Patrimonial em Ambientes Naturais e Construídos.md
+OK: GMG0305 - Petrologia dos kimberlitos e carbonatitos, e mineralizações associadas.md
+OK: GMG0307 - Petrologia de Intrusões Acamadadas e processos ígneos de mineralização.md
+OK: GMG0309 - Mapeamento da Geodiversidade.md
+OK: IPN0004 - Introdução à Gerência de Rejeitos Radioativos.md
+OK: IPN0005 - Tratamento de Água para Fins Industriais.md
+OK: IPN0024 - Física dos Materiais Estruturais.md
+OK: 4300375 - Física Moderna I.md
+OK: AGA0309 - Mecânica Celeste.md
+OK: AGA0315 - Astrofísica de Altas Energias.md
+OK: GAA0300 - Aquisição de Dados Digitais e Inteligência Artificial em Geociências.md
+OK: GAA0306 - Granitos no Ciclo de Wilson.md
+OK: GAA0324 - Mineração e O Meio Ambiente.md
+OK: GAA0342 - Petrografia e Diagênese de Rochas Sedimentares.md
+OK: GAA0407 - Sistemas Hidrotermais e Metalogênese.md
+OK: GAA0602 - Introdução à Geoestatística.md
+OK: GMG0304 - Pegmatitos da gênese à exploração.md
+OK: GMG0306 - Rochas ígneas alcalinas petrologia e mineralizações.md
+OK: MZC0013 - As Ordens de Malacostraca (crustacea) Morfologia Comparada, Sistemática, Biologia.md
+OK: 0440407 - Geologia do Espinhaço.md
+OK: 0440493 - Redação Técnico-Científica em Geociências.md
+OK: 4300376 - Física Moderna II.md
+OK: ACA0245 - Biometeorologia.md
+OK: ACA0330 - Introdução à Eletricidade Atmosférica.md
+OK: ACA0410 - Introdução à Química Atmosférica.md
+OK: GAA0393 - Geologia do Quaternário.md
+OK: GAA0408 - Introdução à Aerogeofísica.md
+OK: GAA0411 - Fundamentos e Aplicações de Machine Learning em Geociências.md
+OK: GAA0413 - Modelagem Geológica 3D.md
+OK: GAA0415 - Geotecnia Ambiental.md
+OK: GAA0425 - Pedologia Aplicada.md
+OK: GAA0463 - Geologia do Petróleo.md
+OK: GAA0477 - Tectônica de Bacias Sedimentares.md
+OK: GAA0603 - Modelagem Geoestatística de Depósitos Minerais.md
+OK: GMG0405 - Mecânica de Rochas.md
+OK: GMG0411 - Introdução à Petrocronologia.md
+OK: GMG0415 - Análise Textural de Rochas Técnicas e Aplicações.md
+OK: GMG0481 - Análise Instrumental I.md
+OK: GMG0484 - Microscopia de Minérios.md
+OK: 0440494 - Modelos Aplicados em Exploração Mineral.md
+OK: ACA0415 - O Clima da Terra Processos, Mudanças e Impactos.md
+OK: AGG0431 - Geofísica da América do Sul.md
+OK: AGG0700 - Geofísica Marinha e de Bacias Sedimentares.md
+OK: GAA0402 - Geofísica Aplicada na Exploração Mineral.md
+OK: GAA0409 - Geociências e Meio Ambiente.md
+OK: GAA0410 - Estudos Integrados - Projetos em Geologia Aplicada.md
+OK: GAA0412 - Geologia Ambiental.md
+OK: GAA0442 - Metodologia de Mapeamento Geotécnico.md
+OK: GAA0476 - Sismoestratigrafia.md
+OK: GMG0410 - Introdução à Modelagem Numérica Geodinâmica.md
+OK: GMG0488 - Geologia Estrutural Aplicada.md
+OK: IOF0268 - Aspectos Geológicos do Litoral e da Plataforma Continental do Estado de São Paulo.md
+OK: IOF0270 - Massas de Àgua e Frentes Oceânicas.md
+OK: IOF0272 - Aplicação de Foraminíferos na Avaliação da Qualidade Ambiental em Regiões Costeiras e Oceâ.md
+OK: FLG0335 - Geografia dos Recursos Naturais.md
+OK: GAA0421 - Contaminação dos recursos hídricos subterrâneos.md
+OK: GAA0423 - Hidrogeoquímica.md
+OK: GAA0501 - Petrografia de Minério.md
+OK: GAA0519 - Geofísica Aplicada ao Estudo de Poluição Subterrânea.md
+OK: PRO2208 - Introdução à Economia.md
+OK: GAA0441 - Exploração, explotação e gerenciamento dos recursos hídricos subterrâneos.md
+OK: IOF0267 - Metodologias de Estudo de Testemunhos Marinhos.md
+OK: PMI2024 - Economia Mineral II.md
+Concluido.

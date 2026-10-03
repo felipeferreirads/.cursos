@@ -1,0 +1,599 @@
+{
+ "schema_version": 1,
+ "target": {
+  "kind": "module",
+  "path": "21-modelagem-geoestatistica-depositos-minerais",
+  "module_id": "21",
+  "course_id": "curso-geologia-avancado"
+ },
+ "mode": "audit-and-fix",
+ "depth": "full",
+ "audited_at": "2026-09-18",
+ "fixed_at": "2026-09-19",
+ "verdict": "aprovado",
+ "verdict_note": "Auditoria e correcao na mesma data (levantamento sobre as cinco aulas em conjunto, mais o hub do modulo; aplicacao cirurgica em seguida). Os achados corrigiveis (1 vermelho, 7 laranjas, 6 amarelos enumerados) foram aplicados nas cinco aulas, com propagacao interna para recaps, objetivos declarados, exemplos trabalhados da a03 e da a04, listas de Fontes e blocos de alegacoes auditaveis. O unico achado branco foi TRATADO por reescrita que expoe as duas posicoes da literatura, conforme a politica do plugin para controversia. 0 vermelhos e 0 laranjas em aberto: GATE LIBERADO para questionario e flashcards, observadas as restricoes em assessment_gate. Nenhum material derivado existia (sem questionario, sem baralho, sem glossario), de modo que nao houve propagacao e nao ha card no Anki a corrigir a mao. SEGUNDA PASSAGEM (2026-09-19, pos-divisao didatica): acrescentados 2 achados numerados (vermelho 16 e amarelo 17), AMBOS CORRIGIDOS na mesma passagem, e o exemplo trabalhado novo da a03 auditado e aprovado sem correcao (azul B20). Total do modulo: 17 achados numerados, 0 vermelhos e 0 laranjas EM ABERTO. GATE CONTINUA LIBERADO para questionario e flashcards, agora com restricoes e avisos adicionais - ver assessment_gate e generator_warnings.",
+ "summary": {
+  "red": 2,
+  "orange": 7,
+  "yellow": 8,
+  "blue": 20,
+  "white": 1,
+  "verified_ok": 20,
+  "claims_declared_by_author": 24,
+  "claims_raised_by_audit": 3,
+  "claims_tracked_total": 27,
+  "worked_examples_examined": 6,
+  "worked_examples_recomputed": 3,
+  "worked_examples_arithmetic_failures": 1,
+  "worked_examples_arithmetic_failures_open": 0,
+  "worked_examples_internal_inconsistencies": 1,
+  "worked_examples_internal_inconsistencies_open": 0,
+  "open_findings": 0,
+  "red_open": 0,
+  "orange_open": 0,
+  "yellow_open": 0,
+  "white_open": 0,
+  "red_fixed": 2,
+  "orange_fixed": 7,
+  "yellow_fixed": 8,
+  "white_treated": 1,
+  "findings_resolved": 17,
+  "yellow_enumerated_claim_ids": 7,
+  "summary_note": "CONTAGENS ACUMULADAS DAS DUAS PASSAGENS. Passagem 1 (2026-09-18): 15 achados numerados (1-15) = 1 vermelho, 7 laranjas, 1 branco, 6 amarelos enumerados. Passagem 2 (2026-09-19, pos-divisao didatica): 2 achados numerados (16-17) = 1 vermelho (VARIOGRAMAINDICADOR-001, erro de fator 2) e 1 amarelo (TAMANHOBLOCO-004, referencia cruzada de numeracao). TOTAL: 17 achados numerados, TODOS CORRIGIDOS, ZERO EM ABERTO em todas as severidades. DISCREPANCIA DE CONTAGEM DE AMARELOS DA PASSAGEM 1 - RESOLVIDA EM 2026-09-19: o cabecalho do relatorio .md declara 7 amarelos, enquanto apenas 6 claim_id amarelos distintos sao enumerados (FONTES-ISAAKS-CAP19-010, FONTES-ISAAKS-CAP17-011, FONTES-GOOVAERTS-CAP6-012, FONTES-RENDU-JOURNEL-013, A04-EXEMPLONUMERICO-005, A01-TAMANHOBLOCO-004). A hipotese antes registrada neste campo - de que o 7o seria o achado 010 contado duas vezes por ter sido aplicado em DUAS aulas (a02 e a03) - FOI VERIFICADA E NAO SE SUSTENTA, por contraexemplo interno: o achado GOOVAERTS-CAP6-012 foi aplicado em TRES aulas (a02, a03, a04) e e contado UMA vez. O relatorio nao conta achados por aula de aplicacao. EXPLICACAO CONFIRMADA: os achados da passagem 1 sao numerados de 1 a 15 SEM LACUNAS e se distribuem em vermelho 1 (um), laranjas 2-8 (sete), BRANCO 9 (um) e amarelos 10-15 (SEIS) - total 15. O cabecalho descreve os mesmos 15 como '1 vermelho, 7 laranjas, 7 amarelos' E trata o branco como adicional, o que somaria 16. O ACHADO BRANCO FOI ABSORVIDO NA CONTAGEM DE AMARELOS ao redigir o cabecalho. O numero correto de amarelos distintos da passagem 1 e 6. DECISAO: o numero declarado no levantamento (7) fica preservado no cabecalho e na tabela de severidade do .md, conforme a politica de nao reescrever contagens de levantamento; o campo yellow deste manifesto passa a 8 (7 declarados na passagem 1 + 1 novo da passagem 2) e yellow_enumerated_claim_ids a 7 (6 + 1), que sao os numeros de entradas distintas efetivamente presentes no array findings. SEM EFEITO SOBRE O GATE: todos os amarelos, seis ou sete, estao corrigidos e nenhum esta em aberto. EXEMPLOS TRABALHADOS: seis examinados (os cinco da passagem 1 mais o exemplo NOVO da a03 criado pela divisao didatica); TRES pedem aritmetica (a03 novo, a04 sistema de krigagem, a05 retransformacao log-normal) e os tres foram refeitos numero por numero. O exemplo novo da a03 FECHA em todos os passos e foi aprovado sem correcao (registro azul B20). REGISTRO AZUL SUPERADO: B12 (passagem 1) foi superado pelo achado vermelho 16 - preservado em verified_ok com verdict=SUPERADO, nao apagado e nao renumerado.",
+  "red_pass1": 1,
+  "red_pass2": 1,
+  "yellow_pass1_declared": 7,
+  "yellow_pass1_enumerated": 6,
+  "yellow_pass2": 1,
+  "findings_pass1": 15,
+  "findings_pass2": 2
+ },
+ "dominant_pattern": "A ATRIBUICAO CAUSAL ERRADA - um sintoma verdadeiro ligado a causa errada. O modulo repete a assinatura diagnosticada no M20 ('a versao mnemonica de uma afirmacao certa'), mas num registro novo: aqui nao e a definicao que esta trocada, e a SETA DE CAUSALIDADE. Os tres achados mais caros do modulo tem exatamente essa forma: (1) 'probabilidade fora de [0,1] e sintoma de variograma nao autorizado' (vermelho 1) - nao e verdade, a causa dominante sao os PESOS NEGATIVOS do efeito de tela, que ocorrem com modelos perfeitamente autorizados; o que aponta especificamente para modelo nao autorizado e a VARIANCIA DE KRIGAGEM NEGATIVA, e so ela; (2) 'a krigagem ordinaria depende implicitamente de a distribuicao nao ser assimetrica' (laranja 2) - nao depende, a deducao do sistema nao assume distribuicao alguma; o que a assimetria ataca e ROBUSTEZ e OTIMALIDADE, nao validade; (3) 'Delaunay maximiza o menor angulo de cada triangulo' (laranja 4) - o teorema e sobre a TRIANGULACAO INTEIRA, nao triangulo a triangulo. Os tres compartilham a propriedade que os torna caros: a versao errada e mais simples de enunciar, e por isso e a que sobrevive. Num questionario, os tres sao distratores perfeitos - ver generator_warnings. SEGUNDO PADRAO, o velho conhecido: ATRIBUICAO DE FONTE. Os amarelos sao todos de citacao bibliografica, QUINTA REINCIDENCIA CONSECUTIVA (4 no M17, 6 no M18, 7 no M19, 8 no M20, 7 aqui).",
+ "cross_module_check": "Verificacao explicita contra o M20 (geoestatistica), pre-requisito declarado, com atencao as TRES DECISOES TERMINOLOGICAS que a auditoria do M20 registrou como obrigatorias de herdar pelo M21: (1) 'valor extremo de alto teor' NAO e 'teor de corte' - RESPEITADO: o modulo usa 'teor de corte' exclusivamente para cutoff (9 ocorrencias) e NENHUMA ocorrencia de 'valor de corte'; a a02 ja dizia 'valores extremos de alto teor', a a04 dizia so 'valores extremos' e foi alinhada na auditoria. (2) A hipotese intrinseca NAO acomoda deriva - SEM RISCO: o modulo nao menciona deriva, hipotese intrinseca nem krigagem universal em nenhuma aula. (3) A relacao de Krige e identidade exata dentro de um dominio D - SEM RISCO: o modulo nao a invoca. Verificacao adicional contra o M22 (modelagem geologica 3D), que ainda nao tem aulas escritas e para o qual a a05 faz um ponteiro declarado (modelagem implicita, interpolacao de superficies, integracao com inversao geofisica) - o ponteiro esta corretamente marcado como fora do escopo deste modulo, nao como conteudo. NENHUMA CONTRADICAO ENCONTRADA. O M21 reutiliza um conjunto de valores numericos do exemplo de krigagem ordinaria do M20 (a04: lambda1=0,8125, lambda2=0,1875, mu=0,330, sigma2_OK=0,833) - os quatro foram conferidos contra o registro do M20 e BATEM. PONTO DE ATENCAO PARA ADIANTE, registrado e nao tratado como achado: o M42 (exploracao mineral e avaliacao de recursos) ainda nao tem aulas escritas e vai reencontrar quatro decisoes deste modulo, que precisam ser herdadas sem divergencia - (a) probabilidade fora de [0,1] na IK e problema de PESOS E VIZINHANCA, nao de variograma nao autorizado; (b) SIK x OIK e TRADE-OFF DE ESTACIONARIEDADE, nao preferencia; (c) a formula de krigagem log-normal ordinaria e de JOURNEL (1980) e e padrao, com a controversia em Roth (1998) e Yamamoto (2007); (d) a regra de 1/4-1/2 para tamanho de bloco e PONTO DE PARTIDA, confirmado por QKNA.",
+ "process_defect_note": "O defeito de ATRIBUICAO DE FONTE ja custou 4 achados no M17, 6 no M18, 7 no M19, 8 no M20 e 7 aqui - QUINTA REINCIDENCIA CONSECUTIVA. Neste modulo o defeito e sistematico de um jeito novo e ainda mais facil de automatizar: as citacoes de capitulo do Isaaks & Srivastava (1989) e do Goovaerts (1997) estao DESLOCADAS DE UMA UNIDADE, de forma consistente, em todas as cinco aulas - o que sugere que o gerador esta INFERINDO o numero do capitulo em vez de confere-lo. A recomendacao explicita registrada nas auditorias do M18, M19 e M20 - acrescentar ao gerador de aula uma verificacao obrigatoria de que cada entrada da lista de Fontes (a) existe com aquele autor, ano, periodico e paginacao e (b) trata efetivamente do fato que a aula lhe credita - SEGUE NAO IMPLEMENTADA. Mitigacao adotada nesta auditoria e recomendada como padrao daqui em diante: CITAR O CAPITULO PELO TITULO ALEM DO NUMERO, de modo que a referencia continue localizavel mesmo que a numeracao varie entre tiragens.",
+ "findings": [
+  {
+   "claim_id": "GEOMOD-M21-A03-SINTOMAMODELONAOAUTORIZADO-003",
+   "severity": "red",
+   "nature": "erro_factual",
+   "subnature": "atribuicao_causal_falsa",
+   "lesson": "a03",
+   "location": "Secao 'Modelos autorizados versus nao autorizados'; propagado para o Recap relampago e para o bloco alegacoes_auditaveis",
+   "written": "o sistema de krigagem pode produzir VARIANCIAS DE KRIGAGEM NEGATIVAS (um absurdo matematico, ja que variancia nunca e negativa) ou, o problema mais visivel no resultado final, ESTIMATIVAS DE PROBABILIDADE FORA DO INTERVALO [0,1] - uma probabilidade estimada de -0,03 ou 1,12 nao tem interpretacao possivel, e e sintoma direto de um variograma mal ajustado, nao de um erro de calculo do sistema em si.",
+   "problem": "A primeira metade esta certa e a segunda INVERTE A CAUSA. Variancia de krigagem negativa e, de fato, o sintoma de um modelo nao autorizado (nao condicionalmente definido positivo) - nesse ponto a aula acerta. Mas ESTIMATIVAS DE INDICADORA FORA DE [0,1] NAO SAO DIAGNOSTICO DE MODELO NAO AUTORIZADO: elas aparecem rotineiramente com modelos esfericos, exponenciais e gaussianos perfeitamente autorizados. A causa dominante e banal e bem documentada: a krigagem atribui PESOS NEGATIVOS a amostras escondidas atras de amostras mais proximas - o efeito de tela ja visto no M20 -, e um peso negativo aplicado a um dado que so vale 0 ou 1 empurra a soma ponderada para fora do intervalo. As outras causas listadas na literatura sao da mesma natureza pratica: variogramas incompativeis entre limiares, plano de krigagem mal dimensionado e escassez de dados informativos nos limiares extremos. Nenhuma delas e 'variograma nao autorizado'. POR QUE E VERMELHO E NAO LARANJA: nao e um exagero de grau, e uma INSTRUCAO DE DIAGNOSTICO INVERTIDA. Um aluno que encontrasse 1,12 numa krigagem indicadora sairia desta aula convencido de que precisa refazer o ajuste do variograma, quando o que precisa examinar e a configuracao de vizinhanca e os pesos. E e materia de primeira linha para questionario: 'o que causa probabilidade fora de [0,1] na IK?' e exatamente o tipo de item que um gerador produziria, e o gabarito sairia errado.",
+   "correction": "O paragrafo foi partido em dois. O primeiro mantem a variancia negativa como o sintoma especifico do modelo nao autorizado; o segundo, novo, separa explicitamente o outro sintoma, nomeia os pesos negativos como causa dominante, lista as demais causas e fecha com a regra de diagnostico ('variancia negativa aponta para o modelo; probabilidade fora de [0,1] aponta para os pesos e para a vizinhanca'), remetendo ao tratamento de relacao de ordem mais adiante na propria aula. O Recap e a alegacao auditavel foram realinhados; a alegacao carrega nota de revisao datada.",
+   "source": "C. V. Deutsch, 'An Overview of Multiple Indicator Kriging', Geostatistics Lessons ('negative probabilities or probabilities greater than 1 may appear because of the weights applied by the kriging or if the variograms for each threshold are not compatible'); Mizuno & Deutsch, 'Sequential Indicator Simulation', Geostatistics Lessons ('kriging can lead to negative weights applied to data screened behind closer samples... this could lead to negative indicator estimates'); Datamine Studio RM, documentacao de Grade Estimation Kriging; Journel & Huijbregts (1978), Mining Geostatistics, caps. II-III (variancia negativa e modelo nao autorizado). Consultados em 2026-09-18.",
+   "source_level": "referencia de implementacao / tratado de referencia",
+   "confidence": "confirmado",
+   "also_appears_in": "nenhum outro arquivo do curso - verificado contra o M20 (pre-requisito declarado) e contra o M42, que ainda nao tem aulas escritas",
+   "affected_files": [
+    "21-modelagem-geoestatistica-depositos-minerais-aula-03-variograma-krigagem-indicadoras.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-18"
+  },
+  {
+   "claim_id": "GEOMOD-M21-A02-OKSEMHIPOTESEDISTRIBUCIONAL-006",
+   "severity": "orange",
+   "nature": "certeza_indevida",
+   "subnature": "confusao_de_escopo",
+   "lesson": "a02",
+   "location": "Linha 'Ao final voce vai conseguir' e secao 'O limite da krigagem ordinaria de teores brutos'; propagado para o Recap",
+   "raised_by": "auditoria",
+   "written": "a krigagem ordinaria e um estimador que minimiza variancia do erro assumindo, implicitamente, que a relacao entre valores vizinhos e bem descrita por uma estrutura de covariancia unica (o variograma) - o que funciona bem quando a distribuicao da variavel e razoavelmente simetrica e sem caudas extremas (e, no objetivo, 'depende implicitamente de a distribuicao nao ser demasiado assimetrica').",
+   "problem": "A deducao do sistema de krigagem NAO FAZ NENHUMA HIPOTESE DISTRIBUCIONAL. Sob estacionariedade, a krigagem ordinaria e o melhor estimador LINEAR nao viesado qualquer que seja a forma da distribuicao; normalidade nunca foi requisito. Dizer que ela 'depende' de simetria transforma uma perda de desempenho em uma condicao de validade - e e justamente a confusao que a aula precisaria desfazer, nao reforcar, porque ela e a porta de entrada para o mal-entendido de que 'e preciso normalizar antes de krigar'. O que a assimetria de fato compromete sao duas coisas distintas e ambas nomeaveis: a ROBUSTEZ (variograma experimental e estimativa ficam sensiveis a poucos valores muito altos) e a OTIMALIDADE (um estimador linear so coincide com a esperanca condicional sob a hipotese multigaussiana - e e ai que mora o ganho potencial dos metodos nao lineares, que e o assunto do modulo).",
+   "correction": "Primeira frase da secao reescrita, nomeando explicitamente as duas frentes e marcando que a KO nao assume distribuicao. O restante do paragrafo (assimetria de depositos, variograma dominado pela cauda) foi preservado intacto, porque estava certo. Objetivo e Recap realinhados. Alegacao nova criada.",
+   "source": "Chiles & Delfiner (2012), Geostatistics: Modeling Spatial Uncertainty, 2a ed., Wiley; consenso da literatura, resumido em discussoes tecnicas sobre requisitos da krigagem: 'the derivation of the kriging equations does not depend on any distribution assumptions... normality is not a requirement for kriging', e 'if the random function is multivariate Gaussian then the simple kriging estimator is the same as the conditional expectation'.",
+   "source_level": "tratado de referencia",
+   "confidence": "confirmado",
+   "affected_files": [
+    "21-modelagem-geoestatistica-depositos-minerais-aula-02-geoestatistica-nao-parametrica-indicadoras.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-18"
+  },
+  {
+   "claim_id": "GEOMOD-M21-A01-DESURVEY-001",
+   "severity": "orange",
+   "nature": "impreciso",
+   "subnature": "dois_metodos_distintos_tratados_como_um",
+   "lesson": "a01",
+   "location": "Secao 'As tabelas de uma base de dados de furos de sonda'",
+   "written": "(o metodo do segmento reto, balanced tangential ou mais simples ainda, subestima sistematicamente a curvatura real do furo)",
+   "problem": "O parentese junta num mesmo balde dois metodos cuja diferenca de exatidao e justamente o ponto. O TANGENCIAL SIMPLES (tangential) assume que o furo mantem a direcao da ultima estacao medida ate a estacao seguinte, o que produz saltos bruscos de direcao e os maiores erros de toda a familia - a literatura de perfuracao direcional recomenda abandona-lo. O TANGENCIAL BALANCEADO (balanced tangential) faz o oposto: pondera igualmente as direcoes das duas estacoes e ALCANCA EXATIDAO COMPARAVEL A DA MINIMA CURVATURA. Coloca-lo do lado errado ensina a descartar um metodo que e aceitavel. A formulacao 'subestima sistematicamente a curvatura' tambem nao e a caracterizacao usual do erro do metodo tangencial, que e um desvio de posicao na direcao da estacao inferior.",
+   "correction": "Parentese substituido por duas frases que separam os dois metodos, com a caracterizacao correta de cada um. A alegacao -001 foi reescrita e carrega nota de revisao. Acrescentada a PetroWiki as Fontes da aula.",
+   "source": "PetroWiki (SPE), 'Calculation methods for directional survey' ('the five most commonly used methods are: tangential, balanced tangential, average angle, curvature radius, and minimum curvature (most accurate)'; 'large errors are seen in the tangential method... the tangential method is inaccurate and should be abandoned completely'; 'the balanced-tangential method gives accuracy comparable to the minimum-curvature method'); Seequent, 'Borehole Desurveying Options'. Consultados em 2026-09-18.",
+   "source_level": "referencia tecnica de industria",
+   "confidence": "confirmado",
+   "affected_files": [
+    "21-modelagem-geoestatistica-depositos-minerais-aula-01-consolidacao-validacao-bases-dados-modelo-blocos.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-18"
+  },
+  {
+   "claim_id": "GEOMOD-M21-A05-CIRCUNCIRCULOVAZIO-003",
+   "severity": "orange",
+   "nature": "impreciso",
+   "subnature": "enunciado_de_teorema_deslocado_de_escopo + omissao_que_gera_erro",
+   "lesson": "a05",
+   "location": "Secao 'Triangulacao de Delaunay: a estrutura por tras do poligono'; propagado para o Recap",
+   "written": "a triangulacao de Delaunay e a que MAXIMIZA O MENOR ANGULO de cada triangulo (e, antes, 'a propriedade matematica que define - e caracteriza unicamente - a triangulacao de Delaunay').",
+   "problem": "Dois pontos. (a) O teorema e SOBRE A TRIANGULACAO, NAO SOBRE CADA TRIANGULO: entre todas as triangulacoes do mesmo conjunto, a de Delaunay e a que maximiza o MENOR ANGULO DA MALHA INTEIRA (e, no enunciado forte, e a que maximiza lexicograficamente o vetor de todos os angulos ordenados do mais agudo ao menos agudo). Nao e verdade que cada triangulo individual tenha, na triangulacao de Delaunay, o melhor angulo minimo que ele poderia ter. (b) 'Caracteriza unicamente' omite a condicao de POSICAO GERAL: a triangulacao de Delaunay e unica so quando nao ha quatro pontos cocirculares - e quatro pontos cocirculares e exatamente o que acontece numa MALHA DE SONDAGEM QUADRADA REGULAR, que e o caso mais comum do dominio desta aula. A omissao importa porque o exemplo trabalhado da propria aula argumenta a partir da unicidade.",
+   "correction": "O enunciado foi corrigido para 'menor angulo da triangulacao', com o enunciado lexicografico entre parenteses e uma frase explicita sobre o que a propriedade NAO diz. Acrescentado o paragrafo sobre posicao geral e o caso cocircular, com o gancho da malha de sondagem quadrada. Recap e alegacao -003 realinhados; Fontes agora citam tambem o cap. 7 (Voronoi) de de Berg et al.",
+   "source": "de Berg, Cheong, van Kreveld & Overmars (2008), Computational Geometry: Algorithms and Applications, 3a ed., cap. 9; notas de curso CMSC 754 (Univ. of Maryland), 'Delaunay Triangulations' ('among all the triangulations of a point set, a Delaunay triangulation maximizes the minimum angle in the triangulation'); Shewchuk, 'Two-dimensional Delaunay triangulations', cap. 2 (maximizacao lexicografica do vetor de angulos). Consultados em 2026-09-18.",
+   "source_level": "tratado de referencia / teorema classico",
+   "confidence": "confirmado",
+   "affected_files": [
+    "21-modelagem-geoestatistica-depositos-minerais-aula-05-modelagem-deposito-wireframes-delaunay.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-18"
+  },
+  {
+   "claim_id": "GEOMOD-M21-A03-MEDIANAINDICADORA-004",
+   "severity": "orange",
+   "nature": "omissao_que_gera_erro",
+   "lesson": "a03",
+   "location": "Secao 'Duas abordagens: mediana indicadora versus krigagem indicadora completa'; propagado para a secao 'Violacoes de relacao de ordem' e para o Recap",
+   "written": "Esse variograma unico, reescalado ao patamar apropriado de cada limiar, e entao usado no sistema de krigagem para todos os cortes. A vantagem e o custo de modelagem muito menor (um variograma, nao varios) - e, mais adiante, 'mesmo na abordagem da mediana indicadora, o sistema e resolvido limiar a limiar'.",
+   "problem": "A aula descreve a economia de modelagem e perde a economia que e o proprio motivo de a tecnica existir. Como o patamar entra no sistema de krigagem apenas como fator de escala comum aos dois lados das equacoes, OS PESOS DE KRIGAGEM DEIXAM DE DEPENDER DO LIMIAR: resolve-se UM UNICO SISTEMA POR BLOCO e os mesmos lambda_i sao reaproveitados em todos os cortes, mudando so os dados 0/1 que eles ponderam. A frase 'o sistema e resolvido limiar a limiar' diz o contrario disso e e a parte que gera erro: um aluno sai achando que a mediana indicadora economiza so o ajuste de variograma, quando ela reduz tambem o custo computacional da estimativa em um fator igual ao numero de limiares. Tambem e a informacao que torna a tecnica reconhecivel numa prova.",
+   "correction": "Acrescentada a consequencia (pesos independentes do limiar; um sistema por bloco) na secao da mediana indicadora, com a razao pela qual isso ocorre; corrigida a frase da secao de relacao de ordem para 'os pesos sao os mesmos para todos os cortes, a estimativa muda porque os dados de entrada mudam'; Recap e alegacao -004 realinhados. Acrescentada a licao de Deutsch as Fontes.",
+   "source": "C. V. Deutsch, 'An Overview of Multiple Indicator Kriging', Geostatistics Lessons ('this so-called Median IK approach is very fast, since the kriging weights do not depend on the cut-off being considered'; 'necessitates the solution of only one kriging system per block'); Geovariances, 'Recoverable resources estimation: Indicator Kriging or Uniform Conditioning?'. Consultados em 2026-09-18.",
+   "source_level": "referencia de implementacao",
+   "confidence": "confirmado",
+   "affected_files": [
+    "21-modelagem-geoestatistica-depositos-minerais-aula-03-variograma-krigagem-indicadoras.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-18"
+  },
+  {
+   "claim_id": "GEOMOD-M21-A03-PATAMARF-008",
+   "severity": "orange",
+   "nature": "inconsistencia_interna",
+   "lesson": "a03",
+   "location": "Exemplo trabalhado, enunciado",
+   "raised_by": "auditoria",
+   "written": "patamar C=0,22 (a variancia maxima teorica da indicadora nesse limiar, F(zc)[1-F(zc)], com F(zc) aproximadamente 0,30)",
+   "problem": "Dois defeitos numa frase. (a) 0,30 x 0,70 = 0,21, nao 0,22. Para que F(1-F)=0,22 seria preciso F aproximadamente 0,327 (ou o complementar, 0,673). O enunciado do exemplo contradiz a si mesmo em duas casas decimais, e e justamente o tipo de detalhe que um aluno atento refaz. (b) 'variancia MAXIMA TEORICA da indicadora nesse limiar' esta incorreto: F(1-F) E a variancia naquele limiar, nao um maximo - o maximo, 0,25, ocorre so no limiar da mediana, e a propria aula usa esse fato duas secoes antes para justificar a escolha da mediana como variograma de referencia. Chamar 0,22 de maximo desfaz o argumento.",
+   "correction": "F(zc) aproximadamente 0,30 passou a F(zc) aproximadamente 0,33 (edicao minima, que preserva todos os valores de variograma e toda a aritmetica subsequente); removido o qualificador 'maxima teorica'. Alegacao nova criada, registrando a variancia da Bernoulli e o valor de maximo.",
+   "source": "Variancia de uma variavel de Bernoulli, p(1-p); conferido por calculo direto na auditoria.",
+   "source_level": "resultado padrao de probabilidade",
+   "confidence": "confirmado",
+   "affected_files": [
+    "21-modelagem-geoestatistica-depositos-minerais-aula-03-variograma-krigagem-indicadoras.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-18"
+  },
+  {
+   "claim_id": "GEOMOD-M21-A03-EXEMPLONUMERICO-007",
+   "severity": "orange",
+   "nature": "inconsistencia_interna",
+   "subnature": "exemplo_trabalhado_nao_reproduzivel",
+   "lesson": "a03",
+   "location": "Exemplo trabalhado, resolucao",
+   "written": "gamma_I(25)=0,100; gamma_I(35)=0,135; gamma_I(50)=0,179... Subtraindo a primeira da segunda: 0,135*lambda1 - 0,135*lambda2 = 0,079 => lambda1-lambda2 aproximadamente 0,589. Combinando com lambda1+lambda2=1: lambda1 aproximadamente 0,795 e lambda2 aproximadamente 0,205.",
+   "problem": "O passo nao fecha. Com os valores de variograma COMO IMPRESSOS, 0,079/0,135 = 0,585, nao 0,589 - e dai lambda1 = 0,793, nao 0,795. O resultado final 0,795 esta certo, mas so contra os valores EXATOS do modelo esferico (gamma(25)=0,099768, gamma(35)=0,135164, gamma(50)=0,179395), que o texto nao mostra. Ou seja: o aluno que refizer a conta com os numeros que a aula lhe deu chega a um resultado diferente do que a aula afirma, sem ter como saber qual esta certo. Isso e pior do que um erro de resultado, porque destroi a confianca no exemplo inteiro - e este e um dos dois exemplos numericos do modulo.",
+   "correction": "Os valores de variograma passaram a quatro casas (0,0998; 0,1352; 0,1794), que e a precisao minima que faz a cadeia fechar: 0,0796/0,1352 = 0,589, lambda1 = 0,794, lambda2 = 0,206, mu = 0,072, i*(x0) = 0,794. Todas as ocorrencias subsequentes (79,5% -> 79,4%; 20,5% -> 20,6%; o peso citado na leitura do resultado) foram propagadas. Alegacao -007 reescrita com os valores exatos registrados.",
+   "source": "Calculo direto refeito na auditoria a partir de gamma(h)=C[1,5(h/a)-0,5(h/a)^3] com C=0,22 e a=80 m.",
+   "source_level": "verificacao aritmetica",
+   "confidence": "confirmado",
+   "affected_files": [
+    "21-modelagem-geoestatistica-depositos-minerais-aula-03-variograma-krigagem-indicadoras.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-18"
+  },
+  {
+   "claim_id": "GEOMOD-M21-A03-SIKVSOIK-009",
+   "severity": "orange",
+   "nature": "certeza_indevida",
+   "lesson": "a03",
+   "location": "Secao 'O sistema de krigagem indicadora'",
+   "raised_by": "auditoria",
+   "risk": "controverso",
+   "written": "A OIK e preferida na pratica pela mesma razao que a krigagem ordinaria de teores e preferida a simples: nao exige assumir conhecida, a priori, uma proporcao global unica valida em toda a area, o que raramente e realista quando o deposito tem dominios geologicos distintos.",
+   "problem": "A justificativa dada esta certa, a conclusao nao se sustenta como consenso. A literatura de implementacao trata a escolha como DECISAO DE ESTACIONARIEDADE COM TRADE-OFF EXPLICITO, nao como preferencia estabelecida - e ha um motivo forte do outro lado, que a aula omite e que se conecta diretamente ao achado vermelho desta mesma auditoria: na OIK, a restricao soma(lambda_i)=1 faz com que A MEDIA GLOBAL NAO RECEBA PESO NENHUM, de modo que a extrapolacao se apoia so na vizinhanca local e admite pesos negativos - o que torna a OIK MAIS PROPENSA A ESTIMATIVAS FORA DE [0,1]. A SIK ancora a extrapolacao na proporcao global declusterizada e, por isso, produz menos violacoes de relacao de ordem. Boa parte do software e da literatura de implementacao de krigagem indicadora usa a versao simples exatamente por esse motivo. Apresentar a OIK como a escolha da pratica e escolher um lado de uma questao em aberto, e escolher o lado que contradiz a correcao do achado vermelho.",
+   "correction": "Paragrafo reescrito como trade-off, com as duas posicoes e suas razoes, e com a conexao explicita entre pesos negativos da OIK e estimativas fora de [0,1]. Alegacao nova criada, marcada risk: controverso.",
+   "source": "Mizuno & Deutsch, 'Sequential Indicator Simulation', Geostatistics Lessons ('the best kriging option will depend on the stationarity decision'; 'stationary simple kriging estimates the probability... based on the conditioning data and a declustered global mean value, while in ordinary kriging, the sum of the weights is constrained to one so that the global mean receives no weight'); C. V. Deutsch, 'An Overview of Multiple Indicator Kriging', Geostatistics Lessons; Goovaerts (1997), cap. 7 'Assessment of Local Uncertainty'. Consultados em 2026-09-18.",
+   "source_level": "referencia de implementacao / tratado de referencia",
+   "confidence": "confirmado",
+   "affected_files": [
+    "21-modelagem-geoestatistica-depositos-minerais-aula-03-variograma-krigagem-indicadoras.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-18"
+  },
+  {
+   "claim_id": "GEOMOD-M21-A04-KRIGAGEMOLN-004",
+   "severity": "white",
+   "nature": "controversia",
+   "subnature": "controversia_mal_localizada + atribuicao_de_fonte",
+   "lesson": "a04",
+   "location": "Secao 'Krigagem log-normal baseada em krigagem ordinaria (correcao aproximada)'; propagado para o objetivo, para o Recap e para a alegacao",
+   "risk": "controverso",
+   "flagged_by_author": true,
+   "written": "A pratica consolidada (seguindo Rendu, 1979) usa uma correcao APROXIMADA... Vale registrar com clareza que esta e uma correcao APROXIMADA E HEURISTICA, nao uma identidade derivada com o mesmo rigor da versao baseada em krigagem simples - diferentes fontes da literatura de geoestatistica aplicada apresentam variacoes da formula.",
+   "problem": "Esta alegacao foi marcada pelo redator como risk: controverso com um pedido explicito de checagem cruzada contra a fonte primaria antes de ser tratada como definitiva. A CHECAGEM FOI FEITA E INVERTEU O DIAGNOSTICO, em tres conclusoes separadas. (1) A FORMULA ESTA CORRETA E NAO E OBJETO DE DIVERGENCIA: Z*_OK(x0) = exp[Y*_OK(x0) + sigma2_OK(x0)/2 - psi_OK] e a forma padrao, reproduzida sem variacao nos tratados de referencia e na documentacao de software de estimativa de recursos. Nao ha aqui erro a corrigir, e a afirmacao de que 'diferentes fontes apresentam variacoes da formula' NAO SE SUSTENTA - nao foi encontrada nenhuma fonte com uma variante. O termo -mu tampouco e um remendo: ele e o preco, no espaco logaritmico, de a media ser desconhecida, e e exatamente por isso que ele nao aparece na versao de krigagem simples. (2) A ATRIBUICAO PRIMARIA ESTA TROCADA (componente amarelo deste achado, contabilizado como GEOMOD-M21-FONTES-RENDU-JOURNEL-013): a derivacao canonica e de JOURNEL (1980), 'The lognormal approach to predicting local distributions of selective mining unit grades', Mathematical Geology 12(4), 285-303, e e assim que os tratados a creditam ('derived by Journel (1980) and presented in Webster and Oliver (2007)'). RENDU (1979) e um artigo real, com a paginacao citada corretamente pela aula (J. Int. Assoc. Math. Geol. 11(4), 407-422), e trata o mesmo problema de estimativa normal e log-normal - e referencia anterior legitima, mas nao e a fonte da formula com o multiplicador de Lagrange. (3) A CONTROVERSIA GENUINA EXISTE E ESTA EM OUTRO LUGAR, em dois pontos abertos, ambos com literatura revisada por pares: ROTH (1998), 'Is lognormal kriging suitable for local estimation?', Mathematical Geology 30(8), 999-1009 - o estimador respeita as propriedades de nao vies SOBRE O CAMPO INTEIRO, mas LOCALMENTE apresenta comportamento 'neither expected nor intuitive'; e YAMAMOTO (2007), 'On unbiased backtransform of lognormal kriging estimates', Computational Geosciences 11(3), 219-234 - as estimativas retransformadas PERMANECEM VIESADAS porque o termo de nao vies depende INTEIRAMENTE do modelo de variograma ajustado; propoe um fator corretivo alternativo ancorado na media amostral. POR QUE BRANCO E NAO VERMELHO/LARANJA: a aula nao afirma nada falso sobre a matematica - ela subestima o status da formula e localiza a divergencia no lugar errado. Corrigir 'aproximada e heuristica' para 'padrao' e uma correcao de caracterizacao, e a divergencia que a aula queria sinalizar REALMENTE EXISTE, so que em outro eixo.",
+   "correction": "Tratado conforme a politica de achado branco: NENHUM LADO FOI ESCOLHIDO, as duas posicoes foram expostas com suas razoes. A secao foi reescrita: a formula passou de 'aproximadamente igual' para 'igual', com a atribuicao a Journel (1980) e a nota sobre o papel de Rendu (1979). Acrescentado um bloco curto com as duas divergencias reais (Roth 1998, Yamamoto 2007) e a consequencia pratica para quem usa a tecnica (sensibilidade ao modelo de variograma; o relatorio precisa reportar o ajuste). O aviso sobre esquecer o termo de correcao - que continua verdadeiro em qualquer das posicoes - foi preservado. Objetivo, Recap, Fontes e alegacao realinhados; a alegacao segue marcada risk: controverso e carrega nota de revisao explicando a inversao do diagnostico.",
+   "source": "Journel (1980), Math. Geology 12(4), 285-303; Webster & Oliver (2007), Geostatistics for Environmental Scientists, 2a ed., Wiley; Rendu (1979), J. Int. Assoc. Math. Geol. 11(4), 407-422; Roth (1998), Math. Geology 30(8), 999-1009; Yamamoto (2007), Computational Geosciences 11(3), 219-234; Datamine Studio RM, 'Grade Estimation Kriging'. Consultados em 2026-09-18.",
+   "source_level": "revisada por pares / tratado de referencia",
+   "confidence": "confirmado (formula e atribuicao); em disputa, por natureza (adequacao a estimativa local e magnitude do vies residual)",
+   "affected_files": [
+    "21-modelagem-geoestatistica-depositos-minerais-aula-04-geoestatistica-nao-linear-krigagem-lognormal.md"
+   ],
+   "outcome": "tratado_com_posicoes_expostas",
+   "blocks_gate": false,
+   "applied_at": "2026-09-18"
+  },
+  {
+   "claim_id": "GEOMOD-M21-FONTES-ISAAKS-CAP19-010",
+   "severity": "yellow",
+   "nature": "atribuicao_de_fonte",
+   "lesson": "a02, a03",
+   "location": "Listas de Fontes das aulas 02 e 03 e campos source das alegacoes GEOMOD-M21-A02-DEFINICAOINDICADORA-001 a -005 e GEOMOD-M21-A03-VARIOGRAMAINDICADOR-001, -003, -004, -005, -006 (10 campos source ao todo)",
+   "written": "Isaaks & Srivastava (1989), cap. 19 - krigagem indicadora, relacoes de ordem",
+   "problem": "Deslocamento de uma unidade. O capitulo de krigagem indicadora e estimativa de distribuicao e o CAP. 18, 'Estimating a Distribution'; o cap. 19 e 'Change of Support'.",
+   "correction": "Citacoes corrigidas no corpo, nas listas de Fontes e nos campos source, CITANDO O CAPITULO PELO TITULO ALEM DO NUMERO (cap. 18, 'Estimating a Distribution') - assim a referencia continua localizavel mesmo que a numeracao varie entre tiragens.",
+   "source": "Indice de 'An Introduction to Applied Geostatistics' (Isaaks & Srivastava, 1989), ancorado na confirmacao direta de que o cap. 17 e 'Cokriging', com a sequencia Cokriging (17) -> Estimating a Distribution (18) -> Change of Support (19) -> Assessing Uncertainty (20) -> Final Thoughts (21). Consultado em 2026-09-18.",
+   "source_level": "bibliografica",
+   "confidence": "provavel para o numero exato 18; confirmado para o TITULO do capitulo, que e a parte verificada e por isso foi incluida na citacao corrigida",
+   "affected_files": [
+    "21-modelagem-geoestatistica-depositos-minerais-aula-02-geoestatistica-nao-parametrica-indicadoras.md",
+    "21-modelagem-geoestatistica-depositos-minerais-aula-03-variograma-krigagem-indicadoras.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-18"
+  },
+  {
+   "claim_id": "GEOMOD-M21-FONTES-ISAAKS-CAP17-011",
+   "severity": "yellow",
+   "nature": "atribuicao_de_fonte",
+   "lesson": "a04",
+   "location": "Lista de Fontes da a04 e campos source das alegacoes GEOMOD-M21-A04-ORIGEMLOGNORMAL-001 e -002",
+   "written": "Isaaks & Srivastava (1989), cap. 17 - 'transformacoes e estimativa nao linear'",
+   "problem": "O cap. 17 e 'Cokriging', nao transformacoes nem estimativa nao linear. Confirmado diretamente: 'Chapter 17 of this book is titled Cokriging'.",
+   "correction": "Citacao corrigida na lista de Fontes e nos dois campos source, com o capitulo citado pelo titulo alem do numero.",
+   "source": "Indice de 'An Introduction to Applied Geostatistics' (Isaaks & Srivastava, 1989). Consultado em 2026-09-18.",
+   "source_level": "bibliografica",
+   "confidence": "confirmado",
+   "affected_files": [
+    "21-modelagem-geoestatistica-depositos-minerais-aula-04-geoestatistica-nao-linear-krigagem-lognormal.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-18"
+  },
+  {
+   "claim_id": "GEOMOD-M21-FONTES-GOOVAERTS-CAP6-012",
+   "severity": "yellow",
+   "nature": "atribuicao_de_fonte",
+   "lesson": "a02, a03, a04",
+   "location": "Listas de Fontes das aulas 02, 03 e 04 e seis campos source de blocos de alegacoes",
+   "written": "Goovaerts (1997), cap. 6 - indicadoras, ccdf, mediana indicadora",
+   "problem": "Deslocamento de uma unidade. O capitulo de indicadoras, ccdf local e mediana indicadora e o CAP. 7, 'Assessment of Local Uncertainty'; o cap. 6 e 'Local Estimation: Accounting for Secondary Information' (cokrigagem).",
+   "correction": "Citacoes corrigidas no corpo, nas Fontes e nos seis campos source, com o capitulo citado pelo titulo alem do numero.",
+   "source": "Indice de 'Geostatistics for Natural Resources Evaluation' (Goovaerts, 1997): 6 'Local Estimation: Accounting for Secondary Information', 7 'Assessment of Local Uncertainty', 8 'Assessment of Spatial Uncertainty'. Consultado em 2026-09-18.",
+   "source_level": "bibliografica",
+   "confidence": "confirmado",
+   "affected_files": [
+    "21-modelagem-geoestatistica-depositos-minerais-aula-02-geoestatistica-nao-parametrica-indicadoras.md",
+    "21-modelagem-geoestatistica-depositos-minerais-aula-03-variograma-krigagem-indicadoras.md",
+    "21-modelagem-geoestatistica-depositos-minerais-aula-04-geoestatistica-nao-linear-krigagem-lognormal.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-18"
+  },
+  {
+   "claim_id": "GEOMOD-M21-FONTES-RENDU-JOURNEL-013",
+   "severity": "yellow",
+   "nature": "atribuicao_de_fonte",
+   "lesson": "a04",
+   "location": "Corpo da a04, lista de Fontes e campos source das alegacoes -002, -003 e -004",
+   "written": "Rendu (1979) apresentado como fonte da formula de krigagem log-normal ordinaria",
+   "problem": "A derivacao canonica e de JOURNEL (1980), Math. Geology 12(4), 285-303. Rendu (1979) e artigo real, com paginacao citada corretamente pela aula (J. Int. Assoc. Math. Geol. 11(4), 407-422), e trata o mesmo problema - e referencia anterior legitima, mas nao e a fonte da formula com o multiplicador de Lagrange. Componente amarelo do achado branco GEOMOD-M21-A04-KRIGAGEMOLN-004.",
+   "correction": "Atribuicao corrigida no corpo, nas Fontes e nas tres alegacoes, com Rendu (1979) mantido e recaracterizado como referencia anterior sobre o mesmo problema. Acrescentadas as Fontes da a04 as obras que de fato sustentam o conteudo (Journel 1980, Webster & Oliver 2007, Roth 1998, Yamamoto 2007).",
+   "source": "Journel (1980), Math. Geology 12(4), 285-303; Webster & Oliver (2007), 2a ed., Wiley; Rendu (1979), J. Int. Assoc. Math. Geol. 11(4), 407-422. Consultados em 2026-09-18.",
+   "source_level": "revisada por pares / bibliografica",
+   "confidence": "confirmado",
+   "related_finding": "GEOMOD-M21-A04-KRIGAGEMOLN-004",
+   "affected_files": [
+    "21-modelagem-geoestatistica-depositos-minerais-aula-04-geoestatistica-nao-linear-krigagem-lognormal.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-18"
+  },
+  {
+   "claim_id": "GEOMOD-M21-A04-EXEMPLONUMERICO-005",
+   "severity": "yellow",
+   "nature": "valor_apresentado_incorretamente",
+   "lesson": "a04",
+   "location": "Exemplo trabalhado, 'Leitura dos resultados'",
+   "written": "a diferenca entre a retransformacao ingenua (1,87 g/t) e a estimativa log-normal corrigida (2,04 g/t) e de quase 0,17 g/t - cerca de 9% do valor final",
+   "problem": "A aritmetica do exemplo fecha em todos os passos (Y* = 0,62627; exp(Y*) = 1,8706; exp(0,71277) = 2,0396; diferenca 0,1690) - so o percentual esta sobre a base errada. 0,1690/2,0396 = 8,3% do VALOR FINAL CORRIGIDO; os 9,0% sao em relacao a RETRANSFORMACAO INGENUA (0,1690/1,8706). A aula nomeia a base como 'valor final' e da o numero da outra base.",
+   "correction": "'cerca de 9% do valor final' -> 'cerca de 8% do valor corrigido, ou 9% da retransformacao ingenua', nomeando as duas bases. Alegacao -005 ampliada com os dois percentuais e a aritmetica exata registrada.",
+   "source": "Calculo direto refeito na auditoria.",
+   "source_level": "verificacao aritmetica",
+   "confidence": "confirmado",
+   "affected_files": [
+    "21-modelagem-geoestatistica-depositos-minerais-aula-04-geoestatistica-nao-linear-krigagem-lognormal.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-18"
+  },
+  {
+   "claim_id": "GEOMOD-M21-A01-TAMANHOBLOCO-004",
+   "severity": "yellow",
+   "nature": "omissao_que_gera_erro_leve + superlativo_sem_base",
+   "lesson": "a01",
+   "location": "Secao 'O modelo de blocos: revisao e o que muda a partir daqui'; propagado para o Recap",
+   "written": "A regra pratica MAIS CITADA ancora o tamanho do bloco na malha de sondagem: um tamanho de bloco horizontal entre um quarto e a metade do espacamento medio entre furos...",
+   "problem": "A faixa esta CORRETA e foi confirmada (e a regra do SME Mining Engineering Handbook: 'the block size should be one-half to one-fourth the average drillhole spacing'). O problema e de enquadramento: 'a mais citada' e um superlativo nao verificavel, e a aula apresenta a regra como se fosse o criterio de decisao. A pratica atual a trata como PONTO DE PARTIDA, confirmado por analise quantitativa da vizinhanca de krigagem (QKNA), que julga o tamanho escolhido por eficiencia de krigagem e inclinacao da regressao. Sem essa ressalva, a aula contradiz por omissao a recomendacao de QKNA que a auditoria do M20 ja havia introduzido no curso.",
+   "correction": "'mais citada' -> 'consolidada'; acrescentada uma frase sobre QKNA ao fim do item, e a ressalva no Recap. Alegacao -004 ampliada, com o SME Mining Engineering Handbook acrescentado como fonte da faixa. Acrescentada a licao de QKNA as Fontes da aula.",
+   "source": "SME Mining Engineering Handbook (regra de 1/4 a 1/2 do espacamento medio de sondagem); Deutsch & Deutsch, 'Quantitative Kriging Neighbourhood Analysis', Geostatistics Lessons; Geovariances, 'Which block size for mineral resource estimation'. Consultados em 2026-09-18.",
+   "source_level": "manual normativo de industria / referencia de implementacao",
+   "confidence": "confirmado",
+   "affected_files": [
+    "21-modelagem-geoestatistica-depositos-minerais-aula-01-consolidacao-validacao-bases-dados-modelo-blocos.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-18"
+  },
+  {
+   "claim_id": "GEOMOD-M21-A03-VARIOGRAMAINDICADOR-001",
+   "finding_number": 16,
+   "pass": 2,
+   "severity": "red",
+   "nature": "erro_factual",
+   "subnature": "erro_de_fator_2_mais_inconsistencia_interna",
+   "lesson": "a03 (pos-divisao)",
+   "location": "Secao 'O variograma experimental indicador' e 'Recap relampago'; propagado para o bloco alegacoes_auditaveis (alegacao -001)",
+   "supersedes_verified_ok": "B12",
+   "raised_by": "revisao-didatica 2026-09-19, secao 'Encaminhado ao auditor-cientifico', ponto 1",
+   "written": "O variograma indicador e, portanto, uma PROPORCAO DE PARES DISCORDANTES naquela distancia: a fracao de pares de amostras separadas por h que caem em lados diferentes do limiar z_c.",
+   "problem": "ERRO DE FATOR 2. A formula impressa DUAS LINHAS ACIMA na propria aula e a do SEMIvariograma experimental, com 1/(2N(h)). Como cada termo [i(x_k)-i(x_k+h)]^2 vale 0 ou 1, o somatorio e exatamente D(h), o NUMERO de pares discordantes; logo gamma_I(h) = D(h)/(2N(h)) = (1/2) * [D(h)/N(h)], ou seja METADE da proporcao de pares discordantes. A proporcao em si e 2*gamma_I(h) - o variograma 2gamma, nao o semivariograma, que e o objeto que se calcula, se plota, se modela e se usa no sistema de krigagem. DAS DUAS LEITURAS, A FORMULA ESTAVA CERTA E A EXPLICACAO VERBAL ESTAVA ERRADA. INCONSISTENCIA INTERNA DECISIVA: a mesma aula afirma duas linhas adiante que o patamar vale F(z_c)[1-F(z_c)], maximo 0,25 na mediana (alegacao -008, verificada em B13). As duas afirmacoes nao podem ser ambas verdadeiras - a distancias grandes, com amostras independentes, P(par discordante) = P(1,0)+P(0,1) = 2F(1-F); pela leitura verbal antiga o patamar na mediana teria de ser 0,5, e pela formula e 0,25, que e o valor correto e o que a propria aula declara. O fator 2 e exatamente a discrepancia. POR QUE E VERMELHO: e uma igualdade falsa como escrita, com magnitude de fator 2, num objeto definidor da aula - qualquer questao que peca o valor numerico sairia com gabarito duas vezes maior.",
+   "correction": "Corpo: a frase passa a dizer que o somatorio CONTA os pares discordantes e que, por causa do 1/(2N(h)) do semivariograma, gamma_I(h) e METADE da proporcao, sendo a proporcao 2*gamma_I(h). A leitura intuitiva ('que fracao dos pares muda de lado do corte') foi PRESERVADA, agora condicionada ao fator ('guardado esse fator 2'). Fecho de coerencia acrescentado logo apos a mencao ao patamar: a distancias grandes a proporcao tende a 2F(z_c)[1-F(z_c)] e sua metade e exatamente o patamar; na mediana metade dos pares distantes e discordante e o patamar vale 0,25, nao 0,5. Recap: primeiro marcador corrigido na mesma formulacao. Bloco de alegacoes: claim de -001 reescrita com o fator correto e com a checagem de consistencia contra -008; source ampliada com Journel & Huijbregts (1978) cap. II; campo revisao acrescentado. B12 marcado como superado em verified_ok e na tabela do relatorio .md, sem ser apagado.",
+   "source": "Journel, A. G. & Huijbregts, C. J. (1978), Mining Geostatistics, Academic Press, cap. II - definicao do semivariograma gamma(h) = (1/2) E{[Z(x)-Z(x+h)]^2}, com o variograma sendo 2gamma(h); Deutsch, C. V., The Sill of the Variogram, Geostatistics Lessons - formula experimental gamma(h) = 1/(2N(h)) * soma [Z(u_i)-Z(u_i+h)]^2, verbatim; Isaaks & Srivastava (1989), cap. 18; variancia de Bernoulli F(1-F) para o patamar.",
+   "source_level": "tratado normativo + referencia de implementacao",
+   "source_consulted_at": "2026-09-19",
+   "confidence": "confirmado",
+   "affected_files": [
+    "21-modelagem-geoestatistica-depositos-minerais-aula-03-variograma-indicador-modelos-autorizados.md",
+    "21-modelagem-geoestatistica-depositos-minerais-auditoria.md",
+    "21-modelagem-geoestatistica-depositos-minerais-auditoria.json",
+    "course-state.yaml"
+   ],
+   "also_appears_in": "Nenhum outro arquivo. Varredura no curso inteiro por 'discordante'/'muda de lado': as unicas ocorrencias no sentido geoestatistico eram as duas da a03 (corpo e recap), mais o registro B12 do relatorio e a nota da revisao didatica. A ocorrencia no M10 (a02) e 'discordancia' em sentido estratigrafico, sem relacao.",
+   "derived_material": "nenhum - o modulo continua sem questionario, sem baralho e sem glossario; o erro nao chegou a virar gabarito nem card, e nao ha card no Anki a corrigir a mao",
+   "why_first_pass_missed_it": "B12 verificou a SUBSTANCIA da alegacao (que [i(x)-i(x+h)]^2 pertence a {0,1} e que por isso o variograma indicador mede discordancia entre pares), e a substancia esta certa. O que nao foi conferido foi a CONSTANTE DE PROPORCIONALIDADE, que a formula impressa ao lado ja fixava. LICAO DE PROCESSO: quando uma alegacao verbal traduz uma formula impressa, conferir a igualdade termo a termo, nao so o sentido - e cruzar com o valor assintotico (aqui, o patamar), que e o teste barato que teria pego o fator 2 na primeira passagem.",
+   "outcome": "corrigido",
+   "applied_at": "2026-09-19"
+  },
+  {
+   "claim_id": "GEOMOD-M21-A01-TAMANHOBLOCO-004",
+   "finding_number": 17,
+   "pass": 2,
+   "severity": "yellow",
+   "nature": "inconsistencia_interna",
+   "subnature": "referencia_cruzada_de_numeracao_errada",
+   "lesson": "a01",
+   "location": "bloco alegacoes_auditaveis, campo revisao da alegacao -004",
+   "raised_by": "revisao-didatica 2026-09-19, secao 'Encaminhado ao auditor-cientifico', ponto 2",
+   "written": "2026-09-18 - auditoria AMARELO 16: a faixa 1/4-1/2 foi confirmada contra o SME Mining Engineering Handbook; ...",
+   "problem": "O relatorio numera aquele achado como AMARELO 15, nao 16. Nao ha e nunca houve um achado 16 na primeira passagem - a numeracao dela termina em 15. Sem efeito sobre o conteudo cientifico (a alegacao -004 em si continua correta e corrigida), mas e ponteiro quebrado que uma auditoria futura segue e nao encontra. AGRAVANTE SUPERVENIENTE: o numero 16 agora EXISTE e designa outro achado (o vermelho 16 desta passagem), de modo que a referencia errada deixou de ser apenas inutil e passou a apontar para o achado errado.",
+   "correction": "'AMARELO 16' -> 'AMARELO 15' no campo revisao da alegacao -004 em 21-modelagem-geoestatistica-depositos-minerais-aula-01-consolidacao-validacao-bases-dados-modelo-blocos.md. Nenhuma outra alteracao naquele arquivo.",
+   "source": "consistencia interna do relatorio (achados numerados 1-15 na primeira passagem, sem lacunas)",
+   "source_level": "consistencia interna",
+   "source_consulted_at": "2026-09-19",
+   "confidence": "confirmado",
+   "affected_files": [
+    "21-modelagem-geoestatistica-depositos-minerais-aula-01-consolidacao-validacao-bases-dados-modelo-blocos.md"
+   ],
+   "derived_material": "nenhum",
+   "outcome": "corrigido",
+   "applied_at": "2026-09-19"
+  }
+ ],
+ "verified_ok": [
+  {
+   "id": "B1",
+   "lesson": "a01",
+   "claim": "Estrutura relacional de quatro tabelas (collar, survey, assay, litologia) ligadas pelo hole ID, com quebras de profundidade possivelmente distintas entre assay e litologia",
+   "verdict": "correto",
+   "source": "Sinclair & Blackwell (2002) cap. 3; Rossi & Deutsch (2014) cap. 3"
+  },
+  {
+   "id": "B2",
+   "lesson": "a01",
+   "claim": "Minima curvatura como metodo padrao de desaggregacao (desurvey), ajustando arco circular entre estacoes",
+   "verdict": "correto",
+   "source": "PetroWiki, 'Calculation methods for directional survey'"
+  },
+  {
+   "id": "B3",
+   "lesson": "a01",
+   "claim": "QA/QC com os tres tipos de amostra de controle: duplicatas (precisao), padroes certificados (exatidao/vies), brancos (contaminacao)",
+   "verdict": "correto",
+   "source": "Rossi & Deutsch (2014) cap. 3"
+  },
+  {
+   "id": "B4",
+   "lesson": "a01",
+   "claim": "Sub-blocking como refinamento local nas bordas de dominio, preservando a regularidade do modelo no interior",
+   "verdict": "correto",
+   "source": "Rossi & Deutsch (2014) cap. 5"
+  },
+  {
+   "id": "B5",
+   "lesson": "a01",
+   "claim": "EXEMPLO TRABALHADO (nao numerico): sobreposicao 43,5-44,0 m entre dois intervalos de assay; intervalo 45,5-48,0 m excedendo a profundidade final de 46,0 m; survey de estacao unica. Os tres diagnosticos e as tres acoes (voltar ao boletim primario) estao corretos",
+   "verdict": "correto",
+   "source": "Sinclair & Blackwell (2002) cap. 3"
+  },
+  {
+   "id": "B6",
+   "lesson": "a02",
+   "claim": "E[I(x;zc)] = F(zc) como consequencia direta da esperanca de uma Bernoulli - nao e aproximacao",
+   "verdict": "correto",
+   "source": "Journel (1983); Isaaks & Srivastava (1989) cap. 18 'Estimating a Distribution'"
+  },
+  {
+   "id": "B7",
+   "lesson": "a02",
+   "claim": "Convencao de sinal (<= vs. >) varia entre autores e precisa ser consistente",
+   "verdict": "correto",
+   "source": "Journel (1983)"
+  },
+  {
+   "id": "B8",
+   "lesson": "a02",
+   "claim": "Faixa tipica de 5 a 15 limiares, escolhidos em percentis/decis da distribuicao global",
+   "verdict": "correto como faixa de pratica",
+   "source": "Deutsch, 'MIK Overview'; Goovaerts (1997) cap. 7"
+  },
+  {
+   "id": "B9",
+   "lesson": "a02",
+   "claim": "Indicadora categorica: pertenca a categoria k, sem ordem nem limiar; kriga-la da probabilidade de dominio",
+   "verdict": "correto",
+   "source": "Goovaerts (1997) cap. 7"
+  },
+  {
+   "id": "B10",
+   "lesson": "a02",
+   "claim": "Variavel booleana ja e a propria indicadora, sem transformacao",
+   "verdict": "correto",
+   "source": "Goovaerts (1997) cap. 7"
+  },
+  {
+   "id": "B11",
+   "lesson": "a02",
+   "claim": "EXEMPLO TRABALHADO: tabela de indicadoras para zc=0,50 e zc=1,80 sobre os cinco teores dados; medias 1/5=0,20 e 4/5=0,80. Conferido linha a linha",
+   "verdict": "correto",
+   "source": "verificacao aritmetica"
+  },
+  {
+   "id": "B12",
+   "lesson": "a03",
+   "claim": "Variograma indicador como PROPORCAO DE PARES DISCORDANTES naquela distancia - leitura direta de [i(x)-i(x+h)]^2 pertencente a {0,1}",
+   "verdict": "SUPERADO",
+   "source": "Isaaks & Srivastava (1989) cap. 18; Journel (1983)",
+   "superseded_by": "achado vermelho 16 (2026-09-19) - erro de fator 2: gamma_I(h) e METADE da proporcao de pares discordantes, nao a proporcao",
+   "note": "Registro preservado para historico, NAO apagado e NAO renumerado. Nao usar como verificacao valida."
+  },
+  {
+   "id": "B13",
+   "lesson": "a03",
+   "claim": "Patamar do variograma indicador igual a F(zc)[1-F(zc)] sob estacionariedade; maximo 0,25 na mediana",
+   "verdict": "correto",
+   "source": "variancia de Bernoulli"
+  },
+  {
+   "id": "B14",
+   "lesson": "a03",
+   "claim": "Modelos autorizados: esferico, exponencial, gaussiano, pepita, potencia, e somas com pesos positivos; variancia de krigagem negativa como sintoma de modelo nao autorizado",
+   "verdict": "correto",
+   "source": "Journel & Huijbregts (1978) caps. II-III"
+  },
+  {
+   "id": "B15",
+   "lesson": "a03",
+   "claim": "Correcao de relacao de ordem: reset para o limite mais proximo fora de [0,1] e media entre correcao ascendente e descendente; violacoes mais frequentes nos limiares extremos por escassez de dados",
+   "verdict": "correto",
+   "source": "Deutsch & Journel (1998), GSLIB; Deutsch, 'MIK Overview'"
+  },
+  {
+   "id": "B16",
+   "lesson": "a04",
+   "claim": "Origem multiplicativa da log-normalidade (TCL aplicado ao produto); diagnostico por histograma/grafico de probabilidade do logaritmo",
+   "verdict": "correto",
+   "source": "Journel & Huijbregts (1978); Sinclair & Blackwell (2002) cap. 9"
+  },
+  {
+   "id": "B17",
+   "lesson": "a04",
+   "claim": "Vies de Jensen: exp e convexa, E[exp(Y)] >= exp(E[Y]); E[Z]=exp(mu_Y+sigma2_Y/2); fator exp(sigma2_Y/2)>1",
+   "verdict": "correto",
+   "source": "resultado padrao de probabilidade"
+  },
+  {
+   "id": "B18",
+   "lesson": "a04",
+   "claim": "Forma exata sob multigaussianidade: Z*_SLN=exp[Y*_SK+sigma2_SK/2], SEM termo de Lagrange",
+   "verdict": "correto",
+   "source": "Journel (1980); Webster & Oliver (2007)"
+  },
+  {
+   "id": "B19",
+   "lesson": "a05",
+   "claim": "Voronoi/Delaunay como estruturas duais; bissetriz perpendicular como fronteira de influencia; teste de inclusao por paridade de cruzamentos de semirreta; dominio rigido x suave como decisao geologica. EXEMPLO TRABALHADO (a): AB de (0,0) a (40,0), bissetriz x=20 - conferido",
+   "verdict": "correto",
+   "source": "de Berg et al. (2008) caps. 7 e 9; Rossi & Deutsch (2014) cap. 4"
+  },
+  {
+   "id": "B20",
+   "pass": 2,
+   "lesson": "a03 (pos-divisao)",
+   "claim": "EXEMPLO TRABALHADO NOVO da a03, criado pela revisao didatica na divisao (DID-M21-A03-EXEMPLOP1-003) e nao auditado ate aqui. Refeito do zero. (a) Patamares contra F(1-F): 0,10x0,90=0,09; 0,50x0,50=0,25; 0,90x0,10=0,09 - os tres conferem com os patamares impressos; simetria decil1/decil9 correta (F(1-F) e parabola simetrica em F=0,5). (b) Alcances 95/90/40 m: '95 e 90 praticamente iguais' (diferenca 5,3%) OK; '40 m, menos da metade dos outros dois' OK (40<45 e 40<47,5); 'alcance mais que duas vezes maior do que o medido' OK (90/40=2,25>2); conclusao full IK correta como aplicacao de -004 e de A02-005. (c) F(1-F) maxima em F=0,5 valendo 0,25 - correto (vertice da parabola). FECHA ARITMETICAMENTE EM TODOS OS PASSOS; nenhuma correcao necessaria. Nenhuma alegacao factual nova introduzida.",
+   "verdict": "correto",
+   "checked_and_not_a_finding": "A expressao 'variograma experimental com mais pares informativos' poderia sugerir que N(h) muda com o limiar, o que e falso (N(h) e fixado pela geometria da malha e e o mesmo em todos os cortes). A leitura correta e a que o texto explicita no mesmo periodo ('onde a indicadora tem a variancia maxima e portanto o sinal mais forte'): o que e maximo na mediana e o numero de pares DISCORDANTES, os unicos que contribuem com termo nao nulo ao somatorio - no limite de independencia 2F(1-F), que vale 0,18 no decil 1 e 0,50 na mediana. Sob essa leitura a afirmacao e verdadeira e esta glosada nos dois lugares em que aparece. NAO E ACHADO. Registrado para que uma auditoria futura nao o reabra. A correcao do vermelho 16 REFORCOU este ponto.",
+   "source": "verificacao aritmetica independente; variancia de Bernoulli F(1-F); alegacoes ja rastreadas GEOMOD-M21-A03-PATAMARF-008, GEOMOD-M21-A03-MEDIANAINDICADORA-004, GEOMOD-M21-A02-VARIOGRAMAPORLIMIAR-005"
+  }
+ ],
+ "verified_ok_extra_note": "Tambem verificados e corretos, sem entrada numerada: o metodo poligonal como anterior a difusao da krigagem na industria e hoje usado sobretudo como checagem independente; o fluxo de quatro etapas de construcao de wireframe (strings -> triangulacao entre secoes -> end caps -> validacao topologica) e a exigencia de solido fechado para calculo de volume e teste de inclusao; a dependencia do variograma indicador em relacao ao limiar e a leitura geologica dela (alto teor mais localizado, alcance menor).",
+ "assessment_gate": {
+  "status": "liberado",
+  "released": true,
+  "released_at": "2026-09-18",
+  "reason": "0 achados vermelhos e 0 laranjas em aberto. A inversao causal do achado vermelho (probabilidade fora de [0,1] x variograma nao autorizado), unico risco de gabarito invertido do modulo, esta corrigida no corpo, no recap e na alegacao. Os dois exemplos trabalhados numericos foram refeitos e conferidos, e sao base segura para questao de aplicacao. O unico achado branco esta TRATADO com as duas posicoes expostas e NAO BLOQUEIA - mas impoe restricao de formulacao, abaixo. RECONFIRMADO EM 2026-09-19 apos a segunda passagem (pos-divisao didatica): o achado vermelho 16 (erro de fator 2 na leitura verbal do variograma indicador) foi corrigido no corpo, no recap e na alegacao -001, e o exemplo trabalhado novo da a03 foi refeito do zero e FECHA em todos os passos. Continuam 0 vermelhos e 0 laranjas em aberto. O modulo passa a ter TRES exemplos trabalhados numericos conferidos numero por numero, base segura para questao de aplicacao.",
+  "restrictions_for_future_assessment": [
+   "(1) NAO cobrar a krigagem log-normal ordinaria como se houvesse uma unica resposta sobre sua adequacao. A FORMULA e cobravel como fato (Z*_OLN=exp[Y*_OK+sigma2_OK/2-mu], Journel 1980). A ADEQUACAO A ESTIMATIVA LOCAL nao e: se for cobrada, tem de ser como questao de discussao, reconhecendo Roth (1998) e Yamamoto (2007).",
+   "(2) NAO cobrar 'OIK ou SIK, qual e a melhor?' com gabarito fechado. Cobrar o TRADE-OFF (estacionariedade x propensao a estimativas fora de [0,1]).",
+   "(3) O numero de limiares (5 a 15) e FAIXA DE PRATICA, nao valor a memorizar. Cobrar o criterio (percentis/decis da distribuicao global; mais limiares nos trechos de decisao), nao o numero.",
+   "(4) A faixa 1/4-1/2 para tamanho de bloco e PONTO DE PARTIDA. Cobrar o criterio e a existencia da confirmacao quantitativa (QKNA), nunca a faixa como formula.",
+   "(5) NAO cobrar modelagem implicita, inversao geofisica nem simulacao sequencial - os tres aparecem no modulo so como ponteiros declarados fora do escopo (a05 -> M22).",
+   "(6) Os valores do exemplo da a04 VEM DO M20 e ja estavam auditados la; se forem reutilizados numa questao, usar exatamente lambda1=0,8125, lambda2=0,1875, mu=0,330, sigma2_OK=0,833.",
+   "(7) O VARIOGRAMA INDICADOR E METADE DA PROPORCAO DE PARES DISCORDANTES - a proporcao e 2*gamma_I(h). NAO gerar item nem card que afirme que gamma_I(h) E a proporcao de pares discordantes: essa era a formulacao errada corrigida pelo achado vermelho 16 e e um distrator excelente justamente por ser intuitiva. Se a questao pedir numero: na mediana, a distancias grandes, metade dos pares e discordante e o PATAMAR vale 0,25 - jamais 0,5. O cruzamento com o patamar F(1-F) e a checagem que fecha o item."
+  ],
+  "reconfirmed_at": "2026-09-19"
+ },
+ "generator_warnings": "Quinze pontos mudaram nesta auditoria. GERAR ITEM A PARTIR DA VERSAO ANTERIOR DAS AULAS PRODUZ GABARITO ERRADO. Os de maior valor: (1) O PAR DE DISCRIMINACAO MAIS VALIOSO DO MODULO e 'variancia de krigagem negativa' x 'probabilidade fora de [0,1]'. O primeiro aponta para o MODELO DE VARIOGRAMA (nao autorizado); o segundo aponta para os PESOS NEGATIVOS E A VIZINHANCA, e ocorre com modelos perfeitamente autorizados. 'Probabilidade fora de [0,1] indica variograma nao autorizado' e o DISTRATOR PERFEITO, porque e exatamente o que a aula dizia antes e o que o senso comum sugere. NAO GERAR CARD NEM GABARITO QUE FACA ESSA EQUIVALENCIA - foi este o erro vermelho corrigido. (2) SEGUNDO PAR DE ALTO VALOR: o que a assimetria compromete na krigagem ordinaria. Nao a validade nem a deducao (que nao assume distribuicao); compromete ROBUSTEZ e OTIMALIDADE. O distrator natural e 'a KO exige distribuicao aproximadamente normal' - falso, e muito difundido. (3) TERCEIRO: o teorema de Delaunay e sobre a TRIANGULACAO, nao sobre cada triangulo. Excelente para verdadeiro/falso. Distrator: 'cada triangulo de Delaunay tem o maior angulo minimo possivel'. (4) QUARTO: o ganho real da MEDIANA INDICADORA. Nao e so um variograma em vez de varios - e que OS PESOS NAO DEPENDEM DO LIMIAR, logo UM SISTEMA DE KRIGAGEM POR BLOCO. Item de aplicacao de alto valor. (5) NAO gerar item que descreva a formula de krigagem log-normal ordinaria como 'heuristica' ou 'aproximada' - era o que a aula dizia e nao se sustenta. Ela e padrao e atribuida a Journel (1980). (6) NAO gerar item que atribua a formula log-normal OK a Rendu (1979) como fonte primaria. (7) ATENCAO AO SINAL DO TERMO DE LAGRANGE: a versao de krigagem SIMPLES e exp[Y*_SK+sigma2_SK/2], SEM mu; a de krigagem ORDINARIA SUBTRAI mu. Trocar as duas e o erro pratico que a aula identifica como de maior risco de vies silencioso - otimo material para questao de aplicacao. (8) OS DOIS EXEMPLOS ARITMETICOS ESTAO CONFERIDOS E SAO BASE SEGURA. Valores canonicos, pos-correcao: a03 - esferico C=0,22, a=80 m, gamma(25)=0,0998, gamma(35)=0,1352, gamma(50)=0,1794, lambda1=0,794, lambda2=0,206, mu=0,072, i*=0,794; a04 - Y*=0,6263, ingenua 1,871 g/t, corrigida 2,04 g/t, diferenca 0,169 g/t (8% do valor corrigido, 9% da ingenua). (9) A VARIANCIA DA INDICADORA e F(1-F), maxima (0,25) SO NA MEDIANA. Nao chamar o patamar de um limiar qualquer de 'variancia maxima'. No exemplo da a03, F(zc) aproximadamente 0,33 e C=0,22. (10) TERMINOLOGIA HERDADA DO M20, OBRIGATORIA: 'valor extremo de alto teor' para high-grade outlier; 'teor de corte' reservado ao cutoff. As duas coisas aparecem juntas neste modulo (capeamento na a02/a04, limiar na a02/a03) e confundi-las num item seria reintroduzir um erro ja corrigido no curso. (11) DELAUNAY E UNICA SO EM POSICAO GERAL. Numa malha de sondagem quadrada ha quatro pontos cocirculares e a unicidade falha - bom item de aplicacao com gancho geologico. (12) O TANGENCIAL SIMPLES E O TANGENCIAL BALANCEADO NAO SAO A MESMA COISA: o primeiro deve ser abandonado, o segundo tem exatidao comparavel a da minima curvatura. (13) CAPITULOS BIBLIOGRAFICOS CORRIGIDOS, usar sempre com titulo: Isaaks & Srivastava (1989) cap. 18 'Estimating a Distribution' (indicadoras), cap. 17 'Cokriging'; Goovaerts (1997) cap. 7 'Assessment of Local Uncertainty'. AVISOS ACRESCENTADOS PELA SEGUNDA PASSAGEM (2026-09-19): (13) O VARIOGRAMA INDICADOR E METADE DA PROPORCAO DE PARES DISCORDANTES; a proporcao e 2*gamma_I(h), o variograma 2gamma e nao o semivariograma. Este e o erro que o achado vermelho 16 corrigiu e e DISTRATOR EXCELENTE - a formulacao errada e intuitiva e era o que a aula dizia. Nao gerar item nem card que afirme que gamma_I(h) E a proporcao. Se pedir numero: na mediana o patamar vale 0,25, jamais 0,5. Cruzar com o aviso 9 (patamar F(1-F)). (14) O EXEMPLO TRABALHADO NOVO DA a03 E BASE SEGURA para questao de aplicacao. Valores canonicos: F = 0,10/0,50/0,90; patamares 0,09/0,25/0,09; alcances 95/90/40 m; razao 90/40 = 2,25. O item de maior valor e o (b) - decidir median IK x full IK a partir da comparacao de alcances, nao pela definicao decorada. Gabarito: FULL IK, ao menos na faixa alta de limiares.",
+ "partials_recommendation": {
+  "status": "decidido",
+  "decision_owner": "geo-arquiteto (auditoria do M21)",
+  "decision": "questionario unico, sem parciais",
+  "note": "O modulo tem 5 AULAS, dentro do limiar de ~5-6 do plugin abaixo do qual nao se dividem parciais, e a estrutura reforca a decisao: DUAS CADEIAS CURTAS QUE CONVERGEM (a01 -> a02 -> a03 -> a04, a cadeia de estimativa; a01 -> a05, a cadeia geometrica), com a a05 explicitamente dependente das quatro anteriores para o passo de integracao. Partir em parciais cortaria a convergencia, que e onde estao as questoes de maior valor. Comparacao com os vizinhos: M20 (4 aulas, 5 apos a divisao didatica) e M17 (6 aulas) usaram questionario unico; M19 (7 aulas) usou 3 parciais + final.",
+  "revision_if_split": "SE A REVISAO DIDATICA DIVIDIR A A03 OU A A04 EM PARTE 1/PARTE 2, o modulo vai a 6 aulas - ainda DENTRO do limiar, e a recomendacao NAO MUDA, porque uma divisao de aula longa nao cria um corte conceitual novo, so reparte um existente."
+ },
+ "derived_material_to_propagate": {
+  "questionario": "nao existe",
+  "flashcards": "nao existe",
+  "glossario": "nao existe",
+  "anki_warning": "Nada a reimportar e nenhum card em revisao a corrigir a mao: o modulo nao tinha material derivado quando as correcoes foram aplicadas. Esta era a melhor hora possivel para corrigir - a inversao causal do achado vermelho e o exemplo aritmetico nao reproduzivel da a03 nao chegaram a virar gabarito nem card.",
+  "note": "NENHUM modulo ja fechado precisa de alteracao por conta desta auditoria. A verificacao transversal contra o M20 nao encontrou contradicao, e os quatro valores numericos reaproveitados do M20 batem com o registro de la."
+ },
+ "sources_added_to_module": [
+  "Journel (1980), 'The lognormal approach to predicting local distributions of selective mining unit grades', Mathematical Geology 12(4), 285-303",
+  "Webster & Oliver (2007), Geostatistics for Environmental Scientists, 2a ed., Wiley",
+  "Roth (1998), 'Is lognormal kriging suitable for local estimation?', Mathematical Geology 30(8), 999-1009",
+  "Yamamoto (2007), 'On unbiased backtransform of lognormal kriging estimates', Computational Geosciences 11(3), 219-234",
+  "PetroWiki (SPE), 'Calculation methods for directional survey'",
+  "Deutsch & Deutsch, 'Quantitative Kriging Neighbourhood Analysis', Geostatistics Lessons",
+  "C. V. Deutsch, 'An Overview of Multiple Indicator Kriging', Geostatistics Lessons",
+  "Chiles & Delfiner (2012), Geostatistics: Modeling Spatial Uncertainty, 2a ed., Wiley",
+  "SME Mining Engineering Handbook"
+ ],
+ "out_of_scope_observations": [
+  "DIDATICA (revisor-didatico): A03 E A AULA MAIS PESADA DO MODULO E FICOU MAIS PESADA COM ESTA AUDITORIA. Ela ja declarava 30 min (o teto do plugin) antes das correcoes, e o achado vermelho 1 e o laranja 8 acrescentaram dois blocos densos a mesma aula: a separacao dos dois sintomas e o trade-off SIK x OIK. A estimativa pos-auditoria e de ~2440 palavras, bem acima do que as outras aulas do modulo carregam. O CONTEUDO ESTA CERTO; A FORMA PEDE INTERVENCAO. E a primeira aula a olhar, e a candidata mais forte a divisao em Parte 1 / Parte 2 pela convencao dos modulos 17, 19 e 20 - com um corte natural ja visivel: variograma indicador e modelagem (autorizado/nao autorizado, full IK x median IK) numa parte, sistema de krigagem e relacoes de ordem na outra.",
+  "DIDATICA: A04 TAMBEM CRESCEU, de ~2120 para ~2350 palavras, por conta do bloco de controversia do achado branco 9. Vale checar se a secao 'Krigagem log-normal baseada em krigagem ordinaria' nao virou o ponto mais denso da aula, acumulando formula, atribuicao historica e duas divergencias de literatura num so folego.",
+  "DIDATICA: A01 TEM SEQUENCIA DE LEITURA ESTRANHA NA ABERTURA. Ela declara como pre-requisito o M20 inteiro e depois gasta a primeira secao argumentando por que a base de dados vem antes da geoestatistica - um argumento que o aluno ja deveria ter aceito para ter chegado ate aqui. Vale checar se nao e redundancia.",
+  "DIDATICA / TERMOS USADOS ANTES DE DEFINIDOS: a a01 usa 'composicao por bancada' e 'teor de corte' antes de qualquer definicao neste modulo (ambos vem do M20, mas a a01 nao sinaliza isso); a a02 menciona 'local ccdf' como 'a peca central' tres vezes antes de a a03 mostrar o que e. Sao forward references declaradas, nao erros - cabe ao revisor julgar se o aluno consegue seguir.",
+  "DIDATICA: A A05 MUDA DE NATUREZA NO MEIO DO MODULO. As aulas 01-04 sao quantitativas e a a05 e geometrica e qualitativa (interpretacao de secao, julgamento geologico). A propria aula sinaliza a mudanca, mas vale checar se a transicao esta suficientemente preparada - a a04 termina anunciando a a05 em uma linha.",
+  "DIDATICA / ALINHAMENTO OBJETIVO x CONTEUDO: o oa02 e mapeado por duas aulas (a02 inteira + tres secoes da a03) e o oa03 por duas (duas secoes da a03 + a a04 inteira). Nao e erro, mas significa que NENHUM OBJETIVO TEM CORRESPONDENCIA 1:1 COM UMA AULA neste modulo - diferente do M20. Se a a03 for dividida, o mapeamento pode ficar mais limpo, com oa02 na Parte 1 e oa03 na Parte 2."
+ ],
+ "passes": 3,
+ "passes_note": "PASSAGEM 1 (2026-09-18, levantamento): as cinco aulas lidas em conjunto, mais o hub do modulo, sem alterar arquivo. As 24 alegacoes auditaveis declaradas pelo autor (5 na a01, 5 na a02, 7 na a03, 5 na a04, 5 na a05) foram verificadas uma a uma contra fonte primaria ou tratado de referencia, com busca na web para: causas de estimativa de indicadora fora de [0,1]; requisitos distribucionais da krigagem ordinaria; metodos de desurvey e sua exatidao relativa; a propriedade de max-min-angle da triangulacao de Delaunay e sua condicao de unicidade; a independencia dos pesos em relacao ao limiar na mediana indicadora; a escolha SIK x OIK; a derivacao e a atribuicao da formula de krigagem log-normal ordinaria, com a literatura de controversia; a regra de tamanho de bloco e QKNA; e para TODA entrada de bibliografia, obra por obra e capitulo por capitulo. A auditoria levantou mais 3 alegacoes fora da lista do autor, chegando a 27 rastreadas (GEOMOD-M21-A02-OKSEMHIPOTESEDISTRIBUCIONAL-006, GEOMOD-M21-A03-PATAMARF-008, GEOMOD-M21-A03-SIKVSOIK-009), gravadas nos blocos de metadados das aulas. OS CINCO EXEMPLOS TRABALHADOS FORAM EXAMINADOS; os dois que pedem aritmetica (a03 e a04) foram refeitos numero por numero, o que inclui recalcular o modelo esferico da a03 e resolver o sistema de krigagem indicadora do zero. PASSAGEM 2 (2026-09-18, aplicacao): os achados corrigiveis aplicados cirurgicamente nas cinco aulas, com propagacao interna obrigatoria para recaps, objetivos declarados, exemplos trabalhados da a03 e da a04, listas de Fontes e blocos de alegacoes. O achado branco foi tratado por reescrita que expoe as duas posicoes. Terminacao de linha CRLF preservada nas cinco aulas (verificada apos as edicoes). PASSAGEM 3 (2026-09-19, pos-divisao didatica, escopo restrito): auditoria dos dois pontos de fato encaminhados pela revisao didatica na secao 'Encaminhado ao auditor-cientifico', mais o exemplo trabalhado NOVO que a divisao criou na a03, mais duas discrepancias de escrituracao. Resultado: 1 achado VERMELHO novo (16, erro de fator 2 na leitura verbal do variograma indicador - a formula com 1/(2N(h)) estava certa, a explicacao verbal estava errada), 1 AMARELO novo (17, referencia cruzada de numeracao 16 -> 15), exemplo novo da a03 APROVADO sem correcao (azul B20), e a discrepancia de contagem de amarelos EXPLICADA (o branco foi absorvido na contagem de amarelos do cabecalho; o numero nao foi alterado). Ambos os achados corrigidos na mesma passagem. NENHUM achado da passagem 1 foi reaberto, reauditado, renumerado ou apagado - o unico registro tocado foi o azul B12, marcado como SUPERADO e preservado. GATE CONTINUA LIBERADO.",
+ "report_file": "21-modelagem-geoestatistica-depositos-minerais-auditoria.md",
+ "manifest_note": "Manifesto gerado em 2026-09-19 a partir do relatorio .md de 2026-09-18, que ficou completo em disco antes de o manifesto e o course-state.yaml serem escritos (interrupcao de sessao). NENHUM ACHADO FOI REABERTO, REAUDITADO OU ALTERADO na geracao deste manifesto: ele e transcricao estruturada do relatorio. Datas audited_at/fixed_at/applied_at preservam a data real do trabalho (2026-09-18). ATUALIZADO EM 2026-09-19 pela segunda passagem (pos-divisao didatica): acrescentados os achados 16 (vermelho) e 17 (amarelo) ao array findings, acrescentado o registro azul B20 (exemplo trabalhado novo da a03, aprovado sem correcao), marcado B12 como SUPERADO (preservado, nao apagado), contagens do summary atualizadas para o acumulado das duas passagens, e a discrepancia de contagem de amarelos RESOLVIDA com explicacao confirmada (ver summary.summary_note). Nenhum achado da primeira passagem foi reaberto, reauditado, renumerado ou apagado."
+}

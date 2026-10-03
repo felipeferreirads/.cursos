@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "14-estratigrafia-correlacao",
+    "module_id": "14",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-17T22:20:00-03:00",
+  "verdict": "approved",
+  "summary": {"red": 0, "orange": 0, "yellow": 0, "blue": 0, "white": 0, "verified_ok": 11},
+  "findings": [],
+  "verified_claims": [
+    {"claim_id": "STR-M14-A01-LITHO-001", "claim": "Unidades litoestratigráficas são definidas por litologia e relações estratigráficas, não por idade inferida.", "source": "ICS, International Stratigraphic Guide, cap. 5; consulta 2026-08-17; https://stratigraphy.org/guide/litho", "confidence": "confirmado"},
+    {"claim_id": "STR-M14-A01-HIERARCHY-002", "claim": "Grupo, formação e membro ocupam corretamente a hierarquia formal ensinada.", "source": "ICS, International Stratigraphic Guide, cap. 5; consulta 2026-08-17; https://stratigraphy.org/guide/litho", "confidence": "confirmado"},
+    {"claim_id": "STR-M14-A02-BIOZONE-001", "claim": "Biozonas são corpos de estratos definidos ou caracterizados por fósseis.", "source": "ICS, International Stratigraphic Guide, cap. 7; consulta 2026-08-17; https://stratigraphy.org/guide/bio", "confidence": "confirmado"},
+    {"claim_id": "STR-M14-A02-CORRELATION-002", "claim": "Correlação bioestratigráfica não é necessariamente correlação temporal.", "source": "ICS, International Stratigraphic Guide, cap. 7; consulta 2026-08-17; https://stratigraphy.org/guide/bio", "confidence": "confirmado"},
+    {"claim_id": "STR-M14-A03-RELATION-001", "claim": "Unidades lito- e bioestratigráficas podem ser diacrônicas.", "source": "ICS, International Stratigraphic Guide; consulta 2026-08-17; https://stratigraphy.org/guide/rel", "confidence": "confirmado"},
+    {"claim_id": "STR-M14-A04-GSSP-001", "claim": "GSSPs definem a base de unidades cronoestratigráficas globais e exigem marcador correlacionável.", "source": "ICS, GSSPs: workflow and protocol; consulta 2026-08-17; https://stratigraphy.org/gssps/", "confidence": "confirmado"},
+    {"claim_id": "STR-M14-A04-VOTING-002", "claim": "O fluxo de aprovação GSSP segue subcomissão, ICS e Comitê Executivo da IUGS.", "source": "ICS, GSSPs: workflow and protocol; consulta 2026-08-17; https://stratigraphy.org/gssps/", "confidence": "confirmado"},
+    {"claim_id": "STR-M14-A05-DEFINITION-001", "claim": "Estratigrafia de sequências interpreta empilhamento em relação a acomodação e suprimento sedimentar.", "source": "Catuneanu et al. 2011, DOI:10.1127/0078-0421/2011/0011", "confidence": "confirmado"},
+    {"claim_id": "STR-M14-A05-GENETIC-002", "claim": "Estratigrafia de sequências é abordagem genética e processual.", "source": "Catuneanu et al. 2011, DOI:10.1127/0078-0421/2011/0011", "confidence": "confirmado"},
+    {"claim_id": "STR-M14-A06-CORRELATION-001", "claim": "Correlação estabelece correspondência entre seções separadas e precisa declarar a evidência usada.", "source": "ICS, International Stratigraphic Guide; consulta 2026-08-17; https://stratigraphy.org/guide/rel", "confidence": "confirmado"},
+    {"claim_id": "STR-M14-A06-LIMITS-002", "claim": "Ausência de marcador não implica necessariamente diferença de idade.", "source": "ICS, International Stratigraphic Guide; consulta 2026-08-17; https://stratigraphy.org/guide/rel", "confidence": "confirmado"}
+  ]
+}

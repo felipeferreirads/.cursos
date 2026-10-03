@@ -1,0 +1,637 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "03-maquinas-da-bancada/",
+    "module_id": "03",
+    "course_id": "lapidacao"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-09-02T00:00:00-03:00",
+  "verdict": "approved",
+  "summary": {
+    "red": 1,
+    "orange": 10,
+    "yellow": 0,
+    "blue": 1,
+    "white": 1,
+    "verified_ok": 47,
+    "open_findings": 0
+  },
+  "findings": [
+    {
+      "claim_id": "AJU-CHEATER-IDX-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "claim": "O cheater move a pedra por uma fracao de um passo de dente, tipicamente para corrigir o equivalente a um ou dois dentes de erro acumulado.",
+      "location": {
+        "file": "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-05-anatomia-do-ajuste-batente-de-angulo-altura-do-mastro-e-o-cheater.md",
+        "section": "Familia 2 - a posicao na volta: indice e cheater",
+        "quote": "move a pedra por uma fracao de um passo de dente, tipicamente para corrigir o equivalente a um ou dois dentes de erro acumulado"
+      },
+      "problem": "Falso e autocontraditorio na mesma frase. Numa roda de 96 dentes um dente vale 3,75 graus de rotacao; 'um ou dois dentes' seria um passo grosso de indice, nao um ajuste fino, e tornaria o cheater redundante com o proprio indice - destruindo a distincao que e o objetivo de aprendizagem da aula. Nenhuma fonte quantifica a correcao em dentes; Hannam, a fonte citada, diz apenas 'a small amount of movement, either left or right of the main setting' e que o cheater 'will allow for small errors in cutting or polishing'.",
+      "replacement": "move a pedra por uma fracao de um passo de dente, para corrigir pequenos erros de corte ou de polimento. A fracao importa: numa roda de 96, um dente vale 3,75 graus de rotacao, e o cheater oferece uma parcela disso - um desvio de um dente inteiro se corrige mudando de dente, nao trapaceando.",
+      "source": {
+        "name": "Hannam, Faceting Made Easy (2000), secao Index Wheel & Cheater; Wykoff, Techniques of Master Faceting; USFG, dicionario de facetamento; aritmetica do indice (360/96 = 3,75)",
+        "level": "literatura de facetamento",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-05-anatomia-do-ajuste-batente-de-angulo-altura-do-mastro-e-o-cheater.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-02"
+    },
+    {
+      "claim_id": "SER-SLAB-DIM-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Laminas de slab saw de 15 a 60 cm tem espessura da ordem de 1 a 1,6 mm.",
+      "location": {
+        "file": "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-01-serras-lapidarias-slab-saw-trim-saw-e-a-lamina-diamantada.md",
+        "section": "Slab saw: fatiar o bruto",
+        "quote": "espessura da ordem de 1 a 1,6 mm (0,04 a 0,065 polegada), variando com o fabricante"
+      },
+      "problem": "A espessura escala com o diametro e a faixa declarada so vale para a metade inferior do intervalo: 6 pol ~1,1 mm; 10 pol 0,044 pol (1,1 mm); 18 pol 0,063 pol (1,6 mm); 24 pol 0,135 pol (3,4 mm). O teto de 1,6 mm subestima a lamina de 60 cm por um fator de ~2, e como a aula ensina o kerf como perda de material, subestima em metade a perda no maior corte.",
+      "replacement": "A espessura acompanha o diametro, e nao e uma faixa unica: os catalogos atuais dao da ordem de 1,1 mm (0,044 pol) nas laminas de 15 a 25 cm, 1,6 mm (0,063 pol) nas de 45 cm e da ordem de 3 mm (0,135 pol) nas de 60 cm.",
+      "source": {
+        "name": "Catalogos correntes de laminas diamantadas lapidarias (notched rim 6-24 pol; Greenline 24 pol = .135 pol)",
+        "level": "base de referencia",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-01-serras-lapidarias-slab-saw-trim-saw-e-a-lamina-diamantada.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-02"
+    },
+    {
+      "claim_id": "ESM-RODA-GRAO-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "A faixa util de grao das rodas de esmeril lapidario vai da ordem de 60 a 1200.",
+      "location": {
+        "file": "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-03-esmeril-e-drums-de-expansao.md",
+        "section": "O esmeril lapidario",
+        "quote": "a faixa util de grao vai da ordem de 60 a 1200, com graos ainda mais finos reservados ao polimento"
+      },
+      "problem": "O teto esta uma etapa abaixo do real. Os jogos correntes de bancada trazem 80, 220, 280, 600, 1200 e 3000, e a sequencia de uso corrente vai 280-600-1200-3000, com o polimento so a partir do disco de 14000. Colocar 1200 como teto faz o aluno atribuir ao polimento uma etapa (3000) que ainda e lixamento - distincao que o modulo 02 firmou.",
+      "replacement": "a faixa util de grao vai da ordem de 60 a 3000 - os jogos correntes de bancada trazem 80, 220, 280, 600, 1200 e 3000 -, ficando o polimento para discos de 14000 em diante",
+      "source": {
+        "name": "Catalogos correntes de rodas de cabochao (jogos 80/220/280/600/1200/3000); sequencia Diamond Pacific 280-600-1200-3000 seguida de disco Nova 14000",
+        "level": "base de referencia",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-03-esmeril-e-drums-de-expansao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-02"
+    },
+    {
+      "claim_id": "ESM-RODA-SIC-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Uma roda de carbeto de silicio girando a seco racha.",
+      "location": {
+        "file": "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-03-esmeril-e-drums-de-expansao.md",
+        "section": "O esmeril lapidario",
+        "quote": "usado sempre molhado - a agua resfria o corte e leva a lama, e uma roda dessas girando a seco racha"
+      },
+      "problem": "Mecanismo invertido. Girar a seco produz superaquecimento, envidracamento (a face satura e para de cortar) e poeira de silica respiravel - esta ultima a consequencia mais grave e a que a aula omitia, ligada a silicose ja tratada no modulo 02. O risco de a roda rachar e se partir vem do oposto: da absorcao desigual de umidade, que degrada o ligante e tira a roda de balanceamento, dai a regra classica de nunca deixar a roda parada dentro da agua.",
+      "replacement": "a agua resfria o corte, leva a lama e abate a poeira de silica respiravel. A seco a roda superaquece, envidraca e joga po no ar; rachar e se partir e outro risco, e vem de ela ficar parada dentro da agua, absorvendo umidade de forma desigual ate sair de balanceamento.",
+      "source": {
+        "name": "Literatura de seguranca e manuseio de rebolos (Norton Abrasives, Proper Handling and Storage of Grinding Wheels: absorcao de umidade -> degradacao do ligante -> desbalanceamento -> ruptura); Sinkankas, Gem Cutting",
+        "level": "base de referencia",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-03-esmeril-e-drums-de-expansao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-02"
+    },
+    {
+      "claim_id": "REF-OLEO-DESCARTE-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Oleo de serra usado e classificado como residuo perigoso na maioria das jurisdicoes.",
+      "location": {
+        "file": "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-02-oleo-ou-agua-como-refrigerante-de-serra.md",
+        "section": "O que cada um faz com a oficina e com quem esta nela",
+        "quote": "oleo usado, carregado de po de pedra fino, e residuo perigoso na maioria das jurisdicoes"
+      },
+      "problem": "Falso como afirmacao regulatoria. Nos EUA o oleo usado destinado a reciclagem e regido por norma propria - EPA, 40 CFR Part 279, Standards for the Management of Used Oil -, declaradamente MENOS rigorosa que a de residuo perigoso, para incentivar a reciclagem; so e tratado como perigoso se descartado em vez de reciclado ou se misturado a residuo perigoso (presuncao de halogenios acima de 1.000 ppm). A generalizacao 'na maioria das jurisdicoes' nao tem levantamento por tras.",
+      "replacement": "e residuo regulado - nao vai no ralo nem no lixo comum, tem de ir para coleta de oleo usado. Se ele conta formalmente como residuo perigoso varia com a jurisdicao e com o que ele carrega: nos Estados Unidos, o oleo usado destinado a reciclagem cai numa norma propria (EPA, 40 CFR 279), declaradamente menos rigorosa que a de residuo perigoso.",
+      "source": {
+        "name": "EPA, 40 CFR Part 279 (eCFR)",
+        "level": "normativa",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-02-oleo-ou-agua-como-refrigerante-de-serra.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-02"
+    },
+    {
+      "claim_id": "AJU-BATENTE-ANG-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "A escala do transferidor cobre de 0 a 90 graus, com divisoes de meio grau nas maquinas boas.",
+      "location": {
+        "file": "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-05-anatomia-do-ajuste-batente-de-angulo-altura-do-mastro-e-o-cheater.md",
+        "section": "Familia 1 - a inclinacao: batente de angulo e altura do mastro",
+        "quote": "com divisoes de meio grau nas maquinas boas (Hannam, Faceting Made Easy)"
+      },
+      "problem": "Duplo. (a) Relacao invertida: meio grau e a resolucao de uma maquina de entrada; as de precisao leem o decimo de grau por vernier (manuais Ultra Tec V2R e V5 especificam linha de vernier de 0,1 grau; Facetron e vendida com precisao de 0,1 grau). Chamar meio grau de 'maquinas boas' ensina o teto errado de precisao, o que importara no modulo 09. (b) O valor estava ancorado so em Hannam, fonte secundaria que a politica do curso proibe como origem de dado numerico.",
+      "replacement": "a escala cobre de 0 a 90 graus; a resolucao varia com a maquina - divisoes gravadas de meio grau nas maquinas simples (Hannam), e um vernier que le o decimo de grau nas de precisao, como as da Ultra Tec e da Facetron",
+      "source": {
+        "name": "Manuais Ultra Tec V2R e V5; especificacao de 0,1 grau da Facetron; Hannam, Faceting Made Easy (maquina de entrada)",
+        "level": "manual de fabricante",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-05-anatomia-do-ajuste-batente-de-angulo-altura-do-mastro-e-o-cheater.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-02"
+    },
+    {
+      "claim_id": "TUM-ROT-MEC-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "O tambor rotativo gira a poucas rotacoes por minuto.",
+      "location": {
+        "file": "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-06-tambor-rotativo-e-tambor-vibratorio.md",
+        "section": "O tambor rotativo: a avalanche dentro do barril",
+        "quote": "um barril fechado, montado no eixo horizontal, que gira a poucas rotacoes por minuto"
+      },
+      "problem": "Erra a ordem de grandeza. A faixa corrente de trabalho e de 40 a 60 rpm, e os barris pequenos de bancada em geral vem fixos perto de 60. 'Poucas rotacoes por minuto' sugere 2 a 5 rpm - nessa velocidade a carga nao chega ao angulo de avalanche que a propria aula descreve como o mecanismo. Ainda que qualitativa, e um dado numerico disfarcado, e o LC-05 exige ordem de grandeza correta.",
+      "replacement": "que gira devagar - a faixa corrente de trabalho fica em torno de 40 a 60 rotacoes por minuto, e os barris pequenos de bancada em geral vem fixos perto de 60",
+      "source": {
+        "name": "Guias de tumbling de referencia (RockTumbler.com; forum Rock Tumbling Hobby: most store-bought smaller tumblers spin their barrels at 60 rpm; recomendacao de ate 40 rpm para desbaste)",
+        "level": "base de referencia",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-06-tambor-rotativo-e-tambor-vibratorio.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-02"
+    },
+    {
+      "claim_id": "TUM-EST-DUR-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "A sequencia completa do tambor rotativo leva de varias semanas a alguns meses; o estagio grosso dura de 1 a 3 semanas (exemplo trabalhado).",
+      "location": {
+        "file": "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-06-tambor-rotativo-e-tambor-vibratorio.md",
+        "section": "O tambor rotativo + Exemplo trabalhado",
+        "quote": "a sequencia completa leva de varias semanas a alguns meses / O estagio grosso, de 1 a 3 semanas"
+      },
+      "problem": "Duplo. (a) O ciclo completo fica em 4 a 8 semanas nas fontes (quatro estagios, o grosso de 2 a 4 semanas em material duro, os tres seguintes de ~1 semana cada); 'alguns meses' estica o teto alem do que a literatura sustenta. (b) Inconsistencia interna: o texto diz que o grosso e o estagio mais demorado numa faixa de 1 a 4 semanas, mas o exemplo o da como 1 a 3, abaixo do teto que ele mesmo deveria ocupar.",
+      "replacement": "cada estagio dura da ordem de 1 a 4 semanas - o grosso e o mais demorado, de 2 a 4 semanas em material duro como a agata, e os tres seguintes ficam em torno de uma semana cada -, e a sequencia completa leva da ordem de 4 a 8 semanas. No exemplo: o estagio grosso, de 2 a 4 semanas em agata.",
+      "source": {
+        "name": "RockTumbler.com, How Long Does Rock Tumbling Take?; manuais de fabricantes de tambor; Sinkankas, Gem Cutting",
+        "level": "base de referencia",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-06-tambor-rotativo-e-tambor-vibratorio.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-02"
+    },
+    {
+      "claim_id": "FCT-SWARF-XREF-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "O termo swarf teria sido definido na Aula 01 do modulo 03.",
+      "location": {
+        "file": "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-04-a-facetadora-por-dentro.md",
+        "section": "Vocabulario desta aula / Antes de comecar / linha de pre-requisito",
+        "quote": "swarf | mistura de po de pedra e abrasivo gasto arrancada no corte, definida na Aula 01"
+      },
+      "problem": "A aula 01 deste modulo nao usa a palavra swarf em nenhum ponto - ela define kerf. O termo e definido na Aula 05 do modulo 02 (material removido e abrasivo gasto, acumulados na interface de corte), ja constante como pre-requisito declarado da aula 04. Como a aula 04 constroi o sistema de agua sobre esse termo, o aluno que voltasse a aula 01 para reativa-lo nao o encontraria - quebra direta de LC-01/LC-03.",
+      "replacement": "swarf | mistura de po de pedra e abrasivo gasto acumulada na interface de corte, definida na Aula 05 do modulo 02. O bullet da Aula 01 ficou so com o kerf.",
+      "source": {
+        "name": "Curso de lapidacao, modulo 02 aula 05 (Vocabulario) e modulo 03 aula 01",
+        "level": "material do proprio curso",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-04-a-facetadora-por-dentro.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-02"
+    },
+    {
+      "claim_id": "PRE-FORMA-DEF-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "A preformacao vem antes do desbaste, e a cadeia e serrar-preformar-lixar-polir.",
+      "location": {
+        "file": "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-03-esmeril-e-drums-de-expansao.md",
+        "section": "O que e uma preforma",
+        "quote": "Antes de desbastar qualquer curva, a pedra passa pela preformacao. Na cadeia serrar -> preformar -> lixar -> polir, e o segundo passo"
+      },
+      "problem": "Tres desalinhamentos encadeados. (a) A aula afirma que a preformacao vem antes do desbaste e depois descreve o desbaste como a operacao que produz a preforma (a roda de diamante dura, de grao grosso, faz o desbaste e define a curva grosseira da preforma). (b) Substitui a cadeia canonica do modulo 01 (serrar-desbastar-lixar-polir), repetida no proprio bloco de pre-requisito da aula 03, por serrar-preformar-lixar-polir, sem declarar que e o mesmo segundo lugar sob outro nome. (c) As aulas 01 e 04 tratam a preforma como o contorno recortado na trim saw e a aula 03 como a peca ja com volume; na literatura a preformacao abrange as duas operacoes, mas o curso apresentava as duas versoes sem reconcilia-las.",
+      "replacement": "A preformacao e a etapa que produz a preforma. Ela ocupa o segundo lugar da cadeia do modulo 01, serrar -> desbastar -> lixar -> polir: preformar e o nome do que se faz nesse segundo lugar, e esse lugar comporta duas operacoes - primeiro recorta-se o contorno na trim saw (aula 01), depois desbasta-se o volume contra a roda. Dai a palavra aparecer nas duas aulas.",
+      "source": {
+        "name": "Sinkankas, Gem Cutting: A Lapidary Manual (preformacao abrangendo trimming e grinding); Vargas & Vargas, Faceting for Amateurs",
+        "level": "literatura primaria do curso",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-03-esmeril-e-drums-de-expansao.md",
+        "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-01-serras-lapidarias-slab-saw-trim-saw-e-a-lamina-diamantada.md",
+        "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-04-a-facetadora-por-dentro.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-02"
+    },
+    {
+      "claim_id": "DRUM-CINTA-FLEX-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "A roda e rigida e o drum e flexivel - rigidez tratada como propriedade da roda enquanto classe.",
+      "location": {
+        "file": "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-03-esmeril-e-drums-de-expansao.md",
+        "section": "O esmeril lapidario / O drum de expansao / Erros comuns / Ponto em aberto",
+        "quote": "Uma roda de metal e dura e impoe seu raio exato a pedra / Rigido e para desbastar; flexivel e para lixar curva"
+      },
+      "problem": "A aula distingue corretamente matriz metalica (desbaste) de matriz de resina (acabamento), mas depois trata roda como sinonimo de rigido em toda a argumentacao. As rodas de resina de acabamento correntes sao montadas sobre base de borracha macia e sao anunciadas pelos fabricantes como conformaveis a pedra, eliminando chatos. Sem a ressalva, o aluno conclui que qualquer roda deixa chato e so o drum nao deixa - e o ponto em aberto do LC-08 fica mal enquadrado, porque a alternativa real ao drum nao e grao mais fino num suporte rigido, e outro suporte tambem complacente.",
+      "replacement": "As de resina vem sobre base de borracha macia e ja tem alguma flexibilidade propria; rigida mesmo e a de matriz metalica. Roda de metal trocado por roda de matriz metalica na comparacao com o drum, e o ponto em aberto reenquadrado para quanta complacencia o suporte precisa ter para dispensar o drum.",
+      "source": {
+        "name": "Especificacao de fabricante de rodas de resina para cabochao (diamante em resina flexivel sobre borracha macia; conformacao a pedra)",
+        "level": "base de referencia",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-03-esmeril-e-drums-de-expansao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-02"
+    },
+    {
+      "claim_id": "DRUM-CINTA-FLEX-001",
+      "severity": "blue",
+      "kind": "evidencia_insuficiente",
+      "claim": "A borracha do drum de expansao cede alguns decimos de milimetro sob a pressao da pedra.",
+      "location": {
+        "file": "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-03-esmeril-e-drums-de-expansao.md",
+        "section": "O drum de expansao",
+        "quote": "cede alguns decimos de milimetro sob a pressao da pedra"
+      },
+      "problem": "Valor sinalizado pelo proprio redator e nao confirmado em nenhuma fonte. A deflexao da borracha depende da dureza Shore do tambor, da pressao de inflagem e da forca aplicada; nenhum catalogo publica esse numero e a literatura de cabochao trata a complacencia qualitativamente. A aula nao precisa do valor: o argumento e comparativo.",
+      "replacement": "A borracha do drum tem complacencia bem maior - cede visivelmente sob a pressao da pedra. (numero removido, nao substituido por outro)",
+      "source": {
+        "name": "-",
+        "level": "nao verificavel",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "nao_verificado",
+      "affected_files": [
+        "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-03-esmeril-e-drums-de-expansao.md"
+      ],
+      "outcome": "corrigido_com_ressalva",
+      "applied_at": "2026-09-02"
+    },
+    {
+      "claim_id": "AJU-CHEATER-ANG-002",
+      "severity": "white",
+      "kind": "certeza_indevida",
+      "claim": "A maioria dos facetadores considera o angle cheater dispensavel.",
+      "location": {
+        "file": "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-05-anatomia-do-ajuste-batente-de-angulo-altura-do-mastro-e-o-cheater.md",
+        "section": "Familia 2 - a posicao na volta: indice e cheater",
+        "quote": "vem em poucas maquinas e a maioria dos facetadores o considera dispensavel"
+      },
+      "problem": "Apresenta como estado do oficio o que e a assercao de uma unica fonte secundaria. Hannam escreve 'most faceters will tell you that the angle cheater is not necessary' - impressao dele, nao levantamento -, e a politica do curso nao admite Hannam como origem de valor (aqui, tambem o cerca de um decimo de grau). O conteudo nao esta em disputa na literatura; errados estavam o grau de certeza e a atribuicao.",
+      "replacement": "Hannam, uma das poucas fontes que separa os dois dispositivos com clareza, RELATA que a maior parte dos facetadores o considera dispensavel. Faz sentido: numa maquina cujo transferidor ja traz vernier de um decimo de grau, o angle cheater e redundante com o proprio batente.",
+      "source": {
+        "name": "Hannam, Faceting Made Easy, secao Protractor, Stop & Cheater (atribuicao); manuais Ultra Tec V2R/V5 e especificacao Facetron (corroboracao da redundancia)",
+        "level": "secundaria (atribuida) + manual de fabricante",
+        "version": "consultado 2026-09-02"
+      },
+      "confidence": "em_disputa",
+      "affected_files": [
+        "03-maquinas-da-bancada/03-maquinas-da-bancada-aula-05-anatomia-do-ajuste-batente-de-angulo-altura-do-mastro-e-o-cheater.md"
+      ],
+      "outcome": "corrigido_com_ressalva",
+      "applied_at": "2026-09-02"
+    }
+  ],
+  "verified_ok": [
+    {
+      "claim_id": "SER-LAM-DIAM-001",
+      "source": "Sinkankas; USFG",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SER-LAM-MATRIZ-001",
+      "source": "Literatura de ferramenta diamantada; envidracamento de rebolo. A ponte didatica com o lap que satura (modulo 02) ensina o modelo mental correto",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SER-LAM-CONSTR-001",
+      "source": "Catalogos de laminas sinterizadas / eletrodepositadas / de segmentos soldados. Sinterizada = metal bond confirmado; laminas de 16 pol e maiores sao tipicamente de rim segmentado",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SER-REFRI-FUN-001",
+      "source": "Sinkankas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SER-SLAB-FUN-001",
+      "source": "Sinkankas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SER-TRIM-FUN-001",
+      "source": "Vargas & Vargas; Sinkankas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SER-TRIM-DIM-001",
+      "source": "Catalogos de laminas ultrafinas (kerf de 0,004 a 0,012 pol = 0,1 a 0,3 mm, para material caro como opala e turquesa); trim saws de 4 a 8 pol correntes. O limite de 0,1 mm, suspeitado de otimista pelo redator, confirma-se",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SER-FIO-VAR-001",
+      "source": "Literatura de escultura lapidaria; Sinkankas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SER-KERF-PERDA-001",
+      "source": "Literatura de serragem",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SER-LAM-FINA-001",
+      "source": "Sinkankas; catalogos. A controversia LC-08 (lamina fina x avanco rapido) e debate real e esta corretamente posta como pergunta aberta",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SER-SAIDA-LASC-001",
+      "source": "Usinagem de materiais frageis",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SER-CLIV-RISK-001",
+      "source": "Sinkankas; curso de Gemologia m01",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "REF-FUNC-TRIPLA-001",
+      "source": "Sinkankas; curso de lapidacao m02 a05",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "REF-OLEO-LUBR-001",
+      "source": "Sinkankas; USFG",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "REF-AGUA-LUBR-001",
+      "source": "Sinkankas; USFG",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "REF-SOLU-ADIT-001",
+      "source": "Fichas tecnicas de refrigerante soluvel; USFG. A decisao do redator de nao introduzir faixa de diluicao foi correta: a proporcao e especifica de produto e cairia em receita de bancada, vedada pelo nivel teorico",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "REF-OLEO-IMPREG-001",
+      "source": "Sinkankas; curso de Gemologia m01 (porosidade)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "REF-AGUA-LIMPA-001",
+      "source": "Sinkankas; Wykoff",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "REF-AGUA-OPALA-001",
+      "source": "Minerals (MDPI) 13(3):356, Cracking of Gem Opals (2023); literatura de conservacao de opala. Opala com 3-21% de agua; tensao interna por qualquer desidratacao, com encolhimento superficial e gretamento progressivo; dano por encharcamento prolongado OU ciclos molha-seca repetidos - o mecanismo descrito na aula (casca seca encolhendo sobre miolo umido) e o correto",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "REF-AGUA-ARGILA-001",
+      "source": "Sinkankas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "REF-AGUA-OXI-001",
+      "source": "USFG; Sinkankas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "REF-OLEO-NEVOA-001",
+      "source": "Higiene ocupacional de oleos de corte",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "REF-AGUA-CONGELA-001",
+      "source": "Propriedades fisicas de agua e oleo mineral (ponto de fluidez bem abaixo de 0 C)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "REF-GRAO-CONTAM-001",
+      "source": "Sinkankas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ESM-EIXO-CONF-001",
+      "source": "Sinkankas; catalogos de maquinas de cabochao",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ESM-RODA-CURV-001",
+      "source": "Geometria de retificacao; Sinkankas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ESM-CHATO-RISK-001",
+      "source": "Sinkankas; literatura de cabbing",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ESM-RODA-DIM-001",
+      "source": "Catalogos de maquinas de cabochao: 6 pol (Genie, CabKing 6) e 8 pol (Titan, CabKing 8) sao os dois formatos correntes",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRE-FORMA-CAD-001",
+      "source": "Sinkankas. A tese central da aula 03 (a preforma fixa contorno e proporcao; lixar e polir nao mudam a forma) esta correta",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "DRUM-EXP-CONF-001",
+      "source": "Catalogos de drums de expansao: 6 pol e o formato tipico (8 pol tambem existe); expansao por forca centrifuga confirmada",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ESM-DRUM-PROG-001",
+      "source": "Sinkankas; Lapidary Journal",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "FCT-FACET-DEF-001",
+      "source": "Vargas & Vargas; Wykoff",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "FCT-PLATAF-FUN-001",
+      "source": "Sinkankas; Wykoff",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "FCT-MASTRO-FUN-001",
+      "source": "Vargas & Vargas; USFG",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "FCT-CABECOTE-FUN-001",
+      "source": "USFG, dicionario de facetamento (quill / handpiece); Vargas & Vargas. O uso da aula (cabecote = porta-dop, prende o dop por mandril e carrega a roda de indice) e mais preciso que o quill or dop arm frouxo de Hannam - nenhuma correcao necessaria",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "FCT-INDEX-DEF-001",
+      "source": "USFG; Vargas & Vargas; Hannam (corroboracao)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "FCT-INDEX-DENTES-001",
+      "source": "USFG, dicionario de facetamento; catalogos de index gears (Ultra Tec). O 96 e o padrao de fato (divisivel por 2, 3, 4, 6, 8, 12, 16, 24, 32 e 48, e e a notacao da maioria dos diagramas publicados); 96 e 64 cobrem cerca de 80% dos designs publicados; o brilhante redondo padrao e cortavel em 32, 64 e 96. O 48 de Hannam e os 72/77/80/120 existem, mas a aula diz os mais comuns e a escolha esta correta",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "FCT-AGUA-FUN-001",
+      "source": "Sinkankas; curso de lapidacao m02 a05",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "AJU-MASTRO-ALT-001",
+      "source": "Wykoff; Vargas & Vargas; Sinkankas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "AJU-INDICE-SIM-001",
+      "source": "USFG; Vargas & Vargas; aritmetica conferida (96/12 = 8; 96/8 = 12)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "AJU-FACETA-2FAM-001",
+      "source": "Wykoff; USFG (meetpoint faceting). Sintese didatica ja declarada como tal no rodape - tratamento correto; a particao e logicamente valida (plano radial x posicao na volta) e nao contradiz nenhuma fonte. Encaminhada ao revisor-didatico quanto ao rotulo",
+      "confidence": "confirmado como sintese declarada"
+    },
+    {
+      "claim_id": "TUM-VIB-MEC-001",
+      "source": "RockTumbler.com (the grinding step of a vibratory tumbler smooths the rocks but does not round them); Lapidary Journal",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TUM-ROT-VIB-001",
+      "source": "RockTumbler.com; USFG; Sinkankas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TUM-PROD-SAIDA-001",
+      "source": "Sinkankas; Lapidary Journal",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TUM-LIM-FORMA-001",
+      "source": "Sinkankas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TUM-LIM-TENAC-001",
+      "source": "Curso de Gemologia m01 a18 (kunzita e fluorita clivam com facilidade); auditoria do modulo 02 deste curso (CAL-APAT-FRAG-001, que ja isolara a fluorita como o caso de clivagem octaedrica perfeita). Consistente nos tres lugares",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TUM-LIM-PORO-001",
+      "source": "Sinkankas; curso de Gemologia m01 (porosidade)",
+      "confidence": "confirmado"
+    }
+  ],
+  "cross_lesson_checks": [
+    {
+      "check": "preforma/preformacao coerente entre aulas 01, 03 e 04 e dentro da aula 03",
+      "result": "ok apos correcao de PRE-FORMA-DEF-001"
+    },
+    {
+      "check": "swarf: referencia cruzada da aula 04 aponta para a aula que de fato define o termo",
+      "result": "ok apos correcao de FCT-SWARF-XREF-001"
+    },
+    {
+      "check": "cadeia canonica serrar-desbastar-lixar-polir unica no modulo",
+      "result": "ok apos correcao de PRE-FORMA-DEF-001"
+    },
+    {
+      "check": "tres funcoes do refrigerante coerentes entre aulas 01, 02 e 04 e com o modulo 02 aula 05; aula 02 delimita corretamente o escopo (nao transportar conclusoes de serra para facetadora, esmeril e laps)",
+      "result": "ok"
+    },
+    {
+      "check": "cheater x indice x batente: aulas 04 e 05 concordam quanto ao que cada ajuste governa e quanto a magnitude do ajuste fino",
+      "result": "ok apos correcao de AJU-CHEATER-IDX-001"
+    },
+    {
+      "check": "roda de indice de 96 dentes usada com os mesmos numeros nas aulas 04 e 05; aritmetica conferida",
+      "result": "ok"
+    },
+    {
+      "check": "rigidez x complacencia: aulas 03 e 05 nao colidem; o ajuste e interno a aula 03",
+      "result": "ok apos correcao de DRUM-CINTA-FLEX-001"
+    },
+    {
+      "check": "fronteiras de escopo: deferimentos para os modulos 04, 06, 08, 09 e 11 coerentes entre as seis aulas; nenhuma invade o territorio da outra",
+      "result": "ok"
+    },
+    {
+      "check": "fluorita (clivagem octaedrica perfeita, baixa tenacidade) coerente com o curso de Gemologia m01 a18 e com a auditoria do modulo 02",
+      "result": "ok"
+    },
+    {
+      "check": "nivel teorico (regra dura): nenhuma afirmacao de competencia de bancada nas seis aulas",
+      "result": "ok"
+    }
+  ],
+  "handed_to_didactic_review": [
+    "Teto de LC-02: cinco das seis aulas cresceram com as correcoes e nenhuma prosa do redator foi cortada (o ajuste do teto e da revisao didatica). palavras_corpo pos-auditoria: a01 1657, a02 1679, a03 1721, a04 1488, a05 1759, a06 1510. As aulas 03 e 05 sao as candidatas naturais a corte de redundancia ou a divisao em Parte 1 / Parte 2.",
+    "O subtitulo De volta a facetadora, agora com a mao nos controles (aula 05) e a unica formulacao do modulo que flerta com a linguagem de operacao de bancada, embora o corpo da secao nao o faca. Nao e achado de auditoria.",
+    "AJU-FACETA-2FAM-001 (duas familias / dois planos) e sintese didatica do curso, nao terminologia consagrada, e o rodape ja a declara como tal. Decidir se o corpo da aula deve avisar o aluno disso e decisao didatica.",
+    "Wikilinks quebrados detectados de passagem (assunto do validador-estrutural-do-curso, nao da auditoria): a aula 01 aponta para 03-maquinas-da-bancada-aula-02-oleo-ou-agua-como-refrigerante-de-serra-desempenho-contaminacao-e-consequencias; a aula 04 aponta duas vezes para 03-maquinas-da-bancada-aula-03-esmeril-e-drums-de-expansao-rodas-de-diamante-cintas-resinoides-e-a-preformacao-em-curva. Nenhum dos dois corresponde a arquivo existente. A aula 06 aponta para 04-laps-abrasivos-e-dop-modulo, ainda inexistente (esperado)."
+  ],
+  "derived_material": {
+    "questionario": "inexistente no momento da auditoria",
+    "flashcards": "inexistente no momento da auditoria",
+    "propagacao_necessaria": false,
+    "anki_ja_importado": false
+  },
+  "palavras_corpo_pos_auditoria": {
+    "a01": 1657,
+    "a02": 1679,
+    "a03": 1721,
+    "a04": 1488,
+    "a05": 1759,
+    "a06": 1510
+  }
+}

@@ -1,0 +1,247 @@
+{
+ "schema_version": 1,
+ "target": {
+  "kind": "modulo",
+  "path": "01-oficio-da-lapidacao/",
+  "module_id": "01",
+  "course_id": "lapidacao"
+ },
+ "mode": "audit-and-fix",
+ "depth": "full",
+ "audited_at": "2026-09-01T00:00:00-03:00",
+ "verdict": "approved",
+ "summary": {
+  "red": 2,
+  "orange": 5,
+  "yellow": 0,
+  "blue": 0,
+  "white": 0,
+  "verified_ok": 16
+ },
+ "findings": [
+  {
+   "claim_id": "PRO-TEN-JAD-001",
+   "severity": "red",
+   "kind": "erro_factual",
+   "claim": "O diamante tem clivagem que o torna quebradico em uma direcao.",
+   "location": {
+    "file": "01-oficio-da-lapidacao/01-oficio-da-lapidacao-aula-04-propriedades-da-gema-como-restricoes-de-projeto-de-corte.md",
+    "section": "Conteudo — bloco Tenacidade",
+    "quote": "o diamante, dureza maxima mas com clivagem que o torna quebradico numa direcao"
+   },
+   "problem": "O diamante cristaliza no sistema cubico e a familia de planos {111} contem quatro planos equivalentes, paralelos as faces do octaedro. A clivagem octaedrica perfeita ocorre nas quatro direcoes, nao em uma. E essa multiplicidade que historicamente tornou a clivagem, e nao a serra, o metodo de desbaste do diamante bruto, e que restringe a orientacao da peca em quatro direcoes.",
+   "replacement": "o diamante, dureza maxima mas com clivagem octaedrica perfeita nas quatro direcoes dos planos {111}, o que o deixa vulneravel a lascar ou partir sob impacto mal orientado",
+   "source": {
+    "name": "Literatura cristalografica padrao (clivagem octaedrica {111} do diamante); GIA — Cleavage System in Pink Diamond (Gems & Gemology)",
+    "level": "revisada por pares",
+    "version": "consultado 2026-09-01"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "01-oficio-da-lapidacao/01-oficio-da-lapidacao-aula-04-propriedades-da-gema-como-restricoes-de-projeto-de-corte.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-01"
+  },
+  {
+   "claim_id": "PRO-KZT-PERF-001",
+   "severity": "red",
+   "kind": "erro_factual",
+   "claim": "A kunzita tem clivagem perfeita em uma direcao.",
+   "location": {
+    "file": "01-oficio-da-lapidacao/01-oficio-da-lapidacao-aula-04-propriedades-da-gema-como-restricoes-de-projeto-de-corte.md",
+    "section": "Exemplo trabalhado — perfil do material e item 2 da derivacao",
+    "quote": "clivagem perfeita em uma direcao"
+   },
+   "problem": "A kunzita e a variedade gema do espodumenio, um piroxenio, com clivagem prismatica perfeita em DUAS direcoes ({110}) que se cruzam a aproximadamente 87 e 93 graus. O exemplo trabalhado inteiro deriva restricoes de orientacao desse dado, e com um plano so a conclusao fica subdimensionada: com dois planos concorrentes e uma aresta de intersecao a 87 graus, o espaco de orientacoes aceitaveis e bem mais estreito, razao pela qual o espodumenio e reputado como um dos materiais mais dificeis de facetar.",
+   "replacement": "clivagem prismatica perfeita em duas direcoes, que se cruzam a cerca de 87 graus; nenhuma faceta coincide com nenhum dos dois planos, e a aresta em que se encontram e a regiao mais fragil da peca",
+   "source": {
+    "name": "International Gem Society — Kunzite (Spodumene) Faceting Information; dados padrao de espodumenio (clivagem prismatica {110}, ~87/93 graus, grupo dos piroxenios)",
+    "level": "base de referencia",
+    "version": "consultado 2026-09-01"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "01-oficio-da-lapidacao/01-oficio-da-lapidacao-aula-04-propriedades-da-gema-como-restricoes-de-projeto-de-corte.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-01"
+  },
+  {
+   "claim_id": "TAL-CAB-FEN-001",
+   "severity": "orange",
+   "kind": "confusao_de_escopo",
+   "claim": "O cabochao e a unica familia capaz de mostrar asterismo e chatoyance.",
+   "location": {
+    "file": "01-oficio-da-lapidacao/01-oficio-da-lapidacao-aula-03-familias-de-talhe-cabochao-facetado-misto-esfera-escultura-fancy.md",
+    "section": "As familias, uma a uma — cabochao",
+    "quote": "E tambem a unica familia capaz de mostrar asterismo e chatoyance"
+   },
+   "problem": "O fenomeno exige curvatura, nao o cabochao. Esferas de olho-de-tigre e contas exibem a faixa luminosa. A afirmacao ainda contradizia a propria aula, que define esfera e formas torneadas como familia de superficie curva tres paragrafos adiante.",
+   "replacement": "Separacao entre a exigencia fisica (superficie curva concentra a luz refletida pelas inclusoes paralelas) e a vantagem de projeto (o cabochao e a familia projetada para orientar e centralizar o fenomeno; as demais familias curvas o exibem por consequencia).",
+   "source": {
+    "name": "Geology.com — Chatoyant Gems; Wikipedia — Chatoyancy; GIA Gem Encyclopedia (star and cat's-eye gems)",
+    "level": "base de referencia",
+    "version": "consultado 2026-09-01"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "01-oficio-da-lapidacao/01-oficio-da-lapidacao-aula-03-familias-de-talhe-cabochao-facetado-misto-esfera-escultura-fancy.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-01"
+  },
+  {
+   "claim_id": "TAL-TAX-ORIG-001",
+   "severity": "orange",
+   "kind": "certeza_indevida",
+   "claim": "A divisao em familias de talhe e a taxonomia de ensino da William Holland School of Lapidary Arts, que organiza suas disciplinas exatamente por esses nomes.",
+   "location": {
+    "file": "01-oficio-da-lapidacao/01-oficio-da-lapidacao-aula-03-familias-de-talhe-cabochao-facetado-misto-esfera-escultura-fancy.md",
+    "section": "De onde vem essa divisao",
+    "quote": "que organiza suas disciplinas exatamente por esses nomes"
+   },
+   "problem": "A grade publicada da William Holland lista facetamento, cabochao, corte de opala, prataria, fio, cera e fundicao, contas, esmaltacao, vitrofusao, corrente, vitral, cestaria e repuxo de cobre — mistura de lapidacao e joalheria que nao coincide termo a termo com a lista do curso. 'Misto' e 'fancy cutting' sao categorias da literatura de facetamento, nao nomes de disciplina de escola. Nenhuma guilda ou escola publica a lista de seis familias como taxonomia oficial. Soma-se a inconsistencia entre a lista de seis familias da aula 03 e a de sete disciplinas da aula 05, tratadas como equivalentes.",
+   "replacement": "Atribuicao rebaixada de taxonomia institucional para convencao deste curso, apoiada no vocabulario de trabalho da comunidade lapidaria amadora norte-americana, com duas ressalvas explicitas no corpo da aula.",
+   "source": {
+    "name": "William Holland School of Lapidary Arts — grade de cursos publicada (lapidaryschool.org/classes); Jewelers of America — diretorio de escolas; Southeast Federation of Mineralogical Societies — programacao de workshops",
+    "level": "fonte primaria institucional",
+    "version": "consultado 2026-09-01"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "01-oficio-da-lapidacao/01-oficio-da-lapidacao-aula-03-familias-de-talhe-cabochao-facetado-misto-esfera-escultura-fancy.md",
+    "01-oficio-da-lapidacao/01-oficio-da-lapidacao-aula-05-centros-de-lapidacao-e-a-formacao-do-oficio-amador.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-01"
+  },
+  {
+   "claim_id": "CEN-TAX-ORIG-001",
+   "severity": "orange",
+   "kind": "inconsistencia_interna",
+   "claim": "A divisao canonica em disciplinas — cabochao, facetamento, esfera, intarsia, escultura, opala, tumbling — e a taxonomia das guildas e escolas norte-americanas.",
+   "location": {
+    "file": "01-oficio-da-lapidacao/01-oficio-da-lapidacao-aula-05-centros-de-lapidacao-e-a-formacao-do-oficio-amador.md",
+    "section": "Por que o oficio amador criou as ferramentas que este curso usa; tabela de vocabulario; Recap; Erros comuns",
+    "quote": "e a taxonomia das guildas e escolas norte-americanas, adotada por este curso como convencao de ensino"
+   },
+   "problem": "Propagacao de TAL-TAX-ORIG-001. Alem da atribuicao nao sustentada, esta aula listava sete disciplinas enquanto a aula 03 listava seis familias, apresentando as duas listas como a mesma divisao.",
+   "replacement": "Reescrito para afirmar o que se sustenta — que o habito institucional de separar o ensino por disciplina e a origem da ideia de familias distintas — remetendo a ressalva da aula 03 e eliminando a contradicao entre as listas.",
+   "source": {
+    "name": "William Holland School of Lapidary Arts — grade publicada; Southeast Federation of Mineralogical Societies",
+    "level": "fonte primaria institucional",
+    "version": "consultado 2026-09-01"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "01-oficio-da-lapidacao/01-oficio-da-lapidacao-aula-05-centros-de-lapidacao-e-a-formacao-do-oficio-amador.md",
+    "01-oficio-da-lapidacao/01-oficio-da-lapidacao-aula-03-familias-de-talhe-cabochao-facetado-misto-esfera-escultura-fancy.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-01"
+  },
+  {
+   "claim_id": "PRO-TER-EX-001",
+   "severity": "orange",
+   "kind": "omissao_que_gera_erro",
+   "claim": "Topazio, tanzanita, opala e kunzita sao exemplos correntes de sensibilidade termica.",
+   "location": {
+    "file": "01-oficio-da-lapidacao/01-oficio-da-lapidacao-aula-04-propriedades-da-gema-como-restricoes-de-projeto-de-corte.md",
+    "section": "Conteudo — bloco Sensibilidade termica e quimica",
+    "quote": "Topazio, tanzanita, opala e kunzita sao exemplos correntes."
+   },
+   "problem": "O conjunto documentado de gemas sensiveis a choque termico e apatita, iolita, kunzita, opala e tanzanita. O topazio aparece na literatura de cuidado sobretudo por clivagem basal perfeita e por alteracao de cor sob luz prolongada. Numa aula que traduz propriedade em restricao, atribuir ao topazio a restricao errada ensina a associacao errada: evitar calor e ignorar o plano de clivagem, que e o risco real.",
+   "replacement": "Tanzanita, opala, kunzita, apatita e iolita sao os exemplos correntes de sensibilidade a choque termico. O topazio entra nessa conversa por outro motivo: seu risco dominante no corte e a clivagem basal perfeita, e nao a temperatura.",
+   "source": {
+    "name": "GIA 4Cs — More than the Mohs Scale: Gem Durability",
+    "level": "base de referencia",
+    "version": "consultado 2026-09-01"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "01-oficio-da-lapidacao/01-oficio-da-lapidacao-aula-04-propriedades-da-gema-como-restricoes-de-projeto-de-corte.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-01"
+  },
+  {
+   "claim_id": "ANA-CIN-ESP-001",
+   "severity": "orange",
+   "kind": "evidencia_insuficiente",
+   "claim": "A espessura da cinta tem um teto de referencia da ordem de poucos por cento do diametro; os limites exatos variam entre fontes.",
+   "location": {
+    "file": "01-oficio-da-lapidacao/01-oficio-da-lapidacao-aula-02-anatomia-da-pedra-lapidada-e-nomenclatura-das-facetas.md",
+    "section": "A cinta como decisao de projeto, nao acabamento",
+    "quote": "um teto de referencia da ordem de poucos por cento do diametro"
+   },
+   "problem": "LC-05 deste curso tem excecao explicita: numero tabelado que E o objeto de estudo vai com valor de referencia e fonte, nao como ordem de grandeza. Alem disso a fonte secundaria corroborada (Hannam, 2000) mede a cinta como fracao da ALTURA da pedra, enquanto o GIA mede como fracao do DIAMETRO — convencoes que produzem numeros diferentes para a mesma pedra, sem que a aula sinalizasse a divergencia.",
+   "replacement": "Convencao do GIA com metodo e numeros: medida nas oito posicoes de faceta principal, expressa em porcentagem do diametro medio da cinta, faixa reportada ~1,5% a 11%, categoria mediana entre 2% e 5%; mais duas ressalvas (e convencao de um sistema de classificacao de diamante; parte da literatura amadora mede sobre a altura).",
+   "source": {
+    "name": "GIA — Facetware Help; GIA — Symmetry Grading Boundaries for Round Brilliant Cut Diamonds; GIA 4Cs — Diamond Anatomy",
+    "level": "normativa",
+    "version": "consultado 2026-09-01"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "01-oficio-da-lapidacao/01-oficio-da-lapidacao-aula-02-anatomia-da-pedra-lapidada-e-nomenclatura-das-facetas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-01"
+  },
+  {
+   "claim_id": "MET-AUL-PALV-001",
+   "severity": "orange",
+   "kind": "inconsistencia_interna",
+   "claim": "Os rodapes YAML das cinco aulas declaram contagens de palavras_corpo que nao correspondem ao texto em disco.",
+   "location": {
+    "file": "01-oficio-da-lapidacao/ (as cinco aulas)",
+    "section": "rodape HTML, campo palavras_corpo",
+    "quote": "palavras_corpo: ~1493 (aula 01, contra 1757 reais); ~1549 (aula 03, contra 1965); ~1584 (aula 05, contra 2040)"
+   },
+   "problem": "Um rodape que declara tamanho errado invalida a verificacao de LC-02 por script e induz o revisor a acreditar que as aulas estao dentro do teto quando nao estao.",
+   "replacement": "Contagens recalculadas do texto em disco (intervalo 'Vocabulario desta aula' ate 'Fontes consultadas') e gravadas: 1757, 1684, 1965, 1609, 2040.",
+   "source": {
+    "name": "Medicao direta sobre os arquivos",
+    "level": "verificacao interna",
+    "version": "2026-09-01"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "01-oficio-da-lapidacao/01-oficio-da-lapidacao-aula-01-escopo-do-oficio-e-as-tres-decisoes-de-abertura.md",
+    "01-oficio-da-lapidacao/01-oficio-da-lapidacao-aula-02-anatomia-da-pedra-lapidada-e-nomenclatura-das-facetas.md",
+    "01-oficio-da-lapidacao/01-oficio-da-lapidacao-aula-03-familias-de-talhe-cabochao-facetado-misto-esfera-escultura-fancy.md",
+    "01-oficio-da-lapidacao/01-oficio-da-lapidacao-aula-04-propriedades-da-gema-como-restricoes-de-projeto-de-corte.md",
+    "01-oficio-da-lapidacao/01-oficio-da-lapidacao-aula-05-centros-de-lapidacao-e-a-formacao-do-oficio-amador.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-01",
+   "note": "O estouro de LC-02 em si nao e achado factual e foi encaminhado a revisao didatica."
+  }
+ ],
+ "verified_ok": [
+  {"claim_id": "ANA-COR-FAC-001", "source": "USFG — The Standard Round Brilliant; GIA — Anatomy of a Round Brilliant", "confidence": "confirmado"},
+  {"claim_id": "ANA-PAV-FAC-001", "source": "USFG; GIA", "confidence": "confirmado"},
+  {"claim_id": "ANA-BRI-FAC-001", "source": "USFG; GIA — Diamond Cut", "confidence": "confirmado"},
+  {"claim_id": "ANA-REG-NOME-001", "source": "GIA — Diamond Anatomy", "confidence": "confirmado"},
+  {"claim_id": "ANA-CUL-TIPO-001", "source": "GIA — Diamond Anatomy", "confidence": "confirmado"},
+  {"claim_id": "ANA-CAB-NOME-001", "source": "Sinkankas, Gem Cutting", "confidence": "provavel"},
+  {"claim_id": "PRO-DUR-ABR-001", "source": "IGS — Gemstone Hardness and Wearability; GIA — More than the Mohs Scale", "confidence": "confirmado"},
+  {"claim_id": "PRO-DUR-ORD-001", "source": "Literatura mineralogica padrao", "confidence": "confirmado"},
+  {"claim_id": "PRO-DUR-TEN-001", "source": "GIA — hardness vs toughness", "confidence": "confirmado"},
+  {"claim_id": "PRO-TEN-GEO-001", "source": "Sinkankas, Gem Cutting", "confidence": "provavel"},
+  {"claim_id": "PRO-CLI-ORI-001", "source": "Sinkankas, Gem Cutting", "confidence": "provavel"},
+  {"claim_id": "PRO-IR-CRIT-001", "source": "USFG — angulo critico e indice de refracao; Vargas & Vargas", "confidence": "confirmado"},
+  {"claim_id": "PRO-IR-JAN-001", "source": "USFG — dicionario de facetamento (window)", "confidence": "confirmado"},
+  {"claim_id": "LAP-ESC-SEQ-001", "source": "Sinkankas, Gem Cutting", "confidence": "confirmado"},
+  {"claim_id": "CEN-IDA-AGUA-001", "source": "GIA — Lapidary Tradition of Idar-Oberstein; ICA — Agate", "confidence": "confirmado", "note": "enriquecido com Nahe e Idarbach"},
+  {"claim_id": "CEN-IDA-BRA-001", "source": "GIA; ICA; GemSelect", "confidence": "confirmado", "note": "enriquecido com seculo XIX, decada de 1820 e transporte como lastro"},
+  {"claim_id": "CEN-SRI-PESO-001", "source": "GIA G&G outono 2014 — Sri Lanka: Expedition to the Island of Jewels", "confidence": "confirmado", "note": "enriquecido com native cut e remuneracao por peso entregue"},
+  {"claim_id": "CEN-CHI-JADE-001", "source": "GIA — escultura chinesa de jade", "confidence": "provavel"}
+ ],
+ "open_findings": [],
+ "handed_to_didactic_review": [
+  "Quatro das cinco aulas estouram o teto de ~1600 palavras de LC-02: aula 01 (1757), aula 02 (1684), aula 03 (1965), aula 05 (2040). Aula 04 (1609) no limite.",
+  "A aula 02 nao traz o wikilink do hub do modulo no cabecalho, ao contrario das aulas 01, 03 e 05."
+ ]
+}

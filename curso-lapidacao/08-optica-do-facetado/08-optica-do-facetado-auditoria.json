@@ -1,0 +1,443 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "08-optica-do-facetado/",
+    "module_id": "08",
+    "course_id": "lapidacao"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-09-04T00:00:00-03:00",
+  "verdict": "approved",
+  "summary": {
+    "red": 4,
+    "orange": 8,
+    "yellow": 0,
+    "blue": 2,
+    "white": 2,
+    "verified_ok": 23,
+    "open_findings": 0
+  },
+  "findings": [
+    {
+      "claim_id": "TAB-ALVO-FAIXA-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "new_claim": false,
+      "location": {
+        "file": "08-optica-do-facetado/08-optica-do-facetado-aula-02-angulos-alvo-por-indice-de-refracao.md",
+        "section": "A tabela - valores de referencia por faixa / Recap relampago / Fontes consultadas",
+        "quote": "Os valores abaixo sao os de referencia correntes na literatura de facetamento amador para o pavilhao do brilhante redondo ... 1,76-1,81 | ~33-35 | ~38-40 | corindon (rubi, safira)"
+      },
+      "problem": "Dois problemas independentes. (a) Os valores nao correspondem aos publicados. A tabela do IGS de angulo de pavilhao principal por material da: quartzo 42, berilo 43, turmalina 42, topazio 41, peridoto 42, espinelio 41, corindon/safira 42, zircao 41, granada 39-41. Os valores reais sao praticamente PLANOS em 40-43 graus para toda a gama de gema comum, e o berilo (IR 1,57) recebe pavilhao MAIS FUNDO que o quartzo (IR 1,54) - o oposto da tendencia decrescente que a aula ensina. O erro individual mais grave e o corindon: a aula manda 38-40, a literatura manda 42. (b) A fonte declarada nao sustenta a tabela. A pagina 'Refractive Index and Critical Angle' da USFG traz SO uma tabela de indices de refracao, sem coluna de angulo critico e sem coluna de angulo-alvo, e remete a Sinkankas sem reproduzir valores. O artigo 'Choosing the Best Angles for Your SRB', da mesma USFG, afirma 'There simply is no magic bullet or universal set of angles' e publica um unico conjunto, para IR 1,54 (pavilhao mains 43,00; breaks 41,00; coroa mains 32,00; breaks 28,00; stars 13,00). A tabela de seis faixas nao tem origem localizavel em nenhuma fonte declarada.",
+      "replacement": "Substituir a tabela de seis faixas por (i) o conjunto USFG para IR 1,54, declarado como tal; (ii) lista de angulos de pavilhao principal por material da tabela do IGS; (iii) a constatacao de que os angulos publicados sao quase planos em 40-43 graus apesar de o angulo critico variar de ~44 a ~24, porque o que trava o pavilhao por cima nao e a RIT e sim a exigencia de a luz sair pela coroa. Manter o diamante como linha a parte, fonte Tolkowsky.",
+      "source": "https://usfacetersguild.org/refractive-index-and-critical-angle/ ; https://usfacetersguild.org/choosing-the-best-angles-for-your-srb/ ; https://www.gemsociety.org/article/faceting-made-easy-part-1-gemstone-properties/ (consultadas 2026-09-04)",
+      "confidence": "confirmado",
+      "affected_files": [
+        "08-optica-do-facetado/08-optica-do-facetado-aula-02-angulos-alvo-por-indice-de-refracao.md",
+        "08-optica-do-facetado/08-optica-do-facetado-aula-06-modelagem-optica-ray-tracing-e-os-limites-da-metrica.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-04"
+    },
+    {
+      "claim_id": "TAB-ALVO-FAIXA-002",
+      "severity": "red",
+      "kind": "erro_factual",
+      "new_claim": true,
+      "location": {
+        "file": "08-optica-do-facetado/08-optica-do-facetado-aula-02-angulos-alvo-por-indice-de-refracao.md",
+        "section": "A tabela - coluna 'Exemplo de material'",
+        "quote": "1,50 - 1,55 | ... | quartzo, berilo (extremo baixo) --- 1,66 - 1,75 | ... | peridoto, espinelio, zircao (extremo baixo)"
+      },
+      "problem": "Berilo nao existe na faixa 1,50-1,55: o indice do berilo e 1,562-1,602 (esmeralda 1,577-1,583, agua-marinha 1,567-1,590). O berilo ja aparece corretamente na faixa 1,56-1,65 da mesma tabela, de modo que o material esta listado duas vezes, uma delas numa faixa fisicamente impossivel. Zircao de gema nao existe na faixa 1,66-1,75: o zircao vai de 1,810 a 2,024, e o zircao high (qualidade gema) fica em 1,92-1,98; so o zircao metamictico (low) desce a ~1,75, tocando a borda - e e justamente o material que menos se faceta.",
+      "replacement": "Remover 'berilo (extremo baixo)' da faixa 1,50-1,55, deixando quartzo (e opcionalmente calcedonia). Remover 'zircao (extremo baixo)' da faixa 1,66-1,75 e substituir por granada piropo (1,72-1,76); mover o zircao para faixa alta propria ou cita-lo com a ressalva 'zircao low/metamictico ~1,75 - o zircao de gema fica em 1,92-1,98'.",
+      "source": "https://en.wikipedia.org/wiki/Zircon (IR 1,810-2,024, distincao high/low) ; https://sosnagems.com/blogs/gemstone-guides/guide-gemstone-refractive-index (berilo 1,562-1,602, metamictico ~1,75) (consultadas 2026-09-04)",
+      "confidence": "confirmado",
+      "affected_files": [
+        "08-optica-do-facetado/08-optica-do-facetado-aula-02-angulos-alvo-por-indice-de-refracao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-04"
+    },
+    {
+      "claim_id": "TAB-BASE-FISICA-001",
+      "severity": "red",
+      "kind": "inconsistencia_interna",
+      "new_claim": false,
+      "location": {
+        "file": "08-optica-do-facetado/08-optica-do-facetado-aula-02-angulos-alvo-por-indice-de-refracao.md",
+        "section": "A base fisica: por que indice mais alto tolera pavilhao mais raso / Recap relampago",
+        "quote": "materiais de indice alto nao apenas partem de um piso mais baixo, mas tambem toleram uma margem proporcionalmente menor sobre esse piso - o angulo-alvo final cai ainda mais rapido com o indice do que so o angulo critico sozinho preveria."
+      },
+      "problem": "O exemplo trabalhado da mesma aula, tres paragrafos adiante, calcula o contrario e diz isso em voz alta: 'a diferenca entre os angulos criticos (6,1) e MAIOR que a diferenca entre os angulos-alvo (3,5) ... a safira tem margem absoluta maior, nao menor'. O alvo cai MAIS DEVAGAR que o critico. A margem tambem e PROPORCIONALMENTE maior para a safira: quartzo 2,0/40,5 = 4,9%; safira 4,6/34,4 = 13,4%. Com os valores corretos do achado TAB-ALVO-FAIXA-001 (quartzo 42, corindon 42) a contradicao fica mais forte: margem do quartzo 1,5, do corindon 7,6. O mecanismo fisico invocado e real - a refracao na mesa confina os raios internos a um cone de meio-angulo igual a arcsin(1/n), exatamente o angulo critico, e portanto mais estreito quanto maior o indice - mas a conclusao tirada dele esta errada. O mecanismo que governa o limite SUPERIOR do angulo de pavilhao, e que a aula omite, e a exigencia de a luz sair pela coroa apos a segunda reflexao.",
+      "replacement": "Reescrever a secao: (i) manter o fato de que o cone interno tem meio-angulo igual ao angulo critico; (ii) trocar a conclusao para 'por isso o PISO cai com o indice'; (iii) introduzir o teto - a luz precisa sair pela coroa -, que nao cai com o indice; (iv) concluir que o alvo publicado fica quase plano por estar espremido entre um piso que desce e um teto que nao desce, e que e por isso que a margem sobre o critico CRESCE com o indice, como o exemplo trabalhado mostra.",
+      "source": "Aritmetica direta sobre os valores da propria aula (verificado: theta_c(1,54)=40,49; theta_c(1,77)=34,40) ; https://www.octonus.com/projects/diamond-cut-study/the-diamond-design-by-tolkowsky-1919 para a restricao de saida pela coroa (consultadas 2026-09-04)",
+      "confidence": "confirmado",
+      "affected_files": [
+        "08-optica-do-facetado/08-optica-do-facetado-aula-02-angulos-alvo-por-indice-de-refracao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-04"
+    },
+    {
+      "claim_id": "RAY-LIMITE-COR-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "new_claim": false,
+      "location": {
+        "file": "08-optica-do-facetado/08-optica-do-facetado-aula-06-modelagem-optica-ray-tracing-e-os-limites-da-metrica.md",
+        "section": "O que essas metricas nao capturam (bloco Cor) / Recap relampago / Erros comuns; propagado para aula 05 'O que nao concluir'",
+        "quote": "a absorcao seletiva por comprimento de onda que produz a cor de uma gema colorida - o assunto inteiro da aula 05 - nao e, em geral, o que essas simulacoes calculam."
+      },
+      "problem": "O GemRay - a ferramenta nomeada - faz exatamente as duas coisas que a aula diz que ele nao faz. A documentacao do autor descreve que o programa permite SELECIONAR A COR DO MATERIAL e que 'quanto mais longe um raio viaja atraves do material, mais a luz e absorvida', isto e, implementa precisamente o mecanismo de caminho optico x absorcao que a aula 05 ensina. Alem disso o GemRay traca os raios vermelho, verde e azul separadamente e os combina numa imagem colorida (modela dispersao), e gera animacoes de basculamento (tilt), o que enfraquece tambem RAY-LIMITE-PERCEP-001 ('metrica estatica', 'fotografia congelada'). Este e o achado de maior custo do modulo, porque a lacuna falsa e a espinha da aula 06 - primeira das 'tres lacunas' e justificativa de a aula fechar o modulo - e porque a aula 05 a repete como fato estabelecido.",
+      "replacement": "Trocar a lacuna 'cor' por uma verdadeira: (i) o modelo de cor do GemRay usa uma cor uniforme escolhida pelo operador, e portanto nao representa zonacao, pleocroismo nem variacao real de saturacao dentro da peca - o que preserva integralmente a licao da aula 05 sobre a ordem 'orientacao antes de profundidade'; (ii) a metrica agrega num numero uma preferencia estetica nao redutivel a numero. Na aula 05, trocar 'nao modelam bem absorcao de cor' por 'modelam absorcao com uma cor uniforme atribuida, nao com a zonacao real do bruto'. Reescrever o exemplo trabalhado da aula 06 em conformidade.",
+      "source": "https://www.gemcad.com/gemray.html ; https://www.gemcad.com/downloads/gemrayman.pdf (manual do GemRay, Robert W. Strickland, 2012) (consultadas 2026-09-04)",
+      "confidence": "confirmado",
+      "affected_files": [
+        "08-optica-do-facetado/08-optica-do-facetado-aula-06-modelagem-optica-ray-tracing-e-os-limites-da-metrica.md",
+        "08-optica-do-facetado/08-optica-do-facetado-aula-05-cor-saturacao-e-profundidade-do-pavilhao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-04"
+    },
+    {
+      "claim_id": "ANG-EXTIN-CAUSA-001",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "new_claim": false,
+      "location": {
+        "file": "08-optica-do-facetado/08-optica-do-facetado-aula-01-angulo-critico-e-reflexao-interna-total-no-pavilhao.md",
+        "section": "O outro extremo: pavilhao fundo demais / Erros comuns / Recap relampago",
+        "quote": "uma fracao crescente da luz e absorvida a cada reflexao (nenhuma superficie real reflete 100,000% de forma perfeitamente eficiente ao longo de multiplos percursos) ou e redirecionada para fora da abertura angular que o olho do observador ocupa."
+      },
+      "problem": "A reflexao interna total NAO tem perda - e o unico regime de reflexao que devolve a totalidade da energia, e e por isso que e o fundamento do talhe facetado. Atribuir a extincao a ineficiencia da reflexao contradiz o que a propria aula ensinou duas secoes antes ('100% da luz e refletida'). Numa pedra incolor a absorcao ao longo do caminho e desprezivel. O mecanismo real do pavilhao fundo demais e VAZAMENTO: depois da primeira reflexao o raio atinge a faceta oposta do pavilhao ABAIXO do angulo critico e escapa pelo fundo - o efeito conhecido no oficio como nailhead. A segunda metade da frase ('redirecionada para fora da abertura angular do observador') esta correta e e o segundo mecanismo real. Nota: '100,000%' e erro de digitacao (100%).",
+      "replacement": "'...o raio, depois da primeira reflexao, atinge a faceta oposta do pavilhao com um angulo ABAIXO do critico e escapa pelo fundo - a luz nao deixa de ser refletida na primeira faceta, ela se perde na segunda; e a parcela que ainda retorna sai fora da abertura angular que o olho do observador ocupa.'",
+      "source": "https://usfacetersguild.org/refractive-index-and-critical-angle/ (exemplo do pavilhao a 50 graus, 'resultados mistos conforme o trajeto do raio') ; literatura corrente de talhe sobre nailhead (consultadas 2026-09-04)",
+      "confidence": "confirmado",
+      "affected_files": [
+        "08-optica-do-facetado/08-optica-do-facetado-aula-01-angulo-critico-e-reflexao-interna-total-no-pavilhao.md",
+        "08-optica-do-facetado/08-optica-do-facetado-aula-04-brilho-contra-rendimento.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-04"
+    },
+    {
+      "claim_id": "TAB-DIAM-EXCE-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "new_claim": false,
+      "location": {
+        "file": "08-optica-do-facetado/08-optica-do-facetado-aula-02-angulos-alvo-por-indice-de-refracao.md",
+        "section": "A tabela (paragrafo do diamante) / Erros comuns / Recap relampago / Proxima aula",
+        "quote": "o angulo de pavilhao de referencia ... nao e 'pouco acima de 24' - e ~40,75, bem mais alto que o piso minimo. A razao ... e o compromisso com a dispersao espectral."
+      },
+      "problem": "O valor 40,75 esta correto e a atribuicao a Tolkowsky esta correta (pavilhao 40 graus 45', coroa 34 graus 30', mesa ~53%), mas a DIRECAO do argumento esta invertida. Tolkowsky escreve que a dispersao e o que IMPEDE o angulo de subir mais, nao o que o levanta acima do critico: 'although a greater angle would give better reflection, this would not compensate for the loss due to the corresponding reduction in dispersion'. A dispersao e o TETO, nao o motivo de estar acima do piso. O que levanta o pavilhao muito acima de 24,4 e a geometria de saida: a luz precisa refletir duas vezes no pavilhao e SAIR PELA COROA em direcao ao observador. Como esta, a aula ensina 'dispersao empurra o angulo para cima', e o aluno aplicara esse raciocinio errado a qualquer material de dispersao alta.",
+      "replacement": "'...a razao de estar tao acima do piso e a exigencia de que a luz, depois de refletir duas vezes no pavilhao, SAIA PELA COROA na direcao do observador - uma restricao geometrica que o angulo critico sozinho nao expressa. A dispersao entra pelo lado oposto: Tolkowsky registra que um angulo MAIOR daria reflexao ainda melhor, mas nao compensaria a perda de fogo - isto e, a dispersao e o que IMPEDE o valor de subir, nao o que o levanta.'",
+      "source": "https://www.octonus.com/projects/diamond-cut-study/the-diamond-design-by-tolkowsky-1919 - transcricao da tese original de 1919 (consultada 2026-09-04)",
+      "confidence": "confirmado",
+      "affected_files": [
+        "08-optica-do-facetado/08-optica-do-facetado-aula-02-angulos-alvo-por-indice-de-refracao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-04"
+    },
+    {
+      "claim_id": "RAY-FERR-GEMCAD-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "new_claim": false,
+      "location": {
+        "file": "08-optica-do-facetado/08-optica-do-facetado-aula-06-modelagem-optica-ray-tracing-e-os-limites-da-metrica.md",
+        "section": "O que o ray tracing faz / Recap relampago / Erros comuns / rodape",
+        "quote": "O modulo de tracado de raios frequentemente citado junto a ele, capaz de simular o comportamento optico do desenho ja especificado, e conhecido na literatura do oficio como GemRay."
+      },
+      "problem": "Tres imprecisoes numa alegacao so. (1) GemRay NAO e um modulo do GemCad - e um programa autonomo, distribuido separadamente, que abre os arquivos salvos pelo GemCad. (2) O hedge 'conhecido na literatura do oficio como' sugere nome de tradicao oral incerto; GemRay e o nome proprio e documentado do produto, escrito por Robert W. Strickland - o mesmo autor do GemCad -, publicado em gemcad.com, com manual do usuario datado de 2012. (3) A divisao de trabalho descrita esta certa e e confirmada pelo autor: GemCad trata da forma, GemRay da aparencia e do desempenho. Registro adicional: Strickland aposentou-se em 2023 e liberou GemCad e GemRay gratuitamente, com o GemRay em codigo aberto - informacao util ao nivel de 'consciencia de ferramenta' declarado pela aula.",
+      "replacement": "'O programa companheiro de tracado de raios, do mesmo autor, e o GemRay: ele abre os arquivos salvos pelo GemCad e simula o comportamento optico da geometria ja especificada. Os dois cobrem as duas metades do problema - o GemCad trata da forma, o GemRay da aparencia.' Remover o hedge do rodape (a confirmacao foi feita). Corrigir 'Erros comuns', 3o marcador, que diz 'o modulo de ray tracing associado'.",
+      "source": "https://www.gemcad.com/gemray.html ; https://www.gemcad.com/gemcad.html ; https://www.gemcad.com/downloads/gemrayman.pdf (consultadas 2026-09-04)",
+      "confidence": "confirmado",
+      "affected_files": [
+        "08-optica-do-facetado/08-optica-do-facetado-aula-06-modelagem-optica-ray-tracing-e-os-limites-da-metrica.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-04"
+    },
+    {
+      "claim_id": "TAB-ALVO-FAIXA-003",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "new_claim": true,
+      "location": {
+        "file": "08-optica-do-facetado/08-optica-do-facetado-aula-02-angulos-alvo-por-indice-de-refracao.md",
+        "section": "A tabela - coluna 'Angulo critico aproximado'",
+        "quote": "1,43-1,46 | ~44 ; 1,50-1,55 | ~40-41 ; 1,56-1,65 | ~37-39"
+      },
+      "problem": "Valores recalculados por theta_c = arcsin(1/n) sobre os extremos declarados de cada faixa: 1,43-1,46 da 43,2-44,4 (a aula da um valor unico ~44, o que ainda quebra o formato de faixa das outras linhas); 1,50-1,55 da 40,2-41,8, ou seja ~40-42, nao ~40-41 (theta_c(1,50)=41,8 arredonda para 42); 1,56-1,65 da 37,3-39,9, ou seja ~37-40, nao ~37-39 (theta_c(1,56)=39,9 arredonda para 40). As faixas 1,66-1,75 (~35-37), 1,76-1,81 (~33,5-34,6) e diamante (~24,4) estao corretas. O erro e pequeno em graus, mas LC-05 deste curso declara que os numeros tabelados SAO o objeto de estudo e vao com valor de referencia e fonte, o que eleva o padrao exigido desta coluna.",
+      "replacement": "1,43-1,46 -> ~43-44 ; 1,50-1,55 -> ~40-42 ; 1,56-1,65 -> ~37-40. Declarar a coluna como derivada por calculo, nao por fonte externa.",
+      "source": "Calculo direto de theta_c = arcsin(1/n), verificado em 2026-09-04 ; convencao da formula: https://usfacetersguild.org/refractive-index-and-critical-angle/",
+      "confidence": "confirmado",
+      "affected_files": [
+        "08-optica-do-facetado/08-optica-do-facetado-aula-02-angulos-alvo-por-indice-de-refracao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-04"
+    },
+    {
+      "claim_id": "FAC-REN-PROF-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "new_claim": false,
+      "location": {
+        "file": "08-optica-do-facetado/08-optica-do-facetado-aula-04-brilho-contra-rendimento.md",
+        "section": "Onde o compromisso e decidido (bloco Profundidade de pavilhao) / Recap relampago",
+        "quote": "Um pavilhao levemente mais raso que o angulo-alvo aproxima o janelamento (mesmo mecanismo da aula 01) em troca de nenhum ganho de peso - e praticamente sempre uma escolha pior que as outras duas."
+      },
+      "problem": "A afirmacao so vale com o contorno da cinta FIXO. Com bruto tabular ou achatado - o caso comum - o pavilhao raso e justamente o que permite um DIAMETRO maior a partir do mesmo material, e o ganho de peso e real e e a razao pela qual a pratica existe. A literatura descreve o corte nativo exatamente assim: 'o erro mais comum e cortar uma gema com face grande e pavilhao raso, resultando em janelamento', feito 'numa tentativa exagerada de maximizar o peso em quilates'. A propria aula 04 se contradiz duas vezes: sua definicao de corte nativo ('talhe feito para reter o maximo de peso') descreve essa manobra, e sua Rota B do exemplo trabalhado usa angulo mais raso nas pontas do oval exatamente para ganhar rendimento.",
+      "replacement": "'Um pavilhao mais raso que o angulo-alvo aproxima o janelamento (mesmo mecanismo da aula 01). Com o contorno da cinta fixo ele tambem nao retem peso - mas o bruto tabular ou achatado raramente deixa o contorno fixo: ai o pavilhao raso permite um diametro maior a partir do mesmo material, e e essa a manobra de rendimento mais comum do oficio - e a origem mais frequente de pedras janeladas.'",
+      "source": "https://www.ajsgem.com/articles/precision-cut-vs.-native-cut-gemstones.html ; https://www.gemselect.com/other-info/native-cut-gems.php (consultadas 2026-09-04)",
+      "confidence": "confirmado",
+      "affected_files": [
+        "08-optica-do-facetado/08-optica-do-facetado-aula-04-brilho-contra-rendimento.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-04"
+    },
+    {
+      "claim_id": "BRI-MEC-BRILHO-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "new_claim": false,
+      "location": {
+        "file": "08-optica-do-facetado/08-optica-do-facetado-aula-03-brilho-dispersao-e-cintilacao.md",
+        "section": "Vocabulario desta aula / Brilho: retorno bruto de luz branca / Recap relampago / Fontes consultadas",
+        "quote": "brilho (brilliance) | a quantidade de luz branca que a pedra devolve ao olho do observador, sob luz parada."
+      },
+      "problem": "O dicionario da USFG - a fonte que a aula cita - define o contrario: 'Brilliance: a general term used to describe a stone's overall appearance. It always includes Brightness, and often includes Color Spread or Scintillation.' Para a USFG, brilliance e o termo guarda-chuva que CONTEM os tres efeitos, e o nome do retorno de luz branca e Brightness. A aula usa a palavra de uma autoridade com o significado de outra - e faz isso na aula cujo proposito declarado e justamente separar os tres termos por mecanismo. O aluno que consultar o dicionario citado encontrara a definicao oposta. (O mesmo dicionario define Fire/Dispersion de forma compativel com a aula.)",
+      "replacement": "Manter 'brilho' como termo em portugues, mas trocar o parentese ingles de 'brilliance' para 'brightness' e acrescentar: 'Cuidado com o ingles: no dicionario da USFG, brilliance e o termo guarda-chuva para a aparencia geral da pedra - inclui brightness e frequentemente tambem color spread e scintillation. O efeito isolado que esta secao descreve e o brightness.'",
+      "source": "https://usfacetersguild.org/usfg-faceting-dictionary/ (consultado 2026-09-04)",
+      "confidence": "confirmado",
+      "affected_files": [
+        "08-optica-do-facetado/08-optica-do-facetado-aula-03-brilho-dispersao-e-cintilacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-04"
+    },
+    {
+      "claim_id": "FAC-REN-CONTORNO-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "new_claim": false,
+      "location": {
+        "file": "08-optica-do-facetado/08-optica-do-facetado-aula-04-brilho-contra-rendimento.md",
+        "section": "Vocabulario desta aula / Contorno / Recap relampago",
+        "quote": "corte nativo (native cut) | talhe feito para reter o maximo de peso, aceitando perda optica."
+      },
+      "problem": "Native cut designa, em primeiro lugar, a pedra facetada no PAIS DE ORIGEM, a mao e a olho, por metodos tradicionais - o criterio e geografico e de metodo, nao de filosofia de projeto. A retencao de peso e a consequencia tipica e a conotacao, nao a definicao. A distincao real da literatura e entre corte a mao/a olho no pais de origem e corte com facetadora indexada por lapidarios de precisao nos EUA e na Europa. Alem disso, 'muitos cortes nativos sao desenhados para maximizar a COR' - motivacao que a aula nao menciona e que e exatamente o assunto da aula 05 seguinte, uma ponte perdida. Como esta, o aluno conclui que corte nativo e um par simetrico e neutro de corte de precisao no eixo peso x optica, o que nao e o que o termo significa no comercio.",
+      "replacement": "'corte nativo (native cut) | talhe executado no pais de origem da gema, a mao e a olho, por metodos tradicionais - em oposicao ao corte com facetadora indexada e desenho publicado. A retencao de peso do bruto e a consequencia tipica dessa pratica, e o motivo pelo qual o termo aparece neste compromisso; parte dos cortes nativos, porem, e orientada para maximizar COR, nao peso - o compromisso da aula 05.'",
+      "source": "https://www.ajsgem.com/articles/precision-cut-vs.-native-cut-gemstones.html ; https://www.gemselect.com/other-info/native-cut-gems.php ; https://www.gia.edu/gia-news-research-value-factors-gem-cutting-styles-definitions (consultadas 2026-09-04)",
+      "confidence": "confirmado",
+      "affected_files": [
+        "08-optica-do-facetado/08-optica-do-facetado-aula-04-brilho-contra-rendimento.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-04"
+    },
+    {
+      "claim_id": "RAY-EX-SAFIRA-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "new_claim": true,
+      "location": {
+        "file": "08-optica-do-facetado/08-optica-do-facetado-aula-06-modelagem-optica-ray-tracing-e-os-limites-da-metrica.md",
+        "section": "Exemplo trabalhado",
+        "quote": "Um desenho de brilhante redondo, ajustado no GemCad para um pavilhao de 40,5 graus num material hipotetico de indice de refracao 1,76"
+      },
+      "problem": "A tabela da aula 02 prescreve 38-40 graus para a faixa 1,76-1,81. Os 40,5 do exemplo caem FORA dessa faixa, e a aula 06 nao sinaliza a discrepancia - ao contrario, apresenta a geometria como bem resolvida, com metrica de brilho alta. Um aluno atento conclui que uma das duas aulas esta errada. Resolve-se sozinho quando TAB-ALVO-FAIXA-001 for corrigido (o valor publicado para corindon e 42, e 40,5 passa a ser uma escolha um pouco rasa, plausivel e explicavel) - mas so se a correcao for propagada ate aqui. Fica registrado para que a propagacao nao seja esquecida.",
+      "replacement": "Apos corrigir a tabela da aula 02, ajustar o exemplo para 42 graus (valor de referencia do corindon), ou manter 40,5 e acrescentar meia frase dizendo que e deliberadamente um pouco mais raso que o valor de referencia - o que reforca a licao de cor da propria aula.",
+      "source": "Consistencia interna do modulo ; https://www.gemsociety.org/article/faceting-made-easy-part-1-gemstone-properties/",
+      "confidence": "confirmado",
+      "affected_files": [
+        "08-optica-do-facetado/08-optica-do-facetado-aula-06-modelagem-optica-ray-tracing-e-os-limites-da-metrica.md",
+        "08-optica-do-facetado/08-optica-do-facetado-aula-02-angulos-alvo-por-indice-de-refracao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-04",
+      "decision_note": "Resolvido pela propagacao de TAB-ALVO-FAIXA-001, como o achado previa. Com o valor publicado do corindon em 42 graus, os 40,5 do exemplo deixam de estar fora de faixa e passam a ser uma escolha deliberadamente rasa; a aula 06 agora DECLARA isso numa observacao de partida, ligando o desvio a regra de material de cor cheia da aula 05, em vez de silencia-lo. Escolhida a segunda das duas opcoes propostas (manter 40,5 e explicar) por reforcar a licao de cor da propria aula. NENHUM claim_id novo foi instalado no rodape: RAY-EX-SAFIRA-001 e rotulo de achado, nao alegacao auditavel."
+    },
+    {
+      "claim_id": "RAY-FONTE-USFG-001",
+      "severity": "blue",
+      "kind": "evidencia_insuficiente",
+      "new_claim": true,
+      "location": {
+        "file": "08-optica-do-facetado/08-optica-do-facetado-aula-06-modelagem-optica-ray-tracing-e-os-limites-da-metrica.md",
+        "section": "Fontes consultadas (aulas 03, 04 e 06) e rodape de RAY-FERR-GEMCAD-001",
+        "quote": "United States Faceters Guild - dicionario de facetamento: referencias a ferramentas de ray tracing associadas ao desenho de diagramas (GemRay)."
+      },
+      "problem": "O USFG Faceting Dictionary CONTEM verbetes para Brilliance, Fire/Dispersion, Scintillation, Culet e Meetpoint - as citacoes das aulas 03 e 04 a esses termos sao legitimas (com a ressalva de BRI-MEC-BRILHO-001). Ele NAO contem verbetes para GemCad, GemRay, extinction, window/windowing nem native cut. Portanto: a fonte da aula 06 nao sustenta a alegacao sobre o GemRay; e as aulas 01 e 04 apoiam-se em 'janelamento' e 'extincao' como vocabulario do oficio sem que o dicionario citado os defina. Nao e acusacao de erro de conteudo - as ferramentas e os defeitos existem, e RAY-FERR-GEMCAD-001 ja traz a fonte correta. E a rastreabilidade que esta quebrada: quem for conferir nao encontra.",
+      "replacement": "Na aula 06, substituir a linha da USFG por 'Robert W. Strickland - GemCad for Windows e GemRay for Windows, gemcad.com (documentacao do autor)'. Nas aulas 01 e 04, citar para janelamento/extincao uma fonte que de fato os defina, em vez do dicionario.",
+      "source": "https://usfacetersguild.org/usfg-faceting-dictionary/ - verificado verbete a verbete em 2026-09-04",
+      "confidence": "confirmado (a ausencia); nao verificado (a alegacao original)",
+      "affected_files": [
+        "08-optica-do-facetado/08-optica-do-facetado-aula-06-modelagem-optica-ray-tracing-e-os-limites-da-metrica.md",
+        "08-optica-do-facetado/08-optica-do-facetado-aula-03-brilho-dispersao-e-cintilacao.md",
+        "08-optica-do-facetado/08-optica-do-facetado-aula-04-brilho-contra-rendimento.md",
+        "08-optica-do-facetado/08-optica-do-facetado-aula-01-angulo-critico-e-reflexao-interna-total-no-pavilhao.md"
+      ],
+      "outcome": "reatribuido",
+      "applied_at": "2026-09-04",
+      "decision_note": "DECISAO DE JULGAMENTO (achado azul, sem fonte). Precedente seguido: o modulo 07 REMOVEU a alegacao azul (ESF-TOL-FAIXA-001) porque nenhuma fonte sustentava o conteudo. Aqui o caso e DIFERENTE e por isso o desfecho e outro: o conteudo esta correto e existe fonte propria para ele - o que estava quebrado era so a rota de verificacao. Portanto REATRIBUICAO, nao remocao. (1) Aula 06: a linha do dicionario da USFG foi substituida por Robert W. Strickland, GemCad for Windows e GemRay for Windows, gemcad.com, mais o manual de 2012 - a documentacao do autor, que e normativa para as capacidades da ferramenta; acrescentada nota explicita de que o dicionario NAO contem verbetes para GemCad nem GemRay. (2) Aula 01: a fonte generica United States Faceters Guild - material tecnico virou a pagina especifica Refractive Index and Critical Angle, que e a que de fato publica o caso do quartzo, mais uma linha para a literatura de talhe sobre o nailhead, e uma nota de que o dicionario nao define window/windowing nem extinction - o vocabulario vem da aula 06 do modulo 05 e da literatura de talhe. (3) Aula 04: mantida a citacao do dicionario, que E legitima para os verbetes Culet e Meetpoint (FAC-REN-CULACA-001 e quase literal ao verbete Culet), com nota de que native cut NAO esta no dicionario e vem da literatura comercial agora citada (AJS Gems, GemSelect, GIA, AfricaGems). (4) Aula 03: a citacao do dicionario e legitima para Brilliance, Fire e Scintillation e foi mantida e detalhada; acrescentado o GIA como fonte da definicao de cintilacao POR MOVIMENTO, que e a adotada pela aula - o dicionario da USFG define scintillation sem exigir movimento, ressalva levantada pela propria auditoria em BRI-MEC-CINT-001. NENHUM claim_id novo instalado: RAY-FONTE-USFG-001 e rotulo de achado sobre rastreabilidade, nao alegacao auditavel."
+    },
+    {
+      "claim_id": "ANG-EX-QUARTZO-001",
+      "severity": "blue",
+      "kind": "evidencia_insuficiente",
+      "new_claim": false,
+      "location": {
+        "file": "08-optica-do-facetado/08-optica-do-facetado-aula-01-angulo-critico-e-reflexao-interna-total-no-pavilhao.md",
+        "section": "Exemplo trabalhado, Passo 4 / O que nao concluir",
+        "quote": "A margem de ~2,5 graus acima do critico - nao o valor minimo exato - existe porque nem todo raio entra perfeitamente vertical."
+      },
+      "problem": "O restante do exemplo esta CONFIRMADO e e impecavel - a USFG usa exatamente este caso (quartzo, theta_c = 40,49, pavilhao a 35 janela, pavilhao a 43 devolve luz), e 43 e o valor de pavilhao mains que a propria USFG publica para IR 1,54. O que nao se confirma e a MARGEM DE 2,5 GRAUS como numero apresentado. A USFG diz que 'muitas autoridades aconselham manter os pavilion mains VARIOS GRAUS acima do angulo critico' e que 'muitas autoridades consideram 41 graus baixo demais para quartzo' - 41 e margem de 0,5, e 2,5 esta na borda inferior do que essas autoridades chamariam suficiente. O numero e uma leitura aritmetica do exemplo (43 menos 40,5), apresentada com peso de regra. A aula ja se protege parcialmente em 'O que nao concluir', o que rebaixa a severidade.",
+      "replacement": "Trocar 'A margem de ~2,5 graus' por 'A margem - aqui, 2,5 graus, e na literatura descrita apenas como vários graus acima do critico - existe porque...'. Nao inventar um valor; usar a formulacao qualitativa da fonte.",
+      "source": "https://usfacetersguild.org/refractive-index-and-critical-angle/ ; https://usfacetersguild.org/choosing-the-best-angles-for-your-srb/ (consultadas 2026-09-04)",
+      "confidence": "provavel (a direcao); nao verificado (o valor 2,5)",
+      "affected_files": [
+        "08-optica-do-facetado/08-optica-do-facetado-aula-01-angulo-critico-e-reflexao-interna-total-no-pavilhao.md"
+      ],
+      "outcome": "requalificado",
+      "applied_at": "2026-09-04",
+      "decision_note": "DECISAO DE JULGAMENTO (achado azul, sem fonte). Precedente do modulo 07: nao inventar numero novo e usar a formulacao qualitativa da fonte. Aplicado aqui na forma mais conservadora possivel, porque o resto do exemplo esta CONFIRMADO contra a USFG (quartzo, theta_c=40,49, pavilhao a 35 janela, a 43 devolve luz - e 43 e o valor que a propria USFG publica para IR 1,54). O numero 2,5 NAO foi removido nem trocado por outro: foi REQUALIFICADO no texto e no rodape como o que de fato e - a leitura aritmetica deste exemplo (43 menos 40,5) - com a formulacao da fonte declarada ao lado (\"varios graus\" acima do critico, sem valor fixado). Remover o numero deixaria o Passo 4 sem fechar a conta que os passos 1 a 3 abriram; mante-lo com peso de regra era o defeito apontado. A protecao que a aula ja tinha em \"O que nao concluir\" foi mantida."
+    },
+    {
+      "claim_id": "BRI-PROJ-COMPR-001",
+      "severity": "white",
+      "kind": "certeza_indevida",
+      "new_claim": false,
+      "location": {
+        "file": "08-optica-do-facetado/08-optica-do-facetado-aula-03-brilho-dispersao-e-cintilacao.md",
+        "section": "Dispersao / Os tres juntos / Erros comuns / Recap relampago",
+        "quote": "Um material de dispersao alta se beneficia, portanto, de desenhos com mais facetas, menores e mais numerosas na coroa e no pavilhao."
+      },
+      "problem": "A direcao geral e defensavel e e o senso comum do oficio, mas a relacao NAO e monotonica e o ponto e objeto de disputa real na literatura de talhe: abaixo de um certo tamanho angular, cada flash colorido fica pequeno demais para o olho resolver como cor, e o aumento do numero de facetas passa a REDUZIR o fogo percebido. A aula apresenta como regra sem limite ('mais facetas ajudam a dispersao e a cintilacao') o que e uma relacao com otimo interno. O contrato de nivel deste curso torna isso obrigatorio: LC-08 exige controversia em uma frase, declarada como pergunta aberta, sem arbitrar - e a aula 03 nao tem nenhuma declaracao de controversia.",
+      "replacement": "Acrescentar em 'Os tres juntos': 'Ate onde essa troca compensa e questao aberta: abaixo de um certo tamanho de faceta, cada flash colorido fica pequeno demais para o olho resolver como cor, e ha divergencia na literatura sobre onde exatamente fica esse limite.' Nao arbitrar.",
+      "source": "Divergencia real entre fontes do oficio sobre a relacao numero de facetas x fogo percebido",
+      "confidence": "em disputa",
+      "affected_files": [
+        "08-optica-do-facetado/08-optica-do-facetado-aula-03-brilho-dispersao-e-cintilacao.md"
+      ],
+      "outcome": "declarado como controversia",
+      "applied_at": "2026-09-04",
+      "decision_note": "DECISAO DE JULGAMENTO (achado branco, controverso). Instalada como declaracao LC-08 na aula 03, em PROSA com abertura \"Pergunta em aberto:\" - a convencao do curso fixada na revisao didatica do modulo 07 (o curso nao usa callout para controversia declarada; callout so para pedido de ilustracao). Declarada sem arbitrar: afirma-se que o ponto de retorno decrescente existe (isso e aceito no oficio) e declara-se em disputa ONDE ele fica. O erro comum correspondente foi realinhado de \"mais facetas sempre melhora tudo\" para a formulacao com limite."
+    },
+    {
+      "claim_id": "FAC-REN-NATIVO-001",
+      "severity": "white",
+      "kind": "controversia",
+      "new_claim": true,
+      "location": {
+        "file": "08-optica-do-facetado/08-optica-do-facetado-aula-04-brilho-contra-rendimento.md",
+        "section": "Vocabulario / Contorno / Erros comuns (3o marcador)",
+        "quote": "Confundir corte nativo com corte malfeito. O corte nativo e uma categoria legitima da literatura do oficio."
+      },
+      "problem": "A aula trata 'corte nativo' como categoria tecnica neutra e simetrica a 'corte de precisao' - e chega a dizer, corretamente na intencao, que confundi-lo com corte malfeito e erro comum. Mas o proprio termo e CONTESTADO: parte do comercio o usa de fato como sinonimo pejorativo de 'conjunto de defeitos de talhe resultantes de tentativa exagerada de maximizar peso', e parte o rejeita como designacao de origem carregada, preferindo 'corte de origem'. A aula nao registra que a disputa existe. E o mesmo achado de FAC-REN-CONTORNO-001 visto pelo outro lado: la o problema e a definicao incompleta, aqui e a ausencia da controversia que LC-08 exige.",
+      "replacement": "Uma frase, sem arbitrar: 'O proprio termo e disputado - parte do comercio o emprega como sinonimo de talhe deficiente, parte o rejeita como designacao de origem e prefere corte de origem; este curso o usa no sentido descritivo de metodo e origem.'",
+      "source": "https://www.ajsgem.com/articles/precision-cut-vs.-native-cut-gemstones.html ('o termo e frequentemente usado para se referir a uma serie de males de talhe') ; https://www.africagems.com/blog/what-is-a-native-cut-gemstone-a-collectors-guide-to-tradition-vs-precision/ (consultadas 2026-09-04)",
+      "confidence": "em disputa",
+      "affected_files": [
+        "08-optica-do-facetado/08-optica-do-facetado-aula-04-brilho-contra-rendimento.md"
+      ],
+      "outcome": "declarado como controversia",
+      "applied_at": "2026-09-04",
+      "decision_note": "DECISAO DE JULGAMENTO (achado branco, controverso). Instalada como segunda declaracao LC-08 do modulo, na aula 04, tambem em prosa, com abertura \"Ponto em aberto:\". DUAS controversias no modulo, e nao uma: o precedente dos modulos 06 e 07 (\"uma basta\") foi examinado e o criterio real daquelas decisoes era a GENUINIDADE, nao a contagem - a segunda candidata do modulo 07 foi descartada por ser decisao de eficiencia de oficina, nao divergencia sobre um fato, e portanto encenacao. As duas deste modulo passam nesse criterio: ambas sao divergencias reais e documentadas entre fontes do oficio e do comercio, cada uma no coracao do objetivo da sua aula, e a da aula 04 entra DENTRO da reescrita que FAC-REN-CONTORNO-001 ja exigia, a custo de tres linhas. O modulo entrou com zero declaracoes de controvérsia nas seis aulas e sai com duas, nas duas aulas onde havia disputa real."
+    }
+  ],
+  "verified_ok": [
+    "ANG-CRIT-FORM-001",
+    "ANG-NORM-INCID-001",
+    "ANG-RIT-PAV-001",
+    "ANG-LEQUE-MARG-001",
+    "TAB-LIMITE-RAY-001",
+    "TAB-EX-MARGEM-001",
+    "BRI-MEC-DISP-001",
+    "BRI-MEC-CINT-001",
+    "BRI-EX-ZIRCAO-001",
+    "FAC-REN-COMPR-001",
+    "FAC-REN-CULACA-001",
+    "FAC-REN-ELIPSE-001",
+    "FAC-REN-ASSIM-001",
+    "FAC-REN-VALOR-001",
+    "COR-CAMINHO-OPT-001",
+    "COR-PROF-ESCURO-001",
+    "COR-PROF-CLARO-001",
+    "COR-DUPLO-COMPR-001",
+    "COR-ZONA-ORDEM-001",
+    "COR-LEITURA-BRUTO-001",
+    "RAY-MODEL-MEDE-001",
+    "RAY-LIMITE-MAT-001",
+    "RAY-TAB-COMPLEM-001"
+  ],
+  "verified_ok_note": "23 claim_id passaram sem alteracao; a tabela do relatorio .md detalha 17 deles, os de maior risco. Destaques confirmados contra fonte: ANG-EX-QUARTZO-001 (o calculo - quartzo theta_c=40,49, pavilhao 35 janela, 43 corrige) reproduz o caso publicado pela USFG; FAC-REN-CULACA-001 e quase literal ao verbete Culet do dicionario da USFG; COR-CAMINHO-OPT-001/COR-PROF-ESCURO-001/COR-PROF-CLARO-001 - o ponto de atencao prioritario 2 - estao corretos em direcao e em fisica, com a USFG afirmando textualmente 'If you have dark rough ... keeping the stone shallow ... Use lower crown and/or pavilion angles' e 'if you're cutting clear or pale colored material ... Employ higher crown and pavilion angles'. TAB-EX-MARGEM-001 esta aritmeticamente correto e e justamente o que expoe a contradicao de TAB-BASE-FISICA-001. BRI-MEC-CINT-001 tem mecanismo correto mas atribuicao de fonte fraca (ver RAY-FONTE-USFG-001): o dicionario da USFG define scintillation sem exigir movimento; a definicao por movimento e a do GIA.",
+  "structural_checks": {
+    "claim_id_format": "As 35 alegacoes do modulo casam com ^[A-Z]{2,4}-[A-Z0-9]+-[A-Z0-9]+-[0-9]{3}$, todas com 4 segmentos. Nenhuma com 5 - o escorregao recorrente dos modulos 04 e 05 nao voltou. Os 6 identificadores criados por esta auditoria (TAB-ALVO-FAIXA-002, TAB-ALVO-FAIXA-003, RAY-EX-SAFIRA-001, RAY-FONTE-USFG-001, FAC-REN-NATIVO-001) tambem casam e foram verificados como livres.",
+    "claim_id_prefix_collision": "NENHUMA. Os primeiros segmentos ANG-, TAB-, BRI-, COR-, RAY- e FAC-REN- foram cruzados por regex contra todos os claim_id dos modulos 01-07 e do course-state.yaml. ANG e TAB aparecem em modulos anteriores apenas como SEGUNDO ou TERCEIRO segmento (AJU-BATENTE-ANG-001, AJU-CHEATER-ANG-002, SEQ-TAB-MARCOS-001), nunca como prefixo. FAC-REN- esta bem separado dos REN- do modulo 05 (REN-FORMULA-PESO-001, REN-FAIXA-TIP-001, REN-RECUT-PERDA-001, REN-ESTIM-PROC-001): a decisao deliberada do redator funcionou.",
+    "exemplar_divergence": "_contexto.md e _curso.md dao FAC-ANG-CRIT-001 como exemplo canonico de claim_id para exatamente este assunto; o redator usou o prefixo ANG-. Nao e colisao nem erro factual e o formato esta correto - registrado para decisao consciente. Assunto do validador-estrutural-do-curso."
+  },
+  "derived_material": "NENHUM material derivado a propagar. O modulo 08 nao tinha questionario quando a auditoria e a correcao rodaram - efeito pretendido do gate - e nao tera baralho de flashcards, dispensado neste curso a partir do modulo 06. Buscas por angulo-alvo, angulo critico, janelamento, extincao, corte nativo, GemCad e GemRay nos modulos 01-07 nao encontraram repeticao dos fatos incorretos fora do modulo 08, o que se mantem valido apos a correcao.",
+  "forwarded_to_didactic_review": "A AULA 02 E A PRIORIDADE: tres dos quatro vermelhos estavam nela e a correcao de TAB-BASE-FISICA-001 mudou a LINHA ARGUMENTATIVA inteira da secao de base fisica - ela agora sustenta um piso que desce contra um teto que nao desce, e o exemplo trabalhado passou a CONFIRMAR a teoria em vez de refuta-la. Reavaliar a coerencia didatica da aula inteira, nao so os trechos tocados; a aula perdeu 23 palavras liquidas mas trocou boa parte do corpo. SEGUNDO PONTO: a aula 02 mantem o titulo \"Angulos-alvo por faixa de indice de refracao\" e o objetivo oa02 fala em \"tabela por faixa\", enquanto a licao central passou a ser que os valores sao publicados POR MATERIAL e que a faixa so organiza a leitura. A entrada de vocabulario foi ajustada para dizer isso, mas titulo e objetivo nao foram tocados (objetivo de aprendizagem nao e alterado por auditoria) - avaliar se ha desalinhamento didatico entre o que o titulo promete e o que a aula entrega. TERCEIRO: LC-08 saiu de zero para DUAS declaracoes (a03 e a04), ambas em prosa, na convencao fixada pelo modulo 07. Julgar se duas e o numero certo para um modulo de seis aulas. QUARTO: as seis aulas foram enxugadas para financiar as correcoes - conferir corte a corte se algum removeu CONTEUDO em vez de repeticao, especialmente na a04 (que perdeu ~60 palavras liquidas depois de ganhar tres blocos novos) e na a06 (~283 palavras cortadas). QUINTO: conferir TITULOS DE SECAO contra o corpo reescrito - e a terceira vez que este curso pega titulo desatualizado por auditoria (modulos 04, 06 e 07, sempre na a02). Nesta correcao o titulo da secao de base fisica da a02 JA foi trocado (\"A base fisica: um piso que desce e um teto que nao desce\", antes \"por que indice mais alto tolera pavilhao mais raso\", que afirmava justamente o que o achado derrubou), mas o titulo \"A tabela - valores de referencia por faixa\" merece segunda olhada.",
+  "palavras_corpo_pre_auditoria": {
+    "a01": 1589,
+    "a02": 1566,
+    "a03": 1597,
+    "a04": 1615,
+    "a05": 1612,
+    "a06": 1624
+  },
+  "palavras_corpo_pos_auditoria": {
+    "a01": 1576,
+    "a02": 1543,
+    "a03": 1592,
+    "a04": 1605,
+    "a05": 1599,
+    "a06": 1602
+  },
+  "corrected": [
+    "TAB-ALVO-FAIXA-001",
+    "TAB-ALVO-FAIXA-002",
+    "TAB-ALVO-FAIXA-003",
+    "TAB-BASE-FISICA-001",
+    "TAB-DIAM-EXCE-001",
+    "TAB-EX-MARGEM-001",
+    "RAY-LIMITE-COR-001",
+    "RAY-FERR-GEMCAD-001",
+    "RAY-LIMITE-PERCEP-001",
+    "ANG-EXTIN-CAUSA-001",
+    "ANG-EX-QUARTZO-001",
+    "FAC-REN-PROF-001",
+    "FAC-REN-CONTORNO-001",
+    "FAC-REN-NATIVO-001",
+    "FAC-REN-ASSIM-001",
+    "FAC-REN-ELIPSE-001",
+    "BRI-MEC-BRILHO-001",
+    "BRI-PROJ-COMPR-001",
+    "COR-ZONA-ORDEM-001"
+  ],
+  "new_claim_ids": [
+    "TAB-ALVO-FAIXA-002",
+    "TAB-ALVO-FAIXA-003",
+    "FAC-REN-NATIVO-001"
+  ],
+  "removed_claim_ids": [],
+  "renamed_claim_ids": {},
+  "open_findings": [],
+  "summary_note": "ETAPA 3 (correcao) executada em 2026-09-04 sobre o relatorio de auditoria do mesmo dia. Os 16 achados estao fechados: 12 por correcao direta (4 vermelhos + 8 laranjas, todos com o fato certo confirmado por fonte no relatorio), 2 por decisao de julgamento nos azuis (RAY-FONTE-USFG-001 reatribuido, ANG-EX-QUARTZO-001 requalificado) e 2 por declaracao de controversia nos brancos (BRI-PROJ-COMPR-001 na aula 03, FAC-REN-NATIVO-001 na aula 04), que instalam os PRIMEIROS LC-08 do modulo - ele entrou com zero declaracoes de controversia nas seis aulas. O campo decision_note de cada um dos quatro registra a decisao e o porque. A aula 02 foi a mais alterada: tabela de seis faixas substituida por tabela de angulo critico CALCULADO mais pavilhao publicado POR MATERIAL (IGS), com o conjunto da USFG para IR 1,54 declarado a parte, secao de base fisica reescrita como piso-que-desce contra teto-que-nao-desce, e exemplo trabalhado refeito sobre os valores publicados. As seis aulas entraram e sairam sob o teto de LC-02: 1589/1566/1597/1615/1612/1624 antes, 1576/1543/1592/1605/1599/1602 depois - cada acrescimo financiado por corte de redundancia da propria aula, o mesmo metodo dos modulos 04 a 07. Formato de claim_id conferido por regex apos as correcoes: 38 alegacoes (35 herdadas + 3 criadas), TODAS com 4 segmentos, sem duplicata interna e sem colisao com os modulos 01-07.",
+  "gate": {
+    "blocked": [],
+    "reason": "Nenhum achado vermelho ou laranja em aberto: os 12 foram corrigidos e os 4 achados de julgamento (2 azuis, 2 brancos) foram fechados com decisao registrada. O gate do curso esta LIBERADO para este modulo. Pipeline dos modulos 06+: aulas -> auditoria -> correcao (concluida) -> REVISAO DIDATICA -> questionario(s). O questionario NAO deve ser gerado antes da revisao didatica.",
+    "flashcards": "skipped - dispensados neste curso a partir do modulo 06 (decisao do usuario de 2026-09-04)"
+  },
+  "corrected_at": "2026-09-04",
+  "propagacao_nao_prevista": "Tres alegacoes que a auditoria havia APROVADO foram tocadas por propagacao das correcoes, e o registro fica aqui para que a revisao didatica saiba. (1) TAB-EX-MARGEM-001 (aula 02): a aritmetica estava certa, mas partia dos valores-alvo incorretos da tabela antiga (42,5 e 39, margens 2,0 e 4,6). Com os valores publicados do IGS o exemplo virou quartzo 42 contra corindon 42 - alvos IDENTICOS com criticos separados por 6,1 graus, margens de 1,5 e 7,6. A conclusao do exemplo nao mudou; ficou mais forte, e agora CONFIRMA a secao de base fisica em vez de refuta-la. (2) RAY-LIMITE-PERCEP-001 (aula 06): a lacuna era apoiada no caracter ESTATICO da metrica (\"fotografia congelada\"), argumento que a auditoria enfraqueceu ao documentar que o GemRay gera animacoes de basculamento; a lacuna foi REALOCADA para a agregacao estetica (a metrica reduz a um numero uma ordenacao de gosto entre brilho, fogo e cintilacao), que se sustenta. (3) FAC-REN-ASSIM-001 (aula 04): dependia da premissa derrubada por FAC-REN-PROF-001 - listava \"pavilhao mais raso\" como erro CONSERVADOR, quando o pavilhao raso e justamente a manobra AGRESSIVA de rendimento. Os exemplos dos dois lados da assimetria foram trocados; a assimetria em si (excesso de rendimento tem penalidade potencial maior) permanece valida. COR-ZONA-ORDEM-001 (aula 05) tambem foi reforcada, com o limite correto do modelo de cor.",
+  "claim_id_exemplar_decision": "DECISAO: MANTER o prefixo ANG- da aula 01; NAO renomear para FAC-ANG-. O _contexto.md e o _curso.md dao FAC-ANG-CRIT-001 numa lista de CINCO exemplos de FORMATO (ao lado de CAB-DOM-CURV-001, ABR-GRAO-SEQ-001, DOP-TRAN-RISK-001, TRT-EST-RESIN-001), nao num registro de identificadores atribuidos - nenhum dos cinco existe como claim_id em aula nenhuma do curso. Tres razoes para manter. (1) A renomeacao QUEBRARIA a regra dura de 4 segmentos em quatro dos seis identificadores: ANG-EXTIN-CAUSA-001 viraria FAC-ANG-EXTIN-CAUSA-001, com CINCO segmentos - exatamente o escorregao dos modulos 04 e 05 que este modulo evitou. Preservar os 4 segmentos exigiria colapsar um segmento de cada um, isto e, reinventar os seis identificadores com perda de informacao no nome. (2) NAO ha colisao nem ambiguidade: ANG- foi cruzado por regex contra todos os claim_id dos modulos 01-07 e nao aparece como primeiro segmento em nenhum. (3) O redator ja demonstrou usar o prefixo composto onde ele resolve um problema real - FAC-REN- na aula 04, deliberadamente, para nao colidir com os REN- do modulo 05. Onde nao ha colisao, o prefixo simples e o mais legivel. A divergencia fica REGISTRADA como aceitavel, e nao como pendencia: o formato esta correto, a unicidade esta garantida, e os identificadores ja estao citados no relatorio de auditoria, neste manifesto e no course-state.yaml - renomea-los criaria trabalho de reconciliacao em tres arquivos em troca de conformidade com um exemplo que nunca foi normativo."
+}

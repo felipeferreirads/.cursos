@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "26-quimica-geociencias",
+    "module_id": "26",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-19",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 0,
+    "yellow": 0,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 23
+  },
+  "findings": [],
+  "verified_claims": [
+    {
+      "claim_id": "GEO-M26-A01-CONSERVACAO-MASSA-001",
+      "claim": "A lei da conservação da massa (Lavoisier) estabelece que a massa total dos reagentes é igual à massa total dos produtos numa reação química comum (não nuclear).",
+      "source": "química geral básica; história da química (Lavoisier, século XVIII)",
+      "confidence": "confirmado",
+      "affected_files": ["26-quimica-geociencias-aula-01-reacao-quimica-conservacao-da-massa.md"]
+    },
+    {
+      "claim_id": "GEO-M26-A01-FELDSPATO-CAULINITA-002",
+      "claim": "O feldspato potássico (ortoclásio, KAlSi3O8) reage com água acidificada por H+ produzindo caulinita, sílica dissolvida e íons K+, num processo de intemperismo químico (hidrólise).",
+      "source": "Krauskopf & Bird, Introduction to Geochemistry; Faure, Principles and Applications of Geochemistry",
+      "confidence": "confirmado",
+      "affected_files": ["26-quimica-geociencias-aula-01-reacao-quimica-conservacao-da-massa.md"]
+    },
+    {
+      "claim_id": "GEO-M26-A01-PIRITA-DAM-003",
+      "claim": "A oxidação da pirita na presença de oxigênio e água produz óxido de ferro e ácido sulfúrico, processo associado à drenagem ácida de mina.",
+      "source": "AMD Basics (amrclearinghouse.org); literatura consolidada de geoquímica ambiental de AMD/DAM",
+      "confidence": "confirmado",
+      "affected_files": [
+        "26-quimica-geociencias-aula-01-reacao-quimica-conservacao-da-massa.md",
+        "26-quimica-geociencias-aula-02-mol-massa-molar-estequiometria.md",
+        "26-quimica-geociencias-aula-05-oxirreducao-ferro-enxofre.md"
+      ]
+    },
+    {
+      "claim_id": "GEO-M26-A01-FERRUGEM-BALANCEAMENTO-004",
+      "claim": "A equação balanceada da formação de hematita a partir de ferro metálico e oxigênio é 4 Fe + 3 O2 -> 2 Fe2O3.",
+      "source": "estequiometria básica, verificada por contagem direta de átomos",
+      "confidence": "confirmado",
+      "affected_files": ["26-quimica-geociencias-aula-01-reacao-quimica-conservacao-da-massa.md"]
+    },
+    {
+      "claim_id": "GEO-M26-A02-MOL-AVOGADRO-001",
+      "claim": "Um mol corresponde a aproximadamente 6,02 x 10^23 partículas (número de Avogadro).",
+      "source": "química geral básica (constante de Avogadro, CODATA)",
+      "confidence": "confirmado",
+      "affected_files": ["26-quimica-geociencias-aula-02-mol-massa-molar-estequiometria.md"]
+    },
+    {
+      "claim_id": "GEO-M26-A02-MASSA-MOLAR-PIRITA-002",
+      "claim": "A massa molar da pirita (FeS2) é aproximadamente 120 g/mol.",
+      "source": "massas atômicas da tabela periódica (IUPAC)",
+      "confidence": "confirmado",
+      "affected_files": ["26-quimica-geociencias-aula-02-mol-massa-molar-estequiometria.md"]
+    },
+    {
+      "claim_id": "GEO-M26-A02-MASSA-MOLAR-H2SO4-003",
+      "claim": "A massa molar do ácido sulfúrico (H2SO4) é aproximadamente 98 g/mol.",
+      "source": "massas atômicas da tabela periódica (IUPAC)",
+      "confidence": "confirmado",
+      "affected_files": ["26-quimica-geociencias-aula-02-mol-massa-molar-estequiometria.md"]
+    },
+    {
+      "claim_id": "GEO-M26-A02-REAGENTE-LIMITANTE-DAM-004",
+      "claim": "Cobrir rejeitos de mineração sulfetada com água ou solo, restringindo o acesso ao oxigênio, é uma estratégia real de mitigação de drenagem ácida de mina, tornando o oxigênio o reagente limitante da oxidação da pirita.",
+      "source": "literatura de geoquímica ambiental e engenharia de minas sobre controle de drenagem ácida (AMD/DAM)",
+      "confidence": "confirmado",
+      "affected_files": ["26-quimica-geociencias-aula-02-mol-massa-molar-estequiometria.md"]
+    },
+    {
+      "claim_id": "GEO-M26-A02-CALCULO-ESTEQUIOMETRICO-005",
+      "claim": "A partir da equação balanceada 4 FeS2 + 15 O2 + 8 H2O -> 2 Fe2O3 + 8 H2SO4, 100 kg de pirita produzem, em condições de reagentes O2/H2O em excesso, da ordem de 160 kg de H2SO4.",
+      "source": "cálculo estequiométrico refeito de forma independente a partir da equação balanceada e das massas molares",
+      "confidence": "confirmado",
+      "affected_files": ["26-quimica-geociencias-aula-02-mol-massa-molar-estequiometria.md"]
+    },
+    {
+      "claim_id": "GEO-M26-A03-PH-DEFINICAO-001",
+      "claim": "pH é definido como o logaritmo negativo (base 10) da concentração molar de íons H+ em solução: pH = -log10[H+].",
+      "source": "química geral básica (definição de Sørensen)",
+      "confidence": "confirmado",
+      "affected_files": ["26-quimica-geociencias-aula-03-solucoes-concentracao-ph.md"]
+    },
+    {
+      "claim_id": "GEO-M26-A03-PH-LOGARITMICO-002",
+      "claim": "A escala de pH é logarítmica: cada unidade de diferença de pH corresponde a uma mudança de 10 vezes na concentração de H+.",
+      "source": "química geral básica",
+      "confidence": "confirmado",
+      "affected_files": ["26-quimica-geociencias-aula-03-solucoes-concentracao-ph.md"]
+    },
+    {
+      "claim_id": "GEO-M26-A03-CHUVA-PH-NATURAL-003",
+      "claim": "A água da chuva não poluída tem pH naturalmente ácido, próximo de 5,6, por dissolver CO2 atmosférico e formar ácido carbônico.",
+      "source": "EPA (What is Acid Rain); IERE; química atmosférica consolidada (faixa citada 5,0-5,6)",
+      "confidence": "confirmado",
+      "affected_files": ["26-quimica-geociencias-aula-03-solucoes-concentracao-ph.md"]
+    },
+    {
+      "claim_id": "GEO-M26-A03-DAM-PH-004",
+      "claim": "A drenagem ácida de mina, associada à oxidação de sulfetos como a pirita, pode atingir valores de pH abaixo de 3.",
+      "source": "literatura consolidada de geoquímica ambiental de drenagem ácida de mina (AMD/DAM)",
+      "confidence": "confirmado",
+      "affected_files": ["26-quimica-geociencias-aula-03-solucoes-concentracao-ph.md"]
+    },
+    {
+      "claim_id": "GEO-M26-A03-PPM-PORCENTAGEM-005",
+      "claim": "1% em massa equivale a 10.000 ppm.",
+      "source": "definição matemática direta de ppm (partes por milhão)",
+      "confidence": "confirmado",
+      "affected_files": ["26-quimica-geociencias-aula-03-solucoes-concentracao-ph.md"]
+    },
+    {
+      "claim_id": "GEO-M26-A04-EQUILIBRIO-DEFINICAO-001",
+      "claim": "Equilíbrio químico é o estado de uma reação reversível em que as velocidades das reações direta e inversa se igualam, mantendo constantes as concentrações observáveis de reagentes e produtos.",
+      "source": "química geral básica",
+      "confidence": "confirmado",
+      "affected_files": ["26-quimica-geociencias-aula-04-equilibrio-quimico-solubilidade.md"]
+    },
+    {
+      "claim_id": "GEO-M26-A04-LE-CHATELIER-002",
+      "claim": "O princípio de Le Chatelier estabelece que um sistema em equilíbrio, ao sofrer uma perturbação, se desloca no sentido que tende a reduzir o efeito dessa perturbação.",
+      "source": "química geral básica (princípio de Le Chatelier)",
+      "confidence": "confirmado",
+      "affected_files": ["26-quimica-geociencias-aula-04-equilibrio-quimico-solubilidade.md"]
+    },
+    {
+      "claim_id": "GEO-M26-A04-SISTEMA-CARBONATO-003",
+      "claim": "O sistema carbonato controla a dissolução e a precipitação de calcita e é o mecanismo químico por trás da formação de cavernas cársticas e espeleotemas.",
+      "source": "Faure, Principles and Applications of Geochemistry; Krauskopf & Bird, Introduction to Geochemistry; literatura de espeleologia cárstica",
+      "confidence": "confirmado",
+      "affected_files": ["26-quimica-geociencias-aula-04-equilibrio-quimico-solubilidade.md"]
+    },
+    {
+      "claim_id": "GEO-M26-A04-DOLOMITA-CINETICA-004",
+      "claim": "A dolomita segue o mesmo tipo geral de equilíbrio carbonato-solubilidade que a calcita, mas com cinética de dissolução e solubilidade diferentes.",
+      "source": "geoquímica de carbonatos consolidada",
+      "confidence": "confirmado",
+      "affected_files": ["26-quimica-geociencias-aula-04-equilibrio-quimico-solubilidade.md"]
+    },
+    {
+      "claim_id": "GEO-M26-A05-OXIDACAO-REDUCAO-001",
+      "claim": "Oxidação é a perda de elétrons por um átomo; redução é o ganho de elétrons; as duas ocorrem sempre em conjunto numa reação de oxirredução.",
+      "source": "química geral básica",
+      "confidence": "confirmado",
+      "affected_files": ["26-quimica-geociencias-aula-05-oxirreducao-ferro-enxofre.md"]
+    },
+    {
+      "claim_id": "GEO-M26-A05-HEMATITA-FE3-002",
+      "claim": "Na hematita (Fe2O3), o ferro está no estado de oxidação +3.",
+      "source": "cálculo direto de estado de oxidação a partir da fórmula (O = -2) e mineralogia descritiva",
+      "confidence": "confirmado",
+      "affected_files": ["26-quimica-geociencias-aula-05-oxirreducao-ferro-enxofre.md"]
+    },
+    {
+      "claim_id": "GEO-M26-A05-MAGNETITA-FE2-FE3-003",
+      "claim": "Na magnetita (Fe3O4), o ferro ocorre em dois estados de oxidação simultâneos, Fe2+ e Fe3+, numa proporção de 1:2 (estrutura de espinélio inverso).",
+      "source": "Klein & Dutrow, Manual of Mineral Science; confirmado por busca (inverse spinel structure, one Fe2+ and two Fe3+ per formula unit)",
+      "confidence": "confirmado",
+      "affected_files": ["26-quimica-geociencias-aula-05-oxirreducao-ferro-enxofre.md"]
+    },
+    {
+      "claim_id": "GEO-M26-A05-LATERITA-004",
+      "claim": "A laterita é um solo/rocha residual rico em óxidos e hidróxidos de ferro e alumínio, formado por intemperismo químico intenso em clima tropical úmido.",
+      "source": "Krauskopf & Bird, Introduction to Geochemistry; geologia econômica de depósitos residuais/lateríticos",
+      "confidence": "confirmado",
+      "affected_files": ["26-quimica-geociencias-aula-05-oxirreducao-ferro-enxofre.md"]
+    },
+    {
+      "claim_id": "GEO-M26-A05-PIRITA-ESTADOS-OXIDACAO-005",
+      "claim": "Na oxidação da pirita a hematita e ácido sulfúrico, o ferro passa de +2 para +3 e o enxofre passa de -1 (par S-S da pirita) para +6 (sulfato), com o oxigênio do O2 passando de 0 para -2, caracterizando o O2 como agente oxidante e a pirita como agente redutor.",
+      "source": "cálculo direto de estados de oxidação a partir da equação balanceada da aula 01, convenção padrão para o par dissulfeto S2(2-)",
+      "confidence": "confirmado",
+      "affected_files": ["26-quimica-geociencias-aula-05-oxirreducao-ferro-enxofre.md"]
+    }
+  ],
+  "internal_consistency_checks": [
+    "Equação da oxidação da pirita idêntica nas aulas 01, 02 e 05 (4 FeS2 + 15 O2 + 8 H2O -> 2 Fe2O3 + 8 H2SO4).",
+    "Massas molares de FeS2 (120 g/mol) e H2SO4 (98 g/mol) consistentes entre aulas 02 e 05.",
+    "Valores de pH e fatores de acidez (cem vezes / mil vezes) consistentes entre a introdução e o exemplo trabalhado da aula 03.",
+    "Nenhuma redefinição divergente de vocabulário já fixado pelas pontes do Módulo 04 (átomo, elétron, ligação química)."
+  ],
+  "notes": [
+    "A equação de oxidação da pirita usada é a equação global balanceada (net reaction) consolidada em fontes de AMD/DAM, não o mecanismo real em etapas; prática padrão em ensino introdutório, não constitui erro."
+  ]
+}

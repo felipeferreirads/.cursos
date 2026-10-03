@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "24-geologia-planetaria/",
+    "module_id": "24",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-18T00:00:00-03:00",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 0,
+    "yellow": 0,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 15
+  },
+  "findings": [],
+  "verified_claims": [
+    {"claim_id": "GEO-M24-A01-NEBULAR-001", "file": "24-geologia-planetaria/24-geologia-planetaria-aula-01-formacao-do-sistema-solar-diferenciacao.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M24-A01-LINHA-GELO-002", "file": "24-geologia-planetaria/24-geologia-planetaria-aula-01-formacao-do-sistema-solar-diferenciacao.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M24-A01-DIFERENCIACAO-003", "file": "24-geologia-planetaria/24-geologia-planetaria-aula-01-formacao-do-sistema-solar-diferenciacao.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M24-A01-LHB-004", "file": "24-geologia-planetaria/24-geologia-planetaria-aula-01-formacao-do-sistema-solar-diferenciacao.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M24-A02-CONDRITO-001", "file": "24-geologia-planetaria/24-geologia-planetaria-aula-02-meteoritos-classificacao-e-origem.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M24-A02-ACONDRITO-METALICO-002", "file": "24-geologia-planetaria/24-geologia-planetaria-aula-02-meteoritos-classificacao-e-origem.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M24-A03-ESCAVACAO-001", "file": "24-geologia-planetaria/24-geologia-planetaria-aula-03-cratereamento-por-impacto.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M24-A03-SIMPLES-COMPLEXA-002", "file": "24-geologia-planetaria/24-geologia-planetaria-aula-03-cratereamento-por-impacto.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M24-A03-CONTAGEM-CRATERAS-003", "file": "24-geologia-planetaria/24-geologia-planetaria-aula-03-cratereamento-por-impacto.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M24-A04-RAZAO-SUP-VOL-001", "file": "24-geologia-planetaria/24-geologia-planetaria-aula-04-corpos-rochosos-e-luas-ativas.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M24-A04-VENUS-ESTAGNANTE-002", "file": "24-geologia-planetaria/24-geologia-planetaria-aula-04-corpos-rochosos-e-luas-ativas.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M24-A04-AQUECIMENTO-MARE-003", "file": "24-geologia-planetaria/24-geologia-planetaria-aula-04-corpos-rochosos-e-luas-ativas.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M24-A05-HABITABILIDADE-001", "file": "24-geologia-planetaria/24-geologia-planetaria-aula-05-astrobiologia.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M24-A05-BIOMARCADOR-002", "file": "24-geologia-planetaria/24-geologia-planetaria-aula-05-astrobiologia.md", "confidence": "confirmado"},
+    {"claim_id": "GEO-M24-A05-JEZERO-003", "file": "24-geologia-planetaria/24-geologia-planetaria-aula-05-astrobiologia.md", "confidence": "confirmado"}
+  ]
+}

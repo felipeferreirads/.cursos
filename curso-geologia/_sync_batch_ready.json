@@ -1,0 +1,1600 @@
+{
+  "timestamp": "2026-08-20T00:35:25.453425",
+  "total_files": 120,
+  "files_by_module": {
+    "1": [
+      {
+        "file": "01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-01-o-que-e-geologia.md",
+        "page_id": "3a7e3d3930968106b2d0ecd1167a955c",
+        "current_hash": "fd229c222da6bd07a3a46dd48539e5f055e310c8a34870b38d26cfcb488da4fe",
+        "state_index": 14,
+        "status": "pending"
+      },
+      {
+        "file": "01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-03-principios-que-ordenam-as-rochas.md",
+        "page_id": "3a7e3d39309681f58a6ef697e3d0c803",
+        "current_hash": "92a12191fa29af77c8e3543399ad4748fa21225325b7ea21a43fc79606f4801a",
+        "state_index": 16,
+        "status": "pending"
+      },
+      {
+        "file": "01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-04-como-a-terra-se-formou.md",
+        "page_id": "3a7e3d3930968100b576f9bef5cba042",
+        "current_hash": "dc52451a1b45a10a8fadeb3fef730b105c7d0d859cda9f5e07fc3cf36a5363dc",
+        "state_index": 17,
+        "status": "pending"
+      },
+      {
+        "file": "01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-05-camadas-quimica-e-mecanica.md",
+        "page_id": "3bfe3d393096810c9a55ea4301e8eb39",
+        "current_hash": "8e91e6cc56f8db9a2729d133228cccfe51386f5a13ca95b14f4044556876f09d",
+        "state_index": 18,
+        "status": "pending"
+      },
+      {
+        "file": "01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-06-esferas-ciclo-e-tempo-profundo.md",
+        "page_id": "3bfe3d393096819c8f73df85c8995f14",
+        "current_hash": "a0b63a424bf9ecefd71b4183bd4d473c2b784a6f4b74fd39853561f676bebe92",
+        "state_index": 19,
+        "status": "pending"
+      },
+      {
+        "file": "01-fundamentos-e-metodo/01-fundamentos-e-metodo-flashcards.md",
+        "page_id": "3a7e3d393096814bb10cd1c7c9d5d6fa",
+        "current_hash": "e5bcfddb34292fb4307f6942b5e66170a92cde6e0b3cb7b92651d10c604fe505",
+        "state_index": 20,
+        "status": "pending"
+      },
+      {
+        "file": "01-fundamentos-e-metodo/01-fundamentos-e-metodo-modulo.md",
+        "page_id": "3a7e3d3930968172b79eefbafddc6cff",
+        "current_hash": "1814c4a700cf8b69b21b3bba651b9b416eaf1a82189e2abcc458589053c1327e",
+        "state_index": 21,
+        "status": "pending"
+      },
+      {
+        "file": "01-fundamentos-e-metodo/01-fundamentos-e-metodo-questionario-final.md",
+        "page_id": "3a7e3d39309681d8a933dafd2a746161",
+        "current_hash": "a06664a6f8a798d4a366612a870e018354bd880c3a5cbd77775edd1b324909ce",
+        "state_index": 22,
+        "status": "pending"
+      }
+    ],
+    "2": [
+      {
+        "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-01-ponte-o-que-e-uma-onda.md",
+        "page_id": "3bfe3d39309681c29714f88232851587",
+        "current_hash": "810a2b635346c08e4efc369f46489a789e7808a1c330e5ac5633d56bee964322",
+        "state_index": 24,
+        "status": "pending"
+      },
+      {
+        "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-02-ondas-sismicas.md",
+        "page_id": "3bfe3d3930968129ba52ffb5fa05c78f",
+        "current_hash": "c55269e179062b4706c98035615f7d844324cd2e42cd134827c80b13e61c526f",
+        "state_index": 25,
+        "status": "pending"
+      },
+      {
+        "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-03-a-sombra-do-nucleo.md",
+        "page_id": "3bfe3d39309681e28330d49490a5e5c6",
+        "current_hash": "b62fee9fc4dc758e5dd6953778470177218edbc68d99192c74e48960dfe1805c",
+        "state_index": 26,
+        "status": "pending"
+      },
+      {
+        "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-04-modelo-em-camadas.md",
+        "page_id": "3bfe3d39309681e08ee7f19984c30566",
+        "current_hash": "d3d4258bd020b419ec9d4b5e9f124cca4a2aeaff9194896f9fff7970829b1848",
+        "state_index": 27,
+        "status": "pending"
+      },
+      {
+        "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-05-litosfera-e-astenosfera.md",
+        "page_id": "3bfe3d393096810ea50af3dcdc21cb49",
+        "current_hash": "bfe13dd814860277ed540362cddb35d4e1ea726015b381942f0f0a6fd9d7db8f",
+        "state_index": 28,
+        "status": "pending"
+      },
+      {
+        "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-06-wegener-e-a-deriva.md",
+        "page_id": "3bfe3d39309681b5a8c2dc401f16ff39",
+        "current_hash": "2b048c90b2e3edb3eb5e4d9e1e01df91feb1277123d762c1523055cb04fff52e",
+        "state_index": 29,
+        "status": "pending"
+      },
+      {
+        "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-07-provas-do-fundo-do-mar.md",
+        "page_id": "3bfe3d39309681b9a01efcdc0242e220",
+        "current_hash": "6b8bd7961cdab84676e28e0935d8a428464e023ad768b9682c1efff745b339dc",
+        "state_index": 30,
+        "status": "pending"
+      },
+      {
+        "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-08-limites-divergentes-e-transformantes.md",
+        "page_id": "3bfe3d39309681acb5b2ec7a6d377835",
+        "current_hash": "ed8b0506169c0df97a0ca3a0936acb6fd931370218d8582ece2c0129ee261bba",
+        "state_index": 31,
+        "status": "pending"
+      },
+      {
+        "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-09-limites-convergentes-e-o-motor.md",
+        "page_id": "3bfe3d393096810298a4c77a498be0c0",
+        "current_hash": "1a6f85c6824473efa7c7da08b36d619cb3d655f1b80698d2b8df44f5a22f4b56",
+        "state_index": 32,
+        "status": "pending"
+      },
+      {
+        "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-flashcards.md",
+        "page_id": "3bfe3d3930968105bae4c12cdeb28a8e",
+        "current_hash": "4b33f74e97683ef448be4e694903204da37d80f4a8ba43d6bb8b0fe86c46847a",
+        "state_index": 33,
+        "status": "pending"
+      },
+      {
+        "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-modulo.md",
+        "page_id": "3a7e3d39309681179b99c1011402007a",
+        "current_hash": "d1777df40b971c15b0faebf0d21c23279203a9e90e4648b7bf4f6653f19de7b0",
+        "state_index": 34,
+        "status": "pending"
+      },
+      {
+        "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-questionario-final.md",
+        "page_id": "3bfe3d393096810b943fe3d169ac91b7",
+        "current_hash": "a98c0b288dedbcc7a956e7c29579da70d85eea67f871db6855a9eb0eef7af432",
+        "state_index": 35,
+        "status": "pending"
+      }
+    ],
+    "3": [
+      {
+        "file": "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-01-datacao-relativa.md",
+        "page_id": "3bfe3d39309681a5942ad8cd2c2abb3c",
+        "current_hash": "cd272dba38866269e0e5b766edea20671377e5828b6bb1cdd1cf13e44ddfb35f",
+        "state_index": 37,
+        "status": "pending"
+      },
+      {
+        "file": "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-02-discordancias.md",
+        "page_id": "3bfe3d39309681bda635d1f535b4517e",
+        "current_hash": "fcdc696fde653958fb4e0355d0be8d377d3bea0d4a0c7a71055301e4b93736ac",
+        "state_index": 38,
+        "status": "pending"
+      },
+      {
+        "file": "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-03-ponte-atomos-e-isotopos.md",
+        "page_id": "3bfe3d39309681138e4fd19387833649",
+        "current_hash": "1cc5e2f74526f6a6af9e896f55ec5ad1fc7b9aad4f80b4fff90af33188ea730c",
+        "state_index": 39,
+        "status": "pending"
+      },
+      {
+        "file": "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-04-meia-vida.md",
+        "page_id": "3bfe3d3930968138a3fcc6198645bd38",
+        "current_hash": "1db674a5a42d85f5a2ecc0668877dcd66ad0011eb62eca82be8f2d96555aa513",
+        "state_index": 40,
+        "status": "pending"
+      },
+      {
+        "file": "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-05-datacao-na-pratica.md",
+        "page_id": "3bfe3d393096818690aaff7cff5dd4a2",
+        "current_hash": "87427c817884ff46c9b97e280c39e1abfdbc75b38e4385a660794eb708d7e11b",
+        "state_index": 41,
+        "status": "pending"
+      },
+      {
+        "file": "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-06-escala-do-tempo-e-gssp.md",
+        "page_id": "3bfe3d393096814a9863fdf1e8cb2785",
+        "current_hash": "a3c9d155e8f285dc39e9c23c70a8ff2a52514fbc53b26a8d4bd08a507194d75e",
+        "state_index": 42,
+        "status": "pending"
+      },
+      {
+        "file": "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-07-tempo-rocha-e-magnitude.md",
+        "page_id": "3bfe3d393096815f85e4e07329251957",
+        "current_hash": "2d199203c36701567e96f50b964223917a8e1765f59905b20ca7e5275bf5346e",
+        "state_index": 43,
+        "status": "pending"
+      },
+      {
+        "file": "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-flashcards.md",
+        "page_id": "3bfe3d39309681668facc2bd8958bda6",
+        "current_hash": "a665ad26f8f5c176c0236226358e05a85e3c7702fd8498c1fc7365d7cd9863ea",
+        "state_index": 44,
+        "status": "pending"
+      },
+      {
+        "file": "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-modulo.md",
+        "page_id": "3a7e3d3930968154abb8fcddd8f1aa80",
+        "current_hash": "8e58f7831b74f806e51447781aa2a70a8ac55613cf892c21595dfb12e4908db3",
+        "state_index": 45,
+        "status": "pending"
+      },
+      {
+        "file": "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-questionario-final.md",
+        "page_id": "3bfe3d3930968121bbe7c3a3316f1e9a",
+        "current_hash": "8b72a16ee243a4388e198cddc093519bdc84a394ad40262357847cba8bf1196e",
+        "state_index": 46,
+        "status": "pending"
+      }
+    ],
+    "4": [
+      {
+        "file": "04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-01-ponte-atomo-eletrons-tabela-periodica.md",
+        "page_id": "3bfe3d3930968109a167dd917841a7b7",
+        "current_hash": "4add437b8a35bd7de2ba5d542ca3cc11a589fbd2115db92e0db1a13d62b56de5",
+        "state_index": 48,
+        "status": "pending"
+      },
+      {
+        "file": "04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-02-ponte-ligacao-quimica.md",
+        "page_id": "3bfe3d3930968129bfc2ddb97b23d174",
+        "current_hash": "b1e1ca7b70ba154972de4c2ab2de12a2f5f7dfef1b1e393b12051a0d84891c6f",
+        "state_index": 49,
+        "status": "pending"
+      },
+      {
+        "file": "04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-03-definicao-de-mineral.md",
+        "page_id": "3bfe3d3930968173a42ae4796f5c836b",
+        "current_hash": "f641822b79ecefcc7fb8c9fddb1f44ca0e323cce9ec9d0d632d6bbdad5dc6af7",
+        "state_index": 50,
+        "status": "pending"
+      },
+      {
+        "file": "04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-04-simetria-em-cristais.md",
+        "page_id": "3bfe3d3930968107abcecbe1155c7f61",
+        "current_hash": "64a3f0ca5c51cd11a88fc8b166fc28c92a7e4cbd858fc32e964e8d0e57f5e79d",
+        "state_index": 51,
+        "status": "pending"
+      },
+      {
+        "file": "04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-05-sistemas-cristalinos.md",
+        "page_id": "3bfe3d39309681bdb6f4d379c9a3ca32",
+        "current_hash": "dd4a81babf13a753b89764e6d2ecfccc754e15b03426b38a153a06d8ae97e525",
+        "state_index": 52,
+        "status": "pending"
+      },
+      {
+        "file": "04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-06-classes-quimicas-strunz-dana.md",
+        "page_id": "3bfe3d39309681e0bd23cef2d54b0cb2",
+        "current_hash": "da4a86d53b7ccda3f08a389f5adbc3be18e70602c2e8e81b5afbfddf42b145aa",
+        "state_index": 53,
+        "status": "pending"
+      },
+      {
+        "file": "04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-07-estruturas-dos-silicatos.md",
+        "page_id": "3bfe3d393096816d933fd49eb96c993f",
+        "current_hash": "e6bf838094930cf180524eb604f6c9c52cc3fcddf47b189fa6a8e63e1d1ec790",
+        "state_index": 54,
+        "status": "pending"
+      },
+      {
+        "file": "04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-flashcards.md",
+        "page_id": "3bfe3d3930968167aa24f91b16695943",
+        "current_hash": "b56c3f82976614e3b092654742bb1f3424f10befe17f0a49d65b130e9bd15be5",
+        "state_index": 55,
+        "status": "pending"
+      },
+      {
+        "file": "04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-modulo.md",
+        "page_id": "3a7e3d39309681adb49de818e6296794",
+        "current_hash": "0f3e90eb84ce7fc470ab1f20846059b45f1397774bc9e087c30aaefe5f630169",
+        "state_index": 56,
+        "status": "pending"
+      },
+      {
+        "file": "04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-questionario-final.md",
+        "page_id": "3bfe3d39309681598c66d7316afffebd",
+        "current_hash": "6bee3e7bb4138aa0e9dce03c91dac3fbf6d1c61372a89e2f2b1ea04c21101a2f",
+        "state_index": 57,
+        "status": "pending"
+      }
+    ],
+    "5": [
+      {
+        "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-auditoria.md",
+        "page_id": "3bfe3d3930968165b017ca079b619140",
+        "current_hash": "14cbeeb4867faf193dad0c304945ce6d6966c8b82514aacdfe4a1d36084ac4b7",
+        "state_index": 58,
+        "status": "pending"
+      },
+      {
+        "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-01-propriedades-fisicas-diagnosticas.md",
+        "page_id": "3bfe3d39309681e1822bc7d3809112d6",
+        "current_hash": "73c4e1ad840c018bf5301bbeb8701e989827111028abd770510bd457f3a65cbb",
+        "state_index": 59,
+        "status": "pending"
+      },
+      {
+        "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-02-grupos-minerais-formadores-de-rocha.md",
+        "page_id": "3bfe3d39309681b89323c3ba02b0b61b",
+        "current_hash": "996f7163d96c53d90959c43cceef3feceadcd8f603f89b6e1da2811c0d94b0f0",
+        "state_index": 60,
+        "status": "pending"
+      },
+      {
+        "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-03-chave-de-identificacao-macroscopica.md",
+        "page_id": "3bfe3d39309681859ae8db09b118e5b9",
+        "current_hash": "63049651d0231bb1ba90039f81da8c0d80ca91d49deaa72c9cf1402e5c2983f2",
+        "state_index": 61,
+        "status": "pending"
+      },
+      {
+        "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-04-ponte-como-a-luz-atravessa-um-cristal.md",
+        "page_id": "3bfe3d3930968158b8ffd6593b11d9de",
+        "current_hash": "e4dc562ef44dabe0e61a75384b5a6625030b2cdafe60b4717bb47df0ed28c374",
+        "state_index": 62,
+        "status": "pending"
+      },
+      {
+        "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-05-optica-mineral-parte-1-luz-polarizada-e-pleocroismo.md",
+        "page_id": "3bfe3d39309681f08c42fc3ff246c4ac",
+        "current_hash": "e391544de5624d45701bf9913aa04655a7bbc178a3fbac15164e9c14dbd7875e",
+        "state_index": 63,
+        "status": "pending"
+      },
+      {
+        "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-06-optica-mineral-parte-2-cores-de-interferencia-e-extincao.md",
+        "page_id": "3bfe3d3930968195855eeaaf225ff5ae",
+        "current_hash": "1b443ded36742aada27f4b901ffe8aac9c40d9cb1cd95f55cd38325957bf8979",
+        "state_index": 64,
+        "status": "pending"
+      },
+      {
+        "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-07-identificacao-ao-microscopio-petrografico.md",
+        "page_id": "3bfe3d39309681748051f83070795883",
+        "current_hash": "2bd1eb51830f375022124b620e252fcc461b82d4bb4c8b277d8bd70114f69b36",
+        "state_index": 65,
+        "status": "pending"
+      },
+      {
+        "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-flashcards.md",
+        "page_id": "3bfe3d39309681d7b632f282becf21e2",
+        "current_hash": "c973a0f8dbf69f9880d4c7fec8a9f0112ec721451d5246b34193959a380dec30",
+        "state_index": 66,
+        "status": "pending"
+      },
+      {
+        "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-modulo.md",
+        "page_id": "3a7e3d39309681b78094f4a2e0fd8239",
+        "current_hash": "8ae203e68b7c4027601ab6ab43eaa09f0592d064161007db7d5a7fee78471e8c",
+        "state_index": 67,
+        "status": "pending"
+      },
+      {
+        "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-questionario-final.md",
+        "page_id": "3bfe3d393096814295b4ee42ba977252",
+        "current_hash": "7473a11a0963c2a11b0fb32d329fff092b901538a035172884fab713576a20d0",
+        "state_index": 68,
+        "status": "pending"
+      },
+      {
+        "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-revisao-didatica.md",
+        "page_id": "3bfe3d393096811c9da4db44040d7f54",
+        "current_hash": "c7503c76e84687d13b856c1a30ce9f45b19a7af586b1b60ca956ba524f371874",
+        "state_index": 69,
+        "status": "pending"
+      }
+    ],
+    "6": [
+      {
+        "file": "06-gemologia/06-gemologia-auditoria.md",
+        "page_id": "3c0e3d393096812b8a49d55fb8df103e",
+        "current_hash": "266f41d4725870afa3a8c013880e5dbd7e91335f7af1b9be2424cb1c0455776a",
+        "state_index": 111,
+        "status": "pending"
+      },
+      {
+        "file": "06-gemologia/06-gemologia-flashcards.md",
+        "page_id": "3c0e3d3930968185a7cfe7a56ea7c283",
+        "current_hash": "cea72e586ebeb330541b7fd3ae3d23e54520947759db0d4779e6aadcc2607416",
+        "state_index": 116,
+        "status": "pending"
+      },
+      {
+        "file": "06-gemologia/06-gemologia-questionario-final.md",
+        "page_id": "3c0e3d3930968101931edd3703d57bc2",
+        "current_hash": "bb18e074006ade617241f2ed512a75bc1e95449196a3c014c84cb75db01e61d2",
+        "state_index": 115,
+        "status": "pending"
+      },
+      {
+        "file": "06-gemologia/06-gemologia-questionario-parcial-1.md",
+        "page_id": "3c0e3d3930968140908ff6a19f30cc3f",
+        "current_hash": "fa9a41629919b4b34719945be3b7c08e40b2f6c271817809dfcc6912b873b378",
+        "state_index": 113,
+        "status": "pending"
+      },
+      {
+        "file": "06-gemologia/06-gemologia-questionario-parcial-2.md",
+        "page_id": "3c0e3d39309681668d4cd5be9970752e",
+        "current_hash": "f0e79f9678e0970d872d63f90d7bc32075be9fb46c4ec49d33653cdbc27d5a73",
+        "state_index": 114,
+        "status": "pending"
+      },
+      {
+        "file": "06-gemologia/06-gemologia-revisao-didatica.md",
+        "page_id": "3c0e3d393096815ea96ed5081d2d30f1",
+        "current_hash": "ad3c8ab1d9871c7603dd1e42a3c682a6b336a9344015b9836dcdfdc7be4ae00a",
+        "state_index": 112,
+        "status": "pending"
+      }
+    ],
+    "7": [
+      {
+        "file": "07-rochas-igneas/07-rochas-igneas-auditoria.md",
+        "page_id": "3c0e3d3930968169a700f8738370d5ba",
+        "current_hash": "198daf83e80e38590d0d079c9aa9f9700a9d5b23ad2414360f0dfdf32a9213c1",
+        "state_index": 125,
+        "status": "pending"
+      },
+      {
+        "file": "07-rochas-igneas/07-rochas-igneas-aula-01-por-que-a-rocha-derrete.md",
+        "page_id": "3c0e3d39309681a99da6cceaa37f55c6",
+        "current_hash": "35dc39c41720fe6a6446313520c3c121a64e70cbd1f824e45a9a9c9be555d965",
+        "state_index": 117,
+        "status": "pending"
+      },
+      {
+        "file": "07-rochas-igneas/07-rochas-igneas-aula-02-geracao-e-evolucao-dos-magmas.md",
+        "page_id": "3c0e3d393096812c9c75df3ccbfb679e",
+        "current_hash": "736bec4d916cead088dd820873bb8cb4081d6738377cc517491e7f0f102543d3",
+        "state_index": 118,
+        "status": "pending"
+      },
+      {
+        "file": "07-rochas-igneas/07-rochas-igneas-aula-03-serie-de-reacao-de-bowen.md",
+        "page_id": "3c0e3d39309681a59a6cd92e575347e3",
+        "current_hash": "b710aa7bfadefbdd504b87e2604dd14f5d8cd781c19c7a871be3517d69f01f5f",
+        "state_index": 119,
+        "status": "pending"
+      },
+      {
+        "file": "07-rochas-igneas/07-rochas-igneas-aula-04-texturas-igneas-e-resfriamento.md",
+        "page_id": "3c0e3d3930968189a1d0e34eecdbdc36",
+        "current_hash": "4eca79603a45c438691411d827a7af7b59e8717c6384b435008fd4029058a09d",
+        "state_index": 120,
+        "status": "pending"
+      },
+      {
+        "file": "07-rochas-igneas/07-rochas-igneas-aula-06-classificacao-qapf.md",
+        "page_id": "3c0e3d39309681fa9291f2b3647704fc",
+        "current_hash": "35d80b78f883df65def6879d054c6574b56513e4149300d244d40e46dfaa31f2",
+        "state_index": 122,
+        "status": "pending"
+      },
+      {
+        "file": "07-rochas-igneas/07-rochas-igneas-aula-07-classificacao-tas.md",
+        "page_id": "3c0e3d3930968188b32cf211fe18409c",
+        "current_hash": "03d87b8530a86e1933a06b0d5281c1a68ed42892e8e7685c1c2f4d986cf77ba0",
+        "state_index": 123,
+        "status": "pending"
+      },
+      {
+        "file": "07-rochas-igneas/07-rochas-igneas-aula-08-magmatismo-e-ambientes-tectonicos.md",
+        "page_id": "3c0e3d39309681dfb329cf6f02168449",
+        "current_hash": "99a8e0b61b20e54c3d8ef47d4a585042d63f665c0367d35de9012614d4bedced",
+        "state_index": 124,
+        "status": "pending"
+      },
+      {
+        "file": "07-rochas-igneas/07-rochas-igneas-questionario-final.md",
+        "page_id": "3c0e3d39309681f88b88d62f92c93ded",
+        "current_hash": "b5780305918033e15c6f5b3caa545055c2c9e41ee47669c92bc93cb9af3ff91a",
+        "state_index": 129,
+        "status": "pending"
+      },
+      {
+        "file": "07-rochas-igneas/07-rochas-igneas-questionario-parcial-1.md",
+        "page_id": "3c0e3d39309681d2beffcbd97f8de0a5",
+        "current_hash": "ead817d19e3393907263b4b937aa233a7f257f397de49cc6bd66befd0fb53fa6",
+        "state_index": 127,
+        "status": "pending"
+      },
+      {
+        "file": "07-rochas-igneas/07-rochas-igneas-questionario-parcial-2.md",
+        "page_id": "3c0e3d393096815480a5fdba355eb088",
+        "current_hash": "6d2d3b368bbeba70d68062385e14830329dc6cf579adf148789d5efb2da9f02a",
+        "state_index": 128,
+        "status": "pending"
+      },
+      {
+        "file": "07-rochas-igneas/07-rochas-igneas-revisao-didatica.md",
+        "page_id": "3c0e3d39309681c1bf48dd26bd199765",
+        "current_hash": "e89c7a8b7bced883b087a9215a4c25a37214cfc0d99b69e616bc9b3e373ee1c2",
+        "state_index": 126,
+        "status": "pending"
+      }
+    ],
+    "8": [
+      {
+        "file": "08-rochas-sedimentares/08-rochas-sedimentares-auditoria.md",
+        "page_id": "3c0e3d39309681f686e1d0006d2df24b",
+        "current_hash": "2864fa8a0e342df6d46ed31996b4ab5336f22d73bb3ab76feee6b68991c4239f",
+        "state_index": 138,
+        "status": "pending"
+      },
+      {
+        "file": "08-rochas-sedimentares/08-rochas-sedimentares-questionario-final.md",
+        "page_id": "3c0e3d39309681569d30d8f354c0785a",
+        "current_hash": "51c0de779b15631bb41b692b032f912d07808009b4b1c3d3bef753dcf930eb38",
+        "state_index": 140,
+        "status": "pending"
+      },
+      {
+        "file": "08-rochas-sedimentares/08-rochas-sedimentares-revisao-didatica.md",
+        "page_id": "3c0e3d393096819daeeee035d1ca9e2a",
+        "current_hash": "654d8f6ea3258c3d0d800b36ec43580091c284225bcfc91d8c3e748cd4184a4a",
+        "state_index": 139,
+        "status": "pending"
+      }
+    ],
+    "9": [
+      {
+        "file": "09-rochas-metamorficas/09-rochas-metamorficas-auditoria.md",
+        "page_id": "3c0e3d39309681ce9bccfbf08d037b20",
+        "current_hash": "1306e0a1f8ad693107149fefc9733f94aa6eb438b882ce4c77d6b9bee140402e",
+        "state_index": 148,
+        "status": "pending"
+      },
+      {
+        "file": "09-rochas-metamorficas/09-rochas-metamorficas-modulo.md",
+        "page_id": "3a7e3d39309681409191e77ab4fa7b1e",
+        "current_hash": "d6cbdecf2ad471b1a29947660bcf0ae8ce323da5c28b8f2470f2e638ce412dbe",
+        "state_index": 73,
+        "status": "pending"
+      },
+      {
+        "file": "09-rochas-metamorficas/09-rochas-metamorficas-revisao-didatica.md",
+        "page_id": "3c0e3d3930968145863bff58837234ec",
+        "current_hash": "54aeab3daceb0529be6d2ba383b7bd52d44c43a87e267fc8ab9bafb526898319",
+        "state_index": 149,
+        "status": "pending"
+      }
+    ],
+    "10": [
+      {
+        "file": "10-geoquimica/10-geoquimica-modulo.md",
+        "page_id": "3a7e3d393096810b8306c199f42268a1",
+        "current_hash": "f3cfa1c1677048b96af8440466792df4bd7434fa28a5f1ec421487c5ca93e054",
+        "state_index": 74,
+        "status": "pending"
+      }
+    ],
+    "11": [
+      {
+        "file": "11-vulcanologia/11-vulcanologia-auditoria.md",
+        "page_id": "3c0e3d39309681c39fe1ceeed05ed8bf",
+        "current_hash": "ab685c4a1980336c8d1b052f29d6569b7b322060637b083fcee721466b544028",
+        "state_index": 172,
+        "status": "pending"
+      },
+      {
+        "file": "11-vulcanologia/11-vulcanologia-flashcards.md",
+        "page_id": "3c0e3d393096813789faf342641ed080",
+        "current_hash": "6feee61d87f3bddafce7a84a8f197ac287d448c6dbad5febe995e7c8aa670b2f",
+        "state_index": 175,
+        "status": "pending"
+      },
+      {
+        "file": "11-vulcanologia/11-vulcanologia-modulo.md",
+        "page_id": "3a7e3d39309681c4a9ccf5e41958fcc5",
+        "current_hash": "24d96e299cd99660820eaac57cf45728080ede049b3deff6cecf5a0c9b9fa103",
+        "state_index": 75,
+        "status": "pending"
+      },
+      {
+        "file": "11-vulcanologia/11-vulcanologia-questionario-final.md",
+        "page_id": "3c0e3d39309681f38eddc3a5dd95a404",
+        "current_hash": "8a2b294cc99d34c2c7f45ff326c0c7da8135222f767b17a3e8a3d6843cbbb283",
+        "state_index": 174,
+        "status": "pending"
+      },
+      {
+        "file": "11-vulcanologia/11-vulcanologia-revisao-didatica.md",
+        "page_id": "3c0e3d39309681db9aa2d1866282db5e",
+        "current_hash": "90d5c7e6ff456a6b485a34ce46cef35da34216150f149eedf5ac9bc6f8c3c360",
+        "state_index": 173,
+        "status": "pending"
+      }
+    ],
+    "12": [
+      {
+        "file": "12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-auditoria.md",
+        "page_id": "3c0e3d3930968170b34ff7e497b04fdc",
+        "current_hash": "be0527247a95fdcb1705b2ac83dcbde81a176e15267e4da9d256c4503aec477a",
+        "state_index": 183,
+        "status": "pending"
+      },
+      {
+        "file": "12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-flashcards.md",
+        "page_id": "3c0e3d39309681c1a0d7f9ba89493ea5",
+        "current_hash": "38b4ed0880b7260ebfc7b347c14f00316c127d8872daff597d15b6ad78c2b0dd",
+        "state_index": 188,
+        "status": "pending"
+      },
+      {
+        "file": "12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-modulo.md",
+        "page_id": "3a7e3d3930968169b153d3bfed77165c",
+        "current_hash": "638efbd875aa5abe2d96573c45f1421db68d25bfb094cc7e350011781c4cc60e",
+        "state_index": 76,
+        "status": "pending"
+      },
+      {
+        "file": "12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-questionario-final.md",
+        "page_id": "3c0e3d393096819c9db3ee90181561e1",
+        "current_hash": "758d4c75a02380bb1159fdc36bd63de885b173884f582723f76a44e64224663b",
+        "state_index": 187,
+        "status": "pending"
+      },
+      {
+        "file": "12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-questionario-parcial-1.md",
+        "page_id": "3c0e3d39309681508904e2afc68b4853",
+        "current_hash": "1a4dd0ab41eab339bf1fde4d1678c7222a3b0c51fb81285b85a0d0ad81c86fa9",
+        "state_index": 185,
+        "status": "pending"
+      },
+      {
+        "file": "12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-questionario-parcial-2.md",
+        "page_id": "3c0e3d3930968143a6b5ed1b1e7c37e4",
+        "current_hash": "260324a98421df87c014dba5ed8c0ee9fde84ae98e637e242ad753dd4b8a08f2",
+        "state_index": 186,
+        "status": "pending"
+      },
+      {
+        "file": "12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-revisao-didatica.md",
+        "page_id": "3c0e3d3930968141a766fc70f83c00de",
+        "current_hash": "d40eb31c218e5718872054521872c12fb925113bcc15fdc3fbe78429590eba7c",
+        "state_index": 184,
+        "status": "pending"
+      }
+    ],
+    "13": [
+      {
+        "file": "13-glaciologia/13-glaciologia-auditoria.md",
+        "page_id": "3c0e3d39309681618650eb57a14aa152",
+        "current_hash": "f1ff24ff0f32ccaade0a6e3535dc8a35d7e6d7a47045b3bfc52aa333304a243d",
+        "state_index": 194,
+        "status": "pending"
+      },
+      {
+        "file": "13-glaciologia/13-glaciologia-modulo.md",
+        "page_id": "3a7e3d39309681209336f29e265c266a",
+        "current_hash": "1f7ecb00f223948552c6ce533748a8f51e11fd5716ad1283fe62723fd8775d9d",
+        "state_index": 77,
+        "status": "pending"
+      },
+      {
+        "file": "13-glaciologia/13-glaciologia-questionario-final.md",
+        "page_id": "3c0e3d393096815f9814d51231b4fb60",
+        "current_hash": "1444b6b064aa42cd6c5103ecf0a26d704c53fd235c14e3adf69b9a21f37b4df0",
+        "state_index": 196,
+        "status": "pending"
+      },
+      {
+        "file": "13-glaciologia/13-glaciologia-revisao-didatica.md",
+        "page_id": "3c0e3d3930968199ad5ed886f0f63304",
+        "current_hash": "a2bb5bb039678e5306f5dfcd802f1a29938d7dcb418196b8ccabeefaca834a07",
+        "state_index": 195,
+        "status": "pending"
+      }
+    ],
+    "14": [
+      {
+        "file": "14-sedimentologia-ambientes/14-sedimentologia-ambientes-auditoria.md",
+        "page_id": "3c0e3d393096815e9425fe02f09b2246",
+        "current_hash": "b2ac62d524a3f258ff394b123dd6e50b5b9838398b380120da394dd4bc12ab15",
+        "state_index": 204,
+        "status": "pending"
+      },
+      {
+        "file": "14-sedimentologia-ambientes/14-sedimentologia-ambientes-modulo.md",
+        "page_id": "3a7e3d39309681b69a2dedf5b40cf708",
+        "current_hash": "b8298c8a596fa05964f934da3b9553e9101e3f54592b96492a382a9c6beec8d7",
+        "state_index": 78,
+        "status": "pending"
+      },
+      {
+        "file": "14-sedimentologia-ambientes/14-sedimentologia-ambientes-questionario-final.md",
+        "page_id": "3c0e3d39309681b3a71ee78825798c31",
+        "current_hash": "90aeeeb450f5ad6c4fca973332282078087f097eedfe7be6a9fcc9f424680c6a",
+        "state_index": 208,
+        "status": "pending"
+      },
+      {
+        "file": "14-sedimentologia-ambientes/14-sedimentologia-ambientes-questionario-parcial-1.md",
+        "page_id": "3c0e3d393096819bb3bac8ec302d918c",
+        "current_hash": "660612fc9a374ad900b06fe76b188ccea00b1d701a4392c8a1b51adc64e6e8cd",
+        "state_index": 206,
+        "status": "pending"
+      },
+      {
+        "file": "14-sedimentologia-ambientes/14-sedimentologia-ambientes-questionario-parcial-2.md",
+        "page_id": "3c0e3d39309681c39e14fd335dd255e1",
+        "current_hash": "c48fb8728c0de5cda5925fc6944d8e9da05e827672614564284641d3ea49e2f6",
+        "state_index": 207,
+        "status": "pending"
+      }
+    ],
+    "15": [
+      {
+        "file": "15-estratigrafia-correlacao/15-estratigrafia-correlacao-auditoria.md",
+        "page_id": "3c0e3d39309681feab68eddd8a88cece",
+        "current_hash": "40872ec17df1c81f35e69d4140a25c41719091cc1f28a3820d19c3cd77d335f6",
+        "state_index": 216,
+        "status": "pending"
+      },
+      {
+        "file": "15-estratigrafia-correlacao/15-estratigrafia-correlacao-aula-01-unidades-litoestratigraficas.md",
+        "page_id": "3c0e3d39309681b2b409fa001dddfc52",
+        "current_hash": "3d5c20e1f9ecddc9d644e1887c07a48c7b1f42358e152d9fb55e48d47aba69e0",
+        "state_index": 210,
+        "status": "pending"
+      },
+      {
+        "file": "15-estratigrafia-correlacao/15-estratigrafia-correlacao-aula-02-bioestratigrafia-e-fosseis-indice.md",
+        "page_id": "3c0e3d3930968171b756e9f98321f3fd",
+        "current_hash": "bf60a91d617d49a17091b339bd79e148957816ad8f819b00a6623277abc3ff48",
+        "state_index": 211,
+        "status": "pending"
+      },
+      {
+        "file": "15-estratigrafia-correlacao/15-estratigrafia-correlacao-aula-03-lito-bio-e-cronoestratigrafia.md",
+        "page_id": "3c0e3d393096819b8cf7f057ac8525f2",
+        "current_hash": "e6a866d82fd68707b45cba17e9c8274729fef69156eac47ddf282bff4ea96ec1",
+        "state_index": 212,
+        "status": "pending"
+      },
+      {
+        "file": "15-estratigrafia-correlacao/15-estratigrafia-correlacao-aula-04-gssp-procedimento-formal.md",
+        "page_id": "3c0e3d3930968171ac4cf1078676e0c9",
+        "current_hash": "5607a96c1244b91ea42d977e7ced6cc32fb273e00dde9b290cf0334e596ef7af",
+        "state_index": 213,
+        "status": "pending"
+      },
+      {
+        "file": "15-estratigrafia-correlacao/15-estratigrafia-correlacao-aula-05-estratigrafia-de-sequencias.md",
+        "page_id": "3c0e3d393096815c8d6beceb83b267a5",
+        "current_hash": "6624c1ec7f0b2099b93bbb54e3a8972b59e57f4f20ac39d79ce66207dd7e3c21",
+        "state_index": 214,
+        "status": "pending"
+      },
+      {
+        "file": "15-estratigrafia-correlacao/15-estratigrafia-correlacao-aula-06-correlacionando-secoes.md",
+        "page_id": "3c0e3d393096818eb3fcf517e0af6f8a",
+        "current_hash": "8d6d7266f279533b8b2c3764eaddf55ab794c9da352e5200a9e41dfffdab8777",
+        "state_index": 215,
+        "status": "pending"
+      },
+      {
+        "file": "15-estratigrafia-correlacao/15-estratigrafia-correlacao-modulo.md",
+        "page_id": "3a7e3d39309681068eabcca73b4d5141",
+        "current_hash": "46812fbb277d5b2f5292387782e096520884af8677b45141799adb73192148c0",
+        "state_index": 79,
+        "status": "pending"
+      },
+      {
+        "file": "15-estratigrafia-correlacao/15-estratigrafia-correlacao-revisao-didatica.md",
+        "page_id": "3c0e3d39309681548de6e5af83878cc7",
+        "current_hash": "7e713eac5175e45aa0435c116f31422635823fd7709e4cccac86ca7471731ab1",
+        "state_index": 217,
+        "status": "pending"
+      }
+    ],
+    "16": [
+      {
+        "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-auditoria.md",
+        "page_id": "3c0e3d39309681399bdbf9a81636d98c",
+        "current_hash": "d1e08dfafc0cc1ded585779e599c70907ba1ba8b8a4103bdbc1dd94c1c1cb66f",
+        "state_index": 229,
+        "status": "pending"
+      },
+      {
+        "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-aula-01-fossilizacao-e-tafonomia.md",
+        "page_id": "3c0e3d39309681fa868edfbfb2214e6f",
+        "current_hash": "c10840f66d4889b235ef6363ef6bac0aa4d133cc89bc12b63363c43862fdfeae",
+        "state_index": 222,
+        "status": "pending"
+      },
+      {
+        "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-aula-02-classificacao-biologica-ponte.md",
+        "page_id": "3c0e3d39309681f992ebffc8611329f3",
+        "current_hash": "b93a11185bebc61efb4b64fad27399786828f8625b58a6969ff1d14bcd38ec5a",
+        "state_index": 223,
+        "status": "pending"
+      },
+      {
+        "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-aula-03-grandes-ramos-da-vida.md",
+        "page_id": "3c0e3d39309681a2b75de13e98dd04df",
+        "current_hash": "66d4bf1c0f5ba12eaa6715710f085a8c442d2dae8473a5e9bcb5bb0de519331f",
+        "state_index": 224,
+        "status": "pending"
+      },
+      {
+        "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-aula-04-reconhecimento-de-grupos-fosseis.md",
+        "page_id": "3c0e3d393096810cb3fbe02a7be60b13",
+        "current_hash": "554cbff0823bf266210ef111436893013c38cd025d4fd6965581600139ce15d9",
+        "state_index": 225,
+        "status": "pending"
+      },
+      {
+        "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-aula-05-fosseis-e-bioestratigrafia.md",
+        "page_id": "3c0e3d39309681edaba7fbd2a5a11d4f",
+        "current_hash": "1c6b8d1defc51630db1accba4272728ab4baa3ceb687eed9a41697838c911e22",
+        "state_index": 226,
+        "status": "pending"
+      },
+      {
+        "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-aula-06-historia-da-vida-nos-eons.md",
+        "page_id": "3c0e3d39309681daaa70ee92eccbaf16",
+        "current_hash": "e57b36c7e5b2dccf5ff0d642b32478863b5d44e88329f13f1f8b050eb6b3d3b0",
+        "state_index": 227,
+        "status": "pending"
+      },
+      {
+        "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-aula-07-extincoes-em-massa.md",
+        "page_id": "3c0e3d3930968101a6ecee74ff614ff2",
+        "current_hash": "d1d8569ef9ee583bda7a3653fdf0a3e8d8e76893514aee0895c9a9abcb5b536a",
+        "state_index": 228,
+        "status": "pending"
+      },
+      {
+        "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-modulo.md",
+        "page_id": "3a7e3d39309681f5b3dacee6ebfef30d",
+        "current_hash": "fa6fb4efebf39cecd4dca5b9e422ad1234219ef5043d0145e683b66cc4a6f30e",
+        "state_index": 80,
+        "status": "pending"
+      },
+      {
+        "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-questionario-final.md",
+        "page_id": "3c0e3d393096811980c8c58f99103623",
+        "current_hash": "f7edeb5a03113abe1a9ed7433ea8ccef8a7af9316d426aa00b817da39db8d153",
+        "state_index": 233,
+        "status": "pending"
+      },
+      {
+        "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-questionario-parcial-1.md",
+        "page_id": "3c0e3d39309681dca8fcd574a8821abd",
+        "current_hash": "981be6da798deb3c4782c87ed2dfe96d4fe8fc7ddfc1da55b81fcaa9d5f57704",
+        "state_index": 231,
+        "status": "pending"
+      },
+      {
+        "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-questionario-parcial-2.md",
+        "page_id": "3c0e3d39309681af85dfff8fd397bfd1",
+        "current_hash": "63e69ee91947cd2570a6f687823f789ffdda22820cc409bb5724699a35753587",
+        "state_index": 232,
+        "status": "pending"
+      },
+      {
+        "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-revisao-didatica.md",
+        "page_id": "3c0e3d39309681c78e34fed98fc25e71",
+        "current_hash": "3540381fba0647e37847dbbc3c2e10ab2abcea07946c4d7d1ca491c28b2a66d0",
+        "state_index": 230,
+        "status": "pending"
+      }
+    ]
+  },
+  "all_files": [
+    {
+      "module": 1,
+      "file": "01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-01-o-que-e-geologia.md",
+      "page_id": "3a7e3d3930968106b2d0ecd1167a955c",
+      "current_hash": "fd229c222da6bd07a3a46dd48539e5f055e310c8a34870b38d26cfcb488da4fe"
+    },
+    {
+      "module": 1,
+      "file": "01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-03-principios-que-ordenam-as-rochas.md",
+      "page_id": "3a7e3d39309681f58a6ef697e3d0c803",
+      "current_hash": "92a12191fa29af77c8e3543399ad4748fa21225325b7ea21a43fc79606f4801a"
+    },
+    {
+      "module": 1,
+      "file": "01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-04-como-a-terra-se-formou.md",
+      "page_id": "3a7e3d3930968100b576f9bef5cba042",
+      "current_hash": "dc52451a1b45a10a8fadeb3fef730b105c7d0d859cda9f5e07fc3cf36a5363dc"
+    },
+    {
+      "module": 1,
+      "file": "01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-05-camadas-quimica-e-mecanica.md",
+      "page_id": "3bfe3d393096810c9a55ea4301e8eb39",
+      "current_hash": "8e91e6cc56f8db9a2729d133228cccfe51386f5a13ca95b14f4044556876f09d"
+    },
+    {
+      "module": 1,
+      "file": "01-fundamentos-e-metodo/01-fundamentos-e-metodo-aula-06-esferas-ciclo-e-tempo-profundo.md",
+      "page_id": "3bfe3d393096819c8f73df85c8995f14",
+      "current_hash": "a0b63a424bf9ecefd71b4183bd4d473c2b784a6f4b74fd39853561f676bebe92"
+    },
+    {
+      "module": 1,
+      "file": "01-fundamentos-e-metodo/01-fundamentos-e-metodo-flashcards.md",
+      "page_id": "3a7e3d393096814bb10cd1c7c9d5d6fa",
+      "current_hash": "e5bcfddb34292fb4307f6942b5e66170a92cde6e0b3cb7b92651d10c604fe505"
+    },
+    {
+      "module": 1,
+      "file": "01-fundamentos-e-metodo/01-fundamentos-e-metodo-modulo.md",
+      "page_id": "3a7e3d3930968172b79eefbafddc6cff",
+      "current_hash": "1814c4a700cf8b69b21b3bba651b9b416eaf1a82189e2abcc458589053c1327e"
+    },
+    {
+      "module": 1,
+      "file": "01-fundamentos-e-metodo/01-fundamentos-e-metodo-questionario-final.md",
+      "page_id": "3a7e3d39309681d8a933dafd2a746161",
+      "current_hash": "a06664a6f8a798d4a366612a870e018354bd880c3a5cbd77775edd1b324909ce"
+    },
+    {
+      "module": 2,
+      "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-01-ponte-o-que-e-uma-onda.md",
+      "page_id": "3bfe3d39309681c29714f88232851587",
+      "current_hash": "810a2b635346c08e4efc369f46489a789e7808a1c330e5ac5633d56bee964322"
+    },
+    {
+      "module": 2,
+      "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-02-ondas-sismicas.md",
+      "page_id": "3bfe3d3930968129ba52ffb5fa05c78f",
+      "current_hash": "c55269e179062b4706c98035615f7d844324cd2e42cd134827c80b13e61c526f"
+    },
+    {
+      "module": 2,
+      "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-03-a-sombra-do-nucleo.md",
+      "page_id": "3bfe3d39309681e28330d49490a5e5c6",
+      "current_hash": "b62fee9fc4dc758e5dd6953778470177218edbc68d99192c74e48960dfe1805c"
+    },
+    {
+      "module": 2,
+      "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-04-modelo-em-camadas.md",
+      "page_id": "3bfe3d39309681e08ee7f19984c30566",
+      "current_hash": "d3d4258bd020b419ec9d4b5e9f124cca4a2aeaff9194896f9fff7970829b1848"
+    },
+    {
+      "module": 2,
+      "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-05-litosfera-e-astenosfera.md",
+      "page_id": "3bfe3d393096810ea50af3dcdc21cb49",
+      "current_hash": "bfe13dd814860277ed540362cddb35d4e1ea726015b381942f0f0a6fd9d7db8f"
+    },
+    {
+      "module": 2,
+      "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-06-wegener-e-a-deriva.md",
+      "page_id": "3bfe3d39309681b5a8c2dc401f16ff39",
+      "current_hash": "2b048c90b2e3edb3eb5e4d9e1e01df91feb1277123d762c1523055cb04fff52e"
+    },
+    {
+      "module": 2,
+      "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-07-provas-do-fundo-do-mar.md",
+      "page_id": "3bfe3d39309681b9a01efcdc0242e220",
+      "current_hash": "6b8bd7961cdab84676e28e0935d8a428464e023ad768b9682c1efff745b339dc"
+    },
+    {
+      "module": 2,
+      "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-08-limites-divergentes-e-transformantes.md",
+      "page_id": "3bfe3d39309681acb5b2ec7a6d377835",
+      "current_hash": "ed8b0506169c0df97a0ca3a0936acb6fd931370218d8582ece2c0129ee261bba"
+    },
+    {
+      "module": 2,
+      "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-aula-09-limites-convergentes-e-o-motor.md",
+      "page_id": "3bfe3d393096810298a4c77a498be0c0",
+      "current_hash": "1a6f85c6824473efa7c7da08b36d619cb3d655f1b80698d2b8df44f5a22f4b56"
+    },
+    {
+      "module": 2,
+      "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-flashcards.md",
+      "page_id": "3bfe3d3930968105bae4c12cdeb28a8e",
+      "current_hash": "4b33f74e97683ef448be4e694903204da37d80f4a8ba43d6bb8b0fe86c46847a"
+    },
+    {
+      "module": 2,
+      "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-modulo.md",
+      "page_id": "3a7e3d39309681179b99c1011402007a",
+      "current_hash": "d1777df40b971c15b0faebf0d21c23279203a9e90e4648b7bf4f6653f19de7b0"
+    },
+    {
+      "module": 2,
+      "file": "02-sistema-terra-tectonica/02-sistema-terra-tectonica-questionario-final.md",
+      "page_id": "3bfe3d393096810b943fe3d169ac91b7",
+      "current_hash": "a98c0b288dedbcc7a956e7c29579da70d85eea67f871db6855a9eb0eef7af432"
+    },
+    {
+      "module": 3,
+      "file": "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-01-datacao-relativa.md",
+      "page_id": "3bfe3d39309681a5942ad8cd2c2abb3c",
+      "current_hash": "cd272dba38866269e0e5b766edea20671377e5828b6bb1cdd1cf13e44ddfb35f"
+    },
+    {
+      "module": 3,
+      "file": "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-02-discordancias.md",
+      "page_id": "3bfe3d39309681bda635d1f535b4517e",
+      "current_hash": "fcdc696fde653958fb4e0355d0be8d377d3bea0d4a0c7a71055301e4b93736ac"
+    },
+    {
+      "module": 3,
+      "file": "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-03-ponte-atomos-e-isotopos.md",
+      "page_id": "3bfe3d39309681138e4fd19387833649",
+      "current_hash": "1cc5e2f74526f6a6af9e896f55ec5ad1fc7b9aad4f80b4fff90af33188ea730c"
+    },
+    {
+      "module": 3,
+      "file": "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-04-meia-vida.md",
+      "page_id": "3bfe3d3930968138a3fcc6198645bd38",
+      "current_hash": "1db674a5a42d85f5a2ecc0668877dcd66ad0011eb62eca82be8f2d96555aa513"
+    },
+    {
+      "module": 3,
+      "file": "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-05-datacao-na-pratica.md",
+      "page_id": "3bfe3d393096818690aaff7cff5dd4a2",
+      "current_hash": "87427c817884ff46c9b97e280c39e1abfdbc75b38e4385a660794eb708d7e11b"
+    },
+    {
+      "module": 3,
+      "file": "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-06-escala-do-tempo-e-gssp.md",
+      "page_id": "3bfe3d393096814a9863fdf1e8cb2785",
+      "current_hash": "a3c9d155e8f285dc39e9c23c70a8ff2a52514fbc53b26a8d4bd08a507194d75e"
+    },
+    {
+      "module": 3,
+      "file": "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-aula-07-tempo-rocha-e-magnitude.md",
+      "page_id": "3bfe3d393096815f85e4e07329251957",
+      "current_hash": "2d199203c36701567e96f50b964223917a8e1765f59905b20ca7e5275bf5346e"
+    },
+    {
+      "module": 3,
+      "file": "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-flashcards.md",
+      "page_id": "3bfe3d39309681668facc2bd8958bda6",
+      "current_hash": "a665ad26f8f5c176c0236226358e05a85e3c7702fd8498c1fc7365d7cd9863ea"
+    },
+    {
+      "module": 3,
+      "file": "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-modulo.md",
+      "page_id": "3a7e3d3930968154abb8fcddd8f1aa80",
+      "current_hash": "8e58f7831b74f806e51447781aa2a70a8ac55613cf892c21595dfb12e4908db3"
+    },
+    {
+      "module": 3,
+      "file": "03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-questionario-final.md",
+      "page_id": "3bfe3d3930968121bbe7c3a3316f1e9a",
+      "current_hash": "8b72a16ee243a4388e198cddc093519bdc84a394ad40262357847cba8bf1196e"
+    },
+    {
+      "module": 4,
+      "file": "04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-01-ponte-atomo-eletrons-tabela-periodica.md",
+      "page_id": "3bfe3d3930968109a167dd917841a7b7",
+      "current_hash": "4add437b8a35bd7de2ba5d542ca3cc11a589fbd2115db92e0db1a13d62b56de5"
+    },
+    {
+      "module": 4,
+      "file": "04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-02-ponte-ligacao-quimica.md",
+      "page_id": "3bfe3d3930968129bfc2ddb97b23d174",
+      "current_hash": "b1e1ca7b70ba154972de4c2ab2de12a2f5f7dfef1b1e393b12051a0d84891c6f"
+    },
+    {
+      "module": 4,
+      "file": "04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-03-definicao-de-mineral.md",
+      "page_id": "3bfe3d3930968173a42ae4796f5c836b",
+      "current_hash": "f641822b79ecefcc7fb8c9fddb1f44ca0e323cce9ec9d0d632d6bbdad5dc6af7"
+    },
+    {
+      "module": 4,
+      "file": "04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-04-simetria-em-cristais.md",
+      "page_id": "3bfe3d3930968107abcecbe1155c7f61",
+      "current_hash": "64a3f0ca5c51cd11a88fc8b166fc28c92a7e4cbd858fc32e964e8d0e57f5e79d"
+    },
+    {
+      "module": 4,
+      "file": "04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-05-sistemas-cristalinos.md",
+      "page_id": "3bfe3d39309681bdb6f4d379c9a3ca32",
+      "current_hash": "dd4a81babf13a753b89764e6d2ecfccc754e15b03426b38a153a06d8ae97e525"
+    },
+    {
+      "module": 4,
+      "file": "04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-06-classes-quimicas-strunz-dana.md",
+      "page_id": "3bfe3d39309681e0bd23cef2d54b0cb2",
+      "current_hash": "da4a86d53b7ccda3f08a389f5adbc3be18e70602c2e8e81b5afbfddf42b145aa"
+    },
+    {
+      "module": 4,
+      "file": "04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-aula-07-estruturas-dos-silicatos.md",
+      "page_id": "3bfe3d393096816d933fd49eb96c993f",
+      "current_hash": "e6bf838094930cf180524eb604f6c9c52cc3fcddf47b189fa6a8e63e1d1ec790"
+    },
+    {
+      "module": 4,
+      "file": "04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-flashcards.md",
+      "page_id": "3bfe3d3930968167aa24f91b16695943",
+      "current_hash": "b56c3f82976614e3b092654742bb1f3424f10befe17f0a49d65b130e9bd15be5"
+    },
+    {
+      "module": 4,
+      "file": "04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-modulo.md",
+      "page_id": "3a7e3d39309681adb49de818e6296794",
+      "current_hash": "0f3e90eb84ce7fc470ab1f20846059b45f1397774bc9e087c30aaefe5f630169"
+    },
+    {
+      "module": 4,
+      "file": "04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-questionario-final.md",
+      "page_id": "3bfe3d39309681598c66d7316afffebd",
+      "current_hash": "6bee3e7bb4138aa0e9dce03c91dac3fbf6d1c61372a89e2f2b1ea04c21101a2f"
+    },
+    {
+      "module": 5,
+      "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-auditoria.md",
+      "page_id": "3bfe3d3930968165b017ca079b619140",
+      "current_hash": "14cbeeb4867faf193dad0c304945ce6d6966c8b82514aacdfe4a1d36084ac4b7"
+    },
+    {
+      "module": 5,
+      "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-01-propriedades-fisicas-diagnosticas.md",
+      "page_id": "3bfe3d39309681e1822bc7d3809112d6",
+      "current_hash": "73c4e1ad840c018bf5301bbeb8701e989827111028abd770510bd457f3a65cbb"
+    },
+    {
+      "module": 5,
+      "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-02-grupos-minerais-formadores-de-rocha.md",
+      "page_id": "3bfe3d39309681b89323c3ba02b0b61b",
+      "current_hash": "996f7163d96c53d90959c43cceef3feceadcd8f603f89b6e1da2811c0d94b0f0"
+    },
+    {
+      "module": 5,
+      "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-03-chave-de-identificacao-macroscopica.md",
+      "page_id": "3bfe3d39309681859ae8db09b118e5b9",
+      "current_hash": "63049651d0231bb1ba90039f81da8c0d80ca91d49deaa72c9cf1402e5c2983f2"
+    },
+    {
+      "module": 5,
+      "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-04-ponte-como-a-luz-atravessa-um-cristal.md",
+      "page_id": "3bfe3d3930968158b8ffd6593b11d9de",
+      "current_hash": "e4dc562ef44dabe0e61a75384b5a6625030b2cdafe60b4717bb47df0ed28c374"
+    },
+    {
+      "module": 5,
+      "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-05-optica-mineral-parte-1-luz-polarizada-e-pleocroismo.md",
+      "page_id": "3bfe3d39309681f08c42fc3ff246c4ac",
+      "current_hash": "e391544de5624d45701bf9913aa04655a7bbc178a3fbac15164e9c14dbd7875e"
+    },
+    {
+      "module": 5,
+      "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-06-optica-mineral-parte-2-cores-de-interferencia-e-extincao.md",
+      "page_id": "3bfe3d3930968195855eeaaf225ff5ae",
+      "current_hash": "1b443ded36742aada27f4b901ffe8aac9c40d9cb1cd95f55cd38325957bf8979"
+    },
+    {
+      "module": 5,
+      "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-aula-07-identificacao-ao-microscopio-petrografico.md",
+      "page_id": "3bfe3d39309681748051f83070795883",
+      "current_hash": "2bd1eb51830f375022124b620e252fcc461b82d4bb4c8b277d8bd70114f69b36"
+    },
+    {
+      "module": 5,
+      "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-flashcards.md",
+      "page_id": "3bfe3d39309681d7b632f282becf21e2",
+      "current_hash": "c973a0f8dbf69f9880d4c7fec8a9f0112ec721451d5246b34193959a380dec30"
+    },
+    {
+      "module": 5,
+      "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-modulo.md",
+      "page_id": "3a7e3d39309681b78094f4a2e0fd8239",
+      "current_hash": "8ae203e68b7c4027601ab6ab43eaa09f0592d064161007db7d5a7fee78471e8c"
+    },
+    {
+      "module": 5,
+      "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-questionario-final.md",
+      "page_id": "3bfe3d393096814295b4ee42ba977252",
+      "current_hash": "7473a11a0963c2a11b0fb32d329fff092b901538a035172884fab713576a20d0"
+    },
+    {
+      "module": 5,
+      "file": "05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-revisao-didatica.md",
+      "page_id": "3bfe3d393096811c9da4db44040d7f54",
+      "current_hash": "c7503c76e84687d13b856c1a30ce9f45b19a7af586b1b60ca956ba524f371874"
+    },
+    {
+      "module": 6,
+      "file": "06-gemologia/06-gemologia-auditoria.md",
+      "page_id": "3c0e3d393096812b8a49d55fb8df103e",
+      "current_hash": "266f41d4725870afa3a8c013880e5dbd7e91335f7af1b9be2424cb1c0455776a"
+    },
+    {
+      "module": 6,
+      "file": "06-gemologia/06-gemologia-flashcards.md",
+      "page_id": "3c0e3d3930968185a7cfe7a56ea7c283",
+      "current_hash": "cea72e586ebeb330541b7fd3ae3d23e54520947759db0d4779e6aadcc2607416"
+    },
+    {
+      "module": 6,
+      "file": "06-gemologia/06-gemologia-questionario-final.md",
+      "page_id": "3c0e3d3930968101931edd3703d57bc2",
+      "current_hash": "bb18e074006ade617241f2ed512a75bc1e95449196a3c014c84cb75db01e61d2"
+    },
+    {
+      "module": 6,
+      "file": "06-gemologia/06-gemologia-questionario-parcial-1.md",
+      "page_id": "3c0e3d3930968140908ff6a19f30cc3f",
+      "current_hash": "fa9a41629919b4b34719945be3b7c08e40b2f6c271817809dfcc6912b873b378"
+    },
+    {
+      "module": 6,
+      "file": "06-gemologia/06-gemologia-questionario-parcial-2.md",
+      "page_id": "3c0e3d39309681668d4cd5be9970752e",
+      "current_hash": "f0e79f9678e0970d872d63f90d7bc32075be9fb46c4ec49d33653cdbc27d5a73"
+    },
+    {
+      "module": 6,
+      "file": "06-gemologia/06-gemologia-revisao-didatica.md",
+      "page_id": "3c0e3d393096815ea96ed5081d2d30f1",
+      "current_hash": "ad3c8ab1d9871c7603dd1e42a3c682a6b336a9344015b9836dcdfdc7be4ae00a"
+    },
+    {
+      "module": 7,
+      "file": "07-rochas-igneas/07-rochas-igneas-auditoria.md",
+      "page_id": "3c0e3d3930968169a700f8738370d5ba",
+      "current_hash": "198daf83e80e38590d0d079c9aa9f9700a9d5b23ad2414360f0dfdf32a9213c1"
+    },
+    {
+      "module": 7,
+      "file": "07-rochas-igneas/07-rochas-igneas-aula-01-por-que-a-rocha-derrete.md",
+      "page_id": "3c0e3d39309681a99da6cceaa37f55c6",
+      "current_hash": "35dc39c41720fe6a6446313520c3c121a64e70cbd1f824e45a9a9c9be555d965"
+    },
+    {
+      "module": 7,
+      "file": "07-rochas-igneas/07-rochas-igneas-aula-02-geracao-e-evolucao-dos-magmas.md",
+      "page_id": "3c0e3d393096812c9c75df3ccbfb679e",
+      "current_hash": "736bec4d916cead088dd820873bb8cb4081d6738377cc517491e7f0f102543d3"
+    },
+    {
+      "module": 7,
+      "file": "07-rochas-igneas/07-rochas-igneas-aula-03-serie-de-reacao-de-bowen.md",
+      "page_id": "3c0e3d39309681a59a6cd92e575347e3",
+      "current_hash": "b710aa7bfadefbdd504b87e2604dd14f5d8cd781c19c7a871be3517d69f01f5f"
+    },
+    {
+      "module": 7,
+      "file": "07-rochas-igneas/07-rochas-igneas-aula-04-texturas-igneas-e-resfriamento.md",
+      "page_id": "3c0e3d3930968189a1d0e34eecdbdc36",
+      "current_hash": "4eca79603a45c438691411d827a7af7b59e8717c6384b435008fd4029058a09d"
+    },
+    {
+      "module": 7,
+      "file": "07-rochas-igneas/07-rochas-igneas-aula-06-classificacao-qapf.md",
+      "page_id": "3c0e3d39309681fa9291f2b3647704fc",
+      "current_hash": "35d80b78f883df65def6879d054c6574b56513e4149300d244d40e46dfaa31f2"
+    },
+    {
+      "module": 7,
+      "file": "07-rochas-igneas/07-rochas-igneas-aula-07-classificacao-tas.md",
+      "page_id": "3c0e3d3930968188b32cf211fe18409c",
+      "current_hash": "03d87b8530a86e1933a06b0d5281c1a68ed42892e8e7685c1c2f4d986cf77ba0"
+    },
+    {
+      "module": 7,
+      "file": "07-rochas-igneas/07-rochas-igneas-aula-08-magmatismo-e-ambientes-tectonicos.md",
+      "page_id": "3c0e3d39309681dfb329cf6f02168449",
+      "current_hash": "99a8e0b61b20e54c3d8ef47d4a585042d63f665c0367d35de9012614d4bedced"
+    },
+    {
+      "module": 7,
+      "file": "07-rochas-igneas/07-rochas-igneas-questionario-final.md",
+      "page_id": "3c0e3d39309681f88b88d62f92c93ded",
+      "current_hash": "b5780305918033e15c6f5b3caa545055c2c9e41ee47669c92bc93cb9af3ff91a"
+    },
+    {
+      "module": 7,
+      "file": "07-rochas-igneas/07-rochas-igneas-questionario-parcial-1.md",
+      "page_id": "3c0e3d39309681d2beffcbd97f8de0a5",
+      "current_hash": "ead817d19e3393907263b4b937aa233a7f257f397de49cc6bd66befd0fb53fa6"
+    },
+    {
+      "module": 7,
+      "file": "07-rochas-igneas/07-rochas-igneas-questionario-parcial-2.md",
+      "page_id": "3c0e3d393096815480a5fdba355eb088",
+      "current_hash": "6d2d3b368bbeba70d68062385e14830329dc6cf579adf148789d5efb2da9f02a"
+    },
+    {
+      "module": 7,
+      "file": "07-rochas-igneas/07-rochas-igneas-revisao-didatica.md",
+      "page_id": "3c0e3d39309681c1bf48dd26bd199765",
+      "current_hash": "e89c7a8b7bced883b087a9215a4c25a37214cfc0d99b69e616bc9b3e373ee1c2"
+    },
+    {
+      "module": 8,
+      "file": "08-rochas-sedimentares/08-rochas-sedimentares-auditoria.md",
+      "page_id": "3c0e3d39309681f686e1d0006d2df24b",
+      "current_hash": "2864fa8a0e342df6d46ed31996b4ab5336f22d73bb3ab76feee6b68991c4239f"
+    },
+    {
+      "module": 8,
+      "file": "08-rochas-sedimentares/08-rochas-sedimentares-questionario-final.md",
+      "page_id": "3c0e3d39309681569d30d8f354c0785a",
+      "current_hash": "51c0de779b15631bb41b692b032f912d07808009b4b1c3d3bef753dcf930eb38"
+    },
+    {
+      "module": 8,
+      "file": "08-rochas-sedimentares/08-rochas-sedimentares-revisao-didatica.md",
+      "page_id": "3c0e3d393096819daeeee035d1ca9e2a",
+      "current_hash": "654d8f6ea3258c3d0d800b36ec43580091c284225bcfc91d8c3e748cd4184a4a"
+    },
+    {
+      "module": 9,
+      "file": "09-rochas-metamorficas/09-rochas-metamorficas-auditoria.md",
+      "page_id": "3c0e3d39309681ce9bccfbf08d037b20",
+      "current_hash": "1306e0a1f8ad693107149fefc9733f94aa6eb438b882ce4c77d6b9bee140402e"
+    },
+    {
+      "module": 9,
+      "file": "09-rochas-metamorficas/09-rochas-metamorficas-modulo.md",
+      "page_id": "3a7e3d39309681409191e77ab4fa7b1e",
+      "current_hash": "d6cbdecf2ad471b1a29947660bcf0ae8ce323da5c28b8f2470f2e638ce412dbe"
+    },
+    {
+      "module": 9,
+      "file": "09-rochas-metamorficas/09-rochas-metamorficas-revisao-didatica.md",
+      "page_id": "3c0e3d3930968145863bff58837234ec",
+      "current_hash": "54aeab3daceb0529be6d2ba383b7bd52d44c43a87e267fc8ab9bafb526898319"
+    },
+    {
+      "module": 10,
+      "file": "10-geoquimica/10-geoquimica-modulo.md",
+      "page_id": "3a7e3d393096810b8306c199f42268a1",
+      "current_hash": "f3cfa1c1677048b96af8440466792df4bd7434fa28a5f1ec421487c5ca93e054"
+    },
+    {
+      "module": 11,
+      "file": "11-vulcanologia/11-vulcanologia-auditoria.md",
+      "page_id": "3c0e3d39309681c39fe1ceeed05ed8bf",
+      "current_hash": "ab685c4a1980336c8d1b052f29d6569b7b322060637b083fcee721466b544028"
+    },
+    {
+      "module": 11,
+      "file": "11-vulcanologia/11-vulcanologia-flashcards.md",
+      "page_id": "3c0e3d393096813789faf342641ed080",
+      "current_hash": "6feee61d87f3bddafce7a84a8f197ac287d448c6dbad5febe995e7c8aa670b2f"
+    },
+    {
+      "module": 11,
+      "file": "11-vulcanologia/11-vulcanologia-modulo.md",
+      "page_id": "3a7e3d39309681c4a9ccf5e41958fcc5",
+      "current_hash": "24d96e299cd99660820eaac57cf45728080ede049b3deff6cecf5a0c9b9fa103"
+    },
+    {
+      "module": 11,
+      "file": "11-vulcanologia/11-vulcanologia-questionario-final.md",
+      "page_id": "3c0e3d39309681f38eddc3a5dd95a404",
+      "current_hash": "8a2b294cc99d34c2c7f45ff326c0c7da8135222f767b17a3e8a3d6843cbbb283"
+    },
+    {
+      "module": 11,
+      "file": "11-vulcanologia/11-vulcanologia-revisao-didatica.md",
+      "page_id": "3c0e3d39309681db9aa2d1866282db5e",
+      "current_hash": "90d5c7e6ff456a6b485a34ce46cef35da34216150f149eedf5ac9bc6f8c3c360"
+    },
+    {
+      "module": 12,
+      "file": "12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-auditoria.md",
+      "page_id": "3c0e3d3930968170b34ff7e497b04fdc",
+      "current_hash": "be0527247a95fdcb1705b2ac83dcbde81a176e15267e4da9d256c4503aec477a"
+    },
+    {
+      "module": 12,
+      "file": "12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-flashcards.md",
+      "page_id": "3c0e3d39309681c1a0d7f9ba89493ea5",
+      "current_hash": "38b4ed0880b7260ebfc7b347c14f00316c127d8872daff597d15b6ad78c2b0dd"
+    },
+    {
+      "module": 12,
+      "file": "12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-modulo.md",
+      "page_id": "3a7e3d3930968169b153d3bfed77165c",
+      "current_hash": "638efbd875aa5abe2d96573c45f1421db68d25bfb094cc7e350011781c4cc60e"
+    },
+    {
+      "module": 12,
+      "file": "12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-questionario-final.md",
+      "page_id": "3c0e3d393096819c9db3ee90181561e1",
+      "current_hash": "758d4c75a02380bb1159fdc36bd63de885b173884f582723f76a44e64224663b"
+    },
+    {
+      "module": 12,
+      "file": "12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-questionario-parcial-1.md",
+      "page_id": "3c0e3d39309681508904e2afc68b4853",
+      "current_hash": "1a4dd0ab41eab339bf1fde4d1678c7222a3b0c51fb81285b85a0d0ad81c86fa9"
+    },
+    {
+      "module": 12,
+      "file": "12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-questionario-parcial-2.md",
+      "page_id": "3c0e3d3930968143a6b5ed1b1e7c37e4",
+      "current_hash": "260324a98421df87c014dba5ed8c0ee9fde84ae98e637e242ad753dd4b8a08f2"
+    },
+    {
+      "module": 12,
+      "file": "12-intemperismo-solos-geomorfologia/12-intemperismo-solos-geomorfologia-revisao-didatica.md",
+      "page_id": "3c0e3d3930968141a766fc70f83c00de",
+      "current_hash": "d40eb31c218e5718872054521872c12fb925113bcc15fdc3fbe78429590eba7c"
+    },
+    {
+      "module": 13,
+      "file": "13-glaciologia/13-glaciologia-auditoria.md",
+      "page_id": "3c0e3d39309681618650eb57a14aa152",
+      "current_hash": "f1ff24ff0f32ccaade0a6e3535dc8a35d7e6d7a47045b3bfc52aa333304a243d"
+    },
+    {
+      "module": 13,
+      "file": "13-glaciologia/13-glaciologia-modulo.md",
+      "page_id": "3a7e3d39309681209336f29e265c266a",
+      "current_hash": "1f7ecb00f223948552c6ce533748a8f51e11fd5716ad1283fe62723fd8775d9d"
+    },
+    {
+      "module": 13,
+      "file": "13-glaciologia/13-glaciologia-questionario-final.md",
+      "page_id": "3c0e3d393096815f9814d51231b4fb60",
+      "current_hash": "1444b6b064aa42cd6c5103ecf0a26d704c53fd235c14e3adf69b9a21f37b4df0"
+    },
+    {
+      "module": 13,
+      "file": "13-glaciologia/13-glaciologia-revisao-didatica.md",
+      "page_id": "3c0e3d3930968199ad5ed886f0f63304",
+      "current_hash": "a2bb5bb039678e5306f5dfcd802f1a29938d7dcb418196b8ccabeefaca834a07"
+    },
+    {
+      "module": 14,
+      "file": "14-sedimentologia-ambientes/14-sedimentologia-ambientes-auditoria.md",
+      "page_id": "3c0e3d393096815e9425fe02f09b2246",
+      "current_hash": "b2ac62d524a3f258ff394b123dd6e50b5b9838398b380120da394dd4bc12ab15"
+    },
+    {
+      "module": 14,
+      "file": "14-sedimentologia-ambientes/14-sedimentologia-ambientes-modulo.md",
+      "page_id": "3a7e3d39309681b69a2dedf5b40cf708",
+      "current_hash": "b8298c8a596fa05964f934da3b9553e9101e3f54592b96492a382a9c6beec8d7"
+    },
+    {
+      "module": 14,
+      "file": "14-sedimentologia-ambientes/14-sedimentologia-ambientes-questionario-final.md",
+      "page_id": "3c0e3d39309681b3a71ee78825798c31",
+      "current_hash": "90aeeeb450f5ad6c4fca973332282078087f097eedfe7be6a9fcc9f424680c6a"
+    },
+    {
+      "module": 14,
+      "file": "14-sedimentologia-ambientes/14-sedimentologia-ambientes-questionario-parcial-1.md",
+      "page_id": "3c0e3d393096819bb3bac8ec302d918c",
+      "current_hash": "660612fc9a374ad900b06fe76b188ccea00b1d701a4392c8a1b51adc64e6e8cd"
+    },
+    {
+      "module": 14,
+      "file": "14-sedimentologia-ambientes/14-sedimentologia-ambientes-questionario-parcial-2.md",
+      "page_id": "3c0e3d39309681c39e14fd335dd255e1",
+      "current_hash": "c48fb8728c0de5cda5925fc6944d8e9da05e827672614564284641d3ea49e2f6"
+    },
+    {
+      "module": 15,
+      "file": "15-estratigrafia-correlacao/15-estratigrafia-correlacao-auditoria.md",
+      "page_id": "3c0e3d39309681feab68eddd8a88cece",
+      "current_hash": "40872ec17df1c81f35e69d4140a25c41719091cc1f28a3820d19c3cd77d335f6"
+    },
+    {
+      "module": 15,
+      "file": "15-estratigrafia-correlacao/15-estratigrafia-correlacao-aula-01-unidades-litoestratigraficas.md",
+      "page_id": "3c0e3d39309681b2b409fa001dddfc52",
+      "current_hash": "3d5c20e1f9ecddc9d644e1887c07a48c7b1f42358e152d9fb55e48d47aba69e0"
+    },
+    {
+      "module": 15,
+      "file": "15-estratigrafia-correlacao/15-estratigrafia-correlacao-aula-02-bioestratigrafia-e-fosseis-indice.md",
+      "page_id": "3c0e3d3930968171b756e9f98321f3fd",
+      "current_hash": "bf60a91d617d49a17091b339bd79e148957816ad8f819b00a6623277abc3ff48"
+    },
+    {
+      "module": 15,
+      "file": "15-estratigrafia-correlacao/15-estratigrafia-correlacao-aula-03-lito-bio-e-cronoestratigrafia.md",
+      "page_id": "3c0e3d393096819b8cf7f057ac8525f2",
+      "current_hash": "e6a866d82fd68707b45cba17e9c8274729fef69156eac47ddf282bff4ea96ec1"
+    },
+    {
+      "module": 15,
+      "file": "15-estratigrafia-correlacao/15-estratigrafia-correlacao-aula-04-gssp-procedimento-formal.md",
+      "page_id": "3c0e3d3930968171ac4cf1078676e0c9",
+      "current_hash": "5607a96c1244b91ea42d977e7ced6cc32fb273e00dde9b290cf0334e596ef7af"
+    },
+    {
+      "module": 15,
+      "file": "15-estratigrafia-correlacao/15-estratigrafia-correlacao-aula-05-estratigrafia-de-sequencias.md",
+      "page_id": "3c0e3d393096815c8d6beceb83b267a5",
+      "current_hash": "6624c1ec7f0b2099b93bbb54e3a8972b59e57f4f20ac39d79ce66207dd7e3c21"
+    },
+    {
+      "module": 15,
+      "file": "15-estratigrafia-correlacao/15-estratigrafia-correlacao-aula-06-correlacionando-secoes.md",
+      "page_id": "3c0e3d393096818eb3fcf517e0af6f8a",
+      "current_hash": "8d6d7266f279533b8b2c3764eaddf55ab794c9da352e5200a9e41dfffdab8777"
+    },
+    {
+      "module": 15,
+      "file": "15-estratigrafia-correlacao/15-estratigrafia-correlacao-modulo.md",
+      "page_id": "3a7e3d39309681068eabcca73b4d5141",
+      "current_hash": "46812fbb277d5b2f5292387782e096520884af8677b45141799adb73192148c0"
+    },
+    {
+      "module": 15,
+      "file": "15-estratigrafia-correlacao/15-estratigrafia-correlacao-revisao-didatica.md",
+      "page_id": "3c0e3d39309681548de6e5af83878cc7",
+      "current_hash": "7e713eac5175e45aa0435c116f31422635823fd7709e4cccac86ca7471731ab1"
+    },
+    {
+      "module": 16,
+      "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-auditoria.md",
+      "page_id": "3c0e3d39309681399bdbf9a81636d98c",
+      "current_hash": "d1e08dfafc0cc1ded585779e599c70907ba1ba8b8a4103bdbc1dd94c1c1cb66f"
+    },
+    {
+      "module": 16,
+      "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-aula-01-fossilizacao-e-tafonomia.md",
+      "page_id": "3c0e3d39309681fa868edfbfb2214e6f",
+      "current_hash": "c10840f66d4889b235ef6363ef6bac0aa4d133cc89bc12b63363c43862fdfeae"
+    },
+    {
+      "module": 16,
+      "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-aula-02-classificacao-biologica-ponte.md",
+      "page_id": "3c0e3d39309681f992ebffc8611329f3",
+      "current_hash": "b93a11185bebc61efb4b64fad27399786828f8625b58a6969ff1d14bcd38ec5a"
+    },
+    {
+      "module": 16,
+      "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-aula-03-grandes-ramos-da-vida.md",
+      "page_id": "3c0e3d39309681a2b75de13e98dd04df",
+      "current_hash": "66d4bf1c0f5ba12eaa6715710f085a8c442d2dae8473a5e9bcb5bb0de519331f"
+    },
+    {
+      "module": 16,
+      "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-aula-04-reconhecimento-de-grupos-fosseis.md",
+      "page_id": "3c0e3d393096810cb3fbe02a7be60b13",
+      "current_hash": "554cbff0823bf266210ef111436893013c38cd025d4fd6965581600139ce15d9"
+    },
+    {
+      "module": 16,
+      "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-aula-05-fosseis-e-bioestratigrafia.md",
+      "page_id": "3c0e3d39309681edaba7fbd2a5a11d4f",
+      "current_hash": "1c6b8d1defc51630db1accba4272728ab4baa3ceb687eed9a41697838c911e22"
+    },
+    {
+      "module": 16,
+      "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-aula-06-historia-da-vida-nos-eons.md",
+      "page_id": "3c0e3d39309681daaa70ee92eccbaf16",
+      "current_hash": "e57b36c7e5b2dccf5ff0d642b32478863b5d44e88329f13f1f8b050eb6b3d3b0"
+    },
+    {
+      "module": 16,
+      "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-aula-07-extincoes-em-massa.md",
+      "page_id": "3c0e3d3930968101a6ecee74ff614ff2",
+      "current_hash": "d1d8569ef9ee583bda7a3653fdf0a3e8d8e76893514aee0895c9a9abcb5b536a"
+    },
+    {
+      "module": 16,
+      "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-modulo.md",
+      "page_id": "3a7e3d39309681f5b3dacee6ebfef30d",
+      "current_hash": "fa6fb4efebf39cecd4dca5b9e422ad1234219ef5043d0145e683b66cc4a6f30e"
+    },
+    {
+      "module": 16,
+      "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-questionario-final.md",
+      "page_id": "3c0e3d393096811980c8c58f99103623",
+      "current_hash": "f7edeb5a03113abe1a9ed7433ea8ccef8a7af9316d426aa00b817da39db8d153"
+    },
+    {
+      "module": 16,
+      "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-questionario-parcial-1.md",
+      "page_id": "3c0e3d39309681dca8fcd574a8821abd",
+      "current_hash": "981be6da798deb3c4782c87ed2dfe96d4fe8fc7ddfc1da55b81fcaa9d5f57704"
+    },
+    {
+      "module": 16,
+      "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-questionario-parcial-2.md",
+      "page_id": "3c0e3d39309681af85dfff8fd397bfd1",
+      "current_hash": "63e69ee91947cd2570a6f687823f789ffdda22820cc409bb5724699a35753587"
+    },
+    {
+      "module": 16,
+      "file": "16-paleontologia-historia-vida/16-paleontologia-historia-vida-revisao-didatica.md",
+      "page_id": "3c0e3d39309681c78e34fed98fc25e71",
+      "current_hash": "3540381fba0647e37847dbbc3c2e10ab2abcea07946c4d7d1ca491c28b2a66d0"
+    }
+  ]
+}

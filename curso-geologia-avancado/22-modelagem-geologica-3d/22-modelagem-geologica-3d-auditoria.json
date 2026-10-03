@@ -1,0 +1,579 @@
+{
+ "schema_version": 1,
+ "target": {
+  "kind": "module",
+  "path": "22-modelagem-geologica-3d",
+  "module_id": "22",
+  "course_id": "curso-geologia-avancado"
+ },
+ "mode": "audit-and-fix",
+ "depth": "full",
+ "audited_at": "2026-09-19",
+ "fixed_at": "2026-09-19",
+ "verdict": "aprovado",
+ "verdict_note": "Auditoria e correcao na mesma data (levantamento sobre as cinco aulas em conjunto, mais o hub do modulo; aplicacao cirurgica em seguida). Os 13 achados numerados (1 vermelho, 5 laranjas, 7 amarelos) foram TODOS CORRIGIDOS, com propagacao interna para recaps, tabelas de sintese, exemplo trabalhado da a04, listas de Fontes e blocos de alegacoes auditaveis. NENHUM ACHADO BRANCO foi levantado: o modulo e qualitativo, mas as afirmacoes que faz sao de classificacao e de atribuicao de metodo, nao de posicoes em disputa na literatura. 0 vermelhos e 0 laranjas em aberto: GATE LIBERADO para questionario e flashcards, observadas as restricoes em assessment_gate. Nenhum material derivado existia (sem questionario, sem baralho, sem glossario), de modo que nao houve propagacao externa e NAO HA CARD JA IMPORTADO NO ANKI A CORRIGIR A MAO. A a05 foi auditada e NAO precisou de edicao: as correcoes da a04 a tornaram consistente. ACRESCIMO DA PASSAGEM PONTUAL DE 2026-09-19 (escopo de um claim so, auditoria NAO reaberta): GEOMOD3D-M22-A05-ASSIMETRIATESTE-007, emitido pela revisao didatica apos esta auditoria e ate entao NAO VERIFICADO, foi auditado. Nucleo aprovado como azul B22; duas correcoes aplicadas na mesma passagem (laranja 14 GEOMOD3D-M22-A05-ASSIMETRIAUNIFORME-010 e amarelo 15 GEOMOD3D-M22-A05-ATRIBUICAOA03-011), nenhuma em aberto. Campo risk mantido como 'interpretacao' por decisao explicita. Contagens passam a 1 vermelho, 6 laranjas, 8 amarelos, 22 azuis, 0 brancos; 15 achados numerados; 29 alegacoes rastreadas e ZERO nao auditadas. GATE CONTINUA LIBERADO, agora com sete restricoes ao gerador. Unico arquivo de aula alterado: a atual aula-05.",
+ "summary": {
+  "red": 1,
+  "orange": 6,
+  "yellow": 8,
+  "blue": 22,
+  "white": 0,
+  "red_open": 0,
+  "orange_open": 0,
+  "yellow_open": 0,
+  "white_open": 0,
+  "red_fixed": 1,
+  "orange_fixed": 6,
+  "yellow_fixed": 8,
+  "numbered_findings": 15,
+  "declared_claims": 20,
+  "claims_raised_by_audit": 9,
+  "claims_tracked": 29,
+  "unaudited_claims": 0
+ },
+ "dominant_pattern": "A VERSAO QUE CIRCULA, NAO A FONTE QUE SE CITA. Em cinco dos seis achados mais caros, a aula enuncia o modelo de manual que todo mundo repete e credita a afirmacao a uma fonte moderna que diz outra coisa. Casos mais nitidos: (1) ZONEAMENTO DE ALTERACAO DE PORFIRO - a aula escreve os aneis concentricos potassica/filica/argilica/propilitica e cita Sillitoe (2010), mas esse e o modelo de LOWELL E GUILBERT (1970); Sillitoe 2010 descreve zoneamento EMPILHADO VERTICALMENTE com propilitica distal e profunda, e e por isso que a sintese de 2010 existe. (2) GEOMETRIA DO PORFIRO - a aula escreve 'equidimensional a conica' e cita Sillitoe (2010), que abre dizendo que os sistemas sao verticalmente alongados (>3 km). (3) TRATAMENTO DE FALHA - a aula descreve o fluxo de blocos de falha do Leapfrog como 'o tratamento padrao', cita Laurent et al. (2016), que e um artigo sobre DOBRAS, e a fonte que de fato trata de falhas no campo potencial (Calcagno et al. 2008) descreve o mecanismo OPOSTO. COROLARIO PARA OS MODULOS SEGUINTES: quando a aula for qualitativa e o autor estiver em terreno familiar, a ATRIBUICAO DE FONTE e o ponto de falha, nao o conteudo - o conteudo soa certo porque e o que circula, e a fonte e o que denuncia que ele nao e mais o consenso. PADRAO SECUNDARIO: o modulo consumiu um pre-requisito que o curso nunca ensinou (cokrigagem, laranja 6), achado que so aparece auditando contra os arquivos do proprio curso.",
+ "cross_module_check": "Checado contra os modulos 19, 20 e 21, citados como pre-requisito. M19 a01 (sistemas minerais, paradoxo resolucao x profundidade) e M19 a06 (inversao, ambiguidade, regularizacao) EXISTEM e cobrem o que a a03 e a a04 deste modulo lhes atribuem - referencias cruzadas corretas. M21 a06 cobre areas de influencia, triangulacao de Delaunay, wireframes e dominio rigido/suave, tudo o que a a01, a a02 e a a03 deste modulo lhe atribuem - referencias cruzadas corretas. M20 NAO cobre cokrigagem e a declara explicitamente fora de escopo: unica referencia cruzada quebrada do modulo, corrigida pelo achado laranja 6. RISCO TRANSVERSAL REGISTRADO: o achado laranja 4 (geometria de Ni-Cu-EGP) toca o Modulo 33 (Intrusoes acamadadas), ainda nao escrito - a correcao aplicada aqui ja deixa este modulo consistente com o tratamento que o M33 devera dar aos recifes de EGP (Merensky, UG2, J-M) como corpos estratiformes.",
+ "findings": [
+  {
+   "claim_id": "GEOMOD3D-M22-A04-GEOMETRIAESTRATIFORME-003",
+   "severity": "red",
+   "nature": "erro_factual",
+   "subnature": "classificacao_errada",
+   "lesson": "a04",
+   "location": "Secao 'Depositos estratiformes e estratabound'; propagado para a tabela de sintese e o Recap",
+   "written": "Depositos ESTRATIFORMES (concordantes com o acamamento, como muitos depositos sedimentares de cobre ou de chumbo-zinco tipo Mississippi Valley) e ESTRATABOUND (confinados a uma unidade estratigrafica especifica, mas nao necessariamente perfeitamente concordantes, como muitos depositos vulcanogenicos macicos de sulfetos, VMS)...",
+   "problem": "A frase define corretamente os dois termos e entao COLOCA O MVT DO LADO ERRADO. Depositos tipo Mississippi Valley sao o exemplo de livro-texto de ESTRATABOUND: a literatura de referencia e explicita em que eles sao 'discordant on a deposit scale but stratabound on a district scale', com minerio alojado em brechas de colapso, cavidades de dissolucao carstica e corpos que cortam dezenas de metros da sucessao carbonatica - o oposto de concordante com o acamamento. POR QUE E VERMELHO E NAO LARANJA: nao e imprecisao de grau; a aula constroi na mesma frase uma distincao terminologica formal e aloca o exemplo na categoria errada dessa distincao. Um flashcard gerado sobre a frase ensinaria 'MVT = estratiforme', que e falso, e contaminaria o Modulo 42 (avaliacao de recursos), que retoma tipologia de jazida.",
+   "correction_applied": "Secao reescrita para abrir com a distincao terminologica explicita, realocar o MVT em estratabound com a justificativa geologica, manter o cobre sedimentar (Kupferschiefer, Cinturao do Cobre da Zambia) como exemplo de estratiforme e acrescentar que o VMS e estratabound tambem pela zona de stockwork alimentadora discordante. Tabela de sintese e Recap sincronizados.",
+   "source": "Leach, D. L. & Sangster, D. F. (1993), 'Mississippi Valley-type lead-zinc deposits', em Kirkham, Sinclair, Thorpe & Duke (eds.), Mineral Deposit Modeling, Geological Association of Canada Special Paper 40, 289-314",
+   "source_level": "revisada_por_pares",
+   "confidence": "confirmado",
+   "affected_files": [
+    "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-04-geometrias-depositos-estrategia-modelagem.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-19",
+   "blocks_gate": false
+  },
+  {
+   "claim_id": "GEOMOD3D-M22-A04-GEOMETRIAPORFIRO-002",
+   "severity": "orange",
+   "nature": "impreciso",
+   "subnature": "inconsistencia_interna",
+   "lesson": "a04",
+   "location": "Secao 'Depositos disseminados e em stockwork: porfiros'; propagado para tabela, Recap e Exemplo trabalhado",
+   "written": "A geometria resultante e aproximadamente EQUIDIMENSIONAL A CONICA (frequentemente descrita como um 'funil' invertido, mais largo perto da superficie e afunilando em profundidade), com dimensoes que podem chegar a centenas de metros a poucos quilometros de diametro.",
+   "problem": "Tres defeitos empilhados. (a) NAO E A DESCRICAO DA FONTE CITADA: Sillitoe (2010) caracteriza os sistemas como organizados por stocks e enxames de diques 'vertically elongate (>3 km)' e afirma que 'ore-zone geometries depend mainly on the overall form of the host stock or dike complex', com stocks cilindricos hospedando corpos cilindricos; 'equidimensional' contradiz o alongamento vertical que e a primeira coisa que a fonte diz. (b) 'FUNIL INVERTIDO' CONTRADIZ A PROPRIA GLOSA: um funil invertido e estreito em cima e largo embaixo, e a glosa descreve o contrario. (c) CONTRADICAO INTERNA COM O MODULO: o exemplo trabalhado da propria a04 e o Estudo de caso 2 da a05 descrevem um porfiro de 600 m de diametro descendo a 1.000 m - verticalmente alongado.",
+   "correction_applied": "Paragrafo reescrito para ancorar a forma do corpo na forma da intrusao hospedeira, afirmar o alongamento vertical (>3 km) e restringir 'aproximadamente equidimensional' A PLANTA; 'funil invertido' substituido por casco de minerio em forma de sino ou taca invertida encapando um nucleo de teor mais baixo; acrescentado o erro a evitar, amarrado ao exemplo trabalhado, cuja frase 'volume equidimensional de 600 m de diametro' foi ajustada por coerencia local.",
+   "source": "Sillitoe, R. H. (2010), 'Porphyry copper systems', Economic Geology, 105(1), 3-41, DOI 10.2113/gsecongeo.105.1.3",
+   "source_level": "revisada_por_pares",
+   "confidence": "confirmado",
+   "affected_files": [
+    "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-04-geometrias-depositos-estrategia-modelagem.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-19",
+   "blocks_gate": false
+  },
+  {
+   "claim_id": "GEOMOD3D-M22-A04-ZONEAMENTOPORFIRO-005",
+   "severity": "orange",
+   "nature": "desatualizacao",
+   "subnature": "atribuicao_de_fonte_errada",
+   "lesson": "a04",
+   "location": "Secao 'Depositos disseminados e em stockwork: porfiros'; propagado para o Recap e para Fontes",
+   "written": "usando os halos de alteracao hidrotermal concentricos caracteristicos de porfiros - potassica no nucleo, seguida de filica, argilica e propilitica em direcao as bordas - como dominio geometrico auxiliar",
+   "problem": "Essa e literalmente a sequencia coaxial de LOWELL E GUILBERT (1970), construida sobre San Manuel-Kalamazoo. A fonte citada pela aula, SILLITOE (2010), descreve o zoneamento de outra forma: sequencia principal EMPILHADA VERTICALMENTE, de baixo para cima - sodico-calcica, potassica, clorita-sericita, sericitica e argilica avancada -, com a PROPILITICA desenvolvida DISTALMENTE em niveis profundos e a cloritica distalmente em niveis rasos; a argilica avancada forma um lithocap raso que pode exceder 1 km de espessura, e em sistemas telescopados os tipos rasos se sobrepoem aos profundos. NAO E NOTA DE RODAPE HISTORICA: a aula usa esses halos como DOMINIO GEOMETRICO AUXILIAR DE MODELAGEM, e quem monta dominios como aneis concentricos em planta interpola superficies com a orientacao errada num sistema cujo zoneamento real e sobretudo vertical.",
+   "correction_applied": "Acrescentada ressalva nomeada apresentando Lowell e Guilbert (1970) como modelo historico e Sillitoe (2010) como descricao vigente, fechando com a consequencia pratica para construcao de dominios. O trecho no corpo original foi reduzido a 'halos de alteracao hidrotermal caracteristicos de porfiros', sem a sequencia. Recap e Fontes sincronizados.",
+   "source": "Sillitoe, R. H. (2010), Economic Geology, 105(1), 3-41 ('centrally from the bottom upward, several of sodic-calcic, potassic, chlorite-sericite, sericitic, and advanced argillic zones. Chloritic and propylitic alteration develop distally at shallow and deeper levels, respectively'); Lowell, J. D. & Guilbert, J. M. (1970), Economic Geology, 65(4), 373-408, DOI 10.2113/gsecongeo.65.4.373",
+   "source_level": "revisada_por_pares",
+   "confidence": "confirmado",
+   "affected_files": [
+    "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-04-geometrias-depositos-estrategia-modelagem.md",
+    "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-05-modelo-3d-teste-interpretacao-metalogenetica.md"
+   ],
+   "outcome": "corrigido_com_propagacao_estendida_em_2026-09-19",
+   "applied_at": "2026-09-19",
+   "blocks_gate": false,
+   "propagation_note": "PROPAGACAO FALTANTE, ENCONTRADA PELA REVISAO DIDATICA NA MESMA DATA E CORRIGIDA. A correcao original foi aplicada na secao sobre porfiros, na tabela de sintese e no Recap, mas NAO na secao metalogenetica da mesma aula, que continuava dizendo 'o zoneamento CONCENTRICO de alteracao hidrotermal num porfiro, discutido acima' e 'resfriamento e queda de pressao RADIALMENTE decrescentes a partir de um corpo intrusivo central' - de modo que a mesma aula afirmava as duas coisas em secoes diferentes. O trecho foi corrigido na atual Aula 05 para a descricao ja verificada contra Sillitoe (2010): zoneamento predominantemente vertical, assinatura de um mecanismo de deposicao governado pela evolucao vertical do fluido ao subir e resfriar, nao por afastamento radial. NENHUM FATO NOVO foi introduzido. Ver DID-M22-A05-ZONEAMENTORESIDUAL-004."
+  },
+  {
+   "claim_id": "GEOMOD3D-M22-A04-NICUEGPGEOMETRIA-006",
+   "severity": "orange",
+   "nature": "confusao_de_escopo",
+   "lesson": "a04",
+   "location": "Secao 'Depositos macicos e em pipe: magmaticos e de brecha'; propagado para tabela e Recap",
+   "written": "Um quarto grupo geometrico compreende corpos aproximadamente EQUIDIMENSIONAIS ou em PIPE (chamine subvertical), caracteristicos de depositos magmaticos de niquel-cobre-EGP (elementos do grupo da platina) associados a intrusoes maficas-ultramaficas...",
+   "problem": "A afirmacao e verdadeira para os depositos de CONDUTO (chonolitos e diques em lamina - Noril'sk, Voisey's Bay, Jinchuan) e de CONTATO BASAL, e FALSA para os depositos de RECIFE, que sao exatamente os depositos de EGP arquetipicos de intrusoes maficas-ultramaficas acamadadas. Merensky e UG2 no Bushveld e J-M no Stillwater sao corpos ESTRATIFORMES, com espessura de centimetros a poucos metros e continuidade lateral de dezenas a centenas de quilometros (o J-M tem 1 a 8 m e foi rastreado por 40 km) - geometria OPOSTA a da familia em que a aula os colocou, e estrategia de modelagem oposta (superficie estratigrafica, nao solido compacto). Importa duplamente porque o MODULO 33 DESTE CURSO E 'INTRUSOES ACAMADADAS': deixar passar aqui cria contradicao transversal.",
+   "correction_applied": "Secao reescrita para nomear os subtipos que pertencem a familia pipe (conduto e contato basal, com exemplos) e acrescentado paragrafo que realoca os depositos de recife na familia estratiforme, com as dimensoes corretas, fechando com o principio de que a classe genetica nao determina a geometria sozinha - o mecanismo de alojamento determina. Tabela e Recap sincronizados.",
+   "source": "Naldrett, A. J. (2004), Magmatic Sulfide Deposits: Geology, Geochemistry and Exploration, Springer Berlin Heidelberg, DOI 10.1007/978-3-662-08444-1; Zientek, M. L. (2012), 'Magmatic ore deposits in layered intrusions - Descriptive model for reef-type PGE and contact-type Cu-Ni-PGE deposits', U.S. Geological Survey Open-File Report 2012-1010",
+   "source_level": "obra_de_referencia_e_servico_geologico",
+   "confidence": "confirmado",
+   "affected_files": [
+    "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-04-geometrias-depositos-estrategia-modelagem.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-19",
+   "blocks_gate": false
+  },
+  {
+   "claim_id": "GEOMOD3D-M22-A03-FALHASCOMOPARTICAO-001",
+   "severity": "orange",
+   "nature": "impreciso",
+   "subnature": "certeza_indevida",
+   "lesson": "a03",
+   "location": "Secao 'Atributos estruturais: falhas, dobras e a orientacao como dado'; propagado para o Recap e para Fontes",
+   "written": "O tratamento PADRAO de uma falha num fluxo de modelagem implicita segue uma logica de duas etapas: 1. A falha e modelada primeiro [...] 2. O campo potencial das unidades estratigraficas e entao calculado separadamente em cada bloco delimitado pela falha, com um deslocamento (rejeito) aplicado entre os blocos [...] e depois sao costurados de volta considerando o deslocamento relativo.",
+   "problem": "Dois defeitos. (a) NAO E 'O PADRAO', E UMA DE DUAS FAMILIAS. A descricao corresponde ao fluxo de BLOCOS DE FALHA de pacotes comerciais de mineracao (Leapfrog e outros). A outra familia, e a que esta na fonte canonica do proprio metodo do campo potencial ensinado na a02, e a de CALCAGNO ET AL. (2008) no GeoModeller: 'faults are modelled using the same method by inserting discontinuities in the potential field' - o campo continua sendo UM SO sobre o volume inteiro, e a falha interrompe a correlacao espacial atraves do plano. Apresentar a primeira como 'o padrao' contradiz diretamente a fonte que a a02 usa para fundamentar o metodo. (b) O 'REJEITO APLICADO E DEPOIS COSTURADO DE VOLTA' DESCREVE UM TERCEIRO MECANISMO, de campos de deslocamento de falha, que nenhuma das duas familias faz: no fluxo de blocos, cada bloco e modelado com os seus proprios dados e o deslocamento e CONSEQUENCIA, nao parametro de entrada.",
+   "correction_applied": "Secao reescrita mantendo o que e comum as duas familias (a falha e sempre modelada antes), apresentando as duas familias numeradas com a sua fonte e o seu mecanismo, removendo a afirmacao sobre rejeito aplicado e costura, e acrescentando por que a distincao importa para quem AUDITA um modelo (na familia de blocos, um bloco com poucos furos fica muito pior que o vizinho sem que nada no modelo denuncie isso), o que amarra o ponto ao fio condutor de incerteza da a05. Recap e Fontes sincronizados.",
+   "source": "Calcagno, P., Chiles, J. P., Courrioux, G. & Guillen, A. (2008), Physics of the Earth and Planetary Interiors, 171(1-4), 147-157; Caumon, G. et al. (2009), Mathematical Geosciences, 41(8), 927-945; documentacao publica da Seequent sobre modelagem de sistemas de falha e blocos de falha no Leapfrog",
+   "source_level": "revisada_por_pares_e_documentacao_de_fornecedor",
+   "confidence": "confirmado",
+   "affected_files": [
+    "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-03-atributos-geologicos-geofisicos-inversao.md",
+    "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-02-dados-algoritmos-modelagem-explicita-implicita.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-19",
+   "blocks_gate": false
+  },
+  {
+   "claim_id": "GEOMOD3D-M22-A02-PREREQCOKRIGAGEM-005",
+   "severity": "orange",
+   "nature": "inconsistencia_interna",
+   "subnature": "salto_de_prerequisito",
+   "lesson": "a02",
+   "location": "Linha de pre-requisito e secao 'A ligacao com a geoestatistica'; propagado para o Recap",
+   "written": "Pre-requisito: [...] e Modulo 20 (krigagem e COKRIGAGEM - o metodo do campo potencial desta aula e, na pratica, uma cokrigagem aplicada a um problema geometrico).",
+   "problem": "O Modulo 20 tem cinco aulas (preparacao de dados, variaveis regionalizadas, suporte/relacao de Krige/anisotropia, variografia, krigagem simples e ordinaria) e NAO ENSINA COKRIGAGEM EM NENHUMA DELAS. Mais que isso: a Aula 01 do Modulo 20 diz, em texto literal e no bloco de alegacoes auditaveis (GEOEST-M20-A01-CORRELACAOESPACIAL-005), que explorar a relacao entre duas variaveis 'e objeto da cokrigagem, FORA DO ESCOPO DESTE MODULO'. A a02 deste modulo entao apoia o conceito central da aula - a equivalencia do campo potencial com uma cokrigagem - num pre-requisito que o curso declarou nao ter dado, e o aluno chega na secao 'A ligacao com a geoestatistica' sem a definicao de cokrigagem em lugar nenhum.",
+   "correction_applied": "Linha de pre-requisito corrigida para citar do Modulo 20 o que ele de fato ensina (variografia, covariancia espacial e krigagem) e passou a DECLARAR O DEGRAU EXPLICITAMENTE; a secao 'A ligacao com a geoestatistica' recebeu a definicao de cokrigagem que faltava, seguida da observacao de que no campo potencial as duas variaveis nao sao independentes (uma e a derivada da outra) e a covariancia cruzada decorre da covariancia do potencial; Recap sincronizado.",
+   "source": "Verificacao interna contra 20-geoestatistica/20-geoestatistica-aula-01-preparacao-dados-estatistica-descritiva.md (claim GEOEST-M20-A01-CORRELACAOESPACIAL-005) e contra a lista de aulas do Modulo 20; definicao de cokrigagem: Chiles & Delfiner (2012), Geostatistics: Modeling Spatial Uncertainty, 2a ed., Wiley, cap. 5; Goovaerts (1997), Geostatistics for Natural Resources Evaluation, Oxford University Press, cap. 6",
+   "source_level": "interna_e_obra_de_referencia",
+   "confidence": "confirmado",
+   "affected_files": [
+    "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-02-dados-algoritmos-modelagem-explicita-implicita.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-19",
+   "blocks_gate": false
+  },
+  {
+   "claim_id": "GEOMOD3D-M22-FONTES-CALCAGNO2008-007",
+   "severity": "yellow",
+   "nature": "referencia_bibliografica_incorreta",
+   "lesson": "a02",
+   "location": "Lista de Fontes da a02 e source das alegacoes -CAMPOPOTENCIAL-002 e -ALGORITMOSALTERNATIVOS-004",
+   "written": "Geological modelling from field data and geological knowledge: Part I. MODELLING METHOD COUPLED TO A POTENTIAL FIELD",
+   "problem": "O titulo real e 'Geological modelling from field data and geological knowledge: Part I. Modelling method COUPLING 3D POTENTIAL-FIELD INTERPOLATION AND GEOLOGICAL RULES'. O restante da referencia (autores, periodico, volume, fasciculo, paginas 147-157) esta correto. A parte suprimida - 'and geological rules' - nao e decorativa: aponta para a metade do artigo que trata de regras geologicas e relacoes de falha, que e a metade que sustenta a correcao do achado laranja 5.",
+   "correction_applied": "Titulo corrigido nas duas ocorrencias e a glosa ampliada para mencionar o tratamento de falhas; a referencia foi acrescentada tambem a a03, onde passou a ser a fonte primaria do achado laranja 5.",
+   "source": "Registro do artigo em ScienceDirect (Physics of the Earth and Planetary Interiors, 171(1-4), 147-157)",
+   "source_level": "normativa",
+   "confidence": "confirmado",
+   "affected_files": [
+    "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-02-dados-algoritmos-modelagem-explicita-implicita.md",
+    "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-03-atributos-geologicos-geofisicos-inversao.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-19",
+   "blocks_gate": false
+  },
+  {
+   "claim_id": "GEOMOD3D-M22-FONTES-LAURENT2016-008",
+   "severity": "yellow",
+   "nature": "atribuicao_de_fonte_errada",
+   "lesson": "a02+a03",
+   "location": "a02 secao 'Alternativas ao campo potencial' e Fontes; a03 source da alegacao -FALHASCOMOPARTICAO-001 e Fontes",
+   "written": "Metodos mais recentes (por exemplo, Laurent et al., 2016) estendem o campo potencial para tratar explicitamente dobras superpostas E REDES DE FALHAS COMPLEXAS",
+   "problem": "Laurent et al. (2016), 'Implicit modeling of folds and overprinting deformation', EPSL 456, 26-38, trata de DOBRAS E DEFORMACAO SUPERPOSTA, e nao de redes de falha. O artigo constroi um referencial de dobra (fold frame) a partir de elementos estruturais observaveis e descreve a geometria dobrada por angulos de rotacao expressos como funcoes 1D das coordenadas do referencial. A citacao errada aparece em DUAS AULAS e, na a03, era a UNICA fonte oferecida para uma afirmacao que o achado laranja 5 mostrou estar ela mesma errada - a fonte falsa mascarava o erro de conteudo.",
+   "correction_applied": "Em a02 a frase foi dividida: Laurent et al. (2016) para dobras e deformacao superposta, com a descricao correta do mecanismo, e falhas encaminhadas a Calcagno et al. (2008) e Caumon et al. (2009) com remissao a Aula 03; a glosa em Fontes passou a dizer em texto que o artigo NAO trata de redes de falha, para que a correcao nao se perca numa reescrita futura. Em a03 o source da alegacao foi substituido pelas fontes corretas e a referencia Laurent recebeu a mesma glosa.",
+   "source": "Laurent, G., Ailleres, L., Grose, L., Caumon, G., Jessell, M. & Armit, R. (2016), Earth and Planetary Science Letters, 456, 26-38, DOI 10.1016/j.epsl.2016.09.040",
+   "source_level": "revisada_por_pares",
+   "confidence": "confirmado",
+   "affected_files": [
+    "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-02-dados-algoritmos-modelagem-explicita-implicita.md",
+    "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-03-atributos-geologicos-geofisicos-inversao.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-19",
+   "blocks_gate": false
+  },
+  {
+   "claim_id": "GEOMOD3D-M22-A01-SKUAVENDOR-005",
+   "severity": "yellow",
+   "nature": "desatualizacao",
+   "lesson": "a01",
+   "location": "Secao 'Panorama de softwares comerciais e livres' e bloco de alegacoes",
+   "written": "SKUA-GOCAD (Emerson, produto herdado da Paradigm, adquirida pela Emerson em 2019)",
+   "problem": "A aquisicao da Paradigm pela Emerson em 2019 esta correta, mas nao e o estado atual. Em 16 DE MAIO DE 2022, na conclusao da transacao entre a Emerson e a AspenTech, a Emerson transferiu a AspenTech os negocios OSI e GEOLOGICAL SIMULATION SOFTWARE, do qual o SKUA-GOCAD faz parte. O produto e hoje comercializado como ASPEN SKUA, na suite Subsurface Science & Engineering da AspenTech. Numa aula cujo objetivo declarado e mapear o panorama de softwares, o fornecedor errado e o dado que envelhece mais rapido e que o aluno vai checar primeiro.",
+   "correction_applied": "Entrada reescrita com a cadeia completa e datada (Paradigm -> Emerson 2019 -> AspenTech 2022, produto hoje Aspen SKUA na suite Subsurface Science & Engineering), preservando a mencao a Emerson porque e o nome sob o qual o produto circulou por tres anos e ainda aparece na literatura. Nova alegacao auditavel criada e referencia acrescentada em Fontes. O Recap cita 'SKUA-GOCAD' sem fornecedor e foi verificado como correto, sem alteracao.",
+   "source": "AspenTech (2022), comunicado 'AspenTech Completes Emerson Transaction', 16 de maio de 2022; pagina de produto Aspen SKUA (AspenTech)",
+   "source_level": "normativa",
+   "confidence": "confirmado",
+   "affected_files": [
+    "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-01-definicoes-usos-vantagens-limitacoes-softwares.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-19",
+   "blocks_gate": false
+  },
+  {
+   "claim_id": "GEOMOD3D-M22-A01-GOCADORIGEM-003",
+   "severity": "yellow",
+   "nature": "valor_apresentado_incorretamente",
+   "lesson": "a01",
+   "location": "Secao 'Panorama de softwares comerciais e livres' e bloco de alegacoes",
+   "written": "GOCAD nasceu como projeto academico na Ecole Nationale Superieure de Geologie, em Nancy, na Franca, NOS ANOS 1990",
+   "problem": "O projeto Gocad foi INICIADO EM 1989 por Jean-Laurent Mallet e seu grupo de pesquisa; a publicacao que a aula cita (Mallet, 1992) e posterior ao inicio do projeto, e o metodo de interpolacao suave discreta que o sustenta foi formulado em 1989. A instituicao (ENSG, Nancy) esta correta.",
+   "correction_applied": "Data corrigida para 'iniciado em 1989', com a atribuicao nominal a Mallet e seu grupo acrescentada, e a alegacao auditavel atualizada.",
+   "source": "Pagina institucional do RING Team (Universite de Lorraine), historico do projeto Gocad; Mallet, J.-L. (1989), 'Discrete smooth interpolation', ACM Transactions on Graphics, 8(2), 121-144",
+   "source_level": "institucional_e_revisada_por_pares",
+   "confidence": "confirmado",
+   "affected_files": [
+    "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-01-definicoes-usos-vantagens-limitacoes-softwares.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-19",
+   "blocks_gate": false
+  },
+  {
+   "claim_id": "GEOMOD3D-M22-A03-FOLDFRAME-005",
+   "severity": "yellow",
+   "nature": "atribuicao_de_fonte_errada",
+   "subnature": "parametro_inexistente_na_formulacao",
+   "lesson": "a03",
+   "location": "Secao 'Atributos estruturais: falhas, dobras e a orientacao como dado'; propagado para o Recap",
+   "written": "incorporando explicitamente a geometria da dobra (eixo, plano axial, VERGENCIA) como estrutura adicional do campo",
+   "problem": "Eixo e superficie axial estao certos; VERGENCIA NAO E UM ELEMENTO DO REFERENCIAL DE DOBRA de Laurent et al. (2016). A formulacao constroi o fold frame sobre a superficie axial e o eixo da dobra e descreve a geometria dobrada por ANGULOS DE ROTACAO - o do eixo de dobra dentro da superficie axial e o da foliacao dobrada em relacao a ela -, expressos como funcoes 1D das coordenadas do referencial. Substituir os angulos de rotacao por 'vergencia' troca o parametro que o metodo efetivamente ajusta por um descritor estrutural qualitativo que ele nao usa.",
+   "correction_applied": "Lista substituida pela descricao correta (referencial de dobra sobre superficie axial e eixo da dobra, geometria descrita por angulos de rotacao, com os dois angulos nomeados). Nova alegacao auditavel criada registrando explicitamente que vergencia nao e um dos elementos. Recap sincronizado.",
+   "source": "Laurent, G. et al. (2016), Earth and Planetary Science Letters, 456, 26-38, DOI 10.1016/j.epsl.2016.09.040",
+   "source_level": "revisada_por_pares",
+   "confidence": "confirmado",
+   "affected_files": [
+    "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-03-atributos-geologicos-geofisicos-inversao.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-19",
+   "blocks_gate": false
+  },
+  {
+   "claim_id": "GEOMOD3D-M22-FONTES-MALLET1992-009",
+   "severity": "yellow",
+   "nature": "referencia_bibliografica_incorreta",
+   "lesson": "a01+a02",
+   "location": "Listas de Fontes da a01 e da a02 e blocos de alegacoes correspondentes",
+   "written": "em Turner, A. K. (ed.), Three-Dimensional MODELLING with Geoscientific Information Systems, NATO ASI Series, Kluwer",
+   "problem": "O titulo do volume usa a grafia americana, 'Three-Dimensional MODELING with Geoscientific Information Systems'; a referencia e NATO ASI Series vol. 354 e o capitulo ocupa as paginas 123-141. Alem disso, as duas aulas creditam a Mallet (1992) a FORMULACAO da interpolacao suave discreta: o capitulo de 1992 descreve o programa GOCAD e usa o DSI, mas o metodo e formulado em MALLET (1989), ACM Transactions on Graphics, 8(2), 121-144. Um aluno que fosse procurar a matematica do DSI no capitulo de 1992 nao a encontraria na forma original.",
+   "correction_applied": "Referencia corrigida nas duas aulas (grafia do titulo, volume da serie, intervalo de paginas, editora Kluwer/Springer Dordrecht) e a fonte primaria de 1989 acrescentada como remissao, nas Fontes e nos blocos de alegacoes.",
+   "source": "Registro do capitulo em Springer Nature Link, DOI 10.1007/978-94-011-2556-7_11",
+   "source_level": "normativa",
+   "confidence": "confirmado",
+   "affected_files": [
+    "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-01-definicoes-usos-vantagens-limitacoes-softwares.md",
+    "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-02-dados-algoritmos-modelagem-explicita-implicita.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-19",
+   "blocks_gate": false
+  },
+  {
+   "claim_id": "GEOMOD3D-M22-A03-TERMODOMINIO-006",
+   "severity": "yellow",
+   "nature": "nomenclatura",
+   "subnature": "grafia_de_termo_definido",
+   "lesson": "a03",
+   "location": "Secao 'Atributos geoquimicos: do dominio geometrico ao bloco populado'",
+   "written": "funciona como um CODIGO DE DOMINIO GEOLOGICO RIGIDO OU SUAVE (grafado 'dominio', sem acento, em negrito)",
+   "problem": "'dominio' sem acento num trecho em NEGRITO que introduz formalmente a terminologia herdada do Modulo 21 ('dominio rigido / dominio suave'). O termo destacado e exatamente o que o gerador de flashcards le como frente de card e o que o gerador de questionarios usa como chave de resposta - um termo destacado com grafia errada se propaga direto para o material derivado.",
+   "correction_applied": "Grafia corrigida para 'dominio' com acento. As demais ocorrencias do termo nas cinco aulas foram checadas e estao corretas.",
+   "source": "Consistencia interna com 21-modelagem-geoestatistica-depositos-minerais-aula-06-modelagem-deposito-wireframes-delaunay.md, onde o termo e definido",
+   "source_level": "interna",
+   "confidence": "confirmado",
+   "affected_files": [
+    "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-03-atributos-geologicos-geofisicos-inversao.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-19",
+   "blocks_gate": false
+  },
+  {
+   "claim_id": "GEOMOD3D-M22-A05-ASSIMETRIAUNIFORME-010",
+   "severity": "orange",
+   "nature": "inconsistencia_interna",
+   "subnature": "confusao_de_escopo",
+   "lesson": "a05",
+   "raised_in_pass": "passagem-pontual-2026-09-19",
+   "location": "Secao 'O que cada teste pode e nao pode concluir'; propagado para o Recap e para o exemplo trabalhado (a)",
+   "written": "nenhum dos tres testes confirma uma hipotese metalogenetica. Todos os tres tem a mesma assimetria logica - sao bons em produzir evidencia CONTRA uma hipotese, e fracos em produzir evidencia a favor. // A razao e [...]: a coincidencia geometrica entre duas coisas e facil de obter e dificil de interpretar.",
+   "problem": "A DIRECAO da assimetria esta certa para os tres, mas a MEDIDA e a RAZAO nao. Os testes 1 (coerencia corpo x caminho de transporte) e 3 (zoneamento x mecanismo de deposicao) conferem a hipotese contra dado JA OBSERVADO: ali a coincidencia geometrica e de fato barata, porque o corpo ja esta mapeado e varias hipoteses concorrentes o acomodam. O teste 2 (extrapolacao para alvo NAO PERFURADO) e de outra natureza: nao ha coincidencia a colher, porque nao ha dado no alvo - a hipotese e obrigada a PREVER. Pelo proprio criterio que a aula invoca, o acerto de uma previsao arriscada, improvavel diante do conhecimento previo e que poderia conceivelmente ter falhado, e justamente o caso em que a evidencia a favor CONTA. Alem disso a aula SE CONTRADIZ: duas secoes antes ela afirma que o teste 2 'tem uma propriedade que os outros dois nao tem [...] e caro de errar e barato de checar' e que 'e essa possibilidade de ter dado errado que da valor ao teste' - que e a definicao de previsao arriscada. CONSEQUENCIA PRATICA (e o que torna isto laranja e nao cosmetico): um aluno que internalize 'extrapolacao nao produz evidencia a favor' perde o motivo pelo qual a geracao de alvos e o produto mais valioso do modelo 3D em exploracao, e passa a ler um furo de descoberta em alvo previsto como se fosse sorte.",
+   "correction_applied": "Secao reescrita em tres paragrafos: (1) enunciado da assimetria como NAO UNIFORME; (2) testes 1 e 3 com a justificativa da coincidencia barata, que so a eles se aplica; (3) teste 2 tratado a parte como previsao que poderia ter falhado, com a ressalva de que continua nao sendo prova porque outra hipotese pode prever o mesmo alvo. Recap sincronizado. Exemplo trabalhado (a) passou a dizer 'pela assimetria DO TESTE 1 discutida acima'. Fontes da aula ganharam Wei et al. (2026).",
+   "source": "Wei, X., Yin, Z., Bonner, W. & Caers, J. (2026), 'Falsification of geological hypotheses using drillholes and geophysics', Surveys in Geophysics 47, 289-315, DOI 10.1007/s10712-026-09936-9 - o dado independente entra como instrumento de FALSIFICACAO, nao de confirmacao, e o artigo testa hipoteses de forma de corpo de sulfeto magmatico de Ni-Cu, o mesmo tipo de objeto que a aula discute. Criterio popperiano de corroboracao por previsao arriscada: so conta como corroboracao o resultado positivo de uma previsao genuinamente arriscada, que poderia conceivelmente ter sido falsa; previsoes que se poderia fazer a partir do conhecimento previo nao testam uma teoria.",
+   "source_level": "revisada_por_pares",
+   "confidence": "confirmado",
+   "affected_files": [
+    "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-05-modelo-3d-teste-interpretacao-metalogenetica.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-19",
+   "blocks_gate": false
+  },
+  {
+   "claim_id": "GEOMOD3D-M22-A05-ATRIBUICAOA03-011",
+   "severity": "yellow",
+   "nature": "desatualizacao",
+   "subnature": "atribuicao_de_fonte_errada_interna",
+   "lesson": "a05",
+   "raised_in_pass": "passagem-pontual-2026-09-19",
+   "location": "Secao 'O que cada teste pode e nao pode concluir'; campo source de GEOMOD3D-M22-A05-ASSIMETRIATESTE-007",
+   "written": "A razao e a que a AULA 03 JA APONTOU NUM CONTEXTO VIZINHO: a coincidencia geometrica entre duas coisas e facil de obter e dificil de interpretar. / metadado: 'coerente com o tratamento de coincidencia geometrica ja dado na Aula 03 deste modulo (achado GEOMOD3D-M22-A03-COERENCIAFALSA-004)'",
+   "problem": "A Aula 03 nao diz isso. COERENCIAFALSA-004 (azul B19) diz que exigir coincidencia EXATA entre modelo geologico e modelo de inversao e erro conceitual PORQUE OS DOIS TEM RESOLUCOES, FONTES DE INCERTEZA E DEFINICOES DE 'CONTATO' DIFERENTES POR CONSTRUCAO - argumento sobre incompatibilidade de resolucao entre dois tipos de modelo, nao sobre o peso probatorio de uma coincidencia. Num ponto a a03 afirma o OPOSTO: 'uma coincidencia APROXIMADA reforca a confianca nos dois modelos', e seu exemplo trabalhado conclui que a diferenca de 15 m 'reforca, na verdade, a confianca de que existe um mesmo contato real sendo detectado pelos dois metodos independentes'. A a06 repete a mesma leitura ('buscar coerencia aproximada [...] produz confianca real'). O que a a03 de fato empresta a a05, por analogia, e a NAO UNICIDADE (GEOMOD3D-M22-A03-INVERSAOCOMOMODELO3D-002, azul B17), que ali e nao unicidade da solucao de inversao e aqui vira nao unicidade entre hipoteses metalogeneticas concorrentes. E A ASSINATURA DO MODULO ('a versao que circula, nao a fonte que se cita') APLICADA A UMA REFERENCIA CRUZADA INTERNA.",
+   "correction_applied": "Remissao reescrita para apontar ao que a a03 realmente fornece, e como analogia declarada: 'a mesma nao unicidade que a Aula 03 discutiu entre modelo geologico e modelo de inversao, reaparecendo agora entre hipoteses metalogeneticas concorrentes'. O campo source de ASSIMETRIATESTE-007 deixou de invocar COERENCIAFALSA-004 como apoio do argumento e passou a cita-lo apenas como precedente do criterio de risk. Alegacao nova registrada com o que a a03 de fato afirma.",
+   "source": "Texto da propria a03 deste modulo, secoes 'Checagem de consistencia posterior' e exemplo trabalhado; alegacoes GEOMOD3D-M22-A03-COERENCIAFALSA-004 e GEOMOD3D-M22-A03-INVERSAOCOMOMODELO3D-002; achados azuis B17 e B19 deste manifesto; a06, secao de sintese.",
+   "source_level": "interna",
+   "confidence": "confirmado",
+   "affected_files": [
+    "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-05-modelo-3d-teste-interpretacao-metalogenetica.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-19",
+   "blocks_gate": false
+  }
+ ],
+ "verified_ok": [
+  {
+   "id": "B1",
+   "lesson": "a01",
+   "claim": "Distincao explicito/implicito (GEOMOD3D-M22-A01-EXPLICITAIMPLICITA-001)",
+   "verdict": "correto",
+   "source": "Caumon et al. (2009), Math. Geosci. 41(8), 927-945; Wellmann & Caumon (2018), Adv. Geophys. 59, 1-121"
+  },
+  {
+   "id": "B2",
+   "lesson": "a01",
+   "claim": "Leapfrog construido sobre interpolacao por funcoes de base radial, dos mais usados para modelagem implicita na industria mineral",
+   "verdict": "correto",
+   "source": "Cowan et al. (2003), 5th IMGC, 89-99; documentacao Seequent (FastRBF)"
+  },
+  {
+   "id": "B3",
+   "lesson": "a01",
+   "claim": "Bentley Systems adquiriu a Seequent em 2021",
+   "verdict": "correto - aquisicao concluida em 17 de junho de 2021",
+   "source": "comunicado Bentley Systems de conclusao da aquisicao"
+  },
+  {
+   "id": "B4",
+   "lesson": "a01",
+   "claim": "Datamine como pacote britanico tradicional",
+   "verdict": "correto",
+   "source": "origem e sede da Datamine Software no Reino Unido; a propriedade atual pelo grupo Constellation/Vela nao altera a origem descrita"
+  },
+  {
+   "id": "B5",
+   "lesson": "a01",
+   "claim": "Micromine descrito como australiano",
+   "verdict": "correto - CHECADO POR RISCO DE DESATUALIZACAO E CONFIRMADO QUE NAO HOUVE MUDANCA",
+   "source": "a AspenTech anunciou em jul/2022 a aquisicao da Micromine mas RESCINDIU O ACORDO EM AGOSTO DE 2023 por falta de aprovacao regulatoria; a empresa segue sediada em Perth. A entrada da aula nao precisou de alteracao."
+  },
+  {
+   "id": "B6",
+   "lesson": "a01",
+   "claim": "Vulcan (Maptek, Australia) entre os pacotes mais antigos do setor, forte em modelagem explicita por secao",
+   "verdict": "correto",
+   "source": "materiais institucionais Maptek"
+  },
+  {
+   "id": "B7",
+   "lesson": "a01",
+   "claim": "Petrel (SLB, antiga Schlumberger) como plataforma dominante de modelagem de reservatorio",
+   "verdict": "correto",
+   "source": "a renomeacao Schlumberger -> SLB (2022) esta corretamente registrada na aula"
+  },
+  {
+   "id": "B8",
+   "lesson": "a01",
+   "claim": "Move: Petroleum Experts adquiriu o software originalmente da Midland Valley",
+   "verdict": "correto - uniao em outubro de 2017",
+   "source": "materiais institucionais Petroleum Experts"
+  },
+  {
+   "id": "B9",
+   "lesson": "a01",
+   "claim": "GemPy: RWTH Aachen, grupo de Geociencia Computacional e Engenharia de Reservatorios, de la Varga, Schaaf & Wellmann (2019), GMD 12(1), 1-32",
+   "verdict": "correto, inclusive afiliacao e volume",
+   "source": "de la Varga, Schaaf & Wellmann (2019), DOI 10.5194/gmd-12-1-2019"
+  },
+  {
+   "id": "B10",
+   "lesson": "a01",
+   "claim": "Loop3D: plataforma aberta de modelagem implicita probabilistica, consorcio internacional incluindo a Monash University",
+   "verdict": "correto - a Monash LIDERA o consorcio; iniciado por Geoscience Australia e OneGeology, com UWA, RING/Nancy e RWTH Aachen entre os parceiros",
+   "source": "documentacao publica do projeto Loop (loop3d.org); AuScope"
+  },
+  {
+   "id": "B11",
+   "lesson": "a01",
+   "claim": "SGeMS: software livre de Stanford voltado primariamente a simulacao geoestatistica",
+   "verdict": "correto",
+   "source": "Remy, Boucher & Wu (2009), Applied Geostatistics with SGeMS, Cambridge UP"
+  },
+  {
+   "id": "B12",
+   "lesson": "a01",
+   "claim": "Servicos geologicos nacionais (BRGM, Geological Survey of Canada) com programas de modelagem 3D regional a nacional",
+   "verdict": "correto - a aula hedgeou com 'por exemplo' e 'mantem ou ja mantiveram', formulacao que a evidencia sustenta",
+   "source": "Wellmann & Caumon (2018), secao sobre cartografia 3D institucional"
+  },
+  {
+   "id": "B13",
+   "lesson": "a02",
+   "claim": "Tipos de dado de entrada de superficie 2D e subsuperficie 3D, com coordenadas e datum compartilhados (GEOMOD3D-M22-A02-TIPOSDEDADO-001)",
+   "verdict": "correto",
+   "source": "Wellmann & Caumon (2018), Adv. Geophys. 59, 1-121; Caumon et al. (2009)"
+  },
+  {
+   "id": "B14",
+   "lesson": "a02",
+   "claim": "Metodo do campo potencial: Lajaunie, Courrioux & Manuel (1997), Mathematical Geology 29(4), 571-584; contato como isosuperficie e gradiente paralelo ao normal dos dados de orientacao em qualquer ponto do volume (GEOMOD3D-M22-A02-CAMPOPOTENCIAL-002)",
+   "verdict": "correto, inclusive volume, fasciculo e paginas",
+   "source": "Lajaunie et al. (1997); Calcagno et al. (2008)"
+  },
+  {
+   "id": "B15",
+   "lesson": "a02",
+   "claim": "Equivalencia com cokrigagem entre o potencial e seu gradiente (GEOMOD3D-M22-A02-EQUIVALENCIACOKRIGAGEM-003)",
+   "verdict": "correto - e PRECISADO: a formulacao e de COKRIGAGEM UNIVERSAL (com deriva), detalhe acrescentado ao texto e a alegacao",
+   "source": "Lajaunie et al. (1997), secao de formulacao matematica"
+  },
+  {
+   "id": "B16",
+   "lesson": "a02",
+   "claim": "Cowan, Beatson, Ross et al. (2003), 5th International Mining Geology Conference, Bendigo, 17-19 nov. 2003, 89-99",
+   "verdict": "correto em todos os campos",
+   "source": "registro AusIMM da conferencia"
+  },
+  {
+   "id": "B17",
+   "lesson": "a03",
+   "claim": "Modelo de inversao geofisica como modelo 3D proprio: resolucao de dezenas a centenas de metros, nao unicidade, propriedade fisica continua com transicoes suavizadas pela regularizacao (GEOMOD3D-M22-A03-INVERSAOCOMOMODELO3D-002)",
+   "verdict": "correto",
+   "source": "Oldenburg & Li (2005), Near-Surface Geophysics, SEG, cap. 5; consistente com M19 a06"
+  },
+  {
+   "id": "B18",
+   "lesson": "a03",
+   "claim": "Inversao geologicamente restringida incorpora orientacao estrutural na regularizacao (GEOMOD3D-M22-A03-INVERSAORESTRINGIDA-003)",
+   "verdict": "correto - o mecanismo descrito (matriz de rotacao a partir de mergulhos locais alinhando a regularizacao a estrutura) e o do artigo",
+   "source": "Lelievre & Oldenburg (2009), GJI 178(2), 623-637"
+  },
+  {
+   "id": "B19",
+   "lesson": "a03",
+   "claim": "Exigir coincidencia geometrica exata entre modelo geologico e modelo de inversao e conceitualmente equivocado (GEOMOD3D-M22-A03-COERENCIAFALSA-004)",
+   "verdict": "correto - e CORRETAMENTE DECLARADO COMO INTERPRETACAO no campo risk da alegacao, nao como medida ou classificacao formal",
+   "source": "principio metodologico consolidado; Lelievre & Oldenburg (2009); Oldenburg & Li (2005)"
+  },
+  {
+   "id": "B20",
+   "lesson": "a04",
+   "claim": "Geometria tabular estreita e alongada de veios e zonas de cisalhamento de ouro orogenico (GEOMOD3D-M22-A04-GEOMETRIAVEIOS-001)",
+   "verdict": "correto; as faixas dimensionais citadas sao conservadoras em relacao a continuidade vertical de 1-2 km que a classe admite",
+   "source": "Groves, Goldfarb, Gebre-Mariam, Hagemann & Robert (1998), Ore Geol. Rev. 13(1-5), 7-27"
+  },
+  {
+   "id": "B21",
+   "lesson": "a05",
+   "claim": "As tres fontes de incerteza, a quantificacao por realizacoes multiplas e o estudo de caso da Bacia de Gippsland (-TRESFONTES-001, -REALIZACOESMULTIPLAS-002, -REALIZACOESGIPPSLAND-003)",
+   "verdict": "corretos os tres, inclusive periodicos, volumes e paginas",
+   "source": "Wellmann & Caumon (2018), Adv. Geophys. 59, 1-121; Wellmann & Regenauer-Lieb (2012), Tectonophysics 526-529, 207-216; Lindsay, Ailleres, Jessell, de Kemp & Betts (2012), Tectonophysics 546-547, 10-27"
+  },
+  {
+   "id": "B22",
+   "lesson": "a05",
+   "raised_in_pass": "passagem-pontual-2026-09-19",
+   "claim": "NUCLEO da alegacao GEOMOD3D-M22-A05-ASSIMETRIATESTE-007: os testes metalogeneticos viabilizados por um modelo 3D sao logicamente assimetricos, produzindo evidencia CONTRA uma hipotese com mais forca do que a favor, porque a coincidencia geometrica entre o corpo e uma estrutura proposta e compativel com multiplas hipoteses concorrentes, ao passo que um deslocamento sistematico e dificil de reconciliar com a hipotese testada. Unica alegacao do modulo que nunca havia sido auditada - emitida pela revisao didatica ao dividir a antiga a04 e sinalizada por ela como candidata a verificacao futura.",
+   "verdict": "CORRETO - a assimetria e real, nao e alegacao forcada. E o principio de assimetria entre refutacao e corroboracao aplicado a um objeto geologico concreto, e a literatura recente o instancia exatamente neste dominio: Wei et al. (2026) montam um arcabouco bayesiano para FALSIFICAR hipoteses de forma de corpo mineralizado (sulfeto magmatico de Ni-Cu) com furos e gravimetria/magnetometria, com o dado independente entrando como instrumento de falsificacao e nao de confirmacao. A nao unicidade que sustenta o lado fraco da assimetria e a incerteza conceitual documentada por Bond et al. (2007). DUAS RESSALVAS, tratadas como achados 14 (laranja) e 15 (amarelo): a assimetria nao e uniforme entre os tres testes (o teste 2 e previsao arriscada, nao compatibilidade retrospectiva) e a justificativa estava mal creditada a a03. Corrigidas as duas, o nucleo se sustenta.",
+   "risk_field_decision": "MANTIDO como 'interpretacao', deliberadamente, e NAO promovido a 'fato'. Verificar uma alegacao diz que ela resiste ao escrutinio, nao que ela mudou de natureza: continua sendo um principio METODOLOGICO, nao uma medida, uma classificacao formal nem um fato observacional. Mesmo criterio que este manifesto ja elogiou em GEOMOD3D-M22-A03-COERENCIAFALSA-004 (azul B19). Promove-la a 'fato' por ter passado na auditoria seria certeza_indevida. O que mudou foi o campo source (de 'sintese didatica sem fonte unica primaria' para ancoragem revisada por pares) e o texto do claim (ganhou a clausula do teste 2 que faltava).",
+   "source": "Wei, Yin, Bonner & Caers (2026), Surveys in Geophysics 47, 289-315, DOI 10.1007/s10712-026-09936-9; Bond, Gibbs, Shipton & Jones (2007), GSA Today 17(11), 4-10; McCuaig & Hronsky (2014), SEG Spec. Publ. 18, 153-175; criterio popperiano de corroboracao por previsao arriscada"
+  }
+ ],
+ "verified_ok_extra_note": "B5 merece destaque de processo: a entrada 'Micromine (Micromine, Australia)' foi checada por suspeita de desatualizacao (havia um acordo de aquisicao pela AspenTech anunciado em jul/2022) e a checagem CONFIRMOU QUE A AULA ESTAVA CERTA - o acordo foi rescindido em agosto de 2023. Registrado como azul e nao convertido em achado. E o contraexemplo util ao padrao dominante do modulo: nem toda suspeita de desatualizacao se confirma, e auditar de memoria teria produzido aqui uma correcao FALSA.",
+ "assessment_gate": {
+  "released": true,
+  "reason": "0 achados vermelhos e 0 laranjas em aberto; os 15 achados numerados foram todos corrigidos (13 na passagem principal de 2026-09-19, 2 na passagem pontual da mesma data sobre GEOMOD3D-M22-A05-ASSIMETRIATESTE-007). Nenhuma alegacao do modulo permanece nao auditada.",
+  "restrictions": [
+   "MVT E ESTRATABOUND, NAO ESTRATIFORME (vermelho 1). Nao gerar item que classifique o Pb-Zn tipo Mississippi Valley como estratiforme ou concordante com o acamamento. Se a distincao estratiforme x estratabound virar questao - e e boa questao -, o MVT e o exemplo da SEGUNDA categoria e o cobre sedimentar da primeira.",
+   "PORFIRO E EQUIDIMENSIONAL EM PLANTA, VERTICALMENTE ALONGADO EM 3D (laranja 2). Nao gerar item cuja resposta correta seja 'geometria equidimensional' sem a qualificacao 'em planta', nem item que use 'funil invertido'.",
+   "ZONEAMENTO DE ALTERACAO DE PORFIRO E EMPILHADO VERTICALMENTE (laranja 3). Nao gerar item que cobre a sequencia concentrica potassica/filica/argilica/propilitica COMO DESCRICAO VIGENTE. Ela pode ser cobrada como MODELO HISTORICO de Lowell e Guilbert (1970), contrastada com Sillitoe (2010) - e essa e uma questao melhor.",
+   "NI-CU-EGP NAO TEM GEOMETRIA UNICA (laranja 4). Nao gerar item que associe 'Ni-Cu-EGP magmatico' a uma so geometria: conduto e contato basal -> pipe; recife (Merensky, UG2, J-M) -> estratiforme.",
+   "FALHAS EM MODELAGEM IMPLICITA TEM DUAS SOLUCOES, NAO UMA (laranja 5). Nao gerar item cuja resposta correta seja 'o padrao e calcular um campo por bloco de falha'. A resposta certa contempla as duas familias, e a distincao entre elas e materia legitima de questao de aplicacao.",
+   "COKRIGAGEM passou a ser DEFINIDA dentro da a02 (laranja 6) e pode ser cobrada; NAO a trate como conhecimento vindo do Modulo 20.",
+   "NUMERACAO DE AULAS MUDOU (divisao didatica de 2026-09-19). Ao escrever itens, use a numeracao ATUAL: a04 = geometrias de deposito e estrategia de modelagem; a05 = modelo 3D como teste da interpretacao metalogenetica; a06 = estudos de caso, incerteza e critica do modelo. As restricoes 1 a 4 acima referem-se a conteudo que hoje esta na a04; a restricao 5 esta na a03 e a 6 na a02.",
+   "A ASSIMETRIA DOS TRES TESTES METALOGENETICOS NAO E UNIFORME (laranja 14, passagem pontual). Nao gerar item cuja resposta correta seja 'os tres testes sao igualmente fracos para confirmar' ou 'nenhum dos tres produz evidencia a favor'. A resposta certa DISTINGUE: testes 1 e 3 conferem a hipotese contra dado ja observado (coincidencia barata, assimetria acentuada); teste 2 obriga a hipotese a prever um alvo ainda nao perfurado - previsao que poderia ter falhado e que, confirmada, vale como evidencia a favor de um modo que a compatibilidade retrospectiva nao vale. Essa distincao e BOA questao de aplicacao e vale ser cobrada, inclusive como dissertativa curta. Tambem NAO creditar a Aula 03 a tese de que 'coincidencia geometrica e evidencia fraca' (amarelo 15): a a03 diz que exigir coincidencia EXATA entre modelo geologico e inversao e erro conceitual, e trata coincidencia APROXIMADA entre metodos independentes como REFORCO de confianca. O que a a03 empresta a a05 e a NAO UNICIDADE."
+  ]
+ },
+ "partials_recommendation": {
+  "format": "questionario_unico_cumulativo",
+  "partials": false,
+  "rationale": "O modulo tem 5 aulas, dentro do limiar de ~5-6 do plugin, e a progressao e linear e convergente (a a05 integra explicitamente a01-a04), o que torna um corte em blocos artificial: qualquer parcial cortaria antes da sintese que e o ponto do modulo. Mesmo criterio aplicado nos Modulos 20 e 21. SE A REVISAO DIDATICA DIVIDIR ALGUMA AULA E O MODULO PASSAR A 6, A RECOMENDACAO NAO MUDA - 6 continua dentro do limiar, e uma divisao por carga cognitiva nao cria corte conceitual novo.",
+  "composition_hint": "Cobertura dos quatro objetivos de aprendizagem, com pelo menos duas questoes de INTEGRACAO explicita: uma ligando geometria de deposito (a04) a escolha de algoritmo (a02), outra ligando incerteza de modelo (a05) a coerencia geologico-geofisica (a03).",
+  "confirmed_by_didactic_review": true,
+  "post_split_note": "CONFIRMADA apos a divisao: o modulo passou a 6 aulas, que continua dentro do limiar de ~5-6 do plugin, e a divisao foi motivada por CARGA COGNITIVA, nao por corte conceitual novo - as Aulas 04 e 05 continuam servindo ao mesmo objetivo oa03, em duas metades. Questionario UNICO CUMULATIVO, sem parciais. Decisao registrada tambem no hub do modulo, secao 'Formato do questionario - decisao final'."
+ },
+ "derived_material_to_propagate": {
+  "questionario": "inexistente no momento da auditoria - nada a propagar",
+  "flashcards": "inexistente no momento da auditoria - nada a propagar; NAO HA CARD JA IMPORTADO NO ANKI A CORRIGIR A MAO",
+  "glossario": "inexistente",
+  "outros": []
+ },
+ "sources_added_to_module": [
+  "Lowell, J. D. & Guilbert, J. M. (1970), 'Lateral and vertical alteration-mineralization zoning in porphyry ore deposits', Economic Geology, 65(4), 373-408, DOI 10.2113/gsecongeo.65.4.373",
+  "Leach, D. L. & Sangster, D. F. (1993), 'Mississippi Valley-type lead-zinc deposits', em Kirkham, Sinclair, Thorpe & Duke (eds.), Mineral Deposit Modeling, Geological Association of Canada Special Paper 40, 289-314",
+  "Naldrett, A. J. (2004), Magmatic Sulfide Deposits: Geology, Geochemistry and Exploration, Springer Berlin Heidelberg, DOI 10.1007/978-3-662-08444-1",
+  "Zientek, M. L. (2012), 'Magmatic ore deposits in layered intrusions - Descriptive model for reef-type PGE and contact-type Cu-Ni-PGE deposits', U.S. Geological Survey Open-File Report 2012-1010",
+  "Mallet, J.-L. (1989), 'Discrete smooth interpolation', ACM Transactions on Graphics, 8(2), 121-144",
+  "Calcagno, P., Chiles, J. P., Courrioux, G. & Guillen, A. (2008), PEPI 171(1-4), 147-157 - acrescentada tambem a a03",
+  "Caumon, G. et al. (2009), Mathematical Geosciences, 41(8), 927-945 - acrescentada a a02 e a a03",
+  "AspenTech (2022), comunicado 'AspenTech Completes Emerson Transaction', 16 de maio de 2022",
+  "Chiles, J.-P. & Delfiner, P. (2012), Geostatistics: Modeling Spatial Uncertainty, 2a ed., Wiley, cap. 5 (cokrigagem); Goovaerts, P. (1997), Geostatistics for Natural Resources Evaluation, Oxford University Press, cap. 6",
+  "Wei, X., Yin, Z., Bonner, W. & Caers, J. (2026), 'Falsification of geological hypotheses using drillholes and geophysics', Surveys in Geophysics 47, 289-315, DOI 10.1007/s10712-026-09936-9 - acrescentada as Fontes da a05 pela passagem pontual de 2026-09-19 (achado 14 / azul B22)."
+ ],
+ "out_of_scope_observations": [
+  "DIDATICA: A A02 E A AULA MAIS PESADA DO MODULO E FICOU MAIS PESADA COM ESTA AUDITORIA. Ja declarava ~29 min e 2.180 palavras; a correcao do laranja 6 acrescentou a definicao de cokrigagem, conceito novo e denso, e a do amarelo 8 ampliou o paragrafo de alternativas. E a primeira aula a olhar para uma eventual divisao em Parte 1 / Parte 2, com corte natural visivel: dados de entrada e fluxo explicito numa parte; campo potencial, cokrigagem e comparacao das abordagens na outra.",
+  "DIDATICA: A A04 TAMBEM CRESCEU, com tres blocos novos (ressalva de zoneamento, distincao estratiforme/estratabound, exclusao dos recifes de EGP). Declarava ~28 min e 2.200 palavras. Segunda candidata a divisao.",
+  "DIDATICA: o salto de pre-requisito do laranja 6 e tanto factual quanto didatico. A auditoria o corrigiu declarando e definindo; cabe ao revisor avaliar se a definicao inserida basta ou se o conceito merece mais espaco.",
+  "DIDATICA: nenhuma aula do modulo tem exemplo trabalhado aritmetico. E coerente com um modulo conceitual, mas destoa do padrao dos Modulos 20 e 21 e pode deixar o aluno sem pratica de manipulacao. Decisao do revisor.",
+  "DIDATICA: o mapeamento objetivo x aula nao e 1:1 - oa01 por a01+a02, oa02 por a02+a03, oa03 por a04+a05, oa04 por a03+a05. Nao e defeito, mas o gerador de questionario precisa cobrir cada objetivo a partir de mais de uma aula."
+ ],
+ "passes": 1,
+ "passes_note": "Passagem unica, 2026-09-19. Levantamento e aplicacao na mesma data.",
+ "report_file": "22-modelagem-geologica-3d/22-modelagem-geologica-3d-auditoria.md",
+ "manifest_note": "Os claim_id com sufixo 005/006 e os de prefixo GEOMOD3D-M22-FONTES- sao ALEGACOES NOVAS levantadas pela auditoria, nao renumeracoes. Os 19 claim_id declarados pelas aulas foram preservados sem renumeracao.",
+ "post_didactic_split_note": {
+  "applied_at": "2026-09-19",
+  "by": "revisor-didatico, achado DID-M22-A04-CARGA-001",
+  "summary": "A revisao didatica dividiu a Aula 04 (2.764 palavras / ~33 min apos as correcoes desta auditoria) em duas, e o modulo passou de 5 para 6 aulas. NENHUM ACHADO DESTA AUDITORIA FOI REABERTO, RENUMERADO OU REVERTIDO; o veredito continua APROVADO e o gate continua LIBERADO, com as mesmas seis restricoes.",
+  "lesson_remap": {
+   "a04 (antiga)": "dividida em a04 (quatro familias geometricas, sintese e tabela - achados vermelho 1, laranjas 2, 3 e 4) e a05 (modelo como teste da interpretacao metalogenetica)",
+   "a05 (antiga, estudos de caso e incerteza)": "renumerada para a06, arquivo renomeado, ID alterado de geologia-avancado-m22-a05 para geologia-avancado-m22-a06"
+  },
+  "claim_id_policy": "Os claim_id NAO foram renumerados. O prefixo A04 designa a numeracao em que a alegacao foi emitida, nao a aula em que ela hoje se encontra: GEOMOD3D-M22-A04-001/-002/-003/-005/-006 estao na atual Aula 04 e GEOMOD3D-M22-A04-METALOGENIATESTE-004 esta na atual Aula 05. As alegacoes GEOMOD3D-M22-A05-* emitidas por esta auditoria estao hoje na Aula 06.",
+  "new_claim_from_didactic_review": "A Aula 05 emitiu uma alegacao nova ao explicitar um argumento que a aula original usava sem enunciar: GEOMOD3D-M22-A05-ASSIMETRIATESTE-007, sobre a assimetria logica dos tres testes metalogeneticos (fortes para refutar, fracos para confirmar). Declarada com risk: interpretacao e fonte descrita como sintese didatica apoiada em McCuaig & Hronsky (2014), NAO como medida ou classificacao formal. NAO foi auditada por esta passagem: e candidata a verificacao numa futura auditoria do modulo.",
+  "gate_unchanged": true
+ },
+ "pointwise_pass_2026_09_19": {
+  "scope": "UM claim apenas: GEOMOD3D-M22-A05-ASSIMETRIATESTE-007. A auditoria do modulo NAO foi reaberta nem refeita; nenhum dos achados 1 a 13 foi renumerado, revertido ou reavaliado.",
+  "trigger": "Pendencia sinalizada pela revisao didatica de 2026-09-19: o claim nasceu DEPOIS da auditoria cientifica, durante a divisao da antiga a04, e por isso nunca havia sido verificado. Estava marcado risk: interpretacao com source 'sintese didatica'.",
+  "result": "NUCLEO VERIFICADO (azul B22) + 2 achados corrigidos: laranja 14 (GEOMOD3D-M22-A05-ASSIMETRIAUNIFORME-010) e amarelo 15 (GEOMOD3D-M22-A05-ATRIBUICAOA03-011). risk MANTIDO como 'interpretacao'. Gate do modulo CONTINUA LIBERADO, com uma setima restricao acrescentada ao gerador.",
+  "files_touched": [
+   "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-05-modelo-3d-teste-interpretacao-metalogenetica.md",
+   "22-modelagem-geologica-3d/22-modelagem-geologica-3d-auditoria.md",
+   "22-modelagem-geologica-3d/22-modelagem-geologica-3d-auditoria.json",
+   "course-state.yaml"
+  ],
+  "files_checked_no_change_needed": [
+   "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-04-geometrias-depositos-estrategia-modelagem.md",
+   "22-modelagem-geologica-3d/22-modelagem-geologica-3d-aula-06-estudos-caso-incerteza-critica-modelo.md",
+   "22-modelagem-geologica-3d/22-modelagem-geologica-3d-modulo.md"
+  ],
+  "derived_material": "Continua sem questionario, sem baralho e sem glossario. Nenhuma propagacao externa a fazer; nenhum card ja importado no Anki a corrigir a mao."
+ }
+}

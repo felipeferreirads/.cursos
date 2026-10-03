@@ -1,0 +1,524 @@
+{
+ "schema_version": 1,
+ "target": {
+  "kind": "modulo",
+  "path": "07-esfera-e-torneadas/",
+  "module_id": "07",
+  "course_id": "lapidacao"
+ },
+ "mode": "audit-and-fix",
+ "depth": "full",
+ "audited_at": "2026-09-04T00:00:00-03:00",
+ "verdict": "approved",
+ "summary": {
+  "red": 5,
+  "orange": 7,
+  "yellow": 4,
+  "blue": 1,
+  "white": 1,
+  "verified_ok": 9,
+  "open_findings": 0
+ },
+ "findings": [
+  {
+   "claim_id": "MAQ-RAIO-ALVO-001",
+   "severity": "red",
+   "kind": "erro_factual",
+   "new_claim": false,
+   "location": {
+    "file": "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-02-maquinas-de-esfera-eixos-multiplos-e-convergencia.md",
+    "section": "Da peca bruta ao raio-alvo / Exemplo trabalhado / Erros comuns / Recap relampago / Vocabulario",
+    "quote": "O raio-alvo e fixado pela abertura entre os copos, nao escolhido durante o processo: a peca converge ate o ponto em que toca todos os copos ao mesmo tempo com a mesma pressao, e a partir dai a maquina so remove material igualmente de toda a superficie (o polimento), sem mudar mais o raio."
+   },
+   "problem": "Nao e assim que uma maquina de esfera funciona. (1) Os cabecotes sao de MOLA e avancam a medida que material sai - as fichas de fabricante descrevem cabecotes independentes, com mola, ajustaveis por manipulo; a esfera encolhe continuamente e o processo nao estaciona num raio. (2) O copo NAO tem o raio da esfera: cada tamanho de copo cobre uma FAIXA de diametros (copo de 1 pol / 25 mm produz esferas de 1 a 1,4 pol / 25 a 35,5 mm; copo de 2 pol produz esferas de 2 a 2,6 pol). (3) Quem determina o diametro e o OPERADOR, interrompendo o desbaste e medindo com paquimetro - exatamente o que o texto negava. Como estava, ancorava a aula 04 no lugar errado: se o copo fixasse o raio, o copiador de perfil da a04 nao precisaria existir.",
+   "replacement": "Secao retitulada 'Da peca bruta ao DIAMETRO-alvo' e reescrita em dois blocos: a preforma que chega da serra; e o que o copo fixa e o que nao fixa (cabecote com mola, esfera encolhendo, faixa de trabalho por tamanho de copo com numero de catalogo, operador como quem para). Exemplo trabalhado ganhou o bloco 'Onde a maquina para'. Vocabulario reindexado: raio-alvo -> diametro-alvo; entradas novas cabecote, polo, faixa de trabalho do copo; removidas par de copos casados e assento de maquina de esfera.",
+   "source": {
+    "name": "Highland Park Lapidary - guia de selecao de tamanho de copo; Covington Engineering - maquinas de esfera de duas e de tres cabecas, cabecotes com mola independentes e ajustaveis; Kingsley North; Arrowhead Lapidary Supply",
+    "level": "fichas tecnicas e catalogos de fabricante de equipamento de lapidaria",
+    "version": "acesso 2026-09-04"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-02-maquinas-de-esfera-eixos-multiplos-e-convergencia.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-04"
+  },
+  {
+   "claim_id": "MAQ-COPO-CASADO-001",
+   "severity": "red",
+   "kind": "erro_factual",
+   "new_claim": false,
+   "location": {
+    "file": "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-02-maquinas-de-esfera-eixos-multiplos-e-convergencia.md",
+    "section": "O principio do copo casado e do eixo cruzado / Vocabulario / Recap relampago",
+    "quote": "copos abrasivos - discos ou aneis com uma calha concava semicircular usinada na borda, cujo raio de calha e exatamente o raio-alvo da esfera. Dois copos de raio identico sao montados em eixos cruzados ... o ponto onde as duas calhas se encontram e o unico lugar geometricamente consistente com os dois raios ao mesmo tempo - e esse lugar e, por definicao, a superficie de uma esfera de raio igual ao raio da calha."
+   },
+   "problem": "Propagacao do mesmo erro de MAQ-RAIO-ALVO-001, na definicao do instrumento. O copo e maior que a esfera que produz e cobre uma faixa de diametros; a convergencia nao vem de 'raio de calha igual ao raio-alvo' mas do fato de a esfera ser a unica forma que satisfaz todos os copos ao mesmo tempo, com pressao igual em todos, enquanto os cabecotes com mola avancam.",
+   "replacement": "Definicao reescrita: anel abrasivo com calha concava, montado num cabecote que o faz girar e o pressiona por MOLA; contato em COROA circular, nao em ponto; rebaixa o que se projeta para fora do raio que a calha impoe naquela direcao. Argumento de convergencia reancorado: a unica forma que satisfaz todos os copos com pressao igual e a esfera.",
+   "source": {
+    "name": "Highland Park Lapidary - guia de tamanho de copo; Covington Engineering - cabecotes com mola, independentes, ajustaveis; Sinkankas, Gem Cutting: A Lapidary's Manual",
+    "level": "fichas de fabricante + literatura lapidaria de referencia",
+    "version": "acesso 2026-09-04"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-02-maquinas-de-esfera-eixos-multiplos-e-convergencia.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-04"
+  },
+  {
+   "claim_id": "MAQ-EIXO-CIL-001",
+   "severity": "red",
+   "kind": "inconsistencia_interna",
+   "new_claim": false,
+   "location": {
+    "file": "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-02-maquinas-de-esfera-eixos-multiplos-e-convergencia.md",
+    "section": "Por que um eixo so nao converge / Exemplo trabalhado / Erros comuns / Recap relampago",
+    "quote": "Se uma peca girasse contra um unico eixo abrasivo, o resultado seria um cilindro ou um disco - a rotacao em torno de um eixo fixo produz curvatura na direcao perpendicular a esse eixo, mas deixa reto qualquer perfil medido ao longo do proprio eixo."
+   },
+   "problem": "Falso em geral e CONTRADITO pela aula 04 do mesmo modulo. Um eixo fixo produz o solido de revolucao daquele eixo, e qual solido quem decide e o PERFIL DA FERRAMENTA: borda reta da cilindro, calha curva da perfil curvo - que e exatamente o copiador de perfil produzindo um ovo na a04. Um aluno que decorasse a a02 concluiria que o ovo da a04 e impossivel. O que de fato falta a um eixo unico e geometrico e outro: os dois pontos em que o eixo fura a superficie ficam parados em relacao a ferramenta e nunca sao varridos; todo solido de revolucao tem dois polos, e a esfera e a forma que nao admite polo privilegiado.",
+   "replacement": "Paragrafo reescrito em torno do argumento dos polos, com a ressalva explicita de que a calha decide o perfil ('e assim que a aula 04 produzira um ovo'). Bullet novo em Erros comuns ('Achar que o eixo unico obriga a um cilindro'). A a04 recebeu o fecho reciproco: la um eixo fixo era insuficiente PARA A ESFERA; aqui e exatamente o que se quer, porque o alvo tem polos.",
+   "source": {
+    "name": "Geometria de solidos de revolucao; Sinkankas, Gem Cutting: A Lapidary's Manual - necessidade de contato multiplo para esfera; a existencia do copiador de perfil esta na propria bibliografia da aula 04",
+    "level": "geometria elementar + literatura lapidaria de referencia",
+    "version": "acesso 2026-09-04"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-02-maquinas-de-esfera-eixos-multiplos-e-convergencia.md",
+    "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-04-ovos-obeliscos-e-formas-torneadas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-04"
+  },
+  {
+   "claim_id": "DEF-BAND-ORIENT-001",
+   "severity": "red",
+   "kind": "erro_factual",
+   "new_claim": false,
+   "location": {
+    "file": "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-03-materiais-e-defeitos-undercut-e-bandeamento.md",
+    "section": "Bandeamento - um problema de orientacao, nao de dureza / Exemplo trabalhado (Esfera B) / Erros comuns / Recap relampago",
+    "quote": "A agata bandada quase sempre tem dureza essencialmente uniforme de banda a banda ... Se a dureza e uniforme, o mecanismo de undercut da secao anterior NAO se aplica: as bandas nao afundam umas em relacao as outras, porque o abrasivo remove todas na mesma taxa."
+   },
+   "problem": "Dois problemas. (1) E FALSO: o socavamento entre bandas de agata e problema corrente e documentado da oficina - as bandas variam em grau de cristalizacao, porosidade e proporcao entre fases de silica, e a literatura de lapidaria discute abertamente como conte-lo (escolha de polidor, com oxido de aluminio tipo Linde A citado justamente para material que socava; escolha de suporte). A aula transformava uma tendencia numa impossibilidade. (2) CONTRADIZIA O PROPRIO TITULO E O PROPRIO VOCABULARIO da aula, que sao 'undercut, BANDA DURA e a orientacao do padrao da agata' e 'banda dura / banda mole: camada, dentro de um material bandado (COMO A AGATA), que e mais ou menos resistente a abrasao que as camadas vizinhas'. Efeito colateral grave: a aula separava os dois defeitos PELO MATERIAL ('e agata, logo nao e undercut'), quando o criterio correto e PELO RELEVO.",
+   "replacement": "Secao retitulada 'Bandeamento - dois defeitos diferentes com o mesmo nome' e reorganizada em dois blocos: undercut entre bandas (mecanismo, variacao real entre bandas, marca observavel = relevo fisico) e bandeamento fora de centro (defeito geometrico, sem relevo, ligado a leitura do bruto do modulo 05). Secao seguinte retitulada 'O criterio de diagnostico e o relevo, nao o material', com o criterio enunciado (depressao fisica com entorno no raio correto = undercut; padrao deslocado sobre superficie lisa = orientacao) e a ressalva de que os dois podem coexistir. Exemplo trabalhado ganhou o fecho 'o que separou os dois casos nao foi o material - foi o relevo'. Erros comuns ganhou o erro nas DUAS direcoes. Vocabulario ganhou 'bandeamento fora de centro' e teve 'heterogeneidade de dureza' reindexada para 'heterogeneidade de resistencia a abrasao'.",
+   "source": {
+    "name": "Lapidary Journal / Rock & Gem e literatura corrente de oficina sobre polimento de agata - socavamento entre bandas como problema corrente e a escolha de polidor para conte-lo",
+    "level": "literatura de oficina corrente",
+    "version": "acesso 2026-09-04"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-03-materiais-e-defeitos-undercut-e-bandeamento.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-04"
+  },
+  {
+   "claim_id": "TOR-DEF-REVOL-001",
+   "severity": "red",
+   "kind": "inconsistencia_interna",
+   "new_claim": false,
+   "location": {
+    "file": "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-04-ovos-obeliscos-e-formas-torneadas.md",
+    "section": "Vocabulario / O que continua igual e o que muda / Ovo, obelisco e gota / A fronteira com a escultura livre / Exemplo trabalhado / Erros comuns / Recap relampago",
+    "quote": "toda forma torneada e um solido de revolucao, e qualquer secao perpendicular ao eixo e um circulo perfeito ... o corpo costuma ser canelado ou levemente facetado ao longo do eixo, uma variacao que nao quebra a simetria rotacional porque as canaletas se repetem identicamente ao redor do eixo"
+   },
+   "problem": "A aula enuncia um criterio forte e admite na categoria duas formas que o violam, declarando que nao o violam. (1) Canaletas repetidas dao simetria CICLICA (coincidencia a cada 1/n de volta), nao continua; as secoes perpendiculares nao sao circulos. (2) O obelisco e de secao QUADRADA (arquitetonico) ou de quatro a seis lados (ornamental) - a forma que da nome ao termo nao e solido de revolucao, e uma aula que exige secao circular a expulsa da familia que ela mesma titula. (3) A briolette e por definicao FACETADA e SEM CINTA, e estava igualada a gota lisa no vocabulario. Isto importa porque oa04 e exatamente 'distinguir da escultura livre': o criterio E o objeto da aula, e estava quebrado.",
+   "replacement": "Secao nova 'Duas exigencias diferentes: secao circular e eixo unico', instalando a distincao aninhada: SOLIDO DE REVOLUCAO ESTRITO (toda secao perpendicular e circulo; coincidencia sob qualquer angulo; esfera, ovo liso, gota lisa) versus FORMA DE EIXO UNICO (um eixo organiza a peca e todo detalhe ou e de revolucao em torno dele ou se repete um numero inteiro de vezes; inclui os anteriores mais obelisco poligonal, obelisco canelado e briolette facetada). Formula memoravel instalada: estrito subconjunto de eixo unico. A familia de talhe do modulo e a segunda. 'A fronteira com a escultura livre' reescrita como teste de DUAS PERGUNTAS em ordem. Exemplo trabalhado passou a rodar as duas perguntas nas tres pecas, com o obelisco explicitado como de secao quadrada. Vocabulario refeito com tres entradas novas.",
+   "source": {
+    "name": "Teoria elementar de simetria rotacional (continua x ciclica C_n); American Scientist, 'Moving Obelisks' (obelisco de secao quadrada); Britannica e Antique Jewelry University (briolette facetada, sem cinta)",
+    "level": "geometria elementar + fontes de referencia de gemologia e de historia da forma",
+    "version": "acesso 2026-09-04"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-04-ovos-obeliscos-e-formas-torneadas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-04"
+  },
+  {
+   "claim_id": "ESF-CONV-POLI-001",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "new_claim": false,
+   "location": {
+    "file": "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-01-por-que-a-esfera-converge-do-cubo-ao-poliedro-a-esfera.md",
+    "section": "Do cubo ao poliedro / Exemplo trabalhado passos 2 e 3 / Recap relampago / Vocabulario",
+    "quote": "O cuboctaedro ainda tem arestas retas e faces planas, entao ainda tem pontos mais distantes do centro (o meio de cada aresta) e pontos mais proximos (o centro de cada face). O proximo corte trunca essas novas arestas."
+   },
+   "problem": "Num solido convexo de faces planas, o ponto mais distante de qualquer ponto interior e sempre um VERTICE, nunca o meio de uma aresta. No cuboctaedro tirado de um cubo de 30 mm de aresta, os vertices estao a 15*raiz(2) = ~21,2 mm e os meios de aresta a ~18,4 mm. A frase inverte o objeto do corte na aula cuja mecanica inteira e 'corte o ponto mais distante'.",
+   "replacement": "Secao retitulada 'a logica do corte de VERTICE'; principio enunciado explicitamente; passos 2 e 3 do exemplo reescritos, com o passo 3 declarando a identidade que resolve a ambiguidade (os 12 vertices do cuboctaedro sao os 12 meios de aresta do cubo, e trunca-los e o mesmo cortar-as-arestas da preforma de serra). Recap e vocabulario alinhados.",
+   "source": {
+    "name": "Geometria poliedral padrao - cuboctaedro como retificacao do cubo; circunraio 15*raiz(2), inraio 15 nas faces quadradas, meio de aresta a raiz(337,5) = ~18,4 mm para cubo de meia-aresta 15",
+    "level": "geometria elementar",
+    "version": "acesso 2026-09-04"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-01-por-que-a-esfera-converge-do-cubo-ao-poliedro-a-esfera.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-04"
+  },
+  {
+   "claim_id": "ESF-TEST-ROLA-001",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "new_claim": false,
+   "location": {
+    "file": "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-01-por-que-a-esfera-converge-do-cubo-ao-poliedro-a-esfera.md",
+    "section": "Exemplo trabalhado / Recap relampago / Fontes consultadas",
+    "quote": "uma esfera com erro de centro tem um eixo 'preferido' e para sempre voltando a mesma orientacao, porque o lado mais pesado (ou mais largo) busca o ponto mais baixo."
+   },
+   "problem": "O parentese esta invertido. Um corpo de densidade uniforme repousa na orientacao que MINIMIZA a altura do centro de massa acima do plano, e essa altura e a distancia do centro ao plano tangente no ponto de contato - minima onde o RAIO E MENOR. Uma peca fora de redondo assenta, portanto, sobre as regioes de raio MENOR, deixando o eixo mais longo DEITADO (o ovo deitado). Apenas o 'lado mais pesado' (densidade heterogenea) desce, e essa e causa DIFERENTE da discutida, que e erro de geometria. Somava-se atribuicao de fonte nao sustentada: o 'teste de rolamento' era creditado a Lapidary Journal / Rock & Gem como verificacao de qualidade de oficina, e a verificacao documentada e outra - diametro com paquimetro em varias direcoes.",
+   "replacement": "Mecanismo corrigido e ancorado ('assenta sobre as regioes de MENOR raio, deixando o eixo mais longo deitado, como um ovo deitado'); parentese de densidade removido; rolamento rebaixado a 'indicio grosseiro que antecede a medida' e a medicao de oficina instalada no lugar. Alegacao reescrita com fonte de mecanica elementar.",
+   "source": {
+    "name": "Mecanica elementar de corpo rigido (equilibrio de repouso na orientacao que minimiza a altura do centro de massa); pratica corrente de medicao de gema e de esfera com paquimetro em multiplas direcoes",
+    "level": "fisica elementar + pratica de medicao documentada",
+    "version": "acesso 2026-09-04"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-01-por-que-a-esfera-converge-do-cubo-ao-poliedro-a-esfera.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-04"
+  },
+  {
+   "claim_id": "MAQ-POLO-FRACO-001",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "new_claim": false,
+   "location": {
+    "file": "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-02-maquinas-de-esfera-eixos-multiplos-e-convergencia.md",
+    "section": "Por que maquinas comerciais usam mais de dois eixos / Exemplo trabalhado / Recap relampago",
+    "quote": "os polos ... recebem menos abrasao relativa que o 'equador' entre os dois copos, porque a velocidade linear da superficie abrasiva contra a peca e menor perto do centro de rotacao."
+   },
+   "problem": "O fenomeno existe; o mecanismo dado nao e o dele. O copo abrade por uma COROA de raio fixo - todos os pontos de contato tem praticamente a mesma velocidade linear, sem o gradiente que haveria num disco plano. A causa e geometrica: quando a peca se acomoda girando em torno do eixo que liga os dois copos, os polos desse eixo ficam DENTRO DA BOCA DO COPO e nao passam pela coroa abrasiva. Regiao nao varrida, nao desbastada. Com o mecanismo errado, o remedio (reassentar a peca) fica arbitrario e o argumento do terceiro cabecote perde a razao de ser.",
+   "replacement": "Mecanismo reescrito nas quatro ocorrencias; vocabulario ganhou a entrada 'polo (de um eixo de trabalho)', que passa a ser o mesmo conceito usado na correcao de MAQ-EIXO-CIL-001, amarrando as duas secoes da aula num argumento so.",
+   "source": {
+    "name": "Geometria de contato copo-peca; Sinkankas, Gem Cutting: A Lapidary's Manual; Lapidary Journal / Rock & Gem - pratica de reassentamento em maquinas de duas cabecas",
+    "level": "geometria elementar + literatura lapidaria",
+    "version": "acesso 2026-09-04"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-02-maquinas-de-esfera-eixos-multiplos-e-convergencia.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-04"
+  },
+  {
+   "claim_id": "MAQ-NUM-COPOS-001",
+   "severity": "orange",
+   "kind": "evidencia_insuficiente",
+   "new_claim": false,
+   "location": {
+    "file": "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-02-maquinas-de-esfera-eixos-multiplos-e-convergencia.md",
+    "section": "Por que maquinas comerciais usam mais de dois eixos / Exemplo trabalhado / O que nao concluir / Recap relampago",
+    "quote": "Maquinas comerciais de varios copos - tipicamente 3 a 6 copos dispostos em eixos que se cruzam em angulos diferentes entre si, valor de referencia da literatura de bancada e dos fabricantes de equipamento de esfera"
+   },
+   "problem": "O levantamento de catalogo nao sustenta a faixa. As configuracoes comerciais correntes sao de DUAS e de TRES cabecas: Covington Engineering modelo de tres cabecas mais os modelos de duas cabecas para peca pequena e grande; Highland Park, tres cabecas; Kingsley North e Arrowhead, o mesmo. Nenhuma maquina de 4, 5 ou 6 copos apareceu. Alem disso o texto descartava a configuracao de duas cabecas como 'de oficina mais simples', quando ela e produto comercial corrente.",
+   "replacement": "Faixa '3 a 6' substituida pela descricao real - duas e tres cabecas, com TRES como o arranjo comercial de referencia -, e a secao retitulada 'Por que maquinas comerciais usam TRES CABECOTES'. A frase que tratava a maquina de duas cabecas como improvisada foi corrigida. O argumento pedagogico nao mudou: dois resolvem no TEMPO, tres resolvem no ESPACO, e o ganho e uniformidade, nao velocidade.",
+   "source": {
+    "name": "Covington Engineering (maquina de tres cabecas 2,5-10 pol; maquina pequena 1/4-1 pol e grande 1-1/4-9 pol de duas cabecas); Highland Park Lapidary (tres cabecas); Kingsley North; Arrowhead Lapidary Supply (modelo 383 de tres cabecas, modelo 381 grande)",
+    "level": "catalogos de fabricante",
+    "version": "acesso 2026-09-04"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-02-maquinas-de-esfera-eixos-multiplos-e-convergencia.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-04"
+  },
+  {
+   "claim_id": "UND-MAT-EXEMPLO-001",
+   "severity": "orange",
+   "kind": "confusao_de_escopo",
+   "new_claim": false,
+   "location": {
+    "file": "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-03-materiais-e-defeitos-undercut-e-bandeamento.md",
+    "section": "Undercut / Exemplo trabalhado (Esfera A) / Recap relampago",
+    "quote": "turquesa com matriz mole entremeada de veio mais duro ... a matriz e mais mole que a turquesa macica ao redor"
+   },
+   "problem": "A turquesa tem dureza 5 a 6 de Mohs e a matriz que a atravessa VARIA: limonita e mais mole que a turquesa e socava; chert e quartzo sao mais duros, e nesse caso quem recua e a PROPRIA TURQUESA, deixando o veio de matriz saliente. A aula fixava uma das duas direcoes como se fosse a unica, ensinando o defeito como lista de materiais em vez de comparacao - o mesmo habito que DEF-BAND-ORIENT-001 tambem combate.",
+   "replacement": "Paragrafo novo com a regra na forma correta ('o mecanismo diz QUEM afunda - o menos resistente -, nao qual dos dois materiais e ele'), os dois casos da turquesa nomeados, e o pre-requisito do curso de Gemologia reativado POR NOME para a dureza. A Esfera A do exemplo foi especificada como matriz limonitica e ganhou o parentese do caso invertido. Erros comuns ganhou o bullet 'Decorar qual material afunda'.",
+   "source": {
+    "name": "Literatura corrente de lapidaria sobre turquesa - dureza 5-6 de Mohs, matriz variavel em dureza e textura; Sinkankas, Gem Cutting: A Lapidary's Manual",
+    "level": "literatura lapidaria e gemologica corrente",
+    "version": "acesso 2026-09-04"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-03-materiais-e-defeitos-undercut-e-bandeamento.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-04"
+  },
+  {
+   "claim_id": "TOR-PROP-OBEL-001",
+   "severity": "orange",
+   "kind": "omissao_que_gera_erro",
+   "new_claim": false,
+   "location": {
+    "file": "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-04-ovos-obeliscos-e-formas-torneadas.md",
+    "section": "Ovo, obelisco e gota / Exemplo trabalhado / O que nao concluir / Recap relampago",
+    "quote": "razao altura:largura tipicamente 4:1 ou mais, valor de referencia da mesma literatura"
+   },
+   "problem": "'4:1 ou mais' e aberto para cima e nao corresponde a nenhuma das duas tradicoes que a palavra obelisco carrega. O obelisco ARQUITETONICO vai de cerca de 6:1 a 12,5:1, com cerca de metade dos exemplares entre 9:1 e 11:1 e media ~9,4:1 (a descricao classica da nove, nove e meia, as vezes dez vezes a espessura). O obelisco ORNAMENTAL DE LAPIDARIA e bem mais atarracado, correntemente entre 3:1 e 5:1. Um valor unico aberto para cima cobre as duas e nao descreve nenhuma - violacao de LC-05, que pede faixa E fonte.",
+   "replacement": "As duas faixas declaradas separadamente com a tradicao de cada uma nomeada; a confusao entre elas promovida a erro comum ('e erro de ESCOPO, nao de numero'). O exemplo trabalhado passou a situar seus 4,4:1 explicitamente na faixa ornamental e fora da arquitetonica. Registrada tambem a secao poligonal do obelisco, como parte da correcao de TOR-DEF-REVOL-001.",
+   "source": {
+    "name": "American Scientist, 'Moving Obelisks', e a descricao classica das proporcoes do obelisco (largura:altura de 1:6 a 1:12,5, media 1:9,4; secao quadrada); levantamento de oferta corrente de torres e obeliscos ornamentais de pedra",
+    "level": "fonte historica de referencia + levantamento de pratica corrente",
+    "version": "acesso 2026-09-04"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-04-ovos-obeliscos-e-formas-torneadas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-04"
+  },
+  {
+   "claim_id": "ESF-PREF-SERRA-001",
+   "severity": "yellow",
+   "kind": "omissao_que_gera_erro",
+   "new_claim": true,
+   "location": {
+    "file": "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-01-por-que-a-esfera-converge-do-cubo-ao-poliedro-a-esfera.md",
+    "section": "Do cubo ao poliedro / Erros comuns / Recap relampago; e aula 02, Antes de comecar e Da peca bruta ao diametro-alvo",
+    "quote": "O corte de aresta e o modelo pedagogico que explica POR QUE a convergencia funciona, nao uma descricao do maquinario. / [a02] A peca de partida (o sphere blank) ja chega desbastada perto de um cubo ou de um cilindro curto"
+   },
+   "problem": "As duas aulas subestimam a pratica. A preforma de esfera e feita NA SERRA, por corte discreto: cubo -> corte dos 8 vertices -> corte das 12 arestas, chegando a um solido de dezenas de faces pequenas antes de qualquer maquina de copos. Ou seja, o 'modelo pedagogico' da a01 e literalmente a etapa real anterior a da a02, e as duas aulas se tratavam como alternativas em vez de etapas sucessivas.",
+   "replacement": "Paragrafo novo na a01 instalando a preforma de serra como etapa real, com a fronteira nitida entre os dois regimes (corte plano discreto na serra; abrasao continua na maquina). Bullet de Erros comuns reescrito de 'confundir o modelo com o processo' para 'confundir as DUAS ETAPAS'. A a02 ganhou uma linha em 'Antes de comecar' e teve a descricao da peca de partida corrigida. Vocabulario da a01 ganhou 'preforma de esfera'.",
+   "source": {
+    "name": "Highland Park Lapidary, How to Make a Stone Sphere: A Step-by-Step Guide - a rocha e cortada num cubo perfeito, os cantos do cubo sao cortados e depois os cantos resultantes sao cortados de novo",
+    "level": "guia tecnico de fabricante de equipamento de lapidaria",
+    "version": "acesso 2026-09-04"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-01-por-que-a-esfera-converge-do-cubo-ao-poliedro-a-esfera.md",
+    "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-02-maquinas-de-esfera-eixos-multiplos-e-convergencia.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-04"
+  },
+  {
+   "claim_id": "TOR-GOTA-BRIOL-001",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "new_claim": true,
+   "location": {
+    "file": "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-04-ovos-obeliscos-e-formas-torneadas.md",
+    "section": "Vocabulario / Ovo, obelisco e gota / Erros comuns / Recap relampago",
+    "quote": "gota (briolette ou teardrop) | forma torneada com uma extremidade arredondada e a outra afunilada, sem base plana - muitas vezes perfurada para pendente."
+   },
+   "problem": "Gota e briolette nao sao sinonimos. A briolette e, por definicao corrente, a gota INTEIRAMENTE FACETADA e SEM CINTA - pera alongada, aproximadamente simetrica em torno do eixo principal, coberta de facetas angulares. Suas secoes perpendiculares ao eixo sao poligonos, nao circulos, de modo que ela nao e solido de revolucao estrito. A entrada de vocabulario igualava os dois termos e chamava ambos de forma torneada de secao circular.",
+   "replacement": "Entradas separadas: 'gota (teardrop)' como solido de revolucao estrito quando lisa; 'briolette' como a gota inteiramente facetada e sem cinta, forma de eixo unico de secao poligonal. Bullet novo em Erros comuns ('Usar briolette como sinonimo de gota'). Corpo e Recap alinhados. A perfuracao para pendente foi explicitada como operacao posterior, que nao altera a classificacao de nenhum dos dois.",
+   "source": {
+    "name": "Britannica, verbete briolette; Antique Jewelry University, Briolette Cut; literatura gemologica corrente - pera alongada coberta de facetas angulares, sem cinta, simetrica em torno do eixo principal",
+    "level": "base de referencia + literatura gemologica corrente",
+    "version": "acesso 2026-09-04"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-04-ovos-obeliscos-e-formas-torneadas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-04"
+  },
+  {
+   "claim_id": "ESF-CONV-POLI-001-NUM",
+   "severity": "yellow",
+   "kind": "erro_factual",
+   "new_claim": false,
+   "location": {
+    "file": "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-01-por-que-a-esfera-converge-do-cubo-ao-poliedro-a-esfera.md",
+    "section": "Exemplo trabalhado, passo 2",
+    "quote": "O desvio maximo cai de ~11 mm para poucos milimetros."
+   },
+   "problem": "O valor e calculavel e vale ~6 mm, nao 'poucos'. Cubo de 30 mm: vertice a 15*raiz(3) = ~26 mm, face a 15 mm, desvio ~11 mm. Cuboctaedro: vertice a 15*raiz(2) = ~21 mm, face quadrada a 15 mm, desvio ~6 mm. Registrado sob o mesmo claim_id de conteudo ESF-CONV-POLI-001; este identificador com sufixo e apenas o rotulo do achado numerico no manifesto, e nao existe no rodape da aula.",
+   "replacement": "Os dois pares de numeros instalados no corpo e no passo 2 do exemplo, o que da ao aluno a verificacao numerica de que a convergencia reduz o desvio - que a aula afirmava sem mostrar.",
+   "source": {
+    "name": "Geometria poliedral padrao - circunraio e inraio do cubo e do cuboctaedro",
+    "level": "geometria elementar",
+    "version": "acesso 2026-09-04"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-01-por-que-a-esfera-converge-do-cubo-ao-poliedro-a-esfera.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-04"
+  },
+  {
+   "claim_id": "MAQ-COPO-CASADO-001-VOCAB",
+   "severity": "yellow",
+   "kind": "erro_factual",
+   "new_claim": false,
+   "location": {
+    "file": "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-02-maquinas-de-esfera-eixos-multiplos-e-convergencia.md",
+    "section": "Vocabulario desta aula",
+    "quote": "saibro / cilindro pre-formado (sphere blank) | peca ja desbastada perto do formato cubico ou cilindrico"
+   },
+   "problem": "'Saibro', em portugues, e solo arenoso ou cascalho de alteracao - nao tem relacao com peca pre-formada, e e termo de geologia de campo que colide com o vocabulario do curso irmao de Geologia.",
+   "replacement": "Renomeada para 'preforma de esfera (sphere blank)', a mesma entrada agora usada na a01, alinhando as duas aulas.",
+   "source": {
+    "name": "Uso corrente do termo em portugues; terminologia do proprio curso (aula 01 deste modulo)",
+    "level": "terminologia interna do curso",
+    "version": "acesso 2026-09-04"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-02-maquinas-de-esfera-eixos-multiplos-e-convergencia.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-04"
+  },
+  {
+   "claim_id": "MAQ-RAIO-ALVO-001-ARIT",
+   "severity": "yellow",
+   "kind": "erro_factual",
+   "new_claim": false,
+   "location": {
+    "file": "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-02-maquinas-de-esfera-eixos-multiplos-e-convergencia.md",
+    "section": "Exemplo trabalhado",
+    "quote": "Uma peca de onix cubica de 30 mm de aresta vai virar uma esfera de 25 mm de raio de calha"
+   },
+   "problem": "Uma esfera de 25 mm de RAIO tem 50 mm de diametro e nao cabe num cubo de 30 mm - o cubo e o teto do diametro. Erro de raio por diametro, repetido em tres pontos do exemplo.",
+   "replacement": "Corrigido para 25 mm de DIAMETRO, e a restricao promovida a conteudo entre parenteses, porque ensina de graca o limite geometrico da preforma: 'de um cubo de 30 mm nao sai esfera maior que 30 mm'.",
+   "source": {
+    "name": "Geometria elementar - a esfera inscrita num cubo de aresta a tem diametro a",
+    "level": "geometria elementar",
+    "version": "acesso 2026-09-04"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-02-maquinas-de-esfera-eixos-multiplos-e-convergencia.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-04"
+  },
+  {
+   "claim_id": "ESF-TOL-FAIXA-001",
+   "severity": "blue",
+   "kind": "evidencia_insuficiente",
+   "new_claim": false,
+   "location": {
+    "file": "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-01-por-que-a-esfera-converge-do-cubo-ao-poliedro-a-esfera.md",
+    "section": "Do cubo ao poliedro / Recap relampago / O que nao concluir / Fontes consultadas",
+    "quote": "tipicamente algumas centesimas de milimetro de desvio de raio numa esfera de 20 a 30 mm, para uma esfera de qualidade de guilda avaliada por gabarito de anel calibrado (ring gauge)"
+   },
+   "problem": "Nenhuma das duas metades se confirmou. A busca por criterio de tolerancia de esfericidade em lapidaria nao devolveu fonte do oficio; o material sobre ring gauge que existe e de METROLOGIA INDUSTRIAL (calibrador passa/nao-passa para eixos e furos), nao de bancada de lapidaria, e transplantar o termo cria um procedimento que a fonte nao descreve. O numero em centesimos de milimetro nao apareceu em fonte alguma. O que ESTA documentado e o metodo simples: medir o diametro com paquimetro em varias direcoes e comparar o maior com o menor.",
+   "replacement": "REMOVIDA do corpo e do Recap, e a alegacao foi retirada do rodape em vez de reescrita com numero novo (regra da skill para achado azul: nao inventar a correcao). No lugar entrou o metodo verificavel, e 'O que nao concluir' ganhou um bullet declarando a lacuna de forma explicita. Nenhum numero foi substituido por outro numero.",
+   "source": {
+    "name": "Busca sem resultado em fonte lapidaria para tolerancia de esfericidade e para ring gauge de esfera; o material de ring gauge encontrado e de metrologia industrial (Quality Magazine, Vermont Gage, Thomasnet)",
+    "level": "nao verificavel na literatura do oficio",
+    "version": "acesso 2026-09-04"
+   },
+   "confidence": "nao verificado",
+   "affected_files": [
+    "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-01-por-que-a-esfera-converge-do-cubo-ao-poliedro-a-esfera.md"
+   ],
+   "outcome": "removido",
+   "applied_at": "2026-09-04"
+  },
+  {
+   "claim_id": "DEF-BAND-DUREZA-001",
+   "severity": "white",
+   "kind": "controversia",
+   "new_claim": true,
+   "location": {
+    "file": "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-03-materiais-e-defeitos-undercut-e-bandeamento.md",
+    "section": "Bandeamento - dois defeitos diferentes com o mesmo nome (callout Em aberto) / Recap relampago",
+    "quote": "[achado colhido durante a correcao de DEF-BAND-ORIENT-001; nao havia texto anterior sobre a causa]"
+   },
+   "problem": "As fontes de oficina convergem sobre o EFEITO - bandas de agata socavam, e o remedio e polidor e suporte - e divergem sobre a CAUSA: diferenca real de dureza entre fases de silica, ou dureza praticamente igual com diferenca de porosidade e de tomada de polimento. As duas hipoteses preveem exatamente o mesmo relevo observavel, o que explica por que a divergencia sobrevive.",
+   "replacement": "Callout '> [!question] Em aberto' instalado na a03, declarando a divergencia como pergunta aberta e nomeando as duas posicoes, sem arbitrar; um bullet no Recap. Instala o UNICO LC-08 do modulo, que entrou com zero - mesma situacao e mesmo desfecho do modulo 06.",
+   "source": {
+    "name": "Literatura de oficina sobre polimento de agata e undercut (Lapidary Journal / Rock & Gem, guias tecnicos e discussoes de lapidaria) - descricoes convergentes do efeito, divergentes da causa",
+    "level": "literatura de oficina corrente, divergente",
+    "version": "acesso 2026-09-04"
+   },
+   "confidence": "em disputa",
+   "affected_files": [
+    "07-esfera-e-torneadas/07-esfera-e-torneadas-aula-03-materiais-e-defeitos-undercut-e-bandeamento.md"
+   ],
+   "outcome": "declarado como controversia",
+   "applied_at": "2026-09-04"
+  }
+ ],
+ "verified_ok": [
+  "ESF-SOL-REVO-001 - cupula unica x solido de revolucao completo: a assimetria de exigencia entre cabochao e esfera confere e o encadeamento com o modulo 06 esta correto.",
+  "ESF-CENT-PROP-001 - propagacao do erro de centro: cada etapa assume o centro anterior, logo o erro se propaga em vez de se diluir. Correto e independente das demais correcoes.",
+  "Geometria do cuboctaedro (a01) - cubo 6/12/8, corte dos 8 vertices ate a metade das arestas, 14 faces (6 quadradas residuais, 8 triangulares novas), 24 arestas, 12 vertices. Confere, inclusive Euler (12-24+14=2). Retificacao padrao do cubo.",
+  "Aritmetica do passo 1 do exemplo (a01) - centro-face 15 mm, centro-vertice 15*raiz(3) = ~26 mm, desvio ~11 mm. Confere.",
+  "Correcao mutua entre copos (a02) - a unica forma que satisfaz todos os copos com pressao igual e a esfera. Correto, e sobreviveu inteiro as correcoes dos vermelhos 1 e 2; ficou mais forte por deixar de depender do raio da calha.",
+  "Pre-formacao poupa tempo (a02) - abrasao por copo e lenta por contato distribuido e pressao baixa por area. Confere, e agora encadeia com a preforma de serra da a01.",
+  "UND-MEC-DIFDUR-001 - mecanismo do undercut identico ao do modulo 02, com a agravante correta na esfera (a zona mole afunda abaixo do raio em que as vizinhas ja pararam, e mais tempo so aprofunda). Confere; a alegacao so foi reescrita em vocabulario ('resistencia' no lugar de 'dureza').",
+  "DEF-BRUTO-CENTRO-001 - dois centros e a leitura do bruto: geometria concentrica do nodulo, nao-alinhamento entre centro de crescimento e centro geometrico, irreversibilidade da decisao depois da montagem. Tudo confere; e o melhor argumento do modulo.",
+  "TOR-COPIA-PERFIL-001 - copiador de perfil guiando a distancia entre eixo e superficie abrasiva. Confere, e a exclusao da operacao por competencia de bancada esta corretamente declarada."
+ ],
+ "structural_checks": {
+  "claim_id_format": "22 alegacoes ao final (20 herdadas - 1 removida + 3 criadas), TODAS casando com ^[A-Z]{2,4}-[A-Z0-9]+-[A-Z0-9]+-[0-9]{3}$ (4 segmentos). Verificado por regex sobre os quatro arquivos antes e depois das correcoes. NENHUM residuo de 5 segmentos - o padrao limpo do modulo 06 se manteve e os escorregoes dos modulos 04 e 05 nao voltaram. Os identificadores com sufixo neste manifesto (ESF-CONV-POLI-001-NUM, MAQ-COPO-CASADO-001-VOCAB, MAQ-RAIO-ALVO-001-ARIT) sao rotulos de achado, nao claim_id: nao existem no rodape de nenhuma aula.",
+  "bench_competence": "UM achado, corrigido. A a03 dizia 'Passe o dedo' no exemplo trabalhado - imperativo dirigido ao leitor. O conteudo e um teste de diagnostico sobre peca pronta, do tipo ja aceito nos modulos 05 e 06, mas a FORMA imperativa e a que a regra dura proibe; trocada por construcao impessoal ('Ao tato, porem, a superficie e lisa'). Fora isso, nenhum achado: as quatro aulas usam construcao impessoal, os quatro verbos de objetivo sao de conhecimento observavel (explicar, descrever, prever, relacionar) e as quatro trazem em 'O que nao concluir' a exclusao explicita (como a maquina realiza a convergencia; pressao e velocidade de rotacao; como reparar undercut; como se opera o copiador de perfil). O texto ACRESCENTADO por esta auditoria descreve geometria, mecanismo de maquina e criterio de diagnostico - nunca operacao.",
+  "cross_course_prereq": "O curso de Gemologia e citado POR NOME na a03 (dureza de Mohs da turquesa), nunca por wikilink. Nenhuma violacao. A correcao do laranja 5 acrescentou uma segunda mencao, tambem por nome.",
+  "lc08": "O modulo entrou com ZERO controversias declaradas nas quatro aulas. A auditoria instalou UMA, na a03, como pergunta aberta e sem arbitrar (DEF-BAND-DUREZA-001). Nao foi fabricada: foi encontrada durante a correcao do vermelho 3. Mesmo desfecho do modulo 06."
+ },
+ "derived_material": "NENHUM. O modulo 07 nao tinha questionario quando esta auditoria rodou - efeito pretendido do gate - e nao tera baralho de flashcards, dispensado neste curso a partir do modulo 06. Nada a propagar. Buscas por cilindro, raio-alvo, briolette, obelisco, undercut e banda nos modulos 01-06 nao encontraram repeticao dos fatos corrigidos fora do modulo 07.",
+ "forwarded_to_didactic_review": [
+  "AS QUATRO AULAS FORAM ENXUGADAS PARA CABER NO TETO. As correcoes acrescentaram material substancial (a secao nova da a04, os dois blocos novos da a03, o argumento dos polos da a02, a preforma de serra da a01) e o orcamento foi financiado por corte de redundancia em cada aula. A revisao deve verificar, corte a corte, se algum removeu CONTEUDO em vez de repeticao - mesmo encargo que a a04 do modulo 06 recebeu e que la foi verificado sem acao. Pontos: a01 (abertura da secao 'Do cubo ao poliedro', fecho da secao de propagacao de erro, fecho do exemplo trabalhado); a02 (exemplo trabalhado, comprimido em ~40% depois que o Conteudo passou a carregar o mecanismo); a03 (secao de abertura e as duas secoes finais); a04 (a secao 'O que continua igual' foi FUNDIDA na secao nova, e a 'fronteira com a escultura livre' foi cortada quase pela metade).",
+  "a04 - CARGA DE CONCEITOS. A aula agora ensina DOIS criterios aninhados onde antes ensinava um, mais um teste de duas perguntas, mais tres formas, mais duas tradicoes de proporcao do obelisco. E de longe a aula mais densa do modulo. Julgar se a formula 'estrito subconjunto de eixo unico' e o teste em duas perguntas bastam como organizador previo, ou se a aula precisa de um andaime a mais - sabendo que a folga e de 6 palavras e que qualquer acrescimo tem de ser financiado por corte, e NAO pelo texto instalado por esta auditoria.",
+  "a02 - O EXEMPLO TRABALHADO FICOU PARALELO AO CONTEUDO. Depois das correcoes, os quatro blocos do exemplo (um eixo, dois cabecotes, tres cabecotes, onde a maquina para) repetem a estrutura das quatro secoes do Conteudo quase um a um. Esta correto e e util como consolidacao, mas cabe julgar se e EXEMPLO ou RESUMO - se for resumo, a aula tem um exemplo trabalhado a menos do que declara.",
+  "LC-08 - o modulo entrou com zero controversias e a auditoria instalou uma (a03, a causa do socavamento entre bandas). Decidir se basta. Candidata natural para uma segunda, se necessaria: a posicao da preforma - quantas faces vale a pena tirar na serra antes de passar a maquina -, que apareceu nas fontes com respostas diferentes e nao foi desenvolvida por falta de orcamento de palavras.",
+  "a03 - O CALLOUT '> [!question]' E O PRIMEIRO DO MODULO. Verificar se a forma de callout do Obsidian e consistente com a usada nos modulos anteriores para controversia declarada, e se o bloco nao interrompe o fio entre os dois defeitos (esta posicionado entre o primeiro e o segundo).",
+  "VOCABULARIO REINDEXADO EM TRES DAS QUATRO AULAS. a01 foi de 8 para 9 entradas, a02 trocou 4 das 7, a03 foi de 7 para 8, a04 foi de 7 para 9 (o teto de LC-03 e 10). Conferir LC-01 nas entradas novas - se cada termo novo esta definido na primeira aparicao do CORPO, nao so na tabela."
+ ],
+ "palavras_corpo_pre_auditoria": {
+  "a01": 1604,
+  "a02": 1570,
+  "a03": 1587,
+  "a04": 1589
+ },
+ "palavras_corpo_pos_auditoria": {
+  "a01": 1592,
+  "a02": 1589,
+  "a03": 1590,
+  "a04": 1594
+ },
+ "corrected": [
+  "MAQ-RAIO-ALVO-001",
+  "MAQ-COPO-CASADO-001",
+  "MAQ-EIXO-CIL-001",
+  "MAQ-POLO-FRACO-001",
+  "MAQ-NUM-COPOS-001",
+  "DEF-BAND-ORIENT-001",
+  "DEF-DIAG-CAUSA-001",
+  "UND-MAT-EXEMPLO-001",
+  "UND-MEC-DIFDUR-001",
+  "ESF-CONV-POLI-001",
+  "ESF-TEST-ROLA-001",
+  "TOR-DEF-REVOL-001",
+  "TOR-PROP-OBEL-001",
+  "TOR-DIST-ESCULT-001",
+  "TOR-PROP-OVO-001"
+ ],
+ "new_claim_ids": [
+  "ESF-PREF-SERRA-001",
+  "DEF-BAND-DUREZA-001",
+  "TOR-GOTA-BRIOL-001"
+ ],
+ "removed_claim_ids": [
+  "ESF-TOL-FAIXA-001"
+ ],
+ "renamed_claim_ids": {},
+ "open_findings": [],
+ "summary_note": "Contagem por claim_id (18 achados). O relatorio .md agrupa em 4 blocos vermelhos e 6 laranjas: MAQ-RAIO-ALVO-001 e MAQ-COPO-CASADO-001 sao o mesmo erro em dois lugares e saem juntas no vermelho 1; TOR-GOTA-BRIOL-001 (laranja) foi corrigida dentro do vermelho 4, por ser a mesma reescrita de criterio."
+}

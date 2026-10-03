@@ -1,0 +1,2453 @@
+Faceting Made easy
+
+    By Trevor Hannam
+
+                Learn How to
+                Cut Gemstones
+
+                                Faceting Down Under
+The Beginners Guide
+           On
+
+Faceting Gemstones
+
+                           Copyright © 2000 Trevor G. Hannam
+                                           4th edition
+
+             All rights reserved - No part of this book or associated DVD
+May be reproduced in any form, without the written permission from the author.
+
+             Trevor G. Hannam, 1 Glenwood Close., Atherton, QLD 4883
+                                         PH: 4091 1966
+
+                   Should you require a copy of the book or the DVD             Page 2
+                                please contact the following:
+
+              Trevor G. Hannam, 1 Glenwood Close., Atherton, QLD 4883
+                                         PH: 4091 1966
+
+                 Pages that are damaged through some mishap can be
+                                re-supplied @ $3.00 per page
+
+© Copyright 2000
+Trevor G. Hannam
+                                              INTRODUCTION
+
+H ave you ever read a book filled with so much technical jargon that it leaves you
+               more confused than when you started! I think we have all fallen into this cate-
+               gory one time or another.
+
+It is for this reason that this book has been written. I myself found learning from such a
+book, if not properly illustrated or explained in everyday terms can be very frustrating and
+discouraging. Unless you can get an instructor to help you, most beginners will just give it
+up.
+
+This book and associated DVD (if purchased) contains detailed instructions and illustrations
+in concise patterns on cutting the Standard Brilliant, and gives the individual a working
+knowledge of all parts of the Faceting Machine.
+
+Books and teachers of faceting often vary in their technique and most still advocate cutting
+the table first. Times change, and new ways are found to cutting the Standard Brilliant.
+
+This book just presents faceting another way, starting with the pavilion and as you read
+and learn, you will see the wisdom of this technique.
+
+There is no hard and fast rule in faceting, just the basics and beginners are encouraged to
+experiment once they have mastered the Standard Brilliant.
+
+I feel this book has presented gem faceting in such a way that any average person can learn
+quickly, and soon develop their own technique in the art of gem cutting.
+
+                                                  Trevor Hannam
+                                                               2000
+
+                  ABOUT Trevor G. Hannam, born in Wudinna South Aus-
+                       tralia, moved to Cairns Queensland 1966. Intro-
+                  the  duced to faceting by Kay & Jimmy Gadd, where he
+
+                  AUTHOR learned to facet with the help of Bob Johnson.
+                                       Furthered the study of gems by completing a di-
+
+                       ploma in `Earth Science', and continued to study
+
+                  the art of `Gemmology' through kye Jewellers. Member of the 'Cairns
+
+                  Mineral & Lapidary Club Inc.' where he use to teach the art of silver
+
+                  smithing , Gemmology techniques and faceting. Currently Retired.
+
+© Copyright 2000                                                                         Page 3
+Trevor G. Hannam
+CONTENTS          Light and its Properties               Page 5
+CHAPTER 1         Faceting Machine                       Page 11
+CHAPTER 2         Faceting Equipment                     Page 16
+CHAPTER 3         Preparing Polishing Laps               Page 20
+CHAPTER 4         Selecting Rough                        Page 21
+CHAPTER 5         The Standard Brilliant                 Page 23
+CHAPTER 6         Dopping                                Page 24
+CHAPTER 7         Rounding                               Page 26
+CHAPTER 8         Cutting the Pavilion                   Page 29
+CHAPTER 9         Polishing                              Page 32
+CHAPTER 10        Transferring                           Page 37
+CHAPTER 11        Cutting the Crown                      Page 42
+CHAPTER 12        Cutting Angles for different Minerals  Page 49
+CHAPTER 13
+                                                         Page 51
+                  DESIGN CUTS                            Page 52
+                                                         Page 53
+Emerald Cut                                              Page 54
+Spidery Cut                                              Page 56
+Ollen Cut                                                Page 57
+Champagne Glass                                          Page 58
+Kaytre Cut
+Kaytre No5 Cut                                                                   Page 4
+References
+
+© Copyright 2000
+Trevor G. Hannam
+                                 CHAPTER 1 - LIGHT & ITS PROPERTIES
+
+S peed of light Travels through air and space at 297,600 kilometres per second, but as it
+     passes through a solid object, such as a piece of glass, it does two things, slows down
+and changes direction or bends.
+
+       Why does light slow down? Because it's passing through a denser material than air.
+For example, try driving a car through water. The water is more dense than the air, so we
+are slowed down by it.
+
+       Why does light bend? As light tries to pass through the glass it is pulled due to the
+sudden reduction of speed, because of the higher density. Lets take for example, that we
+are driving on a sealed road and up ahead there is a small amount of water on the left hand
+side of the road. As we hit this water at normal speed, the vehicle is immediately slowed
+down and pulled to the left. This is exactly what happens when light passes through glass.
+This phenomenon is known as Refraction and is constant in all gem stones.
+
+REFRACTIVE INDEX
+Is the speed of light divided by the speed of light in the mineral concerned
+
+                                              SINGLE REFRACTIVE
+
+                  Light Path                  Light Path  Refraction
+                              297,600 Km/Sec
+
+                              177,600 Km/Sec                          Light Path
+
+                              297,600 Km/Sec  DOUBLE REFRACTIVE
+
+In Calcite Crystals and some other            Light Path  Refraction
+minerals light has the tendency to
+split into two paths. This is known as
+Double Refraction.
+
+© Copyright 2000                                                 Light Path
+Trevor G. Hannam                                                                        Page 5
+       When a gem is cut properly with angles that are designed for it, the gem will cause
+light to be internally reflected many times and thence returned through the table to your
+eyes. It is the internal reflection and refraction which produces the little explosions of col-
+our. The facets actually acting as tiny prisms.
+
+       White light breaks down readily if passed through a prism into the colours of a rain-
+bow. As a kid I was taught this as a name; `Roy G. Biv' - Red, Orange, Yellow, Green, Blue,
+Indigo and Violet.
+
+                  Refraction               Red
+                                           Orange
+                                           Yellow
+                                           Green
+
+                                           Blue
+                                           Indigo
+                                           Violet
+
+                  Light Ray
+
+                              Glass Prism
+
+                            THIS PHENOMENA IS KNOWN AS DISPERSION
+
+DOUBLE REFRACTION
+Light can be affected in other ways in a crystal. Minerals can either be single refractive or
+double refractive. In normal single refractive minerals, light behaves in its normal manner,
+that is, it slows down, refracts and is internally reflected. In double refractive minerals, this
+however is altered. Light is split up into two paths. This is due to the minerals atomic struc-
+ture and its having one or two axis's of different lengths..
+
+       Calcite is a very good example of double refraction. If you place a piece of clear calcite
+over some small print, you will clearly see the print doubled, as if you have gone cross eyed.
+
+Original print shows                       Calcite Crystal
+Up as two sentences.
+
+                                                   Diagram showing Double Refraction
+                                                             In a Calcite Crystal
+
+© Copyright 2000                                                                      Page 6
+Trevor G. Hannam
+POLARISCOPE
+Double refractive minerals can easily be identified by using a Polariscope, which is defi-
+nitely required by the amateur faceter if he or she is looking for the best optical bene-
+fits.
+
+       A Polariscope consists of two discs of polarized plastic (or a cheap pair of Polar-
+oid sunglasses) that are separated by a mechanical support. A light source is produced
+underneath one of the discs. The gem rough is then placed atop of this disc, whilst
+your eyes are looking through the top disc. The top disc is then turned until it reaches
+it darkest point. The stone is then turned or rotated in a 360 Degrees revolution in all
+directions until you see the best position of refraction. What you see as the gem is
+turned is a lightness and darkness of the polarized light. Will be either 2 times for a
+double refractive stone (known as uniaxial) or 4 times for a stone with a double axis of
+double refractive stone (Known as biaxial). The axis of the stone or gem rough is the
+part where the gem turns the least amount of light and dark.
+Below is the principal of a Polariscope.
+
+                              General Diagram of use of a Polariscope
+
+                       Blue Zircon                Polarized disc when 90 Degrees
+                                                  out of phase. Produces the dark-
+   Direction of                                   est area. This is the correct posi-
+Double Refraction                                 tion for viewing. The Polariscope
+                                                  is a must for double refractive
+                                                  stones, such as, Zircon and Peri-
+                                                  dot.
+
+                                    Light Source
+
+© Copyright 2000                                                                            Page 7
+Trevor G. Hannam
+THE CRITICAL ANGLE
+As the angle of light from a source increases to the surface of a gem stone, the angle of re-
+fraction will also increase until a point is reached where it will run parallel with the surface
+of the gem stone. The angle of incidence which causes the light to become parallel to the
+surface is known as the Critical Angle.
+
+       If the angle of light exceeds the critical angle, the light source will become totally re-
+flected. The minerals with a small critical angle will loose less light than ones that have a
+larger critical angle. This means that gem stones with a smaller critical angle can prolong
+the internal reflection of light thus producing more sparkle and colour.
+
+ WHAT LIGHT DOES WHEN THE ANGLE OF INCIDENCE IS INCREASED
+
+                  Partial Refraction  Partial Refraction
+
+                  Increasing Angle
+
+                                      Light runs parallel
+                                       with the surface
+
+                         Critical                  Critical Angle   Total Reflection
+                          Angle                  Exceeded causing
+                                                  Total reflection
+                  Partial Refraction
+                                      Partial Refraction
+
+© Copyright 2000                                                                      Page 8
+Trevor G. Hannam
+CUTTING OF CORRECT ANGLES AND WHAT CAN HAPPEN
+  IF THE ANGLES ARE NOT CORRECT FOR THE MINERAL
+                          CONCERNED
+
+                                                     TOPAZ CRITICAL ANGLE 37º
+                                                          Cut from 39 to 42º
+
+Angle 42º                                         This gem stone has been cut correctly
+
+                                                 The angles are correct for the mineral
+                                                 Topaz and has full total reflection
+                                                 which produces those little explosions
+                                                 of colour.
+
+This gemstone has a dark centre and is           Angle 50º
+caused by excessive leakage of light
+through the pavilion because it has
+been cut at an excessive angle of 50
+Degrees.
+
+                                      Angle 35º  This gemstone has what is known as a `Fish
+                                                 eye' effect, and is indicated by seeing
+© Copyright 2000                                 straight through the centre of the gem stone
+Trevor G. Hannam                                 producing a halo appearance around the pe-
+                                                 rimeter. This is caused by cutting the gem
+                                                 stone far to shallow, 35 Degrees.
+
+                                                                                                                     Page 9
+PLEOCHROISM
+Certain minerals have a colour change which is caused by absorption of light when it passes
+through different directions in the mineral.
+
+       If you turn a gem and see different colours from different directions, the mineral is
+referred to as being Dichroic. A good example of this would be a sapphire. If looked straight
+down upon the crystal, that is its `C' axis, the gem will appear to be blue, but if looked at 90
+Degrees or side on the crystal will appear green.
+
+       The gem Iolite also shows this phenomenon, but has three colour changes. Blue,
+clear, and yellowish.
+
+       An instrument used for viewing this effect (dichroism), is called a Dichroscope, and is
+made from a piece of clear calcite and a lens situated in a small tube.
+
+                   SAPPHIRE CRYSTAL SHOWING PLEOCHROISM
+
+                                                              Blue
+
+                            Green
+
+                  `C' Axis
+
+© Copyright 2000                   Page 10
+Trevor G. Hannam
+                  CHAPTER 2 - HALLS MKII FACETING MACHINE
+
+                               Light 40W
+
+                  Adjustable                            Coarse Height
+                                                           Adjuster
+
+                                                                         Micro Height
+                                                                           Adjuster
+
+Stop Indicator                                        Angle Cheater                   Dial Gauge
+                                                                                Post
+
+                               Speed Control
+
+                  Control Box  Water Reservoir                                        Protractor
+                                                                                      Angle Stop
+                                  Coarse Angle
+                                     Adjuster
+
+Water Spiggit                             Master Lap                                       Index Cheater
+     Valve                                  Swarf Tray                                Index Wheel
+
+            Nut                                                                        Quill - Dop Arm
+                                                                                        Chuck
+                                                                                       Dop Stick
+
+Remember, with any machine, no matter how good it is, will not be as good
+   as your eyes. The old saying "CUT A LITTLE LOOK A LOT" always apply.
+
+© Copyright 2000                                                                                  Page 11
+Trevor G. Hannam
+                                 ULTRA TECH FACETING MACHINE
+
+                                              40 Watt Lamp
+
+     Water Reservoir                                            Coarse/Micro Height
+          & Valve                                                      Adjuster
+
+                                                    Dial Gauge
+                                             Angle Cheater
+
+                                                 Index Cheater
+                           Index Changer
+                           & Free Wheel
+
+Nut                                                             Protractor           Post Lock
+                                                                                     Speed Control
+                                                                            Post
+
+                                 Diamond Lap
+
+                     Swarf Tray               Index Wheel
+
+                                 Quill - Dop Stick
+
+Swarf Waste                                   Set of Dop Sticks
+     Tray                                              &
+
+   © Copyright 2000                              Transfer Jig
+   Trevor G. Hannam
+                                                                                     Page 12
+           Index Free Wheel               Dial Gauge            Angle Cheater
+              Lever & Lock            Protractor                   and Stop
+
+    Index Cheater                                                           Speed Controller
+Master Lap                                                       Set - 0
+
+                                       12VDC                      Rounding     Micro Height
+                                       Motor                         Post        Adjuster
+
+                                                                 Swivel Joint
+
+Quill - Dop Stick  Index                                                                        Course Height Adjust
+                   Wheel
+                                                      Post CAMPER SERIES FACETING MACHINE
+                           Swarf Tray
+
+                    Index             Index Release Protractor    Angle            Micro
+                   Cheater                                      Stop Lock      Height Adjust
+
+                                      Lever & Lock
+
+        Water                                         Index                              Coarse
+        Vessel                                        Wheel                         Height Adjust
+
+Master Lap                                   Quill    Motor                    Post
+                                      Nut
+                                                                                           Speed
+                                                                                           Control
+
+                                      Swarf Tray      Post Lock
+
+                        Transfer Jig                         GEM MASTER G1
+
+       Indicator Stop Lamp                                                                                            Page 13
+
+© Copyright 2000
+Trevor G. Hannam
+TERMINOLOGY
+
+ Quill & Alignment Tool
+
+The quill or dop arm as it is sometimes called, houses the
+
+mounted dop stick, and is attached to the toothed gear known as
+
+the index wheel. This quill has either a self centre chuck or a small           Small Set Screw
+
+set screw to lock the dop stick in position.
+
+Some machines do not have alignment notches built into the quill
+
+or transfer Jig, and alignment tools makes life easier for aligning
+
+facets between the Crown and Pavilion. A good machine should                    Quill with Dop Stick
+
+have at least one of these. The alignment tool allows for perfect
+
+realignment, should you have to remove or replace the dop stick at any stage whilst cutting
+
+or polishing.
+
+ Index Wheel & Cheater
+
+The index wheel is the large toothed gear and comes in a variety of indexes. Normally the
+
+machine will come with a 96, and/or a 48 index wheel as standard equipment. These
+
+                  Index Wheel Release  indexes should be easily interchanged without
+                                       difficulty. If not - be wary!
+
+                                       The index wheel can be released by pushing in the
+
+                                       arm of the spring retainer so the quill can be moved in
+
+                                       either direction (as with most machines). This arm can
+
+                                       be locked into position so the index wheel, and quill
+
+                                       can turn in a 360° for rounding.
+
+                                       A small amount of movement, either left or right of
+
+96 Index Wheel     Index Cheater (showing No 2) the main setting is available by using the index
+
+cheater. The cheater will allow for small errors in cutting or polishing, and normally will
+
+have a centre mark to help you show direction (left or right) when cheating.
+
+ Protractor, Stop & Cheater
+
+The protractor is probably the most important part of the machine, and should have clear
+
+engraved half degree divisions                                         Angle
+
+with a good marker, pointer or                                         Cheater
+
+face that can be seen, and read
+
+from nearly all directions when in
+
+normal operation.
+
+The angle stop sets the quill to any   Stop                                     Protractor (Set at 60º)
+angle between 0 and 90° on the                   Angle Stop & Cheater
+protractor, and should move
+freely between the stop, and the
+
+set angle. Most machines will incorporate a dial gauge and/or a                 Angle Cheater
+
+small indicator light to give the operator a warning when the stop
+
+is reached. The stop should be solid, and held firm by a locking
+
+device so the quill cannot past this point.
+
+Located on the stop, may be an angle cheater, a small tapered
+
+shaft that can be screwed in or out to adjust the angle by the 10th
+
+degree, but be prepared, there are a lot of machines out there                  Dial Gauge Fitted
+that do not have an angle cheater, in fact most faceters will tell
+
+you that the angle cheater is not necessary.
+
+© Copyright 2000                                                                                         Page 14
+Trevor G. Hannam
+ The Post & Coarse Adjuster
+
+The post is the main support for the head assembly and is
+
+90° to the base plate. The post can be either fixed or
+
+adjustable along a slide that is fixed by a locking nut. On this
+
+post, to which the head assembly is fitted, is a coarse
+
+adjuster. This is a large knurled knob which releases or
+
+tightens the head assembly to the post so the quill can be
+
+raised or lowered by hand (coarse adjustment).
+
+ The micro Height Adjuster
+
+Fitted to the head assembly or in some cases to the main
+
+                      Coarse & Micro Height   post support. The micro height                   Base Assembly Lock
+                  Adjuster 0.02mm Increments  adjuster should be adjustable        Pull Handle Down to secure Post to Base
+
+                                              within a span of approximately 25mm, and is normally marked
+
+                                              in graduated steps of 1 to 5 thou increments. Some machines
+
+                                              do have micrometers fitted as part of their standard
+
+                                              equipment.
+
+                                               Water Reservoir
+
+                                              A good reserve of water should be      Water Container
+
+                                              available to the faceter. Normally
+
+                                              all faceting machines will have a       Valve & Spout
+
+                                              reservoir fitted to the side of the
+
+                                              swarf tray, and have a capacity of      Master Lap
+                                              500 mils minimum. A stop valve          RH Lock Nut
+
+Main Post
+
+should be fitted to allow control over the water flow, and the
+
+container should be able to be swung away from the lap when
+
+required.
+
+ Speed Control & Motor
+
+All faceting machines must be driven by an electric motor of
+
+sorts (or can be hand crank). This can be by either 240V or                          Ultratech Swarf Tray
+
+                  12/24 Volt, and is normally belt driven by stepped pulleys or variable speed
+
+                  control.
+
+                  If a fixed 2 or 4 pole motor is used, then the faceting machine should be
+
+                  fitted with a stepped pulley system so the speed can be changed manually. A
+
+                  good speed for minimum is 100 rpm to around 1400 + for fast speed.
+
+                  The best system is a variable speed system either in 240V, 12 or 24 Volt.
+
+Ultratech Speed Control 12/24 Volt is preferable due to high torque and less noise.
+
+As mentioned earlier, all machines today can be considered a marvel of modern
+engineering. Some are better than others, and some offer more incentive by gimmicks, and
+attachments, but all in all, the faceter has to make the decision that suits him best. The
+main criteria for any faceter is Ease of Operation when facing the machine in the standard
+cutting mode.
+
+© Copyright 2000                                                                                                            Page 15
+Trevor G. Hannam
+                                                 CHAPTER 3
+                                          FACETING EQUIPMENT
+
+ FACETING MACHINE
+Should include dop sticks, transfer jig, 45 degree angle dop and a flat dop. It seems that
+quite a few faceting machine manufacturers don't include flat dops in their kits. If you hap-
+pen to be one of the unlucky ones, don't despair, as a valve from an auto or bike shop will
+suffice quite well. Just be sure that it has a 1/4" or 6 mm shank. Essential tools, such as
+small spanners, screwdrivers and Allen keys are a must.
+ LAPS
+A lap is a flat disc which is used to cut and polish gemstones. Today there is a multitude of
+laps offered for sale, but non better than the good old copper lap. The copper lap has been
+around for many decades, makes an excellent pre-polish lap and is still preferred by many
+experienced faceters. These type of laps have to be charged with diamond powder, are
+cheap and easy to maintain.
+Metal bonded laps have diamond powder electroplated onto a thin copper disc which is
+glued to a master lap made of aluminium. These type of laps are more expensive than the
+copper laps, but cut flat and true with good clean facet edges. I have found from experi-
+ence, that the pre-polish lap do have a tendency to become dull very quickly and therefore
+is not recommended for the beginner until he or she has gained more experience. Coarse
+laps on the other hand are a must for the faceter and will last an extremely long time and
+are well worth the few extra dollars to buy.
+Polishing laps also come in a variety of types, namely: Aluminium, brass, ceramic, Lucite,
+cast iron, iron, tin lead, type metal, and even timber, but one can't surpass the ever popular
+tin lead lap for polishing as an all round general purpose type. Used with 50,000 mesh dia-
+mond powder, it will outperform all other laps due to the metal's ability to polish most
+gemstones.
+
+LAPS REQUIRED
+(1) Coarse 100 to 180 grit disc grit metal bonded type - Used for quick removal
+(2) Coarse 220 to 300 grit metal bonded type
+(3) Pre-polish 1200 and/or 3000 Copper Lap
+(4) Polish Tin Lead lap - made from 60/40 solder or Type Metal
+
+Once you have established yourself as a faceter, try experimenting with other laps. They all
+work very well and you will find the aluminium lap extremely good for polishing sapphires.
+The ceramic lap gives clean flat sharp facet edges, and is best suited to gemstones of 8+ in
+hardness. Not to be considered as a general purpose lap, but if you are considering entering
+faceting competitions, the laps superiority over soft laps must be well considered.
+
+       Cast iron and iron laps can be considered a second best to the tin lead lap. They give a
+good crisp straight edge and are suitable for stones of 8+ (Topaz & Sapphire) that can only
+be used with diamond powder and a good grade of olive oil. The laps coarseness or porosi-
+ty of the metal makes it a good holder of polish powder. From experience, this lap can be
+considered to be on par with the ceramic lap, giving precise clean flat facets and is worth
+persevering with until the lap is worn in.
+
+© Copyright 2000  Page 16
+Trevor G. Hannam
+       The last one to mention is the Lucite lap. Made of plastic and is normally used with
+cerium or tin oxide powders mixed with water. This type of lap is generally used for
+polishing Quartz, and requires the lap to be kept extremely wet while in use to prevent
+heat build up and rounding of the facet edges. Quartz being one of the hardest minerals I
+have found to polish can be assisted by the use of a small amount of vinegar added to the
+polish mixture. Using Lucite laps require a very slow speed.
+
+ DIAMOND POWDER
+
+Diamond grit used for cutting and polishing of gems come in a variety of sizes, ranging from
+
+0.1 to 100 micron. The diamond powder that we use today is mostly made by man, and is
+
+more consistent in particle size than natural stones which have been sieved by a screen.
+
+Grit sizes of 80 to 325 normally come in a powder form from 1 carat to 5 carat vials. Whilst
+
+600 mesh size and over can come in a variety of containers, vials,
+
+syringes and spray packs.
+
+To start, we will need 1 carat of each size, 1,200 mesh, 3,000 mesh
+
+and 50,000 mesh. The 1,200 and 3,000 mesh are both the pre-polish
+
+grade. 1,200 mesh is the all rounder for pre-polishing, whilst the 3,000
+
+mesh is recommended for doing sapphires as they suffer badly from
+
+`Orange Peel' or over cutting due to planes of softness within the
+
+mineral. The 50,000 mesh is used for the polishing stages and is a
+
+good all round polish powder. You can however use 100,000 mesh for
+
+polishing, but polishing of the facets will take a little longer. It has       Diamond Products
+been my experience that there is virtually no difference between          100 Thousand Spray Bottle
+these polishing powders when it comes to viewing the finished             Syringes - 14,000 & 50,000
+
+                                                                            220 & 50,000 Mesh in
+                                                                             1 carat & 5 carat vials
+
+product.
+
+ ADHESIVES
+
+5 minute/24 hour epoxies and super glues (cyanoacrylate) are an added advantage when it
+
+comes to faceting and all faceters should have in their arsenal, Loctite 416 Super glue,
+
+Epoxy adhesive such as `Tite On'/JB Weld and a small tube of 5 minute araldite.
+
+© Copyright 2000                                                                                      Page 17
+Trevor G. Hannam
+ DOP HELP
+A small container of dop help which you can buy direct from any good lapidaries supplier or
+you can make your own.
+Made from shellac flakes and methylated spirits. The shellac flakes can be bought from
+paint suppliers or any good hardware store. Using a small glass container that has a tight
+fitting lid, such as a Promite container - half fill with shellac flakes and pour methylated spir-
+its onto the top until the container is full. Shake this container vigorously for a few minutes
+once every day for 3 days and then let settle for a couple of days. Pour of the top part of
+the liquid into a small vial etc. This makes an excellent dopping media for faceters wax, in-
+expensive and will last you for years.
+
+ DOP STICK HOLDER
+A must for beginners or any enthusiasts, 3 or 4 dop stick holders. Made from a 1" broom
+handle. Don't use the wife's broom for this venture or you may very well end up in the dogs
+house. Cut 3 or more pieces from your broom handle approximately 30mm long and drill a
+1/4" hole in the centre to a depth of around 15mm. These essential pieces of equipment
+will be required to hold your dop sticks in an upright position for gluing, fixing and handling
+your gem stones especially when using hot wax.
+ FACETING WAX
+Faceters dopping wax is made from a mixture of Shellac flakes and red Ceiling wax. Dopping
+with wax has been around since `God was a little boy', and is still regarded as the all pur-
+pose adhesives for gem faceting. Normally faceting wax comes in a bundle five to six sticks
+per pack and is relatively cheap to purchase. Occasionally green wax can also be used but is
+a lot softer and can cause shifting of the stone whilst polishing due to heat build up.
+
+ HEAD LOUPE
+A small head loupe of 3 1/4 power and/or a 5 to 10 power eye piece, preferably one that is
+corrected, so there is no distortion of the outer rim when viewing an object. A good lens
+that can be purchased cheaply, is an eye piece from a pair of binoculars (7X50 or 10X50).
+You can pick these up at second hand markets etc, and they work extremely well.
+
+ KNIFE
+Any small knife will be fine to use. This will have to be dedicated to the job, as the blade will
+be used for heating, scraping, mixing and applying adhesives.
+
+ OLIVE OIL & Polish Extender
+Cooking grade olive oil will do fine. This oil is used as a coating to hold and distribute the
+diamond powder onto your pre-polish and polish laps.
+When mixed with Shellite (1 part of olive oil to 40 parts Shellite), you create an excellent
+cutting oil extender for both the pre-polish and polish laps. Also, makes a very good cleaner
+for the laps. Pour the extender into a small spray bottle (50 Mil), as it will give a better cov-
+erage.
+
+                  Beware of Naked Flames & Use Common Sense
+
+© Copyright 2000  Page 18
+Trevor G. Hannam
+ OVEN                                                                          OVEN
+A medium size jam tin that is cut out to suit your spirit lamp
+
+to be used as a hot plate. Used for slowly heating your gem
+
+rough to accept dopping wax to transfer onto the dop sticks
+
+ REFRACTOL
+
+Available from any good lapidaries suppliers, and is a must
+
+to the amateur faceter for seeing imperfections within a
+
+piece of rough. This oil has a refractive index close to mid
+
+range of most minerals, approximately 1.57. When this oil is
+
+applied (with a small fine artist brush) to the gem rough, it
+
+makes the surface extremely clear. Just like a piece of glass,  Spirit Burner
+making it easier to view inclusions. You can also purchase
+
+from a chemist some Clove and Cinnamon oil, as these have
+
+refractive indexes 1.54 and 1.62 respectively and will help you view gem rough that have
+
+lower and higher than 1.57.
+
+ SPIRIT LAMP
+Almost any type of burner or even a candle will work as a flame heater for heating wax and
+transferring, but you will find the alcohol lamp (as viewed above in a home made oven) will
+be your best bet, namely because of its a clean flame and heating ability compared to some
+other types.
+
+ VERNIERS & SCALES
+A good pair of metric plastic vernier/callipers with dial
+gauge to measure gem stones, a must if you consider go-
+ing into competitions. Callipers can be expensive or cheap
+- its best to get a good pair if possible, though I must ad-
+mit in the end the pocket will decide the quality.
+Not essential, but advantageous is a set of scales for
+weighing your finished gem stones. The scales will need
+to be able to weigh as low as .001 carat (there is 5 carats
+to 1 gram).
+
+ MISCELLANEOUS
+1. Soft tissues: The best to use here is soft Sorbent toilet
+
+       rolls, and it is a good idea to fix a toilet roll holder close
+       at hand when faceting.
+2. Methylated Spirits and or Acetone make a good a cleaner
+       for dop sticks and cleaning of super glues etc.
+3. Pen and Paper: Always keep at hand to write down infor-
+       mation when faceting. Don't try to rely on memory,
+       notes can always be referred to when required.
+4. A small 4" trim saw would be a good investment, but can
+       be done without as most stones can be cut directly from
+       the rough. A small mandrel can be made by an engineer
+       to take a small blade on the faceting machine. This then is used to cut the mains of
+       the stone, thus saving the expensive laps.
+
+© Copyright 2000                                                                     Page 19
+Trevor G. Hannam
+                                                 CHAPTER 4
+                                     PREPARING A PRE-POLISH LAP
+
+ PRE-POLISH LAP
+Making up your pre-polish lap is very easy. Using a
+new copper lap, clean the surface with a tissue
+with the extender fluid. Place a couple of drops of
+olive oil on your lap, and with a clean tissue wipe it
+all over the lap until it is almost dry. You will need
+the vial of 1200 mesh diamond powder (pre-polish
+powder). Wipe a clean finger over the lap, this will
+leave a smear of oil on it. Open the 1200 mesh dia-
+mond powder, place the index finger over the top
+and invert. Invert back again and lift the finger off
+the vial. You will now see a grey coating of powder
+on your finger. Place your finger in different spots
+over the lap, and then spread the powder as even-
+ly as possible over the laps surface with your fin-
+ger.
+The lap is now prepared, and will last a long time before the lap will need resurfacing with
+diamond powder.
+
+Placing powder on the
+lap using a clean finger
+
+                                        Preparing your Copper
+                                        lap for pre-polishing
+
+                            Pre-polish  Spreading the mesh
+                            Copper lap  Powder over the lap
+
+© Copyright 2000                                               Page 20
+Trevor G. Hannam
+                                                 CHAPTER 5
+                                         SELECTING THE ROUGH
+
+A s we are a beginner, lets start with a piece of topaz. Topaz has a good relative hard-
+      ness, has good refractive index, is nice and cheap and will produce a gemstone of
+sparkling brilliance.
+
+ CLARITY - clearness
+You have a piece of topaz that isn't a piece of crystal, but has been water worn and is im-
+possible to see through. Wetting this with water will help, but not enough to be able to see
+the inclusions and flaws etc. This is due to the refractive index (RI) of the water (1.33) not
+being high enough. To be able to view inside readily we need to use a liquid close to the RI
+of topaz (1.63). The use of the refractol will do just that (or cinnamon oil). Paint this over
+the stone with an artist brush and you will be able to see right through the stone as if it
+were a piece of glass.
+Look hard into the stone, use a five or ten power eye piece and see if there are any cracks,
+inclusions of other minerals, cloud veils from ghost crystals or small bubbles that are proba-
+bly filled with liquid. Obviously we are looking for a near flawless stone, but as nature will
+have it 'Nigh Impossible'. The art of faceting is for you to be able to find the flaws and hide
+them if they present a problem. By orientating a gem properly, flaws or inclusions can be
+hidden under the girdle facets. Normally though, you wouldn't bother unless special cir-
+cumstances required it, like the piece of rough being regarded as a unique piece, senti-
+mental value or having a high price. Usually the stone would be discarded for a better
+piece. Also refer Chapter 3 section 3:8 on inclusions.
+Now you have mapped out the interior of the rough for possible orientation and maximum
+recovery of that stone.
+
+ COLOUR                                                               `C' Axis
+Does the stone you
+have selected have any                   Fracture
+
+colour zoning in it, or is  Water Worn             Gem Orientated
+it all colour, maybe the    Rough Topaz             5 to 6º off Axis
+
+colour is lighter on one
+
+side than the other!
+
+Stones like amethyst,
+
+citrine, sapphire and
+
+blue topaz can have                               Gem Orientation
+one or more bands of
+
+colour. If the colour is    Colour Zoning within   Cleavage
+most important (and          The Gem Material        Plane
+normally is), the rough
+will have to be orien-                                                Crystal of
+tated in a position so                                                 TOPAZ
+
+that the pavilion of the standard brilliant when cut is fully within the banding. Some care
+
+however may be needed, so that the pavilion does not protrude past this point of colour
+
+zone as the gem may loose the colour that we are looking for.
+
+© Copyright 2000                                                                  Page 21
+Trevor G. Hannam
+Colour banding should not be confused with Pleochroism, such as in sapphires, which are
+double refractive. Sapphires should be orientated along the `C' axis for best colour,
+especially corn flour blue, otherwise you may very well end up with a green sapphire. Also
+refer Page 10 on Pleochroism.
+
+ CLEAVAGE
+Topaz has a cleavage plane which may or may not cause you a problem when polishing. If
+the piece you have selected is a crystal piece, or shows the cleavage plane easily, then you
+have no worries as orientation will easy. If your selected stone is water worn, and there is
+no indication of the cleavage plane, I suggest that you just go ahead and orientate the
+stone as if there were no cleavage. The chance of placing a stone exactly on the cleavage
+line is a thousand to one, and far to much emphasis has been placed on this subject. Even if
+you have placed the cleavage on one of the facets to be polished there will be no real
+problem as polishing can be done by the hand technique discussed later in the section
+under `Polishing'.
+So, if your piece shows the cleavage (which is 90 degrees from the `C' axis), you would
+orientate this piece of rough approximately 5 to 6 degrees away from the axis.
+
+© Copyright 2000  Page 22
+Trevor G. Hannam
+                               CHAPTER 6 - THE STANDARD BRILLIANT
+
+T he first faceted stones happened sometime in the late 14th and 15th century, and
+       since that time was to be held a secret that was passed from father to son. The nine-
+teenth century found the art of faceting and lapidary clearly available to all amateur and
+hobbyists. Today, numerous books are written on the subject, and many clubs are willing to
+teach this art.
+Cutting the standard brilliant starts with a piece of rough which is rounded. Then a combi-
+nation of facets are placed in geometrical patterns around the stone to make use of the op-
+tical properties of that stone, thus producing a brilliance which is pleasing to the beholder.
+
+TERMINOLOGY
+There are 57 facets in the standard brilliant - The crown consists of 33 facets, 8 main facets,
+16 girdle facets, 8 star facets and 1 table facet, totalling approximately  of the total height
+of the brilliant. The pavilion consist of 24 facets, 8 main facets, 16 girdle facets, totalling
+approximately  of the total height of the brilliant. In some circumstances the culet can be
+cut as a small flat facet to prevent it from fracturing and at times is considered good prac-
+tice. The maximum girdle width must not exceed 5% of the total height.
+
+                                Table - Approximately                  CROWN
+
+1/3                                          50 to 60%
+
+                                             Star Facets
+
+                                Main Facets               Main Facets
+
+                                Girdle Girdle
+                                Facets Facets
+
+2/3
+
+                                Girdle Girdle                          PAVILION
+
+                                Facets Facets
+
+                  Girdle Width  Main Main
+                  Maximum 5%    Facets Facets
+
+                                                                          Pavilion Point
+                                                                       Known as the Culet
+
+                  STANDARD BRILLIANT TERMINOLOGY
+
+© Copyright 2000                                                                           Page 23
+Trevor G. Hannam
+                                                 CHAPTER 9
+                                                  DOPPING
+
+O ne of the most important parts of faceting - Dopping must be done correctly. There's
+       nothing worse, especially to a beginner to have his or her gem stone full off at a cru-
+cial point because of improper dopping.
+
+ DOP STICK SIZE
+Select the right dop stick for the stone, this would be approximately 50 to 60% of the size
+of the finished article. This will come to you with trial and error, and after a while you will
+be able to estimate with some accuracy the correct dop stick for the job.
+Once you have orientated the stone correctly as per Chapter 8, you will have to grind a
+small flat surface on the stone to accommodate the dop stick. This is done by placing the
+coarse lap (220 Grit) onto the faceting machine's master lap.
+Turn the tap on the water container to the on position so a reasonable flow is running onto
+the centre area of the lap surface. Set the machines speed to high.
+Bring the stone to the surface of the spinning lap and using light pressure, proceed to cut a
+small flat surface for dopping.
+Using a piece of toilet tissue, wet it with methylated spirits and clean the ground area
+(don't forget to turn off the water and the machine, leave the lap on the machine for the
+next phase of faceting). Paint this cleaned area with a very thin film of dop help (the one
+you have made). The dop help will act as a binder for the transition of wax to metal
+
+ FIXING STONE TO DOP STICK
+There are some stones that are quite heat sensitive, and it is best to use the modern day
+epoxies, such as `Tite On' and/or the super epoxy called "Weld It" which fully cures in 4
+hours.
+Set up the heater oven, and place the stone, painted side up onto the oven's top. Place the
+spirit lamp underneath the oven and light.
+Gauging the right amount of heat will come to you only with experience, but as a guide line,
+keep lifting the stone with your fingers until you find you can no longer hold it for more
+than a couple of seconds, this is approximately the right temperature.
+Whilst the stone is warming, place your selected dop stick in one of the dop stick holders
+you have made.
+Heat the end of the dop stick by placing the end into the flame. When reasonably hot bring
+the faceters wax into the flame with the dop stick, and melt some of the wax onto the sur-
+face to form a small ball of melted wax. During this time you may have to keep the dop
+stick moving around to retain the wax on the end. Continue to heat until the wax just catch-
+es fire (this is the right temperature for fixing).
+Immediately place the waxed end of the dop stick onto the surface of the stones painted
+side. Lift the combination from the oven and gently , before it cools, move the stone
+around until it's in the right position. BE VERY CAREFUL HERE AS THE STONE IS QUITE
+WARM! - You can now see and appreciate the benefits of using dop stick holders
+
+       Put the dopped stone aside to cool down and prepare your faceting machine for the
+next phase of your work.
+
+© Copyright 2000  Page 24
+Trevor G. Hannam
+ USING EPOXIES - Dopping
+Epoxies offer the faceter a simpler alternative to that of using wax. Both epoxies and super-
+glues (401 Cyanoacrylate) are very reliable and have the advantage of being able to be
+worked at room temperatures. They also offer the faceter, superiority from premature fail-
+ure due to heat build up causing the stone to shift while you are transferring from one dop
+to another and save many a burnt finger to which I can readily relate too.
+Epoxies and Cyanoacrylates can be troublesome however when trying to remove the adhe-
+sive from the stone. M.E.K. thinners and or Acetone will help release most epoxies and su-
+perglues. Heat still is the best option for prying the gem stone away from the dop stick, and
+works very well; another method is to place into the freezer for 15 to 20 minutes and then
+pry apart, however this may not always work.
+Using Epoxies - make sure the ground flat area on your stone has been cleaned with meth-
+ylated spirits. Clean the head of your dop stick thoroughly too. You may even have to use a
+piece of wet and dry silicon carbide paper or similar to get it clean.
+
+       Using `Tite On' or `Weld It' epoxy, mix equal parts of base and hardener together. Mix
+extremely well. Place a small amount onto the dop stick and press onto the flat area of your
+stone. Set aside for at least 1/2 hour for best results.
+
+       Super glues are not really recommended for initial stone dopping, unless a stone has
+fallen off the dop whilst cutting where it can easily be glued back on. I have found super-
+glues are far better used in transferring of dopped stones, and it is here that the adhesive
+works best.
+
+In summary wax has the advantage over epoxy with quick drying times as does superglues,
+which means you could be faceting in just a few minutes after dopping. If you can wait,
+then I recommend you use epoxy - it's up to you!
+
+© Copyright 2000  Page 25
+Trevor G. Hannam
+                                         CHAPTER 8 - ROUNDING
+
+M ost teachers of faceting begin with cutting the crown first, followed by the pavilion,
+        and has been taught this way for generations. Here we do the pavilion first, with the
+crown and table facets being last. This technique allows for the amateur and professionals
+to be able to estimate more accurately the depth of material left for the crown, have better
+control of placing and hiding flaws under facets, easier transferring of the pavilion to crown
+in the transfer jig and better control of placements of facets. The down side of this tech-
+nique however is that the table facet (the last one to be cut) has to be `sat' onto the star
+facets and meet at every point. This can be considered good practice for when you venture
+into the art of `MEET POINT FACETING'.
+
+SETTING STONE TO QUILL - Rounding to form the `Girdle'
+Set your index wheel of your faceting machine into free wheel, and protractor to 90°. Place
+your coarse lap (220 Grit) onto the master lap and do the nut up firmly .
+Now place the dop stick with the dopped stone on it into the chuck of the quill. Some ma-
+chines, such as the Hall's machine have specially shaped dop sticks that fit directly into the
+quill. If your machine does not have this facility, just place the dop  of the way into the
+chuck. Tighten up the chuck firmly.
+Lift off the gate of the swarf tray, undo the coarse height adjusting wheel to free up the
+head assembly and carefully lower the head so that the stone on the end of the dop stick
+rest lightly on the edge of the coarse lap, re-tighten coarse adjuster - refer diagram below.
+
+                                                Wax             Swarf Tray                 Dop Arm (Quill)
+                  Gem Stone
+                                                                            Locking screw
+
+                                                     Dop Stick
+
+                  180 or 220 Grit Lap                           Gem Stone is Lowered so as to
+                  Master lap                                           Just Touch the Lap
+
+                                       Rounding the Gem Stone to form the `Girdle'
+
+Now raise the stone slightly using the micro height adjuster to lift it off the lap. Start the
+machine at fast speed, turn on the water at a reasonable rate so that it flows outward from
+the centre of the lap. Slowly lower the quill with your micro height adjuster until you hear it
+grinding against the lap.
+Rotate the gem/quill assembly slowly in an anticlockwise direction or against the rotation
+of the lap. Until you have gained experience in `rounding', stick to the anticlockwise direc-
+tion otherwise the gem may be grabbed by the lap and thrown off.
+Keep turning until you hear a change in the grinding. This happens as you near the bottom
+of the stop (the stop is where the cutting reaches its maximum depth, designed so that you
+can't cut any further than where you had the angle set).
+
+© Copyright 2000                                                                                            Page 26
+Trevor G. Hannam
+Lift the stone off the lap and have a look at what is happening. You will notice that some
+parts of the stone have been ground, and maybe some parts have not, but at this time you
+should be able to see some effect of the rounding.
+Continue the technique of lowering and grinding until it begins to look reasonably round.
+Always stop and have a look at what is happening until you feel comfortable with what you
+are doing.
+Continue with your rounding by lowering and cutting until you hear the action of the cutting
+stop. Check your progress until you think its right, a small pair of plastic verniers are handy
+for checking out of round.
+Rounding is an art, and will require a bit of practice, the old saying of `near enough is good
+enough' is not on here, and you must strive to get it perfect. Any variation, no matter how
+small can cause errors in you facet sizes which progressively get worse. Even the best of us
+have difficulties in getting it right, so don't feel put off - PRACTICE MAKES PERFECT
+If you are having difficulties with rounding, it will be because of using too much pressure at
+parts causing over cutting. To solve this problem I suggest you recut the stone in steps using
+1200 Grit Pre-polish Lap (Refer Chapter 4 & Next Page - Pre-polishing). We do this by using
+the index gear set at 2 indexes every cut - using a 96 index wheel will produce the 48 facets
+needed.
+Leave the assembly in the same position, place your index gear on 96 and lower the quill
+until cutting recommences, and cut to the stop, and then go to index 2, there should be no
+need to lower the quill again as you now have established the depth,. Repeat for all other
+indexes - 4,6,8,10,12, etc until you are back at index 96. Always try and use the same pres-
+sure, this will alleviate the problems over cutting somewhat (pushing past the stop).
+When you have finished you should have 48 tiny parallel facets as shown in diagram below
+(this now called the `girdle').
+
+                    Don't forget to turn your water off when you have finished
+
+                  Standard Round  Step Cutting Round
+
+                                                      48 Tiny Parallel
+                                                           Facets
+
+                                  Wax/Epoxy           ROUNDING OF
+                                                      THE GEMSTONE
+
+                                  Dop Stick           Dop Stick
+
+You have now formed the girdle of your gem stone, it was hard but we got there. Raise
+your quill away from the machine, and remove the coarse lap and place it in its holder.
+
+© Copyright 2000                                                                         Page 27
+Trevor G. Hannam
+Now it's a good idea to check for flaws and inclusions that you could have missed when
+viewing the rough. Paint a little refractol on the surface and do another check. If you see
+some inclusions or flaws you must try and hide them under the girdle facets, or maybe they
+will cut out when the pavilion is done. All this has to be decided here and now as to wheth-
+er you should go on or not.
+Clean everything up, including your gem stone still in the quill. Cleanliness is most im-
+portant during these change over of laps. Make sure you pay close attention to cleaning
+where your hand rests up against any part of the swarf tray. Any contamination from here
+on can ruin all your work let alone the laps.
+
+                         Next we put on the pre-polish lap (refer Chapter 4)
+
+                      We Do Not Use Water Yet on This Newly Prepared Lap
+
+PRE-POLISH - GIRDLE
+Lower the quill until it just touches the lap as before. Lift the quill from the lap and start the
+machine. Only use slow to moderate speed, we do not want to throw off all your diamond
+powder.
+Now! Depending whether you are doing it the' round' way or the faceted way for the gir-
+dle, it's best to use very light pressure until you understand what is happening. If rounding
+the girdle, the index wheel will be in free wheel and should be turned against the rotation,
+which is normally anticlockwise. In the faceted girdle you will be starting on index 96 and
+progressively indexing every 2 indexes until you have completed all facets.
+Remember we are only trying to remove only the scratches from the last lap, and newly
+prepared laps cut fast. There will be no need to remove much material. When the facet/s
+look satiny all over the facet/s are done. If the lap seems too dry, add a couple of drops of
+cleaner or polish extender to it and spread with a finger. This may get a bit messy with the
+oil, but that's what we have the toilet tissue for. Always clean the stone every time you
+need to look at it. Check to make sure you have the girdle as round as you can get it. Ok
+that done, lift the quill aside and put away your pre-polish lap.
+You may have noticed that there was no need to use water at this time, this is because the
+gem is being used to push diamond into the copper lap, just like when you rolled the coarse
+lap. Later though, this wont be the case, as the diamond is pushed in, the oil becomes
+fouled and forms a barrier making it more difficult to use, it's here that the lap is washed
+with hot soapy water until all of the swarf is gone, and from that stage on you will be using
+water as the lubricant. By doing the lap this way, you are getting the most benefit from the
+pre-polish powder, and will be able to do 3, 4 or more gem stones for a measly amount of
+diamond powder.
+
+                                 Your next step is cutting the pavilion.
+
+© Copyright 2000  Page 28
+Trevor G. Hannam
+                                 CHAPTER 9 - CUTTING THE PAVILION
+
+EIGHT MAINS COMPLEX
+Set the new angle on the index head to 42° as this is the angle designed for the pavilion
+mains of the gem topaz. Reset the index to 96 if you have not done so.
+Place the coarse lap on the master lap (don't forget to clean everything prior). Now you are
+ready to cut what is known as the `Eight Complex'. That's the first 8 facets, and it's best to
+cut them opposite to one another, this has the effect of reducing progressive error which
+must be avoided.
+Using your coarse adjuster, lower the head assembly so that the gem stone just touches the
+lap as before, and lock into position. Turn on the machine, water at a moderate rate and
+lower the quill by the height adjuster.
+When cutting or polishing, always use a sweeping motion across the full surface of the lap,
+by doing this you are preventing lap wear (forming a groove), and preventing harsh scratch-
+es and striations on the gems surface.
+Cut the first facet to the stop and have a look. You will notice a small facet starting to cut
+into the gemstone. Lower the quill a little more and again cut to the stop.
+Now! Lift the quill and change the index to the complete opposite no, that is 48, and again
+cut this facet to the stop.
+see a large chisel point starting to form the pavilion. So far, so good. Go ahead and cut the
+other six main facets in their opposite numbers - 24, 72, 60, 36 and 84.
+Familiarise yourself to what is happening and you should be seeing the mains forming to a
+perfect point . Continue with same sequence - lower a little, cut and look until the mains
+come to a perfect point (check that you do not have any chisel points at the pavilion point
+as these will cause errors when doing the girdle facets). This point of the pavilion is now
+commonly called the culet.
+You have just completed the roughing in of the first major facets of the gem stone - Well
+Done! Now it's time to change over to the pre-polish lap. Again lift the quill away from the
+lap. Put away the coarse lap and clean the machine as before. Make sure that you also
+clean the gem stone and quill with toilet tissue wetted with methylated spirits. It is very im-
+portant that this is done to prevent cross contamination from coarser grits.
+
+                             Chisel Point Facet, Does not meet to a point - All Facets Meet To a Point
+
+                                       96       ORDER OF CUTTING                      Culet
+
+                  84                                                        Pavilion         8 Mains
+                                        1             12                                       42º
+                                               5
+                            8
+
+72                4                            3      24                              Topaz
+
+                             6              7         THE 8
+                  60
+                                                   COMPLEX                                   Wax/Epoxy
+                                                                                                             Page 29
+                                2
+
+                                                  36
+
+                                     48                      Dop Stick
+                                Index No's
+
+© Copyright 2000
+Trevor G. Hannam
+Put on the pre-polish lap as before - you should be an old hand at this now.
+       Again readjust the quill so it just touches the lap, and repeat all the procedures as be-
+
+fore. You may find when doing these larger facets that a couple more drops of extender will
+be required Remember that the pre-polish cuts extremely fast when new, and requires only
+a little pressure to achieve that satiny look. Make sure that all facets come to the exact
+point (no chisel points) and that no scratches can been seen under a 25 or 40 watt lamp. -
+You have now completed the 8 mains of the pavilion. All the other facets on the pavilion
+will now be done on the pre-polish lap so it can be left on the master lap.
+
+CUTTING GIRDLE FACETS
+Cutting the girdle facets are a little harder than cutting the 8 mains and require "cut a little,
+look a lot technique". Set the index to 3 and the angle to 44°, this is the girdle facet angle
+for topaz and is normally 2° more than the mains. These girdle facets extend to about half
+to two thirds of the way to the culet, and meet adjoining facets in the centre on the main
+facet, there being sixteen of them. Refer below:-
+
+       Relubricate the lap with cleaner/extender and start your machine, assuming you have
+already made the necessary coarse adjustments for the new angle .
+
+                                93    3                  ORDER OF CUTTING           Culet
+                     87                                                             Topaz
+                                                      9
+                                   2
+                           16         1                                  Pavilion              16 Girdle
+                                                                                                  44º
+   81              15                             9
+75                8                                              15                        Wax/Epoxy
+
+                                                         10
+
+                                                             5       21
+
+69                7                                          6       27
+
+                     14                                   11
+
+    63                   13                       12            33
+
+                             4        3                           THE 8  Dop Stick
+                                                                COMPLEX
+                     57                               39
+
+                             51       45
+
+                                      Index No's
+
+Again bring down the quill using the micro height adjuster until the gem stone just touches
+the lap. Cut a little and then have a look to see what is happening.
+You should start to see the beginnings of a small triangle. Now repeat this step on the index
+number 93.
+You now should have something like two triangles approaching one another as shown on
+the diagram next page. Lower the quill a little more and repeat the exact same procedures
+as above.
+
+© Copyright 2000                                                                           Page 30
+Trevor G. Hannam
+                  3 93                     You will definitely notice the two triangles
+                          Main Facet cutting higher up towards the culet and closer
+
+                                           together at the base line. If everything is OK,
+                                           just continue repeating the above until the
+                                           facets meet dead centre of the mains as
+                                 50% + shown on the diagram lower right. You will
+                                           also notice the height has automatically
+                                           adjusted to about ½ -  way up to the culet.
+                                           Now what you have just done is establish the
+                                           correct adjustments for the rest of the girdle
+                                           facets, so don't alter height or any other
+                                           adjustments. Again you will have to work the
+                                           opposite indexes as you did with the mains.
+
+                                                 The next set to do will be indexes 45 - 51.
+                                          Use the same procedures as before, and you
+                                          then will have done another pair. From there
+                                          you go on to do indexes 21 - 27, 69 - 75, and
+                                          when these four pair have been done you can
+                          Same Height then go ahead and do the next four pair, but
+                                          these will be easier as all that has to be done is
+                                          to meet the points of the adjacent pairs. The
+                                          indexes are 9 - 15, 33 - 39, 57 - 63, and 81 - 87.
+
+                          Congratulations! and well done, you have just
+                                successfully cut the whole pavilion.
+
+                  Centre
+
+                          Take off the pre-polish lap and put it away,
+
+clean the gem stone and quill thoroughly with a tissue dampened with metho. These bits
+
+will be covered with oil, copper oxide and some diamond powder that hasn't been rubbed
+
+in whilst cutting. While your at it clean around the swarf tray, especially paying attention to
+
+the area where your hand touches. You cannot afford to get contamination on the polish
+
+lap or you can considered it `Buggered'. The cost of re-lathing a lap today is not all that
+
+cheap.
+
+© Copyright 2000                                                         Page 31
+Trevor G. Hannam
+                                        CHAPTER 10 - POLISHING
+
+P olishing; an art in itself - Pro's and amateurs alike will tell you that cutting a stone is
+      relatively easy compared to polishing, and can be considered to be the most im-
+portant part of faceting, and so it is. Unless you get it right it just won't do. Gems that have
+microscopic scratches, grooves and lap striations (due to polishing in one spot on a turning
+lap) will loose a lot of brilliance. Light reflection requires a good polished surface. If light
+hits a good polished surface it is totally reflected, but if it strikes a poorly polished surface,
+light will be sent in all direction, most of which will be lost outside of the gem thus produc-
+ing a gem of less brilliance that looks hazy or fuzzy, so it stands to reason that a good polish
+is essential for obtaining a gem with lots of brilliance and scintillation. You must always
+strive for perfection in polishing, because in the end it will definitely pay off.
+
+       Today there is an arsenal of combinations that use different laps and agents for pol-
+ishing, but non better than that of the old reliable tin lead (60/40 solder) and 50,000 dia-
+mond powder. True enough, there are times that it will not work on a gem that seems to
+defy all combinations, and that is where at times hand lapping can come into its own. This
+has saved my bacon many a time, and it is worth spending some time on it, so you too can
+acquire a technique of your own (discussed later).
+
+                    Ah!    One of the main ad-
+                  Perfect  vantages of using diamond
+                           powder compared to other
+                           combinations such as Linde
+                           A and tin lead is that dia-
+                           mond powder does not
+                           have a tendency to `ball'
+                           and cause scratching on
+                           the polished surface of the
+                           gem. Therefore, the lap
+                           does not have to be scored
+                           as required by other com-
+                           binations. This lap is also a
+                           dry lap as no water is used
+                           during the polishing stages
+                           and is one hell of a lot less
+                           messy, and very economi-
+                           cal to use.
+
+                   IF AT FIRST YOU DONT SUCCEED - TRY, TRY AGAIN
+A saying worth its weight in gold. Don't give up, faceting is truly a wonderful hobby.
+
+© Copyright 2000                                                                        Page 32
+Trevor G. Hannam
+                                    Light Rays
+                                                           TOPAZ
+
+                                                                    Not
+                                                                  Polished
+
+                    Good Polish
+                  Total Reflection
+
+                  Lap Striations    Polish Scratches              Lap Contaminated
+                                                                   Deep Scratches
+
+Olive oil (as used in the polish extender) is used for preparing the polish lap as diamond
+powder has a great affinity for oil.
+
+       Polishing is done in the reverse order of cutting, that is girdle facets first followed by
+the mains. The reason for this is that diamond powder is an abrasive polish, and therefore
+cuts a little when polishing, which causes the facets to be over cut. When you come to do
+the girdle facets, you will notice they ride up on each other due to this over cutting, so
+when doing the main facets you will notice the facet cutting back towards the true girdle
+line.
+
+12:1 PREPARING POLISH LAP
+Put on the tin/lead lap (polishing), and clean the surface with the extender thoroughly. Us-
+ing a piece of toilet tissue, wipe the surface dry.
+You may notice that the lap appears greasy looking, and you would be right. That thin film
+of olive oil left on the lap is the base to which the diamond powder will adhere.
+
+       Now's the time to get out the 50,000 mesh diamond powder. Unscrew the top off the
+vial, wipe a clean finger across the lap (this will leave a small smear of oil on your finger),
+
+© Copyright 2000                                                                    Page 33
+Trevor G. Hannam
+place the finger on top of the vial and in-                 Inverting Vial For
+vert. Invert back again and wipe this grey                 Powder to Stick To
+powder which has adhered to your finger
+over the surface of the lap as thoroughly as                       Finger
+you can. This process should theoretically
+polish your whole stone, but in practice          Preparing Your
+doesn't, this is mainly due to the oxides         Tin/Lead Lap for
+from the tin and lead fouling the lap.
+                                                      Polishing
+                         Placing Powder On
+                           The Lap Using a
+                             Clean Finger
+
+                             Tin/Lead Polish Lap  Spreading Powder
+                                                     Over The Lap
+© Copyright 2000
+Trevor G. Hannam                                                                             Page 34
+POLISHING GIRDLE FACETS
+Set the index wheel to index 3 if you have not already done so, and leave the angle as it was
+(44°). Lower the quill with the coarse height adjuster as before so that it just touches the
+
+lap and tighten into place. Lift the quill aside and turn the faceting machine on to low
+
+speed. Using the micro height adjuster raise or lower the quill until you can just hear (or
+
+feel) the gem stone touch the lap, and then lift off again. Now disconnect the stop by
+
+setting the angle to around 25° or so. By doing this you have, relieved pressure from the
+
+angle stop so the head assembly can't be pushed, stressed or bent out of shape by pushing
+
+past the stop when raising of the quill is required. We certainly cut to the stop, but never
+
+polish on the stop. Until you are thoroughly conversed with cutting DON'T DO IT.
+
+Put the gemstone against the lap gently, and work it across the surface for approx
+
+two seconds. Lift the quill up, clean the facet with a piece of tissue, and check to see how
+
+it's polishing. The girdle facets depending on the size, should only take approximately 5 sec-
+
+onds to polish. Hmmm! It doesn't look right, only the top appears to be polishing. WHAT TO
+
+DO. By lowering a very small amount with the micro height adjuster, you will be altering the
+
+contact area of the polishing so that the bottom half comes into better contact. A good
+
+point to remember: If it's high - lower height -- if it's low - increase height
+
+Now try again for a second. Yes, that's much better, we now have full
+
+contact of the surface.                                                          Lower Mast Assembly
+
+Never polish longer
+
+than several seconds at
+
+a time as this causes a
+
+heat build up in the
+
+gem, and may cause
+
+the stone to shift.
+
+POLISHING & LIGHTING
+
+Now! Is that facet real-
+
+ly polished. Can you
+
+`SEE' that facet clearly.
+
+Lets look at that light
+
+you are using. You're Lowering the Mast Assembly pushes the gemstone forward which puts the unpolished facet into
+
+what? Using a 60 watt                  better contact with the lap surface.
+
+globe. No! No! No ! You
+
+                                may very well be `blinding yourself' with the illumina-
+
+                                tion.
+
+                  40 Watt Bulb  A few pointers on using lighting before you go any fur-
+                   Maximum      ther:
+
+                                The best lighting you can use is a single 40 Watt stand-
+
+                                ard clear household globe or 12 Volt 21 Candle power.
+
+                                Preferably with a dimmer control fitted. I have found
+
+                                by experience all the fancy lights and high wattages
+
+                                are a big mistake. A light that is too bright, actually
+
+                                masks the scratches so that you cannot see them.
+
+ Eye Looks For
+Polished Surface
+
+© Copyright 2000                                                                                                   Page 35
+Trevor G. Hannam
+What you are looking for are shadows across the scratches. Not a brilliance that nearly
+blinds you, and gives you severe eye strain. As you become more familiar with the lighting
+you will understand the logic and reasoning behind using very low wattages. Try to get the
+reflection of the filament on the facet, and as sure as you are reading this, the scratches if
+there will jump out and grab you. Always try and go for perfection when polishing and you
+will not be sorry afterwards
+Wow! The first facet is polished and completed. Congratulations, but don't get too cocky,
+we've got a long way to go. Go ahead and do the rest of the facets as outlined (you do not
+have to do opposites when polishing, as they are already cut and set). Indexes - 3, 9, 15, 21,
+27, 33, 45, 51, 57, 63, 69, 75, 81, 87 and 93. Finished! Good now reset the machine to do
+the main facets (that's the eight large facets - 8 complex).
+Using the angle 42°, set up and start polishing as you did for the girdle facets. Don't forget
+to disconnect the stop when set up is complete. We do not want to stress the quill.
+You will notice as you are polishing the mains, the point will cut down to the girdle line to
+meet as three points, and that the polishing of the facet will take longer as the facet is larg-
+er.
+If you find the polish is loosing its ability to work well. Go ahead and redo the polish lap as
+outline in Chapter 10
+
+       When you have completed the pavilion, clean the gemstone, and quill with toilet tis-
+sue and meths and then take out the dop stick from the quill.
+
+NOTES:
+
+© Copyright 2000  Page 36
+Trevor G. Hannam
+                                  CHAPTER 11 - TRANSFERRING
+
+                  Locking Screws  Wing Nut                                       Pressure Plate
+
+                                                              Dop Stick Holders  Wing Nut
+                                                                                          Tension Spring
+                   Dop Stick Transfer
+                     Alignment Tool
+
+                  Can be made cheaply
+                   Dop Stick Holders
+
+TYPICAL TRANSFER BLOCK            `V' Slide
+
+Above is a typical transfer jig, and is a must for transferring the pavilion of the gem
+       stone to face about so that the crown can be cut. It is an extremely efficient and accu-
+rate way to transfer from one dop stick to the other without losing alignment of facets. In
+faceting you must have a good transfer block. These can be checked by putting in a couple
+of the same size dop sticks in the holders, and bringing them together. Run a finger nail
+across the join, and if your nail digs in at the junction at one point and not the other side,
+you should have an engineer check out the alignment of the transfer block - or check the
+dop sticks for bending.
+A dop stick alignment tool and/or a transfer jig with adaptors makes life easier for aligning
+the main facets up.
+
+© Copyright 2000                                                                                          Page 37
+Trevor G. Hannam
+CLEANING & PREPARING DOPS FOR TRANSFER
+
+Clean the pavilion with a little meths and toilet tissue. Brush a little dop help on the gem,
+and I mean a little. If you use too much dop help, it takes a long time to dry effectively, and
+this will cause the gem to shift due to the longer heating time required to dry it.
+Place the dop stick into one of the transfer blocks (normally the left hand side) and then
+select the opposite dop, which will be a cone shaped to fit the pavilion, and approximately
+half to three quarters diameter of the gem stone. Melt a small amount of wax into the cone
+of the dop stick, and when cool place it in the other side of the transfer block.
+
+                  Pressure Plates     Retaining Nuts
+
+                  Transfer Block
+
+                  Gem Stone Pavilion   Melted Wax on
+                                      Cone of Dop Stick
+
+TRANSFERRING the DOP STICKS
+Transfer dopping - the idea is to heat the dop stick (not the one with the gem stone in it), to
+
+           The pressure plates are adjusted so that the dop sticks holders can slide in or out, but firmly.
+
+melt the wax while slightly heating the gem stone on the other dop, yet not allowing the
+gem stone to get too hot to soften the wax (which will cause the gemstone to shift). When
+the heat is just right, you slide the heated dop stick into the other one holding the gem
+stone, so the wax will grab and hold.
+Sounds terrible! But not all that difficult once you have had a few goes. The best way to
+learn, would be to practice transferring a piece of rough topaz from one dop stick to the
+other.. OK! The real thing now - With spirit lamp lighted and flame settled, begin heating
+the dop stick close to the end near the wax (remember not the one with the gem stone in
+it). As it begins to melt.
+Slightly apply the heat to the gem stone whilst not losing the heat from the melted wax. As
+the wax starts to get very runny and catches fire, quickly press the heated dop up against
+the gem stone. Speed here is critical, otherwise the transfer wont succeed. If the wax is al-
+lowed to cool by loosing its heat, it will not grab the stone (refer diagram next page).
+
+© Copyright 2000                                         Page 38
+Trevor G. Hannam
+                                         Melting Wax
+
+                       Gem Stone
+                    Pavilion Painted
+                    With Dop Help
+
+  This Dop Stick                                      Spirit Lamp
+Is Normally Locked
+
+     Into Place
+
+                        Melted Wax is
+                    Pushed into the Gem
+
+                             Stone
+
+  This Dop Stick                         Right Hand
+Is Normally Locked                        Dop Stick
+                                         Slid Across
+     Into Place
+
+This may sound like you need a medical degree, or have eight hands to do the job, but it is
+relatively easy, and will come to you with patience and practice.
+Let the whole assembly cool down for ten to fifteen minutes (have a smoko break) and take
+out the assembly from the transfer jig by releasing and removing the pressure plates, and
+undoing any locking screws in the slides as above. Now test the join. The assembly must be
+firm, don't use too much pressure as waxes wont take it, and as sure as God was a little
+boy, it will come apart.
+SUPER GLUE - (Cyanoacrylates) Loctite 401 a one-part instant adhesive made for porous,
+difficult to bond materials and has good gap filling abilities. High strength bonds wax to
+brass, alloy or steel with very fast fixing times of 5 to 30 seconds. Full cure 10 to 12
+minutes. Loctite 406 is another favourite that can be used but has no gap filling abilities, so
+it is important if using 406 to get a close mated surface.
+Set up the gem stone as per section 13:1, but do not apply any dop help onto the gem
+stone. We do not want the wax to grab and hold in this application. Apply heat slowly to
+the coned dop stick (not the one with the gem stone) until the wax softens and begins to
+melt.
+Remove the heat and push the dop stick into the gem stone. Lock up the wing nuts and
+
+© Copyright 2000                                                   Page 39
+Trevor G. Hannam
+let cool down. This will only take a couple of minutes.
+Loosen the wing nut holding the cone dop only and pull away from the gem stone. A small
+force may be required here, but will normally come away easily. You will see and impressed
+version of the gem stone into the wax.
+Apply a very small amount of superglue to the impression. Do not overdo the superglue as
+too much will cause a weak joint. Press the dop stick hard against the gem stone and lock
+the wing nut. After a few minutes it is completely cured and you can now follow the next
+procedures, as removal etc applies to all forms of dopping.
+TRANSFERRING WITH EPOXY
+Today epoxies make life easier, as they alleviate the problems associated with melting wax
+shifts. Prying dop sticks apart or away from the gem stone requires the same technique
+used in wax transferring. The only disadvantage of using epoxies is there setting time. As
+with wax and super glues, epoxies use exactly the same technique, except that heat is not
+used for fixing of the gem stone or the dop stick.
+SEPARATING DOP STICK FROM GEM STONE
+`Without alignment tool' If the machine you have has dop stick locating areas built into the
+transfer block and quill, there will be no need to use the alignment tool, as the alignment of
+the dop sticks and transfer is done automatically.
+Next heat up the dop stick (Geeze! Not the one you just transferred, THE OTHER ONE), until
+the wax softens enough to remove. This also takes a little practice, as you are trying to heat
+the one side to soften the wax just enough to remove it without transferring any heat at all
+to the other side.
+
+                  Twist and Push  Heat Until Wax
+                  Until Releases      Softens
+
+                                                         Hold Dop Stick Steady
+
+                              Spirit Lamp
+
+Very carefully scrape away the wax and clean the gem stone with toilet tissue moistened
+with meths. Put the transferred dop stick into the quill, and locate the alignment notch and
+tighten the quill nut or screw firmly.
+
+© Copyright 2000                                                                Page 40
+Trevor G. Hannam
+NOTES PAGE:
+
+© Copyright 2000  Page 41
+Trevor G. Hannam
+                                 CHAPTER 12 - CUTTING THE CROWN
+
+P ut your transferred dop into the quill and lock into place if you have not already done
+      so. Adjust the angle of the protractor to 39° (this is the angle for the crown mains),
+and place the index gear onto 96.
+Place the coarse lap (220 grit copper lap), onto the master lap and lock into place. Adjust
+the coarse height adjuster as before, to lower the quill and gem stone so that the gem
+stone just touches the lap, and lift off.
+Again we are cutting the 8 complex, but there is a difference here, as the cutting will only
+progress to a certain level to form what is known as the girdle facet. The girdle cannot ex-
+ceed 5% of the total height of the stone.
+
+THE GIRDLE
+The girdle can be round or stepped cut as previously discussed in Chapter 8, under
+`Rounding'. The girdle can be no more than 5% of the total height of the finished gem
+stone. Well now! You might be thinking, how the hell do I do this when all I've done is the
+rounding and the pavilion? Good question, and it so happens that there is a simple formula
+for working this out.
+To arrive at the maximum total girdle width, multiply the diameter of the stone (this is after
+rounding), by .034 Lets say for example that you have a 10 mm stone after rounding. Multi-
+ply this by .034 and you have 0.34 mm. This formula gives you an approximate girdle width
+for a standard brilliant of 1/3 crown x 2/3 pavilion.
+You may have noticed, the girdle wasn't polished. In competition it's a must, but I for one
+like the frosted girdle look, it's up to you. Polishing should be done prior to transferring.
+
+THE MAINS
+
+Switch on the machine, fast speed, and water at a moderate rate (just fast enough to keep
+
+the lap wet when turning). Start cutting the mains as before, Chapter 9, using a sweeping
+
+action across the lap. Keep lowering (using the micro height adjuster), and cutting until you
+
+get to approximately 5%. The reason for stopping At 5% is that you still have to cut on the
+
+pre-polish, and this will take up approx 1 to 2% of the width, leaving you around 3%. Once
+
+                                      you have cut this first facet to the set level, you
+                  Maximum Girdle no longer have to re-adjust the machine for the
+
+                     Width 5% other seven facets.
+
+                  Go ahead and proceed with the opposite index:
+
+                  - 48, and then 24, 72, 12, 60, 36 and 84. You
+
+                  may find that when you are cutting the eight
+
+                  main facets, that the facets may or may not
+
+                  reach to a point. Do not worry if the later is the
+
+                  case, as the star facets, and the table have yet
+
+                  to be done. Once the eight mains have been
+
+                  completed, stop the machine, clean the area
+
+The 8 Mains       thoroughly. Don't forget the stone.
+                  Take the pre-polish lap and give it a good clean
+
+                  by scrubbing with detergent and water. The
+
+                  1200 grit diamond powder has been pushed
+
+                  into the copper lap after all that cutting,
+
+© Copyright 2000                                               Page 42
+Trevor G. Hannam
+And is ready for using water only as the lubricant.
+Place the pre-polish lap on the master lap, and lower the quill so that the gem stone just
+touches the lap, lift off and start the machine (moderate speed only). You know the drill!
+Repeat all the above steps for doing the mains, and pay particular attention to the facets
+for that satiny finish.
+You may also find that the pre-polish lap cuts extremely fast, so watch that you do not cut
+too deep. The girdle thickness has to be even all way round, otherwise progressive error
+will result. This may not be apparent until the girdle facets are done.
+OK! You have finished the crown mains. Dammed good work! You have come a long way
+since first putting on the stone to the dop stick. Now come those girdle facets, so lets go.
+
+CUTTING THE CROWN GIRDLES
+Leave the pre-polish lap on, as this is the lap that you will use, and be cutting the girdle fac-
+ets. Reset the angle of the protractor to 44°. The angle for girdle facets is normally plus 5°
+of that of the mains.
+
+       Readjust the machine height so that the gem stone just touches the lap. You should
+be an old hand at this now, and it will come to you automatically. Start cutting the girdle
+facets as you did for the pavilion. Always adjust the micro height a little bit at a time, and
+do not try and cut past the stop. - Remember! `Cut a little, look a lot'. The indexes are the
+same, and in opposites: 3-93, 45-51, 21-27, 69-75, 9-15, 33-39, 57-63, and 81-87. The com-
+pleted girdles should looks as per the diagram below.
+
+                      96                                    Crown                8 Mains
+    84                                                                             39º
+                                  12 ORDER OF CUTTING
+                        1
+             8                5
+
+72                4                   3      24    THE 8                              Topaz
+                                                                                 Wax/Epoxy
+                                                   COMPLEX            Pavilion
+                                                            Dop Stick
+             6                     7  36
+    60                   2
+                                          ORDER OF CUTTING
+                         48
+                     Index No's
+
+                      93   3                                Crown                16 Girdles
+          87 16 2                                                                    44º
+   81                      1          9
+
+        15                    9              15
+75 7
+                                         10
+
+                                             5 21
+
+                                                                                 Topaz
+
+69 8                           12         6 27                         Pavilion  Wax/Epoxy
+        14                 3           11                   Dop Stick
+                           45
+   63                                        33
+                13
+                      4               39
+
+          57
+                    51
+
+© Copyright 2000                                                                             Page 43
+Trevor G. Hannam
+So far so good. The girdle and main facets have been done, and all we have to do now is to
+cut the stars in to meet the girdle facets. Change laps to the coarse one.
+
+CUTTING THE STAR FACETS
+
+The star facets are cut at an angle of 24°. To work out this angle, take away 15° from the
+
+main facet. There are eight star facets which are cut so that they meet the apex of the gir-
+
+dle facets, and have a different index number compared to the mains and the girdle facets.
+
+These are: 6, 18, 30, 42, 54, 66, 78 and 90 in that order.
+
+Adjust the angle of the protractor to 24°, and set index to number 6. Set up the height as
+
+normal practice, and turn on the machine, and water. Remember the coarse lap is on so
+
+the water will need to be at a faster rate.
+
+Lower the quill so that the gem stone just touches the lap, and cut a little, lift up, and look
+
+to see what is happening. There should be an inverted triangle or star with its apex coming
+
+down to meet the apex of the girdle facet. Caution is required when cutting down to meet
+
+other facets as we are using the coarse lap, so you must leave a small amount of material
+
+for the pre-polish to cut for the final meets, otherwise you will have to redo the whole
+
+crown as the stars would then cut into the girdle facets.
+
+When the first facet is cut close to the girdle apex, change index and do the next set. There
+
+will be no need to do opposites, as these star facets are being cut to meet an existing point.
+
+All finished, clean the machine thoroughly, and put on the pre-polish lap. Set the quill to
+
+                                              suit the new lap. Don't forget! The index start is 6,
+                              Apex Meets and the angle stays the same.
+
+                  Star Facet               Pre-polish the star facets to meet the girdle facets.
+                                           Do it slowly as there is only a small amount that
+
+                                           need to be cut. Bring the apex of the star facet down
+
+                                           to meet the apex of the girdle facet. Good! This tech-
+
+Mains                                      nique is commonly known as `meet point' and is
+                                           good training for cutting oval brilliants. The finished
+
+                                           stars should be as shown below.
+
+                                                            ORDER OF CUTTING
+
+                              Girdle                        90                 6
+
+                              6 Stars 24º
+
+                                             78                       81           18
+
+                                                                   7        2
+
+                                                                6           3
+
+                                             66                       54           30
+
+                                                            54                 42
+
+© Copyright 2000                                                                       Page 44
+Trevor G. Hannam
+POLISHING CROWN FACETS
+Set up the polish lap. Did you clean the gem stone and machine?. If not, DO IT NOW!
+As you have done many times before, set up the stone to the lap. The angle of the protrac-
+tor does make this one a bit more difficult to set up. Just remember to adjust with the
+coarse, followed by the micro height adjuster to just touch the lap. Don't forget to release
+the stop to prevent stress to the quill.
+Start the lap on low speed, and proceed to sweep a couple of times across the lap. I pre-
+sume that you have placed the index on 6 and not some other index. If you have not, you
+will notice straight away as the gem will either cut into the lap or make one horrible grating
+noise. No harm should be done to the facet, other than slightly rounding a facet, which you
+should be able to polish out.
+Check the facet. `Oh Damn! the facet isn't polishing right'. It appears that the facet isn't set
+right. The polishing is once again showing on the right hand side and slightly down.
+This is how you must fix the problem. Look at the polish and determine which way the gem
+has to rotate to get the left hand side to polish. Yes! That's right! - it's has to move in to-
+wards you as you look at it. To do this, turn the index cheater anticlockwise (as with most
+machines), which brings more of the left hand side in contact with the lap surface.
+Redo the facet again across the lap a couple of times and check again. You now should now
+
+                                                                        see the facet is polishing towards
+                                                                        the left hand side now, you may
+                                                                        even have to give the cheater
+                                                                        another little turn to the left. As
+                                                                        you use the cheater, always turn
+                                                                        it a small amount. OK! You now
+                                                                        have moved the facet closer to
+                                                                        the lap and is polishing, but the
+                                                                        lower part is still not polishing.
+                                                                        As you did once before, if you
+                                                                        lower the height of the mast, the
+                                                                        bottom of the facet will come in
+contact with the lap. Just use the micro height adjuster and give it a nudge so the head low-
+ers a fraction (normally anticlockwise lowers).
+Try again, and yes! you have it. Once you have this set up all The other facets can now be
+done in reverse order - 90, 78, 66, 54, 42, 30, and 18.
+The polishing technique just discussed is at most a worse case scenario, and most times
+after set up there is very little cheating to be done.
+Now go ahead and reset the head assembly as if you were going to cut the girdle facets. An-
+gle 44° index 93. Remember don't forget to disconnect the stop after set up.
+After the girdle facets are done, go ahead and do the main crown facets. You should be an
+old hand at this now, and find it relatively easy. Angle 39° index 84, work in reverse order.
+As you were polishing you should have noticed the slight over cuts from the previous polish-
+ing now coming back to form the meets of the triangles.
+OK! All finished - lets clean up, place the polish lap away, and remove the gem stone/dop
+stick from the quill.
+You have virtually finished the gem stone now, and only require one more facet to do, and
+that is the crown table. This table is very big and I will be discussing this as another worst
+case scenario where you will have to use the cheater in both cutting and polishing. This now
+should be easy for you, and cause you no problems.
+
+© Copyright 2000  Page 45
+Trevor G. Hannam
+SETTING UP THE 45° ANGLE DOP
+
+                  Select the 45° angle or 'D' dop. When set at 45° on the protractor, the gem
+
+                  stone should be perpendicular to the lap surface (90°), which makes the crown
+
+Flat Dop          facet parallel with the lap surface, though most 45° angle dops are accurate a
+                  lot are not and the following procedure should be used .
+
+                  Place the flat dop into the 45° angle dop and tighten the nut so the dop stick is
+
+                  held firm. Place the angle dop into the quill, but do not tighten the nut.
+
+                  Set the angle protractor to say 44°, and index to 96.
+
+                  As the crown facet is relatively large go ahead and place the coarse lap on the
+
+                  master lap.
+
+                                                           Lower the assembly onto the
+
+                                                           lap as before, making sure that
+
+45º Angle Dop                     45º Angle     Wing Nut the angle dop does not fall out
+                                     Dop                     of the quill. Lower the flat dop
+
+                                                           until it lies relatively flat against
+
+                                  Adjust Index             the lap. Look side on and adjust
+                                    Cheater                the height adjuster up/down,
+                                                           and check that all is flat to the
+
+                                                           surface, and while holding the
+
+                                                           flat dop against the lap lock the
+
+                                             Flat & Level  nut on the quill in place. Re-
+
+                                                           check for flatness and readjust
+
+                                                           using height adjuster and index
+
+                                  cheaters if required. Now look at the angle and record the
+
+Lowering Head Assembly Pushes     reading for future reference (ie it may be 44.5°). Lock the stop
+Flat Dop Across and Down so That  in place at 44.5°. The flat dop is now parallel with the lap sur-
+the Dop Becomes Flat Against the  face (recheck to be sure).
+
+             Lap Surface
+
+                                  This technique should be adopted every time you cut a stone,
+
+though you can just set the angle to 44.5° now as you have already determined the angle for your
+
+transfer jig. This process makes the crown table facet exactly 90° to the girdle.
+
+Lift the quill, and remove the flat dop from the 45° angle dop. Place the gem stone/dop stick assem-
+
+bly in the 45° angle dop and tighten (when fitting the stone into the angle dop, eye ball one of the
+
+mains facets so that it is 90° to an end of the angle dop, this will help to keep all the facets in their
+
+correct order).
+
+Main Facet 90º to the end                    Dop Stick                             Quill
+
+                                                           Coarse lap
+
+                  45º Angle Dop
+
+                                  Gem Stone
+
+© Copyright 2000                                                                              Page 46
+Trevor G. Hannam
+CUTTING THE TABLE FACET
+The table facet may look difficult, but is extremely simple, and shouldn't prove to be any
+problem. The facet will be cut to meet precisely eight only star/girdle facets.
+Set up the machine as normal so that the gem stone just touches the lap. Lift off, turn on
+the water and start the machine. Lower the quill and cut a little. Here you must again use
+the technique of `cut a little look a lot', because you can't afford to over cut this facet.
+The beginnings of a facet making its way to the points of the girdle star facets should be
+apparent. Lower the height a fraction and cut a little more - Check. When you have nearly
+approached the meets, stop and change the lap to the pre-polish lap. Clean up as normal
+and set the stone to the lap as usual.
+Remember why this is being done? We can't cut directly to the meets as you will certainly
+over cut when going to the next stage. Always leave short the meets to allow for the next
+stage.
+Lower the quill to lap once again and cut a little. How much further to go! A little more, OK!
+Cut a little more. Remember you may be cutting past the stop so just watch that all is well
+here. Are all the points going to meet true? You should be well aware as you get closer to
+the meets. If not use the cheaters as per page 74. They must all meet simultaneously. You
+may cut very close to the meets with the pre-polish lap as the polish lap will remove very
+little of material on such a large facet.
+When you have finished the table the stars will be equal-lateral triangles with all the points
+touching the next facet alongside it.
+
+                  96                                      Raise Quill by angle cheater
+
+                                                          To cut further into index 96
+
+                                   Points are not going                                    Table Not
+                                                                                        Cutting Square
+                                   To meet properly. Use
+
+1s't Cut                           The angle cheater to
+Of Table
+                                   Increase the height
+ Facet
+                               24  and reset
+
+                       48          Table Cut to Meets
+ALL CUTS MUST MEET SIMUTANEOUSLY               CROWN
+
+                                                          Stars 24º
+
+                  TABLE FACET
+
+                                   All Points Meet
+
+© Copyright 2000                                                                        Page 47
+Trevor G. Hannam
+POLISHING THE TABLE - This facet may take a little longer to polish because of its large size
+Set up the polish lap and clean the machine and gem stone. Clean the polish lap and give it a
+recharge as per chapter 4.
+Lower the stone and wipe across the lap and check progress of the polish. Don't forget to
+release the stop when polishing. Use the index cheater and micro height adjuster to adjust
+facet to the surface to polish evenly.
+OK! Here comes that scenario I mentioned earlier. The facet does not seemed to be polish-
+ing. The facet seems to be flaking with slight ripple effect. This is due to polishing on the
+cleavage ( not the girly type). To make the polishing work we are going to hand polish.
+Turn the machine off so the lap is not spinning. Wipe the gem stone across the surface of
+the lap by hand. Check the progress, and you will see a remarkable polish. Keep at it, and
+your done. It's quite easy and you will acquire your own technique that suits you.
+
+                                               WELL DONE !!!!
+
+  Take the stone/dop stick out of the quill and heat the end near the gem stone so you can
+                         pry it out. Clean thoroughly with meths and tissue.
+
+                        Admire the gems beauty of your first cut stone
+
+9                                9
+           9
+                                       9                                9
+     9
+                                                                                        9
+                                                                        9
+
+                     9                                                     9
+
+9
+
+                        9                                                  9
+                                                                                      9
+                  9        9        9
+
+                              9
+
+© Copyright 2000                                                                           Page 48
+Trevor G. Hannam
+COMMON FACETING             MOHS REFRACTIVE Critical PAVILION  CROWN
+       MINERAL                                                 Angle°
+                            HARD        INDEX Angle° Angle°
+
+                                                   MGMG S
+
+Apatite                     5.00        1.63       37 42 44 39 44 24
+
+Beryl (Aquamarine & Morganite) 7.5-8.0  1.56       39 43 45 42 47 27
+
+Chrysoberyl                 8.50        1.74       34.5 42 44 39 44 24
+
+Corundum [Sapphire]         9.00        1.76       34 42 44 38 43 23
+             [Synthetic]
+                            9.00        1.76       34 40 42 38 43 23
+Cubic Zirconia
+                            8.00        2.16       27.4 41 43 35 40 20
+
+Feldspars                   5.0/7.0 1.56/1.57      41 43 45 42 47 27
+
+Fluorite                    4.00        1.43       44 45 47 43 48 28
+
+Garnet (almandine)          6.0/7.5 1.76/1.83 33.5 41 43 38 43 23
+
+Garnet (Rhodolite - Violet Red) 7.0/7.5 1.75/1.76 31.5 39 41 35 40 20
+
+Garnet (grossular)          6.5/7.0 1.742/1.748 35.5 41 43 38 43 23
+
+Garnet (pyrope - Red)       7.25        1.74/1.75  35 41 43 38 43 23
+
+Moldavite (Obsidian-Glass)  5.5/6.0     1.45/1.52   41 43 45 42 37 27
+Glass & Pastes              5.0/6.0       1.45 +    40 43 45 41 36 26
+
+Iolite                      7.0/7.5     1.53/1.54  40.4 43 45 42 47 27
+
+Lazulite                    5.00        1.61       38 41 43 39 42 24
+
+Opal                        5.0/6.5 1.44/1.47      43 45 47 41 46 26
+
+Peridot                     6.5/7.0 1.65/1.69      37 42 44 39 44 24
+
+Quartz                      7.00 1.54/1.553 40 42 44 41 46 26
+
+Spinel                      8.00 1.71/1.736 35 41 43 40 45 25
+
+Spodumene                   6.5/7.0     1.66       37 41 43 39 44 24
+
+Strontium titanate          6.00        2.41       24.5 41 43 35 40 24
+
+Topaz                       8.00        1.61/1.62  37 41 43 39 44 24
+
+Tourmaline                  7.0/7.5 1.63/1.65      38 42 44 39 44 24
+
+Yitrium aluminium garnet (YAG) 8.50     1.83       33 40 42 37 42 22
+
+Zircon (high)               6.5/7.5     1.99       31 41 43 35 40 20
+
+© Copyright 2000                                                        Page 49
+Trevor G. Hannam
+  HAND CRANKED TEMPLATE FACETING MACHINE
+                    FROM YESTERYEAR
+
+ THE CAMPER SERIES FACETING MACHINE
+
+            Designed for travelling and space.
+Started from bits and pieces from the shed, 12Volt DC
+
+          3.3A and just under 5 Kilo in Weight.
+
+                  THINGS YOU CAN MAKE FROM SCRAP IN THE SHED
+
+© Copyright 2000                                              Page 50
+Trevor G. Hannam
+EMERALD CUT                                                      Angles are for Quartz - Proportion of gem
+                                                                           stone best 1.5 to 1 ratio
+                               96
+
+                                                                 PAVILION
+
+84                              2                 12             (1) Angle 90° Index - 96,48,24,72
+
+                  6                                              (2) Angle 63º Index - 96,48,24,72
+
+                     5          4                                (3) Angle 43° Index - 96,48,24,72
+
+                                     3                           (4) Angle 53° Index - 96,48,24,72
+72
+                                                                 24 (5) Angle 53° Index - 12,36,60,84
+
+                                                                 (6) Angle 63° Index - 12,36,60,84
+
+                                                                 (7) Angle 90° Index - 12,36,60,84
+
+60                                                           36    Cut mid way facets and corner facets with
+          1                   48                                        1200 lap and polish reverse order
+                           Pavilion
+                                                                                       CROWN
+                                            Star 27º             (1) Angle 55° Girdle
+                                                                 Index - 96,48, 24,72,12,36,60,84
+                           42º             Mains                 Cut these facets to establish girdle 5%
+                                                                 (2) Angle 42° Mains
+                           55º                    Girdle         Index - 96,48,24,72,12,36,60,84
+                                                                 (3) Angle 27° Stars
+                           63º                    Girdle         Index - 96,48,24,72,12,36,60,84
+
+                           53º             Mid Mains                           Polish in reverse order
+
+                           43º             Mains                 (4) Table - use 45° angle dop and set up par-
+                                                                 allel with lap surface. Set angle to 90°, cut
+                        2               3                        and polish
+
+                           Crown                                 The emerald cut is basically designed for medi-
+                              4                                  um to dark coloured stones, or stones with a low
+                                                                 refractive index. The depth of the gem stone will
+                                                                 enhance lighter coloured stones, but does noth-
+                                                                 ing for scintillation or brilliance.
+                                                                 The only problem that you may encounter with
+                                                                 cutting the Emerald Cut, is that you may find that
+                                                                 you will have to use the index cheater often, as
+                                                                 small amounts of pressure one side or the other
+                                                                 of the stone will cause slight over or under-
+                                                                 cutting of facets causing un parallel facets. Adjust
+                                                                 to get all meets so that the lines are parallel.
+
+                                                                 By following the above cutting sequences, you
+                                                                 should encounter no real problems. Corner fac-
+                                                                 ets are cut last and are determined by the angles
+                                                                 work out for you. Centre main facets should be
+                                                                 cut with the 1200 pre-polish lap if the stones are
+                                                                 under 10mm or use the coarse for larger stones.
+
+© Copyright 2000                                                                                            Page 51
+Trevor G. Hannam
+SPIDERED HEART - Step Cut 79 Facets 96 Index
+
+                                      96
+
+                  85                                      11
+
+75                                    1
+
+                                      2                           21
+
+                                                                                   Angles are for Quartz:
+
+                                    3                                         PAVILION
+69
+                                                                  (1) 63° index as marked
+
+                                                                  27 (2) 53° index as marked
+
+                                                                  (3) 43° index as marked
+
+64                                                            32              Polish in reverse order
+
+                  59                                  37
+                               53         43
+
+3                                                                 Star        This type of step cut can be
+2                                                                 Mains       used for just about all shapes
+                                                                  Girdle      and sizes. Particularly suited to
+      1                                                           Girdle      medium to dark stones, espe-
+      1                                                                       cially garnets.
+                                                                  Mid Main
+2                                                                 Main Culet
+3
+
+                                      96
+
+            85          Cutting Order             11                                   Angles are for Quartz:
+   75                      1-2-3                           21                                   CROWN
+
+69                    Polish in Reverse                      27               (1) 52° index as marked
+                            Order                      32                     (2) 42° index as marked
+   64                                         37                              (3) 27° index as marked
+              59           23
+                                                                                       Polish in reverse order
+                                   1
+                                                                                Cut and polish table last using 45°
+                                                                                              Angle dop
+
+                      53                  43
+
+© Copyright 2000                                                                                                     Page 52
+Trevor G. Hannam
+ `OLLEN' cut - Designed by Trevor Hannam
+
+               PAVILION
+(1) 55° 96-12-24-36-48-60-72-84
+(2) 50° 01-13-25-37-49-61-73-85
+(3) 48° 01-13-25-37-49-61-73-85
+(4) 44° 96-12-24-36-48-60-72-84
+(5) 40° 06-18-30-42-54-66-78-90
+
+                                   A TWIST WITH A DIFFERENCE
+                    Angles shown are for topaz - R.I. Stones of 1.6 to 1.7.
+The cut produces some interesting patterns with scintillation, and does appear to suit
+coloured stones. Square the stone (rounding), indexing 96-12-24 etc. Follow the se-
+quences shown, and there should be no trouble.
+
+                                      *NOTE - Table is cut last
+
+© Copyright 2000                                          CROWN
+Trevor G. Hannam                          (1) 60° 96-12-24-36-48-60-72-84
+                                          (2) 50° 95-11-23-35-47-59-71-83
+                                          (3) 45° 95-11-23-35-47-59-71-83
+                                          (4) 35° 96-12-24-36-48-60-72-84
+                                          (5) 28° 06-18-30-42-54-66-78-90
+
+                                                                                                  Page 53
+                  CHAMPAGNE GLASS - Designed by Trevor Hannam
+
+This design can be rounded or cut direct from rough material with no pre-form. Angles will
+suit all gems as brilliance is not the object here. Cairngorm or slight smoky quartz gives a
+very realistic finish to the glass - You'll be amazed how easy it is. Indexes can be altered to
+produce diamond shape facets instead of the rectangular type facets.
+
+                                                   CROWN
+Step 1 75° Indexes 96-06-12-18-24-30-36-42-48-54-60-66-72-78-84 and 90
+Step 2 40° Indexes 96-06-12-18-24-30-36-42-48-54-60-66-72-78-84 and 90
+Step 3 Polish in reverse order
+Step 4 Cut Table on the 45° angle dop to approximately 70-90% - 85% is good
+Step 5 Polish Table and then transfer - Use a medium size dop stick and put aside.
+
+                                                    STEM
+A piece of quartz crystal is best used as it is basically round and long. Determine the length
+
+         required by measuring the width, and using 60% of the width for the length.
+ The champagne stem is tapered (large end on the dop stick). Round the stem with 15% of
+
+                                         the total crown diameter
+Step 1 86° Indexing 96-06-12-18-24-30-36-42-48-54-60-66-72-78-84 and 90
+Step 2 Polish
+Step 3 Cut the tapered stem flat with 1200 pre-polish, using the 45° angle dop. This will
+accommodate the base (bottom bit) of the glass.
+Step 4 Transfer to a cone dop stick and put aside.
+
+         The stem is a bit tricky due to its length and small diameter - Polish carefully
+                                            PAVILION - (BOWL)
+
+Step 1 75° Indexing 90-06-12-18-24-30-36-42-48-54-60-66-72-78-84 and 90
+Step 2 50° Indexing 90-06-12-18-24-30-36-42-48-54-60-66-72-78-84 and 90
+Step 3 35° Indexing 90-06-12-18-24-30-36-42-48-54-60-66-72-78-84 and 90
+Step 4 20° Indexing 90-06-12-18-24-30-36-42-48-54-60-66-72-78-84 and 90
+Step 5 10° Indexing 90-06-12-18-24-30-36-42-48-54-60-66-72-78-84 and 90
+
+                                    All Facets should come to a point
+Step 6 Using the 45° angle dop, cut a small flat facet with the 1200 pre-polish lap to
+match the width of the stem. This is the largets part of the stem (15%).
+Step 7 Place glass and stem dops in the transfer jig, align and using 24 hour araldite or
+Loctite UV cement (requires UV light to set), push together and leave aside for 24 hrs. With
+The UV cement, leave in the sunlight for 30 minutes to set.
+Step 8 Remove fixture from the transfer jig and take the dopstick off the end of the
+stem only.
+Step 9 Using the 45° angle dop, cut a flat surface with the 1200 pre-polish lap
+
+                                                     BASE
+Step 1 Round a stone to approximately 50% of total width using coarse lap only.
+Step 2 Using 45° angle dop, cut a flat table, polish and transfer
+Step 3 45° Indexing 90-06-12-18-24-30-36-42-48-54-60-66-72-78-84 and 90. Cut this
+down so the diameter is approximately 45% of total crown width
+Step 4 20° Indexing 90-06-12-18-24-30-36-42-48-54-60-66-72-78-84 and 90.
+
+                                    All Facets should come to a point
+Step 5 Using 45° angle dop, cut a flat on the 1200 pre-polish lap to match narrow width on
+the stem. Using the transfer jig, place glass and stem together, and align. Cement as above
+and remove from jig when set. Clean up with meths and tissue.
+
+© Copyright 2000                                               Page 54
+Trevor G. Hannam
+© Copyright 2000  Page 55
+Trevor G. Hannam
+© Copyright 2000                     15:6 KAYTRE CUT
+Trevor G. Hannam                Designed by Trevor Hannam
+
+                                    Angles are for quartz
+                                 113 facets - 96 index wheel
+
+                  PAVILION
+                  (1) 54° Indexing:
+                  96-6,12-18,24-30,36-42,48-54,60-66,72-78,84-90
+                  (2) 90° Indexing:
+                  Use the same index as No 1
+                  (3) 47° Indexing:
+                  Use the same index as No 1
+                  (4) 42° Indexing:
+                  3-9,15-21,27-33,39-45,51-57,63-69,75-81,87-93
+
+                  CROWN:
+                  (1) 47° Indexing:
+                  96-12-24-36-48-60-72-84
+                  (2) 44° Indexing:
+                  3-9,15-21,27-33,39-45,51-57,63-69,75-81,87-93.
+                  (3) 39° Indexing:
+                  96-12-24-36-48-60-72-84
+                  (4) 34° Indexing:
+                  96-12-24-36-48-60-72-84
+                  (5) 24° Indexing:
+                  96-12-24-36-48-60-72-84
+                  (6) Table done last Use 45° angle dop, cut and
+                  polish
+
+                                   Polish In Reverse Order
+
+                                   You may notice that the facets (39°)
+                                   on the girdle, Index 3-9,15-21, etc
+                                   Are slightly raised, leaving a slight
+                                   uneven girdle.
+                                   If this proves a problem, cut a small
+                                   triangular facet on indexes
+                                   6,18,30,42,54,66,78,90.
+                                   Cut to even girdle and to meet with
+                                   No. 3/4 Apex
+
+                                                                                Page 56
+KAYTRE 5 - Designed by Trevor Hannam
+      105 facets use 96 Index Wheel
+            Angles are for quartz
+
+     PAVILION:                                                        Page 57
+     (1) 49° Indexing: 3-9,15-21,27-33,39-45,51-57,63-69,75-81,87-93
+     (2) 90° Index as above to form the girdle
+     (3) 43° - Index 96,6,12,18,24,30,36,42,48,54,60,66,72,78,84,90
+
+     CROWN:
+     (1) 46° - Index 3,9,15,21,27,33,39,45,51,57,63,69,75,81,87,93
+     (2) 42° - Index 96,6,12,18,24,30,36,42,48,54,60,66,72,78,84,90
+     (3) 36° - Index 3,9,15,21,27,33,39,45,51,57,63,69,75,81,87,93
+     (4) 26° - Index 96,12,24,36,48,60,72,84
+     (5) Table using 45° angle dop - Cut and polish
+
+                                             POLISH IN REVERSE ORDER
+
+© Copyright 2000
+Trevor G. Hannam
+REFERENCES/BIBLIOGRAPHY
+
+Hardy             "THE JEWELRY REPAIR MANUAL" by R. Allen Hardy
+                  Second Edition 1986
+
+MDR               "The Book of Gem Cuts" Volume 1, 2 and 3. By M.D.R. Manufacturing Co.,
+                  Inc. 3517 Schaefer St., Culver City, California 90230 - 1971
+
+Simon/Schuster "GEMS and PRECIOUS STONES" by Simon & Schuster's
+                     Edited by Kennie Lyman
+
+Schumann          "GEMSTONES of the world" by Walter Schumann - 1984
+                  Sterling Publishing Co., Inc., New York 10016, and N.A.G. Press, Ipswich
+                  Suffolk 1977
+
+Sinkankas         "Gem Cutting - A Lapidary's Manual" 1962 by J. Sinkankas
+
+Talent            "Guide to AUSTRALIAN MINERALS" by John A. Talent ­ 1970
+
+Vargas            Diagrams for Faceting Volume 1 - Glenn & Martha Vargas
+
+Vargas            Diagrams for Faceting Volume 2 - Glenn & Martha Vargas
+
+Vargas            Diagrams for Faceting Volume 3 - Glenn & Martha Vargas
+
+Vargas            Description of Gem materials (third addition) - Glenn & Martha Vargas
+
+Vargas            Faceting for Amateurs (second edition, revised) - Glenn & Martha Vargas
+
+Webster           "The GEMMOLOGISTS' COMPENDIUM" by Robert Webster, F.G.A.
+                  Fifth Edition 1975
+
+Wykoff            "Beyond the Glitter" 1982 by Gerald L. Wykoff, G.G. CSM PhD
+
+Wycoff            "Making and Using the Calibrated Jamb Peg" 2004 by Gerald L. Wykoff,
+                  G.G. CSM PhD
+
+Wykoff            "The Techniques of MASTER FACETING" by Gerald L. Wykoff, G.G.
+                  1985 - Adamas Publishers, P.O. Box 5504, Washington D.C. 20016
+
+© Copyright 2000                                                                            Page 58
+Trevor G. Hannam
+

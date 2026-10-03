@@ -1,0 +1,101 @@
+id;frente;verso;tags;objetivo;aula;dificuldade;fonte
+isogeo-m26-fb001;Lei do decaimento radioativo;dN/dt = -λN;radioatividade::lei;oa01;01;basica;Faure & Mensing 2005
+isogeo-m26-fb002;Relação meia-vida e constante;t_1/2 = ln(2)/λ;radioatividade::relacao;oa01;01;basica;Faure & Mensing 2005
+isogeo-m26-fb003;Equação geral da idade;t = (1/λ)ln(1 + D*/P);radioatividade::equacao;oa01;01;basica;Faure & Mensing 2005
+isogeo-m26-fb004;Meia-vida do K40;≈ 1,25 Ga;k40::radioatividade;oa01;01;basica;Steiger & Jager 1977
+isogeo-m26-fb005;Temperatura de bloqueio;abaixo da qual a difusao fica lenta;fechamento::temperatura;oa01;01;basica;Faure & Mensing 2005
+isogeo-m26-fb006;Radiogenicos vs estaveis;"Radiogenicos medem TEMPO; estaveis medem PROCESSO";isotopos::classificacao;oa01;01;basica;Faure & Mensing 2005
+isogeo-m26-fb007;Métodos de ionizacao;TIMS e MC-ICP-MS;espectrometria::metodos;oa01;01;intermediaria;Dickin 2005
+isogeo-m26-fb008;Dois caminhos K40;"89,5% para Ca40; 10,5% para Ar40";k40::decaimento;oa02;02;basica;Steiger & Jager 1977
+isogeo-m26-fb009;Razao de ramificacao K40;λ_epsilon/λ_total = 0,1048;k40::ramificacao;oa02;02;basica;Steiger & Jager 1977
+isogeo-m26-fb010;Constantes K40 parciais;λ_beta e λ_epsilon;k40::constantes;oa02;02;basica;Steiger & Jager 1977
+isogeo-m26-fb011;Equacao K-Ar convencional;t = (1/λ)ln[(λ/λε)(Ar40*/K40)+1];kar::equacao;oa02;02;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb012;Fragilidade K-Ar;perda de Ar não deixa sinal;kar::fragilidade;oa02;02;intermediaria;McDougall & Harrison 1999
+isogeo-m26-fb013;Princípio Ar40/Ar39;irradiacao com neutrons;arar::metodo;oa02;02;intermediaria;McDougall & Harrison 1999
+isogeo-m26-fb014;Fator J;parametro de irradiacao;arar::fatorj;oa02;02;intermediaria;McDougall & Harrison 1999
+isogeo-m26-fb015;Meia-vida Ar39;≈ 269 anos;arar::ar39;oa02;02;basica;McDougall & Harrison 1999
+isogeo-m26-fb016;Equacao Ar40/Ar39;t = (1/λ)ln[J(Ar40*/Ar39K)+1];arar::equacao;oa02;02;intermediaria;McDougall & Harrison 1999
+isogeo-m26-fb017;Fish Canyon Tuff;sanidina ≈ 28,201 Ma;arar::calibracao;oa02;02;intermediaria;Kuiper et al. 2008
+isogeo-m26-fb018;Aquecimento escalonado;etapas de temperatura crescente;arar::stepheating;oa02;02;intermediaria;McDougall & Harrison 1999
+isogeo-m26-fb019;Platô de idade;etapas contiguas >= 50%;arar::plato;oa02;02;intermediaria;McDougall & Harrison 1999
+isogeo-m26-fb020;Padrão perda de Ar;forma de U ou escada;arar::perda;oa02;02;intermediaria;McDougall & Harrison 1999
+isogeo-m26-fb021;K-Ar vs Rb-Sr filho inicial;"Ar escapa; Sr entra na estrutura";rbsr::filhoinicial;oa02,oa03;03;basica;Dickin 2005
+isogeo-m26-fb022;Equacao isócrona Rb-Sr;linear em diagrama Rb/Sr vs Sr87/Sr86;rbsr::isocron;oa03;03;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb023;Normalizador Rb-Sr;Sr86 estavel nao radiogenico;rbsr::normalizador;oa03;03;basica;Faure & Mensing 2005
+isogeo-m26-fb024;Isócrona resolve problema;conjunto cogenético cai sobre reta;rbsr::isocron;oa03;03;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb025;Inclinacao isócrona;e^λt - 1;rbsr::inclinacao;oa03;03;basica;Faure & Mensing 2005
+isogeo-m26-fb026;Intercepto isócrona;Sr87/Sr86 inicial;rbsr::intercepto;oa03;03;basica;Faure & Mensing 2005
+isogeo-m26-fb027;Constante Rb87 classico;1,42 × 10^-11 /ano;rbsr::constantes;oa03;03;basica;Steiger & Jager 1977
+isogeo-m26-fb028;Constante Rb87 moderno;1,3972 × 10^-11 /ano (2015);rbsr::constantes;oa03;03;basica;IUPAC-IUGS 2015
+isogeo-m26-fb029;Sr87/Sr86 inicial traçador;"baixas: manto; altas: crosta";rbsr::sourcetracer;oa03;03;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb030;Isócrona de mistura;reta sem significado de idade;rbsr::traps;oa03;03;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb031;Rehomogeneizacao metamórfica;evento metamórfico redistribui Sr;rbsr::traps;oa03;03;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb032;Sm-Nd robusto vs Rb-Sr;Sm/Nd resiste melhor a alteracao;smnd::robustez;oa03;04;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb033;Isotopo que decai para Nd143;Sm147 decai para Nd143;smnd::decaimento;oa02;04;basica;Villa et al. 2020
+isogeo-m26-fb034;Meia-vida Sm147;≈ 106,25 bilhoes de anos;smnd::meiavida;oa02;04;basica;Villa et al. 2020
+isogeo-m26-fb035;Equacao isócrona Sm-Nd;mesma forma que Rb-Sr;smnd::isocron;oa02;04;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb036;Normalizador Sm-Nd;Nd144 estavel nao radiogenico;smnd::normalizador;oa02;04;basica;Faure & Mensing 2005
+isogeo-m26-fb037;CHUR definição;composição média do Sistema Solar;chur::definicao;oa03;04;intermediaria;DePaolo & Wasserburg 1976
+isogeo-m26-fb038;Razões CHUR;Nd143/Nd144 = 0,512638;chur::valores;oa03;04;intermediaria;DePaolo & Wasserburg 1976
+isogeo-m26-fb039;Notacao epsilon-Nd;desvio em relação ao CHUR;epsilonnd::notacao;oa03;04;intermediaria;DePaolo & Wasserburg 1976
+isogeo-m26-fb040;Epsilon-Nd positivo;fonte com Sm/Nd alta: manto;epsilonnd::interpretacao;oa03;04;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb041;Epsilon-Nd negativo;fonte com Sm/Nd baixa: crosta;epsilonnd::interpretacao;oa03;04;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb042;Distincao epsilon-Nd(t) vs epsilon-Nd;t significa na idade da rocha;epsilonnd::notacao;oa03;04;intermediaria;DePaolo & Wasserburg 1976
+isogeo-m26-fb043;Idade-modelo T_DM;quando material se separou do manto;agemodel::definicao;oa03;04;intermediaria;DePaolo 1981
+isogeo-m26-fb044;T_DM vs idade cristalizacao;T_DM é separação do precursor;agemodel::definicao;oa03;04;intermediaria;DePaolo 1981
+isogeo-m26-fb045;Dois isotopos uranio;"U238 para Pb206; U235 para Pb207";upb::decaimento;oa02;05;basica;Jaffey et al. 1971
+isogeo-m26-fb046;Dois relogios no mineral;U238 e U235 devem concordar;upb::concordancia;oa02;05;basica;Faure & Mensing 2005
+isogeo-m26-fb047;Diagrama concordia;Pb206*/U238 vs Pb207*/U235;concordia::definicao;oa02;05;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb048;Análise concordante;ponto sobre a curva concordia;concordia::interpretacao;oa02;05;basica;Wetherill 1956
+isogeo-m26-fb049;Análise discordante;ponto abaixo da curva: perda de Pb;concordia::interpretacao;oa02;05;basica;Faure & Mensing 2005
+isogeo-m26-fb050;Reta de discordia;varios graos perderam Pb;discordia::definicao;oa02;05;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb051;Intercepto superior discordia;idade de cristalizacao original;discordia::intercepto;oa02;05;basica;Faure & Mensing 2005
+isogeo-m26-fb052;Intercepto inferior discordia;idade do evento de perda de Pb;discordia::intercepto;oa02;05;basica;Faure & Mensing 2005
+isogeo-m26-fb053;Zircao preferido;incorpora U, rejeita Pb;zircao::propriedades;oa02;05;intermediaria;Dickin 2005
+isogeo-m26-fb054;Zonacao de zircao;nucleo igneo e bordas metamorficas;zircao::zonacao;oa02;05;intermediaria;Dickin 2005
+isogeo-m26-fb055;SIMS e LA-ICP-MS;datacao in situ de alta resolucao;zircao::analise;oa02;05;intermediaria;Dickin 2005
+isogeo-m26-fb056;Idade Pb-Pb definição;razao Pb207*/Pb206*;pbpb::definicao;oa02;05;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb057;Equacao Pb-Pb;Pb207*/Pb206* = (1/137,818) × razao;pbpb::equacao;oa02;05;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb058;Equacao Pb-Pb transcendental;resolvida por iteracao numerica;pbpb::metodo;oa02;05;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb059;Razao U238/U235 referencia;137,818 ± 0,045;upb::razao;oa02;05;basica;Hiess et al. 2012
+isogeo-m26-fb060;Vantagem Pb-Pb;dispensa medida de uranio;pbpb::vantagem;oa02;05;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb061;Notacao delta;δ = [(R_amostra/R_padrao)-1] × 1000;delta::notacao;oa04;06;basica;Hoefs 2021
+isogeo-m26-fb062;Padroes referencia isotopos;VSMOW, VPDB, VCDT, AIR;delta::padroes;oa04;06;basica;Hoefs 2021
+isogeo-m26-fb063;Delta O18 de 10 por mil;amostra 10 partes por mil mais pesada;delta::interpretacao;oa04;06;basica;Hoefs 2021
+isogeo-m26-fb064;Notacao delta completa;deve incluir padrao de referencia;delta::padrao;oa04;06;basica;Hoefs 2021
+isogeo-m26-fb065;Fracionamento de equilibrio;depende da temperatura;fracionamento::equilibrio;oa04;06;intermediaria;Hoefs 2021
+isogeo-m26-fb066;Geotermometria isotopica;fracionamento entre dois minerais;fracionamento::geotermometria;oa04;06;intermediaria;Hoefs 2021
+isogeo-m26-fb067;Fracionamento cinetico;ocorre em processos irreversiveis;fracionamento::cinetico;oa04;06;intermediaria;Hoefs 2021
+isogeo-m26-fb068;Fracionamento cinetico caracteristica;frequentemente maior que equilibrio;fracionamento::cinetico;oa04;06;intermediaria;Hoefs 2021
+isogeo-m26-fb069;Fotossintese fracionamento;discrimina contra C13O2;fotossintese::fracionamento;oa04;06;intermediaria;Hoefs 2021
+isogeo-m26-fb070;Distinguir equilibrio de cinetico;"equilibrio: T; cinetico: processo";fracionamento::distincao;oa04;06;intermediaria;Hoefs 2021
+isogeo-m26-fb071;Delta S34 magmatico;≈ 0 ± 2 por mil;deltas34::magmatico;oa04;06;basica;Hoefs 2021
+isogeo-m26-fb072;Delta S34 biogenico;−10 a −40 por mil (ou mais);deltas34::biogenico;oa04;06;intermediaria;Hoefs 2021
+isogeo-m26-fb073;RBS fracionamento cinetico;reducao bacteriana de sulfato;deltas34::rbs;oa04;06;intermediaria;Hoefs 2021
+isogeo-m26-fb074;Delta S34 metalogenese;reconstruir proporcao de fontes;deltas34::minerio;oa04;06;intermediaria;Hoefs 2021
+isogeo-m26-fb075;Delta O18 mantelico;≈ 5,3 ± 0,3 por mil VSMOW;deltao18::manto;oa04;06;basica;Valley et al. 2005
+isogeo-m26-fb076;Delta O18 alto;>7 por mil: incorporacao de crosta;deltao18::crustal;oa04;06;intermediaria;Hoefs 2021
+isogeo-m26-fb077;Delta O18 baixo;água meteórica circulada em alta T;deltao18::meteorica;oa04;06;intermediaria;Hoefs 2021
+isogeo-m26-fb078;Escala temporal delta O18;de curto prazo: interacao fluido;deltao18::temporal;oa04;06;intermediaria;Hoefs 2021
+isogeo-m26-fb079;Premissa oceano mistura;o oceano mistura mais rápido que muda;oceano::mistura;oa04;07;basica;Faure & Mensing 2005
+isogeo-m26-fb080;Quimioestratigrafia definição;correlacionar estratos por isotopos;quimioestratigrafia::definicao;oa04;07;intermediaria;McArthur et al. 2001
+isogeo-m26-fb081;Curva Sr87/Sr86 LOWESS;posiciona amostra em escala continua;quimioestratigrafia::sr;oa04;07;intermediaria;McArthur et al. 2001
+isogeo-m26-fb082;Excursao delta C13;desvio abrupto e recuperacao;quimioestratigrafia::excursao;oa04;07;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb083;Excursao Shuram;Ediacarano, delta C13 ≈ −12 por mil;shuram::ediacarano;oa04;07;intermediaria;Fike et al. 2006
+isogeo-m26-fb084;Mecanismo Shuram;oxidacao de carbono organico;shuram::mecanismo;oa04;07;intermediaria;Fike et al. 2006
+isogeo-m26-fb085;Status Shuram;ainda debatido;shuram::debate;oa04;07;intermediaria;Grotzinger et al. 2011
+isogeo-m26-fb086;Sr e C13 complementares;"Sr continuo posiciona; C13 marca instantes";quimioestratigrafia::ferramentas;oa04;07;intermediaria;McArthur et al. 2001
+isogeo-m26-fb087;Delta Fe56 em BIF;muda Fe(II) a Fe(III);deltafe::bif;oa04;07;intermediaria;Dauphas & Rouxel 2006
+isogeo-m26-fb088;Delta Fe56 paleorredox;reconstruir condicoes redox;deltafe::paleorredox;oa04;07;intermediaria;Dauphas & Rouxel 2006
+isogeo-m26-fb089;Delta Mo98 mecanismo;Mn-oxidos adsorvem Mo leve;deltamo::mecanismo;oa04;07;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb090;Delta Mo98 oxigenado;≈ 2,3 por mil;deltamo::oxigenado;oa04;07;basica;Faure & Mensing 2005
+isogeo-m26-fb091;Delta Mo98 euxinico;valores leves;deltamo::euxinico;oa04;07;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb092;Delta Mo98 aplicacao;reconstruir zonas anoxicas;deltamo::aplicacao;oa04;07;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb093;MIF do mercurio;fracionamento independente de massa;deltahg::mif;oa04;07;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb094;MIF quebra regra;mecanismo quântico nao de massa;deltahg::mif;oa04;07;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb095;Delta Hg199 vulcanico;picos de Hg de vulcanismo gigante;deltahg::vulcanismo;oa04;07;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb096;Status Hg limite Permiano;area de pesquisa ativa;deltahg::debate;oa04;07;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb097;Contaminacao forense;impressao digital de fonte;contaminacao::forense;oa04;07;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb098;Isotopos em forense;Pb, N15, S34, C13;contaminacao::isotopos;oa04;07;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb099;Aplicacoes forense ambiental;"Pb em solos; N e S em agua; C em hidrocarbonetos";contaminacao::aplicacoes;oa04;07;intermediaria;Faure & Mensing 2005
+isogeo-m26-fb100;Inversao logica geocronologia;"valor é resultado (quando); contaminacao: é pergunta (de onde)";contaminacao::logica;oa04;07;intermediaria;Faure & Mensing 2005

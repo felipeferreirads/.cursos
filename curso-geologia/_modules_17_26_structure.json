@@ -1,0 +1,628 @@
+{
+  "17": {
+    "name": "17-geobiologia",
+    "path": "C:\\Users\\Feliperiano\\Documents\\.Cursos\\curso-geologia-gemologia\\17-geobiologia",
+    "files": {
+      "module": {
+        "file": "17-geobiologia/17-geobiologia-modulo.md",
+        "has_page_id": true,
+        "page_id": "3a7e3d39309681edb9bfe8441d3d9865"
+      },
+      "audit": {
+        "file": "17-geobiologia/17-geobiologia-auditoria.md",
+        "has_page_id": false,
+        "page_id": null
+      },
+      "lessons": [
+        {
+          "file": "17-geobiologia/17-geobiologia-aula-01-coevolucao-vida-terra.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "17-geobiologia/17-geobiologia-aula-02-estromatolitos-registro-microbiano.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "17-geobiologia/17-geobiologia-aula-03a-ciclos-carbono-enxofre.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "17-geobiologia/17-geobiologia-aula-03b-ciclos-nitrogenio-oxigenio-acoplamento.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "17-geobiologia/17-geobiologia-aula-04-biomineralizacao-sedimentos-biogenicos.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "17-geobiologia/17-geobiologia-aula-05a-origem-da-vida-na-terra.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "17-geobiologia/17-geobiologia-aula-05b-astrobiologia-criterios-de-biogenicidade.md",
+          "has_page_id": false,
+          "page_id": null
+        }
+      ],
+      "assessments": [
+        {
+          "file": "17-geobiologia/17-geobiologia-questionario.md",
+          "has_page_id": false,
+          "page_id": null
+        }
+      ],
+      "flashcards": {
+        "file": "17-geobiologia/17-geobiologia-flashcards.md",
+        "has_page_id": false,
+        "page_id": null
+      },
+      "review": {
+        "file": "17-geobiologia/17-geobiologia-revisao-didatica.md",
+        "has_page_id": false,
+        "page_id": null
+      }
+    }
+  },
+  "18": {
+    "name": "18-geologia-estrutural",
+    "path": "C:\\Users\\Feliperiano\\Documents\\.Cursos\\curso-geologia-gemologia\\18-geologia-estrutural",
+    "files": {
+      "module": {
+        "file": "18-geologia-estrutural/18-geologia-estrutural-modulo.md",
+        "has_page_id": true,
+        "page_id": "3a7e3d39309681fd871acb817f5dfce9"
+      },
+      "audit": {
+        "file": "18-geologia-estrutural/18-geologia-estrutural-auditoria.md",
+        "has_page_id": false,
+        "page_id": null
+      },
+      "lessons": [
+        {
+          "file": "18-geologia-estrutural/18-geologia-estrutural-aula-01-tensao-e-deformacao.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "18-geologia-estrutural/18-geologia-estrutural-aula-02-comportamento-ruptil-e-ductil.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "18-geologia-estrutural/18-geologia-estrutural-aula-03-dobras-anatomia-e-classificacao.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "18-geologia-estrutural/18-geologia-estrutural-aula-04-falhas-anatomia-e-classificacao.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "18-geologia-estrutural/18-geologia-estrutural-aula-05-zonas-de-cisalhamento.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "18-geologia-estrutural/18-geologia-estrutural-aula-06-mapas-e-secoes-estruturais-parte-1-atitude-e-padroes-de-afloramento.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "18-geologia-estrutural/18-geologia-estrutural-aula-07-mapas-e-secoes-estruturais-parte-2-secao-geologica.md",
+          "has_page_id": false,
+          "page_id": null
+        }
+      ],
+      "assessments": [
+        {
+          "file": "18-geologia-estrutural/18-geologia-estrutural-questionario-final.md",
+          "has_page_id": false,
+          "page_id": null
+        }
+      ],
+      "flashcards": {
+        "file": "18-geologia-estrutural/18-geologia-estrutural-flashcards.md",
+        "has_page_id": false,
+        "page_id": null
+      },
+      "review": {
+        "file": "18-geologia-estrutural/18-geologia-estrutural-revisao-didatica.md",
+        "has_page_id": false,
+        "page_id": null
+      }
+    }
+  },
+  "19": {
+    "name": "19-tectonica-global-geodinamica",
+    "path": "C:\\Users\\Feliperiano\\Documents\\.Cursos\\curso-geologia-gemologia\\19-tectonica-global-geodinamica",
+    "files": {
+      "module": {
+        "file": "19-tectonica-global-geodinamica/19-tectonica-global-geodinamica-modulo.md",
+        "has_page_id": true,
+        "page_id": "3a7e3d393096812198afeb06625dd641"
+      },
+      "audit": {
+        "file": "19-tectonica-global-geodinamica/19-tectonica-global-geodinamica-auditoria.md",
+        "has_page_id": false,
+        "page_id": null
+      },
+      "lessons": [
+        {
+          "file": "19-tectonica-global-geodinamica/19-tectonica-global-geodinamica-aula-01-cinematica-de-placas-e-forcas-motrizes.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "19-tectonica-global-geodinamica/19-tectonica-global-geodinamica-aula-02-margens-de-placa-e-geodinamica-do-manto.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "19-tectonica-global-geodinamica/19-tectonica-global-geodinamica-aula-03-tectonica-e-bacias-sedimentares.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "19-tectonica-global-geodinamica/19-tectonica-global-geodinamica-aula-04-orogenese-colisao-e-crescimento-de-cadeias.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "19-tectonica-global-geodinamica/19-tectonica-global-geodinamica-aula-05-cratons-escudos-e-estabilizacao-continental.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "19-tectonica-global-geodinamica/19-tectonica-global-geodinamica-aula-06-ciclo-dos-supercontinentes.md",
+          "has_page_id": false,
+          "page_id": null
+        }
+      ],
+      "assessments": [
+        {
+          "file": "19-tectonica-global-geodinamica/19-tectonica-global-geodinamica-questionario-final.md",
+          "has_page_id": false,
+          "page_id": null
+        }
+      ],
+      "flashcards": {
+        "file": "19-tectonica-global-geodinamica/19-tectonica-global-geodinamica-flashcards.md",
+        "has_page_id": false,
+        "page_id": null
+      },
+      "review": {
+        "file": "19-tectonica-global-geodinamica/19-tectonica-global-geodinamica-revisao-didatica.md",
+        "has_page_id": false,
+        "page_id": null
+      }
+    }
+  },
+  "20": {
+    "name": "20-geofisica-metodos",
+    "path": "C:\\Users\\Feliperiano\\Documents\\.Cursos\\curso-geologia-gemologia\\20-geofisica-metodos",
+    "files": {
+      "module": {
+        "file": "20-geofisica-metodos/20-geofisica-metodos-modulo.md",
+        "has_page_id": true,
+        "page_id": "3a7e3d39309681b48bb0daf348850374"
+      },
+      "audit": {
+        "file": "20-geofisica-metodos/20-geofisica-metodos-auditoria.md",
+        "has_page_id": false,
+        "page_id": null
+      },
+      "lessons": [
+        {
+          "file": "20-geofisica-metodos/20-geofisica-metodos-aula-01-sismologia-e-ondas-sismicas.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "20-geofisica-metodos/20-geofisica-metodos-aula-02-sismica-de-reflexao-e-refracao.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "20-geofisica-metodos/20-geofisica-metodos-aula-03-gravimetria.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "20-geofisica-metodos/20-geofisica-metodos-aula-04-magnetometria.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "20-geofisica-metodos/20-geofisica-metodos-aula-05-metodos-eletricos-eletromagneticos-e-geotermicos.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "20-geofisica-metodos/20-geofisica-metodos-aula-06-perfilagem-de-pocos-e-integracao-de-dados.md",
+          "has_page_id": false,
+          "page_id": null
+        }
+      ],
+      "assessments": [
+        {
+          "file": "20-geofisica-metodos/20-geofisica-metodos-questionario-final.md",
+          "has_page_id": false,
+          "page_id": null
+        }
+      ],
+      "flashcards": {
+        "file": "20-geofisica-metodos/20-geofisica-metodos-flashcards.md",
+        "has_page_id": false,
+        "page_id": null
+      },
+      "review": {
+        "file": "20-geofisica-metodos/20-geofisica-metodos-revisao-didatica.md",
+        "has_page_id": false,
+        "page_id": null
+      }
+    }
+  },
+  "21": {
+    "name": "21-metodos-campo-mapeamento",
+    "path": "C:\\Users\\Feliperiano\\Documents\\.Cursos\\curso-geologia-gemologia\\21-metodos-campo-mapeamento",
+    "files": {
+      "module": {
+        "file": "21-metodos-campo-mapeamento/21-metodos-campo-mapeamento-modulo.md",
+        "has_page_id": true,
+        "page_id": "3a7e3d39309681d299a3d3927a4c9a37"
+      },
+      "audit": {
+        "file": "21-metodos-campo-mapeamento/21-metodos-campo-mapeamento-auditoria.md",
+        "has_page_id": false,
+        "page_id": null
+      },
+      "lessons": [
+        {
+          "file": "21-metodos-campo-mapeamento/21-metodos-campo-mapeamento-aula-01-observacao-registro-amostragem.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "21-metodos-campo-mapeamento/21-metodos-campo-mapeamento-aula-02-bussola-de-geologo-atitudes.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "21-metodos-campo-mapeamento/21-metodos-campo-mapeamento-aula-03-mapa-geologico-regra-dos-v.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "21-metodos-campo-mapeamento/21-metodos-campo-mapeamento-aula-04-secao-geologica.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "21-metodos-campo-mapeamento/21-metodos-campo-mapeamento-aula-05-coluna-estratigrafica.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "21-metodos-campo-mapeamento/21-metodos-campo-mapeamento-aula-06-sensoriamento-remoto-gps-sig.md",
+          "has_page_id": false,
+          "page_id": null
+        }
+      ],
+      "assessments": [
+        {
+          "file": "21-metodos-campo-mapeamento/21-metodos-campo-mapeamento-questionario-final.md",
+          "has_page_id": false,
+          "page_id": null
+        }
+      ],
+      "flashcards": {
+        "file": "21-metodos-campo-mapeamento/21-metodos-campo-mapeamento-flashcards.md",
+        "has_page_id": false,
+        "page_id": null
+      },
+      "review": null
+    }
+  },
+  "22": {
+    "name": "22-recursos-minerais-economica",
+    "path": "C:\\Users\\Feliperiano\\Documents\\.Cursos\\curso-geologia-gemologia\\22-recursos-minerais-economica",
+    "files": {
+      "module": {
+        "file": "22-recursos-minerais-economica/22-recursos-minerais-economica-modulo.md",
+        "has_page_id": true,
+        "page_id": "3a7e3d39309681e79311fe5766be2ab0"
+      },
+      "audit": {
+        "file": "22-recursos-minerais-economica/22-recursos-minerais-economica-auditoria.md",
+        "has_page_id": false,
+        "page_id": null
+      },
+      "lessons": [
+        {
+          "file": "22-recursos-minerais-economica/22-recursos-minerais-economica-aula-01-deposito-mineral-teor-teor-de-corte.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "22-recursos-minerais-economica/22-recursos-minerais-economica-aula-02-depositos-magmaticos-e-ortomagmaticos.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "22-recursos-minerais-economica/22-recursos-minerais-economica-aula-03-depositos-hidrotermais.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "22-recursos-minerais-economica/22-recursos-minerais-economica-aula-04-depositos-sedimentares-e-supergenicos.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "22-recursos-minerais-economica/22-recursos-minerais-economica-aula-05-prospeccao-e-exploracao-mineral.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "22-recursos-minerais-economica/22-recursos-minerais-economica-aula-06-recursos-reservas-e-viabilidade-economica.md",
+          "has_page_id": false,
+          "page_id": null
+        }
+      ],
+      "assessments": [
+        {
+          "file": "22-recursos-minerais-economica/22-recursos-minerais-economica-questionario-final.md",
+          "has_page_id": false,
+          "page_id": null
+        }
+      ],
+      "flashcards": {
+        "file": "22-recursos-minerais-economica/22-recursos-minerais-economica-flashcards.md",
+        "has_page_id": false,
+        "page_id": null
+      },
+      "review": null
+    }
+  },
+  "23": {
+    "name": "23-geologia-do-petroleo",
+    "path": "C:\\Users\\Feliperiano\\Documents\\.Cursos\\curso-geologia-gemologia\\23-geologia-do-petroleo",
+    "files": {
+      "module": {
+        "file": "23-geologia-do-petroleo/23-geologia-do-petroleo-modulo.md",
+        "has_page_id": true,
+        "page_id": "3a7e3d39309681d6b81cef3d23cf5c1f"
+      },
+      "audit": {
+        "file": "23-geologia-do-petroleo/23-geologia-do-petroleo-auditoria.md",
+        "has_page_id": false,
+        "page_id": null
+      },
+      "lessons": [
+        {
+          "file": "23-geologia-do-petroleo/23-geologia-do-petroleo-aula-01-origem-da-materia-organica-e-geracao-de-hidrocarbonetos.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "23-geologia-do-petroleo/23-geologia-do-petroleo-aula-02-rocha-geradora-reservatorio-selo-trapa.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "23-geologia-do-petroleo/23-geologia-do-petroleo-aula-03-maturacao-migracao-e-acumulacao.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "23-geologia-do-petroleo/23-geologia-do-petroleo-aula-04-metodos-de-exploracao-sismica-pocos-e-plays.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "23-geologia-do-petroleo/23-geologia-do-petroleo-aula-05-reservatorios-convencionais-e-nao-convencionais.md",
+          "has_page_id": false,
+          "page_id": null
+        }
+      ],
+      "assessments": [
+        {
+          "file": "23-geologia-do-petroleo/23-geologia-do-petroleo-questionario-final.md",
+          "has_page_id": false,
+          "page_id": null
+        }
+      ],
+      "flashcards": {
+        "file": "23-geologia-do-petroleo/23-geologia-do-petroleo-flashcards.md",
+        "has_page_id": false,
+        "page_id": null
+      },
+      "review": null
+    }
+  },
+  "24": {
+    "name": "24-oceanografia-geologica",
+    "path": "C:\\Users\\Feliperiano\\Documents\\.Cursos\\curso-geologia-gemologia\\24-oceanografia-geologica",
+    "files": {
+      "module": {
+        "file": "24-oceanografia-geologica/24-oceanografia-geologica-modulo.md",
+        "has_page_id": true,
+        "page_id": "3a7e3d393096816aa17fc730caeab0d7"
+      },
+      "audit": {
+        "file": "24-oceanografia-geologica/24-oceanografia-geologica-auditoria.md",
+        "has_page_id": false,
+        "page_id": null
+      },
+      "lessons": [
+        {
+          "file": "24-oceanografia-geologica/24-oceanografia-geologica-aula-01-fisiografia-das-bacias-oceanicas.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "24-oceanografia-geologica/24-oceanografia-geologica-aula-02-crosta-oceanica-e-dorsais.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "24-oceanografia-geologica/24-oceanografia-geologica-aula-03-sedimentos-marinhos-e-distribuicao.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "24-oceanografia-geologica/24-oceanografia-geologica-aula-04-circulacao-oceanica-ccd-e-paleoclima.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "24-oceanografia-geologica/24-oceanografia-geologica-aula-05-recursos-e-riscos-geologicos-marinhos.md",
+          "has_page_id": false,
+          "page_id": null
+        }
+      ],
+      "assessments": [
+        {
+          "file": "24-oceanografia-geologica/24-oceanografia-geologica-questionario-final.md",
+          "has_page_id": false,
+          "page_id": null
+        }
+      ],
+      "flashcards": {
+        "file": "24-oceanografia-geologica/24-oceanografia-geologica-flashcards.md",
+        "has_page_id": false,
+        "page_id": null
+      },
+      "review": null
+    }
+  },
+  "25": {
+    "name": "25-geologia-planetaria",
+    "path": "C:\\Users\\Feliperiano\\Documents\\.Cursos\\curso-geologia-gemologia\\25-geologia-planetaria",
+    "files": {
+      "module": {
+        "file": "25-geologia-planetaria/25-geologia-planetaria-modulo.md",
+        "has_page_id": true,
+        "page_id": "3a7e3d393096817a8944f1186cc4f8d0"
+      },
+      "audit": {
+        "file": "25-geologia-planetaria/25-geologia-planetaria-auditoria.md",
+        "has_page_id": false,
+        "page_id": null
+      },
+      "lessons": [
+        {
+          "file": "25-geologia-planetaria/25-geologia-planetaria-aula-01-formacao-do-sistema-solar-diferenciacao.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "25-geologia-planetaria/25-geologia-planetaria-aula-02-meteoritos-classificacao-e-origem.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "25-geologia-planetaria/25-geologia-planetaria-aula-03-cratereamento-por-impacto.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "25-geologia-planetaria/25-geologia-planetaria-aula-04-corpos-rochosos-e-luas-ativas.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "25-geologia-planetaria/25-geologia-planetaria-aula-05-astrobiologia.md",
+          "has_page_id": false,
+          "page_id": null
+        }
+      ],
+      "assessments": [
+        {
+          "file": "25-geologia-planetaria/25-geologia-planetaria-questionario-final.md",
+          "has_page_id": false,
+          "page_id": null
+        }
+      ],
+      "flashcards": {
+        "file": "25-geologia-planetaria/25-geologia-planetaria-flashcards.md",
+        "has_page_id": false,
+        "page_id": null
+      },
+      "review": null
+    }
+  },
+  "26": {
+    "name": "26-geologia-do-brasil",
+    "path": "C:\\Users\\Feliperiano\\Documents\\.Cursos\\curso-geologia-gemologia\\26-geologia-do-brasil",
+    "files": {
+      "module": {
+        "file": "26-geologia-do-brasil/26-geologia-do-brasil-modulo.md",
+        "has_page_id": true,
+        "page_id": "3a7e3d393096812bb375d5fa2382fffe"
+      },
+      "audit": {
+        "file": "26-geologia-do-brasil/26-geologia-do-brasil-auditoria.md",
+        "has_page_id": false,
+        "page_id": null
+      },
+      "lessons": [
+        {
+          "file": "26-geologia-do-brasil/26-geologia-do-brasil-aula-01-compartimentacao-geotectonica-do-brasil.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "26-geologia-do-brasil/26-geologia-do-brasil-aula-02-cratons-e-embasamento-pre-cambriano.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "26-geologia-do-brasil/26-geologia-do-brasil-aula-03-orogenos-brasilianos.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "26-geologia-do-brasil/26-geologia-do-brasil-aula-04-amalgamacao-do-gondwana-ocidental.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "26-geologia-do-brasil/26-geologia-do-brasil-aula-05-bacias-sedimentares-fanerozoicas.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "26-geologia-do-brasil/26-geologia-do-brasil-aula-06-magmatismo-mesozoico-e-ruptura-do-gondwana.md",
+          "has_page_id": false,
+          "page_id": null
+        },
+        {
+          "file": "26-geologia-do-brasil/26-geologia-do-brasil-aula-07-recursos-minerais-e-sitios-fossiliferos.md",
+          "has_page_id": false,
+          "page_id": null
+        }
+      ],
+      "assessments": [
+        {
+          "file": "26-geologia-do-brasil/26-geologia-do-brasil-questionario-final.md",
+          "has_page_id": false,
+          "page_id": null
+        }
+      ],
+      "flashcards": {
+        "file": "26-geologia-do-brasil/26-geologia-do-brasil-flashcards.md",
+        "has_page_id": false,
+        "page_id": null
+      },
+      "review": null
+    }
+  }
+}

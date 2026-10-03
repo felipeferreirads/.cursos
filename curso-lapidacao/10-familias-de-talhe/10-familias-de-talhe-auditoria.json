@@ -1,0 +1,181 @@
+{
+  "course": "curso-lapidacao",
+  "module_id": "10",
+  "module_slug": "familias-de-talhe",
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-09-06",
+  "applied_at": "2026-09-06",
+  "verdict": "approved_with_corrections",
+  "claims_declared": 34,
+  "claims_after": 34,
+  "counts": { "red": 2, "orange": 3, "yellow": 0, "blue": 1, "white": 0, "total": 6, "corrected": 6, "open": 0 },
+  "audited_files": [
+    "10-familias-de-talhe/10-familias-de-talhe-aula-01-o-talhe-brilhante-facetas-triangulares-e-a-linhagem-do-brilhante-redondo.md",
+    "10-familias-de-talhe/10-familias-de-talhe-aula-02-o-talhe-degrau-facetas-paralelas-cor-e-inclusao.md",
+    "10-familias-de-talhe/10-familias-de-talhe-aula-03-o-talhe-misto-e-os-dois-sentidos-da-palavra.md",
+    "10-familias-de-talhe/10-familias-de-talhe-aula-04-contornos-e-suas-consequencias-e-o-efeito-gravata-borboleta.md",
+    "10-familias-de-talhe/10-familias-de-talhe-aula-05-onde-o-peso-se-esconde.md"
+  ],
+  "findings": [
+    {
+      "claim_id": "MIX-BAR-WATER-001",
+      "severity": "red",
+      "nature": "erro_factual",
+      "also": "inconsistencia_interna",
+      "title": "O talhe Barion tem coroa em degrau, nao coroa brilhante",
+      "lesson": "lapidacao-m10-a03",
+      "was": "Coroa brilhante sobre pavilhao brilhante modificado; facetas cruzadas; concebido para contornos de fantasia alongados.",
+      "correction": "Coroa em DEGRAU sobre pavilhao de arranjo BRILHANTE (misto invertido); facetas em MEIA-LUA (half-moon/lunette) partindo da culaca; contorno original quadrado/quase quadrado de cantos truncados, depois estendido a oval, almofada e triangular; patenteado por Basil Watermeyer, Africa do Sul, 1971.",
+      "source": "SkyJems, Barion Cut; International Gem Society, Barion Concept Cut Design",
+      "source_version": "consultadas em 2026-09-06",
+      "source_level": "base_de_referencia",
+      "confidence": "confirmado",
+      "affected_files": [
+        "10-familias-de-talhe/10-familias-de-talhe-aula-03-o-talhe-misto-e-os-dois-sentidos-da-palavra.md"
+      ],
+      "checked_not_affected": [
+        "10-familias-de-talhe/10-familias-de-talhe-aula-04-contornos-e-suas-consequencias-e-o-efeito-gravata-borboleta.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-06"
+    },
+    {
+      "claim_id": "CON-FORMA-DEFEITO-001",
+      "severity": "red",
+      "nature": "erro_factual",
+      "title": "'Olhos de peixe' aplicado ao defeito errado",
+      "lesson": "lapidacao-m10-a04",
+      "was": "Oval: gravata-borboleta; pontas mais claras ('olhos de peixe' nas extremidades).",
+      "correction": "Oval: gravata-borboleta; extremidades mais claras que o centro. O rotulo 'olho de peixe' foi retirado: fish-eye e o reflexo da cinta visto atraves da mesa, causado por pavilhao raso demais, agravado por mesa larga e cinta grossa — termo que pertence ao modulo 14.",
+      "source": "PriceScope, Fish-Eye Effect; Beyond4Cs, So What is a Fish Eye Effect in a Diamond",
+      "source_version": "consultadas em 2026-09-06",
+      "source_level": "base_de_referencia",
+      "confidence": "confirmado",
+      "affected_files": [
+        "10-familias-de-talhe/10-familias-de-talhe-aula-04-contornos-e-suas-consequencias-e-o-efeito-gravata-borboleta.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-06"
+    },
+    {
+      "claim_id": "PES-PINTAR-ESCAVAR-001",
+      "severity": "orange",
+      "nature": "omissao_que_gera_erro",
+      "title": "A ondulacao da cinta nao e exclusiva do escavar",
+      "lesson": "lapidacao-m10-a05",
+      "was": "Escavar tende a ondular a cinta (efeito festonado); pintar apenas borra o contraste.",
+      "correction": "AMBAS as manobras deixam a cinta festonada de forma desigual; a diferenca e onde a cinta afina — pintar afina os morros onde o bisel/principal encontra a cinta, escavar afina os morros onde duas facetas de cinta se encontram. So pintar borra o contraste com a faceta grande.",
+      "source": "Reinitz, Gilbertson & Geurts, The Role of Brillianteering Variations in the GIA Cut Grading System / Painting and Digging Out, Gems & Gemology 2006; PriceScope, GIA on Painting and Digging",
+      "source_version": "G&G 2006; paginas consultadas em 2026-09-06",
+      "source_level": "revisada_por_pares",
+      "confidence": "confirmado",
+      "affected_files": [
+        "10-familias-de-talhe/10-familias-de-talhe-aula-05-onde-o-peso-se-esconde.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-06"
+    },
+    {
+      "claim_id": "PES-MORTO-PRINCIPIO-001",
+      "severity": "orange",
+      "nature": "inconsistencia_interna",
+      "title": "Os numeros do exemplo trabalhado nao fecham",
+      "lesson": "lapidacao-m10-a05",
+      "was": "Safira Y de 3,00 ct com 9,4 mm de diametro, descrita como 'pavilhao perto do angulo-alvo'; referencia de espalhamento '~2,3 ct'.",
+      "correction": "Y passou para 9,0 mm (~59% de profundidade total, bem proporcionada) e a referencia para ~2,6 ct. X mantida em 8,5 mm / 3,00 ct (~70% de profundidade, coerente com 'pedra funda'). Enunciado passou a dizer 'safiras redondas'. Pela formula ct = d(mm)^2 x profundidade(mm) x 0,0061 x (DR/3,52), com DR da safira ~4,00, o par anterior exigiria ~52% de profundidade para Y — uma pedra rasa, que janelaria, refutando a propria licao.",
+      "source": "formula-padrao de estimativa de peso de brilhante redondo com correcao por densidade relativa; densidade da safira ~4,00 (curso-gemologia, modulo 01)",
+      "source_version": "verificacao aritmetica em 2026-09-06",
+      "source_level": "normativa",
+      "confidence": "confirmado",
+      "affected_files": [
+        "10-familias-de-talhe/10-familias-de-talhe-aula-05-onde-o-peso-se-esconde.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-06"
+    },
+    {
+      "claim_id": "MIX-COM-PADRAO-001",
+      "severity": "orange",
+      "nature": "confusao_de_escopo",
+      "title": "'Gema corada' definida estreita demais",
+      "lesson": "lapidacao-m10-a03",
+      "was": "gema corada = qualquer gema transparente que nao seja o diamante incolor.",
+      "correction": "gema corada = no comercio, qualquer gema que nao seja o diamante — transparente ou nao — tratada como categoria a parte, com convencoes de talhe proprias.",
+      "source": "uso corrente do termo no ensino e no comercio gemologico (GIA, Graduate Colored Stones Program, cobrindo tambem material opaco e translucido)",
+      "source_version": "consultado em 2026-09-06",
+      "source_level": "base_de_referencia",
+      "confidence": "provavel",
+      "note": "Nao foi localizada definicao normativa citavel literalmente; a correcao amplia o escopo para o uso corrente em vez de fixar um recorte novo.",
+      "affected_files": [
+        "10-familias-de-talhe/10-familias-de-talhe-aula-03-o-talhe-misto-e-os-dois-sentidos-da-palavra.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-06"
+    },
+    {
+      "claim_id": "CON-BOW-CAUSA-001",
+      "severity": "blue",
+      "nature": "evidencia_insuficiente",
+      "title": "'Modelagens recentes' — atribuicao nao confirmada",
+      "lesson": "lapidacao-m10-a04",
+      "was": "Modelagens recentes atribuem a maior parte do escurecimento a obstrucao, nao ao vazamento.",
+      "correction": "Boa parte da literatura gemologica descreve a gravata-borboleta como obstrucao — uma sombra que nasce fora da pedra e e projetada para dentro pelas facetas — e nao como luz escapando; qual dos dois mecanismos pesa mais, e quanto, nao esta resolvido por medida publicada, e as duas causas podem coexistir.",
+      "source": "SkyJems, Bow-Tie Effect in Faceted Gemstones; GoodStone, What Is the Bow-Tie Effect in Elongated Diamonds; Ada Diamonds, Bowties and Light Leakage Explained",
+      "source_version": "consultadas em 2026-09-06",
+      "source_level": "base_de_referencia",
+      "confidence": "em_disputa",
+      "note": "O mecanismo de obstrucao esta atestado; o que nao se confirmou foi a atribuicao a modelagens recentes. Tratado pela via legitima de reescrever com a incerteza explicita. Permanece a declaracao de controversia LC-08 da aula 04.",
+      "affected_files": [
+        "10-familias-de-talhe/10-familias-de-talhe-aula-04-contornos-e-suas-consequencias-e-o-efeito-gravata-borboleta.md"
+      ],
+      "outcome": "corrigido_com_ressalva",
+      "applied_at": "2026-09-06"
+    },
+    {
+      "claim_id": "BRI-LIN-EUROP-001",
+      "severity": "orange",
+      "nature": "inconsistencia_interna",
+      "title": "Manifesto chamava o talhe Mazarin de 'meio-brilhante'",
+      "lesson": "lapidacao-m10-a01",
+      "was": "Rodape: 'meio-brilhante e brilhante triplo (seculos XVII-XVIII, cerca de 17 e depois cerca de 33 facetas de coroa)'. O corpo da aula, correto, dizia 'brilhante duplo (Mazarin) e triplo (Peruzzi)'.",
+      "correction": "Rodape alinhado ao corpo: brilhante duplo (Mazarin, meados do sec. XVII, 17 facetas de coroa) e brilhante triplo (Peruzzi, sec. XVIII, 33 facetas de coroa), ambos de contorno tipo almofada. 'Meio-brilhante' designa outro talhe.",
+      "source": "Cape Town Diamond Museum, The History of Diamond Cutting; Antique Jewelry University (Lang Antiques), Brilliant Cut",
+      "source_version": "consultadas em 2026-09-06",
+      "source_level": "base_de_referencia",
+      "confidence": "confirmado",
+      "note": "Alterou apenas o rodape de alegacoes, que e o que as skills a jusante leem para montar questoes. Corpo e contagem de palavras inalterados.",
+      "affected_files": [
+        "10-familias-de-talhe/10-familias-de-talhe-aula-01-o-talhe-brilhante-facetas-triangulares-e-a-linhagem-do-brilhante-redondo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-06"
+    }
+  ],
+  "verified_ok": [
+    "BRI-DEF-RADIAL-001", "BRI-GEO-CINTIL-001", "BRI-FAC-CONTAGEM-001", "BRI-LIN-TOLK-001",
+    "BRI-LIN-MORSE-001", "BRI-CUSTO-REND-001",
+    "DEG-DEF-PARAL-001", "DEG-OPT-LAMPEJO-001", "DEG-COR-CAMINHO-001", "DEG-INCL-EXPOE-001",
+    "DEG-ESM-CANTO-001", "DEG-ESM-ADOCAO-001", "DEG-PAV-JANELA-001",
+    "MIX-DEF-COMBINA-001", "MIX-CEI-TRAD-001", "MIX-SENT-DOIS-001", "MIX-BAR-PRINCIPIO-001",
+    "CON-RED-REFERENCIA-001", "CON-BOW-DEF-001", "CON-BOW-INEVITAVEL-001", "CON-PONTA-FRAGIL-001",
+    "CON-PROJETO-ADMIN-001",
+    "PES-CINTA-GROSSA-001", "PES-PAV-PROFUNDO-001", "PES-QUILHA-DESLOC-001",
+    "PES-ESPALHAR-OPOSTO-001", "PES-RECUT-ASSIM-001"
+  ],
+  "hard_rules": {
+    "nivel_teorico": "ok — 0 formulacoes de competencia de bancada nas 5 aulas",
+    "claim_id_4_segmentos": "ok — 34/34 validos contra ^[A-Z]{2,4}-[A-Z0-9]+-[A-Z0-9]+-[0-9]{3}$, nenhum de 5 segmentos",
+    "lc02_teto_1600": "ok — a01 1602 (corpo nao alterado, declarado 1598), a02 1499, a03 1507, a04 1444, a05 1599",
+    "pre_requisito_gemologia_por_nome": "ok — nenhum wikilink para fora do curso",
+    "claim_ids_novos": "nenhum inventado"
+  },
+  "propagation": {
+    "questionario": "inexistente — modulo 10 ainda nao avaliado",
+    "flashcards": "dispensados neste curso a partir do modulo 06",
+    "outros_modulos": "nenhum fato corrigido se repete fora do modulo 10",
+    "modulo_hub": "10-familias-de-talhe-modulo.md — bloco de estado atualizado"
+  },
+  "open_findings": [],
+  "gate": "liberado"
+}

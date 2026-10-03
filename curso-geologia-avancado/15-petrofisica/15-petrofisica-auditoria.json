@@ -1,0 +1,637 @@
+{
+ "schema_version": 1,
+ "target": {
+  "kind": "modulo",
+  "path": "15-petrofisica/",
+  "module_id": "15",
+  "course_id": "geologia-avancado"
+ },
+ "mode": "audit-and-fix",
+ "depth": "full",
+ "audited_at": "2026-09-08",
+ "verdict": "approved",
+ "summary": {
+  "red": 2,
+  "orange": 7,
+  "yellow": 8,
+  "blue": 0,
+  "white": 2,
+  "verified_ok": 22
+ },
+ "findings": [
+  {
+   "claim_id": "PETROFIS-M15-A02-EXEMPLOCALCARIO-008",
+   "severity": "red",
+   "kind": "inconsistencia_interna",
+   "location": {
+    "file": "15-petrofisica/15-petrofisica-aula-02-densidade-propriedades-elasticas-velocidades-sismicas.md",
+    "section": "Exemplo trabalhado / Recap",
+    "quote": "Razao Vp/Vs = 5.313 / 3.068 = 1,73 ... Esses valores caem dentro da faixa tipica de calcario saturado de agua apresentada na secao anterior"
+   },
+   "claim": "Com K=40 GPa e G=24 GPa o exemplo produzia Vp/Vs=1,73 e afirmava que o valor caia na faixa tipica de calcario saturado de agua.",
+   "problem": "A aritmetica estava correta, a conclusao nao. K/G + 4/3 = 3 exatamente, logo Vp/Vs = raiz(3) = 1,73, correspondente a coeficiente de Poisson de exatamente 0,25 (solido de Poisson) - valor caracteristico de arenito limpo consolidado e de granito. A propria aula declara tres paragrafos antes que carbonatos ficam em 1,8-1,9 e arenitos limpos em 1,6-1,8, de modo que o exemplo produzia um numero de arenito e o declarava tipico de carbonato. Christensen 1996 da Poisson ~0,31 para calcario (Vp/Vs ~1,9) e ~0,28 para dolomito (Vp/Vs ~1,81).",
+   "replacement": "G ajustado de 24 para 19 GPa: Vp = 5.062 m/s, Vs = 2.730 m/s, Vp/Vs = 1,85 (Poisson 0,295), dentro das duas faixas declaradas na aula. Caso-limite de 1,73 preservado como material de discriminacao litologica.",
+   "source": {
+    "name": "Christensen, N. I. (1996), Poisson's ratio and crustal seismology, Journal of Geophysical Research 101(B2):3139-3156",
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/95JB03446",
+    "tier": "peer_reviewed",
+    "version": "JGR 101(B2), 1996"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "15-petrofisica/15-petrofisica-aula-02-densidade-propriedades-elasticas-velocidades-sismicas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A03-ILMENITA-008",
+   "severity": "red",
+   "kind": "erro_factual",
+   "location": {
+    "file": "15-petrofisica/15-petrofisica-aula-03-magnetismo-das-rochas-e-radioatividade-natural.md",
+    "section": "Magnetismo: tres comportamentos e o mineral que domina tudo / tabela de integracao da a04 / Recap",
+    "quote": "A ilmenita (FeTiO3) tambem contribui de forma relevante, sobretudo em rochas maficas"
+   },
+   "claim": "A ilmenita foi apresentada como contribuinte relevante da susceptibilidade magnetica de rochas, e a tabela de sintese da a04 listava 'teor de magnetita (e ilmenita)' como o controle da susceptibilidade.",
+   "problem": "A ilmenita pura e antiferromagnetica apenas abaixo de sua temperatura de Neel, medida entre 56 e 57,7 K em amostras terrestres, sinteticas e lunares. Acima dela - isto e, em qualquer condicao geologica - a ilmenita e PARAMAGNETICA, e Clark 1997, a fonte que a propria aula cita nesta passagem, a classifica entre os oxidos fracamente magneticos. Tres agravantes: (a) a aula se autocontradiz dois paragrafos adiante ao explicar corretamente que granitos de serie ilmenita sao fracamente magneticos; (b) o erro propagava para a tabela de fechamento do modulo na a04; (c) CONTRADIZ O MODULO 09 deste curso, cuja a05 ja ensina que a separacao magnetica de alta intensidade separa minerais PARAMAGNETICOS fracos incluindo explicitamente a ilmenita.",
+   "replacement": "Contribuintes ferrimagneticos reais nomeados: titanomagnetitas (serie magnetita-ulvospinelio), maghemita e pirrotita monoclinica (Fe7S8). Paragrafo dedicado explicando a T_N de ~57 K e a excecao das hemoilmenitas; a distincao magnetita-serie/ilmenita-serie convertida de contradicao em confirmacao do argumento. Mecanismo da hematita corrigido para antiferromagnetismo inclinado (canted). Tabela da a04 corrigida.",
+   "source": {
+    "name": "Clark, D. A. (1997), Magnetic petrophysics and magnetic petrology, AGSO Journal of Australian Geology & Geophysics 17(2):83-103; medidas de susceptibilidade de 4 a 300 K com transicao de Neel unica entre 56 e 57,7 K (Earth and Planetary Science Letters)",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/0012821X7590014X",
+    "tier": "peer_reviewed",
+    "version": "AGSO Journal 17(2), 1997"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "15-petrofisica/15-petrofisica-aula-03-magnetismo-das-rochas-e-radioatividade-natural.md",
+    "15-petrofisica/15-petrofisica-aula-04-condutividade-eletrica-lei-de-archie.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A01-POROSIMETRIA-008",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "15-petrofisica/15-petrofisica-aula-01-meios-porosos-porosidade-permeabilidade-controles-geologicos.md",
+    "section": "Exemplo trabalhado, enunciado / Recap",
+    "quote": "o restante do espaco vazio corresponde a poros isolados, identificados por porosimetria de mercurio"
+   },
+   "claim": "A porosimetria de mercurio foi creditada por identificar poros isolados.",
+   "problem": "A intrusao de mercurio preenche progressivamente os poros ACESSIVEIS a partir da superficie, ao longo da rede conectada. Poros isolados sao por definicao os que ela nao alcanca - e a limitacao declarada da tecnica, e a razao de a moagem da amostra alterar o resultado ao abrir poros antes ocluidos. A porosidade isolada e obtida POR DIFERENCA contra a porosidade total medida por picnometria de helio.",
+   "replacement": "Enunciado reescrito explicitando que a porosidade isolada sai por diferenca e nomeando o papel real de cada tecnica; bullet novo no recap.",
+   "source": {
+    "name": "Anton Paar, Mercury Intrusion Porosimetry Basics; comparacoes He-picnometria vs. MIP em ACS Energy & Fuels",
+    "url": "https://wiki.anton-paar.com/en/mercury-intrusion-porosimetry-basics-measuring-pores-in-solids/",
+    "tier": "reference_base",
+    "version": "consultado 2026-09-08"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "15-petrofisica/15-petrofisica-aula-01-meios-porosos-porosidade-permeabilidade-controles-geologicos.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A01-POROSIDADEEFETIVA-007",
+   "severity": "orange",
+   "kind": "omissao_que_gera_erro",
+   "location": {
+    "file": "15-petrofisica/15-petrofisica-aula-01-meios-porosos-porosidade-permeabilidade-controles-geologicos.md",
+    "section": "Porosidade total versus porosidade efetiva / exemplo trabalhado da a04",
+    "quote": "A porosidade efetiva conta apenas o espaco vazio que esta interconectado"
+   },
+   "claim": "A aula ensinava apenas a definicao de testemunho de 'porosidade efetiva', sem advertir que a interpretacao de perfil de poco - contexto em que a a04 do mesmo modulo entra - usa outra definicao.",
+   "problem": "O termo tem duas definicoes vivas e incompativeis. Em analise de testemunho: porosidade total menos a isolada (espaco interconectado). Em interpretacao de perfil: porosidade total menos a agua ligada a argila (clay-bound water), imovel mesmo estando conectada. Coincidem em rocha limpa e divergem muito em rocha argilosa, com a de testemunho dando o valor MAIOR. A a04 aplica Archie a uma porosidade lida em perfil densidade-neutron, de modo que o aluno sairia equipado com uma definicao para usar num contexto que adota a outra.",
+   "replacement": "Paragrafo de ressalva inserido na a01 nomeando as duas definicoes e apontando para a a04; nota correspondente no exemplo trabalhado da a04 explicando por que Archie dispensa a qualificacao em arenito limpo e o que muda em rocha argilosa.",
+   "source": {
+    "name": "Schlumberger Energy Glossary, verbete 'effective porosity'; Cuddy, Should petrophysics calculate total or effective porosity?, AFES 2021",
+    "url": "https://glossary.slb.com/terms/e/effective_porosity",
+    "tier": "reference_base",
+    "version": "consultado 2026-09-08"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "15-petrofisica/15-petrofisica-aula-01-meios-porosos-porosidade-permeabilidade-controles-geologicos.md",
+    "15-petrofisica/15-petrofisica-aula-04-condutividade-eletrica-lei-de-archie.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A02-POISSONLIMITE-009",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "15-petrofisica/15-petrofisica-aula-02-densidade-propriedades-elasticas-velocidades-sismicas.md",
+    "section": "Modulos elasticos: o que cada um mede fisicamente / Recap",
+    "quote": "o limite teorico para um material perfeitamente incompressivel em cisalhamento"
+   },
+   "claim": "O limite de 0,5 do coeficiente de Poisson foi justificado como o de um material 'perfeitamente incompressivel em cisalhamento'.",
+   "problem": "A formulacao troca a categoria da propriedade. Incompressibilidade e VOLUMETRICA: nu = 0,5 corresponde a deformacao sem mudanca de volume, obtida no limite K >> G ou, equivalentemente, G -> 0. Alem disso o coeficiente de Poisson nao e rigorosamente definido para um fluido, que nao sustenta tensao uniaxial. Como escrita, a frase sugere que o fluido resiste a compressao por cisalhamento, contradizendo a ideia central que a propria secao acabara de estabelecer (G do fluido = 0).",
+   "replacement": "Passagem reescrita separando o limite, sua condicao (volume constante / G -> 0) e a ressalva sobre fluidos; faixa de rocha saturada (0,25-0,35) acrescentada ao lado da de rocha seca (0,1-0,3), com o mecanismo amarrado a secao seguinte.",
+   "source": {
+    "name": "Mavko, Mukerji & Dvorkin (2020), The Rock Physics Handbook, 3a ed., cap. 1; Christensen (1996)",
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/95JB03446",
+    "tier": "reference_base",
+    "version": "Rock Physics Handbook 3a ed., 2020"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "15-petrofisica/15-petrofisica-aula-02-densidade-propriedades-elasticas-velocidades-sismicas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A03-ESPECTROMETRIA-004",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "15-petrofisica/15-petrofisica-aula-03-magnetismo-das-rochas-e-radioatividade-natural.md",
+    "section": "Radioatividade natural: de onde ela vem / Recap",
+    "quote": "Cada uma das tres series emite radiacao gama em energias caracteristicas"
+   },
+   "claim": "O 40K foi tratado como uma terceira serie de decaimento, e o pressuposto de equilibrio secular foi afirmado sem explicacao.",
+   "problem": "Sao DUAS series e UM isotopo isolado. O 40K decai diretamente: ~89% por beta-menos para 40Ca e ~11% por captura eletronica para 40Ar, ramo que emite o gama de 1,46 MeV. A distincao nao e terminologica: ela E a razao de o K ser reportado em % direto enquanto U e Th sao reportados como ppm equivalente (eU, eTh), porque destes se mede um produto-filho - 214Bi em 1,76 MeV e 208Tl em 2,61 MeV -, nao o pai.",
+   "replacement": "Paragrafo novo estabelecendo 'duas series e um isotopo' com o esquema de decaimento do 40K e as tres energias-diagnostico; explicacao do 'equivalente' derivada do fato de a medida ser do filho; quebra do equilibrio secular ancorada na fuga do 222Rn gasoso, com a consequencia pratica nomeada.",
+   "source": {
+    "name": "IAEA (2003), Guidelines for Radioelement Mapping Using Gamma Ray Spectrometry Data, Technical Reports Series; Ellis & Singer (2007), Well Logging for Earth Scientists, cap. 12-13",
+    "url": "https://www.iaea.org/publications",
+    "tier": "normative",
+    "version": "IAEA TRS, 2003"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "15-petrofisica/15-petrofisica-aula-03-magnetismo-das-rochas-e-radioatividade-natural.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A04-ARCHIEAM-006",
+   "severity": "orange",
+   "kind": "omissao_que_gera_erro",
+   "location": {
+    "file": "15-petrofisica/15-petrofisica-aula-04-condutividade-eletrica-lei-de-archie.md",
+    "section": "A lei de Archie / Recap",
+    "quote": "a e uma constante empirica (frequentemente tomada como 1, embora variacoes como a formula de Humble usem a = 0,62 ou 0,65)"
+   },
+   "claim": "Os parametros a e m de Archie foram apresentados como escolhas independentes.",
+   "problem": "a e m vem em PARES calibrados sobre um mesmo conjunto de amostras. A formula de Humble (Winsauer et al., 1952) e a=0,62 COM m=2,15; a variante para areias inconsolidadas e a=0,65, tambem com m=2,15. Listar os valores de a sem os m que os acompanham convida ao erro classico de usar a=0,62 com m=2, que nao produz uma media prudente e sim um fator de formacao errado - errado de forma silenciosa, porque o resultado continua plausivel.",
+   "replacement": "Paragrafo reescrito declarando o pareamento como armadilha explicita, com os tres pares nomeados e o erro de combinacao ilustrado.",
+   "source": {
+    "name": "Winsauer et al. (1952), Resistivity of brine-saturated sands in relation to pore geometry, AAPG Bulletin 36(2); SEG Wiki, Dictionary: Archie's formulas; Ellis & Singer (2007) cap. 4",
+    "url": "https://wiki.seg.org/wiki/Dictionary:Archie%E2%80%99s_formulas",
+    "tier": "peer_reviewed",
+    "version": "AAPG Bull. 36(2), 1952"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "15-petrofisica/15-petrofisica-aula-04-condutividade-eletrica-lei-de-archie.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A04-ARCHIEN-007",
+   "severity": "orange",
+   "kind": "confusao_de_escopo",
+   "location": {
+    "file": "15-petrofisica/15-petrofisica-aula-04-condutividade-eletrica-lei-de-archie.md",
+    "section": "A lei de Archie / Exemplo trabalhado / Recap",
+    "quote": "na pratica varia numa faixa relativamente estreita ao redor desse valor (algo como 2 +/- 0,5) para a maioria das rochas limpas"
+   },
+   "claim": "O expoente de saturacao n foi declarado numa faixa estreita apresentada como geral.",
+   "problem": "Falso fora da condicao water-wet, que e a condicao em que Archie mediu. n e funcao forte da MOLHABILIDADE: medidas classicas (Sweeney & Jennings) dao n ~1,6 water-wet, ~1,9 neutro e ~8 oil-wet, com valores acima de 10 em testemunhos uniformemente oil-wet a baixa saturacao de salmoura. Boa parte dos carbonatos e de molhabilidade mista ou oil-wet. Pior, o erro tem direcao: com os proprios numeros da aula (F.Rw/Rt = 0,138), n=2 da Sw=37% e n=8 da Sw=78% - assumir n=2 numa rocha oil-wet SUBESTIMA a saturacao de agua e SUPERESTIMA o hidrocarboneto.",
+   "replacement": "Passagem reescrita condicionando n~2 a molhabilidade por agua, com os tres valores medidos, o mecanismo fisico (filme continuo vs. gotas desconectadas) e a advertencia sobre carbonatos; bloco novo no exemplo trabalhado quantificando o custo (37% vs. 78%) e nomeando a direcao do erro.",
+   "source": {
+    "name": "Anderson, W. G. (1986), Wettability Literature Survey Part 3: The Effects of Wettability on the Electrical Properties of Porous Media, Journal of Petroleum Technology 38(12):1371-1378, com os dados de Sweeney & Jennings",
+    "url": "https://onepetro.org/JPT/article-abstract/38/12/1371/73779/",
+    "tier": "peer_reviewed",
+    "version": "JPT 38(12), 1986"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "15-petrofisica/15-petrofisica-aula-04-condutividade-eletrica-lei-de-archie.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A04-REFRACAO-008",
+   "severity": "orange",
+   "kind": "erro_factual",
+   "location": {
+    "file": "15-petrofisica/15-petrofisica-aula-04-condutividade-eletrica-lei-de-archie.md",
+    "section": "Tabela de integracao / Recap",
+    "quote": "Sismica de reflexao e refracao (contraste de impedancia acustica)"
+   },
+   "claim": "Reflexao e refracao sismicas foram agrupadas sob o mesmo contraste fisico.",
+   "problem": "Os dois metodos nao exploram o mesmo contraste. A REFLEXAO e governada pela impedancia acustica: R = (rho2.V2 - rho1.V1)/(rho2.V2 + rho1.V1). A REFRACAO critica obedece a lei de Snell e depende apenas do contraste de VELOCIDADE, sendo insensivel a densidade. Numa tabela cujo proposito e mapear propriedade fisica para metodo, agrupar os dois apaga exatamente a distincao que a tabela deveria fazer.",
+   "replacement": "Celula desmembrada com o mecanismo de cada metodo declarado; bullet novo no recap.",
+   "source": {
+    "name": "Telford, Geldart & Sheriff (1990), Applied Geophysics, 2a ed., cap. 4; US EPA, Seismic Reflection (coeficiente de reflexao)",
+    "url": "https://www.epa.gov/environmental-geophysics/seismic-reflection",
+    "tier": "reference_base",
+    "version": "Applied Geophysics 2a ed., 1990"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "15-petrofisica/15-petrofisica-aula-04-condutividade-eletrica-lei-de-archie.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A02-BASALTOMINERAL-010",
+   "severity": "yellow",
+   "kind": "confusao_de_escopo",
+   "location": {
+    "file": "15-petrofisica/15-petrofisica-aula-02-densidade-propriedades-elasticas-velocidades-sismicas.md",
+    "section": "Tres densidades que nao sao a mesma coisa",
+    "quote": "mais densos que o granito porque sao mais ricos em minerais ferromagnesianos (piroxenio, olivina)"
+   },
+   "claim": "A olivina foi dada como causa geral da densidade maior do basalto frente ao granito.",
+   "problem": "Olivina nao e fase essencial de todo basalto - so das variedades olivinicas e dos picritos. O contraste de densidade se explica inteiramente sem ela, pela troca de quartzo (2,65) e feldspato alcalino (~2,56) por plagioclasio calcico (~2,76), clinopiroxenio (3,2-3,4) e oxidos de Fe-Ti. Generalizar uma fase acessoria contraria a petrologia ignea do curso base.",
+   "replacement": "Frase reescrita com as densidades minerais explicitas e a olivina realocada ao seu escopo real; a magnetita (5,2) aparece pela primeira vez como fase densa, antecipando a a03.",
+   "source": {
+    "name": "Consistencia com a classificacao IUGS/TAS e com os modulos de petrologia ignea do curso base",
+    "url": "",
+    "tier": "reference_base",
+    "version": "2026-09-08"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "15-petrofisica/15-petrofisica-aula-02-densidade-propriedades-elasticas-velocidades-sismicas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A02-VPLITOLOGIA-007",
+   "severity": "yellow",
+   "kind": "inconsistencia_interna",
+   "location": {
+    "file": "15-petrofisica/15-petrofisica-aula-02-densidade-propriedades-elasticas-velocidades-sismicas.md",
+    "section": "Velocidades sismicas tipicas por litologia / Recap",
+    "quote": "calcarios e dolomitos situam-se tipicamente entre 4 e 7 km/s"
+   },
+   "claim": "A faixa de Vp declarada para carbonatos exclui os carbonatos de alta porosidade que a a01 do mesmo modulo declara possiveis.",
+   "problem": "A a01 atribui a calcarios porosidade de ate 30-40%. Uma greda (chalk) muito porosa tem Vp de 2,3-2,6 km/s, mais lenta que a maioria dos arenitos, e calcario em geral cobre 3,5-6,0 km/s. A faixa 4-7 km/s sem qualificacao contradiz o proprio modulo.",
+   "replacement": "Faixa qualificada para carbonato DENSO, com a greda inserida como contraexemplo explicito de que a litologia sozinha nao fixa a velocidade.",
+   "source": {
+    "name": "SEG Wiki, Velocities in limestone and sandstone (greda 2.300-2.600 m/s; calcario 3.500-6.000 m/s); Telford, Geldart & Sheriff (1990) cap. 4",
+    "url": "https://wiki.seg.org/wiki/Velocities_in_limestone_and_sandstone",
+    "tier": "reference_base",
+    "version": "consultado 2026-09-08"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "15-petrofisica/15-petrofisica-aula-02-densidade-propriedades-elasticas-velocidades-sismicas.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A03-FERRIFERAS-009",
+   "severity": "yellow",
+   "kind": "inconsistencia_interna",
+   "location": {
+    "file": "15-petrofisica/15-petrofisica-aula-03-magnetismo-das-rochas-e-radioatividade-natural.md",
+    "section": "Magnetismo: tres comportamentos e o mineral que domina tudo / Recap",
+    "quote": "formacoes ferriferas bandadas, que podem ser fortemente magneticas pela concentracao de magnetita e/ou hematita em bandas macicas"
+   },
+   "claim": "A hematita foi admitida como fonte do magnetismo de formacoes ferriferas bandadas.",
+   "problem": "O 'e/ou hematita' reinstala exatamente a armadilha que o paragrafo anterior desarma corretamente ('tem oxido de ferro' nao implica 'e magnetico'). Itabirito e minerio hematiticos sao fracamente magneticos apesar do teor de ferro igual ou maior, e essa diferenca e o criterio operacional corrente para separa-los da facies magnetitica em levantamento magnetico no Quadrilatero Ferrifero.",
+   "replacement": "Ressalva inserida restringindo o magnetismo as facies ricas em magnetita, com o contraste hematitico nomeado e o exemplo brasileiro registrado.",
+   "source": {
+    "name": "Clark, D. A. (1997), AGSO Journal 17(2):83-103",
+    "url": "",
+    "tier": "peer_reviewed",
+    "version": "AGSO Journal 17(2), 1997"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "15-petrofisica/15-petrofisica-aula-03-magnetismo-das-rochas-e-radioatividade-natural.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A03-VALORESTIPICOS-006",
+   "severity": "yellow",
+   "kind": "confusao_de_escopo",
+   "location": {
+    "file": "15-petrofisica/15-petrofisica-aula-03-magnetismo-das-rochas-e-radioatividade-natural.md",
+    "section": "Minerais e rochas responsaveis pela radioatividade natural / Recap",
+    "quote": "basaltos e rochas ultramaficas tem tipicamente K, U e Th muito mais baixos (K de poucos decimos de percentual, U e Th tipicamente abaixo de 1 ppm)"
+   },
+   "claim": "Basalto foi agrupado com rocha ultramafica numa unica faixa de K, U e Th.",
+   "problem": "Valido para toleito oceanico e para peridotito, mas basaltos continentais e alcalinos alcancam cerca de 1% de K e alguns ppm de Th (dados do Complexo Ofiolitico de Troodos dao K ate 1,0% e Th ate 2,0 ppm mesmo em contexto ofiolitico). Colapsar os dois grupos remove o contraste INTERNO a uma provincia basaltica, que e o que se explora ao mapear derrames distintos - e o Modulo 16, que depende deste, precisara dessa discriminacao.",
+   "replacement": "Os dois grupos separados, com a faixa de cada um e a consequencia para mapeamento nomeada.",
+   "source": {
+    "name": "IAEA (2003), Guidelines for Radioelement Mapping Using Gamma Ray Spectrometry Data; dados de radioelementos do Complexo Ofiolitico de Troodos",
+    "url": "https://www.iaea.org/publications",
+    "tier": "normative",
+    "version": "IAEA TRS, 2003"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "15-petrofisica/15-petrofisica-aula-03-magnetismo-das-rochas-e-radioatividade-natural.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A03-RAZAOTHU-007",
+   "severity": "yellow",
+   "kind": "certeza_indevida",
+   "location": {
+    "file": "15-petrofisica/15-petrofisica-aula-03-magnetismo-das-rochas-e-radioatividade-natural.md",
+    "section": "Exemplo trabalhado, interpretacao da Area 1 / Recap",
+    "quote": "razao Th/U alta (4,5) sao exatamente o padrao esperado de um granito"
+   },
+   "claim": "A razao Th/U de 4,5 foi qualificada como 'alta' sem regua de referencia.",
+   "problem": "4,5 e uma razao NORMAL, nao alta: a IAEA usa aproximadamente 2 a 7 como faixa de rocha nao alterada, com abaixo de 2 indicando ambiente redutor e acima de 7 indicando lixiviacao oxidante do uranio. Chamar 4,5 de alta atribui poder diagnostico a um valor comum e obscurece onde esta a informacao real do exercicio - a anomalia da Area 2 (Th/U = 0,5), nao a normalidade da Area 1.",
+   "replacement": "Regua da IAEA inserida antes das duas interpretacoes; Area 1 reinterpretada como granito FRESCO cuja informacao vem dos valores absolutos altos de K e Th; Area 2 ancorada explicitamente abaixo do limiar de 2.",
+   "source": {
+    "name": "IAEA (2003), Guidelines for Radioelement Mapping Using Gamma Ray Spectrometry Data, cap. sobre razoes Th/U e Th/K",
+    "url": "https://www.iaea.org/publications",
+    "tier": "normative",
+    "version": "IAEA TRS, 2003"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "15-petrofisica/15-petrofisica-aula-03-magnetismo-das-rochas-e-radioatividade-natural.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A04-INTEGRACAO-005",
+   "severity": "yellow",
+   "kind": "omissao_que_gera_erro",
+   "location": {
+    "file": "15-petrofisica/15-petrofisica-aula-04-condutividade-eletrica-lei-de-archie.md",
+    "section": "Tabela de integracao",
+    "quote": "Susceptibilidade magnetica | Teor de magnetita (e ilmenita) | Magnetometria (contraste de magnetizacao)"
+   },
+   "claim": "A tabela reduzia a magnetometria a susceptibilidade magnetica, omitindo a magnetizacao remanente.",
+   "problem": "A magnetometria responde a MAGNETIZACAO TOTAL = induzida + remanente. A a03 introduz a remanencia corretamente, nomeando-a como base do paleomagnetismo e das anomalias que persistem em rochas antigas, e a tabela entao a descarta. A razao entre as duas parcelas - razao de Koenigsberger - e conceito central do Modulo 16, que tem este modulo como pre-requisito.",
+   "replacement": "Linha da tabela reescrita para 'magnetizacao total (induzida + remanente)', com a razao de Koenigsberger nomeada, e o controle mineral corrigido conjuntamente com o achado da ilmenita.",
+   "source": {
+    "name": "Clark, D. A. (1997), AGSO Journal 17(2):83-103 (magnetizacao total e razao de Koenigsberger)",
+    "url": "",
+    "tier": "peer_reviewed",
+    "version": "AGSO Journal 17(2), 1997"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "15-petrofisica/15-petrofisica-aula-04-condutividade-eletrica-lei-de-archie.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A04-CONTAGEM-009",
+   "severity": "yellow",
+   "kind": "inconsistencia_interna",
+   "location": {
+    "file": "15-petrofisica/15-petrofisica-aula-04-condutividade-eletrica-lei-de-archie.md",
+    "section": "Titulo de secao, corpo e Recap",
+    "quote": "Integrando as quatro propriedades fisicas do modulo / Este modulo caracterizou seis propriedades fisicas / As seis propriedades fisicas do modulo"
+   },
+   "claim": "Tres contagens diferentes das propriedades fisicas do modulo, nenhuma correta.",
+   "problem": "O titulo dizia 'quatro', o corpo dizia 'seis' e o recap dizia 'seis', enquanto as tres listas enumeravam SETE itens (porosidade, permeabilidade, densidade, elasticidade, magnetismo, radioatividade, condutividade). Defeito pequeno, mas na secao de fechamento do modulo, que e a que o aluno usa para conferir se cobriu tudo.",
+   "replacement": "Titulo generalizado; corpo e recap corrigidos para sete.",
+   "source": {
+    "name": "Verificacao de consistencia interna",
+    "url": "",
+    "tier": "internal",
+    "version": "2026-09-08"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "15-petrofisica/15-petrofisica-aula-04-condutividade-eletrica-lei-de-archie.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A04-QUASETODO-010",
+   "severity": "yellow",
+   "kind": "certeza_indevida",
+   "location": {
+    "file": "15-petrofisica/15-petrofisica-aula-04-condutividade-eletrica-lei-de-archie.md",
+    "section": "Paragrafo de fechamento da tabela / Recap",
+    "quote": "quase todo metodo geofisico depende, em algum grau, da mesma variavel subjacente"
+   },
+   "claim": "A dependencia da porosidade foi generalizada a 'quase todo metodo geofisico', seguida imediatamente de duas excecoes em cinco metodos.",
+   "problem": "Duas excecoes em cinco e demais para caber em 'quase todo'. Tres metodos da tabela (gravimetria, sismica, resistividade) dependem da porosidade e do fluido de poro; dois (magnetometria, gamaespectrometria) sao cegos a ela por construcao. Alem da imprecisao, havia oportunidade perdida: a contagem exata e justamente o que transforma a observacao em argumento a favor da integracao multimetodo.",
+   "replacement": "Frase reescrita com a contagem explicita (tres contra dois) e a conclusao invertida em ganho: o metodo que ignora a porosidade e o que resolve a ambiguidade do metodo que nao a ignora.",
+   "source": {
+    "name": "Telford, Geldart & Sheriff (1990), Applied Geophysics, cap. 1",
+    "url": "",
+    "tier": "reference_base",
+    "version": "Applied Geophysics 2a ed., 1990"
+   },
+   "confidence": "confirmado",
+   "affected_files": [
+    "15-petrofisica/15-petrofisica-aula-04-condutividade-eletrica-lei-de-archie.md"
+   ],
+   "outcome": "corrigido",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A01-DOLOMITIZACAO-006",
+   "severity": "white",
+   "kind": "controversia",
+   "location": {
+    "file": "15-petrofisica/15-petrofisica-aula-01-meios-porosos-porosidade-permeabilidade-controles-geologicos.md",
+    "section": "Porosidade: definicao e o que ela nao diz sozinha / Recap",
+    "quote": "dolomitizacao (a conversao de calcita a dolomita reduz o volume do solido em cerca de 12-13%, criando poros novos)"
+   },
+   "claim": "A criacao de porosidade por dolomitizacao foi apresentada como consenso.",
+   "problem": "O NUMERO esta certo: 2 x 36,9 cm3/mol de calcita contra 64,3 cm3/mol de dolomita da ~13% de reducao do solido. A CONSEQUENCIA e disputada. O modelo mol a mol (Weyl, 1960) produz o ganho mas exige sistema aberto que importe Mg e exporte Ca; o modelo alternativo volume a volume com cimentacao (Lucia) preve REDUCAO de porosidade; e ha literatura que trata os '13% de porosidade' como artefato de uma hipotese de trabalho que a rocha real raramente satisfaz. Machel (2004) faz a reavaliacao critica de referencia.",
+   "replacement": "Nenhum lado escolhido. Numero mantido e reforcado com a aritmetica molar explicita; consequencia porosa reescrita como hipotese condicional, com as duas posicoes e seus proponentes nomeados.",
+   "source": {
+    "name": "Weyl, P. K. (1960), Porosity through dolomitization: conservation-of-mass requirements, Journal of Sedimentary Petrology 30(1):85-90; Machel, H. G. (2004), Concepts and models of dolomitization: a critical reappraisal, Geol. Soc. London Spec. Publ. 235:7-63",
+    "url": "https://pubs.geoscienceworld.org/sepm/jsedres/article-abstract/30/1/85/95478/",
+    "tier": "peer_reviewed",
+    "version": "JSP 30(1), 1960; GSL SP 235, 2004"
+   },
+   "confidence": "em disputa",
+   "affected_files": [
+    "15-petrofisica/15-petrofisica-aula-01-meios-porosos-porosidade-permeabilidade-controles-geologicos.md"
+   ],
+   "outcome": "reescrito_com_divergencia_explicita",
+   "applied_at": "2026-09-08"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A02-DENSIDADEGRAO-001",
+   "severity": "white",
+   "kind": "controversia",
+   "location": {
+    "file": "15-petrofisica/15-petrofisica-aula-02-densidade-propriedades-elasticas-velocidades-sismicas.md",
+    "section": "Tres densidades que nao sao a mesma coisa",
+    "quote": "dolomita cerca de 2,85 g/cm3"
+   },
+   "claim": "Densidade de grao da dolomita dada como ~2,85, divergindo da convencao de densidade de matriz usada em perfilagem (2,87).",
+   "problem": "2,85 esta correto como DENSIDADE MINERAL (faixa 2,84-2,86). Mas a convencao de densidade de matriz em interpretacao de perfil - o mundo em que a a04 entra - e 2,87. Nao e erro: e divergencia de convencao entre dois usos que este modulo atravessa.",
+   "replacement": "Nenhuma alteracao. A aula diz 'densidade de grao', contexto em que 2,85 e o valor certo; trocar por 2,87 introduziria erro no contexto declarado. Registrado para que uma futura aula de perfilagem nao trate a divergencia como contradicao.",
+   "source": {
+    "name": "Mindat (dolomita 2,84-2,86); Ellis & Singer (2007), cap. 1 (densidades de matriz de referencia para perfilagem)",
+    "url": "https://www.mindat.org/min-1304.html",
+    "tier": "reference_base",
+    "version": "consultado 2026-09-08"
+   },
+   "confidence": "em disputa",
+   "affected_files": [
+    "15-petrofisica/15-petrofisica-aula-02-densidade-propriedades-elasticas-velocidades-sismicas.md"
+   ],
+   "outcome": "aceito_como_esta",
+   "applied_at": "2026-09-08"
+  }
+ ],
+ "verified_claims": [
+  {
+   "claim_id": "PETROFIS-M15-A01-EMPACOTAMENTO-002",
+   "claim": "Empacotamento cubico de esferas identicas da ~47,6% de porosidade; romboedrico da ~26%.",
+   "source": "Tiab & Donaldson 2015 cap. 2; recalculado: 1 - pi/6 = 0,4764 e 1 - pi/(3.raiz2) = 0,2595",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A01-DEFPOROSIDADE-001",
+   "claim": "Definicao de porosidade; primaria vs. secundaria; total vs. efetiva.",
+   "source": "Schon 2015 cap. 2; Tiab & Donaldson 2015 cap. 2",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A01-FAIXASPOROSIDADE-003",
+   "claim": "Faixas de porosidade por litologia.",
+   "source": "Schon 2015 cap. 2; Ellis & Singer 2007 cap. 1",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A01-DEFPERMEABILIDADE-004",
+   "claim": "Permeabilidade definida por Darcy; controle por garganta de poro, conectividade e material fino, nao por volume poroso total.",
+   "source": "Tiab & Donaldson 2015 cap. 3-4; Telford et al. 1990 cap. 1",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A01-FAIXASPERMEABILIDADE-005",
+   "claim": "Faixas de permeabilidade por litologia; conversao mD/darcy coerente (10^-3 a 10^-6 mD = microdarcy a nanodarcy).",
+   "source": "Schon 2015 cap. 3; Tiab & Donaldson 2015 cap. 4; verificado por conversao direta",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A01-EXEMPLO-009",
+   "claim": "Exemplo trabalhado: 12/50 = 24%, 9/50 = 18%, 6 pp isolados = 25% da porosidade, superestimativa relativa de 33%.",
+   "source": "Recalculado digito a digito na auditoria",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A02-DENSIDADEBULK-002",
+   "claim": "Faixas de densidade bulk por litologia.",
+   "source": "Schon 2015 cap. 4; Telford et al. 1990 cap. 2",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A02-MODULOS-003",
+   "claim": "K mede resistencia a mudanca de volume; G a mudanca de forma; fluidos tem G = 0.",
+   "source": "Mavko, Mukerji & Dvorkin 2020 cap. 1-2",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A02-VPVSFORMULA-004",
+   "claim": "Vp = raiz[(K + 4G/3)/rho]; Vs = raiz(G/rho); onda P e a unica que atravessa o nucleo externo liquido.",
+   "source": "Mavko et al. 2020 cap. 2; Telford et al. 1990 cap. 4",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A02-FLUIDOVPVS-005",
+   "claim": "Agua para gas reduz K efetivo e Vp, deixa G e Vs praticamente inalterados; Vp/Vs cai - base do bright spot.",
+   "source": "Mavko et al. 2020 cap. 1-2 (substituicao de fluido, Gassmann)",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A02-VPVSRATIO-006",
+   "claim": "Vp/Vs: carbonatos 1,8-1,9; arenitos limpos 1,6-1,8; sobe com saturacao de agua.",
+   "source": "Christensen 1996 JGR 101(B2):3139-3156 (calcario Poisson ~0,31 => 1,9; dolomito ~0,28 => 1,81)",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A03-COMPORTAMENTOS-001",
+   "claim": "Diamagnetismo, paramagnetismo e ferro/ferrimagnetismo com seus minerais representativos.",
+   "source": "Telford et al. 1990 cap. 6; Clark 1997",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A03-MAGNETITA-002",
+   "claim": "Magnetita domina a susceptibilidade mesmo abaixo de 1% em volume; hematita ~3 ordens de grandeza abaixo; series magnetita/ilmenita de Ishihara.",
+   "source": "Clark 1997 AGSO Journal 17(2):83-103; Ishihara 1977",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A03-K40-003",
+   "claim": "40K corresponde a ~0,012% do potassio natural (valor exato 0,0117%).",
+   "source": "Ellis & Singer 2007 cap. 12; IAEA 2003; dados isotopicos do 40K",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A03-CONCENTRACAO-005",
+   "claim": "U e Th incompativeis por raio ionico, concentram-se em liquidos residuais e em zircao/monazita/allanita/apatita; U movel em meio oxidante e reprecipitado em meio redutor.",
+   "source": "IAEA 2003; Ellis & Singer 2007 cap. 12",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A03-EXEMPLOTHU-010",
+   "claim": "Exemplo trabalhado: Th/U = 18/4 = 4,5 e 6/12 = 0,5.",
+   "source": "Recalculado na auditoria",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A04-ORIGEMCONDUTIVIDADE-001",
+   "claim": "Silicatos comuns sao isolantes; a conducao vem da salmoura nos poros; rochas cristalinas sao resistivas exceto em fraturas saturadas ou com sulfetos macicos e grafita (conducao eletronica).",
+   "source": "Schon 2015 cap. 7; Telford et al. 1990 cap. 8",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A04-CONDUTIVIDADESUPERFICIE-002",
+   "claim": "Argilominerais introduzem condutividade de superficie por dupla camada eletrica, nao contemplada por Archie classica; correcao de Waxman-Smits.",
+   "source": "Schon 2015 cap. 7-8; Ellis & Singer 2007 cap. 4",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A04-ARCHIE-003",
+   "claim": "F = R0/Rw = a/phi^m; Sw = (F.Rw/Rt)^(1/n); m sobe com tortuosidade e cai com fraturamento; citacao Archie 1942 Trans. AIME 146(1):54-62 correta.",
+   "source": "Archie 1942; Ellis & Singer 2007 cap. 4",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A04-HIDROCARBONETO-004",
+   "claim": "Hidrocarboneto e isolante; Rt maior que R0 indica Sw menor que 100% - base da avaliacao de formacao desde os anos 1940.",
+   "source": "Archie 1942; Ellis & Singer 2007 cap. 4 e 8",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PETROFIS-M15-A04-EXEMPLOARCHIE-011",
+   "claim": "Exemplo trabalhado: F = 20,7; R0 = 1,66 ohm.m; Sw = 37,1%; Sh = 63%; Rt/R0 = 7,3.",
+   "source": "Recalculado digito a digito na auditoria",
+   "confidence": "confirmado"
+  },
+  {
+   "claim_id": "PETROFIS-M15-BIBLIOGRAFIA-012",
+   "claim": "As 21 referencias bibliograficas das quatro aulas foram conferidas uma a uma quanto a ano, volume, edicao e paginacao; nenhuma com defeito.",
+   "source": "Verificacao bibliografica da auditoria",
+   "confidence": "confirmado"
+  }
+ ],
+ "cross_module_check": "Busca em todo o curso por Archie, ilmenita, magnetita, hematita, pirrotita, Poisson, porosidade efetiva, susceptibilidade, expoente de cimentacao, expoente de saturacao e impedancia acustica. UMA CONTRADICAO TRANSVERSAL ENCONTRADA, e ela e o achado PETROFIS-M15-A03-ILMENITA-008: o Modulo 09 (Geometalurgia) a05 ja ensina corretamente que a separacao magnetica de alta intensidade separa minerais PARAMAGNETICOS fracos incluindo a ilmenita, e que magnetita e pirrotita monoclinica sao os fortemente magneticos - o oposto do que a redacao original da a03 do Modulo 15 afirmava. A correcao restabelece a consistencia nos dois sentidos, porque tambem passou a nomear a pirrotita monoclinica entre os ferrimagneticos. Modulo 12 (Engenharia de petroleo) a02: sem contradicao sobre Archie - o Modulo 12 ja adverte que a, m e n nao sao universais e exigem calibracao local. Duas observacoes: (1) divergencia numerica menor de m (Modulo 12 usa 1,8-2,2 para arenito consolidado; Modulo 15 usava 1,8-2,0 para arenito limpo) HARMONIZADA, com a a04 passando a declarar as duas faixas e a nomear o Modulo 12; (2) a a02 do Modulo 12 apresenta n como 'tipicamente proximo de 2' sem a ressalva de molhabilidade - INCOMPLETUDE, NAO ERRO, deixada intocada porque o Modulo 12 esta fechado com questionario e 239 flashcards, e a repropagacao nao se justifica para uma afirmacao que nao e falsa; ENCAMINHADO a auditoria cross-course de fechamento do curso. Modulo 05 (Mecanica de rochas) usa Young e Poisson em contexto geomecanico estatico, sem colisao com o uso dinamico do Modulo 15. COLISAO DE SIMBOLOS registrada sem correcao: K e condutividade hidraulica no Modulo 01 e modulo de compressibilidade no Modulo 15; k e permeabilidade intrinseca na a01 - convencao estabelecida em ambas as disciplinas, mas ponto de confusao previsivel, encaminhado a revisao didatica.",
+ "derived_material_note": "Nenhum material derivado a propagar. O modulo nao tem questionario nem baralho ainda - a auditoria rodou antes deles, como manda a cadeia. Nada a reimportar no Anki.",
+ "report": "15-petrofisica/15-petrofisica-auditoria.md"
+}

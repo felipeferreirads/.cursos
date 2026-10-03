@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "08-rochas-metamorficas",
+    "module_id": "08",
+    "course_id": "geologia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-08-19",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 0,
+    "yellow": 0,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 6
+  },
+  "findings": [],
+  "verified_claims": [
+    {
+      "claim_id": "ROC-MET-PROCESS-001",
+      "claim": "Metamorfismo ocorre sem fusão completa.",
+      "source": "USGS",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ROC-MET-TYPES-001",
+      "claim": "Contato é associado à intrusão e sua perturbação térmica.",
+      "source": "BGS",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ROC-MET-FOLIATION-001",
+      "claim": "Foliação pode refletir orientação mineral sob pressão dirigida.",
+      "source": "USGS",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ROC-MET-PT-001",
+      "claim": "Diagramas P–T representam condições de pressão e temperatura.",
+      "source": "USGS",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ROC-MET-FACIES-001",
+      "claim": "Grau e fácies não são sinônimos.",
+      "source": "IUGS SCMR",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ROC-MET-NAME-001",
+      "claim": "Nomes de protólito são usados quando apropriados e reconhecíveis.",
+      "source": "IUGS SCMR",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ROC-MET-FACIES-002",
+      "claim": "As facies metamorficas se agrupam em tres series (baixa, media e alta P/T) associadas a contato, orogenico e subducao; conceito formalizado por Miyashiro (1961) e padrao em Winter e Spear.",
+      "source": "Miyashiro (1961), Journal of Petrology 2(3):277-311; Winter, Principles of Igneous and Metamorphic Petrology (2010); Spear, Metamorphic Phase Equilibria (1993)",
+      "confidence": "confirmado"
+    }
+  ]
+}

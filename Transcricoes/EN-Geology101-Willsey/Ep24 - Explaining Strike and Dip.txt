@@ -1,0 +1,403 @@
+# Ep24 - Explaining Strike and Dip.txt
+Video ID: HSW79_h7GNU
+Lang: en
+URL: https://www.youtube.com/watch?v=HSW79_h7GNU
+
+---
+
+hey there folks and welcome to another
+episode in the geology 101 physical
+geology video series I am geology
+Professor Sean Willy thanks for joining
+me today in episode 24 we are going to
+look at how we describe the orientation
+of rocks in threedimensional space using
+terms you might have heard of before
+like strike and dip see if we can make
+heads or tails of this uh in the next
+episode what I'll do is show you
+actually how we measure strike and dip
+with a compass called the front compass
+and maybe we'll even show you some of
+the new ways to use that using your
+phone um as always this video series is
+modeled after my college courses the
+same curriculum the same content um
+pretty much everything I do here at the
+college so let's go ahead and get right
+to it so remember last time we talked
+about just the ways in which rocks to
+form they can behave brittly they can
+behave duly in future episodes we'll
+explore that a little bit further with
+faults and folds but today the critical
+concept we want to look at is how to
+describe the orientation of a body of
+rock in three-dimensional space so many
+of the Rocks we look at tend to be
+planer objects so I'm going to start
+here with the big webcam uh and then
+we'll go to some slides here in a second
+so I have here a slab of rock a planer
+uh slab of rock doesn't matter what type
+of rock it is but many of our rocks
+sedimentary and foliated metamorphic
+rocks present themselves in this way so
+think about how you would describe the
+orientation of this this rock right here
+and words I commonly hear from my
+students are things like it's level it's
+flat it's uh even U but the best word
+probably to describe this this rock body
+right here this planer Rock body is that
+it's horizontal it's oriented
+horizontally okay that should make sense
+to you just the way like your waiter
+carries out your meal and drinks when
+you're at a restaurant let's look at a
+different Rock orientation and see how
+we might describe it though so now if I
+Orient the rock this way how would you
+describe it and my students often say
+things like it's up and down it's
+straight um but the probably the best
+term here if we use horizontal for the
+previous orientation vertical would
+probably make the most sense here this
+rock is oriented vertically this planer
+slab of rock is oriented vertically now
+I'm just going to tweak one little thing
+and see how you might describe
+it so now the whole face of the Rock is
+facing you but the rock is still
+vertical right so I can kind of rotate
+this vertical slab of rock around an
+axis and it's still vertical it's
+vertical here it's vertical here it's
+vertical here but now there's an
+orientation right this this little Edge
+this vertical plane is is uh trending or
+has a direction to it when we think
+about the compass so that's something to
+consider horizontal is horizontal it
+doesn't matter if you spin it around
+vertical though there is like a
+direction that that plane that vertical
+plane tends to uh intersect
+three-dimensional space so now let's
+look at our final way we might describe
+a rock body because you know sometimes
+rocks are horizontal sometimes they are
+vertical but most often we see rocks
+that maybe look something like this
+they're tilted okay or inclined or
+students use words like diagonal or uh
+sideways so the best word here might be
+inclin or Tilted those are words we
+typically use in geology so notice I can
+present this slab to you here okay but I
+can also change it a little bit it's
+still tilted now so these adjectives
+we're using aren't very useful we need a
+way to define direction we need to a way
+to define um angles to some degree
+notice this one's at a fairly small
+angle but I can tilt it to a much
+steeper angle I can even take it to uh
+another angle so it's tilted the
+opposite way so here it's tilted in One
+Direction but here it's tilted in the
+opposite direction so we need terms to
+describe these so let's go through how
+we actually do this let me go ahead and
+shrink myself back down I'll just be the
+head in the corner and let's look at
+these the way we use these is we use
+some terminology here and let me just go
+through the terms then I'll show you
+some examples and some visuals that will
+help it make a little bit more sense so
+the strike the strike is the compass
+Direction so it has a you know NorthEast
+Southwest component to it Compass
+direction of a horizontal line on an
+inclined plane and let me actually Zoom
+myself back bigger again so what we
+really mean when we say strike direction
+is if we have a
+tilted Rock body like this see if I can
+do this with two hands and if we
+envision a horizontal plane intersecting
+this tilted plane that would make a line
+so the line is the strike it's where
+horizontal plane intersects this tilted
+or inclined plane when two planes
+intersect not only do you get an angle
+but you get a line you know how
+sometimes people say they they refer to
+faults as the fault line like oh the San
+Andreas fault line runs right through
+this shopping mall well what they really
+mean is that the fault itself is a
+planer surface it's intersecting the
+ground which is another horizontal which
+is another planer surface and the Rel
+the intersection between surface the
+ground and this fault plane in this
+example would create a line so it's this
+line running in some Direction like the
+way I'm sitting right now in my office
+this direction is west to east west is
+uh towards you East is towards me okay
+so that's the concept behind strike and
+I'll get i'll again I I'll explore this
+a little bit further uh let me shrink
+myself back down again so the other
+concept that goes with strike is
+something called dip how much that angle
+is tilted so think about that horizontal
+plane again and that tilted plane what
+angle exists between those two planes if
+it's vertical if the bed of rock is
+vertical then the dip is 90 if the bed
+of rock is horizontal then the dip is
+zero there is no dip but we can have
+anything in between there so our dip
+number is going to range from 0 to 90°
+and the relationship between the dip
+Direction and the strike Direction is
+always a perpendicular relationship so
+if we have a rock that's striking let me
+go back to maybe the big view again this
+is highly visual um so if we have again
+in my office this rock is striking east
+west but if I add some tilt to it in
+this case now it's dipping in this
+direction if a drop of water fell on the
+slab it would run down the slab and in
+this direction and here in my office
+that direction is South so the
+relationship between the strike east
+west in this case and the dip direction
+is always perpendicular if we have a
+East West strike we either have to have
+a South dip or it might be dipping the
+opposite direction which would be a
+North dip so that's the relationship
+between strike and dip so with the
+strike and dip symbol we use on the
+geologic Maps the long line is the
+strike okay so the strike is shown here
+so in this case it would be a Northwest
+to Southeast strike assuming North is up
+the dip Direction here would be to the
+Northeast and then we have the little
+angle here so it's 40° it's tilted down
+from the horizontal 40° we don't put the
+little degree symbol here again because
+um it's understood you don't you don't
+need any units here or the little degree
+symbol so that's the strike and dip
+symbol that would be used um as an
+example here and then down here again I
+have this other example where we are
+looking at a sequence of I guess one two
+3 four five six uh different sets of
+rocks from Pink up to Red oldest on the
+bottom youngest on top so superp
+position is working here and these are
+all let's say beds of sediment rocks
+maybe the blue is a limestone yellow's a
+Sandstone purple's a Shale um and so in
+the top view here the top of the box is
+our map view and that's where the
+symbols are going to go so this would be
+um a strike and dip symbol showing that
+the rocks are striking in this direction
+probably north south if that's the way
+this box is oriented and in this case
+they're dipping to the right or to the
+east at 28° 28 degrees is this angle
+right here it's the angle between the
+horizontal surface and this tilted plane
+of rock so we have a 28 degree angle
+right here and in fact if we put strike
+and dip symbols on all these units they
+would all look the same it'd be the same
+on the blue and the yellow and the
+purple and the red so again uh we have
+to think in three dimensions so this is
+the geologic map view the top view this
+is the crosssection view or the side
+view which nicely shows us the dip of
+the rocks and then we have this third
+dimension over here and so we can
+collectively see all three uh sides or
+dimensions of these tilted planer Rock
+bodies okay so how do we here's another
+way to kind of look at it I like this
+graphic nicely because it actually puts
+these planes into perspective so let's
+imagine this yellow plane of rock is a
+bed of sandstone or something sticking
+out of the ground right so you can see
+this is a three-dimensional block
+diagram um if we have a horizontal plane
+shown here by this blue line I couldn't
+draw this if I wanted to um notice that
+the horizontal plane intersecting our
+bed of sandstone in yellow that defines
+the strike so there's our strike okay
+our strike line runs from in this
+direction whatever that is on the
+compass
+and then our dip direction would be a
+vertical plane intersecting that strike
+and so the dip Direction here would be
+in this case you can see the dip is to
+in this case to the left so the dip
+direction is this way imagine a drop of
+water falling on this slab of sandstone
+and it yes it would move down gravity
+but it would also be moving in this
+direction shown by the red arrow here
+the dip Direction so this is another
+graphic that might be helpful so we need
+a way to define Direction and we we've
+already used you know NorthEast
+Southwest which is good you could use
+Northwest Northeast excuse me this is
+this is okay and at at a first level
+this is probably fine um and you can
+even go a little further with this and
+Define you know North Northwest North
+Northeast so you can start dividing the
+compass rows up into as many little
+arrows and directions as you want to but
+ultimately it's not that accurate I mean
+what's the difference between you know
+North and Northeast well it's a
+45° angle right it's a 45° range of
+values between north and Northeast so we
+need a better way to do it and so the
+way we we do this is by using an asouth
+so instead of thinking of things as
+directionally north and east and
+Southeast and Northwest we actually
+break the compass rows up because it's a
+circle into degrees 360° in a circle we
+start at North which is essentially zero
+and we rotate clockwise around the
+compass rows and each little unit there
+is a different degree of a bearing of of
+a direction an asouth bearing so notice
+that East is 90 South is 180 West is 270
+and by the time we're back to 360 or
+North we've completed that full circle
+there so this is a more precise way of
+doing it rather than saying oh the rocks
+are striking Northeast you could say
+well the rocks are striking you know at
+36 an asmith of 036 okay so actually
+being a little bit more specific we're
+not going to go to that level here in
+geology 101 But realize that you know
+practicing geologist or as you get into
+more advanced courses in geology uh
+using this type of uh quantification for
+strike and dip is
+important so the symbols we use to show
+the orientation of beds and this mainly
+applies to sedimentary rocks we've
+already talked about this top one here
+tilted beds rocks that are not
+horizontal Al rocks that are not
+vertical but are something in between so
+we use this classic strike and dip
+symbol here here's a symbol you might
+see because this designates rocks that
+are actually vertical and then remember
+the long line here of this symbol is the
+strike line so you can imagine that
+rotating around maybe the rocks are uh
+striking they're still vertical they
+have a vertical dip but they're striking
+maybe north south in that case the long
+line would be running up and down on the
+page if they was East West they would be
+running uh across the page this way
+horizontal beds uh have no Direction so
+we just use this symbol here just kind
+of a simple like little like a little
+Bullseye kind of symbol there and then
+if the rocks have actually been flipped
+over so they have been tilted Beyond 90°
+and are now upside down they are
+overturned that's what we call an
+overturned bed and that's shown by this
+symbol here so the little dip line still
+shows the direction in which it dips but
+it has been flipped over and rotated
+into that dip Direction so it's rotated
+past 90° so these are some other symbols
+um you may see if you get if you get a
+little deeper into this um okay so let's
+do an assessment question here to round
+out this episode here and hopefully this
+is made sense to you it's a a
+complicated concept to teach hopefully
+the visuals helped a little bit so let's
+say we have a Sandstone bed which
+strikes NorthEast Southwest and dips 53°
+to the Northwest which one of the
+following symbols is the correct map
+symbol so I give you six different
+options here so go ahead and pause the
+video if you need a second to digest
+this and think about
+it okay and let's go ahead and assume
+here that North is up on this map
+wherever this map is that we're plotting
+this map symbol uh so if North is up and
+we have something striking NorthEast
+Southwest that means we're going to need
+a line that's oriented in a NorthEast
+Southwest Direction which means a makes
+sense and E makes sense F and D that's
+for horizontal beds that's for vertical
+beds B and C have a northwest southeast
+strike and so those don't match the data
+we collected so we're either going to be
+with a or E so now we're looking at the
+dip Direction a shows a dip to the
+southeast and E shows a dip to the
+Northwest our data that was measured in
+the field says that it dips to the north
+Northwest therefore e is the correct
+answer down here how'd you do on that
+one hopefully pretty well so what we'll
+do on the next video I gen I don't do
+this in the geology 101 class so it's a
+bit of a bonus we we cover strike and
+dip they do some things in lab with
+boxes and just kind of visualizing
+things in 3D but I don't actually have
+them go outside and measure strike and
+dip with a Brunton Compass or some sort
+of instrument I do that in the 102 class
+but just for fun I think I'll include a
+special episode or lesson if you will in
+the next video that will cover how we
+measure strike and depth I'll start in
+the lab showing you how the Bruton
+compass works we'll just you know set up
+a slab of rock in the lab and measure it
+and then I'll follow that up with the
+video I've already uh filmed out in the
+field in Great Basin National Park where
+I'll actually measure the strike and dip
+of a rock body or planer Rock body out
+in the field so thanks for your support
+of the channel hopefully this episode
+and lesson was helpful to you and we'll
+see you next time take care

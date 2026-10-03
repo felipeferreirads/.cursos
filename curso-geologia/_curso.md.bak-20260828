@@ -1,0 +1,107 @@
+# Curso: Geologia — do essencial ao avançado
+
+**Estado:** in_progress
+**Criado em:** 2026-07-20T00:00:00-03:00  ·  **Atualizado em:** 2026-08-25T00:00:00-03:00
+**Base do currículo:** graduação em geociências + taxonomia de áreas fornecida pelo usuário + geologia regional do Brasil (CPRM/SGB)
+**Partida:** ensino médio completo, sem pressupor domínio prévio de geologia  ·  **Chegada:** avançado/especialista
+**Volume estimado:** 29 módulos · ~183 aulas de ≤30 min · ~123–138 h de estudo
+
+## Ao final do curso você vai conseguir
+
+- Partir do ensino médio completo, sem conhecimento prévio de geologia, e chegar a classificar minerais e rochas e a interpretar dados geoquímicos e isotópicos.
+- Ler o tempo geológico, correlacionar estratos, interpretar o registro fóssil e mapear geologia em campo.
+- Interpretar estrutura, tectônica, geofísica, vulcanismo e a evolução da Terra, incluindo a geologia do Brasil e de outros planetas.
+- Aplicar geologia a recursos, petróleo, ambiente, engenharia e processamento mineral.
+
+> Este arquivo é gerado a partir de `course-state.yaml`. Edições feitas aqui fora
+> da seção de notas são sobrescritas na próxima geração.
+
+## Estado
+
+- **Módulos:** 29 de 29 concluídos
+- **Aulas escritas:** 183
+- **Questionários:** 41
+- **Flashcards:** 1256 Basic · 764 Cloze
+- **Próximo passo:** SEPARACAO DE 2026-08-25: a gemologia saiu deste curso e virou o curso irmao curso-gemologia. O antigo modulo 06 (Gemologia geral e identificacao) e o antigo modulo 30 (Diamantes) foram migrados para la; a pasta vazia do 31 foi removida. Com o buraco aberto, os modulos 07-29 foram renumerados para 06-28, e TODOS os IDs foram reprefixados de geologia-gemologia-mNN-* para geologia-mNN-* (e os antigos GG-MNN-Bxxx / GG-MNN-Cxxx viraram geologia-mNN-fbxxx / geologia-mNN-fcxxx, o que de quebra corrigiu um formato de ID que o validador rejeitava). O curso passou a se chamar curso-geologia. Consequencia aceita pelo usuario: o Anki trata todos os cards como novos, porque o ID de cada um mudou. Ver _contexto.md. PROXIMAS ACOES DE QUALIDADE, nao bloqueantes: (1) revisao didatica pendente para varios modulos, incluindo os atuais 20-25 e a trilha de apoio; (2) auditoria cross-course cobrindo 20-25 contra 00-19 ainda nao rodou; (3) decisao adiada de 2026-08-19 continua em aberto - se o M17 e o M19 ganham aula propria para os objetivos m17-oa01 e m19-oa01 ou se passam a apontar para as aulas 03 e 06 do M27 (Fisica); (4) as paginas do Notion dos modulos removidos em 2026-08-23 e as do modulo de gemologia continuam la e precisam ser apagadas ou movidas a mao.
+
+## Módulos
+
+Os 29 módulos aparecem como subpáginas abaixo, na ordem do currículo. Todos têm conteúdo completo (aulas, auditoria, questionário e flashcards).
+
+### 0. Nivelamento opcional
+
+- ✅ **00 — Nivelamento opcional: kit de sobrevivência geológica** · 6/6 aulas · questionário + 101 cards · auditado — [[00-partida-do-zero/00-partida-do-zero-modulo|abrir]]
+
+### I. Fundamentos e Terra sólida
+
+- ✅ **01 — Fundamentos e método das geociências** · 6/6 aulas · questionário + 83 cards · auditado — [[01-fundamentos-e-metodo/01-fundamentos-e-metodo-modulo|abrir]]
+- ✅ **02 — Sistema Terra: estrutura interna e tectônica de placas** · 9/9 aulas · questionário + 114 cards · auditado · pré-req: 01 — [[02-sistema-terra-tectonica/02-sistema-terra-tectonica-modulo|abrir]]
+- ✅ **03 — Tempo geológico e geocronologia** · 7/7 aulas · questionário + 103 cards · auditado · pré-req: 01 — [[03-tempo-geologico-geocronologia/03-tempo-geologico-geocronologia-modulo|abrir]]
+
+### II. Materiais da Terra
+
+- ✅ **04 — Química dos minerais e cristalografia** · 7 aulas planejadas · questionário + 99 cards · auditado · pré-req: 01, 03 — [[04-cristalografia-quimica-minerais/04-cristalografia-quimica-minerais-modulo|abrir]]
+- ✅ **05 — Mineralogia: propriedades, identificação e óptica** · 7 aulas planejadas · questionário + 77 cards · auditado · pré-req: 04 — [[05-mineralogia-identificacao-optica/05-mineralogia-identificacao-optica-modulo|abrir]]
+
+### III. Rochas e geoquímica
+
+- ✅ **06 — Rochas ígneas e magmatismo** · 8/8 aulas · questionário + 56 cards · auditado · pré-req: 05 — [[06-rochas-igneas/06-rochas-igneas-modulo|abrir]]
+- ✅ **07 — Rochas sedimentares** · 7/7 aulas · questionário + 53 cards · auditado · pré-req: 05 — [[07-rochas-sedimentares/07-rochas-sedimentares-modulo|abrir]]
+- ✅ **08 — Rochas metamórficas** · 6/6 aulas · questionário + 24 cards · auditado · pré-req: 05, 06, 07 — [[08-rochas-metamorficas/08-rochas-metamorficas-modulo|abrir]]
+- ✅ **09 — Geoquímica** · 8/8 aulas · questionário + 11 cards · auditado · pré-req: 03, 04, 05, 06 — [[09-geoquimica/09-geoquimica-modulo|abrir]]
+
+### IV. Vulcanismo e processos de superfície
+
+- ✅ **10 — Vulcanologia** · 6/6 aulas · questionário + 51 cards · auditado · pré-req: 02, 06 — [[10-vulcanologia/10-vulcanologia-modulo|abrir]]
+- ✅ **11 — Intemperismo, solos e geomorfologia** · 7/7 aulas · questionário + 42 cards · auditado · pré-req: 07 — [[11-intemperismo-solos-geomorfologia/11-intemperismo-solos-geomorfologia-modulo|abrir]]
+- ✅ **12 — Glaciologia** · 5/5 aulas · questionário + 15 cards · auditado · pré-req: 11 — [[12-glaciologia/12-glaciologia-modulo|abrir]]
+- ✅ **13 — Sedimentologia e ambientes deposicionais** · 6/6 aulas · questionário + 8 cards · auditado · pré-req: 07, 11 — [[13-sedimentologia-ambientes/13-sedimentologia-ambientes-modulo|abrir]]
+
+### V. Estratigrafia, tempo e vida
+
+- ✅ **14 — Estratigrafia e correlação** · 6/6 aulas · questionário + 48 cards · auditado · pré-req: 03, 13 — [[14-estratigrafia-correlacao/14-estratigrafia-correlacao-modulo|abrir]]
+- ✅ **15 — Paleontologia e história da vida** · 7/7 aulas · questionário + 59 cards · auditado · pré-req: 03, 14 — [[15-paleontologia-historia-vida/15-paleontologia-historia-vida-modulo|abrir]]
+- ✅ **16 — Geobiologia** · 7/7 aulas · questionário + 58 cards · auditado · pré-req: 09, 15 — [[16-geobiologia/16-geobiologia-modulo|abrir]]
+
+### VI. Estrutura e geofísica
+
+- ✅ **17 — Geologia estrutural e deformação** · 7/8 aulas · questionário + 85 cards · auditado · pré-req: 02, 08 — [[17-geologia-estrutural/17-geologia-estrutural-modulo|abrir]]
+- ✅ **18 — Tectônica global e geodinâmica** · 6/7 aulas · questionário + 39 cards · auditado · pré-req: 02, 17 — [[18-tectonica-global-geodinamica/18-tectonica-global-geodinamica-modulo|abrir]]
+- ✅ **19 — Geofísica: métodos e imageamento da Terra** · 6/8 aulas · questionário + 96 cards · auditado · pré-req: 02, 18 — [[19-geofisica-metodos/19-geofisica-metodos-modulo|abrir]]
+
+### VII. Métodos, recursos e regional
+
+- ✅ **20 — Métodos de campo e mapeamento geológico** · 6/6 aulas · questionário + 90 cards · pré-req: 05, 14, 17 — [[20-metodos-campo-mapeamento/20-metodos-campo-mapeamento-modulo|abrir]]
+- ✅ **21 — Recursos minerais e geologia econômica** · 6/6 aulas · questionário + 90 cards · pré-req: 06, 07, 08, 18 — [[21-recursos-minerais-economica/21-recursos-minerais-economica-modulo|abrir]]
+- ✅ **22 — Geologia do petróleo** · 5/5 aulas · questionário + 75 cards · pré-req: 07, 13, 21 — [[22-geologia-do-petroleo/22-geologia-do-petroleo-modulo|abrir]]
+- ✅ **23 — Oceanografia geológica (geologia marinha)** · 5/5 aulas · questionário + 75 cards · pré-req: 13, 18, 19 — [[23-oceanografia-geologica/23-oceanografia-geologica-modulo|abrir]]
+- ✅ **24 — Geologia planetária** · 5/5 aulas · questionário + 75 cards · pré-req: 02, 06, 09 — [[24-geologia-planetaria/24-geologia-planetaria-modulo|abrir]]
+- ✅ **25 — Geologia do Brasil** · 7/7 aulas · questionário + 105 cards · pré-req: 14, 18, 21 — [[25-geologia-do-brasil/25-geologia-do-brasil-modulo|abrir]]
+
+### A. Trilha de apoio (opcional): ciências para geociências
+
+- ✅ **26 — Química para geociências: reações, soluções e equilíbrio** · 5/5 aulas · questionário + 109 cards · auditado — [[26-quimica-geociencias/26-quimica-geociencias-modulo|abrir]]
+- ✅ **27 — Física para geociências: grandezas, forças e energia** · 6/6 aulas · questionário + 124 cards · auditado — [[27-fisica-geociencias/27-fisica-geociencias-modulo|abrir]]
+- ✅ **28 — Matemática para geociências: vetores, trigonometria, funções e estatística** · 4/4 aulas · questionário + 61 cards · auditado — [[28-matematica-geociencias/28-matematica-geociencias-modulo|abrir]]
+
+## Saldo das auditorias
+
+🔴 7 · 🟠 39 · 🟡 2 · 🔵 11 · ⚪ 7
+
+## Decisões registradas
+
+- **2026-08-23** — Area VIII removida deste curso. Os modulos 26 (Geologia ambiental e hidrogeologia), 28 (Geologia de engenharia), 29 (Geometalurgia) e 30 (Engenharia de petroleo) foram apagados: eram esqueletos vazios (apenas o hub -modulo.md, zero aulas, status pending) e seus objetivos de aprendizagem ja haviam sido reaproveitados e expandidos no curso avancado irmao ../curso-geologia-avancado/ (27 -> modulos 01-04 hidrogeologia, hidrogeoquimica, contaminacao e gestao de aguas subterraneas; 28 -> modulos 05-07 mecanica de rochas, geomecanica, mapeamento geotecnico e geotecnia ambiental; 29 -> modulo 08 geometalurgia; 30 -> modulos 09-11 tectonica de bacias, sismoestratigrafia e engenharia de petroleo). Manter os esqueletos aqui criaria duas fontes concorrentes para o mesmo conteudo. Executa a decisao de corte base/avancado registrada em 2026-08-18 no _contexto.md.
+- **2026-08-23** — Trilha de apoio renumerada 31-33 -> 27-29 (31 Quimica -> 27, 32 Fisica -> 28, 33 Matematica -> 29), ocupando o intervalo aberto pela remocao da area VIII, para nao deixar um buraco permanente na numeracao. Excecao deliberada a convencao de 2026-08-18 ('reorganizacao de trilha nunca altera prerequisites, id ou pasta de modulo existente'); paga com a atualizacao de todas as referencias cruzadas: pastas e nomes de arquivo, module id, learning_objectives[].id, lessons.items[].id e covers_objectives, IDs de flashcard nos CSVs, claim_ids de auditoria (GEO-M3x -> GEO-M2x), wikilinks e paginas de navegacao. Os objetivos geologia-m17-oa01 e geologia-m19-oa01, cobertos pelas aulas 03 e 06 da Fisica, NAO mudaram de ID; apenas o numero do modulo que os cobre passou de 32 para 28. O curso passa a ter 30 modulos: 00 a 29.
+- **2026-08-23** — As quatro entradas de notion_sync.pages dos modulos removidos foram excluidas do estado, mas as paginas correspondentes continuam existindo no Notion e precisam ser apagadas manualmente pelo usuario: 27-geologia-ambiental-hidrogeologia-modulo.md -> 3a7e3d39309681da8342d30c5f717c85; 28-geologia-de-engenharia-modulo.md -> 3a7e3d3930968198a072efa91937cb00; 29-geometalurgia-modulo.md -> 3a7e3d39309681499b5edfa7b8ad7739; 30-engenharia-de-petroleo-modulo.md -> 3a7e3d3930968145a1c5de130d31d576. Os modulos da trilha de apoio nunca chegaram a ser publicados no Notion (nenhum page_id registrado), portanto a renumeracao nao quebrou nenhum vinculo existente de sincronizacao.
+- **2026-08-25** — Separar a gemologia deste curso, renumerar os modulos 07-29 para 06-28 e reprefixar todos os IDs de geologia-gemologia-* para geologia-*.
+
+## Contexto da IA
+
+Preferências e decisões duradouras sobre como este curso é ensinado — [[_contexto|abrir]].
+
+## Notas
+
+<!-- inicio:notas -->
+## Notas
+_Espaço livre para anotações suas; preservado entre gerações._
+<!-- fim:notas -->

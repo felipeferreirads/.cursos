@@ -1,0 +1,431 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "02-fisica-do-desbaste/",
+    "module_id": "02",
+    "course_id": "lapidacao"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-09-01T00:00:00-03:00",
+  "verdict": "approved",
+  "summary": {
+    "red": 2,
+    "orange": 5,
+    "yellow": 0,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 37,
+    "open_findings": 0
+  },
+  "findings": [
+    {
+      "claim_id": "ABR-POL-MOLE-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "claim": "Ja os polidores - oxido de cromio, de estanho e de cerio - sao mais moles que o quartzo (Mohs 7)",
+      "location": {
+        "file": "02-fisica-do-desbaste/02-fisica-do-desbaste-aula-01-como-um-abrasivo-remove-materia-dureza-diferencial-e-microfratura.md",
+        "section": "Os abrasivos e polidores reais na escala",
+        "quote": "Ja os polidores - oxido de cromio, de estanho e de cerio - sao mais moles que o quartzo (Mohs 7)"
+      },
+      "problem": "Falso para o oxido de cromio: Cr2O3 tem dureza da ordem de 8 a 8,5 Mohs, acima do quartzo. A generalizacao inverteria a conclusao do aluno no paradoxo da aula 04, que vale para cerio e estanho mas nao para o cromio.",
+      "replacement": "o oxido de cerio (da ordem de 6) e o oxido de estanho (da ordem de 6 a 7) nao superam o quartzo (Mohs 7) e ainda assim o polem; o oxido de cromio fica da ordem de 8 a 8,5, acima do quartzo",
+      "source": {
+        "name": "Dados de dureza de Cr2O3 / eskolaita (literatura de materiais); corroborado por fornecedores lapidarios de green rouge",
+        "level": "base de referencia",
+        "version": "consultado 2026-09-01"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "02-fisica-do-desbaste/02-fisica-do-desbaste-aula-01-como-um-abrasivo-remove-materia-dureza-diferencial-e-microfratura.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-01"
+    },
+    {
+      "claim_id": "ABR-POL-CROM-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "claim": "(alegacao nova, criada para registrar o dado correto do oxido de cromio)",
+      "location": {
+        "file": "02-fisica-do-desbaste/02-fisica-do-desbaste-aula-01-como-um-abrasivo-remove-materia-dureza-diferencial-e-microfratura.md",
+        "section": "Os abrasivos e polidores reais na escala",
+        "quote": "(alegacao nova, criada para registrar o dado correto do oxido de cromio)"
+      },
+      "problem": "O dado do cromio nao existia como alegacao auditavel; foi criado ao corrigir ABR-POL-MOLE-001.",
+      "replacement": "O oxido de cromio (Cr2O3) tem dureza da ordem de 8 a 8,5 em Mohs, acima do quartzo.",
+      "source": {
+        "name": "Dados de dureza de Cr2O3 / eskolaita",
+        "level": "base de referencia",
+        "version": "consultado 2026-09-01"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "02-fisica-do-desbaste/02-fisica-do-desbaste-aula-01-como-um-abrasivo-remove-materia-dureza-diferencial-e-microfratura.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-01"
+    },
+    {
+      "claim_id": "SEQ-TAB-MARCOS-001",
+      "severity": "red",
+      "kind": "inconsistencia_interna",
+      "claim": "1200 -> da ordem de 3-6 um; 3000 -> da ordem de 1-2 um; 8000-14000 -> da ordem de 0,5-1 um; 50000 -> da ordem de 0,25 um; 100000 -> abaixo de 0,25 um",
+      "location": {
+        "file": "02-fisica-do-desbaste/02-fisica-do-desbaste-aula-03-a-sequencia-de-grao-e-a-mudanca-de-regime-da-superficie.md",
+        "section": "Uma tabela de marcos, com o sistema declarado",
+        "quote": "1200 -> da ordem de 3-6 um; 3000 -> da ordem de 1-2 um; 8000-14000 -> da ordem de 0,5-1 um; 50000 -> da ordem de 0,25 um; 100000 -> abaixo de 0,25 um"
+      },
+      "problem": "Todo o bloco de diamante estava deslocado em cerca de uma etapa (1200 ~ 15 um, 3000 ~ 6-7, 8000 ~ 3, 14000 ~ 1, 50000 ~ 0,5, 100000 ~ 0,25) e contradizia a sequencia correta dada no texto da propria aula tres paragrafos acima. O texto ainda afirmava que os valores ate 1200 seguiam ANSI/CAMI enquanto a tabela rotulava 1200 como convencao diamante. As linhas CAMI tambem estavam levemente baixas (60 ~ 268 um, 220 ~ 66 um, 600 ~ 14,5-16 um).",
+      "replacement": "Tabela reconstruida em dois blocos declarados: referencia ANSI/CAMI (60 ~ 250-270, 220 ~ 66, 600 ~ 15, 1200 ~ 6,5 um) e convencao comercial do po de diamante (600 ~ 30, 1200 ~ 15, 3000 ~ 6-7, 8000 ~ 3, 14000 ~ 1, 50000 ~ 0,5, 100000 ~ 0,25 um)",
+      "source": {
+        "name": "International Gem Society, Gem Cutting Abrasives in Grit, Mesh, and Microns; ANSI/CAMI B74.18",
+        "level": "base de referencia",
+        "version": "consultado 2026-09-01"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "02-fisica-do-desbaste/02-fisica-do-desbaste-aula-03-a-sequencia-de-grao-e-a-mudanca-de-regime-da-superficie.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-01"
+    },
+    {
+      "claim_id": "SEQ-COLIS-1200-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "claim": "(alegacao nova, criada ao reconstruir a tabela)",
+      "location": {
+        "file": "02-fisica-do-desbaste/02-fisica-do-desbaste-aula-03-a-sequencia-de-grao-e-a-mudanca-de-regime-da-superficie.md",
+        "section": "Dois sistemas, o mesmo numero, particulas diferentes",
+        "quote": "(alegacao nova, criada ao reconstruir a tabela)"
+      },
+      "problem": "A colisao do marco 1200 entre os dois sistemas nao estava registrada como alegacao auditavel.",
+      "replacement": "O numero 1200 vale cerca de 6,5 um em ANSI/CAMI e cerca de 15 um na convencao comercial do po de diamante.",
+      "source": {
+        "name": "ANSI/CAMI B74.18; International Gem Society",
+        "level": "base de referencia",
+        "version": "consultado 2026-09-01"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "02-fisica-do-desbaste/02-fisica-do-desbaste-aula-03-a-sequencia-de-grao-e-a-mudanca-de-regime-da-superficie.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-01"
+    },
+    {
+      "claim_id": "ABR-ANIS-DIR-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "da ordem de 4 a 5 ao longo do cristal a 6 a 7 na direcao perpendicular",
+      "location": {
+        "file": "02-fisica-do-desbaste/02-fisica-do-desbaste-aula-01-como-um-abrasivo-remove-materia-dureza-diferencial-e-microfratura.md",
+        "section": "Dureza diferencial dentro da mesma pedra",
+        "quote": "da ordem de 4 a 5 ao longo do cristal a 6 a 7 na direcao perpendicular"
+      },
+      "problem": "Os valores canonicos da cianita sao 4,5 a 5 paralelo ao comprimento e 6,5 a 7 na direcao transversal. Ambos os extremos estavam meio ponto baixos.",
+      "replacement": "da ordem de 4,5 a 5 ao longo do cristal e de 6,5 a 7 na direcao perpendicular",
+      "source": {
+        "name": "geology.com, Kyanite Mineral",
+        "level": "base de referencia",
+        "version": "consultado 2026-09-01"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "02-fisica-do-desbaste/02-fisica-do-desbaste-aula-01-como-um-abrasivo-remove-materia-dureza-diferencial-e-microfratura.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-01"
+    },
+    {
+      "claim_id": "SEQ-DIAM-MICR-001",
+      "severity": "orange",
+      "kind": "certeza_indevida",
+      "claim": "a literatura lapidaria especifica o diamante pelo tamanho da particula, em microns, em vez de mesh",
+      "location": {
+        "file": "02-fisica-do-desbaste/02-fisica-do-desbaste-aula-03-a-sequencia-de-grao-e-a-mudanca-de-regime-da-superficie.md",
+        "section": "Por que o diamante e medido em microns",
+        "quote": "a literatura lapidaria especifica o diamante pelo tamanho da particula, em microns, em vez de mesh"
+      },
+      "problem": "Falso como exclusao: o po de diamante e comercializado nas duas formas, por numero de grao e por micron. A formulacao exclusiva contradizia a propria tabela da aula, que usa numeros de grao de diamante.",
+      "replacement": "O po de diamante e vendido das duas formas - por numero de grao e por micron - e o valor em microns e o unico inequivoco, porque nao depende de convencao",
+      "source": {
+        "name": "International Gem Society, Gem Cutting Abrasives in Grit, Mesh, and Microns",
+        "level": "base de referencia",
+        "version": "consultado 2026-09-01"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "02-fisica-do-desbaste/02-fisica-do-desbaste-aula-03-a-sequencia-de-grao-e-a-mudanca-de-regime-da-superficie.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-01"
+    },
+    {
+      "claim_id": "POL-QUIM-HIDR-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "linha da literatura de polimento de vidro associada ao estudo de Cook sobre os processos quimicos no polimento de silica",
+      "location": {
+        "file": "02-fisica-do-desbaste/02-fisica-do-desbaste-aula-04-polimento-microabrasao-acao-quimico-mecanica-e-a-camada-de-beilby.md",
+        "section": "Mecanismo 3 - acao quimico-mecanica",
+        "quote": "linha da literatura de polimento de vidro associada ao estudo de Cook sobre os processos quimicos no polimento de silica"
+      },
+      "problem": "A aula nomeia Hooke como autor do mecanismo 1 e Beilby do mecanismo 2; nomear so Cook no mecanismo 3 cria o paralelo implicito e falso de que ele o originou. A teoria quimica foi formulada por Preston e Grebenshchikov; Cook (1990) e a sintese moderna.",
+      "replacement": "proposta por Preston e Grebenshchikov e desenvolvida no estudo de Cook sobre os processos quimicos no polimento de silica",
+      "source": {
+        "name": "Literatura historica de polimento de vidro (tres teorias: abrasao Hooke/Newton/Rayleigh; escoamento Beilby; quimica Preston/Grebenshchikov)",
+        "level": "revisada por pares",
+        "version": "consultado 2026-09-01"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "02-fisica-do-desbaste/02-fisica-do-desbaste-aula-04-polimento-microabrasao-acao-quimico-mecanica-e-a-camada-de-beilby.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-01"
+    },
+    {
+      "claim_id": "CAL-APAT-FRAG-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Fluorita e apatita: dureza baixa somada a clivagem.",
+      "location": {
+        "file": "02-fisica-do-desbaste/02-fisica-do-desbaste-aula-05-calor-agua-e-atrito-geracao-termica-e-o-refrigerante-como-parte-do-processo.md",
+        "section": "Gemas termicamente sensiveis e por que",
+        "quote": "Fluorita e apatita: dureza baixa somada a clivagem."
+      },
+      "problem": "A apatita tem clivagem fraca a indistinta; nao e ela o mecanismo. A vulnerabilidade real vem de ser material quebradico com sensibilidade alta a calor e a choque. Agrupa-la com a fluorita (clivagem octaedrica perfeita) ensinava o mecanismo errado, contra o proprio aviso da aula em Erros comuns.",
+      "replacement": "Fluorita: dureza baixa somada a clivagem octaedrica perfeita. Apatita: dureza baixa e material quebradico, com sensibilidade alta a calor e choque - nao por clivagem, que nela e fraca.",
+      "source": {
+        "name": "International Gem Society, Apatite Faceting Information; geology.com, Apatite",
+        "level": "base de referencia",
+        "version": "consultado 2026-09-01"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "02-fisica-do-desbaste/02-fisica-do-desbaste-aula-05-calor-agua-e-atrito-geracao-termica-e-o-refrigerante-como-parte-do-processo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-09-01"
+    }
+  ],
+  "verified_ok": [
+    {
+      "claim_id": "ABR-IND-MEC-001",
+      "source": "Sinkankas, Gem Cutting: A Lapidary's Manual",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ABR-DUR-DIF-001",
+      "source": "Vargas & Vargas, Faceting for Amateurs",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ABR-MOHS-ORD-001",
+      "source": "Escalas Knoop comparadas (talco ~1, gipsita ~32, corindon ~2000, diamante ~7000)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ABR-KNOOP-FAI-001",
+      "source": "Tabelas de dureza Knoop; faixas variam com plano cristalografico e fonte, ressalva ja presente no texto",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ABR-ESC-POS-001",
+      "source": "Literatura de abrasivos: SiC ~9,5 Mohs, alumina ~9",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "ABR-FRAG-MICR-001",
+      "source": "Literatura de usinagem de materiais frageis",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "DSS-DEF-CAMD-001",
+      "source": "Literatura de fabricacao optica sobre subsurface damage",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "DSS-PROF-GRAO-001",
+      "source": "Literatura de fabricacao optica; adequadamente hedgeado como ordem de grandeza",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "DSS-FUNC-ETAP-001",
+      "source": "Vargas & Vargas; Sinkankas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "DSS-HERD-POLI-001",
+      "source": "Literatura de fabricacao optica; Vargas & Vargas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "DSS-VERIF-DIR-001",
+      "source": "Vargas & Vargas, Faceting for Amateurs",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "DSS-CAUS-PRES-001",
+      "source": "Literatura de fabricacao optica; Sinkankas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "DSS-CTRL-ESTAT-001",
+      "source": "Literatura de fabricacao optica; controversia real, corretamente declarada",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SEQ-MESH-NUM-001",
+      "source": "ANSI/CAMI B74.18",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SEQ-CAMI-FEPA-001",
+      "source": "ANSI/CAMI B74.18; FEPA-P",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SEQ-P600-CAMI-001",
+      "source": "P600 ~ 25,8 um contra CAMI 600 ~ 14,5 um: direcao da afirmacao confirmada",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SEQ-DIAM-SEQ-001",
+      "source": "International Gem Society; Vargas & Vargas; USFG (primeiro marco ajustado de 60 para ~70 um)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SEQ-RAZAO-RED-001",
+      "source": "Sinkankas; Vargas & Vargas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SEQ-REGIM-LAMB-001",
+      "source": "Optica geral: visivel 0,4-0,7 um; confirmado como ordem de grandeza",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "SEQ-HANNAM-COR-001",
+      "source": "Hannam, Faceting Made Easy (2000) - usado apenas como corroboracao secundaria, conforme _fontes/README.md",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "POL-CER-DUR-001",
+      "source": "Literatura de polimento de silicatos: CeO2 ~6 Mohs contra quartzo 7",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "POL-MICR-HOOK-001",
+      "source": "Literatura historica de polimento: Hooke (1665) argumentou que o polidor apenas corta sulcos muito finos",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "POL-BEIL-AMOR-001",
+      "source": "Beilby, hipotese classica de escoamento superficial, inicio do sec. XX",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "POL-BEIL-EXIS-001",
+      "source": "Fisica de superficies: mecanismo do polimento segue explicitamente nao resolvido",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "POL-CER-QTZ-001",
+      "source": "Cook; afinidade quimica do cerio com Si e O",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "POL-PESO-COMB-001",
+      "source": "Sinteses da literatura de polimento; controversia corretamente declarada",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "POL-CROM-JADE-001",
+      "source": "Sinkankas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "POL-DIAM-CORI-001",
+      "source": "Vargas & Vargas; USFG",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CAL-ATR-ENER-001",
+      "source": "Sinkankas; literatura de retificacao",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CAL-MASS-FLASH-001",
+      "source": "Sinkankas; Vargas & Vargas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CAL-POLI-FLASH-001",
+      "source": "Sinkankas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CAL-OPAL-DESID-001",
+      "source": "GIA: opala perde agua e craquela",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CAL-TANZ-CLIV-001",
+      "source": "GIA: zoisita e espodumenio com clivagem proeminente",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CAL-ESM-INCL-001",
+      "source": "GIA: esmeralda com inclusao fluida e fratura",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CAL-PERI-CHOQ-001",
+      "source": "GIA: peridoto sensivel a choque termico",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CAL-REFR-TRIP-001",
+      "source": "Sinkankas; Vargas & Vargas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CAL-SIL-SILIC-001",
+      "source": "Literatura de saude ocupacional sobre silica cristalina livre",
+      "confidence": "confirmado"
+    }
+  ],
+  "cross_lesson_checks": [
+    {
+      "check": "cerio x quartzo coerente entre aulas 01 e 04",
+      "result": "ok apos correcao de ABR-POL-MOLE-001"
+    },
+    {
+      "check": "sequencia de grao coerente entre texto e tabela da aula 03",
+      "result": "ok apos correcao de SEQ-TAB-MARCOS-001"
+    },
+    {
+      "check": "dano subsuperficial usado de forma consistente nas aulas 02, 03 e 05",
+      "result": "ok"
+    },
+    {
+      "check": "fronteiras de escopo e deferimentos para os modulos 03 e 04",
+      "result": "ok, sem sobreposicao"
+    }
+  ],
+  "handed_to_didactic_review": [
+    "Ajuste fino do teto de LC-02 na aula 03, que cresceu com a tabela corrigida e foi parcialmente compensada por corte de prosa redundante.",
+    "Rodapes palavras_corpo ressincronizados com a contagem real apos as correcoes; reconferir na revisao."
+  ],
+  "derived_material": {
+    "questionario": "inexistente no momento da auditoria",
+    "flashcards": "inexistente no momento da auditoria",
+    "propagacao_necessaria": false,
+    "anki_ja_importado": false
+  }
+}
