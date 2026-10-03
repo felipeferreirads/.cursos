@@ -26,7 +26,7 @@
 - **Módulos:** 0 de 50 concluídos
 - **Aulas escritas:** 6
 - **Questionários:** 1
-- **Flashcards:** 0 Basic · 0 Cloze
+- **Flashcards:** 75 Basic · 59 Cloze
 - **Módulo atual:** 01
 - **Próximo passo:** Módulo 01: 6 aulas escritas e auditadas (audit-and-fix em 2026-09-30: 1 vermelho, 12 laranjas e 1 branco, todos corrigidos; nenhum achado aberto). Revisão didática concluída em 2026-09-30 (3 azuis em aberto não bloqueantes; 3 alegações novas de caráter definicional aguardam conferência do auditor: QUI-TAB-GRUPOD-001, QUI-SPIN-DEF-001, QUI-LIG-METALREGRA-001). Questionário final gerado em 2026-10-03 (18 questões, 42 pontos, 6 de 6 objetivos cobertos). Próximo passo: flashcards do módulo 01. Só então iniciar o módulo 02.
 
@@ -36,7 +36,7 @@ Os 50 módulos aparecem como subpáginas abaixo, na ordem do currículo. Nenhum 
 
 ### I. Fundamentos: da matéria ao mineral
 
-- **01 — Fundamentos químicos: átomo, tabela periódica e ligação** · 6/6 aulas · questionário · auditado — [[01-fundamentos-quimicos/01-fundamentos-quimicos-modulo|abrir]]
+- **01 — Fundamentos químicos: átomo, tabela periódica e ligação** · 6/6 aulas · questionário + 134 cards · auditado — [[01-fundamentos-quimicos/01-fundamentos-quimicos-modulo|abrir]]
 - **02 — O que é um mineral: definição, espécie e classificação** · 5 aulas planejadas · pré-req: 01 — [[02-o-que-e-mineral/02-o-que-e-mineral-modulo|abrir]]
 - **03 — A Terra como fábrica de minerais: contexto geológico mínimo** · 4 aulas planejadas · pré-req: 01, 02 — [[03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-modulo|abrir]]
 

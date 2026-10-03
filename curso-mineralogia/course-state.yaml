@@ -206,7 +206,15 @@ modules:
     uncovered_objectives: []
     generated_at: '2026-10-03'
   flashcards:
-    status: pending
+    status: completed
+    index_file: 01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards.md
+    basic_file: 01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv
+    cloze_file: 01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-cloze.csv
+    count_basic: 75
+    count_cloze: 59
+    last_id: 75
+    last_id_cloze: 59
+    generated_at: '2026-10-03T14:00:00-03:00'
 # trilha: nucleo (núcleo) — módulo 02
 - id: '02'
   slug: o-que-e-mineral

@@ -64,7 +64,7 @@ curso-geologia, módulo 04, aulas 01 e 02 (ponte de átomo e de ligação) cobre
 - Auditoria científica: [[01-fundamentos-quimicos-auditoria|aprovada após correções]] em 2026-09-30 (🔴 1 · 🟠 12 · ⚪ 1, todos corrigidos; 37 alegações verificadas; nenhum achado aberto)
 - Revisão didática: [[01-fundamentos-quimicos-revisao-didatica|bem ensinado com ressalvas, ressalvas corrigidas]] em 2026-09-30 (🟠 6 · 🟡 8 corrigidos; 🔵 3 em aberto, não bloqueantes; 3 alegações novas aguardam conferência do auditor)
 - Questionário: [[01-fundamentos-quimicos-questionario-final|final cumulativo]] gerado em 2026-10-03 (18 questões, 42 pontos; 6 de 6 objetivos cobertos)
-- Flashcards: pendente (mesmo gate)
+- Flashcards: [[01-fundamentos-quimicos-flashcards|baralho]] gerado em 2026-10-03 (75 Basic + 59 Cloze)
 
 ## Navegação
 
