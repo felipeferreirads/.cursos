@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "02-o-que-e-mineral",
+    "module_id": "02",
+    "course_id": "mineralogia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-10-03",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 3,
+    "yellow": 0,
+    "blue": 1,
+    "white": 0,
+    "verified_ok": 39
+  },
+  "findings": [
+    {
+      "claim_id": "MIN-DEF-COMISSAO-001",
+      "severity": "orange",
+      "kind": "certeza_indevida",
+      "claim": "Ernest Nickel era presidente da comissao quando redigiu a definicao (1995)",
+      "location": {
+        "file": "02-o-que-e-mineral/02-o-que-e-mineral-aula-01-definicao-de-mineral-da-ima-e-casos-de-fronteira.md",
+        "section": "Uma palavra comum, um termo tecnico",
+        "quote": "redigida por Ernest Nickel, então presidente da comissão"
+      },
+      "problem": "As fontes biograficas (obituario em Mineralogical Magazine 73, 2009; historico da CNMMN) registram Nickel como vice-presidente da CNMMN, ao lado do presidente J. A. Mandarino (1983-1994); nao ha fonte que o coloque como presidente em 1995. Faltava ainda o nome atual da comissao (CNMNC, desde a fusao de 2006).",
+      "replacement": "Desde 1959, uma comissão da IMA (chamada CNMNC desde 2006) aprova cada mineral novo [...] redigida por Ernest Nickel, mineralogista que foi vice-presidente da comissão por mais de uma década",
+      "source": {
+        "name": "Obituary Ernest Henry Nickel 1925-2009, Mineralogical Magazine 73(5):891; historico CNMMN/CNMNC (relatorio CNMNC 2009)",
+        "tier": "peer_reviewed",
+        "version": "consulta 2026-10-03",
+        "consulted_at": "2026-10-03"
+      },
+      "confidence": "provavel",
+      "affected_files": [
+        "02-o-que-e-mineral/02-o-que-e-mineral-aula-01-definicao-de-mineral-da-ima-e-casos-de-fronteira.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-03"
+    },
+    {
+      "claim_id": "MIN-DEF-EXTRATERR-001",
+      "severity": "blue",
+      "kind": "evidencia_insuficiente",
+      "claim": "edscottita aprovada pela comissao em 2019",
+      "location": {
+        "file": "02-o-que-e-mineral/02-o-que-e-mineral-aula-01-definicao-de-mineral-da-ima-e-casos-de-fronteira.md",
+        "section": "Parte 3",
+        "quote": "aprovada pela comissão em 2019"
+      },
+      "problem": "O numero da proposta e IMA 2018-086a e a descricao saiu em 2019 (Am. Mineral. 104:1351-1355); o ano exato de aprovacao nao foi confirmado em fonte.",
+      "replacement": "descrita em 2019 (proposta IMA 2018-086a)",
+      "source": {
+        "name": "Ma & Rubin (2019), American Mineralogist 104(9):1351-1355",
+        "url": "https://doi.org/10.2138/am-2019-7102",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-03"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "02-o-que-e-mineral/02-o-que-e-mineral-aula-01-definicao-de-mineral-da-ima-e-casos-de-fronteira.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-03"
+    },
+    {
+      "claim_id": "MIN-NOM-GRUPO-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "Hierarquia IMA: supergrupo, grupo, subgrupo e especie; serie apenas 'descreve composicao'",
+      "location": {
+        "file": "02-o-que-e-mineral/02-o-que-e-mineral-aula-03-especie-variedade-grupo-serie-e-nome-comercial.md",
+        "section": "Grupo; Serie de solucao solida; Tabela de decisao",
+        "quote": "supergrupo, grupo, subgrupo e espécie"
+      },
+      "problem": "Mills et al. (2009) definem a hierarquia classe, subclasse, familia, supergrupo, grupo, subgrupo ou serie, especie. 'Serie' e um nivel formal (alternativo a subgrupo), e a tabela dizia que serie so 'descreve composicao', o que contradiz a norma.",
+      "replacement": "classe, subclasse e família [...] depois supergrupo, grupo, subgrupo (ou série) e espécie; série = nível da hierarquia, ao lado de subgrupo; não é espécie",
+      "source": {
+        "name": "Mills, Hatert, Nickel & Ferraris (2009), European Journal of Mineralogy 21:1073-1080",
+        "tier": "normative",
+        "version": "2009",
+        "consulted_at": "2026-10-03"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "02-o-que-e-mineral/02-o-que-e-mineral-aula-03-especie-variedade-grupo-serie-e-nome-comercial.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-03"
+    },
+    {
+      "claim_id": "MIN-ABU-MANTO-001",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "claim": "No manto, olivina e piroxenios dominam",
+      "location": {
+        "file": "02-o-que-e-mineral/02-o-que-e-mineral-aula-04-abundancia-crustal-e-minerais-formadores-de-rocha.md",
+        "section": "O que nao concluir",
+        "quote": "(olivina e piroxênios dominam)"
+      },
+      "problem": "Vale para o manto superior; no manto de transicao e no inferior dominam fases de alta pressao (wadsleyita, ringwoodita, bridgmanita). Como escrito, a frase generaliza para o manto inteiro.",
+      "replacement": "no manto superior, olivina e piroxênios dominam; mais fundo, a pressão produz outras fases, módulo 43",
+      "source": {
+        "name": "Klein & Dutrow, Manual of Mineral Science, 23a ed.; literatura de mineralogia do manto",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-03"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "02-o-que-e-mineral/02-o-que-e-mineral-aula-04-abundancia-crustal-e-minerais-formadores-de-rocha.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-03"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "MIN-DEF-NICKEL-001",
+      "claim": "Definicao IMA (Nickel 1995, Can. Mineral. 33, 689-690): 'A mineral is an element or chemical compound that is normally crystalline and that has been formed as a result of geological processes.'",
+      "source": "Nickel (1995), Canadian Mineralogist 33:689-690",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-DEF-MERCURIO-001",
+      "claim": "Mercurio nativo e liquido a temperatura ambiente, solidifica abaixo de ~-39 C e e especie mineral aceita por tradicao (status grandfathered, descrito antes de 1959).",
+      "source": "Nickel (1995); Mindat (mercury: Approved, Grandfathered)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-DEF-GELO-001",
+      "claim": "O gelo e mineral; a agua liquida nao e.",
+      "source": "Nickel (1995)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-DEF-AMORFO-001",
+      "claim": "Algumas substancias naturais amorfas, como a georgeita (carbonato de cobre), foram aprovadas como minerais; a maioria dos amorfos naturais e chamada de mineraloide.",
+      "source": "Nickel (1995); literatura sobre georgeite",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-DEF-SINTETICO-001",
+      "claim": "Substancias sinteticas (diamante de laboratorio, quartzo de autoclave) nao sao minerais, ainda que identicas em composicao e estrutura.",
+      "source": "Nickel (1995)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-DEF-ORGANICO-001",
+      "claim": "A IMA nao exige 'inorganico'; ha minerais organicos aprovados, como whewellita (oxalato de calcio mono-hidratado) e abelsonita (porfirina de niquel, Formacao Green River, Utah); Nickel-Strunz tem uma classe para compostos organicos.",
+      "source": "Nickel (1995); Strunz & Nickel (2001); descricao da abelsonita (Am. Mineral. 63, 1978)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-DEF-CINCOCRIT-001",
+      "claim": "Os 'cinco criterios' (solido, natural, inorganico, composicao definida, estrutura ordenada) sao simplificacao didatica corrente; 'inorganico' nao consta do texto da IMA.",
+      "source": "comparacao direta com Nickel (1995)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-DEF-BIOGEN-001",
+      "claim": "Nickel (1995): substancias produzidas inteiramente por processos biologicos sem componente geologico (calculos urinarios, cristais de oxalato em tecidos vegetais, conchas de moluscos marinhos) nao sao minerais; com participacao de processos geologicos podem ser aceitas (folhelho negro, guano de morcego em cavernas, constituintes de calcarios e fosforitos derivados de organismos marinhos).",
+      "source": "Nickel (1995), Can. Mineral. 33:689-690",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-DEF-ANTROPO-001",
+      "claim": "Em 1995 decidiu-se nao aceitar mais como minerais compostos formados por processos geologicos sobre materiais antropogenicos (ex.: escorias de Laurion reagidas com agua do mar); especies aprovadas antes nao foram desacreditadas automaticamente.",
+      "source": "Nickel (1995); Nickel & Grice (1998)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-DEF-HAZEN208-001",
+      "claim": "Hazen, Grew, Origlieri & Downs (2017), Am. Mineral. 102:595-611, catalogaram 208 especies aprovadas pela IMA que ocorrem principal ou exclusivamente por processos humanos.",
+      "source": "Hazen et al. (2017)",
+      "confidence": "provavel"
+    },
+    {
+      "claim_id": "MIN-DEF-OPALA-001",
+      "claim": "Opala: silica hidratada; opala-A amorfa aos raios X, opala-CT com ordem parcial; tratada como mineraloide, mas o nome opala consta da lista IMA como especie grandfathered.",
+      "source": "Mindat (opal); lista IMA",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-DEF-WHEWELL-001",
+      "claim": "Whewellita, CaC2O4.H2O, e componente comum de calculos renais (biogenico) e ocorre como mineral em carvao e em concrecoes sedimentares.",
+      "source": "Mindat/Handbook of Mineralogy (whewellite)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-DEF-AMBAR-001",
+      "claim": "Ambar e resina fossil, amorfa, de origem biologica: mineraloide organico. Obsidiana e rocha vitrea; perola e biogenica (aragonita + materia organica).",
+      "source": "conhecimento consolidado; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-NOM-DOMINANTE-001",
+      "claim": "Regra do constituinte dominante (Hatert & Burke 2008, Can. Mineral. 46:717-728): o constituinte dominante num sitio define a especie; numa solucao solida binaria simples, fronteira em 50%.",
+      "source": "Hatert & Burke (2008)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-NOM-OLIVINA-001",
+      "claim": "Olivina e nome de grupo; forsterita (Mg2SiO4) e faialita (Fe2SiO4) sao especies e membros extremos da serie.",
+      "source": "lista IMA; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-NOM-PLAGIO-001",
+      "claim": "No plagioclasio, a IMA reconhece albita e anortita como especies; labradorita, andesina etc. sao nomes de faixas composicionais sem status de especie.",
+      "source": "lista IMA (ausencia de labradorita/andesina como especies); Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-NOM-BIOTITA-001",
+      "claim": "Desde Rieder et al. (1998), biotita nao e especie: nome de serie das micas trioctaedricas escuras entre flogopita, anita, siderofilita e eastonita.",
+      "source": "Rieder et al. (1998), Can. Mineral. 36:905-912",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-NOM-VARIEDADE-001",
+      "claim": "Ametista e citrino sao variedades de quartzo; esmeralda e berilo verde colorido por Cr e/ou V; rubi e safira sao variedades de corindon; variedades nao tem status IMA.",
+      "source": "Klein & Dutrow; GIA",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-NOM-COMERCIAL-001",
+      "claim": "'Diamante Herkimer' e quartzo (Nova York); 'jade' cobre jadeita (piroxenio) e nefrita (agregado de anfibolios tremolita-actinolita).",
+      "source": "GIA; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-NOM-ESFENO-001",
+      "claim": "Em 1982 a comissao da IMA adotou titanita (CaTiSiO5) e desacreditou esfeno.",
+      "source": "Mindat (titanite); literatura sobre a decisao de 1982",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-NOM-POLIMORFO-001",
+      "claim": "Calcita e aragonita sao polimorfos de CaCO3 e especies distintas.",
+      "source": "conhecimento consolidado; lista IMA",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-ABU-NESPECIES-001",
+      "claim": "A lista IMA tinha 6.161 especies validas em julho de 2025 e cresce cerca de cem especies por ano.",
+      "source": "The New IMA List of Minerals, jul. 2025; CNMNC newsletters",
+      "confidence": "provavel"
+    },
+    {
+      "claim_id": "MIN-ABU-ELEMENTOS-001",
+      "claim": "Abundancia em massa na crosta: O 46,6; Si 27,7; Al 8,1; Fe 5,0; Ca 3,6; Na 2,8; K 2,6; Mg 2,1 (soma ~98,5%).",
+      "source": "Mason & Moore (1982); Klein & Dutrow; Perkins",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-ABU-OXIGENIO-001",
+      "claim": "Oxigenio: ~62,6% dos atomos e ~91,7% do volume da crosta (Mason & Moore 1982); 'cerca de 90%' no texto.",
+      "source": "Mason & Moore (1982)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-ABU-RONOV-001",
+      "claim": "Crosta em volume (Ronov & Yaroshevsky 1969): plagioclasio 39, feldspato alcalino 12, quartzo 12, piroxenios 11, anfibolios 5, micas 5, argilominerais 5, outros silicatos 3, nao silicatos 8.",
+      "source": "Ronov & Yaroshevsky (1969), via livros-texto",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-ABU-CROSTA-001",
+      "claim": "Espessura da crosta: ~5-10 km sob os oceanos, ~30-70 km sob os continentes.",
+      "source": "conhecimento consolidado de geofisica; USGS",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-ABU-RBBA-001",
+      "claim": "Rb e Ba substituem K em feldspatos e micas sem formar mineral proprio em rochas comuns.",
+      "source": "Klein & Dutrow; geoquimica de elementos-traco",
+      "confidence": "provavel"
+    },
+    {
+      "claim_id": "MIN-ABU-HAZEN2015-001",
+      "claim": "Hazen et al. (2015, Can. Mineral. 53:295-324): de 4.933 especies, 22% conhecidas de uma so localidade; mais da metade de 5 ou menos.",
+      "source": "Hazen et al. (2015)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-CLS-STRUNZ-001",
+      "claim": "Nickel-Strunz: classificacao de Strunz (Mineralogische Tabellen, 1941), 9a ed. com Nickel (2001); 10 classes pelo anion/grupo anionico dominante: 1 elementos, 2 sulfetos e sulfossais, 3 haletos, 4 oxidos e hidroxidos, 5 carbonatos e nitratos, 6 boratos, 7 sulfatos (cromatos, molibdatos, tungstatos), 8 fosfatos/arseniatos/vanadatos, 9 silicatos, 10 compostos organicos.",
+      "source": "Strunz & Nickel (2001)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-CLS-CODIGOS-001",
+      "claim": "Codigos Strunz: halita 3.AA.20; forsterita 9.AC.05; pirita 2.EB.05a; quartzo 4.DA.05.",
+      "source": "Strunz & Nickel (2001), via Mindat/webmineral",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-CLS-DANA-001",
+      "claim": "Dana 8a ed. (Gaines et al. 1997): 78 classes; numero de quatro partes (classe.tipo.grupo.especie); classe 1 elementos nativos, 9 haletos anidros e hidratados, 14 carbonatos anidros, 28 sulfatos anidros, 38 fosfatos anidros, 51-78 silicatos; quartzo 75.1.3.1.",
+      "source": "Gaines et al. (1997)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-CLS-BERZELIUS-001",
+      "claim": "A classificacao pelo anion remonta a Berzelius (inicio do sec. XIX).",
+      "source": "historia da classificacao (Strunz & Nickel 2001, introducao)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-CLS-TITANITA-001",
+      "claim": "Titanita CaTiSiO5 e silicato (nesossilicato), classe 9 de Nickel-Strunz.",
+      "source": "Strunz & Nickel (2001); Handbook of Mineralogy",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-FON-HANDBOOK-001",
+      "claim": "Handbook of Mineralogy: Anthony, Bideaux, Bladh & Nichols, 5 volumes (1990-2003), Mineral Data Publishing; uma pagina por especie; PDFs gratuitos pela Mineralogical Society of America.",
+      "source": "handbookofmineralogy.org",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-FON-RRUFF-001",
+      "claim": "RRUFF: Universidade do Arizona (R. T. Downs); espectros Raman, DRX e quimica de amostras reais; hospeda base da lista IMA.",
+      "source": "rruff.info",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-FON-MINDAT-001",
+      "claim": "Mindat.org: iniciado por Jolyon Ralph em 1993, aberto como site comunitario em 2000; operado pelo Hudson Institute of Mineralogy.",
+      "source": "Mindat (who we are); Am. Mineral. 110 (2025) sobre o Mindat",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-FON-LISTAIMA-001",
+      "claim": "The New IMA List of Minerals e mantida pela CNMNC (Pasero et al.) e atualizada periodicamente; e normativa sobre nome e formula.",
+      "source": "CNMNC (cnmnc.units.it)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-DEF-ABELSON-001",
+      "claim": "Abelsonita: Ni-porfirina derivada de clorofila, Formacao Green River (Utah)",
+      "source": "Am. Mineral. 63:930 (1978); OSTI (distribuicao estratigrafica da abelsonita)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-ABU-GLOSSAS-001",
+      "claim": "Glossas de granito, basalto, arenito e argilominerais acrescentadas pela revisao didatica",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    }
+  ]
+}

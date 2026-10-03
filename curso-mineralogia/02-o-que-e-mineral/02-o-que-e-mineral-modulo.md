@@ -1,6 +1,6 @@
 # Módulo 02 — O que é um mineral: definição, espécie e classificação
 
-> [!info] Curso de **Mineralogia** · módulo 02 de 50 · área I. Fundamentos: da matéria ao mineral · trilha **núcleo** · status: **pendente** (planejado em 2026-09-29, nenhuma aula escrita)
+> [!info] Curso de **Mineralogia** · módulo 02 de 50 · área I. Fundamentos: da matéria ao mineral · trilha **núcleo** · status: **concluído** (planejado em 2026-09-29; aulas, auditoria, revisão didática, questionário e baralho em 2026-10-03)
 
 ## Objetivo do módulo
 
@@ -38,15 +38,15 @@ Fixar com precisão normativa o objeto de estudo — a definição de mineral da
 - `mineralogia-m02-oa04` — Classificar um mineral numa classe química de Nickel-Strunz, e na classe Dana correspondente, pelo ânion ou grupo aniônico dominante.
 - `mineralogia-m02-oa05` — Localizar os dados de referência de uma espécie (lista IMA, Mindat, Handbook of Mineralogy, RRUFF) e julgar a confiabilidade de cada fonte.
 
-## Aulas planejadas (5, nenhuma escrita)
+## Aulas (5 escritas)
 
-1. Aula 01 — A definição de mineral da IMA e os casos de fronteira — `mineralogia-m02-a01` · cobre `mineralogia-m02-oa01`
-2. Aula 02 — Mineraloides, materiais biogênicos e antropogênicos: onde a definição traça a linha — `mineralogia-m02-a02` · cobre `mineralogia-m02-oa01`
-3. Aula 03 — Espécie, variedade, grupo, série e nome comercial — `mineralogia-m02-a03` · cobre `mineralogia-m02-oa02`
-4. Aula 04 — Poucos elementos, poucos minerais: abundância crustal e os minerais formadores de rocha — `mineralogia-m02-a04` · cobre `mineralogia-m02-oa03`
-5. Aula 05 — Classes químicas de Nickel-Strunz e Dana, e onde buscar dados confiáveis — `mineralogia-m02-a05` · cobre `mineralogia-m02-oa04`, `mineralogia-m02-oa05`
+1. [[02-o-que-e-mineral-aula-01-definicao-de-mineral-da-ima-e-casos-de-fronteira|Aula 01 — A definição de mineral da IMA e os casos de fronteira]] — `mineralogia-m02-a01` · cobre `mineralogia-m02-oa01`
+2. [[02-o-que-e-mineral-aula-02-mineraloides-biogenicos-e-antropogenicos|Aula 02 — Mineraloides, materiais biogênicos e antropogênicos: onde a definição traça a linha]] — `mineralogia-m02-a02` · cobre `mineralogia-m02-oa01`
+3. [[02-o-que-e-mineral-aula-03-especie-variedade-grupo-serie-e-nome-comercial|Aula 03 — Espécie, variedade, grupo, série e nome comercial]] — `mineralogia-m02-a03` · cobre `mineralogia-m02-oa02`
+4. [[02-o-que-e-mineral-aula-04-abundancia-crustal-e-minerais-formadores-de-rocha|Aula 04 — Poucos elementos, poucos minerais: abundância crustal e os minerais formadores de rocha]] — `mineralogia-m02-a04` · cobre `mineralogia-m02-oa03`
+5. [[02-o-que-e-mineral-aula-05-classes-nickel-strunz-e-dana-e-fontes-de-dados|Aula 05 — Classes químicas de Nickel-Strunz e Dana, e onde buscar dados confiáveis]] — `mineralogia-m02-a05` · cobre `mineralogia-m02-oa04`, `mineralogia-m02-oa05`
 
-> Títulos provisórios, definidos no planejamento. O gerador de aulas pode ajustá-los ou dividir uma aula em Parte 1 / Parte 2 pela contagem de carga; um objetivo novo recebe o próximo ID livre, nunca desloca os existentes.
+> Títulos definidos no planejamento e mantidos na escrita. A revisão didática sugere, sem aplicar, dividir a aula 05 em Parte 1 (classes) e Parte 2 (fontes) se a carga pesar; um objetivo novo receberia o próximo ID livre.
 
 ## Pontos de dificuldade previstos
 
@@ -58,11 +58,12 @@ curso-geologia, módulo 04, aulas 03 e 06; curso-gemologia, módulo 01, aula 01 
 
 ## Registro do módulo
 
-- Aulas: pendente (0 de 5)
-- Auditoria científica: pendente
-- Revisão didática: pendente
-- Questionário: pendente (gate: só depois da auditoria sem achado 🔴/🟠 em aberto)
-- Flashcards: pendente (mesmo gate)
+- Aulas: escritas (5 de 5), em 2026-10-03
+- Auditoria científica: [[02-o-que-e-mineral-auditoria|aprovada após correções]] em 2026-10-03 (🟠 3 · 🔵 1, todos corrigidos; 39 alegações verificadas; nenhum achado aberto)
+- Revisão didática: [[02-o-que-e-mineral-revisao-didatica|bem ensinado com ressalvas, ressalvas corrigidas]] em 2026-10-03 (🟠 2 · 🟡 8 corrigidos; 🔵 2 em aberto, não bloqueantes)
+- Questionário: [[02-o-que-e-mineral-questionario-final|final cumulativo]] gerado em 2026-10-03 (16 questões, 40 pontos; 5 de 5 objetivos cobertos)
+- Flashcards: [[02-o-que-e-mineral-flashcards|baralho]] gerado em 2026-10-03 (52 Basic + 25 Cloze)
+- Remissão pendente para a auditoria transversal: curso-geologia, módulo 04, aula 03 ("mercúrio como única exceção"; obsidiana "não é rocha no sentido estrito"), ver a auditoria deste módulo.
 
 ## Navegação
 

@@ -39,7 +39,7 @@ learning_outcomes:
   e de propriedades, com grau de confiança explícito.
 status: in_progress
 created_at: '2026-09-29T00:00:00-03:00'
-updated_at: '2026-10-03T12:00:00-03:00'
+updated_at: '2026-10-03T16:30:00-03:00'
 curriculum_basis: 'pesquisa das ementas e sumários de referência, cruzada com o escopo previsto pelo usuário: ementas
   do IGc-USP — GMG0106 Cristalografia Fundamental (45 h) e GMG0220 Mineralogia (105 h), com as optativas GMG0203
   Mineralogia Aplicada e GMG0425 Técnicas Gemológicas (pasta GradeCurricular/Geologia-USP) —; sumários de Klein
@@ -52,8 +52,8 @@ curriculum_basis: 'pesquisa das ementas e sumários de referência, cruzada com 
   Dyar & Gunter, Mineralogy and Optical Mineralogy (MSA); Deer, Howie & Zussman (minerais formadores de rocha);
   Nesse, Introduction to Optical Mineralogy; normativo IMA-CNMNC (definição de mineral, lista de espécies, nomenclatura
   de grupos) e classificação Nickel-Strunz/Dana; Mindat e RRUFF como referência de dados.'
-current_module: '01'
-next_action: 'Módulo 01: 6 aulas escritas e auditadas (audit-and-fix em 2026-09-30: 1 vermelho, 12 laranjas e 1 branco, todos corrigidos; nenhum achado aberto). Revisão didática concluída em 2026-09-30 (3 azuis em aberto não bloqueantes; 3 alegações novas de caráter definicional aguardam conferência do auditor: QUI-TAB-GRUPOD-001, QUI-SPIN-DEF-001, QUI-LIG-METALREGRA-001). Questionário final gerado em 2026-10-03 (18 questões, 42 pontos, 6 de 6 objetivos cobertos). Próximo passo: flashcards do módulo 01. Só então iniciar o módulo 02.'
+current_module: '02'
+next_action: 'Módulo 02 concluído em 2026-10-03: 5 aulas; auditoria audit-and-fix (3 laranjas e 1 azul, todos corrigidos; nenhum achado aberto); revisão didática (2 laranjas e 8 amarelos corrigidos; 2 azuis não bloqueantes: dividir a aula 05 em duas partes, se pesar; diagrama de hierarquia na aula 03); questionário final (16 questões, 40 pontos, 5 de 5 objetivos); baralho (52 Basic + 25 Cloze); validadores passando. Pendências fora do módulo 02: o módulo 01 está com todas as peças prontas mas segue com status in_progress, aguardando fechamento formal (validação e marcação de concluído); rodar a auditoria cross-course do módulo 02 contra o curso-geologia m04 a03 (mercúrio como única exceção; obsidiana). Próximo passo: módulo 03 (terra-fabrica-de-minerais).'
 blocking_issues: []
 decisions:
 - date: '2026-09-29'
@@ -225,7 +225,7 @@ modules:
     —, e ensinar onde buscar dados confiáveis.
   prerequisites:
   - '01'
-  status: pending
+  status: completed
   learning_objectives:
   - id: mineralogia-m02-oa01
     statement: Aplicar a definição de mineral da IMA-CNMNC (Nickel, 1995) para decidir se um material é mineral,
@@ -248,42 +248,90 @@ modules:
     cognitive_level: lembrar
   lessons:
     planned: 5
-    completed: 0
+    completed: 5
     items:
     - id: mineralogia-m02-a01
       title: A definição de mineral da IMA e os casos de fronteira
-      status: pending
+      status: completed
+      file: 02-o-que-e-mineral/02-o-que-e-mineral-aula-01-definicao-de-mineral-da-ima-e-casos-de-fronteira.md
+      content_hash: 10027332cd1d9ca9ec8e4ad439db6e2ac9081c18cfdc5f95c65facab4d1a2d3b
+      palavras_corpo: 1432
       covers_objectives:
       - mineralogia-m02-oa01
     - id: mineralogia-m02-a02
       title: 'Mineraloides, materiais biogênicos e antropogênicos: onde a definição traça a linha'
-      status: pending
+      status: completed
+      file: 02-o-que-e-mineral/02-o-que-e-mineral-aula-02-mineraloides-biogenicos-e-antropogenicos.md
+      content_hash: ccf5b646a3512ebea549e627e8963678657fafcc9aa453a09997a651ba8f5a8a
+      palavras_corpo: 1292
       covers_objectives:
       - mineralogia-m02-oa01
     - id: mineralogia-m02-a03
       title: Espécie, variedade, grupo, série e nome comercial
-      status: pending
+      status: completed
+      file: 02-o-que-e-mineral/02-o-que-e-mineral-aula-03-especie-variedade-grupo-serie-e-nome-comercial.md
+      content_hash: ad2bea63b3e3ddfd2efe938cef647f70ce91b88bf4e4679fb59ee303796f244f
+      palavras_corpo: 1328
       covers_objectives:
       - mineralogia-m02-oa02
     - id: mineralogia-m02-a04
       title: 'Poucos elementos, poucos minerais: abundância crustal e os minerais formadores de rocha'
-      status: pending
+      status: completed
+      file: 02-o-que-e-mineral/02-o-que-e-mineral-aula-04-abundancia-crustal-e-minerais-formadores-de-rocha.md
+      content_hash: a45733e5930e8d347fe685a899c689899188467dc4db97c489655fe619bec9ba
+      palavras_corpo: 1239
       covers_objectives:
       - mineralogia-m02-oa03
     - id: mineralogia-m02-a05
       title: Classes químicas de Nickel-Strunz e Dana, e onde buscar dados confiáveis
-      status: pending
+      status: completed
+      file: 02-o-que-e-mineral/02-o-que-e-mineral-aula-05-classes-nickel-strunz-e-dana-e-fontes-de-dados.md
+      content_hash: 7db1f712756adfbfa488d38c31b338835ea6c1cd6ea19ab79c4c64a44eec82e1
+      palavras_corpo: 1280
       covers_objectives:
       - mineralogia-m02-oa04
       - mineralogia-m02-oa05
   audit:
-    status: pending
+    status: approved
+    file: 02-o-que-e-mineral/02-o-que-e-mineral-auditoria.md
+    red: 0
+    orange: 3
+    yellow: 0
+    blue: 1
+    white: 0
+    open_findings: []
+    deferred_findings: []
+    audited_at: '2026-10-03'
   didactic_review:
-    status: pending
+    status: completed
+    file: 02-o-que-e-mineral/02-o-que-e-mineral-revisao-didatica.md
+    content_hash: f5de7a54765623c6a699920523a29577ac4462d502557003c170b77180bdf99a
+    generated_at: '2026-10-03T15:00:00-03:00'
   assessment:
-    status: pending
+    status: completed
+    files:
+    - 02-o-que-e-mineral/02-o-que-e-mineral-questionario-final.md
+    questions: 16
+    points: 40
+    objectives_covered:
+    - mineralogia-m02-oa01
+    - mineralogia-m02-oa02
+    - mineralogia-m02-oa03
+    - mineralogia-m02-oa04
+    - mineralogia-m02-oa05
+    blueprint_complete: true
+    uncovered_objectives: []
+    generated_at: '2026-10-03'
   flashcards:
-    status: pending
+    status: completed
+    index_file: 02-o-que-e-mineral/02-o-que-e-mineral-flashcards.md
+    basic_file: 02-o-que-e-mineral/02-o-que-e-mineral-flashcards-basic.csv
+    cloze_file: 02-o-que-e-mineral/02-o-que-e-mineral-flashcards-cloze.csv
+    count_basic: 52
+    count_cloze: 25
+    last_id: 52
+    last_id_cloze: 25
+    generated_at: '2026-10-03T16:00:00-03:00'
 # trilha: nucleo (núcleo) — módulo 03
 - id: '03'
   slug: terra-fabrica-de-minerais
