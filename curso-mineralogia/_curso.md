@@ -1,7 +1,7 @@
 # Curso: Mineralogia — da cristalografia à gênese (base e avançado)
 
-**Estado:** planned
-**Criado em:** 2026-09-29T00:00:00-03:00  ·  **Atualizado em:** 2026-09-29T00:00:00-03:00
+**Estado:** in_progress
+**Criado em:** 2026-09-29T00:00:00-03:00  ·  **Atualizado em:** 2026-10-03T12:00:00-03:00
 **Base do currículo:** pesquisa das ementas e sumários de referência, cruzada com o escopo previsto pelo usuário: ementas do IGc-USP — GMG0106 Cristalografia Fundamental (45 h) e GMG0220 Mineralogia (105 h), com as optativas GMG0203 Mineralogia Aplicada e GMG0425 Técnicas Gemológicas (pasta GradeCurricular/Geologia-USP) —; sumários de Klein & Dutrow, Manual of Mineral Science, 23a ed. (22 capítulos, incl. crescimento e defeitos, estabilidade e diagramas de fase, processos pós-cristalização, gemas e assembleias); Nesse, Introduction to Mineralogy (cristalografia, cristaloquímica, estrutura, crescimento mineral, óptica, DRX, análise química, sistemática por classe estrutural); Putnis, An Introduction to Mineral Sciences (simetria, anisotropia, difração, espectroscopia, defeitos, energética, soluções sólidas, exsolução, ordem, cinética, transformações); Perkins, Mineralogy (gênese por ambiente ígneo, sedimentar, metamórfico e de minério); Wenk & Bulakh, Minerals: Their Constitution and Origin (formação e ambientes); Dyar & Gunter, Mineralogy and Optical Mineralogy (MSA); Deer, Howie & Zussman (minerais formadores de rocha); Nesse, Introduction to Optical Mineralogy; normativo IMA-CNMNC (definição de mineral, lista de espécies, nomenclatura de grupos) e classificação Nickel-Strunz/Dana; Mindat e RRUFF como referência de dados.
 **Partida:** ensino médio completo, sem geologia prévia. Curso autossuficiente: nenhum pré-requisito cruzado para outros cursos; a química, a óptica e o contexto geológico necessários são reconstruídos dentro do próprio curso (módulos 01, 03 e 14).  ·  **Chegada:** avançado — nível de graduação plena em mineralogia e cristalografia, com incursões de pós-graduação nos módulos de aprofundamento (grupos espaciais, difração avançada, cinética, inclusões fluidas, geotermobarometria, mineralogia gemológica).
 **Volume estimado:** 50 módulos · ~262 aulas de ≤30 min · ~109-131 h (núcleo: 199 aulas, 83-100 h; aprofundamento: 63 aulas, 26-32 h) de estudo
@@ -24,10 +24,11 @@
 ## Estado
 
 - **Módulos:** 0 de 50 concluídos
-- **Aulas escritas:** 0
-- **Questionários:** 0
+- **Aulas escritas:** 6
+- **Questionários:** 1
 - **Flashcards:** 0 Basic · 0 Cloze
-- **Próximo passo:** Plano aguardando aprovação do usuário. Ao aprovar, gerar o módulo 01 (Fundamentos químicos, núcleo) pelo gerador-de-curso-modular em modo build, seguindo a trilha núcleo na ordem numérica e pulando os módulos de aprofundamento (ver _contexto.md, seção Trilha dupla).
+- **Módulo atual:** 01
+- **Próximo passo:** Módulo 01: 6 aulas escritas e auditadas (audit-and-fix em 2026-09-30: 1 vermelho, 12 laranjas e 1 branco, todos corrigidos; nenhum achado aberto). Revisão didática concluída em 2026-09-30 (3 azuis em aberto não bloqueantes; 3 alegações novas de caráter definicional aguardam conferência do auditor: QUI-TAB-GRUPOD-001, QUI-SPIN-DEF-001, QUI-LIG-METALREGRA-001). Questionário final gerado em 2026-10-03 (18 questões, 42 pontos, 6 de 6 objetivos cobertos). Próximo passo: flashcards do módulo 01. Só então iniciar o módulo 02.
 
 ## Módulos
 
@@ -35,7 +36,7 @@ Os 50 módulos aparecem como subpáginas abaixo, na ordem do currículo. Nenhum 
 
 ### I. Fundamentos: da matéria ao mineral
 
-- **01 — Fundamentos químicos: átomo, tabela periódica e ligação** · 6 aulas planejadas — [[01-fundamentos-quimicos/01-fundamentos-quimicos-modulo|abrir]]
+- **01 — Fundamentos químicos: átomo, tabela periódica e ligação** · 6/6 aulas · questionário · auditado — [[01-fundamentos-quimicos/01-fundamentos-quimicos-modulo|abrir]]
 - **02 — O que é um mineral: definição, espécie e classificação** · 5 aulas planejadas · pré-req: 01 — [[02-o-que-e-mineral/02-o-que-e-mineral-modulo|abrir]]
 - **03 — A Terra como fábrica de minerais: contexto geológico mínimo** · 4 aulas planejadas · pré-req: 01, 02 — [[03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-modulo|abrir]]
 
@@ -121,6 +122,10 @@ Os 50 módulos aparecem como subpáginas abaixo, na ordem do currículo. Nenhum 
 ### XIII. Catalogação de espécimes
 
 - **50 — Descrever e catalogar espécimes de coleção** · 3 aulas planejadas · pré-req: 13, 27, 37, 38, 39, 40, 41 — [[50-catalogacao-de-especimes/50-catalogacao-de-especimes-modulo|abrir]]
+
+## Saldo das auditorias
+
+🔴 1 · 🟠 12 · 🟡 0 · 🔵 0 · ⚪ 1
 
 ## Decisões registradas
 
