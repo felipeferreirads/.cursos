@@ -50,6 +50,8 @@ Fonte do plugin `estudo-geociencias`, que expõe as skills da seção 4. Contém
 
 **Repositório:** https://github.com/felipeferreirads/FFS-PluginStudy (em `.cursos` a pasta `FFS-PluginStudy/` é um submódulo/ponteiro e pode estar vazia; se estiver, clone o repositório acima antes de usar as skills).
 
+**E-mail noreply do GitHub (autoria de commits):** `300224651+felipeferreirads@users.noreply.github.com` (conta `felipeferreirads`). Use-o como e-mail de autor nos commits para não expor o e-mail pessoal.
+
 ### 3.3 `GradeCurricular/`
 Grades universitárias de referência. Atualmente: `Geologia-USP/` (`Obrigatoria/`, `Optativa Livre/`, `grade.json`) — a referência principal para escopo curricular. Há um script reutilizável em `_ferramentas/` para extrair grade+ementas de qualquer curso da USP (ver memória `reference_usp_grade_scraper`).
 
