@@ -143,3 +143,11 @@ Total final: 62 alegações, 56 verificadas sem mudança e 6 corrigidas.
 **Pendências:** nenhuma.
 
 **Aviso de baralho já importado:** não se aplica; questionário e flashcards ainda não existiam.
+
+## Correção posterior (auditoria do módulo 06, 2026-10-04)
+
+| claim_id | Severidade | Desfecho | Arquivos alterados |
+|---|---|---|---|
+| `CRI-EST-CELA-001` | 🟡 | Corrigido | aula-01; flashcards (`fb011`, nos arquivos `-basic.csv` e `.md`) |
+
+A aula 01 definia a cela unitária como "a menor unidade que, repetida por translação, reconstrói o cristal". O módulo 06 (aula 02) mostra que isso vale só para a cela **primitiva**; a cela convencional pode ter 2, 3 ou 4 vezes esse volume. Texto corrigido para "a unidade que [...] reconstrói o cristal (a menor delas é a cela primitiva)". Registro completo na auditoria do módulo 06 (achado cross-module).

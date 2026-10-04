@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "06-reticulo-e-cela",
+    "module_id": "06",
+    "course_id": "mineralogia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-10-04",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 0,
+    "yellow": 4,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 28
+  },
+  "findings": [
+    {
+      "claim_id": "CRI-ZDE-CALCMED-001",
+      "severity": "yellow",
+      "kind": "certeza_indevida",
+      "claim": "As duas costumam concordar na segunda casa decimal",
+      "location": {
+        "file": "06-reticulo-e-cela/06-reticulo-e-cela-aula-04-conteudo-da-cela-z-volume-e-densidade-calculada.md",
+        "section": "Calculada x medida",
+        "quote": "As duas costumam concordar na segunda casa decimal"
+      },
+      "problem": "Generalizacao sem fonte.",
+      "replacement": "As duas costumam ficar proximas (diferencas de alguns centesimos sao comuns)",
+      "source": {
+        "name": "Handbook of Mineralogy (pares D(meas)/D(calc))",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "06-reticulo-e-cela/06-reticulo-e-cela-aula-04-conteudo-da-cela-z-volume-e-densidade-calculada.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "CRI-ZDE-CLIVCALC-001",
+      "severity": "yellow",
+      "kind": "inconsistencia_interna",
+      "claim": "romboedro de clivagem com angulos de cerca de 75 e 105 graus (modulo 05, aula 03)",
+      "location": {
+        "file": "06-reticulo-e-cela/06-reticulo-e-cela-aula-04-conteudo-da-cela-z-volume-e-densidade-calculada.md",
+        "section": "Uma cela romboedrica, uma cela hexagonal",
+        "quote": "com seus angulos de cerca de 75 e 105 graus, e outra coisa (modulo 05, aula 03)"
+      },
+      "problem": "A aula de destino da os indices da clivagem, nao os angulos.",
+      "replacement": "com angulos entre faces de cerca de 75 e 105 graus, e outra coisa (os indices dessa clivagem estao no modulo 05, aula 03)",
+      "source": {
+        "name": "calculo com a cela do HoM (74,94 graus)",
+        "tier": "general",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "06-reticulo-e-cela/06-reticulo-e-cela-aula-04-conteudo-da-cela-z-volume-e-densidade-calculada.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "CRI-BRA-QUEBRA-001",
+      "severity": "yellow",
+      "kind": "omissao_que_gera_erro",
+      "claim": "ortorrombico admite P, C, I, F porque nenhuma centragem quebra simetria",
+      "location": {
+        "file": "06-reticulo-e-cela/06-reticulo-e-cela-aula-03-os-14-reticulos-de-bravais.md",
+        "section": "Por que nao 7 x 5",
+        "quote": "seus tres eixos ja sao diferentes, e nenhuma centragem tem como quebrar uma simetria que obrigue igualdade"
+      },
+      "problem": "Justificativa cita so uma das duas razoes (falta: nenhuma centragem colapsa numa cela ortorrombica menor).",
+      "replacement": "cada centragem preserva os tres eixos 2 (nenhuma quebra a simetria) e nenhuma pode ser redescrita como uma cela ortorrombica menor (nenhuma colapsa)",
+      "source": {
+        "name": "International Tables for Crystallography, vol. A",
+        "tier": "normative",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "06-reticulo-e-cela/06-reticulo-e-cela-aula-03-os-14-reticulos-de-bravais.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "CRI-EST-CELA-001",
+      "severity": "yellow",
+      "kind": "inconsistencia_interna",
+      "claim": "cela unitaria: a menor unidade que, repetida por translacao, reconstroi o cristal",
+      "location": {
+        "file": "04-simetria-e-morfologia/04-simetria-e-morfologia-aula-01-o-estado-cristalino-leis-de-steno-e-de-hauy.md",
+        "section": "O tijolo de Hauy (lei de Hauy)",
+        "quote": "a menor unidade que, repetida por translacao, reconstroi o cristal"
+      },
+      "problem": "A menor e so a cela primitiva; a convencional pode ter 2, 3 ou 4 vezes o volume (m06 a02).",
+      "replacement": "a unidade que, repetida por translacao, reconstroi o cristal (a menor delas e a cela primitiva)",
+      "source": {
+        "name": "IUCr Online Dictionary of Crystallography (unit cell, primitive cell)",
+        "tier": "normative",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "04-simetria-e-morfologia/04-simetria-e-morfologia-aula-01-o-estado-cristalino-leis-de-steno-e-de-hauy.md",
+        "04-simetria-e-morfologia/04-simetria-e-morfologia-flashcards-basic.csv",
+        "04-simetria-e-morfologia/04-simetria-e-morfologia-flashcards.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "CRI-RET-DEF-001",
+      "claim": "Estrutura cristalina = reticulo + motivo; reticulo e conjunto infinito de pontos equivalentes por translacao, com vizinhanca identica e igualmente orientada; nao e conjunto de atomos.",
+      "source": "IUCr Online Dictionary; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-RET-TRANSL-001",
+      "claim": "Pontos do reticulo = n1 t1 + n2 t2 + n3 t3, n inteiros; comprimentos e angulos dos vetores = parametros de cela.",
+      "source": "International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-RET-HALITA-001",
+      "claim": "Na halita o motivo e um Na e um Cl.",
+      "source": "Klein & Dutrow (estrutura NaCl, reticulo cF, motivo NaCl)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-RET-RESTRICAO-001",
+      "claim": "A restricao cristalografica (eixos 1, 2, 3, 4, 6) decorre da periodicidade por translacao.",
+      "source": "International Tables vol. A; modulo 04",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-RET-MORFO-001",
+      "claim": "A forma externa revela o grupo pontual (as 32 classes), nao as translacoes, que sao de alguns angstroms; o reticulo e visto por difracao.",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-RET-GRAFITA-001",
+      "claim": "A camada de grafita (colmeia) nao e um reticulo: os vertices tem duas orientacoes de vizinhanca; o reticulo e hexagonal com motivo de 2 carbonos.",
+      "source": "Klein & Dutrow; IUCr Online Dictionary (honeycomb nao e reticulo de Bravais)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-RET-XADREZ-001",
+      "claim": "Tabuleiro de dois tipos de casa (lado d): reticulo quadrado de lado d raiz de 2, girado 45 graus, motivo de 2 casas.",
+      "source": "geometria",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-RET-GRAO-001",
+      "claim": "Um grao de 1 mm tem milhoes de repeticoes da cela em cada direcao.",
+      "source": "calculo: 1 mm / 5-20 A = 0,5-2 milhoes",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-CEL-DEF-001",
+      "claim": "Cela unitaria: paralelepipedo de translacoes que preenche o espaco; primitiva = 1 ponto, menor volume, todas as primitivas com o mesmo volume; convencional = arestas ao longo das direcoes de simetria, a menor entre as que mostram a simetria.",
+      "source": "IUCr Online Dictionary; International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-CEL-PESOS-001",
+      "claim": "Pesos de compartilhamento: vertice 1/8, aresta 1/4, face 1/2, interior 1; P 1 ponto, I 2, F 4.",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-CEL-CENTRAGEM-001",
+      "claim": "Vetores de centragem: C (1/2,1/2,0); A (0,1/2,1/2); B (1/2,0,1/2); I (1/2,1/2,1/2); F os tres de face; I do alemao innenzentriert.",
+      "source": "International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-CEL-FCCPRIM-001",
+      "claim": "A cela primitiva do reticulo cubico F e um romboedro de angulos de 60 graus com 1/4 do volume do cubo.",
+      "source": "calculo conferido em Python",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-CEL-HALITA-001",
+      "claim": "Halita: reticulo F, Na em (0,0,0)+F e Cl em (1/2,0,0)+F; 4 Na + 4 Cl por cela convencional.",
+      "source": "Klein & Dutrow; Handbook of Mineralogy (Fm3-barra m, Z = 4)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-CEL-COORD-001",
+      "claim": "Coordenadas fracionarias (x,y,z) como fracoes de a, b, c; somar 1 leva a ponto equivalente; as tabelas de estrutura e arquivos CIF listam atomos assim.",
+      "source": "International Tables vol. A; IUCr (CIF)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-BRA-LISTA-001",
+      "claim": "14 reticulos: aP; mP, mC; oP, oC, oI, oF; tP, tI; hP, hR; cP, cI, cF (1+2+4+2+2+3).",
+      "source": "International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-BRA-HIST-001",
+      "claim": "Frankenheim (1842) contou 15; Bravais leu em 1848 (publicado 1850) o trabalho que mostrou 14.",
+      "source": "IUCr Newsletter 27(1); historia (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-BRA-SIMBOLO-001",
+      "claim": "Simbolo do tipo de reticulo: familia a, m, o, t, h, c + centragem P, C, I, F, R; a = anortico (triclinico).",
+      "source": "International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-BRA-EXEMPLOS-001",
+      "claim": "cianita aP; epidoto mP; ortoclasio e diopsidio mC; forsterita e aragonita oP; cordierita oC; hemimorfita oI; enxofre oF; rutilo tP; zircao tI; quartzo e berilo hP; calcita e corindon hR; pirita cP; granadas cI; halita, fluorita, diamante cF.",
+      "source": "Handbook of Mineralogy; auditoria m04; busca 2026-10-04",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-BRA-COLAPSO-001",
+      "claim": "Tetragonal C = tetragonal P (cela menor, de lado a/raiz de 2, girada 45 graus); tetragonal F = tetragonal I; monoclinico I = monoclinico C (outra escolha de eixos).",
+      "source": "International Tables vol. A; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-BRA-HEX-001",
+      "claim": "Familia hexagonal: hP (cela em prisma de base losango 120 graus, 1/3 do prisma hexagonal) e hR (cela primitiva romboedrica a=b=c, alfa=beta=gama !=90); trigonais podem ser hP (quartzo) ou hR (calcita, corindon); hexagonais sempre hP.",
+      "source": "International Tables vol. A; IUCr Online Dictionary",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-BRA-PONTUAL-001",
+      "claim": "Os tres reticulos cubicos tem a mesma simetria pontual m3-barra m (holoedria).",
+      "source": "International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ZDE-FORMULA-001",
+      "claim": "rho = Z M / (NA V); com V em A3 e rho em g/cm3, rho = Z M / (0,6022 V).",
+      "source": "SI 2019 (NA exato); calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ZDE-VOLUME-001",
+      "claim": "Volumes: a3; a2 c; abc; (raiz3/2) a2 c; abc sen beta; abc raiz(1 - cos2 alfa - cos2 beta - cos2 gama + 2 cos alfa cos beta cos gama).",
+      "source": "International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ZDE-HALITA-001",
+      "claim": "Halita: M = 58,44; V = 179,4 A3; rho calc = 2,163; HoM 2,165 calc e 2,168 medida.",
+      "source": "Handbook of Mineralogy (busca); calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ZDE-QUARTZO-001",
+      "claim": "Quartzo: V = 113,0 A3; Z = 3; rho = 2,649; medida 2,65.",
+      "source": "Handbook of Mineralogy (busca); calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ZDE-FLUORITA-001",
+      "claim": "Fluorita: a = 5,4626, V = 163,0 A3, rho 3,18, M 78,07 -> Z = 4,00.",
+      "source": "Handbook of Mineralogy (busca); calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ZDE-CALCITA-001",
+      "claim": "Calcita: cela hexagonal V = 367,8 A3, Z = 6; romboedrica primitiva a_r = 6,375 A, alfa = 46,08, V = 122,6 A3, Z = 2; rho = 2,711; cela hexagonal de hR com pontos extras (2/3,1/3,1/3) e (1/3,2/3,2/3).",
+      "source": "Handbook of Mineralogy (busca); calculo; International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ZDE-DIOPSIDIO-001",
+      "claim": "Diopsidio: M = 216,55; V = 438,6 A3; rho = 3,28; sem o sen beta, V = 455,4 e rho = 3,16.",
+      "source": "Handbook of Mineralogy (busca); calculo",
+      "confidence": "confirmado"
+    }
+  ]
+}

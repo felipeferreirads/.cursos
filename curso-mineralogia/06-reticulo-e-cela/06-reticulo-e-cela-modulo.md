@@ -1,6 +1,6 @@
 # Módulo 06 — Retículo cristalino, cela unitária e redes de Bravais
 
-> [!info] Curso de **Mineralogia** · módulo 06 de 50 · área II. Cristalografia geométrica e reticular · trilha **núcleo** · status: **pendente** (planejado em 2026-09-29, nenhuma aula escrita)
+> [!info] Curso de **Mineralogia** · módulo 06 de 50 · área II. Cristalografia geométrica e reticular · trilha **núcleo** · status: **concluído** (aulas, auditoria, revisão didática, questionário e baralho em 2026-10-04)
 
 ## Objetivo do módulo
 
@@ -37,14 +37,21 @@ Passar da simetria da forma externa à periodicidade interna: motivo, retículo,
 - `mineralogia-m06-oa03` — Calcular o número de fórmulas por cela (Z) e a densidade calculada de um mineral a partir dos parâmetros de cela.
 - `mineralogia-m06-oa04` — Distinguir cela primitiva de cela convencional e justificar a escolha da cela convencional pela simetria.
 
-## Aulas planejadas (4, nenhuma escrita)
+## Aulas (4 escritas)
 
-1. Aula 01 — Motivo, retículo e estrutura: a translação como operação — `mineralogia-m06-a01` · cobre `mineralogia-m06-oa01`
-2. Aula 02 — Cela primitiva e cela convencional — `mineralogia-m06-a02` · cobre `mineralogia-m06-oa04`
-3. Aula 03 — Os 14 retículos de Bravais — `mineralogia-m06-a03` · cobre `mineralogia-m06-oa02`
-4. Aula 04 — Conteúdo da cela: Z, volume e densidade calculada — `mineralogia-m06-a04` · cobre `mineralogia-m06-oa03`
+1. [[06-reticulo-e-cela-aula-01-motivo-reticulo-e-estrutura-a-translacao-como-operacao|Aula 01 — Motivo, retículo e estrutura: a translação como operação]] — `mineralogia-m06-a01` · cobre `mineralogia-m06-oa01`
+2. [[06-reticulo-e-cela-aula-02-cela-primitiva-e-cela-convencional|Aula 02 — Cela primitiva e cela convencional]] — `mineralogia-m06-a02` · cobre `mineralogia-m06-oa04`
+3. [[06-reticulo-e-cela-aula-03-os-14-reticulos-de-bravais|Aula 03 — Os 14 retículos de Bravais]] — `mineralogia-m06-a03` · cobre `mineralogia-m06-oa02`
+4. [[06-reticulo-e-cela-aula-04-conteudo-da-cela-z-volume-e-densidade-calculada|Aula 04 — Conteúdo da cela: Z, volume e densidade calculada]] — `mineralogia-m06-a04` · cobre `mineralogia-m06-oa03`
 
-> Títulos provisórios, definidos no planejamento. O gerador de aulas pode ajustá-los ou dividir uma aula em Parte 1 / Parte 2 pela contagem de carga; um objetivo novo recebe o próximo ID livre, nunca desloca os existentes.
+> Títulos do planejamento mantidos. A relação entre cela romboédrica e cela hexagonal (retículo hR) ficou na aula 04, junto com Z, onde ela muda o número de fórmulas por cela.
+
+### Figuras do módulo (geradas por cálculo)
+
+- `06-reticulo-e-cela-fig-01-motivo-e-reticulo.svg` — aula 01
+- `06-reticulo-e-cela-fig-02-celas-primitiva-e-convencional.svg` e `-fig-06-cela-da-halita.svg` — aula 02
+- `06-reticulo-e-cela-fig-03-14-reticulos-de-bravais.svg` e `-fig-04-tetragonal-c-e-p.svg` — aula 03
+- `06-reticulo-e-cela-fig-05-romboedrico-na-cela-hexagonal.svg` — aula 04
 
 ## Pontos de dificuldade previstos
 
@@ -56,11 +63,11 @@ Nenhuma sobreposição relevante com os cursos existentes.
 
 ## Registro do módulo
 
-- Aulas: pendente (0 de 4)
-- Auditoria científica: pendente
-- Revisão didática: pendente
-- Questionário: pendente (gate: só depois da auditoria sem achado 🔴/🟠 em aberto)
-- Flashcards: pendente (mesmo gate)
+- Aulas: escritas (4 de 4), em 2026-10-04
+- Auditoria científica: [[06-reticulo-e-cela-auditoria|aprovada após correções]] em 2026-10-04 (🟡 4, todos corrigidos; nenhum achado aberto). Um dos 🟡 estava no módulo 04 (aula 01 e card `fb011`: "cela unitária = a menor unidade"), corrigido e propagado. Todas as densidades e Z recalculados e comparados com o *Handbook of Mineralogy*.
+- Revisão didática: [[06-reticulo-e-cela-revisao-didatica|bem ensinado com ressalvas, ressalvas corrigidas]] em 2026-10-04 (🟠 2: figura da cela da halita acrescentada, aula 04 aliviada; 🟡 2 corrigidos; 🔵 3 não bloqueantes)
+- Questionário: [[06-reticulo-e-cela-questionario-final|final cumulativo]] (14 questões, 39 pts), gerado em 2026-10-04, com checagem científica do gabarito; 4 de 4 objetivos cobertos
+- Flashcards: [[06-reticulo-e-cela-flashcards|baralho]] gerado em 2026-10-04 (58 Basic + 12 Cloze), com checagem científica contra as aulas antes de fechar
 
 ## Navegação
 

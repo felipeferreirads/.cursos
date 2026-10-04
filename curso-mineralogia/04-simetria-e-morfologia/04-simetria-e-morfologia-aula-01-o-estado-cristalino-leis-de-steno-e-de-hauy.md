@@ -68,7 +68,7 @@ Em 1784, o francês **René-Just Haüy** publicou uma explicação para essa reg
 
 Se o cristal é uma pilha de tijolos idênticos, suas faces só podem ser planos que passam pelos cantos dos tijolos, como os degraus de uma escada. Uma face pode recuar um tijolo a cada dois, ou dois a cada três, mas não "1,4142... tijolos" a cada um. Isso leva à **lei da racionalidade dos índices** (lei de Haüy): as faces de um cristal cortam os eixos cristalográficos (as direções de referência do cristal) a distâncias cujas razões são **números inteiros pequenos**. É essa lei que, no módulo 05, vai permitir dar a cada face um "endereço" com três números inteiros, os índices de Miller.
 
-O "tijolo" de Haüy é o ancestral direto da **cela unitária** (módulo 06): a menor unidade que, repetida por translação, reconstrói o cristal. A diferença é que hoje sabemos o que há dentro dela (átomos), graças à difração de raios X, descoberta por Max von Laue e colaboradores em 1912. A difração confirmou, mais de um século depois, a intuição de Haüy de que a forma externa reflete uma periodicidade interna.
+O "tijolo" de Haüy é o ancestral direto da **cela unitária** (módulo 06): a unidade que, repetida por translação, reconstrói o cristal (a menor delas é a cela primitiva). A diferença é que hoje sabemos o que há dentro dela (átomos), graças à difração de raios X, descoberta por Max von Laue e colaboradores em 1912. A difração confirmou, mais de um século depois, a intuição de Haüy de que a forma externa reflete uma periodicidade interna.
 
 ### Ordem sem repetição: os quasicristais
 
@@ -124,7 +124,7 @@ Em [[04-simetria-e-morfologia-aula-02-operacoes-de-simetria-i-rotacao-reflexao-e
 
 <!--
 nivel: ensino-medio-sem-geologia-v1
-palavras_corpo: 1443
+palavras_corpo: 1449
 cobertura:
   mineralogia-m04-oa01: [Conteúdo, Exemplo trabalhado]
 alegacoes_auditaveis:
@@ -148,6 +148,11 @@ alegacoes_auditaveis:
     risk: data
     source: "Hauy (1784); Burke (1966)"
     audit: "verificado em 2026-10-04 (a historia da queda e marcada como anedota no texto)"
+  - claim_id: CRI-EST-CELA-001
+    claim: "A cela unitaria e a unidade que, repetida por translacao, reconstroi o cristal; a menor delas e a cela primitiva."
+    risk: conceito
+    source: "IUCr Online Dictionary (unit cell, primitive cell)"
+    audit: "corrigido em 2026-10-04 pela auditoria do modulo 06 (🟡: 'a menor unidade' vale so para a cela primitiva; a convencional pode ter 2, 3 ou 4 vezes esse volume)"
   - claim_id: CRI-EST-RACIONAL-001
     claim: "Lei da racionalidade dos indices (lei de Hauy): faces cortam os eixos a distancias em razoes de inteiros pequenos."
     risk: conceito

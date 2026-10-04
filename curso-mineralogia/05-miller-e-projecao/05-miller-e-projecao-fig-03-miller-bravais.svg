@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 600" width="640" height="600">
+<title>Indices de Miller-Bravais no plano basal</title>
+<defs><marker id="arr1f5fa8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f5fa8"/></marker></defs>
+<rect x="0" y="0" width="640" height="600" fill="#ffffff"/>
+<line x1="436.25" y1="88.65" x2="320.00" y2="290.00" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="320.00" y1="290.00" x2="203.75" y2="491.35" stroke="#1f5fa8" stroke-width="2" marker-end="url(#arr1f5fa8)"/>
+<text x="191.00" y="520.93" font-size="15" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">+a₁</text>
+<text x="449.00" y="74.07" font-size="13" fill="#9a9a9a" text-anchor="middle" font-weight="normal" font-family="Helvetica, Arial, sans-serif">−a₁</text>
+<line x1="87.50" y1="290.00" x2="320.00" y2="290.00" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="320.00" y1="290.00" x2="552.50" y2="290.00" stroke="#1f5fa8" stroke-width="2" marker-end="url(#arr1f5fa8)"/>
+<text x="578.00" y="297.50" font-size="15" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">+a₂</text>
+<text x="62.00" y="297.50" font-size="13" fill="#9a9a9a" text-anchor="middle" font-weight="normal" font-family="Helvetica, Arial, sans-serif">−a₂</text>
+<line x1="436.25" y1="491.35" x2="320.00" y2="290.00" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="320.00" y1="290.00" x2="203.75" y2="88.65" stroke="#1f5fa8" stroke-width="2" marker-end="url(#arr1f5fa8)"/>
+<text x="191.00" y="74.07" font-size="15" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">+a₃</text>
+<text x="449.00" y="520.93" font-size="13" fill="#9a9a9a" text-anchor="middle" font-weight="normal" font-family="Helvetica, Arial, sans-serif">−a₃</text>
+<polygon points="245.00,419.90 395.00,419.90 470.00,290.00 395.00,160.10 245.00,160.10 170.00,290.00" stroke="#1a1a1a" fill="none" fill-opacity="1.0" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="299.77" y="458.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">(</text>
+<text x="304.43" y="458.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">1</text>
+<text x="312.22" y="458.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">0</text>
+<text x="320.00" y="458.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">1</text>
+<line x1="321.12" y1="446.80" x2="326.66" y2="446.80" stroke="#1a1a1a" stroke-width="1.17"/>
+<text x="327.78" y="458.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">0</text>
+<text x="335.57" y="458.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">)</text>
+<text x="440.07" y="377.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">(</text>
+<text x="444.73" y="377.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">0</text>
+<text x="452.51" y="377.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">1</text>
+<text x="460.30" y="377.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">1</text>
+<line x1="461.42" y1="365.80" x2="466.96" y2="365.80" stroke="#1a1a1a" stroke-width="1.17"/>
+<text x="468.08" y="377.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">0</text>
+<text x="475.86" y="377.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">)</text>
+<text x="440.07" y="215.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">(</text>
+<text x="444.73" y="215.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">1</text>
+<line x1="445.85" y1="203.80" x2="451.39" y2="203.80" stroke="#1a1a1a" stroke-width="1.17"/>
+<text x="452.51" y="215.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">1</text>
+<text x="460.30" y="215.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">0</text>
+<text x="468.08" y="215.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">0</text>
+<text x="475.86" y="215.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">)</text>
+<text x="299.77" y="134.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">(</text>
+<text x="304.43" y="134.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">1</text>
+<line x1="305.55" y1="122.80" x2="311.10" y2="122.80" stroke="#1a1a1a" stroke-width="1.17"/>
+<text x="312.22" y="134.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">0</text>
+<text x="320.00" y="134.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">1</text>
+<text x="327.78" y="134.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">0</text>
+<text x="335.57" y="134.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">)</text>
+<text x="159.47" y="215.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">(</text>
+<text x="164.14" y="215.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">0</text>
+<text x="171.92" y="215.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">1</text>
+<line x1="173.04" y1="203.80" x2="178.58" y2="203.80" stroke="#1a1a1a" stroke-width="1.17"/>
+<text x="179.70" y="215.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">1</text>
+<text x="187.49" y="215.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">0</text>
+<text x="195.27" y="215.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">)</text>
+<text x="159.47" y="377.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">(</text>
+<text x="164.14" y="377.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">1</text>
+<text x="171.92" y="377.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">1</text>
+<line x1="173.04" y1="365.80" x2="178.58" y2="365.80" stroke="#1a1a1a" stroke-width="1.17"/>
+<text x="179.70" y="377.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">0</text>
+<text x="187.49" y="377.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">0</text>
+<text x="195.27" y="377.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">)</text>
+<line x1="188.75" y1="452.38" x2="526.25" y2="257.52" stroke="#b3261e" stroke-width="2" stroke-dasharray="7,4"/>
+<text x="307.27" y="365.00" font-size="14" fill="#b3261e" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">(</text>
+<text x="311.93" y="365.00" font-size="14" fill="#b3261e" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">1</text>
+<text x="319.72" y="365.00" font-size="14" fill="#b3261e" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">1</text>
+<text x="327.50" y="365.00" font-size="14" fill="#b3261e" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">2</text>
+<line x1="328.62" y1="353.80" x2="334.16" y2="353.80" stroke="#b3261e" stroke-width="1.17"/>
+<text x="335.28" y="365.00" font-size="14" fill="#b3261e" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">0</text>
+<text x="343.07" y="365.00" font-size="14" fill="#b3261e" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">)</text>
+<circle cx="245.00" cy="419.90" r="4.50" stroke="#b3261e" fill="#b3261e" stroke-width="1.5"/>
+<circle cx="470.00" cy="290.00" r="4.50" stroke="#b3261e" fill="#b3261e" stroke-width="1.5"/>
+<text x="320.00" y="30.00" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">Corte perpendicular a c: eixos a₁, a₂, a₃ e o prisma hexagonal</text>
+<text x="40.00" y="562.00" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">(</text>
+<text x="44.16" y="562.00" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">1</text>
+<text x="51.11" y="562.00" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">0</text>
+<text x="58.06" y="562.00" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">1</text>
+<line x1="59.06" y1="552.00" x2="64.01" y2="552.00" stroke="#1a1a1a" stroke-width="1.04"/>
+<text x="65.01" y="562.00" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">0</text>
+<text x="71.96" y="562.00" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">)</text>
+<text x="82.12" y="562.00" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-family="Helvetica, Arial, sans-serif">: corta +a₁ em 1, é paralela a a₂ e corta −a₃ em 1  →  i = −(h + k) = −1</text>
+<text x="40.00" y="583.00" font-size="12.5" fill="#b3261e" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">(</text>
+<text x="44.16" y="583.00" font-size="12.5" fill="#b3261e" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">1</text>
+<text x="51.11" y="583.00" font-size="12.5" fill="#b3261e" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">1</text>
+<text x="58.06" y="583.00" font-size="12.5" fill="#b3261e" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">2</text>
+<line x1="59.06" y1="573.00" x2="64.01" y2="573.00" stroke="#b3261e" stroke-width="1.04"/>
+<text x="65.01" y="583.00" font-size="12.5" fill="#b3261e" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">0</text>
+<text x="71.96" y="583.00" font-size="12.5" fill="#b3261e" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">)</text>
+<text x="82.12" y="583.00" font-size="12.5" fill="#b3261e" text-anchor="start" font-weight="normal" font-family="Helvetica, Arial, sans-serif">, tracejada: corta +a₁ e +a₂ em 1 e −a₃ em ½  →  i = −2</text>
+</svg>

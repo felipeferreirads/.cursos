@@ -1,6 +1,6 @@
 # Módulo 05 — Eixos cristalográficos, índices de Miller e projeção estereográfica
 
-> [!info] Curso de **Mineralogia** · módulo 05 de 50 · área II. Cristalografia geométrica e reticular · trilha **núcleo** · status: **pendente** (planejado em 2026-09-29, nenhuma aula escrita)
+> [!info] Curso de **Mineralogia** · módulo 05 de 50 · área II. Cristalografia geométrica e reticular · trilha **núcleo** · status: **concluído** (aulas, auditoria, revisão didática, questionários e baralho em 2026-10-04)
 
 ## Objetivo do módulo
 
@@ -38,16 +38,27 @@ Dar nome e coordenada a faces, formas e direções (Miller, Miller-Bravais, [uvw
 - `mineralogia-m05-oa04` — Construir e ler uma projeção estereográfica de faces e elementos de simetria na rede de Wulff.
 - `mineralogia-m05-oa05` — Medir ângulos interfaciais e entre direções com a rede de Wulff.
 
-## Aulas planejadas (6, nenhuma escrita)
+## Aulas (7 escritas)
 
-1. Aula 01 — Eixos cristalográficos e parâmetros de cela por sistema — `mineralogia-m05-a01` · cobre `mineralogia-m05-oa01`
-2. Aula 02 — Índices de Miller: de interceptos a (hkl) e formas {hkl} — `mineralogia-m05-a02` · cobre `mineralogia-m05-oa02`
-3. Aula 03 — Direções [uvw] e o sistema hexagonal de Miller-Bravais (hkil) — `mineralogia-m05-a03` · cobre `mineralogia-m05-oa02`
-4. Aula 04 — Zonas e a lei de Weiss — `mineralogia-m05-a04` · cobre `mineralogia-m05-oa03`
-5. Aula 05 — A projeção estereográfica e a rede de Wulff — `mineralogia-m05-a05` · cobre `mineralogia-m05-oa04`
-6. Aula 06 — Medir ângulos na rede de Wulff: faces, zonas e elementos de simetria — `mineralogia-m05-a06` · cobre `mineralogia-m05-oa05`
+1. [[05-miller-e-projecao-aula-01-eixos-cristalograficos-e-parametros-de-cela-por-sistema|Aula 01 — Eixos cristalográficos e parâmetros de cela por sistema]] — `mineralogia-m05-a01` · cobre `mineralogia-m05-oa01`
+2. [[05-miller-e-projecao-aula-02-indices-de-miller-de-interceptos-a-hkl-e-formas|Aula 02 — Índices de Miller: de interceptos a (hkl) e formas {hkl}]] — `mineralogia-m05-a02` · cobre `mineralogia-m05-oa02`
+3. [[05-miller-e-projecao-aula-03-direcoes-uvw-e-o-sistema-hexagonal-de-miller-bravais-hkil|Aula 03 — Direções [uvw] e o sistema hexagonal de Miller-Bravais (hkil)]] — `mineralogia-m05-a03` · cobre `mineralogia-m05-oa02`
+4. [[05-miller-e-projecao-aula-04-zonas-e-a-lei-de-weiss|Aula 04 — Zonas e a lei de Weiss]] — `mineralogia-m05-a04` · cobre `mineralogia-m05-oa03`
+5. [[05-miller-e-projecao-aula-05-a-projecao-estereografica-e-a-rede-de-wulff|Aula 05 — A projeção estereográfica e a rede de Wulff]] — `mineralogia-m05-a05` · cobre `mineralogia-m05-oa04`
+6. [[05-miller-e-projecao-aula-06-medir-angulos-na-rede-de-wulff-faces-zonas-e-elementos-de-simetria|Aula 06 — Medir ângulos na rede de Wulff: faces, zonas e elementos de simetria]] — `mineralogia-m05-a06` · cobre `mineralogia-m05-oa05`
+7. [[05-miller-e-projecao-aula-07-simetria-no-estereograma-elementos-e-forma-geral-das-classes|Aula 07 — Simetria no estereograma: elementos e forma geral das classes]] — `mineralogia-m05-a07` · cobre `mineralogia-m05-oa04`
 
-> Títulos provisórios, definidos no planejamento. O gerador de aulas pode ajustá-los ou dividir uma aula em Parte 1 / Parte 2 pela contagem de carga; um objetivo novo recebe o próximo ID livre, nunca desloca os existentes.
+> A aula 07 não estava no plano: a revisão didática dividiu a aula 05, que acumulava a projeção das faces e a simetria no estereograma (ver a revisão). Ela cobre o mesmo objetivo `mineralogia-m05-oa04` e recebeu o próximo ID livre; nenhuma aula foi renumerada.
+
+### Figuras do módulo (geradas por cálculo)
+
+- `05-miller-e-projecao-fig-01-eixos-por-sistema.svg` — aula 01
+- `05-miller-e-projecao-fig-02-planos-de-miller.svg` — aula 02
+- `05-miller-e-projecao-fig-03-miller-bravais.svg` — aula 03
+- `05-miller-e-projecao-fig-04-zona-001.svg` — aula 04
+- `05-miller-e-projecao-fig-05-construcao-estereografica.svg` e `-fig-06-estereograma-cubico.svg` — aula 05 (a 06 também na aula 07)
+- `05-miller-e-projecao-fig-07-rede-de-wulff.svg` e `-fig-08-estereograma-quartzo.svg` — aula 06
+- `05-miller-e-projecao-fig-09-formas-gerais.svg` — aula 07
 
 ## Pontos de dificuldade previstos
 
@@ -59,11 +70,11 @@ Nenhum curso existente cobre Miller nem projeção estereográfica em profundida
 
 ## Registro do módulo
 
-- Aulas: pendente (0 de 6)
-- Auditoria científica: pendente
-- Revisão didática: pendente
-- Questionário: pendente (gate: só depois da auditoria sem achado 🔴/🟠 em aberto)
-- Flashcards: pendente (mesmo gate)
+- Aulas: escritas (7 de 7, com a aula 07 criada pela revisão didática), em 2026-10-04
+- Auditoria científica: [[05-miller-e-projecao-auditoria|aprovada após correções]] em 2026-10-04 (🟠 2 · 🟡 3 · 🔵 1, todos corrigidos; nenhum achado aberto). Os 🟠 eram a tabela de eixos do cúbico sem o 4̄ (classe 4̄3m) e, na terceira passagem, o parâmetro c do ortoclásio, não confirmado na fonte (trocado pelo diopsídio). Todas as contas dos exemplos e as figuras foram conferidas por cálculo.
+- Revisão didática: [[05-miller-e-projecao-revisao-didatica|requer revisão → corrigida]] em 2026-10-04 (🟠 2: aula 05 dividida, aula 03 aliviada; 🟡 4 corrigidos; 🔵 3 não bloqueantes: rede de Wulff para imprimir, goniômetro de papel, quadro das 32 classes em estereograma)
+- Questionários: [[05-miller-e-projecao-questionario-parcial-1|parcial 1]] (aulas 01-03; 8 questões, 18 pts), [[05-miller-e-projecao-questionario-parcial-2|parcial 2]] (aulas 04-06; 8 questões, 18 pts) e [[05-miller-e-projecao-questionario-final|final cumulativo]] (14 questões, 42 pts), gerados em 2026-10-04, com checagem científica dos gabaritos; 5 de 5 objetivos cobertos
+- Flashcards: [[05-miller-e-projecao-flashcards|baralho]] gerado em 2026-10-04 (100 Basic + 18 Cloze), com checagem científica contra as aulas antes de fechar
 
 ## Navegação
 

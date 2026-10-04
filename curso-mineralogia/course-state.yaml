@@ -39,7 +39,7 @@ learning_outcomes:
   e de propriedades, com grau de confiança explícito.
 status: in_progress
 created_at: '2026-09-29T00:00:00-03:00'
-updated_at: '2026-10-04T22:30:00-03:00'
+updated_at: '2026-10-05T01:00:00-03:00'
 curriculum_basis: 'pesquisa das ementas e sumários de referência, cruzada com o escopo previsto pelo usuário: ementas
   do IGc-USP — GMG0106 Cristalografia Fundamental (45 h) e GMG0220 Mineralogia (105 h), com as optativas GMG0203
   Mineralogia Aplicada e GMG0425 Técnicas Gemológicas (pasta GradeCurricular/Geologia-USP) —; sumários de Klein
@@ -52,15 +52,17 @@ curriculum_basis: 'pesquisa das ementas e sumários de referência, cruzada com 
   Dyar & Gunter, Mineralogy and Optical Mineralogy (MSA); Deer, Howie & Zussman (minerais formadores de rocha);
   Nesse, Introduction to Optical Mineralogy; normativo IMA-CNMNC (definição de mineral, lista de espécies, nomenclatura
   de grupos) e classificação Nickel-Strunz/Dana; Mindat e RRUFF como referência de dados.'
-current_module: '05'
-next_action: 'Módulos 01 a 04 concluídos. Módulo 03 fechado em 2026-10-04 (auditoria 🟠 2/🟡 5 e revisão didática
-  🟠 1/🟡 7 corrigidas; 🔵 2 abertos: desenhar o corte da Terra e o diagrama P-T). Módulo 04 fechado em 2026-10-04:
-  auditoria 🔴 1 (operação do eixo 3̄ no exemplo da calcita), 🟠 2 (implicação de quiralidade; notação A/P/C chamada
-  de Bravais-Miller), 🟡 3, todos corrigidos; revisão didática 🟠 1 (figuras dos grupos pontuais), 🟡 5 corrigidos,
-  🔵 3 abertos; parciais 1 e 2 + final (30 q, 74 pts) e baralho (83 Basic + 23 Cloze) com checagem científica própria.
-  Pendências não bloqueantes herdadas: m01 (cloze com mais de 3 lacunas, quase-duplicatas), m02 (auditoria cross-course
-  com curso-geologia m04 a03). Próximo passo: módulo 05 (miller-e-projecao), começando pelas aulas; ao escrevê-lo,
-  remeter de volta à tabela de famílias da aula 04 do m04 com os estereogramas das 32 classes.'
+current_module: '08'
+next_action: 'Módulos 01 a 06 concluídos (núcleo da área II fechado; o 07, grupos espaciais, é aprofundamento e
+  fica pendente para a segunda passagem). Módulo 05 fechado em 2026-10-04: 7 aulas (a aula 05 dividida pela revisão
+  didática; a07 nova), auditoria 🟠 2 (eixos do cúbico sem o 4-barra; c do ortoclásio não confirmado, trocado pelo
+  diopsídio), 🟡 3, 🔵 1, corrigidos; revisão 🟠 2, 🟡 4 corrigidos, 🔵 3 abertos; parciais 1 e 2 + final (30 q, 78 pts);
+  baralho 100 Basic + 18 Cloze. Módulo 06 fechado em 2026-10-04: 4 aulas, auditoria 🟡 4 corrigidos (um propagado
+  ao m04 a01 e ao card m04-fb011: cela unitária ≠ menor unidade); revisão 🟠 2, 🟡 2 corrigidos, 🔵 3 abertos; final
+  (14 q, 39 pts); baralho 58 Basic + 12 Cloze. Figuras SVG calculadas (9 no m05, 6 no m06). Pendências não bloqueantes
+  herdadas: m01 (cloze com mais de 3 lacunas, quase-duplicatas), m02 (auditoria cross-course com curso-geologia
+  m04 a03); o módulo 36 deve conferir o parâmetro c do ortoclásio na fonte primária. Próximo passo: módulo 08 (empacotamento-e-coordenacao),
+  começando pelas aulas; reaproveitar a figura da cela da halita (m06 fig-06) para a coordenação 6:6.'
 blocking_issues: []
 decisions:
 - date: '2026-09-29'
@@ -446,31 +448,32 @@ modules:
   slug: simetria-e-morfologia
   title: 'Simetria e morfologia cristalina: operações, classes e sistemas'
   area: II. Cristalografia geométrica e reticular
-  objective: Ler a simetria de um cristal — operações e elementos, os 32 grupos pontuais em notação de Hermann-Mauguin,
-    os sete sistemas cristalinos — e descrever suas formas e hábito com o vocabulário correto.
+  objective: Ler a simetria de um cristal — operações e elementos, os 32 grupos pontuais em notação de 
+    Hermann-Mauguin, os sete sistemas cristalinos — e descrever suas formas e hábito com o vocabulário 
+    correto.
   prerequisites:
   - '02'
   status: completed
   learning_objectives:
   - id: mineralogia-m04-oa01
-    statement: Explicar o estado cristalino e as leis de Steno (constância dos ângulos interfaciais) e de Haüy,
-      distinguindo cristal, agregado cristalino e sólido amorfo
+    statement: Explicar o estado cristalino e as leis de Steno (constância dos ângulos interfaciais) e de 
+      Haüy, distinguindo cristal, agregado cristalino e sólido amorfo
     cognitive_level: explicar
   - id: mineralogia-m04-oa02
-    statement: Identificar operações e elementos de simetria (rotação, reflexão, inversão, rotoinversão) num cristal
-      ou modelo
+    statement: Identificar operações e elementos de simetria (rotação, reflexão, inversão, rotoinversão) num 
+      cristal ou modelo
     cognitive_level: aplicar
   - id: mineralogia-m04-oa03
-    statement: Deduzir o grupo pontual (classe cristalina) de um cristal a partir dos seus elementos de simetria
-      e escrevê-lo em notação de Hermann-Mauguin
+    statement: Deduzir o grupo pontual (classe cristalina) de um cristal a partir dos seus elementos de 
+      simetria e escrevê-lo em notação de Hermann-Mauguin
     cognitive_level: aplicar
   - id: mineralogia-m04-oa04
-    statement: Classificar um cristal num dos sete sistemas cristalinos pela simetria característica, e não pela
-      forma aparente
+    statement: Classificar um cristal num dos sete sistemas cristalinos pela simetria característica, e não 
+      pela forma aparente
     cognitive_level: aplicar
   - id: mineralogia-m04-oa05
-    statement: Distinguir forma cristalina, forma geral e especial, forma aberta e fechada, e hábito, e nomear as
-      formas comuns de cada sistema
+    statement: Distinguir forma cristalina, forma geral e especial, forma aberta e fechada, e hábito, e nomear
+      as formas comuns de cada sistema
     cognitive_level: analisar
   lessons:
     planned: 7
@@ -479,15 +482,17 @@ modules:
     - id: mineralogia-m04-a01
       title: 'O estado cristalino: ordem interna, leis de Steno e de Haüy'
       status: completed
-      file: 04-simetria-e-morfologia/04-simetria-e-morfologia-aula-01-o-estado-cristalino-leis-de-steno-e-de-hauy.md
-      content_hash: fb02b447d538eab912e92dbc9c93035d64ad980da37e69344de20b8e1d1e1146
-      palavras_corpo: 1443
+      file: 
+        04-simetria-e-morfologia/04-simetria-e-morfologia-aula-01-o-estado-cristalino-leis-de-steno-e-de-hauy.md
+      content_hash: 33777267b91db557429ec95847d2094baa10498592bd350d46804ac8f15047a0
+      palavras_corpo: 1449
       covers_objectives:
       - mineralogia-m04-oa01
     - id: mineralogia-m04-a02
       title: 'Operações de simetria I: rotação, reflexão e inversão'
       status: completed
-      file: 04-simetria-e-morfologia/04-simetria-e-morfologia-aula-02-operacoes-de-simetria-i-rotacao-reflexao-e-inversao.md
+      file: 
+        04-simetria-e-morfologia/04-simetria-e-morfologia-aula-02-operacoes-de-simetria-i-rotacao-reflexao-e-inversao.md
       content_hash: db298becd3bf1aa2589a05878f58d0dae4ee2e4cdf507e03deed2b6679b6d809
       palavras_corpo: 1404
       covers_objectives:
@@ -495,7 +500,8 @@ modules:
     - id: mineralogia-m04-a03
       title: 'Operações de simetria II: rotoinversão e combinação de elementos'
       status: completed
-      file: 04-simetria-e-morfologia/04-simetria-e-morfologia-aula-03-operacoes-de-simetria-ii-rotoinversao-e-combinacao-de-elementos.md
+      file: 
+        04-simetria-e-morfologia/04-simetria-e-morfologia-aula-03-operacoes-de-simetria-ii-rotoinversao-e-combinacao-de-elementos.md
       content_hash: 9c0dc52bc7fe0728ce075117409544d5d78bc1b1aa717e1c5b2eda7d6411a25f
       palavras_corpo: 1458
       covers_objectives:
@@ -503,7 +509,8 @@ modules:
     - id: mineralogia-m04-a04
       title: 'Os 32 grupos pontuais e a notação de Hermann-Mauguin — Parte 1: dedução'
       status: completed
-      file: 04-simetria-e-morfologia/04-simetria-e-morfologia-aula-04-os-32-grupos-pontuais-e-a-notacao-de-hermann-mauguin-parte-1-deducao.md
+      file: 
+        04-simetria-e-morfologia/04-simetria-e-morfologia-aula-04-os-32-grupos-pontuais-e-a-notacao-de-hermann-mauguin-parte-1-deducao.md
       content_hash: 7638a186c81fed79022a29689937cb124c10bc5aea96c8b3981d1d95112786cb
       palavras_corpo: 1429
       covers_objectives:
@@ -511,7 +518,8 @@ modules:
     - id: mineralogia-m04-a05
       title: 'Os 32 grupos pontuais — Parte 2: reconhecer a classe num cristal real'
       status: completed
-      file: 04-simetria-e-morfologia/04-simetria-e-morfologia-aula-05-os-32-grupos-pontuais-parte-2-reconhecer-a-classe-num-cristal-real.md
+      file: 
+        04-simetria-e-morfologia/04-simetria-e-morfologia-aula-05-os-32-grupos-pontuais-parte-2-reconhecer-a-classe-num-cristal-real.md
       content_hash: c152d3bdbdb22bd9c45476b93a99541ed12130878df0647a40b91a82b8aaecf1
       palavras_corpo: 1599
       covers_objectives:
@@ -519,7 +527,8 @@ modules:
     - id: mineralogia-m04-a06
       title: 'Os sete sistemas cristalinos: definidos pela simetria, não pela aparência'
       status: completed
-      file: 04-simetria-e-morfologia/04-simetria-e-morfologia-aula-06-os-sete-sistemas-cristalinos-definidos-pela-simetria.md
+      file: 
+        04-simetria-e-morfologia/04-simetria-e-morfologia-aula-06-os-sete-sistemas-cristalinos-definidos-pela-simetria.md
       content_hash: 145da15c2f423550d2309778b6c2828bde1ab7334d28b160743a7431616195bc
       palavras_corpo: 1356
       covers_objectives:
@@ -527,7 +536,8 @@ modules:
     - id: mineralogia-m04-a07
       title: 'Formas cristalinas e hábito: formas gerais, especiais, abertas e fechadas'
       status: completed
-      file: 04-simetria-e-morfologia/04-simetria-e-morfologia-aula-07-formas-cristalinas-e-habito-formas-gerais-especiais-abertas-e-fechadas.md
+      file: 
+        04-simetria-e-morfologia/04-simetria-e-morfologia-aula-07-formas-cristalinas-e-habito-formas-gerais-especiais-abertas-e-fechadas.md
       content_hash: 48035d9c11e7c050d37666a4d232445118ccbe54cc4c41bacdd61e0a91f73ff4
       palavras_corpo: 1415
       covers_objectives:
@@ -580,22 +590,23 @@ modules:
   slug: miller-e-projecao
   title: Eixos cristalográficos, índices de Miller e projeção estereográfica
   area: II. Cristalografia geométrica e reticular
-  objective: Dar nome e coordenada a faces, formas e direções (Miller, Miller-Bravais, [uvw]), trabalhar com zonas
-    e representar e medir a geometria de um cristal na projeção estereográfica.
+  objective: Dar nome e coordenada a faces, formas e direções (Miller, Miller-Bravais, [uvw]), trabalhar com 
+    zonas e representar e medir a geometria de um cristal na projeção estereográfica.
   prerequisites:
   - '04'
-  status: pending
+  status: completed
   learning_objectives:
   - id: mineralogia-m05-oa01
-    statement: Associar a cada sistema cristalino seus eixos cristalográficos e as relações entre os parâmetros
-      de cela (a, b, c; α, β, γ)
+    statement: Associar a cada sistema cristalino seus eixos cristalográficos e as relações entre os 
+      parâmetros de cela (a, b, c; α, β, γ)
     cognitive_level: lembrar
   - id: mineralogia-m05-oa02
-    statement: Atribuir índices de Miller (hkl) e de Miller-Bravais (hkil) a faces, formas {hkl} e direções [uvw]
+    statement: Atribuir índices de Miller (hkl) e de Miller-Bravais (hkil) a faces, formas {hkl} e direções 
+      [uvw]
     cognitive_level: aplicar
   - id: mineralogia-m05-oa03
-    statement: Aplicar a lei das zonas (Weiss) para determinar o eixo de zona de duas faces e verificar se uma face
-      pertence a uma zona
+    statement: Aplicar a lei das zonas (Weiss) para determinar o eixo de zona de duas faces e verificar se uma
+      face pertence a uma zona
     cognitive_level: aplicar
   - id: mineralogia-m05-oa04
     statement: Construir e ler uma projeção estereográfica de faces e elementos de simetria na rede de Wulff
@@ -604,47 +615,113 @@ modules:
     statement: Medir ângulos interfaciais e entre direções com a rede de Wulff
     cognitive_level: aplicar
   lessons:
-    planned: 6
-    completed: 0
+    planned: 7
+    completed: 7
     items:
     - id: mineralogia-m05-a01
       title: Eixos cristalográficos e parâmetros de cela por sistema
-      status: pending
+      status: completed
+      file: 
+        05-miller-e-projecao/05-miller-e-projecao-aula-01-eixos-cristalograficos-e-parametros-de-cela-por-sistema.md
+      content_hash: be72164ca666d1056bb7787bea10d843a835771efd8846daec6a4662bae95c0d
+      palavras_corpo: 1595
       covers_objectives:
       - mineralogia-m05-oa01
     - id: mineralogia-m05-a02
       title: 'Índices de Miller: de interceptos a (hkl) e formas {hkl}'
-      status: pending
+      status: completed
+      file: 
+        05-miller-e-projecao/05-miller-e-projecao-aula-02-indices-de-miller-de-interceptos-a-hkl-e-formas.md
+      content_hash: bef404b25cda2bd3dacc53a2ab5e4f693e922faa8afbdcbca480a7832ff92c0b
+      palavras_corpo: 1275
       covers_objectives:
       - mineralogia-m05-oa02
     - id: mineralogia-m05-a03
       title: Direções [uvw] e o sistema hexagonal de Miller-Bravais (hkil)
-      status: pending
+      status: completed
+      file: 
+        05-miller-e-projecao/05-miller-e-projecao-aula-03-direcoes-uvw-e-o-sistema-hexagonal-de-miller-bravais-hkil.md
+      content_hash: ecb6b5f3dcc33ccbdf681c7b8303144ce4e786bfe28aac5ff860da61d12b3d99
+      palavras_corpo: 1274
       covers_objectives:
       - mineralogia-m05-oa02
     - id: mineralogia-m05-a04
       title: Zonas e a lei de Weiss
-      status: pending
+      status: completed
+      file: 05-miller-e-projecao/05-miller-e-projecao-aula-04-zonas-e-a-lei-de-weiss.md
+      content_hash: 2d93a66eba3874e668f3fa1cfaff9cd8e99ff1d39de3f087c677f5f906a2e6c5
+      palavras_corpo: 1253
       covers_objectives:
       - mineralogia-m05-oa03
     - id: mineralogia-m05-a05
       title: A projeção estereográfica e a rede de Wulff
-      status: pending
+      status: completed
+      file: 05-miller-e-projecao/05-miller-e-projecao-aula-05-a-projecao-estereografica-e-a-rede-de-wulff.md
+      content_hash: bef06ac74fc002b5eb2c0d72604a0174a70f211cbfda11d54a8126ba93d0e2bb
+      palavras_corpo: 1267
       covers_objectives:
       - mineralogia-m05-oa04
     - id: mineralogia-m05-a06
       title: 'Medir ângulos na rede de Wulff: faces, zonas e elementos de simetria'
-      status: pending
+      status: completed
+      file: 
+        05-miller-e-projecao/05-miller-e-projecao-aula-06-medir-angulos-na-rede-de-wulff-faces-zonas-e-elementos-de-simetria.md
+      content_hash: d73d1cf726228e335d4c8c8434666a8a2ab5465907d815d3e4e00b4041f08a53
+      palavras_corpo: 1213
       covers_objectives:
       - mineralogia-m05-oa05
+    - id: mineralogia-m05-a07
+      title: 'Simetria no estereograma: elementos e forma geral das classes'
+      status: completed
+      file: 
+        05-miller-e-projecao/05-miller-e-projecao-aula-07-simetria-no-estereograma-elementos-e-forma-geral-das-classes.md
+      content_hash: f9d091452eac5644c45175ab607b1d683f033b948c1597b8819633b4e678f2c0
+      palavras_corpo: 1191
+      covers_objectives:
+      - mineralogia-m05-oa04
   audit:
-    status: pending
+    status: approved
+    file: 05-miller-e-projecao/05-miller-e-projecao-auditoria.md
+    red: 0
+    orange: 2
+    yellow: 3
+    blue: 1
+    white: 0
+    open_findings: []
+    deferred_findings: []
+    audited_at: '2026-10-04'
   didactic_review:
-    status: pending
+    status: completed
+    file: 05-miller-e-projecao/05-miller-e-projecao-revisao-didatica.md
+    content_hash: 35609149183bbbcd561396c9c1843d0f86fb29ff32723182b681e7b10e473ba5
+    generated_at: '2026-10-04T23:10:00-03:00'
   assessment:
-    status: pending
+    status: completed
+    files:
+    - 05-miller-e-projecao/05-miller-e-projecao-questionario-parcial-1.md
+    - 05-miller-e-projecao/05-miller-e-projecao-questionario-parcial-2.md
+    - 05-miller-e-projecao/05-miller-e-projecao-questionario-final.md
+    questions: 30
+    points: 78
+    objectives_covered:
+    - mineralogia-m05-oa01
+    - mineralogia-m05-oa02
+    - mineralogia-m05-oa03
+    - mineralogia-m05-oa04
+    - mineralogia-m05-oa05
+    blueprint_complete: true
+    uncovered_objectives: []
+    generated_at: '2026-10-04'
   flashcards:
-    status: pending
+    status: completed
+    index_file: 05-miller-e-projecao/05-miller-e-projecao-flashcards.md
+    basic_file: 05-miller-e-projecao/05-miller-e-projecao-flashcards-basic.csv
+    cloze_file: 05-miller-e-projecao/05-miller-e-projecao-flashcards-cloze.csv
+    count_basic: 100
+    count_cloze: 18
+    last_id: 100
+    last_id_cloze: 18
+    generated_at: '2026-10-04T23:45:00-03:00'
 # trilha: nucleo (núcleo) — módulo 06
 - id: '06'
   slug: reticulo-e-cela
@@ -654,53 +731,101 @@ modules:
     retículos de Bravais e o conteúdo da cela (Z e densidade calculada).'
   prerequisites:
   - '05'
-  status: pending
+  status: completed
   learning_objectives:
   - id: mineralogia-m06-oa01
-    statement: Explicar a relação entre motivo, retículo e estrutura cristalina e as translações que geram um retículo
+    statement: Explicar a relação entre motivo, retículo e estrutura cristalina e as translações que geram um 
+      retículo
     cognitive_level: explicar
   - id: mineralogia-m06-oa02
-    statement: Identificar os 14 retículos de Bravais e justificar quais centragens são permitidas em cada sistema
+    statement: Identificar os 14 retículos de Bravais e justificar quais centragens são permitidas em cada 
+      sistema
     cognitive_level: aplicar
   - id: mineralogia-m06-oa03
-    statement: Calcular o número de fórmulas por cela (Z) e a densidade calculada de um mineral a partir dos parâmetros
-      de cela
+    statement: Calcular o número de fórmulas por cela (Z) e a densidade calculada de um mineral a partir dos 
+      parâmetros de cela
     cognitive_level: aplicar
   - id: mineralogia-m06-oa04
-    statement: Distinguir cela primitiva de cela convencional e justificar a escolha da cela convencional pela simetria
+    statement: Distinguir cela primitiva de cela convencional e justificar a escolha da cela convencional pela
+      simetria
     cognitive_level: analisar
   lessons:
     planned: 4
-    completed: 0
+    completed: 4
     items:
     - id: mineralogia-m06-a01
       title: 'Motivo, retículo e estrutura: a translação como operação'
-      status: pending
+      status: completed
+      file: 
+        06-reticulo-e-cela/06-reticulo-e-cela-aula-01-motivo-reticulo-e-estrutura-a-translacao-como-operacao.md
+      content_hash: 22d75edc09d92a2c6f5c3fba9f5283f37a5c046555fcef52deb797d6d5193e5b
+      palavras_corpo: 1160
       covers_objectives:
       - mineralogia-m06-oa01
     - id: mineralogia-m06-a02
       title: Cela primitiva e cela convencional
-      status: pending
+      status: completed
+      file: 06-reticulo-e-cela/06-reticulo-e-cela-aula-02-cela-primitiva-e-cela-convencional.md
+      content_hash: 397027b2e3a643414a98f6db73459d226a049679e2aa2a58f5e6a5b0e0690812
+      palavras_corpo: 1241
       covers_objectives:
       - mineralogia-m06-oa04
     - id: mineralogia-m06-a03
       title: Os 14 retículos de Bravais
-      status: pending
+      status: completed
+      file: 06-reticulo-e-cela/06-reticulo-e-cela-aula-03-os-14-reticulos-de-bravais.md
+      content_hash: 306502a1ccc9e4ef2e44c1cf5a3894e2311ecea80254ce56b9896b737744b336
+      palavras_corpo: 1189
       covers_objectives:
       - mineralogia-m06-oa02
     - id: mineralogia-m06-a04
       title: 'Conteúdo da cela: Z, volume e densidade calculada'
-      status: pending
+      status: completed
+      file: 06-reticulo-e-cela/06-reticulo-e-cela-aula-04-conteudo-da-cela-z-volume-e-densidade-calculada.md
+      content_hash: 265aaea347741279a73d4d3bfba18ca2160d08ab9452d464451e625cab277ec5
+      palavras_corpo: 1217
       covers_objectives:
       - mineralogia-m06-oa03
   audit:
-    status: pending
+    status: approved
+    file: 06-reticulo-e-cela/06-reticulo-e-cela-auditoria.md
+    red: 0
+    orange: 0
+    yellow: 4
+    blue: 0
+    white: 0
+    open_findings: []
+    deferred_findings: []
+    audited_at: '2026-10-04'
   didactic_review:
-    status: pending
+    status: completed
+    file: 06-reticulo-e-cela/06-reticulo-e-cela-revisao-didatica.md
+    content_hash: e23e8faceb104cc7bde0f6f58908ec8270d4a05aefb8923dd61d3dad4be17d95
+    generated_at: '2026-10-05T00:20:00-03:00'
   assessment:
-    status: pending
+    status: completed
+    files:
+    - 06-reticulo-e-cela/06-reticulo-e-cela-questionario-final.md
+    questions: 14
+    points: 39
+    objectives_covered:
+    - mineralogia-m06-oa01
+    - mineralogia-m06-oa02
+    - mineralogia-m06-oa03
+    - mineralogia-m06-oa04
+    blueprint_complete: true
+    uncovered_objectives: []
+    generated_at: '2026-10-04'
   flashcards:
-    status: pending
+    status: completed
+    index_file: 06-reticulo-e-cela/06-reticulo-e-cela-flashcards.md
+    basic_file: 06-reticulo-e-cela/06-reticulo-e-cela-flashcards-basic.csv
+    cloze_file: 06-reticulo-e-cela/06-reticulo-e-cela-flashcards-cloze.csv
+    count_basic: 58
+    count_cloze: 12
+    last_id: 58
+    last_id_cloze: 12
+    generated_at: '2026-10-05T00:50:00-03:00'
 # trilha: aprofundamento (aprofundamento) — módulo 07
 - id: '07'
   slug: grupos-espaciais

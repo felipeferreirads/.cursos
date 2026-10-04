@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 410" width="900" height="410">
+<title>Motivo e reticulo</title>
+<defs><marker id="arrb3261e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b3261e"/></marker></defs>
+<rect x="0" y="0" width="900" height="410" fill="#ffffff"/>
+<polygon points="30.00,320.00 44.00,316.00 40.00,310.00 50.00,298.00 34.00,308.00" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.6" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="52.00,268.00 66.00,264.00 62.00,258.00 72.00,246.00 56.00,256.00" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.6" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="74.00,216.00 88.00,212.00 84.00,206.00 94.00,194.00 78.00,204.00" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.6" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="96.00,164.00 110.00,160.00 106.00,154.00 116.00,142.00 100.00,152.00" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.6" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="118.00,112.00 132.00,108.00 128.00,102.00 138.00,90.00 122.00,100.00" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.6" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="92.00,320.00 106.00,316.00 102.00,310.00 112.00,298.00 96.00,308.00" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.6" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="114.00,268.00 128.00,264.00 124.00,258.00 134.00,246.00 118.00,256.00" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.6" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="136.00,216.00 150.00,212.00 146.00,206.00 156.00,194.00 140.00,204.00" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.6" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="158.00,164.00 172.00,160.00 168.00,154.00 178.00,142.00 162.00,152.00" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.6" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="180.00,112.00 194.00,108.00 190.00,102.00 200.00,90.00 184.00,100.00" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.6" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="154.00,320.00 168.00,316.00 164.00,310.00 174.00,298.00 158.00,308.00" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.6" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="176.00,268.00 190.00,264.00 186.00,258.00 196.00,246.00 180.00,256.00" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.6" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="198.00,216.00 212.00,212.00 208.00,206.00 218.00,194.00 202.00,204.00" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.6" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="220.00,164.00 234.00,160.00 230.00,154.00 240.00,142.00 224.00,152.00" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.6" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="242.00,112.00 256.00,108.00 252.00,102.00 262.00,90.00 246.00,100.00" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.6" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="216.00,320.00 230.00,316.00 226.00,310.00 236.00,298.00 220.00,308.00" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.6" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="238.00,268.00 252.00,264.00 248.00,258.00 258.00,246.00 242.00,256.00" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.6" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="260.00,216.00 274.00,212.00 270.00,206.00 280.00,194.00 264.00,204.00" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.6" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="282.00,164.00 296.00,160.00 292.00,154.00 302.00,142.00 286.00,152.00" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.6" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="304.00,112.00 318.00,108.00 314.00,102.00 324.00,90.00 308.00,100.00" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.6" stroke-width="1.3" stroke-linejoin="round"/>
+<text x="180.00" y="30.00" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">Estrutura (o que existe)</text>
+<circle cx="370.00" cy="320.00" r="4.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="392.00" cy="268.00" r="4.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="414.00" cy="216.00" r="4.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="436.00" cy="164.00" r="4.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="458.00" cy="112.00" r="4.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="432.00" cy="320.00" r="4.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="454.00" cy="268.00" r="4.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="476.00" cy="216.00" r="4.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="498.00" cy="164.00" r="4.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="520.00" cy="112.00" r="4.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="494.00" cy="320.00" r="4.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="516.00" cy="268.00" r="4.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="538.00" cy="216.00" r="4.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="560.00" cy="164.00" r="4.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="582.00" cy="112.00" r="4.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="556.00" cy="320.00" r="4.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="578.00" cy="268.00" r="4.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="600.00" cy="216.00" r="4.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="622.00" cy="164.00" r="4.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="644.00" cy="112.00" r="4.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<line x1="370.00" y1="320.00" x2="432.00" y2="320.00" stroke="#b3261e" stroke-width="2.4" marker-end="url(#arrb3261e)"/>
+<line x1="370.00" y1="320.00" x2="392.00" y2="268.00" stroke="#b3261e" stroke-width="2.4" marker-end="url(#arrb3261e)"/>
+<text x="400.00" y="340.00" font-size="15" fill="#b3261e" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">t₁</text>
+<text x="366.00" y="286.00" font-size="15" fill="#b3261e" text-anchor="end" font-weight="bold" font-family="Helvetica, Arial, sans-serif">t₂</text>
+<text x="500.00" y="30.00" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">Retículo (pontos equivalentes)</text>
+<polygon points="760.00,210.00 793.60,200.40 784.00,186.00 808.00,157.20 769.60,181.20" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.6" stroke-width="1.3" stroke-linejoin="round"/>
+<circle cx="760.00" cy="210.00" r="4.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<text x="760.00" y="30.00" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">Motivo</text>
+<text x="780.00" y="280.00" font-size="12.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-family="Helvetica, Arial, sans-serif">o grupo de átomos que se repete;</text>
+<text x="780.00" y="298.00" font-size="12.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-family="Helvetica, Arial, sans-serif">o ponto marca um lugar escolhido</text>
+<text x="780.00" y="316.00" font-size="12.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-family="Helvetica, Arial, sans-serif">no motivo (qualquer um serve,</text>
+<text x="780.00" y="334.00" font-size="12.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-family="Helvetica, Arial, sans-serif">desde que o mesmo em todos)</text>
+<text x="450.00" y="398.00" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-family="Helvetica, Arial, sans-serif">estrutura = retículo + motivo   ·   todo ponto do retículo = n₁·t₁ + n₂·t₂ (n inteiros)</text>
+</svg>

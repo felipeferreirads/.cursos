@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420">
+<title>Celas primitiva e convencional</title>
+<defs></defs>
+<rect x="0" y="0" width="760" height="420" fill="#ffffff"/>
+<circle cx="45.00" cy="390.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="45.00" cy="330.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="45.00" cy="270.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="45.00" cy="210.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="45.00" cy="150.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="45.00" cy="90.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="135.00" cy="390.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="90.00" cy="360.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="135.00" cy="330.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="90.00" cy="300.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="135.00" cy="270.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="90.00" cy="240.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="135.00" cy="210.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="90.00" cy="180.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="135.00" cy="150.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="90.00" cy="120.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="135.00" cy="90.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="90.00" cy="60.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="225.00" cy="390.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="180.00" cy="360.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="225.00" cy="330.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="180.00" cy="300.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="225.00" cy="270.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="180.00" cy="240.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="225.00" cy="210.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="180.00" cy="180.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="225.00" cy="150.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="180.00" cy="120.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="225.00" cy="90.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="180.00" cy="60.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="315.00" cy="390.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="270.00" cy="360.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="315.00" cy="330.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="270.00" cy="300.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="315.00" cy="270.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="270.00" cy="240.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="315.00" cy="210.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="270.00" cy="180.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="315.00" cy="150.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="270.00" cy="120.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="315.00" cy="90.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="270.00" cy="60.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="405.00" cy="390.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="360.00" cy="360.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="405.00" cy="330.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="360.00" cy="300.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="405.00" cy="270.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="360.00" cy="240.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="405.00" cy="210.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="360.00" cy="180.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="405.00" cy="150.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="360.00" cy="120.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="405.00" cy="90.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="360.00" cy="60.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="495.00" cy="390.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="450.00" cy="360.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="495.00" cy="330.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="450.00" cy="300.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="495.00" cy="270.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="450.00" cy="240.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="495.00" cy="210.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="450.00" cy="180.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="495.00" cy="150.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="450.00" cy="120.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="495.00" cy="90.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="450.00" cy="60.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="585.00" cy="390.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="540.00" cy="360.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="585.00" cy="330.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="540.00" cy="300.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="585.00" cy="270.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="540.00" cy="240.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="585.00" cy="210.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="540.00" cy="180.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="585.00" cy="150.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="540.00" cy="120.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="585.00" cy="90.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="540.00" cy="60.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="675.00" cy="390.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="630.00" cy="360.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="675.00" cy="330.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="630.00" cy="300.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="675.00" cy="270.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="630.00" cy="240.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="675.00" cy="210.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="630.00" cy="180.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="675.00" cy="150.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="630.00" cy="120.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="675.00" cy="90.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="630.00" cy="60.00" r="4.20" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<polygon points="180.00,300.00 270.00,300.00 270.00,240.00 180.00,240.00" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.12" stroke-width="2.6" stroke-linejoin="round"/>
+<text x="225.00" y="320.00" font-size="12.5" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">convencional (centrada): 2 pontos</text>
+<polygon points="450.00,240.00 495.00,210.00 540.00,240.00 495.00,270.00" stroke="#b3261e" fill="#b3261e" fill-opacity="0.12" stroke-width="2.6" stroke-linejoin="round"/>
+<text x="495.00" y="288.00" font-size="12.5" fill="#b3261e" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">primitiva (losango): 1 ponto</text>
+<polygon points="450.00,120.00 540.00,120.00 585.00,90.00 495.00,90.00" stroke="#2e7d32" fill="#2e7d32" fill-opacity="0.12" stroke-width="2.6" stroke-linejoin="round"/>
+<text x="517.50" y="138.00" font-size="12.5" fill="#2e7d32" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">primitiva oblíqua: 1 ponto</text>
+<text x="380.00" y="28.00" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">Um mesmo retículo, várias celas possíveis (retículo retangular centrado)</text>
+</svg>

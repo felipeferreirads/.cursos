@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" width="900" height="640">
+<title>Eixos cristalográficos dos sistemas</title>
+<defs><marker id="arr1f5fa8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f5fa8"/></marker></defs>
+<rect x="0" y="0" width="900" height="640" fill="#ffffff"/>
+<text x="150.00" y="30.00" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">Cúbico</text>
+<line x1="178.74" y1="158.28" x2="150.00" y2="175.00" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="150.00" y1="175.00" x2="97.75" y2="205.40" stroke="#1f5fa8" stroke-width="2" marker-end="url(#arr1f5fa8)"/>
+<text x="88.34" y="215.87" font-size="14" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">+a₁</text>
+<line x1="97.75" y1="175.00" x2="150.00" y2="175.00" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="150.00" y1="175.00" x2="245.00" y2="175.00" stroke="#1f5fa8" stroke-width="2" marker-end="url(#arr1f5fa8)"/>
+<text x="262.10" y="180.00" font-size="14" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">+a₂</text>
+<line x1="150.00" y1="227.25" x2="150.00" y2="175.00" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="150.00" y1="175.00" x2="150.00" y2="80.00" stroke="#1f5fa8" stroke-width="2" marker-end="url(#arr1f5fa8)"/>
+<text x="150.00" y="67.90" font-size="14" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">+a₃</text>
+<text x="150.00" y="285.00" font-size="12.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-family="Helvetica, Arial, sans-serif">a₁ = a₂ = a₃ ; α = β = γ = 90°</text>
+<text x="450.00" y="30.00" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">Tetragonal</text>
+<line x1="478.74" y1="158.28" x2="450.00" y2="175.00" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="450.00" y1="175.00" x2="397.75" y2="205.40" stroke="#1f5fa8" stroke-width="2" marker-end="url(#arr1f5fa8)"/>
+<text x="388.35" y="215.87" font-size="14" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">+a₁</text>
+<line x1="397.75" y1="175.00" x2="450.00" y2="175.00" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="450.00" y1="175.00" x2="545.00" y2="175.00" stroke="#1f5fa8" stroke-width="2" marker-end="url(#arr1f5fa8)"/>
+<text x="562.10" y="180.00" font-size="14" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">+a₂</text>
+<line x1="450.00" y1="242.93" x2="450.00" y2="175.00" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="450.00" y1="175.00" x2="450.00" y2="51.50" stroke="#1f5fa8" stroke-width="2" marker-end="url(#arr1f5fa8)"/>
+<text x="450.00" y="34.27" font-size="14" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">+c</text>
+<text x="450.00" y="285.00" font-size="12.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-family="Helvetica, Arial, sans-serif">a₁ = a₂ ≠ c ; α = β = γ = 90°</text>
+<text x="750.00" y="30.00" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">Ortorrômbico</text>
+<line x1="772.99" y1="161.62" x2="750.00" y2="175.00" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="750.00" y1="175.00" x2="708.20" y2="199.32" stroke="#1f5fa8" stroke-width="2" marker-end="url(#arr1f5fa8)"/>
+<text x="700.68" y="208.70" font-size="14" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">+a</text>
+<line x1="684.69" y1="175.00" x2="750.00" y2="175.00" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="750.00" y1="175.00" x2="868.75" y2="175.00" stroke="#1f5fa8" stroke-width="2" marker-end="url(#arr1f5fa8)"/>
+<text x="890.12" y="180.00" font-size="14" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">+b</text>
+<line x1="750.00" y1="227.25" x2="750.00" y2="175.00" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="750.00" y1="175.00" x2="750.00" y2="80.00" stroke="#1f5fa8" stroke-width="2" marker-end="url(#arr1f5fa8)"/>
+<text x="750.00" y="67.90" font-size="14" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">+c</text>
+<text x="750.00" y="285.00" font-size="12.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-family="Helvetica, Arial, sans-serif">a ≠ b ≠ c ; α = β = γ = 90°</text>
+<text x="150.00" y="330.00" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">Monoclínico</text>
+<line x1="174.54" y1="438.96" x2="150.00" y2="475.00" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="150.00" y1="475.00" x2="105.39" y2="540.52" stroke="#1f5fa8" stroke-width="2" marker-end="url(#arr1f5fa8)"/>
+<text x="97.36" y="557.31" font-size="14" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">+a</text>
+<line x1="87.30" y1="475.00" x2="150.00" y2="475.00" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="150.00" y1="475.00" x2="264.00" y2="475.00" stroke="#1f5fa8" stroke-width="2" marker-end="url(#arr1f5fa8)"/>
+<text x="284.52" y="480.00" font-size="14" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">+b</text>
+<line x1="150.00" y1="527.25" x2="150.00" y2="475.00" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="150.00" y1="475.00" x2="150.00" y2="380.00" stroke="#1f5fa8" stroke-width="2" marker-end="url(#arr1f5fa8)"/>
+<text x="150.00" y="367.90" font-size="14" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">+c</text>
+<text x="150.00" y="585.00" font-size="12.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-family="Helvetica, Arial, sans-serif">a ≠ b ≠ c ; α = γ = 90°, β > 90°</text>
+<text x="450.00" y="330.00" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">Triclínico</text>
+<line x1="476.97" y1="448.31" x2="450.00" y2="475.00" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="450.00" y1="475.00" x2="400.96" y2="523.53" stroke="#1f5fa8" stroke-width="2" marker-end="url(#arr1f5fa8)"/>
+<text x="392.13" y="537.27" font-size="14" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">+a</text>
+<line x1="388.25" y1="485.89" x2="450.00" y2="475.00" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="450.00" y1="475.00" x2="562.27" y2="455.20" stroke="#1f5fa8" stroke-width="2" marker-end="url(#arr1f5fa8)"/>
+<text x="582.48" y="456.64" font-size="14" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">+b</text>
+<line x1="450.00" y1="527.25" x2="450.00" y2="475.00" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="450.00" y1="475.00" x2="450.00" y2="380.00" stroke="#1f5fa8" stroke-width="2" marker-end="url(#arr1f5fa8)"/>
+<text x="450.00" y="367.90" font-size="14" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">+c</text>
+<text x="450.00" y="585.00" font-size="12.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-family="Helvetica, Arial, sans-serif">a ≠ b ≠ c ; α ≠ β ≠ γ (nenhum = 90°)</text>
+<text x="750.00" y="330.00" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">Hexagonal e trigonal (Miller-Bravais)</text>
+<line x1="829.77" y1="460.34" x2="750.00" y2="475.00" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="750.00" y1="475.00" x2="643.64" y2="494.54" stroke="#1f5fa8" stroke-width="2" marker-end="url(#arr1f5fa8)"/>
+<text x="622.37" y="503.45" font-size="14" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">+a₁</text>
+<line x1="696.45" y1="467.20" x2="750.00" y2="475.00" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="750.00" y1="475.00" x2="821.40" y2="485.40" stroke="#1f5fa8" stroke-width="2" marker-end="url(#arr1f5fa8)"/>
+<text x="835.68" y="492.48" font-size="14" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">+a₂</text>
+<line x1="723.78" y1="497.45" x2="750.00" y2="475.00" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="750.00" y1="475.00" x2="784.96" y2="445.06" stroke="#1f5fa8" stroke-width="2" marker-end="url(#arr1f5fa8)"/>
+<text x="791.95" y="444.07" font-size="14" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">+a₃</text>
+<line x1="750.00" y1="475.00" x2="750.00" y2="351.50" stroke="#1f5fa8" stroke-width="2" marker-end="url(#arr1f5fa8)"/>
+<text x="754.00" y="345.50" font-size="14" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">+c</text>
+<text x="750.00" y="570.00" font-size="12.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-family="Helvetica, Arial, sans-serif">a₁ = a₂ = a₃ ≠ c ; a's a 120° entre si,</text>
+<text x="750.00" y="587.00" font-size="12.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-family="Helvetica, Arial, sans-serif">c perpendicular a eles (α = β = 90°, γ = 120°)</text>
+</svg>

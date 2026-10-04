@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "05-miller-e-projecao",
+    "module_id": "05",
+    "course_id": "mineralogia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-10-04",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 2,
+    "yellow": 3,
+    "blue": 1,
+    "white": 0,
+    "verified_ok": 42
+  },
+  "findings": [
+    {
+      "claim_id": "CRI-EIX-POSICAO-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "No cubico, eixos ao longo dos tres eixos 4 (ou dos eixos 2 nas classes 23 e m3-barra)",
+      "location": {
+        "file": "05-miller-e-projecao/05-miller-e-projecao-aula-01-eixos-cristalograficos-e-parametros-de-cela-por-sistema.md",
+        "section": "A tabela que esta aula entrega",
+        "quote": "ao longo dos tres eixos 4 (ou dos tres eixos 2, nas classes 23 e m3-barra, que nao tem eixo 4)"
+      },
+      "problem": "A classe 4-barra 3m (esfalerita, tetraedrita) tem eixos 4-barra e nao eixos 4; os eixos cristalograficos ficam ao longo deles.",
+      "replacement": "ao longo dos tres eixos 4 ou 4-barra (ou dos tres eixos 2, nas classes 23 e m3-barra, que nao tem nem 4 nem 4-barra)",
+      "source": {
+        "name": "International Tables for Crystallography, vol. A",
+        "tier": "normative",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "05-miller-e-projecao/05-miller-e-projecao-aula-01-eixos-cristalograficos-e-parametros-de-cela-por-sistema.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "CRI-EIX-RAZAO-001",
+      "severity": "yellow",
+      "kind": "erro_factual",
+      "claim": "os angulos entre faces equivalentes de halita, fluorita e galena sao exatamente os mesmos",
+      "location": {
+        "file": "05-miller-e-projecao/05-miller-e-projecao-aula-01-eixos-cristalograficos-e-parametros-de-cela-por-sistema.md",
+        "section": "Razao axial e lei de Steno",
+        "quote": "os angulos entre faces equivalentes de halita, fluorita e galena"
+      },
+      "problem": "O ponto e o angulo entre faces de mesmos indices em minerais cubicos diferentes, nao entre faces equivalentes.",
+      "replacement": "o angulo entre duas faces de mesmos indices, como (100) e (111), e exatamente o mesmo na halita, na fluorita e na galena",
+      "source": {
+        "name": "calculo (produto escalar no cubico)",
+        "tier": "general",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "05-miller-e-projecao/05-miller-e-projecao-aula-01-eixos-cristalograficos-e-parametros-de-cela-por-sistema.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "CRI-MB-INDICE-001",
+      "severity": "yellow",
+      "kind": "inconsistencia_interna",
+      "claim": "indices de Miller-Bravais (hkil) sem o sinonimo Bravais-Miller",
+      "location": {
+        "file": "05-miller-e-projecao/05-miller-e-projecao-aula-03-direcoes-uvw-e-o-sistema-hexagonal-de-miller-bravais-hkil.md",
+        "section": "Vocabulario desta aula",
+        "quote": "indices de Miller-Bravais (hkil)"
+      },
+      "problem": "A auditoria do m04 reservou Bravais-Miller para hkil; os dois nomes circulam e precisam ser ligados.",
+      "replacement": "(tambem chamados de Bravais-Miller)",
+      "source": {
+        "name": "IUCr Online Dictionary of Crystallography",
+        "tier": "normative",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "05-miller-e-projecao/05-miller-e-projecao-aula-03-direcoes-uvw-e-o-sistema-hexagonal-de-miller-bravais-hkil.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "CRI-WUL-REDE-001",
+      "severity": "yellow",
+      "kind": "certeza_indevida",
+      "claim": "Redes impressas para uso tem linhas a cada 2 graus",
+      "location": {
+        "file": "05-miller-e-projecao/05-miller-e-projecao-aula-06-medir-angulos-na-rede-de-wulff-faces-zonas-e-elementos-de-simetria.md",
+        "section": "Como a rede funciona",
+        "quote": "Redes impressas para uso tem linhas a cada 2 graus"
+      },
+      "problem": "2 graus e o espacamento usual, nao regra.",
+      "replacement": "Redes impressas para uso costumam ter linhas a cada 2 graus",
+      "source": {
+        "name": "Whittaker, The Stereographic Projection (IUCr pamphlet 11)",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "05-miller-e-projecao/05-miller-e-projecao-aula-06-medir-angulos-na-rede-de-wulff-faces-zonas-e-elementos-de-simetria.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "CRI-EIX-BETA-001",
+      "severity": "blue",
+      "kind": "evidencia_insuficiente",
+      "claim": "parametros de feldspatos, piroxenios e micas aparecem sempre com beta entre 90 e 130 graus",
+      "location": {
+        "file": "05-miller-e-projecao/05-miller-e-projecao-aula-01-eixos-cristalograficos-e-parametros-de-cela-por-sistema.md",
+        "section": "A tabela que esta aula entrega (observacoes)",
+        "quote": "Por isso os parametros de feldspatos, piroxenios e micas aparecem sempre com um beta entre 90 e 130 graus."
+      },
+      "problem": "Generalizacao nao conferida especie a especie; so o ortoclasio foi conferido.",
+      "replacement": "como os 116,1 graus do ortoclasio na tabela abaixo",
+      "source": {
+        "name": "Handbook of Mineralogy (ortoclasio)",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "nao_verificado",
+      "affected_files": [
+        "05-miller-e-projecao/05-miller-e-projecao-aula-01-eixos-cristalograficos-e-parametros-de-cela-por-sistema.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "CRI-EIX-PARAM-001",
+      "severity": "orange",
+      "kind": "evidencia_insuficiente",
+      "claim": "ortoclasio: a = 8,563; b = 12,963; c = 7,299 A; beta = 116,1",
+      "location": {
+        "file": "05-miller-e-projecao/05-miller-e-projecao-aula-01-eixos-cristalograficos-e-parametros-de-cela-por-sistema.md",
+        "section": "Minerais reais, numeros reais; Exemplo trabalhado (B)",
+        "quote": "ortoclasio | monoclinico | a = 8,563 A; b = 12,963 A; c = 7,299 A; beta = 116,1"
+      },
+      "problem": "c = 7,299 nao fecha com a densidade calculada do HoM (2,563) nem com o volume listado; outras determinacoes dao c ~ 7,20 A; valor nao confirmado na fonte.",
+      "replacement": "diopsidio: a = 9,746; b = 8,899; c = 5,251 A; beta = 105,63",
+      "source": {
+        "name": "Handbook of Mineralogy (diopsidio; ortoclasio D(calc) 2,563), por busca",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "05-miller-e-projecao/05-miller-e-projecao-aula-01-eixos-cristalograficos-e-parametros-de-cela-por-sistema.md",
+        "05-miller-e-projecao/05-miller-e-projecao-questionario-final.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "CRI-EIX-ANGULOS-001",
+      "claim": "alfa e o angulo entre b e c; beta entre a e c; gama entre a e b.",
+      "source": "International Tables vol. A; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-EIX-TABELA-001",
+      "claim": "Relacoes de parametros por sistema (cubico a=a=a, 90; tetragonal a=a!=c, 90; ortorrombico a!=b!=c, 90; hexagonal/trigonal a=a!=c, alfa=beta=90, gama=120; monoclinico alfa=gama=90, beta!=90; triclinico nenhum imposto) e numero de parametros independentes 1, 2, 3, 2, 4, 6.",
+      "source": "International Tables vol. A; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-EIX-RUTILO-001",
+      "claim": "Rutilo: a = 4,594, c = 2,959 angstrom, tetragonal.",
+      "source": "Handbook of Mineralogy (a = 4,5937, c = 2,9587)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-EIX-ROMB-001",
+      "claim": "Minerais trigonais podem ser descritos por eixos romboedricos a=b=c, alfa=beta=gama!=90.",
+      "source": "International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-MIL-HIST-001",
+      "claim": "Parametros de Weiss (Christian Samuel Weiss, inicio do seculo XIX); indices de Miller propostos por William Hallowes Miller em 1839 (A Treatise on Crystallography, Cambridge).",
+      "source": "Miller (1839); biografias (Britannica, Oxford Reference) por busca",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-MIL-RECEITA-001",
+      "claim": "Indices de Miller = inversos dos interceptos em unidades de a, b, c, reduzidos aos menores inteiros; paralelo = 0; negativo com barra.",
+      "source": "Klein & Dutrow; IUCr Online Dictionary",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-MIL-EXEMPLOS-001",
+      "claim": "1a:2b:inf c -> (210); 2a:3b:6c -> (321); 1a:-1b:1/2c -> (1 -1 2); 2a:inf b:-1c -> (1 0 -2); (231) -> 3a:2b:6c.",
+      "source": "calculo (conferido em Python, fracoes exatas)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-MIL-FORMAS-001",
+      "claim": "Em m3-barra m: {100} cubo 6 faces; {111} octaedro 8; {110} dodecaedro rombico 12; {hkl} geral 48.",
+      "source": "International Tables vol. A; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-MIL-PIRITOEDRO-001",
+      "claim": "{210} na classe m3-barra e o piritoedro de 12 faces pentagonais; em m3-barra m, {210} e o tetra-hexaedro de 24 faces.",
+      "source": "Klein & Dutrow; International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-MIL-ZIRCAO-001",
+      "claim": "Zircao: prisma {100} ou {110} (4 faces cada), bipiramide {101} (8 faces).",
+      "source": "Klein & Dutrow; Handbook of Mineralogy (formas do zircao)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-MIL-INDBAIXO-001",
+      "claim": "Empiricamente, as faces mais comuns tem indices baixos.",
+      "source": "Klein & Dutrow (lei de Bravais-Friedel-Donnay-Harker, tratada no modulo 25)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-DIR-NOTACAO-001",
+      "claim": "(hkl) face, {hkl} forma, [uvw] direcao, <uvw> familia de direcoes; direcao = u a + v b + w c, sem inversao.",
+      "source": "IUCr Online Dictionary; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-DIR-NORMAL-001",
+      "claim": "[hkl] perpendicular a (hkl) no cubico; no tetragonal [001] perpendicular a (001) mas [101] nao e perpendicular a (101) (salvo c = a); no monoclinico [001] nao e perpendicular a (001).",
+      "source": "geometria dos eixos; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-MB-BRAVAIS-001",
+      "claim": "O uso dos quatro eixos (indices de quatro numeros) e atribuido a Bravais.",
+      "source": "IUCr Online Dictionary (Miller-Bravais indices)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-MB-QUARTZO-001",
+      "claim": "Quartzo: prisma m {10-10}, romboedros r {10-11} e z {01-11}.",
+      "source": "Klein & Dutrow; Frondel (Dana's System vol. III)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-MB-DIRECAO-001",
+      "claim": "Direcoes de quatro indices [uvtw] com u+v+t = 0; conversao U = u - t, V = v - t, W = w; a1 = [100] = [2 -1 -1 0]; apagar t nao da a direcao certa.",
+      "source": "International Tables vol. A; calculo conferido em Python",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-MB-CALCITA-001",
+      "claim": "Clivagem da calcita {10-14} na cela estrutural (c ~17,06 A); {10-11} na cela morfologica antiga, de c quatro vezes menor.",
+      "source": "Handbook of Mineralogy (cela R-3c); calculo: c_estrutural/c_morfologico = 4",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-MB-FORMA-001",
+      "claim": "{10-11} e romboedro de 6 faces em 3-barra m e 32 e bipiramide de 12 faces em 6/mmm.",
+      "source": "International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ZON-DEF-001",
+      "claim": "Zona: faces cujas arestas de intersecao sao paralelas a uma direcao comum, o eixo de zona [uvw]; faces tautozonais.",
+      "source": "Klein & Dutrow; IUCr Online Dictionary",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ZON-WEISS-001",
+      "claim": "Lei das zonas (Weiss): (hkl) pertence a [uvw] sse hu + kv + lw = 0; vale em qualquer sistema; deducao pelo plano hx + ky + lz = 0.",
+      "source": "Klein & Dutrow; International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ZON-CRUZ-001",
+      "claim": "Eixo de zona de duas faces: u = k1 l2 - l1 k2, v = l1 h2 - h1 l2, w = h1 k2 - k1 h2; a mesma regra aplicada a dois eixos da a face comum.",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ZON-ADICAO-001",
+      "claim": "Regra da adicao: se duas faces estao numa zona, a soma dos indices e face da mesma zona, situada entre elas.",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ZON-EXEMPLO-001",
+      "claim": "(100)x(111) -> [0 -1 1]; (011) na zona, (110) nao; (100)+(011) = (111); face comum a [0-11] e [001] = (100).",
+      "source": "calculo conferido em Python",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ZON-QUARTZO-001",
+      "claim": "Quartzo: r(101) e z(011) tem eixo de zona [-1 -1 1]; (1-10), i.e. m(1-100), esta na zona; (100), i.e. m(10-10), nao.",
+      "source": "calculo conferido em Python e no estereograma calculado (figura 8)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-EST-CONSTR-001",
+      "claim": "Projecao estereografica: normal da face -> polo esferico -> ligacao ao polo oposto -> ponto no plano do equador; r = R tan(rho/2).",
+      "source": "Whittaker (IUCr pamphlet 11); Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-EST-TABELA-001",
+      "claim": "r/R = 0; 0,268; 0,414; 0,518; 0,577; 1 para rho = 0, 30, 45, 54,7, 60, 90 graus.",
+      "source": "calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-EST-SIMBOLOS-001",
+      "claim": "Polo superior ponto cheio; polo inferior circulo aberto; polos do primitivo pertencem aos dois hemisferios.",
+      "source": "Klein & Dutrow; Whittaker",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-EST-CONV-001",
+      "claim": "c no centro; (010) a direita; (100) embaixo; phi medido a partir de (010) no sentido horario; rho medido a partir de c.",
+      "source": "Nelson (Tulane, EENS 211) por busca; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-EST-PROPR-001",
+      "claim": "Grandes circulos: verticais como diametros, horizontal como primitivo, inclinados como arcos que cortam o primitivo em pontos diametralmente opostos; circulos viram circulos; faces tautozonais num grande circulo.",
+      "source": "Whittaker; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-EST-WULFF-001",
+      "claim": "Rede de Wulff proposta por G. (Yu.) V. Wulff em 1902; rede de Schmidt e de igual area, usada em geologia estrutural.",
+      "source": "IUCr Newsletter 30(2) (Wulff); Whittaker",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-EST-111-001",
+      "claim": "Cubico: (111) rho = 54,7, phi = 45, r = 0,518 R; (011) rho = 45, phi = 0; (101) rho = 45, phi = 90; r = 0,414 R; (001), (011), (010) na zona [100].",
+      "source": "calculo conferido em Python",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-WUL-PROC-001",
+      "claim": "Angulos so ao longo de grandes circulos; gira-se o overlay, nao a rede; polo de zona a 90 graus ao longo do diametro L-O; angulo entre zonas = angulo entre seus polos.",
+      "source": "Whittaker; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-WUL-CUBICO-001",
+      "claim": "Cubico: (100)^(111) = 54,7; (100)^(110) = 45; (111)^(11-1) = 70,5; (110)^(011) = 60 graus; independem do mineral.",
+      "source": "calculo conferido em Python",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-WUL-QUARTZO-001",
+      "claim": "Quartzo (a = 4,9133, c = 5,4053): rho(r) = 51,8; m^r = 38,2; r^z = 46,3; r^r' = 85,8 graus; valores classicos 38 13', 46 16', 85 46'.",
+      "source": "calculo a partir do HoM; valores classicos de Dana (memoria de dominio, a conferir pelo auditor)",
+      "confidence": "provavel"
+    },
+    {
+      "claim_id": "CRI-WUL-ZONARZ-001",
+      "claim": "A zona r(10-11)-z(01-11) contem m(1-100) e m(-1100).",
+      "source": "calculo (lei das zonas) e estereograma calculado",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-WUL-INTERNO-001",
+      "claim": "Angulo interno = 180 - angulo entre normais; m-r interno = 141,8 graus.",
+      "source": "modulo 04, aula 01; calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ESS-SIMBOLOS-001",
+      "claim": "Simbolos graficos: espelho = grande circulo cheio; primitivo cheio se ha espelho horizontal; eixo 2 elipse, 3 triangulo, 4 quadrado, 6 hexagono; rotoinversoes com simbolos compostos.",
+      "source": "International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ESS-HEMISF-001",
+      "claim": "Trocam o hemisferio: espelho horizontal, eixo 2 horizontal, centro, rotoinversoes; nao trocam: rotacoes em torno do eixo vertical e espelhos verticais.",
+      "source": "geometria das operacoes; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ESS-FORMAS-001",
+      "claim": "Forma geral: 2/m 4 polos (2 cheios, 2 abertos, b horizontal); mm2 4 cheios; 4/mmm 16 (8 sobre 8); 4/m 8 (4 sobre 4); 4mm 8 cheios; 422 4 cheios + 4 abertos deslocados; 4-barra 2 cheios + 2 abertos alternados a 90; 6-barra = 3/m 3 cheios sobre 3 abertos.",
+      "source": "International Tables vol. A; calculo de fechamento de grupo em Python",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ESS-POLAR-001",
+      "claim": "mm2 e classe polar; hemimorfita e mm2 (Imm2).",
+      "source": "modulo 04 (auditoria: hemimorfita Imm2; 10 classes polares)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ESS-CUBO-001",
+      "claim": "Em m3-barra m: 9 espelhos (primitivo + 8 grandes circulos no estereograma padrao); eixos 4 nos polos de {100}, 3 nos de {111}, 2 nos de {110}.",
+      "source": "International Tables vol. A; figura 6 calculada",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ESS-HALITA-001",
+      "claim": "O cubo {100} e forma especial de m3-barra m.",
+      "source": "modulo 04, aula 07",
+      "confidence": "confirmado"
+    }
+  ]
+}

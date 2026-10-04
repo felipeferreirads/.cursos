@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380">
+<title>Tetragonal C e P</title>
+<defs></defs>
+<rect x="0" y="0" width="760" height="380" fill="#ffffff"/>
+<circle cx="120.00" cy="320.00" r="5.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="120.00" cy="210.00" r="5.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="120.00" cy="100.00" r="5.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="230.00" cy="320.00" r="5.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="230.00" cy="210.00" r="5.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="230.00" cy="100.00" r="5.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="340.00" cy="320.00" r="5.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="340.00" cy="210.00" r="5.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="340.00" cy="100.00" r="5.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<circle cx="175.00" cy="265.00" r="5.00" stroke="#b3261e" fill="#b3261e" stroke-width="1.5"/>
+<circle cx="175.00" cy="155.00" r="5.00" stroke="#b3261e" fill="#b3261e" stroke-width="1.5"/>
+<circle cx="285.00" cy="265.00" r="5.00" stroke="#b3261e" fill="#b3261e" stroke-width="1.5"/>
+<circle cx="285.00" cy="155.00" r="5.00" stroke="#b3261e" fill="#b3261e" stroke-width="1.5"/>
+<polygon points="120.00,320.00 230.00,320.00 230.00,210.00 120.00,210.00" stroke="#1f5fa8" fill="#1f5fa8" fill-opacity="0.08" stroke-width="2.6" stroke-linejoin="round"/>
+<polygon points="230.00,320.00 285.00,265.00 230.00,210.00 175.00,265.00" stroke="#b3261e" fill="#b3261e" fill-opacity="0.1" stroke-width="2.6" stroke-linejoin="round"/>
+<text x="175.00" y="344.00" font-size="12.5" fill="#1f5fa8" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">"tetragonal C": a, 2 pontos</text>
+<text x="300.00" y="140.00" font-size="12.5" fill="#b3261e" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">tP menor: a/√2, 1 ponto</text>
+<text x="250.00" y="28.00" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">Vista de cima (ao longo de c)</text>
+<text x="480.00" y="90.00" font-size="13.5" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-family="Helvetica, Arial, sans-serif">Centrar a base de um quadrado</text>
+<text x="480.00" y="114.00" font-size="13.5" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-family="Helvetica, Arial, sans-serif">dá de novo um retículo de quadrados,</text>
+<text x="480.00" y="138.00" font-size="13.5" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-family="Helvetica, Arial, sans-serif">só que menor e girado 45°.</text>
+<text x="480.00" y="162.00" font-size="13.5" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-family="Helvetica, Arial, sans-serif">O eixo 4 continua o mesmo, então</text>
+<text x="480.00" y="186.00" font-size="13.5" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-family="Helvetica, Arial, sans-serif">a cela menor já é tetragonal:</text>
+<text x="480.00" y="210.00" font-size="13.5" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-family="Helvetica, Arial, sans-serif">"tetragonal C" = tetragonal P.</text>
+<text x="480.00" y="234.00" font-size="13.5" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-family="Helvetica, Arial, sans-serif"></text>
+<text x="480.00" y="258.00" font-size="13.5" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-family="Helvetica, Arial, sans-serif">Por isso a lista tem 14</text>
+<text x="480.00" y="282.00" font-size="13.5" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-family="Helvetica, Arial, sans-serif">retículos, não 7 × 4 = 28.</text>
+</svg>

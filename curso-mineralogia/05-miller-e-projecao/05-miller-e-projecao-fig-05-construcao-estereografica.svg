@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" width="640" height="470">
+<title>Construcao da projecao estereografica</title>
+<defs><marker id="arrb3261e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b3261e"/></marker></defs>
+<rect x="0" y="0" width="640" height="470" fill="#ffffff"/>
+<circle cx="300.00" cy="245.00" r="175.00" stroke="#1a1a1a" fill="none" stroke-width="2"/>
+<line x1="85.00" y1="245.00" x2="515.00" y2="245.00" stroke="#9a9a9a" stroke-width="1.5"/>
+<text x="517.00" y="239.00" font-size="12" fill="#9a9a9a" text-anchor="start" font-weight="normal" font-family="Helvetica, Arial, sans-serif">plano do equador</text>
+<text x="517.00" y="255.00" font-size="12" fill="#9a9a9a" text-anchor="start" font-weight="normal" font-family="Helvetica, Arial, sans-serif">(plano de projeção)</text>
+<line x1="300.00" y1="45.00" x2="300.00" y2="445.00" stroke="#9a9a9a" stroke-width="1" stroke-dasharray="4,3"/>
+<circle cx="300.00" cy="70.00" r="4.00" stroke="#1a1a1a" fill="#1a1a1a" stroke-width="1.5"/>
+<text x="310.00" y="62.00" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">N</text>
+<circle cx="300.00" cy="420.00" r="5.00" stroke="#1f5fa8" fill="#1f5fa8" stroke-width="1.5"/>
+<text x="310.00" y="438.00" font-size="12.5" fill="#1f5fa8" text-anchor="start" font-weight="normal" font-family="Helvetica, Arial, sans-serif">S (ponto de vista para o hemisfério norte)</text>
+<line x1="300.00" y1="245.00" x2="443.35" y2="144.62" stroke="#b3261e" stroke-width="2.2" marker-end="url(#arrb3261e)"/>
+<circle cx="443.35" cy="144.62" r="5.00" stroke="#b3261e" fill="#b3261e" stroke-width="1.5"/>
+<text x="453.35" y="138.62" font-size="13" fill="#b3261e" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">P (polo esférico)</text>
+<line x1="443.35" y1="144.62" x2="300.00" y2="420.00" stroke="#1f5fa8" stroke-width="1.6" stroke-dasharray="6,4"/>
+<circle cx="391.10" cy="245.00" r="6.00" stroke="#1f5fa8" fill="#1f5fa8" stroke-width="1.5"/>
+<text x="397.10" y="267.00" font-size="13" fill="#1f5fa8" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">p (polo estereográfico)</text>
+<polyline points="300.00,200.00 300.79,200.01 301.57,200.03 302.36,200.06 303.14,200.11 303.92,200.17 304.70,200.25 305.48,200.34 306.26,200.44 307.04,200.55 307.81,200.68 308.59,200.83 309.36,200.98 310.12,201.15 310.89,201.34 311.65,201.53 312.40,201.74 313.16,201.97 313.91,202.20 314.65,202.45 315.39,202.71 316.13,202.99 316.86,203.28 317.58,203.58 318.30,203.89 319.02,204.22 319.73,204.55 320.43,204.90 321.13,205.27 321.82,205.64 322.50,206.03 323.18,206.43 323.85,206.84 324.51,207.26 325.16,207.69 325.81,208.14 326.45,208.59 327.08,209.06 327.70,209.54 328.32,210.03 328.93,210.53 329.52,211.04 330.11,211.56 330.69,212.09 331.26,212.63 331.82,213.18 332.37,213.74 332.91,214.31 333.44,214.89 333.96,215.48 334.47,216.07 334.97,216.68 335.46,217.30 335.94,217.92 336.41,218.55 336.86,219.19" stroke="#1a1a1a" fill="none" fill-opacity="1.0" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="320.00" y="190.00" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="italic" font-family="Helvetica, Arial, sans-serif">ρ</text>
+<polyline points="300.00,365.00 300.96,365.01 301.92,365.03 302.88,365.08 303.84,365.13 304.79,365.21 305.75,365.30 306.70,365.41 307.65,365.54 308.60,365.68 309.55,365.84 310.49,366.01 311.44,366.20 312.37,366.41 313.31,366.63 314.24,366.87 315.16,367.13 316.08,367.40 317.00,367.69 317.91,368.00 318.81,368.32 319.71,368.65 320.60,369.00 321.49,369.37 322.37,369.75 323.24,370.15 324.11,370.57 324.97,370.99" stroke="#1a1a1a" fill="none" fill-opacity="1.0" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="318.00" y="358.00" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic" font-family="Helvetica, Arial, sans-serif">ρ/2</text>
+<line x1="300.00" y1="281.00" x2="391.10" y2="281.00" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="304.00" y="299.00" font-size="13" fill="#1a1a1a" text-anchor="end" font-weight="normal" font-style="italic" font-family="Helvetica, Arial, sans-serif">R·tan(ρ/2)</text>
+<text x="292.00" y="239.00" font-size="14" fill="#1a1a1a" text-anchor="end" font-weight="bold" font-family="Helvetica, Arial, sans-serif">O</text>
+<text x="135.00" y="90.00" font-size="13" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-family="Helvetica, Arial, sans-serif">esfera de projeção (corte vertical)</text>
+<text x="320.00" y="24.00" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">Da face ao ponto: a construção da projeção estereográfica</text>
+</svg>
