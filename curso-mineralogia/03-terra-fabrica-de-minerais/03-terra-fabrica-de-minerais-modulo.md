@@ -1,6 +1,6 @@
 # Módulo 03 — A Terra como fábrica de minerais: contexto geológico mínimo
 
-> [!info] Curso de **Mineralogia** · módulo 03 de 50 · área I. Fundamentos: da matéria ao mineral · trilha **núcleo** · status: **pendente** (planejado em 2026-09-29, nenhuma aula escrita)
+> [!info] Curso de **Mineralogia** · módulo 03 de 50 · área I. Fundamentos: da matéria ao mineral · trilha **núcleo** · status: **concluído** (aulas, auditoria, revisão didática, questionário e baralho em 2026-10-04)
 
 ## Objetivo do módulo
 
@@ -38,14 +38,14 @@ Dar o contexto geológico mínimo para que a gênese mineral faça sentido num c
 - `mineralogia-m03-oa03` — Relacionar ambientes tectônicos a regimes de pressão e temperatura e ler um gradiente geotérmico.
 - `mineralogia-m03-oa04` — Explicar o papel da água e dos fluidos na crosta como agentes de transporte de elementos e de cristalização a partir de solução.
 
-## Aulas planejadas (4, nenhuma escrita)
+## Aulas (4 escritas)
 
-1. Aula 01 — Estrutura e composição da Terra: crosta, manto e núcleo em minerais — `mineralogia-m03-a01` · cobre `mineralogia-m03-oa01`
-2. Aula 02 — O ciclo das rochas: ígneas, sedimentares e metamórficas pelo processo — `mineralogia-m03-a02` · cobre `mineralogia-m03-oa02`
-3. Aula 03 — Pressão, temperatura e tectônica: gradientes geotérmicos e ambientes de formação — `mineralogia-m03-a03` · cobre `mineralogia-m03-oa03`
-4. Aula 04 — Água e fluidos na crosta: transporte de elementos e cristalização a partir de solução — `mineralogia-m03-a04` · cobre `mineralogia-m03-oa04`
+1. [[03-terra-fabrica-de-minerais-aula-01-estrutura-e-composicao-da-terra-crosta-manto-e-nucleo|Aula 01 — Estrutura e composição da Terra: crosta, manto e núcleo em minerais]] — `mineralogia-m03-a01` · cobre `mineralogia-m03-oa01`
+2. [[03-terra-fabrica-de-minerais-aula-02-ciclo-das-rochas-igneas-sedimentares-e-metamorficas|Aula 02 — O ciclo das rochas: ígneas, sedimentares e metamórficas pelo processo]] — `mineralogia-m03-a02` · cobre `mineralogia-m03-oa02`
+3. [[03-terra-fabrica-de-minerais-aula-03-pressao-temperatura-e-tectonica-gradientes-geotermicos|Aula 03 — Pressão, temperatura e tectônica: gradientes geotérmicos e ambientes de formação]] — `mineralogia-m03-a03` · cobre `mineralogia-m03-oa03`
+4. [[03-terra-fabrica-de-minerais-aula-04-agua-e-fluidos-na-crosta-transporte-e-cristalizacao|Aula 04 — Água e fluidos na crosta: transporte de elementos e cristalização a partir de solução]] — `mineralogia-m03-a04` · cobre `mineralogia-m03-oa04`
 
-> Títulos provisórios, definidos no planejamento. O gerador de aulas pode ajustá-los ou dividir uma aula em Parte 1 / Parte 2 pela contagem de carga; um objetivo novo recebe o próximo ID livre, nunca desloca os existentes.
+> Títulos definidos no planejamento e mantidos na escrita. A revisão didática moveu a seção de litosfera e astenosfera da aula 01 para a aula 03, onde a tectônica a usa; os objetivos não mudaram.
 
 ## Pontos de dificuldade previstos
 
@@ -57,11 +57,11 @@ curso-geologia, módulos 02 (sistema Terra), 06-08 (rochas) e 18 (tectônica glo
 
 ## Registro do módulo
 
-- Aulas: pendente (0 de 4)
-- Auditoria científica: pendente
-- Revisão didática: pendente
-- Questionário: pendente (gate: só depois da auditoria sem achado 🔴/🟠 em aberto)
-- Flashcards: pendente (mesmo gate)
+- Aulas: escritas (4 de 4), em 2026-10-04
+- Auditoria científica: [[03-terra-fabrica-de-minerais-auditoria|aprovada após correções]] em 2026-10-04 (🟠 2 · 🟡 5, todos corrigidos; 47 alegações verificadas sem mudança; nenhum achado aberto)
+- Revisão didática: [[03-terra-fabrica-de-minerais-revisao-didatica|bem ensinado com ressalvas, ressalvas corrigidas]] em 2026-10-04 (🟠 1 · 🟡 7 corrigidos; 🔵 2 em aberto, não bloqueantes: desenhar as figuras do corte da Terra e do diagrama P-T)
+- Questionário: [[03-terra-fabrica-de-minerais-questionario-final|final cumulativo]] gerado em 2026-10-04 (17 questões, 42 pontos; 4 de 4 objetivos cobertos), com checagem científica do gabarito
+- Flashcards: [[03-terra-fabrica-de-minerais-flashcards|baralho]] gerado em 2026-10-04 (61 Basic + 17 Cloze), com checagem científica contra as aulas antes de fechar
 
 ## Navegação
 

@@ -1,0 +1,505 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "04-simetria-e-morfologia",
+    "module_id": "04",
+    "course_id": "mineralogia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-10-04",
+  "verdict": "approved",
+  "summary": {
+    "red": 1,
+    "orange": 2,
+    "yellow": 3,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 56
+  },
+  "findings": [
+    {
+      "claim_id": "CRI-CLS-ESCALENO-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "claim": "Girando 60 graus e invertendo, tambem",
+      "location": {
+        "file": "04-simetria-e-morfologia/04-simetria-e-morfologia-aula-05-os-32-grupos-pontuais-parte-2-reconhecer-a-classe-num-cristal-real.md",
+        "section": "Exemplo trabalhado, passo 3",
+        "quote": "Girando 60 graus e invertendo, tambem"
+      },
+      "problem": "Girar 60 graus e inverter e a operacao 6-barra (= 3/m), que exige espelho horizontal e nao pertence a 3-barra m. A operacao do eixo 3-barra e girar 120 graus e inverter.",
+      "replacement": "Girando 120 graus e invertendo pelo centro, tambem: cada face de cima tem, embaixo, uma face paralela a ela, e o conjunto de baixo fica deslocado de 60 graus",
+      "source": {
+        "name": "International Tables for Crystallography, vol. A",
+        "tier": "normative",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "04-simetria-e-morfologia/04-simetria-e-morfologia-aula-05-os-32-grupos-pontuais-parte-2-reconhecer-a-classe-num-cristal-real.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "CRI-SIM-ESPELHO-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Um objeto que nao tem nem espelho nem centro [...] e que, por isso, nao coincide com sua imagem no espelho e quiral",
+      "location": {
+        "file": "04-simetria-e-morfologia/04-simetria-e-morfologia-aula-02-operacoes-de-simetria-i-rotacao-reflexao-e-inversao.md",
+        "section": "Reflexao: o plano de simetria",
+        "quote": "Um objeto que nao tem nem espelho nem centro [...] e que, por isso, nao coincide com sua imagem no espelho e quiral"
+      },
+      "problem": "Ausencia de espelho e de centro nao basta: um objeto com eixo 4-barra (classe 4-barra) nao tem nenhum dos dois e nao e quiral. Quiral = sem nenhuma operacao impropria.",
+      "replacement": "Um objeto que nao coincide com sua imagem no espelho e quiral. Para isso, ele nao pode ter espelho nem centro, nem a rotoinversao da aula 03.",
+      "source": {
+        "name": "International Tables for Crystallography, vol. A",
+        "tier": "normative",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "04-simetria-e-morfologia/04-simetria-e-morfologia-aula-02-operacoes-de-simetria-i-rotacao-reflexao-e-inversao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "CRI-SIM-CUBO-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "na notacao de Bravais-Miller, com A para eixo, P para plano e C para centro",
+      "location": {
+        "file": "04-simetria-e-morfologia/04-simetria-e-morfologia-aula-02-operacoes-de-simetria-i-rotacao-reflexao-e-inversao.md",
+        "section": "O cubo como laboratorio",
+        "quote": "na notacao de Bravais-Miller, com A para eixo, P para plano e C para centro"
+      },
+      "problem": "Bravais-Miller e o nome dos indices de quatro digitos (hkil) do sistema hexagonal (modulo 05), nao da lista A/P/C. Atribuicao errada que criaria conflito no modulo 05.",
+      "replacement": "essa lista se escreve com A para eixo, P para plano e C para centro",
+      "source": {
+        "name": "Klein & Dutrow; International Tables vol. A",
+        "tier": "general",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "04-simetria-e-morfologia/04-simetria-e-morfologia-aula-02-operacoes-de-simetria-i-rotacao-reflexao-e-inversao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "CRI-SIS-ANIDRITA-001",
+      "severity": "yellow",
+      "kind": "certeza_indevida",
+      "claim": "A anidrita forma blocos de aparencia quase cubica",
+      "location": {
+        "file": "04-simetria-e-morfologia/04-simetria-e-morfologia-aula-06-os-sete-sistemas-cristalinos-definidos-pela-simetria.md",
+        "section": "A forma aparente engana",
+        "quote": "A anidrita forma blocos de aparencia quase cubica"
+      },
+      "problem": "O aspecto quase cubico vem dos fragmentos de clivagem (tres clivagens ortogonais); os cristais sao tabulares a prismaticos.",
+      "replacement": "parte em blocos de aparencia quase cubica (tem tres clivagens em angulo reto)",
+      "source": {
+        "name": "Handbook of Mineralogy (anhydrite); Klein & Dutrow",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "04-simetria-e-morfologia/04-simetria-e-morfologia-aula-06-os-sete-sistemas-cristalinos-definidos-pela-simetria.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "CRI-FOR-QUARTZO-001",
+      "severity": "yellow",
+      "kind": "confusao_de_escopo",
+      "claim": "O dodecaedro de quartzo (prisma + pontas) sao tres formas",
+      "location": {
+        "file": "04-simetria-e-morfologia/04-simetria-e-morfologia-aula-07-formas-cristalinas-e-habito-formas-gerais-especiais-abertas-e-fechadas.md",
+        "section": "Erros comuns",
+        "quote": "O dodecaedro de quartzo (prisma + pontas) sao tres formas"
+      },
+      "problem": "\"Dodecaedro\" nao descreve o cristal de quartzo (18 faces com as duas pontas) e confunde com o dodecaedro rombico da aula.",
+      "replacement": "As seis faces de cada ponta do quartzo parecem uma piramide hexagonal, mas sao dois romboedros; com o prisma, o cristal tem tres formas",
+      "source": {
+        "name": "Klein & Dutrow",
+        "tier": "general",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "04-simetria-e-morfologia/04-simetria-e-morfologia-aula-07-formas-cristalinas-e-habito-formas-gerais-especiais-abertas-e-fechadas.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "CRI-HM-HIST-001",
+      "severity": "yellow",
+      "kind": "evidencia_insuficiente",
+      "claim": "propuseram, no fim dos anos 1920",
+      "location": {
+        "file": "04-simetria-e-morfologia/04-simetria-e-morfologia-aula-04-os-32-grupos-pontuais-e-a-notacao-de-hermann-mauguin-parte-1-deducao.md",
+        "section": "A notacao de Hermann-Mauguin",
+        "quote": "propuseram, no fim dos anos 1920"
+      },
+      "problem": "Mauguin publicou em 1931; \"fim dos anos 1920\" so cobre Hermann (1928).",
+      "replacement": "Carl Hermann (1928) e Charles-Victor Mauguin (1931)",
+      "source": {
+        "name": "Hermann (1928) Z. Kristallogr. 68; Mauguin (1931) Z. Kristallogr. 76",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "04-simetria-e-morfologia/04-simetria-e-morfologia-aula-04-os-32-grupos-pontuais-e-a-notacao-de-hermann-mauguin-parte-1-deducao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "CRI-EST-STENO-001",
+      "claim": "Steno (1669) observou a constancia dos angulos entre faces correspondentes em cristais de quartzo de formas diferentes.",
+      "source": "Burke (1966); Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-EST-ROMEDELISLE-001",
+      "claim": "Rome de l'Isle generalizou a lei para muitas substancias; Carangeot, seu assistente, inventou o goniometro de contato (1780).",
+      "source": "Burke (1966)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-EST-NORMAIS-001",
+      "claim": "O angulo interfacial e medido entre as normais das faces e e suplementar do angulo interno; faces vizinhas de prisma hexagonal: 120 graus internos, 60 graus entre normais (prisma m do quartzo).",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-EST-HAUY-001",
+      "claim": "Hauy (1784) propos as molecules integrantes a partir da clivagem romboedrica da calcita; a historia da queda do cristal e anedotica.",
+      "source": "Hauy (1784); Burke (1966)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-EST-RACIONAL-001",
+      "claim": "Lei da racionalidade dos indices (lei de Hauy): faces cortam os eixos a distancias em razoes de inteiros pequenos.",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-EST-LAUE-001",
+      "claim": "A difracao de raios X por cristais foi descoberta por Max von Laue e colaboradores (Friedrich, Knipping) em 1912.",
+      "source": "historia da cristalografia; IUCr",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-EST-QUASI-001",
+      "claim": "Shechtman observou quasicristais em 1982; a IUCr redefiniu cristal em 1992 (diagrama de difracao essencialmente discreto); icosaedrita, quasicristal natural do meteorito Khatyrka, aprovada pela IMA (2010-042).",
+      "source": "IUCr (1992); Bindi et al. (2009)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-EST-AGREGADO-001",
+      "claim": "Marmore, granito e quartzito sao agregados cristalinos; obsidiana e opala-A sao amorfas.",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-EST-ANGVAR-001",
+      "claim": "Os angulos interfaciais variam ligeiramente com temperatura e composicao (solucao solida).",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-REV-GLOSSAS-001",
+      "claim": "Glossa: clivagem = planos de quebra facil, que seguem planos de atomos do cristal.",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-SIM-ORDENS-001",
+      "claim": "Eixos de rotacao cristalograficos tem ordem 1, 2, 3, 4 ou 6 (restricao cristalografica, compativel com repeticao por translacao).",
+      "source": "International Tables vol. A; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-SIM-QTZQUIRAL-001",
+      "claim": "O quartzo e quiral: ha quartzo direito e esquerdo.",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-SIM-CENTRO-001",
+      "claim": "Centro de inversao leva (x,y,z) a (-x,-y,-z); cada face tem oposta paralela e equivalente; simbolo 1-barra.",
+      "source": "International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-SIM-TIJOLO-001",
+      "claim": "Paralelepipedo retangular de arestas diferentes: 3A2 3P C; caixa de base quadrada: A4 4A2 5P C.",
+      "source": "deducao geometrica",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-SIM-LOSANGO-001",
+      "claim": "Prisma de base losangular: plano pela diagonal da base e espelho; plano paralelo a duas faces laterais divide em metades iguais nao especulares.",
+      "source": "deducao geometrica",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ROT-EQUIV-001",
+      "claim": "1-barra = centro; 2-barra = espelho perpendicular; 3-barra = eixo 3 + centro; 6-barra = 3/m; 4-barra e operacao nova que contem eixo 2, sem eixo 4 e sem centro.",
+      "source": "International Tables vol. A; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ROT-FACES-001",
+      "claim": "3-barra gera 6 faces (3 em cima, 3 embaixo alternadas); 4-barra gera 4 faces em disfenoide; 6-barra gera 6 faces (3 em cima refletidas embaixo).",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ROT-CALCOP-001",
+      "claim": "A calcopirita tem habito tipico disfenoidal (classe 4-barra 2m).",
+      "source": "Mindat; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-ROT-QUIRAL-001",
+      "claim": "Um cristal e quiral quando nao tem nenhum elemento improprio (centro, m, 3-barra, 4-barra, 6-barra).",
+      "source": "International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-COMB-REGRAS-001",
+      "claim": "Eixo par + espelho perpendicular => centro (e quaisquer dois implicam o terceiro); dois espelhos a theta => eixo de giro 2 theta; eixo n + espelho que o contem => n espelhos; eixo n + eixo 2 perpendicular => n eixos 2.",
+      "source": "Klein & Dutrow; Nesse",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-COMB-EXEMPLO-001",
+      "claim": "Eixo 4 + um espelho vertical gera 4 espelhos verticais (dois pares a 45 graus), sem centro: classe 4mm.",
+      "source": "deducao; International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-COMB-IMPAR-001",
+      "claim": "Eixo 3 com espelho perpendicular nao gera centro: e 3/m = 6-barra.",
+      "source": "International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-GP-32-001",
+      "claim": "Existem exatamente 32 grupos pontuais cristalograficos; deduzidos por Hessel (1830) e por Gadolin (1867).",
+      "source": "Burke (1966); International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-GP-FAMILIAS-001",
+      "claim": "Familias: 1,2,3,4,6; 1-barra, m, 3-barra, 4-barra, 6-barra; 2/m, 4/m, 6/m; 222, 32, 422, 622; mm2, 3m, 4mm, 6mm; 4-barra 2m, 6-barra m2, 3-barra m; mmm, 4/mmm, 6/mmm; 23, m3-barra, 432, 4-barra 3m, m3-barra m. Total 32.",
+      "source": "International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-HM-DIRECOES-001",
+      "claim": "Direcoes das posicoes: tetragonal [001], <100>, <110>; trigonal/hexagonal [001], <100>, <1-10> (hexagonal); ortorrombico x, y, z; cubico <100>, <111>, <110>.",
+      "source": "International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-HM-CUBO-001",
+      "claim": "Simbolo completo do cubo: 4/m 3-barra 2/m; curto m3-barra m; reconstroi 3 eixos 4, 4 eixos 3-barra, 6 eixos 2, 9 espelhos e centro.",
+      "source": "International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-HM-CURTOS-001",
+      "claim": "mmm = 2/m 2/m 2/m; 4/mmm = 4/m 2/m 2/m; 6/mmm = 6/m 2/m 2/m; no cubico a segunda posicao e sempre 3 ou 3-barra; m indica espelho perpendicular a direcao.",
+      "source": "International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-GP-CENTRO-001",
+      "claim": "11 classes centrossimetricas: 1-barra, 2/m, mmm, 4/m, 4/mmm, 3-barra, 3-barra m, 6/m, 6/mmm, m3-barra, m3-barra m; 21 sem centro.",
+      "source": "International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-GP-PIEZO-001",
+      "claim": "Piezoeletricidade exige ausencia de centro; o quartzo (classe 32) e piezoeletrico.",
+      "source": "Klein & Dutrow; Nye",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-GP-ORDEM6MMM-001",
+      "claim": "A ordem do grupo 6/mmm e 24.",
+      "source": "International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-CLS-PIRITA-001",
+      "claim": "Pirita: classe m3-barra (2/m 3-barra); cubo com estrias perpendiculares em faces vizinhas, que reduzem o eixo 4 a 2 e eliminam os espelhos diagonais; piritoedro de 12 faces pentagonais; estrias pelo crescimento alternado de cubo e piritoedro.",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-CLS-TURMALINA-001",
+      "claim": "Turmalina: classe 3m, hemimorfica e piroeletrica.",
+      "source": "Klein & Dutrow; Henry et al. (2011)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-CLS-POLARES-001",
+      "claim": "Ha 10 classes polares: 1, 2, m, mm2, 4, 4mm, 3, 3m, 6, 6mm; piroeletricidade so nelas.",
+      "source": "International Tables vol. A; Nye (1985)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-CLS-HOLANDESES-001",
+      "claim": "Anedota: comerciantes holandeses do seculo XVIII usavam turmalina aquecida para atrair cinzas de cachimbo.",
+      "source": "historia da piroeletricidade (Lang, 1974)",
+      "confidence": "provavel"
+    },
+    {
+      "claim_id": "CRI-CLS-APATITA-001",
+      "claim": "Apatita e da classe 6/m; prisma hexagonal com pinacoide parece 6/mmm; faces raras revelam a classe.",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-CLS-QUARTZO-001",
+      "claim": "Quartzo de baixa temperatura: classe 32; faces de trapezoedro revelam a classe e a mao (direito/esquerdo); quartzo de alta temperatura (acima de 573 C): 622.",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-CLS-TABELA-001",
+      "claim": "Representantes: 1-barra cianita, microclinio, albita; m escolecita, clinoedrita; 2/m gipsita, ortoclasio, muscovita, diopsidio; 222 epsomita; mm2 hemimorfita; mmm forsterita, topazio, barita, aragonita; 4 pinnoita; 4-barra cahnita; 4/m scheelita; 422 cristobalita baixa; 4mm diaboleita; 4-barra 2m calcopirita; 4/mmm zircao, rutilo, cassiterita; 3-barra dolomita, ilmenita; 32 quartzo, cinabrio; 3m turmalina; 3-barra m calcita, corindon, hematita; 6 nefelina; 6/m apatita; 622 quartzo-beta; 6mm zincita, wurtzita; 6-barra m2 benitoita; 6/mmm berilo, grafita, molibdenita; 23 ullmannita; m3-barra pirita; 432 petzita; 4-barra 3m esfalerita, tetraedrita; m3-barra m halita, fluorita, galena, granadas, espinelio, diamante, ouro.",
+      "source": "Mindat; Handbook of Mineralogy; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-CLS-ORDENS-001",
+      "claim": "Ordens dos 32 grupos pontuais conforme a tabela (1, 2, 2, 2, 4, 4, 4, 8, 4, 4, 8, 8, 8, 8, 16, 3, 6, 6, 6, 12, 6, 6, 12, 12, 12, 12, 24, 12, 24, 24, 24, 48).",
+      "source": "International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-CLS-CALCITA-001",
+      "claim": "Calcita: escalenoedro 'dente de cao' de 12 faces e a forma geral da classe 3-barra m (3-barra 2/m), ordem 12.",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-SIS-TABELA-001",
+      "claim": "Sete sistemas pela simetria caracteristica: triclinico (1 ou 1-barra), monoclinico (um 2 ou 2-barra), ortorrombico (tres direcoes com 2 ou 2-barra), tetragonal (um 4 ou 4-barra), trigonal (um 3 ou 3-barra), hexagonal (um 6 ou 6-barra), cubico (quatro 3 ou 3-barra); classes 2, 3, 3, 7, 5, 7, 5.",
+      "source": "International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-SIS-HOLOEDRIA-001",
+      "claim": "Holoedrias: 1-barra, 2/m, mmm, 4/mmm, 3-barra m, 6/mmm, m3-barra m; a holoedria tem a simetria do reticulo.",
+      "source": "IUCr Online Dictionary",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-SIS-CUBSEM4-001",
+      "claim": "As classes cubicas 23 e m3-barra nao tem eixo 4.",
+      "source": "International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-SIS-QUARTZO-001",
+      "claim": "As pontas do quartzo comum sao dois romboedros de tres faces alternados; o eixo e de ordem 3; quartzo de alta temperatura (acima de 573 C) e hexagonal (622).",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-SIS-LEUCITA-001",
+      "claim": "Leucita: cubica em alta temperatura, tetragonal a temperatura ambiente, mantendo a forma de trapezoedro e com lamelas de macla; caso de pseudossimetria.",
+      "source": "Deer, Howie & Zussman; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-SIS-FAMILIAS-001",
+      "claim": "IUCr: 7 sistemas cristalinos, 6 familias (trigonal + hexagonal = familia hexagonal), 7 sistemas reticulares (hexagonal e romboedrico); livros antigos usam 6 sistemas com divisao romboedrica.",
+      "source": "IUCr Online Dictionary; International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-SIS-QZRETIC-001",
+      "claim": "O quartzo e trigonal com reticulo hexagonal (nao romboedrico).",
+      "source": "International Tables; grupo espacial P3121/P3221",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-SIS-EXEMPLOS-001",
+      "claim": "Granada cubica (m3-barra m); calcopirita tetragonal (4-barra 2m); gipsita monoclinica (2/m).",
+      "source": "Mindat; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-REV-GLOSSAS-002",
+      "claim": "Glossas: reticulo = grade de pontos que se repete por translacao; macla = regioes do cristal com orientacoes diferentes, unidas de modo regular.",
+      "source": "Klein & Dutrow; IUCr Online Dictionary",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-FOR-GERAL-001",
+      "claim": "A forma geral tem numero de faces igual a ordem da classe: hexaoctaedro 48 em m3-barra m; escalenoedro 12 em 3-barra m; pinacoide 2 em 1-barra.",
+      "source": "International Tables vol. A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-FOR-ESPECIAL-001",
+      "claim": "Formas especiais (cubo 6, octaedro 8 em m3-barra m) sao as mais comuns, por corresponderem em geral a planos densos de crescimento lento.",
+      "source": "Klein & Dutrow; Nesse",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-FOR-ABERTAS-001",
+      "claim": "Formas abertas: pedio (1), pinacoide (2 paralelas), domo (2, espelho), esfenoide (2, eixo 2), prisma, piramide; fechadas: bipiramides, romboedro (6), escalenoedro (8 ou 12), trapezoedro (6, 8 ou 12), disfenoide (4) e todas as cubicas.",
+      "source": "Klein & Dutrow; IUCr Online Dictionary",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-FOR-CUBICAS-001",
+      "claim": "Exemplos: cubo (halita, galena, fluorita, pirita), octaedro (magnetita, espinelio, diamante, fluorita), dodecaedro rombico (granada), trapezoedro de 24 faces (granada, leucita), tetraedro (esfalerita, tetraedrita), piritoedro de 12 pentagonos (pirita).",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-FOR-47-001",
+      "claim": "Ha 47 formas geometricas; 48 quando domo e esfenoide sao separados (a IUCr os trata como diedro).",
+      "source": "IUCr Online Dictionary, verbete Form",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-HAB-TABELA-001",
+      "claim": "Habitos e exemplos: prismatico (turmalina, berilo), acicular (rutilo, natrolita), tabular (barita, wulfenita), lamelar (micas), equante (granada, pirita), fibroso (crisotila, gipsita), drusa (quartzo, calcita), botrioidal (hematita, malaquita), dendritico (oxidos de Mn, cobre nativo).",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-HAB-CALCITA-001",
+      "claim": "A calcita forma escalenoedros, romboedros, placas tabulares e prismas, todos da classe 3-barra m.",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-FOR-ZIRCAO-001",
+      "claim": "Zircao (4/mmm, ordem 16): prisma tetragonal (4) + bipiramide tetragonal (8), ambas formas especiais.",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    }
+  ]
+}

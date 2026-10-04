@@ -1,6 +1,6 @@
 # Módulo 04 — Simetria e morfologia cristalina: operações, classes e sistemas
 
-> [!info] Curso de **Mineralogia** · módulo 04 de 50 · área II. Cristalografia geométrica e reticular · trilha **núcleo** · status: **pendente** (planejado em 2026-09-29, nenhuma aula escrita)
+> [!info] Curso de **Mineralogia** · módulo 04 de 50 · área II. Cristalografia geométrica e reticular · trilha **núcleo** · status: **concluído** (aulas, auditoria, revisão didática, questionários e baralho em 2026-10-04)
 
 ## Objetivo do módulo
 
@@ -38,17 +38,17 @@ Ler a simetria de um cristal — operações e elementos, os 32 grupos pontuais 
 - `mineralogia-m04-oa04` — Classificar um cristal num dos sete sistemas cristalinos pela simetria característica, e não pela forma aparente.
 - `mineralogia-m04-oa05` — Distinguir forma cristalina, forma geral e especial, forma aberta e fechada, e hábito, e nomear as formas comuns de cada sistema.
 
-## Aulas planejadas (7, nenhuma escrita)
+## Aulas (7 escritas)
 
-1. Aula 01 — O estado cristalino: ordem interna, leis de Steno e de Haüy — `mineralogia-m04-a01` · cobre `mineralogia-m04-oa01`
-2. Aula 02 — Operações de simetria I: rotação, reflexão e inversão — `mineralogia-m04-a02` · cobre `mineralogia-m04-oa02`
-3. Aula 03 — Operações de simetria II: rotoinversão e combinação de elementos — `mineralogia-m04-a03` · cobre `mineralogia-m04-oa02`
-4. Aula 04 — Os 32 grupos pontuais e a notação de Hermann-Mauguin — Parte 1: dedução — `mineralogia-m04-a04` · cobre `mineralogia-m04-oa03`
-5. Aula 05 — Os 32 grupos pontuais — Parte 2: reconhecer a classe num cristal real — `mineralogia-m04-a05` · cobre `mineralogia-m04-oa03`
-6. Aula 06 — Os sete sistemas cristalinos: definidos pela simetria, não pela aparência — `mineralogia-m04-a06` · cobre `mineralogia-m04-oa04`
-7. Aula 07 — Formas cristalinas e hábito: formas gerais, especiais, abertas e fechadas — `mineralogia-m04-a07` · cobre `mineralogia-m04-oa05`
+1. [[04-simetria-e-morfologia-aula-01-o-estado-cristalino-leis-de-steno-e-de-hauy|Aula 01 — O estado cristalino: ordem interna, leis de Steno e de Haüy]] — `mineralogia-m04-a01` · cobre `mineralogia-m04-oa01`
+2. [[04-simetria-e-morfologia-aula-02-operacoes-de-simetria-i-rotacao-reflexao-e-inversao|Aula 02 — Operações de simetria I: rotação, reflexão e inversão]] — `mineralogia-m04-a02` · cobre `mineralogia-m04-oa02`
+3. [[04-simetria-e-morfologia-aula-03-operacoes-de-simetria-ii-rotoinversao-e-combinacao-de-elementos|Aula 03 — Operações de simetria II: rotoinversão e combinação de elementos]] — `mineralogia-m04-a03` · cobre `mineralogia-m04-oa02`
+4. [[04-simetria-e-morfologia-aula-04-os-32-grupos-pontuais-e-a-notacao-de-hermann-mauguin-parte-1-deducao|Aula 04 — Os 32 grupos pontuais e a notação de Hermann-Mauguin — Parte 1: dedução]] — `mineralogia-m04-a04` · cobre `mineralogia-m04-oa03`
+5. [[04-simetria-e-morfologia-aula-05-os-32-grupos-pontuais-parte-2-reconhecer-a-classe-num-cristal-real|Aula 05 — Os 32 grupos pontuais — Parte 2: reconhecer a classe num cristal real]] — `mineralogia-m04-a05` · cobre `mineralogia-m04-oa03`
+6. [[04-simetria-e-morfologia-aula-06-os-sete-sistemas-cristalinos-definidos-pela-simetria|Aula 06 — Os sete sistemas cristalinos: definidos pela simetria, não pela aparência]] — `mineralogia-m04-a06` · cobre `mineralogia-m04-oa04`
+7. [[04-simetria-e-morfologia-aula-07-formas-cristalinas-e-habito-formas-gerais-especiais-abertas-e-fechadas|Aula 07 — Formas cristalinas e hábito: formas gerais, especiais, abertas e fechadas]] — `mineralogia-m04-a07` · cobre `mineralogia-m04-oa05`
 
-> Títulos provisórios, definidos no planejamento. O gerador de aulas pode ajustá-los ou dividir uma aula em Parte 1 / Parte 2 pela contagem de carga; um objetivo novo recebe o próximo ID livre, nunca desloca os existentes.
+> Títulos definidos no planejamento e mantidos na escrita, com a divisão dos 32 grupos pontuais em duas partes já prevista no plano.
 
 ## Pontos de dificuldade previstos
 
@@ -60,11 +60,11 @@ curso-geologia, módulo 04, aulas 04 e 05 (simetria e sete sistemas, qualitativo
 
 ## Registro do módulo
 
-- Aulas: pendente (0 de 7)
-- Auditoria científica: pendente
-- Revisão didática: pendente
-- Questionário: pendente (gate: só depois da auditoria sem achado 🔴/🟠 em aberto)
-- Flashcards: pendente (mesmo gate)
+- Aulas: escritas (7 de 7), em 2026-10-04
+- Auditoria científica: [[04-simetria-e-morfologia-auditoria|aprovada após correções]] em 2026-10-04 (🔴 1 · 🟠 2 · 🟡 3, todos corrigidos; 56 alegações verificadas sem mudança; nenhum achado aberto). O 🔴 era a operação do eixo 3̄ no exemplo da calcita (aula 05).
+- Revisão didática: [[04-simetria-e-morfologia-revisao-didatica|bem ensinado com ressalvas, ressalvas corrigidas]] em 2026-10-04 (🟠 1 · 🟡 5 corrigidos; 🔵 3 não bloqueantes: modelos de papel, ordem posições × sistemas mantida, estereogramas no módulo 05)
+- Questionários: [[04-simetria-e-morfologia-questionario-parcial-1|parcial 1]] (aulas 01-03; 8 questões, 18 pts), [[04-simetria-e-morfologia-questionario-parcial-2|parcial 2]] (aulas 04-05; 8 questões, 18 pts) e [[04-simetria-e-morfologia-questionario-final|final cumulativo]] (14 questões, 38 pts), gerados em 2026-10-04, com checagem científica dos gabaritos; 5 de 5 objetivos cobertos
+- Flashcards: [[04-simetria-e-morfologia-flashcards|baralho]] gerado em 2026-10-04 (83 Basic + 23 Cloze), com checagem científica contra as aulas antes de fechar
 
 ## Navegação
 

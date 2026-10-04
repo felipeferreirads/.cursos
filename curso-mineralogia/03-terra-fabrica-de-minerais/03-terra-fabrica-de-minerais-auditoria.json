@@ -1,0 +1,475 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "03-terra-fabrica-de-minerais",
+    "module_id": "03",
+    "course_id": "mineralogia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-10-04",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 2,
+    "yellow": 5,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 47
+  },
+  "findings": [
+    {
+      "claim_id": "TER-CRO-CONT-001",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "claim": "composicao media proxima a de um granodiorito (~60% de SiO2)",
+      "location": {
+        "file": "03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-aula-01-estrutura-e-composicao-da-terra-crosta-manto-e-nucleo.md",
+        "section": "A crosta: a unica camada que tocamos",
+        "quote": "composicao media proxima a de um granodiorito (~60% de SiO2)"
+      },
+      "problem": "60,6% SiO2 e a media da crosta inteira (andesitica); granodiorito descreve a crosta superior.",
+      "replacement": "~60% de SiO2, intermediaria entre basalto (~50%) e granito (~70%); a parte de cima e proxima de um granodiorito",
+      "source": {
+        "name": "Rudnick & Gao (2003), Treatise on Geochemistry 3",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-aula-01-estrutura-e-composicao-da-terra-crosta-manto-e-nucleo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "TER-FLU-RETRO-001",
+      "severity": "orange",
+      "kind": "certeza_indevida",
+      "claim": "dissolve-se menos em agua quente [...] porque o CO2 [...] escapa da agua quente",
+      "location": {
+        "file": "03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-aula-04-agua-e-fluidos-na-crosta-transporte-e-cristalizacao.md",
+        "section": "A molecula que desmonta cristais",
+        "quote": "dissolve-se menos em agua quente [...] porque o CO2 [...] escapa da agua quente"
+      },
+      "problem": "A solubilidade retrograda existe mesmo com pCO2 fixa; a perda de CO2 reforca o efeito, nao e a causa unica.",
+      "replacement": "Parte do motivo e que o CO2 [...] e menos soluvel em agua quente",
+      "source": {
+        "name": "Plummer & Busenberg (1982), GCA 46; Klein & Dutrow",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-aula-04-agua-e-fluidos-na-crosta-transporte-e-cristalizacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "TER-CRO-OCEAN-001",
+      "severity": "yellow",
+      "kind": "confusao_de_escopo",
+      "claim": "a crosta oceanica mais antiga tem cerca de 180 milhoes de anos",
+      "location": {
+        "file": "03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-aula-01-estrutura-e-composicao-da-terra-crosta-manto-e-nucleo.md",
+        "section": "A crosta",
+        "quote": "a crosta oceanica mais antiga tem cerca de 180 milhoes de anos"
+      },
+      "problem": "Vale para os oceanos atuais; ha propostas de crosta oceanica mais antiga no Mediterraneo oriental.",
+      "replacement": "a mais antiga ainda no fundo dos oceanos atuais tem cerca de 180 milhoes de anos",
+      "source": {
+        "name": "Muller et al. (2008), G-cubed",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-aula-01-estrutura-e-composicao-da-terra-crosta-manto-e-nucleo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "TER-NUC-HIST-001",
+      "severity": "yellow",
+      "kind": "erro_factual",
+      "claim": "Lehmann deduziu, por ondas P refletidas",
+      "location": {
+        "file": "03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-aula-01-estrutura-e-composicao-da-terra-crosta-manto-e-nucleo.md",
+        "section": "O nucleo",
+        "quote": "Lehmann deduziu, por ondas P refletidas"
+      },
+      "problem": "O argumento foram chegadas de ondas P dentro da zona de sombra.",
+      "replacement": "por ondas P que chegavam onde o modelo previa sombra",
+      "source": {
+        "name": "Lehmann (1936), Publ. Bur. Centr. Seism. Int. A14",
+        "tier": "general",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-aula-01-estrutura-e-composicao-da-terra-crosta-manto-e-nucleo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "TER-NUC-COMP-001",
+      "severity": "yellow",
+      "kind": "confusao_de_escopo",
+      "claim": "E ~10% menos denso que ferro puro",
+      "location": {
+        "file": "03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-aula-01-estrutura-e-composicao-da-terra-crosta-manto-e-nucleo.md",
+        "section": "O nucleo",
+        "quote": "E ~10% menos denso que ferro puro"
+      },
+      "problem": "O deficit de ~10% e do nucleo externo; o interno tem poucos %.",
+      "replacement": "O nucleo externo e ~10% menos denso [...] (o interno, alguns %)",
+      "source": {
+        "name": "Birch (1952); revisoes de composicao do nucleo",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-aula-01-estrutura-e-composicao-da-terra-crosta-manto-e-nucleo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "TER-PT-COESITA-001",
+      "severity": "yellow",
+      "kind": "omissao_que_gera_erro",
+      "claim": "Em 1984, Christian Chopin achou coesita",
+      "location": {
+        "file": "03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-aula-03-pressao-temperatura-e-tectonica-gradientes-geotermicos.md",
+        "section": "Placas tectonicas",
+        "quote": "Em 1984, Christian Chopin achou coesita"
+      },
+      "problem": "Smith (1984, Nature 310) publicou achado equivalente na Noruega no mesmo ano.",
+      "replacement": "Christian Chopin (e, no mesmo ano, David Smith, na Noruega)",
+      "source": {
+        "name": "Chopin (1984) CMP 86; Smith (1984) Nature 310",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-aula-03-pressao-temperatura-e-tectonica-gradientes-geotermicos.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "TER-FLU-QTZSOL-001",
+      "severity": "yellow",
+      "kind": "erro_factual",
+      "claim": "dissolvem-se milhares de mg",
+      "location": {
+        "file": "03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-aula-04-agua-e-fluidos-na-crosta-transporte-e-cristalizacao.md",
+        "section": "A molecula que desmonta cristais",
+        "quote": "dissolvem-se milhares de mg"
+      },
+      "problem": "A ~400 C e 1 kbar a solubilidade e da ordem de mil mg/kg; milhares exigem condicoes mais quentes.",
+      "replacement": "centenas a milhares de mg",
+      "source": {
+        "name": "Manning (1994), GCA 58",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "provavel",
+      "affected_files": [
+        "03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-aula-04-agua-e-fluidos-na-crosta-transporte-e-cristalizacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "TER-INT-KOLA-001",
+      "claim": "O poco de Kola chegou a cerca de 12 km (12.262 m); raio medio da Terra 6.371 km.",
+      "source": "registros do poco superprofundo de Kola; IUGG raio medio",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-INT-ONDAS-001",
+      "claim": "Ondas P passam por solidos e liquidos; ondas S so por solidos; o desaparecimento das S a ~2.890 km revela o nucleo externo liquido.",
+      "source": "PREM; livros-texto de geofisica",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-INT-CAMADAS-001",
+      "claim": "Profundidades: crosta oceanica 5-10 km, continental 30-70 km; manto superior ate ~410; zona de transicao 410-660; manto inferior 660-~2.890; nucleo externo 2.890-~5.150; nucleo interno 5.150-6.371 km.",
+      "source": "PREM (Dziewonski & Anderson 1981)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-CRO-MASSA-001",
+      "claim": "A crosta tem menos de 1% da massa da Terra; o manto ~67%; o nucleo ~32%.",
+      "source": "PREM; livros-texto",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-CRO-ZIRCAO-001",
+      "claim": "Graos de zircao de Jack Hills (Australia) com ~4,4 bilhoes de anos sao os minerais terrestres mais antigos conhecidos.",
+      "source": "Wilde et al. (2001), Nature 409; Valley et al. (2014)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-MOHO-1909-001",
+      "claim": "Descontinuidade de Mohorovicic descoberta em 1909; ondas P passam de ~6-7 para ~8 km/s.",
+      "source": "historia da sismologia; PREM",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-MAN-PIROLITO-001",
+      "claim": "Manto (pirolito/manto primitivo): ~45% SiO2, ~38% MgO, ~8% FeO; peridotito com ~60% de olivina mais orto e clinopiroxenio.",
+      "source": "McDonough & Sun (1995); Ringwood",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-MAN-ALFASE-001",
+      "claim": "Fase aluminosa do peridotito: plagioclasio ate ~30 km, espinelio ~30 a ~60-80 km, granada abaixo; limites dependem de T e de Cr.",
+      "source": "Klein & Dutrow; petrologia do manto",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-MAN-TRANSICAO-001",
+      "claim": "Olivina -> wadsleyita a ~410 km (~13-14 GPa); wadsleyita -> ringwoodita a ~520 km; ringwoodita -> bridgmanita + ferropericlasio a ~660 km (~23-24 GPa).",
+      "source": "Klein & Dutrow; Ringwood; literatura de alta pressao",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-MAN-INFERIOR-001",
+      "claim": "Manto inferior pirolitico: ~75% bridgmanita, ~17% ferropericlasio, ~8% Ca-perovskita em volume; bridgmanita provavelmente o mineral mais abundante da Terra.",
+      "source": "Sun et al. (2016) JGR; Tschauner et al. (2014)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-MAN-BRIDGM-001",
+      "claim": "Bridgmanita nomeada e aprovada em 2014 a partir do meteorito de choque Tenham; davemaoita (CaSiO3-perovskita) aprovada em 2021, achada em inclusao de diamante.",
+      "source": "Tschauner et al. (2014) Science 346; Tschauner et al. (2021) Science 374",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-MAN-AMORFIZA-001",
+      "claim": "A bridgmanita amorfiza na descompressao; preservada excepcionalmente em meteoritos de choque como Tenham.",
+      "source": "Tschauner et al. (2014)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-REV-GLOSSAS-001",
+      "claim": "Glossas: condritos = meteoritos rochosos primitivos; espinelio = oxido de Mg e Al; zircao = silicato de zirconio muito resistente; orto e clinopiroxenio = dois tipos de piroxenio.",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-CIC-HUTTON-001",
+      "claim": "A ideia de um ciclo continuo das rochas remonta a James Hutton, no fim do seculo XVIII (1785/1788).",
+      "source": "Hutton (1788)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-IGN-TEXTURA-001",
+      "claim": "Plutonica = resfriamento lento, cristais visiveis (faneritica); vulcanica = rapido, afanitica ou vitrea; porfiritica = duas etapas.",
+      "source": "Winter; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-IGN-PARES-001",
+      "claim": "Granito e riolito tem a mesma quimica; gabro e basalto tem a mesma quimica.",
+      "source": "classificacao IUGS (Le Maitre 2002)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-IGN-MINERAIS-001",
+      "claim": "Magmas basalticos cristalizam olivina, piroxenio e plagioclasio calcico; graniticos cristalizam quartzo, feldspato potassico, plagioclasio sodico e micas.",
+      "source": "Winter; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-SED-CAULIN-001",
+      "claim": "Intemperismo quimico transforma feldspato em caulinita, liberando K+ e silica dissolvida; quartzo e muito mais resistente e se concentra como areia.",
+      "source": "Klein & Dutrow; geoquimica de superficie",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-SED-DIAGEN-001",
+      "claim": "Diagenese: compactacao e cimentacao por calcita, silica e oxidos de ferro; areia vira arenito, lama vira folhelho; calcario e evaporitos sao quimicos/bioquimicos.",
+      "source": "livros-texto de sedimentologia",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-MET-FOLIA-001",
+      "claim": "Foliacao resulta do crescimento de minerais planos perpendiculares a compressao dirigida; ardosia -> xisto -> gnaisse acompanha temperatura crescente sobre um folhelho; marmore, quartzito e hornfels sao tipicamente nao foliados.",
+      "source": "Winter (2010)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-MET-MINERAIS-001",
+      "claim": "Argila vira mica com o metamorfismo; em temperatura maior aparecem granada e estaurolita.",
+      "source": "Winter; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-CIC-FAIXAS-001",
+      "claim": "Faixas tipicas: igneas ~700-1.200 C; sedimentares ~0-200 C; metamorficas ~200-800 C ou mais; fronteiras se sobrepoem.",
+      "source": "Winter; ordem de grandeza",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-PT-RHOGH-001",
+      "claim": "P = rho g h; crosta rho 2.700-2.800 kg/m3 da ~27 MPa/km; 1 kbar ~3,5 km; 1 GPa ~35 km (30-37 km conforme a densidade).",
+      "source": "calculo; Turcotte & Schubert",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-PT-CALOR-001",
+      "claim": "O calor interno vem do calor residual de formacao e do decaimento de U, Th e K, concentrados na crosta continental.",
+      "source": "Turcotte & Schubert",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-PT-GRAD-001",
+      "claim": "Gradiente geotermico continental proximo a superficie ~25-30 C/km; temperatura na base de litosfera continental espessa ~1.300 C; a geoterma se achata com a profundidade.",
+      "source": "Turcotte & Schubert; Winter",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-PT-REGIMES-001",
+      "claim": "Gradientes tipicos: subduccao ~5-10 C/km; crosta estavel/colisao ~20-30 C/km; dorsais, riftes e contatos >=40 C/km.",
+      "source": "Winter (series de facies)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-PT-AL2SIO5-001",
+      "claim": "Andaluzita baixa P, cianita alta P, sillimanita alta T; ponto triplo ~0,4-0,45 GPa e 500-550 C, conforme a calibracao (Holdaway 1971: ~0,38 GPa/501 C; Pattison 1992: ~0,45 GPa/550 C).",
+      "source": "Holdaway (1971); Pattison (1992)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-PT-SUBDUC-001",
+      "claim": "Subduccao: alta P e baixa T; xisto azul com glaucofanio e lawsonita; eclogito com granada + onfacita.",
+      "source": "Winter",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-PT-ARCO-001",
+      "claim": "Nos arcos, a agua liberada pela placa subductada abaixa o solidus do manto acima e provoca fusao.",
+      "source": "Winter",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-PT-COLISAO-001",
+      "claim": "Na colisao continental a crosta engrossa ate ~60-70 km (ex.: Himalaia-Tibete).",
+      "source": "livros-texto de tectonica",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-PT-CONTATO-001",
+      "claim": "Metamorfismo de contato: baixa P e alta T; andaluzita e cordierita em hornfels.",
+      "source": "Winter",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-PT-DIAMANTE-001",
+      "claim": "Sob cratons, o diamante e estavel a partir de ~140-150 km (~4,5 GPa).",
+      "source": "Kennedy & Kennedy (1976); petrologia de kimberlitos",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-PT-FUSAO-001",
+      "claim": "Tres mecanismos de fusao: descompressao (dorsais, plumas), adicao de agua (arcos), aquecimento (crosta espessada ou invadida).",
+      "source": "Winter",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-PT-PLACAS-001",
+      "claim": "Placas se movem alguns centimetros por ano.",
+      "source": "GPS; livros-texto",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-PT-EXEMPLO-001",
+      "claim": "2.800 x 9,8 x 20.000 = 0,55 GPa; 3.000 x 9,8 x 60.000 = 1,76 GPa; 15 + 25x20 = 515 C; 15 + 8x60 = 495 C.",
+      "source": "calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-LIT-ESPESS-001",
+      "claim": "Litosfera ~100 km sob oceanos antigos, ate ~200 km sob continentes antigos; astenosfera solida e fluida a longo prazo; manto flui centimetros por ano.",
+      "source": "livros-texto de tectonica",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-REV-GLOSSAS-002",
+      "claim": "Glossas: glaucofanio = anfibolio azul de Na; lawsonita = silicato hidratado de Ca e Al; onfacita = piroxenio de Na e Ca; cordierita = silicato de Mg e Al; xisto azul e eclogito = rochas metamorficas de alta pressao.",
+      "source": "Klein & Dutrow; Winter",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-FLU-POLAR-001",
+      "claim": "A agua e polar e dissolve cristais ionicos cercando os ions da superficie (hidratacao).",
+      "source": "quimica geral",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-FLU-COMPLEXO-001",
+      "claim": "Complexos de cloreto e bissulfeto transportam Cu, Zn, Pb e Au em fluidos hidrotermais.",
+      "source": "Robb; Seward & Barnes",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-FLU-FONTES-001",
+      "claim": "Fontes de agua: meteorica, marinha, magmatica, metamorfica (desidratacao de minerais hidratados) e de bacia; magmas graniticos podem ter varios % de H2O.",
+      "source": "Robb; Winter",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-FLU-CRITICO-001",
+      "claim": "Ponto critico da agua pura: ~374 C e ~22 MPa (373,946 C; 22,064 MPa).",
+      "source": "IAPWS-95",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-FLU-EVAP-001",
+      "claim": "Evaporacao da agua do mar: carbonatos primeiro; gipsita quando resta ~1/5 do volume; halita com ~1/10; depois sais de K e Mg.",
+      "source": "Warren (2016); Usiglio",
+      "confidence": "provavel"
+    },
+    {
+      "claim_id": "TER-FLU-FUMAROLA-001",
+      "claim": "Fumarolas negras: fluido a ~350-400 C, acido, reduzido e rico em metais encontra agua do mar a ~2 C; precipitam pirita, calcopirita, esfalerita; anidrita por aquecimento da agua do mar.",
+      "source": "Tivey (2007)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-FLU-EBULICAO-001",
+      "claim": "Queda de pressao e ebulicao separam CO2 e H2S no vapor e precipitam ouro.",
+      "source": "Robb",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-FLU-QTZSINT-001",
+      "claim": "Quartzo sintetico cresce por metodo hidrotermal em autoclave: nutriente dissolvido na zona mais quente, deposito na semente na zona mais fria.",
+      "source": "Klein & Dutrow; literatura de crescimento de cristais",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-FLU-GEODO-001",
+      "claim": "Ametista em geodos de basalto; quartzo em fendas alpinas; calcita e fluorita em veios.",
+      "source": "Klein & Dutrow; Mindat",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "TER-REV-GLOSSAS-003",
+      "claim": "Glossas: pegmatitos = rochas igneas de cristais muito grandes; esfalerita = sulfeto de zinco; estaurolita (aula 02) = silicato de Fe e Al tipico de rochas metamorficas.",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    }
+  ]
+}

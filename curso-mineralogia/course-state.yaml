@@ -39,7 +39,7 @@ learning_outcomes:
   e de propriedades, com grau de confiança explícito.
 status: in_progress
 created_at: '2026-09-29T00:00:00-03:00'
-updated_at: '2026-10-04T12:00:00-03:00'
+updated_at: '2026-10-04T22:30:00-03:00'
 curriculum_basis: 'pesquisa das ementas e sumários de referência, cruzada com o escopo previsto pelo usuário: ementas
   do IGc-USP — GMG0106 Cristalografia Fundamental (45 h) e GMG0220 Mineralogia (105 h), com as optativas GMG0203
   Mineralogia Aplicada e GMG0425 Técnicas Gemológicas (pasta GradeCurricular/Geologia-USP) —; sumários de Klein
@@ -52,8 +52,15 @@ curriculum_basis: 'pesquisa das ementas e sumários de referência, cruzada com 
   Dyar & Gunter, Mineralogy and Optical Mineralogy (MSA); Deer, Howie & Zussman (minerais formadores de rocha);
   Nesse, Introduction to Optical Mineralogy; normativo IMA-CNMNC (definição de mineral, lista de espécies, nomenclatura
   de grupos) e classificação Nickel-Strunz/Dana; Mindat e RRUFF como referência de dados.'
-current_module: '03'
-next_action: 'Módulos 01 e 02 concluídos. Módulo 01 fechado em 2026-10-04: 2ª passagem da auditoria (audit-and-fix) conferiu as 3 alegações da revisão didática (QUI-TAB-GRUPOD-001 e QUI-LIG-METALREGRA-001 verificadas; QUI-SPIN-DEF-001 corrigida, 🟠) e auditou o questionário (sem mudanças) e o baralho, gerado depois da 1ª auditoria (🔴 5 e 🟠 17 corrigidos em 69 cards, IDs mantidos; se o baralho já foi importado no Anki, atualizar as notas pelo id); validate_state, validate_links e validate_flashcards sem erros. Pendências não bloqueantes: no m01, enxugar os cloze com mais de 3 lacunas e as quase-duplicatas Basic (gerador-de-flashcards) e os 3 azuis da revisão didática; no m02, rodar a auditoria cross-course contra o curso-geologia m04 a03 (mercúrio como única exceção; obsidiana). Próximo passo: módulo 03 (terra-fabrica-de-minerais), começando pelas aulas.'
+current_module: '05'
+next_action: 'Módulos 01 a 04 concluídos. Módulo 03 fechado em 2026-10-04 (auditoria 🟠 2/🟡 5 e revisão didática
+  🟠 1/🟡 7 corrigidas; 🔵 2 abertos: desenhar o corte da Terra e o diagrama P-T). Módulo 04 fechado em 2026-10-04:
+  auditoria 🔴 1 (operação do eixo 3̄ no exemplo da calcita), 🟠 2 (implicação de quiralidade; notação A/P/C chamada
+  de Bravais-Miller), 🟡 3, todos corrigidos; revisão didática 🟠 1 (figuras dos grupos pontuais), 🟡 5 corrigidos,
+  🔵 3 abertos; parciais 1 e 2 + final (30 q, 74 pts) e baralho (83 Basic + 23 Cloze) com checagem científica própria.
+  Pendências não bloqueantes herdadas: m01 (cloze com mais de 3 lacunas, quase-duplicatas), m02 (auditoria cross-course
+  com curso-geologia m04 a03). Próximo passo: módulo 05 (miller-e-projecao), começando pelas aulas; ao escrevê-lo,
+  remeter de volta à tabela de famílias da aula 04 do m04 com os estereogramas das 32 classes.'
 blocking_issues: []
 decisions:
 - date: '2026-09-29'
@@ -342,7 +349,7 @@ modules:
   prerequisites:
   - '01'
   - '02'
-  status: pending
+  status: completed
   learning_objectives:
   - id: mineralogia-m03-oa01
     statement: Descrever as camadas da Terra e a composição química e mineralógica dominante de cada uma
@@ -360,36 +367,80 @@ modules:
     cognitive_level: explicar
   lessons:
     planned: 4
-    completed: 0
+    completed: 4
     items:
     - id: mineralogia-m03-a01
       title: 'Estrutura e composição da Terra: crosta, manto e núcleo em minerais'
-      status: pending
+      status: completed
+      file: 03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-aula-01-estrutura-e-composicao-da-terra-crosta-manto-e-nucleo.md
+      content_hash: d9f907f944e22b02ee7f0e89803006899e9cb14f19bba64851b56a39a66c4236
+      palavras_corpo: 1558
       covers_objectives:
       - mineralogia-m03-oa01
     - id: mineralogia-m03-a02
       title: 'O ciclo das rochas: ígneas, sedimentares e metamórficas pelo processo'
-      status: pending
+      status: completed
+      file: 03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-aula-02-ciclo-das-rochas-igneas-sedimentares-e-metamorficas.md
+      content_hash: a4f1258a1d7d43178a7450cbb5f7157f0f72e87b5ccf009b907b2ed4f6e00135
+      palavras_corpo: 1391
       covers_objectives:
       - mineralogia-m03-oa02
     - id: mineralogia-m03-a03
       title: 'Pressão, temperatura e tectônica: gradientes geotérmicos e ambientes de formação'
-      status: pending
+      status: completed
+      file: 03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-aula-03-pressao-temperatura-e-tectonica-gradientes-geotermicos.md
+      content_hash: 90dfc0a829cdf4557fe7ae9011af971148dfcab543e9739dc7fc0852b416a5c8
+      palavras_corpo: 1565
       covers_objectives:
       - mineralogia-m03-oa03
     - id: mineralogia-m03-a04
       title: 'Água e fluidos na crosta: transporte de elementos e cristalização a partir de solução'
-      status: pending
+      status: completed
+      file: 03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-aula-04-agua-e-fluidos-na-crosta-transporte-e-cristalizacao.md
+      content_hash: fd27f3f724cd0ea9ad1529577e2c13395f99d7898ef8d2d9503cc3435a5c4e63
+      palavras_corpo: 1385
       covers_objectives:
       - mineralogia-m03-oa04
   audit:
-    status: pending
+    status: approved
+    file: 03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-auditoria.md
+    red: 0
+    orange: 2
+    yellow: 5
+    blue: 0
+    white: 0
+    open_findings: []
+    deferred_findings: []
+    audited_at: '2026-10-04'
   didactic_review:
-    status: pending
+    status: completed
+    file: 03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-revisao-didatica.md
+    content_hash: 8a9b55ed5cb7c33e4937a5303a38cdb581401f3a2e1f1a20aa015776c15038e0
+    generated_at: '2026-10-04T14:00:00-03:00'
   assessment:
-    status: pending
+    status: completed
+    files:
+    - 03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-questionario-final.md
+    questions: 17
+    points: 42
+    objectives_covered:
+    - mineralogia-m03-oa01
+    - mineralogia-m03-oa02
+    - mineralogia-m03-oa03
+    - mineralogia-m03-oa04
+    blueprint_complete: true
+    uncovered_objectives: []
+    generated_at: '2026-10-04'
   flashcards:
-    status: pending
+    status: completed
+    index_file: 03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-flashcards.md
+    basic_file: 03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-flashcards-basic.csv
+    cloze_file: 03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-flashcards-cloze.csv
+    count_basic: 61
+    count_cloze: 17
+    last_id: 61
+    last_id_cloze: 17
+    generated_at: '2026-10-04T16:00:00-03:00'
 # trilha: nucleo (núcleo) — módulo 04
 - id: '04'
   slug: simetria-e-morfologia
@@ -399,7 +450,7 @@ modules:
     os sete sistemas cristalinos — e descrever suas formas e hábito com o vocabulário correto.
   prerequisites:
   - '02'
-  status: pending
+  status: completed
   learning_objectives:
   - id: mineralogia-m04-oa01
     statement: Explicar o estado cristalino e as leis de Steno (constância dos ângulos interfaciais) e de Haüy,
@@ -423,51 +474,107 @@ modules:
     cognitive_level: analisar
   lessons:
     planned: 7
-    completed: 0
+    completed: 7
     items:
     - id: mineralogia-m04-a01
       title: 'O estado cristalino: ordem interna, leis de Steno e de Haüy'
-      status: pending
+      status: completed
+      file: 04-simetria-e-morfologia/04-simetria-e-morfologia-aula-01-o-estado-cristalino-leis-de-steno-e-de-hauy.md
+      content_hash: fb02b447d538eab912e92dbc9c93035d64ad980da37e69344de20b8e1d1e1146
+      palavras_corpo: 1443
       covers_objectives:
       - mineralogia-m04-oa01
     - id: mineralogia-m04-a02
       title: 'Operações de simetria I: rotação, reflexão e inversão'
-      status: pending
+      status: completed
+      file: 04-simetria-e-morfologia/04-simetria-e-morfologia-aula-02-operacoes-de-simetria-i-rotacao-reflexao-e-inversao.md
+      content_hash: db298becd3bf1aa2589a05878f58d0dae4ee2e4cdf507e03deed2b6679b6d809
+      palavras_corpo: 1404
       covers_objectives:
       - mineralogia-m04-oa02
     - id: mineralogia-m04-a03
       title: 'Operações de simetria II: rotoinversão e combinação de elementos'
-      status: pending
+      status: completed
+      file: 04-simetria-e-morfologia/04-simetria-e-morfologia-aula-03-operacoes-de-simetria-ii-rotoinversao-e-combinacao-de-elementos.md
+      content_hash: 9c0dc52bc7fe0728ce075117409544d5d78bc1b1aa717e1c5b2eda7d6411a25f
+      palavras_corpo: 1458
       covers_objectives:
       - mineralogia-m04-oa02
     - id: mineralogia-m04-a04
       title: 'Os 32 grupos pontuais e a notação de Hermann-Mauguin — Parte 1: dedução'
-      status: pending
+      status: completed
+      file: 04-simetria-e-morfologia/04-simetria-e-morfologia-aula-04-os-32-grupos-pontuais-e-a-notacao-de-hermann-mauguin-parte-1-deducao.md
+      content_hash: 7638a186c81fed79022a29689937cb124c10bc5aea96c8b3981d1d95112786cb
+      palavras_corpo: 1429
       covers_objectives:
       - mineralogia-m04-oa03
     - id: mineralogia-m04-a05
       title: 'Os 32 grupos pontuais — Parte 2: reconhecer a classe num cristal real'
-      status: pending
+      status: completed
+      file: 04-simetria-e-morfologia/04-simetria-e-morfologia-aula-05-os-32-grupos-pontuais-parte-2-reconhecer-a-classe-num-cristal-real.md
+      content_hash: c152d3bdbdb22bd9c45476b93a99541ed12130878df0647a40b91a82b8aaecf1
+      palavras_corpo: 1599
       covers_objectives:
       - mineralogia-m04-oa03
     - id: mineralogia-m04-a06
       title: 'Os sete sistemas cristalinos: definidos pela simetria, não pela aparência'
-      status: pending
+      status: completed
+      file: 04-simetria-e-morfologia/04-simetria-e-morfologia-aula-06-os-sete-sistemas-cristalinos-definidos-pela-simetria.md
+      content_hash: 145da15c2f423550d2309778b6c2828bde1ab7334d28b160743a7431616195bc
+      palavras_corpo: 1356
       covers_objectives:
       - mineralogia-m04-oa04
     - id: mineralogia-m04-a07
       title: 'Formas cristalinas e hábito: formas gerais, especiais, abertas e fechadas'
-      status: pending
+      status: completed
+      file: 04-simetria-e-morfologia/04-simetria-e-morfologia-aula-07-formas-cristalinas-e-habito-formas-gerais-especiais-abertas-e-fechadas.md
+      content_hash: 48035d9c11e7c050d37666a4d232445118ccbe54cc4c41bacdd61e0a91f73ff4
+      palavras_corpo: 1415
       covers_objectives:
       - mineralogia-m04-oa05
   audit:
-    status: pending
+    status: approved
+    file: 04-simetria-e-morfologia/04-simetria-e-morfologia-auditoria.md
+    red: 1
+    orange: 2
+    yellow: 3
+    blue: 0
+    white: 0
+    open_findings: []
+    deferred_findings: []
+    audited_at: '2026-10-04'
   didactic_review:
-    status: pending
+    status: completed
+    file: 04-simetria-e-morfologia/04-simetria-e-morfologia-revisao-didatica.md
+    content_hash: 39726b9f5499a7867cb4951117ee8b99c4ce97f565d333438cd38c0b4f4efba4
+    generated_at: '2026-10-04T20:00:00-03:00'
   assessment:
-    status: pending
+    status: completed
+    files:
+    - 04-simetria-e-morfologia/04-simetria-e-morfologia-questionario-parcial-1.md
+    - 04-simetria-e-morfologia/04-simetria-e-morfologia-questionario-parcial-2.md
+    - 04-simetria-e-morfologia/04-simetria-e-morfologia-questionario-final.md
+    questions: 30
+    points: 74
+    objectives_covered:
+    - mineralogia-m04-oa01
+    - mineralogia-m04-oa02
+    - mineralogia-m04-oa03
+    - mineralogia-m04-oa04
+    - mineralogia-m04-oa05
+    blueprint_complete: true
+    uncovered_objectives: []
+    generated_at: '2026-10-04'
   flashcards:
-    status: pending
+    status: completed
+    index_file: 04-simetria-e-morfologia/04-simetria-e-morfologia-flashcards.md
+    basic_file: 04-simetria-e-morfologia/04-simetria-e-morfologia-flashcards-basic.csv
+    cloze_file: 04-simetria-e-morfologia/04-simetria-e-morfologia-flashcards-cloze.csv
+    count_basic: 83
+    count_cloze: 23
+    last_id: 83
+    last_id_cloze: 23
+    generated_at: '2026-10-04T22:00:00-03:00'
 # trilha: nucleo (núcleo) — módulo 05
 - id: '05'
   slug: miller-e-projecao
