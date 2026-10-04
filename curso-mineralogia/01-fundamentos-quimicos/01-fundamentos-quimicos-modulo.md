@@ -1,6 +1,6 @@
 # Módulo 01 — Fundamentos químicos: átomo, tabela periódica e ligação
 
-> [!info] Curso de **Mineralogia** · módulo 01 de 50 · área I. Fundamentos: da matéria ao mineral · trilha **núcleo** · status: **em andamento** (aulas escritas em 2026-09-30; auditoria científica aprovada após correções em 2026-09-30; revisão didática concluída em 2026-09-30)
+> [!info] Curso de **Mineralogia** · módulo 01 de 50 · área I. Fundamentos: da matéria ao mineral · trilha **núcleo** · status: **concluído** em 2026-10-04 (aulas, auditoria e revisão didática em 2026-09-30; questionário e baralho em 2026-10-03; 2ª passagem da auditoria e validação em 2026-10-04)
 
 ## Objetivo do módulo
 
@@ -61,10 +61,11 @@ curso-geologia, módulo 04, aulas 01 e 02 (ponte de átomo e de ligação) cobre
 ## Registro do módulo
 
 - Aulas: escritas (6 de 6), em 2026-09-30
-- Auditoria científica: [[01-fundamentos-quimicos-auditoria|aprovada após correções]] em 2026-09-30 (🔴 1 · 🟠 12 · ⚪ 1, todos corrigidos; 37 alegações verificadas; nenhum achado aberto)
-- Revisão didática: [[01-fundamentos-quimicos-revisao-didatica|bem ensinado com ressalvas, ressalvas corrigidas]] em 2026-09-30 (🟠 6 · 🟡 8 corrigidos; 🔵 3 em aberto, não bloqueantes; 3 alegações novas aguardam conferência do auditor)
+- Auditoria científica: [[01-fundamentos-quimicos-auditoria|aprovada após correções]] em 2026-09-30 (🔴 1 · 🟠 12 · ⚪ 1, todos corrigidos; 37 alegações verificadas). 2ª passagem em 2026-10-04: conferiu as 3 alegações da revisão didática (2 verificadas, `QUI-SPIN-DEF-001` corrigida) e auditou o questionário (sem mudanças) e o baralho (🔴 5 · 🟠 17, 69 cards corrigidos, IDs mantidos). Nenhum achado aberto.
+- Revisão didática: [[01-fundamentos-quimicos-revisao-didatica|bem ensinado com ressalvas, ressalvas corrigidas]] em 2026-09-30 (🟠 6 · 🟡 8 corrigidos; 🔵 3 em aberto, não bloqueantes; as 3 alegações novas foram conferidas pelo auditor em 2026-10-04)
 - Questionário: [[01-fundamentos-quimicos-questionario-final|final cumulativo]] gerado em 2026-10-03 (18 questões, 42 pontos; 6 de 6 objetivos cobertos)
-- Flashcards: [[01-fundamentos-quimicos-flashcards|baralho]] gerado em 2026-10-03 (75 Basic + 59 Cloze)
+- Flashcards: [[01-fundamentos-quimicos-flashcards|baralho]] gerado em 2026-10-03 (75 Basic + 59 Cloze); corrigido pela auditoria em 2026-10-04
+- Validação estrutural: `validate_state`, `validate_links` e `validate_flashcards` sem erros em 2026-10-04 (avisos não bloqueantes de cloze com mais de 3 lacunas). Módulo concluído em 2026-10-04.
 
 ## Navegação
 

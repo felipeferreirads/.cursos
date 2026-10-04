@@ -200,5 +200,5 @@ alegacoes_auditaveis:
     claim: "No bloco d, a soma dos eletrons s e d de valencia da o numero do grupo (Fe 4s2 3d6 -> grupo 8)."
     risk: fato
     source: "derivado de QUI-CONF-FE-001 (Fe grupo 8, Mn grupo 7, ja auditado) e do passo 4 do exemplo trabalhado; IUPAC, numeracao de grupos 1-18"
-    audit: "pendente — acrescentado pela revisao didatica em 2026-09-30 (generaliza para o corpo a regra que so aparecia no exemplo); conferir na proxima passagem do auditor"
+    audit: "verificado em 2026-10-04 (auditoria m01, passagem 2): na numeracao IUPAC 1-18, o grupo dos elementos do bloco d (grupos 3-12) e o numero de eletrons s e d alem do gas nobre anterior (Fe 2+6 = 8; Mn 7; Cu 3d10 4s1 = 11; Zn 12); vale tambem para as excecoes Cr e Cu; nos periodos 6-7 o 4f14 nao entra na soma, o que o texto ja respeita ao falar so de s e d"
 -->

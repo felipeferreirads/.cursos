@@ -1,6 +1,6 @@
 # Auditoria científica: Módulo 01 — Fundamentos químicos
 
-**Auditado em:** 2026-09-30
+**Auditado em:** 2026-09-30 · **Passagem 2:** 2026-10-04 (alegações da revisão didática, questionário e baralho; ver "Passagem 2" no fim)
 **Material:** `curso-mineralogia/01-fundamentos-quimicos/` — as 6 aulas (`01-fundamentos-quimicos-aula-01` a `-aula-06`)
 **Modo:** audit-and-fix
 **Profundidade:** full (com checagem de consistência com curso-geologia, módulo 04, aulas 01–02)
@@ -274,3 +274,87 @@ Também foram atualizados: os rodapés `alegacoes_auditaveis` das 6 aulas (os ca
 **Pendências:** nenhuma pendência factual no módulo. Fontes que não consegui abrir diretamente estão no manifesto: a tabela do PREM (PDF da Harvard truncado, espelho da McGill fora do ar, IRIS negou acesso; o valor de 364 GPa foi confirmado por literatura revisada que cita o PREM); as páginas do Mindat (HTTP 403; usei o *Handbook of Mineralogy*, da mesma hierarquia); WebElements (403); NIST WebBook sem Tf do MgO (usei Ronchi & Sheindlin 2001).
 
 **Aviso de baralho já importado:** não se aplica. O módulo ainda não tem questionário nem flashcards, e nenhum foi gerado nesta etapa.
+
+---
+
+## Passagem 2 — 2026-10-04 (fechamento do módulo)
+
+**Modo:** audit-and-fix · **Profundidade:** full, com escopo dirigido
+**Escopo pedido:** as três alegações que a revisão didática acrescentou e deixou pendentes (`QUI-TAB-GRUPOD-001`, `QUI-SPIN-DEF-001`, `QUI-LIG-METALREGRA-001`), os trechos que as contêm e a consistência entre aulas, questionário e flashcards sobre elas.
+**Escopo ampliado, e por quê:** o questionário e o baralho foram gerados em 2026-10-03, depois da passagem 1, e nunca tinham passado pelo auditor (a passagem 1 registra "não há questionário nem baralho"). A checagem de consistência mostrou erros no baralho que vão além das três alegações. Fechar o módulo com eles abertos poria o erro direto na revisão espaçada, então o baralho inteiro (75 Basic + 59 Cloze) e o questionário (18 questões) foram conferidos contra as aulas auditadas.
+**Veredito:** Requer correção → **correções aplicadas; estado final: Aprovado** (nenhum achado aberto)
+
+### Resumo da passagem 2
+
+🔴 5 erros · 🟠 18 imprecisões · 🟡 0 · 🔵 0 · ⚪ 0 · verificadas e corretas: 3 (as duas alegações abaixo e o questionário inteiro).
+Totais do módulo (passagens 1 + 2): 🔴 6 · 🟠 30 · ⚪ 1 · verificadas 40.
+
+### As três alegações da revisão didática
+
+**✅ `QUI-TAB-GRUPOD-001` (aula 01): verificada.** Na numeração IUPAC 1–18, o grupo de um elemento do bloco d (grupos 3–12) é o número de elétrons s e d além do gás nobre anterior: Fe 2 + 6 = 8, Mn 7, e também nas exceções (Cr 3d⁵ 4s¹ = 6; Cu 3d¹⁰ 4s¹ = 11) e no Zn (12). Nos períodos 6 e 7 o 4f¹⁴ não entra na conta, e o texto já fala só de s e d. Fonte: IUPAC, numeração de grupos (resumida em *Group (periodic table)*, https://en.wikipedia.org/wiki/Group_(periodic_table), consultada em 2026-10-04); NIST ASD para as configurações. Confiança: confirmado. Nada a corrigir.
+
+### 🟠 1. A definição de spin alto e spin baixo valia para qualquer íon
+
+**claim_id:** `QUI-SPIN-DEF-001`
+**Tipo:** confusão de escopo
+**Onde:** aula 03 · Vocabulário
+**Está escrito:** "dois arranjos possíveis dos elétrons d de um íon dentro de um cristal."
+**Problema:** só íons com 4 a 7 elétrons d em octaedro têm os dois arranjos; um d³ ou um d⁸ tem um arranjo só. O resto da definição está certo: o Fe²⁺ de spin alto tem 4 desemparelhados; o da pirita é d⁶ de spin baixo (t₂g⁶), diamagnético, com 0.
+**Correção aplicada:** "…dentro de um cristal, quando ele tem de 4 a 7 elétrons d, como o Fe²⁺ (3d⁶)." O texto fica no vocabulário, fora da contagem LC-02 (`palavras_corpo` não muda).
+**Fonte:** LibreTexts, *High Spin and Low Spin Complexes* (https://chem.libretexts.org/Courses/Douglas_College/DC:_Chem_2330_(O'Connor)/4:_Crystal_Field_Theory/4.3:_High_Spin_and_Low_Spin_Complexes), consultado em 2026-10-04; Mössbauer de FeS₂ em campo externo (*Solid State Communications*, 1976: nenhum momento magnético no Fe)  ·  **Nível:** geral + revisada por pares
+**Confiança:** confirmado
+**Também aparece em:** fb027 e fc018, que diziam que o spin alto tem "maior repulsão", que é o contrário do motivo. Os dois foram reescritos com a definição da aula.
+
+**✅ `QUI-LIG-METALREGRA-001` (aula 04): verificada.** No domínio dos minerais, metais nativos e ligas naturais formados só por átomos de metais (Cu, Au, Ag, kamacita/taenita Fe-Ni) ocupam o vértice metálico do triângulo de Van Arkel–Ketelaar. O χ de Pauling do Cu (1,90) é igual ao do Si (1,90), como diz o exemplo (c). O "só átomos de metais" já exclui os elementos nativos não metálicos (S, C) e semimetálicos (As, Sb). Fonte: Allen & Capitani (1993), *J. Mol. Struct.* 300; Allred (1961). Confiança: confirmado. Nada a corrigir na aula. **Mas o baralho a contradizia** (achados 3 e 4 abaixo).
+
+### Consistência com o questionário: aprovado sem mudança
+
+A Q13 é coerente com as três alegações: Co no grupo 9 (2 s + 7 d), e Co²⁺ 3d⁷ de spin alto com 3 desemparelhados, numa faixa (d⁴–d⁷) em que a distinção existe. A Q10 (pirita) é coerente com a heurística metálica. Refiz as contas das Q4 (EI do Ca 590/1145/4912 kJ/mol, NIST), Q15 (Al–O: 56,7%), Q16 (fayalita 203,771 g/mol; 70,51% e 29,49%), Q17 (12,96 ≈ 13 km; 1173,15 K; 0,162 nm) e Q18 (razão 0,8610 : 0,8608 → CaSiO₃; 3,50% Fe; 4,50% como FeO) e todas batem. Só a nota de gate do registro de geração foi atualizada.
+
+### Achados no baralho (flashcards)
+
+| # | claim_id | Sev. | Cards | Problema → correção |
+|---|---|---|---|---|
+| 2 | `QUI-FC-PAULING50-001` | 🔴 | fb031, fc023 | "Δχ ≈ 2 → 50%". A fórmula dá 50% em Δχ = 1,67 (aula 04); em 2 dá 63%. → "≈ 1,7". |
+| 3 | `QUI-FC-AUCHI-001` | 🔴 | fb038, fc030, fb036, fc028 | "Au = 2,54 … confirmando caráter metálico puro" inverte `QUI-LIG-METAL-001`; "átomos de mesmo tipo" exclui as ligas. → o χ alto do Au mostra o limite do χ; critério prático da aula. |
+| 4 | `QUI-FC-DCHIZERO-001` | 🟠 | fb037, fc029 | "Δχ ≈ 0 → covalente apolar", sem ressalva, contradiz `QUI-LIG-METALREGRA-001` (Cu–Cu). → regra restrita a não metais; entre metais é metálica. |
+| 5 | `QUI-FC-MNO2POLI-001` | 🔴 | fb049 | "Pirolusita ortorrômbica; Mn em 6 ou 4". A pirolusita é tetragonal, tipo rutilo; a ortorrômbica é a ramsdellita; Mn⁴⁺ em octaedro nas duas (Mindat; Post 1999, *PNAS* 96). Termo: polimorfismo. |
+| 6 | `QUI-FC-CCLEN-001` | 🔴 | fb040 | "C–C (1,54) < C=C (1,34) < C≡C (1,20)": desigualdades invertidas. |
+| 7 | `QUI-FC-H2ODENS-001` | 🔴 | fb058, fc041 | "Pontes de H tornam o mineral mais denso; água-marinha mostra o efeito": sem base (a cor vem do Fe). → H₂O/OH em posições fixas; gipsita (aula 05). |
+| 8 | `QUI-FC-TALCOMG-001` | 🟠 | fb054 | Mg²⁺ "entre as camadas" e talco "quebradiço". O Mg fica dentro da lâmina; as lâminas neutras se unem só por van der Waals; o talco é séctil e flexível (*Handbook of Mineralogy*). |
+| 9 | `QUI-FC-ENERGIA-001` | 🟠 | fb041, fb050, fb051, fc033, fc034 | Faixas diferentes das da aula 05 (vdW 1–10, H 4–40, covalente 300–500), além de C–F 460 e Fe–Fe 160 sem fonte. → valores da aula 05. |
+| 10 | `QUI-FC-ORDEMLIG-001` | 🟠 | fb046, fb059, fc042 | "Covalente > iônica > metálica" contradiz a aula 05 (rede do NaCl ~800 > covalente 200–500). → não há ordem fixa entre as fortes; fortes >> H > vdW. |
+| 11 | `QUI-FC-OXIGENIO-001` | 🟠 | fb029, fc020 | "Sempre −2, exceto O2−". → "quase sempre −2; exceção: peróxidos (−1)" (aula 03). |
+| 12 | `QUI-FC-SIO2MASSA-001` | 🟠 | fb066, fb067, fc048, fc049 | 60,083 arredondado para "60,09". → 60,08 (CIAAW 2024). |
+| 13 | `QUI-FC-ATMKPA-001` | 🟠 | fb072, fc053 | "101.325 kPa" (cento e um mil kPa, na grafia brasileira). → 101,325 kPa (BIPM). |
+| 14 | `QUI-FC-LIGTIPO-001` | 🟠 | fb030, fb033, fc022 | "Iônica = densidade concentrada nos núcleos"; "C–O em SiO₂". → transferidos / compartilhados / deslocalizados (aula 04); Si–O no quartzo. |
+| 15 | `QUI-FC-MOLECULA-001` | 🟠 | fb048, fb060, fc043, fc046 | "Todo mineral tem ligações em 3D"; "gelo, seco". A aula 05 trata o enxofre nativo (S₈) e o gelo como cristais moleculares. |
+| 16 | `QUI-FC-SOLUB-001` | 🟠 | fb062, fc045 | Ligação iônica apresentada como o que decide a solubilidade. A fluorita e o coríndon, também iônicos, são praticamente insolúveis. |
+| 17 | `QUI-FC-INTEMP-001` | 🟠 | fb047 | A resistência ao intemperismo atribuída à força da ligação metálica. Ela vem da nobreza química do Au; Cu e Ag se alteram. |
+| 18 | `QUI-FC-DUREZA-001` | 🟠 | fb034, fb039, fb042, fb061, fc031, fc032 | Diamante "não frágil", "clivagem fraca em {111}" e frases sem sentido sobre densidade eletrônica. → duros e frágeis; clivagem perfeita {111} por menos ligações por área (`QUI-ANISO-DIAMANTE-001`). |
+| 19 | `QUI-FC-VALVAR-001` | 🟠 | fb024, fc015 | A explicação "4s e 3d próximos" aplicada também ao S. → Fe/Mn: EI sobem devagar; S: ganha elétrons ou fica positivo ligado ao O. |
+| 20 | `QUI-FC-AVOGADRO-001` | 🟠 | fb063, fc047 | "Exatamente 6,022 × 10²³". → exatamente 6,02214076 × 10²³ (SI 2019); "mole" → "mol". |
+| 21 | `QUI-FC-MADELUNG-001` | 🟠 | fb001, fb021 | Reintroduzia o modelo corrigido em `QUI-ORB-ENERGIA-001` e chamava de "comparáveis" a 2ª e a 3ª EI do Fe (1563 e 2957). → texto das aulas 01 e 03. |
+| 22 | `QUI-FC-CAMADA-001` | 🟠 | fc005 | "Camada = elétrons com mesma energia". → energia e distância média parecidas (aula 01). |
+| 23 | `QUI-FC-OXIDOCONV-001` | 🟠 | fb068, fc050 | "Assume-se que os elementos estão na forma de óxidos" ensina o erro comum da aula 06. → convenção de escrita. |
+
+**Correções estruturais feitas junto, sem achado factual:** fc021 tinha chaves aninhadas (`{{c4::Mg^{{2+}}}}`) que quebram o cloze no Anki; fc058 duplicava fc054 e passou a cobrar a conversão µm → Å da aula 06 (revisão didática, achado 6); os cards de unidades (fb072–fb074, fc053–fc058) passaram de `oa05` para `oa06`; fb022 tinha a configuração do átomo na pergunta sobre o íon; fc024 perdeu o Al₂O₃ para ficar com 3 lacunas. Nos 33 Cloze reescritos, as lacunas caíram para no máximo 3.
+
+## Correções aplicadas (passagem 2)
+
+**Aplicadas em:** 2026-10-04
+
+| claim_id | Severidade | Desfecho | Arquivos alterados |
+|---|---|---|---|
+| `QUI-TAB-GRUPOD-001` | ✅ | Verificado (rodapé `audit:` atualizado) | aula-01 |
+| `QUI-SPIN-DEF-001` | 🟠 | Corrigido | aula-03, flashcards-basic.csv, flashcards-cloze.csv, flashcards.md |
+| `QUI-LIG-METALREGRA-001` | ✅ | Verificado (rodapé `audit:` atualizado) | aula-04 |
+| `QUI-FC-*` (22 achados, 2–23) | 🔴 5 · 🟠 17 | Corrigido | flashcards-basic.csv (36 cards), flashcards-cloze.csv (33 cards), flashcards.md |
+| — | — | Registro | questionario-final.md (nota de gate), revisao-didatica.md (status das 3 alegações), auditoria.json, course-state.yaml |
+
+Todos os IDs de card foram mantidos. Nenhum valor auditado das aulas mudou.
+
+**Pendências factuais:** nenhuma.
+**Observações não factuais (fora do escopo do auditor):** 24 Cloze não reescritos ainda têm mais de 3 lacunas (aviso `cloze.too_many` do validador), e restam 3 quase-duplicatas Basic (fb009/fb010, fb011/fb012, fb033/fb045). Isso pede uma passada do `gerador-de-flashcards` para enxugar os cards, mas não bloqueia. O texto de `flashcards.md` ainda cita alguns cards como "B0xx".
+
+**Aviso de baralho já importado:** se o baralho do módulo 01 já foi importado no Anki, reimportar o CSV pode não sobrescrever os cards em revisão. Atualize as notas pelo `id` ou apague o deck do módulo e importe de novo.

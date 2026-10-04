@@ -187,7 +187,7 @@ alegacoes_auditaveis:
     claim: "Criterio pratico: nos metais nativos e nas ligas naturais, formados so por atomos de metais (Cu, Au, Ag, Fe-Ni), a ligacao predominante e metalica; o chi de Pauling sozinho nao separa Cu (1,90) de Si (1,90)."
     risk: conceito
     source: "reformula o paragrafo ja auditado da ligacao metalica (QUI-LIG-METAL-001); vertice metalico do triangulo de Van Arkel-Ketelaar (Allen & Capitani 1993)"
-    audit: "pendente — heuristica de classificacao acrescentada pela revisao didatica em 2026-09-30 para tornar operacional o caso metalico do exemplo (c); conferir na proxima passagem do auditor"
+    audit: "verificado em 2026-10-04 (auditoria m01, passagem 2): no dominio dos minerais, metais nativos e ligas naturais formados so por metais (Cu, Au, Ag, kamacita/taenita Fe-Ni) tem ligacao predominantemente metalica — vertice metalico do triangulo de Van Arkel-Ketelaar (Allen & Capitani 1993); Cu 1,90 = Si 1,90 no Pauling (Allred 1961). O texto ja restringe a heuristica a 'so atomos de metais', o que exclui os elementos nativos nao metalicos (S, C) e semimetalicos (As, Sb)"
   - claim_id: QUI-LIG-PAULCALC-001
     claim: "Calculo passo a passo para Si-O: 1,54^2 / 4 = 0,593; e^(-0,593) = 0,553; I = 0,447 (~45%); e = 2,718."
     risk: numero

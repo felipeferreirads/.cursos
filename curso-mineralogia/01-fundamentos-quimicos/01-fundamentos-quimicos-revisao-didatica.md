@@ -231,9 +231,9 @@ Nenhuma aula usa o resultado de uma posterior. As remissões para a frente (mód
 
 | claim_id | Aula | Natureza | Status |
 |---|---|---|---|
-| `QUI-TAB-GRUPOD-001` | a01 | generalização de `QUI-CONF-FE-001` (grupo = s + d no bloco d) | **pendente** de conferência pelo auditor |
-| `QUI-SPIN-DEF-001` | a03 | definição de spin alto/baixo, derivada de `QUI-CONF-FE-001`, `QUI-S-ESTADO-001` e da nota da auditoria | **pendente** de conferência pelo auditor |
-| `QUI-LIG-METALREGRA-001` | a04 | heurística metais nativos → metálica, reformulando `QUI-LIG-METAL-001` | **pendente** de conferência pelo auditor |
+| `QUI-TAB-GRUPOD-001` | a01 | generalização de `QUI-CONF-FE-001` (grupo = s + d no bloco d) | verificada pelo auditor em 2026-10-04 |
+| `QUI-SPIN-DEF-001` | a03 | definição de spin alto/baixo, derivada de `QUI-CONF-FE-001`, `QUI-S-ESTADO-001` e da nota da auditoria | corrigida pelo auditor em 2026-10-04 (🟠: restrita a íons com 4 a 7 elétrons d) |
+| `QUI-LIG-METALREGRA-001` | a04 | heurística metais nativos → metálica, reformulando `QUI-LIG-METAL-001` | verificada pelo auditor em 2026-10-04 |
 | `QUI-LIG-PAULCALC-001` | a04 | aritmética de `QUI-LIG-PAULING-001` | verificada (recálculo) |
 
 Os demais acréscimos são apostos de definição terminológica (clivagem, dureza/Mohs, refratário, coordenação, cela unitária, pressão litostática, petrologia, energia de rede, tetraedro/octaedro, notação {111}, IMA, silicatos, carbonatos, kJ/mol), sem afirmação quantitativa nova.
@@ -251,4 +251,4 @@ Os demais acréscimos são apostos de definição terminológica (clivagem, dure
 
 **Observação estrutural fora do escopo desta skill:** dois claim_ids pré-existentes da `a05`, `QUI-ENXOFRE-001` e `QUI-BRUCITA-001`, têm 3 segmentos. Isso viola o formato de 4 segmentos que o `_contexto.md` fixa desde a primeira aula. Não foram renomeados aqui, porque IDs são referenciados pela auditoria e a renomeação cabe ao auditor ou ao validador.
 
-**Pendências:** os três 🔵 (achados 15–17) e a conferência das três alegações pendentes pelo auditor. Nenhum achado didático 🔴 ou 🟠 fica em aberto.
+**Pendências:** os três 🔵 (achados 15–17). A conferência das três alegações foi feita na passagem 2 da auditoria, em 2026-10-04. Nenhum achado didático 🔴 ou 🟠 fica em aberto.

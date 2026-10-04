@@ -3,7 +3,7 @@
 **Módulo:** [[01-fundamentos-quimicos-modulo|Módulo 01 — Fundamentos químicos: átomo, tabela periódica e ligação]]
 **Total:** 134 cards — 75 Basic + 59 Cloze
 **Faixa de IDs:** `mineralogia-m01-fb001`–`fb075` · `mineralogia-m01-fc001`–`fc059`
-**Auditoria:** ✅ aprovada em 2026-09-30, sem achados 🔴/🟠 em aberto — gate liberado.
+**Auditoria:** ✅ aprovada em 2026-09-30 (aulas); 2ª passagem em 2026-10-04 auditou este baralho e corrigiu 36 Basic e 33 Cloze (ver [[01-fundamentos-quimicos-auditoria|auditoria]], seção "Passagem 2"). Nenhum achado 🔴/🟠 em aberto.
 **Didática:** ✅ revisão concluída em 2026-09-30
 **Questionário:** ✅ gerado em 2026-10-03 (18 questões, 6 objetivos cobertos)
 **Gerado em:** 2026-10-03, contra as 6 aulas já auditadas e revisadas do módulo.
@@ -38,7 +38,7 @@
 - **Todos os valores de referência estão auditados e confirmados contra NIST ASD, Shannon, IUPAC e CRC Handbook.** Configurações eletrônicas (Fe, Mn), energias de ionização (Na, Mg, Al, Fe), raios iônicos (Fe²⁺/Fe³⁺, Si⁴⁺, O²⁻, Cl⁻), eletronegatividades (Pauling, Allred 1961), massas atômicas (CIAAW 2024), constante de Avogadro (BIPM 2019).
 - **Nenhuma matemática além do contrato `ensino-medio-sem-geologia-v1`.** Os cards de unidades e cálculos (B067, B074, B075) usam regra de três e conversão de unidades. Nenhum card exige integral, derivada ou logaritmo (a fórmula de Pauling é e^x, calculável em qualquer calculadora científica).
 - **Ordem de grandeza (LC-05).** Nenhum card cobra ~1,62340 Å; cobram ~1,62 Å. Pressão no centro da Terra é ~360 GPa (não 363,7).
-- **O erro-alvo tem card próprio.** B021 (Fe²⁺ e Fe³⁺ convivem porque EI cresce devagar), B039 (Au é metal apesar de χ próximo ao S), B042 (dureza não depende só do tipo de ligação, talco vs. quartzo), B054 (clivagem é pelo plano mais fraco, diamante tem {111} apesar de ligações fortes em 3D).
+- **O erro-alvo tem card próprio.** fb021 (Fe²⁺ e Fe³⁺ convivem porque EI cresce devagar), fb036 (Au é metal apesar de χ próximo ao S), fb039 (dureza não depende só do tipo de ligação, talco vs. quartzo), fb042 (clivagem do diamante em {111} apesar de ligações fortes em 3D).
 - **Tags hierárquicas.** `mineralogia::m01::atomo::fe` para cards sobre configuração do ferro; `mineralogia::m01::ligacao::pauling` para a fórmula de caráter iônico.
 
 ## Achados de auditoria e revisão didática respeitados
@@ -48,20 +48,26 @@
 | QUI-ORB-ENERGIA-001 (🟠) | B021 explica que Fe²⁺ e Fe³⁺ coexistem porque as EI do Fe crescem devagar. Não é simplesmente "4s sai primeiro". |
 | QUI-TAB-TERRASRARAS-001 (🟠) | Nenhum card sobre terras raras (módulo 08); não entra no escopo de módulo 01. |
 | QUI-VAL-DEF-001 (🟠) | B019 liga a eletronegatividade do O ao prevalência de O nos minerais. Elétrons de valência (aula 01) conectam bem com ionização (aula 02). |
-| QUI-SPIN-DEF-001 (🔵) | Vocabulário da aula 03 define spin alto e spin baixo; B023 refere a pirita (Fe²⁺ spin baixo) que é auditada. |
-| QUI-LIG-METALREGRA-001 (🔵) | B029 codifica o critério prático: metais nativos e ligas (só metais) → metálica. B039 explica o limite (Au ~1,92 na escala de Allen). |
-| Revisão didática, 2026-09-30 | QUI-TAB-GRUPOD-001 (generaliza regra do exemplo); QUI-SPIN-DEF-001 (define termos usados sem definição). Ambas são respeitadas: B009 (grupo do Fe no bloco d), B023 (Fe²⁺/Fe³⁺ como valência variável). |
+| QUI-SPIN-DEF-001 (🟠, corrigido em 2026-10-04) | fb027 e fc018 reescritos com a definição da aula 03, restrita a íons com 4 a 7 elétrons d: spin alto (Hund, Fe²⁺ com 4 desemparelhados) e spin baixo (pirita, 0). |
+| QUI-LIG-METALREGRA-001 (verificado em 2026-10-04) | fb036 e fc028 codificam o critério prático (metais nativos e ligas, só metais → metálica); fb037 e fc029 deixaram de classificar Δχ ≈ 0 como sempre covalente; fb038 e fc030 deixaram de dizer que o χ alto do ouro "confirma" o caráter metálico. |
+| QUI-TAB-GRUPOD-001 (verificado em 2026-10-04) | Nenhum card cobra a regra s + d diretamente; fb009/fb010 (período e bloco do Fe) são coerentes com ela. |
 
 ## Alinhamento com learning outcomes
 
 | Objetivo | Cards que cobrem |
 |---|---|
-| `oa01` — Descrever o átomo | B001–B008, C001–C007 |
-| `oa02` — Prever tendências periódicas | B009–B019, C007–C013 |
-| `oa03` — Determinar estado de oxidação | B020–B027, C014–C022 |
-| `oa04` — Classificar ligações | B028–B055, C023–C043 |
-| `oa05` — Calcular massa molar e óxidos | B056–B062, C044–C050 |
-| `oa06` — Converter unidades | B063–B075, C051–C059 |
+| `oa01` — Descrever o átomo | fb001–fb008, fb075 · fc001–fc007 |
+| `oa02` — Prever tendências periódicas | fb009–fb019 · fc008–fc013 |
+| `oa03` — Determinar estado de oxidação | fb020–fb029 · fc014–fc021 |
+| `oa04` — Classificar ligações | fb030–fb062 · fc022–fc046 |
+| `oa05` — Calcular massa molar e óxidos | fb063–fb071 · fc047–fc052, fc059 |
+| `oa06` — Converter unidades | fb072–fb074 · fc053–fc058 |
+
+## Correções da auditoria de 2026-10-04
+
+O baralho foi gerado em 2026-10-03, depois da auditoria das aulas, e não tinha passado pelo auditor. A segunda passagem (`audit-and-fix`) o conferiu contra as aulas auditadas e corrigiu 69 cards, mantendo todos os IDs. Os principais: fb031/fc023 (50% de caráter iônico em Δχ ≈ 1,7, não 2); fb038/fc030 (o χ alto do ouro não "confirma" o caráter metálico); fb037/fc029 (Δχ ≈ 0 entre metais é metálica); fb049 (a pirolusita é tetragonal, tipo rutilo, e o Mn fica em octaedro nos dois polimorfos); fb040 (ordem dos comprimentos C–C/C=C/C≡C estava invertida); fb058/fc041 (afirmações sem base sobre água e densidade); fb054 (no talco o Mg está dentro da lâmina); fb066/fc048/fc049 (SiO₂ = 60,08 g/mol); fb072/fc053 (101,325 kPa); fb029/fc020 (exceção do O são os peróxidos); energias de ligação alinhadas com a aula 05; fc021 tinha chaves aninhadas que o Anki não lê; fc058 duplicava fc054 e passou a cobrar a conversão µm → Å; os cards de unidades passaram de `oa05` para `oa06`. A lista completa está na auditoria.
+
+> [!warning] Se você já importou o baralho no Anki, reimportar o CSV pode não sobrescrever os cards em revisão. Atualize as notas existentes (mapeando `id` como primeiro campo) ou apague o deck do módulo 01 e importe de novo.
 
 ## Notas sobre o baralho
 

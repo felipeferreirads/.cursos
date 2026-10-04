@@ -1,7 +1,7 @@
 # Curso: Mineralogia — da cristalografia à gênese (base e avançado)
 
 **Estado:** in_progress
-**Criado em:** 2026-09-29T00:00:00-03:00  ·  **Atualizado em:** 2026-10-03T16:30:00-03:00
+**Criado em:** 2026-09-29T00:00:00-03:00  ·  **Atualizado em:** 2026-10-04T12:00:00-03:00
 **Base do currículo:** pesquisa das ementas e sumários de referência, cruzada com o escopo previsto pelo usuário: ementas do IGc-USP — GMG0106 Cristalografia Fundamental (45 h) e GMG0220 Mineralogia (105 h), com as optativas GMG0203 Mineralogia Aplicada e GMG0425 Técnicas Gemológicas (pasta GradeCurricular/Geologia-USP) —; sumários de Klein & Dutrow, Manual of Mineral Science, 23a ed. (22 capítulos, incl. crescimento e defeitos, estabilidade e diagramas de fase, processos pós-cristalização, gemas e assembleias); Nesse, Introduction to Mineralogy (cristalografia, cristaloquímica, estrutura, crescimento mineral, óptica, DRX, análise química, sistemática por classe estrutural); Putnis, An Introduction to Mineral Sciences (simetria, anisotropia, difração, espectroscopia, defeitos, energética, soluções sólidas, exsolução, ordem, cinética, transformações); Perkins, Mineralogy (gênese por ambiente ígneo, sedimentar, metamórfico e de minério); Wenk & Bulakh, Minerals: Their Constitution and Origin (formação e ambientes); Dyar & Gunter, Mineralogy and Optical Mineralogy (MSA); Deer, Howie & Zussman (minerais formadores de rocha); Nesse, Introduction to Optical Mineralogy; normativo IMA-CNMNC (definição de mineral, lista de espécies, nomenclatura de grupos) e classificação Nickel-Strunz/Dana; Mindat e RRUFF como referência de dados.
 **Partida:** ensino médio completo, sem geologia prévia. Curso autossuficiente: nenhum pré-requisito cruzado para outros cursos; a química, a óptica e o contexto geológico necessários são reconstruídos dentro do próprio curso (módulos 01, 03 e 14).  ·  **Chegada:** avançado — nível de graduação plena em mineralogia e cristalografia, com incursões de pós-graduação nos módulos de aprofundamento (grupos espaciais, difração avançada, cinética, inclusões fluidas, geotermobarometria, mineralogia gemológica).
 **Volume estimado:** 50 módulos · ~262 aulas de ≤30 min · ~109-131 h (núcleo: 199 aulas, 83-100 h; aprofundamento: 63 aulas, 26-32 h) de estudo
@@ -23,20 +23,20 @@
 
 ## Estado
 
-- **Módulos:** 1 de 50 concluídos
+- **Módulos:** 2 de 50 concluídos
 - **Aulas escritas:** 11
 - **Questionários:** 2
 - **Flashcards:** 127 Basic · 84 Cloze
-- **Módulo atual:** 02
-- **Próximo passo:** Módulo 02 concluído em 2026-10-03: 5 aulas; auditoria audit-and-fix (3 laranjas e 1 azul, todos corrigidos; nenhum achado aberto); revisão didática (2 laranjas e 8 amarelos corrigidos; 2 azuis não bloqueantes: dividir a aula 05 em duas partes, se pesar; diagrama de hierarquia na aula 03); questionário final (16 questões, 40 pontos, 5 de 5 objetivos); baralho (52 Basic + 25 Cloze); validadores passando. Pendências fora do módulo 02: o módulo 01 está com todas as peças prontas mas segue com status in_progress, aguardando fechamento formal (validação e marcação de concluído); rodar a auditoria cross-course do módulo 02 contra o curso-geologia m04 a03 (mercúrio como única exceção; obsidiana). Próximo passo: módulo 03 (terra-fabrica-de-minerais).
+- **Módulo atual:** 03
+- **Próximo passo:** Módulos 01 e 02 concluídos. Módulo 01 fechado em 2026-10-04: 2ª passagem da auditoria (audit-and-fix) conferiu as 3 alegações da revisão didática (QUI-TAB-GRUPOD-001 e QUI-LIG-METALREGRA-001 verificadas; QUI-SPIN-DEF-001 corrigida, 🟠) e auditou o questionário (sem mudanças) e o baralho, gerado depois da 1ª auditoria (🔴 5 e 🟠 17 corrigidos em 69 cards, IDs mantidos; se o baralho já foi importado no Anki, atualizar as notas pelo id); validate_state, validate_links e validate_flashcards sem erros. Pendências não bloqueantes: no m01, enxugar os cloze com mais de 3 lacunas e as quase-duplicatas Basic (gerador-de-flashcards) e os 3 azuis da revisão didática; no m02, rodar a auditoria cross-course contra o curso-geologia m04 a03 (mercúrio como única exceção; obsidiana). Próximo passo: módulo 03 (terra-fabrica-de-minerais), começando pelas aulas.
 
 ## Módulos
 
-Os 50 módulos aparecem como subpáginas abaixo, na ordem do currículo. Apenas o Módulo 02 tem conteúdo completo (aulas, auditoria, questionário, flashcards e roteiros de voz); os demais têm o hub com objetivos e pré-requisitos definidos, aguardando geração.
+Os 50 módulos aparecem como subpáginas abaixo, na ordem do currículo. Apenas os Módulos 01, 02 têm conteúdo completo (aulas, auditoria, questionário, flashcards e roteiros de voz); os demais têm o hub com objetivos e pré-requisitos definidos, aguardando geração.
 
 ### I. Fundamentos: da matéria ao mineral
 
-- **01 — Fundamentos químicos: átomo, tabela periódica e ligação** · 6/6 aulas · questionário + 134 cards · auditado — [[01-fundamentos-quimicos/01-fundamentos-quimicos-modulo|abrir]]
+- ✅ **01 — Fundamentos químicos: átomo, tabela periódica e ligação** · 6/6 aulas · questionário + 134 cards · auditado — [[01-fundamentos-quimicos/01-fundamentos-quimicos-modulo|abrir]]
 - ✅ **02 — O que é um mineral: definição, espécie e classificação** · 5/5 aulas · questionário + 77 cards · auditado · pré-req: 01 — [[02-o-que-e-mineral/02-o-que-e-mineral-modulo|abrir]]
 - **03 — A Terra como fábrica de minerais: contexto geológico mínimo** · 4 aulas planejadas · pré-req: 01, 02 — [[03-terra-fabrica-de-minerais/03-terra-fabrica-de-minerais-modulo|abrir]]
 
@@ -125,7 +125,7 @@ Os 50 módulos aparecem como subpáginas abaixo, na ordem do currículo. Apenas 
 
 ## Saldo das auditorias
 
-🔴 1 · 🟠 15 · 🟡 0 · 🔵 1 · ⚪ 1
+🔴 6 · 🟠 33 · 🟡 0 · 🔵 1 · ⚪ 1
 
 ## Decisões registradas
 

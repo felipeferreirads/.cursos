@@ -39,7 +39,7 @@ learning_outcomes:
   e de propriedades, com grau de confiança explícito.
 status: in_progress
 created_at: '2026-09-29T00:00:00-03:00'
-updated_at: '2026-10-03T16:30:00-03:00'
+updated_at: '2026-10-04T12:00:00-03:00'
 curriculum_basis: 'pesquisa das ementas e sumários de referência, cruzada com o escopo previsto pelo usuário: ementas
   do IGc-USP — GMG0106 Cristalografia Fundamental (45 h) e GMG0220 Mineralogia (105 h), com as optativas GMG0203
   Mineralogia Aplicada e GMG0425 Técnicas Gemológicas (pasta GradeCurricular/Geologia-USP) —; sumários de Klein
@@ -52,8 +52,8 @@ curriculum_basis: 'pesquisa das ementas e sumários de referência, cruzada com 
   Dyar & Gunter, Mineralogy and Optical Mineralogy (MSA); Deer, Howie & Zussman (minerais formadores de rocha);
   Nesse, Introduction to Optical Mineralogy; normativo IMA-CNMNC (definição de mineral, lista de espécies, nomenclatura
   de grupos) e classificação Nickel-Strunz/Dana; Mindat e RRUFF como referência de dados.'
-current_module: '02'
-next_action: 'Módulo 02 concluído em 2026-10-03: 5 aulas; auditoria audit-and-fix (3 laranjas e 1 azul, todos corrigidos; nenhum achado aberto); revisão didática (2 laranjas e 8 amarelos corrigidos; 2 azuis não bloqueantes: dividir a aula 05 em duas partes, se pesar; diagrama de hierarquia na aula 03); questionário final (16 questões, 40 pontos, 5 de 5 objetivos); baralho (52 Basic + 25 Cloze); validadores passando. Pendências fora do módulo 02: o módulo 01 está com todas as peças prontas mas segue com status in_progress, aguardando fechamento formal (validação e marcação de concluído); rodar a auditoria cross-course do módulo 02 contra o curso-geologia m04 a03 (mercúrio como única exceção; obsidiana). Próximo passo: módulo 03 (terra-fabrica-de-minerais).'
+current_module: '03'
+next_action: 'Módulos 01 e 02 concluídos. Módulo 01 fechado em 2026-10-04: 2ª passagem da auditoria (audit-and-fix) conferiu as 3 alegações da revisão didática (QUI-TAB-GRUPOD-001 e QUI-LIG-METALREGRA-001 verificadas; QUI-SPIN-DEF-001 corrigida, 🟠) e auditou o questionário (sem mudanças) e o baralho, gerado depois da 1ª auditoria (🔴 5 e 🟠 17 corrigidos em 69 cards, IDs mantidos; se o baralho já foi importado no Anki, atualizar as notas pelo id); validate_state, validate_links e validate_flashcards sem erros. Pendências não bloqueantes: no m01, enxugar os cloze com mais de 3 lacunas e as quase-duplicatas Basic (gerador-de-flashcards) e os 3 azuis da revisão didática; no m02, rodar a auditoria cross-course contra o curso-geologia m04 a03 (mercúrio como única exceção; obsidiana). Próximo passo: módulo 03 (terra-fabrica-de-minerais), começando pelas aulas.'
 blocking_issues: []
 decisions:
 - date: '2026-09-29'
@@ -94,7 +94,7 @@ modules:
     tendências periódicas, íons e estados de oxidação, tipos de ligação e estequiometria de óxidos — sem pressupor
     nenhuma geologia.
   prerequisites: []
-  status: in_progress
+  status: completed
   learning_objectives:
   - id: mineralogia-m01-oa01
     statement: Descrever a estrutura do átomo (núcleo, camadas e orbitais s, p, d, f) e relacionar a configuração
@@ -128,7 +128,7 @@ modules:
       title: 'O átomo por dentro: núcleo, camadas e orbitais s, p, d e f'
       status: completed
       file: 01-fundamentos-quimicos/01-fundamentos-quimicos-aula-01-o-atomo-por-dentro-nucleo-camadas-e-orbitais.md
-      content_hash: 8f6f331ca8611da529cfa907e86c2d08ef6bf5383271af4d321c9d0502ea74c4
+      content_hash: 38f34e9ec079fba50b658a45277a1f9f3c8845a916c298f21a20dcf902403872
       palavras_corpo: 1585
       covers_objectives:
       - mineralogia-m01-oa01
@@ -144,7 +144,7 @@ modules:
       title: 'Íons e estados de oxidação: por que o ferro dos minerais é Fe²⁺ ou Fe³⁺'
       status: completed
       file: 01-fundamentos-quimicos/01-fundamentos-quimicos-aula-03-ions-e-estados-de-oxidacao-fe-mn-e-s.md
-      content_hash: 59f43d438b8606f8bc2577870450b8c84cd27b3531aa36304075cc5c26127dbc
+      content_hash: 227ccc61f3416f091f4d0934db424af802b3f58b4788c1b5216a6f9e11f4dffa
       palavras_corpo: 1391
       covers_objectives:
       - mineralogia-m01-oa03
@@ -152,7 +152,7 @@ modules:
       title: 'Ligação química: iônica, covalente e metálica como um espectro contínuo'
       status: completed
       file: 01-fundamentos-quimicos/01-fundamentos-quimicos-aula-04-ligacao-ionica-covalente-e-metalica-como-espectro.md
-      content_hash: f3186e309e6482fa36be772455ae4d8bd2b951d51c4b0666f2a4251bfa85c05b
+      content_hash: 4eee2c77a7ce223f1a0aa6f93e4333e889b3d01a6405e34e3cc3e7d01f97d394
       palavras_corpo: 1465
       covers_objectives:
       - mineralogia-m01-oa04
@@ -176,18 +176,18 @@ modules:
   audit:
     status: approved
     file: 01-fundamentos-quimicos/01-fundamentos-quimicos-auditoria.md
-    red: 1
-    orange: 12
+    red: 6
+    orange: 30
     yellow: 0
     blue: 0
     white: 1
     open_findings: []
     deferred_findings: []
-    audited_at: '2026-09-30'
+    audited_at: '2026-10-04'
   didactic_review:
     status: completed
     file: 01-fundamentos-quimicos/01-fundamentos-quimicos-revisao-didatica.md
-    content_hash: 6793a5a5f2e780506fcb97c5f091fe01b3a466b78e201bef1d73546cb7fc44cc
+    content_hash: dcc7d37a9679b5e2507087d11464f13a7760288a9f7b6361f5a7728f68d752af
     generated_at: '2026-09-30T12:57:51-03:00'
   assessment:
     status: completed

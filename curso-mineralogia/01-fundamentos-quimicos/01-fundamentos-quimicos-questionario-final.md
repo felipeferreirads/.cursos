@@ -229,6 +229,6 @@ Um questionário final cumulativo só, como na convenção do curso (módulo de 
 
 **Cuidados com o gate:**
 
-- As três alegações novas da revisão didática que aguardam conferência do auditor (`QUI-TAB-GRUPOD-001`, `QUI-SPIN-DEF-001`, `QUI-LIG-METALREGRA-001`) não sustentam nenhum gabarito sozinhas. A Q13 usa o grupo do cobalto (9), que é dado independente de tabela periódica, e define "spin alto" no próprio enunciado; nenhuma questão cobra a heurística do metal nativo.
+- As três alegações novas da revisão didática (`QUI-TAB-GRUPOD-001`, `QUI-SPIN-DEF-001`, `QUI-LIG-METALREGRA-001`) foram conferidas pelo auditor em 2026-10-04 (duas verificadas; a definição de spin foi restrita a íons com 4 a 7 elétrons d). O questionário é coerente com as três e não precisou de mudança: na Q13, o grupo 9 do cobalto (2 s + 7 d) segue a regra s + d do bloco d, e o Co²⁺ (3d⁷) está na faixa em que spin alto e spin baixo se distinguem; nenhuma questão cobra a heurística do metal nativo, e a Q10 (pirita) é coerente com ela.
 - Valores que **não** estão no texto das aulas e foram conferidos fora dele: energias de ionização do cálcio na Q4 (590, 1145 e 4912 kJ/mol, NIST *Atomic Spectra Database*); dureza Mohs 9 e fusão acima de 2000 °C do coríndon na Q15 (*Handbook of Mineralogy*); Z = 27 e grupo 9 do cobalto (IUPAC). Todos servem a casos novos, não a fatos centrais do módulo.
 - Todos os demais números (energias, Δχ, caráter iônico, massas atômicas, fatores de conversão, 0,027 GPa/km, distâncias do grafite) foram conferidos contra as aulas e refeitos item a item.

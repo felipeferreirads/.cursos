@@ -8,15 +8,15 @@
   },
   "mode": "audit-and-fix",
   "depth": "full",
-  "audited_at": "2026-09-30",
+  "audited_at": "2026-10-04",
   "verdict": "approved",
   "summary": {
-    "red": 1,
-    "orange": 12,
+    "red": 6,
+    "orange": 30,
     "yellow": 0,
     "blue": 0,
     "white": 1,
-    "verified_ok": 37
+    "verified_ok": 40
   },
   "findings": [
     {
@@ -384,6 +384,603 @@
       ],
       "outcome": "corrigido",
       "applied_at": "2026-09-30"
+    },
+    {
+      "claim_id": "QUI-SPIN-DEF-001",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "claim": "Spin alto/baixo apresentados como dois arranjos possíveis de qualquer íon num cristal",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-03-ions-e-estados-de-oxidacao-fe-mn-e-s.md",
+        "section": "Vocabulário (spin alto / spin baixo)",
+        "quote": "dois arranjos possíveis dos elétrons d de um íon dentro de um cristal"
+      },
+      "problem": "Só íons com 4 a 7 elétrons d (em octaedro) têm os dois arranjos; d1-d3 e d8-d10 têm um só. O restante (Fe2+ HS com 4 desemparelhados; pirita Fe2+ LS t2g6, diamagnética) está correto. No baralho, fb027/fc018 diziam 'maior repulsão' para o spin alto, o inverso do motivo.",
+      "replacement": "acrescentar 'quando ele tem de 4 a 7 elétrons d, como o Fe²⁺ (3d⁶)'; fb027/fc018 reescritos com a definição da aula",
+      "source": {
+        "name": "LibreTexts, High Spin and Low Spin Complexes; Mössbauer de FeS2 em campo externo (Solid State Commun., 1976)",
+        "url": "https://chem.libretexts.org/Courses/Douglas_College/DC:_Chem_2330_(O'Connor)/4:_Crystal_Field_Theory/4.3:_High_Spin_and_Low_Spin_Complexes",
+        "tier": "general",
+        "version": "consulta 2026-10-04",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-aula-03-ions-e-estados-de-oxidacao-fe-mn-e-s.md",
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-cloze.csv",
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "QUI-FC-PAULING50-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "claim": "Pela fórmula de Pauling, 50% de caráter iônico em Δχ ≈ 2",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "section": "fb031",
+        "quote": "Δχ ≈ 2 → 50% iônica"
+      },
+      "problem": "1 − e^(−Δχ²/4) = 0,5 em Δχ = 1,67 (aula 04, QUI-LIG-PAULING-001); em Δχ = 2 dá 63%.",
+      "replacement": "50% em Δχ ≈ 1,7",
+      "source": {
+        "name": "Texto auditado das aulas do módulo 01 (coerência interna) — QUI-LIG-PAULING-001; recálculo",
+        "tier": "general",
+        "version": "aulas auditadas em 2026-09-30 e revisadas em 2026-09-30",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-cloze.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "QUI-FC-AUCHI-001",
+      "severity": "red",
+      "kind": "inconsistencia_interna",
+      "claim": "O χ alto do ouro confirma seu caráter metálico; só átomos de mesmo tipo formam ligação metálica",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "section": "fb038, fb036",
+        "quote": "Au = 2,54 (ligeiramente maior, confirmando caráter metálico puro)"
+      },
+      "problem": "Inverte a correção QUI-LIG-METAL-001: o χ de Pauling alto do ouro (quase o do S) mostra que o χ sozinho NÃO define o caráter metálico. 'Átomos de mesmo tipo' exclui as ligas (Fe-Ni) que a aula cita.",
+      "replacement": "χ alto do Au mostra o limite do χ; critério prático: metais nativos e ligas, só átomos de metais → metálica",
+      "source": {
+        "name": "Texto auditado das aulas do módulo 01 (coerência interna) — QUI-LIG-METAL-001 e QUI-LIG-METALREGRA-001, aula 04",
+        "tier": "general",
+        "version": "aulas auditadas em 2026-09-30 e revisadas em 2026-09-30",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-cloze.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "QUI-FC-DCHIZERO-001",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "claim": "Δχ ≈ 0 classifica a ligação como covalente apolar, sem ressalva",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "section": "fb037",
+        "quote": "Δχ ≈ 0 → covalente apolar"
+      },
+      "problem": "Contradiz QUI-LIG-METALREGRA-001 e o exemplo (c) da aula 04: Cu–Cu tem Δχ = 0 e é metálica. A regra de Δχ vale entre não metais ou metal–não metal; a fronteira 1,7 é convenção.",
+      "replacement": "restringir a regra a não metais/metal–não metal; entre metais, Δχ ≈ 0 → metálica",
+      "source": {
+        "name": "Texto auditado das aulas do módulo 01 (coerência interna) — QUI-LIG-METALREGRA-001, aula 04",
+        "tier": "general",
+        "version": "aulas auditadas em 2026-09-30 e revisadas em 2026-09-30",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-cloze.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "QUI-FC-MNO2POLI-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "claim": "Pirolusita ortorrômbica; Mn em coordenação 6 ou 4 conforme o polimorfo; 'isomeria'",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "section": "fb049",
+        "quote": "MnO2 pode ser tetragonal (rutilo) ou ortorrômbico (pirolusita), com diferentes coordenações de Mn (6 ou 4 oxigênios)"
+      },
+      "problem": "A pirolusita é tetragonal, tipo rutilo; o polimorfo ortorrômbico é a ramsdellita; nos dois o Mn4+ está em octaedro MnO6. Em mineralogia o termo é polimorfismo.",
+      "replacement": "polimorfismo: pirolusita (tetragonal, tipo rutilo) e ramsdellita (ortorrômbica), Mn4+ em octaedro nas duas",
+      "source": {
+        "name": "Mindat (pyrolusite); Post (1999), PNAS 96, 3447",
+        "url": "https://www.mindat.org/min-3318.html",
+        "tier": "reference_database",
+        "version": "consulta 2026-10-04",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "QUI-FC-CCLEN-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "claim": "Ordem de comprimentos C–C < C=C < C≡C",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "section": "fb040",
+        "quote": "C-C (1,54 Å) < C=C (1,34 Å) < C≡C (1,20 Å)"
+      },
+      "problem": "Os sinais estão invertidos: 1,54 > 1,34 > 1,20. Faltava também a ressalva 'entre os mesmos dois átomos'.",
+      "replacement": "C≡C (1,20 Å) < C=C (1,34 Å) < C–C (1,54 Å), entre os mesmos dois átomos",
+      "source": {
+        "name": "Atkins & Jones (comprimentos de ligação do carbono)",
+        "tier": "general",
+        "version": "conhecimento consolidado",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "QUI-FC-H2ODENS-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "claim": "H2O/OH tornam o mineral mais denso; a cor da água-marinha ilustra o efeito",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "section": "fb058; fc041",
+        "quote": "Ligações H com O estrutural tornam o mineral mais denso/compacto. Aquamarine (berilo azul com Fe) vs. berilo incolor mostram efeito."
+      },
+      "problem": "Sem base: pontes de H são ligações fracas, e minerais hidratados tendem a ser menos densos; a cor azul da água-marinha vem do Fe, não de pontes de H. Também contradiz a aula 05 ('a água da gipsita é parte da estrutura, em posições fixas').",
+      "replacement": "H2O/OH em posições fixas da estrutura; na gipsita as camadas de água unem as lâminas por pontes de H (clivagem perfeita, dureza 2)",
+      "source": {
+        "name": "Texto auditado das aulas do módulo 01 (coerência interna) — QUI-GIPSITA-H-001, aula 05",
+        "tier": "general",
+        "version": "aulas auditadas em 2026-09-30 e revisadas em 2026-09-30",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-cloze.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "QUI-FC-TALCOMG-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "No talco, Mg2+ ajuda a unir as camadas; o talco é quebradiço",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "section": "fb054",
+        "quote": "camadas são acopladas por van der Waals + poucos Mg^2+"
+      },
+      "problem": "No talco o Mg está DENTRO da lâmina (folha octaédrica), e as lâminas neutras se unem só por van der Waals (QUI-TALCO-ESTR-001). O talco é séctil e flexível, não quebradiço.",
+      "replacement": "lâminas neutras unidas só por van der Waals; Mg na folha octaédrica; flexível, não elástico",
+      "source": {
+        "name": "Handbook of Mineralogy (talc); aula 05, QUI-TALCO-ESTR-001",
+        "url": "https://www.ufrgs.br/minmicro/Talc.pdf",
+        "tier": "reference_database",
+        "version": "Anthony et al. 2001-2005",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "QUI-FC-ENERGIA-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Energias: vdW 1-10, ponte de H 4-40, covalente 300-500 kJ/mol; C-F 460, Fe-Fe 160",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "section": "fb041, fb050, fb051; fc033, fc034",
+        "quote": "Fe-Fe ≈ 160 (fraca) · 1-10 kJ/mol · 4-40 kJ/mol · covalente (300-500)"
+      },
+      "problem": "A aula 05 (auditada) usa covalente ~200-500, rede do NaCl ~800, ponte de H ~10-40, vdW ~0,5-5 kJ/mol. C–F (~485) e Fe–Fe (dímero, ~1 eV) não estão nas aulas e os valores dados não batem com as tabelas usuais.",
+      "replacement": "valores da aula 05",
+      "source": {
+        "name": "Texto auditado das aulas do módulo 01 (coerência interna) — QUI-LIG-ENERGIA, aula 05; Arunan et al. 2011",
+        "tier": "general",
+        "version": "aulas auditadas em 2026-09-30 e revisadas em 2026-09-30",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-cloze.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "QUI-FC-ORDEMLIG-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Há uma ordem fixa covalente > iônica > metálica",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "section": "fb046, fb059; fc042",
+        "quote": "Covalente > iônica > metálica (em média)"
+      },
+      "problem": "A aula 05 mostra a energia de rede do NaCl (~800) acima da faixa covalente (200-500): não há ordem fixa entre as ligações fortes. A ordem segura é fortes >> ponte de H > van der Waals. fb046 ainda chamava o NaCl de 'covalente polar muito iônica'.",
+      "replacement": "fortes (sem ordem fixa entre si) >> ponte de H > van der Waals",
+      "source": {
+        "name": "Texto auditado das aulas do módulo 01 (coerência interna) — aula 05, tabela de energias",
+        "tier": "general",
+        "version": "aulas auditadas em 2026-09-30 e revisadas em 2026-09-30",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-cloze.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "QUI-FC-OXIGENIO-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "O oxigênio é sempre −2, exceto em 'O2-'",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "section": "fb029; fc020",
+        "quote": "sempre -II em compostos (exceto O2-)"
+      },
+      "problem": "A exceção não é 'O2-'; são os peróxidos (−1), além de O2 (0) e OF2 (+2). A aula 03 diz 'O = −2 (exceção: peróxidos, raros em minerais)'.",
+      "replacement": "quase sempre −2 nos minerais; exceção: peróxidos (−1)",
+      "source": {
+        "name": "Texto auditado das aulas do módulo 01 (coerência interna) — QUI-OX-CARGA-001, aula 03",
+        "tier": "general",
+        "version": "aulas auditadas em 2026-09-30 e revisadas em 2026-09-30",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-cloze.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "QUI-FC-SIO2MASSA-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Massa molar do SiO2 = 60,09 g/mol",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "section": "fb066, fb067; fc048, fc049",
+        "quote": "60,09 g/mol (... = 60,083)"
+      },
+      "problem": "60,083 arredonda para 60,08 (CIAAW 2024; aula 06). O card mostrava a conta certa e o arredondamento errado.",
+      "replacement": "60,08 g/mol",
+      "source": {
+        "name": "CIAAW Abridged Standard Atomic Weights 2024; recálculo",
+        "tier": "normative",
+        "version": "2024",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-cloze.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "QUI-FC-ATMKPA-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Atmosfera padrão = 101.325 kPa",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "section": "fb072; fc053",
+        "quote": "101.325 kPa"
+      },
+      "problem": "Na notação brasileira do curso, '101.325 kPa' lê-se cento e um mil kPa. O valor é 101 325 Pa = 101,325 kPa (BIPM; aula 06).",
+      "replacement": "101,325 kPa",
+      "source": {
+        "name": "BIPM, SI Brochure 9ª ed.",
+        "tier": "normative",
+        "version": "2019",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-cloze.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "QUI-FC-LIGTIPO-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Ligação iônica = densidade eletrônica concentrada 'nos núcleos'; C–O 'em SiO2'",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "section": "fb030, fb033; fc022",
+        "quote": "quanto mais concentrada nos núcleos (eletronegatividade alta), mais iônica"
+      },
+      "problem": "Modelo errado: na iônica os elétrons passam ao átomo mais eletronegativo; na covalente são compartilhados entre núcleos; na metálica ficam deslocalizados (aula 04). fb033 citava ligação C–O no SiO2, que não tem carbono.",
+      "replacement": "transferidos / compartilhados / deslocalizados; Si–O no quartzo",
+      "source": {
+        "name": "Texto auditado das aulas do módulo 01 (coerência interna) — QUI-LIG-ESPECTRO-001, aula 04",
+        "tier": "general",
+        "version": "aulas auditadas em 2026-09-30 e revisadas em 2026-09-30",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-cloze.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "QUI-FC-MOLECULA-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Todo mineral tem ligações fortes que se propagam em 3D; 'gelo, seco' como exemplo",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "section": "fb048, fb060; fc043, fc046",
+        "quote": "Mineral é uma estrutura cristalina com ligações que se propagam indefinidamente em 3D"
+      },
+      "problem": "A aula 05 trata o enxofre nativo (S8) e o gelo como cristais moleculares: minerais em que moléculas discretas se unem por forças fracas. 'gelo, seco' mistura gelo e gelo-seco.",
+      "replacement": "quartzo como rede 3D; enxofre nativo e gelo como minerais moleculares",
+      "source": {
+        "name": "Texto auditado das aulas do módulo 01 (coerência interna) — QUI-ENXOFRE-001, aula 05",
+        "tier": "general",
+        "version": "aulas auditadas em 2026-09-30 e revisadas em 2026-09-30",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-cloze.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "QUI-FC-SOLUB-001",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "claim": "Ligação iônica (ou de H) determina a solubilidade em água",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "section": "fb062; fc045",
+        "quote": "Solubilidade de mineral em água depende de ligações iônicas/H"
+      },
+      "problem": "Ser iônico não basta: halita dissolve, mas fluorita e coríndon, com ligação predominantemente iônica e cargas maiores, são praticamente insolúveis. A solubilidade depende do balanço entre hidratação dos íons e energia de rede.",
+      "replacement": "halita dissolve; fluorita e coríndon quase não; redes covalentes também insolúveis",
+      "source": {
+        "name": "Atkins & Jones (solubilidade e energia de rede); Handbook of Mineralogy",
+        "tier": "general",
+        "version": "conhecimento consolidado",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-cloze.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "QUI-FC-INTEMP-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Metais nativos resistem ao intemperismo pela força da ligação metálica",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "section": "fb047",
+        "quote": "alta resistência ao intemperismo (ligação forte, coesão alta)"
+      },
+      "problem": "A resistência do ouro vem da nobreza química (não oxida), não da força da ligação; cobre e prata nativos se alteram com facilidade.",
+      "replacement": "maleabilidade pela ligação metálica; resistência do Au pela inércia química",
+      "source": {
+        "name": "Handbook of Mineralogy (gold, copper, silver)",
+        "tier": "reference_database",
+        "version": "Anthony et al. 2001-2005",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "QUI-FC-DUREZA-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Diamante não seria frágil; 'clivagem fraca' do diamante; densidade eletrônica uniforme no plano de clivagem",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "section": "fb034, fb039, fb042, fb061; fc031, fc032",
+        "quote": "quartzo é quebradiço, diamante é duro e brilhante · diamante ... tem clivagem fraca em {111}"
+      },
+      "problem": "Quartzo e diamante são ambos duros e frágeis. O diamante tem clivagem PERFEITA em {111} (QUI-ANISO-DIAMANTE-001), explicada pela menor densidade de ligações por plano; dureza e clivagem são propriedades distintas.",
+      "replacement": "duros e frágeis; clivagem perfeita {111} por menos ligações por área",
+      "source": {
+        "name": "Texto auditado das aulas do módulo 01 (coerência interna) — QUI-ANISO-DIAMANTE-001, aula 05; QUI-LIG-DIAMANTE-001",
+        "tier": "general",
+        "version": "aulas auditadas em 2026-09-30 e revisadas em 2026-09-30",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-cloze.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "QUI-FC-VALVAR-001",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "claim": "A valência variável do S vem de orbitais d e s próximos",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "section": "fb024; fc015",
+        "quote": "Ocorre quando os custos de ionização sucessivos crescem lentamente (orbitais d e s próximos em energia)"
+      },
+      "problem": "A explicação vale para Fe e Mn; o S varia porque pode ganhar elétrons ou, ligado ao O, ficar com estado positivo (aula 03).",
+      "replacement": "Fe/Mn: EI crescem devagar; S: ganha elétrons ou fica positivo ligado ao O",
+      "source": {
+        "name": "Texto auditado das aulas do módulo 01 (coerência interna) — QUI-S-ESTADO-001, aula 03",
+        "tier": "general",
+        "version": "aulas auditadas em 2026-09-30 e revisadas em 2026-09-30",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-cloze.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "QUI-FC-AVOGADRO-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "1 mol contém exatamente 6,022 × 10^23 partículas",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "section": "fb063; fc047",
+        "quote": "contém exatamente 6,022 × 10^23 partículas"
+      },
+      "problem": "O valor exato é 6,02214076 × 10²³ (SI 2019); 6,022 é arredondamento. 'mole' corrigido para 'mol'.",
+      "replacement": "exatamente 6,02214076 × 10²³ entidades",
+      "source": {
+        "name": "BIPM, SI Brochure 9ª ed.",
+        "tier": "normative",
+        "version": "2019",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-cloze.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "QUI-FC-MADELUNG-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "4s antes de 3d como ranking de energia; custos de ionização d e 4s 'comparáveis'",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "section": "fb001, fb021",
+        "quote": "com 4s antes de 3d nos átomos neutros · O custo energético de remover elétrons d é comparável à de remover 4s"
+      },
+      "problem": "Reintroduzia o modelo corrigido em QUI-ORB-ENERGIA-001 (Madelung é ordem de preenchimento, não ranking de energia). A 2ª e a 3ª EI do Fe (1563 e 2957) não são 'comparáveis'; a aula explica a coexistência pela subida gradual e pela estabilidade do d5.",
+      "replacement": "texto da aula 01/03",
+      "source": {
+        "name": "Texto auditado das aulas do módulo 01 (coerência interna) — QUI-ORB-ENERGIA-001, QUI-FE-D5-001",
+        "tier": "general",
+        "version": "aulas auditadas em 2026-09-30 e revisadas em 2026-09-30",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "QUI-FC-CAMADA-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Elétrons de uma camada têm a mesma energia",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-cloze.csv",
+        "section": "fc005",
+        "quote": "a camada é o conjunto de elétrons com {{c3::mesma energia}}"
+      },
+      "problem": "As subcamadas de uma camada têm energias diferentes; a aula 01 define camada como elétrons com energia e distância média parecidas.",
+      "replacement": "energia e distância média parecidas",
+      "source": {
+        "name": "Texto auditado das aulas do módulo 01 (coerência interna) — vocabulário da aula 01",
+        "tier": "general",
+        "version": "aulas auditadas em 2026-09-30 e revisadas em 2026-09-30",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-cloze.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
+    },
+    {
+      "claim_id": "QUI-FC-OXIDOCONV-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "A análise em óxidos assume que os elementos estão na forma de óxidos",
+      "location": {
+        "file": "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "section": "fb068; fc050",
+        "quote": "Assume-se que todos os elementos estão na forma de óxidos"
+      },
+      "problem": "É convenção de notação; a aula 06 diz que wt% de óxido não é a forma real em que o elemento está no mineral. Como escrito, o card ensina o erro comum.",
+      "replacement": "a análise é escrita como se cada elemento fosse óxido, sem que o mineral contenha esses óxidos",
+      "source": {
+        "name": "Texto auditado das aulas do módulo 01 (coerência interna) — aula 06, Composição em óxidos",
+        "tier": "general",
+        "version": "aulas auditadas em 2026-09-30 e revisadas em 2026-09-30",
+        "consulted_at": "2026-10-04"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-basic.csv",
+        "01-fundamentos-quimicos/01-fundamentos-quimicos-flashcards-cloze.csv"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-04"
     }
   ],
   "verified_claims": [
@@ -607,6 +1204,24 @@
       "claim_id": "QUI-QZ-DENS-001",
       "claim": "Quartzo 2,65; 2,66e22 fórmulas/cm3",
       "source": "HoM; recálculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-TAB-GRUPOD-001",
+      "claim": "No bloco d, o grupo (IUPAC 1-18) é a soma dos elétrons s e d de valência (Fe 4s2 3d6 → 8)",
+      "source": "IUPAC, numeração de grupos 1-18 (s, p e d além do gás nobre anterior), via Wikipedia 'Group (periodic table)'; NIST ASD; consulta 2026-10-04",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-LIG-METALREGRA-001",
+      "claim": "Metais nativos e ligas naturais formados só por metais (Cu, Au, Ag, Fe-Ni) têm ligação predominantemente metálica; χ de Pauling não separa Cu de Si",
+      "source": "Allen & Capitani (1993), triângulo de Van Arkel-Ketelaar; Allred (1961); consulta 2026-10-04",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QUI-QUEST-COERENCIA-001",
+      "claim": "Questionário final: gabaritos coerentes com as três alegações (Q13 Co grupo 9 e Co2+ 3d7 HS com 3 desemparelhados; Q10 pirita) e contas refeitas (Q4 Ca 590/1145/4912; Q15 Al-O 56,7%; Q16 fayalita 203,771, 70,51/29,49%; Q17 13 km; Q18 CaSiO3, 3,5% Fe)",
+      "source": "recálculo; NIST ASD (Ca, Co)",
       "confidence": "confirmado"
     }
   ]

@@ -18,7 +18,7 @@
 | **íon poliatômico (grupo aniônico)** | grupo de átomos ligados que se comporta como um íon único, como SO₄²⁻ ou CO₃²⁻. |
 | **neutralidade de carga** | a soma das cargas positivas e negativas de um mineral é zero. |
 | **sulfeto, sulfato** | mineral com S²⁻ (ou S₂²⁻) como ânion; mineral com o grupo SO₄²⁻. |
-| **spin alto / spin baixo** | dois arranjos possíveis dos elétrons d de um íon dentro de um cristal. Spin alto: um elétron por orbital antes de formar pares, como na regra de Hund (aula 01); o Fe²⁺ (3d⁶) fica com 4 desemparelhados. Spin baixo: os átomos vizinhos no cristal forçam os elétrons a parear; o Fe²⁺ da pirita não tem nenhum desemparelhado. O porquê fica para o módulo 48. |
+| **spin alto / spin baixo** | dois arranjos possíveis dos elétrons d de um íon dentro de um cristal, quando ele tem de 4 a 7 elétrons d, como o Fe²⁺ (3d⁶). Spin alto: um elétron por orbital antes de formar pares, como na regra de Hund (aula 01); o Fe²⁺ (3d⁶) fica com 4 desemparelhados. Spin baixo: os átomos vizinhos no cristal forçam os elétrons a parear; o Fe²⁺ da pirita não tem nenhum desemparelhado. O porquê fica para o módulo 48. |
 
 ## Antes de começar, você precisa saber
 
@@ -196,8 +196,8 @@ alegacoes_auditaveis:
     source: "Droop (1987), Mineral. Mag. 51, 431; Forshaw & Pattison (2021), Contrib. Mineral. Petrol."
     audit: "corrigido em 2026-09-30 (antes: 'so a analise quimica nao diz qual das duas cargas', falso para a titulacao por via umida)"
   - claim_id: QUI-SPIN-DEF-001
-    claim: "Spin alto: eletrons d um por orbital antes de parear (Hund); Fe2+ 3d6 de spin alto tem 4 desemparelhados. Spin baixo: os vizinhos no cristal forcam o pareamento; o Fe2+ de spin baixo da pirita tem 0 desemparelhados."
+    claim: "Para ions com 4 a 7 eletrons d (como o Fe2+): spin alto: eletrons d um por orbital antes de parear (Hund); Fe2+ 3d6 de spin alto tem 4 desemparelhados. Spin baixo: os vizinhos no cristal forcam o pareamento; o Fe2+ de spin baixo da pirita tem 0 desemparelhados."
     risk: conceito
     source: "derivado de QUI-CONF-FE-001 e QUI-S-ESTADO-001 (ja auditados) e da observacao da auditoria m01 sobre o Fe2+ de spin baixo da pirita; teoria do campo cristalino (d6 octaedrico de campo forte: t2g6)"
-    audit: "pendente — definicao terminologica acrescentada ao vocabulario pela revisao didatica em 2026-09-30 (os termos ja eram usados no corpo sem definicao); conferir na proxima passagem do auditor"
+    audit: "corrigido em 2026-10-04 (auditoria m01, passagem 2, achado 🟠 QUI-SPIN-DEF-001: a definicao valia como geral para qualquer ion; agora restrita a ions com 4 a 7 eletrons d, como o Fe2+. Fe2+ HS 4 desemparelhados e pirita Fe2+ LS t2g6, diamagnetica, 0 desemparelhados: confirmados — LibreTexts, CFT high/low spin; Mossbauer de FeS2 em campo externo)"
 -->
