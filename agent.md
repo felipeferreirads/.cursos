@@ -48,6 +48,8 @@ Cada módulo é dividido internamente em **aulas** (≤30 min de estudo cada; as
 ### 3.2 Plugin de geração (`FFS-PluginStudy/`)
 Fonte do plugin `estudo-geociencias`, que expõe as skills da seção 4. Contém `agents/`, `skills/`, `templates/`, `schemas/`, `scripts/`, `prompts/`, `references/`, `evals/`, `tests/`, além de `AGENTS.md`, `CLAUDE.md`, `README.md`, `ROADMAP.md`, `BACKLOG-AREAS-ADIADAS.md`, `HANDOFF.md`.
 
+**Repositório:** https://github.com/felipeferreirads/FFS-PluginStudy (em `.cursos` a pasta `FFS-PluginStudy/` é um submódulo/ponteiro e pode estar vazia; se estiver, clone o repositório acima antes de usar as skills).
+
 ### 3.3 `GradeCurricular/`
 Grades universitárias de referência. Atualmente: `Geologia-USP/` (`Obrigatoria/`, `Optativa Livre/`, `grade.json`) — a referência principal para escopo curricular. Há um script reutilizável em `_ferramentas/` para extrair grade+ementas de qualquer curso da USP (ver memória `reference_usp_grade_scraper`).
 
