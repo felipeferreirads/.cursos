@@ -34,12 +34,12 @@
 
 ### Um planeta em camadas, conhecido de longe
 
-O furo mais profundo já feito, o poço de Kola, na Rússia, chegou a cerca de 12 km. O raio da Terra é de 6.371 km. Tudo o que sabemos sobre o interior vem de evidência indireta, e vale conhecer as quatro principais, porque cada uma diz algo diferente:
+O furo mais profundo já feito, o poço de Kola, na Rússia, chegou a cerca de 12 km; o raio da Terra é de 6.371 km. Tudo o que sabemos do interior vem de quatro evidências indiretas:
 
-1. **Ondas sísmicas.** Um terremoto emite ondas que atravessam o planeta. As ondas P (de compressão) passam por sólidos e líquidos; as ondas S (de cisalhamento) só passam por sólidos. A velocidade de cada uma depende da densidade e da rigidez do material. Onde a velocidade salta, há uma **descontinuidade**. Onde as ondas S desaparecem, há líquido.
-2. **Rochas trazidas de baixo.** Alguns magmas arrancam pedaços do manto no caminho e os trazem à superfície (os **xenólitos**, "rochas estranhas" dentro de outra rocha). Em certas cadeias de montanhas, fatias do manto e da crosta oceânica foram empurradas para cima e afloram.
-3. **Meteoritos.** Os condritos, meteoritos primitivos, dão a composição média do material que formou os planetas. Os meteoritos metálicos mostram como é uma liga de ferro e níquel de núcleo planetário.
-4. **Experimentos de alta pressão.** No laboratório, comprime-se e aquece-se uma amostra até as condições do interior e observa-se que minerais se formam.
+1. **Ondas sísmicas.** Um terremoto emite ondas que atravessam o planeta. As ondas P (de compressão) passam por sólidos e líquidos; as ondas S (de cisalhamento), só por sólidos. Onde a velocidade salta, há uma **descontinuidade**; onde as ondas S somem, há líquido.
+2. **Rochas trazidas de baixo.** Alguns magmas arrancam pedaços do manto e os trazem à superfície (os **xenólitos**, "rochas estranhas" dentro de outra rocha); em certas montanhas, fatias do manto foram empurradas para cima e afloram.
+3. **Meteoritos.** Os condritos dão a composição média do material que formou os planetas; os metálicos mostram uma liga de ferro e níquel de núcleo planetário.
+4. **Experimentos de alta pressão.** Comprime-se e aquece-se uma amostra até as condições do interior e observa-se que minerais se formam.
 
 Juntando as quatro, o modelo de camadas é este:
 
@@ -57,7 +57,7 @@ Juntando as quatro, o modelo de camadas é este:
 
 ### A crosta: a única camada que tocamos
 
-A **crosta** tem menos de 1% da massa da Terra, mas é onde estão quase todas as rochas e minerais que você vai estudar. Há duas crostas muito diferentes:
+A **crosta** tem menos de 1% da massa da Terra, mas guarda quase todos os minerais que você vai estudar. Há duas crostas muito diferentes:
 
 - **Oceânica:** fina (~5-10 km), escura, densa (~3,0 g/cm³), feita de **basalto** (lava resfriada) e **gabro** (o mesmo magma resfriado em profundidade). Os minerais dominantes são **plagioclásio** rico em Ca e **piroxênio**, às vezes com olivina. É jovem: a crosta oceânica mais antiga tem cerca de 180 milhões de anos, porque ela é continuamente reciclada (aula 03).
 - **Continental:** espessa (~30-70 km), mais leve (~2,7 g/cm³) e mais rica em Si, Al, Na e K. A composição média estimada (Rudnick & Gao, 2003) tem ~60% de SiO₂ em massa, a de um granodiorito, rocha parente do granito. É aqui que dominam **feldspatos e quartzo**, os números do módulo 02. Pode ter bilhões de anos: os minerais mais antigos conhecidos, grãos de zircão de Jack Hills, na Austrália, têm ~4,4 bilhões de anos.
@@ -69,7 +69,7 @@ A fronteira entre crosta e manto é a **descontinuidade de Mohorovičić** (o "M
 
 ### O manto: uma rocha verde que muda de estrutura com a profundidade
 
-O **manto** tem ~67% da massa da Terra. Não é magma: é **rocha sólida**, que flui como uma geleira, alguns centímetros por ano, ao longo de milhões de anos. Só pequenas frações se fundem, em lugares específicos (aula 03).
+O **manto** tem ~67% da massa da Terra. Não é magma: é **rocha sólida**, que flui lentamente, alguns centímetros por ano. Só pequenas frações se fundem, em lugares específicos (aula 03).
 
 Sua química é muito diferente da crosta: ~45% de SiO₂ e ~38% de MgO, com FeO (~8%), pouco Al, Ca e quase nada de Na e K (modelo "pirolito"). A rocha é o **peridotito**: cerca de 60% de **olivina** (Mg,Fe)₂SiO₄, mais **ortopiroxênio** e **clinopiroxênio**. Os xenólitos de peridotito, verdes de olivina, são a amostra direta.
 
@@ -81,15 +81,15 @@ Mais fundo, a pressão força transições de fase na própria olivina:
 - a **~520 km**, a wadsleyíta passa a **ringwoodita**;
 - a **~660 km** (~23-24 GPa), a ringwoodita se desfaz em dois minerais: **bridgmanita** (Mg,Fe)SiO₃ e **ferropericlásio** (Mg,Fe)O.
 
-Essas transições são as descontinuidades sísmicas de 410 e 660 km: o salto de velocidade é o salto de densidade do novo polimorfo. O **manto inferior** tem, num modelo pirolítico, ~75% de bridgmanita, ~17% de ferropericlásio e ~8% de Ca-perovskita (CaSiO₃) em volume. Como o manto inferior é a maior camada da Terra, a **bridgmanita** é, provavelmente, o mineral mais abundante do planeta.
+Essas transições são as descontinuidades de 410 e 660 km: o salto de velocidade é o salto de densidade do novo polimorfo. O **manto inferior** tem, num modelo pirolítico, ~75% de bridgmanita, ~17% de ferropericlásio e ~8% de Ca-perovskita (CaSiO₃) em volume. Como o manto inferior é a maior camada da Terra, a **bridgmanita** é, provavelmente, o mineral mais abundante do planeta.
 
-Um detalhe que conversa com o módulo 02: a bridgmanita só ganhou nome em 2014, quando foi encontrada num meteorito de choque (Tenham) e aprovada pela IMA; a Ca-perovskita só virou espécie (**davemaoíta**) em 2021, achada como inclusão num diamante. Antes disso, os dois eram "fases sintéticas" do laboratório, sem nome de mineral. Pela regra da IMA, um material só é espécie quando há amostra natural descrita.
+Um detalhe que conversa com o módulo 02: a bridgmanita só ganhou nome em 2014, quando foi achada num meteorito de choque (Tenham); a Ca-perovskita só virou espécie (**davemaoíta**) em 2021, como inclusão num diamante. Antes, eram fases sintéticas de laboratório: sem amostra natural descrita, não há espécie.
 
 ### O núcleo: metal, não rocha
 
 A ~2.890 km, as ondas S desaparecem: começa o **núcleo externo**, líquido. Foi a "sombra" das ondas S que revelou o núcleo (Gutenberg, 1914, localizou seu limite perto de 2.900 km). Em 1936, Inge Lehmann deduziu, por ondas P refletidas, que há um **núcleo interno** sólido, a partir de ~5.150 km.
 
-O núcleo é uma liga de **ferro com níquel**, com ~32% da massa da Terra. Sua densidade é ~10% menor do que a de ferro puro nas mesmas condições, e por isso se supõe que contenha alguns por cento de **elementos leves** (S, O, Si, C ou H; quais e quanto ainda é pergunta aberta). Não há "minerais do núcleo" no sentido do módulo 02: não existe amostra natural dele.
+O núcleo é uma liga de **ferro com níquel**, com ~32% da massa da Terra. É ~10% menos denso que ferro puro nas mesmas condições, e por isso deve conter alguns por cento de **elementos leves** (S, O, Si, C ou H; quais e quanto é pergunta aberta). Não há "minerais do núcleo" no sentido do módulo 02: não existe amostra natural dele.
 
 ### Duas maneiras de fatiar a Terra
 
@@ -97,8 +97,6 @@ As camadas acima são **químicas**. Há outra divisão, **mecânica**, que impo
 
 - **Litosfera:** crosta + topo do manto, rígida, ~100 km de espessura sob oceanos antigos e até ~200 km sob continentes antigos. É ela que se quebra em **placas**.
 - **Astenosfera:** manto quente logo abaixo, **sólido**, mas fraco o bastante para fluir e deixar as placas deslizarem.
-
-O erro típico é igualar crosta a litosfera. A litosfera inclui um pedaço do manto.
 
 ## Exemplo trabalhado
 
@@ -110,7 +108,7 @@ O erro típico é igualar crosta a litosfera. A litosfera inclui um pedaço do m
 
 **Passo 3. Converter em profundidade.** A amostra com granada veio de abaixo de ~60-80 km; a com espinélio, de ~30 a ~60-80 km. A fronteira exata depende da temperatura e da química (Cr, por exemplo, estende o campo do espinélio), por isso a resposta é uma faixa, não um número.
 
-**Passo 4. O que não dá para dizer.** A presença de granada não diz quanto abaixo de ~80 km a rocha estava; para isso existem os geobarômetros do módulo 42.
+**Passo 4. O que não dá para dizer.** Quanto abaixo de ~80 km a rocha estava; isso pede os geobarômetros do módulo 42.
 
 **Método geral:** quando a química é a mesma e a assembleia muda, pergunte qual variável (pressão ou temperatura) controla a troca.
 
@@ -119,14 +117,13 @@ O erro típico é igualar crosta a litosfera. A litosfera inclui um pedaço do m
 - **"O manto é magma."** É a imagem de livros e filmes, reforçada pelo vulcão. O manto é sólido; a fusão é local e parcial. O que sustenta a ideia errada é ver a lava saindo "de baixo".
 - **Igualar crosta e litosfera.** Os dois termos aparecem juntos e soam parecidos; um é químico, o outro mecânico.
 - **Achar que a crosta representa a Terra.** É sedutor porque é o que vemos; mas os silicatos de Al, Na e K dominam só a crosta, que é menos de 1% da massa.
-- **Pensar que sabemos o interior "por perfuração".** O furo mais fundo mal arranha a crosta continental.
 
 ## O que não concluir
 
 - Que as profundidades da tabela sejam exatas e iguais em toda parte. O Moho varia de ~5 a ~70 km; as descontinuidades de 410 e 660 km sobem e descem algumas dezenas de km conforme a temperatura.
 - Que "mesma química" signifique "mesmos minerais". O peridotito troca de assembleia com a profundidade.
 - Que a composição do núcleo esteja resolvida. O Fe-Ni é seguro; os elementos leves, não.
-- Que o mineral mais abundante da Terra seja o mais comum nas coleções. A bridgmanita não sobrevive à descompressão: perde a estrutura (amorfiza) a caminho da superfície, salvo em casos excepcionais, como os grãos do meteorito Tenham.
+- Que o mineral mais abundante da Terra seja comum nas coleções. A bridgmanita perde a estrutura (amorfiza) ao ser descomprimida; só sobrevive em casos excepcionais, como no meteorito Tenham.
 
 ## Recap relâmpago
 
