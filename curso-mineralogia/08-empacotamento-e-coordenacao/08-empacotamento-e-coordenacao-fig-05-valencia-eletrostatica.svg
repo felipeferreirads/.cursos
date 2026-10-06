@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 380" width="880" height="380">
+<title>Valencia eletrostatica (segunda regra de Pauling)</title>
+<rect x="0" y="0" width="880" height="380" fill="#ffffff"/>
+<text x="220.0" y="40.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1a1a1a" font-weight="bold">(a) Um O da forsterita, Mg₂SiO₄</text>
+<line x1="220.00" y1="200.00" x2="220.00" y2="80.00" stroke="#1f5fa8" stroke-width="2.2"/>
+<circle cx="220.00" cy="80.00" r="16.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.5" fill-opacity="1"/>
+<text x="220.0" y="85.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#ffffff" font-weight="bold">Si</text>
+<text x="250.0" y="130.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="start" fill="#1f5fa8" font-weight="bold">4/4 = 1</text>
+<line x1="220.00" y1="200.00" x2="332.76" y2="241.04" stroke="#2e7d32" stroke-width="2.2"/>
+<circle cx="332.76" cy="241.04" r="22.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.5" fill-opacity="1"/>
+<text x="332.8" y="246.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#ffffff" font-weight="bold">Mg</text>
+<text x="278.3" y="213.2" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2e7d32" font-weight="bold">2/6 = 1/3</text>
+<line x1="220.00" y1="200.00" x2="107.24" y2="241.04" stroke="#2e7d32" stroke-width="2.2"/>
+<circle cx="107.24" cy="241.04" r="22.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.5" fill-opacity="1"/>
+<text x="107.2" y="246.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#ffffff" font-weight="bold">Mg</text>
+<text x="161.7" y="213.2" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2e7d32" font-weight="bold">2/6 = 1/3</text>
+<line x1="220.00" y1="200.00" x2="220.00" y2="320.00" stroke="#2e7d32" stroke-width="2.2"/>
+<circle cx="220.00" cy="320.00" r="22.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.5" fill-opacity="1"/>
+<text x="220.0" y="325.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#ffffff" font-weight="bold">Mg</text>
+<text x="250.0" y="266.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="start" fill="#2e7d32" font-weight="bold">2/6 = 1/3</text>
+<circle cx="220.00" cy="200.00" r="26.00" fill="#c0392b" stroke="#ffffff" stroke-width="1.5" fill-opacity="1"/>
+<text x="220.0" y="205.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="bold">O</text>
+<text x="220.0" y="355.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1a1a1a" font-weight="bold"><tspan>soma: 1 + 3 × 1/3 = 2 = carga do O</tspan><tspan dy="-5.3" font-size="10.1">2−</tspan></text>
+<text x="640.0" y="40.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1a1a1a" font-weight="bold">(b) Força de ligação s = carga / NC</text>
+<line x1="750.00" y1="75.00" x2="750.00" y2="280.00" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<text x="750.0" y="68.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#c0392b" font-weight="normal"><tspan>metade da carga do O</tspan><tspan dy="-4.6" font-size="8.6">2−</tspan><tspan dy="4.6"> = 1</tspan></text>
+<text x="610.0" y="104.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="end" fill="#1a1a1a" font-weight="normal"><tspan>C</tspan><tspan dy="-4.9" font-size="9.4">4+</tspan><tspan dy="4.9"> (NC 3)</tspan></text>
+<rect x="620.0" y="90.0" width="173.3" height="22" fill="#1f5fa8" fill-opacity="0.8"/>
+<text x="799.3" y="106.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="start" fill="#1a1a1a" font-weight="normal">4/3 ≈ 1,33</text>
+<text x="610.0" y="144.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="end" fill="#1a1a1a" font-weight="normal"><tspan>S</tspan><tspan dy="-4.9" font-size="9.4">6+</tspan><tspan dy="4.9"> (NC 4)</tspan></text>
+<rect x="620.0" y="130.0" width="195.0" height="22" fill="#1f5fa8" fill-opacity="0.8"/>
+<text x="821.0" y="146.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="start" fill="#1a1a1a" font-weight="normal">6/4 = 1,50</text>
+<text x="610.0" y="184.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="end" fill="#1a1a1a" font-weight="normal"><tspan>Si</tspan><tspan dy="-4.9" font-size="9.4">4+</tspan><tspan dy="4.9"> (NC 4)</tspan></text>
+<rect x="620.0" y="170.0" width="130.0" height="22" fill="#2e7d32" fill-opacity="0.8"/>
+<text x="756.0" y="186.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="start" fill="#1a1a1a" font-weight="normal">4/4 = 1,00</text>
+<text x="610.0" y="224.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="end" fill="#1a1a1a" font-weight="normal"><tspan>Al</tspan><tspan dy="-4.9" font-size="9.4">3+</tspan><tspan dy="4.9"> (NC 4)</tspan></text>
+<rect x="620.0" y="210.0" width="97.5" height="22" fill="#d9822b" fill-opacity="0.8"/>
+<text x="723.5" y="226.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="start" fill="#1a1a1a" font-weight="normal">3/4 = 0,75</text>
+<text x="610.0" y="264.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="end" fill="#1a1a1a" font-weight="normal"><tspan>Mg</tspan><tspan dy="-4.9" font-size="9.4">2+</tspan><tspan dy="4.9"> (NC 6)</tspan></text>
+<rect x="620.0" y="250.0" width="43.3" height="22" fill="#d9822b" fill-opacity="0.8"/>
+<text x="669.3" y="266.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="start" fill="#1a1a1a" font-weight="normal">2/6 ≈ 0,33</text>
+<text x="640.0" y="310.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a" font-weight="normal">s > 1: o grupo (CO₃, SO₄) fica coeso e isolado</text>
+<text x="640.0" y="330.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a" font-weight="normal">s = 1: o O pode ligar dois Si (polimerização, módulo 11)</text>
+</svg>

@@ -1,6 +1,6 @@
 # Módulo 08 — Cristaloquímica I: raios iônicos, coordenação e regras de Pauling
 
-> [!info] Curso de **Mineralogia** · módulo 08 de 50 · área III. Cristaloquímica · trilha **núcleo** · status: **pendente** (planejado em 2026-09-29, nenhuma aula escrita)
+> [!info] Curso de **Mineralogia** · módulo 08 de 50 · área III. Cristaloquímica · trilha **núcleo** · status: **concluído** (aulas, auditoria, revisão didática, questionários e baralho em 2026-10-06)
 
 ## Objetivo do módulo
 
@@ -39,16 +39,26 @@ Explicar por que os átomos se arranjam como se arranjam nos minerais: raios iô
 - `mineralogia-m08-oa04` — Aplicar as cinco regras de Pauling, incluindo a valência eletrostática, para julgar a estabilidade de um arranjo e explicar o compartilhamento de poliedros.
 - `mineralogia-m08-oa05` — Reconhecer as estruturas-tipo (halita, fluorita, rutilo, corindo, espinélio, perovskita, esfalerita/wurtzita) e os minerais que as adotam.
 
-## Aulas planejadas (6, nenhuma escrita)
+## Aulas (6 escritas)
 
-1. Aula 01 — Raios iônicos efetivos: por que o raio depende da coordenação — `mineralogia-m08-a01` · cobre `mineralogia-m08-oa01`
-2. Aula 02 — Razão de raios e poliedros de coordenação — `mineralogia-m08-a02` · cobre `mineralogia-m08-oa02`
-3. Aula 03 — Empacotamento compacto e interstícios — `mineralogia-m08-a03` · cobre `mineralogia-m08-oa03`
-4. Aula 04 — As regras de Pauling — Parte 1: coordenação e valência eletrostática — `mineralogia-m08-a04` · cobre `mineralogia-m08-oa04`
-5. Aula 05 — As regras de Pauling — Parte 2: compartilhamento de poliedros e parcimônia — `mineralogia-m08-a05` · cobre `mineralogia-m08-oa04`
-6. Aula 06 — Estruturas-tipo: halita, fluorita, rutilo, corindo, espinélio, perovskita e esfalerita — `mineralogia-m08-a06` · cobre `mineralogia-m08-oa05`
+1. [[08-empacotamento-e-coordenacao-aula-01-raios-ionicos-efetivos-por-que-o-raio-depende-da-coordenacao|Aula 01 — Raios iônicos efetivos: por que o raio depende da coordenação]] — `mineralogia-m08-a01` · cobre `mineralogia-m08-oa01`
+2. [[08-empacotamento-e-coordenacao-aula-02-razao-de-raios-e-poliedros-de-coordenacao|Aula 02 — Razão de raios e poliedros de coordenação]] — `mineralogia-m08-a02` · cobre `mineralogia-m08-oa02`
+3. [[08-empacotamento-e-coordenacao-aula-03-empacotamento-compacto-e-intersticios|Aula 03 — Empacotamento compacto e interstícios]] — `mineralogia-m08-a03` · cobre `mineralogia-m08-oa03`
+4. [[08-empacotamento-e-coordenacao-aula-04-regras-de-pauling-parte-1-coordenacao-e-valencia-eletrostatica|Aula 04 — As regras de Pauling — Parte 1: coordenação e valência eletrostática]] — `mineralogia-m08-a04` · cobre `mineralogia-m08-oa04`
+5. [[08-empacotamento-e-coordenacao-aula-05-regras-de-pauling-parte-2-compartilhamento-de-poliedros-e-parcimonia|Aula 05 — As regras de Pauling — Parte 2: compartilhamento de poliedros e parcimônia]] — `mineralogia-m08-a05` · cobre `mineralogia-m08-oa04`
+6. [[08-empacotamento-e-coordenacao-aula-06-estruturas-tipo-halita-fluorita-rutilo-corindo-espinelio-perovskita-e-esfalerita|Aula 06 — Estruturas-tipo: halita, fluorita, rutilo, corindo, espinélio, perovskita e esfalerita]] — `mineralogia-m08-a06` · cobre `mineralogia-m08-oa05`
 
-> Títulos provisórios, definidos no planejamento. O gerador de aulas pode ajustá-los ou dividir uma aula em Parte 1 / Parte 2 pela contagem de carga; um objetivo novo recebe o próximo ID livre, nunca desloca os existentes.
+> Títulos do planejamento mantidos. As regras de Pauling ficaram em duas partes (regras 1-2 e 3-5), como previsto.
+
+### Figuras do módulo (geradas por cálculo)
+
+- `08-empacotamento-e-coordenacao-fig-01-raio-coordenacao-carga-spin.svg` — aula 01
+- `08-empacotamento-e-coordenacao-fig-02-razao-de-raios-e-poliedros.svg` — aula 02
+- `08-empacotamento-e-coordenacao-fig-03-empacotamento-compacto.svg` — aula 03
+- `08-empacotamento-e-coordenacao-fig-05-valencia-eletrostatica.svg` — aula 04
+- `08-empacotamento-e-coordenacao-fig-04-compartilhamento-de-poliedros.svg` — aula 05
+- `08-empacotamento-e-coordenacao-fig-06-estruturas-tipo-cubicas.svg` — aula 06
+- reaproveitada: `06-reticulo-e-cela-fig-06-cela-da-halita.svg` (módulo 06) — aulas 01, 02 e 06, para a coordenação 6:6
 
 ## Pontos de dificuldade previstos
 
@@ -60,11 +70,11 @@ curso-geologia, módulo 04, aula 02 menciona raio iônico só qualitativamente.
 
 ## Registro do módulo
 
-- Aulas: pendente (0 de 6)
-- Auditoria científica: pendente
-- Revisão didática: pendente
-- Questionário: pendente (gate: só depois da auditoria sem achado 🔴/🟠 em aberto)
-- Flashcards: pendente (mesmo gate)
+- Aulas: escritas (6 de 6), em 2026-10-06
+- Auditoria científica: [[08-empacotamento-e-coordenacao-auditoria|aprovada após correções]] em 2026-10-06 (🟠 3: spin baixo generalizado ao d⁷, analogia da espuma no sentido errado, "Si VI só em alta pressão" sem a taumasita; 🟡 3 e 🔵 1, todos corrigidos; nenhum achado aberto). Raios de Shannon conferidos em duas compilações digitais independentes; todas as contas refeitas em Python.
+- Revisão didática: [[08-empacotamento-e-coordenacao-revisao-didatica|bem ensinado com ressalvas, ressalvas corrigidas]] em 2026-10-06 (🟠 2: aula 01 acima do teto de palavras, quadro da aula 06 antes da explicação; 🟡 2 corrigidos; 🔵 3 não bloqueantes)
+- Questionários: [[08-empacotamento-e-coordenacao-questionario-parcial-1|parcial 1]] (aulas 01-03; 8 q, 17 pts), [[08-empacotamento-e-coordenacao-questionario-parcial-2|parcial 2]] (aulas 04-06; 8 q, 17 pts) e [[08-empacotamento-e-coordenacao-questionario-final|final cumulativo]] (12 q, 43 pts), gerados em 2026-10-06 com checagem científica do gabarito; 5 de 5 objetivos cobertos
+- Flashcards: [[08-empacotamento-e-coordenacao-flashcards|baralho]] gerado em 2026-10-06 (75 Basic + 10 Cloze), com checagem científica contra as aulas antes de fechar
 
 ## Navegação
 

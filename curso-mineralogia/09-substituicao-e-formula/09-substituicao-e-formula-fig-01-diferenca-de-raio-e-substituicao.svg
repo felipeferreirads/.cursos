@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="960" height="500">
+<title>Diferenca de raio e substituicao</title>
+<rect x="0" y="0" width="960" height="500" fill="#ffffff"/>
+<rect x="250.0" y="60" width="155.5" height="350" fill="#e3f1e3"/>
+<rect x="405.5" y="60" width="155.5" height="350" fill="#fbf0d9"/>
+<rect x="560.9" y="60" width="259.1" height="350" fill="#f8dfdc"/>
+<text x="327.7" y="52.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2e7d32" font-weight="bold">&lt; 15%: ampla</text>
+<text x="483.2" y="52.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#9a6a00" font-weight="bold">15–30%: limitada</text>
+<text x="690.5" y="52.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#c0392b" font-weight="bold">&gt; 30%: pouca</text>
+<text x="25.0" y="95.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="start" fill="#1a1a1a" font-weight="normal"><tspan>Hf</tspan><tspan dy="-4.6" font-size="8.6">4+</tspan><tspan dy="4.6"> / Zr</tspan><tspan dy="-4.6" font-size="8.6">4+</tspan><tspan dy="4.6"> (VIII)</tspan></text>
+<rect x="250.0" y="84" width="12.4" height="16" fill="#1f5fa8" fill-opacity="0.85"/>
+<text x="268.4" y="96.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="start" fill="#1a1a1a" font-weight="normal">1,2% · zircão</text>
+<text x="25.0" y="125.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="start" fill="#1a1a1a" font-weight="normal"><tspan>Ni</tspan><tspan dy="-4.6" font-size="8.6">2+</tspan><tspan dy="4.6"> / Mg</tspan><tspan dy="-4.6" font-size="8.6">2+</tspan><tspan dy="4.6"> (VI)</tspan></text>
+<rect x="250.0" y="114" width="44.6" height="16" fill="#1f5fa8" fill-opacity="0.85"/>
+<text x="300.6" y="126.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="start" fill="#1a1a1a" font-weight="normal">4,3% · olivina</text>
+<text x="25.0" y="155.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="start" fill="#1a1a1a" font-weight="normal"><tspan>Na</tspan><tspan dy="-4.6" font-size="8.6">+</tspan><tspan dy="4.6"> / Ca</tspan><tspan dy="-4.6" font-size="8.6">2+</tspan><tspan dy="4.6"> (VIII)</tspan></text>
+<rect x="250.0" y="144" width="56.0" height="16" fill="#1f5fa8" fill-opacity="0.85"/>
+<text x="312.0" y="156.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="start" fill="#1a1a1a" font-weight="normal">5,4% · plagioclásio*</text>
+<text x="25.0" y="185.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="start" fill="#1a1a1a" font-weight="normal"><tspan>Ba</tspan><tspan dy="-4.6" font-size="8.6">2+</tspan><tspan dy="4.6"> / K</tspan><tspan dy="-4.6" font-size="8.6">+</tspan><tspan dy="4.6"> (VIII)</tspan></text>
+<rect x="250.0" y="174" width="65.3" height="16" fill="#1f5fa8" fill-opacity="0.85"/>
+<text x="321.3" y="186.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="start" fill="#1a1a1a" font-weight="normal">6,3% · feldspato K*</text>
+<text x="25.0" y="215.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="start" fill="#1a1a1a" font-weight="normal"><tspan>Rb</tspan><tspan dy="-4.6" font-size="8.6">+</tspan><tspan dy="4.6"> / K</tspan><tspan dy="-4.6" font-size="8.6">+</tspan><tspan dy="4.6"> (VIII)</tspan></text>
+<rect x="250.0" y="204" width="68.4" height="16" fill="#1f5fa8" fill-opacity="0.85"/>
+<text x="324.4" y="216.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="start" fill="#1a1a1a" font-weight="normal">6,6% · feldspato K, micas</text>
+<text x="25.0" y="245.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="start" fill="#1a1a1a" font-weight="normal"><tspan>Fe</tspan><tspan dy="-4.6" font-size="8.6">2+</tspan><tspan dy="4.6"> / Mg</tspan><tspan dy="-4.6" font-size="8.6">2+</tspan><tspan dy="4.6"> (VI)</tspan></text>
+<rect x="250.0" y="234" width="86.0" height="16" fill="#1f5fa8" fill-opacity="0.85"/>
+<text x="342.0" y="246.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="start" fill="#1a1a1a" font-weight="normal">8,3% · olivina, piroxênios</text>
+<text x="25.0" y="275.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="start" fill="#1a1a1a" font-weight="normal"><tspan>Sr</tspan><tspan dy="-4.6" font-size="8.6">2+</tspan><tspan dy="4.6"> / Ca</tspan><tspan dy="-4.6" font-size="8.6">2+</tspan><tspan dy="4.6"> (VIII)</tspan></text>
+<rect x="250.0" y="264" width="129.5" height="16" fill="#1f5fa8" fill-opacity="0.85"/>
+<text x="385.5" y="276.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="start" fill="#1a1a1a" font-weight="normal">12,5% · plagioclásio</text>
+<text x="25.0" y="305.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="start" fill="#1a1a1a" font-weight="normal"><tspan>Cr</tspan><tspan dy="-4.6" font-size="8.6">3+</tspan><tspan dy="4.6"> / Al</tspan><tspan dy="-4.6" font-size="8.6">3+</tspan><tspan dy="4.6"> (VI)</tspan></text>
+<rect x="250.0" y="294" width="155.5" height="16" fill="#1f5fa8" fill-opacity="0.85"/>
+<text x="411.5" y="306.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="start" fill="#1a1a1a" font-weight="normal">15,0% · coríndon, espinélio</text>
+<text x="25.0" y="335.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="start" fill="#1a1a1a" font-weight="normal"><tspan>K</tspan><tspan dy="-4.6" font-size="8.6">+</tspan><tspan dy="4.6"> / Na</tspan><tspan dy="-4.6" font-size="8.6">+</tspan><tspan dy="4.6"> (VIII)</tspan></text>
+<rect x="250.0" y="324" width="290.2" height="16" fill="#1f5fa8" fill-opacity="0.85"/>
+<text x="546.2" y="336.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="start" fill="#1a1a1a" font-weight="normal">28,0% · feldspatos alcalinos</text>
+<text x="25.0" y="365.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="start" fill="#1a1a1a" font-weight="normal"><tspan>Ca</tspan><tspan dy="-4.6" font-size="8.6">2+</tspan><tspan dy="4.6"> / Mg</tspan><tspan dy="-4.6" font-size="8.6">2+</tspan><tspan dy="4.6"> (VI)</tspan></text>
+<rect x="250.0" y="354" width="403.1" height="16" fill="#1f5fa8" fill-opacity="0.85"/>
+<text x="659.1" y="366.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="start" fill="#1a1a1a" font-weight="normal">38,9% · carbonatos, piroxênios</text>
+<text x="25.0" y="395.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="start" fill="#1a1a1a" font-weight="normal"><tspan>Al</tspan><tspan dy="-4.6" font-size="8.6">3+</tspan><tspan dy="4.6"> / Si</tspan><tspan dy="-4.6" font-size="8.6">4+</tspan><tspan dy="4.6"> (IV)</tspan></text>
+<rect x="250.0" y="384" width="518.2" height="16" fill="#1f5fa8" fill-opacity="0.85"/>
+<text x="774.2" y="396.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="start" fill="#1a1a1a" font-weight="normal">50,0% · silicatos (exceção)</text>
+<line x1="250.00" y1="420.00" x2="820.00" y2="420.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="250.00" y1="420.00" x2="250.00" y2="425.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="250.0" y="440.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal">0</text>
+<line x1="353.64" y1="420.00" x2="353.64" y2="425.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="353.6" y="440.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal">10</text>
+<line x1="457.27" y1="420.00" x2="457.27" y2="425.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="457.3" y="440.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal">20</text>
+<line x1="560.91" y1="420.00" x2="560.91" y2="425.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="560.9" y="440.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal">30</text>
+<line x1="664.55" y1="420.00" x2="664.55" y2="425.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="664.5" y="440.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal">40</text>
+<line x1="768.18" y1="420.00" x2="768.18" y2="425.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="768.2" y="440.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal">50</text>
+<text x="535.0" y="460.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a" font-weight="normal">diferença de raio, em % do raio menor (raios de Shannon, mesmo NC)</text>
+<text x="450.0" y="30.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1a1a1a" font-weight="bold">Diferença de raio e extensão da substituição (1ª regra de Goldschmidt)</text>
+<text x="450.0" y="482.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555" font-weight="normal">* carga diferente: só entra com substituição acoplada que mantenha a neutralidade</text>
+</svg>

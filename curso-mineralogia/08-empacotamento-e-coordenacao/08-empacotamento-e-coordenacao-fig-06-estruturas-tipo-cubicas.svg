@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 490" width="1000" height="490">
+<title>Estruturas-tipo: fluorita, esfalerita e perovskita ideal</title>
+<rect x="0" y="0" width="1000" height="490" fill="#ffffff"/>
+<line x1="130.00" y1="370.00" x2="130.00" y2="200.00" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="130.00" y1="370.00" x2="36.50" y2="424.40" stroke="#9a9a9a" stroke-width="1.3" stroke-dasharray="5,4"/>
+<line x1="130.00" y1="370.00" x2="300.00" y2="370.00" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="130.00" y1="200.00" x2="36.50" y2="254.40" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="130.00" y1="200.00" x2="300.00" y2="200.00" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="36.50" y1="424.40" x2="36.50" y2="254.40" stroke="#9a9a9a" stroke-width="1.3" stroke-dasharray="5,4"/>
+<line x1="36.50" y1="424.40" x2="206.50" y2="424.40" stroke="#9a9a9a" stroke-width="1.3" stroke-dasharray="5,4"/>
+<line x1="36.50" y1="254.40" x2="206.50" y2="254.40" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="300.00" y1="370.00" x2="300.00" y2="200.00" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="300.00" y1="370.00" x2="206.50" y2="424.40" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="300.00" y1="200.00" x2="206.50" y2="254.40" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="206.50" y1="424.40" x2="206.50" y2="254.40" stroke="#1a1a1a" stroke-width="1.3"/>
+<circle cx="36.50" cy="424.40" r="10.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="36.50" cy="254.40" r="10.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="206.50" cy="424.40" r="10.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="206.50" cy="254.40" r="10.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="121.50" cy="339.40" r="10.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="102.37" cy="368.30" r="13.00" fill="#e8a33d" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="102.37" cy="283.30" r="13.00" fill="#e8a33d" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="187.38" cy="368.30" r="13.00" fill="#e8a33d" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="187.38" cy="283.30" r="13.00" fill="#e8a33d" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="168.25" cy="397.20" r="10.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="168.25" cy="227.20" r="10.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="83.25" cy="312.20" r="10.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="253.25" cy="312.20" r="10.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="149.12" cy="341.10" r="13.00" fill="#e8a33d" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="149.12" cy="256.10" r="13.00" fill="#e8a33d" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="234.12" cy="341.10" r="13.00" fill="#e8a33d" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="234.12" cy="256.10" r="13.00" fill="#e8a33d" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="130.00" cy="370.00" r="10.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="130.00" cy="200.00" r="10.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="300.00" cy="370.00" r="10.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="300.00" cy="200.00" r="10.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="215.00" cy="285.00" r="10.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<text x="167.4" y="130.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1a1a1a" font-weight="bold">(a) Fluorita, CaF₂</text>
+<text x="167.4" y="148.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#444" font-weight="normal">Ca (verde) em cF;</text>
+<text x="167.4" y="164.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#444" font-weight="normal">F (laranja) nos 8 tetraédricos</text>
+<line x1="450.00" y1="370.00" x2="450.00" y2="200.00" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="450.00" y1="370.00" x2="356.50" y2="424.40" stroke="#9a9a9a" stroke-width="1.3" stroke-dasharray="5,4"/>
+<line x1="450.00" y1="370.00" x2="620.00" y2="370.00" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="450.00" y1="200.00" x2="356.50" y2="254.40" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="450.00" y1="200.00" x2="620.00" y2="200.00" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="356.50" y1="424.40" x2="356.50" y2="254.40" stroke="#9a9a9a" stroke-width="1.3" stroke-dasharray="5,4"/>
+<line x1="356.50" y1="424.40" x2="526.50" y2="424.40" stroke="#9a9a9a" stroke-width="1.3" stroke-dasharray="5,4"/>
+<line x1="356.50" y1="254.40" x2="526.50" y2="254.40" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="620.00" y1="370.00" x2="620.00" y2="200.00" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="620.00" y1="370.00" x2="526.50" y2="424.40" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="620.00" y1="200.00" x2="526.50" y2="254.40" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="526.50" y1="424.40" x2="526.50" y2="254.40" stroke="#1a1a1a" stroke-width="1.3"/>
+<circle cx="356.50" cy="424.40" r="13.00" fill="#e0c341" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="356.50" cy="254.40" r="13.00" fill="#e0c341" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="526.50" cy="424.40" r="13.00" fill="#e0c341" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="526.50" cy="254.40" r="13.00" fill="#e0c341" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="441.50" cy="339.40" r="13.00" fill="#e0c341" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="507.38" cy="368.30" r="9.00" fill="#555555" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="422.38" cy="283.30" r="9.00" fill="#555555" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="488.25" cy="397.20" r="13.00" fill="#e0c341" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="488.25" cy="227.20" r="13.00" fill="#e0c341" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="403.25" cy="312.20" r="13.00" fill="#e0c341" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="573.25" cy="312.20" r="13.00" fill="#e0c341" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="469.12" cy="341.10" r="9.00" fill="#555555" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="554.12" cy="256.10" r="9.00" fill="#555555" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="450.00" cy="370.00" r="13.00" fill="#e0c341" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="450.00" cy="200.00" r="13.00" fill="#e0c341" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="620.00" cy="370.00" r="13.00" fill="#e0c341" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="620.00" cy="200.00" r="13.00" fill="#e0c341" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="535.00" cy="285.00" r="13.00" fill="#e0c341" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<text x="487.4" y="130.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1a1a1a" font-weight="bold">(b) Esfalerita, ZnS</text>
+<text x="487.4" y="148.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#444" font-weight="normal">S (amarelo) em cF;</text>
+<text x="487.4" y="164.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#444" font-weight="normal">Zn (cinza) em 4 dos 8 tetraédricos</text>
+<line x1="770.00" y1="370.00" x2="770.00" y2="200.00" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="770.00" y1="370.00" x2="676.50" y2="424.40" stroke="#9a9a9a" stroke-width="1.3" stroke-dasharray="5,4"/>
+<line x1="770.00" y1="370.00" x2="940.00" y2="370.00" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="770.00" y1="200.00" x2="676.50" y2="254.40" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="770.00" y1="200.00" x2="940.00" y2="200.00" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="676.50" y1="424.40" x2="676.50" y2="254.40" stroke="#9a9a9a" stroke-width="1.3" stroke-dasharray="5,4"/>
+<line x1="676.50" y1="424.40" x2="846.50" y2="424.40" stroke="#9a9a9a" stroke-width="1.3" stroke-dasharray="5,4"/>
+<line x1="676.50" y1="254.40" x2="846.50" y2="254.40" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="940.00" y1="370.00" x2="940.00" y2="200.00" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="940.00" y1="370.00" x2="846.50" y2="424.40" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="940.00" y1="200.00" x2="846.50" y2="254.40" stroke="#1a1a1a" stroke-width="1.3"/>
+<line x1="846.50" y1="424.40" x2="846.50" y2="254.40" stroke="#1a1a1a" stroke-width="1.3"/>
+<circle cx="676.50" cy="424.40" r="12.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="676.50" cy="254.40" r="12.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="846.50" cy="424.40" r="12.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="846.50" cy="254.40" r="12.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="761.50" cy="339.40" r="9.00" fill="#c0392b" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="808.25" cy="397.20" r="9.00" fill="#c0392b" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="808.25" cy="227.20" r="9.00" fill="#c0392b" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="723.25" cy="312.20" r="9.00" fill="#c0392b" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="893.25" cy="312.20" r="9.00" fill="#c0392b" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="808.25" cy="312.20" r="7.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="770.00" cy="370.00" r="12.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="770.00" cy="200.00" r="12.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="940.00" cy="370.00" r="12.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="940.00" cy="200.00" r="12.00" fill="#2e7d32" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<circle cx="855.00" cy="285.00" r="9.00" fill="#c0392b" stroke="#ffffff" stroke-width="1.3" fill-opacity="1"/>
+<text x="807.4" y="130.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1a1a1a" font-weight="bold">(c) Perovskita ideal, CaTiO₃</text>
+<text x="807.4" y="148.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#444" font-weight="normal">Ca (verde) nos vértices; Ti (azul)</text>
+<text x="807.4" y="164.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#444" font-weight="normal">no centro; O (vermelho) nas faces</text>
+<text x="500.0" y="475.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">Celas cúbicas desenhadas a partir das coordenadas fracionárias; tamanhos dos círculos apenas indicativos.</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 380" width="880" height="380">
+<title>Compartilhamento de poliedros e distancia cation-cation</title>
+<rect x="0" y="0" width="880" height="380" fill="#ffffff"/>
+<polygon points="165.00,190.00 110.00,245.00 55.00,190.00 110.00,135.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="275.00,190.00 220.00,245.00 165.00,190.00 220.00,135.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="110.00" cy="190.00" r="6.00" fill="#c0392b" stroke="#ffffff" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="220.00" cy="190.00" r="6.00" fill="#c0392b" stroke="#ffffff" stroke-width="1.2" fill-opacity="1"/>
+<line x1="110.00" y1="190.00" x2="220.00" y2="190.00" stroke="#c0392b" stroke-width="2" stroke-dasharray="5,3"/>
+<text x="165.0" y="282.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#c0392b" font-weight="bold">1,00</text>
+<text x="165.0" y="80.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#1a1a1a" font-weight="bold">vértice</text>
+<polygon points="408.89,228.89 331.11,228.89 331.11,151.11 408.89,151.11" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="486.67,228.89 408.89,228.89 408.89,151.11 486.67,151.11" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="370.00" cy="190.00" r="6.00" fill="#c0392b" stroke="#ffffff" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="447.78" cy="190.00" r="6.00" fill="#c0392b" stroke="#ffffff" stroke-width="1.2" fill-opacity="1"/>
+<line x1="370.00" y1="190.00" x2="447.78" y2="190.00" stroke="#c0392b" stroke-width="2" stroke-dasharray="5,3"/>
+<text x="408.9" y="282.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#c0392b" font-weight="bold">0,71</text>
+<text x="408.9" y="80.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#1a1a1a" font-weight="bold">aresta</text>
+<polygon points="638.00,120.00 638.00,260.00 561.00,190.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="638.00,120.00 638.00,260.00 715.00,190.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="610.00" cy="190.00" r="6.00" fill="#c0392b" stroke="#ffffff" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="666.00" cy="190.00" r="6.00" fill="#c0392b" stroke="#ffffff" stroke-width="1.2" fill-opacity="1"/>
+<text x="638.0" y="80.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#1a1a1a" font-weight="bold">face (vista de perfil)</text>
+<line x1="610.00" y1="190.00" x2="666.00" y2="190.00" stroke="#c0392b" stroke-width="2" stroke-dasharray="5,3"/>
+<text x="638.0" y="282.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#c0392b" font-weight="bold">0,58</text>
+<text x="440.0" y="318.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1a1a1a" font-weight="normal">Distância entre os cátions centrais (vermelho), relativa ao compartilhamento por vértice alinhado.</text>
+<text x="440.0" y="342.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1a1a1a" font-weight="bold">Octaedros: 1,00 · 0,71 · 0,58.   Tetraedros: 1,00 · 0,58 · 0,33.</text>
+<text x="440.0" y="364.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">Esquema 2D: os octaedros aparecem como quadrados (vistos ao longo de um eixo 4).</text>
+</svg>

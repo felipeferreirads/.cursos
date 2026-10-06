@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" width="900" height="450">
+<title>Raio iônico efetivo: coordenação, carga e spin</title>
+<rect x="0" y="0" width="900" height="450" fill="#ffffff"/>
+<line x1="70.00" y1="360.00" x2="470.00" y2="360.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="70.00" y1="360.00" x2="70.00" y2="60.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="70.00" y1="360.00" x2="70.00" y2="365.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="70.0" y="380.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a" font-weight="normal">2</text>
+<line x1="110.00" y1="360.00" x2="110.00" y2="365.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="110.0" y="380.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a" font-weight="normal">3</text>
+<line x1="150.00" y1="360.00" x2="150.00" y2="365.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="150.0" y="380.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a" font-weight="normal">4</text>
+<line x1="190.00" y1="360.00" x2="190.00" y2="365.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="190.0" y="380.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a" font-weight="normal">5</text>
+<line x1="230.00" y1="360.00" x2="230.00" y2="365.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="230.0" y="380.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a" font-weight="normal">6</text>
+<line x1="270.00" y1="360.00" x2="270.00" y2="365.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="270.0" y="380.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a" font-weight="normal">7</text>
+<line x1="310.00" y1="360.00" x2="310.00" y2="365.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="310.0" y="380.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a" font-weight="normal">8</text>
+<line x1="350.00" y1="360.00" x2="350.00" y2="365.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="350.0" y="380.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a" font-weight="normal">9</text>
+<line x1="390.00" y1="360.00" x2="390.00" y2="365.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="390.0" y="380.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a" font-weight="normal">10</text>
+<line x1="430.00" y1="360.00" x2="430.00" y2="365.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="430.0" y="380.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a" font-weight="normal">11</text>
+<line x1="470.00" y1="360.00" x2="470.00" y2="365.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="470.0" y="380.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a" font-weight="normal">12</text>
+<line x1="65.00" y1="360.00" x2="70.00" y2="360.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="61.0" y="364.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="end" fill="#1a1a1a" font-weight="normal">0,9</text>
+<line x1="70.00" y1="360.00" x2="470.00" y2="360.00" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="65.00" y1="322.50" x2="70.00" y2="322.50" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="61.0" y="326.5" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="end" fill="#1a1a1a" font-weight="normal">1,0</text>
+<line x1="70.00" y1="322.50" x2="470.00" y2="322.50" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="65.00" y1="285.00" x2="70.00" y2="285.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="61.0" y="289.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="end" fill="#1a1a1a" font-weight="normal">1,1</text>
+<line x1="70.00" y1="285.00" x2="470.00" y2="285.00" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="65.00" y1="247.50" x2="70.00" y2="247.50" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="61.0" y="251.5" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="end" fill="#1a1a1a" font-weight="normal">1,2</text>
+<line x1="70.00" y1="247.50" x2="470.00" y2="247.50" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="65.00" y1="210.00" x2="70.00" y2="210.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="61.0" y="214.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="end" fill="#1a1a1a" font-weight="normal">1,3</text>
+<line x1="70.00" y1="210.00" x2="470.00" y2="210.00" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="65.00" y1="172.50" x2="70.00" y2="172.50" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="61.0" y="176.5" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="end" fill="#1a1a1a" font-weight="normal">1,4</text>
+<line x1="70.00" y1="172.50" x2="470.00" y2="172.50" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="65.00" y1="135.00" x2="70.00" y2="135.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="61.0" y="139.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="end" fill="#1a1a1a" font-weight="normal">1,5</text>
+<line x1="70.00" y1="135.00" x2="470.00" y2="135.00" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="65.00" y1="97.50" x2="70.00" y2="97.50" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="61.0" y="101.5" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="end" fill="#1a1a1a" font-weight="normal">1,6</text>
+<line x1="70.00" y1="97.50" x2="470.00" y2="97.50" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="65.00" y1="60.00" x2="70.00" y2="60.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="61.0" y="64.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="end" fill="#1a1a1a" font-weight="normal">1,7</text>
+<line x1="70.00" y1="60.00" x2="470.00" y2="60.00" stroke="#e6e6e6" stroke-width="0.8"/>
+<text x="270.0" y="402.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1a1a1a" font-weight="normal">número de coordenação (NC)</text>
+<text x="22" y="210" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" transform="rotate(-90 22 210)">raio iônico efetivo (Å)</text>
+<polyline points="150.0,183.7 230.0,180.0 270.0,150.0 310.0,131.2 350.0,116.2 390.0,101.2 470.0,82.5" fill="none" stroke="#6a3d9a" stroke-width="2"/>
+<circle cx="150.00" cy="183.75" r="3.50" fill="#6a3d9a" stroke="#6a3d9a" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="230.00" cy="180.00" r="3.50" fill="#6a3d9a" stroke="#6a3d9a" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="270.00" cy="150.00" r="3.50" fill="#6a3d9a" stroke="#6a3d9a" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="310.00" cy="131.25" r="3.50" fill="#6a3d9a" stroke="#6a3d9a" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="350.00" cy="116.25" r="3.50" fill="#6a3d9a" stroke="#6a3d9a" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="390.00" cy="101.25" r="3.50" fill="#6a3d9a" stroke="#6a3d9a" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="470.00" cy="82.50" r="3.50" fill="#6a3d9a" stroke="#6a3d9a" stroke-width="1.2" fill-opacity="1"/>
+<text x="478.0" y="86.5" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="start" fill="#6a3d9a" font-weight="bold"><tspan>K</tspan><tspan dy="-4.9" font-size="9.4">+</tspan></text>
+<polyline points="150.0,326.2 190.0,322.5 230.0,315.0 270.0,277.5 310.0,255.0 350.0,232.5 470.0,176.3" fill="none" stroke="#1f5fa8" stroke-width="2"/>
+<circle cx="150.00" cy="326.25" r="3.50" fill="#1f5fa8" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="190.00" cy="322.50" r="3.50" fill="#1f5fa8" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="230.00" cy="315.00" r="3.50" fill="#1f5fa8" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="270.00" cy="277.50" r="3.50" fill="#1f5fa8" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="310.00" cy="255.00" r="3.50" fill="#1f5fa8" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="350.00" cy="232.50" r="3.50" fill="#1f5fa8" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="470.00" cy="176.25" r="3.50" fill="#1f5fa8" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<text x="478.0" y="180.3" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="start" fill="#1f5fa8" font-weight="bold"><tspan>Na</tspan><tspan dy="-4.9" font-size="9.4">+</tspan></text>
+<polyline points="230.0,322.5 270.0,300.0 310.0,277.5 350.0,255.0 390.0,236.2 470.0,195.0" fill="none" stroke="#2e7d32" stroke-width="2"/>
+<circle cx="230.00" cy="322.50" r="3.50" fill="#2e7d32" stroke="#2e7d32" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="270.00" cy="300.00" r="3.50" fill="#2e7d32" stroke="#2e7d32" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="310.00" cy="277.50" r="3.50" fill="#2e7d32" stroke="#2e7d32" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="350.00" cy="255.00" r="3.50" fill="#2e7d32" stroke="#2e7d32" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="390.00" cy="236.25" r="3.50" fill="#2e7d32" stroke="#2e7d32" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="470.00" cy="195.00" r="3.50" fill="#2e7d32" stroke="#2e7d32" stroke-width="1.2" fill-opacity="1"/>
+<text x="478.0" y="199.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="start" fill="#2e7d32" font-weight="bold"><tspan>Ca</tspan><tspan dy="-4.9" font-size="9.4">2+</tspan></text>
+<polyline points="70.0,191.2 110.0,187.5 150.0,180.0 230.0,172.5 310.0,165.0" fill="none" stroke="#c0392b" stroke-width="2"/>
+<circle cx="70.00" cy="191.25" r="3.50" fill="#c0392b" stroke="#c0392b" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="110.00" cy="187.50" r="3.50" fill="#c0392b" stroke="#c0392b" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="150.00" cy="180.00" r="3.50" fill="#c0392b" stroke="#c0392b" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="230.00" cy="172.50" r="3.50" fill="#c0392b" stroke="#c0392b" stroke-width="1.2" fill-opacity="1"/>
+<circle cx="310.00" cy="165.00" r="3.50" fill="#c0392b" stroke="#c0392b" stroke-width="1.2" fill-opacity="1"/>
+<text x="318.0" y="169.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="start" fill="#c0392b" font-weight="bold"><tspan>O</tspan><tspan dy="-4.9" font-size="9.4">2−</tspan></text>
+<text x="270.0" y="30.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1a1a1a" font-weight="bold">(a) O raio cresce com o número de vizinhos</text>
+<line x1="550.00" y1="360.00" x2="902.00" y2="360.00" stroke="#1a1a1a" stroke-width="1.4"/>
+<rect x="560.0" y="100.4" width="26" height="259.6" fill="#1f5fa8" fill-opacity="0.85"/>
+<text x="573.0" y="94.4" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal">1,02</text>
+<text x="573.0" y="378.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal"><tspan>Na</tspan><tspan dy="-4.2" font-size="7.9">+</tspan></text>
+<rect x="598.0" y="176.7" width="26" height="183.3" fill="#1f5fa8" fill-opacity="0.85"/>
+<text x="611.0" y="170.7" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal">0,72</text>
+<text x="611.0" y="378.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal"><tspan>Mg</tspan><tspan dy="-4.2" font-size="7.9">2+</tspan></text>
+<rect x="636.0" y="223.8" width="26" height="136.2" fill="#1f5fa8" fill-opacity="0.85"/>
+<text x="649.0" y="217.8" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal">0,535</text>
+<text x="649.0" y="378.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal"><tspan>Al</tspan><tspan dy="-4.2" font-size="7.9">3+</tspan></text>
+<rect x="674.0" y="258.2" width="26" height="101.8" fill="#1f5fa8" fill-opacity="0.85"/>
+<text x="687.0" y="252.2" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal">0,40</text>
+<text x="687.0" y="378.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal"><tspan>Si</tspan><tspan dy="-4.2" font-size="7.9">4+</tspan></text>
+<rect x="724.0" y="161.5" width="26" height="198.5" fill="#d9822b" fill-opacity="0.85"/>
+<text x="737.0" y="155.5" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal">0,78</text>
+<text x="737.0" y="378.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal"><tspan>Fe</tspan><tspan dy="-4.2" font-size="7.9">2+</tspan></text>
+<text x="737.0" y="393.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal">AS</text>
+<rect x="762.0" y="204.7" width="26" height="155.3" fill="#d9822b" fill-opacity="0.85"/>
+<text x="775.0" y="198.7" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal">0,61</text>
+<text x="775.0" y="378.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal"><tspan>Fe</tspan><tspan dy="-4.2" font-size="7.9">2+</tspan></text>
+<text x="775.0" y="393.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal">BS</text>
+<rect x="800.0" y="195.8" width="26" height="164.2" fill="#6a3d9a" fill-opacity="0.85"/>
+<text x="813.0" y="189.8" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal">0,645</text>
+<text x="813.0" y="378.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal"><tspan>Fe</tspan><tspan dy="-4.2" font-size="7.9">3+</tspan></text>
+<text x="813.0" y="393.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal">AS</text>
+<rect x="838.0" y="220.0" width="26" height="140.0" fill="#6a3d9a" fill-opacity="0.85"/>
+<text x="851.0" y="214.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal">0,55</text>
+<text x="851.0" y="378.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal"><tspan>Fe</tspan><tspan dy="-4.2" font-size="7.9">3+</tspan></text>
+<text x="851.0" y="393.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal">BS</text>
+<text x="705.0" y="30.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1a1a1a" font-weight="bold">(b) Carga e spin, todos em NC 6</text>
+<text x="630.0" y="72.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1f5fa8" font-weight="normal">série isoeletrônica (Ne)</text>
+<text x="800.0" y="72.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#444" font-weight="normal">ferro: AS = spin alto</text>
+<text x="800.0" y="88.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#444" font-weight="normal">BS = spin baixo</text>
+</svg>

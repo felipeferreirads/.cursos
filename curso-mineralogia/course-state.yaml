@@ -39,7 +39,7 @@ learning_outcomes:
   e de propriedades, com grau de confiança explícito.
 status: in_progress
 created_at: '2026-09-29T00:00:00-03:00'
-updated_at: '2026-10-05T01:00:00-03:00'
+updated_at: '2026-10-06T10:10:00-03:00'
 curriculum_basis: 'pesquisa das ementas e sumários de referência, cruzada com o escopo previsto pelo usuário: ementas
   do IGc-USP — GMG0106 Cristalografia Fundamental (45 h) e GMG0220 Mineralogia (105 h), com as optativas GMG0203
   Mineralogia Aplicada e GMG0425 Técnicas Gemológicas (pasta GradeCurricular/Geologia-USP) —; sumários de Klein
@@ -52,17 +52,17 @@ curriculum_basis: 'pesquisa das ementas e sumários de referência, cruzada com 
   Dyar & Gunter, Mineralogy and Optical Mineralogy (MSA); Deer, Howie & Zussman (minerais formadores de rocha);
   Nesse, Introduction to Optical Mineralogy; normativo IMA-CNMNC (definição de mineral, lista de espécies, nomenclatura
   de grupos) e classificação Nickel-Strunz/Dana; Mindat e RRUFF como referência de dados.'
-current_module: '08'
-next_action: 'Módulos 01 a 06 concluídos (núcleo da área II fechado; o 07, grupos espaciais, é aprofundamento e
-  fica pendente para a segunda passagem). Módulo 05 fechado em 2026-10-04: 7 aulas (a aula 05 dividida pela revisão
-  didática; a07 nova), auditoria 🟠 2 (eixos do cúbico sem o 4-barra; c do ortoclásio não confirmado, trocado pelo
-  diopsídio), 🟡 3, 🔵 1, corrigidos; revisão 🟠 2, 🟡 4 corrigidos, 🔵 3 abertos; parciais 1 e 2 + final (30 q, 78 pts);
-  baralho 100 Basic + 18 Cloze. Módulo 06 fechado em 2026-10-04: 4 aulas, auditoria 🟡 4 corrigidos (um propagado
-  ao m04 a01 e ao card m04-fb011: cela unitária ≠ menor unidade); revisão 🟠 2, 🟡 2 corrigidos, 🔵 3 abertos; final
-  (14 q, 39 pts); baralho 58 Basic + 12 Cloze. Figuras SVG calculadas (9 no m05, 6 no m06). Pendências não bloqueantes
-  herdadas: m01 (cloze com mais de 3 lacunas, quase-duplicatas), m02 (auditoria cross-course com curso-geologia
-  m04 a03); o módulo 36 deve conferir o parâmetro c do ortoclásio na fonte primária. Próximo passo: módulo 08 (empacotamento-e-coordenacao),
-  começando pelas aulas; reaproveitar a figura da cela da halita (m06 fig-06) para a coordenação 6:6.'
+current_module: '10'
+next_action: 'Módulos 01 a 06, 08 e 09 concluídos (07, grupos espaciais, é aprofundamento e fica para a segunda
+  passagem). Módulo 08 fechado em 2026-10-06: 6 aulas, auditoria 🟠 3, 🟡 3, 🔵 1 corrigidos; revisão 🟠 2, 🟡 2 corrigidos,
+  🔵 3 abertos; parciais 1 e 2 + final (28 q, 77 pts); baralho 75 Basic + 10 Cloze; 6 figuras SVG calculadas + a
+  cela da halita do m06 reaproveitada. Módulo 09 fechado em 2026-10-06: 6 aulas, auditoria 🟠 1, 🟡 2 corrigidos,
+  🔵 1 adiado (óxidos FeO, MnO, MgO e NiO da olivina de San Carlos, m09 a04, a conferir na tabela de Jarosewich et
+  al. 1980); revisão 🟠 1, 🟡 2 corrigidos, 🔵 3 abertos; parciais 1 e 2 + final (28 q, 77 pts); baralho 69 Basic +
+  10 Cloze. Pendências não bloqueantes herdadas: m01 (cloze com mais de 3 lacunas, quase-duplicatas), m02 (auditoria
+  cross-course com curso-geologia m04 a03); o módulo 36 deve conferir o parâmetro c do ortoclásio na fonte primária.
+  Próximo passo: módulo 10 (polimorfismo), começando pelas aulas; retomar os polimorfos de TiO2 (m08 a05), esfalerita/wurtzita
+  (m08 a06) e a dolomita ordenada (m09 a03).'
 blocking_issues: []
 decisions:
 - date: '2026-09-29'
@@ -886,7 +886,7 @@ modules:
   flashcards:
     status: pending
 # trilha: nucleo (núcleo) — módulo 08
-- id: 08
+- id: '08'
   slug: empacotamento-e-coordenacao
   title: 'Cristaloquímica I: raios iônicos, coordenação e regras de Pauling'
   area: III. Cristaloquímica
@@ -895,7 +895,7 @@ modules:
   prerequisites:
   - '01'
   - '06'
-  status: pending
+  status: completed
   learning_objectives:
   - id: mineralogia-m08-oa01
     statement: Usar raios iônicos efetivos (Shannon, 1976) considerando carga, número de coordenação e estado de
@@ -918,56 +918,109 @@ modules:
     cognitive_level: aplicar
   lessons:
     planned: 6
-    completed: 0
+    completed: 6
     items:
     - id: mineralogia-m08-a01
       title: 'Raios iônicos efetivos: por que o raio depende da coordenação'
-      status: pending
+      status: completed
+      file: 08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-aula-01-raios-ionicos-efetivos-por-que-o-raio-depende-da-coordenacao.md
+      content_hash: 4cd48884c67225adf495b496d74028c13b677045340e332cb8a6dea0420243af
+      palavras_corpo: 1598
       covers_objectives:
       - mineralogia-m08-oa01
     - id: mineralogia-m08-a02
       title: Razão de raios e poliedros de coordenação
-      status: pending
+      status: completed
+      file: 08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-aula-02-razao-de-raios-e-poliedros-de-coordenacao.md
+      content_hash: 6bf0ef5dd2743503fe271a2ea54b3952104268adcf6fed28a2112c8fea054d89
+      palavras_corpo: 1327
       covers_objectives:
       - mineralogia-m08-oa02
     - id: mineralogia-m08-a03
       title: Empacotamento compacto e interstícios
-      status: pending
+      status: completed
+      file: 08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-aula-03-empacotamento-compacto-e-intersticios.md
+      content_hash: 55e567f6175c069ab4e88d2f52c1c5ef93f8f8b0a4bcdba66b088662f4e508e4
+      palavras_corpo: 1250
       covers_objectives:
       - mineralogia-m08-oa03
     - id: mineralogia-m08-a04
       title: 'As regras de Pauling — Parte 1: coordenação e valência eletrostática'
-      status: pending
+      status: completed
+      file: 08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-aula-04-regras-de-pauling-parte-1-coordenacao-e-valencia-eletrostatica.md
+      content_hash: 6ba6d4db491c3f534604e12a92f874fd7920e2d890c9d1d325d5b236b44a229f
+      palavras_corpo: 1407
       covers_objectives:
       - mineralogia-m08-oa04
     - id: mineralogia-m08-a05
       title: 'As regras de Pauling — Parte 2: compartilhamento de poliedros e parcimônia'
-      status: pending
+      status: completed
+      file: 08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-aula-05-regras-de-pauling-parte-2-compartilhamento-de-poliedros-e-parcimonia.md
+      content_hash: 8ea204d7787ab999cc43f4ad35ef2cdd689ac8a9d50b72bd46f80bbd92d79c81
+      palavras_corpo: 1332
       covers_objectives:
       - mineralogia-m08-oa04
     - id: mineralogia-m08-a06
       title: 'Estruturas-tipo: halita, fluorita, rutilo, corindo, espinélio, perovskita e esfalerita'
-      status: pending
+      status: completed
+      file: 08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-aula-06-estruturas-tipo-halita-fluorita-rutilo-corindo-espinelio-perovskita-e-esfalerita.md
+      content_hash: dab0867bf590aac99851c709057ff0a77c1b4da40abb2935f348085ce2ff3d77
+      palavras_corpo: 1497
       covers_objectives:
       - mineralogia-m08-oa05
   audit:
-    status: pending
+    status: approved
+    file: 08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-auditoria.md
+    red: 0
+    orange: 3
+    yellow: 3
+    blue: 1
+    white: 0
+    open_findings: []
+    deferred_findings: []
+    audited_at: '2026-10-06'
   didactic_review:
-    status: pending
+    status: completed
+    file: 08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-revisao-didatica.md
+    content_hash: fc2fcc0602abb9d1f49879b93dd97f7c9e4771b678581a3480da6f67f5c97e49
+    generated_at: '2026-10-06T03:30:00-03:00'
   assessment:
-    status: pending
+    status: completed
+    files:
+    - 08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-questionario-parcial-1.md
+    - 08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-questionario-parcial-2.md
+    - 08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-questionario-final.md
+    questions: 28
+    points: 77
+    objectives_covered:
+    - mineralogia-m08-oa01
+    - mineralogia-m08-oa02
+    - mineralogia-m08-oa03
+    - mineralogia-m08-oa04
+    - mineralogia-m08-oa05
+    blueprint_complete: true
+    uncovered_objectives: []
+    generated_at: '2026-10-06'
   flashcards:
-    status: pending
+    status: completed
+    index_file: 08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-flashcards.md
+    basic_file: 08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-flashcards-basic.csv
+    cloze_file: 08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-flashcards-cloze.csv
+    count_basic: 75
+    count_cloze: 10
+    last_id: 75
+    last_id_cloze: 10
+    generated_at: '2026-10-06T05:00:00-03:00'
 # trilha: nucleo (núcleo) — módulo 09
-- id: 09
+- id: '09'
   slug: substituicao-e-formula
   title: 'Cristaloquímica II: substituição iônica, solução sólida e fórmula estrutural'
   area: III. Cristaloquímica
   objective: Explicar a variabilidade química dos minerais — substituição, solução sólida, isomorfismo, comportamento
     geoquímico dos elementos — e calcular fórmulas estruturais a partir de análises.
   prerequisites:
-  - 08
-  status: pending
+  - '08'
+  status: completed
   learning_objectives:
   - id: mineralogia-m09-oa01
     statement: Aplicar as regras de Goldschmidt, e o refinamento de Ringwood pela eletronegatividade, para prever
@@ -991,46 +1044,100 @@ modules:
     cognitive_level: aplicar
   lessons:
     planned: 6
-    completed: 0
+    completed: 6
     items:
     - id: mineralogia-m09-a01
       title: 'Quem substitui quem: regras de Goldschmidt e de Ringwood'
-      status: pending
+      status: completed
+      file: 09-substituicao-e-formula/09-substituicao-e-formula-aula-01-quem-substitui-quem-regras-de-goldschmidt-e-de-ringwood.md
+      content_hash: 54e78f4826832cc59de2d795073fabe475786430a6124d30cb05b391d8f5b625
+      palavras_corpo: 1280
       covers_objectives:
       - mineralogia-m09-oa01
     - id: mineralogia-m09-a02
       title: Mecanismos de substituição e vetores de troca
-      status: pending
+      status: completed
+      file: 09-substituicao-e-formula/09-substituicao-e-formula-aula-02-mecanismos-de-substituicao-e-vetores-de-troca.md
+      content_hash: 49d0cc9fc56dce73f722d2462ddabc87f608a565058af21fc3d8ff069f781277
+      palavras_corpo: 1079
       covers_objectives:
       - mineralogia-m09-oa02
     - id: mineralogia-m09-a03
       title: Solução sólida, miscibilidade e isomorfismo
-      status: pending
+      status: completed
+      file: 09-substituicao-e-formula/09-substituicao-e-formula-aula-03-solucao-solida-miscibilidade-e-isomorfismo.md
+      content_hash: ff96b2e92450e6edc91ef5c519a1b0d155dab08c53bf7845caa94bc804281db8
+      palavras_corpo: 1079
       covers_objectives:
       - mineralogia-m09-oa03
     - id: mineralogia-m09-a04
       title: 'Cálculo de fórmula estrutural — Parte 1: de % em peso de óxidos a átomos por fórmula'
-      status: pending
+      status: completed
+      file: 09-substituicao-e-formula/09-substituicao-e-formula-aula-04-calculo-de-formula-estrutural-parte-1-de-porcentagem-em-peso-de-oxidos-a-atomos-por-formula.md
+      content_hash: c252b2b229fa4bc503e05ec6159c5faaed57f7714fa09bfd5614d0c490b281bc
+      palavras_corpo: 1047
       covers_objectives:
       - mineralogia-m09-oa04
     - id: mineralogia-m09-a05
       title: 'Cálculo de fórmula estrutural — Parte 2: distribuição por sítios e Fe²⁺/Fe³⁺ por balanço de carga'
-      status: pending
+      status: completed
+      file: 09-substituicao-e-formula/09-substituicao-e-formula-aula-05-calculo-de-formula-estrutural-parte-2-distribuicao-por-sitios-e-fe2-fe3-por-balanco-de-carga.md
+      content_hash: 9215bd4ab18226aba20a54f270eaa897a6e4a3a0293350b6f2cc25559a35b1b2
+      palavras_corpo: 1312
       covers_objectives:
       - mineralogia-m09-oa04
     - id: mineralogia-m09-a06
       title: Classificação geoquímica de Goldschmidt e elementos-traço compatíveis e incompatíveis
-      status: pending
+      status: completed
+      file: 09-substituicao-e-formula/09-substituicao-e-formula-aula-06-classificacao-geoquimica-de-goldschmidt-e-elementos-traco-compativeis-e-incompativeis.md
+      content_hash: 321109283d899e2b9da5e45b2defab1a50e0922a143fc8e0ba79a3fb09fdc730
+      palavras_corpo: 1156
       covers_objectives:
       - mineralogia-m09-oa05
   audit:
-    status: pending
+    status: approved_with_reservations
+    file: 09-substituicao-e-formula/09-substituicao-e-formula-auditoria.md
+    red: 0
+    orange: 1
+    yellow: 2
+    blue: 1
+    white: 0
+    open_findings: []
+    deferred_findings:
+    - CRQ-FORM-SANCARLOS-001
+    audited_at: '2026-10-06'
   didactic_review:
-    status: pending
+    status: completed
+    file: 09-substituicao-e-formula/09-substituicao-e-formula-revisao-didatica.md
+    content_hash: 2235138f9fec31fe7a4963c47a5a73e98709cc0be2cc150e7bfe2e080f5e0b32
+    generated_at: '2026-10-06T08:30:00-03:00'
   assessment:
-    status: pending
+    status: completed
+    files:
+    - 09-substituicao-e-formula/09-substituicao-e-formula-questionario-parcial-1.md
+    - 09-substituicao-e-formula/09-substituicao-e-formula-questionario-parcial-2.md
+    - 09-substituicao-e-formula/09-substituicao-e-formula-questionario-final.md
+    questions: 28
+    points: 77
+    objectives_covered:
+    - mineralogia-m09-oa01
+    - mineralogia-m09-oa02
+    - mineralogia-m09-oa03
+    - mineralogia-m09-oa04
+    - mineralogia-m09-oa05
+    blueprint_complete: true
+    uncovered_objectives: []
+    generated_at: '2026-10-06'
   flashcards:
-    status: pending
+    status: completed
+    index_file: 09-substituicao-e-formula/09-substituicao-e-formula-flashcards.md
+    basic_file: 09-substituicao-e-formula/09-substituicao-e-formula-flashcards-basic.csv
+    cloze_file: 09-substituicao-e-formula/09-substituicao-e-formula-flashcards-cloze.csv
+    count_basic: 69
+    count_cloze: 10
+    last_id: 69
+    last_id_cloze: 10
+    generated_at: '2026-10-06T10:00:00-03:00'
 # trilha: nucleo (núcleo) — módulo 10
 - id: '10'
   slug: polimorfismo
@@ -1040,7 +1147,7 @@ modules:
     um arranjo, e os limites do estado cristalino (amorfos e metamícticos). A estabilidade termodinâmica dos polimorfos
     fica para o módulo 22.
   prerequisites:
-  - 09
+  - '09'
   status: pending
   learning_objectives:
   - id: mineralogia-m10-oa01
@@ -1098,7 +1205,7 @@ modules:
   objective: Explicar a classificação estrutural dos silicatos a partir do tetraedro SiO₄ e do grau de polimerização,
     e usá-la para prever propriedades — a espinha do maior bloco da sistemática.
   prerequisites:
-  - 09
+  - '09'
   status: pending
   learning_objectives:
   - id: mineralogia-m11-oa01
@@ -1666,7 +1773,7 @@ modules:
   objective: Explicar as interações feixe-amostra e usar imagens (SE, BSE, CL) e análises pontuais (EDS, WDS, microssonda)
     para caracterizar composição e zoneamento, até a fórmula estrutural.
   prerequisites:
-  - 09
+  - '09'
   - '18'
   status: pending
   learning_objectives:
@@ -1936,7 +2043,7 @@ modules:
   objective: Ler diagramas de fase de sistemas com mais de um componente — solução sólida, eutético, peritético,
     solvus, ternários — e prever cristalização, exsolução e zoneamento.
   prerequisites:
-  - 09
+  - '09'
   - '22'
   status: pending
   learning_objectives:
@@ -2367,7 +2474,7 @@ modules:
     e da valência dominantes, hierarquia de grupos e sufixos — base obrigatória antes da sistemática.'
   prerequisites:
   - '02'
-  - 09
+  - '09'
   status: pending
   learning_objectives:
   - id: mineralogia-m29-oa01
@@ -2417,7 +2524,7 @@ modules:
   objective: Descrever a cristaloquímica, as propriedades, a identificação e o ambiente dos elementos nativos, sulfetos
     e sulfossais.
   prerequisites:
-  - 08
+  - '08'
   - '13'
   - '29'
   status: pending
@@ -2484,7 +2591,7 @@ modules:
   objective: Descrever a cristaloquímica, as soluções sólidas, o magnetismo, a identificação e o ambiente dos óxidos,
     hidróxidos e haletos.
   prerequisites:
-  - 08
+  - '08'
   - '13'
   - '29'
   status: pending

@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "09-substituicao-e-formula",
+    "module_id": "09",
+    "course_id": "mineralogia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-10-06",
+  "verdict": "approved_with_reservations",
+  "summary": {
+    "red": 0,
+    "orange": 1,
+    "yellow": 2,
+    "blue": 1,
+    "white": 0,
+    "verified_ok": 42
+  },
+  "findings": [
+    {
+      "claim_id": "CRQ-GOLD-RINGWOOD-001",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "claim": "Cu, Zn e Pb entram pouco nos silicatos e se concentram nos sulfetos",
+      "location": {
+        "file": "09-substituicao-e-formula/09-substituicao-e-formula-aula-01-quem-substitui-quem-regras-de-goldschmidt-e-de-ringwood.md",
+        "section": "O refinamento de Ringwood",
+        "quote": "eles entram pouco nos silicatos e se concentram nos sulfetos"
+      },
+      "problem": "Generalizacao excessiva: o Pb e traco importante do feldspato potassico (sitio do K); o criterio de Ringwood indica preferencia, nao exclusao.",
+      "replacement": "tendem a se concentrar em sulfetos quando ha enxofre disponivel; tendencia, nao exclusao (o Pb tambem entra no sitio do K dos feldspatos potassicos)",
+      "source": {
+        "name": "White, Geochemistry cap. 7; Ringwood (1955)",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "09-substituicao-e-formula/09-substituicao-e-formula-aula-01-quem-substitui-quem-regras-de-goldschmidt-e-de-ringwood.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRQ-GOLD-OBS-001",
+      "severity": "yellow",
+      "kind": "omissao_que_gera_erro",
+      "claim": "calcita e magnesita quase nao se misturam",
+      "location": {
+        "file": "09-substituicao-e-formula/09-substituicao-e-formula-aula-01-quem-substitui-quem-regras-de-goldschmidt-e-de-ringwood.md",
+        "section": "Primeira regra: tamanho (tabela); aula 03, Completa ou limitada",
+        "quote": "calcita e magnesita quase nao se misturam"
+      },
+      "problem": "Vale em equilibrio e a baixa temperatura; a quente a calcita aceita mais Mg (e ha calcitas magnesianas metaestaveis).",
+      "replacement": "em equilibrio e a baixa temperatura, calcita e magnesita quase nao se misturam (a quente, a calcita aceita mais Mg)",
+      "source": {
+        "name": "Klein & Dutrow (sistema CaCO3-MgCO3)",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "provavel",
+      "affected_files": [
+        "09-substituicao-e-formula/09-substituicao-e-formula-aula-01-quem-substitui-quem-regras-de-goldschmidt-e-de-ringwood.md",
+        "09-substituicao-e-formula/09-substituicao-e-formula-aula-03-solucao-solida-miscibilidade-e-isomorfismo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRQ-SUB-BERILO-001",
+      "severity": "yellow",
+      "kind": "inconsistencia_interna",
+      "claim": "vetor do berilo LiNa(canal)Be-1",
+      "location": {
+        "file": "09-substituicao-e-formula/09-substituicao-e-formula-aula-02-mecanismos-de-substituicao-e-vetores-de-troca.md",
+        "section": "Vetores de troca (tabela)",
+        "quote": "LiNa(canal)Be-1"
+      },
+      "problem": "A tabela escreve a vacancia na edenita (NaAl[]-1Si-1) mas nao no berilo, onde o Na tambem ocupa um vazio do canal.",
+      "replacement": "LiNa[]-1Be-1 (o Na ocupa um vazio do canal)",
+      "source": {
+        "name": "Thompson (1982); busca (berilo)",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "09-substituicao-e-formula/09-substituicao-e-formula-aula-02-mecanismos-de-substituicao-e-vetores-de-troca.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRQ-FORM-SANCARLOS-001",
+      "severity": "blue",
+      "kind": "evidencia_insuficiente",
+      "claim": "Olivina de San Carlos: SiO2 40,81; FeO 9,55; MnO 0,14; MgO 49,42; NiO 0,37",
+      "location": {
+        "file": "09-substituicao-e-formula/09-substituicao-e-formula-aula-04-calculo-de-formula-estrutural-parte-1-de-porcentagem-em-peso-de-oxidos-a-atomos-por-formula.md",
+        "section": "Exemplo trabalhado",
+        "quote": "SiO2 40,81; FeO 9,55; MnO 0,14; MgO 49,42; NiO 0,37"
+      },
+      "problem": "SiO2 e Fo 90,1 confirmados por busca; os demais oxidos nao puderam ser conferidos na tabela de Jarosewich et al. (1980) nesta sessao. Coerencia interna confere (Fo 90,2; soma de cations 3,003).",
+      "replacement": null,
+      "source": {
+        "name": "Jarosewich et al. (1980) Geostandards Newsletter 4, 43 (busca parcial)",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "provavel",
+      "affected_files": [
+        "09-substituicao-e-formula/09-substituicao-e-formula-aula-04-calculo-de-formula-estrutural-parte-1-de-porcentagem-em-peso-de-oxidos-a-atomos-por-formula.md"
+      ],
+      "outcome": "aguarda_decisao"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "CRQ-GOLD-TAMANHO-001",
+      "claim": "Primeira regra de Goldschmidt: diferenca de raio < ~15% substituicao ampla; 15-30% limitada; > 30% pouca.",
+      "source": "White, Geochemistry cap. 7; notas de curso (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-GOLD-CARGA-001",
+      "claim": "Segunda regra: cargas iguais substituem livremente; diferenca de uma unidade com neutralidade mantida; diferenca maior, pouca.",
+      "source": "White, Geochemistry cap. 7 (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-GOLD-PREF-001",
+      "claim": "Terceira regra: o ion de maior potencial ionico (z/r) forma ligacao mais forte e entra preferencialmente; olivina precoce mais rica em Mg que o liquido.",
+      "source": "White, Geochemistry cap. 7; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-GOLD-PARES-001",
+      "claim": "Diferencas (sobre o menor raio, Shannon): Fe2+/Mg2+ VI 8%; Ni2+/Mg2+ VI 4%; Hf4+/Zr4+ VIII 1%; Rb+/K+ VIII 7%; Sr2+/Ca2+ VIII 13%; Cr3+/Al3+ VI 15%; K+/Na+ VIII 28%; Ca2+/Mg2+ VI 39%; Ba2+/K+ VIII 6%; Al3+/Si4+ IV 50%.",
+      "source": "Shannon (1976); calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-GOLD-ZRMG-001",
+      "claim": "Zr4+ e Mg2+ tem o mesmo raio em NC VI (0,72 A) e nao se substituem, pela diferenca de carga.",
+      "source": "Shannon (1976); busca (exemplo classico)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-GOLD-ALSI-001",
+      "claim": "Al3+ substitui Si4+ nos tetraedros da maioria dos silicatos importantes apesar de 50% de diferenca nos raios de Shannon IV (0,39 e 0,26).",
+      "source": "Shannon (1976); Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-GOLD-ZR-001",
+      "claim": "z/r: Mg2+ VI 2,78; Fe2+ VI 2,56; Ni2+ VI 2,90; Ni entra preferencialmente nas primeiras olivinas.",
+      "source": "Shannon (1976); calculo; White cap. 7",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-SUB-TIPOS-001",
+      "claim": "Mecanismos: simples (homovalente), acoplada, intersticial (ion num espaco vazio) e por omissao (vacancia).",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-SUB-PLAG-001",
+      "claim": "Plagioclasio albita NaAlSi3O8 - anortita CaAl2Si2O8 por Ca2+ Al3+ no lugar de Na+ Si4+; vetor CaAlNa-1Si-1.",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-SUB-TSCH-001",
+      "claim": "Componente de Tschermak dos piroxenios: Al(VI)Al(IV)Mg-1Si-1; diopsidio + vetor = CaAl(AlSi)O6 (Ca-Tschermak).",
+      "source": "Klein & Dutrow; Morimoto (1988)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-SUB-PIRROT-001",
+      "claim": "Pirrotita Fe(1-x)S: 2 Fe3+ e uma vacancia no lugar de 3 Fe2+; 8 FeS + vetor = Fe7S8 (2 Fe3+, 5 Fe2+).",
+      "source": "Klein & Dutrow; calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-SUB-EDENITA-001",
+      "claim": "Anfibolios: sitio A normalmente vazio recebe Na quando Al entra no lugar de Si (vetor edenita NaAl[]-1Si-1).",
+      "source": "Hawthorne et al. (2012)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-SUB-VETOR-001",
+      "claim": "Notacao de vetores de troca (Thompson, 1982): o que sai leva indice negativo; vetor soma-se a formula; carga do vetor = 0; albita + CaAlNa-1Si-1 = anortita.",
+      "source": "Thompson (1982), Rev. Mineral. 10",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-SUB-CELSIANA-001",
+      "claim": "Ba entra no feldspato K pelo vetor BaAlK-1Si-1 (membro final celsiana BaAl2Si2O8).",
+      "source": "Klein & Dutrow; Handbook of Mineralogy",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-SUB-RUBI-001",
+      "claim": "Cr3+ substitui Al3+ no corindon (substituicao simples, vetor CrAl-1); e o Cr que da a cor do rubi.",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-SS-SERIES-001",
+      "claim": "Series completas: olivina forsterita-faialita; uraninita-torianita; plagioclasio albita-anortita em alta temperatura. Limitadas: calcita-magnesita (em equilibrio a baixa T; a quente a calcita aceita mais Mg); feldspatos alcalinos em baixa temperatura.",
+      "source": "Klein & Dutrow; Mindat (uraninita-torianita); busca (feldspatos)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-SS-DOLOMITA-001",
+      "claim": "Dolomita CaMg(CO3)2 tem Ca e Mg em camadas alternadas ordenadas; nao e o meio de uma serie calcita-magnesita.",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-SS-TEMP-001",
+      "claim": "A temperatura amplia a miscibilidade (vibracao e entropia de mistura); ao esfriar cruza-se o solvus e ha exsolucao; feldspatos alcalinos dao pertita; sanidina vulcanica pode ficar homogenea.",
+      "source": "busca (feldspatos alcalinos, solvus, pertita); Putnis",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-SS-PLAGLOW-001",
+      "claim": "Plagioclasio: serie completa em alta T; em resfriamento lento, intercrescimentos submicroscopicos peristerita, Boggild e Huttenlocher.",
+      "source": "busca (peristerite, Boggild, Huttenlocher)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-SS-MITSCH-001",
+      "claim": "Mitscherlich (1819) mostrou que fosfatos e arseniatos correspondentes cristalizam com a mesma forma: isomorfismo.",
+      "source": "busca (Britannica; IUCr Online Dictionary)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-SS-ISOESTR-001",
+      "claim": "Isoestrutural nao implica miscivel: halita e galena (tipo halita) nao se misturam; calcita e magnesita (R-3c) pouco; forsterita e faialita formam serie completa.",
+      "source": "Klein & Dutrow; Handbook of Mineralogy",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-SS-NOTACAO-001",
+      "claim": "Fo = Mg/(Mg+Fe) no sitio octaedrico (fracao atomica, nao massa); An = Ca/(Ca+Na); Fo82Fa18 para 1,64 Mg e 0,36 Fe; An45 com Al 1,45 e Si 2,55.",
+      "source": "calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-SS-NAK-001",
+      "claim": "Na+ VI 1,02 e K+ VI 1,38: diferenca de 35%; halita e silvita isoestruturais.",
+      "source": "Shannon (1976); calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-FORM-RECEITA-001",
+      "claim": "Receita: wt% / M = mol oxido; x cations e x O do oxido; fator = O ideal / soma O; apfu = mol cation x fator; normalizar por cations: fator = cations ideais / soma mol cations.",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-FORM-BASES-001",
+      "claim": "Bases: olivina e espinelio 4 O (3 cations); piroxenio 6 O (4); feldspato 8 O (5); granada 12 O (8).",
+      "source": "Klein & Dutrow; Droop (1987)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-FORM-NEUTRO-001",
+      "claim": "Normalizando por O, a soma das cargas dos cations sai exatamente 2 x base (por construcao); o teste de qualidade e a soma dos cations.",
+      "source": "calculo; Droop (1987)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-FORM-SCCALC-001",
+      "claim": "San Carlos na base de 4 O: fator 1,4682; Si 0,997; Fe 0,195; Mn 0,003; Mg 1,800; Ni 0,007; soma 3,003; carga 8,00; Fo 90,2; base 3 cations: O = 3,996.",
+      "source": "calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-FORM-TOTAL-001",
+      "claim": "Totais um pouco acima ou abaixo de 100% sao normais; H2O, F e Fe3+ relatado como FeO afastam o total de 100.",
+      "source": "pratica de microssonda (Klein & Dutrow; Reed, Electron Microprobe Analysis)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-FE3-DROOP-001",
+      "claim": "Droop (1987), Mineral. Mag. 51, 431-435: F = 2X(1 - T/S); hipoteses: Fe unico de valencia variavel, O unico anion (e sem vacancias).",
+      "source": "busca (resumo do artigo)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-FE3-BALANCO-001",
+      "claim": "Normalizando a T cations com todo Fe como Fe2+, a carga fica abaixo de 2 x O em exatamente o numero de Fe3+ (cada conversao acrescenta +1); equivalente a Droop.",
+      "source": "calculo; Droop (1987)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-FE3-MAGNET-001",
+      "claim": "Magnetita como FeOt: 93,09 wt% FeO; S = 4 em 4 O; T = 3; F = 2 -> Fe2+ 1, Fe3+ 2.",
+      "source": "calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-FE3-GRANADA-001",
+      "claim": "Granada construida (Fe2+1,80 Mg0,75 Ca0,45)(Al1,85 Fe3+0,15)Si3O12: SiO2 38,24; Al2O3 20,01; FeOt 29,72; MgO 6,41; CaO 5,35 (99,73); fator 4,7435; S = 8,050; F = 0,149; Fe2+ 1,801; carga 24,00; X: 60/25/15%; com FeO 27,44 + Fe2O3 2,54 o total e 100,00.",
+      "source": "calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-FE3-SITIOS-001",
+      "claim": "Distribuicao: olivina T = Si, M = Mg, Fe2+, Ni, Mn; piroxenio T = Si + Al ate 2, M1 = Al restante, Fe3+, Cr, Ti, Mg, Fe2+, M2 = Ca, Na, resto; granada Z = Si + Al ate 3, Y = Al, Fe3+, Cr, Ti, X = Fe2+, Mg, Ca, Mn (8 vizinhos).",
+      "source": "Klein & Dutrow; Morimoto (1988); Grew et al. (2013)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-FE3-SC-001",
+      "claim": "Olivina de San Carlos: S = 3,003 na base de 4 O; F = 0,007, da ordem do erro: Fe3+ nao detectavel pelo metodo.",
+      "source": "calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-FE3-LIMITES-001",
+      "claim": "O metodo exige O como unico anion (micas e anfibolios exigem cuidados), sem vacancias, Fe como unico de valencia variavel (Mn3+ atrapalha); S e muito sensivel a erros, sobretudo no SiO2; Fe3+ importante deve ser confirmado por Mossbauer ou XANES.",
+      "source": "Droop (1987); Forshaw & Pattison (2021)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-GEO-GOLD-001",
+      "claim": "Goldschmidt (1923): reparticao entre metal, sulfeto (troilita) e silicato dos meteoritos; siderofilos (Fe, Ni, Co, platinoides, Au), calcofilos (Cu, Zn, Pb, Hg, Ag, As, Sb, Cd), litofilos (Na, K, Mg, Ca, Al, Si, ETR, U, Th), atmofilos (H, N, gases nobres).",
+      "source": "busca (White cap. 7; resumos da classificacao)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-GEO-FE-001",
+      "claim": "O Fe tem afinidade siderofila, calcofila e litofila (nucleo, pirita, olivina).",
+      "source": "White cap. 7",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-GEO-D-001",
+      "claim": "D = C(mineral)/C(liquido); D > 1 compativel, D < 1 incompativel; D total = media ponderada pelas proporcoes dos minerais; D depende do mineral, da T, P e composicao do liquido.",
+      "source": "White cap. 7",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-GEO-NI-001",
+      "claim": "Ni2+ compativel na olivina, D de cerca de 4 a mais de 30 conforme T e MgO do liquido.",
+      "source": "Hart & Davis (1978), EPSL 40 (busca: D = 124/MgO - 0,9; valores 11,4-37,6; 5,0-3,8 a 18% MgO e 1400-1550 C)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-GEO-CRSR-001",
+      "claim": "Cr3+ compativel em espinelio e clinopiroxenio; Sr2+ compativel no plagioclasio e incompativel na olivina.",
+      "source": "Rollinson; White",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-GEO-LILEHFSE-001",
+      "claim": "LILE: K, Rb, Cs, Sr, Ba, ions grandes de carga baixa (z/r ~0,6-1,6); HFSE: Zr, Hf, Nb, Ta, Ti, z/r > 2 (Zr4+ VIII 4,8).",
+      "source": "White cap. 7 (busca); Shannon (1976); calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-GEO-CROSTA-001",
+      "claim": "Fusao parcial do manto leva os incompativeis para o liquido e para a crosta; crosta continental rica em K, Rb, Ba, U, Th, Zr, Nb; pegmatitos concentram Li, Be, Cs, Nb, Ta.",
+      "source": "White; Rollinson",
+      "confidence": "confirmado"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Módulo 09 — Cristaloquímica II: substituição iônica, solução sólida e fórmula estrutural
 
-> [!info] Curso de **Mineralogia** · módulo 09 de 50 · área III. Cristaloquímica · trilha **núcleo** · status: **pendente** (planejado em 2026-09-29, nenhuma aula escrita)
+> [!info] Curso de **Mineralogia** · módulo 09 de 50 · área III. Cristaloquímica · trilha **núcleo** · status: **concluído** (aulas, auditoria, revisão didática, questionários e baralho em 2026-10-06; uma ressalva 🔵 não bloqueante)
 
 ## Objetivo do módulo
 
@@ -38,16 +38,20 @@ Explicar a variabilidade química dos minerais — substituição, solução só
 - `mineralogia-m09-oa04` — Calcular a fórmula estrutural de um mineral a partir de uma análise em porcentagem em peso de óxidos, normalizando por oxigênios ou por cátions, e distribuir os cátions pelos sítios.
 - `mineralogia-m09-oa05` — Classificar os elementos segundo Goldschmidt (litófilos, calcófilos, siderófilos, atmófilos) e explicar o comportamento de elementos-traço compatíveis e incompatíveis.
 
-## Aulas planejadas (6, nenhuma escrita)
+## Aulas (6 escritas)
 
-1. Aula 01 — Quem substitui quem: regras de Goldschmidt e de Ringwood — `mineralogia-m09-a01` · cobre `mineralogia-m09-oa01`
-2. Aula 02 — Mecanismos de substituição e vetores de troca — `mineralogia-m09-a02` · cobre `mineralogia-m09-oa02`
-3. Aula 03 — Solução sólida, miscibilidade e isomorfismo — `mineralogia-m09-a03` · cobre `mineralogia-m09-oa03`
-4. Aula 04 — Cálculo de fórmula estrutural — Parte 1: de % em peso de óxidos a átomos por fórmula — `mineralogia-m09-a04` · cobre `mineralogia-m09-oa04`
-5. Aula 05 — Cálculo de fórmula estrutural — Parte 2: distribuição por sítios e Fe²⁺/Fe³⁺ por balanço de carga — `mineralogia-m09-a05` · cobre `mineralogia-m09-oa04`
-6. Aula 06 — Classificação geoquímica de Goldschmidt e elementos-traço compatíveis e incompatíveis — `mineralogia-m09-a06` · cobre `mineralogia-m09-oa05`
+1. [[09-substituicao-e-formula-aula-01-quem-substitui-quem-regras-de-goldschmidt-e-de-ringwood|Aula 01 — Quem substitui quem: regras de Goldschmidt e de Ringwood]] — `mineralogia-m09-a01` · cobre `mineralogia-m09-oa01`
+2. [[09-substituicao-e-formula-aula-02-mecanismos-de-substituicao-e-vetores-de-troca|Aula 02 — Mecanismos de substituição e vetores de troca]] — `mineralogia-m09-a02` · cobre `mineralogia-m09-oa02`
+3. [[09-substituicao-e-formula-aula-03-solucao-solida-miscibilidade-e-isomorfismo|Aula 03 — Solução sólida, miscibilidade e isomorfismo]] — `mineralogia-m09-a03` · cobre `mineralogia-m09-oa03`
+4. [[09-substituicao-e-formula-aula-04-calculo-de-formula-estrutural-parte-1-de-porcentagem-em-peso-de-oxidos-a-atomos-por-formula|Aula 04 — Cálculo de fórmula estrutural — Parte 1: de % em peso de óxidos a átomos por fórmula]] — `mineralogia-m09-a04` · cobre `mineralogia-m09-oa04`
+5. [[09-substituicao-e-formula-aula-05-calculo-de-formula-estrutural-parte-2-distribuicao-por-sitios-e-fe2-fe3-por-balanco-de-carga|Aula 05 — Cálculo de fórmula estrutural — Parte 2: distribuição por sítios e Fe²⁺/Fe³⁺ por balanço de carga]] — `mineralogia-m09-a05` · cobre `mineralogia-m09-oa04`
+6. [[09-substituicao-e-formula-aula-06-classificacao-geoquimica-de-goldschmidt-e-elementos-traco-compativeis-e-incompativeis|Aula 06 — Classificação geoquímica de Goldschmidt e elementos-traço compatíveis e incompatíveis]] — `mineralogia-m09-a06` · cobre `mineralogia-m09-oa05`
 
-> Títulos provisórios, definidos no planejamento. O gerador de aulas pode ajustá-los ou dividir uma aula em Parte 1 / Parte 2 pela contagem de carga; um objetivo novo recebe o próximo ID livre, nunca desloca os existentes.
+> Títulos do planejamento mantidos. O cálculo de fórmula ficou em duas partes (até os apfu; sítios e Fe³⁺), como previsto.
+
+### Figuras do módulo (geradas por cálculo)
+
+- `09-substituicao-e-formula-fig-01-diferenca-de-raio-e-substituicao.svg` — aula 01
 
 ## Pontos de dificuldade previstos
 
@@ -59,11 +63,11 @@ curso-geologia, módulo 09, aula 02 (Goldschmidt, nível introdutório); curso-g
 
 ## Registro do módulo
 
-- Aulas: pendente (0 de 6)
-- Auditoria científica: pendente
-- Revisão didática: pendente
-- Questionário: pendente (gate: só depois da auditoria sem achado 🔴/🟠 em aberto)
-- Flashcards: pendente (mesmo gate)
+- Aulas: escritas (6 de 6), em 2026-10-06
+- Auditoria científica: [[09-substituicao-e-formula-auditoria|aprovada com ressalva]] em 2026-10-06 (🟠 1: critério de Ringwood lido como exclusão, com o Pb mal escolhido; 🟡 2: calcita–magnesita sem a ressalva de temperatura, vetor do berilo sem a vacância; todos corrigidos). **Ressalva aberta, não bloqueante (🔵):** quatro dos cinco óxidos da olivina de San Carlos (aula 04) não puderam ser conferidos na tabela original de Jarosewich et al. (1980); SiO₂ e Fo₉₀,₁ confirmados.
+- Revisão didática: [[09-substituicao-e-formula-revisao-didatica|bem ensinado com ressalvas, ressalvas corrigidas]] em 2026-10-06 (🟠 1: sítios M1/M2 sem definição; 🟡 2 corrigidos; 🔵 3 não bloqueantes)
+- Questionários: [[09-substituicao-e-formula-questionario-parcial-1|parcial 1]] (aulas 01-03; 8 q, 17 pts), [[09-substituicao-e-formula-questionario-parcial-2|parcial 2]] (aulas 04-06; 8 q, 17 pts) e [[09-substituicao-e-formula-questionario-final|final cumulativo]] (12 q, 43 pts), gerados em 2026-10-06 com checagem científica do gabarito; 5 de 5 objetivos cobertos
+- Flashcards: [[09-substituicao-e-formula-flashcards|baralho]] gerado em 2026-10-06 (69 Basic + 10 Cloze), com checagem científica contra as aulas antes de fechar
 
 ## Navegação
 

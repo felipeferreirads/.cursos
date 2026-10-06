@@ -1,0 +1,415 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "08-empacotamento-e-coordenacao",
+    "module_id": "08",
+    "course_id": "mineralogia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-10-06",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 3,
+    "yellow": 3,
+    "blue": 1,
+    "white": 0,
+    "verified_ok": 37
+  },
+  "findings": [
+    {
+      "claim_id": "CRQ-RAIO-SPIN-001",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "claim": "no spin baixo, todos [os eletrons d] se recolhem nos orbitais que apontam entre eles",
+      "location": {
+        "file": "08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-aula-01-raios-ionicos-efetivos-por-que-o-raio-depende-da-coordenacao.md",
+        "section": "O spin tambem muda o raio",
+        "quote": "no spin baixo, todos se recolhem nos orbitais que apontam entre eles"
+      },
+      "problem": "Vale para d4-d6; um d7 de spin baixo (t2g6 eg1) mantem um eletron em eg. A aula fala de ions com 4 a 7 eletrons d.",
+      "replacement": "no spin baixo, os eletrons se concentram nos orbitais que apontam entre eles (no Fe2+, todos os seis)",
+      "source": {
+        "name": "Teoria do campo cristalino (configuracoes t2g/eg de spin baixo); LibreTexts, High spin and low spin complexes",
+        "tier": "general",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-aula-01-raios-ionicos-efetivos-por-que-o-raio-depende-da-coordenacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRQ-RAIO-ANALOGIA-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "bolas de espuma que se deixam apertar conforme o numero de vizinhas que as comprimem",
+      "location": {
+        "file": "08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-aula-01-raios-ionicos-efetivos-por-que-o-raio-depende-da-coordenacao.md",
+        "section": "Um ion nao tem borda",
+        "quote": "Elas se deixam apertar um pouco conforme o numero de vizinhas que as comprimem"
+      },
+      "problem": "A analogia sugere raio menor com mais vizinhos; os raios de Shannon mostram o contrario (Na+ 0,99 em IV, 1,39 em XII). Modelo mental errado, memoravel.",
+      "replacement": "analogia mantida, com o aviso explicito de que o raio cresce com o numero de vizinhos",
+      "source": {
+        "name": "Shannon (1976) via pymatgen/mendeleev",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-aula-01-raios-ionicos-efetivos-por-que-o-raio-depende-da-coordenacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRQ-RR-TABELA-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "Si VI so em alta pressao",
+      "location": {
+        "file": "08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-aula-02-razao-de-raios-e-poliedros-de-coordenacao.md",
+        "section": "Aplicando aos cations das rochas",
+        "quote": "IV (VI so em alta pressao)"
+      },
+      "problem": "A taumasita, Ca3Si(OH)6(CO3)(SO4).12H2O, tem Si octaedrico estavel em condicoes ambiente; o 'so' torna a frase falsa.",
+      "replacement": "IV (VI em alta pressao; na superficie, so na rara taumasita)",
+      "source": {
+        "name": "Mindat (taumasita); Phys. Chem. Minerals (expansao termica da taumasita, Si hexacoordenado)",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-aula-02-razao-de-raios-e-poliedros-de-coordenacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRQ-RAIO-ANCORA-001",
+      "severity": "yellow",
+      "kind": "omissao_que_gera_erro",
+      "claim": "tabelas antigas diferem pelo mesmo motivo: outra ancora",
+      "location": {
+        "file": "08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-aula-01-raios-ionicos-efetivos-por-que-o-raio-depende-da-coordenacao.md",
+        "section": "Duas tabelas, nunca misturadas",
+        "quote": "pelo mesmo motivo: outra ancora"
+      },
+      "problem": "As tabelas de Goldschmidt, Pauling e Ahrens diferem tambem pelo metodo de derivacao, nao so pela ancora.",
+      "replacement": "porque usaram outra ancora e outros metodos",
+      "source": {
+        "name": "Shannon (1976), introducao historica",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "provavel",
+      "affected_files": [
+        "08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-aula-01-raios-ionicos-efetivos-por-que-o-raio-depende-da-coordenacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRQ-PAU-SIFORCA-001",
+      "severity": "yellow",
+      "kind": "certeza_indevida",
+      "claim": "s = 1 e a maior forca de ligacao entre os cations comuns dos silicatos",
+      "location": {
+        "file": "08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-aula-04-regras-de-pauling-parte-1-coordenacao-e-valencia-eletrostatica.md",
+        "section": "Erros comuns",
+        "quote": "s = 1 e a maior forca de ligacao"
+      },
+      "problem": "B3+ em triangulo (borossilicatos) tambem tem s = 1.",
+      "replacement": "s = 1 esta entre as maiores forcas de ligacao dos cations comuns dos silicatos",
+      "source": {
+        "name": "calculo s = z/NC",
+        "tier": "general",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-aula-04-regras-de-pauling-parte-1-coordenacao-e-valencia-eletrostatica.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRQ-PAU-ESTAT2-001",
+      "severity": "blue",
+      "kind": "evidencia_insuficiente",
+      "claim": "a regra 2 falha sobretudo quando ha cations de raio e carga muito diferentes",
+      "location": {
+        "file": "08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-aula-04-regras-de-pauling-parte-1-coordenacao-e-valencia-eletrostatica.md",
+        "section": "Quao bem a regra funciona",
+        "quote": "sobretudo quando ha cations de raio e carga muito diferentes"
+      },
+      "problem": "Detalhe atribuido a George et al. (2020) nao confirmado na busca (so os numeros globais).",
+      "replacement": "frase removida",
+      "source": {
+        "name": "George et al. (2020) (resumo por busca)",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "nao_verificado",
+      "affected_files": [
+        "08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-aula-04-regras-de-pauling-parte-1-coordenacao-e-valencia-eletrostatica.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRQ-EST-RUTILO-001",
+      "severity": "yellow",
+      "kind": "confusao_de_escopo",
+      "claim": "cadeias explicam o habito prismatico alongado em c do rutilo e da cassiterita",
+      "location": {
+        "file": "08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-aula-06-estruturas-tipo-halita-fluorita-rutilo-corindo-espinelio-perovskita-e-esfalerita.md",
+        "section": "Rutilo: cadeias de octaedros",
+        "quote": "o habito prismatico alongado em c do rutilo e da cassiterita"
+      },
+      "problem": "A cassiterita e com frequencia curta-prismatica a dipiramidal; a generalizacao nao se sustenta como escrita.",
+      "replacement": "ajudam a explicar o habito prismatico, alongado em c, comum no rutilo",
+      "source": {
+        "name": "Handbook of Mineralogy (habitos); notas do grupo do rutilo (busca)",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-aula-06-estruturas-tipo-halita-fluorita-rutilo-corindo-espinelio-perovskita-e-esfalerita.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "CRQ-RAIO-NC-001",
+      "claim": "Na+: IV 0,99; VI 1,02; VIII 1,18; XII 1,39. Ca2+: VI 1,00; VIII 1,12. O2-: II 1,35; III 1,36; IV 1,38; VI 1,40; VIII 1,42. K+: VIII 1,51; XII 1,64.",
+      "source": "Shannon (1976) via pymatgen/mendeleev",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-RAIO-CARGA-001",
+      "claim": "Serie isoeletronica em VI: Na+ 1,02; Mg2+ 0,72; Al3+ 0,535; Si4+ 0,40; F- VI 1,33; Mn2+ VI HS 0,83; Mn3+ VI HS 0,645; Mn4+ VI 0,53; Si4+ IV 0,26; Al3+ IV 0,39; Cl- VI 1,81; S2- VI 1,84.",
+      "source": "Shannon (1976) via pymatgen/mendeleev",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-RAIO-FE-001",
+      "claim": "Fe2+ VI: 0,78 (spin alto), 0,61 (spin baixo); Fe3+ VI: 0,645 (alto), 0,55 (baixo); o Fe2+ da pirita e de spin baixo.",
+      "source": "Shannon (1976); modulo 01, aula 03 (QUI-FE-RAIO-001, QUI-S-ESTADO-001)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-RAIO-DIST-001",
+      "claim": "Distancias previstas x medidas: halita 2,83 x 2,820; periclasio 2,12 x 2,10-2,11; quartzo Si-O 1,61; esfalerita 2,44 x 2,341 (4%); galena 3,03 x 2,968.",
+      "source": "Shannon (1976); Handbook of Mineralogy (a de halita, periclasio, esfalerita, galena); calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-RAIO-PORQUE-001",
+      "claim": "O raio aparente cresce com o NC porque, com mais vizinhos, cada ligacao recebe uma parcela menor da carga do cation e fica mais longa (e os anions se repelem mais).",
+      "source": "Shannon (1976); Pauling (1929); Brown, The Chemical Bond in Inorganic Chemistry (valencia de ligacao)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-RR-LIMITES-001",
+      "claim": "Limites: triangulo 2/raiz3 - 1 = 0,155; tetraedro raiz(3/2) - 1 = 0,225; octaedro raiz2 - 1 = 0,414; cubo raiz3 - 1 = 0,732; ~1 para NC 12.",
+      "source": "Pauling (1929); Klein & Dutrow; calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-RR-ESTAT-001",
+      "claim": "Em ~5000 oxidos, so ~66% dos ambientes de coordenacao concordam com a primeira regra de Pauling (George et al., 2020).",
+      "source": "George et al. (2020), Angew. Chem. Int. Ed. 59, doi:10.1002/anie.202000829 (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-RR-FALHAS-001",
+      "claim": "Falhas: C4+ III tem raio de Shannon negativo (-0,08 A); Zr no zircao tem NC 8 (razao 0,51-0,60 preveria 6); Mg tetraedrico no espinelio; Si VI na estishovita (alta pressao).",
+      "source": "Shannon (1976); Handbook of Mineralogy; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-RR-EXEMPLOS-001",
+      "claim": "Halita 1,02/1,81 = 0,564 (6); fluorita Ca VIII 1,12 / F IV 1,31 = 0,855 (8); esfalerita Zn VI 0,74 / S 1,84 = 0,402 (4); zircao 0,72/1,40 = 0,514 (observado 8).",
+      "source": "Shannon (1976); calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-EMP-HCCC-001",
+      "claim": "Empilhamento ABAB = hexagonal compacto; ABCABC = cubico compacto = celula cF; NC 12 nos dois; fracao pi/(3 raiz2) = 0,7405; ccc 0,680 (NC 8); cubico simples 0,524 (NC 6).",
+      "source": "Klein & Dutrow; calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-EMP-INTERST-001",
+      "claim": "Por esfera, 1 intersticio octaedrico e 2 tetraedricos; na cela cF: octaedricos no centro e nos meios das arestas (4), tetraedricos em (1/4,1/4,1/4) etc. (8); cabem 0,414 R e 0,225 R.",
+      "source": "Klein & Dutrow; calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-EMP-MINERAIS-001",
+      "claim": "Halita: cc de Cl, Na em todos os octaedricos. Esfalerita: cc de S, Zn em metade dos tetraedricos; wurtzita: hc de S, idem. Corindo: hc de O, Al em 2/3 dos octaedricos. Olivina: hc distorcido de O, M em 1/2 dos octaedricos e Si em 1/8 dos tetraedricos. Espinelio: cc de O, 1/8 dos tetraedricos e 1/2 dos octaedricos. Fluorita: Ca em cF, F em todos os tetraedricos.",
+      "source": "Birle et al. (1968) Am. Mineral. 53, 807 (olivina); busca (corindo, espinelio); Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-EMP-METAIS-001",
+      "claim": "Ouro, prata e cobre nativos tem cela cF (empacotamento cubico compacto).",
+      "source": "Handbook of Mineralogy (Fm3m)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-EMP-HALCL-001",
+      "claim": "Na halita a distancia Cl-Cl e a/raiz2 = 3,99 A, maior que 2 x 1,81 = 3,62 A: os Cl nao se tocam.",
+      "source": "Handbook of Mineralogy (a = 5,6404); Shannon (1976); calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PAU-ARTIGO-001",
+      "claim": "Pauling publicou as cinco regras em 1929, J. Am. Chem. Soc. 51, 1010-1026; sao regras empiricas para cristais ionicos complexos.",
+      "source": "Pauling (1929) (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PAU-R1-001",
+      "claim": "Regra 1: poliedro de anions em torno de cada cation; distancia pela soma dos raios; NC pela razao de raios.",
+      "source": "Pauling (1929); Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PAU-R2-001",
+      "claim": "Regra 2: s = z/NC; em cada anion, a soma das s iguala (ou quase) a carga do anion.",
+      "source": "Pauling (1929); Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PAU-R2EX-001",
+      "claim": "Halita 6 x 1/6 = 1; rutilo 3 x 2/3 = 2; corindo 4 x 1/2 = 2; forsterita 1 + 3 x 1/3 = 2 (cada O com 1 Si e 3 Mg); quartzo 1 + 1 = 2; calcita 4/3 + 2 x 1/3 = 2; espinelio 1/2 + 3 x 1/2 = 2; magnetita inversa 3/4 + 3 x 5/12 = 2; perovskita ideal 2 x 2/3 + 4 x 1/6 = 2.",
+      "source": "calculo com fracoes exatas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PAU-DESMICO-001",
+      "claim": "s > metade da carga do anion (C4+ 4/3, S6+ 3/2): grupo coeso e isolado, anisodesmico; s = metade (Si4+ 1): mesodesmico, permite polimerizacao; todas as s menores e parecidas: isodesmico.",
+      "source": "Klein & Dutrow; Perkins (LibreTexts) (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PAU-BV-001",
+      "claim": "A teoria da valencia de ligacao (Brown) refina a regra 2: forca de cada ligacao depende do comprimento; a soma em cada atomo da a valencia.",
+      "source": "Brown (2002)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PAU-MAGNET-001",
+      "claim": "Magnetita e espinelio inverso: Fe3+ no sitio tetraedrico; Fe2+ e Fe3+ nos octaedricos.",
+      "source": "busca (estrutura do espinelio e da magnetita)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PAU-R3-001",
+      "claim": "Regra 3: arestas compartilhadas, e sobretudo faces, diminuem a estabilidade; efeito grande para carga alta e NC baixo.",
+      "source": "Pauling (1929); Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PAU-R3DIST-001",
+      "claim": "Distancia relativa entre centros: octaedros 1,00/0,71/0,58; tetraedros 1,00/0,58/0,33 (vertice alinhado/aresta/face).",
+      "source": "calculo geometrico; Pauling (1929)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PAU-SIO4-001",
+      "claim": "Nos silicatos comuns os tetraedros SiO4 compartilham entre si apenas vertices; com Si-O 1,61, aresta comum poria os Si a 1,86 A, face a 1,07 A; vertice com Si-O-Si ~144 graus (quartzo) da ~3,06 A.",
+      "source": "Klein & Dutrow; calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PAU-TIO2-001",
+      "claim": "Rutilo: cada octaedro compartilha 2 arestas; brookita 3; anatasio 4; rutilo e a forma estavel na maior parte das condicoes; anatasio e brookita metaestaveis.",
+      "source": "Pauling (1929) (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PAU-DEFESA-001",
+      "claim": "Com compartilhamento, os cations se afastam do elemento compartilhado (corindo: Al deslocados para longe da face comum); rutilo Ti-Ti atraves da aresta = c = 2,96 A contra 2,78 A no octaedro regular com Ti-O 1,965 A.",
+      "source": "busca (Pauling's rules; corindo); Handbook of Mineralogy (c do rutilo); Shannon (1976); calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PAU-R4-001",
+      "claim": "Regra 4: cations de valencia alta e NC baixo tendem a nao compartilhar elementos de poliedro entre si; na olivina os SiO4 sao isolados, ligados pelos octaedros de Mg.",
+      "source": "Pauling (1929); Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PAU-R5-001",
+      "claim": "Regra 5 (parcimonia): poucos tipos de sitio; granada X3Y2Z3O12 com tres sitios de cation e um unico sitio de oxigenio.",
+      "source": "Pauling (1929); Klein & Dutrow; Grew et al. (2013) (granada)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PAU-ESTAT-001",
+      "claim": "Em ~5000 oxidos, so ~13% satisfazem simultaneamente as regras 2 a 5 (George et al., 2020).",
+      "source": "George et al. (2020) (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-EST-QUADRO-001",
+      "claim": "Grupos espaciais: halita Fm3m; fluorita Fm3m; esfalerita F-43m; wurtzita P63mc; rutilo P42/mnm; corindo R-3c; espinelio Fd-3m; perovskita ideal Pm-3m, mineral Pnma.",
+      "source": "Handbook of Mineralogy (busca); auditoria m04 (rutilo, corindo, halita, fluorita)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-EST-ISOESTR-001",
+      "claim": "Tipo halita: silvita, periclasio, galena; tipo fluorita: uraninita, torianita; tipo rutilo: cassiterita, pirolusita, estishovita; tipo corindo: hematita, escolaita; espinelios: magnetita, cromita, gahnita; perovskita: bridgmanita.",
+      "source": "Mindat; Handbook of Mineralogy (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-EST-COORD-001",
+      "claim": "Coordenacoes: halita 6:6; fluorita 8:4; esfalerita e wurtzita 4:4; rutilo 6:3; corindo Al 6, O 4; espinelio A 4, B 6; perovskita ideal Ti 6, Ca 12.",
+      "source": "Klein & Dutrow; contagem de ligacoes",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-EST-ILMENITA-001",
+      "claim": "Ilmenita FeTiO3 e derivado ordenado do corindo, com Fe e Ti em camadas alternadas de octaedros.",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-EST-ESPINELIO-001",
+      "claim": "Espinelio normal: A2+ no tetraedro (MgAl2O4, cromita FeCr2O4, gahnita ZnAl2O4); inverso: magnetita Fe3+[Fe2+Fe3+]O4.",
+      "source": "busca (estrutura do espinelio); Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-EST-TOLER-001",
+      "claim": "Fator de tolerancia t = (rA + rO)/(raiz2 (rB + rO)); CaTiO3 com Ca XII 1,34, Ti VI 0,605, O 1,40: t = 0,97 (0,966); t < 1 -> octaedros giram, perovskita ortorrombica Pnma.",
+      "source": "Goldschmidt (1926); busca; Shannon (1976); calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-EST-BRIDG-001",
+      "claim": "Bridgmanita (Mg,Fe)SiO3 com estrutura de perovskita, estavel abaixo de ~660 km, considerada o mineral mais abundante da Terra; aprovada pela IMA em 2014 (IMA 2014-017), descrita no meteorito Tenham.",
+      "source": "Tschauner et al. (2014), Science 346 (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-EST-ESFDIAM-001",
+      "claim": "A esfalerita com um so elemento corresponde ao arranjo do diamante; esfalerita (cc) e wurtzita (hc) sao polimorfos de ZnS.",
+      "source": "Klein & Dutrow; busca (wurtzita)",
+      "confidence": "confirmado"
+    }
+  ]
+}

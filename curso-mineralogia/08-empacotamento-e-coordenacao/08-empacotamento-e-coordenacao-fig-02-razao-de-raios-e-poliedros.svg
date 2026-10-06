@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440">
+<title>Razão de raios e poliedros de coordenação</title>
+<rect x="0" y="0" width="900" height="440" fill="#ffffff"/>
+<circle cx="128.00" cy="168.00" r="62.00" fill="#cfe3cf" stroke="#2e7d32" stroke-width="1.4" fill-opacity="0.9"/>
+<circle cx="252.00" cy="168.00" r="62.00" fill="#cfe3cf" stroke="#2e7d32" stroke-width="1.4" fill-opacity="0.9"/>
+<circle cx="252.00" cy="292.00" r="62.00" fill="#cfe3cf" stroke="#2e7d32" stroke-width="1.4" fill-opacity="0.9"/>
+<circle cx="128.00" cy="292.00" r="62.00" fill="#cfe3cf" stroke="#2e7d32" stroke-width="1.4" fill-opacity="0.9"/>
+<circle cx="190.00" cy="230.00" r="25.68" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.5" fill-opacity="1"/>
+<line x1="128.00" y1="168.00" x2="252.00" y2="292.00" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="128.00" y1="292.00" x2="252.00" y2="292.00" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="190.0" y="368.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a" font-weight="normal">aresta (preta) = 2r(A)</text>
+<text x="190.0" y="390.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#c0392b" font-weight="normal">diagonal (vermelha) = 2r(A) + 2r(C) = 2r(A)·√2</text>
+<text x="190.0" y="47.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1a1a1a" font-weight="bold">(a) Corte do octaedro no limite</text>
+<text x="190.0" y="416.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1f5fa8" font-weight="bold">r(C)/r(A) = √2 − 1 = 0,414</text>
+<text x="650.0" y="47.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1a1a1a" font-weight="bold">(b) Faixas de r(C)/r(A) e o poliedro previsto</text>
+<polygon points="440.00,132.00 472.91,189.00 407.09,189.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<text x="440.0" y="250.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1a1a1a" font-weight="bold">NC 3</text>
+<text x="440.0" y="270.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1a1a1a" font-weight="normal">triângulo</text>
+<text x="440.0" y="292.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#c0392b" font-weight="normal">0,155–0,225</text>
+<polygon points="555.00,132.00 520.80,190.90 589.20,190.90" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<line x1="555.00" y1="132.00" x2="560.70" y2="175.70" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="520.80" y1="190.90" x2="560.70" y2="175.70" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="589.20" y1="190.90" x2="560.70" y2="175.70" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="4,3"/>
+<text x="555.0" y="250.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1a1a1a" font-weight="bold">NC 4</text>
+<text x="555.0" y="270.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1a1a1a" font-weight="normal">tetraedro</text>
+<text x="555.0" y="292.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#c0392b" font-weight="normal">0,225–0,414</text>
+<polygon points="670.00,132.00 632.00,170.00 658.60,181.40" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="670.00,132.00 658.60,181.40 708.00,170.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="670.00,208.00 632.00,170.00 658.60,181.40" fill="#dbe5f3" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="670.00,208.00 658.60,181.40 708.00,170.00" fill="#dbe5f3" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<line x1="670.00" y1="132.00" x2="681.40" y2="158.60" stroke="#1f5fa8" stroke-width="1.1" stroke-dasharray="4,3"/>
+<line x1="670.00" y1="208.00" x2="681.40" y2="158.60" stroke="#1f5fa8" stroke-width="1.1" stroke-dasharray="4,3"/>
+<line x1="632.00" y1="170.00" x2="681.40" y2="158.60" stroke="#1f5fa8" stroke-width="1.1" stroke-dasharray="4,3"/>
+<line x1="708.00" y1="170.00" x2="681.40" y2="158.60" stroke="#1f5fa8" stroke-width="1.1" stroke-dasharray="4,3"/>
+<text x="670.0" y="250.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1a1a1a" font-weight="bold">NC 6</text>
+<text x="670.0" y="270.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1a1a1a" font-weight="normal">octaedro</text>
+<text x="670.0" y="292.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#c0392b" font-weight="normal">0,414–0,732</text>
+<polygon points="762.20,156.70 798.30,156.70 798.30,192.80 762.20,192.80" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<line x1="762.20" y1="156.70" x2="779.30" y2="139.60" stroke="#1f5fa8" stroke-width="1.2"/>
+<line x1="798.30" y1="156.70" x2="815.40" y2="139.60" stroke="#1f5fa8" stroke-width="1.2"/>
+<line x1="798.30" y1="192.80" x2="815.40" y2="175.70" stroke="#1f5fa8" stroke-width="1.2"/>
+<line x1="762.20" y1="192.80" x2="779.30" y2="175.70" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="779.30" y1="139.60" x2="815.40" y2="139.60" stroke="#1f5fa8" stroke-width="1.4"/>
+<line x1="815.40" y1="139.60" x2="815.40" y2="175.70" stroke="#1f5fa8" stroke-width="1.4"/>
+<line x1="815.40" y1="175.70" x2="779.30" y2="175.70" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="779.30" y1="175.70" x2="779.30" y2="139.60" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="4,3"/>
+<text x="785.0" y="250.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1a1a1a" font-weight="bold">NC 8</text>
+<text x="785.0" y="270.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1a1a1a" font-weight="normal">cubo</text>
+<text x="785.0" y="292.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#c0392b" font-weight="normal">0,732–1</text>
+<text x="650.0" y="340.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a" font-weight="normal">abaixo de 0,155: NC 2 (linear)</text>
+<text x="650.0" y="358.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a" font-weight="normal">razão = 1: NC 12 (esferas iguais em empacotamento compacto)</text>
+<text x="650.0" y="384.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">regra empírica: em ~5000 óxidos, só ~66% dos ambientes</text>
+<text x="650.0" y="400.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">de coordenação concordam com a previsão (George et al., 2020)</text>
+</svg>
