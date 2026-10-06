@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="960" height="400">
+<title>Transformacao deslocativa e reconstrutiva (analogo bidimensional)</title>
+<rect x="0" y="0" width="960" height="400" fill="#ffffff"/>
+<polygon points="40.00,146.00 14.00,120.00 40.00,94.00 66.00,120.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="40.00" cy="120.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="66.00" cy="120.00" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="92.00,146.00 66.00,120.00 92.00,94.00 118.00,120.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="92.00" cy="120.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="118.00" cy="120.00" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="144.00,146.00 118.00,120.00 144.00,94.00 170.00,120.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="144.00" cy="120.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="170.00" cy="120.00" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="196.00,146.00 170.00,120.00 196.00,94.00 222.00,120.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="196.00" cy="120.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="222.00" cy="120.00" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="248.00,146.00 222.00,120.00 248.00,94.00 274.00,120.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="248.00" cy="120.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="274.00" cy="120.00" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="40.00,236.00 14.00,210.00 40.00,184.00 66.00,210.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="40.00" cy="210.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="66.00" cy="210.00" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="92.00,236.00 66.00,210.00 92.00,184.00 118.00,210.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="92.00" cy="210.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="118.00" cy="210.00" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="144.00,236.00 118.00,210.00 144.00,184.00 170.00,210.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="144.00" cy="210.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="170.00" cy="210.00" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="196.00,236.00 170.00,210.00 196.00,184.00 222.00,210.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="196.00" cy="210.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="222.00" cy="210.00" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="248.00,236.00 222.00,210.00 248.00,184.00 274.00,210.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="248.00" cy="210.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="274.00" cy="210.00" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<text x="160.0" y="50.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#1a1a1a" font-weight="bold">(a) estrutura de partida</text>
+<text x="160.0" y="75.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">poliedros ligados por vértices</text>
+<polygon points="351.97,144.73 335.27,111.97 368.03,95.27 384.73,128.03" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="360.00" cy="120.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="384.73" cy="128.03" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="417.49,144.73 384.73,128.03 401.42,95.27 434.18,111.97" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="409.45" cy="120.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="434.18" cy="111.97" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="450.88,144.73 434.18,111.97 466.94,95.27 483.64,128.03" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="458.91" cy="120.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="483.64" cy="128.03" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="516.40,144.73 483.64,128.03 500.33,95.27 533.09,111.97" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="508.36" cy="120.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="533.09" cy="111.97" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="549.79,144.73 533.09,111.97 565.85,95.27 582.55,128.03" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="557.82" cy="120.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="582.55" cy="128.03" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="351.97,234.73 335.27,201.97 368.03,185.27 384.73,218.03" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="360.00" cy="210.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="384.73" cy="218.03" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="417.49,234.73 384.73,218.03 401.42,185.27 434.18,201.97" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="409.45" cy="210.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="434.18" cy="201.97" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="450.88,234.73 434.18,201.97 466.94,185.27 483.64,218.03" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="458.91" cy="210.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="483.64" cy="218.03" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="516.40,234.73 483.64,218.03 500.33,185.27 533.09,201.97" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="508.36" cy="210.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="533.09" cy="201.97" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="549.79,234.73 533.09,201.97 565.85,185.27 582.55,218.03" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="557.82" cy="210.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="582.55" cy="218.03" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<text x="470.0" y="50.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#1a1a1a" font-weight="bold">(b) deslocativa</text>
+<text x="470.0" y="75.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">poliedros giram; nenhuma ligação rompida</text>
+<polygon points="704.00,165.00 678.00,139.00 704.00,113.00 730.00,139.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="704.00" cy="139.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="756.00,165.00 730.00,139.00 756.00,113.00 782.00,139.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="756.00" cy="139.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="756.00,217.00 730.00,191.00 756.00,165.00 782.00,191.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="756.00" cy="191.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="704.00,217.00 678.00,191.00 704.00,165.00 730.00,191.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="704.00" cy="191.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="730.00" cy="139.00" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="756.00" cy="165.00" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="730.00" cy="191.00" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="704.00" cy="165.00" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="808.00,165.00 782.00,139.00 808.00,113.00 834.00,139.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="808.00" cy="139.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="860.00,165.00 834.00,139.00 860.00,113.00 886.00,139.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="860.00" cy="139.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="860.00,217.00 834.00,191.00 860.00,165.00 886.00,191.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="860.00" cy="191.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="808.00,217.00 782.00,191.00 808.00,165.00 834.00,191.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="808.00" cy="191.00" r="4.50" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="834.00" cy="139.00" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="860.00" cy="165.00" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="834.00" cy="191.00" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="808.00" cy="165.00" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="782.00" cy="139.00" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="782.00" cy="191.00" r="3.50" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<text x="820.0" y="50.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#1a1a1a" font-weight="bold">(c) reconstrutiva</text>
+<text x="820.0" y="75.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">ligações rompidas e refeitas: nova topologia</text>
+<text x="480.0" y="360.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#444444">quadrados = poliedros de coordenação; ponto vermelho = cátion; ponto azul = ânion compartilhado (esquema, sem escala)</text>
+</svg>

@@ -1,0 +1,458 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "10-polimorfismo",
+    "module_id": "10",
+    "course_id": "mineralogia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-10-06",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 3,
+    "yellow": 6,
+    "blue": 1,
+    "white": 0,
+    "verified_ok": 32
+  },
+  "findings": [
+    {
+      "claim_id": "CRQ-POL-NCDENS-001",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "claim": "O polimorfo de NC maior e o mais denso",
+      "location": {
+        "file": "10-polimorfismo/10-polimorfismo-aula-01-polimorfismo-transformacoes-reconstrutivas-e-deslocativas.md",
+        "section": "Mesma formula, outro arranjo; Recap",
+        "quote": "o polimorfo de NC maior e o mais denso"
+      },
+      "problem": "Generalizacao contradita pela propria tabela: a andaluzita (metade do Al em NC 5, ~3,13-3,16) e menos densa que a sillimanita (NC 4, ~3,23-3,27).",
+      "replacement": "em geral, o polimorfo de NC maior e o mais denso; tendencia, com a excecao sillimanita/andaluzita",
+      "source": {
+        "name": "MIT 12.108; densidades de Al2SiO5 (busca)",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "10-polimorfismo/10-polimorfismo-aula-01-polimorfismo-transformacoes-reconstrutivas-e-deslocativas.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRQ-POL-RECON-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "andaluzita -> sillimanita listada em \"O NC fica, a rede de ligacoes muda\"",
+      "location": {
+        "file": "10-polimorfismo/10-polimorfismo-aula-01-polimorfismo-transformacoes-reconstrutivas-e-deslocativas.md",
+        "section": "Reconstrutiva: romper e refazer, item 2",
+        "quote": "Andaluzita -> sillimanita: o Al de NC 5 vai a NC 4"
+      },
+      "problem": "O exemplo muda o NC (5 -> 4) e estava no grupo em que o NC nao muda; o exemplo trabalhado (c) dizia o contrario.",
+      "replacement": "andaluzita -> sillimanita movida para o item 1 (muda o NC); item 2 recebe anatasio -> rutilo",
+      "source": {
+        "name": "MIT 12.108 (busca)",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "10-polimorfismo/10-polimorfismo-aula-01-polimorfismo-transformacoes-reconstrutivas-e-deslocativas.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRQ-POL-TABELA-001",
+      "severity": "yellow",
+      "kind": "omissao_que_gera_erro",
+      "claim": "coesita ~2,92; estishovita ~4,29; coesita ~10% mais densa",
+      "location": {
+        "file": "10-polimorfismo/10-polimorfismo-aula-01-polimorfismo-transformacoes-reconstrutivas-e-deslocativas.md",
+        "section": "tabela de polimorfos; exemplo (d); Fontes",
+        "quote": "2,65; ~2,92; ~4,29"
+      },
+      "problem": "Valor unico de densidade calculada para a coesita (2,92) enquanto a medida e ~3,0, e o curso-geologia-avancado m40 a02 usa ~3,00 e ~4,35: aparencia de contradicao entre cursos.",
+      "replacement": "coesita ~2,9-3,0; estishovita ~4,3; coesita 10 a 14% mais densa",
+      "source": {
+        "name": "Mindat; Ross et al. 1990; curso-geologia-avancado m40 a02",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "10-polimorfismo/10-polimorfismo-aula-01-polimorfismo-transformacoes-reconstrutivas-e-deslocativas.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRQ-POL-PARAMORFO-001",
+      "severity": "yellow",
+      "kind": "certeza_indevida",
+      "claim": "a volta para alfa costuma deixar maclas de Dauphine",
+      "location": {
+        "file": "10-polimorfismo/10-polimorfismo-aula-01-polimorfismo-transformacoes-reconstrutivas-e-deslocativas.md",
+        "section": "Deslocativa: girar sem romper",
+        "quote": "A volta para alfa costuma deixar maclas de Dauphine"
+      },
+      "problem": "As fontes dizem que as maclas de Dauphine podem ser de crescimento, de transformacao ou mecanicas; \"costuma\" nao tem suporte.",
+      "replacement": "pode deixar",
+      "source": {
+        "name": "J. Struct. Geol. (maclas de Dauphine) (busca)",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "10-polimorfismo/10-polimorfismo-aula-01-polimorfismo-transformacoes-reconstrutivas-e-deslocativas.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRQ-OD-KFS-001",
+      "severity": "yellow",
+      "kind": "omissao_que_gera_erro",
+      "claim": "quatro tipos de sitio T nos feldspatos; ortoclasio em plutonicas de resfriamento intermediario",
+      "location": {
+        "file": "10-polimorfismo/10-polimorfismo-aula-02-ordem-desordem-de-cations-e-a-historia-termica.md",
+        "section": "Vocabulario; tabela dos feldspatos potassicos",
+        "quote": "nos feldspatos ha quatro tipos, chamados T1o, T1m, T2o e T2m"
+      },
+      "problem": "Nos monoclinicos ha so dois tipos (T1 e T2); e a coluna de ocorrencia divergia do curso-geologia-avancado m40 a06 (ortoclasio subvulcanico/epizonal e metamorfico de grau moderado a alto; microclinio em pegmatitos e granitos de embasamento).",
+      "replacement": "quatro tipos nos triclinicos, dois nos monoclinicos; ocorrencias alinhadas ao m40 a06",
+      "source": {
+        "name": "Mindat; curso-geologia-avancado m40 a06",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "10-polimorfismo/10-polimorfismo-aula-02-ordem-desordem-de-cations-e-a-historia-termica.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRQ-PTP-MICA-001",
+      "severity": "yellow",
+      "kind": "erro_factual",
+      "claim": "muscovita-3T tem a mesma composicao de qualquer outra muscovita",
+      "location": {
+        "file": "10-polimorfismo/10-polimorfismo-aula-03-politipismo-empilhamentos-e-a-notacao-de-ramsdell.md",
+        "section": "Exemplo trabalhado (c)",
+        "quote": "mesma especie e composicao de qualquer outra muscovita"
+      },
+      "problem": "A muscovita varia em composicao (solucao solida); o que o sufixo diz e que a especie e a mesma.",
+      "replacement": "e muscovita, a mesma especie de uma muscovita-2M1",
+      "source": {
+        "name": "Rieder et al. (1998)",
+        "tier": "normative",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "10-polimorfismo/10-polimorfismo-aula-03-politipismo-empilhamentos-e-a-notacao-de-ramsdell.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRQ-MET-ZIRCAO-001",
+      "severity": "yellow",
+      "kind": "certeza_indevida",
+      "claim": "o dano se acumula ao longo de centenas de milhoes de anos",
+      "location": {
+        "file": "10-polimorfismo/10-polimorfismo-aula-04-amorfos-mineraloides-e-metamictizacao.md",
+        "section": "Metamictizacao",
+        "quote": "Ao longo de centenas de milhoes de anos"
+      },
+      "problem": "O tempo depende do teor de U e Th e da historia termica; um numero unico nao tem fonte.",
+      "replacement": "ao longo do tempo geologico, tanto mais depressa quanto mais U e Th",
+      "source": {
+        "name": "Ewing et al. (2003)",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "10-polimorfismo/10-polimorfismo-aula-04-amorfos-mineraloides-e-metamictizacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRQ-AMO-DIAPLETICO-001",
+      "severity": "blue",
+      "kind": "evidencia_insuficiente",
+      "claim": "vidro diapletico preserva maclas reliquiares",
+      "location": {
+        "file": "10-polimorfismo/10-polimorfismo-aula-04-amorfos-mineraloides-e-metamictizacao.md",
+        "section": "Exemplo trabalhado (d); metodo geral",
+        "quote": "com a forma e as maclas reliquiares de um plagioclasio"
+      },
+      "problem": "As fontes consultadas confirmam forma e textura preservadas, nao maclas; detalhe sem fonte.",
+      "replacement": "grao isotropico com a forma de um cristal de plagioclasio (maclas removidas)",
+      "source": {
+        "name": "Science Advances 2025; Chen & El Goresy 2000 (busca)",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "nao_verificado",
+      "affected_files": [
+        "10-polimorfismo/10-polimorfismo-aula-04-amorfos-mineraloides-e-metamictizacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRQ-MEST-ARAG-001",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "claim": "a maior parte dos invertebrados com esqueleto carbonatico produz aragonita",
+      "location": {
+        "file": "10-polimorfismo/10-polimorfismo-aula-05-transicoes-histerese-e-metaestabilidade.md",
+        "section": "Quatro historias de persistencia",
+        "quote": "A maior parte dos invertebrados marinhos que fazem esqueleto de carbonato produz aragonita"
+      },
+      "problem": "Generalizacao: braquiopodes, equinodermos e muitos foraminiferos fazem calcita; a frase ensinaria que aragonita e a regra.",
+      "replacement": "muitos organismos marinhos, como os corais atuais e muitos moluscos, fazem aragonita (equinodermos usam calcita)",
+      "source": {
+        "name": "Biogeosciences 14, 1461 (2017); literatura de biomineralizacao",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "10-polimorfismo/10-polimorfismo-aula-05-transicoes-histerese-e-metaestabilidade.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRQ-POL-AL2SUP-001",
+      "severity": "yellow",
+      "kind": "evidencia_insuficiente",
+      "claim": "a cianita e metaestavel num afloramento; a andaluzita e a forma estavel a baixa pressao e temperatura moderada",
+      "location": {
+        "file": "10-polimorfismo/10-polimorfismo-questionario-final.md",
+        "section": "Q13 (d)(e); aula 01, Pare e explique",
+        "quote": "Uma cianita formada a grande profundidade esta hoje num afloramento"
+      },
+      "problem": "Qual polimorfo de Al2SiO5 e estavel a 25 C e 1 atm depende da extrapolacao da curva cianita-andaluzita abaixo da faixa calibrada; nao verificado.",
+      "replacement": "Q13 (d)(e) e a pergunta da aula 01 passam a usar a sillimanita, de campo de alta temperatura",
+      "source": {
+        "name": "Holdaway (1971); Pattison (1992); modulo 03 aula 03",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "nao_verificado",
+      "affected_files": [
+        "10-polimorfismo/10-polimorfismo-questionario-final.md",
+        "10-polimorfismo/10-polimorfismo-aula-01-polimorfismo-transformacoes-reconstrutivas-e-deslocativas.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "CRQ-POL-DEF-001",
+      "claim": "Polimorfos sao estruturas diferentes de mesma composicao; cada polimorfo e especie distinta (calcita e aragonita).",
+      "source": "Klein & Dutrow; Nickel & Grice (1998); modulo 02 aula 03",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-POL-BUERGER-001",
+      "claim": "Buerger (1951) classificou as transformacoes por mecanismo: deslocativa, reconstrutiva e ordem-desordem.",
+      "source": "IUCr Online Dictionary of Crystallography (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-POL-QTZAB-001",
+      "claim": "Quartzo alfa -> beta a 573 C (1 atm), deslocativa: sem romper ligacoes, Si-O-Si ~144 -> ~153 graus, P3121/P3221 -> P6422/P6222; rapida, reversivel, beta nao se tempera.",
+      "source": "busca (The Quartz Page; Smith College; IAS Mater. Sci. Bull. 1979)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-POL-ANDSIL-001",
+      "claim": "Andaluzita -> sillimanita: metade do Al passa de NC 5 para NC 4.",
+      "source": "busca (MIT 12.108)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-POL-CALC-001",
+      "claim": "Aragonita ~8% mais densa que calcita (2,93/2,71); coesita 10-14% mais densa que quartzo (2,92-3,01/2,65).",
+      "source": "calculo em Python",
+      "confidence": "provavel"
+    },
+    {
+      "claim_id": "CRQ-OD-DEF-001",
+      "claim": "Na transformacao de ordem-desordem o arcabouco fica e muda a distribuicao dos cations pelos sitios; alta T favorece desordem, baixa T ordem; resfriamento lento ordena, rapido congela a desordem.",
+      "source": "Putnis; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-OD-CONV-001",
+      "claim": "Ordem convergente: sitios equivalentes na desordem, a ordem baixa a simetria; nao convergente: sitios sempre distintos, sem mudanca de simetria.",
+      "source": "Carpenter; Putnis (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-OD-DOLOMITA-001",
+      "claim": "Dolomita CaMg(CO3)2: Ca e Mg em camadas alternadas perpendiculares a c; grupo espacial cai de R-3c (calcita) para R-3; reflexoes de ordem na DRX.",
+      "source": "busca (Minerals 2023; Science 2023)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-OD-OPX-001",
+      "claim": "Ortopiroxenio: Fe2+ prefere M2 (maior, mais irregular que M1); ordem nao convergente; velocimetro de resfriamento; fechamento a ~300-400 C para 1 a 10^4 C/Ma.",
+      "source": "Stimpfl, Ganguly & Molin (2005); LPSC 2006 (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-OD-EXEMPLO-001",
+      "claim": "Exemplo construido: A 0,25 x4 (sanidina); B 0,40/0,40/0,10/0,10 (ortoclasio); C 0,95/0,02/0,02/0,01 (microclinio); somas 1,00.",
+      "source": "construido; calculo em Python",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PTP-DEF-001",
+      "claim": "Politipos: estruturas de camadas iguais que diferem so na sequencia de empilhamento; caso particular de polimorfismo; a e b quase iguais, c cresce com o numero de camadas.",
+      "source": "Guinier et al. (1984)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PTP-RAMSDELL-001",
+      "claim": "Notacao de Ramsdell: numero de camadas na repeticao + letra do sistema (C, H, R, T, M, O, A); 2H = AB, 3C = ABC, 4H = ABCB, 6H = ABCACB, 15R.",
+      "source": "Guinier et al. (1984); Nickel & Grice (1998)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PTP-ZNS-001",
+      "claim": "Esfalerita = 3C e wurtzita = 2H, politipos de ZnS; wurtzita tem politipos mais longos (4H, 6H).",
+      "source": "busca (Mindat; MTU)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PTP-SIC-001",
+      "claim": "Moissanita (SiC) natural: 6H o mais comum, depois 15R e 4H; 3C raro, em meteoritos chocados.",
+      "source": "busca (Shiryaev et al.; Mindat)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PTP-GRAFITE-001",
+      "claim": "Grafite-2H (comum) e grafite-3R.",
+      "source": "busca (Mindat)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PTP-IMA-001",
+      "claim": "IMA: politipos nao sao especies distintas; nome + sufixo (muscovita-2M1, grafite-3R); nomes antigos consagrados mantidos (esfalerita e wurtzita).",
+      "source": "Nickel & Grice (1998); Hatert et al. (2023); Bailey (1977)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PTP-OD-001",
+      "claim": "Politipos diferem pouco em energia; estruturas OD admitem mais de um encaixe equivalente entre camadas; desordem de empilhamento aparece como reflexoes borradas ao longo de uma direcao.",
+      "source": "Putnis; Guinier et al. (1984)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PTP-LONSD-001",
+      "claim": "Lonsdaleita ('diamante 2H') contestada por Nemeth et al. (2014), Nat. Commun. 5, 5447: diamante cubico com maclas e falhas; debate aberto.",
+      "source": "Nemeth et al. (2014) (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-AMO-ORDEM-001",
+      "claim": "Vidro de silica mantem a ordem de curto alcance (SiO4, O entre 2 Si) e perde a de longo alcance; rede aleatoria continua de Zachariasen (1932); amorfo da halos na difracao e e isotropico.",
+      "source": "Zachariasen (1932) (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-AMO-CAMINHOS-001",
+      "claim": "Tres caminhos para a falta de ordem: vidro (resfriamento rapido; obsidiana; lechatelierita de fulguritos e impactos), opala-A (precipitacao), perda no estado solido (vidro diapletico por choque; metamictizacao).",
+      "source": "busca (fulgurito, lechatelierita, vidro diapletico)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-AMO-OPALA-001",
+      "claim": "Opala-A amorfa aos raios X; opala-CT com ordem parcial (cristobalita/tridimita desordenadas); opala tratada como mineraloide, nome na lista IMA como especie antiga mantida.",
+      "source": "modulo 02 aula 02 (Mindat); busca",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-MET-DANO-001",
+      "claim": "Particula alfa: alguns MeV, 10-20 um, ~100 deslocamentos; recuo ~70 keV (234Th de 238U), 30-40 nm, ~1000 deslocamentos.",
+      "source": "Ewing et al. (2003) (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-MET-EXEMPLOS-001",
+      "claim": "Minerais metamicticos: zircao, torita ThSiO4, alanita, gadolinita, pirocloro.",
+      "source": "busca (Ewing 1994; Tomasic et al. 2008)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-MET-HIST-001",
+      "claim": "Brogger criou o termo metamictico em 1893; Hamberg (1914) atribuiu a causa a radiacao alfa de U e Th.",
+      "source": "Ewing (1994) (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-MET-IMA-001",
+      "claim": "Nickel (1995): substancias metamicticas sao aceitas como minerais se o material era mineral cristalino de mesma composicao antes do dano.",
+      "source": "Nickel (1995) (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-MEST-DEF-001",
+      "claim": "Estavel: forma de menor energia nas condicoes; metaestavel: nao e a de menor energia mas uma barreira impede a mudanca; estavel (termodinamica) e diferente de duradouro (cinetica).",
+      "source": "Putnis; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-MEST-HIST-001",
+      "claim": "Histerese: transformacao em temperaturas diferentes no aquecimento e no resfriamento, ou nao ocorre na volta; pequena nas deslocativas, grande nas reconstrutivas; depende da altura da barreira.",
+      "source": "busca; Putnis",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-MEST-DIAMANTE-001",
+      "claim": "Diamante metaestavel na superficie (grafite estavel), persiste por barreira cinetica.",
+      "source": "busca",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-MEST-VIDRO-001",
+      "claim": "Vidro vulcanico metaestavel devitrifica (cristobalita, quartzo, feldspato finos); nenhuma obsidiana inalterada mais antiga que o Cretaceo; maioria das rochas vitreas com menos de ~66 Ma.",
+      "source": "Britannica; Oregon State University (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-MEST-OSTWALD-001",
+      "claim": "Regra dos estagios de Ostwald: a fase menos estavel precipita primeiro; silica: opala-A -> opala-CT -> quartzo; tendencia, nao lei.",
+      "source": "Sedimentary Geology 2005 (Opal Mound); Am. J. Sci. (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-MEST-SANIDINA-001",
+      "claim": "Sanidina desordenada persiste em lavas (desordem congelada), embora a forma estavel no frio seja a ordenada (microclinio).",
+      "source": "Mindat; Klein & Dutrow (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-MEST-COESITA-001",
+      "claim": "Coesita em rocha crustal (inclusoes em granada) indica passagem por pressoes muito altas e retorno sem reversao completa; a granada protege a inclusao.",
+      "source": "modulo 03 aula 03 (Chopin 1984); Klein & Dutrow",
+      "confidence": "confirmado"
+    }
+  ]
+}

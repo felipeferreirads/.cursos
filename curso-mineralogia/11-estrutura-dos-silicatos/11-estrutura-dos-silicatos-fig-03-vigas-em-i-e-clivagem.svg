@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640">
+<title>Vigas em I e clivagem de piroxenio e anfibolio</title>
+<rect x="0" y="0" width="1000" height="640" fill="#ffffff"/>
+<rect x="40.00" y="90.00" width="366.04" height="347.06" fill="#ffffff" stroke="#bbbbbb" stroke-width="1"/>
+<polygon points="77.61,358.42 88.84,358.42 88.84,372.15 113.17,372.15 113.17,358.42 124.41,358.42 124.41,400.02 113.17,400.02 113.17,386.29 88.84,386.29 88.84,400.02 77.61,400.02" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<polygon points="77.61,242.73 88.84,242.73 88.84,256.46 113.17,256.46 113.17,242.73 124.41,242.73 124.41,284.33 113.17,284.33 113.17,270.60 88.84,270.60 88.84,284.33 77.61,284.33" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<polygon points="77.61,127.04 88.84,127.04 88.84,140.77 113.17,140.77 113.17,127.04 124.41,127.04 124.41,168.64 113.17,168.64 113.17,154.92 88.84,154.92 88.84,168.64 77.61,168.64" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<polygon points="199.62,358.42 210.85,358.42 210.85,372.15 235.19,372.15 235.19,358.42 246.42,358.42 246.42,400.02 235.19,400.02 235.19,386.29 210.85,386.29 210.85,400.02 199.62,400.02" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<polygon points="138.61,300.57 149.84,300.57 149.84,314.30 174.18,314.30 174.18,300.57 185.41,300.57 185.41,342.17 174.18,342.17 174.18,328.45 149.84,328.45 149.84,342.17 138.61,342.17" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<polygon points="199.62,242.73 210.85,242.73 210.85,256.46 235.19,256.46 235.19,242.73 246.42,242.73 246.42,284.33 235.19,284.33 235.19,270.60 210.85,270.60 210.85,284.33 199.62,284.33" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<polygon points="138.61,184.89 149.84,184.89 149.84,198.61 174.18,198.61 174.18,184.89 185.41,184.89 185.41,226.49 174.18,226.49 174.18,212.76 149.84,212.76 149.84,226.49 138.61,226.49" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<polygon points="199.62,127.04 210.85,127.04 210.85,140.77 235.19,140.77 235.19,127.04 246.42,127.04 246.42,168.64 235.19,168.64 235.19,154.92 210.85,154.92 210.85,168.64 199.62,168.64" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<polygon points="321.63,358.42 332.86,358.42 332.86,372.15 357.20,372.15 357.20,358.42 368.43,358.42 368.43,400.02 357.20,400.02 357.20,386.29 332.86,386.29 332.86,400.02 321.63,400.02" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<polygon points="260.63,300.57 271.86,300.57 271.86,314.30 296.19,314.30 296.19,300.57 307.43,300.57 307.43,342.17 296.19,342.17 296.19,328.45 271.86,328.45 271.86,342.17 260.63,342.17" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<polygon points="321.63,242.73 332.86,242.73 332.86,256.46 357.20,256.46 357.20,242.73 368.43,242.73 368.43,284.33 357.20,284.33 357.20,270.60 332.86,270.60 332.86,284.33 321.63,284.33" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<polygon points="260.63,184.89 271.86,184.89 271.86,198.61 296.19,198.61 296.19,184.89 307.43,184.89 307.43,226.49 296.19,226.49 296.19,212.76 271.86,212.76 271.86,226.49 260.63,226.49" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<polygon points="321.63,127.04 332.86,127.04 332.86,140.77 357.20,140.77 357.20,127.04 368.43,127.04 368.43,168.64 357.20,168.64 357.20,154.92 332.86,154.92 332.86,168.64 321.63,168.64" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<line x1="40.00" y1="379.22" x2="101.01" y2="437.06" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="40.00" y1="263.53" x2="223.02" y2="437.06" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="40.00" y1="147.84" x2="345.03" y2="437.06" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="101.01" y1="90.00" x2="406.04" y2="379.22" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="223.02" y1="90.00" x2="406.04" y2="263.53" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="345.03" y1="90.00" x2="406.04" y2="147.84" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="40.00" y1="147.84" x2="101.01" y2="90.00" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="40.00" y1="263.53" x2="223.02" y2="90.00" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="40.00" y1="379.22" x2="345.03" y2="90.00" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="101.01" y1="437.06" x2="406.04" y2="147.84" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="223.02" y1="437.06" x2="406.04" y2="263.53" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="345.03" y1="437.06" x2="406.04" y2="379.22" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<text x="223.0" y="56.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#1a1a1a" font-weight="bold">piroxênio (cadeia simples)</text>
+<text x="223.0" y="74.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">diopsídio: a·senβ = 9,39 Å; b = 8,90 Å</text>
+<text x="223.0" y="461.1" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#c0392b" font-weight="bold">ângulo entre os planos: 93° e 87°</text>
+<rect x="500.00" y="70.00" width="371.90" height="469.25" fill="#ffffff" stroke="#bbbbbb" stroke-width="1"/>
+<polygon points="538.58,372.54 549.81,372.54 549.81,413.98 574.15,413.98 574.15,372.54 585.38,372.54 585.38,471.34 574.15,471.34 574.15,429.89 549.81,429.89 549.81,471.34 538.58,471.34" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<polygon points="538.58,137.91 549.81,137.91 549.81,179.36 574.15,179.36 574.15,137.91 585.38,137.91 585.38,236.71 574.15,236.71 574.15,195.27 549.81,195.27 549.81,236.71 538.58,236.71" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<polygon points="662.55,372.54 673.78,372.54 673.78,413.98 698.12,413.98 698.12,372.54 709.35,372.54 709.35,471.34 698.12,471.34 698.12,429.89 673.78,429.89 673.78,471.34 662.55,471.34" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<polygon points="600.57,255.22 611.80,255.22 611.80,296.67 636.13,296.67 636.13,255.22 647.37,255.22 647.37,354.02 636.13,354.02 636.13,312.58 611.80,312.58 611.80,354.02 600.57,354.02" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<polygon points="662.55,137.91 673.78,137.91 673.78,179.36 698.12,179.36 698.12,137.91 709.35,137.91 709.35,236.71 698.12,236.71 698.12,195.27 673.78,195.27 673.78,236.71 662.55,236.71" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<polygon points="786.51,372.54 797.74,372.54 797.74,413.98 822.08,413.98 822.08,372.54 833.31,372.54 833.31,471.34 822.08,471.34 822.08,429.89 797.74,429.89 797.74,471.34 786.51,471.34" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<polygon points="724.53,255.22 735.76,255.22 735.76,296.67 760.10,296.67 760.10,255.22 771.33,255.22 771.33,354.02 760.10,354.02 760.10,312.58 735.76,312.58 735.76,354.02 724.53,354.02" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<polygon points="786.51,137.91 797.74,137.91 797.74,179.36 822.08,179.36 822.08,137.91 833.31,137.91 833.31,236.71 822.08,236.71 822.08,195.27 797.74,195.27 797.74,236.71 786.51,236.71" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.2" fill-opacity="1"/>
+<line x1="500.00" y1="421.94" x2="561.98" y2="539.25" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="500.00" y1="187.31" x2="685.95" y2="539.25" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="561.98" y1="70.00" x2="809.91" y2="539.25" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="685.95" y1="70.00" x2="871.90" y2="421.94" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="809.91" y1="70.00" x2="871.90" y2="187.31" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="500.00" y1="187.31" x2="561.98" y2="70.00" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="500.00" y1="421.94" x2="685.95" y2="70.00" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="561.98" y1="539.25" x2="809.91" y2="70.00" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="685.95" y1="539.25" x2="871.90" y2="187.31" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="809.91" y1="539.25" x2="871.90" y2="421.94" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<text x="685.9" y="36.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#1a1a1a" font-weight="bold">anfibólio (cadeia dupla)</text>
+<text x="685.9" y="54.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">tremolita: a·senβ = 9,54 Å; b = 18,05 Å</text>
+<text x="685.9" y="563.2" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#c0392b" font-weight="bold">ângulo entre os planos: 56° e 124°</text>
+<text x="500.0" y="600.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#444444">Vista ao longo das cadeias (eixo c), com b na vertical. Cada viga em I: duas cadeias de tetraedros (barras verticais) e a faixa de octaedros entre elas (esquema).</text>
+<text x="500.0" y="618.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#444444">Tracejado: os planos {110} de clivagem passam entre as vigas, cortando só as ligações mais fracas, com os cátions maiores (M2 no piroxênio, M4 no anfibólio).</text>
+</svg>

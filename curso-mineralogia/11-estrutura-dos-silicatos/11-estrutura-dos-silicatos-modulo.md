@@ -1,6 +1,6 @@
 # Módulo 11 — Arquitetura dos silicatos
 
-> [!info] Curso de **Mineralogia** · módulo 11 de 50 · área III. Cristaloquímica · trilha **núcleo** · status: **pendente** (planejado em 2026-09-29, nenhuma aula escrita)
+> [!info] Curso de **Mineralogia** · módulo 11 de 50 · área III. Cristaloquímica · trilha **núcleo** · status: **concluído** (aulas, auditoria, revisão didática, questionário e baralho em 2026-10-06; sem ressalva aberta)
 
 ## Objetivo do módulo
 
@@ -37,15 +37,21 @@ Explicar a classificação estrutural dos silicatos a partir do tetraedro SiO₄
 - `mineralogia-m11-oa03` — Explicar a substituição Al↔Si tetraédrica e o papel dos cátions de compensação de carga.
 - `mineralogia-m11-oa04` — Prever propriedades (clivagem, hábito, densidade, ordem de cristalização) a partir do grau de polimerização.
 
-## Aulas planejadas (5, nenhuma escrita)
+## Aulas (5 escritas)
 
-1. Aula 01 — O tetraedro SiO₄ e a ligação Si-O — `mineralogia-m11-a01` · cobre `mineralogia-m11-oa01`
-2. Aula 02 — Polimerização: de tetraedros isolados a arcabouços — `mineralogia-m11-a02` · cobre `mineralogia-m11-oa02`
-3. Aula 03 — Substituição Al↔Si e cátions de compensação — `mineralogia-m11-a03` · cobre `mineralogia-m11-oa03`
-4. Aula 04 — Da estrutura à propriedade: clivagem, hábito e densidade — `mineralogia-m11-a04` · cobre `mineralogia-m11-oa04`
-5. Aula 05 — Panorama dos silicatos formadores de rocha: o mapa do bloco de sistemática — `mineralogia-m11-a05` · cobre `mineralogia-m11-oa02`, `mineralogia-m11-oa04`
+1. [[11-estrutura-dos-silicatos-aula-01-o-tetraedro-sio4-e-a-ligacao-si-o|Aula 01 — O tetraedro SiO₄ e a ligação Si–O]] — `mineralogia-m11-a01` · cobre `mineralogia-m11-oa01`
+2. [[11-estrutura-dos-silicatos-aula-02-polimerizacao-de-tetraedros-isolados-a-arcaboucos|Aula 02 — Polimerização: de tetraedros isolados a arcabouços]] — `mineralogia-m11-a02` · cobre `mineralogia-m11-oa02`
+3. [[11-estrutura-dos-silicatos-aula-03-substituicao-al-si-e-cations-de-compensacao|Aula 03 — Substituição Al↔Si e cátions de compensação]] — `mineralogia-m11-a03` · cobre `mineralogia-m11-oa03`
+4. [[11-estrutura-dos-silicatos-aula-04-da-estrutura-a-propriedade-clivagem-habito-e-densidade|Aula 04 — Da estrutura à propriedade: clivagem, hábito, densidade e ordem de cristalização]] — `mineralogia-m11-a04` · cobre `mineralogia-m11-oa04`
+5. [[11-estrutura-dos-silicatos-aula-05-panorama-dos-silicatos-formadores-de-rocha-o-mapa-do-bloco-de-sistematica|Aula 05 — Panorama dos silicatos formadores de rocha: o mapa do bloco de sistemática]] — `mineralogia-m11-a05` · cobre `mineralogia-m11-oa02`, `mineralogia-m11-oa04`
 
-> Títulos provisórios, definidos no planejamento. O gerador de aulas pode ajustá-los ou dividir uma aula em Parte 1 / Parte 2 pela contagem de carga; um objetivo novo recebe o próximo ID livre, nunca desloca os existentes.
+> Títulos do planejamento mantidos (o da aula 04 explicita "ordem de cristalização", já prevista no objetivo). A notação Qⁿ entrou na aula 01; a regra de Loewenstein, na 03; a classificação de Liebau, em nível introdutório, na 05.
+
+### Figuras do módulo (geradas por script)
+
+- `11-estrutura-dos-silicatos-fig-01-tetraedro-e-qn.svg` — aula 01
+- `11-estrutura-dos-silicatos-fig-02-polimerizacao.svg` — aula 02 (figura exigida pelo `_contexto.md`: polimerização dos silicatos)
+- `11-estrutura-dos-silicatos-fig-03-vigas-em-i-e-clivagem.svg` — aula 04 (na escala das celas do diopsídio e da tremolita)
 
 ## Pontos de dificuldade previstos
 
@@ -57,11 +63,11 @@ curso-geologia, módulo 04, aula 07 (estruturas dos silicatos, nível introdutó
 
 ## Registro do módulo
 
-- Aulas: pendente (0 de 5)
-- Auditoria científica: pendente
-- Revisão didática: pendente
-- Questionário: pendente (gate: só depois da auditoria sem achado 🔴/🟠 em aberto)
-- Flashcards: pendente (mesmo gate)
+- Aulas: escritas (5 de 5), em 2026-10-06
+- Auditoria científica: [[11-estrutura-dos-silicatos-auditoria|aprovada]] em 2026-10-06 (🟡 3: "único cátion" tetraédrico além do Si, asbesto e sítio A, subdivisões de Nickel-Strunz incompletas; todos corrigidos). Todas as razões Si:O e cargas recalculadas em Python. Nenhuma ressalva aberta.
+- Revisão didática: [[11-estrutura-dos-silicatos-revisao-didatica|bem ensinado com ressalvas, ressalvas corrigidas]] em 2026-10-06 (🟡 5 termos e notações; 🔵 3 não bloqueantes)
+- Questionário: [[11-estrutura-dos-silicatos-questionario-final|final cumulativo]] (15 q, 37 pts), gerado em 2026-10-06 com checagem científica do gabarito; 4 de 4 objetivos cobertos
+- Flashcards: [[11-estrutura-dos-silicatos-flashcards|baralho]] gerado em 2026-10-06 (57 Basic + 8 Cloze), com checagem científica contra as aulas antes de fechar
 
 ## Navegação
 

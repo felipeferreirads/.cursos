@@ -1,6 +1,6 @@
 # Módulo 10 — Polimorfismo, politipismo, ordem-desordem e não cristalinidade
 
-> [!info] Curso de **Mineralogia** · módulo 10 de 50 · área III. Cristaloquímica · trilha **núcleo** · status: **pendente** (planejado em 2026-09-29, nenhuma aula escrita)
+> [!info] Curso de **Mineralogia** · módulo 10 de 50 · área III. Cristaloquímica · trilha **núcleo** · status: **concluído** (aulas, auditoria, revisão didática, questionário e baralho em 2026-10-06; sem ressalva aberta)
 
 ## Objetivo do módulo
 
@@ -36,15 +36,23 @@ Descrever do ponto de vista estrutural as várias maneiras de uma mesma composi�
 - `mineralogia-m10-oa02` — Explicar o politipismo (micas, ZnS, SiC) e ler a notação de politipos.
 - `mineralogia-m10-oa03` — Descrever a ordem-desordem de cátions (Al/Si em feldspatos, Fe/Mg em piroxênios) e prever o efeito da história térmica sobre o grau de ordem.
 - `mineralogia-m10-oa04` — Distinguir cristal, mineraloide amorfo e mineral metamíctico e explicar a metamictização por dano de radiação.
+- `mineralogia-m10-oa05` — Explicar, em termos qualitativos, a histerese das transformações e a metaestabilidade de polimorfos, estados de ordem e vidros, distinguindo estável de persistente e usando a persistência como registro da história da rocha. *(Objetivo acrescentado na geração, com o próximo ID livre.)*
 
-## Aulas planejadas (4, nenhuma escrita)
+## Aulas (5 escritas)
 
-1. Aula 01 — Polimorfismo: transformações reconstrutivas e deslocativas — `mineralogia-m10-a01` · cobre `mineralogia-m10-oa01`
-2. Aula 02 — Ordem-desordem de cátions e a história térmica — `mineralogia-m10-a02` · cobre `mineralogia-m10-oa03`
-3. Aula 03 — Politipismo — `mineralogia-m10-a03` · cobre `mineralogia-m10-oa02`
-4. Aula 04 — Amorfos, mineraloides e metamictização — `mineralogia-m10-a04` · cobre `mineralogia-m10-oa04`
+1. [[10-polimorfismo-aula-01-polimorfismo-transformacoes-reconstrutivas-e-deslocativas|Aula 01 — Polimorfismo: transformações reconstrutivas e deslocativas]] — `mineralogia-m10-a01` · cobre `mineralogia-m10-oa01`
+2. [[10-polimorfismo-aula-02-ordem-desordem-de-cations-e-a-historia-termica|Aula 02 — Ordem-desordem de cátions e a história térmica]] — `mineralogia-m10-a02` · cobre `mineralogia-m10-oa03` (e completa `oa01`)
+3. [[10-polimorfismo-aula-03-politipismo-empilhamentos-e-a-notacao-de-ramsdell|Aula 03 — Politipismo: empilhamentos e a notação de Ramsdell]] — `mineralogia-m10-a03` · cobre `mineralogia-m10-oa02`
+4. [[10-polimorfismo-aula-04-amorfos-mineraloides-e-metamictizacao|Aula 04 — Amorfos, mineraloides e metamictização]] — `mineralogia-m10-a04` · cobre `mineralogia-m10-oa04`
+5. [[10-polimorfismo-aula-05-transicoes-histerese-e-metaestabilidade|Aula 05 — Transições, histerese e metaestabilidade]] — `mineralogia-m10-a05` · cobre `mineralogia-m10-oa05`
 
-> Títulos provisórios, definidos no planejamento. O gerador de aulas pode ajustá-los ou dividir uma aula em Parte 1 / Parte 2 pela contagem de carga; um objetivo novo recebe o próximo ID livre, nunca desloca os existentes.
+> Os quatro títulos do planejamento foram mantidos (o da aula 03 ganhou subtítulo). A aula 05 foi acrescentada no fim, com ID novo, para cobrir transições de fase, histerese e metaestabilidade (aragonita, diamante, vidros) em termos qualitativos; a termodinâmica formal fica no módulo 22 e a cinética, no 24. Assim nenhum ID planejado foi deslocado.
+
+### Figuras do módulo (geradas por script)
+
+- `10-polimorfismo-fig-01-deslocativa-e-reconstrutiva.svg` — aula 01
+- `10-polimorfismo-fig-02-politipos-sequencias-de-empilhamento.svg` — aula 03
+- `10-polimorfismo-fig-03-ordem-e-desordem.svg` — aula 02
 
 ## Pontos de dificuldade previstos
 
@@ -56,11 +64,11 @@ curso-geologia-avancado, módulo 40, aulas 02 e 06 (polimorfos de SiO₂ e ordem
 
 ## Registro do módulo
 
-- Aulas: pendente (0 de 4)
-- Auditoria científica: pendente
-- Revisão didática: pendente
-- Questionário: pendente (gate: só depois da auditoria sem achado 🔴/🟠 em aberto)
-- Flashcards: pendente (mesmo gate)
+- Aulas: escritas (5 de 5), em 2026-10-06
+- Auditoria científica: [[10-polimorfismo-auditoria|aprovada]] em 2026-10-06 (🟠 3: "NC maior → mais denso" sem exceção, andaluzita → sillimanita no grupo errado, "maioria dos invertebrados" aragoníticos; 🟡 6, incluindo um achado na checagem do questionário sobre a estabilidade de Al₂SiO₅ na superfície; 🔵 1 removido; todos corrigidos). Nenhuma ressalva aberta.
+- Revisão didática: [[10-polimorfismo-revisao-didatica|bem ensinado com ressalvas, ressalvas corrigidas]] em 2026-10-06 (🟠 1: dificuldade prevista "polimorfismo = mesma fórmula" mal atacada; 🟡 3 termos sem definição; 🔵 3 não bloqueantes)
+- Questionário: [[10-polimorfismo-questionario-final|final cumulativo]] (15 q, 37 pts), gerado em 2026-10-06 com checagem científica do gabarito; 5 de 5 objetivos cobertos
+- Flashcards: [[10-polimorfismo-flashcards|baralho]] gerado em 2026-10-06 (70 Basic + 8 Cloze), com checagem científica contra as aulas antes de fechar
 
 ## Navegação
 

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1010 430" width="1010" height="430">
+<title>Tetraedro SiO4 e a notacao Qn</title>
+<rect x="0" y="0" width="1010" height="430" fill="#ffffff"/>
+<line x1="190.00" y1="110.00" x2="76.00" y2="296.00" stroke="#1f5fa8" stroke-width="2"/>
+<line x1="190.00" y1="110.00" x2="304.00" y2="296.00" stroke="#1f5fa8" stroke-width="2"/>
+<line x1="76.00" y1="296.00" x2="304.00" y2="296.00" stroke="#1f5fa8" stroke-width="2"/>
+<line x1="190.00" y1="110.00" x2="232.00" y2="218.00" stroke="#1f5fa8" stroke-width="2" stroke-dasharray="6,4"/>
+<line x1="76.00" y1="296.00" x2="232.00" y2="218.00" stroke="#1f5fa8" stroke-width="2" stroke-dasharray="6,4"/>
+<line x1="304.00" y1="296.00" x2="232.00" y2="218.00" stroke="#1f5fa8" stroke-width="2" stroke-dasharray="6,4"/>
+<line x1="200.50" y1="230.00" x2="190.00" y2="110.00" stroke="#888888" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="200.50" y1="230.00" x2="76.00" y2="296.00" stroke="#888888" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="200.50" y1="230.00" x2="304.00" y2="296.00" stroke="#888888" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="200.50" y1="230.00" x2="232.00" y2="218.00" stroke="#888888" stroke-width="1.2" stroke-dasharray="4,3"/>
+<circle cx="190.00" cy="110.00" r="16.00" fill="#d6e2f3" stroke="#1f5fa8" stroke-width="1.5"/>
+<circle cx="76.00" cy="296.00" r="16.00" fill="#d6e2f3" stroke="#1f5fa8" stroke-width="1.5"/>
+<circle cx="304.00" cy="296.00" r="16.00" fill="#d6e2f3" stroke="#1f5fa8" stroke-width="1.5"/>
+<circle cx="232.00" cy="218.00" r="16.00" fill="#d6e2f3" stroke="#1f5fa8" stroke-width="1.5"/>
+<circle cx="200.50" cy="230.00" r="8.00" fill="#c0392b" stroke="#ffffff" stroke-width="1.2"/>
+<text x="186.5" y="235.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="end" fill="#c0392b" font-weight="bold">Si</text>
+<text x="212.0" y="115.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="start" fill="#1a1a1a" font-weight="bold">O</text>
+<text x="183.2" y="170.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="end" fill="#1a1a1a">Si–O ≈ 1,61–1,62 Å</text>
+<text x="190.0" y="338.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">O–O (aresta) ≈ 2,63 Å</text>
+<text x="190.0" y="40.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#1a1a1a" font-weight="bold">(a) o tetraedro SiO₄</text>
+<text x="190.0" y="62.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">ângulo O–Si–O ≈ 109,5°; carga do grupo isolado: −4</text>
+<text x="700.0" y="40.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#1a1a1a" font-weight="bold">(b) Qn: n = vértices compartilhados com outros tetraedros</text>
+<text x="700.0" y="62.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">vista de cima (cada triângulo é um tetraedro; o ápice aponta para você)</text>
+<polygon points="425.00,204.00 402.48,243.00 447.52,243.00" fill="#f6d5d1" stroke="#c0392b" stroke-width="1.6" fill-opacity="1"/>
+<text x="425.0" y="325.0" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#1a1a1a" font-weight="bold">Q0</text>
+<polygon points="560.00,204.00 537.48,243.00 582.52,243.00" fill="#f6d5d1" stroke="#c0392b" stroke-width="1.6" fill-opacity="1"/>
+<polygon points="560.00,204.00 582.52,165.00 537.48,165.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="560.00" cy="204.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<text x="560.0" y="325.0" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#1a1a1a" font-weight="bold">Q1</text>
+<polygon points="695.00,204.00 672.48,243.00 717.52,243.00" fill="#f6d5d1" stroke="#c0392b" stroke-width="1.6" fill-opacity="1"/>
+<polygon points="695.00,204.00 717.52,165.00 672.48,165.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="695.00" cy="204.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="649.97,282.00 672.48,243.00 627.45,243.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="672.48" cy="243.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<text x="695.0" y="325.0" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#1a1a1a" font-weight="bold">Q2</text>
+<polygon points="830.00,204.00 807.48,243.00 852.52,243.00" fill="#f6d5d1" stroke="#c0392b" stroke-width="1.6" fill-opacity="1"/>
+<polygon points="830.00,204.00 852.52,165.00 807.48,165.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="830.00" cy="204.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="784.97,282.00 807.48,243.00 762.45,243.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="807.48" cy="243.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="875.03,282.00 897.55,243.00 852.52,243.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="852.52" cy="243.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<text x="830.0" y="325.0" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#1a1a1a" font-weight="bold">Q3</text>
+<polygon points="965.00,204.00 942.48,243.00 987.52,243.00" fill="#f6d5d1" stroke="#c0392b" stroke-width="1.6" fill-opacity="1"/>
+<polygon points="965.00,204.00 987.52,165.00 942.48,165.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="965.00" cy="204.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="919.97,282.00 942.48,243.00 897.45,243.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="942.48" cy="243.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="1010.03,282.00 1032.55,243.00 987.52,243.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="987.52" cy="243.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="965.00" cy="230.00" r="9.00" fill="none" stroke="#1f5fa8" stroke-width="2"/>
+<circle cx="965.00" cy="230.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<text x="965.0" y="325.0" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#1a1a1a" font-weight="bold">Q4</text>
+<text x="700.0" y="370.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#444444">Q0 neso · Q1 soro (e pontas de cadeia) · Q2 anéis e cadeias simples · Q3 folhas · Q4 arcabouços</text>
+<text x="700.0" y="390.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#444444">no Q4, o quarto vértice compartilhado é o ápice (círculo azul), ligado a um tetraedro acima</text>
+</svg>

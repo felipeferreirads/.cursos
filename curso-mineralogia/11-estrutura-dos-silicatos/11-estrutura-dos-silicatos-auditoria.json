@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "11-estrutura-dos-silicatos",
+    "module_id": "11",
+    "course_id": "mineralogia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-10-06",
+  "verdict": "approved",
+  "summary": {
+    "red": 0,
+    "orange": 0,
+    "yellow": 3,
+    "blue": 0,
+    "white": 0,
+    "verified_ok": 33
+  },
+  "findings": [
+    {
+      "claim_id": "CRQ-ALSI-CARGA-001",
+      "severity": "yellow",
+      "kind": "confusao_de_escopo",
+      "claim": "o Al3+ e o unico cation abundante que ocupa tetraedros alem do Si",
+      "location": {
+        "file": "11-estrutura-dos-silicatos/11-estrutura-dos-silicatos-aula-03-substituicao-al-si-e-cations-de-compensacao.md",
+        "section": "Uma carga a mais",
+        "quote": "O Al3+ e o unico cation abundante que cabe bem no tetraedro alem do Si4+"
+      },
+      "problem": "O Fe3+ (abundante) tambem ocupa tetraedros em alguns minerais, como a tetraferriflogopita; \"unico\" e falso como escrito.",
+      "replacement": "o Al3+ e, de longe, o cation que mais ocupa tetraedros no lugar do Si4+ (o Fe3+ tambem pode, em muito menos minerais)",
+      "source": {
+        "name": "Mindat; Webmineral (tetraferriflogopita)",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "11-estrutura-dos-silicatos/11-estrutura-dos-silicatos-aula-03-substituicao-al-si-e-cations-de-compensacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRQ-PROP-INO-001",
+      "severity": "yellow",
+      "kind": "omissao_que_gera_erro",
+      "claim": "asbesto = anfibolios fibrosos; sitios entre as vigas = M2 e M4",
+      "location": {
+        "file": "11-estrutura-dos-silicatos/11-estrutura-dos-silicatos-aula-04-da-estrutura-a-propriedade-clivagem-habito-e-densidade.md",
+        "section": "Ino: cadeias, prismas e duas clivagens",
+        "quote": "alguns anfibolios formam fibras, o asbesto"
+      },
+      "problem": "\"o asbesto\" sugere que todo asbesto e anfibolio (a crisotila, serpentina, e o asbesto mais usado); e o sitio A do anfibolio tambem fica entre as vigas.",
+      "replacement": "alguns anfibolios crescem em fibras, entre os minerais chamados de asbesto (a crisotila, uma serpentina, e outro); M4 e o sitio A",
+      "source": {
+        "name": "Klein & Dutrow",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "11-estrutura-dos-silicatos/11-estrutura-dos-silicatos-aula-04-da-estrutura-a-propriedade-clivagem-habito-e-densidade.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRQ-MAPA-STRUNZ-001",
+      "severity": "yellow",
+      "kind": "omissao_que_gera_erro",
+      "claim": "a classe 9 de Nickel-Strunz tem as subdivisoes 9.A a 9.G",
+      "location": {
+        "file": "11-estrutura-dos-silicatos/11-estrutura-dos-silicatos-aula-05-panorama-dos-silicatos-formadores-de-rocha-o-mapa-do-bloco-de-sistematica.md",
+        "section": "O mapa",
+        "quote": "tem as subdivisoes 9.A neso ... 9.G"
+      },
+      "problem": "Faltavam 9.H (silicatos nao classificados) e 9.J (germanatos); a frase dava a lista como completa.",
+      "replacement": "acrescentadas 9.H e 9.J",
+      "source": {
+        "name": "Mindat, Strunz-mindat (2025)",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "11-estrutura-dos-silicatos/11-estrutura-dos-silicatos-aula-05-panorama-dos-silicatos-formadores-de-rocha-o-mapa-do-bloco-de-sistematica.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "CRQ-SIL-TETRA-001",
+      "claim": "Tetraedro SiO4: Si-O ~1,61 (Shannon 0,26 + 1,35) a ~1,62 A medido; O-Si-O ~109,5 graus; aresta O-O ~2,63 A (1,61 x raiz(8/3)); carga do grupo isolado -4.",
+      "source": "Shannon (1976); modulo 01 aula 06; modulo 08 aula 01; calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-SIL-PAULING2-001",
+      "claim": "s(Si IV) = 1; O ponte recebe 1 + 1 = 2 de dois Si; O nao ponte da forsterita recebe 1 + 3 x 1/3 = 2; C (4/3) e S (3/2) nao polimerizam (C-O-C daria 8/3).",
+      "source": "Pauling (1929); modulo 08 aula 04",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-SIL-VERTICE-001",
+      "claim": "Nos silicatos comuns os tetraedros compartilham so vertices (aresta 1,86 A, face 1,07 A, vertice ~3,06 A entre Si); no maximo dois tetraedros por vertice (tres dariam 3 ao O).",
+      "source": "modulo 08 aula 05; Pauling (1929)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-SIL-SIOSI-001",
+      "claim": "Angulo Si-O-Si varia de ~120 a 180 graus nos silicatos; ~144 graus no alfa-quartzo.",
+      "source": "Gibbs et al.; Liebau (1985) (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-SIL-QN-001",
+      "claim": "Notacao Qn: n = oxigenios ponte por tetraedro (0 a 4); Q0 isolado, Q1 pares e pontas, Q2 aneis e cadeias simples, Q3 folhas, Q4 arcaboucos; origem na RMN de 29Si (Engelhardt et al. 1975; Lippmaa et al. 1980).",
+      "source": "busca (Am. Mineral. 70, 332; literatura de vidros)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-SIL-ABUND-001",
+      "claim": "O ~47% da massa, ~63% dos atomos, ~90% do volume da crosta; silicatos ~92% em volume.",
+      "source": "modulo 02 aula 04 (Ronov & Yaroshevsky 1969)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-SIL-SI2O7-001",
+      "claim": "Si2O7: 7 O, carga -6.",
+      "source": "calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-POLIM-REGRA-001",
+      "claim": "O por Si = 4 - n/2, com n vertices compartilhados por tetraedro: 4; 3,5; 3; 2,5; 2.",
+      "source": "calculo; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-POLIM-CLASSES-001",
+      "claim": "Neso SiO4 -4 1:4; soro Si2O7 -6 2:7; ciclo Si3O9 -6 / Si6O18 -12 1:3; ino simples SiO3 -2 / Si2O6 -4 1:3; ino dupla Si4O11 -6 4:11 (metade dos tetraedros com 2 vertices, metade com 3, media 2,5); filo Si2O5 -2 / Si4O10 -4 2:5; tecto SiO2 0 1:2.",
+      "source": "Klein & Dutrow; calculo em Python",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-POLIM-EXEMPLOS-001",
+      "claim": "Forsterita Mg2SiO4 (Mg VI); zircao ZrSiO4 (Zr VIII); hemimorfita Zn4Si2O7(OH)2.H2O (Zn IV); berilo Be3Al2Si6O18 (Be IV, Al VI); diopsidio CaMgSi2O6 (Mg VI, Ca VIII); tremolita Ca2Mg5Si8O22(OH)2 (Mg VI, Ca VIII); talco Mg3Si4O10(OH)2 (Mg VI); quartzo SiO2.",
+      "source": "Handbook of Mineralogy; Mindat (busca); modulos 08 e 09",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-POLIM-ANEIS-001",
+      "claim": "Aneis comuns de 3 (Si3O9, benitoita BaTiSi3O9) e de 6 tetraedros (Si6O18, berilo, turmalina).",
+      "source": "Klein & Dutrow; Mindat (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-POLIM-MISTOS-001",
+      "claim": "Epidoto Ca2Al2Fe3+(SiO4)(Si2O7)O(OH) tem SiO4 e Si2O7 e e classificado entre os sorossilicatos; titanita CaTiSiO5 e nesossilicato (SiO4 + O extra).",
+      "source": "Nickel-Strunz 9.B (epidoto); modulo 02 aula 05 (titanita)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-POLIM-WOLL-001",
+      "claim": "Wollastonita CaSiO3: cadeia simples (piroxenoide).",
+      "source": "Klein & Dutrow; LibreTexts (Perkins)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-POLIM-CARGAS-001",
+      "claim": "Cargas dos exemplos (hemimorfita, tremolita, caulinita, wollastonita, cianita) fecham em zero.",
+      "source": "calculo em Python",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-ALSI-FLOGOPITA-001",
+      "claim": "Talco Mg3Si4O10(OH)2 com 1 Si trocado por Al e K na intercamada = flogopita KMg3(AlSi3O10)(OH)2; o K une as laminas da mica.",
+      "source": "Rieder et al. (1998); modulo 01 aula 05",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-ALSI-MUSCOVITA-001",
+      "claim": "Muscovita KAl2(AlSi3O10)(OH)2: 1 Al IV (parenteses) e 2 Al VI; carga da unidade (AlSi3O10) -5; formula neutra; 25% de Al nos sitios T.",
+      "source": "Rieder et al. (1998); calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-ALSI-RAIOS-001",
+      "claim": "Al3+ 0,39 A em NC IV e 0,535 A em NC VI; Si4+ IV 0,26 A (diferenca de 50%).",
+      "source": "Shannon (1976); modulos 08 e 09",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-ALSI-CLASSIF-001",
+      "claim": "Classificar por (Si + Al IV):O: muscovita 2:5 filo; ortoclasio, anortita, leucita KAlSi2O6 e nefelina Na3K(Al4Si4O16) 1:2 tecto; jadeita NaAlSi2O6 tem Al VI e e inossilicato.",
+      "source": "Klein & Dutrow; Mindat; Morimoto (1988)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-ALSI-LOEW-001",
+      "claim": "Loewenstein (1954), Am. Mineral. 39, 92-96: dois tetraedros de Al nao compartilham o mesmo O; maximo Al:Si = 1:1 em arcaboucos e folhas, com alternancia rigorosa (anortita, nefelina); excecoes em sinteticos e algumas zeolitas.",
+      "source": "Loewenstein (1954) (busca); literatura de zeolitas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-ALSI-PAULING-001",
+      "claim": "Soma de forcas no O ponte: Si-O-Si 2; Si-O-Al 1,75; Al-O-Al 1,5.",
+      "source": "calculo com s = carga/NC (modulo 08)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-ALSI-ALVI-001",
+      "claim": "Al octaedrico na cianita, no berilo e na jadeita; na sillimanita e na andaluzita so metade e octaedrica.",
+      "source": "modulo 10 aula 01; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PROP-REGRA-001",
+      "claim": "A clivagem tende a passar entre as unidades silicaticas, pelas ligacoes mais fracas (cations grandes de carga baixa; van der Waals).",
+      "source": "Klein & Dutrow; modulo 01 aula 05",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PROP-NESO-001",
+      "claim": "Nesossilicatos: clivagem ausente ou pobre (granada nenhuma, olivina pobre), habito equidimensional; zircao e excecao prismatica.",
+      "source": "Klein & Dutrow; Handbook of Mineralogy",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PROP-ANGULO-001",
+      "claim": "Angulo entre (110) e (1-10) = 2 arctan(a senB / b): diopsidio (9,746; 8,899; 105,63) 93,0/87,0; tremolita (9,863; 18,048; ~104,8) 55,7/124,3.",
+      "source": "calculo em Python; HoM; Mindat; modulo 05",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PROP-FILO-001",
+      "claim": "Filossilicatos: clivagem basal perfeita {001}, habito placoide; talco dureza 1, micas 2-2,5.",
+      "source": "modulo 01 aula 05; HoM",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PROP-TECTO-001",
+      "claim": "Quartzo sem clivagem, fratura conchoidal, dureza 7; feldspatos com duas clivagens boas a cerca de 90 graus.",
+      "source": "Klein & Dutrow; modulo 01",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PROP-DENS-001",
+      "claim": "Densidades: forsterita ~3,28 (HoM 3,275); enstatita Mg ~3,19 (calc 3,189); talco ~2,7-2,8; quartzo 2,65; ortoclasio ~2,56; albita ~2,62; zircao ~4,6-4,7.",
+      "source": "Handbook of Mineralogy (busca); modulos 06 e 10",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-PROP-BOWEN-001",
+      "claim": "Serie descontinua de Bowen: olivina -> piroxenio -> anfibolio -> biotita, depois feldspato K, muscovita, quartzo; acompanha polimerizacao crescente; plagioclasio (tecto) em serie continua paralela desde o inicio.",
+      "source": "Britannica; Earle, Physical Geology (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-MAPA-MODULOS-001",
+      "claim": "Neso, soro e ciclo no modulo 33; ino no 34; filo no 35; tecto no 36, com os grupos listados nos hubs (olivina, granadas, Al2SiO5, zircao, titanita, topazio, estaurolita, cloritoide; epidoto, lawsonita, vesuvianita, melilita; berilo, cordierita, turmalina; piroxenios, piroxenoides, anfibolios; serpentinas, caulinita, talco, pirofilita, micas, cloritas, argilominerais; silica, feldspatos, feldspatoides, zeolitas, escapolita).",
+      "source": "hubs dos modulos 33-36",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-MAPA-QUARTZO-001",
+      "claim": "Quartzo: tectossilicato pela estrutura e para Dana (75.1.3.1); oxido para Nickel-Strunz (4.DA.05).",
+      "source": "modulo 02 aula 05",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-MAPA-MISTOS-001",
+      "claim": "Epidoto e vesuvianita tem SiO4 e Si2O7 e ficam entre os sorossilicatos.",
+      "source": "Nickel-Strunz 9.BG (busca); Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-MAPA-LIEBAU-001",
+      "claim": "Liebau (1985): dimensionalidade (0 grupos finitos, 1 cadeias, 2 folhas, 3 arcaboucos), multiplicidade (simples 1, dupla 2), periodicidade (piroxenio 2, wollastonita 3, rodonita 5); termos zweier, dreier, funfer; anfibolio = cadeia dupla de periodicidade 2.",
+      "source": "Liebau (1985); Mineral. Mag. (hierarquia de silicatos de cadeia); Perkins (LibreTexts) (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRQ-MAPA-EXEMPLOS-001",
+      "claim": "Piropo Mg3Al2Si3O12 (Mg VIII, Al VI) neso; lawsonita CaAl2Si2O7(OH)2.H2O soro; berilo Be3Al2Si6O18 (Be IV, Al VI); jadeita NaAlSi2O6 ino; flogopita KMg3(AlSi3O10)(OH)2 filo; sodalita Na8(Al6Si6O24)Cl2 tecto com Al:Si 1:1; cargas zero.",
+      "source": "Grew et al. (2013); Mindat; Morimoto (1988); Rieder et al. (1998); calculo",
+      "confidence": "confirmado"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 720" width="980" height="720">
+<title>Polimerizacao dos silicatos em projecao esquematica</title>
+<rect x="0" y="0" width="980" height="720" fill="#ffffff"/>
+<polygon points="40.00,120.00 74.00,120.00 57.00,90.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="110.00,95.00 144.00,95.00 127.00,65.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="85.00,160.00 119.00,160.00 102.00,130.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<text x="100.0" y="215.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#1a1a1a" font-weight="bold">nesossilicato</text>
+<text x="100.0" y="233.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">tetraedros isolados (Q0)</text>
+<text x="100.0" y="249.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#c0392b" font-weight="bold">SiO₄, carga −4 · Si:O = 1:4</text>
+<polygon points="250.00,130.00 284.00,130.00 267.00,100.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="284.00,130.00 318.00,130.00 301.00,159.44" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="284.00" cy="130.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<text x="300.0" y="215.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#1a1a1a" font-weight="bold">sorossilicato</text>
+<text x="300.0" y="233.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">pares (Q1)</text>
+<text x="300.0" y="249.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#c0392b" font-weight="bold">Si₂O₇, carga −6 · Si:O = 2:7</text>
+<polygon points="470.00,103.00 450.95,136.00 431.89,103.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="450.95,136.00 489.05,136.00 470.00,169.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="489.05,136.00 470.00,103.00 508.11,103.00" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="470.00" cy="103.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="450.95" cy="136.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="489.05" cy="136.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="644.00,125.00 627.00,154.44 661.00,154.44" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="627.00,154.44 593.00,154.44 610.00,183.89" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="593.00,154.44 576.00,125.00 559.00,154.44" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="576.00,125.00 593.00,95.56 559.00,95.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="593.00,95.56 627.00,95.56 610.00,66.11" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="627.00,95.56 644.00,125.00 661.00,95.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="644.00" cy="125.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="627.00" cy="154.44" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="593.00" cy="154.44" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="576.00" cy="125.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="593.00" cy="95.56" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="627.00" cy="95.56" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<text x="545.0" y="215.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#1a1a1a" font-weight="bold">ciclossilicato</text>
+<text x="545.0" y="233.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">anéis de 3 ou de 6 (Q2)</text>
+<text x="545.0" y="249.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#c0392b" font-weight="bold">Si₃O₉ (−6) ou Si₆O₁₈ (−12) · Si:O = 1:3</text>
+<polygon points="40.00,330.00 74.00,330.00 57.00,300.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="74.00,330.00 108.00,330.00 91.00,359.44" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="74.00" cy="330.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="108.00,330.00 142.00,330.00 125.00,300.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="108.00" cy="330.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="142.00,330.00 176.00,330.00 159.00,359.44" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="142.00" cy="330.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="176.00,330.00 210.00,330.00 193.00,300.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="176.00" cy="330.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="210.00,330.00 244.00,330.00 227.00,359.44" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="210.00" cy="330.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="244.00,330.00 278.00,330.00 261.00,300.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="244.00" cy="330.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="278.00,330.00 312.00,330.00 295.00,359.44" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="278.00" cy="330.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<text x="175.0" y="395.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#1a1a1a" font-weight="bold">inossilicato, cadeia simples</text>
+<text x="175.0" y="413.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">cada tetraedro: 2 vértices (Q2)</text>
+<text x="175.0" y="429.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#c0392b" font-weight="bold">SiO₃ (−2) ou Si₂O₆ (−4) · Si:O = 1:3</text>
+<polygon points="520.00,345.00 554.00,345.00 537.00,315.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="520.00,286.11 554.00,286.11 537.00,315.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="554.00,345.00 588.00,345.00 571.00,374.44" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="554.00,286.11 588.00,286.11 571.00,256.67" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="554.00" cy="345.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="554.00" cy="286.11" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="588.00,345.00 622.00,345.00 605.00,315.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="588.00,286.11 622.00,286.11 605.00,315.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="588.00" cy="345.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="588.00" cy="286.11" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="622.00,345.00 656.00,345.00 639.00,374.44" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="622.00,286.11 656.00,286.11 639.00,256.67" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="622.00" cy="345.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="622.00" cy="286.11" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="656.00,345.00 690.00,345.00 673.00,315.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="656.00,286.11 690.00,286.11 673.00,315.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="656.00" cy="345.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="656.00" cy="286.11" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="690.00,345.00 724.00,345.00 707.00,374.44" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="690.00,286.11 724.00,286.11 707.00,256.67" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="690.00" cy="345.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="690.00" cy="286.11" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="724.00,345.00 758.00,345.00 741.00,315.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="724.00,286.11 758.00,286.11 741.00,315.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="724.00" cy="345.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="724.00" cy="286.11" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<polygon points="758.00,345.00 792.00,345.00 775.00,374.44" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="758.00,286.11 792.00,286.11 775.00,256.67" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<circle cx="758.00" cy="345.00" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="758.00" cy="286.11" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="537.00" cy="315.56" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="605.00" cy="315.56" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="673.00" cy="315.56" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="741.00" cy="315.56" r="4.00" fill="#1f5fa8" stroke="#ffffff" stroke-width="1.2"/>
+<text x="655.0" y="395.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#1a1a1a" font-weight="bold">inossilicato, cadeia dupla</text>
+<text x="655.0" y="413.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">metade Q2, metade Q3 (média 2,5)</text>
+<text x="655.0" y="429.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#c0392b" font-weight="bold">Si₄O₁₁, carga −6 · Si:O = 4:11</text>
+<polygon points="40.00,690.00 74.00,690.00 57.00,660.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="74.00,690.00 108.00,690.00 91.00,719.44" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="108.00,690.00 142.00,690.00 125.00,660.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="142.00,690.00 176.00,690.00 159.00,719.44" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="176.00,690.00 210.00,690.00 193.00,660.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="210.00,690.00 244.00,690.00 227.00,719.44" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="244.00,690.00 278.00,690.00 261.00,660.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="278.00,690.00 312.00,690.00 295.00,719.44" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="40.00,631.11 74.00,631.11 57.00,660.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="74.00,631.11 108.00,631.11 91.00,601.67" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="108.00,631.11 142.00,631.11 125.00,660.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="142.00,631.11 176.00,631.11 159.00,601.67" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="176.00,631.11 210.00,631.11 193.00,660.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="210.00,631.11 244.00,631.11 227.00,601.67" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="244.00,631.11 278.00,631.11 261.00,660.56" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="278.00,631.11 312.00,631.11 295.00,601.67" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="40.00,572.22 74.00,572.22 57.00,542.78" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="74.00,572.22 108.00,572.22 91.00,601.67" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="108.00,572.22 142.00,572.22 125.00,542.78" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="142.00,572.22 176.00,572.22 159.00,601.67" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="176.00,572.22 210.00,572.22 193.00,542.78" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="210.00,572.22 244.00,572.22 227.00,601.67" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="244.00,572.22 278.00,572.22 261.00,542.78" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<polygon points="278.00,572.22 312.00,572.22 295.00,601.67" fill="#e8eef7" stroke="#1f5fa8" stroke-width="1.4" fill-opacity="1"/>
+<text x="415.0" y="560.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#1a1a1a" font-weight="bold">filossilicato</text>
+<text x="415.0" y="578.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">folhas: 3 vértices por tetraedro (Q3)</text>
+<text x="415.0" y="594.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#c0392b" font-weight="bold">Si₂O₅ (−2) ou Si₄O₁₀ (−4) · Si:O = 2:5</text>
+<rect x="560.00" y="520.00" width="380.00" height="140.00" fill="#f7f7f7" stroke="#bbbbbb" stroke-width="1"/>
+<text x="750.0" y="550.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#1a1a1a" font-weight="bold">tectossilicato</text>
+<text x="750.0" y="572.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">arcabouço tridimensional: os 4 vértices</text>
+<text x="750.0" y="588.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">de cada tetraedro são compartilhados (Q4)</text>
+<text x="750.0" y="606.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#444444">não se desenha bem em projeção plana</text>
+<text x="750.0" y="636.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#c0392b" font-weight="bold">SiO₂ · Si:O = 1:2 (carga zero)</text>
+</svg>

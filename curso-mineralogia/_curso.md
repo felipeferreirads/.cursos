@@ -1,7 +1,7 @@
 # Curso: Mineralogia — da cristalografia à gênese (base e avançado)
 
 **Estado:** in_progress
-**Criado em:** 2026-09-29T00:00:00-03:00  ·  **Atualizado em:** 2026-10-06T10:10:00-03:00
+**Criado em:** 2026-09-29T00:00:00-03:00  ·  **Atualizado em:** 2026-10-06T18:30:00-03:00
 **Base do currículo:** pesquisa das ementas e sumários de referência, cruzada com o escopo previsto pelo usuário: ementas do IGc-USP — GMG0106 Cristalografia Fundamental (45 h) e GMG0220 Mineralogia (105 h), com as optativas GMG0203 Mineralogia Aplicada e GMG0425 Técnicas Gemológicas (pasta GradeCurricular/Geologia-USP) —; sumários de Klein & Dutrow, Manual of Mineral Science, 23a ed. (22 capítulos, incl. crescimento e defeitos, estabilidade e diagramas de fase, processos pós-cristalização, gemas e assembleias); Nesse, Introduction to Mineralogy (cristalografia, cristaloquímica, estrutura, crescimento mineral, óptica, DRX, análise química, sistemática por classe estrutural); Putnis, An Introduction to Mineral Sciences (simetria, anisotropia, difração, espectroscopia, defeitos, energética, soluções sólidas, exsolução, ordem, cinética, transformações); Perkins, Mineralogy (gênese por ambiente ígneo, sedimentar, metamórfico e de minério); Wenk & Bulakh, Minerals: Their Constitution and Origin (formação e ambientes); Dyar & Gunter, Mineralogy and Optical Mineralogy (MSA); Deer, Howie & Zussman (minerais formadores de rocha); Nesse, Introduction to Optical Mineralogy; normativo IMA-CNMNC (definição de mineral, lista de espécies, nomenclatura de grupos) e classificação Nickel-Strunz/Dana; Mindat e RRUFF como referência de dados.
 **Partida:** ensino médio completo, sem geologia prévia. Curso autossuficiente: nenhum pré-requisito cruzado para outros cursos; a química, a óptica e o contexto geológico necessários são reconstruídos dentro do próprio curso (módulos 01, 03 e 14).  ·  **Chegada:** avançado — nível de graduação plena em mineralogia e cristalografia, com incursões de pós-graduação nos módulos de aprofundamento (grupos espaciais, difração avançada, cinética, inclusões fluidas, geotermobarometria, mineralogia gemológica).
 **Volume estimado:** 50 módulos · ~262 aulas de ≤30 min · ~109-131 h (núcleo: 199 aulas, 83-100 h; aprofundamento: 63 aulas, 26-32 h) de estudo
@@ -23,16 +23,16 @@
 
 ## Estado
 
-- **Módulos:** 8 de 50 concluídos
-- **Aulas escritas:** 45
-- **Questionários:** 16
-- **Flashcards:** 573 Basic · 174 Cloze
-- **Módulo atual:** 10
-- **Próximo passo:** Módulos 01 a 06, 08 e 09 concluídos (07, grupos espaciais, é aprofundamento e fica para a segunda passagem). Módulo 08 fechado em 2026-10-06: 6 aulas, auditoria 🟠 3, 🟡 3, 🔵 1 corrigidos; revisão 🟠 2, 🟡 2 corrigidos, 🔵 3 abertos; parciais 1 e 2 + final (28 q, 77 pts); baralho 75 Basic + 10 Cloze; 6 figuras SVG calculadas + a cela da halita do m06 reaproveitada. Módulo 09 fechado em 2026-10-06: 6 aulas, auditoria 🟠 1, 🟡 2 corrigidos, 🔵 1 adiado (óxidos FeO, MnO, MgO e NiO da olivina de San Carlos, m09 a04, a conferir na tabela de Jarosewich et al. 1980); revisão 🟠 1, 🟡 2 corrigidos, 🔵 3 abertos; parciais 1 e 2 + final (28 q, 77 pts); baralho 69 Basic + 10 Cloze. Pendências não bloqueantes herdadas: m01 (cloze com mais de 3 lacunas, quase-duplicatas), m02 (auditoria cross-course com curso-geologia m04 a03); o módulo 36 deve conferir o parâmetro c do ortoclásio na fonte primária. Próximo passo: módulo 10 (polimorfismo), começando pelas aulas; retomar os polimorfos de TiO2 (m08 a05), esfalerita/wurtzita (m08 a06) e a dolomita ordenada (m09 a03).
+- **Módulos:** 10 de 50 concluídos
+- **Aulas escritas:** 55
+- **Questionários:** 18
+- **Flashcards:** 700 Basic · 190 Cloze
+- **Módulo atual:** 12
+- **Próximo passo:** Módulos 01 a 06 e 08 a 11 concluídos (07, grupos espaciais, é aprofundamento e fica para a segunda passagem). Módulo 10 fechado em 2026-10-06: 5 aulas (aula 05 e objetivo oa05 acrescentados com IDs novos); auditoria 🟠 3, 🟡 6, 🔵 1 corrigidos; revisão 🟠 1, 🟡 3 corrigidos, 🔵 3 abertos; questionário final (15 q, 37 pts); baralho 70 Basic + 8 Cloze; 3 figuras SVG. Módulo 11 fechado em 2026-10-06: 5 aulas; auditoria 🟡 3 corrigidos, nenhum aberto (todas as razões Si:O e cargas recalculadas em Python); revisão 🟡 5 corrigidos, 🔵 3 abertos; questionário final (15 q, 37 pts); baralho 57 Basic + 8 Cloze; 3 figuras SVG. Pendências não bloqueantes herdadas: m09 (🔵 óxidos da olivina de San Carlos a conferir em Jarosewich et al. 1980), m01 (cloze com mais de 3 lacunas, quase-duplicatas), m02 (auditoria cross-course com curso-geologia m04 a03); o módulo 36 deve conferir o parâmetro c do ortoclásio na fonte primária; o módulo 22 deve decidir, com fonte, qual polimorfo de Al2SiO5 é estável a 25 °C e 1 atm (evitado no m10); o módulo 34 deve conferir o β da tremolita no Handbook of Mineralogy (m11 usou 104,8–104,95°). Próximo passo: módulo 12 (defeitos cristalinos e maclas, núcleo), começando pelas aulas.
 
 ## Módulos
 
-Os 50 módulos aparecem como subpáginas abaixo, na ordem do currículo. Apenas os Módulos 01, 02, 03, 04, 05, 06, 08, 09 têm conteúdo completo (aulas, auditoria, questionário, flashcards e roteiros de voz); os demais têm o hub com objetivos e pré-requisitos definidos, aguardando geração.
+Os 50 módulos aparecem como subpáginas abaixo, na ordem do currículo. Apenas os Módulos 01, 02, 03, 04, 05, 06, 08, 09, 10, 11 têm conteúdo completo (aulas, auditoria, questionário, flashcards e roteiros de voz); os demais têm o hub com objetivos e pré-requisitos definidos, aguardando geração.
 
 ### I. Fundamentos: da matéria ao mineral
 
@@ -51,8 +51,8 @@ Os 50 módulos aparecem como subpáginas abaixo, na ordem do currículo. Apenas 
 
 - ✅ **08 — Cristaloquímica I: raios iônicos, coordenação e regras de Pauling** · 6/6 aulas · questionário + 85 cards · auditado · pré-req: 01, 06 — [[08-empacotamento-e-coordenacao/08-empacotamento-e-coordenacao-modulo|abrir]]
 - ✅ **09 — Cristaloquímica II: substituição iônica, solução sólida e fórmula estrutural** · 6/6 aulas · questionário + 79 cards · auditado · pré-req: 08 — [[09-substituicao-e-formula/09-substituicao-e-formula-modulo|abrir]]
-- **10 — Polimorfismo, politipismo, ordem-desordem e não cristalinidade** · 4 aulas planejadas · pré-req: 09 — [[10-polimorfismo/10-polimorfismo-modulo|abrir]]
-- **11 — Arquitetura dos silicatos** · 5 aulas planejadas · pré-req: 09 — [[11-estrutura-dos-silicatos/11-estrutura-dos-silicatos-modulo|abrir]]
+- ✅ **10 — Polimorfismo, politipismo, ordem-desordem e não cristalinidade** · 5/5 aulas · questionário + 78 cards · auditado · pré-req: 09 — [[10-polimorfismo/10-polimorfismo-modulo|abrir]]
+- ✅ **11 — Arquitetura dos silicatos** · 5/5 aulas · questionário + 65 cards · auditado · pré-req: 09 — [[11-estrutura-dos-silicatos/11-estrutura-dos-silicatos-modulo|abrir]]
 - **12 — Defeitos cristalinos e maclas** · 6 aulas planejadas · pré-req: 05, 10 — [[12-defeitos-e-maclas/12-defeitos-e-maclas-modulo|abrir]]
 
 ### IV. Propriedades físicas e identificação macroscópica
@@ -125,7 +125,7 @@ Os 50 módulos aparecem como subpáginas abaixo, na ordem do currículo. Apenas 
 
 ## Saldo das auditorias
 
-🔴 7 · 🟠 43 · 🟡 20 · 🔵 4 · ⚪ 1
+🔴 7 · 🟠 46 · 🟡 29 · 🔵 5 · ⚪ 1
 
 ## Decisões registradas
 

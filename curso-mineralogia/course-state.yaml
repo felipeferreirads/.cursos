@@ -39,7 +39,7 @@ learning_outcomes:
   e de propriedades, com grau de confiança explícito.
 status: in_progress
 created_at: '2026-09-29T00:00:00-03:00'
-updated_at: '2026-10-06T10:10:00-03:00'
+updated_at: '2026-10-06T18:30:00-03:00'
 curriculum_basis: 'pesquisa das ementas e sumários de referência, cruzada com o escopo previsto pelo usuário: ementas
   do IGc-USP — GMG0106 Cristalografia Fundamental (45 h) e GMG0220 Mineralogia (105 h), com as optativas GMG0203
   Mineralogia Aplicada e GMG0425 Técnicas Gemológicas (pasta GradeCurricular/Geologia-USP) —; sumários de Klein
@@ -52,17 +52,18 @@ curriculum_basis: 'pesquisa das ementas e sumários de referência, cruzada com 
   Dyar & Gunter, Mineralogy and Optical Mineralogy (MSA); Deer, Howie & Zussman (minerais formadores de rocha);
   Nesse, Introduction to Optical Mineralogy; normativo IMA-CNMNC (definição de mineral, lista de espécies, nomenclatura
   de grupos) e classificação Nickel-Strunz/Dana; Mindat e RRUFF como referência de dados.'
-current_module: '10'
-next_action: 'Módulos 01 a 06, 08 e 09 concluídos (07, grupos espaciais, é aprofundamento e fica para a segunda
-  passagem). Módulo 08 fechado em 2026-10-06: 6 aulas, auditoria 🟠 3, 🟡 3, 🔵 1 corrigidos; revisão 🟠 2, 🟡 2 corrigidos,
-  🔵 3 abertos; parciais 1 e 2 + final (28 q, 77 pts); baralho 75 Basic + 10 Cloze; 6 figuras SVG calculadas + a
-  cela da halita do m06 reaproveitada. Módulo 09 fechado em 2026-10-06: 6 aulas, auditoria 🟠 1, 🟡 2 corrigidos,
-  🔵 1 adiado (óxidos FeO, MnO, MgO e NiO da olivina de San Carlos, m09 a04, a conferir na tabela de Jarosewich et
-  al. 1980); revisão 🟠 1, 🟡 2 corrigidos, 🔵 3 abertos; parciais 1 e 2 + final (28 q, 77 pts); baralho 69 Basic +
-  10 Cloze. Pendências não bloqueantes herdadas: m01 (cloze com mais de 3 lacunas, quase-duplicatas), m02 (auditoria
-  cross-course com curso-geologia m04 a03); o módulo 36 deve conferir o parâmetro c do ortoclásio na fonte primária.
-  Próximo passo: módulo 10 (polimorfismo), começando pelas aulas; retomar os polimorfos de TiO2 (m08 a05), esfalerita/wurtzita
-  (m08 a06) e a dolomita ordenada (m09 a03).'
+current_module: '12'
+next_action: 'Módulos 01 a 06 e 08 a 11 concluídos (07, grupos espaciais, é aprofundamento e fica para a segunda
+  passagem). Módulo 10 fechado em 2026-10-06: 5 aulas (aula 05 e objetivo oa05 acrescentados com IDs novos); auditoria
+  🟠 3, 🟡 6, 🔵 1 corrigidos; revisão 🟠 1, 🟡 3 corrigidos, 🔵 3 abertos; questionário final (15 q, 37 pts); baralho
+  70 Basic + 8 Cloze; 3 figuras SVG. Módulo 11 fechado em 2026-10-06: 5 aulas; auditoria 🟡 3 corrigidos, nenhum
+  aberto (todas as razões Si:O e cargas recalculadas em Python); revisão 🟡 5 corrigidos, 🔵 3 abertos; questionário
+  final (15 q, 37 pts); baralho 57 Basic + 8 Cloze; 3 figuras SVG. Pendências não bloqueantes herdadas: m09 (🔵 óxidos
+  da olivina de San Carlos a conferir em Jarosewich et al. 1980), m01 (cloze com mais de 3 lacunas, quase-duplicatas),
+  m02 (auditoria cross-course com curso-geologia m04 a03); o módulo 36 deve conferir o parâmetro c do ortoclásio
+  na fonte primária; o módulo 22 deve decidir, com fonte, qual polimorfo de Al2SiO5 é estável a 25 °C e 1 atm (evitado
+  no m10); o módulo 34 deve conferir o β da tremolita no Handbook of Mineralogy (m11 usou 104,8–104,95°). Próximo
+  passo: módulo 12 (defeitos cristalinos e maclas, núcleo), começando pelas aulas.'
 blocking_issues: []
 decisions:
 - date: '2026-09-29'
@@ -1148,7 +1149,7 @@ modules:
     fica para o módulo 22.
   prerequisites:
   - '09'
-  status: pending
+  status: completed
   learning_objectives:
   - id: mineralogia-m10-oa01
     statement: Classificar transformações polimórficas em reconstrutivas, deslocativas e de ordem-desordem pelo
@@ -1165,38 +1166,96 @@ modules:
     statement: Distinguir cristal, mineraloide amorfo e mineral metamíctico e explicar a metamictização por dano
       de radiação
     cognitive_level: analisar
+  - id: mineralogia-m10-oa05
+    statement: Explicar, em termos qualitativos, a histerese das transformações e a metaestabilidade de polimorfos,
+      estados de ordem e vidros, distinguindo estável de persistente e usando a persistência como registro da história
+      da rocha
+    cognitive_level: explicar
   lessons:
-    planned: 4
-    completed: 0
+    planned: 5
+    completed: 5
     items:
     - id: mineralogia-m10-a01
       title: 'Polimorfismo: transformações reconstrutivas e deslocativas'
-      status: pending
+      status: completed
+      file: 10-polimorfismo/10-polimorfismo-aula-01-polimorfismo-transformacoes-reconstrutivas-e-deslocativas.md
+      content_hash: 3b50309fc7be250e860207dccd2a87bd7cbf8c8e1fd0a8cea90a3b457f2fb510
+      palavras_corpo: 1597
       covers_objectives:
       - mineralogia-m10-oa01
     - id: mineralogia-m10-a02
       title: Ordem-desordem de cátions e a história térmica
-      status: pending
+      status: completed
+      file: 10-polimorfismo/10-polimorfismo-aula-02-ordem-desordem-de-cations-e-a-historia-termica.md
+      content_hash: 025b247791fd4180309bffcbff6862a78f9f3ded90a95490bb2873f365c7cd85
+      palavras_corpo: 1312
       covers_objectives:
       - mineralogia-m10-oa03
+      - mineralogia-m10-oa01
     - id: mineralogia-m10-a03
-      title: Politipismo
-      status: pending
+      title: 'Politipismo: empilhamentos e a notação de Ramsdell'
+      status: completed
+      file: 10-polimorfismo/10-polimorfismo-aula-03-politipismo-empilhamentos-e-a-notacao-de-ramsdell.md
+      content_hash: 0d701330691ce7879dae7a9af1fe79b39010c9096002fa84f0165916d181ad03
+      palavras_corpo: 1133
       covers_objectives:
       - mineralogia-m10-oa02
     - id: mineralogia-m10-a04
       title: Amorfos, mineraloides e metamictização
-      status: pending
+      status: completed
+      file: 10-polimorfismo/10-polimorfismo-aula-04-amorfos-mineraloides-e-metamictizacao.md
+      content_hash: 3f46edfd995712dab97ed080337046d6a49a95c9d5b372e857403d6f85002619
+      palavras_corpo: 1307
       covers_objectives:
       - mineralogia-m10-oa04
+    - id: mineralogia-m10-a05
+      title: Transições, histerese e metaestabilidade
+      status: completed
+      file: 10-polimorfismo/10-polimorfismo-aula-05-transicoes-histerese-e-metaestabilidade.md
+      content_hash: 6c9c6f1b2119ef3ab31283b9b3c6a423ff92d5f89d88d2677a0a6f697a70cbd9
+      palavras_corpo: 1255
+      covers_objectives:
+      - mineralogia-m10-oa05
   audit:
-    status: pending
+    status: approved
+    file: 10-polimorfismo/10-polimorfismo-auditoria.md
+    red: 0
+    orange: 3
+    yellow: 6
+    blue: 1
+    white: 0
+    open_findings: []
+    audited_at: '2026-10-06'
   didactic_review:
-    status: pending
+    status: completed
+    file: 10-polimorfismo/10-polimorfismo-revisao-didatica.md
+    content_hash: 11637210b6487b0280200f8ea334bf08bca9eadad6813715010b109f79ea0f7d
+    generated_at: '2026-10-06T14:00:00-03:00'
   assessment:
-    status: pending
+    status: completed
+    files:
+    - 10-polimorfismo/10-polimorfismo-questionario-final.md
+    questions: 15
+    points: 37
+    objectives_covered:
+    - mineralogia-m10-oa01
+    - mineralogia-m10-oa02
+    - mineralogia-m10-oa03
+    - mineralogia-m10-oa04
+    - mineralogia-m10-oa05
+    blueprint_complete: true
+    uncovered_objectives: []
+    generated_at: '2026-10-06'
   flashcards:
-    status: pending
+    status: completed
+    index_file: 10-polimorfismo/10-polimorfismo-flashcards.md
+    basic_file: 10-polimorfismo/10-polimorfismo-flashcards-basic.csv
+    cloze_file: 10-polimorfismo/10-polimorfismo-flashcards-cloze.csv
+    count_basic: 70
+    count_cloze: 8
+    last_id: 70
+    last_id_cloze: 8
+    generated_at: '2026-10-06T15:00:00-03:00'
 # trilha: nucleo (núcleo) — módulo 11
 - id: '11'
   slug: estrutura-dos-silicatos
@@ -1206,7 +1265,7 @@ modules:
     e usá-la para prever propriedades — a espinha do maior bloco da sistemática.
   prerequisites:
   - '09'
-  status: pending
+  status: completed
   learning_objectives:
   - id: mineralogia-m11-oa01
     statement: Descrever o tetraedro SiO₄ e explicar, pela segunda regra de Pauling, por que ele polimeriza por
@@ -1224,42 +1283,88 @@ modules:
     cognitive_level: aplicar
   lessons:
     planned: 5
-    completed: 0
+    completed: 5
     items:
     - id: mineralogia-m11-a01
-      title: O tetraedro SiO₄ e a ligação Si-O
-      status: pending
+      title: O tetraedro SiO₄ e a ligação Si–O
+      status: completed
+      file: 11-estrutura-dos-silicatos/11-estrutura-dos-silicatos-aula-01-o-tetraedro-sio4-e-a-ligacao-si-o.md
+      content_hash: 5b87435a66d89cf174bdddb2dcaec67f4b2bd2432d0916cf69705f98f224ca42
+      palavras_corpo: 1326
       covers_objectives:
       - mineralogia-m11-oa01
     - id: mineralogia-m11-a02
       title: 'Polimerização: de tetraedros isolados a arcabouços'
-      status: pending
+      status: completed
+      file: 11-estrutura-dos-silicatos/11-estrutura-dos-silicatos-aula-02-polimerizacao-de-tetraedros-isolados-a-arcaboucos.md
+      content_hash: 1f24ec1304a0a55fcd02407899be13198139e66d965ff537efc8044392549b96
+      palavras_corpo: 1097
       covers_objectives:
       - mineralogia-m11-oa02
     - id: mineralogia-m11-a03
       title: Substituição Al↔Si e cátions de compensação
-      status: pending
+      status: completed
+      file: 11-estrutura-dos-silicatos/11-estrutura-dos-silicatos-aula-03-substituicao-al-si-e-cations-de-compensacao.md
+      content_hash: 46837ee615b9e1d54a6a48f01640047f811899c441b031d61b26d1ab70b94f6d
+      palavras_corpo: 1279
       covers_objectives:
       - mineralogia-m11-oa03
     - id: mineralogia-m11-a04
-      title: 'Da estrutura à propriedade: clivagem, hábito e densidade'
-      status: pending
+      title: 'Da estrutura à propriedade: clivagem, hábito, densidade e ordem de cristalização'
+      status: completed
+      file: 11-estrutura-dos-silicatos/11-estrutura-dos-silicatos-aula-04-da-estrutura-a-propriedade-clivagem-habito-e-densidade.md
+      content_hash: 34fc5777dbe588295a567a43da5e1026e6e86f29e5501987e3abd1555328238d
+      palavras_corpo: 1231
       covers_objectives:
       - mineralogia-m11-oa04
     - id: mineralogia-m11-a05
       title: 'Panorama dos silicatos formadores de rocha: o mapa do bloco de sistemática'
-      status: pending
+      status: completed
+      file: 11-estrutura-dos-silicatos/11-estrutura-dos-silicatos-aula-05-panorama-dos-silicatos-formadores-de-rocha-o-mapa-do-bloco-de-sistematica.md
+      content_hash: 8d125b22b6255b3bc64df775926f61ca90cb59b7fe14d00178ce9fdd0792734b
+      palavras_corpo: 1069
       covers_objectives:
       - mineralogia-m11-oa02
       - mineralogia-m11-oa04
   audit:
-    status: pending
+    status: approved
+    file: 11-estrutura-dos-silicatos/11-estrutura-dos-silicatos-auditoria.md
+    red: 0
+    orange: 0
+    yellow: 3
+    blue: 0
+    white: 0
+    open_findings: []
+    audited_at: '2026-10-06'
   didactic_review:
-    status: pending
+    status: completed
+    file: 11-estrutura-dos-silicatos/11-estrutura-dos-silicatos-revisao-didatica.md
+    content_hash: 78053ecf543e80a720f9040067bcb0d4e7119d5aa3b1688bb4f32c4c99c9fbbc
+    generated_at: '2026-10-06T17:00:00-03:00'
   assessment:
-    status: pending
+    status: completed
+    files:
+    - 11-estrutura-dos-silicatos/11-estrutura-dos-silicatos-questionario-final.md
+    questions: 15
+    points: 37
+    objectives_covered:
+    - mineralogia-m11-oa01
+    - mineralogia-m11-oa02
+    - mineralogia-m11-oa03
+    - mineralogia-m11-oa04
+    blueprint_complete: true
+    uncovered_objectives: []
+    generated_at: '2026-10-06'
   flashcards:
-    status: pending
+    status: completed
+    index_file: 11-estrutura-dos-silicatos/11-estrutura-dos-silicatos-flashcards.md
+    basic_file: 11-estrutura-dos-silicatos/11-estrutura-dos-silicatos-flashcards-basic.csv
+    cloze_file: 11-estrutura-dos-silicatos/11-estrutura-dos-silicatos-flashcards-cloze.csv
+    count_basic: 57
+    count_cloze: 8
+    last_id: 57
+    last_id_cloze: 8
+    generated_at: '2026-10-06T18:00:00-03:00'
 # trilha: nucleo (núcleo) — módulo 12
 - id: '12'
   slug: defeitos-e-maclas
