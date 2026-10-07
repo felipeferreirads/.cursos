@@ -1,0 +1,968 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "14-optica-fisica",
+    "module_id": "14",
+    "course_id": "mineralogia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-10-07",
+  "verdict": "approved",
+  "summary": {
+    "red": 1,
+    "orange": 18,
+    "yellow": 0,
+    "blue": 0,
+    "white": 1,
+    "verified_ok": 73
+  },
+  "findings": [
+    {
+      "claim_id": "OPT-TOT-PARCIAL-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "A reflexao parcial cresce com a inclinacao do raio; e o que faz o brilho metalico e a aparencia de espelho da agua vista rente.",
+      "location": {
+        "file": "14-optica-fisica/14-optica-fisica-aula-03-dispersao-e-reflexao-total-parte-1-angulo-critico-e-reflexao-total.md",
+        "section": "Reflexão parcial, reflexão total e o ponto de vista do observador",
+        "quote": "(é o que faz o brilho metálico e a aparência de espelho da água vista rente)"
+      },
+      "problem": "O brilho metalico nao vem do aumento da reflexao parcial com a obliquidade: vem da absorcao forte por eletrons livres (modulo 13, aula 05, ja auditada). O brilho de minerais transparentes cresce com n na incidencia normal. A frase contradizia um modulo fechado.",
+      "replacement": "(é o que dá a aparência de espelho da água vista de raspão; o brilho de uma face de mineral transparente vem dessa mesma reflexão parcial e cresce com n, como no módulo 13; já o brilho metálico tem outra origem, a absorção forte pelos elétrons livres)",
+      "source": {
+        "name": "Hecht, Optics (equacoes de Fresnel; metais); modulo 13 aula 05 do curso (brilho x indice, auditado em 2026-10-07)",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "14-optica-fisica/14-optica-fisica-aula-03-dispersao-e-reflexao-total-parte-1-angulo-critico-e-reflexao-total.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "OPT-TOT-REFRATOMETRO-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "O instrumento so mede gemas de n menor que o do vidro, e por isso liquidos de contato e vidros de n elevado sao usados (limite pratico da ordem de 1,8).",
+      "location": {
+        "file": "14-optica-fisica/14-optica-fisica-aula-03-dispersao-e-reflexao-total-parte-1-angulo-critico-e-reflexao-total.md",
+        "section": "Aplicação em mineralogia e gemologia",
+        "quote": "O instrumento só mede gemas de n menor que o do vidro, e por isso líquidos de contato e vidros de n elevado são usados"
+      },
+      "problem": "Como escrito, o teto parece ser o vidro. Na pratica quem limita e, em geral, o liquido de contato (n ~1,79 a 1,81): a leitura vai ate cerca de 1,81 (acima, \"OTL\"). O valor 1,8 estava certo; a causa, nao.",
+      "replacement": "O instrumento só mede gemas de n menor que o do vidro e que o do líquido de contato; na prática quem fixa o teto é, em geral, o líquido (n ≈ 1,79 a 1,81), e o refratômetro gemológico comum lê até cerca de 1,81. Diamante, zircão e moissanita ficam acima da escala.",
+      "source": {
+        "name": "Skyjems, Gemological refractometer / Contact liquid; literatura do GIA sobre refratometria (OTL 1,81)",
+        "tier": "general",
+        "consulted_at": "2026-10-07",
+        "url": "https://skyjems.ca/pages/encyclopedia-gemological-refractometer"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "14-optica-fisica/14-optica-fisica-aula-03-dispersao-e-reflexao-total-parte-1-angulo-critico-e-reflexao-total.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "OPT-DIS-CAUCHY-001",
+      "severity": "white",
+      "kind": "controversia",
+      "claim": "Em 1836, Cauchy propos uma formula simples n = A + B/lambda^2. E um ajuste empirico, nao uma lei.",
+      "location": {
+        "file": "14-optica-fisica/14-optica-fisica-aula-04-dispersao-e-reflexao-total-parte-2-dispersao.md",
+        "section": "Uma fórmula empírica para o formato da curva",
+        "quote": "Em 1836, Cauchy propôs uma fórmula simples"
+      },
+      "problem": "A data diverge entre fontes: Buchwald (Caltech, 2011) da a memoria sobre a dispersao de 1836; a Wikipedia (Cauchy's equation) data a formula de um artigo de 1830. Alem disso, Cauchy a derivou de um modelo teorico; o uso como ajuste empirico e posterior. O texto apresentava 1836 como dado fechado.",
+      "replacement": "Na década de 1830, Cauchy propôs [...] A memória de Cauchy sobre a dispersão é de 1836; algumas fontes datam a fórmula de um trabalho de 1830. Cauchy a tirou de um modelo teórico hoje abandonado, e ela é usada como ajuste empírico, não como lei",
+      "source": {
+        "name": "Buchwald, J. Z., Cauchy's Theory of Dispersion Anticipated by Fresnel (Caltech, 2011); Wikipedia, Cauchy's equation",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-07",
+        "url": "https://authors.library.caltech.edu/records/2zz5m-59n26"
+      },
+      "confidence": "em_disputa",
+      "affected_files": [
+        "14-optica-fisica/14-optica-fisica-aula-04-dispersao-e-reflexao-total-parte-2-dispersao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "OPT-DIS-GEM-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Dispersao gemologica = n(686,7 nm) - n(430,8 nm), em modulo (recap); \"(nB - nG)\" (figura 4 e Fontes).",
+      "location": {
+        "file": "14-optica-fisica/14-optica-fisica-aula-04-dispersao-e-reflexao-total-parte-2-dispersao.md",
+        "section": "Recap relâmpago; Fontes consultadas; figura 4",
+        "quote": "Dispersão gemológica = n(686,7 nm) − n(430,8 nm), em módulo"
+      },
+      "problem": "O corpo define dispersao = nG - nB e os Erros comuns mandam \"Defina sempre nG - nB (positivo)\", mas o recap, a linha de fontes e o cabecalho da figura 4 escreviam nB - nG, que da numero negativo. A literatura (LibreTexts) usa \"nB - nG\" com o valor em modulo; a aula precisa ser coerente consigo mesma.",
+      "replacement": "Dispersão gemológica = n(430,8 nm) − n(686,7 nm) = nG − nB (o \"intervalo B–G\"); figura 4: \"Dispersão gemológica (nG − nB, intervalo B–G)\"",
+      "source": {
+        "name": "LibreTexts, Gemology 7.16 Dispersion; Gem Society, Gemstone dispersion",
+        "tier": "general",
+        "consulted_at": "2026-10-07",
+        "url": "https://geo.libretexts.org/Bookshelves/Geology/Gemology/07%3A_Optical_Properties_of_Gemstones/7.16%3A_Dispersion"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "14-optica-fisica/14-optica-fisica-aula-04-dispersao-e-reflexao-total-parte-2-dispersao.md",
+        "14-optica-fisica/14-optica-fisica-fig-04-dispersao.svg"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "OPT-FIG05-MALUS-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Titulo da figura 5: \"Polarizador, analisador e lei de Malus: I = I0 cos^2 theta\".",
+      "location": {
+        "file": "14-optica-fisica/14-optica-fisica-fig-05-polarizacao-malus.svg",
+        "section": "titulo (text y=28)",
+        "quote": "Polarizador, analisador e lei de Malus: I = I₀ cos²θ"
+      },
+      "problem": "Na aula 05, I0 e a intensidade da luz natural e a lei de Malus e I = I1 cos^2 theta com I1 = I0/2; a propria aula lista \"Aplicar a lei de Malus a luz natural\" como erro comum. O titulo da figura ensinava a forma errada na notacao da aula (o corpo da figura estava certo: I0/2 e 0,75 x I0/2).",
+      "replacement": "Polarizador, analisador e lei de Malus: I = I₁ cos²θ, com I₁ = I₀/2",
+      "source": {
+        "name": "Hecht, Optics (lei de Malus); aula 05 do proprio modulo",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "14-optica-fisica/14-optica-fisica-fig-05-polarizacao-malus.svg"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "OPT-DUPLA-VEL-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "claim": "Na calcita, o raio ordinario tem v = c/1,658 e a vibracao perpendicular ao eixo c tem v = c/1,486, mais rapida.",
+      "location": {
+        "file": "14-optica-fisica/14-optica-fisica-aula-06-polarizacao-parte-2-reflexao-e-dupla-refracao.md",
+        "section": "Eixo óptico, birrefringência e sinal óptico",
+        "quote": "a vibração perpendicular ao eixo c tem v = c/1,486 ≈ 2,02 × 10⁸ m/s, mais rápida"
+      },
+      "problem": "E o contrario: a vibracao perpendicular a c (no plano dos grupos CO3) e a ordinaria, de indice omega = 1,658; o indice epsilon = 1,486 pertence a vibracao paralela a c (luz caminhando perpendicular a c). A frase contradizia a propria aula (o raio O vibra perpendicular ao plano que contem o eixo optico) e a aula 08 (direcao c tem indice epsilon).",
+      "replacement": "o raio ordinário (que vibra perpendicular ao eixo c, no plano dos grupos CO₃) tem v = c/1,658 ≈ 1,81 × 10⁸ m/s, e a vibração extraordinária paralela ao eixo c (luz caminhando perpendicular a c) tem v = c/1,486 ≈ 2,02 × 10⁸ m/s, mais rápida",
+      "source": {
+        "name": "Hecht, Optics; Klein & Dutrow, Manual of Mineral Science; Handbook of Mineralogy, calcite (omega 1,658, epsilon 1,486)",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-07",
+        "url": "https://www.handbookofmineralogy.org/pdfs/calcite.pdf"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "14-optica-fisica/14-optica-fisica-aula-06-polarizacao-parte-2-reflexao-e-dupla-refracao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "OPT-DUPLA-DADOS-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Coríndon: omega 1,767-1,772; epsilon 1,759-1,763; birrefringencia de 0,004 a 0,013; exemplo (c) com omega 1,767 e epsilon 1,763 da 0,004.",
+      "location": {
+        "file": "14-optica-fisica/14-optica-fisica-aula-06-polarizacao-parte-2-reflexao-e-dupla-refracao.md",
+        "section": "tabela de uniaxiais; Exemplo trabalhado (c)",
+        "quote": "| coríndon | 1,767–1,772 | 1,759–1,763 | de 0,004 a 0,013 | negativo |"
+      },
+      "problem": "Os extremos foram cruzados: os dois indices do corindon sobem juntos com Fe e Cr, e a birrefringencia real fica em 0,008 a 0,009 (GIA ate 0,010). 0,004 e 0,013 nao existem em cristal nenhum; o exemplo ensinava o metodo errado (parear omega minimo com epsilon maximo). O mesmo intervalo estava no rodape da aula 08 (OPT-ANI-EXEMPLO-001: 120 a 390 nm).",
+      "replacement": "tabela: \"cerca de 0,008 a 0,009\"; exemplo (c) com ω = 1,767 e ε = 1,759 → 0,008, e a explicação de que os índices sobem juntos",
+      "source": {
+        "name": "GIA Gem Encyclopedia, Ruby (RI 1,762-1,770; birrefringencia 0,008-0,010); Gem Society, Table of refractive indices and double refraction; Handbook of Mineralogy, corundum",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-07",
+        "url": "https://www.gia.edu/ruby"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "14-optica-fisica/14-optica-fisica-aula-06-polarizacao-parte-2-reflexao-e-dupla-refracao.md",
+        "14-optica-fisica/14-optica-fisica-aula-08-interferencia-retardo-e-anisotropia-optica-parte-2-anisotropia-e-simetria.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "OPT-INT-COER-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "Num cristal, a dupla refracao faz exatamente isso: o raio O e o raio E vem do mesmo feixe, e portanto sao coerentes.",
+      "location": {
+        "file": "14-optica-fisica/14-optica-fisica-aula-07-interferencia-retardo-e-anisotropia-optica-parte-1-interferencia-e-retardo.md",
+        "section": "Condições para ver a interferência",
+        "quote": "o raio O e o raio E vêm do mesmo feixe, e portanto são coerentes"
+      },
+      "problem": "So vale se a luz que entra no cristal ja for polarizada. As duas componentes perpendiculares da luz natural sao incoerentes entre si e nao interferem nem quando levadas a mesma direcao (terceira lei de Fresnel-Arago); componentes da mesma onda polarizada interferem (quarta lei). E justamente por isso o microscopio tem o polarizador abaixo da lamina.",
+      "replacement": "Num cristal iluminado com luz já polarizada (o polarizador abaixo da lâmina, aula 05), [...] o raio O e o raio E são as duas componentes de uma mesma vibração de entrada, e portanto são coerentes. Com luz natural isso não basta [...] Por isso o microscópio polariza a luz antes do cristal.",
+      "source": {
+        "name": "Wikipedia, Fresnel-Arago laws; Hecht, Optics",
+        "tier": "general",
+        "consulted_at": "2026-10-07",
+        "url": "https://en.wikipedia.org/wiki/Fresnel%E2%80%93Arago_laws"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "14-optica-fisica/14-optica-fisica-aula-07-interferencia-retardo-e-anisotropia-optica-parte-1-interferencia-e-retardo.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "OPT-ANI-UNI-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Dois eixos opticos: as duas direcoes em que a secao do elipsoide e circular.",
+      "location": {
+        "file": "14-optica-fisica/14-optica-fisica-aula-08-interferencia-retardo-e-anisotropia-optica-parte-2-anisotropia-e-simetria.md",
+        "section": "Os três casos, pela simetria",
+        "quote": "(as duas direções em que a seção do elipsoide é circular, onde a luz não se divide)"
+      },
+      "problem": "Os eixos opticos sao as normais as duas secoes circulares, nao direcoes contidas nelas; a frase podia ser lida como se o eixo estivesse no plano da secao circular.",
+      "replacement": "(as duas direções perpendiculares às duas seções circulares do elipsoide; a luz que caminha ao longo delas não se divide)",
+      "source": {
+        "name": "Nesse, Introduction to Optical Mineralogy; Nelson, Biaxial minerals (Tulane EENS 2110)",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-07",
+        "url": "https://www2.tulane.edu/~sanelson/eens211/biaxial.htm"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "14-optica-fisica/14-optica-fisica-aula-08-interferencia-retardo-e-anisotropia-optica-parte-2-anisotropia-e-simetria.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "OPT-ANI-ORIENT-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "Monoclinico: o unico eixo binario (b) obriga um eixo do elipsoide a coincidir com b.",
+      "location": {
+        "file": "14-optica-fisica/14-optica-fisica-aula-08-interferencia-retardo-e-anisotropia-optica-parte-2-anisotropia-e-simetria.md",
+        "section": "Os três casos, pela simetria (lista de orientação)",
+        "quote": "o único eixo binário (b) obriga um eixo do elipsoide a coincidir com b"
+      },
+      "problem": "A regra (um eixo da indicatriz paralelo a b) esta certa, mas a classe monoclinica m nao tem eixo 2: o vinculo vem da normal ao plano de simetria (eixo 2-barra), como o modulo 04 define o sistema (\"um unico eixo 2 ou 2-barra\"). Sem a ressalva, a justificativa fica falsa para a classe m.",
+      "replacement": "o único eixo binário (b; na classe m, que não tem eixo 2, o papel é da normal ao único plano de simetria, o eixo 2̄) obriga um eixo do elipsoide a coincidir com b",
+      "source": {
+        "name": "Nelson, Biaxial minerals (Tulane); Handbook of Mineralogy, gypsum (Y = b); modulo 04 aula 06 do curso",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-07",
+        "url": "https://www2.tulane.edu/~sanelson/eens211/biaxial.htm"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "14-optica-fisica/14-optica-fisica-aula-08-interferencia-retardo-e-anisotropia-optica-parte-2-anisotropia-e-simetria.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "OPT-ANI-QZSIM-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Segunda passagem: exemplo do principio de Neumann acrescentado pela revisao didatica: 'o quartzo so tem eixo 3, mas seu indice e o mesmo em todas as direcoes do plano perpendicular a c'.",
+      "location": {
+        "file": "14-optica-fisica/14-optica-fisica-aula-08-interferencia-retardo-e-anisotropia-optica-parte-2-anisotropia-e-simetria.md",
+        "section": "O princípio: o índice não pode ser menos simétrico que o cristal",
+        "quote": "(o quartzo só tem eixo 3, mas seu índice é o mesmo em todas as direções do plano perpendicular a c)"
+      },
+      "problem": "O quartzo-alfa e da classe 32: alem do eixo 3 ao longo de c, tem tres eixos 2 perpendiculares a c. 'So tem eixo 3' e falso como escrito e contradiz o modulo 05 (aula 01: 'trigonal, classe 32') e a propria tabela de sistemas da auditoria (OPT-ANI-SISTEMAS-001). O ponto didatico (em torno de c o cristal so tem ordem 3 e o indice tem simetria de revolucao) continua valido.",
+      "replacement": "(o quartzo tem em c só um eixo 3, mas seu índice é o mesmo em todas as direções do plano perpendicular a c)",
+      "source": {
+        "name": "Handbook of Mineralogy, quartz (Point Group: 3 2); Nye, Physical Properties of Crystals (principio de Neumann; tensores de 2a ordem uniaxiais nos sistemas trigonal, tetragonal e hexagonal); modulo 05, aula 01",
+        "url": "https://www.handbookofmineralogy.org/pdfs/quartz.pdf",
+        "version": "HoM v. 1 (2001-2005); Nye, ed. 1985",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "14-optica-fisica/14-optica-fisica-aula-08-interferencia-retardo-e-anisotropia-optica-parte-2-anisotropia-e-simetria.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "OPT-ANI-ELIPSE-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "Segunda passagem: argumento do uniaxial acrescentado pela revisao didatica: 'uma elipse so volta a si mesma com giro de 180 graus, entao esse corte e um circulo'.",
+      "location": {
+        "file": "14-optica-fisica/14-optica-fisica-aula-08-interferencia-retardo-e-anisotropia-optica-parte-2-anisotropia-e-simetria.md",
+        "section": "Os três casos, pela simetria (uniaxial)",
+        "quote": "uma elipse só volta a si mesma com giro de 180°, então esse corte é um círculo"
+      },
+      "problem": "O circulo e uma elipse e volta a si mesmo com qualquer giro; sem a ressalva 'nao circular' a premissa e falsa e o argumento parece concluir o que ja supunha. Com a ressalva, o raciocinio e correto: conferido em Python que a forma quadratica de uma elipse de semieixos 1 e 0,8 so e invariante sob giros de 180 e 360 graus (nao sob 60, 90 ou 120). Vale tambem para eixos de rotoinversao (4-barra, 3-barra, 6-barra), porque a indicatriz e centrossimetrica (Nye); a aula nao precisa dizer isso no nivel dela.",
+      "replacement": "uma elipse alongada (não circular) só volta a si mesma com giro de 180°, então esse corte é um círculo",
+      "source": {
+        "name": "Nye, J. F., Physical Properties of Crystals (cap. 1: tensores de 2a ordem e simetria); calculo em Python",
+        "url": "https://global.oup.com/academic/product/physical-properties-of-crystals-9780198511656",
+        "version": "ed. 1985 (reimpr.)",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "14-optica-fisica/14-optica-fisica-aula-08-interferencia-retardo-e-anisotropia-optica-parte-2-anisotropia-e-simetria.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "QST-M14-CALC-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Terceira passagem: P2 Q24, armadilha: 'esquecer de converter mm para nm da um m absurdo (da ordem de 10^-8)'.",
+      "location": {
+        "file": "14-optica-fisica/14-optica-fisica-questionario-parcial-2.md",
+        "section": "Q24, gabarito (Armadilha)",
+        "quote": "esquecer de converter mm para nm dá um m absurdo (da ordem de 10⁻⁸)"
+      },
+      "problem": "Com d em mm e lambda em nm, m = 0,045 x 0,013 / 589 = 9,9 x 10^-7 (ordem de 10^-6); em metros seria 10^-9; nenhuma unidade da 10^-8.",
+      "replacement": "esquecer de converter mm para nm dá um m absurdo (0,045 × 0,013 / 589 ≈ 10⁻⁶)",
+      "source": {
+        "name": "Calculo em Python; aula 07 (a05), Erros comuns",
+        "tier": "general",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "14-optica-fisica/14-optica-fisica-questionario-parcial-2.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "QST-M14-CALCITA-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "Terceira passagem: F Q38 pedia 'a velocidade da luz no cristal' de calcita, como se fosse unica.",
+      "location": {
+        "file": "14-optica-fisica/14-optica-fisica-questionario-final.md",
+        "section": "Q38, enunciado e gabarito (a), (d)",
+        "quote": "num cristal de calcita (n = 1,658, valor de ω). (a) Calcule a velocidade da luz no cristal."
+      },
+      "problem": "A calcita tem duas vibracoes de velocidades diferentes (aula 06: 1,81 e 2,02 x 10^8 m/s), e a Q31 do mesmo questionario cobra a outra; enunciado e gabarito sugeriam velocidade unica. Contas certas.",
+      "replacement": "Considere só a vibração do raio ordinário (n = ω = 1,658); a calcita tem dois índices, e a outra vibração anda em outra velocidade. (a) Calcule a velocidade dessa vibração no cristal.",
+      "source": {
+        "name": "Aula 06 (a07), Eixo optico, birrefringencia e sinal optico (velocidades na calcita, achado 6)",
+        "tier": "general",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "14-optica-fisica/14-optica-fisica-questionario-final.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "QST-M14-META-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Terceira passagem: metadados e comentarios dos questionarios (P1 Q7 sem ID de aula; Q10 da P1 atribuida a aula 03; Q16 da P2 em 'lembrar' na matriz; Q37 do final atribuida a aula 05; 'isotropo para aquele corte').",
+      "location": {
+        "file": "14-optica-fisica/14-optica-fisica-questionario-final.md",
+        "section": "Cobertura, Autodiagnostico, nota de integracao, Q37 (3); tambem parcial-1 e parcial-2",
+        "quote": "37 (aulas 05 a 08)"
+      },
+      "problem": "Q7 citava aulas so pelo numero do arquivo; Q10 (P1) nao usa a aula 03 e Q37 (F) nao usa a aula 05; Q16 rotulada 'explicar' e contada assim na distribuicao, mas na coluna 'lembrar' da matriz; 'isotropo para aquele corte' pode ser lido como corte isotropico (a aula 08 diz que parece isotropico).",
+      "replacement": "P1 Q7 com IDs a07 e a08; Q10 fora da aula 03; Q16 em Explicar; '37 (aulas 06 a 08)'; aula 05 so com Q39; Q37 (3): 'o corte perpendicular ao eixo óptico parece isotrópico entre polarizadores cruzados, embora o mineral não seja'.",
+      "source": {
+        "name": "Aulas 03, 04, 05 e 08; revisao didatica, azul 2",
+        "tier": "general",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "14-optica-fisica/14-optica-fisica-questionario-parcial-1.md",
+        "14-optica-fisica/14-optica-fisica-questionario-parcial-2.md",
+        "14-optica-fisica/14-optica-fisica-questionario-final.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "FLC-M14-NAOCOBRAR-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Terceira passagem: fc003 pedia tres valores de dispersao gemologica; fb059 pedia o procedimento dos coeficientes A e B de Cauchy.",
+      "location": {
+        "file": "14-optica-fisica/14-optica-fisica-flashcards-cloze.csv",
+        "section": "fc003; flashcards-basic.csv fb059",
+        "quote": "Dispersão gemológica (nG − nB): diamante {{c1::0,044}}; esfalerita {{c2::0,156}}; fluorita {{c3::0,007}}."
+      },
+      "problem": "A revisao didatica manda nao cobrar a tabela de dispersao em numeros (so a ordem relativa) nem os coeficientes de Cauchy; o proprio flashcards.md declarava que nenhum card pede coeficientes de Cauchy.",
+      "replacement": "fc003: ordem relativa (esfalerita > diamante > zircão > rubi e safira > quartzo > fluorita, três lacunas); fb064 reaproveitado (lentes do microscópio corrigem a dispersão); fb059 reaproveitado (n sempre com o λ).",
+      "source": {
+        "name": "Revisao didatica, 'O que nao cobrar'; aula 04 (a06)",
+        "tier": "general",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "14-optica-fisica/14-optica-fisica-flashcards-cloze.csv",
+        "14-optica-fisica/14-optica-fisica-flashcards-basic.csv",
+        "14-optica-fisica/14-optica-fisica-flashcards.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "FLC-M14-COER-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "Terceira passagem: fb129 'Por que o raio O e o raio E de um cristal sao coerentes?' (regressao de OPT-INT-COER-001).",
+      "location": {
+        "file": "14-optica-fisica/14-optica-fisica-flashcards-basic.csv",
+        "section": "fb129",
+        "quote": "Por que o raio O e o raio E de um cristal são coerentes?"
+      },
+      "problem": "A frente afirma coerencia sem condicao; com luz natural O e E nao sao coerentes (achado 8, aula 07).",
+      "replacement": "Por que, com luz que entra já polarizada, o raio O e o raio E de um cristal são coerentes? / São as duas componentes de uma mesma vibração de entrada, e por isso mantêm fase fixa entre si.",
+      "source": {
+        "name": "Aula 07 (a05); Wikipedia, Fresnel-Arago laws",
+        "tier": "general",
+        "consulted_at": "2026-10-07",
+        "url": "https://en.wikipedia.org/wiki/Fresnel%E2%80%93Arago_laws"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "14-optica-fisica/14-optica-fisica-flashcards-basic.csv",
+        "14-optica-fisica/14-optica-fisica-flashcards.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "FLC-M14-SECAO-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "Terceira passagem: fb160 'O que e uma secao circular do elipsoide?' / 'so duas secoes centrais sao circulares'.",
+      "location": {
+        "file": "14-optica-fisica/14-optica-fisica-flashcards-basic.csv",
+        "section": "fb160",
+        "quote": "só duas seções centrais são circulares"
+      },
+      "problem": "Vale so para o elipsoide de tres eixos desiguais (biaxial); como escrito e falso para o uniaxial (uma secao circular) e para a esfera (todas).",
+      "replacement": "O que é uma seção circular da indicatriz de um biaxial, e quantas há? / O corte do elipsoide de três eixos desiguais por um plano central que dá um círculo; são só duas.",
+      "source": {
+        "name": "Aula 08 (a08); Nelson, Biaxial minerals (Tulane)",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-07",
+        "url": "https://www2.tulane.edu/~sanelson/eens211/biaxial.htm"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "14-optica-fisica/14-optica-fisica-flashcards-basic.csv",
+        "14-optica-fisica/14-optica-fisica-flashcards.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "FLC-M14-CLOZE-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Terceira passagem: fc002 com a lacuna c3 (n1 > n2) respondida no texto visivel ('indo de n maior para n menor').",
+      "location": {
+        "file": "14-optica-fisica/14-optica-fisica-flashcards-cloze.csv",
+        "section": "fc002",
+        "quote": "Ângulo crítico, indo de n maior para n menor: sen θc = {{c1::n₂}} / {{c2::n₁}}, com {{c3::n₁ > n₂}}."
+      },
+      "problem": "Cloze malformado: a resposta de c3 esta no proprio card; c3 tambem repetia fb039.",
+      "replacement": "Ângulo crítico, para a luz que vai do meio 1 para o meio 2: sen θc = {{c1::n₂}} / {{c2::n₁}}. (extra: Só existe se n₁ > n₂; sai da lei de Snell com θ₂ = 90°.)",
+      "source": {
+        "name": "Aula 03 (a03)",
+        "tier": "general",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "14-optica-fisica/14-optica-fisica-flashcards-cloze.csv",
+        "14-optica-fisica/14-optica-fisica-flashcards.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "FLC-M14-DUPLIC-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Terceira passagem: quase-duplicatas fc001 x fb020 x fb021; fc005 x fb096; fc007 x fb134; fb037 x fb041; fb075 x fb088; fb109 x fb155.",
+      "location": {
+        "file": "14-optica-fisica/14-optica-fisica-flashcards-basic.csv",
+        "section": "fb020, fb037, fb088, fb134, fb155; cloze fc001, fc005",
+        "quote": "De que dois fatores depende o retardo?"
+      },
+      "problem": "Contraria os criterios declarados no flashcards.md (um fato por card; nenhum Basic repete fato de Cloze).",
+      "replacement": "fc001 e fc005 sem a lacuna c3; fb020 so com a definicao; fb037 sem a frase do raio a 90 graus; fb134, fb088 e fb155 reaproveitados para fatos das secoes 'O que nao concluir' das aulas 07, 05 e 08.",
+      "source": {
+        "name": "Aulas 02, 03, 05, 06, 07 e 08",
+        "tier": "general",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "14-optica-fisica/14-optica-fisica-flashcards-basic.csv",
+        "14-optica-fisica/14-optica-fisica-flashcards-cloze.csv",
+        "14-optica-fisica/14-optica-fisica-flashcards.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "OPT-LUZ-ONDA-001",
+      "claim": "A luz e uma onda eletromagnetica transversal: o campo eletrico E oscila perpendicularmente a direcao de propagacao; v = lambda x f.",
+      "source": "Hecht, Optics; conferido: Hecht, Optics; onda transversal e v = lambda f",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-LUZ-C-001",
+      "claim": "No vacuo, c = 299 792 458 m/s (exato por definicao do metro), cerca de 3 x 10^8 m/s.",
+      "source": "Sistema Internacional (BIPM); conferido: BIPM/SI: c = 299 792 458 m/s exato",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-LUZ-VIS-001",
+      "claim": "A luz visivel ocupa cerca de 380 a 750 nm (limites variam entre fontes; 400 a 700 nm e a aproximacao comum), do violeta (menor lambda) ao vermelho; ultravioleta e infravermelho sao ondas da mesma natureza; raios X tem lambda de decimos de nanometro.",
+      "source": "Wikipedia Light; manuais de optica; conferido: limites 380-750 nm variam por autor, apresentados como aproximados; fig 01 mapeia 380-750 nm com 2,162 px/nm",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-LUZ-FREQ-001",
+      "claim": "A frequencia da luz de 589 nm no vacuo e cerca de 5,09 x 10^14 Hz; a de 400 nm e 700 nm sao cerca de 7,5 x 10^14 Hz e 4,3 x 10^14 Hz (contas em Python).",
+      "source": "calculo f = c/lambda (Python, 2026-10-07); conferido: Python: 5,090e14; 7,49e14; 4,28e14 Hz",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-LUZ-MEIO-001",
+      "claim": "Ao entrar num material a frequencia nao muda; velocidade e comprimento de onda diminuem na mesma proporcao. No quartzo (v ~ 1,94 x 10^8 m/s), lambda de 589 nm cai a cerca de 381 nm.",
+      "source": "Hecht, Optics; v = c/n com n(quartzo) = 1,544 (Handbook of Mineralogy); contas em Python; conferido: Python: c/1,544 = 1,942e8 m/s; 589/1,544 = 381,5 nm; HoM quartz omega 1,544",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-LUZ-ESCALA-001",
+      "claim": "O lambda da luz visivel e milhares de vezes maior que a distancia entre atomos num cristal (decimos de nanometro); raios X, de lambda comparavel a essa distancia, difratam nos planos atomicos.",
+      "source": "Klein & Dutrow (ordem de grandeza); modulos 06, 08 e 18; conferido: 400-700 nm contra 0,2-0,3 nm entre atomos: razao de mil a alguns milhares",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-LUZ-SODIO-001",
+      "claim": "Indices de refracao de minerais e gemas sao tabelados por convencao para a luz amarela do sodio, 589 nm.",
+      "source": "Handbook of Mineralogy (diamante a 589 nm); convencao de gemologia; conferido: HoM diamond: n a 486, 589 e 687 nm; convencao Na D",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-REF-N-001",
+      "claim": "Indice de refracao n = c/v; n >= 1 em materiais transparentes comuns; quanto maior n, mais lenta a luz.",
+      "source": "Hecht, Optics; conferido: Hecht, Optics",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-REF-VALORES-001",
+      "claim": "Indices a 589 nm: ar ~1,0003; agua ~1,33; fluorita 1,433-1,448; quartzo omega 1,544 e epsilon 1,553; halita 1,5443; esfalerita 2,369; diamante 2,4175 (Handbook of Mineralogy).",
+      "source": "Handbook of Mineralogy (quartzo, halita, fluorita, esfalerita, diamante); ar e agua: manuais de optica; conferido: HoM quartz, halite, fluorite, sphalerite, diamond; ar 1,000293 e agua 1,333 (Wikipedia, Refractive index)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-REF-VEL-001",
+      "claim": "No quartzo (n 1,544) v ~ 1,94 x 10^8 m/s; no diamante (n 2,4175) v ~ 1,24 x 10^8 m/s (menos da metade de c).",
+      "source": "calculo v = c/n (Python, 2026-10-07); conferido: Python: 1,942e8 e 1,240e8 m/s",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-REF-LEIS-001",
+      "claim": "Lei da reflexao (angulo de reflexao = angulo de incidencia, no plano de incidencia) e lei de Snell n1 sen theta1 = n2 sen theta2, com angulos medidos a partir da normal; ao entrar em meio de n maior o raio se aproxima da normal; reversibilidade.",
+      "source": "Hecht, Optics; conferido: Hecht, Optics",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-REF-PLACA-001",
+      "claim": "Numa placa de faces paralelas o raio emergente e paralelo ao incidente, apenas deslocado; se n1 = n2 a interface desaparece (base da linha de Becke, modulo 15).",
+      "source": "Hecht, Optics; conferido: Hecht, Optics",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-REF-EXEMPLO-001",
+      "claim": "Ar para diamante a 50 graus: refratado a 18,5 graus; ar para quartzo (n 1,544): 29,7 graus; refletido a 50 graus (Python).",
+      "source": "Snell, calculo em Python (2026-10-07); conferido: Python: 18,47 e 29,75 graus",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-REF-DENS-001",
+      "claim": "n e densidade nao seguem lei geral: diamante densidade 3,511 e n 2,42; esfalerita densidade 3,9 a 4,1 e n 2,37.",
+      "source": "Handbook of Mineralogy (diamante, esfalerita); conferido: HoM: diamante D(meas) 3,511; esfalerita 3,9-4,1",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-FIG02-SNELL-001",
+      "claim": "Figura 2: raio incidente a 50 graus no ar, refletido a 50 graus, refratado a 29,7 graus no quartzo (n 1,544); angulos medidos a partir da normal, calculados pela lei de Snell.",
+      "source": "optica geometrica (leis da reflexao e de Snell); Python; conferido: codigo SVG: incidente e refletido a 50,0 graus da normal, refratado a 29,74 graus; arcos de raio constante; segunda passagem (2026-10-07): rotulos de angulo afastados dos raios, valores e geometria inalterados",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-TOT-CRIT-001",
+      "claim": "Indo de n1 maior para n2 menor, sen theta_c = n2/n1; abaixo do angulo critico a luz refrata, no critico sai rasante (90 graus), acima ha reflexao total; nao existe angulo critico de n menor para n maior.",
+      "source": "Hecht, Optics; conferido: Hecht, Optics",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-TOT-VALORES-001",
+      "claim": "Angulos criticos para o ar: fluorita (n 1,433) 44,3 graus; quartzo (omega 1,544) 40,4 graus; diamante (2,4175) 24,4 graus; quartzo em agua (n ~1,33): ~59,7 graus.",
+      "source": "calculo sen theta_c = n2/n1 (Python, 2026-10-07) com n do Handbook of Mineralogy; n da agua: manuais de optica; conferido: Python: 44,25; 40,37; 24,43 graus; agua 59,47 (1,33) a 59,69 (1,333)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-TOT-MEIO-001",
+      "claim": "Quanto maior o indice, menor o angulo critico; o theta_c depende dos dois indices; se n1 = n2 o cristal desaparece no liquido (theta_c = 90 graus).",
+      "source": "Hecht, Optics; conferido: Hecht, Optics",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-TOT-EXEMPLO-001",
+      "claim": "Cristal n 1,544 em liquido n 1,333: theta_c = 59,7 graus; incidencia a 55 graus refrata a 71,6 graus; a 70 graus ha reflexao total (sen theta_2 = 1,088).",
+      "source": "calculo por Snell em Python (2026-10-07); conferido: Python: 59,69; 71,59 graus; 1,0884",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-TOT-DIAM-001",
+      "claim": "Diamante lapidado retem luz por reflexao total por causa do n alto (theta_c = 24,4 graus); a inclinacao das facetas pertence ao curso de lapidacao.",
+      "source": "Hecht, Optics; Handbook of Mineralogy (n do diamante); conferido: HoM diamond 2,4175; theta_c 24,43 graus",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-FIG03-TOTAL-001",
+      "claim": "Figura 3: raios no quartzo (n 1,544) para o ar a 25 graus (sai a 40,7 graus), 40,4 graus (sai rasante) e 55 graus (reflexao total).",
+      "source": "Snell, calculo em Python (2026-10-07); conferido: codigo SVG: 24,98/40,7; 40,37/rasante; 55,0 com reflexao simetrica; segunda passagem (2026-10-07): rotulos dos meios afastados do raio de 25 graus; normais encurtadas, valores e geometria inalterados",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-DIS-N-001",
+      "claim": "Diamante (isotropico): n = 2,4354 a 486 nm, 2,4175 a 589 nm e 2,4076 a 687 nm; dispersao forte.",
+      "source": "Handbook of Mineralogy, diamond; conferido: HoM diamond: 2,4354 (486), 2,4175 (589), 2,4076 (687); Dispersion: Strong",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-DIS-SNELL-001",
+      "claim": "Ar para diamante a 60 graus: refratado a 20,83 graus (486 nm) e 21,08 graus (687 nm), diferenca ~0,25 grau (Python).",
+      "source": "Snell com n do Handbook of Mineralogy; Python; conferido: Python: 20,83 e 21,08 graus",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-DIS-NORMAL-001",
+      "claim": "Dispersao normal: no visivel, em materiais transparentes, n diminui com o aumento de lambda (azul mais desviado que vermelho); explicacao pela resposta dos eletrons, cujas frequencias proprias ficam em geral no ultravioleta; perto de absorcao forte a tendencia inverte (dispersao anomala).",
+      "source": "Hecht, Optics; conferido: Hecht, Optics",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-DIS-FRAUN-001",
+      "claim": "Linhas de Fraunhofer de referencia: C 656,3 nm (vermelho), D 589,3 nm (sodio, amarelo), F 486,1 nm (azul).",
+      "source": "Hecht, Optics (a confirmar); conferido: Wikipedia, Fraunhofer lines: C 656,281; D1 589,592 e D2 588,995; F 486,134 nm",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-DIS-GEMAS-001",
+      "claim": "Dispersao gemologica publicada: zircao 0,039; quartzo 0,013; rubi e safira 0,018; fluorita 0,007; esfalerita 0,156.",
+      "source": "gemselect.com dispersion chart (fonte secundaria, busca 2026-10-07); conferido: LibreTexts Gemology 7.16 e Gem Society: zircao 0,039; corindon 0,018; quartzo 0,013; fluorita 0,007; esfalerita 0,156",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-DIS-PRISMA-001",
+      "claim": "Prisma de angulo A e desvio minimo D: n = sen[(A+D)/2]/sen(A/2); com A = 60 e D = 37 graus, n = 1,498.",
+      "source": "Hecht, Optics; Python; conferido: Python: 1,4979",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-DIS-INTERVALO-001",
+      "claim": "No diamante n(486) - n(687) = 0,0278, menor que 0,044 por o intervalo B-G ser mais largo e a curva mais inclinada no violeta.",
+      "source": "Handbook of Mineralogy; Gem Society; Python; conferido: Python: 0,0278; Cauchy da 0,0430 entre B e G",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-FIG04-DISP-001",
+      "claim": "Figura 4: pontos do diamante (Handbook of Mineralogy), curva de Cauchy ajustada aos extremos e barras de dispersao gemologica de esfalerita, diamante, zircao, rubi/safira, quartzo e fluorita.",
+      "source": "Handbook of Mineralogy; gemselect.com; Python; conferido: codigo SVG: pontos e curva de Cauchy na escala; barras proporcionais (1346 px por unidade); cabecalho corrigido no achado 4",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-POL-NAT-001",
+      "claim": "Luz natural: E oscila ao acaso em todas as direcoes perpendiculares a propagacao; luz polarizada linearmente: E oscila numa so direcao; a luz polarizada tem o mesmo lambda e a mesma velocidade da natural.",
+      "source": "Hecht, Optics; conferido: Hecht, Optics",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-POL-ABS-001",
+      "claim": "Polarizador de folha: moleculas longas alinhadas absorvem a componente de E ao longo delas e transmitem a perpendicular (eixo de transmissao); luz natural por um polarizador ideal tem intensidade I0/2.",
+      "source": "Hecht, Optics (a confirmar na auditoria); conferido: Wikipedia, Polaroid (polarizer): PVA com iodo absorve E ao longo das cadeias",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-POL-MALUS-001",
+      "claim": "Lei de Malus: I = I1 cos^2(theta) para luz ja polarizada atravessando analisador a theta do eixo; theta = 90 graus (cruzados) da zero; amplitude E cos theta, intensidade proporcional ao quadrado da amplitude.",
+      "source": "Hecht, Optics; conferido: Hecht, Optics",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-POL-HIST-001",
+      "claim": "A polarizacao pela reflexao foi observada por Etienne-Louis Malus em 1808; a lei de Malus e do inicio do seculo XIX.",
+      "source": "Britannica, Brewster's law; Wikipedia, Brewster's angle (a confirmar); conferido: Malus: reflexao em 1808; lei do cos2 em 1809 (Wikipedia, Etienne-Louis Malus)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-POL-CALC-001",
+      "claim": "Com I0 = 100: apos o primeiro filtro 50; analisador a 0, 30, 60 e 90 graus: 50; 37,5; 12,5; 0; tres polarizadores (0, 45 e 90 graus): 12,5.",
+      "source": "lei de Malus, calculo em Python (2026-10-07); conferido: Python: 50; 37,5; 12,5; 0; tres filtros 12,5",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-POL-MICRO-001",
+      "claim": "No microscopio petrografico ha polarizador abaixo da lamina e analisador acima; com os dois cruzados e sem amostra o campo e escuro; mineral isotropico entre eles permanece escuro; mineral anisotropico faz passar luz porque reorienta (decompoe) a vibracao.",
+      "source": "Klein & Dutrow; modulo 15 (desenvolve); conferido: Klein & Dutrow; Nesse",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-BRE-LEI-001",
+      "claim": "Lei de Brewster: tg theta_B = n2/n1; no angulo de Brewster a luz refletida e totalmente polarizada com E perpendicular ao plano de incidencia, e refletido e refratado formam 90 graus.",
+      "source": "Hecht, Optics; Britannica, Brewster's law; conferido: Hecht, Optics; Britannica, Brewster law",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-BRE-VALORES-001",
+      "claim": "Angulos de Brewster a partir do ar: agua (n 1,333) 53,1 graus (refratado 36,9); vidro (n 1,5) 56,3 graus; diamante (n 2,4175) 67,5 graus.",
+      "source": "calculo tg theta_B = n (Python, 2026-10-07); vidro 56 graus 19 min: Britannica; conferido: Python: 53,12/36,88; 56,31; 67,53 graus",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-BRE-OCULOS-001",
+      "claim": "Oculos polarizados reduzem o reflexo de agua e asfalto molhado porque a luz refletida e polarizada na horizontal e a lente tem eixo vertical.",
+      "source": "Hecht, Optics (a confirmar); conferido: Hecht, Optics",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-DUPLA-FENOM-001",
+      "claim": "A dupla refracao divide a luz em dois raios de velocidades diferentes, em trajetos ligeiramente diferentes, saindo polarizados em direcoes perpendiculares; Erasmus Bartholin descreveu o fenomeno na calcita da Islandia em 1669.",
+      "source": "Hecht, Optics (data a confirmar na auditoria); conferido: MacTutor: Bartholin, Experimenta crystalli islandici disdiaclastici, 1669",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-DUPLA-OE-001",
+      "claim": "Em cristal uniaxial: raio O obedece Snell com n fixo omega e vibra perpendicular ao plano que contem o eixo optico e o raio; raio E tem n que varia de omega (propagacao ao longo do eixo optico) a epsilon (perpendicular) e vibra nesse plano; ao longo do eixo optico nao ha dupla refracao.",
+      "source": "Hecht, Optics; Klein & Dutrow; conferido: Hecht, Optics; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-DUPLA-CALCITA-001",
+      "claim": "Na calcita os grupos CO3 ficam em planos perpendiculares ao eixo c, e a resposta ao campo eletrico depende da direcao do campo em relacao a esses planos.",
+      "source": "Klein & Dutrow (estrutura da calcita; a confirmar); conferido: Klein & Dutrow; CO3 em planos perpendiculares a c",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-DUPLA-ISO-001",
+      "claim": "Fluorita, halita, diamante, esfalerita e granadas sao isotropicos (n unico); vidro e opala (amorfos) tambem; ressalva: tensao pode causar anisotropia fraca.",
+      "source": "Handbook of Mineralogy (fluorita, halita, diamante, esfalerita: Optical Class isotropic); conferido: HoM: fluorite, halite, diamond, sphalerite Optical Class isotropic, com anisotropia anomala ou por tensao",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-DUPLA-EXEMPLO-001",
+      "claim": "Calcita com incidencia de 40 graus: raio ordinario refratado a 22,8 graus (n = omega 1,658); raio E nao segue Snell com n unico.",
+      "source": "Snell, Python (2026-10-07); conferido: Python: 22,81 graus",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-FIG06-BREWDUPLA-001",
+      "claim": "Figura 6: ar-vidro n 1,5 com theta_B 56,3 e refratado 33,7 graus (90 graus entre refletido e refratado); esquema qualitativo, sem escala, de raios O e E na calcita.",
+      "source": "Brewster; esquema; conferido: codigo SVG: 56,31/33,69 graus, 90 entre refletido e refratado; raio E desviado em incidencia normal e emergente paralelo; segunda passagem (2026-10-07): rotulo 33,7 graus afastado do raio refratado, valores e geometria inalterados",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-INT-SUP-001",
+      "claim": "Duas ondas coerentes de mesmo lambda e amplitude A com diferenca de caminho delta: delta = m lambda da amplitude 2A (intensidade 4); delta = (m + 1/2) lambda anula; delta = lambda/4 da amplitude raiz(2) A (intensidade 2); intensidade relativa cos^2(pi delta/lambda); a diferenca de fase e 2 pi delta/lambda.",
+      "source": "Hecht, Optics; Python; conferido: Python e codigo SVG da fig 07: amplitude 2A, 0 e 1,414A; cos2(pi delta/lambda)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-INT-RETARDO-001",
+      "claim": "Retardo de uma lamina de espessura d com dois indices n1 e n2: Gamma = d (n2 - n1); ordem de interferencia m = Gamma/lambda.",
+      "source": "Hecht, Optics; Klein & Dutrow; conferido: Hecht, Optics; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-INT-QZ-001",
+      "claim": "Lamina de quartzo de 30 micrometros (luz perpendicular ao eixo optico): birrefringencia 0,009, retardo 270 nm, m = 0,46 em 589 nm.",
+      "source": "Handbook of Mineralogy (n do quartzo); Python (2026-10-07); conferido: Python: 270 nm, m 0,458; quartzo cinza de primeira ordem a 30 micrometros",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-INT-CC-001",
+      "claim": "Lamina de calcita de 30 micrometros: birrefringencia 0,172, retardo 5 160 nm, m = 8,76 em 589 nm (19 vezes o do quartzo); em 450, 550 e 650 nm m = 11,47; 9,38; 7,94.",
+      "source": "Handbook of Mineralogy (n da calcita); Python (2026-10-07); conferido: Python: 5 160 nm; 8,76; 19,1; 11,47, 9,38, 7,94",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-INT-COR-001",
+      "claim": "Como m = Gamma/lambda varia com a cor, ao recombinar as vibracoes algumas cores sao reforcadas e outras anuladas, originando as cores de interferencia; a carta de Michel-Levy as cataloga segundo Gamma.",
+      "source": "Klein & Dutrow; modulos 15 e 16; conferido: Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-INT-EXTINCAO-001",
+      "claim": "No microscopio, com polarizadores cruzados e o cristal a 45 graus, a luz de um lambda e extinta quando Gamma = m lambda e maxima quando Gamma = (m + 1/2) lambda (tratado no modulo 15).",
+      "source": "Hecht, Optics; Klein & Dutrow (a confirmar na auditoria); conferido: Hecht, Optics: I proporcional a sen2(2phi) sen2(pi Gamma/lambda) entre polarizadores cruzados; so remetido ao modulo 15",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-INT-LAMINA-001",
+      "claim": "A lamina delgada padrao de mineralogia optica tem 0,03 mm (30 micrometros).",
+      "source": "Klein & Dutrow; modulo 13 aula 05; conferido: Wikipedia, Thin section: 30 micrometros; modulo 13 aula 05",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-FIG07-INTERF-001",
+      "claim": "Figura 7: duas ondas de mesmo lambda e suas somas para delta = 0 (amplitude 2A), lambda/2 (zero) e lambda/4 (raiz(2) A), calculadas numericamente.",
+      "source": "Python (2026-10-07); conferido: codigo SVG: lambda 200 px; deslocamentos 100 e 50 px; amplitudes 48, 0 e 33,9 = 24 raiz 2",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-ANI-NEUMANN-001",
+      "claim": "A simetria de uma propriedade fisica de um cristal (como o indice de refracao) contem a simetria do grupo pontual do cristal (principio de Neumann): direcoes equivalentes por simetria tem o mesmo indice.",
+      "source": "Nye, Physical Properties of Crystals (a confirmar); conferido: Nye, Physical Properties of Crystals",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-ANI-ISO-001",
+      "claim": "Cristais cubicos sao opticamente isotropicos (um indice, indicatriz esferica); materiais amorfos (vidro, opala) tambem sao isotropicos; isotropia optica nao implica isotropia de outras propriedades como dureza e clivagem.",
+      "source": "Klein & Dutrow; Nesse, Optical Mineralogy; conferido: Klein & Dutrow; Nesse",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-ANI-DADOS-001",
+      "claim": "Handbook of Mineralogy: halita isotropica n 1,5443; fluorita isotropica n 1,433-1,448; diamante isotropico; quartzo uniaxial (+) omega 1,544 epsilon 1,553; calcita uniaxial (-) omega 1,658 epsilon 1,486; rutilo uniaxial (+) omega 2,605-2,613 epsilon 2,899-2,901; gipsita biaxial (+) 1,521/1,523/1,530; aragonita biaxial (-) 1,530/1,681/1,685.",
+      "source": "Handbook of Mineralogy (halite, fluorite, diamond, quartz, calcite, rutile, gypsum, aragonite); conferido: HoM: halite, fluorite, diamond, quartz, calcite, rutile, gypsum (Y = b), aragonite (X = c, Y = a, Z = b)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-ANI-SISTEMAS-001",
+      "claim": "Quartzo, calcita e corindon sao trigonais; rutilo e tetragonal; gipsita e monoclinica; aragonita e ortorrombica; halita, fluorita e diamante sao cubicos.",
+      "source": "Handbook of Mineralogy; conferido: HoM: quartzo 32, calcita e corindon 3-barra 2/m (familia hexagonal, sistema trigonal); rutilo tetragonal; gipsita 2/m; aragonita 2/m 2/m 2/m; cubicos",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-ANI-RETARDO-001",
+      "claim": "Retardo por direcao: zero nos isotropicos e ao longo dos eixos opticos; maximo uniaxial perpendicular ao eixo = d x |epsilon - omega|; maximo biaxial = d x (gamma - alpha).",
+      "source": "Hecht, Optics; Klein & Dutrow; conferido: Hecht, Optics; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-ANI-TENSAO-001",
+      "claim": "Halita e esfalerita podem mostrar anisotropia fraca induzida por tensao (Handbook of Mineralogy: weakly anisotropic due to stress; strain-induced birefringence).",
+      "source": "Handbook of Mineralogy (halite, sphalerite); conferido: HoM halite: weakly anisotropic due to stress; sphalerite: may show strain-induced birefringence",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-FIG08-INDICATRIZ-001",
+      "claim": "Figura 8: esfera (isotropico, halita n 1,544), elipsoide de revolucao (quartzo omega 1,544, epsilon 1,553) e elipsoide triaxial (gipsita 1,521/1,523/1,530), com diferencas exageradas e esquema qualitativo.",
+      "source": "Handbook of Mineralogy; esquema; conferido: codigo SVG: elipsoide do quartzo alongado em c (positivo, epsilon > omega); triaxial com gamma > beta > alpha",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-LUZ-DIDAT-001",
+      "claim": "Segunda passagem: intensidade proporcional ao quadrado da amplitude; na luz nada material oscila e o raio segue reto; a curva da fig. 1 e o valor de E, perpendicular ao raio.",
+      "source": "Hecht, Optics (irradiancia proporcional a E0^2); Python 1,94/3,00 = 0,647",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-REF-DIDAT-001",
+      "claim": "Segunda passagem: isotropico = mesmas propriedades opticas em todas as direcoes; omega e epsilon como nomes dos dois indices do quartzo.",
+      "source": "Nesse; Klein & Dutrow; HoM quartz (omega 1,544, epsilon 1,553)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-TOT-DIDAT-001",
+      "claim": "Segunda passagem: mesa = faceta grande e plana do topo; moissanita = carbeto de silicio (SiC), imitacao de diamante, n 2,648-2,691, acima do refratometro; brilho de face polida pela reflexao parcial.",
+      "source": "Skyjems, Moissanite; Nassau, McClure, Elen & Shigley, Synthetic moissanite: a new diamond substitute (Gems & Gemology, 1997), por busca em 2026-10-07",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-DIS-DIDAT-001",
+      "claim": "Segunda passagem: B = 0,0278/(1/486^2 - 1/687^2) = 13 144,3 nm2, A = 2,37975; goniometro de prisma; esfalerita 0,156 'mais de tres vezes' o diamante (3,55); curva da fig. 4 tracejada de 436 a 486 e de 687 a 700 nm, ponto mais alto y = 96,2 (topo 90).",
+      "source": "Python; Gem Society, Sphalerite ('three times higher', 'over three times'), por busca em 2026-10-07; codigo SVG da fig. 4",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-POL-DIDAT-001",
+      "claim": "Segunda passagem: filtro do meio entrega uma vibracao e sempre deixa passar luz; mineral entrega duas, com atraso, e entre cruzados pode nao passar nada; cos2 30 + cos2 60 = 1.",
+      "source": "Hecht, Optics (I = I1 sen2(2phi) sen2(pi Gamma/lambda) entre polarizadores cruzados); Python",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-DUPLA-DIDAT-001",
+      "claim": "Segunda passagem: uniaxial com um eixo optico coincidente com c; eixo c ao longo do eixo principal no tetragonal, hexagonal e trigonal; Brewster pelo modelo de dipolo (dipolos oscilam perpendicular ao refratado, ao longo do refletido, e nao irradiam ao longo do proprio eixo).",
+      "source": "Wikipedia, Brewster's angle (explicacao fisica); Hecht, Optics; modulo 05, aula 01 (c ao longo de 4, 6, 3); Python: theta_B + theta_t = 90,0000 graus para 1,333, 1,5 e 2,4175",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-INT-DIDAT-001",
+      "claim": "Segunda passagem: 2 pi rad = 360 graus; inversao da regra entre polarizadores cruzados com o cristal a 45 graus (Gamma = m lambda escuro, (m + 1/2) lambda maximo); quartzo m = 0,458, 'quase meio lambda'.",
+      "source": "Python; Hecht, Optics (mesma condicao de OPT-INT-EXTINCAO-001)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "OPT-ANI-DIDAT-001",
+      "claim": "Segunda passagem: luz que caminha numa direcao so vibra nas perpendiculares; epsilon e da vibracao ao longo de c, so encontrada pela luz que caminha perpendicular a c; so duas secoes centrais do elipsoide triaxial sao circulos (raio beta); ortorrombico e monoclinico com '2 ou 2-barra'. (As partes do quartzo e da elipse viraram os achados OPT-ANI-QZSIM-001 e OPT-ANI-ELIPSE-001.)",
+      "source": "Nelson, Biaxial minerals (Tulane, EENS 2110); Nesse; modulo 04, aula 06",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QST-M14-CALC-002",
+      "claim": "Terceira passagem: todas as contas dos gabaritos dos tres questionarios e dos cards fb085 e fc008 (Snell, angulo critico, Malus de I0/2, tres filtros, Brewster, Gamma e m, retardo maximo); so a armadilha da P2 Q24 tinha erro.",
+      "source": "Python, 2026-10-07",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QST-M14-GABAR-001",
+      "claim": "Terceira passagem: 40 gabaritos e comentarios de distratores conferidos contra as aulas atuais; nenhum distrator defensavel; clivagem {111} do diamante e da fluorita (F Q36) rastreada ao modulo 13, aula 02.",
+      "source": "aulas 01 a 08 do modulo 14; modulo 13, aula 02",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QST-M14-OA-001",
+      "claim": "Terceira passagem: 6 de 6 objetivos com questao no final; matrizes de 22, 29 e 29 pontos (final com 15 questoes); total 40 questoes e 80 pontos; distribuicoes cognitiva e por tipo.",
+      "source": "course-state.yaml; matrizes dos questionarios",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QST-M14-NAOCOBRAR-001",
+      "claim": "Terceira passagem: nenhuma questao cobra itens da lista 'O que nao cobrar' da revisao didatica (c, visivel, Fraunhofer, tabela de dispersao, teto do refratometro, datas, Cauchy, prisma, Fresnel-Arago, extincao, Michel-Levy, sinal dos biaxiais, indicatriz); indices sempre no enunciado.",
+      "source": "revisao didatica do modulo 14",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "FLC-M14-RASTRO-001",
+      "claim": "Terceira passagem: 180 cards rastreados a frases das aulas; nenhum fato fabricado; versos respondem as frentes; IDs de aula e objetivos; contagens por aula; tabela do flashcards.md igual aos CSVs (180/180).",
+      "source": "aulas 01 a 08; CSVs",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "FLC-M14-REGRESSAO-001",
+      "claim": "Terceira passagem: sem regressao dos erros corrigidos nas aulas (epsilon paralelo a c e omega perpendicular; quartzo com um so eixo 3 em c; elipse nao circular; eixos opticos normais as secoes circulares; brilho metalico por absorcao; teto do refratometro pelo liquido; nG - nB; corindon so como erro).",
+      "source": "achados 1, 2, 4, 6, 7, 9, 11 e 12",
+      "confidence": "confirmado"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520" font-family="Arial, Helvetica, sans-serif">
+<title>Isotropia e anisotropia óptica segundo o sistema cristalino</title>
+<rect width="1000" height="520" fill="#ffffff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker><marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker></defs>
+<text x="500.0" y="28.0" font-size="17" text-anchor="middle" fill="#222" font-weight="bold">Os índices de refração principais e o sistema cristalino</text>
+<circle cx="180" cy="210" r="70" fill="#e8eef7" stroke="#333" stroke-width="2"/>
+<line x1="180.0" y1="210.0" x2="250.0" y2="210.0" stroke="#c0392b" stroke-width="2"/>
+<line x1="180.0" y1="210.0" x2="180.0" y2="140.0" stroke="#c0392b" stroke-width="2"/>
+<text x="176.0" y="232.0" font-size="15" text-anchor="end" fill="#c0392b" font-weight="bold">n</text>
+<ellipse cx="500" cy="210" rx="70" ry="88" fill="#e8eef7" stroke="#333" stroke-width="2"/>
+<line x1="500.0" y1="210.0" x2="570.0" y2="210.0" stroke="#c0392b" stroke-width="2"/>
+<line x1="500.0" y1="210.0" x2="500.0" y2="122.0" stroke="#1f5fa8" stroke-width="2"/>
+<text x="578.0" y="214.0" font-size="15" text-anchor="start" fill="#c0392b" font-weight="bold">ω</text>
+<text x="508.0" y="118.0" font-size="13" text-anchor="start" fill="#1f5fa8" font-weight="bold">ε (paralelo ao eixo c)</text>
+<text x="500.0" y="328.0" font-size="12" text-anchor="middle" fill="#555">no plano perpendicular a c todas as direções valem ω</text>
+<ellipse cx="820" cy="210" rx="85" ry="55" fill="#e8eef7" stroke="#333" stroke-width="2"/>
+<line x1="820.0" y1="210.0" x2="905.0" y2="210.0" stroke="#c0392b" stroke-width="2"/>
+<line x1="820.0" y1="210.0" x2="820.0" y2="155.0" stroke="#1f5fa8" stroke-width="2"/>
+<line x1="820.0" y1="210.0" x2="780.0" y2="250.0" stroke="#2e8b57" stroke-width="2"/>
+<text x="912.0" y="214.0" font-size="15" text-anchor="start" fill="#c0392b" font-weight="bold">γ</text>
+<text x="828.0" y="152.0" font-size="15" text-anchor="start" fill="#1f5fa8" font-weight="bold">α</text>
+<text x="770.0" y="268.0" font-size="15" text-anchor="end" fill="#2e8b57" font-weight="bold">β</text>
+<text x="180.0" y="70.0" font-size="18" text-anchor="middle" fill="#222" font-weight="bold">Isotrópico</text>
+<text x="180.0" y="92.0" font-size="13" text-anchor="middle" fill="#222">isométrico (e vidro, opala)</text>
+<text x="180.0" y="352.0" font-size="13" text-anchor="middle" fill="#222">n único: 1,544 (halita)</text>
+<text x="500.0" y="70.0" font-size="18" text-anchor="middle" fill="#222" font-weight="bold">Uniaxial</text>
+<text x="500.0" y="92.0" font-size="13" text-anchor="middle" fill="#222">tetragonal, hexagonal, trigonal</text>
+<text x="500.0" y="352.0" font-size="13" text-anchor="middle" fill="#222">dois índices: ω e ε</text>
+<text x="500.0" y="374.0" font-size="13" text-anchor="middle" fill="#222">quartzo: ω 1,544 · ε 1,553</text>
+<text x="820.0" y="70.0" font-size="18" text-anchor="middle" fill="#222" font-weight="bold">Biaxial</text>
+<text x="820.0" y="92.0" font-size="13" text-anchor="middle" fill="#222">ortorrômbico, monoclínico, triclínico</text>
+<text x="820.0" y="352.0" font-size="13" text-anchor="middle" fill="#222">três índices: α &lt; β &lt; γ</text>
+<text x="820.0" y="374.0" font-size="13" text-anchor="middle" fill="#222">gipsita: 1,521 · 1,523 · 1,530</text>
+<text x="500.0" y="420.0" font-size="14" text-anchor="middle" fill="#222" font-weight="bold">Quanto menor a simetria, mais índices distintos: 1 (isotrópico), 2 (uniaxial) ou 3 (biaxial).</text>
+<text x="500.0" y="450.0" font-size="12" text-anchor="middle" fill="#777">Esquema qualitativo: as diferenças entre os índices estão muito exageradas (as reais são de milésimos a décimos).</text>
+<text x="500.0" y="470.0" font-size="12" text-anchor="middle" fill="#777">Valores: Handbook of Mineralogy (halita, quartzo, gipsita).</text>
+</svg>

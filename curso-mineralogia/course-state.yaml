@@ -39,7 +39,7 @@ learning_outcomes:
   e de propriedades, com grau de confiança explícito.
 status: in_progress
 created_at: '2026-09-29T00:00:00-03:00'
-updated_at: '2026-10-07T21:00:00-03:00'
+updated_at: '2026-10-07T23:59:00-03:00'
 curriculum_basis: 'pesquisa das ementas e sumários de referência, cruzada com o escopo previsto pelo usuário: ementas
   do IGc-USP — GMG0106 Cristalografia Fundamental (45 h) e GMG0220 Mineralogia (105 h), com as optativas GMG0203
   Mineralogia Aplicada e GMG0425 Técnicas Gemológicas (pasta GradeCurricular/Geologia-USP) —; sumários de Klein
@@ -52,8 +52,8 @@ curriculum_basis: 'pesquisa das ementas e sumários de referência, cruzada com 
   Dyar & Gunter, Mineralogy and Optical Mineralogy (MSA); Deer, Howie & Zussman (minerais formadores de rocha);
   Nesse, Introduction to Optical Mineralogy; normativo IMA-CNMNC (definição de mineral, lista de espécies, nomenclatura
   de grupos) e classificação Nickel-Strunz/Dana; Mindat e RRUFF como referência de dados.'
-current_module: '14'
-next_action: 'Módulos 01 a 06 e 08 a 13 concluídos (07, grupos espaciais, é aprofundamento e fica para a segunda passagem). Módulo 10 fechado em 2026-10-06: 5 aulas (aula 05 e objetivo oa05 acrescentados com IDs novos); auditoria 🟠 3, 🟡 6, 🔵 1 corrigidos; revisão 🟠 1, 🟡 3 corrigidos, 🔵 3 abertos; questionário final (15 q, 37 pts); baralho 70 Basic + 8 Cloze; 3 figuras SVG. Módulo 11 fechado em 2026-10-06: 5 aulas; auditoria 🟡 3 corrigidos, nenhum aberto (todas as razões Si:O e cargas recalculadas em Python); revisão 🟡 5 corrigidos, 🔵 3 abertos; questionário final (15 q, 37 pts); baralho 57 Basic + 8 Cloze; 3 figuras SVG. Módulo 12 (defeitos cristalinos e maclas) fechado em 2026-10-06: 7 aulas (a aula 02 do planejamento foi dividida na revisão didática: Parte 1 manteve o ID a02, Parte 2 recebeu o ID novo a07; arquivos renumerados 03-06 → 04-07); 3 figuras SVG; auditoria em três passagens (🔴 1, 🟠 17, ⚪ 1 corrigidos, nenhum aberto; a terceira, sobre questionários e baralho, corrigiu 🟠 5, entre eles a Q22 do final e a generalização de que discordâncias parciais margeiam um defeito planar, em geral falha de empilhamento, nas aulas 02 e 03; contas dos gabaritos refeitas em Python); revisão didática 🟠 3, 🟡 11 corrigidos, 🔵 3 abertos; questionários parcial 1 (9 q, 18 pts), parcial 2 (10 q, 19 pts) e final (15 q, 41 pts); baralho 111 Basic + 9 Cloze. Módulo 13 (propriedades físicas e identificação macroscópica) fechado em 2026-10-07: 9 aulas (as aulas 05 e 06 do planejamento foram divididas em Parte 1 e Parte 2, com IDs novos a08 e a09, sem deslocar os existentes: arquivo 06 = a08, 07 = a06, 08 = a09, 09 = a07); 5 figuras SVG; auditoria em três passagens (🔴 1, 🟠 26, ⚪ 1 corrigidos, nenhum aberto; a terceira, sobre questionários e baralho, corrigiu 🟠 8, entre eles a Q37 (b) do final, o eixo polar único da piroeletricidade na aula 08 e a luminescência intrínseca da autunita e da scheelita na aula 07; contas dos gabaritos refeitas em Python); revisão didática 🟠 4, 🟡 13 corrigidos, 🔵 4 abertos e não bloqueantes; questionários parcial 1 (11 q, 22 pts), parcial 2 (12 q, 29 pts) e final (15 q, 39 pts); baralho 179 Basic + 7 Cloze. Pendências não bloqueantes herdadas: o módulo 04 (aula 05 e card mineralogia-m04-fb049) diz que nas 10 classes polares um sentido de uma direção difere do oposto, sem a condição de eixo polar único (achado 26 do m13), a corrigir na auditoria transversal ou numa correção pontual; m09 (🔵 óxidos da olivina de San Carlos a conferir em Jarosewich et al. 1980), m01 (cloze com mais de 3 lacunas, quase-duplicatas), m02 (auditoria cross-course com curso-geologia m04 a03); o módulo 36 deve conferir o parâmetro c do ortoclásio na fonte primária; o módulo 22 deve decidir, com fonte, qual polimorfo de Al2SiO5 é estável a 25 °C e 1 atm (evitado no m10); o módulo 34 deve conferir o β da tremolita no Handbook of Mineralogy (m11 usou 104,8–104,95°). Próximo passo: Módulo 14 (óptica física para mineralogia: luz, refração, polarização e interferência), começando pelas aulas.'
+current_module: '15'
+next_action: 'Módulos 01 a 06 e 08 a 14 concluídos (07, grupos espaciais, é aprofundamento e fica para a segunda passagem). Módulo 10 fechado em 2026-10-06: 5 aulas (aula 05 e objetivo oa05 acrescentados com IDs novos); auditoria 🟠 3, 🟡 6, 🔵 1 corrigidos; revisão 🟠 1, 🟡 3 corrigidos, 🔵 3 abertos; questionário final (15 q, 37 pts); baralho 70 Basic + 8 Cloze; 3 figuras SVG. Módulo 11 fechado em 2026-10-06: 5 aulas; auditoria 🟡 3 corrigidos, nenhum aberto (todas as razões Si:O e cargas recalculadas em Python); revisão 🟡 5 corrigidos, 🔵 3 abertos; questionário final (15 q, 37 pts); baralho 57 Basic + 8 Cloze; 3 figuras SVG. Módulo 12 (defeitos cristalinos e maclas) fechado em 2026-10-06: 7 aulas (a aula 02 do planejamento foi dividida na revisão didática: Parte 1 manteve o ID a02, Parte 2 recebeu o ID novo a07; arquivos renumerados 03-06 → 04-07); 3 figuras SVG; auditoria em três passagens (🔴 1, 🟠 17, ⚪ 1 corrigidos, nenhum aberto; a terceira, sobre questionários e baralho, corrigiu 🟠 5, entre eles a Q22 do final e a generalização de que discordâncias parciais margeiam um defeito planar, em geral falha de empilhamento, nas aulas 02 e 03; contas dos gabaritos refeitas em Python); revisão didática 🟠 3, 🟡 11 corrigidos, 🔵 3 abertos; questionários parcial 1 (9 q, 18 pts), parcial 2 (10 q, 19 pts) e final (15 q, 41 pts); baralho 111 Basic + 9 Cloze. Módulo 13 (propriedades físicas e identificação macroscópica) fechado em 2026-10-07: 9 aulas (as aulas 05 e 06 do planejamento foram divididas em Parte 1 e Parte 2, com IDs novos a08 e a09, sem deslocar os existentes: arquivo 06 = a08, 07 = a06, 08 = a09, 09 = a07); 5 figuras SVG; auditoria em três passagens (🔴 1, 🟠 26, ⚪ 1 corrigidos, nenhum aberto; a terceira, sobre questionários e baralho, corrigiu 🟠 8, entre eles a Q37 (b) do final, o eixo polar único da piroeletricidade na aula 08 e a luminescência intrínseca da autunita e da scheelita na aula 07; contas dos gabaritos refeitas em Python); revisão didática 🟠 4, 🟡 13 corrigidos, 🔵 4 abertos e não bloqueantes; questionários parcial 1 (11 q, 22 pts), parcial 2 (12 q, 29 pts) e final (15 q, 39 pts); baralho 179 Basic + 7 Cloze. Pendências não bloqueantes herdadas: o módulo 04 (aula 05 e card mineralogia-m04-fb049) diz que nas 10 classes polares um sentido de uma direção difere do oposto, sem a condição de eixo polar único (achado 26 do m13), a corrigir na auditoria transversal ou numa correção pontual; m09 (🔵 óxidos da olivina de San Carlos a conferir em Jarosewich et al. 1980), m01 (cloze com mais de 3 lacunas, quase-duplicatas), m02 (auditoria cross-course com curso-geologia m04 a03); o módulo 36 deve conferir o parâmetro c do ortoclásio na fonte primária; o módulo 22 deve decidir, com fonte, qual polimorfo de Al2SiO5 é estável a 25 °C e 1 atm (evitado no m10); o módulo 34 deve conferir o β da tremolita no Handbook of Mineralogy (m11 usou 104,8–104,95°). Módulo 14 (óptica física para mineralogia) fechado em 2026-10-07: 8 aulas (as aulas 03, 04 e 05 do planejamento foram divididas em Parte 1 e Parte 2 por carga; IDs novos a06, a07 e a08: arquivo 04 = a06, 05 = a04, 06 = a07, 07 = a05, 08 = a08); 8 figuras SVG; auditoria em três passagens (🔴 1, 🟠 18, ⚪ 1 corrigidos, nenhum aberto; a terceira, sobre questionários e baralho, corrigiu 🟠 8, entre eles a armadilha da Q24 do parcial 2 (ordem de grandeza), a velocidade tratada como única na calcita na Q38 do final, o card fb129 que dava O e E como coerentes sem luz polarizada, o cloze fc003 que pedia valores de dispersão e seis pares de quase-duplicatas; contas dos gabaritos refeitas em Python; nenhuma aula alterada); revisão didática 🟠 5, 🟡 13 corrigidos, 🔵 4 abertos e não bloqueantes; questionários parcial 1 (12 q, 22 pts), parcial 2 (13 q, 29 pts) e final (15 q, 29 pts); baralho 171 Basic + 9 Cloze. Pendência não bloqueante, que é decisão curricular do usuário (🔵 3 da revisão didática do m14): acrescentar 05 e 13 aos prerequisites do módulo 14 (as aulas usam o eixo c do m05 e o brilho e a lâmina de 30 µm do m13; os dois vêm antes na ordem numérica, e por isso nada foi alterado). Próximo passo: módulo 15 (O microscópio petrográfico: luz plana e polarizadores cruzados; núcleo; pré-requisitos 13 e 14), começar pelas aulas; o redator deve retomar, com os nomes usados no m14, a linha de Becke, a inversão da regra de interferência entre polarizadores cruzados, a razão do polarizador abaixo da lâmina e a carta de Michel-Lévy (quartzo de 30 µm = 270 nm), conforme a seção Relação com o módulo 15 da revisão didática do m14.'
 blocking_issues: []
 decisions:
 - date: '2026-09-29'
@@ -1656,7 +1656,7 @@ modules:
     à simetria cristalina.
   prerequisites:
   - '04'
-  status: pending
+  status: completed
   learning_objectives:
   - id: mineralogia-m14-oa01
     statement: Descrever a luz como onda eletromagnética (comprimento de onda, frequência, velocidade) e situar
@@ -1679,44 +1679,116 @@ modules:
     statement: Relacionar isotropia e anisotropia óptica à simetria cristalina (isométrico, uniaxial, biaxial)
     cognitive_level: analisar
   lessons:
-    planned: 5
-    completed: 0
+    planned: 8
+    completed: 8
     items:
     - id: mineralogia-m14-a01
       title: A luz como onda eletromagnética
-      status: pending
+      status: completed
+      file: 14-optica-fisica/14-optica-fisica-aula-01-a-luz-como-onda-eletromagnetica.md
+      content_hash: 57af247f1c373ba1c1fdc0db844fb57f9b2c0831a0e38b8a0915b65838c5b5e9
+      palavras_corpo: 1416
       covers_objectives:
       - mineralogia-m14-oa01
     - id: mineralogia-m14-a02
       title: Refração, índice de refração e lei de Snell
-      status: pending
+      status: completed
+      file: 14-optica-fisica/14-optica-fisica-aula-02-refracao-indice-de-refracao-e-lei-de-snell.md
+      content_hash: 0321181e4e0e0d713d9817f7ff3c3f85566673bf1c0c5af043c9f40ffbcacada
+      palavras_corpo: 1356
       covers_objectives:
       - mineralogia-m14-oa02
     - id: mineralogia-m14-a03
-      title: Dispersão e reflexão total
-      status: pending
+      title: 'Dispersão e reflexão total, Parte 1: ângulo crítico e reflexão total'
+      status: completed
+      file: 14-optica-fisica/14-optica-fisica-aula-03-dispersao-e-reflexao-total-parte-1-angulo-critico-e-reflexao-total.md
+      content_hash: 119a51d7735293604767f4ff07930e01c49fab0637443e80d8a1aeb44f79702e
+      palavras_corpo: 1331
       covers_objectives:
       - mineralogia-m14-oa02
+    - id: mineralogia-m14-a06
+      title: 'Dispersão e reflexão total, Parte 2: dispersão'
+      status: completed
+      file: 14-optica-fisica/14-optica-fisica-aula-04-dispersao-e-reflexao-total-parte-2-dispersao.md
+      content_hash: 9cdd40838399e5414dce6d0b3f1fec104d63d36a8dea89e2d75c382a447aa3f6
+      palavras_corpo: 1429
+      covers_objectives:
       - mineralogia-m14-oa03
     - id: mineralogia-m14-a04
-      title: Polarização
-      status: pending
+      title: 'Polarização, Parte 1: polarização por absorção e lei de Malus'
+      status: completed
+      file: 14-optica-fisica/14-optica-fisica-aula-05-polarizacao-parte-1-polarizacao-por-absorcao-e-lei-de-malus.md
+      content_hash: d9c09933ef6df981871fa399221ca36babe0a14c829f994ce9d6c7cf45006ae5
+      palavras_corpo: 1565
+      covers_objectives:
+      - mineralogia-m14-oa04
+    - id: mineralogia-m14-a07
+      title: 'Polarização, Parte 2: reflexão e dupla refração'
+      status: completed
+      file: 14-optica-fisica/14-optica-fisica-aula-06-polarizacao-parte-2-reflexao-e-dupla-refracao.md
+      content_hash: f4f9989b7cb56f86dff4f5442efb4c88b0d0a155287b5f471c01219cf39df17a
+      palavras_corpo: 1449
       covers_objectives:
       - mineralogia-m14-oa04
     - id: mineralogia-m14-a05
-      title: Interferência, retardo e anisotropia óptica
-      status: pending
+      title: 'Interferência, retardo e anisotropia óptica, Parte 1: interferência e retardo'
+      status: completed
+      file: 14-optica-fisica/14-optica-fisica-aula-07-interferencia-retardo-e-anisotropia-optica-parte-1-interferencia-e-retardo.md
+      content_hash: b5fb3874bb5e19432d9ac0db5d3048ad37d21b283534b66e9af4d549c62856b4
+      palavras_corpo: 1607
       covers_objectives:
       - mineralogia-m14-oa05
+    - id: mineralogia-m14-a08
+      title: 'Interferência, retardo e anisotropia óptica, Parte 2: anisotropia e simetria'
+      status: completed
+      file: 14-optica-fisica/14-optica-fisica-aula-08-interferencia-retardo-e-anisotropia-optica-parte-2-anisotropia-e-simetria.md
+      content_hash: 816da6640254c0d4202a950c0e864917d1759b23b671d2538b5d7606056ed50a
+      palavras_corpo: 1644
+      covers_objectives:
       - mineralogia-m14-oa06
   audit:
-    status: pending
+    status: approved
+    file: 14-optica-fisica/14-optica-fisica-auditoria.md
+    red: 1
+    orange: 18
+    yellow: 0
+    blue: 0
+    white: 1
+    open_findings: []
+    audited_at: '2026-10-07'
   didactic_review:
-    status: pending
+    status: completed
+    file: 14-optica-fisica/14-optica-fisica-revisao-didatica.md
+    content_hash: 3d176171c6bb5760b269336efba94c80c6f176345aa4b71c3db04a3997b08c2f
+    generated_at: '2026-10-07T07:08:00-03:00'
   assessment:
-    status: pending
+    status: completed
+    files:
+    - 14-optica-fisica/14-optica-fisica-questionario-parcial-1.md
+    - 14-optica-fisica/14-optica-fisica-questionario-parcial-2.md
+    - 14-optica-fisica/14-optica-fisica-questionario-final.md
+    questions: 40
+    points: 80
+    objectives_covered:
+    - mineralogia-m14-oa01
+    - mineralogia-m14-oa02
+    - mineralogia-m14-oa03
+    - mineralogia-m14-oa04
+    - mineralogia-m14-oa05
+    - mineralogia-m14-oa06
+    blueprint_complete: true
+    uncovered_objectives: []
+    generated_at: '2026-10-07'
   flashcards:
-    status: pending
+    status: completed
+    index_file: 14-optica-fisica/14-optica-fisica-flashcards.md
+    basic_file: 14-optica-fisica/14-optica-fisica-flashcards-basic.csv
+    cloze_file: 14-optica-fisica/14-optica-fisica-flashcards-cloze.csv
+    count_basic: 171
+    count_cloze: 9
+    last_id: 171
+    last_id_cloze: 9
+    generated_at: '2026-10-07T22:00:00-03:00'
 # trilha: nucleo (núcleo) — módulo 15
 - id: '15'
   slug: microscopio-petrografico

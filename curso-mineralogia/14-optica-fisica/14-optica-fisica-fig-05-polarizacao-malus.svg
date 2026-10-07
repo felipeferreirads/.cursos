@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" width="1000" height="470" font-family="Arial, Helvetica, sans-serif">
+<title>Polarização por absorção e lei de Malus</title>
+<rect width="1000" height="470" fill="#ffffff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker><marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker></defs>
+<text x="500.0" y="28.0" font-size="17" text-anchor="middle" fill="#222" font-weight="bold">Polarizador, analisador e lei de Malus: I = I₁ cos²θ, com I₁ = I₀/2</text>
+<line x1="30.0" y1="190.0" x2="150.0" y2="190.0" stroke="#222" stroke-width="2" marker-end="url(#k)"/>
+<line x1="80.0" y1="216.0" x2="80.0" y2="164.0" stroke="#1f5fa8" stroke-width="2"/>
+<line x1="67.0" y1="212.5" x2="93.0" y2="167.5" stroke="#1f5fa8" stroke-width="2"/>
+<line x1="57.5" y1="203.0" x2="102.5" y2="177.0" stroke="#1f5fa8" stroke-width="2"/>
+<line x1="54.0" y1="190.0" x2="106.0" y2="190.0" stroke="#1f5fa8" stroke-width="2"/>
+<line x1="57.5" y1="177.0" x2="102.5" y2="203.0" stroke="#1f5fa8" stroke-width="2"/>
+<line x1="67.0" y1="167.5" x2="93.0" y2="212.5" stroke="#1f5fa8" stroke-width="2"/>
+<text x="80.0" y="242.0" font-size="13" text-anchor="middle" fill="#222">luz natural</text>
+<text x="80.0" y="258.0" font-size="12" text-anchor="middle" fill="#555">(todas as direções)</text>
+<rect x="170" y="130" width="14" height="120" fill="#bbb" stroke="#333"/>
+<line x1="177.0" y1="138.0" x2="177.0" y2="242.0" stroke="#333" stroke-width="2"/>
+<text x="177.0" y="118.0" font-size="13" text-anchor="middle" fill="#222" font-weight="bold">polarizador</text>
+<text x="177.0" y="272.0" font-size="12" text-anchor="middle" fill="#555">eixo vertical</text>
+<line x1="190.0" y1="190.0" x2="300.0" y2="190.0" stroke="#222" stroke-width="2" marker-end="url(#k)"/>
+<line x1="245.0" y1="216.0" x2="245.0" y2="164.0" stroke="#1f5fa8" stroke-width="2"/>
+<text x="245.0" y="242.0" font-size="13" text-anchor="middle" fill="#222">polarizada</text>
+<text x="245.0" y="258.0" font-size="13" text-anchor="middle" fill="#555">I₀/2</text>
+<g transform="rotate(30 340 190)"><rect x="333" y="130" width="14" height="120" fill="#bbb" stroke="#333"/><line x1="340.0" y1="138.0" x2="340.0" y2="242.0" stroke="#333" stroke-width="2"/>
+</g>
+<text x="340.0" y="118.0" font-size="13" text-anchor="middle" fill="#222" font-weight="bold">analisador</text>
+<text x="340.0" y="272.0" font-size="12" text-anchor="middle" fill="#555">eixo a θ = 30° do polarizador</text>
+<line x1="385.0" y1="190.0" x2="480.0" y2="190.0" stroke="#222" stroke-width="2" marker-end="url(#k)"/>
+<line x1="422.0" y1="207.3" x2="442.0" y2="172.7" stroke="#1f5fa8" stroke-width="2"/>
+<text x="432.0" y="242.0" font-size="12" text-anchor="middle" fill="#222">I = (I₀/2)·cos²30°</text>
+<text x="432.0" y="258.0" font-size="12" text-anchor="middle" fill="#555">= 0,75 · (I₀/2)</text>
+<line x1="580.0" y1="380.0" x2="950.0" y2="380.0" stroke="#222" stroke-width="1.5"/>
+<line x1="580.0" y1="380.0" x2="580.0" y2="110.0" stroke="#222" stroke-width="1.5"/>
+<polyline fill="none" stroke="#1f5fa8" stroke-width="2.2" points="580.0,110.0 584.1,110.1 588.2,110.3 592.3,110.7 596.4,111.3 600.6,112.1 604.7,113.0 608.8,114.0 612.9,115.2 617.0,116.6 621.1,118.1 625.2,119.8 629.3,121.7 633.4,123.7 637.6,125.8 641.7,128.1 645.8,130.5 649.9,133.1 654.0,135.8 658.1,138.6 662.2,141.6 666.3,144.7 670.4,147.9 674.6,151.2 678.7,154.7 682.8,158.2 686.9,161.9 691.0,165.6 695.1,169.5 699.2,173.5 703.3,177.5 707.4,181.6 711.6,185.8 715.7,190.1 719.8,194.4 723.9,198.8 728.0,203.3 732.1,207.8 736.2,212.3 740.3,216.9 744.4,221.6 748.6,226.2 752.7,230.9 756.8,235.6 760.9,240.3 765.0,245.0 769.1,249.7 773.2,254.4 777.3,259.1 781.4,263.8 785.6,268.4 789.7,273.1 793.8,277.7 797.9,282.2 802.0,286.7 806.1,291.2 810.2,295.6 814.3,299.9 818.4,304.2 822.6,308.4 826.7,312.5 830.8,316.5 834.9,320.5 839.0,324.4 843.1,328.1 847.2,331.8 851.3,335.3 855.4,338.8 859.6,342.1 863.7,345.3 867.8,348.4 871.9,351.4 876.0,354.2 880.1,356.9 884.2,359.5 888.3,361.9 892.4,364.2 896.6,366.3 900.7,368.3 904.8,370.2 908.9,371.9 913.0,373.4 917.1,374.8 921.2,376.0 925.3,377.0 929.4,377.9 933.6,378.7 937.7,379.3 941.8,379.7 945.9,379.9 950.0,380.0"/>
+<line x1="580.0" y1="380.0" x2="580.0" y2="386.0" stroke="#222" stroke-width="1"/>
+<text x="580.0" y="402.0" font-size="12" text-anchor="middle" fill="#222">0°</text>
+<circle cx="580.0" cy="110.0" r="4" fill="#c0392b"/>
+<line x1="703.3" y1="380.0" x2="703.3" y2="386.0" stroke="#222" stroke-width="1"/>
+<text x="703.3" y="402.0" font-size="12" text-anchor="middle" fill="#222">30°</text>
+<circle cx="703.3" cy="177.5" r="4" fill="#c0392b"/>
+<line x1="765.0" y1="380.0" x2="765.0" y2="386.0" stroke="#222" stroke-width="1"/>
+<text x="765.0" y="402.0" font-size="12" text-anchor="middle" fill="#222">45°</text>
+<circle cx="765.0" cy="245.0" r="4" fill="#c0392b"/>
+<line x1="826.7" y1="380.0" x2="826.7" y2="386.0" stroke="#222" stroke-width="1"/>
+<text x="826.7" y="402.0" font-size="12" text-anchor="middle" fill="#222">60°</text>
+<circle cx="826.7" cy="312.5" r="4" fill="#c0392b"/>
+<line x1="950.0" y1="380.0" x2="950.0" y2="386.0" stroke="#222" stroke-width="1"/>
+<text x="950.0" y="402.0" font-size="12" text-anchor="middle" fill="#222">90°</text>
+<circle cx="950.0" cy="380.0" r="4" fill="#c0392b"/>
+<line x1="574.0" y1="380.0" x2="580.0" y2="380.0" stroke="#222" stroke-width="1"/>
+<text x="570.0" y="384.0" font-size="12" text-anchor="end" fill="#222">0,00</text>
+<line x1="574.0" y1="312.5" x2="580.0" y2="312.5" stroke="#222" stroke-width="1"/>
+<text x="570.0" y="316.5" font-size="12" text-anchor="end" fill="#222">0,25</text>
+<line x1="574.0" y1="245.0" x2="580.0" y2="245.0" stroke="#222" stroke-width="1"/>
+<text x="570.0" y="249.0" font-size="12" text-anchor="end" fill="#222">0,50</text>
+<line x1="574.0" y1="177.5" x2="580.0" y2="177.5" stroke="#222" stroke-width="1"/>
+<text x="570.0" y="181.5" font-size="12" text-anchor="end" fill="#222">0,75</text>
+<line x1="574.0" y1="110.0" x2="580.0" y2="110.0" stroke="#222" stroke-width="1"/>
+<text x="570.0" y="114.0" font-size="12" text-anchor="end" fill="#222">1,00</text>
+<text x="765.0" y="426.0" font-size="13" text-anchor="middle" fill="#222">ângulo θ entre os eixos (graus)</text>
+<text x="765.0" y="90.0" font-size="13" text-anchor="middle" fill="#222" font-weight="bold">I após o analisador, em fração de I(θ = 0) = cos²θ</text>
+<text x="500.0" y="440.0" font-size="13" text-anchor="middle" fill="#555">Em θ = 90° (polarizadores cruzados) a intensidade é zero; em θ = 45°, vale metade do máximo.</text>
+</svg>

@@ -1,6 +1,6 @@
 # Módulo 14 — Óptica física para mineralogia: luz, refração, polarização e interferência
 
-> [!info] Curso de **Mineralogia** · módulo 14 de 50 · área V. Mineralogia óptica · trilha **núcleo** · status: **pendente** (planejado em 2026-09-29, nenhuma aula escrita)
+> [!info] Curso de **Mineralogia** · módulo 14 de 50 · área V. Mineralogia óptica · trilha **núcleo** · status: **concluído** (aulas, auditoria em três passagens, revisão didática, questionários e baralho em 2026-10-07; sem achado aberto; pendência curricular não bloqueante: pré-requisitos 05 e 13)
 
 ## Objetivo do módulo
 
@@ -39,19 +39,33 @@ Reconstruir, a partir do ensino médio, a óptica ondulatória de que a mineralo
 - `mineralogia-m14-oa05` — Calcular a diferença de caminho (retardo) entre dois raios e prever interferência construtiva ou destrutiva.
 - `mineralogia-m14-oa06` — Relacionar isotropia e anisotropia óptica à simetria cristalina (isométrico, uniaxial, biaxial).
 
-## Aulas planejadas (5, nenhuma escrita)
+## Aulas (8 escritas)
 
-1. Aula 01 — A luz como onda eletromagnética — `mineralogia-m14-a01` · cobre `mineralogia-m14-oa01`
-2. Aula 02 — Refração, índice de refração e lei de Snell — `mineralogia-m14-a02` · cobre `mineralogia-m14-oa02`
-3. Aula 03 — Dispersão e reflexão total — `mineralogia-m14-a03` · cobre `mineralogia-m14-oa02`, `mineralogia-m14-oa03`
-4. Aula 04 — Polarização — `mineralogia-m14-a04` · cobre `mineralogia-m14-oa04`
-5. Aula 05 — Interferência, retardo e anisotropia óptica — `mineralogia-m14-a05` · cobre `mineralogia-m14-oa05`, `mineralogia-m14-oa06`
+1. [[14-optica-fisica-aula-01-a-luz-como-onda-eletromagnetica|Aula 01 — A luz como onda eletromagnética]] — `mineralogia-m14-a01` · cobre `mineralogia-m14-oa01`
+2. [[14-optica-fisica-aula-02-refracao-indice-de-refracao-e-lei-de-snell|Aula 02 — Refração, índice de refração e lei de Snell]] — `mineralogia-m14-a02` · cobre `mineralogia-m14-oa02`
+3. [[14-optica-fisica-aula-03-dispersao-e-reflexao-total-parte-1-angulo-critico-e-reflexao-total|Aula 03 — Dispersão e reflexão total, Parte 1: ângulo crítico e reflexão total]] — `mineralogia-m14-a03` · cobre `mineralogia-m14-oa02`
+4. [[14-optica-fisica-aula-04-dispersao-e-reflexao-total-parte-2-dispersao|Aula 04 — Dispersão e reflexão total, Parte 2: dispersão]] — `mineralogia-m14-a06` · cobre `mineralogia-m14-oa03`
+5. [[14-optica-fisica-aula-05-polarizacao-parte-1-polarizacao-por-absorcao-e-lei-de-malus|Aula 05 — Polarização, Parte 1: polarização por absorção e lei de Malus]] — `mineralogia-m14-a04` · cobre `mineralogia-m14-oa04`
+6. [[14-optica-fisica-aula-06-polarizacao-parte-2-reflexao-e-dupla-refracao|Aula 06 — Polarização, Parte 2: reflexão e dupla refração]] — `mineralogia-m14-a07` · cobre `mineralogia-m14-oa04`
+7. [[14-optica-fisica-aula-07-interferencia-retardo-e-anisotropia-optica-parte-1-interferencia-e-retardo|Aula 07 — Interferência, retardo e anisotropia óptica, Parte 1: interferência e retardo]] — `mineralogia-m14-a05` · cobre `mineralogia-m14-oa05`
+8. [[14-optica-fisica-aula-08-interferencia-retardo-e-anisotropia-optica-parte-2-anisotropia-e-simetria|Aula 08 — Interferência, retardo e anisotropia óptica, Parte 2: anisotropia e simetria]] — `mineralogia-m14-a08` · cobre `mineralogia-m14-oa06`
 
-> Títulos provisórios, definidos no planejamento. O gerador de aulas pode ajustá-los ou dividir uma aula em Parte 1 / Parte 2 pela contagem de carga; um objetivo novo recebe o próximo ID livre, nunca desloca os existentes.
+> As aulas 03 (dispersão e reflexão total), 04 (polarização) e 05 (interferência, retardo e anisotropia) do planejamento foram divididas na redação por carga (reflexão total e dispersão são assuntos distintos; absorção, reflexão e dupla refração são três mecanismos; interferência e anisotropia são dois objetivos): a Parte 1 de cada uma manteve o ID (`a03`, `a04`, `a05`) e a Parte 2 recebeu ID novo (`a06`, `a07`, `a08`), sem deslocar os existentes. Por isso a ordem de leitura dos arquivos é a01, a02, a03, a06, a04, a07, a05, a08. Nenhum objetivo novo foi criado; o `oa02` é coberto por a02 e a03, e o `oa04`, por a04 e a07.
+
+### Figuras do módulo (geradas por script)
+
+- `14-optica-fisica-fig-01-onda-e-espectro.svg` — aula 01 (onda, comprimento de onda e espectro visível)
+- `14-optica-fisica-fig-02-reflexao-e-refracao.svg` — aula 02 (reflexão e refração ar-quartzo, Snell)
+- `14-optica-fisica-fig-03-reflexao-total.svg` — aula 03 (ângulo crítico do quartzo)
+- `14-optica-fisica-fig-04-dispersao.svg` — aula 04 (n de λ no diamante e dispersão de gemas)
+- `14-optica-fisica-fig-05-polarizacao-malus.svg` — aula 05 (polarizador, analisador e lei de Malus)
+- `14-optica-fisica-fig-06-brewster-e-dupla-refracao.svg` — aula 06 (Brewster e dupla refração)
+- `14-optica-fisica-fig-07-interferencia.svg` — aula 07 (interferência de duas ondas)
+- `14-optica-fisica-fig-08-isotropia-uniaxial-biaxial.svg` — aula 08 (isotrópico, uniaxial e biaxial)
 
 ## Pontos de dificuldade previstos
 
-Trigonometria (seno) precisa ser reativada; retardo Δ = d·(n₂ − n₁) é a ponte para Michel-Lévy.
+Trigonometria (seno) precisa ser reativada; retardo Γ = d·(n₂ − n₁) é a ponte para Michel-Lévy (nas aulas, Δ é a diferença de caminho geral e Γ, o retardo da lâmina).
 
 ## Remissões a outros cursos (por nome, nunca por wikilink)
 
@@ -59,11 +73,13 @@ curso-geologia, módulo 05, aula 04 (ponte, sem lei de Snell); curso-gemologia, 
 
 ## Registro do módulo
 
-- Aulas: pendente (0 de 5)
-- Auditoria científica: pendente
-- Revisão didática: pendente
-- Questionário: pendente (gate: só depois da auditoria sem achado 🔴/🟠 em aberto)
-- Flashcards: pendente (mesmo gate)
+- Aulas: escritas (8 de 8), em 2026-10-07 (5 do planejamento; as aulas 03, 04 e 05 foram divididas em duas cada); figuras SVG: 8; alegações auditáveis em cada aula (70 após a auditoria; 80 após a segunda passagem)
+- Auditoria científica: concluída em 2026-10-07, modo audit-and-fix, profundidade full ([[14-optica-fisica-auditoria|relatório]], manifesto `14-optica-fisica-auditoria.json`): 🔴 1 · 🟠 8 · ⚪ 1, todos corrigidos; veredito final **Aprovado**, sem achado aberto. As 69 alegações dos rodapés foram conferidas (59 corretas; 1 nova criada), todas as contas refeitas em Python e as 8 figuras lidas pelo código. Principais correções: na calcita, ε é o índice da vibração **paralela** a c (aula 06); birrefringência do coríndon 0,008 a 0,009, não 0,004 a 0,013 (aula 06); O e E só são coerentes com luz já polarizada (aula 07); brilho metálico separado da reflexão parcial (aula 03, coerência com o módulo 13); notação nG − nB e I₁ = I₀/2 alinhadas nas figuras 4 e 5.
+- Revisão didática: concluída em 2026-10-07, modo review-and-fix, contrato `ensino-medio-sem-geologia-v1` ([[14-optica-fisica-revisao-didatica|relatório]]): 🔴 0 · 🟠 5 · 🟡 13 · 🔵 4; 🟠 e 🟡 corrigidos, 🔵 abertos. Principais correções: a analogia do terceiro filtro ganhou o ponto em que quebra (o mineral não "reorienta" e pode não deixar passar luz, aula 05); "uniaxial" e "eixo c" definidos antes do uso (aula 06); o recap da aula 07 traz a inversão da regra entre polarizadores cruzados; a aula 08 distingue direção de vibração e de propagação e explica por que o plano ⊥ c tem um só índice; figuras 2, 3, 4, 6, 7 e 8 corrigidas (vírgula decimal, curva de Cauchy tracejada fora do intervalo ajustado, legendas e rótulos sem colisão). Nenhuma aula dividida; aulas 07 e 08 enxugadas para o teto (1.607 e 1.638 palavras). As oito alegações novas (`OPT-*-DIDAT-001`) passaram pela [[14-optica-fisica-auditoria|segunda passagem do auditor]] em 2026-10-07: 7 de 8 verificadas por inteiro, contas refeitas em Python (Cauchy, Malus, Brewster, ordens m); 🟠 2 corrigidos na aula 08 (o quartzo, classe 32, não "só tem eixo 3": tem só um eixo 3 em c; o argumento do uniaxial vale para a elipse não circular); rótulos das figuras 2, 3 e 6 afastados dos raios que os cortavam. Nenhum achado aberto.
+- Questionários: gerados em 2026-10-07, 40 questões, 80 pontos, 6 de 6 objetivos cobertos — [[14-optica-fisica-questionario-parcial-1|parcial 1]] (aulas 01-04, IDs `a01`, `a02`, `a03`, `a06`; 12 q, 22 pts), [[14-optica-fisica-questionario-parcial-2|parcial 2]] (aulas 05-08, IDs `a04`, `a07`, `a05`, `a08`; 13 q, 29 pts) e [[14-optica-fisica-questionario-final|final cumulativo]] (aulas 01-08; 15 q, 29 pts). Contas dos gabaritos refeitas em Python (Snell, ângulo crítico, Malus a partir de I₀/2, três filtros, Brewster, Γ e m com conversão de mm para nm, retardo máximo). `oa02` e `oa04` (duas aulas cada) têm 10 e 13 pts no parcial 1 e no parcial 2; `oa05` e `oa06`, pontes para os módulos 15 e 16, somam 16 pts no parcial 2 e 14 no final. Seguem as orientações da revisão didática: nenhum valor a decorar (c, visível, Fraunhofer, tabela de dispersão em números, teto do refratômetro), nenhuma data, nenhum coeficiente de Cauchy, nenhuma posição de extinção; as duas regras de interferência aparecem sem cálculo de extinção; o item "qual índice vê a luz que caminha em tal direção" está nas Q18 e Q31. Os questionários citam sempre o ID e o número do arquivo da aula.
+- Flashcards: gerados em 2026-10-07, 171 Basic + 9 Cloze (180 cards), validados (`validate_flashcards`: 0 erro, 0 aviso), feitos só do conteúdo das aulas, com poucos números e sempre em contexto — [[14-optica-fisica-flashcards|baralho do módulo]] (`14-optica-fisica-flashcards-basic.csv`, `-cloze.csv`). A coluna `aula` traz o ID real (arquivo 04 = `a06`, 05 = `a04`, 06 = `a07`, 07 = `a05`)
+- Auditoria do material derivado (terceira passagem do `auditor-cientifico`): concluída em 2026-10-07, modo audit-and-fix, sobre os três questionários e o baralho ([[14-optica-fisica-auditoria|relatório]], seção "Auditoria de questionários e baralho"): 🟠 8, todos corrigidos, nenhum aberto. Todas as contas dos gabaritos refeitas em Python (Snell, ângulo crítico, Malus a partir de I₀/2, três filtros, Brewster, Γ e m, retardo máximo); matrizes conferidas (22, 29 e 29 pts; o final, 29 pts em 15 questões). Corrigidos nos questionários: a armadilha da Q24 do parcial 2 (o erro de não converter mm dá m da ordem de 10⁻⁶, não 10⁻⁸); a Q38 do final, que tratava a velocidade na calcita como única (agora é a do raio ordinário); metadados de cobertura e da matriz. No baralho: fc003 passou a pedir a ordem relativa da dispersão, não valores; fb059 deixou de pedir o cálculo dos coeficientes de Cauchy; fb129 diz que O e E são coerentes **com luz já polarizada**; fb160 situa as duas seções circulares no biaxial; fc002 tinha a resposta da lacuna c3 no texto; seis pares de quase-duplicatas desfeitos (fb020, fb037, fb088, fb134, fb155, fc001, fc005). Nenhuma aula, figura, ID, resposta ou pontuação mudou. `validate_flashcards`, `validate_state` (0 erro) e `validate_links` passaram.
+- **Módulo concluído em 2026-10-07.** Pendência não bloqueante, que é decisão curricular do usuário: acrescentar 05 e 13 a `prerequisites` do módulo (🔵 3 da revisão didática; as aulas usam o eixo c do módulo 05 e o brilho e a lâmina de 30 µm do módulo 13, ambos anteriores na ordem numérica)
 
 ## Navegação
 

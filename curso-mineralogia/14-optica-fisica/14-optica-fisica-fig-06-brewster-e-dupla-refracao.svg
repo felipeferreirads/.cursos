@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520" font-family="Arial, Helvetica, sans-serif">
+<title>Polarização por reflexão (ângulo de Brewster) e dupla refração na calcita</title>
+<rect width="1000" height="520" fill="#ffffff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker><marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker></defs>
+<text x="500.0" y="28.0" font-size="17" text-anchor="middle" fill="#222" font-weight="bold">Polarização por reflexão e dupla refração</text>
+<text x="250.0" y="64.0" font-size="14" text-anchor="middle" fill="#222" font-weight="bold">Brewster: ar → vidro (n = 1,5)</text>
+<rect x="40" y="270" width="420" height="190" fill="#e8eef7"/>
+<line x1="40.0" y1="270.0" x2="460.0" y2="270.0" stroke="#333" stroke-width="2"/>
+<line x1="250.0" y1="100.0" x2="250.0" y2="445.0" stroke="#888" stroke-width="1" stroke-dasharray="6,5"/>
+<line x1="125.2" y1="186.8" x2="250.0" y2="270.0" stroke="#c0392b" stroke-width="3" marker-end="url(#a)"/>
+<text x="129.2" y="162.8" font-size="13" text-anchor="end" fill="#222">incidente</text>
+<text x="129.2" y="178.8" font-size="12" text-anchor="end" fill="#555">(luz natural)</text>
+<line x1="250.0" y1="270.0" x2="374.8" y2="186.8" stroke="#c0392b" stroke-width="3" marker-end="url(#a)"/>
+<text x="334.8" y="162.8" font-size="13" text-anchor="start" fill="#222">refletido</text>
+<text x="334.8" y="178.8" font-size="12" text-anchor="start" fill="#555">(polarizado)</text>
+<line x1="250.0" y1="270.0" x2="333.2" y2="394.8" stroke="#c0392b" stroke-width="3" marker-end="url(#a)"/>
+<text x="341.2" y="394.8" font-size="13" text-anchor="start" fill="#222">refratado</text>
+<text x="228.0" y="226.0" font-size="14" text-anchor="end" fill="#1f5fa8" font-weight="bold">56,3°</text>
+<text x="262.0" y="370.0" font-size="14" text-anchor="start" fill="#1f5fa8" font-weight="bold">33,7°</text>
+<text x="250.0" y="485.0" font-size="12" text-anchor="middle" fill="#555">tg θB = n₂/n₁ = 1,5 → θB = 56,3°; refletido e refratado formam 90°</text>
+<text x="740.0" y="64.0" font-size="14" text-anchor="middle" fill="#222" font-weight="bold">Dupla refração: um raio entra, dois saem</text>
+<polygon points="600,170 820,170 860,350 640,350" fill="#e8eef7" stroke="#333" stroke-width="2"/>
+<line x1="700.0" y1="100.0" x2="700.0" y2="170.0" stroke="#c0392b" stroke-width="3" marker-end="url(#a)"/>
+<text x="690.0" y="95.0" font-size="13" text-anchor="end" fill="#222">raio de luz natural</text>
+<line x1="700.0" y1="170.0" x2="700.0" y2="350.0" stroke="#c0392b" stroke-width="3"/>
+<line x1="700.0" y1="350.0" x2="700.0" y2="410.0" stroke="#c0392b" stroke-width="3" marker-end="url(#a)"/>
+<line x1="700.0" y1="170.0" x2="730.0" y2="350.0" stroke="#1f5fa8" stroke-width="3"/>
+<line x1="730.0" y1="350.0" x2="730.0" y2="410.0" stroke="#1f5fa8" stroke-width="3" marker-end="url(#a)"/>
+<text x="692.0" y="430.0" font-size="13" text-anchor="end" fill="#c0392b" font-weight="bold">raio O (ordinário)</text>
+<text x="738.0" y="430.0" font-size="13" text-anchor="start" fill="#1f5fa8" font-weight="bold">raio E (extraordinário)</text>
+<text x="740.0" y="456.0" font-size="12" text-anchor="middle" fill="#555">O e E saem polarizados em direções perpendiculares entre si.</text>
+<text x="740.0" y="478.0" font-size="12" text-anchor="middle" fill="#777">Esquema qualitativo, sem escala: o desvio do raio E está exagerado.</text>
+</svg>
