@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="1000" height="380" font-family="Arial, Helvetica, sans-serif">
+<title>Fragmentos de clivagem: cúbica, octaédrica, romboédrica e basal</title>
+<rect width="1000" height="380" fill="#ffffff"/>
+<text x="500" y="28" font-size="17" text-anchor="middle" fill="#222" font-weight="bold">Quatro clivagens e o fragmento que cada uma produz (esquema)</text>
+<polygon points="70,110 150,110 150,190 70,190" fill="#e8eef7" stroke="#333" stroke-width="1.3"/>
+<polygon points="70,110 100,85 180,85 150,110" fill="#fbe9d3" stroke="#333" stroke-width="1.3"/>
+<polygon points="150,110 180,85 180,165 150,190" fill="#d9e6d3" stroke="#333" stroke-width="1.3"/>
+<text x="125" y="235" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">cúbica {100}</text>
+<text x="125" y="257" font-size="13" text-anchor="middle" fill="#222">3 direções, 90°</text>
+<text x="125" y="277" font-size="13" text-anchor="middle" fill="#555">halita, galena</text>
+<polygon points="375,80 330,150 375,160" fill="#e8eef7" stroke="#333" stroke-width="1.3"/>
+<polygon points="375,80 375,160 425,150" fill="#fbe9d3" stroke="#333" stroke-width="1.3"/>
+<polygon points="330,150 375,160 375,220" fill="#d9e6d3" stroke="#333" stroke-width="1.3"/>
+<polygon points="375,160 425,150 375,220" fill="#f1d9d9" stroke="#333" stroke-width="1.3"/>
+<text x="375" y="255" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">octaédrica {111}</text>
+<text x="375" y="277" font-size="13" text-anchor="middle" fill="#222">4 direções, 70,5°</text>
+<text x="375" y="297" font-size="13" text-anchor="middle" fill="#555">fluorita, diamante</text>
+<polygon points="603,153 667,153 712,131 648,131" fill="#fbe9d3" stroke="#333" stroke-width="1.3"/>
+<polygon points="590,215 654,215 667,153 603,153" fill="#e8eef7" stroke="#333" stroke-width="1.3"/>
+<polygon points="654,215 699,193 712,131 667,153" fill="#d9e6d3" stroke="#333" stroke-width="1.3"/>
+<text x="655" y="255" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">romboédrica {10-11}</text>
+<text x="655" y="277" font-size="13" text-anchor="middle" fill="#222">3 direções, 74,9° e 105,1°</text>
+<text x="655" y="297" font-size="13" text-anchor="middle" fill="#555">calcita</text>
+<polygon points="860,140 900,100 970,100 930,140" fill="#e8eef7" stroke="#333" stroke-width="1.3"/>
+<polygon points="860,154 900,114 970,114 930,154" fill="#fbe9d3" stroke="#333" stroke-width="1.3"/>
+<polygon points="860,168 900,128 970,128 930,168" fill="#e8eef7" stroke="#333" stroke-width="1.3"/>
+<polygon points="860,182 900,142 970,142 930,182" fill="#fbe9d3" stroke="#333" stroke-width="1.3"/>
+<polygon points="860,196 900,156 970,156 930,196" fill="#e8eef7" stroke="#333" stroke-width="1.3"/>
+<polygon points="860,210 900,170 970,170 930,210" fill="#fbe9d3" stroke="#333" stroke-width="1.3"/>
+<text x="910" y="255" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">basal {001}</text>
+<text x="910" y="277" font-size="13" text-anchor="middle" fill="#222">1 direção, folhas</text>
+<text x="910" y="297" font-size="13" text-anchor="middle" fill="#555">micas, talco</text>
+<text x="500" y="350" font-size="14" text-anchor="middle" fill="#444">O fragmento reproduz a forma da clivagem, não a do cristal original.</text>
+</svg>

@@ -1,7 +1,7 @@
 # Curso: Mineralogia — da cristalografia à gênese (base e avançado)
 
 **Estado:** in_progress
-**Criado em:** 2026-09-29T00:00:00-03:00  ·  **Atualizado em:** 2026-10-06T18:30:00-03:00
+**Criado em:** 2026-09-29T00:00:00-03:00  ·  **Atualizado em:** 2026-10-07T21:00:00-03:00
 **Base do currículo:** pesquisa das ementas e sumários de referência, cruzada com o escopo previsto pelo usuário: ementas do IGc-USP — GMG0106 Cristalografia Fundamental (45 h) e GMG0220 Mineralogia (105 h), com as optativas GMG0203 Mineralogia Aplicada e GMG0425 Técnicas Gemológicas (pasta GradeCurricular/Geologia-USP) —; sumários de Klein & Dutrow, Manual of Mineral Science, 23a ed. (22 capítulos, incl. crescimento e defeitos, estabilidade e diagramas de fase, processos pós-cristalização, gemas e assembleias); Nesse, Introduction to Mineralogy (cristalografia, cristaloquímica, estrutura, crescimento mineral, óptica, DRX, análise química, sistemática por classe estrutural); Putnis, An Introduction to Mineral Sciences (simetria, anisotropia, difração, espectroscopia, defeitos, energética, soluções sólidas, exsolução, ordem, cinética, transformações); Perkins, Mineralogy (gênese por ambiente ígneo, sedimentar, metamórfico e de minério); Wenk & Bulakh, Minerals: Their Constitution and Origin (formação e ambientes); Dyar & Gunter, Mineralogy and Optical Mineralogy (MSA); Deer, Howie & Zussman (minerais formadores de rocha); Nesse, Introduction to Optical Mineralogy; normativo IMA-CNMNC (definição de mineral, lista de espécies, nomenclatura de grupos) e classificação Nickel-Strunz/Dana; Mindat e RRUFF como referência de dados.
 **Partida:** ensino médio completo, sem geologia prévia. Curso autossuficiente: nenhum pré-requisito cruzado para outros cursos; a química, a óptica e o contexto geológico necessários são reconstruídos dentro do próprio curso (módulos 01, 03 e 14).  ·  **Chegada:** avançado — nível de graduação plena em mineralogia e cristalografia, com incursões de pós-graduação nos módulos de aprofundamento (grupos espaciais, difração avançada, cinética, inclusões fluidas, geotermobarometria, mineralogia gemológica).
 **Volume estimado:** 50 módulos · ~262 aulas de ≤30 min · ~109-131 h (núcleo: 199 aulas, 83-100 h; aprofundamento: 63 aulas, 26-32 h) de estudo
@@ -23,12 +23,12 @@
 
 ## Estado
 
-- **Módulos:** 11 de 50 concluídos
-- **Aulas escritas:** 62
-- **Questionários:** 21
-- **Flashcards:** 811 Basic · 199 Cloze
-- **Módulo atual:** 13
-- **Próximo passo:** Módulos 01 a 06 e 08 a 12 concluídos (07, grupos espaciais, é aprofundamento e fica para a segunda passagem). Módulo 10 fechado em 2026-10-06: 5 aulas (aula 05 e objetivo oa05 acrescentados com IDs novos); auditoria 🟠 3, 🟡 6, 🔵 1 corrigidos; revisão 🟠 1, 🟡 3 corrigidos, 🔵 3 abertos; questionário final (15 q, 37 pts); baralho 70 Basic + 8 Cloze; 3 figuras SVG. Módulo 11 fechado em 2026-10-06: 5 aulas; auditoria 🟡 3 corrigidos, nenhum aberto (todas as razões Si:O e cargas recalculadas em Python); revisão 🟡 5 corrigidos, 🔵 3 abertos; questionário final (15 q, 37 pts); baralho 57 Basic + 8 Cloze; 3 figuras SVG. Módulo 12 (defeitos cristalinos e maclas) fechado em 2026-10-06: 7 aulas (a aula 02 do planejamento foi dividida na revisão didática: Parte 1 manteve o ID a02, Parte 2 recebeu o ID novo a07; arquivos renumerados 03-06 → 04-07); 3 figuras SVG; auditoria em três passagens (🔴 1, 🟠 17, ⚪ 1 corrigidos, nenhum aberto; a terceira, sobre questionários e baralho, corrigiu 🟠 5, entre eles a Q22 do final e a generalização de que discordâncias parciais margeiam um defeito planar, em geral falha de empilhamento, nas aulas 02 e 03; contas dos gabaritos refeitas em Python); revisão didática 🟠 3, 🟡 11 corrigidos, 🔵 3 abertos; questionários parcial 1 (9 q, 18 pts), parcial 2 (10 q, 19 pts) e final (15 q, 41 pts); baralho 111 Basic + 9 Cloze. Pendências não bloqueantes herdadas: m09 (🔵 óxidos da olivina de San Carlos a conferir em Jarosewich et al. 1980), m01 (cloze com mais de 3 lacunas, quase-duplicatas), m02 (auditoria cross-course com curso-geologia m04 a03); o módulo 36 deve conferir o parâmetro c do ortoclásio na fonte primária; o módulo 22 deve decidir, com fonte, qual polimorfo de Al2SiO5 é estável a 25 °C e 1 atm (evitado no m10); o módulo 34 deve conferir o β da tremolita no Handbook of Mineralogy (m11 usou 104,8–104,95°). Próximo passo: Módulo 13 (propriedades físicas e identificação macroscópica), começando pelas aulas.
+- **Módulos:** 12 de 50 concluídos
+- **Aulas escritas:** 71
+- **Questionários:** 24
+- **Flashcards:** 990 Basic · 206 Cloze
+- **Módulo atual:** 14
+- **Próximo passo:** Módulos 01 a 06 e 08 a 13 concluídos (07, grupos espaciais, é aprofundamento e fica para a segunda passagem). Módulo 10 fechado em 2026-10-06: 5 aulas (aula 05 e objetivo oa05 acrescentados com IDs novos); auditoria 🟠 3, 🟡 6, 🔵 1 corrigidos; revisão 🟠 1, 🟡 3 corrigidos, 🔵 3 abertos; questionário final (15 q, 37 pts); baralho 70 Basic + 8 Cloze; 3 figuras SVG. Módulo 11 fechado em 2026-10-06: 5 aulas; auditoria 🟡 3 corrigidos, nenhum aberto (todas as razões Si:O e cargas recalculadas em Python); revisão 🟡 5 corrigidos, 🔵 3 abertos; questionário final (15 q, 37 pts); baralho 57 Basic + 8 Cloze; 3 figuras SVG. Módulo 12 (defeitos cristalinos e maclas) fechado em 2026-10-06: 7 aulas (a aula 02 do planejamento foi dividida na revisão didática: Parte 1 manteve o ID a02, Parte 2 recebeu o ID novo a07; arquivos renumerados 03-06 → 04-07); 3 figuras SVG; auditoria em três passagens (🔴 1, 🟠 17, ⚪ 1 corrigidos, nenhum aberto; a terceira, sobre questionários e baralho, corrigiu 🟠 5, entre eles a Q22 do final e a generalização de que discordâncias parciais margeiam um defeito planar, em geral falha de empilhamento, nas aulas 02 e 03; contas dos gabaritos refeitas em Python); revisão didática 🟠 3, 🟡 11 corrigidos, 🔵 3 abertos; questionários parcial 1 (9 q, 18 pts), parcial 2 (10 q, 19 pts) e final (15 q, 41 pts); baralho 111 Basic + 9 Cloze. Módulo 13 (propriedades físicas e identificação macroscópica) fechado em 2026-10-07: 9 aulas (as aulas 05 e 06 do planejamento foram divididas em Parte 1 e Parte 2, com IDs novos a08 e a09, sem deslocar os existentes: arquivo 06 = a08, 07 = a06, 08 = a09, 09 = a07); 5 figuras SVG; auditoria em três passagens (🔴 1, 🟠 26, ⚪ 1 corrigidos, nenhum aberto; a terceira, sobre questionários e baralho, corrigiu 🟠 8, entre eles a Q37 (b) do final, o eixo polar único da piroeletricidade na aula 08 e a luminescência intrínseca da autunita e da scheelita na aula 07; contas dos gabaritos refeitas em Python); revisão didática 🟠 4, 🟡 13 corrigidos, 🔵 4 abertos e não bloqueantes; questionários parcial 1 (11 q, 22 pts), parcial 2 (12 q, 29 pts) e final (15 q, 39 pts); baralho 179 Basic + 7 Cloze. Pendências não bloqueantes herdadas: o módulo 04 (aula 05 e card mineralogia-m04-fb049) diz que nas 10 classes polares um sentido de uma direção difere do oposto, sem a condição de eixo polar único (achado 26 do m13), a corrigir na auditoria transversal ou numa correção pontual; m09 (🔵 óxidos da olivina de San Carlos a conferir em Jarosewich et al. 1980), m01 (cloze com mais de 3 lacunas, quase-duplicatas), m02 (auditoria cross-course com curso-geologia m04 a03); o módulo 36 deve conferir o parâmetro c do ortoclásio na fonte primária; o módulo 22 deve decidir, com fonte, qual polimorfo de Al2SiO5 é estável a 25 °C e 1 atm (evitado no m10); o módulo 34 deve conferir o β da tremolita no Handbook of Mineralogy (m11 usou 104,8–104,95°). Próximo passo: Módulo 14 (óptica física para mineralogia: luz, refração, polarização e interferência), começando pelas aulas.
 
 ## Módulos
 
@@ -57,7 +57,7 @@ Os 50 módulos aparecem como subpáginas abaixo, na ordem do currículo. Apenas 
 
 ### IV. Propriedades físicas e identificação macroscópica
 
-- **13 — Propriedades físicas e identificação macroscópica** · 7 aulas planejadas · pré-req: 05, 11, 12 — [[13-propriedades-fisicas/13-propriedades-fisicas-modulo|abrir]]
+- ✅ **13 — Propriedades físicas e identificação macroscópica** · 9/9 aulas (7 planejadas; a 05 e a 06 divididas em Parte 1 e Parte 2) · questionário + 186 cards · auditado · pré-req: 05, 11, 12 — [[13-propriedades-fisicas/13-propriedades-fisicas-modulo|abrir]]
 
 ### V. Mineralogia óptica
 
@@ -125,7 +125,7 @@ Os 50 módulos aparecem como subpáginas abaixo, na ordem do currículo. Apenas 
 
 ## Saldo das auditorias
 
-🔴 7 · 🟠 46 · 🟡 29 · 🔵 5 · ⚪ 1
+🔴 9 · 🟠 89 · 🟡 29 · 🔵 5 · ⚪ 3
 
 ## Decisões registradas
 

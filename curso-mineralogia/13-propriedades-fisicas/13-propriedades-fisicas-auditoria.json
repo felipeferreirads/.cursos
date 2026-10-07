@@ -1,0 +1,1131 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "13-propriedades-fisicas",
+    "module_id": "13",
+    "course_id": "mineralogia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-10-07",
+  "verdict": "approved",
+  "summary": {
+    "red": 1,
+    "orange": 26,
+    "yellow": 0,
+    "blue": 0,
+    "white": 1,
+    "verified_ok": 68
+  },
+  "findings": [
+    {
+      "claim_id": "PRF-FIG01-LEGENDA-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Na figura 1, cada raio ou lobo do radiado e do botrioidal e um cristal alongado.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-aula-01-habito-e-agregados-a-linguagem-da-morfologia.md",
+        "section": "Legenda da Figura 1",
+        "quote": "no agregado radiado e no botrioidal, cada \"raio\" ou \"lobo\" e, por sua vez, um cristal alongado"
+      },
+      "problem": "Cada lobo de um agregado botrioidal e um feixe de muitas fibras radiadas, nao um cristal unico; a legenda contradizia o corpo da aula (agregados de fibras radiadas) e o exemplo (b).",
+      "replacement": "no agregado radiado, cada \"raio\" e um cristal alongado; no botrioidal, cada \"lobo\" nao e um cristal so, e sim um feixe de muitas fibras radiadas a partir de um centro",
+      "source": {
+        "name": "Handbook of Mineralogy, hematite (radiating fibrous, reniform, botryoidal); corpo da propria aula",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-07",
+        "url": "https://www.handbookofmineralogy.org/pdfs/hematite.pdf"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-aula-01-habito-e-agregados-a-linguagem-da-morfologia.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "PRF-CLIV-ANFIB-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Anfibolios tem clivagem {110} boa.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-aula-02-clivagem-particao-e-fratura.md",
+        "section": "Clivagem: qualidade; A tabela de referencia",
+        "quote": "| anfibolios | {110}, boa | 2 | ~56 e ~124 |"
+      },
+      "problem": "O HoM da a clivagem {110} dos anfibolios como perfeita (tremolita, magnesio-hornblenda) ou boa (actinolita); a dos piroxenios e boa (augita, jadeita). Classificar os anfibolios so como \"boa\" e usa-los de exemplo do grau \"boa\" subestima a clivagem que os distingue no campo.",
+      "replacement": "tabela: {110}, perfeita a boa; exemplo do grau \"boa\": so piroxenios",
+      "source": {
+        "name": "Handbook of Mineralogy: tremolite, magnesiohornblende, actinolite, augite, jadeite",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-07",
+        "url": "https://www.handbookofmineralogy.org/pdfs/tremolite.pdf"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-aula-02-clivagem-particao-e-fratura.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "PRF-CLIV-ANGULO-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "Calcita: 74,9 graus entre as normais, 105,1 graus entre faces adjacentes.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-aula-02-clivagem-particao-e-fratura.md",
+        "section": "A tabela de referencia",
+        "quote": "74,9 entre as normais, 105,1 entre faces adjacentes"
+      },
+      "problem": "Os numeros estao certos (Python: 74,94 e 105,06), mas o romboedro de clivagem tem arestas agudas e obtusas: faces adjacentes se cortam tanto a 105,06 quanto a 74,94 graus. Como escrito, sugere um unico diedro, como no octaedro da fluorita.",
+      "replacement": "as faces se cortam a 74,9 e a 105,1 graus (angulos suplementares, nas arestas agudas e obtusas do romboedro)",
+      "source": {
+        "name": "calculo em Python com a cela do HoM (a = 4,9896, c = 17,0610; (104)^(-114)); modulo 06 aula 04",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-07",
+        "url": "https://www.handbookofmineralogy.org/pdfs/calcite.pdf"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-aula-02-clivagem-particao-e-fratura.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "PRF-CLIV-PARTICAO-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Corindon: particao romboedrica e basal, em geral por maclas polissinteticas.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-aula-02-clivagem-particao-e-fratura.md",
+        "section": "Particao: a fraqueza do especime, nao da especie",
+        "quote": "coríndon (particao romboedrica e basal, em geral por maclas polissinteticas; ele nao tem clivagem)"
+      },
+      "problem": "O HoM atribui as particoes {0001} e {10-11} do corindon a bohmita exsolvida ao longo desses planos, e o modulo 12 (auditoria, achado 11) ja corrigiu a mesma certeza indevida. \"Em geral por maclas polissinteticas\" reintroduzia a versao corrigida.",
+      "replacement": "particao basal {0001} e romboedrica {10-11}, ao longo de lamelas de macla e de lamelas de bohmita exsolvida nesses planos, como registrado no modulo 12",
+      "source": {
+        "name": "Handbook of Mineralogy, corundum (partings from exsolved bohmite); modulo 12, auditoria achado 11",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-07",
+        "url": "https://www.handbookofmineralogy.org/pdfs/corundum.pdf"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-aula-02-clivagem-particao-e-fratura.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "PRF-FIG02-ROMBO-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Figura 2: fragmento de clivagem romboedrica.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-fig-02-clivagem-e-formas.svg",
+        "section": "poligonos do fragmento romboedrico",
+        "quote": "frente retangular 590,170 670,170 670,215 590,215"
+      },
+      "problem": "O fragmento \"romboedrico\" era desenhado como uma caixa de frente retangular em projecao obliqua, igual ao cubo da mesma figura e so mais comprido; nenhuma face mostrava os angulos obliquos (~78/102 graus) que definem o romboedro de clivagem.",
+      "replacement": "tres faces redesenhadas como paralelogramos obliquos (frente em rombo de ~78/102 graus)",
+      "source": {
+        "name": "calculo em Python: angulo plano da face do romboedro de clivagem da calcita 78,1/101,9 graus",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-fig-02-clivagem-e-formas.svg"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "PRF-DUR-ROSIWAL-001",
+      "severity": "white",
+      "kind": "certeza_indevida",
+      "claim": "Valores de Rosiwal citados na literatura: ... quartzo 100; topazio 175 ...",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-aula-03-dureza-e-tenacidade.md",
+        "section": "Dureza absoluta: o tamanho real dos degraus",
+        "quote": "os valores citados na literatura sao: talco 0,03; gipsita 1,25; calcita 4,5; fluorita 5; ortoclasio 37; quartzo 100; topazio 175"
+      },
+      "problem": "As tabelas divergem: a Wikipedia inglesa da quartzo 100 e apatita 5,5; a alema, quartzo 120 e apatita 6,5; a tabela original do proprio Rosiwal (1892; 1895) da diamante 140000, topazio 194, quartzo 175, adularia 59,2, apatita 8,0, calcita 5,6, halita 2,0, talco 0,04. O texto apresentava uma compilacao como \"os valores da literatura\" e so a apatita como divergente. A conclusao didatica (degraus desiguais, salto coríndon-diamante de 140x) vale em todas.",
+      "replacement": "uma compilacao muito citada da ...; outras dao 120 ao quartzo, a apatita aparece como 5,5 ou 6,5, e a tabela original de Rosiwal dava quartzo 175, topazio 194 e adularia 59; leia os numeros como ordem de grandeza (texto, exemplo (c), legenda e nota da figura 3)",
+      "source": {
+        "name": "A. Rosiwal, comunicacao preliminar (1892) e \"Ueber die Haerte der Mineralien\", Monatsblaetter des Wissenschaftlichen Club in Wien 17 (1895); Wikipedia Rosiwal scale; Wikipedia (de) Mohshaerte",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-07",
+        "url": "https://opac.geologie.ac.at/ais312/dokumente/Rosiwal_1895_H%C3%A4rte%20Mineralien.pdf",
+        "version": "tabela de 1895, Korund = 1000"
+      },
+      "confidence": "em_disputa",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-aula-03-dureza-e-tenacidade.md",
+        "13-propriedades-fisicas/13-propriedades-fisicas-fig-03-mohs-e-dureza-absoluta.svg"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "PRF-DUR-CIANITA-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Cianita: 4,5 a 5 ao longo da lamina e 6,5 a 7 de traves.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-aula-03-dureza-e-tenacidade.md",
+        "section": "Anisotropia; Recap",
+        "quote": "ao longo do comprimento da lamina, a dureza e cerca de 4,5 a 5; atravessando a lamina, 6,5 a 7"
+      },
+      "problem": "O HoM da 5,5 paralelo a [001] (o alongamento) e 7 paralelo a [100]; o valor ao longo da lamina estava fora da faixa da fonte de referencia, que tem precedencia sobre a Wikipedia usada pela aula.",
+      "replacement": "cerca de 4,5 a 5,5 ao longo; 6,5 a 7 de traves (as fontes variam: o HoM da 5,5 e 7)",
+      "source": {
+        "name": "Handbook of Mineralogy, kyanite (Hardness = 5.5 || [001], 7 || [100]; crystals elongated || [001])",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-07",
+        "url": "https://www.handbookofmineralogy.org/pdfs/kyanite.pdf"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-aula-03-dureza-e-tenacidade.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "PRF-DENS-RECAP-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "G e rho em g/cm3 coincidem em ordem de grandeza.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-aula-04-densidade-medida-e-calculada.md",
+        "section": "Recap relampago",
+        "quote": "G e rho em g/cm3 coincidem em ordem de grandeza"
+      },
+      "problem": "O corpo diz que G e rho coincidem nos tres primeiros algarismos (diferenca de 0,2%); \"ordem de grandeza\" (fator 10) e uma afirmacao muito mais fraca e contradiz o corpo.",
+      "replacement": "G e rho em g/cm3 tem praticamente o mesmo numero: diferem cerca de 0,2% com a agua a 20 C",
+      "source": {
+        "name": "densidade da agua a 20 C = 0,9982 g/cm3; corpo da propria aula",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-aula-04-densidade-medida-e-calculada.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "PRF-DENS-GALENA-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Galena ~7,5.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-aula-04-densidade-medida-e-calculada.md",
+        "section": "Por que a densidade e uma boa propriedade; Erros comuns",
+        "quote": "galena ~7,5"
+      },
+      "problem": "HoM: D(meas.) 7,58, D(calc.) 7,57; arredondado, ~7,6. O valor aparecia tambem na ficha de apoio da aula 09.",
+      "replacement": "galena ~7,6 (tabelas das aulas 04 e 09; \"Erros comuns\" da aula 04)",
+      "source": {
+        "name": "Handbook of Mineralogy, galena",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-07",
+        "url": "https://www.handbookofmineralogy.org/pdfs/galena.pdf"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-aula-04-densidade-medida-e-calculada.md",
+        "13-propriedades-fisicas/13-propriedades-fisicas-aula-09-a-chave-macroscopica-e-o-grau-de-confianca-da-identificacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "PRF-BRI-COBRE-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "claim": "Cobre nativo e pirita sao amarelos.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-aula-05-brilho-diafaneidade-cor-e-traco-parte-1-brilho-e-diafaneidade.md",
+        "section": "Erros comuns",
+        "quote": "Cobre nativo e pirita sao amarelos, mas so um deles e cobre."
+      },
+      "problem": "O cobre nativo e vermelho-cobre (HoM: \"pale rose on fresh surface, quickly darkens to copper-red\"), nao amarelo. O exemplo quer o par dourado ouro x pirita, como mostra a frase seguinte (\"Um brilho metalico dourado nao e ouro\").",
+      "replacement": "Ouro nativo e pirita sao amarelos e metalicos, mas so um deles e ouro.",
+      "source": {
+        "name": "Handbook of Mineralogy, copper e gold",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-07",
+        "url": "https://www.handbookofmineralogy.org/pdfs/copper.pdf"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-aula-05-brilho-diafaneidade-cor-e-traco-parte-1-brilho-e-diafaneidade.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "PRF-BRI-CALCOP-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "Cristal cubico dourado, metalico e opaco e compativel com pirita, calcopirita e outros sulfetos.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-aula-05-brilho-diafaneidade-cor-e-traco-parte-1-brilho-e-diafaneidade.md",
+        "section": "Exemplo trabalhado (a)",
+        "quote": "E compativel com pirita, calcopirita e outros sulfetos"
+      },
+      "problem": "O enunciado descreve um cristal cubico; a calcopirita (tetragonal) forma cristais pseudotetraedricos e nao cubos. Brilho e diafaneidade sao compativeis com os dois, mas o habito cubico favorece a pirita; sem a ressalva, o aluno aprende que um cubo dourado pode ser calcopirita.",
+      "replacement": "Brilho e diafaneidade sao compativeis com pirita, calcopirita e outros sulfetos dourados (o habito cubico favorece a pirita: a calcopirita nao forma cubos)",
+      "source": {
+        "name": "Handbook of Mineralogy, pyrite e chalcopyrite (habito)",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-07",
+        "url": "https://www.handbookofmineralogy.org/pdfs/chalcopyrite.pdf"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-aula-05-brilho-diafaneidade-cor-e-traco-parte-1-brilho-e-diafaneidade.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "PRF-FIG04-OPTICA-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Figura 4: raios refletido, refratado e transmitido.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-fig-04-luz-brilho-e-diafaneidade.svg",
+        "section": "linhas dos raios",
+        "quote": "refletido ate (600,70); raio interno em dois segmentos; saida (620,332)-(800,380)"
+      },
+      "problem": "O raio refletido saia a ~52 graus da normal contra ~60 do incidente (lei da reflexao violada); o raio dentro do mineral mudava de direcao sem interface; e o transmitido saia a ~75 graus, nao paralelo ao incidente como exige uma placa de faces paralelas. A figura ensinava optica errada um modulo antes do modulo 14; o rotulo da absorcao nao apontava para nada.",
+      "replacement": "refletido ate (650,70) (angulo igual ao incidente); refratado reto (450,192)-(598,328); transmitido paralelo ao incidente; linha-guia para a absorcao; normais tracejadas e nota explicativa",
+      "source": {
+        "name": "optica geometrica: lei da reflexao e lei de Snell (modulo 14)",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-fig-04-luz-brilho-e-diafaneidade.svg"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "PRF-COR-IDIO-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "A cor idiocromatica e constante de uma especie para outra.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-aula-06-brilho-diafaneidade-cor-e-traco-parte-2-cor-e-traco.md",
+        "section": "Tres origens da cor",
+        "quote": "Por isso e constante de uma especie para outra, dentro de uma variacao de tom"
+      },
+      "problem": "A constancia da cor idiocromatica e entre especimes da mesma especie; \"de uma especie para outra\" diz o contrario do conceito.",
+      "replacement": "constante de um especime para outro da mesma especie",
+      "source": {
+        "name": "Klein & Dutrow, Manual of Mineral Science, 23a ed.; Nassau",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-aula-06-brilho-diafaneidade-cor-e-traco-parte-2-cor-e-traco.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "PRF-COR-EXEMPLO-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Tres cristais pretos de brilho metalico; o de traco preto-esverdeado e pirita ou calcopirita.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-aula-06-brilho-diafaneidade-cor-e-traco-parte-2-cor-e-traco.md",
+        "section": "Exemplo trabalhado (b)",
+        "quote": "Tres cristais pretos de brilho metalico"
+      },
+      "problem": "Pirita e calcopirita sao amarelo-latao (HoM), nao pretas; o enunciado fazia o aluno associar um cristal preto a pirita.",
+      "replacement": "Tres cristais de brilho metalico, dois cinza-escuros a pretos e um amarelo-latao; resposta: \"Preto-esverdeado, no cristal amarelo-latao: pirita ou calcopirita\"",
+      "source": {
+        "name": "Handbook of Mineralogy, pyrite (pale brass-yellow) e chalcopyrite (brass-yellow)",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-07",
+        "url": "https://www.handbookofmineralogy.org/pdfs/pyrite.pdf"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-aula-06-brilho-diafaneidade-cor-e-traco-parte-2-cor-e-traco.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "PRF-ESP-PIRROT-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "Especime preto metalico fortemente atraido: magnetita ou pirrotita monoclinica; traco da pirrotita preto-acinzentado a marrom.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-aula-07-propriedades-especiais-parte-1-magnetismo-luminescencia-e-radioatividade.md",
+        "section": "Exemplo trabalhado (a)",
+        "quote": "magnetita (ou pirrotita monoclinica) em hipotese; o traco (preto na magnetita; preto-acinzentado a marrom na pirrotita)"
+      },
+      "problem": "A pirrotita fresca e amarelo-bronze a castanho-bronze, nao preta, e o traco e \"dark grayish black\" (HoM), sem marrom; o que a separa da magnetita e a cor fresca e a dureza (3,5-4,5 contra 5,5-6,5), nao o traco.",
+      "replacement": "magnetita em hipotese; a pirrotita monoclinica tambem e atraida, mas e amarelo-bronze quando fresca e mais mole; cor fresca e dureza separam; traco preto x preto-acinzentado escuro",
+      "source": {
+        "name": "Handbook of Mineralogy, pyrrhotite e magnetite",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-07",
+        "url": "https://www.handbookofmineralogy.org/pdfs/pyrrhotite.pdf"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-aula-07-propriedades-especiais-parte-1-magnetismo-luminescencia-e-radioatividade.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "PRF-ESP-RAD-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "Minerais com uranio ou torio em sua formula sao radioativos: ... monazita ...",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-aula-07-propriedades-especiais-parte-1-magnetismo-luminescencia-e-radioatividade.md",
+        "section": "Radioatividade: o contador",
+        "quote": "Minerais com uranio ou torio em sua formula sao radioativos: uraninita (pechblenda), torianita, autunita, torbernita, carnotita, monazita, torita."
+      },
+      "problem": "A monazita-(Ce) e um fosfato de terras raras; o Th entra por substituicao e nao esta na formula ideal; o HoM a da como \"radioactive if thorium-rich\".",
+      "replacement": "lista sem a monazita, seguida de: \"A monazita, um fosfato de terras raras, nao tem torio na formula ideal, mas costuma recebe-lo por substituicao e, quando rica em torio, e radioativa.\"",
+      "source": {
+        "name": "Handbook of Mineralogy, monazite-(Ce)",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-07",
+        "url": "https://www.handbookofmineralogy.org/pdfs/monazite-Ce.pdf"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-aula-07-propriedades-especiais-parte-1-magnetismo-luminescencia-e-radioatividade.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "PRF-ESP2-MAGNES-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "A magnesita costuma ter dureza maior (3,5 a 4,5; ver a ficha).",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-aula-08-propriedades-especiais-parte-2-piezo-e-piroeletricidade-reacoes-e-solubilidade.md",
+        "section": "Exemplo trabalhado (b)",
+        "quote": "a magnesita costuma ter dureza maior (3,5 a 4,5; ver a ficha) e a siderita e marrom; use dureza e traco para refinar"
+      },
+      "problem": "As durezas se sobrepoem (magnesita 3,5-4,5; dolomita 3,5-4) e o traco das tres e branco (HoM), entao \"dureza e traco\" nao refinam; o criterio util e a densidade (2,86; 3,00; 3,96). \"Ver a ficha\" remetia a uma ficha que o curso nao tem (regra de curso autossuficiente).",
+      "replacement": "dureza e cor nao as separam bem da dolomita (magnesita 3,5 a 4,5, dolomita 3,5 a 4); a siderita costuma ser marrom; e a densidade ajuda mais (dolomita ~2,86; magnesita ~3,0; siderita ~3,96; aula 04)",
+      "source": {
+        "name": "Handbook of Mineralogy, dolomite, magnesite, siderite",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-07",
+        "url": "https://www.handbookofmineralogy.org/pdfs/magnesite.pdf"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-aula-08-propriedades-especiais-parte-2-piezo-e-piroeletricidade-reacoes-e-solubilidade.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "PRF-CHV-EXEMPLO-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Dureza >= 5,5 e <= 6,5.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-aula-09-a-chave-macroscopica-e-o-grau-de-confianca-da-identificacao.md",
+        "section": "Exemplo trabalhado (a)",
+        "quote": "dureza >= 5,5 e <= 6,5"
+      },
+      "problem": "O enunciado so diz que o especime risca o vidro e nao e riscado pelo aco; nenhum teste fixa o limite de cima. O 6,5 vinha da resposta (pirita), nao das observacoes: e o raciocinio circular que a propria aula condena.",
+      "replacement": "dureza acima de ~5,5 (risca o vidro e resiste ao aco; nenhum teste fixou o limite de cima)",
+      "source": {
+        "name": "logica do proprio exemplo; aula 03 (registro da dureza como intervalo)",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-aula-09-a-chave-macroscopica-e-o-grau-de-confianca-da-identificacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "PRF-CHV-SILICA-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Quartzo e seus polimorfos de baixa temperatura, idem (modulo 10).",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-aula-09-a-chave-macroscopica-e-o-grau-de-confianca-da-identificacao.md",
+        "section": "Quando a chave para no grupo, ou no par de polimorfos",
+        "quote": "quartzo e seus polimorfos de baixa temperatura, idem (modulo 10)"
+      },
+      "problem": "O modulo 10 (aulas 01 e 05) apresenta tridimita e cristobalita como polimorfos de alta temperatura da silica, metaestaveis em vulcanicas; \"polimorfos de baixa temperatura\" do quartzo contradiz o modulo ja fechado.",
+      "replacement": "a tridimita e a cristobalita, polimorfos de alta temperatura da silica que persistem metaestaveis em rochas vulcanicas (modulo 10), formam graos pequenos que a olho nu nao se separam com seguranca do quartzo",
+      "source": {
+        "name": "modulo 10, aulas 01 e 05 (auditados)",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-aula-09-a-chave-macroscopica-e-o-grau-de-confianca-da-identificacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "PRF-CHV-BERILO-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "Segunda passagem: no exemplo (d), a densidade (2,65) e indicada como o proximo teste para separar o quartzo de berilo, turmalina e topazio incolores, sem dizer que ela separa mal o berilo.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-aula-09-a-chave-macroscopica-e-o-grau-de-confianca-da-identificacao.md",
+        "section": "Exemplo trabalhado (d)",
+        "quote": "e varias alternativas seguem abertas; a densidade (2,65) e o proximo teste."
+      },
+      "problem": "A densidade descarta o topazio (3,49-3,57) e a turmalina incolor (elbaita 2,90-3,10), mas o berilo vai de 2,63 a 2,97 conforme o teor de alcalis (D calc. 2,640); um berilo pobre em alcalis tem a densidade do quartzo dentro da incerteza da balanca hidrostatica (+-0,04). O aluno concluiria 'quartzo' com um teste que nao exclui o berilo. Sugestao azul 4 da revisao didatica, confirmada.",
+      "replacement": "O proximo teste e a densidade (quartzo 2,65), mas ela nao fecha tudo: descarta o topazio (~3,5) e a turmalina incolor (~2,9 a 3,1), e separa mal o berilo (2,63 a 2,97, conforme o teor de alcalis), que pode ter a densidade do quartzo; para ele, o teste seguinte e o indice de refracao (modulo 14 em diante) ou a difracao.",
+      "source": {
+        "name": "Handbook of Mineralogy (Mineral Data Publishing, v. 1): beryl, topaz, elbaite",
+        "url": "https://www.handbookofmineralogy.org/pdfs/beryl.pdf",
+        "version": "versao 1 (2001-2005)",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-aula-09-a-chave-macroscopica-e-o-grau-de-confianca-da-identificacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "QST-M13-CALC-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Terceira passagem: Q37 (b) do final escreve 2,001/(2,001-1,429) = 3,519 e 1,999/(1,999-1,431) = 3,498.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-questionario-final.md",
+        "section": "Gabarito Q37 (b)",
+        "quote": "Extremos: 2,001 / (2,001 − 1,429) = **3,519** e 1,999 / (1,999 − 1,431) = **3,498**"
+      },
+      "problem": "2,001/0,572 = 3,498 e 1,999/0,568 = 3,519: resultados certos ao lado das expressoes trocadas.",
+      "replacement": "Extremos: 1,999 / (1,999 − 1,431) = 3,519 e 2,001 / (2,001 − 1,429) = 3,498",
+      "source": {
+        "name": "Python; aula 04 exemplo (a)",
+        "tier": "general",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-questionario-final.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "QST-M13-CALCOP-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Terceira passagem: Q25, comentario do distrator d) descarta a calcopirita pela dureza, que o enunciado nao da.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-questionario-final.md",
+        "section": "Gabarito Q25",
+        "quote": "d) a calcopirita foi descartada pela dureza e pela densidade (cerca de 4,2)"
+      },
+      "problem": "Descarte por teste nao realizado, o erro que a aula 09 condena.",
+      "replacement": "d) a calcopirita fica descartada pela densidade (cerca de 4,2, longe de 4,95) e pelo habito cubico, que ela nao forma (aula 05); o traco preto-esverdeado e compartilhado com a pirita e nao a favorece.",
+      "source": {
+        "name": "aulas 05 e 09",
+        "tier": "general",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-questionario-final.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "QST-M13-IRCONF-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "Terceira passagem: Q38 (e) sugere que o indice de refracao levaria a 'confirmado'.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-questionario-final.md",
+        "section": "Gabarito Q38 (e)",
+        "quote": "o resultado seria registrado como provável, e não confirmado até esse teste"
+      },
+      "problem": "Pela aula 09, so metodo que mede composicao ou estrutura confirma; o indice de refracao separa quartzo de berilo, mas a identificacao continua provavel.",
+      "replacement": "O indice de refracao (modulo 14 em diante) separaria o quartzo do berilo, mas a identificacao continuaria provavel; so a difracao de raios X (ou a analise quimica) a registraria como confirmada",
+      "source": {
+        "name": "aula 09",
+        "tier": "general",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-questionario-final.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "QST-M13-BRILHO-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Terceira passagem: Q12 do parcial 2 diz que a clivagem nao afeta o tipo de brilho.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-questionario-parcial-2.md",
+        "section": "Gabarito Q12",
+        "quote": "d) a clivagem afeta a superfície exposta, mas não o tipo de brilho em si."
+      },
+      "problem": "Contradiz a aula 05 (o nacarado so aparece nos planos de clivagem {001} de micas e talco).",
+      "replacement": "d) a superficie de clivagem pode mudar a aparencia do brilho (o nacarado das micas e do talco so aparece nela), mas o numero de direcoes de clivagem nao explica a sequencia de vitreo a metalico.",
+      "source": {
+        "name": "aula 05",
+        "tier": "general",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-questionario-parcial-2.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "QST-M13-COMENT-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Terceira passagem: comentarios de gabarito do parcial 1 fora das aulas ou imprecisos (Q4 c, Q6 d, Q10 d).",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-questionario-parcial-1.md",
+        "section": "Gabarito Q4, Q6, Q10 (d)",
+        "quote": "(d inverte os papéis do Mg e do Fe)"
+      },
+      "problem": "Q4: afirmacao vaga sobre a fratura do topazio sem apoio na aula; Q6: Fo30Fa70 nao e inversao de nenhuma resposta; Q10 (d): diedro de 120 graus do dodecaedro fora da aula, e (011) e (1-10) nao sao faces vizinhas.",
+      "replacement": "Q4 c): a fratura e a quebra onde nao ha plano de fraqueza; quebra plana em {001} e clivagem. Q6: 'a) e d) estao longe do calculo.' Q10 (d): 120 graus entre vetores; entre planos, o agudo, 60 graus, um dos angulos da clivagem {110}.",
+      "source": {
+        "name": "aula 02; Python",
+        "tier": "general",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-questionario-parcial-1.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "PRF-ESP2-POLAR-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "Terceira passagem: aula 08 define eixo polar sem a condicao de unicidade; Q20 diz que o quartzo nao tem eixo polar ('pontas iguais'); fb150 idem.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-aula-08-propriedades-especiais-parte-2-piezo-e-piroeletricidade-reacoes-e-solubilidade.md",
+        "section": "Vocabulario; Piezo e piroeletricidade",
+        "quote": "**Dez** das 20 têm um **eixo polar**, uma direção cujas pontas são diferentes"
+      },
+      "problem": "Os tres eixos a do quartzo (32) tem pontas diferentes (sao polares); o quartzo nao e piroeletrico porque nao tem eixo polar unico (os tres sao equivalentes pelo eixo 3). 'Pontas iguais' e falso.",
+      "replacement": "Dez das 20 tem um eixo polar unico, uma direcao cujas pontas sao diferentes e que nenhuma operacao de simetria repete em outra direcao (...). (O quartzo tem tres direcoes de pontas diferentes, os eixos a, mas a simetria as torna equivalentes e os efeitos se cancelam: ele nao e polar.)",
+      "source": {
+        "name": "International Tables for Crystallography, vol. D, sec. 3.3.6.3; literatura de piezoeletricidade do alfa-quartzo",
+        "tier": "normative",
+        "consulted_at": "2026-10-07",
+        "url": "https://it.iucr.org/Da/ch3o3v0001/sec3o3o6o3/"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-aula-08-propriedades-especiais-parte-2-piezo-e-piroeletricidade-reacoes-e-solubilidade.md",
+        "13-propriedades-fisicas/13-propriedades-fisicas-questionario-parcial-2.md",
+        "13-propriedades-fisicas/13-propriedades-fisicas-flashcards-basic.csv",
+        "13-propriedades-fisicas/13-propriedades-fisicas-flashcards.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "PRF-ESP-LUMIN-002",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Terceira passagem: aula 07 e fb130 listam o uranilo da autunita e o tungstato da scheelita como ativadores, definidos como impureza ou defeito.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-aula-07-propriedades-especiais-parte-1-magnetismo-luminescencia-e-radioatividade.md",
+        "section": "Luminescencia: A causa",
+        "quote": "o uranilo (o íon UO₂²⁺), em minerais de urânio como a autunita (verde-amarelada), e o tungstato da scheelita"
+      },
+      "problem": "Na autunita e na scheelita o centro luminescente e da propria formula (luminescencia intrinseca, autoativada), nao impureza.",
+      "replacement": "(...) e o uranilo (o ion UO2 2+), que em tracos faz fluorescer muitos minerais. Em alguns, o centro que emite e parte da propria formula (luminescencia intrinseca, ou autoativada): o uranilo da autunita e o tungstato da scheelita.",
+      "source": {
+        "name": "Fluorescent Mineral Database (uvminerals.org); literatura de luminescencia da scheelita",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-07",
+        "url": "https://uvminerals.org/fmdb/"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-aula-07-propriedades-especiais-parte-1-magnetismo-luminescencia-e-radioatividade.md",
+        "13-propriedades-fisicas/13-propriedades-fisicas-flashcards-basic.csv",
+        "13-propriedades-fisicas/13-propriedades-fisicas-flashcards.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    },
+    {
+      "claim_id": "FLC-M13-DUPLIC-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Terceira passagem: quase-duplicatas fc001 x fb026-fb028; fb048 x fb049; fb092 x fb095; fb040 x fb041.",
+      "location": {
+        "file": "13-propriedades-fisicas/13-propriedades-fisicas-flashcards-basic.csv",
+        "section": "fb026, fb027, fb028, fb040, fb049, fb092",
+        "quote": "{100}, perfeita, em 3 direções a 90°."
+      },
+      "problem": "Contraria o criterio declarado no flashcards.md (nenhum Basic repete fato de Cloze; um fato por card).",
+      "replacement": "Numero de direcoes so no fc001; fb049 sobre o que nao muda com o metodo; fb092 sem a resposta de fb095; fb040 sem a lista de fb041.",
+      "source": {
+        "name": "aulas 02, 03 e 05",
+        "tier": "general",
+        "consulted_at": "2026-10-07"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "13-propriedades-fisicas/13-propriedades-fisicas-flashcards-basic.csv",
+        "13-propriedades-fisicas/13-propriedades-fisicas-flashcards.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-07"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "PRF-HAB-DUAS-001",
+      "claim": "Descrever em duas camadas: habito do cristal individual e tipo de agregado; botrioidal, reniforme, mamilar, estalactitico, drusa, radiado, colunar, fibroso, dendritico, roseta, granular, laminado, massivo sao termos de agregado ou de superficie.",
+      "source": "Klein & Dutrow; Nesse; terminologia de habito e agregado",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-HAB-OOIDE-001",
+      "claim": "Oolitico = esferas de ~1 mm em camadas concentricas; pisolitico = esferas maiores (limite usual ~2 mm); o corte varia entre autores.",
+      "source": "ooides em geral <= 2 mm, pisoides > 2 mm; corte varia entre autores",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-HAB-CRISTAL-001",
+      "claim": "Cristalino, criptocristalino (calcedonia, jaspe) e amorfo (opala, mineraloide) como eixo de cristalinidade; massivo pode ser criptocristalino.",
+      "source": "HoM quartz: chalcedony microcristalino; modulo 10 aula 04: opala mineraloide",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-HAB-AMBIENTE-001",
+      "claim": "O habito depende de temperatura, supersaturacao, impurezas e espaco; o mesmo mineral (quartzo) forma prismas em cavidade, graos anedricos em granito e calcedonia criptocristalina em agata; estrutura em cadeias favorece prismas e fibras, em folhas, placas; zircao (neso) e excecao prismatica.",
+      "source": "Klein & Dutrow; modulo 11 aula 04; zircao prismatico",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-HAB-ASBEST-001",
+      "claim": "Minerais asbestiformes liberam fibras ao serem quebrados, raspados ou pulverizados, com risco por inalacao; nao usar espécime fibroso de identidade desconhecida em teste de dureza ou traco.",
+      "source": "orientacao de seguranca de colecoes; provavel",
+      "confidence": "provavel"
+    },
+    {
+      "claim_id": "PRF-HAB-HEMATITA-001",
+      "claim": "Hematita ocorre como agregado botrioidal ou reniforme com interior fibroso radiado.",
+      "source": "HoM hematite: radiating fibrous, reniform, botryoidal",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-CLIV-DIRECOES-001",
+      "claim": "Numero de direcoes de clivagem = pares de planos paralelos da forma: {100} 3; {111} 4; {110} 6; romboedro 3; {001} 1.",
+      "source": "pares de planos paralelos; recontado",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-CLIV-TABELA-001",
+      "claim": "Halita e galena {100}; fluorita e diamante {111}; esfalerita {110} (6 direcoes); calcita romboedrica; micas e talco {001}; feldspatos {001} perfeita e {010} boa, ~90 graus; piroxenios {110} boa; anfibolios {110} perfeita a boa; quartzo e granada sem clivagem; topazio {001} perfeita.",
+      "source": "HoM halita, galena, fluorita, diamante, esfalerita, calcita, micas, talco, topazio, ortoclasio; quartzo raramente observavel; anfibolios ajustados pelo achado 2",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-CLIV-CALCITA-001",
+      "claim": "Clivagem da calcita {10-11} na cela morfologica antiga e {10-14} na cela estrutural (c ~17,06); mesmo plano.",
+      "source": "HoM calcite {10-11}; modulo 05 aula 03; mesmo 74,94 graus nas duas celas, Python",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-CLIV-DIAMANTE-001",
+      "claim": "Diamante tem clivagem perfeita {111} mesmo com ligacoes iguais em todas as direcoes, pela menor densidade de ligacoes por area nos planos {111}.",
+      "source": "HoM diamond {111} perfect; modulo 01 aula 05",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-CLIV-FRATURA-001",
+      "claim": "Tipos de fratura: conchoidal (quartzo, obsidiana, opala), irregular, serrilhada (metais nativos), estilhacada, terrosa; fratura conchoidal tambem em solidos sem ordem de longo alcance.",
+      "source": "HoM: quartzo conchoidal; cobre, ouro e prata hackly; gipsita splintery",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-DUR-MOHS-001",
+      "claim": "Escala de Mohs (1812): talco, gipsita, calcita, fluorita, apatita, ortoclasio, quartzo, topazio, corindon, diamante; escala ordinal com degraus desiguais.",
+      "source": "Klein & Dutrow; Wikipedia Mohs scale",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-DUR-ESCLER-001",
+      "claim": "Tabela de esclerometro citada na Wikipedia: corindon 400 e diamante 1500; o numero depende do metodo, a ordem e a desigualdade dos degraus se mantem.",
+      "source": "Wikipedia Mohs scale: corindon 400, diamante 1500",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-DUR-CALC-001",
+      "claim": "Razoes de Rosiwal entre degraus: calcita->fluorita ~1,1; topazio/quartzo = 1,75 (1,46 com quartzo 120); diamante/corindon = 140; quartzo/talco ~3300 (4000 com quartzo 120).",
+      "source": "Python: 3333; 1,11; 1,75; 140; texto ampliado pelo achado 6 com quartzo 120: 4000 e 1,46",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-DUR-LIGACAO-001",
+      "claim": "Dureza cresce com forca e numero de ligacoes (diamante covalente 10; quartzo 7; calcita 3; talco 1); halita 2,5 e corindon 9 pela carga dos ions; diamante 10 x grafite 1-2; calcita 3 x aragonita 3,5-4.",
+      "source": "HoM: halita 2-2,5, corindon 9, aragonita 3,5-4, grafite 1-2",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-DUR-TENAC-001",
+      "claim": "Tenacidade: frágil, sectil (acantita, cobre nativo, grafite), maleavel e ductil (ouro, prata, cobre), flexivel (selenita, clorita, talco), elastico (moscovita); diamante duro e fragil; nefrita e jadeita tenazes (dureza 6-7) por cristais finos entrelacados.",
+      "source": "HoM: acantita e grafite secteis; gipsita flexivel inelastica; moscovita elastica; jadeita very tough; actinolita/nefrita tough",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-DUR-OBJETOS-001",
+      "claim": "Objetos de teste: unha ~2,5; moeda de cobre ~3; lamina de aco ~5-5,5 (varia 4-5,5); vidro 5,5; lima de aco ~6,5; valores aproximados.",
+      "source": "Wikipedia Mohs scale; valores aproximados e declarados",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-DENS-FAIXAS-001",
+      "claim": "Densidades tipicas (g/cm3): gipsita ~2,3; halita ~2,2; quartzo 2,65; calcita ~2,71; forsterita ~3,28; fluorita ~3,18; diamante ~3,52; barita ~4,5; faialita ~4,4; pirita ~5,0; magnetita ~5,2; hematita ~5,3; galena ~7,6; ouro nativo ~19.",
+      "source": "HoM D(meas.); galena corrigida para ~7,6 pelo achado 9",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-DENS-HIDRO-001",
+      "claim": "Balanca hidrostatica: G = W_ar / (W_ar - W_agua); fontes de erro: bolhas (G menor), porosidade, inclusoes, amostra pequena; agua 0,9982 g/cm3 a 20 C.",
+      "source": "Arquimedes; agua 0,9982 a 20 C",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-DENS-EXEMPLO-001",
+      "claim": "Exemplo: 47,7 g no ar e 32,7 g na agua: G = 3,18; com +-0,1 g em cada pesagem, 3,14 a 3,22; fluorita e apatita compativeis, diamante e calcita fora.",
+      "source": "Python: 3,180; 3,145; 3,216",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-DENS-OLIVINA-001",
+      "claim": "Olivina de densidade 3,60: x(Fa) ~0,28 (Fo72Fa28) por volumes molares aditivos (Fo 140,69/3,275 = 42,96; Fa 203,77/4,39 = 46,42 cm3/mol); interpolacao linear da densidade da 0,29.",
+      "source": "Python: x = 0,276 com Fa 4,39 e 0,275 com HoM 4,392; linear 0,291; aproximacao de volumes aditivos declarada no texto",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-DENS-CALC-001",
+      "claim": "Fluorita Z=4, M=78,07, V=163,0: rho calculada 3,18, igual a medida.",
+      "source": "Python: 3,182; a = 5,4626 da V = 163,0",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-DENS-METAMICT-001",
+      "claim": "Densidade medida menor que a calculada pode indicar poros, inclusoes leves ou metamictizacao (expansao de volume em minerais com U e Th); maior, inclusoes pesadas ou substituicao por atomo mais pesado.",
+      "source": "modulo 10 aula 04; HoM zircon",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-DENS-LIQUIDOS-001",
+      "claim": "Liquidos densos: politungstato de sodio de uso laboratorial; bromoformio e iodeto de metileno toxicos.",
+      "source": "orientacao de laboratorio de separacao mineral; provavel",
+      "confidence": "provavel"
+    },
+    {
+      "claim_id": "PRF-BRI-LUZ-001",
+      "claim": "A luz que chega a um mineral e refletida (brilho), absorvida (cor) e transmitida (diafaneidade); avalia-se em luz branca e em superficie fresca.",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-BRI-IR-001",
+      "claim": "Brilho e indice de refracao: vitreo 1,3-1,9; adamantino 1,9-2,6; submetalico 2,6-3; metalico acima de 3 (limites aproximados e convencionais); quartzo n ~1,54; diamante n ~2,42.",
+      "source": "convencao de manuais via LibreTexts e webmineral; a Wikipedia so da 1,9+ para adamantino; fonte da aula corrigida",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-BRI-TIPOS-001",
+      "claim": "Brilhos nao metalicos: vitreo (quartzo), resinoso (esfalerita clara, enxofre), adamantino (diamante, cerussita, zircao), nacarado (talco, moscovita, apofilita em {001}), sedoso (gipsita fibrosa), ceroso (calcedonia, serpentina), gorduroso, terroso (caulinita, limonita); submetalico (cromita, cuprita).",
+      "source": "Wikipedia Lustre; HoM cerussita, zircao, cuprita, cromita, talco, moscovita",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-BRI-DIAF-001",
+      "claim": "Diafaneidade: transparente, translucido, opaco; depende de espessura, fissuras, inclusoes e granulacao; minerais opacos tem em geral brilho metalico; em lamina de 0,03 mm sulfetos e oxidos metalicos continuam opacos; ouro transmite luz verde-azulada em folha muito fina; opaco nao e fosco.",
+      "source": "HoM gold: opaque in all but thinnest foils; blue and green in transmitted light",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-BRI-ESFAL-001",
+      "claim": "Esfalerita: brilho resinoso a submetalico conforme a cor e o teor de Fe; n ~2,4; clivagem {110} em seis direcoes.",
+      "source": "HoM sphalerite: n 2,369; resinous to adamantine; {011} perfect",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-COR-TIPOS-001",
+      "claim": "Cor idiocromatica (elemento essencial: malaquita, azurita, olivina, enxofre, rodocrosita), alocromatica (impureza/defeito: quartzo, rubi com Cr, safira com Fe e Ti, esmeralda com Cr e V, agua-marinha com Fe) e pseudocromatica (efeito fisico: opala por difracao, labradorescencia por interferencia em lamelas de exsolucao, iridescencia de pelicula); a cor pseudocromatica muda com o angulo.",
+      "source": "Klein & Dutrow; Nassau; frase da idiocromatica ajustada pelo achado 13",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-COR-CONFIAVEL-001",
+      "claim": "A cor e o criterio menos confiavel: uma especie com varias cores (quartzo, fluorita, corindon), uma cor em varias especies, luz e calor desbotam ametista e quartzo-rosa.",
+      "source": "Klein & Dutrow; Nassau",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-COR-TRACO-001",
+      "claim": "Traco = cor do po na placa de porcelana sem esmalte (dureza ~6,5); mais estavel que a cor do cristal; minerais mais duros que a placa riscam a placa e nao dao traco; nao metalicos quase sempre dao traco claro.",
+      "source": "Klein & Dutrow; HoM prata: traco silver-white",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-COR-TRACOS-001",
+      "claim": "Tracos: hematita vermelho a marrom-avermelhado; magnetita preto; pirita e calcopirita preto-esverdeado; ouro amarelo-dourado; goethita amarelo-acastanhado; esfalerita branco a amarelo-claro ou castanho; malaquita verde-claro.",
+      "source": "HoM: hematita, magnetita, pirita, calcopirita, goethita, esfalerita, malaquita",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-COR-DURMIN-001",
+      "claim": "Dureza: hematita 5-6,5; magnetita 5,5-6,5; pirita 6-6,5; calcopirita 3,5-4; densidade do ouro ~19 e da pirita ~5.",
+      "source": "HoM: magnetita 5,5-6,5; pirita 6-6,5; calcopirita 3,5-4; hematita 5-6, 5,5-6,5 em outras bases; ouro 19,3; pirita 5,018",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-COR-SEGUR-001",
+      "claim": "Po de minerais com Pb, As, Hg e Sb e toxico: nao inalar nem soprar, ventilar, lavar as maos, limpar a placa; em caso de duvida nao riscar.",
+      "source": "orientacao de seguranca de colecoes",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-ESP-MAGN-001",
+      "claim": "Magnetismo vem de eletrons desemparelhados; magnetita e pirrotita monoclinica (~Fe7S8) fortemente atraidas por imã comum; pirrotita hexagonal mais fraca; olivina, almandina, biotita, siderita e ilmenita paramagneticas; hematita fraca, em geral abaixo do teste de imã comum; quartzo, calcita, halita e gipsita diamagneticos.",
+      "source": "HoM: magnetite strongly magnetic; pyrrhotite magnetic; ilmenite weakly magnetic; pyrite paramagnetic",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-ESP-MAGINC-001",
+      "claim": "Mineral nao magnetico com inclusoes minusculas de magnetita pode ser atraido (falso positivo); avaliar a forca e a distribuicao.",
+      "source": "pratica de identificacao; provavel",
+      "confidence": "provavel"
+    },
+    {
+      "claim_id": "PRF-ESP-LUMIN-001",
+      "claim": "Luminescencia: fluorescencia (so durante a excitacao) e fosforescencia (persiste); triboluminescencia, termoluminescencia, catodoluminescencia; ativadores Mn2+, terras raras, uranilo, tungstato; ferro como inibidor; a fluorita deu nome ao fenomeno; a ausencia de fluorescencia nao exclui especie.",
+      "source": "HoM calcita, fluorita, willemita, scheelita, autunita; literatura de luminescencia mineral",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-ESP-UV-001",
+      "claim": "Lampadas UV de ondas curtas (~254 nm) e longas (~365 nm); calcita vermelha-alaranjada e willemite verde (Mn) em ondas curtas; scheelita azul-esbranquicada em ondas curtas; autunita verde-amarelada; UV lesa olhos e pele: usar oculos UV.",
+      "source": "HoM: willemita yellow-green SW e LW; scheelita bluish white SW; autunita yellow-green",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-ESP-DIST-001",
+      "claim": "Fonte pontual gama: taxa de dose cai com o inverso do quadrado da distancia; exemplo hipotetico: fundo 0,10 uSv/h, 4,0 a 5 cm, ~3,9 liquido, a 20 cm 3,9/16 = 0,24 uSv/h.",
+      "source": "Python: 0,244",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-ESP-NEODIMIO-001",
+      "claim": "Imas de neodimio sao frageis e muito fortes (podem esmagar dedos, apagar cartoes magneticos); manter longe de marca-passos e eletronicos sensiveis.",
+      "source": "orientacao de seguranca de fabricantes; provavel",
+      "confidence": "provavel"
+    },
+    {
+      "claim_id": "PRF-ESP2-PIEZO-001",
+      "claim": "Piezoeletricidade exige ausencia de centro de simetria: 21 das 32 classes nao tem centro, 20 sao piezoeletricas (432 e excecao); 10 classes polares (1, 2, m, mm2, 3, 3m, 4, 4mm, 6, 6mm) sao piroeletricas; todo piro e piezo.",
+      "source": "cristalografia: 21 classes nao centrossimetricas, 20 piezo, 10 polares",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-ESP2-CLASSES-001",
+      "claim": "Halita m3m e calcita 3-barra m tem centro (nem piezo nem piro); quartzo (32) piezo, nao piro; turmalina (3m) piezo e piro.",
+      "source": "quartzo 32, calcita 3-barra m; o HoM escreve pyroelectric para o quartzo, mas a classe 32 nao e polar; ver Fontes",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-ESP2-ACIDO-001",
+      "claim": "CaCO3 + 2HCl -> CaCl2 + H2O + CO2; HCl diluido (~10%): calcita e aragonita efervescem a frio; dolomita forte so em po ou a quente; magnesita e siderita em po ou a quente; nao usar em sulfetos (H2S toxico).",
+      "source": "manuais de identificacao; Maine Geological Survey",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-ESP2-SOLUB-001",
+      "claim": "Solubilidade: halita ~360 g/L a 20 C; gipsita ~2 g/L; quartzo praticamente insoluvel; carnalita deliquescente.",
+      "source": "manuais de quimica; HoM carnalita deliquescente",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-ESP2-DENS-001",
+      "claim": "Halita ~2,17 e silvita ~1,99; teste de chama: sodio amarelo, potassio lilas.",
+      "source": "HoM halita 2,168; silvita 1,993",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-ESP2-SABOR-001",
+      "claim": "Teste de sabor proibido: minerais podem conter Pb, As, Hg, Cu, F, Tl, Sb; nao ferir mineral para cheirar; talco e grafite escorregadios; argilas bafejadas cheiram a terra umida.",
+      "source": "orientacao de seguranca de colecoes; HoM halita, silvita, epsomita",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-ESP2-MACLA-001",
+      "claim": "Macla pode inverter ou anular a polaridade e enfraquecer o sinal piezo ou piroeletrico de um espécime.",
+      "source": "maclas eletricas de Dauphine no quartzo; provavel",
+      "confidence": "provavel"
+    },
+    {
+      "claim_id": "PRF-CHV-ESCADA-001",
+      "claim": "Identificacao macroscopica e inferencia: observacao -> propriedades -> hipoteses compativeis -> confirmacao; confirmado so por metodo analitico (DRX, composicao quimica).",
+      "source": "contexto do curso",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-CHV-ORDEM-001",
+      "claim": "Ordem dos testes: observar, clivagem e fratura, densidade, dureza, traco, testes especiais; do nao destrutivo ao destrutivo e do estavel ao instavel.",
+      "source": "Klein & Dutrow; Nesse",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-CHV-FICHA-001",
+      "claim": "Ficha de apoio: galena H ~2,5 G ~7,6; ouro H 2,5-3 G ~19; calcopirita H 3,5-4 G ~4,2; pirita H 6-6,5 G ~5,0; magnetita H 5,5-6,5 G ~5,2; hematita H 5-6,5 G ~5,3; gipsita H 2 G ~2,3; calcita H 3 G 2,71; fluorita H 4 G ~3,18; quartzo H 7 G 2,65.",
+      "source": "HoM; galena corrigida para ~7,6 pelo achado 9",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-CHV-POLIM-001",
+      "claim": "Pirita e marcassita (FeS2, polimorfos) tem dureza 6-6,5 e densidade ~5,0 e ~4,9, nao separaveis de modo seguro por testes macroscopicos; aragonita H 3,5-4, G ~2,95.",
+      "source": "HoM marcasite 6-6,5 e 4,887; aragonite 3,5-4 e 2,95",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-CHV-GRAU-001",
+      "claim": "Grau de confianca em palavras (alta, media, baixa) com criterio: 4 ou mais propriedades independentes e estaveis concordam, alternativa mais proxima descartada por teste decisivo, sem polimorfo ou parente indistinguivel; registro com observado, compativel com, descartado por, confianca e testes pendentes.",
+      "source": "convencao do curso",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-CHV-GRUPOS-001",
+      "claim": "Granadas, feldspatos, micas, turmalinas, anfibolios e piroxenios tem membros que so quimica ou difracao distinguem; a identificacao macroscopica honesta e o grupo.",
+      "source": "modulo 02 aula 03; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-CHV-ESPECIES-001",
+      "claim": "A lista da IMA tem mais de 6 mil especies (6.161 em julho de 2025, segundo o modulo 02, aula 04).",
+      "source": "modulo 02 aula 04, auditado",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-HAB-DIDAT-001",
+      "claim": "Segunda passagem: crisotila e uma serpentina e a forma mais comum de amianto (~95% do amianto usado).",
+      "source": "Wikipedia Chrysotile; USGS asbestos (busca 2026-10-07)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-CLIV-DIDAT-001",
+      "claim": "Segunda passagem: obsidiana = vidro vulcanico; (110)/(101) = 60 graus pedido no enunciado do exemplo (b).",
+      "source": "definicao usual; Python 60,000 graus",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-DUR-DIDAT-001",
+      "claim": "Segunda passagem: anisotropia de dureza pela mesma causa da clivagem; esclerometro = ponta de diamante sob carga controlada; nefrita = agregado de anfibolio, jadeita = piroxenio, ambos jade; detalhe de Rosiwal movido para as Fontes sem perder a divergencia.",
+      "source": "Klein & Dutrow; Wikipedia Mohs scale e Sclerometer; literatura de jade (busca 2026-10-07); achado 6",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-DENS-DIDAT-001",
+      "claim": "Segunda passagem: volume molar = M/rho; 63,08; 3,46; 154,66; 12,46; 13,97/50,62 = 0,276 -> Fo72Fa28; apatita ~3,2 compativel com 3,18 +- 0,04.",
+      "source": "Python (x = 0,2760 nos passos; 0,2758 exato; linear 0,2915); HoM fluorapatite D(meas.) 3,1-3,25",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-BRI-DIDAT-001",
+      "claim": "Segunda passagem: n ~2,4 da esfalerita cairia no adamantino; ha especimes claros adamantinos; classificacao do brilho e visual.",
+      "source": "HoM sphalerite (resinous to adamantine; n 2,369), lido em 2026-10-07; Wikipedia Sphalerite",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-COR-DIDAT-001",
+      "claim": "Segunda passagem: muitos minerais comuns sao alocromaticos e causam a maior confusao; exsolucao remetida ao modulo 09, aula 03.",
+      "source": "Klein & Dutrow; modulo 09 aula 03",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-ESP-DIDAT-001",
+      "claim": "Segunda passagem: ferrimagnetismo (momentos antiparalelos desiguais); uranilo UO2(2+); uSv/h = taxa de dose; monazita radioativa so quando rica em Th (recap); willemita.",
+      "source": "literatura de magnetismo (Neel); uvminerals.org; SI (BIPM); achado 16",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "PRF-CHV-DIDAT-001",
+      "claim": "Segunda passagem: densidade nao separa pirita (~5,0) de marcassita (~4,9); topazio menos provavel sem clivagem visivel, nao excluido; confianca baixa em (d); escada de inferencia dos modulos 25-27 e 50.",
+      "source": "Mindat (pirita 4,8-5,0; marcassita 4,83-4,92), busca 2026-10-07; HoM topaz e marcasite; _contexto.md",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QST-M13-CALC-002",
+      "claim": "Terceira passagem: contas dos gabaritos (olivina 3,80 -> x 0,4516; angulos 45, 54,74, 60; G 3,53 +-0,06; 0,38 e 0,50 uSv/h; diamante 45,385 A3 e 3,516; G 3,509, 3,519, 3,498; 2,727 e 5,135).",
+      "source": "Python, 2026-10-07",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QST-M13-GABAR-001",
+      "claim": "Terceira passagem: 38 gabaritos e comentarios de distratores conferidos contra as aulas atuais; nenhum distrator defensavel apos os achados 21 a 26.",
+      "source": "aulas 01 a 09",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QST-M13-OA-001",
+      "claim": "Terceira passagem: 7 de 7 objetivos com questao no final; matrizes 22, 29 e 39 pontos (90 em 38 questoes); distribuicoes e IDs aNN conferidos.",
+      "source": "course-state.yaml; matrizes",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "FLC-M13-RASTRO-001",
+      "claim": "Terceira passagem: 186 cards rastreados as aulas; nenhum fato fabricado; IDs de aula e objetivo; tabela do md igual aos CSVs (186/186).",
+      "source": "aulas 01 a 09; CSVs; script",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "FLC-M13-TERMOS-001",
+      "claim": "Terceira passagem: monazita so rica em Th (fb137); sem numeros de Rosiwal nem cortes de IR; densidade nao separa pirita x marcassita (fb169, Q25) nem quartzo x berilo (fb177, Q38); correcoes dos achados 2, 3, 6, 7, 9, 10, 16 e 20 respeitadas.",
+      "source": "achados anteriores do modulo 13",
+      "confidence": "confirmado"
+    }
+  ]
+}

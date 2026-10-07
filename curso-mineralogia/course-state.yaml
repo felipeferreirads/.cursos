@@ -39,7 +39,7 @@ learning_outcomes:
   e de propriedades, com grau de confiança explícito.
 status: in_progress
 created_at: '2026-09-29T00:00:00-03:00'
-updated_at: '2026-10-06T23:00:00-03:00'
+updated_at: '2026-10-07T21:00:00-03:00'
 curriculum_basis: 'pesquisa das ementas e sumários de referência, cruzada com o escopo previsto pelo usuário: ementas
   do IGc-USP — GMG0106 Cristalografia Fundamental (45 h) e GMG0220 Mineralogia (105 h), com as optativas GMG0203
   Mineralogia Aplicada e GMG0425 Técnicas Gemológicas (pasta GradeCurricular/Geologia-USP) —; sumários de Klein
@@ -52,25 +52,8 @@ curriculum_basis: 'pesquisa das ementas e sumários de referência, cruzada com 
   Dyar & Gunter, Mineralogy and Optical Mineralogy (MSA); Deer, Howie & Zussman (minerais formadores de rocha);
   Nesse, Introduction to Optical Mineralogy; normativo IMA-CNMNC (definição de mineral, lista de espécies, nomenclatura
   de grupos) e classificação Nickel-Strunz/Dana; Mindat e RRUFF como referência de dados.'
-current_module: '13'
-next_action: 'Módulos 01 a 06 e 08 a 12 concluídos (07, grupos espaciais, é aprofundamento e fica para a segunda
-  passagem). Módulo 10 fechado em 2026-10-06: 5 aulas (aula 05 e objetivo oa05 acrescentados com IDs novos);
-  auditoria 🟠 3, 🟡 6, 🔵 1 corrigidos; revisão 🟠 1, 🟡 3 corrigidos, 🔵 3 abertos; questionário final (15 q, 37 pts);
-  baralho 70 Basic + 8 Cloze; 3 figuras SVG. Módulo 11 fechado em 2026-10-06: 5 aulas; auditoria 🟡 3 corrigidos,
-  nenhum aberto (todas as razões Si:O e cargas recalculadas em Python); revisão 🟡 5 corrigidos, 🔵 3 abertos;
-  questionário final (15 q, 37 pts); baralho 57 Basic + 8 Cloze; 3 figuras SVG. Módulo 12 (defeitos cristalinos e
-  maclas) fechado em 2026-10-06: 7 aulas (a aula 02 do planejamento foi dividida na revisão didática: Parte 1
-  manteve o ID a02, Parte 2 recebeu o ID novo a07; arquivos renumerados 03-06 → 04-07); 3 figuras SVG; auditoria em
-  três passagens (🔴 1, 🟠 17, ⚪ 1 corrigidos, nenhum aberto; a terceira, sobre questionários e baralho, corrigiu 🟠 5,
-  entre eles a Q22 do final e a generalização de que discordâncias parciais margeiam um defeito planar, em geral
-  falha de empilhamento, nas aulas 02 e 03; contas dos gabaritos refeitas em Python); revisão didática 🟠 3, 🟡 11
-  corrigidos, 🔵 3 abertos; questionários parcial 1 (9 q, 18 pts), parcial 2 (10 q, 19 pts) e final (15 q, 41 pts);
-  baralho 111 Basic + 9 Cloze. Pendências não bloqueantes herdadas: m09 (🔵 óxidos da olivina de San Carlos a
-  conferir em Jarosewich et al. 1980), m01 (cloze com mais de 3 lacunas, quase-duplicatas), m02 (auditoria
-  cross-course com curso-geologia m04 a03); o módulo 36 deve conferir o parâmetro c do ortoclásio na fonte primária;
-  o módulo 22 deve decidir, com fonte, qual polimorfo de Al2SiO5 é estável a 25 °C e 1 atm (evitado no m10); o
-  módulo 34 deve conferir o β da tremolita no Handbook of Mineralogy (m11 usou 104,8–104,95°). Próximo passo: Módulo
-  13 (propriedades físicas e identificação macroscópica), começando pelas aulas.'
+current_module: '14'
+next_action: 'Módulos 01 a 06 e 08 a 13 concluídos (07, grupos espaciais, é aprofundamento e fica para a segunda passagem). Módulo 10 fechado em 2026-10-06: 5 aulas (aula 05 e objetivo oa05 acrescentados com IDs novos); auditoria 🟠 3, 🟡 6, 🔵 1 corrigidos; revisão 🟠 1, 🟡 3 corrigidos, 🔵 3 abertos; questionário final (15 q, 37 pts); baralho 70 Basic + 8 Cloze; 3 figuras SVG. Módulo 11 fechado em 2026-10-06: 5 aulas; auditoria 🟡 3 corrigidos, nenhum aberto (todas as razões Si:O e cargas recalculadas em Python); revisão 🟡 5 corrigidos, 🔵 3 abertos; questionário final (15 q, 37 pts); baralho 57 Basic + 8 Cloze; 3 figuras SVG. Módulo 12 (defeitos cristalinos e maclas) fechado em 2026-10-06: 7 aulas (a aula 02 do planejamento foi dividida na revisão didática: Parte 1 manteve o ID a02, Parte 2 recebeu o ID novo a07; arquivos renumerados 03-06 → 04-07); 3 figuras SVG; auditoria em três passagens (🔴 1, 🟠 17, ⚪ 1 corrigidos, nenhum aberto; a terceira, sobre questionários e baralho, corrigiu 🟠 5, entre eles a Q22 do final e a generalização de que discordâncias parciais margeiam um defeito planar, em geral falha de empilhamento, nas aulas 02 e 03; contas dos gabaritos refeitas em Python); revisão didática 🟠 3, 🟡 11 corrigidos, 🔵 3 abertos; questionários parcial 1 (9 q, 18 pts), parcial 2 (10 q, 19 pts) e final (15 q, 41 pts); baralho 111 Basic + 9 Cloze. Módulo 13 (propriedades físicas e identificação macroscópica) fechado em 2026-10-07: 9 aulas (as aulas 05 e 06 do planejamento foram divididas em Parte 1 e Parte 2, com IDs novos a08 e a09, sem deslocar os existentes: arquivo 06 = a08, 07 = a06, 08 = a09, 09 = a07); 5 figuras SVG; auditoria em três passagens (🔴 1, 🟠 26, ⚪ 1 corrigidos, nenhum aberto; a terceira, sobre questionários e baralho, corrigiu 🟠 8, entre eles a Q37 (b) do final, o eixo polar único da piroeletricidade na aula 08 e a luminescência intrínseca da autunita e da scheelita na aula 07; contas dos gabaritos refeitas em Python); revisão didática 🟠 4, 🟡 13 corrigidos, 🔵 4 abertos e não bloqueantes; questionários parcial 1 (11 q, 22 pts), parcial 2 (12 q, 29 pts) e final (15 q, 39 pts); baralho 179 Basic + 7 Cloze. Pendências não bloqueantes herdadas: o módulo 04 (aula 05 e card mineralogia-m04-fb049) diz que nas 10 classes polares um sentido de uma direção difere do oposto, sem a condição de eixo polar único (achado 26 do m13), a corrigir na auditoria transversal ou numa correção pontual; m09 (🔵 óxidos da olivina de San Carlos a conferir em Jarosewich et al. 1980), m01 (cloze com mais de 3 lacunas, quase-duplicatas), m02 (auditoria cross-course com curso-geologia m04 a03); o módulo 36 deve conferir o parâmetro c do ortoclásio na fonte primária; o módulo 22 deve decidir, com fonte, qual polimorfo de Al2SiO5 é estável a 25 °C e 1 atm (evitado no m10); o módulo 34 deve conferir o β da tremolita no Handbook of Mineralogy (m11 usou 104,8–104,95°). Próximo passo: Módulo 14 (óptica física para mineralogia: luz, refração, polarização e interferência), começando pelas aulas.'
 blocking_issues: []
 decisions:
 - date: '2026-09-29'
@@ -1517,7 +1500,7 @@ modules:
   - '05'
   - '11'
   - '12'
-  status: pending
+  status: completed
   learning_objectives:
   - id: mineralogia-m13-oa01
     statement: Descrever hábito e agregados cristalinos com a terminologia padrão
@@ -1545,52 +1528,125 @@ modules:
       pendentes
     cognitive_level: aplicar
   lessons:
-    planned: 7
-    completed: 0
+    planned: 9
+    completed: 9
     items:
     - id: mineralogia-m13-a01
       title: 'Hábito e agregados: a linguagem da morfologia'
-      status: pending
+      status: completed
+      file: 13-propriedades-fisicas/13-propriedades-fisicas-aula-01-habito-e-agregados-a-linguagem-da-morfologia.md
+      content_hash: 4ee5e3f56562dc121524fa7ae0f3e9452497e52da3cc2d0f177c2a70e4da79a7
+      palavras_corpo: 1275
       covers_objectives:
       - mineralogia-m13-oa01
     - id: mineralogia-m13-a02
       title: Clivagem, partição e fratura
-      status: pending
+      status: completed
+      file: 13-propriedades-fisicas/13-propriedades-fisicas-aula-02-clivagem-particao-e-fratura.md
+      content_hash: 00cc579b13ced1439d848b6e8da69de677bde88d6e882d394e7dddf38a613888
+      palavras_corpo: 1458
       covers_objectives:
       - mineralogia-m13-oa02
     - id: mineralogia-m13-a03
       title: Dureza e tenacidade
-      status: pending
+      status: completed
+      file: 13-propriedades-fisicas/13-propriedades-fisicas-aula-03-dureza-e-tenacidade.md
+      content_hash: 656d5a29a1e9988efa0db536ebf886870ee430101baa0aee60e535d3de29579d
+      palavras_corpo: 1643
       covers_objectives:
       - mineralogia-m13-oa03
     - id: mineralogia-m13-a04
       title: 'Densidade: medida e calculada'
-      status: pending
+      status: completed
+      file: 13-propriedades-fisicas/13-propriedades-fisicas-aula-04-densidade-medida-e-calculada.md
+      content_hash: 13bab4b9135cbbbd497e0644a56238944b5b80c1fa1ed8890c9bad72c50de0f7
+      palavras_corpo: 1275
       covers_objectives:
       - mineralogia-m13-oa04
     - id: mineralogia-m13-a05
-      title: Brilho, diafaneidade, cor e traço
-      status: pending
+      title: 'Brilho, diafaneidade, cor e traço, Parte 1: brilho e diafaneidade'
+      status: completed
+      file: 13-propriedades-fisicas/13-propriedades-fisicas-aula-05-brilho-diafaneidade-cor-e-traco-parte-1-brilho-e-diafaneidade.md
+      content_hash: e2d899c28517f9080ee8af783313423986317392bbdcff972d78ecca9f15116f
+      palavras_corpo: 1163
+      covers_objectives:
+      - mineralogia-m13-oa05
+    - id: mineralogia-m13-a08
+      title: 'Brilho, diafaneidade, cor e traço, Parte 2: cor e traço'
+      status: completed
+      file: 13-propriedades-fisicas/13-propriedades-fisicas-aula-06-brilho-diafaneidade-cor-e-traco-parte-2-cor-e-traco.md
+      content_hash: 47be691c9d31ec3867e88ff44caf0f13136326ae2f99aefc6978f06d8d6dae20
+      palavras_corpo: 1253
       covers_objectives:
       - mineralogia-m13-oa05
     - id: mineralogia-m13-a06
-      title: 'Propriedades especiais: magnetismo, luminescência, radioatividade, eletricidade e reações'
-      status: pending
+      title: 'Propriedades especiais, Parte 1: magnetismo, luminescência e radioatividade'
+      status: completed
+      file: 13-propriedades-fisicas/13-propriedades-fisicas-aula-07-propriedades-especiais-parte-1-magnetismo-luminescencia-e-radioatividade.md
+      content_hash: bd4a7c2b6cd3368956513fe72fa30af8a61ecf1c7deafa6eb289917160553c9f
+      palavras_corpo: 1341
+      covers_objectives:
+      - mineralogia-m13-oa06
+    - id: mineralogia-m13-a09
+      title: 'Propriedades especiais, Parte 2: piezo e piroeletricidade, reação com ácido, solubilidade e sabor'
+      status: completed
+      file: 13-propriedades-fisicas/13-propriedades-fisicas-aula-08-propriedades-especiais-parte-2-piezo-e-piroeletricidade-reacoes-e-solubilidade.md
+      content_hash: 9f1addce734389c20cc984b2f8d41fa461c53fef8c24565a75ec0f2aa5ee416b
+      palavras_corpo: 1464
       covers_objectives:
       - mineralogia-m13-oa06
     - id: mineralogia-m13-a07
       title: A chave macroscópica e o grau de confiança da identificação
-      status: pending
+      status: completed
+      file: 13-propriedades-fisicas/13-propriedades-fisicas-aula-09-a-chave-macroscopica-e-o-grau-de-confianca-da-identificacao.md
+      content_hash: c0dc57d7b2337e4f9e804e307ad3415f0f28a684795b6ff0cea27018172b526f
+      palavras_corpo: 1415
       covers_objectives:
       - mineralogia-m13-oa07
   audit:
-    status: pending
+    status: approved
+    file: 13-propriedades-fisicas/13-propriedades-fisicas-auditoria.md
+    red: 1
+    orange: 26
+    yellow: 0
+    blue: 0
+    white: 1
+    open_findings: []
+    audited_at: '2026-10-07'
   didactic_review:
-    status: pending
+    status: completed
+    file: 13-propriedades-fisicas/13-propriedades-fisicas-revisao-didatica.md
+    content_hash: ff30a9ffae25c1c46323c4b21d7577cee0c2fe07b38373ee3b36c06e2924f221
+    generated_at: '2026-10-07T18:00:00-03:00'
   assessment:
-    status: pending
+    status: completed
+    files:
+    - 13-propriedades-fisicas/13-propriedades-fisicas-questionario-parcial-1.md
+    - 13-propriedades-fisicas/13-propriedades-fisicas-questionario-parcial-2.md
+    - 13-propriedades-fisicas/13-propriedades-fisicas-questionario-final.md
+    questions: 38
+    points: 90
+    objectives_covered:
+    - mineralogia-m13-oa01
+    - mineralogia-m13-oa02
+    - mineralogia-m13-oa03
+    - mineralogia-m13-oa04
+    - mineralogia-m13-oa05
+    - mineralogia-m13-oa06
+    - mineralogia-m13-oa07
+    blueprint_complete: true
+    uncovered_objectives: []
+    generated_at: '2026-10-07'
   flashcards:
-    status: pending
+    status: completed
+    index_file: 13-propriedades-fisicas/13-propriedades-fisicas-flashcards.md
+    basic_file: 13-propriedades-fisicas/13-propriedades-fisicas-flashcards-basic.csv
+    cloze_file: 13-propriedades-fisicas/13-propriedades-fisicas-flashcards-cloze.csv
+    count_basic: 179
+    count_cloze: 7
+    last_id: 179
+    last_id_cloze: 7
+    generated_at: '2026-10-07T21:00:00-03:00'
 # trilha: nucleo (núcleo) — módulo 14
 - id: '14'
   slug: optica-fisica
