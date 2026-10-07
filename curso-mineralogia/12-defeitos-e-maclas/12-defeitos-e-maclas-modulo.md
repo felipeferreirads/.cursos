@@ -1,6 +1,6 @@
 # Módulo 12 — Defeitos cristalinos e maclas
 
-> [!info] Curso de **Mineralogia** · módulo 12 de 50 · área III. Cristaloquímica · trilha **núcleo** · status: **pendente** (planejado em 2026-09-29, nenhuma aula escrita)
+> [!info] Curso de **Mineralogia** · módulo 12 de 50 · área III. Cristaloquímica · trilha **núcleo** · status: **concluído** (aulas, auditoria, revisão didática, questionários e baralho em 2026-10-06; sem ressalva aberta)
 
 ## Objetivo do módulo
 
@@ -39,16 +39,23 @@ Mostrar que o cristal real é imperfeito e que essas imperfeições — defeitos
 - `mineralogia-m12-oa04` — Definir macla e seu elemento de macla (plano, eixo, centro) e classificá-la em contato, penetração, polissintética ou cíclica.
 - `mineralogia-m12-oa05` — Explicar a origem das maclas (de crescimento, de transformação, de deformação) e reconhecer as leis de macla nomeadas mais comuns.
 
-## Aulas planejadas (6, nenhuma escrita)
+## Aulas (7 escritas)
 
-1. Aula 01 — Defeitos pontuais e o que eles fazem — `mineralogia-m12-a01` · cobre `mineralogia-m12-oa01`
-2. Aula 02 — Discordâncias e defeitos planares — `mineralogia-m12-a02` · cobre `mineralogia-m12-oa02`, `mineralogia-m12-oa03`
-3. Aula 03 — Maclas: definição, elemento de macla e tipos — `mineralogia-m12-a03` · cobre `mineralogia-m12-oa04`
-4. Aula 04 — Origem das maclas: crescimento, transformação e deformação — `mineralogia-m12-a04` · cobre `mineralogia-m12-oa05`
-5. Aula 05 — Leis de macla nomeadas — Parte 1: feldspatos (Carlsbad, albita, periclina, Baveno, Manebach) — `mineralogia-m12-a05` · cobre `mineralogia-m12-oa05`
-6. Aula 06 — Leis de macla nomeadas — Parte 2: quartzo, espinélio, rutilo, estaurolita, calcita e gipsita — `mineralogia-m12-a06` · cobre `mineralogia-m12-oa05`
+1. [[12-defeitos-e-maclas-aula-01-defeitos-pontuais-e-o-que-eles-fazem|Aula 01 — Defeitos pontuais e o que eles fazem]] — `mineralogia-m12-a01` · cobre `mineralogia-m12-oa01`
+2. [[12-defeitos-e-maclas-aula-02-discordancias-e-defeitos-planares-parte-1-discordancias-e-vetor-de-burgers|Aula 02 — Discordâncias e defeitos planares, Parte 1: discordâncias e o vetor de Burgers]] — `mineralogia-m12-a02` · cobre `mineralogia-m12-oa02`
+3. [[12-defeitos-e-maclas-aula-03-discordancias-e-defeitos-planares-parte-2-contornos-falhas-de-empilhamento-e-antifase|Aula 03 — Discordâncias e defeitos planares, Parte 2: contornos de grão, falhas de empilhamento e contornos de antifase]] — `mineralogia-m12-a07` · cobre `mineralogia-m12-oa03`
+4. [[12-defeitos-e-maclas-aula-04-maclas-definicao-elemento-de-macla-e-tipos|Aula 04 — Maclas: definição, elemento de macla e tipos]] — `mineralogia-m12-a03` · cobre `mineralogia-m12-oa04`
+5. [[12-defeitos-e-maclas-aula-05-origem-das-maclas-crescimento-transformacao-e-deformacao|Aula 05 — Origem das maclas: crescimento, transformação e deformação]] — `mineralogia-m12-a04` · cobre `mineralogia-m12-oa05`
+6. [[12-defeitos-e-maclas-aula-06-leis-de-macla-nomeadas-parte-1-feldspatos|Aula 06 — Leis de macla nomeadas, Parte 1: feldspatos]] — `mineralogia-m12-a05` · cobre `mineralogia-m12-oa05`
+7. [[12-defeitos-e-maclas-aula-07-leis-de-macla-nomeadas-parte-2-quartzo-espinelio-rutilo-estaurolita-calcita-e-gipsita|Aula 07 — Leis de macla nomeadas, Parte 2: quartzo, espinélio, rutilo, estaurolita, calcita e gipsita]] — `mineralogia-m12-a06` · cobre `mineralogia-m12-oa05`
 
-> Títulos provisórios, definidos no planejamento. O gerador de aulas pode ajustá-los ou dividir uma aula em Parte 1 / Parte 2 pela contagem de carga; um objetivo novo recebe o próximo ID livre, nunca desloca os existentes.
+> A antiga aula 02 (oa02 + oa03) foi dividida na revisão didática de 2026-10-06 por passar dos 30 min (sete conceitos novos em ~1.580 palavras): a Parte 1 manteve o ID `mineralogia-m12-a02`; a Parte 2 recebeu o ID novo `mineralogia-m12-a07`, sem deslocar os existentes. Por isso os arquivos foram renumerados (antigas aulas 03 a 06 → 04 a 07) e **o número da aula no arquivo não coincide mais com o sufixo do ID** a partir da aula 03. O relatório de auditoria cita a numeração antiga (aula 03 = atual 04, e assim por diante). O objetivo `oa05` é coberto em três aulas (origem, feldspatos, demais minerais). Valores e planos de macla marcados "a conferir" nas fontes das aulas foram conferidos na auditoria de 2026-10-06.
+
+### Figuras do módulo (geradas por script)
+
+- `12-defeitos-e-maclas-fig-01-defeitos-pontuais.svg` — aula 01 (Schottky, Frenkel e substitucional)
+- `12-defeitos-e-maclas-fig-02-discordancia-e-burgers.svg` — aula 02, Parte 1 (discordância em cunha e circuito de Burgers)
+- `12-defeitos-e-maclas-fig-03-tipos-de-macla.svg` — aula 04 (figura exigida pelo `_contexto.md`: maclas; contato, penetração, polissintética, cíclica)
 
 ## Pontos de dificuldade previstos
 
@@ -60,11 +67,12 @@ curso-geologia-avancado, módulo 40, aulas 03 e 08 (geminações do quartzo e le
 
 ## Registro do módulo
 
-- Aulas: pendente (0 de 6)
-- Auditoria científica: pendente
-- Revisão didática: pendente
-- Questionário: pendente (gate: só depois da auditoria sem achado 🔴/🟠 em aberto)
-- Flashcards: pendente (mesmo gate)
+- Aulas: escritas (7 de 7), em 2026-10-06 (6 do planejamento; a aula 02 foi dividida em duas na revisão didática)
+- Auditoria científica: [[12-defeitos-e-maclas-auditoria|aprovada]] em 2026-10-06 (🔴 1: pirita "em dois cubos entrelaçados"; 🟠 10: cubos vazios da fluorita, expoente de defeitos em par, centro F × Na/Ca coloidal, faixa da pirrotita, b de discordância perfeita × parcial, antifase na pigeonita, Dauphiné de crescimento, ortoclásio "de alta temperatura", partição do coríndon, índices e frequência das cruzes de estaurolita; ⚪ 1: sítio do Fe na ametista; todos corrigidos). Contas refeitas em Python; figuras checadas pelo código SVG, sem erro conceitual. Nenhuma ressalva aberta.
+- Revisão didática: [[12-defeitos-e-maclas-revisao-didatica|concluída]] em 2026-10-06 (🟠 3 corrigidos, inclusive a divisão da aula 02; 🟡 11 corrigidos; 🔵 3 abertos, não bloqueantes). As glosas e ligações acrescentadas passaram pela [[12-defeitos-e-maclas-auditoria|segunda passagem do auditor]] em 2026-10-06: 6 das 7 alegações verificadas; 🟠 2 corrigidos ("quatrilling" → *fourling*, aula 04; glosa de supersaturação estendida ao vapor, aula 02). Nenhum achado aberto.
+- Auditoria do material derivado: [[12-defeitos-e-maclas-auditoria|terceira passagem do auditor]] em 2026-10-06, sobre os três questionários e o baralho (🟠 5 corrigidos: Q22 do final e a generalização de que discordâncias parciais margeiam um defeito planar, em geral falha de empilhamento, nas aulas 02 e 03; IDs de aula na cobertura dos questionários; comentário da Q21; card da leucita; card Basic repetindo Cloze). Contas dos gabaritos refeitas em Python. Nenhum achado aberto.
+- Questionários: gerados em 2026-10-06, 34 questões, 78 pontos, 5 de 5 objetivos cobertos — [[12-defeitos-e-maclas-questionario-parcial-1|parcial 1]] (aulas 01-03; 9 q, 18 pts), [[12-defeitos-e-maclas-questionario-parcial-2|parcial 2]] (aulas 04-07; 10 q, 19 pts) e [[12-defeitos-e-maclas-questionario-final|final cumulativo]] (15 q, 41 pts)
+- Flashcards: gerados em 2026-10-06, 111 Basic + 9 Cloze (120 cards), validados e com checagem científica contra as aulas antes de fechar — [[12-defeitos-e-maclas-flashcards|baralho do módulo]] (`12-defeitos-e-maclas-flashcards-basic.csv`, `-cloze.csv`)
 
 ## Navegação
 

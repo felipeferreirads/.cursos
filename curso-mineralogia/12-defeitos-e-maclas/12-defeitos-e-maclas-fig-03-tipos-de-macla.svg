@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400" font-family="Arial, Helvetica, sans-serif">
+<title>Tipos de macla: contato, penetração, polissintética e cíclica</title>
+<rect x="0" y="0" width="1000" height="400" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker></defs>
+<text x="500.0" y="28.0" font-size="17" text-anchor="middle" fill="#222" font-weight="bold">Quatro tipos de macla: contato, penetração, polissintética e cíclica (esquema)</text>
+<polygon points="70.0,110.0 145.0,140.0 145.0,210.0 70.0,240.0" fill="#e8eef7" fill-opacity="1" stroke="#333" stroke-width="1.3"/>
+<polygon points="145.0,140.0 220.0,110.0 220.0,240.0 145.0,210.0" fill="#fbe9d3" fill-opacity="1" stroke="#333" stroke-width="1.3"/>
+<line x1="145.0" y1="95.0" x2="145.0" y2="255.0" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="6,4"/>
+<line x1="92.9" y1="191.9" x2="121.1" y2="158.1" stroke="#222" stroke-width="2"/>
+<circle cx="121.1" cy="158.1" r="3.5" fill="#222" fill-opacity="1" stroke="#222" stroke-width="1"/>
+<line x1="197.1" y1="191.9" x2="168.9" y2="158.1" stroke="#222" stroke-width="2"/>
+<circle cx="168.9" cy="158.1" r="3.5" fill="#222" fill-opacity="1" stroke="#222" stroke-width="1"/>
+<text x="145.0" y="285.0" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">a) Contato</text>
+<text x="145.0" y="304.0" font-size="12" text-anchor="middle" fill="#222">dois indivíduos, um plano de composição</text>
+<text x="145.0" y="322.0" font-size="12" text-anchor="middle" fill="#222">(ângulos reentrantes nas bordas)</text>
+<polygon points="320.0,153.0 470.0,153.0 470.0,197.0 320.0,197.0" fill="#e8eef7" fill-opacity="0.85" stroke="#333" stroke-width="1.3"/>
+<polygon points="417.0,100.0 417.0,250.0 373.0,250.0 373.0,100.0" fill="#fbe9d3" fill-opacity="0.85" stroke="#333" stroke-width="1.3"/>
+<line x1="328.0" y1="175.0" x2="372.0" y2="175.0" stroke="#222" stroke-width="2"/>
+<circle cx="372.0" cy="175.0" r="3.5" fill="#222" fill-opacity="1" stroke="#222" stroke-width="1"/>
+<line x1="395.0" y1="152.0" x2="395.0" y2="108.0" stroke="#222" stroke-width="2"/>
+<circle cx="395.0" cy="108.0" r="3.5" fill="#222" fill-opacity="1" stroke="#222" stroke-width="1"/>
+<text x="395.0" y="285.0" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">b) Penetração</text>
+<text x="395.0" y="304.0" font-size="12" text-anchor="middle" fill="#222">os indivíduos se atravessam</text>
+<text x="395.0" y="322.0" font-size="12" text-anchor="middle" fill="#222">(cruz de estaurolita a 90°, p. ex.)</text>
+<polygon points="560.0,110.0 588.0,110.0 588.0,240.0 560.0,240.0" fill="#e8eef7" fill-opacity="1" stroke="#333" stroke-width="1"/>
+<line x1="565.0" y1="190.6" x2="583.0" y2="159.4" stroke="#222" stroke-width="2"/>
+<circle cx="583.0" cy="159.4" r="3.5" fill="#222" fill-opacity="1" stroke="#222" stroke-width="1"/>
+<polygon points="588.0,110.0 616.0,110.0 616.0,240.0 588.0,240.0" fill="#fbe9d3" fill-opacity="1" stroke="#333" stroke-width="1"/>
+<line x1="611.0" y1="190.6" x2="593.0" y2="159.4" stroke="#222" stroke-width="2"/>
+<circle cx="593.0" cy="159.4" r="3.5" fill="#222" fill-opacity="1" stroke="#222" stroke-width="1"/>
+<polygon points="616.0,110.0 644.0,110.0 644.0,240.0 616.0,240.0" fill="#e8eef7" fill-opacity="1" stroke="#333" stroke-width="1"/>
+<line x1="621.0" y1="190.6" x2="639.0" y2="159.4" stroke="#222" stroke-width="2"/>
+<circle cx="639.0" cy="159.4" r="3.5" fill="#222" fill-opacity="1" stroke="#222" stroke-width="1"/>
+<polygon points="644.0,110.0 672.0,110.0 672.0,240.0 644.0,240.0" fill="#fbe9d3" fill-opacity="1" stroke="#333" stroke-width="1"/>
+<line x1="667.0" y1="190.6" x2="649.0" y2="159.4" stroke="#222" stroke-width="2"/>
+<circle cx="649.0" cy="159.4" r="3.5" fill="#222" fill-opacity="1" stroke="#222" stroke-width="1"/>
+<polygon points="672.0,110.0 700.0,110.0 700.0,240.0 672.0,240.0" fill="#e8eef7" fill-opacity="1" stroke="#333" stroke-width="1"/>
+<line x1="677.0" y1="190.6" x2="695.0" y2="159.4" stroke="#222" stroke-width="2"/>
+<circle cx="695.0" cy="159.4" r="3.5" fill="#222" fill-opacity="1" stroke="#222" stroke-width="1"/>
+<polygon points="700.0,110.0 728.0,110.0 728.0,240.0 700.0,240.0" fill="#fbe9d3" fill-opacity="1" stroke="#333" stroke-width="1"/>
+<line x1="723.0" y1="190.6" x2="705.0" y2="159.4" stroke="#222" stroke-width="2"/>
+<circle cx="705.0" cy="159.4" r="3.5" fill="#222" fill-opacity="1" stroke="#222" stroke-width="1"/>
+<text x="644.0" y="285.0" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">c) Polissintética (lamelar)</text>
+<text x="644.0" y="304.0" font-size="12" text-anchor="middle" fill="#222">muitas lamelas alternando a orientação</text>
+<text x="644.0" y="322.0" font-size="12" text-anchor="middle" fill="#222">(plagioclásio, calcita deformada)</text>
+<polygon points="895.0,175.0 895.0,95.0 825.7,135.0 825.7,215.0" fill="#e8eef7" fill-opacity="1" stroke="#333" stroke-width="1.3"/>
+<line x1="870.8" y1="161.0" x2="843.0" y2="145.0" stroke="#222" stroke-width="2"/>
+<circle cx="843.0" cy="145.0" r="3.5" fill="#222" fill-opacity="1" stroke="#222" stroke-width="1"/>
+<polygon points="895.0,175.0 825.7,215.0 895.0,255.0 964.3,215.0" fill="#fbe9d3" fill-opacity="1" stroke="#333" stroke-width="1.3"/>
+<line x1="895.0" y1="203.0" x2="895.0" y2="235.0" stroke="#222" stroke-width="2"/>
+<circle cx="895.0" cy="235.0" r="3.5" fill="#222" fill-opacity="1" stroke="#222" stroke-width="1"/>
+<polygon points="895.0,175.0 964.3,215.0 964.3,135.0 895.0,95.0" fill="#e3f2e1" fill-opacity="1" stroke="#333" stroke-width="1.3"/>
+<line x1="919.2" y1="161.0" x2="947.0" y2="145.0" stroke="#222" stroke-width="2"/>
+<circle cx="947.0" cy="145.0" r="3.5" fill="#222" fill-opacity="1" stroke="#222" stroke-width="1"/>
+<text x="895.0" y="285.0" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">d) Cíclica</text>
+<text x="895.0" y="304.0" font-size="12" text-anchor="middle" fill="#222">indivíduos girados em torno de um eixo comum</text>
+<text x="895.0" y="322.0" font-size="12" text-anchor="middle" fill="#222">(o anel fecha: n × ângulo = 360°)</text>
+<text x="500.0" y="360.0" font-size="12" text-anchor="middle" fill="#555">A seta marca uma direção fixa dentro de cada indivíduo: a orientação muda de um indivíduo ao seguinte por uma operação de simetria (tracejado vermelho: plano de macla).</text>
+<text x="500.0" y="380.0" font-size="11" text-anchor="middle" fill="#555">Desenhos esquemáticos, sem escala; nenhum representa um cristal real em particular.</text>
+</svg>

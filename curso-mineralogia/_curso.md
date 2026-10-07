@@ -23,16 +23,16 @@
 
 ## Estado
 
-- **Módulos:** 10 de 50 concluídos
-- **Aulas escritas:** 55
-- **Questionários:** 18
-- **Flashcards:** 700 Basic · 190 Cloze
-- **Módulo atual:** 12
-- **Próximo passo:** Módulos 01 a 06 e 08 a 11 concluídos (07, grupos espaciais, é aprofundamento e fica para a segunda passagem). Módulo 10 fechado em 2026-10-06: 5 aulas (aula 05 e objetivo oa05 acrescentados com IDs novos); auditoria 🟠 3, 🟡 6, 🔵 1 corrigidos; revisão 🟠 1, 🟡 3 corrigidos, 🔵 3 abertos; questionário final (15 q, 37 pts); baralho 70 Basic + 8 Cloze; 3 figuras SVG. Módulo 11 fechado em 2026-10-06: 5 aulas; auditoria 🟡 3 corrigidos, nenhum aberto (todas as razões Si:O e cargas recalculadas em Python); revisão 🟡 5 corrigidos, 🔵 3 abertos; questionário final (15 q, 37 pts); baralho 57 Basic + 8 Cloze; 3 figuras SVG. Pendências não bloqueantes herdadas: m09 (🔵 óxidos da olivina de San Carlos a conferir em Jarosewich et al. 1980), m01 (cloze com mais de 3 lacunas, quase-duplicatas), m02 (auditoria cross-course com curso-geologia m04 a03); o módulo 36 deve conferir o parâmetro c do ortoclásio na fonte primária; o módulo 22 deve decidir, com fonte, qual polimorfo de Al2SiO5 é estável a 25 °C e 1 atm (evitado no m10); o módulo 34 deve conferir o β da tremolita no Handbook of Mineralogy (m11 usou 104,8–104,95°). Próximo passo: módulo 12 (defeitos cristalinos e maclas, núcleo), começando pelas aulas.
+- **Módulos:** 11 de 50 concluídos
+- **Aulas escritas:** 62
+- **Questionários:** 21
+- **Flashcards:** 811 Basic · 199 Cloze
+- **Módulo atual:** 13
+- **Próximo passo:** Módulos 01 a 06 e 08 a 12 concluídos (07, grupos espaciais, é aprofundamento e fica para a segunda passagem). Módulo 10 fechado em 2026-10-06: 5 aulas (aula 05 e objetivo oa05 acrescentados com IDs novos); auditoria 🟠 3, 🟡 6, 🔵 1 corrigidos; revisão 🟠 1, 🟡 3 corrigidos, 🔵 3 abertos; questionário final (15 q, 37 pts); baralho 70 Basic + 8 Cloze; 3 figuras SVG. Módulo 11 fechado em 2026-10-06: 5 aulas; auditoria 🟡 3 corrigidos, nenhum aberto (todas as razões Si:O e cargas recalculadas em Python); revisão 🟡 5 corrigidos, 🔵 3 abertos; questionário final (15 q, 37 pts); baralho 57 Basic + 8 Cloze; 3 figuras SVG. Módulo 12 (defeitos cristalinos e maclas) fechado em 2026-10-06: 7 aulas (a aula 02 do planejamento foi dividida na revisão didática: Parte 1 manteve o ID a02, Parte 2 recebeu o ID novo a07; arquivos renumerados 03-06 → 04-07); 3 figuras SVG; auditoria em três passagens (🔴 1, 🟠 17, ⚪ 1 corrigidos, nenhum aberto; a terceira, sobre questionários e baralho, corrigiu 🟠 5, entre eles a Q22 do final e a generalização de que discordâncias parciais margeiam um defeito planar, em geral falha de empilhamento, nas aulas 02 e 03; contas dos gabaritos refeitas em Python); revisão didática 🟠 3, 🟡 11 corrigidos, 🔵 3 abertos; questionários parcial 1 (9 q, 18 pts), parcial 2 (10 q, 19 pts) e final (15 q, 41 pts); baralho 111 Basic + 9 Cloze. Pendências não bloqueantes herdadas: m09 (🔵 óxidos da olivina de San Carlos a conferir em Jarosewich et al. 1980), m01 (cloze com mais de 3 lacunas, quase-duplicatas), m02 (auditoria cross-course com curso-geologia m04 a03); o módulo 36 deve conferir o parâmetro c do ortoclásio na fonte primária; o módulo 22 deve decidir, com fonte, qual polimorfo de Al2SiO5 é estável a 25 °C e 1 atm (evitado no m10); o módulo 34 deve conferir o β da tremolita no Handbook of Mineralogy (m11 usou 104,8–104,95°). Próximo passo: Módulo 13 (propriedades físicas e identificação macroscópica), começando pelas aulas.
 
 ## Módulos
 
-Os 50 módulos aparecem como subpáginas abaixo, na ordem do currículo. Apenas os Módulos 01, 02, 03, 04, 05, 06, 08, 09, 10, 11 têm conteúdo completo (aulas, auditoria, questionário, flashcards e roteiros de voz); os demais têm o hub com objetivos e pré-requisitos definidos, aguardando geração.
+Os 50 módulos aparecem como subpáginas abaixo, na ordem do currículo. Apenas os Módulos 01, 02, 03, 04, 05, 06, 08, 09, 10, 11, 12 têm conteúdo completo (aulas, auditoria, questionário, flashcards e roteiros de voz); os demais têm o hub com objetivos e pré-requisitos definidos, aguardando geração.
 
 ### I. Fundamentos: da matéria ao mineral
 
@@ -53,7 +53,7 @@ Os 50 módulos aparecem como subpáginas abaixo, na ordem do currículo. Apenas 
 - ✅ **09 — Cristaloquímica II: substituição iônica, solução sólida e fórmula estrutural** · 6/6 aulas · questionário + 79 cards · auditado · pré-req: 08 — [[09-substituicao-e-formula/09-substituicao-e-formula-modulo|abrir]]
 - ✅ **10 — Polimorfismo, politipismo, ordem-desordem e não cristalinidade** · 5/5 aulas · questionário + 78 cards · auditado · pré-req: 09 — [[10-polimorfismo/10-polimorfismo-modulo|abrir]]
 - ✅ **11 — Arquitetura dos silicatos** · 5/5 aulas · questionário + 65 cards · auditado · pré-req: 09 — [[11-estrutura-dos-silicatos/11-estrutura-dos-silicatos-modulo|abrir]]
-- **12 — Defeitos cristalinos e maclas** · 6 aulas planejadas · pré-req: 05, 10 — [[12-defeitos-e-maclas/12-defeitos-e-maclas-modulo|abrir]]
+- ✅ **12 — Defeitos cristalinos e maclas** · 7/7 aulas (6 planejadas; a 02 dividida na revisão didática) · questionário + 120 cards · auditado · pré-req: 05, 10 — [[12-defeitos-e-maclas/12-defeitos-e-maclas-modulo|abrir]]
 
 ### IV. Propriedades físicas e identificação macroscópica
 

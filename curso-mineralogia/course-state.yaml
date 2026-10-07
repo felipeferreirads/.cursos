@@ -39,7 +39,7 @@ learning_outcomes:
   e de propriedades, com grau de confiança explícito.
 status: in_progress
 created_at: '2026-09-29T00:00:00-03:00'
-updated_at: '2026-10-06T18:30:00-03:00'
+updated_at: '2026-10-06T23:00:00-03:00'
 curriculum_basis: 'pesquisa das ementas e sumários de referência, cruzada com o escopo previsto pelo usuário: ementas
   do IGc-USP — GMG0106 Cristalografia Fundamental (45 h) e GMG0220 Mineralogia (105 h), com as optativas GMG0203
   Mineralogia Aplicada e GMG0425 Técnicas Gemológicas (pasta GradeCurricular/Geologia-USP) —; sumários de Klein
@@ -52,18 +52,25 @@ curriculum_basis: 'pesquisa das ementas e sumários de referência, cruzada com 
   Dyar & Gunter, Mineralogy and Optical Mineralogy (MSA); Deer, Howie & Zussman (minerais formadores de rocha);
   Nesse, Introduction to Optical Mineralogy; normativo IMA-CNMNC (definição de mineral, lista de espécies, nomenclatura
   de grupos) e classificação Nickel-Strunz/Dana; Mindat e RRUFF como referência de dados.'
-current_module: '12'
-next_action: 'Módulos 01 a 06 e 08 a 11 concluídos (07, grupos espaciais, é aprofundamento e fica para a segunda
-  passagem). Módulo 10 fechado em 2026-10-06: 5 aulas (aula 05 e objetivo oa05 acrescentados com IDs novos); auditoria
-  🟠 3, 🟡 6, 🔵 1 corrigidos; revisão 🟠 1, 🟡 3 corrigidos, 🔵 3 abertos; questionário final (15 q, 37 pts); baralho
-  70 Basic + 8 Cloze; 3 figuras SVG. Módulo 11 fechado em 2026-10-06: 5 aulas; auditoria 🟡 3 corrigidos, nenhum
-  aberto (todas as razões Si:O e cargas recalculadas em Python); revisão 🟡 5 corrigidos, 🔵 3 abertos; questionário
-  final (15 q, 37 pts); baralho 57 Basic + 8 Cloze; 3 figuras SVG. Pendências não bloqueantes herdadas: m09 (🔵 óxidos
-  da olivina de San Carlos a conferir em Jarosewich et al. 1980), m01 (cloze com mais de 3 lacunas, quase-duplicatas),
-  m02 (auditoria cross-course com curso-geologia m04 a03); o módulo 36 deve conferir o parâmetro c do ortoclásio
-  na fonte primária; o módulo 22 deve decidir, com fonte, qual polimorfo de Al2SiO5 é estável a 25 °C e 1 atm (evitado
-  no m10); o módulo 34 deve conferir o β da tremolita no Handbook of Mineralogy (m11 usou 104,8–104,95°). Próximo
-  passo: módulo 12 (defeitos cristalinos e maclas, núcleo), começando pelas aulas.'
+current_module: '13'
+next_action: 'Módulos 01 a 06 e 08 a 12 concluídos (07, grupos espaciais, é aprofundamento e fica para a segunda
+  passagem). Módulo 10 fechado em 2026-10-06: 5 aulas (aula 05 e objetivo oa05 acrescentados com IDs novos);
+  auditoria 🟠 3, 🟡 6, 🔵 1 corrigidos; revisão 🟠 1, 🟡 3 corrigidos, 🔵 3 abertos; questionário final (15 q, 37 pts);
+  baralho 70 Basic + 8 Cloze; 3 figuras SVG. Módulo 11 fechado em 2026-10-06: 5 aulas; auditoria 🟡 3 corrigidos,
+  nenhum aberto (todas as razões Si:O e cargas recalculadas em Python); revisão 🟡 5 corrigidos, 🔵 3 abertos;
+  questionário final (15 q, 37 pts); baralho 57 Basic + 8 Cloze; 3 figuras SVG. Módulo 12 (defeitos cristalinos e
+  maclas) fechado em 2026-10-06: 7 aulas (a aula 02 do planejamento foi dividida na revisão didática: Parte 1
+  manteve o ID a02, Parte 2 recebeu o ID novo a07; arquivos renumerados 03-06 → 04-07); 3 figuras SVG; auditoria em
+  três passagens (🔴 1, 🟠 17, ⚪ 1 corrigidos, nenhum aberto; a terceira, sobre questionários e baralho, corrigiu 🟠 5,
+  entre eles a Q22 do final e a generalização de que discordâncias parciais margeiam um defeito planar, em geral
+  falha de empilhamento, nas aulas 02 e 03; contas dos gabaritos refeitas em Python); revisão didática 🟠 3, 🟡 11
+  corrigidos, 🔵 3 abertos; questionários parcial 1 (9 q, 18 pts), parcial 2 (10 q, 19 pts) e final (15 q, 41 pts);
+  baralho 111 Basic + 9 Cloze. Pendências não bloqueantes herdadas: m09 (🔵 óxidos da olivina de San Carlos a
+  conferir em Jarosewich et al. 1980), m01 (cloze com mais de 3 lacunas, quase-duplicatas), m02 (auditoria
+  cross-course com curso-geologia m04 a03); o módulo 36 deve conferir o parâmetro c do ortoclásio na fonte primária;
+  o módulo 22 deve decidir, com fonte, qual polimorfo de Al2SiO5 é estável a 25 °C e 1 atm (evitado no m10); o
+  módulo 34 deve conferir o β da tremolita no Handbook of Mineralogy (m11 usou 104,8–104,95°). Próximo passo: Módulo
+  13 (propriedades físicas e identificação macroscópica), começando pelas aulas.'
 blocking_issues: []
 decisions:
 - date: '2026-09-29'
@@ -1375,7 +1382,7 @@ modules:
   prerequisites:
   - '05'
   - '10'
-  status: pending
+  status: completed
   learning_objectives:
   - id: mineralogia-m12-oa01
     statement: Classificar defeitos pontuais (vacância, intersticial, Schottky, Frenkel, substitucional) e relacioná-los
@@ -1398,48 +1405,107 @@ modules:
       de macla nomeadas mais comuns
     cognitive_level: explicar
   lessons:
-    planned: 6
-    completed: 0
+    planned: 7
+    completed: 7
     items:
     - id: mineralogia-m12-a01
       title: Defeitos pontuais e o que eles fazem
-      status: pending
+      status: completed
+      file: 12-defeitos-e-maclas/12-defeitos-e-maclas-aula-01-defeitos-pontuais-e-o-que-eles-fazem.md
+      content_hash: c09616c254083efd83edc3c76144039b32f58827f1e1268368937725af96ed9a
+      palavras_corpo: 1649
       covers_objectives:
       - mineralogia-m12-oa01
     - id: mineralogia-m12-a02
-      title: Discordâncias e defeitos planares
-      status: pending
+      title: 'Discordâncias e defeitos planares, Parte 1: discordâncias e o vetor de Burgers'
+      status: completed
+      file: 12-defeitos-e-maclas/12-defeitos-e-maclas-aula-02-discordancias-e-defeitos-planares-parte-1-discordancias-e-vetor-de-burgers.md
+      content_hash: 8491d9c5e87f7c7ad30e4d95cd804b66b032b48ed5303ea50bc77d3cd145cc62
+      palavras_corpo: 1280
       covers_objectives:
       - mineralogia-m12-oa02
+    - id: mineralogia-m12-a07
+      title: 'Discordâncias e defeitos planares, Parte 2: contornos de grão, falhas de empilhamento e contornos de antifase'
+      status: completed
+      file: 12-defeitos-e-maclas/12-defeitos-e-maclas-aula-03-discordancias-e-defeitos-planares-parte-2-contornos-falhas-de-empilhamento-e-antifase.md
+      content_hash: 9cc063e7e84d72ab328abeed29748355d35f0a05dccfb3a072f62cc38144cb1d
+      palavras_corpo: 1045
+      covers_objectives:
       - mineralogia-m12-oa03
     - id: mineralogia-m12-a03
       title: 'Maclas: definição, elemento de macla e tipos'
-      status: pending
+      status: completed
+      file: 12-defeitos-e-maclas/12-defeitos-e-maclas-aula-04-maclas-definicao-elemento-de-macla-e-tipos.md
+      content_hash: e8ca922196bdd0a2853e04bf7c30c75d8c2bb07fd07aa41d4c72a1fac6e213b6
+      palavras_corpo: 1469
       covers_objectives:
       - mineralogia-m12-oa04
     - id: mineralogia-m12-a04
       title: 'Origem das maclas: crescimento, transformação e deformação'
-      status: pending
+      status: completed
+      file: 12-defeitos-e-maclas/12-defeitos-e-maclas-aula-05-origem-das-maclas-crescimento-transformacao-e-deformacao.md
+      content_hash: 733511c8046eed577fdd58648ce7cea853974fbd607e860f5355f82e72ee93d2
+      palavras_corpo: 1431
       covers_objectives:
       - mineralogia-m12-oa05
     - id: mineralogia-m12-a05
-      title: 'Leis de macla nomeadas — Parte 1: feldspatos (Carlsbad, albita, periclina, Baveno, Manebach)'
-      status: pending
+      title: 'Leis de macla nomeadas, Parte 1: feldspatos'
+      status: completed
+      file: 12-defeitos-e-maclas/12-defeitos-e-maclas-aula-06-leis-de-macla-nomeadas-parte-1-feldspatos.md
+      content_hash: 883cf74f56524ac58ff2fe89b71745260808e12a204d2545e7f2823ed7a6c567
+      palavras_corpo: 1116
       covers_objectives:
       - mineralogia-m12-oa05
     - id: mineralogia-m12-a06
-      title: 'Leis de macla nomeadas — Parte 2: quartzo, espinélio, rutilo, estaurolita, calcita e gipsita'
-      status: pending
+      title: 'Leis de macla nomeadas, Parte 2: quartzo, espinélio, rutilo, estaurolita, calcita e gipsita'
+      status: completed
+      file: 12-defeitos-e-maclas/12-defeitos-e-maclas-aula-07-leis-de-macla-nomeadas-parte-2-quartzo-espinelio-rutilo-estaurolita-calcita-e-gipsita.md
+      content_hash: 71b3f29bead0959be4ceb79ff373ed82127816e2ab42b4f585b5f06974125e9e
+      palavras_corpo: 1428
       covers_objectives:
       - mineralogia-m12-oa05
   audit:
-    status: pending
+    status: approved
+    file: 12-defeitos-e-maclas/12-defeitos-e-maclas-auditoria.md
+    red: 1
+    orange: 17
+    yellow: 0
+    blue: 0
+    white: 1
+    open_findings: []
+    audited_at: '2026-10-06'
   didactic_review:
-    status: pending
+    status: completed
+    file: 12-defeitos-e-maclas/12-defeitos-e-maclas-revisao-didatica.md
+    content_hash: bde5f4561862870371d0a0110a34fbc0fb890a61b69e20bfff457e71d2940eac
+    generated_at: '2026-10-06T20:00:00-03:00'
   assessment:
-    status: pending
+    status: completed
+    files:
+    - 12-defeitos-e-maclas/12-defeitos-e-maclas-questionario-parcial-1.md
+    - 12-defeitos-e-maclas/12-defeitos-e-maclas-questionario-parcial-2.md
+    - 12-defeitos-e-maclas/12-defeitos-e-maclas-questionario-final.md
+    questions: 34
+    points: 78
+    objectives_covered:
+    - mineralogia-m12-oa01
+    - mineralogia-m12-oa02
+    - mineralogia-m12-oa03
+    - mineralogia-m12-oa04
+    - mineralogia-m12-oa05
+    blueprint_complete: true
+    uncovered_objectives: []
+    generated_at: '2026-10-06'
   flashcards:
-    status: pending
+    status: completed
+    index_file: 12-defeitos-e-maclas/12-defeitos-e-maclas-flashcards.md
+    basic_file: 12-defeitos-e-maclas/12-defeitos-e-maclas-flashcards-basic.csv
+    cloze_file: 12-defeitos-e-maclas/12-defeitos-e-maclas-flashcards-cloze.csv
+    count_basic: 111
+    count_cloze: 9
+    last_id: 111
+    last_id_cloze: 9
+    generated_at: '2026-10-06T21:30:00-03:00'
 # trilha: nucleo (núcleo) — módulo 13
 - id: '13'
   slug: propriedades-fisicas

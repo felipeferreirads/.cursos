@@ -1,0 +1,750 @@
+{
+  "schema_version": 1,
+  "target": {
+    "kind": "modulo",
+    "path": "12-defeitos-e-maclas",
+    "module_id": "12",
+    "course_id": "mineralogia"
+  },
+  "mode": "audit-and-fix",
+  "depth": "full",
+  "audited_at": "2026-10-06",
+  "verdict": "approved",
+  "summary": {
+    "red": 1,
+    "orange": 17,
+    "yellow": 0,
+    "blue": 0,
+    "white": 1,
+    "verified_ok": 43
+  },
+  "findings": [
+    {
+      "claim_id": "CRI-DEFPT-FLUOR-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "na fluorita, os centros de metade dos cubos de Ca2+ ficam vazios",
+      "location": {
+        "file": "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-01-defeitos-pontuais-e-o-que-eles-fazem.md",
+        "section": "Antes de comecar",
+        "quote": "os F- ocupam os centros de cubos menores, enquanto os centros de metade dos cubos de Ca2+ ficam vazios"
+      },
+      "problem": "Os cubos dos quais metade fica vazia sao os de 8 F- (rede cubica simples de F-); os oito cubos menores da cela de Ca estao todos ocupados por F-. O rotulo errado contamina a explicacao do Frenkel de anion.",
+      "replacement": "F- nos centros dos oito cubos menores da cela de Ca (todos os tetraedricos); metade dos cubos de 8 F- tem Ca no centro e a outra metade tem o centro vazio",
+      "source": {
+        "name": "modulo 08 aula 06; Klein & Dutrow",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-01-defeitos-pontuais-e-o-que-eles-fazem.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRI-DEFPT-EQUIL-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "n/N ~ exp(-E/kT), E = energia para criar um defeito",
+      "location": {
+        "file": "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-01-defeitos-pontuais-e-o-que-eles-fazem.md",
+        "section": "O cristal real tem defeitos",
+        "quote": "n / N ~ exp(-E / kT)"
+      },
+      "problem": "Para defeitos que so nascem em par (Schottky, E = energia do par) a fracao e exp(-E/2kT); sem ressalva, a formula aplicada ao Schottky da propria aula erra o expoente por um fator 2.",
+      "replacement": "acrescentada a ressalva do expoente -E/2kT para defeitos em par",
+      "source": {
+        "name": "Univ. Kiel, Defects in Crystals, cap. 2 (busca)",
+        "tier": "general",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-01-defeitos-pontuais-e-o-que-eles-fazem.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRI-DEFPT-COR-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "centros F explicam a cor de certas halitas e fluoritas irradiadas",
+      "location": {
+        "file": "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-01-defeitos-pontuais-e-o-que-eles-fazem.md",
+        "section": "Defeitos e cor",
+        "quote": "Cor por centros assim e a explicacao aceita para a cor de certas halitas e fluoritas expostas a radiacao"
+      },
+      "problem": "Centro F da o ambar da halita irradiada; o azul da halita e o roxo de muitas fluoritas sao atribuidos a Na ou Ca coloidal formado a partir dos eletrons presos.",
+      "replacement": "centro F = ambar da halita; azul da halita e roxo da fluorita por particulas coloidais de Na ou Ca",
+      "source": {
+        "name": "HAL Sorbonne (Na coloidal em halita azul); Gaft e colaboradores (Ca coloidal em fluorita roxa), por busca",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-01-defeitos-pontuais-e-o-que-eles-fazem.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRI-DEFPT-COR-002",
+      "severity": "white",
+      "kind": "certeza_indevida",
+      "claim": "ametista: Fe3+ substituindo Si4+ e ionizado pela radiacao",
+      "location": {
+        "file": "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-01-defeitos-pontuais-e-o-que-eles-fazem.md",
+        "section": "Defeitos e cor; Recap",
+        "quote": "a ametista, a Fe3+ substituindo Si4+ e ionizado pela radiacao"
+      },
+      "problem": "O centro de cor e atribuido a Fe4+ formado por radiacao, mas o sitio e debatido: substitucional (Cox 1976, 1977) ou intersticial (Cohen 1985; eletrodifusao).",
+      "replacement": "Fe3+ oxidado a Fe4+ pela radiacao; sitio substitucional ou intersticial ainda debatido",
+      "source": {
+        "name": "Czaja (Mossbauer de prasiolita e ametista); Rossman (1994), Rev. Mineral. 29, por busca",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "em_disputa",
+      "affected_files": [
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-01-defeitos-pontuais-e-o-que-eles-fazem.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRI-DEFPT-NAOES-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "a pirrotita Fe1-xS chega a Fe7S8 no extremo pobre em ferro",
+      "location": {
+        "file": "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-01-defeitos-pontuais-e-o-que-eles-fazem.md",
+        "section": "Defeitos e condutividade",
+        "quote": "a pirrotita e Fe1-xS, que chega a Fe7S8 no extremo pobre em ferro"
+      },
+      "problem": "O HoM da x = 0 a 0,17; Fe7S8 (x = 0,125) e a variedade monoclinica comum, nao o extremo.",
+      "replacement": "Fe1-xS com x de 0 ate cerca de 0,17; variedade monoclinica comum perto de Fe7S8",
+      "source": {
+        "name": "Handbook of Mineralogy, pyrrhotite (Mineral Data Publishing 2001-2005)",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-01-defeitos-pontuais-e-o-que-eles-fazem.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRI-DISC-BURGERS-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "o vetor de Burgers e sempre um vetor da rede",
+      "location": {
+        "file": "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-02-discordancias-e-defeitos-planares-parte-1-discordancias-e-vetor-de-burgers.md",
+        "section": "Cunha e helice",
+        "quote": "Ele e sempre um vetor da rede (uma translacao do cristal)"
+      },
+      "problem": "Vale so para a discordancia perfeita; parciais tem b fracionario e margeiam falha de empilhamento; a propria aula cita parciais em 'O que nao concluir'.",
+      "replacement": "numa discordancia perfeita, b e vetor da rede; parciais tem b fracionario e margeiam falha de empilhamento",
+      "source": {
+        "name": "Univ. Kiel, Defects in Crystals, 5.4; Princeton MAE 324 (busca)",
+        "tier": "general",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-02-discordancias-e-defeitos-planares-parte-1-discordancias-e-vetor-de-burgers.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRI-PLAN-ANTIF-001",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "claim": "contornos de antifase na pigeonita por ordenacao (ordem Mg/Fe deslocada)",
+      "location": {
+        "file": "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-03-discordancias-e-defeitos-planares-parte-2-contornos-falhas-de-empilhamento-e-antifase.md",
+        "section": "Os defeitos planares; Exemplo (d)(iii); Recap",
+        "quote": "dominios vizinhos de mesma orientacao em pigeonita, mas com ordem Mg/Fe deslocada"
+      },
+      "problem": "Na pigeonita os APB vem da transicao deslocativa C2/c -> P21/c (perda da translacao C), nao de ordem Mg/Fe; na anortita, da ordenacao Al-Si.",
+      "replacement": "APB por ordenacao ou por transicao que perde translacao; anortita (Al-Si) e pigeonita (C2/c -> P21/c)",
+      "source": {
+        "name": "estudos in situ da transicao C2/c-P21/c em pigeonita; Carpenter (dominios em anortita), por busca",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-03-discordancias-e-defeitos-planares-parte-2-contornos-falhas-de-empilhamento-e-antifase.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "MIN-MACLA-PIRITA-001",
+      "severity": "red",
+      "kind": "erro_factual",
+      "claim": "pirita cubica em dois cubos entrelacados como macla de penetracao",
+      "location": {
+        "file": "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-04-maclas-definicao-elemento-de-macla-e-tipos.md",
+        "section": "Exemplo trabalhado (a)(i)",
+        "quote": "cristais de pirita cubica que se atravessam como dois cubos entrelacados"
+      },
+      "problem": "A macla da pirita tem eixo [001] e plano {011}; dois cubos relacionados por essa rotacao de 90 graus coincidem em forma. A penetracao visivel e a 'cruz de ferro' de dois piritoedros; cubos entrelacados sao da fluorita.",
+      "replacement": "dois piritoedros (dodecaedros pentagonais) de pirita que se atravessam, formando a 'cruz de ferro'",
+      "source": {
+        "name": "Handbook of Mineralogy, pyrite; EJM 35, 333 (2023)",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-04-maclas-definicao-elemento-de-macla-e-tipos.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "MIN-MACLA-DAUPHINE-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "Dauphine pode ser de transformacao ou mecanica",
+      "location": {
+        "file": "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-05-origem-das-maclas-crescimento-transformacao-e-deformacao.md",
+        "section": "Macla de transformacao (quartzo); Exemplo (c)",
+        "quote": "Mas a macla de Dauphine tambem pode se formar por tensao mecanica"
+      },
+      "problem": "Dauphine e comum como macla de crescimento em quartzo que ja nasceu alfa (Frondel 1945); a omissao induz a ler Dauphine como passagem pelo campo beta, e contradizia 'Erros comuns' da propria aula.",
+      "replacement": "Dauphine de crescimento, de transformacao ou mecanico (aulas 04 e 06, inclusive tabela)",
+      "source": {
+        "name": "Frondel (1945), Am. Mineral. 30, 447; Am. Mineral. 31, 456",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-05-origem-das-maclas-crescimento-transformacao-e-deformacao.md",
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-07-leis-de-macla-nomeadas-parte-2-quartzo-espinelio-rutilo-estaurolita-calcita-e-gipsita.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "MIN-MACLA-MICRO-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "feldspato potassico monoclinico de alta temperatura (sanidina, ortoclasio)",
+      "location": {
+        "file": "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-05-origem-das-maclas-crescimento-transformacao-e-deformacao.md",
+        "section": "Microclinio",
+        "quote": "O feldspato potassico monoclinico de alta temperatura (sanidina, ortoclasio)"
+      },
+      "problem": "Ortoclasio e parcialmente ordenado, de granitos e metamorficas (HoM); o modulo 10 aula 02 ja o distingue da sanidina de alta T.",
+      "replacement": "a sanidina, desordenada e de alta temperatura, ou o ortoclasio, parcialmente ordenado",
+      "source": {
+        "name": "Handbook of Mineralogy, orthoclase; modulo 10 aula 02",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-05-origem-das-maclas-crescimento-transformacao-e-deformacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "MIN-MACLA-DEFORM-001",
+      "severity": "orange",
+      "kind": "certeza_indevida",
+      "claim": "a particao romboedrica do corindon se da por maclagem mecanica; particao = fratura ao longo de plano de macla",
+      "location": {
+        "file": "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-05-origem-das-maclas-crescimento-transformacao-e-deformacao.md",
+        "section": "Macla de deformacao; Recap",
+        "quote": "a particao romboedrica do corindon, que se da por maclagem mecanica"
+      },
+      "problem": "HoM: macla lamelar {10-11} 'pode ser fenomeno de exsolucao' e particoes em {0001} e {10-11} ligadas a bohmita exsolvida; maclagem mecanica do corindon e experimental (Heuer 1966) mas nao explica sozinha a particao natural. Particao tambem ocorre em planos de exsolucao, nao so de macla.",
+      "replacement": "lamelas {10-11} de origem mecanica ou nao; particao ligada a bohmita exsolvida (HoM); particao = ruptura em plano de fraqueza (macla ou exsolucao)",
+      "source": {
+        "name": "Handbook of Mineralogy, corundum; Heuer (1966), Phil. Mag.; Mindat glossary 'parting'",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-05-origem-das-maclas-crescimento-transformacao-e-deformacao.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "MIN-STAUR-MACLA-001",
+      "severity": "orange",
+      "kind": "omissao_que_gera_erro",
+      "claim": "estaurolita: cruz de 90 graus em {032}, de 60 graus em {232}",
+      "location": {
+        "file": "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-07-leis-de-macla-nomeadas-parte-2-quartzo-espinelio-rutilo-estaurolita-calcita-e-gipsita.md",
+        "section": "Estaurolita; tabela; Exemplo (c); Erros comuns; Recap",
+        "quote": "Cruz de 90 graus (...): lei com plano {032}"
+      },
+      "problem": "{032}/{232} sao da orientacao classica; na cela C2/m do HoM os planos sao {031} (90 graus) e {231} (60 graus). E o HoM da a cruz de 60 graus como a mais comum. A leitura c classico = 2 x c moderno e derivada da correspondencia de indices (provavel).",
+      "replacement": "indices nas duas convencoes e frequencia de cada cruz",
+      "source": {
+        "name": "Handbook of Mineralogy, staurolite (2001); Am. Mineral. 22, 990",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-07-leis-de-macla-nomeadas-parte-2-quartzo-espinelio-rutilo-estaurolita-calcita-e-gipsita.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "MIN-MACLA-DIDAT-001",
+      "severity": "orange",
+      "kind": "erro_factual",
+      "claim": "trilling, quatrilling, sixling (nomes do ingles para maclas de tres, quatro e seis individuos)",
+      "location": {
+        "file": "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-04-maclas-definicao-elemento-de-macla-e-tipos.md",
+        "section": "Os quatro tipos, item 4 (macla ciclica)",
+        "quote": "trilling de 120°, quatrilling de 90°, sixling de 60° (nomes do inglês para maclas de três, quatro e seis indivíduos)"
+      },
+      "problem": "Segunda passagem (alegacao acrescentada pela revisao didatica). 'Quatrilling' nao e termo ingles nem aparece nos glossarios; o nome ingles da macla de quatro individuos e 'fourling' (trilling e sixling estao corretos). O aluno que buscar o termo nao o encontra.",
+      "replacement": "trilling de 120°, fourling de 90°, sixling de 60°",
+      "source": {
+        "name": "Minerals.net, Mineral Glossary (fourling, trilling, sixling); Merriam-Webster (fourling)",
+        "url": "https://www.minerals.net/glossary/sixling",
+        "tier": "general",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-04-maclas-definicao-elemento-de-macla-e-tipos.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRI-DISC-SUPERSAT-001",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "claim": "supersaturacao (excesso de material dissolvido, modulo 03)",
+      "location": {
+        "file": "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-02-discordancias-e-defeitos-planares-parte-1-discordancias-e-vetor-de-burgers.md",
+        "section": "Discordâncias e crescimento em espiral",
+        "quote": "isso só acontece com bastante supersaturação (excesso de material dissolvido, módulo 03)"
+      },
+      "problem": "Segunda passagem (glosa acrescentada pela revisao didatica). A glosa restringe supersaturacao a solucao, mas o paragrafo trata do crescimento em geral, e o exemplo citado (espirais em SiC, Verma 1951) e o paradoxo resolvido por Frank e BCF sao de crescimento a partir de vapor. O aluno concluiria que os cristais de SiC cresceram de solucao.",
+      "replacement": "supersaturação (excesso de material dissolvido, ou de vapor, além do que o equilíbrio admite; módulo 03)",
+      "source": {
+        "name": "Verma (1951), Phil. Mag. (7) 42, n. 332; Burton, Cabrera & Frank (1951), Phil. Trans. A 243, 299 (supersaturacao no crescimento a partir de vapor); modulo 03, aula 04",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-02-discordancias-e-defeitos-planares-parte-1-discordancias-e-vetor-de-burgers.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "CRI-DISC-PARCIAL-001",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "claim": "Discordancias parciais sempre margeiam uma falha de empilhamento; contornos de antifase, de macla e de grao sao defeitos planares nos quais as parciais nao tem papel (Q22).",
+      "location": {
+        "file": "12-defeitos-e-maclas/12-defeitos-e-maclas-questionario-final.md",
+        "section": "Q22 (enunciado, distratores, gabarito); origem: aula 02 (Cunha e helice) e aula 03 (Falha de empilhamento); card fb033",
+        "quote": "a), b) e c) são outros defeitos planares, nos quais as discordâncias parciais não têm papel."
+      },
+      "problem": "Terceira passagem (material derivado). O gabarito e falso: a maclagem de deformacao avanca por parciais (Shockley em planos sucessivos) nos contornos de macla, e em fases ordenadas superparciais margeiam contornos de antifase; dois distratores ficavam defensaveis. A origem e o 'sempre' das aulas 02 e 03.",
+      "replacement": "Aula 02: 'elas sempre margeiam um defeito planar, em geral uma falha de empilhamento'; aula 03: 'margeiam com mais frequencia'; Q22 com enunciado 'com mais frequencia', distratores pontuais (vacancia isolada, centro de cor, par de Schottky) e gabarito reescrito; fb033 idem.",
+      "source": {
+        "name": "Hull & Bacon, Introduction to Dislocations; literatura de maclagem por parciais de Shockley e de superparciais 1/2<110> com APB no Ni3Al (por busca)",
+        "tier": "peer_reviewed",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-02-discordancias-e-defeitos-planares-parte-1-discordancias-e-vetor-de-burgers.md",
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-aula-03-discordancias-e-defeitos-planares-parte-2-contornos-falhas-de-empilhamento-e-antifase.md",
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-questionario-final.md",
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-flashcards-basic.csv",
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-flashcards.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "QST-M12-IDAULA-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "Cobertura dos questionarios com 'aNN' igual ao numero do arquivo (a03 = aula 03 etc.); Q34 (d) atribuida a aula 07; Q31 dita como ligando aulas.",
+      "location": {
+        "file": "12-defeitos-e-maclas/12-defeitos-e-maclas-questionario-final.md",
+        "section": "Cobertura, Como usar, Onde revisar (tambem nos dois parciais)",
+        "quote": "a07: Q29, Q33, Q34 (b)(d)"
+      },
+      "problem": "Os IDs reais sao aula 03 = a07, 04 = a03, 05 = a04, 06 = a05, 07 = a06; a Q34 (d) (coríndon) e da aula 05; a Q31 usa so a aula 01 e a Q33 liga 04 e 07.",
+      "replacement": "'aula NN, `aXX`' com o ID certo e nota de numeracao; Q34 (d) fora da aula 07; '27, 30, 33 e 34'.",
+      "source": {
+        "name": "course-state.yaml (lessons do modulo 12) e cabecalhos **ID:** das aulas",
+        "tier": "general",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-questionario-parcial-1.md",
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-questionario-parcial-2.md",
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-questionario-final.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "QST-M12-CENTROF-001",
+      "severity": "orange",
+      "kind": "confusao_de_escopo",
+      "claim": "Distrator d) da Q21 ('um atomo de sodio num vazio da halita') comentado como se fosse o Na coloidal.",
+      "location": {
+        "file": "12-defeitos-e-maclas/12-defeitos-e-maclas-questionario-final.md",
+        "section": "Q21, gabarito",
+        "quote": "d) o Na ou Ca coloidal vem de um estágio seguinte e explica o azul da halita e o roxo da fluorita."
+      },
+      "problem": "Atomo isolado num vazio e intersticial (aula 01); Na coloidal sao particulas metalicas de um estagio seguinte ao centro F.",
+      "replacement": "d) descreve um intersticial, nao um centro F (o azul da halita vem de um estagio seguinte, em que o Na metalico se reune em particulas coloidais, e nao de um atomo isolado num vazio).",
+      "source": {
+        "name": "aula 01; Nassau (conferido na primeira passagem, achado 3)",
+        "tier": "reference_database",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-questionario-final.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "FLC-M12-LEUC-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "fb081 pergunta que macla caracteriza a leucita e o verso nao diz que e de transformacao.",
+      "location": {
+        "file": "12-defeitos-e-maclas/12-defeitos-e-maclas-flashcards-basic.csv",
+        "section": "fb081",
+        "quote": "Cúbica em alta temperatura e tetragonal na ambiente, tem muitos domínios maclados: lamelas finas em mais de uma direção."
+      },
+      "problem": "Verso nao responde a frente; a aula 05 trata a leucita como macla de transformacao.",
+      "replacement": "Macla de transformacao: cubica em alta temperatura e tetragonal na ambiente, sai com muitos dominios maclados, lamelas finas em mais de uma direcao.",
+      "source": {
+        "name": "aula 05 (MIN-MACLA-LEUC-001)",
+        "tier": "general",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-flashcards-basic.csv",
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-flashcards.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    },
+    {
+      "claim_id": "FLC-M12-DUPLIC-001",
+      "severity": "orange",
+      "kind": "inconsistencia_interna",
+      "claim": "fc007 (lacuna 'triclinico') repete fb095; fb099 repete 'mesma mao' de fb079.",
+      "location": {
+        "file": "12-defeitos-e-maclas/12-defeitos-e-maclas-flashcards-cloze.csv",
+        "section": "fc007; fb099 (basic)",
+        "quote": "por isso só existem em feldspato {{c2::triclínico}}."
+      },
+      "problem": "Contraria o criterio declarado no flashcards.md ('Nenhum card Basic repete o fato de um Cloze') e faz cards competirem na revisao.",
+      "replacement": "fc007 com c2 em '(010)'; fb099 sobre tipo e visibilidade do Dauphine (penetracao, limites irregulares, invisivel a olho nu e em lamina comum).",
+      "source": {
+        "name": "aulas 06 e 07",
+        "tier": "general",
+        "consulted_at": "2026-10-06"
+      },
+      "confidence": "confirmado",
+      "affected_files": [
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-flashcards-cloze.csv",
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-flashcards-basic.csv",
+        "12-defeitos-e-maclas/12-defeitos-e-maclas-flashcards.md"
+      ],
+      "outcome": "corrigido",
+      "applied_at": "2026-10-06"
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim_id": "CRI-DEFPT-CALC-001",
+      "claim": "Com E = 1,0 eV hipotetico: n/N = 9,1e-6 a 1000 K e 8,3e-11 a 500 K; razao ~1,1e5.",
+      "source": "Python: 9,125e-6; 8,326e-11; razao 1,096e5",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-DEFPT-SCHOT-001",
+      "claim": "Schottky: grupo de vacancias de cation e anion com carga total zero (NaCl 1:1; CaF2 1 Ca + 2 F); os atomos vao para superficie ou contorno.",
+      "source": "balanco de carga; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-DEFPT-FRENK-001",
+      "claim": "Frenkel: vacancia + intersticial do mesmo ion; ocorre em cations pequenos de haletos de prata (AgCl, AgBr) e como Frenkel de anion (F- em intersticio) na fluorita.",
+      "source": "busca: Frenkel de cation dominante em AgCl e AgBr; Frenkel de anion dominante no CaF2",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-DEFPT-SUBST-001",
+      "claim": "Ca2+ no lugar de Na+ na halita e compensado por uma vacancia de Na+ por Ca2+ (balanco de carga).",
+      "source": "calculo de carga",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-DEFPT-DIFUS-001",
+      "claim": "Difusao por vacancia; D = D0 exp(-Q/RT) (Arrhenius).",
+      "source": "forma de Arrhenius",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-DISC-DESLIZ-001",
+      "claim": "Deslizamento no plano que contem a linha e b; escalada exige difusao de vacancias (favorecida em T alta); acumulo de discordancias forma subgraos (contornos de baixo angulo = paredes de discordancias); extincao ondulante no quartzo deformado.",
+      "source": "Klein & Dutrow; Passchier & Trouw",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-DISC-SISTEMA-001",
+      "claim": "Halita desliza por {110}<1-10> com b = a/2<110>; |b| = a/raiz2 = 3,99 A para a = 5,640 A. Quartzo: deslizamento basal (0001)<11-20>, b = a = 4,913 A.",
+      "source": "busca: NaCl {110}<1-10>, b = a/2<110>; quartzo basal <a>; HoM a = 4,9135; Python 3,988 A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-DISC-FRANK-001",
+      "claim": "Frank (1949): discordancia em helice emergindo na face cria degrau perene e crescimento em espiral com baixa supersaturacao; teoria BCF (Burton, Cabrera, Frank, 1951); espirais observadas em SiC e calcita.",
+      "source": "Discuss. Faraday Soc. 5, 48-54; Phil. Trans. A 243, 299; Verma 1951 em SiC",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-PLAN-GRAO-001",
+      "claim": "Contorno de grao: baixo angulo (parede de discordancias) e alto angulo; presente em toda rocha policristalina.",
+      "source": "Passchier & Trouw",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-PLAN-EMPIL-001",
+      "claim": "Falha de empilhamento = interrupcao local da sequencia de empilhamento (politipo = sequencia periodica); ocorre em micas, argilominerais, grafite e SiC.",
+      "source": "Klein & Dutrow; modulo 10",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-MACLA-DEFIN-001",
+      "claim": "Macla: intercrescimento regular de indiv. da mesma especie, relacionados por operacao de simetria (reflexao, rotacao, inversao) que nao e simetria do cristal individual; elemento de macla = plano, eixo (em geral 180 graus) ou centro; nao pode ser elemento de simetria do cristal.",
+      "source": "Klein & Dutrow; Nesse",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-MACLA-COMPOS-001",
+      "claim": "Plano de composicao (superficie real de contato) pode ou nao coincidir com o plano de macla; macla normal (eixo perpendicular ao plano de composicao) e paralela (eixo contido no plano).",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-MACLA-TIPOS-001",
+      "claim": "Tipos: contato (plano nitido, angulo reentrante), penetracao (superficie irregular), polissintetica/lamelar, ciclica (n x theta = 360 graus).",
+      "source": "Klein & Dutrow; achado 8 corrigiu so o exemplo da pirita no exercicio",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-MACLA-DIFER-001",
+      "claim": "Macla difere de agregado paralelo (mesma orientacao) e de sobrecrescimento epitaxial (outra especie, orientacao relacionada).",
+      "source": "Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-MACLA-ARAG-001",
+      "claim": "Aragonita (ortorrombica, a ~ 4,96 A, b ~ 7,97 A): angulo entre (110) e (1-10) = 2 arctan(b/a) = 116,2 graus (suplemento 63,8); trilling pseudo-hexagonal de plano {110}.",
+      "source": "HoM a = 4,9611, b = 7,9672; Python 116,18/63,82 graus; trilling em {110}",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-MACLA-CRESC-001",
+      "claim": "Macla de crescimento (primaria): erro de posicao no nucleo ou na superficie, interface de baixa energia; exemplos: espinelio, Carlsbad do feldspato potassico, Brasil no quartzo, cruz de estaurolita.",
+      "source": "Klein & Dutrow; HoM",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-MACLA-TRANSF-001",
+      "claim": "Macla de transformacao: fase de alta simetria resfriada perde operacoes de simetria; dominios (variantes) relacionados pelas operacoes perdidas; numero de variantes = razao das ordens dos grupos pontuais quando a rede nao perde translacoes.",
+      "source": "grupos translationengleiche; quartzo 12/6 = 2",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-MACLA-LEUC-001",
+      "claim": "Leucita: cubica em T alta e tetragonal a temperatura ambiente; maclas polissinteticas de transformacao em mais de uma direcao.",
+      "source": "HoM: I41/a, maclas repetidas de duas transicoes deslocativas",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-MACLA-INDIC-001",
+      "claim": "Indicios de origem (bordas retas e espessura uniforme: crescimento; lamelas em cunha: deformacao; grade/dominios finos: transformacao) sao tendencias, nao regras.",
+      "source": "Passchier & Trouw",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-FELD-CARLS-001",
+      "claim": "Lei de Carlsbad: eixo de macla [001] (rotacao 180), plano de composicao em geral (010); simples, paralela, de penetracao ou contato; de crescimento; ocorre em feldspato potassico e plagioclasio.",
+      "source": "HoM ortoclasio; Klein & Dutrow",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-FELD-ALBITA-001",
+      "claim": "Lei da albita: eixo perpendicular a (010) (ou plano (010)), composicao (010), polissintetica normal; primaria em plagioclasio, secundaria em microclinio.",
+      "source": "Klein & Dutrow; literatura de plagioclasio",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-FELD-PERIC-001",
+      "claim": "Lei do periclinio: eixo [010], composicao (h0l) irracional ('secao rombica'), em geral proxima de (001); polissintetica paralela; primaria em plagioclasio, secundaria em microclinio.",
+      "source": "busca: secao rombica irracional contendo b, Min. Mag. 31",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-FELD-BAVEN-001",
+      "claim": "Lei de Baveno: elemento perpendicular a (021), composicao (021), simples normal de contato; comum em feldspato potassico, rara em plagioclasio.",
+      "source": "HoM ortoclasio; Baveno comum mas nao frequente no plagioclasio",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-FELD-MANEB-001",
+      "claim": "Lei de Manebach: elemento perpendicular a (001), composicao (001), simples normal de contato; comum em feldspato potassico, rara em plagioclasio.",
+      "source": "HoM ortoclasio; Manebach rara no plagioclasio",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-FELD-SIMETR-001",
+      "claim": "No monoclinico (2/m), b e o eixo binario e (010) o espelho; albita e periclinio tem como elemento b/(010) e portanto nao existem como macla em feldspato monoclinico; so em triclinico (microclinio, plagioclasio).",
+      "source": "derivacao conferida contra 2/m",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-FELD-GRADE-001",
+      "claim": "Microclinio: albita + periclinio entrelacadas (grade/tartan), secundarias; plagioclasio: as duas leis em dominios distintos; anortoclasio com grade mais fina.",
+      "source": "busca: grade em microclinio e anortoclasio",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-QTZ-MACLA-001",
+      "claim": "Quartzo: Dauphine = rotacao de 180 graus em c, mesma mao, penetracao; Brasil = reflexao em {11-20}, maos opostas, penetracao, de crescimento; Japao = contato em {11-22}, eixos c a ~84 graus 33', de crescimento.",
+      "source": "HoM quartzo; Japao 84 graus 33'; Brasil 'macla optica', Dauphine 'eletrica'",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-ESPIN-MACLA-001",
+      "claim": "Lei do espinelio: contato por plano (111); em m3m os planos de simetria sao {100} e {110}, entao (111) e possivel como plano de macla e (100) nao; em classe centrossimetrica a reflexao em (111) equivale a rotacao de 180 graus em [111].",
+      "source": "m3m: espelhos {100} e {110}",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-RUT-MACLA-001",
+      "claim": "Rutilo: macla em joelho de contato por {101} (ou {011}, mesma familia no tetragonal) e macla ciclica de seis ou oito individuos por repeticao; cassiterita tem macla em joelho analoga.",
+      "source": "HoM: {011} comum, ou {031}; 2, 6 ou 8 individuos; cassiterita {011} geniculada",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-CALC-MACLA-001",
+      "claim": "Calcita: macla lamelar mecanica do plano e, {01-18} na indexacao estrutural (c ~ 17 A) = {01-12} na indexacao morfologica classica; macla basal de crescimento (0001).",
+      "source": "HoM {01-12} morfologico; literatura de deformacao {01-18} estrutural; c = 17,061 A",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-GIPS-MACLA-001",
+      "claim": "Gipsita: macla de contato rabo de andorinha por (100); existem outras leis (ex.: Montmartre).",
+      "source": "HoM: contato em {100}; borboleta/Montmartre em {101}",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-MACLA-CICL-001",
+      "claim": "Anel ciclico fecha quando n x theta = 360 graus (8 individuos: 45 graus; 6: 60 graus).",
+      "source": "calculo",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-DEFPT-DIDAT-001",
+      "claim": "Segunda passagem, aula 01: exp(x) = e^x; eV = eletron-volt; nao estequiometria = composicao fora da proporcao de inteiros da formula ideal; relogios isotopicos = idades por decaimento radioativo; Na/Ca coloidal; exemplo (b) hipotetico M3+ + 2 vacancias de Na+ (carga +3 = +3).",
+      "source": "definicoes usuais; conta de carga; achado 3 da primeira passagem",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-DISC-DIDAT-001",
+      "claim": "Segunda passagem, aula 02: a/2<110> vai do vertice ao centro da face, translacao do reticulo cF da halita; [100] e [110] formam 45 graus num cubico (mista); extincao ondulante = a extincao varre o grao ao girar a platina.",
+      "source": "modulo 06 aula 02 (C, F); geometria (cos 45 = 1/raiz2); definicao de undulose extinction (busca)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "CRI-PLAN-ANTIF-002",
+      "claim": "Segunda passagem, aula 03: na pigeonita, os dominios de antifase diferem pela translacao de centragem C perdida em C2/c -> P21/c (vetor de deslocamento 1/2(a+b)); analogia do piso xadrez coerente.",
+      "source": "Am. Mineral. 58, 540 (1973) e estudos de DRX em alta T da pigeonita (busca); modulo 06 aula 02",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-MACLA-DIDAT-002",
+      "claim": "Segunda passagem, aula 05: bohmita = gamma-AlO(OH), oxi-hidroxido de aluminio (especie IMA valida); particoes do corindon associadas a bohmita exsolvida.",
+      "source": "Handbook of Mineralogy, corundum ('Partings on {0001} and {10-11}, from exsolved bohmite'); White (1979), Am. Mineral. 64, 1300; Mindat/IMA (boehmite)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-FELD-DIDAT-001",
+      "claim": "Segunda passagem, aula 06: anortoclasio = feldspato alcalino triclinico rico em Na. Nao e especie IMA (variedade/membro intermediario); o texto nao o chama de especie.",
+      "source": "Handbook of Mineralogy, anorthoclase ((Na,K)AlSi3O8, triclinico, C-1, grade albita + periclinio)",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "MIN-QTZ-DIDAT-001",
+      "claim": "Segunda passagem, aula 07: maos opostas do quartzo giram o plano de vibracao da luz em sentidos contrarios; macle = diamante achatado maclado em (111); selenita = variedade transparente da gipsita; simbolo m-3m com espelhos {100} e {110}.",
+      "source": "International Tables D, 3.3.6.3; GIA Gems & Gemology, outono 2025 (macle diamonds); Mindat (selenite); modulos 04 e 05",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QST-M12-CALC-001",
+      "claim": "Terceira passagem: contas dos gabaritos e cards refeitas em Python (n/N a 300/600 K e 400/800 K; |b| = 2,970 A; 2 arctan(8/5) = 115,99 graus; 24/6 = 4; Fe0,90O com 0,20 Fe3+ e 0,70 Fe2+; Schottky do Al2O3 com carga 0; 360/72 = 5; 360/8 = 45; fb035 3,988 A; fb072 116,18/63,82 graus).",
+      "source": "Python, 2026-10-06",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QST-M12-GABAR-001",
+      "claim": "Terceira passagem: os 34 gabaritos e comentarios de distratores conferidos contra as aulas atuais; nenhum distrator defensavel depois do achado 15.",
+      "source": "aulas 01 a 07",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "QST-M12-OA-001",
+      "claim": "Terceira passagem: 5 de 5 objetivos com questao no final; matrizes de 18, 19 e 41 pontos; distribuicao cognitiva e por tipo conferidas.",
+      "source": "course-state.yaml; matrizes dos questionarios",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "FLC-M12-RASTRO-001",
+      "claim": "Terceira passagem: 120 cards rastreados a frases das aulas; nenhum fato fabricado; IDs de aula e objetivos corretos; tabela do flashcards.md igual aos CSVs (120/120).",
+      "source": "aulas 01 a 07; CSVs; script de comparacao",
+      "confidence": "confirmado"
+    },
+    {
+      "claim_id": "FLC-M12-TERMOS-001",
+      "claim": "Terceira passagem: termos corrigidos so na versao corrigida (fourling; supersaturacao com vapor; -E/2kT; centro F ambar e Na/Ca coloidal; pirrotita x ate ~0,17; APB da pigeonita por C2/c -> P21/c; estaurolita {031}/{231}; calcita {01-18}/{01-12}).",
+      "source": "achados 2, 3, 5, 7, 12, 13 e 14",
+      "confidence": "confirmado"
+    }
+  ]
+}
